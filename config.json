@@ -1,0 +1,90 @@
+{
+  "anbieter": "gemini",
+  "modelle": {
+    "gemini": "gemini-flash-latest",
+    "anthropic": "claude-sonnet-5"
+  },
+  "pauseZwischenKiAnfragenSekunden": 15,
+  "maxNeueThemenProLauf": 5,
+  "maxArtikelProThema": 5,
+  "nachrichtenBehaltenStunden": 48,
+  "maxNachrichten": 25,
+  "zeitfenster": {
+    "vonUhr": 6,
+    "bisUhr": 21,
+    "mindestAbstandStunden": 2.5
+  },
+  "ntfyServer": "https://ntfy.sh",
+  "rubriken": [
+    "Deutschland",
+    "Welt",
+    "Wirtschaft",
+    "Wissen & Klima",
+    "Sport"
+  ],
+  "quellen": [
+    {
+      "name": "Tagesschau/ARD",
+      "typ": "öffentlich-rechtlich",
+      "art": "öffentlich-rechtlich",
+      "stamm": true,
+      "feed": "https://www.tagesschau.de/index~rss2.xml"
+    },
+    {
+      "name": "ZDFheute",
+      "typ": "öffentlich-rechtlich",
+      "art": "öffentlich-rechtlich",
+      "stamm": true,
+      "feed": "https://www.zdf.de/rss/zdf/nachrichten"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "typ": "öffentlich-rechtlich",
+      "art": "öffentlich-rechtlich",
+      "stamm": true,
+      "feed": "https://www.deutschlandfunk.de/nachrichten-100.rss"
+    },
+    {
+      "name": "Spiegel",
+      "typ": "Nachrichtenmagazin",
+      "art": "privates Medium",
+      "stamm": true,
+      "feed": "https://www.spiegel.de/schlagzeilen/index.rss"
+    },
+    {
+      "name": "Zeit",
+      "typ": "Wochenzeitung",
+      "art": "privates Medium",
+      "stamm": true,
+      "feed": "https://newsfeed.zeit.de/index"
+    },
+    {
+      "name": "Süddeutsche Zeitung",
+      "typ": "Tageszeitung",
+      "art": "privates Medium",
+      "stamm": true,
+      "feed": "https://rss.sueddeutsche.de/rss/Topthemen"
+    },
+    {
+      "name": "FAZ",
+      "typ": "Tageszeitung",
+      "art": "privates Medium",
+      "stamm": true,
+      "feed": "https://www.faz.net/rss/aktuell/"
+    },
+    {
+      "name": "Deutsche Welle",
+      "typ": "Auslandssender (öffentlich finanziert)",
+      "art": "internationaler Sender",
+      "stamm": true,
+      "feed": "https://rss.dw.com/rdf/rss-de-all"
+    },
+    {
+      "name": "BBC",
+      "typ": "öffentlich-rechtlich (Großbritannien)",
+      "art": "internationaler Sender",
+      "stamm": true,
+      "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    }
+  ]
+}

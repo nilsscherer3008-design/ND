@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nachrichten-Heft · neutral</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bar:#0D2B55; --bar-2:#16407A; --bar-ink:#FFFFFF; --bar-muted:#B9C8DE;
+  --bg:#FFFFFF; --surface:#F3F5F8; --card:#FFFFFF; --ink:#16202E; --muted:#5A6677; --line:#DCE2EA;
+  --red:#C41E2E; --red-ink:#FFFFFF; --green:#1B7348; --green-bg:#E6F3EC;
+  --yellow-bg:#FFF4C4; --yellow-line:#E0BE3A; --link:#16407A;
+  --head:"Bricolage Grotesque", "Arial Narrow", Arial, sans-serif;
+  --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bar:#0A1C38; --bar-2:#143462; --bar-muted:#9FB2CE;
+    --bg:#0F151D; --surface:#151E2A; --card:#18222F; --ink:#E6EBF1; --muted:#9BA8B8; --line:#2A3748;
+    --red:#D8394A; --green:#5CC592; --green-bg:#16301F;
+    --yellow-bg:#352E12; --yellow-line:#8C7520; --link:#8DB4F0;
+  }
+}
+:root[data-theme="dark"]{
+  --bar:#0A1C38; --bar-2:#143462; --bar-muted:#9FB2CE;
+  --bg:#0F151D; --surface:#151E2A; --card:#18222F; --ink:#E6EBF1; --muted:#9BA8B8; --line:#2A3748;
+  --red:#D8394A; --green:#5CC592; --green-bg:#16301F;
+  --yellow-bg:#352E12; --yellow-line:#8C7520; --link:#8DB4F0;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+a{color:var(--link)}
+:focus-visible{outline:3px solid #F2B600;outline-offset:2px;border-radius:4px}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+
+/* Leiste */
+header.bar{background:var(--bar);color:var(--bar-ink);position:sticky;top:0;z-index:10;padding-top:env(safe-area-inset-top)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px}
+.brand{font-family:var(--head);font-weight:800;font-size:1.22rem;letter-spacing:-.01em;color:#fff;text-decoration:none;line-height:1.1}
+.brand span{font-weight:600;color:var(--bar-muted)}
+.stand{font-family:var(--head);font-size:.82rem;color:var(--bar-muted);text-align:right;line-height:1.25}
+.stand b{color:#fff;font-weight:700;display:block;font-size:.95rem}
+.theme-btn{background:var(--bar-2);border:0;color:#fff;border-radius:999px;width:40px;height:40px;font-size:1.05rem;cursor:pointer;flex:none}
+
+/* Rubriken */
+nav.rubriken{background:var(--bar);border-top:1px solid rgba(255,255,255,.1)}
+nav.rubriken .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:8px;padding-bottom:10px;scrollbar-width:none}
+nav.rubriken .wrap::-webkit-scrollbar{display:none}
+.chip{font-family:var(--head);font-weight:600;font-size:.95rem;white-space:nowrap;border:0;border-radius:999px;padding:9px 16px;min-height:42px;background:transparent;color:var(--bar-muted);cursor:pointer}
+.chip[aria-pressed="true"]{background:#fff;color:var(--bar)}
+
+main{padding:18px 0 48px}
+
+/* Eilmeldung */
+.eil{display:block;text-decoration:none;background:var(--red);color:var(--red-ink);border-radius:12px;padding:16px 18px 18px;margin-bottom:22px}
+.eil-label{font-family:var(--head);font-weight:800;font-size:.8rem;letter-spacing:.08em;display:flex;align-items:center;gap:8px}
+.eil-label i{width:9px;height:9px;border-radius:50%;background:#fff;display:inline-block;animation:puls 1.6s ease-in-out infinite}
+@keyframes puls{50%{opacity:.35}}
+@media (prefers-reduced-motion:reduce){.eil-label i{animation:none}}
+.eil h2{font-family:var(--head);font-weight:700;font-size:1.35rem;line-height:1.2;margin:6px 0 4px}
+.eil p{margin:0;font-size:.95rem;opacity:.92}
+
+/* Liste */
+.list{display:flex;flex-direction:column;gap:12px}
+.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px 18px;transition:border-color .15s}
+.card:hover{border-color:var(--muted)}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;font-family:var(--head);font-size:.84rem;color:var(--muted)}
+.meta .rub{color:var(--link);font-weight:700}
+.check{color:var(--green);background:var(--green-bg);border-radius:999px;padding:2px 9px;font-weight:600}
+.eil-tag{background:var(--red);color:#fff;border-radius:4px;padding:1px 7px;font-weight:700;font-size:.75rem}
+.card h3{font-family:var(--head);font-weight:700;font-size:1.3rem;line-height:1.2;margin:8px 0 6px;letter-spacing:-.005em}
+.card p{margin:0;color:var(--ink)}
+.empty{background:var(--surface);border-radius:12px;padding:22px;color:var(--muted)}
+.empty strong{color:var(--ink);font-family:var(--head)}
+
+/* Über */
+details.about{margin-top:28px;background:var(--surface);border-radius:12px;padding:4px 18px}
+details.about summary{font-family:var(--head);font-weight:700;cursor:pointer;padding:12px 0;min-height:44px}
+details.about p{margin:0 0 12px;font-size:.95rem}
+
+/* Detail */
+.back{font-family:var(--head);font-weight:700;font-size:1rem;display:inline-flex;align-items:center;gap:6px;min-height:46px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;text-decoration:none}
+.detail h1{font-family:var(--head);font-weight:800;font-size:clamp(1.65rem,5vw,2.25rem);line-height:1.12;letter-spacing:-.015em;margin:16px 0 10px}
+.detail .lead{font-size:1.12rem;font-weight:600;margin:0 0 6px}
+.update{font-family:var(--head);font-size:.85rem;color:var(--muted);margin:6px 0 0}
+section.block{margin-top:30px}
+section.block h2{font-family:var(--head);font-weight:700;font-size:1.25rem;line-height:1.25;margin:0 0 12px;padding-bottom:8px;border-bottom:2px solid var(--bar-2)}
+section.block p{margin:0 0 14px}
+ul.facts{list-style:none;margin:0;padding:0}
+ul.facts li{position:relative;padding:10px 0 10px 32px;border-bottom:1px solid var(--line)}
+ul.facts li:last-child{border-bottom:0}
+ul.facts li::before{content:"✓";position:absolute;left:4px;top:10px;color:var(--green);font-weight:700;font-family:var(--head)}
+.unklar{background:var(--yellow-bg);border-left:5px solid var(--yellow-line);border-radius:0 10px 10px 0;padding:6px 18px}
+.unklar ul{margin:0;padding:0;list-style:none}
+.unklar li{padding:10px 0;border-bottom:1px solid var(--yellow-line)}
+.unklar li:last-child{border-bottom:0}
+.src{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+.src-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.src-name{font-family:var(--head);font-weight:800;font-size:1.12rem}
+.typ{font-family:var(--head);font-size:.8rem;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 9px}
+.src-date{font-family:var(--head);font-size:.82rem;color:var(--muted)}
+.fokus{font-family:var(--head);font-size:.92rem;margin:8px 0 4px}
+.fokus b{color:var(--muted);font-weight:600}
+.src p{margin:0 0 10px;font-size:.98rem}
+.src a.orig{font-family:var(--head);font-weight:700;font-size:.95rem;display:inline-block;padding:6px 0;min-height:40px}
+.aussen{font-family:var(--head);font-size:.78rem;color:var(--muted);font-style:normal}
+.diff{margin:0;padding:0;list-style:none}
+.diff li{padding:12px 0;border-bottom:1px solid var(--line)}
+.diff li:last-child{border-bottom:0}
+.diff b{font-family:var(--head);display:block;font-size:1rem;margin-bottom:2px}
+.original{font-size:.92rem;color:var(--muted);margin-top:4px}
+.bottom-back{margin-top:32px}
+.belege{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.beleg{font-family:var(--head);font-size:.74rem;font-weight:600;color:var(--muted);background:var(--surface);border-radius:999px;padding:1px 8px}
+.pos{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:10px;background:var(--card)}
+.pos-wer{font-family:var(--head);font-weight:700;font-size:1rem}
+.pos p{margin:4px 0 2px}
+.pos-q{font-family:var(--head);font-size:.8rem;color:var(--muted)}
+.fehlend{font-size:.95rem;background:var(--surface);border-radius:10px;padding:12px 16px;margin-top:6px}
+.fehlend b{font-family:var(--head)}
+.check-box{background:var(--surface);border-radius:12px;padding:14px 18px;margin-top:30px}
+.check-box h2{font-family:var(--head);font-size:1.05rem;margin:0 0 8px}
+.check-box ul{list-style:none;margin:0;padding:0;font-size:.95rem}
+.check-box li{padding:4px 0 4px 28px;position:relative}
+.check-box li span{position:absolute;left:0;font-family:var(--head);font-weight:700}
+.ok{color:var(--green)} .warn{color:#B07A00}
+:root[data-theme="dark"] .warn{color:#E8B93A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .warn{color:#E8B93A}}
+.push{margin-top:22px;border:1px solid var(--line);border-radius:12px;padding:14px 18px;background:var(--card)}
+.push b{font-family:var(--head)}
+.push p{margin:6px 0;font-size:.95rem}
+.push code{display:inline-block;font-size:1rem;background:var(--surface);padding:6px 10px;border-radius:8px;word-break:break-all;user-select:all}
+.laden{color:var(--muted);padding:30px 0;font-family:var(--head)}
+footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32px}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#/">Nachrichten-Heft <span>· neutral</span></a>
+    <div style="display:flex;align-items:center;gap:12px">
+      <div class="stand">Aktualisiert<b id="stand"></b></div>
+      <button class="theme-btn" id="themeBtn" aria-label="Hell- oder Dunkelmodus umschalten">◐</button>
+    </div>
+  </div>
+</header>
+<nav class="rubriken" aria-label="Rubriken" id="rubNav" hidden>
+  <div class="wrap" id="rubriken"></div>
+</nav>
+<main class="wrap" id="app" tabindex="-1"></main>
+<footer class="wrap">Zusammenfassungen von einer KI in eigenen Worten, keine Übernahme von Originaltexten. Für alle Einzelheiten gilt der verlinkte Originalbericht.</footer>
+
+<script>
+const RUBRIKEN = ["Alle","Deutschland","Welt","Wirtschaft","Wissen & Klima","Sport"];
+let NACHRICHTEN = [];
+let DATEN = { stand:null, ntfyTopic:"" };
+
+/* Daten laden: zuerst direkt aus dem Repository (immer aktuell), sonst die Datei neben der Seite */
+function rawUrl(){
+  const h = location.hostname;
+  if (!h.endsWith(".github.io")) return null;
+  const owner = h.split(".")[0];
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  const repo = seg && !seg.includes(".") ? seg : h;
+  return `https://raw.githubusercontent.com/${owner}/${repo}/main/data/news.json`;
+}
+async function ladeDaten(){
+  const urls = [rawUrl(), "data/news.json"].filter(Boolean);
+  for (const u of urls){
+    try{
+      const r = await fetch(u + "?t=" + Date.now(), { cache:"no-store" });
+      if (r.ok) return await r.json();
+    }catch(e){}
+  }
+  throw new Error("Daten nicht erreichbar");
+}
+const berlin = (d, opt) => new Intl.DateTimeFormat("de-DE", { timeZone:"Europe/Berlin", ...opt }).format(d);
+function fmtZeit(iso, nurDatum){
+  const d = new Date(iso), jetzt = new Date();
+  const tag = x => berlin(x, { year:"numeric", month:"2-digit", day:"2-digit" });
+  const uhr = berlin(d, { hour:"2-digit", minute:"2-digit" });
+  const gestern = new Date(jetzt.getTime() - 864e5);
+  if (tag(d) === tag(jetzt)) return nurDatum ? "Heute" : "Heute, " + uhr;
+  if (tag(d) === tag(gestern)) return nurDatum ? "Gestern" : "Gestern, " + uhr;
+  const kurz = berlin(d, { day:"2-digit", month:"2-digit" }).replace(/\.?$/, ".");
+  return nurDatum ? kurz : kurz + ", " + uhr;
+}
+
+/* ---------- Darstellung ---------- */
+const $app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const slug = r => r.toLowerCase().replace(/ & /g,"-").replace(/[^a-zäöü-]/g,"");
+const sortiert = () => [...NACHRICHTEN].sort((a,b) => b.zeit.localeCompare(a.zeit));
+
+function rubrikNav(aktiv){
+  const nav = document.getElementById("rubriken");
+  nav.innerHTML = RUBRIKEN.map(r =>
+    `<button class="chip" aria-pressed="${r===aktiv}" data-r="${esc(r)}">${esc(r)}</button>`).join("");
+  nav.querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    location.hash = b.dataset.r === "Alle" ? "#/" : "#/r/" + slug(b.dataset.r);
+  });
+}
+
+function karte(n){
+  return `<a class="card" href="#/n/${n.id}">
+    <div class="meta">
+      ${n.eil ? '<span class="eil-tag">Eil</span>' : ""}
+      <span class="rub">${esc(n.rubrik)}</span>
+      <span>${esc(fmtZeit(n.zeit,n.nurDatum))}</span>
+      <span class="check">✓ ${n.medien.length} Medien verglichen</span>
+    </div>
+    <h3>${esc(n.titel)}</h3>
+    <p>${esc(n.vorspann)}</p>
+  </a>`;
+}
+
+function startseite(rubrik){
+  document.getElementById("rubNav").hidden = false;
+  rubrikNav(rubrik);
+  const alle = sortiert();
+  const liste = rubrik === "Alle" ? alle : alle.filter(n => n.rubrik === rubrik);
+  const eil = alle.find(n => n.eil);
+  let html = "";
+  if (eil && rubrik === "Alle"){
+    html += `<a class="eil" href="#/n/${eil.id}">
+      <div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit,eil.nurDatum))}</div>
+      <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
+  }
+  html += liste.length
+    ? `<div class="list">${liste.map(karte).join("")}</div>`
+    : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>
+       Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. In dieser Ausgabe war das hier nicht der Fall.</div>`;
+  if (DATEN.ntfyTopic && rubrik === "Alle"){
+    const t = encodeURIComponent(DATEN.ntfyTopic);
+    html += `<div class="push"><b>🔔 Eilmeldungen aufs Handy</b>
+      <p>1. Kostenlose App <b>ntfy</b> installieren (App Store / Google Play).<br>2. In der App auf „+“ tippen und diesen Kanal abonnieren:</p>
+      <code>${esc(DATEN.ntfyTopic)}</code>
+      <p><a href="https://ntfy.sh/${t}" target="_blank" rel="noopener">Oder im Browser öffnen ↗</a></p></div>`;
+  }
+  html += `<details class="about"><summary>So entsteht dieses Heft</summary>
+    <p>Jedes Thema wird mit Berichten von mindestens zwei Medien verglichen. Unter „einig“ steht nur, was mindestens zwei Berichte bestätigen. Aussagen von Politikerinnen, Politikern und Behörden sind immer als Aussage gekennzeichnet.</p>
+    <p>Stammquellen sind Tagesschau/ARD, ZDFheute, Deutschlandfunk, dpa, Spiegel, Zeit, Süddeutsche Zeitung, FAZ, Reuters, AP, BBC und Deutsche Welle. Waren für ein Thema nicht genug Stammquellen erreichbar, wurden weitere Medien ergänzt. Sie sind bei der Quelle mit „außerhalb der Stammliste“ markiert.</p>
+    <p><b>Grenzen:</b> Keine Nachrichten-App ist völlig neutral. Schon welche Themen und welche Medien ausgewählt werden, ist eine Entscheidung. Die Stammliste besteht aus großen, etablierten Medien; kleinere oder politisch deutlich linke oder rechte Medien sind nicht dabei. Die Zusammenfassungen wurden von einer KI geschrieben und können Fehler enthalten – im Zweifel gilt der Originalbericht.</p>
+    <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks oder Beliebtheit.</p>
+    <p>Die Nachrichten werden alle 3 Stunden zwischen 6 und 21 Uhr automatisch aktualisiert. Letzte Aktualisierung: ${esc(fmtZeit(DATEN.stand))} Uhr.</p>
+  </details>`;
+  $app.innerHTML = html;
+}
+
+function detail(n){
+  document.getElementById("rubNav").hidden = true;
+  const quellen = n.medien.map(m => `<article class="src">
+      <div class="src-head">
+        <span class="src-name">${esc(m.name)}</span>${m.ort ? `<span class="src-date">${esc(m.ort)}</span>` : ""}
+        <span class="typ">${esc(m.typ)}</span>
+      </div>
+      <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
+      <div class="fokus"><b>Schwerpunkt:</b> ${esc(m.fokus)}</div>
+      <p>${esc(m.text)}</p>
+      <a class="orig" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${m.video ? "▶ Video ansehen ↗" : "Originalbericht öffnen ↗"}</a>
+    </article>`).join("");
+  $app.innerHTML = `<article class="detail">
+    <a class="back" href="#/">← Alle Nachrichten</a>
+    <div class="meta" style="margin-top:18px">
+      ${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}
+      <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit,n.nurDatum))}</span>
+      <span class="check">✓ ${n.medien.length} Medien verglichen</span>
+    </div>
+    <h1>${esc(n.titel)}</h1>
+    <p class="lead">${esc(n.vorspann)}</p>
+    ${n.aktualisiert ? `<p class="update">${esc(n.aktualisiert)}</p>` : ""}
+
+    <section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>
+      ${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>
+
+    <section class="block"><h2>Darin sind sich alle Medien einig</h2>
+      <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x=>`<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul></section>
+
+    <section class="block"><h2>Noch unklar oder umstritten</h2>
+      <div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></section>
+
+    <section class="block"><h2>Wer sagt was</h2>
+      ${n.positionen.map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p><div class="pos-q">berichtet von: ${esc(q)}</div></div>`).join("")}
+      <p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p></section>
+
+    <section class="block"><h2>So berichten die Medien</h2>${quellen}
+      ${n.original ? `<p class="original">Zum Nachprüfen: <a href="${esc(n.original.url)}" target="_blank" rel="noopener noreferrer">${esc(n.original.name)} ↗</a></p>` : ""}
+    </section>
+
+    <section class="block"><h2>Unterschiede zwischen den Berichten</h2>
+      <ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul></section>
+
+    ${neutralCheck(n)}
+    <div class="bottom-back"><a class="back" href="#/">← Alle Nachrichten</a></div>
+  </article>`;
+}
+
+function neutralCheck(n){
+  const arten = [...new Set(n.medien.map(m => m.art))];
+  const stamm = n.medien.filter(m => m.stamm).length;
+  const minBelege = Math.min(...n.einig.map(e => e[1].length));
+  const punkte = [
+    [minBelege >= 2, `Jeder Punkt unter „einig“ ist von mindestens ${minBelege} Medien belegt.`],
+    [arten.length >= 2, arten.length >= 2 ? `Verschiedene Arten von Quellen: ${arten.join(", ")}.` : `Nur eine Art von Quelle (${arten[0]}). Das kann den Blickwinkel einseitig machen.`],
+    [stamm >= 2, `${stamm} von ${n.medien.length} Quellen stammen aus der Stammliste.`],
+    [true, "Aussagen von Beteiligten sind als Aussage gekennzeichnet, nicht als Tatsache."],
+    [!/nicht vor|nicht enthalten|nur in einem|nicht gefunden/.test(n.fehlend), "Fehlende Stimmen: siehe „Wer nicht zu Wort kommt“."]
+  ];
+  return `<aside class="check-box"><h2>Neutralitäts-Check</h2><ul>${
+    punkte.map(([ok,t]) => `<li><span class="${ok?"ok":"warn"}">${ok?"✓":"!"}</span>${esc(t)}</li>`).join("")
+  }</ul></aside>`;
+}
+
+function route(){
+  const h = location.hash || "#/";
+  const nm = h.match(/^#\/n\/(.+)$/);
+  const rm = h.match(/^#\/r\/(.+)$/);
+  if (nm){
+    const n = NACHRICHTEN.find(x => x.id === nm[1]);
+    n ? detail(n) : startseite("Alle");
+  } else if (rm){
+    startseite(RUBRIKEN.find(r => slug(r) === rm[1]) || "Alle");
+  } else startseite("Alle");
+  window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", route);
+$app.innerHTML = '<p class="laden">Nachrichten werden geladen …</p>';
+ladeDaten().then(d => {
+  DATEN = d; NACHRICHTEN = d.nachrichten || [];
+  document.getElementById("stand").textContent = d.stand ? fmtZeit(d.stand) : "–";
+  route();
+}).catch(() => {
+  $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte später erneut versuchen.</div>';
+});
+/* Beim Zurückkehren zur App neu laden, falls es eine neue Ausgabe gibt */
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState !== "visible") return;
+  ladeDaten().then(d => { if (d.stand !== DATEN.stand){ DATEN = d; NACHRICHTEN = d.nachrichten || []; document.getElementById("stand").textContent = fmtZeit(d.stand); route(); } }).catch(()=>{});
+});
+
+/* ---------- Hell/Dunkel ---------- */
+const themeBtn = document.getElementById("themeBtn");
+function setTheme(t){
+  if (t) document.documentElement.setAttribute("data-theme", t);
+  else document.documentElement.removeAttribute("data-theme");
+  try { t ? localStorage.setItem("heft-theme", t) : localStorage.removeItem("heft-theme"); } catch(e){}
+}
+try { const t = localStorage.getItem("heft-theme"); if (t) setTheme(t); } catch(e){}
+themeBtn.onclick = () => {
+  const cur = document.documentElement.getAttribute("data-theme")
+    || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  setTheme(cur === "dark" ? "light" : "dark");
+};
+</script>
+</body>
+</html>
