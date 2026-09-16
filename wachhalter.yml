@@ -1,0 +1,38 @@
+name: Wachhalter
+
+# GitHub schaltet zeitgesteuerte Abläufe ab, wenn in einem Repository
+# 60 Tage lang nichts passiert. Dieser Wachhalter läuft einmal pro Woche:
+# Gab es seit 30 Tagen keinen Commit, macht er einen leeren Commit.
+# Außerdem schaltet er den Aktualisierungs-Ablauf wieder ein, falls er deaktiviert wurde.
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  wachhalten:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Leeren Commit machen, falls lange nichts passiert ist
+        run: |
+          letzter=$(git log -1 --format=%ct)
+          tage=$(( ( $(date +%s) - letzter ) / 86400 ))
+          echo "Letzter Commit vor $tage Tagen."
+          if [ "$tage" -ge 30 ]; then
+            git config user.name "nachrichten-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit --allow-empty -m "Wachhalter: Repository aktiv halten"
+            git push
+          fi
+
+      - name: Aktualisierung eingeschaltet lassen
+        run: gh workflow enable update.yml || true
+        env:
+          GH_TOKEN: ${{ github.token }}
