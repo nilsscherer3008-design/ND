@@ -345,7 +345,7 @@ function karte(n, archiv){
   return `<a class="card" href="#/n/${esc(n.id)}">
     <div class="meta">${n.eil && !archiv ? '<span class="eil-tag">Eil</span>' : ""}
       <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>${anzahl}</div>
-    <h3>${esc(n.titel)}</h3><p>${esc(n.vorspann)}</p>${n.bild && n.bild.url ? `<img class="thumb" src="${esc(n.bild.url)}" alt="" loading="lazy">` : n.bildInfo ? `<img class="thumb" src="${esc(n.bildInfo.url)}" alt="" loading="lazy">` : ""}</a>`;
+    <h3>${esc(n.titel)}</h3><p>${esc(n.vorspann)}</p>${n.bild && n.bild.url ? `<img class="thumb" src="${esc(n.bild.url)}" alt="" loading="lazy">` : n.bildInfo ? `<img class="thumb" src="${esc(n.bildInfo.url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</a>`;
 }
 const zurueck = `<a class="back" href="#/">← Alle Nachrichten</a>`;
 const istIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -538,7 +538,7 @@ function detail(n, archiv){
       <span class="check">✓ ${n.medien.length} Medien verglichen</span></div>
     <h1>${esc(n.titel)}</h1>
     <p class="lead">${esc(stufe === "einfach" && n.einfach?.vorspann ? n.einfach.vorspann : n.vorspann)}</p>
-    <div class="hero">${n.bildInfo ? `<img src="${esc(n.bildInfo.url)}" alt="${esc(n.bildInfo.hinweis)}">` : `<div class="tafel">${esc(n.rubrik)}</div>`}
+    <div class="hero"><div class="tafel">${esc(n.rubrik)}</div>${n.bildInfo ? `<img src="${esc(n.bildInfo.url)}" alt="${esc(n.bildInfo.hinweis)}" referrerpolicy="no-referrer" style="position:relative" onerror="if(this.dataset.o!=='1'&&'${esc(n.bildInfo.original||'')}'){this.dataset.o='1';this.src='${esc(n.bildInfo.original||'')}'}else{this.remove()}">` : ""}
       <button class="hero-play" id="clipBtn">▶ Clip ansehen · ca. ${dauerText(dauerSek(segmenteBauen("clip", n.id)))}</button></div>
     ${n.bildInfo ? `<p class="bildnachweis">${esc(n.bildInfo.hinweis)} · Foto: ${esc(n.bildInfo.urheber)} / <a href="${esc(n.bildInfo.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${n.bildInfo.lizenzUrl ? `<a href="${esc(n.bildInfo.lizenzUrl)}" target="_blank" rel="noopener">${esc(n.bildInfo.lizenz)}</a>` : esc(n.bildInfo.lizenz)}</p>` : ""}
     ${n.aktualisiert ? `<p class="update">${esc(n.aktualisiert)}</p>` : ""}
@@ -702,7 +702,7 @@ function zeigen(){
   el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((_, i) => `<i class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}"></i>`).join("");
   const bild = el.querySelector(".pl-bild");
   bild.className = "pl-bild " + (s.bild ? "foto" : "tafel") + (s.typ === "unklar" ? " gelb" : "") + (s.eil ? " rot" : "");
-  bild.innerHTML = s.bild ? `<img src="${esc(s.bild.url)}" alt=""><span class="pl-credit">${esc(s.bild.hinweis)} · Foto: ${esc(s.bild.urheber)} / Wikimedia Commons · ${esc(s.bild.lizenz)}</span>` : "";
+  bild.innerHTML = s.bild ? `<img src="${esc(s.bild.url)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.className='pl-bild tafel';this.remove()"><span class="pl-credit">${esc(s.bild.hinweis)} · Foto: ${esc(s.bild.urheber)} / Wikimedia Commons · ${esc(s.bild.lizenz)}</span>` : "";
   const kopfzeile = s.typ === "intro" || s.typ === "outro" ? `<div class="pl-logo">Nachrichten-Heft <span>· neutral</span></div>`
     : `<div class="pl-rubrik">${s.eil && s.typ !== "unklar" ? '<b class="pl-eil">EILMELDUNG</b> ' : ""}${s.typ === "unklar" ? "⚠ Noch unklar" : esc(s.rubrik)}</div>`;
   el.querySelector(".pl-inhalt").innerHTML = `${kopfzeile}
@@ -788,7 +788,7 @@ function videoLeiste(){
     const segs = segmenteBauen(f);
     if (segs.length < 3) return "";
     const bild = segs.find(s => s.bild)?.bild;
-    return `<a class="vkarte" href="#/video/${f}">${bild ? `<img src="${esc(bild.url)}" alt="" loading="lazy">` : ""}
+    return `<a class="vkarte" href="#/video/${f}">${bild ? `<img src="${esc(bild.url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
       <span class="vk-text"><b>${t}</b><small>ca. ${dauerText(dauerSek(segs))} · ${segs.filter(s => s.typ === "thema").length} Themen</small></span></a>`;
   }).join("");
   return karten ? `<section class="videos"><h2 class="abschnitt">Videos</h2><div class="vreihe">${karten}</div></section>` : "";

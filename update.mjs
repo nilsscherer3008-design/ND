@@ -378,7 +378,7 @@ export async function bildSuchen(bild) {
         const lizenz = decode(m.LicenseShortName?.value || "");
         if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime) || (ii.width || 0) < 600 || !FREIE_LIZENZ.test(lizenz)) continue;
         return {
-          url: ii.thumburl || ii.url, seite: ii.descriptionurl,
+          url: (ii.thumburl || ii.url).split("?")[0], original: ii.url, seite: ii.descriptionurl,
           urheber: decode(m.Artist?.value || "unbekannt").slice(0, 90), lizenz,
           lizenzUrl: m.LicenseUrl?.value || "", art: bild.art,
           hinweis: bild.art === "symbol" ? "Symbolbild" : "Archivfoto"
@@ -548,6 +548,27 @@ async function main() {
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);
     } catch (e) { console.warn(`Fehler bei ${t.id}: ${e.message}`); }
+  }
+
+  // Fotos für Nachrichten ohne Bild nachholen (eine gemeinsame KI-Anfrage)
+  if (CFG.bilder !== false) {
+    const ohneBild = [...ergebnis.values()].filter(n => !n.bildInfo && !(n.bild && n.bild.art === "keins") && !n.bildVersucht).slice(0, 15);
+    if (ohneBild.length) {
+      try {
+        const erg = await ki(REGELN, `Schlage für diese Nachrichten je ein freies Foto bei Wikimedia Commons vor.
+Zeige nie das Ereignis selbst, sondern eine beteiligte Person, einen Ort, eine Institution oder ein neutrales Symbol.
+Bei Unglücken mit Toten oder Verletzten, Gewalttaten, Opfern oder Kindern: art "keins".
+${ohneBild.map(n => `[${n.id}] ${n.titel} – ${n.vorspann}`).join("\n")}
+Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institution | symbol | keins", "suchbegriff": "..."}]}`, 2000);
+        for (const b of erg.bilder || []) {
+          const n = ergebnis.get(b.id); if (!n) continue;
+          n.bild = { art: String(b.art || "keins").toLowerCase(), suchbegriff: String(b.suchbegriff || "") };
+          n.bildVersucht = true;
+          n.bildInfo = await bildSuchen(n.bild);
+          console.log(`  Foto nachgeholt für ${n.id}: ${n.bildInfo ? n.bildInfo.urheber : "keins"}`);
+        }
+      } catch (e) { console.warn("Fotos nachholen fehlgeschlagen: " + e.message); }
+    }
   }
 
   const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
