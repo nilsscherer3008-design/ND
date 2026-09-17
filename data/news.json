@@ -1,206 +1,596 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Springmann Live-Scanner</title>
-    <!-- Web App Manifest für die Smartphone-Installation -->
-    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIlNwcmluZ21hbm4gV2FyZW5lcmZhc3N1bmciLAogICJzaG9ydF9uYW1lIjogIlNwcmluZ21hbm4iLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsCiAgInRoZW1lX2NvbG9yIjogIiM3YTIzOGMiCn0=">
-    
-    <!-- Tesseract.js für echte Texterkennung (OCR) laden -->
-    <script src="https://jsdelivr.net"></script>
-
-    <style>
-        :root {
-            --primary-color: #7a238c; /* Orchideen-Lila */
-            --bg-color: #f8f9fa;
-            --text-color: #212529; /* Anthrazit */
-            --card-bg: #ffffff;
-        }
-
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
-        body { background-color: var(--bg-color); color: var(--text-color); padding: 15px; }
-        
-        header { text-align: center; padding: 20px 0; background: var(--card-bg); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
-        .logo-text { font-style: italic; font-weight: bold; font-size: 28px; }
-        .logo-sub { color: var(--primary-color); font-size: 14px; letter-spacing: 2px; text-transform: uppercase; margin-top: 5px; }
-        
-        .container { max-width: 500px; margin: 0 auto; }
-        
-        .btn-scan { background-color: var(--primary-color); color: white; border: none; width: 100%; padding: 16px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(122, 35, 140, 0.3); }
-        
-        /* Kamera-Bereich */
-        #cameraContainer { display: none; background: #000; border-radius: 12px; overflow: hidden; position: relative; margin-bottom: 20px; }
-        video { width: 100%; display: block; }
-        .btn-capture { background: #ff3b30; color: white; border: none; padding: 12px; font-weight: bold; width: 100%; cursor: pointer; }
-        #loadingStatus { display: none; text-align: center; color: var(--primary-color); font-weight: bold; margin-bottom: 15px; }
-
-        /* Pop-up Fenster (Modal) */
-        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); justify-content: center; align-items: flex-end; z-index: 1000; }
-        .modal-content { background: var(--card-bg); width: 100%; max-width: 500px; border-top-left-radius: 20px; border-top-right-radius: 20px; padding: 20px; max-height: 85vh; overflow-y: auto; }
-        .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--bg-color); padding-bottom: 10px; margin-bottom: 15px; }
-        .close-btn { font-size: 28px; cursor: pointer; color: #aaa; }
-        
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { text-align: left; padding: 12px 8px; border-bottom: 1px solid #eee; }
-        th { background-color: var(--bg-color); }
-        
-        .new-customer-form { background: var(--bg-color); padding: 15px; border-radius: 8px; margin-top: 20px; }
-        input { width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
-        .btn-add { background: #212529; color: white; border: none; width: 100%; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; }
-
-        .install-banner { display: none; position: fixed; bottom: 20px; left: 20px; right: 20px; background: var(--primary-color); color: white; padding: 15px; border-radius: 12px; z-index: 2000; justify-content: space-between; align-items: center; max-width: 460px; margin: 0 auto; }
-        .btn-install { background: white; color: var(--primary-color); border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    <header>
-        <div class="logo-text">Springmann</div>
-        <div class="logo-sub">❀ Pflanzengroßhandel</div>
-    </header>
-
-    <!-- Der echte Kamera-Start-Button -->
-    <button class="btn-scan" onclick="startCamera()">
-        📷 Echte Handykamera öffnen
-    </button>
-
-    <!-- Hier wird das Live-Kamerabild angezeigt -->
-    <div id="cameraContainer">
-        <video id="webcam" autoplay playsinline></video>
-        <button class="btn-capture" onclick="takePhotoAndScan()">📸 Foto machen & Code auslesen</button>
-    </div>
-
-    <!-- Statusmeldung beim Scannen -->
-    <div id="loadingStatus">Bilder werden analysiert... Bitte warten...</div>
-
-    <!-- Unsichtbare Arbeitsfläche für das Foto im Hintergrund -->
-    <canvas id="hiddenCanvas" style="display:none;"></canvas>
-</div>
-
-<!-- Das aufploppende Bestell-Fenster -->
-<div id="scanModal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <div>
-                <h3 id="modalArticleTitle">Artikel: D36162</h3>
-                <small style="color: #666;">Gescannter Code wird oben angezeigt</small>
-            </div>
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-        </div>
-
-        <h4>Offene Bestellungen für diesen Artikel:</h4>
-        <table>
-            <thead>
-                <tr><th>Kunde</th><th>Farbe</th><th>Menge</th></tr>
-            </thead>
-            <tbody id="customerTableBody"></tbody>
-        </table>
-
-        <div class="new-customer-form">
-            <h4>➕ Ware neu zuweisen / Kunde hinzufügen</h4>
-            <input type="text" id="newCustName" placeholder="Name des neuen Kunden">
-            <input type="text" id="newCustColor" placeholder="Farbe (z.B. grün-gold)" value="grün-gold">
-            <input type="number" id="newCustQty" placeholder="Menge (Stück)" value="1">
-            <button class="btn-add" onclick="addNewCustomer()">Kunde live hinzufügen</button>
-        </div>
-    </div>
-</div>
-
-<!-- Installations-Banner -->
-<div id="installBanner" class="install-banner">
-    <span>App auf dem Gerät installieren?</span>
-    <button class="btn-install" onclick="triggerInstallation()">Installieren</button>
-</div>
-
-<script>
-    // Beispiel-Datenbank mit Artikeln (darunter auch der D36162 von deinem Foto)
-    let orderDatabase = [
-        { article: "D36162", name: "Gärtnerei Müller", color: "grün-gold", qty: 25 },
-        { article: "D36162", name: "Blumenparadies Weber", color: "grün", qty: 10 },
-        { article: "D12345", name: "Blumenladen Kraushaar", color: "rot", qty: 5 }
-    ];
-
-    let currentScannedArticle = "D36162"; 
-    let stream = null;
-
-    // 1. Kamera starten
-    async function startCamera() {
-        const video = document.getElementById('webcam');
-        const container = document.getElementById('cameraContainer');
-        
-        try {
-            // Fragt nach der Rückkamera des Handys (environment)
-            stream = await navigator.mediaDevices.getUserMedia({ 
-                video: { facingMode: "environment" }, 
-                audio: false 
-            });
-            video.srcObject = stream;
-            container.style.display = 'block';
-        } catch (err) {
-            alert("Kamera-Fehler: Bitte erlaube der App den Zugriff auf deine Kamera oder teste es auf einem Smartphone.");
-            console.error(err);
-        }
+{
+ "stand": "2026-09-15T17:10:00.000Z",
+ "notified": [
+  "faehre-indonesien-javasee"
+ ],
+ "nachrichten": [
+  {
+   "id": "lagebild-organisierte-kriminalitaet",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-15T09:50:00.000Z",
+   "aktualisiert": "aktualisiert um 11:50 Uhr (neuer dpa-Stand)",
+   "eil": false,
+   "titel": "Organisierte Kriminalität: BKA meldet mehr Verfahren und mehr Gewalt",
+   "vorspann": "Das Bundeskriminalamt hat sein Lagebild für 2025 vorgestellt. Die Zahl der Ermittlungsverfahren ist leicht gestiegen, die Gewalt krimineller Gruppen hat laut BKA zugenommen.",
+   "zusammenfassung": [
+    "Einmal im Jahr veröffentlicht das Bundeskriminalamt (BKA) ein Lagebild zur organisierten Kriminalität. Gemeint sind Gruppen, die über längere Zeit geplant zusammen Straftaten begehen, zum Beispiel Drogenhandel, Betrug oder Geldwäsche. Am Dienstag stellten Bundesinnenminister Alexander Dobrindt (CSU) und BKA-Präsident Holger Münch die Zahlen für 2025 in Berlin vor.",
+    "Die Polizei ermittelte 2025 in 683 Verfahren gegen solche Gruppen. Das sind etwas mehr als im Jahr davor. Die meisten Verfahren haben mit Drogen zu tun.",
+    "Nach Angaben des BKA wenden die Gruppen häufiger Gewalt an, und mehr Tatverdächtige waren bewaffnet. Gewalttaten werden laut BKA inzwischen auch wie eine Dienstleistung bestellt. Dafür werden junge Menschen angeworben, teilweise auch Minderjährige.",
+    "Die festgestellten Schäden stiegen laut Lagebild von 1,6 auf mehr als 2,7 Milliarden Euro. Nach Angaben von ZDFheute geht dieser Sprung vor allem auf ein einzelnes großes Betrugsverfahren zurück.",
+    "Im Lagebild zur Rauschgiftkriminalität werden für 2025 rund 2.150 Drogentote genannt, etwa so viele wie im Vorjahr. Dobrindt kündigte laut ZDFheute zusätzliches Geld für die Bekämpfung organisierter Kriminalität an."
+   ],
+   "einig": [
+    [
+     "Das BKA zählte 2025 insgesamt 683 Ermittlungsverfahren gegen Gruppen der organisierten Kriminalität, etwas mehr als im Vorjahr.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ],
+    [
+     "Drogenhandel ist weiterhin der größte Bereich der organisierten Kriminalität.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ],
+    [
+     "Laut BKA ist die Bereitschaft zu Gewalt gestiegen, und der Anteil bewaffneter Tatverdächtiger hat zugenommen.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ],
+    [
+     "Laut BKA werden Gewalttaten als eine Art Auftrag „bestellt“. Dafür werden auch Minderjährige angeworben.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ],
+    [
+     "Die Zahl der Drogentoten lag laut BKA bei rund 2.150 und damit etwa auf dem Stand des Vorjahres.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ],
+    [
+     "Bei neuen synthetischen Drogen (sogenannte NPS) melden die Behörden Anstiege.",
+     [
+      "ZDFheute",
+      "dpa"
+     ]
+    ]
+   ],
+   "positionen": [
+    [
+     "Bundeskriminalamt (Lagebild)",
+     "Kriminelle Gruppen zeigen mehr Gewaltbereitschaft; eine jüngere Tätergeneration stellt Macht und Gewalt offen in sozialen Medien dar.",
+     "ZDFheute, dpa"
+    ],
+    [
+     "Alexander Dobrindt (CSU), Bundesinnenminister",
+     "Spricht von einer „Kokainflut“ in Deutschland und kündigt zusätzliche Mittel gegen organisierte Kriminalität an.",
+     "ZDFheute"
+    ],
+    [
+     "Hendrik Streeck (CDU), Drogenbeauftragter",
+     "Kritisiert, dass Kokainkonsum in Teilen der Gesellschaft als normal gilt.",
+     "dpa"
+    ]
+   ],
+   "fehlend": "Stimmen aus der Opposition, von Polizeigewerkschaften, Suchthilfe oder Wissenschaft kommen in den verglichenen Berichten nicht vor. Alle Einschätzungen stammen von Regierung und Behörden.",
+   "unklar": [
+    "Wie aussagekräftig die höhere Schadenssumme ist: Laut ZDFheute wird allein in einem Verfahren um ein Schneeballsystem ein Schaden von mehr als einer Milliarde Euro geschätzt. Die Summe sagt also wenig darüber, ob es insgesamt mehr Fälle gibt.",
+    "Wie viel zusätzliches Geld Dobrindt einplant und was es bewirken soll, geht aus den verglichenen Berichten nicht hervor.",
+    "Warum es weniger Drogendelikte gibt: Laut ZDFheute liegt der Rückgang größtenteils an der Teillegalisierung von Cannabis. Das heißt nicht automatisch, dass weniger mit Drogen gehandelt wird.",
+    "Alle Zahlen zeigen nur, was Polizei und Behörden entdeckt haben. Wie viel organisierte Kriminalität unentdeckt bleibt, weiß niemand genau."
+   ],
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "15.09.2026, 11:30",
+     "fokus": "Schäden und Drogendelikte",
+     "text": "Beginnt mit dem starken Anstieg der Schäden und erklärt, dass er vor allem auf ein einzelnes Betrugsverfahren zurückgeht. Berichtet ausführlich über Drogen: weniger Delikte wegen der Cannabis-Teillegalisierung, mehr Kokain-Fälle, gleichbleibend viele Drogentote. Zitiert Dobrindt und Münch.",
+     "url": "https://www.zdfheute.de/politik/deutschland/lagebild-organisierte-kriminalitaet-dobrindt-100.html"
+    },
+    {
+     "name": "dpa",
+     "typ": "Nachrichtenagentur",
+     "art": "Nachrichtenagentur",
+     "stamm": true,
+     "datum": "15.09.2026, 11:50 (erschienen bei t-online)",
+     "fokus": "Gewalt und Waffen",
+     "text": "Beginnt mit der gestiegenen Brutalität: 20 statt 13 vollendete Tötungsdelikte, eine Serie von Explosionen und Schüssen im Raum Köln, mehr bewaffnete Tatverdächtige und gefälschte Schusswaffen. Nennt außerdem die Staatsangehörigkeiten der Tatverdächtigen und berichtet über Kokain. Zitiert Dobrindt, Münch und den Drogenbeauftragten Hendrik Streeck.",
+     "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101435886/bandenkriminalitaet-mehr-waffen-und-brutale-einschuechterung.html"
     }
-
-    // 2. Foto schießen und per KI auslesen
-    async function takePhotoAndScan() {
-        const video = document.getElementById('webcam');
-        const canvas = document.getElementById('hiddenCanvas');
-        const status = document.getElementById('loadingStatus');
-        const ctx = canvas.getContext('2d');
-
-        // Video-Bild auf die Arbeitsfläche zeichnen
-        canvas.width = video.videoWidth;
-        canvas.height = video.videoHeight;
-        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
-
-        // Kamera stoppen, um Akku zu sparen
-        if (stream) {
-            stream.getTracks().forEach(track => track.stop());
-            document.getElementById('cameraContainer').style.display = 'none';
-        }
-
-        // OCR-Texterkennung starten
-        status.style.display = 'block';
-        
-        try {
-            const result = await Tesseract.recognize(canvas, 'deu');
-            const fullText = result.data.text;
-            status.style.display = 'none';
-
-            // Suche nach einer Artikelnummer (z.B. ein Buchstabe gefolgt von 5 Zahlen wie D36162)
-            const match = fullText.match(/[A-Z]\d{5}/i);
-            
-            if (match) {
-                currentScannedArticle = match[0].toUpperCase();
-            } else {
-                // Falls die Kamera unscharf war, nehmen wir als Fallback deine Nummer vom Foto
-                alert("Nummer nicht perfekt erkannt. Zeige zur Demonstration den Artikel D36162 vom Foto an.");
-                currentScannedArticle = "D36162";
-            }
-
-            openModal(currentScannedArticle);
-
-        } catch (ocrError) {
-            status.style.display = 'none';
-            alert("Fehler bei der Texterkennung. Nutze Standard-Artikel D36162.");
-            openModal("D36162");
-        }
+   ],
+   "unterschiede": [
+    [
+     "Überschrift und Ton",
+     "Die dpa-Meldung erscheint bei t-online mit der Überschrift, kriminelle Banden würden „deutlich brutaler“. ZDFheute titelt sachlicher mit „Mehr Schäden, weniger Drogendelikte“."
+    ],
+    [
+     "Gleiche Zahl, anderer Eindruck",
+     "ZDFheute schreibt, 683 Verfahren seien nur leicht mehr als im Vorjahr. Die dpa betont, es seien so viele wie seit 2021 nicht mehr. Beides stimmt, klingt aber unterschiedlich."
+    ],
+    [
+     "Was nur ein Bericht erwähnt",
+     "Nur ZDFheute nennt die Schadenssumme und das große Betrugsverfahren. Nur die dpa nennt die Tötungsdelikte, gefälschte Waffen und die Staatsangehörigkeiten der Tatverdächtigen."
+    ],
+    [
+     "Stimmen",
+     "Beide zitieren Dobrindt, aber mit verschiedenen Aussagen: bei ZDFheute über Kokain, bei der dpa über bestellte Gewalt. Den Drogenbeauftragten Streeck zitiert nur die dpa."
+    ]
+   ]
+  },
+  {
+   "id": "zew-konjunkturerwartungen-september",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-15T09:31:00.000Z",
+   "eil": false,
+   "titel": "ZEW-Index: Konjunkturerwartungen steigen leicht",
+   "vorspann": "Fachleute aus der Finanzbranche schauen etwas zuversichtlicher auf die deutsche Wirtschaft. Der Wert stieg im September um 0,5 auf 34,7 Punkte.",
+   "zusammenfassung": [
+    "Das Zentrum für Europäische Wirtschaftsforschung (ZEW) in Mannheim befragt jeden Monat Finanzanalysten und institutionelle Anleger. Sie schätzen ein, wie sich die Wirtschaft in Deutschland in den kommenden sechs Monaten entwickelt. Daraus entsteht ein Wert: die ZEW-Konjunkturerwartungen.",
+    "Im September lag dieser Wert bei 34,7 Punkten, 0,5 Punkte mehr als im August. Ein Wert über null bedeutet: Mehr Befragte erwarten eine Verbesserung als eine Verschlechterung.",
+    "Laut der Agentur dpa-AFX hatten Volkswirte im Durchschnitt mit einem stärkeren Anstieg auf 40 Punkte gerechnet.",
+    "Die aktuelle Lage bewerten die Befragten deutlich besser als im Vormonat (plus 14 Punkte), aber mit minus 47,1 Punkten immer noch negativ. Für die Eurozone sanken die Erwartungen laut dts.",
+    "ZEW-Präsident Achim Wambach nannte als Risiken teure Energie wegen des anhaltenden Iran-Kriegs und Unsicherheit durch sogenannte hybride Angriffe."
+   ],
+   "einig": [
+    [
+     "Die ZEW-Konjunkturerwartungen für Deutschland lagen im September 2026 bei 34,7 Punkten.",
+     [
+      "dpa-AFX",
+      "dts"
+     ]
+    ],
+    [
+     "Das sind 0,5 Punkte mehr als im Vormonat.",
+     [
+      "dpa-AFX",
+      "dts"
+     ]
+    ],
+    [
+     "Das ZEW hat die Zahlen am Dienstag in Mannheim veröffentlicht.",
+     [
+      "dpa-AFX",
+      "dts"
+     ]
+    ]
+   ],
+   "positionen": [
+    [
+     "Achim Wambach, ZEW-Präsident",
+     "Sieht die Befragten vorsichtig optimistisch; die Erholung werde vom Staat und von Exporten gestützt. Als Risiken nennt er teure Energie und hybride Angriffe.",
+     "dpa-AFX, dts"
+    ],
+    [
+     "Volkswirte (Durchschnitt der Prognosen)",
+     "Hatten einen Anstieg auf 40 Punkte erwartet.",
+     "dpa-AFX"
+    ]
+   ],
+   "fehlend": "Stimmen von Unternehmen, Gewerkschaften oder anderen Forschungsinstituten kommen in den verglichenen Meldungen nicht vor.",
+   "unklar": [
+    "Ob sich die Wirtschaft wirklich erholt: Der Index misst Erwartungen von Fachleuten, nicht die tatsächliche Entwicklung.",
+    "Wie stark die genannten Risiken, etwa hohe Energiepreise, die Wirtschaft in den nächsten Monaten bremsen, ist offen."
+   ],
+   "medien": [
+    {
+     "name": "dpa-AFX",
+     "typ": "Wirtschafts-Nachrichtenagentur",
+     "art": "Nachrichtenagentur",
+     "stamm": false,
+     "datum": "15.09.2026, 11:31 (erschienen bei ariva.de)",
+     "fokus": "Vergleich mit den Prognosen",
+     "text": "Stellt in den Vordergrund, dass der Anstieg kleiner war als von Volkswirten vorhergesagt. Nennt den erwarteten Wert von 40 Punkten.",
+     "url": "https://www.ariva.de/news/deutschland-zew-konjunkturerwartungen-verbessern-sich-12136791"
+    },
+    {
+     "name": "dts Nachrichtenagentur",
+     "ort": "bei finanznachrichten.de",
+     "typ": "Nachrichtenagentur",
+     "art": "Nachrichtenagentur",
+     "stamm": false,
+     "datum": "15.09.2026",
+     "fokus": "Einschätzung des ZEW",
+     "text": "Übernimmt in der Überschrift die Bewertung des ZEW-Präsidenten, die Erwartungen blieben stabil. Nennt zusätzlich die Lage-Einschätzung, Werte für einzelne Branchen und für die Eurozone sowie die Risiken aus Sicht des ZEW.",
+     "url": "https://www.finanznachrichten.de/nachrichten-2026-09/69582134-zew-konjunkturerwartungen-bleiben-stabil-003.htm"
     }
-
-    function openModal(articleNumber) {
-        document.getElementById('modalArticleTitle').innerText = "Artikel: " + articleNumber;
-        renderTable(articleNumber);
-        document.getElementById('scanModal').style.display = 'flex';
+   ],
+   "unterschiede": [
+    [
+     "Überschrift",
+     "dpa-AFX: Die Erwartungen verbessern sich „weniger als erwartet“. dts: Die Erwartungen „bleiben stabil“, ein Zitat des ZEW-Präsidenten. Dieselbe Zahl wirkt einmal enttäuschend, einmal beruhigend."
+    ],
+    [
+     "Vergleichsmaßstab",
+     "dpa-AFX vergleicht mit den Vorhersagen von Volkswirten. dts vergleicht mit dem Vormonat."
+    ],
+    [
+     "Stimmen",
+     "Beide Meldungen zitieren ZEW-Präsident Wambach. Nur dts gibt seine Warnung vor Risiken wie teurer Energie wieder; nur dpa-AFX nennt die Erwartungen der Volkswirte."
+    ]
+   ]
+  },
+  {
+   "id": "faehre-indonesien-javasee",
+   "rubrik": "Welt",
+   "zeit": "2026-09-14T07:33:00.000Z",
+   "eil": true,
+   "aktualisiert": "erste Berichte am 13.09., aktualisiert am 14.09. um 09:33 Uhr",
+   "titel": "Fähre in Indonesien gekentert: Suche nach 129 Vermissten",
+   "vorspann": "In der Javasee ist eine Fähre mit 243 Menschen an Bord bei schlechtem Wetter umgekippt. Mindestens sechs Menschen starben, 108 wurden gerettet.",
+   "zusammenfassung": [
+    "Die Fähre „Virgo Transport 8“ war am Sonntag, 13. September, von Surabaya auf der Insel Java nach Banjarmasin auf Borneo unterwegs. In der Nacht geriet sie bei hohen Wellen in Seenot und kenterte.",
+    "Laut Passagierliste waren 243 Menschen an Bord: 213 Fahrgäste und 30 Besatzungsmitglieder. Außerdem transportierte das Schiff 89 Fahrzeuge.",
+    "Rettungskräfte holten 108 Menschen lebend aus dem Wasser und bargen sechs Tote. 129 Menschen werden noch vermisst.",
+    "Am Montag verstärkten die Behörden die Suche mit Schiffen, Flugzeugen, Tauchern und Unterwasserdrohnen. Die Ursache des Unglücks ist noch nicht geklärt.",
+    "Indonesien besteht aus mehr als 17.000 Inseln. Fähren sind dort ein wichtiges Verkehrsmittel, Unglücke kommen immer wieder vor."
+   ],
+   "einig": [
+    [
+     "Die Fähre kenterte am Sonntag, 13. September, bei schlechtem Wetter in der Javasee.",
+     [
+      "AP",
+      "Euronews"
+     ]
+    ],
+    [
+     "Sie fuhr von Surabaya (Java) nach Banjarmasin (Borneo).",
+     [
+      "AP",
+      "Euronews"
+     ]
+    ],
+    [
+     "Laut Passagierliste waren 243 Menschen an Bord.",
+     [
+      "AP",
+      "Euronews"
+     ]
+    ],
+    [
+     "Nach Angaben der Rettungsbehörde wurden 108 Menschen gerettet und sechs Tote geborgen; 129 Menschen werden vermisst.",
+     [
+      "AP",
+      "Euronews",
+      "Al Jazeera"
+     ]
+    ],
+    [
+     "Am Montag wurde die Suche verstärkt, auch mit Tauchern und Unterwasserdrohnen.",
+     [
+      "AP",
+      "Euronews"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die Ursache ist nicht geklärt. Laut Euronews wird untersucht, ob schlechtes Wetter, ein technischer Defekt oder menschliches Versagen dazu geführt haben.",
+    "Ein Überlebender vermutet laut AP, dass einseitig beladene Lastwagen das Schiff aus dem Gleichgewicht gebracht haben. Das ist eine persönliche Vermutung, keine bestätigte Ursache.",
+    "Wie viele Einsatzkräfte suchen: AP nennt 655, Euronews und Al Jazeera nennen 622. Die Zahlen stammen von verschiedenen Behördenvertretern und zu verschiedenen Zeitpunkten am Montag."
+   ],
+   "positionen": [
+    [
+     "Mohammad Syafii, Chef der nationalen Rettungsbehörde Basarnas",
+     "Hofft, weitere Überlebende zu finden.",
+     "AP"
+    ],
+    [
+     "I Putu Sudayana, Leiter der Rettungsbehörde in Banjarmasin",
+     "Die Suche laufe seit dem frühen Morgen mit 622 Einsatzkräften und rund 12 Schiffen.",
+     "Al Jazeera (nach Reuters)"
+    ],
+    [
+     "Ahmad Saudi, Überlebender",
+     "Es habe keine Alarme oder Durchsagen gegeben; er vermutet, dass einseitig beladene Lastwagen das Schiff kippen ließen.",
+     "AP"
+    ]
+   ],
+   "fehlend": "Die Berichte stützen sich vor allem auf Rettungsbehörden und Überlebende. Eine eigene Aussage der Reederei wurde beim Vergleich nicht gefunden.",
+   "medien": [
+    {
+     "name": "AP",
+     "typ": "Nachrichtenagentur (USA)",
+     "art": "Nachrichtenagentur",
+     "stamm": true,
+     "datum": "14.09.2026, 09:33 MESZ (erschienen bei NPR)",
+     "fokus": "Rettung und Überlebende",
+     "text": "Beschreibt den Notruf des Kapitäns, den Ausbau der Suche mit Unterwasserteams und zitiert zwei Überlebende. Einer vermutet, einseitig beladene Lastwagen könnten das Schiff aus dem Gleichgewicht gebracht haben – eine Vermutung, keine bestätigte Ursache.",
+     "url": "https://www.npr.org/2026/09/14/nx-s1-5968417/indonesia-search-missing-ferry"
+    },
+    {
+     "name": "Euronews",
+     "typ": "europäischer Nachrichtensender",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "14.09.2026",
+     "fokus": "Schiff, Zahlen und mögliche Ursachen",
+     "text": "Nennt Einzelheiten zum Schiff (1987 in Japan gebaut), zur Passagierliste und zum Einsatz mit 17 Schiffen und fünf Flugzeugen. Schreibt, dass Wetter, technischer Defekt oder menschliches Versagen als Ursache untersucht werden.",
+     "url": "https://de.euronews.com/video/2026/09/14/indonesien-sucht-129-vermisste-nach-fahrungluck-in-der-javasee"
+    },
+    {
+     "name": "Al Jazeera",
+     "typ": "Fernsehsender, staatlich finanziert (Katar)",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "14.09.2026",
+     "fokus": "Überblick zur Suche",
+     "text": "Beruht auf Material von AFP, AP und Reuters. Zitiert den Leiter der Rettungsbehörde in Banjarmasin und beschreibt, dass hohe Wellen und starker Wind die Suche behindern.",
+     "url": "https://www.aljazeera.com/news/2026/9/14/indonesia-intensifies-search-for-129-people-missing-after-ship-capsizes"
     }
-
-    function renderTable(articleNumber) {
-        const tbody = document.getElementById('customerTableBody');
-        tbody.innerHTML = "";
-        
-        const filtered = orderDatabase.filter(item => item.article === articleNumber);
-        
-        if(filtered.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="3" style="text-align:center; color: #999;">Keine offenen Bestellungen für diesen Artikel gefunden.</td></tr>`;
+   ],
+   "unterschiede": [
+    [
+     "Stimmen",
+     "AP lässt Überlebende ausführlich zu Wort kommen. Al Jazeera stützt sich vor allem auf Aussagen der Rettungsbehörden."
+    ],
+    [
+     "Ursache",
+     "AP gibt die Vermutung eines Überlebenden wieder. Euronews nennt mehrere mögliche Ursachen, die offiziell untersucht werden."
+    ],
+    [
+     "Was nur ein Bericht erwähnt",
+     "Nur Euronews nennt Alter und Herkunft des Schiffs. Nur Al Jazeera beschreibt, wie das Wetter die Suche behindert."
+    ],
+    [
+     "Zahlen",
+     "Bei der Zahl der Einsatzkräfte nennen die Berichte unterschiedliche Werte (655 oder 622)."
+    ]
+   ]
+  },
+  {
+   "id": "drohne-zug-grenze-polen",
+   "rubrik": "Welt",
+   "zeit": "2026-09-14T06:00:00.000Z",
+   "eil": false,
+   "aktualisiert": "erste Berichte am 13.09., ergänzt am 14.09. (Reaktion der Nato)",
+   "titel": "Drohnenangriff auf Zug nahe der polnischen Grenze",
+   "vorspann": "Nach Angaben der ukrainischen Bahn traf eine russische Drohne die Lokomotive eines Zuges von Kiew nach Warschau. Verletzt wurde niemand. Polen und die Nato reagieren.",
+   "zusammenfassung": [
+    "Am Sonntag, 13. September, traf nach Angaben der ukrainischen Eisenbahn eine russische Drohne die Lokomotive eines Personenzugs von Kiew nach Warschau. Das geschah am Grenzbahnhof Jahodyn, wenige Kilometer von der Grenze zu Polen entfernt. Polen ist Mitglied der Nato und der EU.",
+    "Die Fahrgäste hatten den Zug rechtzeitig verlassen. Verletzt wurde niemand.",
+    "Kurz vorher war ein Zug mit bekannten europäischen Politikern durch den Bahnhof gefahren, darunter der frühere britische Premierminister Boris Johnson.",
+    "Der ukrainische Außenminister Andrij Sybiha forderte laut ZDFheute härtere Konsequenzen für Russland. Die ukrainische Bahn hält es laut ad-hoc-news für denkbar, dass die Drohne dem Zug mit den Politikern galt. Das russische Verteidigungsministerium erklärte dagegen nach demselben Bericht, es habe Bahnanlagen angegriffen, über die Militärgüter aus europäischen Ländern transportiert würden.",
+    "Polens Regierungschef Donald Tusk warf Russland eine Eskalation vor und rief einen Krisenstab zusammen; zwei Grenzübergänge wurden zeitweise geräumt. Nato-Generalsekretär Mark Rutte kündigte laut AP an, die Unterstützung für die Ukraine zu verstärken."
+   ],
+   "einig": [
+    [
+     "Am 13. September wurde am Grenzbahnhof Jahodyn die Lokomotive eines Zuges von Kiew nach Warschau von einer Drohne getroffen.",
+     [
+      "ZDFheute",
+      "ad-hoc-news"
+     ]
+    ],
+    [
+     "Der Ort liegt nahe der Grenze zum Nato-Staat Polen.",
+     [
+      "ZDFheute",
+      "ad-hoc-news",
+      "AP"
+     ]
+    ],
+    [
+     "Polens Regierungschef Tusk wirft Russland vor, die Lage zu verschärfen.",
+     [
+      "ZDFheute",
+      "ad-hoc-news",
+      "AP"
+     ]
+    ],
+    [
+     "Die Fahrgäste wurden in Sicherheit gebracht, niemand wurde verletzt.",
+     [
+      "ZDFheute",
+      "ad-hoc-news"
+     ]
+    ],
+    [
+     "Kurz vor dem Angriff hatten bekannte Reisende aus Europa den Bahnhof passiert.",
+     [
+      "AP",
+      "ad-hoc-news"
+     ]
+    ]
+   ],
+   "positionen": [
+    [
+     "Ukraine – Außenminister Andrij Sybiha",
+     "Nennt die Angriffe an der Grenze Terror, der bis an die Tür von EU und Nato reiche, und fordert härtere Konsequenzen für Moskau.",
+     "ZDFheute"
+    ],
+    [
+     "Ukraine – staatliche Eisenbahn",
+     "Hält es für denkbar, dass die Drohne dem Zug mit den Diplomaten galt.",
+     "ad-hoc-news"
+    ],
+    [
+     "Russland – Verteidigungsministerium",
+     "Angegriffen worden seien Bahnanlagen, über die Militärgüter aus Europa transportiert würden.",
+     "ad-hoc-news"
+    ],
+    [
+     "Polen – Regierungschef Donald Tusk",
+     "Die Eskalation von russischer Seite sei Realität geworden und rücke immer näher an die polnische Grenze.",
+     "ZDFheute, ad-hoc-news"
+    ],
+    [
+     "Nato – Generalsekretär Mark Rutte",
+     "Sieht in den Angriffen ein Zeichen von Putins Verzweiflung und kündigt mehr Unterstützung für die Ukraine an.",
+     "AP"
+    ]
+   ],
+   "fehlend": "Die Aussagen beider Kriegsparteien lassen sich vor Ort nicht unabhängig überprüfen. Die russische Sicht erscheint nur in einem der drei verglichenen Berichte.",
+   "unklar": [
+    "Was genau das Ziel war: Die ukrainische Bahn hält es für denkbar, dass der Zug mit den Politikern gemeint war. Russland spricht von Angriffen auf Bahnanlagen für Militärtransporte. Unabhängig überprüft ist keine der beiden Darstellungen.",
+    "Ob der Angriff etwas mit den prominenten Reisenden zu tun hatte, ist nicht belegt.",
+    "Was die angekündigte zusätzliche Unterstützung der Nato genau umfasst, geht aus den verglichenen Berichten nicht hervor."
+   ],
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "13.09.2026",
+     "fokus": "Ablauf und Reaktion Polens",
+     "text": "Schildert den Angriff, die Evakuierung und die verspätete Ankunft des Zuges in Warschau. Berichtet über Tusks Krisenstab, zeitweise gesperrte Grenzübergänge und einen weiteren Drohnenangriff nahe einem Grenzübergang. Gibt die Forderung des ukrainischen Außenministers wieder.",
+     "url": "https://www.zdfheute.de/politik/ausland/zug-getroffen-drohne-grenze-polen-ukraine-krieg-russland-100.html"
+    },
+    {
+     "name": "AP",
+     "typ": "Nachrichtenagentur (USA)",
+     "art": "Nachrichtenagentur",
+     "stamm": true,
+     "datum": "14.09.2026 (erschienen bei Local 10)",
+     "fokus": "Reaktion der Nato",
+     "text": "Stellt Nato-Generalsekretär Rutte in den Mittelpunkt. Er nannte die Angriffe ein Zeichen für Putins Verzweiflung und kündigte mehr Hilfe an. Zitiert auch Tusk, der vor weiteren russischen Aktionen an der Grenze warnt.",
+     "url": "https://www.local10.com/news/2026/09/14/nato-chief-rutte-vows-more-support-for-ukraine-after-russian-drone-strikes-near-polish-border/"
+    },
+    {
+     "name": "ad-hoc-news",
+     "typ": "Online-Nachrichtenportal",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "13.09.2026",
+     "fokus": "Einordnung und russische Sicht",
+     "text": "Nennt die Erklärung des russischen Verteidigungsministeriums, die Vermutung der ukrainischen Bahn zum Diplomatenzug und eine Reaktion von Boris Johnson.",
+     "url": "https://www.ad-hoc-news.de/ausland/russische-drohne-trifft-grenz-zug-polen-spricht-von-eskalation/70095804"
+    }
+   ],
+   "unterschiede": [
+    [
+     "Blickwinkel",
+     "ZDFheute schaut vor allem auf Polen, AP auf die Nato, ad-hoc-news auf die politische Bedeutung des Ortes."
+    ],
+    [
+     "Stimmen",
+     "Die Darstellung Russlands steht im verglichenen Bericht von ad-hoc-news. Bei ZDFheute und AP kommen vor allem die ukrainische, polnische und Nato-Seite zu Wort."
+    ],
+    [
+     "Wertende Wörter in Zitaten",
+     "AP zitiert Rutte mit deutlichen Worten über Putin. Das ist Ruttes Einschätzung, keine überprüfte Tatsache."
+    ],
+    [
+     "Was nur ein Bericht erwähnt",
+     "Nur AP berichtet über die Reaktion der Nato. Nur ad-hoc-news nennt die russische Darstellung und die Vermutung der ukrainischen Bahn."
+    ]
+   ],
+   "nurDatum": true
+  },
+  {
+   "id": "copernicus-august-rekord",
+   "rubrik": "Wissen & Klima",
+   "zeit": "2026-09-10T07:00:00.000Z",
+   "eil": false,
+   "titel": "Copernicus: August 2026 war der wärmste gemessene August",
+   "vorspann": "Die weltweite Durchschnittstemperatur lag laut EU-Klimadienst Copernicus bei 16,96 Grad. Auch die Meere waren so warm wie noch nie in einem August.",
+   "zusammenfassung": [
+    "Copernicus ist das Erdbeobachtungsprogramm der Europäischen Union. Sein Klimawandeldienst wertet jeden Monat weltweite Messdaten aus.",
+    "Für August 2026 meldet Copernicus eine weltweite Durchschnittstemperatur der Luft von 16,96 Grad Celsius. Das ist der höchste Wert, der je in einem August gemessen wurde. Er liegt 1,65 Grad über dem Niveau vor der Industrialisierung.",
+    "Auch die Oberfläche der Meere war im August so warm wie noch nie in diesem Monat. Laut den Berichten war der Sommer in Westeuropa beziehungsweise auf der Nordhalbkugel der heißeste seit Beginn der Messungen.",
+    "Als Gründe nennen die Berichte den menschengemachten Klimawandel, vor allem durch das Verbrennen von Kohle, Öl und Gas, sowie das Wetterphänomen El Niño. El Niño erwärmt Teile des Pazifiks für einige Zeit."
+   ],
+   "einig": [
+    [
+     "Laut Copernicus lag die weltweite Durchschnittstemperatur im August 2026 bei 16,96 Grad Celsius.",
+     [
+      "dpa",
+      "Euronews"
+     ]
+    ],
+    [
+     "Das sind 1,65 Grad mehr als vor der Industrialisierung.",
+     [
+      "dpa",
+      "Euronews"
+     ]
+    ],
+    [
+     "Es war der wärmste August seit Beginn der Aufzeichnungen.",
+     [
+      "dpa",
+      "Euronews"
+     ]
+    ],
+    [
+     "Auch bei der Meerestemperatur gab es einen Rekord.",
+     [
+      "dpa",
+      "Euronews"
+     ]
+    ],
+    [
+     "Als Ursachen werden der Klimawandel durch fossile Brennstoffe und El Niño genannt.",
+     [
+      "dpa",
+      "Euronews"
+     ]
+    ]
+   ],
+   "positionen": [
+    [
+     "Samantha Burgess, Copernicus",
+     "Der August sei ein bemerkenswerter Monat gewesen; die Folgen seien für Gesellschaften, Wirtschaft und Ökosysteme weltweit spürbar.",
+     "dpa"
+    ],
+    [
+     "Forschende (laut Euronews)",
+     "El Niño verstärke die Hitze, der Hauptgrund sei aber das Verbrennen fossiler Brennstoffe.",
+     "Euronews"
+    ]
+   ],
+   "fehlend": "Die Messwerte selbst werden in keinem der Berichte angezweifelt. Umstritten ist nur, wie die Zahlen einzuordnen sind (siehe „Noch unklar“).",
+   "unklar": [
+    "Wärmster Monat überhaupt oder gleichauf? Die dpa schreibt von einem Gleichstand mit Juli 2023. Euronews schreibt, der August liege rein rechnerisch ein Hundertstel Grad darüber.",
+    "Die 1,5-Grad-Grenze: Das Pariser Klimaabkommen meint einen Durchschnitt über viele Jahre, nicht einen einzelnen Monat. Ein warmer Monat allein zeigt deshalb noch nicht, dass das Ziel dauerhaft verfehlt ist.",
+    "Wie groß der Anteil von El Niño genau ist, nennen die Berichte nicht. Laut Euronews halten Forschende die fossilen Brennstoffe für den wichtigeren Grund."
+   ],
+   "medien": [
+    {
+     "name": "dpa",
+     "typ": "Nachrichtenagentur",
+     "art": "Nachrichtenagentur",
+     "stamm": true,
+     "datum": "10.09.2026 (erschienen beim Schwarzwälder Bote)",
+     "fokus": "Rekordwerte und Europa",
+     "text": "Nennt die Werte für Luft und Meer, zitiert die Copernicus-Klimaexpertin Samantha Burgess und beschreibt Hitze, Trockenheit und Waldbrände in Westeuropa. Derselbe dpa-Text erschien in vielen Zeitungen.",
+     "url": "https://www.schwarzwaelder-bote.de/wissen/2026-waermster-august-weltweit-hitze-und-trockenheit-ist-neue-normal-79456843.html"
+    },
+    {
+     "name": "Euronews",
+     "typ": "europäischer Nachrichtensender",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "10.09.2026",
+     "fokus": "Ursachen",
+     "text": "Stellt die Ursachen in den Mittelpunkt: Klimawandel und ein starker El Niño. Lässt Forschende zu Wort kommen, die fossile Brennstoffe als Hauptgrund nennen. Schreibt, der Rekord liege knapp über dem Wert von Juli 2023.",
+     "url": "https://de.euronews.com/2026/09/10/eu-klimadienst-copernicus-august-weltweit-heissester-monat-seit-beginn-der-aufzeichnungen"
+    }
+   ],
+   "unterschiede": [
+    [
+     "Rekord",
+     "Die dpa spricht von einem Gleichstand mit Juli 2023, Euronews von einem knappen neuen Rekord."
+    ],
+    [
+     "Ton",
+     "Euronews schreibt, die 1,5-Grad-Grenze sei „deutlich überschritten“, ohne zu erklären, dass das Pariser Ziel einen langjährigen Durchschnitt meint. Die dpa bleibt enger bei den gemessenen Zahlen."
+    ],
+    [
+     "Schwerpunkt",
+     "Die dpa schaut stärker auf Westeuropa, Euronews stärker auf die weltweiten Ursachen und die Einschätzung von Forschenden."
+    ]
+   ],
+   "nurDatum": true
+  }
+ ]
+}
