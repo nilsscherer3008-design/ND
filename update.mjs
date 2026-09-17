@@ -181,7 +181,7 @@ Aufgabe: Gruppiere Meldungen, die über DASSELBE Ereignis berichten.
 - Nimm nur Themen, zu denen mindestens 2 VERSCHIEDENE Medien berichten.
 - Pro Medium höchstens eine Meldung je Thema (die aussagekräftigste).
 - Wenn ein Thema einem vorhandenen entspricht, verwende dessen id. Sonst neue id: kurzer Slug aus Kleinbuchstaben und Bindestrichen.
-- Wähle die wichtigsten Themen, höchstens ${CFG.maxNeueThemenProLauf + bestehende.length}. Rubrik aus: ${CFG.rubriken.join(", ")}.
+- Wähle die wichtigsten Themen, höchstens ${CFG.maxNeueThemenProLauf + bestehende.length}. Neue Themen, die noch nicht in der App sind, haben Vorrang. Achte auf eine Mischung der Rubriken (auch Wirtschaft, Wissen & Klima und Sport), wenn es dort Themen mit mindestens 2 Medien gibt. Rubrik aus: ${CFG.rubriken.join(", ")}.
 - Keine reinen Service-, Ratgeber-, Kommentar- oder Liveblog-Meldungen.
 Antworte NUR mit JSON: {"themen":[{"id":"...","rubrik":"...","eil":false,"artikel":[0,5]}]}`, 2000);
 }
@@ -354,12 +354,24 @@ async function main() {
   // 1. Feeds lesen
   const artikel = [];
   for (const q of CFG.quellen) {
-    try {
-      const items = parseFeed(await holen(q.feed));
-      const frisch = items.filter(i => !i.datum || isNaN(i.datum) || jetzt - i.datum < 30 * 36e5).slice(0, 25);
-      frisch.forEach(i => artikel.push({ ...i, quelle: q.name, q }));
-      console.log(`✓ ${q.name}: ${frisch.length} Meldungen`);
-    } catch (e) { console.warn(`✗ ${q.name}: ${e.message}`); }
+    const feeds = [].concat(q.feeds || q.feed || []);
+    const gesehen = new Map();
+    let ok = 0;
+    for (const f of feeds) {
+      try {
+        for (const i of parseFeed(await holen(f))) {
+          if (i.datum && !isNaN(i.datum) && jetzt - i.datum > 30 * 36e5) continue;
+          const key = i.link.split("?")[0];
+          if (!gesehen.has(key)) gesehen.set(key, i);
+        }
+        ok++;
+      } catch (e) { console.warn(`  ✗ ${q.name} (${f}): ${e.message}`); }
+    }
+    const frisch = [...gesehen.values()]
+      .sort((a, b) => (b.datum && !isNaN(b.datum) ? +b.datum : 0) - (a.datum && !isNaN(a.datum) ? +a.datum : 0))
+      .slice(0, CFG.maxMeldungenProQuelle || 25);
+    frisch.forEach(i => artikel.push({ ...i, quelle: q.name, q }));
+    console.log(`${ok ? "✓" : "✗"} ${q.name}: ${frisch.length} Meldungen aus ${ok}/${feeds.length} Feeds`);
   }
   if (new Set(artikel.map(a => a.quelle)).size < 2) throw new Error("Zu wenige Quellen erreichbar.");
 

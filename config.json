@@ -9,7 +9,7 @@
     "anthropic": "claude-sonnet-5"
   },
   "pauseZwischenKiAnfragenSekunden": 15,
-  "maxNeueThemenProLauf": 4,
+  "maxNeueThemenProLauf": 8,
   "maxArtikelProThema": 5,
   "nachrichtenBehaltenStunden": 48,
   "maxNachrichten": 25,
@@ -32,63 +32,100 @@
       "typ": "öffentlich-rechtlich",
       "art": "öffentlich-rechtlich",
       "stamm": true,
-      "feed": "https://www.tagesschau.de/index~rss2.xml"
+      "feeds": [
+        "https://www.tagesschau.de/index~rss2.xml",
+        "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
+        "https://www.tagesschau.de/wissen/index~rss2.xml",
+        "https://www.tagesschau.de/ausland/index~rss2.xml"
+      ]
     },
     {
       "name": "ZDFheute",
       "typ": "öffentlich-rechtlich",
       "art": "öffentlich-rechtlich",
       "stamm": true,
-      "feed": "https://www.zdf.de/rss/zdf/nachrichten"
+      "feeds": [
+        "https://www.zdf.de/rss/zdf/nachrichten"
+      ]
     },
     {
       "name": "Deutschlandfunk",
       "typ": "öffentlich-rechtlich",
       "art": "öffentlich-rechtlich",
       "stamm": true,
-      "feed": "https://www.deutschlandfunk.de/nachrichten-100.rss"
+      "feeds": [
+        "https://www.deutschlandfunk.de/nachrichten-100.rss"
+      ]
     },
     {
       "name": "Spiegel",
       "typ": "Nachrichtenmagazin",
       "art": "privates Medium",
       "stamm": true,
-      "feed": "https://www.spiegel.de/schlagzeilen/index.rss"
+      "feeds": [
+        "https://www.spiegel.de/schlagzeilen/index.rss",
+        "https://www.spiegel.de/wirtschaft/index.rss",
+        "https://www.spiegel.de/sport/index.rss",
+        "https://www.spiegel.de/wissenschaft/index.rss",
+        "https://www.spiegel.de/ausland/index.rss"
+      ]
     },
     {
       "name": "Zeit",
       "typ": "Wochenzeitung",
       "art": "privates Medium",
       "stamm": true,
-      "feed": "https://newsfeed.zeit.de/index"
+      "feeds": [
+        "https://newsfeed.zeit.de/index",
+        "https://newsfeed.zeit.de/wirtschaft/index",
+        "https://newsfeed.zeit.de/sport/index",
+        "https://newsfeed.zeit.de/wissen/index"
+      ]
     },
     {
       "name": "Süddeutsche Zeitung",
       "typ": "Tageszeitung",
       "art": "privates Medium",
       "stamm": true,
-      "feed": "https://rss.sueddeutsche.de/rss/Topthemen"
+      "feeds": [
+        "https://rss.sueddeutsche.de/rss/Topthemen",
+        "https://rss.sueddeutsche.de/rss/Wirtschaft",
+        "https://rss.sueddeutsche.de/rss/Sport",
+        "https://rss.sueddeutsche.de/rss/Wissen"
+      ]
     },
     {
       "name": "FAZ",
       "typ": "Tageszeitung",
       "art": "privates Medium",
       "stamm": true,
-      "feed": "https://www.faz.net/rss/aktuell/"
+      "feeds": [
+        "https://www.faz.net/rss/aktuell/",
+        "https://www.faz.net/rss/aktuell/wirtschaft/",
+        "https://www.faz.net/rss/aktuell/sport/",
+        "https://www.faz.net/rss/aktuell/wissen/"
+      ]
     },
     {
       "name": "Deutsche Welle",
       "typ": "Auslandssender (öffentlich finanziert)",
       "art": "internationaler Sender",
       "stamm": true,
-      "feed": "https://rss.dw.com/rdf/rss-de-all"
+      "feeds": [
+        "https://rss.dw.com/rdf/rss-de-all"
+      ]
     },
     {
       "name": "BBC",
       "typ": "öffentlich-rechtlich (Großbritannien)",
       "art": "internationaler Sender",
       "stamm": true,
-      "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
+      "feeds": [
+        "https://feeds.bbci.co.uk/news/world/rss.xml",
+        "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+        "https://feeds.bbci.co.uk/sport/rss.xml"
+      ]
     }
   ],
   "archivMonate": 13,
@@ -118,5 +155,6 @@
     "Horror",
     "Chaos",
     "Hammer"
-  ]
+  ],
+  "maxMeldungenProQuelle": 60
 }
