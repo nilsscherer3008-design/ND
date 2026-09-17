@@ -9,7 +9,7 @@
     "anthropic": "claude-sonnet-5"
   },
   "pauseZwischenKiAnfragenSekunden": 15,
-  "maxNeueThemenProLauf": 8,
+  "maxNeueThemenProLauf": 5,
   "maxArtikelProThema": 5,
   "nachrichtenBehaltenStunden": 48,
   "maxNachrichten": 60,
@@ -156,5 +156,6 @@
     "Chaos",
     "Hammer"
   ],
-  "maxMeldungenProQuelle": 60
+  "maxMeldungenProQuelle": 60,
+  "bilder": true
 }

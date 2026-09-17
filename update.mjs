@@ -67,7 +67,7 @@ async function holen(url, ms = 15000) {
 export function artikelText(html) {
   const ohne = html.replace(/<(script|style|nav|header|footer|aside|form)\b[\s\S]*?<\/\1>/gi, " ");
   const absaetze = [...ohne.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(m => decode(m[1])).filter(t => t.length > 60);
-  return absaetze.join("\n").slice(0, 6000);
+  return absaetze.join("\n").slice(0, 10000);
 }
 
 export const istVideo = url => /\/video|\/videos\/|mediathek|\/av\//i.test(url);
@@ -188,32 +188,44 @@ Antworte NUR mit JSON: {"themen":[{"id":"...","rubrik":"...","eil":false,"artike
 
 async function themaSchreiben(thema, quellenTexte, altesThema) {
   const docs = quellenTexte.map(q => `### Quelle: ${q.name} (${q.typ})\nDatum: ${q.datum}\nTitel: ${q.titel}\nText:\n${q.text || q.teaser}`).join("\n\n");
-  const hinweis = altesThema ? `\nEs gibt schon eine Fassung dieses Themas. Überschreibe sie vollständig mit dem neuen Stand:\n${JSON.stringify({ titel: altesThema.titel, vorspann: altesThema.vorspann })}\n` : "";
+  const hinweis = altesThema ? `\nEs gibt schon eine Fassung dieses Themas. Schreibe sie vollständig mit dem neuen Stand neu. Bisheriger Titel: ${JSON.stringify(altesThema.titel)}. Bisherige Zeitleiste: ${JSON.stringify(altesThema.zeitleiste || [])}\n` : "";
   const namen = quellenTexte.map(q => q.name).join(", ");
   return ki(REGELN, `${docs}
 ${hinweis}
-Schreibe eine Nachricht zu diesem Thema (Rubrik: ${thema.rubrik}). Verfügbare Quellennamen: ${namen}.
+Schreibe einen ausführlichen, gut lesbaren Nachrichtenartikel zu diesem Thema (Rubrik: ${thema.rubrik}), wie in einer seriösen Nachrichten-App. Verfügbare Quellennamen: ${namen}.
+Nutze die Details aus den Berichten (Zahlen, Orte, Abläufe, Hintergründe), aber nur, was dort steht.
 Antworte NUR mit JSON in genau diesem Format:
 {
  "titel": "sachliche Überschrift",
- "vorspann": "1–2 Sätze",
+ "vorspann": "2 Sätze, die das Wichtigste enthalten",
  "eil": ${thema.eil ? "true" : "false"},
- "zusammenfassung": ["3 bis 5 kurze Absätze in einfacher Sprache"],
+ "wfragen": {"wer": "", "was": "", "wann": "", "wo": "", "wie": "", "warum": "Gründe mit Angabe, wer sie nennt – oder 'noch unklar'", "quellenlage": "Worauf stützen sich die Berichte? (Behörden, Augenzeugen, eigene Recherche …)"},
+ "artikel": [
+   {"ueberschrift": "Das ist passiert", "absaetze": ["2–4 Absätze"]},
+   {"ueberschrift": "Hintergrund", "absaetze": ["1–3 Absätze"]},
+   {"ueberschrift": "Reaktionen", "absaetze": ["1–3 Absätze, jede Aussage gekennzeichnet"]},
+   {"ueberschrift": "Wie geht es weiter?", "absaetze": ["1–2 Absätze, nur was in den Berichten angekündigt wird"]}
+ ],
+ "zusammenfassung": ["3 bis 5 kurze Absätze: die Kurzfassung"],
+ "zeitleiste": [["Datum oder Wochentag", "Ereignis in einem Satz"]],
  "einig": [["Fakt", ["Quellenname", "Quellenname"]]],
  "unklar": ["was noch nicht feststeht oder sich widerspricht, mit Angabe wer was sagt"],
  "positionen": [["Wer (Rolle)", "Aussage in eigenen Worten", "Quellenname(n)"]],
  "fehlend": "Welche Stimmen oder Seiten in den Berichten nicht vorkommen",
  "medien": [{"name": "Quellenname", "fokus": "Schwerpunkt in 2–5 Wörtern", "text": "2–3 Sätze: was dieser Bericht betont"}],
- "unterschiede": [["Stichwort (z. B. Ton, Stimmen, Weggelassenes)", "Erklärung"]]
-}`, 5000);
+ "unterschiede": [["Stichwort (z. B. Ton, Stimmen, Weggelassenes)", "Erklärung"]],
+ "bild": {"art": "person | ort | institution | symbol | keins", "suchbegriff": "Suchbegriff für ein freies Foto bei Wikimedia Commons, z. B. 'Ulf Kristersson' oder 'Reichstag building Berlin'"}
+}
+Regeln für "artikel": Abschnitte ohne Inhalt in den Berichten weglassen. Insgesamt 6–12 Absätze.
+Regeln für "zeitleiste": nur Schritte, die in den Berichten stehen; bei neuen Ereignissen ohne Vorgeschichte leere Liste.
+Regeln für "bild": Zeige nie das Ereignis selbst, sondern eine beteiligte Person, einen Ort, eine Institution oder ein neutrales Symbol. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER "keins".`, 9000);
 }
 
 // ---------- Zweiter Prüfdurchgang + Lernbereich ----------
 async function themaPruefen(entwurf, quellenTexte) {
-  const docs = quellenTexte.map(q => `### Quelle: ${q.name}\n${(q.text || q.teaser).slice(0, 4000)}`).join("\n\n");
-  const nachricht = { titel: entwurf.titel, vorspann: entwurf.vorspann, zusammenfassung: entwurf.zusammenfassung,
-    einig: entwurf.einig, unklar: entwurf.unklar, positionen: entwurf.positionen, fehlend: entwurf.fehlend,
-    medien: entwurf.medien.map(m => ({ name: m.name, fokus: m.fokus, text: m.text })), unterschiede: entwurf.unterschiede };
+  const docs = quellenTexte.map(q => `### Quelle: ${q.name}\n${(q.text || q.teaser).slice(0, 7000)}`).join("\n\n");
+  const { medien, geprueft, korrekturen, wortwarnung, lernen, einfach, video, bild, ...rest } = entwurf;
+  const nachricht = { ...rest, medien: medien.map(m => ({ name: m.name, fokus: m.fokus, text: m.text })), bild };
   return ki(REGELN, `Du bist die PRÜFREDAKTION. Hier sind die Originalberichte:
 ${docs}
 
@@ -223,17 +235,23 @@ ${JSON.stringify(nachricht)}
 Aufgabe 1 – Prüfen und korrigieren:
 - Prüfe JEDEN Satz gegen die Originalberichte. Was dort nicht steht, wird entfernt oder korrigiert.
 - Jeder Punkt in "einig" muss in ALLEN dort genannten Quellen stehen, und es müssen mindestens 2 sein. Sonst Quelle streichen oder Punkt nach "unklar" verschieben.
-- Zahlen, Namen, Daten und Orte genau mit den Quellen vergleichen.
+- Zahlen, Namen, Daten und Orte genau mit den Quellen vergleichen – auch in "artikel", "wfragen" und "zeitleiste".
+- Unbekanntes in "wfragen" als "noch unklar" angeben, nicht raten.
 - Aussagen von Beteiligten müssen als Aussage gekennzeichnet sein.
 - Wertende oder zuspitzende Wörter durch neutrale ersetzen (außer in gekennzeichneten Zitaten).
 - Beschreibe jede Änderung in "korrekturen" in einem kurzen Satz. Keine Änderung nötig: leere Liste.
 
-Aufgabe 2 – Lernmaterial für Schülerinnen und Schüler (nur aus Inhalten der geprüften Nachricht):
+Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften Nachricht):
+- "einfach": Vorspann und 3–5 kurze Absätze in einfacher Sprache (kurze Sätze, keine Fremdwörter ohne Erklärung) für Jugendliche ab 12.
+- "video": Sprechtexte zum Vorlesen, jeder Satz höchstens 20 Wörter, keine Abkürzungen, Zahlen so, dass man sie gut vorlesen kann.
+  "kurz": 2 Sätze. "lang": 3–4 Sätze. "einfach": 2–3 sehr einfache Sätze.
+
+Aufgabe 3 – Lernmaterial für Schülerinnen und Schüler:
 - "begriffe": 3–4 schwierige Begriffe aus der Nachricht, je 1–2 einfache Sätze Erklärung, ohne Wertung.
 - "fragen": 2–3 offene Diskussionsfragen, die keine Meinung vorgeben (z. B. zu Quellen, Wortwahl, Folgen).
 - "quiz": 3 Fragen mit je 3 Antworten; genau eine richtig; die richtige Antwort muss unter "einig" belegt sein.
 
-Antworte NUR mit JSON: {"nachricht": {gleiches Format wie der Entwurf}, "korrekturen": ["..."], "lernen": {"begriffe": [["Begriff","Erklärung"]], "fragen": ["..."], "quiz": [{"frage":"...","optionen":["...","...","..."],"richtig":0,"erklaerung":"..."}]}}`, 7000);
+Antworte NUR mit JSON: {"nachricht": {gleiches Format wie der Entwurf}, "korrekturen": ["..."], "einfach": {"vorspann": "...", "absaetze": ["..."]}, "video": {"kurz": ["..."], "lang": ["..."], "einfach": ["..."]}, "lernen": {"begriffe": [["Begriff","Erklärung"]], "fragen": ["..."], "quiz": [{"frage":"...","optionen":["...","...","..."],"richtig":0,"erklaerung":"..."}]}}`, 12000);
 }
 
 export function lernenPruefen(l) {
@@ -314,8 +332,92 @@ export function pruefen(entwurf, quellenTexte) {
     positionen: (entwurf.positionen || []).filter(p => Array.isArray(p) && p.length >= 2).map(p => [String(p[0]), String(p[1]), String(p[2] || "")]),
     fehlend: String(entwurf.fehlend || "In den verglichenen Berichten wurden keine fehlenden Stimmen festgestellt."),
     medien,
-    unterschiede: (entwurf.unterschiede || []).filter(u => Array.isArray(u) && u.length >= 2).map(u => [String(u[0]), String(u[1])])
+    unterschiede: (entwurf.unterschiede || []).filter(u => Array.isArray(u) && u.length >= 2).map(u => [String(u[0]), String(u[1])]),
+    wfragen: wfragenPruefen(entwurf.wfragen),
+    artikel: (entwurf.artikel || []).filter(a => a && a.ueberschrift && Array.isArray(a.absaetze) && a.absaetze.length)
+      .map(a => ({ ueberschrift: String(a.ueberschrift), absaetze: a.absaetze.map(String).filter(Boolean) })).slice(0, 6),
+    zeitleiste: (entwurf.zeitleiste || []).filter(z => Array.isArray(z) && z[0] && z[1]).map(z => [String(z[0]), String(z[1])]).slice(0, 12),
+    bild: entwurf.bild && typeof entwurf.bild === "object" ? { art: String(entwurf.bild.art || "keins").trim().toLowerCase(), suchbegriff: String(entwurf.bild.suchbegriff || "") } : undefined
   };
+}
+
+const W_FELDER = ["wer", "was", "wann", "wo", "wie", "warum", "quellenlage"];
+export function wfragenPruefen(w) {
+  if (!w || typeof w !== "object") return undefined;
+  const o = {};
+  for (const f of W_FELDER) if (w[f]) o[f] = String(w[f]).trim();
+  return Object.keys(o).length >= 4 ? o : undefined;
+}
+export function einfachPruefen(e) {
+  if (!e || !Array.isArray(e.absaetze) || !e.absaetze.length) return undefined;
+  return { vorspann: String(e.vorspann || ""), absaetze: e.absaetze.map(String).filter(Boolean).slice(0, 6) };
+}
+export function videoPruefen(v) {
+  if (!v || typeof v !== "object") return undefined;
+  const sätze = x => (Array.isArray(x) ? x : [x]).map(t => String(t || "").trim()).filter(Boolean).slice(0, 5);
+  const o = { kurz: sätze(v.kurz), lang: sätze(v.lang), einfach: sätze(v.einfach) };
+  return o.kurz.length || o.lang.length ? o : undefined;
+}
+
+// ---------- Fotos von Wikimedia Commons ----------
+const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd)/i;
+export async function bildSuchen(bild) {
+  if (!bild || !bild.suchbegriff || bild.art === "keins" || !["person", "ort", "institution", "symbol"].includes(bild.art)) return undefined;
+  const begriffe = [bild.suchbegriff, bild.suchbegriff.split(/\s+/).slice(0, 2).join(" ")].filter((b, i, a) => b && a.indexOf(b) === i);
+  for (const begriff of begriffe) {
+    const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
+      action: "query", format: "json", generator: "search", gsrnamespace: "6", gsrlimit: "8",
+      gsrsearch: `${begriff} filetype:bitmap`, prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1280"
+    });
+    try {
+      const r = await fetch(url, { headers: { "User-Agent": "NachrichtenHeft/1.0 (Schulprojekt; GitHub Pages)" } });
+      if (!r.ok) continue;
+      const seiten = Object.values((await r.json()).query?.pages || {}).sort((a, b) => (a.index || 0) - (b.index || 0));
+      for (const p of seiten) {
+        const ii = p.imageinfo?.[0]; const m = ii?.extmetadata || {};
+        const lizenz = decode(m.LicenseShortName?.value || "");
+        if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime) || (ii.width || 0) < 600 || !FREIE_LIZENZ.test(lizenz)) continue;
+        return {
+          url: ii.thumburl || ii.url, seite: ii.descriptionurl,
+          urheber: decode(m.Artist?.value || "unbekannt").slice(0, 90), lizenz,
+          lizenzUrl: m.LicenseUrl?.value || "", art: bild.art,
+          hinweis: bild.art === "symbol" ? "Symbolbild" : "Archivfoto"
+        };
+      }
+    } catch { /* nächster Versuch */ }
+  }
+  return undefined;
+}
+
+// ---------- Wochenrückblick ----------
+async function wochenrueckblick(jetzt, aktive, force) {
+  const datei = new URL("data/woche.json", ROOT);
+  const alt = await leseJson(datei, null);
+  const wochentag = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", weekday: "short" }).format(jetzt);
+  const alter = alt ? (jetzt - new Date(alt.erstellt)) / 36e5 : Infinity;
+  if (!force && !(alter > 7 * 24 || (wochentag.startsWith("So") && alter > 20))) return;
+  const grenze = jetzt - 7 * 864e5;
+  const monate = [...new Set([0, 8].map(t => berlinMonat(new Date(jetzt - t * 864e5).toISOString())))];
+  let kandidaten = [...aktive];
+  for (const m of monate) kandidaten.push(...await leseJson(new URL(`data/archiv/${m}.json`, ROOT), []));
+  const ids = new Set();
+  kandidaten = kandidaten.filter(n => new Date(n.zeit) >= grenze && !ids.has(n.id) && ids.add(n.id));
+  if (kandidaten.length < 3) return console.log("Wochenrückblick: noch zu wenige Themen.");
+  const liste = kandidaten.slice(0, 70).map(n => `[${n.id}] ${n.rubrik} | ${n.medien?.length || 0} Medien | ${n.titel}\n${[n.vorspann, ...(n.zusammenfassung || [])].join(" ").slice(0, 500)}`).join("\n\n");
+  try {
+    const erg = await ki(REGELN, `Hier sind die Nachrichten der letzten 7 Tage:\n${liste}\n
+Wähle die 6 bis 8 wichtigsten, möglichst unterschiedlichen Themen der Woche (verschiedene Rubriken, keine Doppelungen).
+Schreibe zu jedem 3 neutrale Sprechsätze zum Vorlesen (je höchstens 20 Wörter), NUR aus dem mitgelieferten Text.
+Antworte NUR mit JSON: {"themen": [{"id": "...", "saetze": ["...", "...", "..."]}]}`, 4000);
+    const themen = (erg.themen || []).map(t => {
+      const n = kandidaten.find(k => k.id === t.id);
+      const saetze = (t.saetze || []).map(String).filter(Boolean).slice(0, 4);
+      return n && saetze.length ? { id: n.id, titel: n.titel, rubrik: n.rubrik, zeit: n.zeit, bild: n.bildInfo, saetze } : null;
+    }).filter(Boolean).slice(0, 8);
+    if (themen.length < 3) return console.warn("Wochenrückblick: zu wenige gültige Themen.");
+    await fs.writeFile(datei, JSON.stringify({ erstellt: jetzt.toISOString(), von: new Date(grenze).toISOString(), bis: jetzt.toISOString(), themen }, null, 1));
+    console.log(`Wochenrückblick erstellt: ${themen.length} Themen`);
+  } catch (e) { console.warn("Wochenrückblick fehlgeschlagen: " + e.message); }
 }
 
 export function aufraeumen(nachrichten, jetzt, cfg) {
@@ -407,18 +509,33 @@ async function main() {
     try {
       let entwurf = pruefen(await themaSchreiben(t, quellenTexte, altesThema), quellenTexte);
       if (!entwurf.titel || entwurf.einig.length === 0) { console.warn(`Übersprungen (keine belegten Fakten): ${t.id}`); continue; }
-      let geprueft = false, korrekturen = [], lernen;
+      let geprueft = false, korrekturen = [], lernen, einfach, video;
       try {
         const pr = await themaPruefen(entwurf, quellenTexte);
         const korrigiert = pruefen({ ...pr.nachricht, eil: entwurf.eil }, quellenTexte);
+        if (!korrigiert.bild) korrigiert.bild = entwurf.bild;
         if (korrigiert.titel && korrigiert.einig.length > 0) {
           entwurf = korrigiert; geprueft = true;
           korrekturen = (pr.korrekturen || []).map(String).slice(0, 12);
           lernen = lernenPruefen(pr.lernen);
+          einfach = einfachPruefen(pr.einfach);
+          video = videoPruefen(pr.video);
           console.log(`  Prüfung: ${korrekturen.length} Korrektur(en)`);
         } else console.warn("  Prüfung lieferte keine gültige Fassung – Entwurf bleibt, als ungeprüft markiert.");
       } catch (e) { console.warn(`  Prüfung fehlgeschlagen: ${e.message}`); }
-      const wortwarnung = wertendeWoerterFinden(entwurf, CFG.wertendeWoerter);
+      const alleTexte = { ...entwurf, zusammenfassung: [...entwurf.zusammenfassung, ...entwurf.artikel.flatMap(a => a.absaetze)] };
+      const wortwarnung = wertendeWoerterFinden(alleTexte, CFG.wertendeWoerter);
+      // Zeitleiste mit der bisherigen Fassung zusammenführen
+      if (altesThema?.zeitleiste?.length) {
+        const bekannt = new Set(entwurf.zeitleiste.map(z => z[1]));
+        entwurf.zeitleiste = [...altesThema.zeitleiste.filter(z => !bekannt.has(z[1])), ...entwurf.zeitleiste].slice(-12);
+      }
+      // Foto: bei gleichem Suchbegriff das bisherige behalten
+      let bildInfo = altesThema?.bildInfo && altesThema?.bild?.suchbegriff === entwurf.bild?.suchbegriff ? altesThema.bildInfo : undefined;
+      if (!bildInfo && CFG.bilder !== false) {
+        bildInfo = await bildSuchen(entwurf.bild);
+        console.log(bildInfo ? `  Foto: ${bildInfo.urheber} (${bildInfo.lizenz})` : `  Kein Foto (${entwurf.bild?.art || "–"})`);
+      }
       if (wortwarnung.length) console.warn(`  Wertende Wörter gefunden: ${wortwarnung.join(", ")}`);
       const neuesteZeit = quellenTexte.map(q => q.datum).filter(d => d !== "unbekannt").sort().pop() || jetzt.toISOString();
       ergebnis.set(t.id, {
@@ -426,7 +543,7 @@ async function main() {
         zeit: neuesteZeit,
         aktualisiert: altesThema ? `aktualisiert um ${berlinUhr(jetzt)} Uhr` : undefined,
         ...entwurf,
-        geprueft, korrekturen, wortwarnung, lernen
+        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo
       });
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);
@@ -435,6 +552,7 @@ async function main() {
 
   const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
   const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
+  await wochenrueckblick(jetzt, nachrichten, !!process.env.FORCE_WOCHE);
   if (altListe.length) console.log(`Archiviert: ${altListe.length} (Archiv gesamt: ${imArchiv})`);
 
   // 4. Eilmeldungen pushen (nur neue, höchstens 6 Stunden alt)

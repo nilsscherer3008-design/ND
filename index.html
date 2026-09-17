@@ -174,6 +174,75 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .btn{font-family:var(--head);font-weight:700;font-size:1rem;border:0;border-radius:999px;padding:11px 20px;min-height:46px;cursor:pointer;background:var(--bar-2);color:#fff}
 .btn.hell{background:var(--card);color:var(--ink);border:1px solid var(--line)}
 .status{font-family:var(--head);font-size:.92rem}
+.abschnitt{font-family:var(--head);font-size:1.1rem;margin:0 0 10px}
+.videos{margin:0 0 22px}
+.vreihe{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory}
+.vkarte{flex:0 0 210px;scroll-snap-align:start;position:relative;height:120px;border-radius:12px;overflow:hidden;background:var(--bar);color:#fff;text-decoration:none;display:flex;align-items:flex-end}
+.vkarte img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45}
+.vk-text{position:relative;padding:10px 12px;display:flex;flex-direction:column;gap:2px;background:linear-gradient(transparent,rgba(0,0,0,.55));width:100%}
+.vk-text b{font-family:var(--head);font-size:1rem}
+.vk-text small{font-family:var(--head);font-size:.78rem;opacity:.85}
+.card{display:grid;grid-template-columns:1fr auto;gap:0 14px}
+.card > *{grid-column:1}
+.card .thumb{grid-column:2;grid-row:1 / span 3;width:96px;height:96px;border-radius:10px;object-fit:cover;align-self:start;margin-top:4px}
+@media (max-width:420px){.card .thumb{width:72px;height:72px}}
+.hero{position:relative;margin:16px 0 8px;border-radius:14px;overflow:hidden;background:var(--bar);aspect-ratio:16/9}
+.hero img{width:100%;height:100%;object-fit:cover;display:block}
+.hero .tafel{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:800;color:rgba(255,255,255,.18);font-size:clamp(2rem,9vw,4rem);text-align:center;padding:10px}
+.hero-play{position:absolute;left:14px;bottom:14px;font-family:var(--head);font-weight:700;background:rgba(0,0,0,.72);color:#fff;border:0;border-radius:999px;padding:10px 18px;min-height:46px;cursor:pointer;font-size:1rem}
+.bildnachweis{font-family:var(--head);font-size:.76rem;color:var(--muted);margin:0 0 6px}
+.bildnachweis a{color:inherit}
+.stufen{display:inline-flex;background:var(--surface);border-radius:999px;padding:4px;margin:18px 0 4px}
+.stufen button{font-family:var(--head);font-weight:700;border:0;background:transparent;color:var(--muted);border-radius:999px;padding:8px 16px;min-height:40px;cursor:pointer}
+.stufen button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.wfragen{margin-top:16px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.wfragen h2{font-family:var(--head);font-size:1rem;margin:0;padding:10px 16px;background:var(--bar);color:#fff}
+.wfragen dl{margin:0;display:grid;grid-template-columns:auto 1fr}
+.wfragen dt,.wfragen dd{margin:0;padding:9px 14px;border-top:1px solid var(--line)}
+.wfragen dt{font-family:var(--head);font-weight:700;background:var(--surface);white-space:nowrap}
+.wfragen dd.offen{color:var(--muted);font-style:italic}
+.artikel h3{font-family:var(--head);font-size:1.15rem;margin:24px 0 8px}
+.zeitleiste{list-style:none;margin:0;padding:0 0 0 18px;border-left:3px solid var(--bar-2)}
+.zeitleiste li{position:relative;padding:4px 0 12px 12px}
+.zeitleiste li::before{content:"";position:absolute;left:-26px;top:10px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--bar-2)}
+.zeitleiste b{font-family:var(--head);display:block;font-size:.9rem;color:var(--muted)}
+#player{position:fixed;inset:0;z-index:100;background:#05080d;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:10px;outline:none}
+.pl-kopf{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:10px 14px;font-family:var(--head);font-weight:700}
+.pl-x{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:1.1rem;cursor:pointer}
+.pl-buehne{position:relative;overflow:hidden;border-radius:12px;background:#0D2B55}
+.pl-buehne.quer{width:min(96vw,calc((100vh - 150px)*16/9));aspect-ratio:16/9}
+.pl-buehne.hoch{height:min(calc(100vh - 150px),calc(96vw*16/9));aspect-ratio:9/16}
+.pl-buehne:fullscreen{width:100vw;height:100vh;border-radius:0;aspect-ratio:auto}
+.pl-fortschritt{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px;z-index:3}
+.pl-fortschritt i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28)}
+.pl-fortschritt i.fertig,.pl-fortschritt i.jetzt{background:#fff}
+.pl-bild{position:absolute;inset:0}
+.pl-bild img{width:100%;height:100%;object-fit:cover;animation:zoom 14s ease-out forwards}
+@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.08)}}
+@media (prefers-reduced-motion:reduce){.pl-bild img{animation:none}}
+.pl-bild::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,15,30,.55) 0%,rgba(5,15,30,.1) 35%,rgba(5,15,30,.85) 100%)}
+.pl-bild.tafel{background:linear-gradient(135deg,#0D2B55,#16407A)}
+.pl-bild.tafel.gelb{background:linear-gradient(135deg,#5a4a10,#8C7520)}
+.pl-bild.tafel.rot{background:linear-gradient(135deg,#7a1020,#C41E2E)}
+.pl-credit{position:absolute;right:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);background:rgba(0,0,0,.5);padding:2px 8px;border-radius:6px;max-width:70%;text-align:right}
+.pl-inhalt{position:absolute;left:0;right:0;bottom:22%;padding:0 5%;z-index:2}
+.hoch .pl-inhalt{bottom:26%}
+.pl-logo{font-family:var(--head);font-weight:800;font-size:clamp(1rem,3vw,1.6rem)}
+.pl-logo span{color:#B9C8DE;font-weight:600}
+.pl-rubrik{font-family:var(--head);font-weight:700;font-size:clamp(.72rem,1.8vw,1rem);text-transform:uppercase;letter-spacing:.06em;color:#B9C8DE}
+.pl-eil{background:#C41E2E;color:#fff;padding:1px 8px;border-radius:4px;margin-right:6px}
+.pl-titel{font-family:var(--head);font-weight:800;font-size:clamp(1.1rem,3.6vw,2.3rem);line-height:1.12;margin:6px 0 10px;text-shadow:0 2px 12px rgba(0,0,0,.4)}
+.hoch .pl-titel{font-size:clamp(1.1rem,5.5vw,1.8rem)}
+.pl-chips{display:flex;flex-wrap:wrap;gap:6px}
+.pl-chips span{font-family:var(--head);font-size:clamp(.66rem,1.6vw,.9rem);background:rgba(255,255,255,.14);border-radius:999px;padding:3px 10px}
+.pl-link{display:inline-block;margin-top:10px;font-family:var(--head);font-weight:700;color:#fff;font-size:clamp(.72rem,1.6vw,.95rem)}
+.pl-ut{position:absolute;left:4%;right:4%;bottom:5%;z-index:2;text-align:center;font-family:var(--body);font-size:clamp(.85rem,2.2vw,1.35rem);line-height:1.35}
+.pl-ut:not(:empty){background:rgba(0,0,0,.72);padding:6px 12px;border-radius:8px}
+.pl-marke{position:absolute;left:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);opacity:.8}
+.pl-start{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#0D2B55;font-size:2rem;cursor:pointer;z-index:4}
+.pl-steuer{display:flex;gap:8px}
+.pl-steuer button{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;width:48px;height:48px;font-size:1.15rem;cursor:pointer}
+.pl-steuer .pl-haupt{width:60px;background:#fff;color:#0D2B55}
 </style>
 </head>
 <body>
@@ -276,7 +345,7 @@ function karte(n, archiv){
   return `<a class="card" href="#/n/${esc(n.id)}">
     <div class="meta">${n.eil && !archiv ? '<span class="eil-tag">Eil</span>' : ""}
       <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>${anzahl}</div>
-    <h3>${esc(n.titel)}</h3><p>${esc(n.vorspann)}</p></a>`;
+    <h3>${esc(n.titel)}</h3><p>${esc(n.vorspann)}</p>${n.bild && n.bild.url ? `<img class="thumb" src="${esc(n.bild.url)}" alt="" loading="lazy">` : n.bildInfo ? `<img class="thumb" src="${esc(n.bildInfo.url)}" alt="" loading="lazy">` : ""}</a>`;
 }
 const zurueck = `<a class="back" href="#/">← Alle Nachrichten</a>`;
 const istIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -294,6 +363,7 @@ function startseite(rubrik){
     html += `<a class="eil" href="#/n/${esc(eil.id)}"><div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit))}</div>
       <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
   }
+  if (rubrik === "Alle") html += videoLeiste();
   html += liste.length ? `<div class="list">${liste.map(n => karte(n)).join("")}</div>`
     : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. Ältere Nachrichten findest du im <a href="#/archiv">Archiv</a>.</div>`;
   if (rubrik === "Alle"){
@@ -450,6 +520,9 @@ function meldenAktivieren(n){
 
 function detail(n, archiv){
   document.getElementById("rubNav").hidden = true;
+  AKTUELLE_DETAIL = n;
+  let stufe = "ausfuehrlich";
+  try { stufe = localStorage.getItem("heft-stufe") || "ausfuehrlich"; } catch {}
   const quellen = n.medien.map(m => `<article class="src">
       <div class="src-head"><span class="src-name">${esc(m.name)}</span>${m.ort ? `<span class="src-date">${esc(m.ort)}</span>` : ""}<span class="typ">${esc(m.typ)}</span></div>
       <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
@@ -464,9 +537,20 @@ function detail(n, archiv){
       <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>
       <span class="check">✓ ${n.medien.length} Medien verglichen</span></div>
     <h1>${esc(n.titel)}</h1>
-    <p class="lead">${esc(n.vorspann)}</p>
+    <p class="lead">${esc(stufe === "einfach" && n.einfach?.vorspann ? n.einfach.vorspann : n.vorspann)}</p>
+    <div class="hero">${n.bildInfo ? `<img src="${esc(n.bildInfo.url)}" alt="${esc(n.bildInfo.hinweis)}">` : `<div class="tafel">${esc(n.rubrik)}</div>`}
+      <button class="hero-play" id="clipBtn">▶ Clip ansehen · ca. ${dauerText(dauerSek(segmenteBauen("clip", n.id)))}</button></div>
+    ${n.bildInfo ? `<p class="bildnachweis">${esc(n.bildInfo.hinweis)} · Foto: ${esc(n.bildInfo.urheber)} / <a href="${esc(n.bildInfo.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${n.bildInfo.lizenzUrl ? `<a href="${esc(n.bildInfo.lizenzUrl)}" target="_blank" rel="noopener">${esc(n.bildInfo.lizenz)}</a>` : esc(n.bildInfo.lizenz)}</p>` : ""}
     ${n.aktualisiert ? `<p class="update">${esc(n.aktualisiert)}</p>` : ""}
-    <section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>
+    ${n.wfragen ? `<div class="wfragen"><h2>Die W-Fragen</h2><dl>${[["Wer?","wer"],["Was?","was"],["Wann?","wann"],["Wo?","wo"],["Wie?","wie"],["Warum?","warum"],["Woher wissen wir das?","quellenlage"]]
+      .filter(([,k]) => n.wfragen[k]).map(([l,k]) => `<dt>${l}</dt><dd class="${/noch unklar/i.test(n.wfragen[k]) ? "offen" : ""}">${esc(n.wfragen[k])}</dd>`).join("")}</dl></div>` : ""}
+    ${n.einfach || n.artikel?.length ? `<div class="stufen" role="group" aria-label="Textfassung"><button data-s="einfach" aria-pressed="${stufe === "einfach"}">Einfach</button><button data-s="ausfuehrlich" aria-pressed="${stufe !== "einfach"}">Ausführlich</button></div>` : ""}
+    ${stufe === "einfach" && n.einfach
+      ? `<section class="block artikel"><h2>Einfach erklärt</h2>${n.einfach.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}</section>`
+      : n.artikel?.length
+        ? `<section class="block artikel">${n.artikel.map((a, i) => `${i === 0 ? `<h2>${esc(a.ueberschrift)}</h2>` : `<h3>${esc(a.ueberschrift)}</h3>`}${a.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}`).join("")}</section>`
+        : `<section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>`}
+    ${n.zeitleiste?.length >= 2 ? `<section class="block"><h2>Zeitleiste</h2><ol class="zeitleiste">${n.zeitleiste.map(([d,e]) => `<li><b>${esc(d)}</b>${esc(e)}</li>`).join("")}</ol></section>` : ""}
     <section class="block"><h2>Darin sind sich alle Medien einig</h2>
       <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x => `<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul></section>
     ${n.unklar?.length ? `<section class="block"><h2>Noch unklar oder umstritten</h2><div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></section>` : ""}
@@ -483,6 +567,11 @@ function detail(n, archiv){
   </article>`;
   if (n.lernen?.quiz?.length) quizAktivieren(n.lernen);
   meldenAktivieren(n);
+  document.getElementById("clipBtn").onclick = () => { PLAYER.zurueck = location.hash; location.hash = `#/video/clip/${n.id}`; };
+  document.querySelectorAll(".stufen button").forEach(b => b.onclick = () => {
+    try { localStorage.setItem("heft-stufe", b.dataset.s); } catch {}
+    const y = scrollY; detail(n, archiv); scrollTo(0, y);
+  });
 }
 
 async function detailSuchen(id){
@@ -495,10 +584,223 @@ async function detailSuchen(id){
   $app.innerHTML = `${zurueck}<div class="empty" style="margin-top:16px"><strong>Diese Nachricht wurde nicht gefunden.</strong><br>Vielleicht ist sie älter als 13 Monate oder du bist offline.</div>`;
 }
 
+/* ================= Video-Player ================= */
+const FORMATE = {
+  "100s":    { name:"Heft in 100 Sekunden", kurz:"100 Sekunden", quer:true },
+  "haupt":   { name:"Hauptausgabe", kurz:"Hauptausgabe", quer:true },
+  "einfach": { name:"Einfach erklärt", kurz:"Einfach erklärt", quer:true, rate:0.92 },
+  "woche":   { name:"Wochenrückblick", kurz:"Woche", quer:true },
+  "clip":    { name:"Clip", kurz:"Clip", quer:false }
+};
+let WOCHE = null;
+const saetzeAus = t => String(t || "").match(/[^.!?]+[.!?]+["“”]?|[^.!?]+$/g)?.map(x => x.trim()).filter(Boolean) || [];
+const erste = (arr, n) => (arr || []).flatMap(saetzeAus).slice(0, n);
+const aktuelle = () => [...NACHRICHTEN].filter(n => Date.now() - new Date(n.zeit) < 30*36e5).sort((a,b) => (b.eil - a.eil) || b.zeit.localeCompare(a.zeit));
+const wichtigste = (liste, n) => [...liste].sort((a,b) => (b.eil - a.eil) || (b.medien.length - a.medien.length) || b.zeit.localeCompare(a.zeit)).slice(0, n);
+const wChips = w => w ? [["Wer", w.wer], ["Was", w.was], ["Wo", w.wo], ["Wann", w.wann]].filter(([,v]) => v && !/noch unklar/i.test(v)) : [];
+
+function segmenteBauen(format, id){
+  const datum = berlin(new Date(), { weekday:"long", day:"numeric", month:"long" });
+  const intro = titel => ({ typ:"intro", titel, saetze:[`Nachrichten-Heft. ${titel} vom ${datum}.`] });
+  const outro = { typ:"outro", titel:"Mehr im Nachrichten-Heft", saetze:["Alle Hintergründe und Quellen findest du im Nachrichten-Heft."] };
+  const thema = (n, saetze, extra = {}) => ({ typ:"thema", id:n.id, rubrik:n.rubrik, titel:n.titel, eil:n.eil, bild:n.bildInfo, chips:wChips(n.wfragen), saetze, ...extra });
+  let s = [];
+  if (format === "100s"){
+    const liste = wichtigste(aktuelle(), 5);
+    s = [intro("Heft in 100 Sekunden"), ...liste.map(n => thema(n, n.video?.kurz?.length ? n.video.kurz : erste([n.vorspann], 2))), outro];
+  } else if (format === "haupt"){
+    const liste = aktuelle().slice(0, 12);
+    s = [intro("Die Hauptausgabe")];
+    liste.forEach(n => {
+      s.push(thema(n, n.video?.lang?.length ? n.video.lang : erste([n.vorspann, ...(n.zusammenfassung||[])], 4)));
+      if (n.unklar?.length) s.push({ ...thema(n, erste([n.unklar[0]], 2)), typ:"unklar" });
+    });
+    s.push(outro);
+  } else if (format === "einfach"){
+    const liste = wichtigste(aktuelle(), 3);
+    s = [intro("Einfach erklärt")];
+    liste.forEach(n => {
+      s.push(thema(n, n.video?.einfach?.length ? n.video.einfach : erste([n.einfach?.vorspann || n.vorspann, ...(n.einfach?.absaetze || [])], 3)));
+      const b = n.lernen?.begriffe?.[0];
+      if (b) s.push({ typ:"begriff", id:n.id, rubrik:"Begriff erklärt", titel:b[0], saetze:[`Was bedeutet eigentlich ${b[0]}?`, ...saetzeAus(b[1]).slice(0,2)] });
+    });
+    s.push(outro);
+  } else if (format === "woche" && WOCHE){
+    s = [{ typ:"intro", titel:"Wochenrückblick", saetze:[`Nachrichten-Heft. Der Wochenrückblick bis ${berlin(new Date(WOCHE.bis), { weekday:"long", day:"numeric", month:"long" })}.`] },
+      ...WOCHE.themen.map(t => ({ typ:"thema", id:t.id, rubrik:t.rubrik, titel:t.titel, bild:t.bild, chips:[], saetze:t.saetze })), outro];
+  } else if (format === "clip"){
+    const n = NACHRICHTEN.find(x => x.id === id) || AKTUELLE_DETAIL;
+    if (!n) return [];
+    s = [thema(n, n.video?.lang?.length ? n.video.lang : erste([n.vorspann, ...(n.zusammenfassung||[])], 4))];
+    if (n.unklar?.length) s.push({ ...thema(n, erste([n.unklar[0]], 2)), typ:"unklar" });
+  }
+  return s.filter(x => x.saetze?.length);
+}
+const dauerSek = segs => Math.round(segs.reduce((t, s) => t + s.saetze.join(" ").split(/\s+/).length, 0) / 2.5 + segs.length * 1.2);
+const dauerText = sek => sek < 90 ? `${Math.max(30, Math.round(sek/10)*10)} Sek.` : `${Math.round(sek/60)} Min.`;
+
+let AKTUELLE_DETAIL = null;
+const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, format:null, zurueck:"#/" };
+
+function stimmeWaehlen(){
+  const v = speechSynthesis?.getVoices?.() || [];
+  return v.find(x => /de[-_]DE/i.test(x.lang) && /google|natural|neural|premium|enhanced/i.test(x.name)) || v.find(x => /^de/i.test(x.lang));
+}
+function playerOeffnen(format, id){
+  const segs = segmenteBauen(format, id);
+  const f = FORMATE[format];
+  PLAYER.zurueck = PLAYER.zurueck && !location.hash.startsWith("#/video") ? PLAYER.zurueck : (id ? `#/n/${id}` : "#/");
+  document.getElementById("player")?.remove();
+  const el = document.createElement("div");
+  el.id = "player"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", f.name);
+  el.innerHTML = `<div class="pl-kopf"><span>${esc(f.name)}</span><button class="pl-x" aria-label="Video schließen">✕</button></div>
+    <div class="pl-buehne ${f.quer ? "quer" : "hoch"}">
+      <div class="pl-fortschritt"></div>
+      <div class="pl-bild"></div>
+      <div class="pl-inhalt"></div>
+      <div class="pl-ut" aria-live="polite"></div>
+      <div class="pl-marke">KI-Zusammenfassung · Computerstimme</div>
+      <button class="pl-start">▶</button>
+    </div>
+    <div class="pl-steuer">
+      <button data-a="zurueck" aria-label="Vorheriges Thema">⏮</button>
+      <button data-a="play" aria-label="Abspielen oder Pause" class="pl-haupt">▶</button>
+      <button data-a="weiter" aria-label="Nächstes Thema">⏭</button>
+      <button data-a="ton" aria-label="Ton an oder aus">🔊</button>
+      <button data-a="ut" aria-label="Untertitel an oder aus">💬</button>
+      <button data-a="voll" aria-label="Vollbild">⛶</button>
+    </div>`;
+  document.body.appendChild(el);
+  document.body.style.overflow = "hidden";
+  Object.assign(PLAYER, { segs, si:0, ti:0, spielt:false, format });
+  if (!segs.length){
+    el.querySelector(".pl-inhalt").innerHTML = `<div class="pl-titel">Gerade gibt es nicht genug Nachrichten für dieses Format.</div>`;
+    el.querySelector(".pl-start").remove();
+  } else zeigen();
+  el.querySelector(".pl-x").onclick = playerSchliessen;
+  el.querySelector(".pl-start")?.addEventListener("click", () => abspielen());
+  el.querySelectorAll(".pl-steuer button").forEach(b => b.onclick = () => steuern(b.dataset.a));
+  el.addEventListener("keydown", e => {
+    if (e.key === " "){ e.preventDefault(); steuern("play"); }
+    if (e.key === "ArrowRight") steuern("weiter");
+    if (e.key === "ArrowLeft") steuern("zurueck");
+    if (e.key === "Escape") playerSchliessen();
+  });
+  el.tabIndex = -1; el.focus();
+}
+function playerSchliessen(){
+  stopp();
+  document.getElementById("player")?.remove();
+  document.body.style.overflow = "";
+  if (document.fullscreenElement) document.exitFullscreen().catch(()=>{});
+  const ziel = PLAYER.zurueck || "#/"; PLAYER.zurueck = null;
+  if (location.hash.startsWith("#/video")) location.hash = ziel;
+}
+function zeigen(){
+  const el = document.getElementById("player"); if (!el) return;
+  const s = PLAYER.segs[PLAYER.si];
+  el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((_, i) => `<i class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}"></i>`).join("");
+  const bild = el.querySelector(".pl-bild");
+  bild.className = "pl-bild " + (s.bild ? "foto" : "tafel") + (s.typ === "unklar" ? " gelb" : "") + (s.eil ? " rot" : "");
+  bild.innerHTML = s.bild ? `<img src="${esc(s.bild.url)}" alt=""><span class="pl-credit">${esc(s.bild.hinweis)} · Foto: ${esc(s.bild.urheber)} / Wikimedia Commons · ${esc(s.bild.lizenz)}</span>` : "";
+  const kopfzeile = s.typ === "intro" || s.typ === "outro" ? `<div class="pl-logo">Nachrichten-Heft <span>· neutral</span></div>`
+    : `<div class="pl-rubrik">${s.eil && s.typ !== "unklar" ? '<b class="pl-eil">EILMELDUNG</b> ' : ""}${s.typ === "unklar" ? "⚠ Noch unklar" : esc(s.rubrik)}</div>`;
+  el.querySelector(".pl-inhalt").innerHTML = `${kopfzeile}
+    <div class="pl-titel">${esc(s.titel)}</div>
+    ${s.chips?.length && s.typ === "thema" ? `<div class="pl-chips">${s.chips.map(([k,v]) => `<span><b>${k}:</b> ${esc(v.length > 60 ? v.slice(0,57) + "…" : v)}</span>`).join("")}</div>` : ""}
+    ${s.id && PLAYER.format !== "clip" ? `<a class="pl-link" href="#/n/${esc(s.id)}">Ganzen Artikel lesen →</a>` : ""}`;
+  el.querySelector(".pl-inhalt .pl-link")?.addEventListener("click", () => { stopp(); document.getElementById("player")?.remove(); document.body.style.overflow = ""; PLAYER.zurueck = null; });
+  untertitel();
+}
+function untertitel(){
+  const el = document.getElementById("player"); if (!el) return;
+  const s = PLAYER.segs[PLAYER.si];
+  const ut = el.querySelector(".pl-ut");
+  ut.textContent = PLAYER.untertitel ? (s.saetze[PLAYER.ti] || "") : "";
+  ut.hidden = !PLAYER.untertitel;
+}
+function knoepfe(){
+  const el = document.getElementById("player"); if (!el) return;
+  el.querySelector('[data-a="play"]').textContent = PLAYER.spielt ? "⏸" : "▶";
+  el.querySelector('[data-a="ton"]').textContent = PLAYER.stumm ? "🔇" : "🔊";
+  el.querySelector('[data-a="ut"]').style.opacity = PLAYER.untertitel ? 1 : .5;
+  const st = el.querySelector(".pl-start"); if (st) st.hidden = PLAYER.spielt || PLAYER.si > 0 || PLAYER.ti > 0;
+}
+function stopp(){
+  PLAYER.spielt = false; clearTimeout(PLAYER.timer);
+  try { speechSynthesis.cancel(); } catch {}
+  knoepfe();
+}
+function abspielen(){
+  if (!PLAYER.segs.length) return;
+  PLAYER.spielt = true; knoepfe(); sprechen();
+}
+function sprechen(){
+  if (!PLAYER.spielt) return;
+  const s = PLAYER.segs[PLAYER.si];
+  const satz = s.saetze[PLAYER.ti];
+  untertitel();
+  const weiter = () => {
+    if (!PLAYER.spielt) return;
+    PLAYER.ti++;
+    if (PLAYER.ti >= s.saetze.length){
+      PLAYER.ti = 0; PLAYER.si++;
+      if (PLAYER.si >= PLAYER.segs.length){ PLAYER.si = PLAYER.segs.length - 1; PLAYER.ti = s.saetze.length - 1; stopp(); return; }
+      clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(() => { zeigen(); sprechen(); }, 700); return;
+    }
+    sprechen();
+  };
+  const lesezeit = Math.max(1800, satz.split(/\s+/).length * 400);
+  if (PLAYER.stumm || !("speechSynthesis" in window)){
+    clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(weiter, lesezeit + 500); return;
+  }
+  const u = new SpeechSynthesisUtterance(satz);
+  u.lang = "de-DE"; const v = stimmeWaehlen(); if (v) u.voice = v;
+  u.rate = FORMATE[PLAYER.format]?.rate || 1;
+  let fertig = false;
+  const ende = () => { if (fertig) return; fertig = true; clearTimeout(PLAYER.timer); weiter(); };
+  u.onend = ende; u.onerror = e => { if (e.error !== "interrupted" && e.error !== "canceled") ende(); };
+  clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(ende, lesezeit * 2.5 + 3000); // Sicherheitsnetz
+  speechSynthesis.cancel(); speechSynthesis.speak(u);
+}
+function steuern(a){
+  const P = PLAYER;
+  if (a === "play") return P.spielt ? stopp() : abspielen();
+  if (a === "weiter" || a === "zurueck"){
+    const lief = P.spielt; stopp();
+    P.si = Math.max(0, Math.min(P.segs.length - 1, P.si + (a === "weiter" ? 1 : -1))); P.ti = 0;
+    zeigen(); if (lief) abspielen(); else knoepfe(); return;
+  }
+  if (a === "ton"){ const lief = P.spielt; stopp(); P.stumm = !P.stumm; if (lief) abspielen(); else knoepfe(); return; }
+  if (a === "ut"){ P.untertitel = !P.untertitel; untertitel(); knoepfe(); return; }
+  if (a === "voll"){
+    const b = document.querySelector("#player .pl-buehne");
+    if (document.fullscreenElement) document.exitFullscreen(); else (b.requestFullscreen || b.webkitRequestFullscreen)?.call(b);
+  }
+}
+if ("speechSynthesis" in window) speechSynthesis.onvoiceschanged = () => {};
+
+function videoLeiste(){
+  const liste = [
+    ["100s", "▶ Heft in 100 Sekunden"], ["haupt", "▶ Hauptausgabe"], ["einfach", "▶ Einfach erklärt"]
+  ].concat(WOCHE ? [["woche", "▶ Wochenrückblick"]] : []);
+  const karten = liste.map(([f, t]) => {
+    const segs = segmenteBauen(f);
+    if (segs.length < 3) return "";
+    const bild = segs.find(s => s.bild)?.bild;
+    return `<a class="vkarte" href="#/video/${f}">${bild ? `<img src="${esc(bild.url)}" alt="" loading="lazy">` : ""}
+      <span class="vk-text"><b>${t}</b><small>ca. ${dauerText(dauerSek(segs))} · ${segs.filter(s => s.typ === "thema").length} Themen</small></span></a>`;
+  }).join("");
+  return karten ? `<section class="videos"><h2 class="abschnitt">Videos</h2><div class="vreihe">${karten}</div></section>` : "";
+}
+
 /* ---------- Navigation ---------- */
 function route(){
   const h = decodeURIComponent(location.hash || "#/");
   let m;
+  if ((m = h.match(/^#\/video\/clip\/(.+)$/))) { if (!document.getElementById("app").querySelector(".detail")) detailSuchen(m[1]).then(() => playerOeffnen("clip", m[1])); else playerOeffnen("clip", m[1]); return; }
+  if ((m = h.match(/^#\/video\/(100s|haupt|einfach|woche)$/))) { if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle"); playerOeffnen(m[1]); return; }
+  if (document.getElementById("player")) { stopp(); document.getElementById("player").remove(); document.body.style.overflow = ""; }
   if ((m = h.match(/^#\/n\/(.+)$/))) detailSuchen(m[1]);
   else if ((m = h.match(/^#\/r\/(.+)$/))) startseite(RUBRIKEN.find(r => slug(r) === m[1]) || "Alle");
   else if ((m = h.match(/^#\/archiv\?q=(.*)$/))) archivSeite(null, m[1]);
@@ -515,7 +817,10 @@ function datenUebernehmen(res){
   band();
 }
 $app.innerHTML = '<p class="laden">Nachrichten werden geladen …</p>';
-ladeJson("data/news.json").then(res => { datenUebernehmen(res); route(); }).catch(() => {
+ladeJson("data/news.json").then(res => {
+  datenUebernehmen(res); route();
+  ladeJson("data/woche.json").then(w => { WOCHE = w.d; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});
+}).catch(() => {
   $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte Internetverbindung prüfen und später erneut versuchen.</div>';
 });
 document.addEventListener("visibilitychange", () => {

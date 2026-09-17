@@ -1,5 +1,5 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v3";
+const VERSION = "heft-v4";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -53,6 +53,6 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.pathname.endsWith(".json")) return e.respondWith(netzZuerst(req));
-  if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com")) return e.respondWith(speicherZuerst(req));
+  if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com") || url.hostname === "upload.wikimedia.org") return e.respondWith(speicherZuerst(req));
   if (url.origin === self.location.origin) return e.respondWith(speicherUndAktualisieren(req));
 });
