@@ -9,7 +9,7 @@
     "anthropic": "claude-sonnet-5"
   },
   "pauseZwischenKiAnfragenSekunden": 15,
-  "maxNeueThemenProLauf": 5,
+  "maxNeueThemenProLauf": 4,
   "maxArtikelProThema": 5,
   "nachrichtenBehaltenStunden": 48,
   "maxNachrichten": 25,
@@ -90,5 +90,33 @@
       "stamm": true,
       "feed": "https://feeds.bbci.co.uk/news/world/rss.xml"
     }
+  ],
+  "archivMonate": 13,
+  "wertendeWoerter": [
+    "krachend",
+    "skandalös",
+    "Skandal",
+    "dramatisch",
+    "katastrophal",
+    "schockierend",
+    "empörend",
+    "verheerend",
+    "desaströs",
+    "Debakel",
+    "Fiasko",
+    "Klatsche",
+    "Wahnsinn",
+    "unfassbar",
+    "unglaublich",
+    "absurd",
+    "peinlich",
+    "grandios",
+    "sensationell",
+    "endlich",
+    "leider",
+    "zum Glück",
+    "Horror",
+    "Chaos",
+    "Hammer"
   ]
 }

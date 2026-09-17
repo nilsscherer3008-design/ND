@@ -3,6 +3,7 @@
 // lässt sie von einer KI (Gemini oder Claude) neutral zusammenfassen und schreibt data/news.json.
 import fs from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import { execSync } from "node:child_process";
 
 const ROOT = new URL("./", import.meta.url);
 const DATA_FILE = new URL("data/news.json", ROOT);
@@ -207,6 +208,90 @@ Antworte NUR mit JSON in genau diesem Format:
 }`, 5000);
 }
 
+// ---------- Zweiter Prüfdurchgang + Lernbereich ----------
+async function themaPruefen(entwurf, quellenTexte) {
+  const docs = quellenTexte.map(q => `### Quelle: ${q.name}\n${(q.text || q.teaser).slice(0, 4000)}`).join("\n\n");
+  const nachricht = { titel: entwurf.titel, vorspann: entwurf.vorspann, zusammenfassung: entwurf.zusammenfassung,
+    einig: entwurf.einig, unklar: entwurf.unklar, positionen: entwurf.positionen, fehlend: entwurf.fehlend,
+    medien: entwurf.medien.map(m => ({ name: m.name, fokus: m.fokus, text: m.text })), unterschiede: entwurf.unterschiede };
+  return ki(REGELN, `Du bist die PRÜFREDAKTION. Hier sind die Originalberichte:
+${docs}
+
+Hier ist der Entwurf einer Nachricht (JSON):
+${JSON.stringify(nachricht)}
+
+Aufgabe 1 – Prüfen und korrigieren:
+- Prüfe JEDEN Satz gegen die Originalberichte. Was dort nicht steht, wird entfernt oder korrigiert.
+- Jeder Punkt in "einig" muss in ALLEN dort genannten Quellen stehen, und es müssen mindestens 2 sein. Sonst Quelle streichen oder Punkt nach "unklar" verschieben.
+- Zahlen, Namen, Daten und Orte genau mit den Quellen vergleichen.
+- Aussagen von Beteiligten müssen als Aussage gekennzeichnet sein.
+- Wertende oder zuspitzende Wörter durch neutrale ersetzen (außer in gekennzeichneten Zitaten).
+- Beschreibe jede Änderung in "korrekturen" in einem kurzen Satz. Keine Änderung nötig: leere Liste.
+
+Aufgabe 2 – Lernmaterial für Schülerinnen und Schüler (nur aus Inhalten der geprüften Nachricht):
+- "begriffe": 3–4 schwierige Begriffe aus der Nachricht, je 1–2 einfache Sätze Erklärung, ohne Wertung.
+- "fragen": 2–3 offene Diskussionsfragen, die keine Meinung vorgeben (z. B. zu Quellen, Wortwahl, Folgen).
+- "quiz": 3 Fragen mit je 3 Antworten; genau eine richtig; die richtige Antwort muss unter "einig" belegt sein.
+
+Antworte NUR mit JSON: {"nachricht": {gleiches Format wie der Entwurf}, "korrekturen": ["..."], "lernen": {"begriffe": [["Begriff","Erklärung"]], "fragen": ["..."], "quiz": [{"frage":"...","optionen":["...","...","..."],"richtig":0,"erklaerung":"..."}]}}`, 7000);
+}
+
+export function lernenPruefen(l) {
+  if (!l || typeof l !== "object") return undefined;
+  const begriffe = (l.begriffe || []).filter(b => Array.isArray(b) && b[0] && b[1]).map(b => [String(b[0]), String(b[1])]).slice(0, 5);
+  const fragen = (l.fragen || []).map(String).filter(Boolean).slice(0, 4);
+  const quiz = (l.quiz || []).filter(q => q && q.frage && Array.isArray(q.optionen) && q.optionen.length >= 2 && q.optionen.length <= 4
+    && Number.isInteger(q.richtig) && q.richtig >= 0 && q.richtig < q.optionen.length)
+    .map(q => ({ frage: String(q.frage), optionen: q.optionen.map(String), richtig: q.richtig, erklaerung: String(q.erklaerung || "") })).slice(0, 5);
+  return (begriffe.length || fragen.length || quiz.length) ? { begriffe, fragen, quiz } : undefined;
+}
+
+export function wertendeWoerterFinden(n, liste = []) {
+  const texte = [n.titel, n.vorspann, ...(n.zusammenfassung || []), ...(n.einig || []).map(e => e[0]), ...(n.unklar || [])]
+    .join(" ").replace(/„[^“]*“|"[^"]*"|»[^«]*«/g, " ");
+  const gefunden = new Set();
+  for (const w of liste) {
+    const re = new RegExp(`(?<!\\p{L})${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\p{L}*`, "iu");
+    const m = re.exec(texte);
+    if (m) gefunden.add(m[0]);
+  }
+  return [...gefunden];
+}
+
+// ---------- Archiv ----------
+const berlinMonat = iso => {
+  const t = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit" }).formatToParts(new Date(iso));
+  return `${t.find(x => x.type === "year").value}-${t.find(x => x.type === "month").value}`;
+};
+const leseJson = async (url, standard) => { try { return JSON.parse(await fs.readFile(url, "utf8")); } catch { return standard; } };
+
+export async function archivieren(alteNachrichten, aktive, jetzt, cfg, root = ROOT) {
+  const archivOrdner = new URL("data/archiv/", root);
+  await fs.mkdir(archivOrdner, { recursive: true });
+  const nachMonat = new Map();
+  for (const n of alteNachrichten) {
+    const m = berlinMonat(n.zeit);
+    if (!nachMonat.has(m)) nachMonat.set(m, []);
+    nachMonat.get(m).push(n);
+  }
+  for (const [monat, liste] of nachMonat) {
+    const datei = new URL(`${monat}.json`, archivOrdner);
+    const vorhanden = await leseJson(datei, []);
+    const karte = new Map(vorhanden.map(n => [n.id, n]));
+    liste.forEach(n => karte.set(n.id, n));
+    await fs.writeFile(datei, JSON.stringify([...karte.values()].sort((a, b) => b.zeit.localeCompare(a.zeit))));
+  }
+  const sucheDatei = new URL("data/suche.json", root);
+  const suche = await leseJson(sucheDatei, []);
+  const idx = new Map(suche.map(e => [e.id, e]));
+  for (const n of alteNachrichten) idx.set(n.id, { id: n.id, titel: n.titel, vorspann: n.vorspann, rubrik: n.rubrik, zeit: n.zeit, monat: berlinMonat(n.zeit) });
+  for (const n of aktive) idx.delete(n.id); // aktive Nachrichten stehen in news.json
+  const grenze = jetzt - (cfg.archivMonate || 13) * 30 * 864e5;
+  const neu = [...idx.values()].filter(e => new Date(e.zeit) >= grenze).sort((a, b) => b.zeit.localeCompare(a.zeit));
+  await fs.writeFile(sucheDatei, JSON.stringify(neu));
+  return neu.length;
+}
+
 // ---------- Prüfen & zusammenführen ----------
 export function pruefen(entwurf, quellenTexte) {
   const namen = new Set(quellenTexte.map(q => q.name));
@@ -235,10 +320,10 @@ export function pruefen(entwurf, quellenTexte) {
 
 export function aufraeumen(nachrichten, jetzt, cfg) {
   const grenze = jetzt - cfg.nachrichtenBehaltenStunden * 36e5;
-  return nachrichten
-    .filter(n => new Date(n.zeit) >= grenze)
-    .sort((a, b) => b.zeit.localeCompare(a.zeit))
-    .slice(0, cfg.maxNachrichten);
+  const sortiert = [...nachrichten].sort((a, b) => b.zeit.localeCompare(a.zeit));
+  const aktiv = sortiert.filter(n => new Date(n.zeit) >= grenze).slice(0, cfg.maxNachrichten);
+  const ids = new Set(aktiv.map(n => n.id));
+  return { aktiv, alt: sortiert.filter(n => !ids.has(n.id)) };
 }
 
 async function pushSenden(n) {
@@ -308,21 +393,37 @@ async function main() {
     }
 
     try {
-      const entwurf = pruefen(await themaSchreiben(t, quellenTexte, altesThema), quellenTexte);
+      let entwurf = pruefen(await themaSchreiben(t, quellenTexte, altesThema), quellenTexte);
       if (!entwurf.titel || entwurf.einig.length === 0) { console.warn(`Übersprungen (keine belegten Fakten): ${t.id}`); continue; }
+      let geprueft = false, korrekturen = [], lernen;
+      try {
+        const pr = await themaPruefen(entwurf, quellenTexte);
+        const korrigiert = pruefen({ ...pr.nachricht, eil: entwurf.eil }, quellenTexte);
+        if (korrigiert.titel && korrigiert.einig.length > 0) {
+          entwurf = korrigiert; geprueft = true;
+          korrekturen = (pr.korrekturen || []).map(String).slice(0, 12);
+          lernen = lernenPruefen(pr.lernen);
+          console.log(`  Prüfung: ${korrekturen.length} Korrektur(en)`);
+        } else console.warn("  Prüfung lieferte keine gültige Fassung – Entwurf bleibt, als ungeprüft markiert.");
+      } catch (e) { console.warn(`  Prüfung fehlgeschlagen: ${e.message}`); }
+      const wortwarnung = wertendeWoerterFinden(entwurf, CFG.wertendeWoerter);
+      if (wortwarnung.length) console.warn(`  Wertende Wörter gefunden: ${wortwarnung.join(", ")}`);
       const neuesteZeit = quellenTexte.map(q => q.datum).filter(d => d !== "unbekannt").sort().pop() || jetzt.toISOString();
       ergebnis.set(t.id, {
         id: t.id, rubrik: CFG.rubriken.includes(t.rubrik) ? t.rubrik : "Welt",
         zeit: neuesteZeit,
         aktualisiert: altesThema ? `aktualisiert um ${berlinUhr(jetzt)} Uhr` : undefined,
-        ...entwurf
+        ...entwurf,
+        geprueft, korrekturen, wortwarnung, lernen
       });
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);
     } catch (e) { console.warn(`Fehler bei ${t.id}: ${e.message}`); }
   }
 
-  const nachrichten = aufraeumen([...ergebnis.values()], jetzt, CFG);
+  const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
+  const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
+  if (altListe.length) console.log(`Archiviert: ${altListe.length} (Archiv gesamt: ${imArchiv})`);
 
   // 4. Eilmeldungen pushen (nur neue, höchstens 6 Stunden alt)
   const notified = new Set(alt.notified || []);
@@ -334,12 +435,14 @@ async function main() {
   await fs.writeFile(DATA_FILE, JSON.stringify({
     stand: jetzt.toISOString(),
     ntfyTopic: process.env.NTFY_TOPIC || "",
+    fehlerTopic: process.env.NTFY_TOPIC ? process.env.NTFY_TOPIC + "-fehler" : "",
     notified: [...notified].filter(id => nachrichten.some(n => n.id === id)),
     nachrichten
   }, null, 1));
   console.log(`Fertig: ${nachrichten.length} Nachrichten, ${neuGeschrieben} neu/aktualisiert.`);
+  try { execSync("git add data", { cwd: new URL(".", ROOT).pathname, stdio: "ignore" }); } catch { /* lokal ohne git */ }
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch(e => { console.error("Abbruch: " + e.message); process.exit(1); });
 }

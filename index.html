@@ -4,6 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Nachrichten-Heft · neutral</title>
+<meta name="description" content="Neutrale Nachrichten: mehrere Medien verglichen und verständlich zusammengefasst.">
+<meta name="theme-color" content="#0D2B55">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Nachrichten-Heft">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -44,7 +52,7 @@ header.bar{background:var(--bar);color:var(--bar-ink);position:sticky;top:0;z-in
 .brand span{font-weight:600;color:var(--bar-muted)}
 .stand{font-family:var(--head);font-size:.82rem;color:var(--bar-muted);text-align:right;line-height:1.25}
 .stand b{color:#fff;font-weight:700;display:block;font-size:.95rem}
-.theme-btn{background:var(--bar-2);border:0;color:#fff;border-radius:999px;width:40px;height:40px;font-size:1.05rem;cursor:pointer;flex:none}
+._alt{background:var(--bar-2);border:0;color:#fff;border-radius:999px;width:40px;height:40px;font-size:1.05rem;cursor:pointer;flex:none}
 
 /* Rubriken */
 nav.rubriken{background:var(--bar);border-top:1px solid rgba(255,255,255,.1)}
@@ -136,18 +144,50 @@ ul.facts li::before{content:"✓";position:absolute;left:4px;top:10px;color:var(
 .push code{display:inline-block;font-size:1rem;background:var(--surface);padding:6px 10px;border-radius:8px;word-break:break-all;user-select:all}
 .laden{color:var(--muted);padding:30px 0;font-family:var(--head)}
 footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32px}
+.icon-btn{background:var(--bar-2);border:0;color:#fff;border-radius:999px;width:40px;height:40px;font-size:1.05rem;cursor:pointer;flex:none;display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.hinweisband{font-family:var(--head);font-size:.88rem;background:var(--yellow-bg);color:var(--ink);border-bottom:1px solid var(--yellow-line)}
+.hinweisband .wrap{padding-top:8px;padding-bottom:8px}
+.suchfeld{width:100%;font:inherit;font-size:1.05rem;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-height:48px}
+.seiten-titel{font-family:var(--head);font-weight:800;font-size:1.7rem;margin:18px 0 12px}
+.monate{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}
+.monat{font-family:var(--head);font-weight:600;text-decoration:none;color:var(--ink);background:var(--surface);border-radius:999px;padding:8px 14px;min-height:40px;display:inline-flex;align-items:center}
+.treffer-info{font-family:var(--head);font-size:.9rem;color:var(--muted);margin:14px 0 10px}
+.archiv-hinweis{font-family:var(--head);font-size:.85rem;background:var(--surface);border-radius:8px;padding:6px 12px;display:inline-block;margin-top:14px}
+.lernen dl{margin:0}
+.lernen dt{font-family:var(--head);font-weight:700;margin-top:10px}
+.lernen dd{margin:2px 0 0}
+.lernen h3{font-family:var(--head);font-size:1.05rem;margin:22px 0 8px}
+.lernen ol{margin:0;padding-left:22px}
+.lernen ol li{margin-bottom:8px}
+.quiz{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px;background:var(--card)}
+.quiz-frage{font-family:var(--head);font-weight:700;margin-bottom:8px}
+.quiz button{display:block;width:100%;text-align:left;font:inherit;background:var(--surface);color:var(--ink);border:2px solid transparent;border-radius:10px;padding:10px 14px;margin:6px 0;min-height:46px;cursor:pointer}
+.quiz button.richtig{border-color:var(--green);background:var(--green-bg)}
+.quiz button.falsch{border-color:var(--red)}
+.quiz .erkl{font-size:.95rem;margin-top:8px}
+.check-box details{margin-top:8px;font-size:.92rem}
+.check-box summary{cursor:pointer;font-family:var(--head);font-weight:600}
+.melden{margin-top:28px;border-top:1px solid var(--line);padding-top:18px}
+.melden form{margin-top:12px;display:flex;flex-direction:column;gap:10px}
+.melden select,.melden textarea{font:inherit;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--card);color:var(--ink)}
+.melden textarea{min-height:110px;resize:vertical}
+.btn{font-family:var(--head);font-weight:700;font-size:1rem;border:0;border-radius:999px;padding:11px 20px;min-height:46px;cursor:pointer;background:var(--bar-2);color:#fff}
+.btn.hell{background:var(--card);color:var(--ink);border:1px solid var(--line)}
+.status{font-family:var(--head);font-size:.92rem}
 </style>
 </head>
 <body>
 <header class="bar">
   <div class="wrap">
     <a class="brand" href="#/">Nachrichten-Heft <span>· neutral</span></a>
-    <div style="display:flex;align-items:center;gap:12px">
-      <div class="stand">Aktualisiert<b id="stand"></b></div>
-      <button class="theme-btn" id="themeBtn" aria-label="Hell- oder Dunkelmodus umschalten">◐</button>
+    <div style="display:flex;align-items:center;gap:10px">
+      <div class="stand">Aktualisiert<b id="stand">–</b></div>
+      <a class="icon-btn" href="#/archiv" aria-label="Suche und Archiv">🔍</a>
+      <button class="icon-btn" id="themeBtn" aria-label="Hell- oder Dunkelmodus umschalten">◐</button>
     </div>
   </div>
 </header>
+<div class="hinweisband" id="band" hidden><div class="wrap" id="bandText"></div></div>
 <nav class="rubriken" aria-label="Rubriken" id="rubNav" hidden>
   <div class="wrap" id="rubriken"></div>
 </nav>
@@ -158,201 +198,347 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 const RUBRIKEN = ["Alle","Deutschland","Welt","Wirtschaft","Wissen & Klima","Sport"];
 let NACHRICHTEN = [];
 let DATEN = { stand:null, ntfyTopic:"" };
+let SUCHE = null;                 // Archiv-Index, wird bei Bedarf geladen
+const ARCHIV = {};                // geladene Archiv-Monate
+let ausCache = false, installAufforderung = null;
 
-/* Daten laden: zuerst direkt aus dem Repository (immer aktuell), sonst die Datei neben der Seite */
-function rawUrl(){
+const $app = document.getElementById("app");
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const slug = r => r.toLowerCase().replace(/ & /g,"-").replace(/[^a-zäöü-]/g,"");
+
+/* ---------- Daten laden ---------- */
+function rawBasis(){
   const h = location.hostname;
   if (!h.endsWith(".github.io")) return null;
   const owner = h.split(".")[0];
   const seg = location.pathname.split("/").filter(Boolean)[0];
   const repo = seg && !seg.includes(".") ? seg : h;
-  return `https://raw.githubusercontent.com/${owner}/${repo}/main/data/news.json`;
+  return `https://raw.githubusercontent.com/${owner}/${repo}/main/`;
 }
-async function ladeDaten(){
-  const urls = [rawUrl(), "data/news.json"].filter(Boolean);
+async function ladeJson(pfad){
+  const basis = rawBasis();
+  const urls = [basis && basis + pfad, pfad].filter(Boolean);
   for (const u of urls){
     try{
       const r = await fetch(u + "?t=" + Date.now(), { cache:"no-store" });
-      if (r.ok) return await r.json();
+      if (r.ok){ const d = await r.json(); return { d, ausCache: r.headers.get("x-aus-cache") === "1" }; }
     }catch(e){}
   }
-  throw new Error("Daten nicht erreichbar");
+  throw new Error("nicht erreichbar: " + pfad);
 }
+async function ladeSuche(){
+  if (SUCHE) return SUCHE;
+  try { SUCHE = (await ladeJson("data/suche.json")).d; } catch { SUCHE = []; }
+  return SUCHE;
+}
+async function ladeMonat(m){
+  if (ARCHIV[m]) return ARCHIV[m];
+  try { ARCHIV[m] = (await ladeJson(`data/archiv/${m}.json`)).d; } catch { ARCHIV[m] = []; }
+  return ARCHIV[m];
+}
+
+/* ---------- Zeit ---------- */
 const berlin = (d, opt) => new Intl.DateTimeFormat("de-DE", { timeZone:"Europe/Berlin", ...opt }).format(d);
 function fmtZeit(iso, nurDatum){
   const d = new Date(iso), jetzt = new Date();
   const tag = x => berlin(x, { year:"numeric", month:"2-digit", day:"2-digit" });
   const uhr = berlin(d, { hour:"2-digit", minute:"2-digit" });
-  const gestern = new Date(jetzt.getTime() - 864e5);
   if (tag(d) === tag(jetzt)) return nurDatum ? "Heute" : "Heute, " + uhr;
-  if (tag(d) === tag(gestern)) return nurDatum ? "Gestern" : "Gestern, " + uhr;
-  const kurz = berlin(d, { day:"2-digit", month:"2-digit" }).replace(/\.?$/, ".");
+  if (tag(d) === tag(new Date(jetzt - 864e5))) return nurDatum ? "Gestern" : "Gestern, " + uhr;
+  const jahr = berlin(d, { year:"numeric" }) !== berlin(jetzt, { year:"numeric" });
+  const kurz = berlin(d, jahr ? { day:"2-digit", month:"2-digit", year:"numeric" } : { day:"2-digit", month:"2-digit" }).replace(/\.?$/, jahr ? "" : ".");
   return nurDatum ? kurz : kurz + ", " + uhr;
 }
+const monatName = m => { const [j,mo] = m.split("-"); return new Date(Date.UTC(+j, +mo-1, 15)).toLocaleDateString("de-DE", { month:"long", year:"numeric" }); };
 
-/* ---------- Darstellung ---------- */
-const $app = document.getElementById("app");
-const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const slug = r => r.toLowerCase().replace(/ & /g,"-").replace(/[^a-zäöü-]/g,"");
-const sortiert = () => [...NACHRICHTEN].sort((a,b) => b.zeit.localeCompare(a.zeit));
+/* ---------- Hinweisband (offline / veraltet) ---------- */
+function band(){
+  const el = document.getElementById("band"), t = document.getElementById("bandText");
+  let text = "";
+  if (!navigator.onLine || ausCache) text = "Offline – du siehst den zuletzt gespeicherten Stand.";
+  else if (DATEN.stand){
+    const std = (Date.now() - new Date(DATEN.stand)) / 36e5;
+    const h = +berlin(new Date(), { hour:"numeric", hourCycle:"h23" });
+    if (std > 8 && h >= 8 && h <= 22) text = `Hinweis: Die letzte Aktualisierung ist ${Math.floor(std)} Stunden her. Neue Nachrichten fehlen möglicherweise.`;
+  }
+  t.textContent = text; el.hidden = !text;
+}
+addEventListener("online", band); addEventListener("offline", band);
 
+/* ---------- Bausteine ---------- */
 function rubrikNav(aktiv){
   const nav = document.getElementById("rubriken");
-  nav.innerHTML = RUBRIKEN.map(r =>
-    `<button class="chip" aria-pressed="${r===aktiv}" data-r="${esc(r)}">${esc(r)}</button>`).join("");
-  nav.querySelectorAll(".chip").forEach(b => b.onclick = () => {
-    location.hash = b.dataset.r === "Alle" ? "#/" : "#/r/" + slug(b.dataset.r);
-  });
+  nav.innerHTML = RUBRIKEN.map(r => `<button class="chip" aria-pressed="${r===aktiv}" data-r="${esc(r)}">${esc(r)}</button>`).join("");
+  nav.querySelectorAll(".chip").forEach(b => b.onclick = () => { location.hash = b.dataset.r === "Alle" ? "#/" : "#/r/" + slug(b.dataset.r); });
 }
-
-function karte(n){
-  return `<a class="card" href="#/n/${n.id}">
-    <div class="meta">
-      ${n.eil ? '<span class="eil-tag">Eil</span>' : ""}
-      <span class="rub">${esc(n.rubrik)}</span>
-      <span>${esc(fmtZeit(n.zeit,n.nurDatum))}</span>
-      <span class="check">✓ ${n.medien.length} Medien verglichen</span>
-    </div>
-    <h3>${esc(n.titel)}</h3>
-    <p>${esc(n.vorspann)}</p>
-  </a>`;
+function karte(n, archiv){
+  const anzahl = n.medien ? `<span class="check">✓ ${n.medien.length} Medien verglichen</span>` : "";
+  return `<a class="card" href="#/n/${esc(n.id)}">
+    <div class="meta">${n.eil && !archiv ? '<span class="eil-tag">Eil</span>' : ""}
+      <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>${anzahl}</div>
+    <h3>${esc(n.titel)}</h3><p>${esc(n.vorspann)}</p></a>`;
 }
+const zurueck = `<a class="back" href="#/">← Alle Nachrichten</a>`;
+const istIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+const istInstalliert = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
 
+/* ---------- Startseite ---------- */
 function startseite(rubrik){
   document.getElementById("rubNav").hidden = false;
   rubrikNav(rubrik);
-  const alle = sortiert();
+  const alle = [...NACHRICHTEN].sort((a,b) => b.zeit.localeCompare(a.zeit));
   const liste = rubrik === "Alle" ? alle : alle.filter(n => n.rubrik === rubrik);
-  const eil = alle.find(n => n.eil);
+  const eil = alle.find(n => n.eil && Date.now() - new Date(n.zeit) < 24*36e5);
   let html = "";
   if (eil && rubrik === "Alle"){
-    html += `<a class="eil" href="#/n/${eil.id}">
-      <div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit,eil.nurDatum))}</div>
+    html += `<a class="eil" href="#/n/${esc(eil.id)}"><div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit))}</div>
       <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
   }
-  html += liste.length
-    ? `<div class="list">${liste.map(karte).join("")}</div>`
-    : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>
-       Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. In dieser Ausgabe war das hier nicht der Fall.</div>`;
-  if (DATEN.ntfyTopic && rubrik === "Alle"){
-    const t = encodeURIComponent(DATEN.ntfyTopic);
-    html += `<div class="push"><b>🔔 Eilmeldungen aufs Handy</b>
-      <p>1. Kostenlose App <b>ntfy</b> installieren (App Store / Google Play).<br>2. In der App auf „+“ tippen und diesen Kanal abonnieren:</p>
-      <code>${esc(DATEN.ntfyTopic)}</code>
-      <p><a href="https://ntfy.sh/${t}" target="_blank" rel="noopener">Oder im Browser öffnen ↗</a></p></div>`;
+  html += liste.length ? `<div class="list">${liste.map(n => karte(n)).join("")}</div>`
+    : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. Ältere Nachrichten findest du im <a href="#/archiv">Archiv</a>.</div>`;
+  if (rubrik === "Alle"){
+    if (DATEN.ntfyTopic){
+      html += `<div class="push"><b>🔔 Eilmeldungen aufs Handy</b>
+        <p>1. Kostenlose App <b>ntfy</b> installieren (App Store / Google Play).<br>2. In der App auf „+“ tippen und diesen Kanal abonnieren:</p>
+        <code>${esc(DATEN.ntfyTopic)}</code>
+        <p><a href="https://ntfy.sh/${encodeURIComponent(DATEN.ntfyTopic)}" target="_blank" rel="noopener">Oder im Browser öffnen ↗</a></p></div>`;
+    }
+    if (!istInstalliert && (installAufforderung || istIOS)){
+      html += `<div class="push"><b>📲 Als App installieren</b>
+        ${installAufforderung ? `<p>Das Nachrichten-Heft bekommt ein eigenes Symbol und funktioniert auch ohne Internet.</p><button class="btn" id="installBtn">Jetzt installieren</button>`
+          : `<p>Auf dem iPhone: unten auf <b>Teilen</b> tippen, dann <b>„Zum Home-Bildschirm“</b>. Danach funktioniert die App auch ohne Internet.</p>`}</div>`;
+    }
   }
   html += `<details class="about"><summary>So entsteht dieses Heft</summary>
-    <p>Jedes Thema wird mit Berichten von mindestens zwei Medien verglichen. Unter „einig“ steht nur, was mindestens zwei Berichte bestätigen. Aussagen von Politikerinnen, Politikern und Behörden sind immer als Aussage gekennzeichnet.</p>
-    <p>Stammquellen sind Tagesschau/ARD, ZDFheute, Deutschlandfunk, dpa, Spiegel, Zeit, Süddeutsche Zeitung, FAZ, Reuters, AP, BBC und Deutsche Welle. Waren für ein Thema nicht genug Stammquellen erreichbar, wurden weitere Medien ergänzt. Sie sind bei der Quelle mit „außerhalb der Stammliste“ markiert.</p>
-    <p><b>Grenzen:</b> Keine Nachrichten-App ist völlig neutral. Schon welche Themen und welche Medien ausgewählt werden, ist eine Entscheidung. Die Stammliste besteht aus großen, etablierten Medien; kleinere oder politisch deutlich linke oder rechte Medien sind nicht dabei. Die Zusammenfassungen wurden von einer KI geschrieben und können Fehler enthalten – im Zweifel gilt der Originalbericht.</p>
-    <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks oder Beliebtheit.</p>
-    <p>Die Nachrichten werden alle 3 Stunden zwischen 6 und 21 Uhr automatisch aktualisiert. Letzte Aktualisierung: ${esc(fmtZeit(DATEN.stand))} Uhr.</p>
+    <p>Alle 3 Stunden zwischen 6 und 21 Uhr werden die Nachrichten-Feeds von Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Zeit, Süddeutscher Zeitung, FAZ, Deutscher Welle und BBC gelesen. Ein Thema erscheint nur, wenn mindestens zwei Medien darüber berichten.</p>
+    <p>Eine KI schreibt eine neutrale Zusammenfassung. Eine zweite KI-Prüfung gleicht jeden Satz mit den Originalberichten ab und korrigiert, was dort nicht steht. Unter „einig“ steht nur, was mindestens zwei Medien bestätigen. Aussagen von Beteiligten sind immer als Aussage gekennzeichnet.</p>
+    <p><b>Grenzen:</b> Keine Nachrichten-App ist völlig neutral. Schon welche Themen und welche Medien ausgewählt werden, ist eine Entscheidung. Die KI kann trotz Prüfung Fehler machen – im Zweifel gilt der Originalbericht. Fehler kannst du bei jeder Nachricht melden.</p>
+    <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks. Die App verwendet keine Werbung, kein Tracking und keine Anmeldung.</p>
+    ${DATEN.stand ? `<p>Letzte Aktualisierung: ${esc(fmtZeit(DATEN.stand))} Uhr.</p>` : ""}
   </details>`;
   $app.innerHTML = html;
+  const ib = document.getElementById("installBtn");
+  if (ib) ib.onclick = async () => { installAufforderung.prompt(); await installAufforderung.userChoice; installAufforderung = null; route(); };
 }
 
-function detail(n){
+/* ---------- Suche & Archiv ---------- */
+const norm = s => String(s || "").toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").replace(/ß/g, "ss");
+function suchen(q, suche){
+  const worte = norm(q).split(/\s+/).filter(w => w.length > 1);
+  if (!worte.length) return [];
+  const passt = text => { const t = norm(text); return worte.every(w => t.includes(w)); };
+  const aktiv = NACHRICHTEN.filter(n => passt([n.titel, n.vorspann, n.rubrik, ...(n.zusammenfassung||[])].join(" ")));
+  const ids = new Set(aktiv.map(n => n.id));
+  const alt = suche.filter(e => !ids.has(e.id) && passt([e.titel, e.vorspann, e.rubrik].join(" ")));
+  return [...aktiv, ...alt].sort((a,b) => b.zeit.localeCompare(a.zeit)).slice(0, 60);
+}
+async function archivSeite(monat, q){
+  document.getElementById("rubNav").hidden = true;
+  $app.innerHTML = `${zurueck}<h1 class="seiten-titel">Suche &amp; Archiv</h1>
+    <input class="suchfeld" id="q" type="search" placeholder="Stichwort, z. B. Wahl, Klima, Bundestag …" aria-label="Nachrichten durchsuchen" value="${esc(q||"")}">
+    <div id="ergebnis"><p class="treffer-info">Archiv wird geladen …</p></div>`;
+  const suche = await ladeSuche();
+  const erg = document.getElementById("ergebnis"), feld = document.getElementById("q");
+  const zeige = () => {
+    const text = feld.value.trim();
+    history.replaceState(null, "", text ? `#/archiv?q=${encodeURIComponent(text)}` : (monat ? `#/archiv/${monat}` : "#/archiv"));
+    if (text){
+      const t = suchen(text, suche);
+      erg.innerHTML = `<p class="treffer-info">${t.length} Treffer für „${esc(text)}“</p>` + (t.length ? `<div class="list">${t.map(n => karte(n, true)).join("")}</div>` : `<div class="empty">Nichts gefunden. Probiere ein anderes oder kürzeres Stichwort.</div>`);
+      return;
+    }
+    const monate = {};
+    suche.forEach(e => monate[e.monat] = (monate[e.monat] || 0) + 1);
+    const liste = Object.keys(monate).sort().reverse();
+    let html = `<div class="monate"><a class="monat" href="#/">Aktuell (${NACHRICHTEN.length})</a>${liste.map(m => `<a class="monat" href="#/archiv/${m}"${m===monat?' style="outline:2px solid var(--bar-2)"':""}>${esc(monatName(m))} (${monate[m]})</a>`).join("")}</div>`;
+    if (monat){
+      const eintraege = suche.filter(e => e.monat === monat);
+      html += `<p class="treffer-info">${esc(monatName(monat))}: ${eintraege.length} Nachrichten</p><div class="list">${eintraege.map(n => karte(n, true)).join("")}</div>`;
+    } else if (!liste.length){
+      html += `<div class="empty">Das Archiv ist noch leer. Nachrichten kommen hierher, sobald sie älter als zwei Tage sind.</div>`;
+    } else html += `<p class="treffer-info">Wähle einen Monat oder suche nach einem Stichwort. Das Archiv reicht 13 Monate zurück.</p>`;
+    erg.innerHTML = html;
+  };
+  let timer; feld.oninput = () => { clearTimeout(timer); timer = setTimeout(zeige, 200); };
+  zeige();
+  if (!q && !monat && matchMedia("(pointer:fine)").matches) feld.focus();
+}
+
+/* ---------- Detailseite ---------- */
+function neutralCheck(n){
+  const arten = [...new Set(n.medien.map(m => m.art))];
+  const stamm = n.medien.filter(m => m.stamm).length;
+  const minBelege = n.einig.length ? Math.min(...n.einig.map(e => e[1].length)) : 0;
+  const punkte = [
+    [minBelege >= 2, `Jeder Punkt unter „einig“ ist von mindestens ${minBelege} Medien belegt.`],
+    [arten.length >= 2, arten.length >= 2 ? `Verschiedene Arten von Quellen: ${arten.join(", ")}.` : `Nur eine Art von Quelle (${arten[0]}). Das kann den Blickwinkel einseitig machen.`],
+    [stamm >= 2, `${stamm} von ${n.medien.length} Quellen stammen aus der Stammliste.`],
+    [true, "Aussagen von Beteiligten sind als Aussage gekennzeichnet, nicht als Tatsache."],
+    [!/nicht vor|nicht enthalten|nur in einem|nicht gefunden/.test(n.fehlend || ""), "Fehlende Stimmen: siehe „Wer nicht zu Wort kommt“."]
+  ];
+  if (typeof n.geprueft === "boolean"){
+    punkte.push(n.geprueft
+      ? [true, `Von einer zweiten KI-Prüfung mit den Originalberichten abgeglichen${n.korrekturen?.length ? ` (${n.korrekturen.length} Korrektur${n.korrekturen.length>1?"en":""})` : " (keine Korrekturen nötig)"}.`]
+      : [false, "Die zweite Prüfung hat nicht funktioniert. Bitte besonders kritisch lesen."]);
+    punkte.push(n.wortwarnung?.length
+      ? [false, `Möglicherweise wertende Wörter: ${n.wortwarnung.join(", ")}.`]
+      : [true, "Keine Wörter aus der Liste wertender Begriffe gefunden."]);
+  }
+  const protokoll = n.korrekturen?.length ? `<details><summary>Was die Prüfung geändert hat</summary><ul>${n.korrekturen.map(k => `<li>${esc(k)}</li>`).join("")}</ul></details>` : "";
+  return `<aside class="check-box"><h2>Neutralitäts-Check</h2><ul>${
+    punkte.map(([ok,t]) => `<li><span class="${ok?"ok":"warn"}">${ok?"✓":"!"}</span>${esc(t)}</li>`).join("")}</ul>${protokoll}</aside>`;
+}
+
+function lernbereich(l){
+  if (!l) return "";
+  return `<section class="block lernen"><h2>Lernen &amp; Diskutieren</h2>
+    ${l.begriffe?.length ? `<h3>Begriffe erklärt</h3><dl>${l.begriffe.map(([b,e]) => `<dt>${esc(b)}</dt><dd>${esc(e)}</dd>`).join("")}</dl>` : ""}
+    ${l.fragen?.length ? `<h3>Fragen zur Diskussion</h3><ol>${l.fragen.map(f => `<li>${esc(f)}</li>`).join("")}</ol>` : ""}
+    ${l.quiz?.length ? `<h3>Quiz: Hast du es verstanden?</h3>${l.quiz.map((q,i) => `<div class="quiz" data-i="${i}">
+      <div class="quiz-frage">${i+1}. ${esc(q.frage)}</div>
+      ${q.optionen.map((o,j) => `<button data-j="${j}">${esc(o)}</button>`).join("")}
+      <div class="erkl" hidden></div></div>`).join("")}` : ""}
+  </section>`;
+}
+function quizAktivieren(l){
+  document.querySelectorAll(".quiz").forEach(box => {
+    const q = l.quiz[+box.dataset.i];
+    box.querySelectorAll("button").forEach(b => b.onclick = () => {
+      const j = +b.dataset.j;
+      box.querySelectorAll("button").forEach(x => { x.disabled = true; if (+x.dataset.j === q.richtig) x.classList.add("richtig"); });
+      if (j !== q.richtig) b.classList.add("falsch");
+      const e = box.querySelector(".erkl");
+      e.innerHTML = `<b>${j === q.richtig ? "Richtig!" : "Nicht ganz."}</b> ${esc(q.erklaerung)}`;
+      e.hidden = false;
+    });
+  });
+}
+
+function fehlerMelden(n){
+  const topic = DATEN.fehlerTopic || (DATEN.ntfyTopic ? DATEN.ntfyTopic + "-fehler" : "");
+  if (!topic) return "";
+  return `<div class="melden"><button class="btn hell" id="meldenBtn">⚑ Fehler melden</button>
+    <form id="meldenForm" hidden>
+      <label class="status" for="art">Was stimmt nicht?</label>
+      <select id="art"><option>Falscher Fakt oder falsche Zahl</option><option>Wertende oder einseitige Formulierung</option><option>Quelle falsch zugeordnet</option><option>Link funktioniert nicht</option><option>Sonstiges</option></select>
+      <label class="status" for="txt">Beschreibung (bitte keine Namen oder persönlichen Daten)</label>
+      <textarea id="txt" maxlength="800" placeholder="Was genau ist falsch? Wo steht es richtig?"></textarea>
+      <button class="btn" type="submit">Meldung senden</button>
+      <div class="status" id="meldenStatus" role="status"></div>
+    </form></div>`;
+}
+function meldenAktivieren(n){
+  const btn = document.getElementById("meldenBtn"); if (!btn) return;
+  const form = document.getElementById("meldenForm");
+  btn.onclick = () => { form.hidden = !form.hidden; };
+  form.onsubmit = async ev => {
+    ev.preventDefault();
+    const st = document.getElementById("meldenStatus"), txt = document.getElementById("txt").value.trim();
+    if (txt.length < 5){ st.textContent = "Bitte kurz beschreiben, was falsch ist."; return; }
+    st.textContent = "Wird gesendet …";
+    try{
+      const r = await fetch("https://ntfy.sh/", { method:"POST", body: JSON.stringify({
+        topic: DATEN.fehlerTopic || DATEN.ntfyTopic + "-fehler",
+        title: "Fehlermeldung: " + n.titel.slice(0, 80),
+        message: `${document.getElementById("art").value}\n\n${txt}\n\nNachricht-ID: ${n.id}`,
+        tags: ["warning"], click: location.href }) });
+      if (!r.ok) throw 0;
+      form.innerHTML = `<p class="status">✓ Danke! Die Meldung wurde an die Redaktion geschickt.</p>`;
+    }catch{ st.textContent = "Senden hat nicht geklappt. Bitte später erneut versuchen."; }
+  };
+}
+
+function detail(n, archiv){
   document.getElementById("rubNav").hidden = true;
   const quellen = n.medien.map(m => `<article class="src">
-      <div class="src-head">
-        <span class="src-name">${esc(m.name)}</span>${m.ort ? `<span class="src-date">${esc(m.ort)}</span>` : ""}
-        <span class="typ">${esc(m.typ)}</span>
-      </div>
+      <div class="src-head"><span class="src-name">${esc(m.name)}</span>${m.ort ? `<span class="src-date">${esc(m.ort)}</span>` : ""}<span class="typ">${esc(m.typ)}</span></div>
       <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
       <div class="fokus"><b>Schwerpunkt:</b> ${esc(m.fokus)}</div>
       <p>${esc(m.text)}</p>
       <a class="orig" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${m.video ? "▶ Video ansehen ↗" : "Originalbericht öffnen ↗"}</a>
     </article>`).join("");
   $app.innerHTML = `<article class="detail">
-    <a class="back" href="#/">← Alle Nachrichten</a>
-    <div class="meta" style="margin-top:18px">
-      ${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}
-      <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit,n.nurDatum))}</span>
-      <span class="check">✓ ${n.medien.length} Medien verglichen</span>
-    </div>
+    ${zurueck}
+    ${archiv ? `<div class="archiv-hinweis">Aus dem Archiv · ${esc(fmtZeit(n.zeit, n.nurDatum))} – der Stand kann sich seitdem geändert haben.</div>` : ""}
+    <div class="meta" style="margin-top:18px">${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}
+      <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>
+      <span class="check">✓ ${n.medien.length} Medien verglichen</span></div>
     <h1>${esc(n.titel)}</h1>
     <p class="lead">${esc(n.vorspann)}</p>
     ${n.aktualisiert ? `<p class="update">${esc(n.aktualisiert)}</p>` : ""}
-
-    <section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>
-      ${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>
-
+    <section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>
     <section class="block"><h2>Darin sind sich alle Medien einig</h2>
-      <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x=>`<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul></section>
-
-    <section class="block"><h2>Noch unklar oder umstritten</h2>
-      <div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></section>
-
-    <section class="block"><h2>Wer sagt was</h2>
-      ${n.positionen.map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p><div class="pos-q">berichtet von: ${esc(q)}</div></div>`).join("")}
-      <p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p></section>
-
-    <section class="block"><h2>So berichten die Medien</h2>${quellen}
-      ${n.original ? `<p class="original">Zum Nachprüfen: <a href="${esc(n.original.url)}" target="_blank" rel="noopener noreferrer">${esc(n.original.name)} ↗</a></p>` : ""}
-    </section>
-
-    <section class="block"><h2>Unterschiede zwischen den Berichten</h2>
-      <ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul></section>
-
+      <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x => `<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul></section>
+    ${n.unklar?.length ? `<section class="block"><h2>Noch unklar oder umstritten</h2><div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></section>` : ""}
+    ${n.positionen?.length ? `<section class="block"><h2>Wer sagt was</h2>
+      ${n.positionen.map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p>${q ? `<div class="pos-q">berichtet von: ${esc(q)}</div>` : ""}</div>`).join("")}
+      ${n.fehlend ? `<p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p>` : ""}</section>` : ""}
+    <section class="block"><h2>So berichten die Medien</h2>${quellen}</section>
+    ${n.unterschiede?.length ? `<section class="block"><h2>Unterschiede zwischen den Berichten</h2>
+      <ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul></section>` : ""}
+    ${lernbereich(n.lernen)}
     ${neutralCheck(n)}
-    <div class="bottom-back"><a class="back" href="#/">← Alle Nachrichten</a></div>
+    ${fehlerMelden(n)}
+    <div class="bottom-back">${zurueck}</div>
   </article>`;
+  if (n.lernen?.quiz?.length) quizAktivieren(n.lernen);
+  meldenAktivieren(n);
 }
 
-function neutralCheck(n){
-  const arten = [...new Set(n.medien.map(m => m.art))];
-  const stamm = n.medien.filter(m => m.stamm).length;
-  const minBelege = Math.min(...n.einig.map(e => e[1].length));
-  const punkte = [
-    [minBelege >= 2, `Jeder Punkt unter „einig“ ist von mindestens ${minBelege} Medien belegt.`],
-    [arten.length >= 2, arten.length >= 2 ? `Verschiedene Arten von Quellen: ${arten.join(", ")}.` : `Nur eine Art von Quelle (${arten[0]}). Das kann den Blickwinkel einseitig machen.`],
-    [stamm >= 2, `${stamm} von ${n.medien.length} Quellen stammen aus der Stammliste.`],
-    [true, "Aussagen von Beteiligten sind als Aussage gekennzeichnet, nicht als Tatsache."],
-    [!/nicht vor|nicht enthalten|nur in einem|nicht gefunden/.test(n.fehlend), "Fehlende Stimmen: siehe „Wer nicht zu Wort kommt“."]
-  ];
-  return `<aside class="check-box"><h2>Neutralitäts-Check</h2><ul>${
-    punkte.map(([ok,t]) => `<li><span class="${ok?"ok":"warn"}">${ok?"✓":"!"}</span>${esc(t)}</li>`).join("")
-  }</ul></aside>`;
+async function detailSuchen(id){
+  const n = NACHRICHTEN.find(x => x.id === id);
+  if (n) return detail(n);
+  $app.innerHTML = `<p class="laden">Nachricht wird aus dem Archiv geladen …</p>`;
+  const e = (await ladeSuche()).find(x => x.id === id);
+  const a = e && (await ladeMonat(e.monat)).find(x => x.id === id);
+  if (a) return detail(a, true);
+  $app.innerHTML = `${zurueck}<div class="empty" style="margin-top:16px"><strong>Diese Nachricht wurde nicht gefunden.</strong><br>Vielleicht ist sie älter als 13 Monate oder du bist offline.</div>`;
 }
 
+/* ---------- Navigation ---------- */
 function route(){
-  const h = location.hash || "#/";
-  const nm = h.match(/^#\/n\/(.+)$/);
-  const rm = h.match(/^#\/r\/(.+)$/);
-  if (nm){
-    const n = NACHRICHTEN.find(x => x.id === nm[1]);
-    n ? detail(n) : startseite("Alle");
-  } else if (rm){
-    startseite(RUBRIKEN.find(r => slug(r) === rm[1]) || "Alle");
-  } else startseite("Alle");
+  const h = decodeURIComponent(location.hash || "#/");
+  let m;
+  if ((m = h.match(/^#\/n\/(.+)$/))) detailSuchen(m[1]);
+  else if ((m = h.match(/^#\/r\/(.+)$/))) startseite(RUBRIKEN.find(r => slug(r) === m[1]) || "Alle");
+  else if ((m = h.match(/^#\/archiv\?q=(.*)$/))) archivSeite(null, m[1]);
+  else if ((m = h.match(/^#\/archiv\/(\d{4}-\d{2})$/))) archivSeite(m[1]);
+  else if (h.startsWith("#/archiv")) archivSeite();
+  else startseite("Alle");
   window.scrollTo(0,0);
 }
-window.addEventListener("hashchange", route);
+addEventListener("hashchange", route);
+
+function datenUebernehmen(res){
+  DATEN = res.d; NACHRICHTEN = res.d.nachrichten || []; ausCache = res.ausCache;
+  document.getElementById("stand").textContent = DATEN.stand ? fmtZeit(DATEN.stand) : "–";
+  band();
+}
 $app.innerHTML = '<p class="laden">Nachrichten werden geladen …</p>';
-ladeDaten().then(d => {
-  DATEN = d; NACHRICHTEN = d.nachrichten || [];
-  document.getElementById("stand").textContent = d.stand ? fmtZeit(d.stand) : "–";
-  route();
-}).catch(() => {
-  $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte später erneut versuchen.</div>';
+ladeJson("data/news.json").then(res => { datenUebernehmen(res); route(); }).catch(() => {
+  $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte Internetverbindung prüfen und später erneut versuchen.</div>';
 });
-/* Beim Zurückkehren zur App neu laden, falls es eine neue Ausgabe gibt */
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState !== "visible") return;
-  ladeDaten().then(d => { if (d.stand !== DATEN.stand){ DATEN = d; NACHRICHTEN = d.nachrichten || []; document.getElementById("stand").textContent = fmtZeit(d.stand); route(); } }).catch(()=>{});
+  ladeJson("data/news.json").then(res => {
+    const neu = res.d.stand !== DATEN.stand;
+    datenUebernehmen(res); SUCHE = null;
+    if (neu && !location.hash.startsWith("#/n/") && !location.hash.startsWith("#/archiv")) route();
+  }).catch(() => band());
 });
 
+/* ---------- Installieren & offline ---------- */
+addEventListener("beforeinstallprompt", e => { e.preventDefault(); installAufforderung = e; if (!location.hash || location.hash === "#/") route(); });
+if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+
 /* ---------- Hell/Dunkel ---------- */
-const themeBtn = document.getElementById("themeBtn");
 function setTheme(t){
-  if (t) document.documentElement.setAttribute("data-theme", t);
-  else document.documentElement.removeAttribute("data-theme");
+  if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme");
   try { t ? localStorage.setItem("heft-theme", t) : localStorage.removeItem("heft-theme"); } catch(e){}
 }
 try { const t = localStorage.getItem("heft-theme"); if (t) setTheme(t); } catch(e){}
-themeBtn.onclick = () => {
-  const cur = document.documentElement.getAttribute("data-theme")
-    || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+document.getElementById("themeBtn").onclick = () => {
+  const cur = document.documentElement.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   setTheme(cur === "dark" ? "light" : "dark");
 };
 </script>
