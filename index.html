@@ -243,6 +243,52 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-steuer{display:flex;gap:8px}
 .pl-steuer button{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;width:48px;height:48px;font-size:1.15rem;cursor:pointer}
 .pl-steuer .pl-haupt{width:60px;background:#fff;color:#0D2B55}
+/* ===== Artikelseite (neu) ===== */
+.bar .wrap{min-height:56px}
+@media (max-width:520px){ .stand{font-size:0} .stand b{font-size:.82rem} .brand{font-size:1.05rem} .brand span{display:block;font-size:.8rem} }
+.detail{max-width:720px;margin:0 auto}
+.zurueck-link{display:inline-block;font-family:var(--head);font-weight:600;color:var(--muted);text-decoration:none;padding:4px 0 12px;min-height:36px}
+.detail .hero{margin:0 0 0;border-radius:12px;aspect-ratio:16/9;position:relative;overflow:visible;background:transparent}
+.detail .hero .tafel{position:absolute;inset:0;border-radius:12px;background:linear-gradient(135deg,var(--bar),var(--bar-2));color:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:800;font-size:clamp(1.8rem,8vw,3.4rem)}
+.detail .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:12px}
+.detail .hero figcaption{position:absolute;top:100%;left:0;right:0;font-family:var(--head);font-size:.72rem;color:var(--muted);padding-top:5px;line-height:1.3}
+.detail .hero figcaption a{color:inherit}
+.hero-play{position:absolute;left:12px;bottom:12px;display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-weight:700;font-size:.95rem;background:rgba(0,0,0,.72);color:#fff;border:0;border-radius:999px;padding:8px 16px 8px 8px;min-height:44px;cursor:pointer;backdrop-filter:blur(4px)}
+.pl-dreieck{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;background:#fff;color:#0D2B55;font-size:.8rem;padding-left:2px}
+@media (max-width:600px){ .detail .hero,.detail .hero img,.detail .hero .tafel{border-radius:0} .detail .hero{margin:0 -16px} .detail .hero figcaption{padding:5px 16px 0} }
+.kopf{margin-top:34px}
+.dachzeile{display:flex;align-items:center;gap:8px;font-family:var(--head);font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;color:var(--link)}
+.detail h1{font-size:clamp(1.55rem,5.4vw,2.25rem);margin:6px 0 10px;line-height:1.14}
+.zeile{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;font-family:var(--head);font-size:.84rem;color:var(--muted)}
+.detail .lead{font-family:var(--body);font-weight:600;font-size:1.13rem;line-height:1.55;margin:16px 0 0}
+.stufen{margin:16px 0 0}
+.blick{margin:24px 0 8px;background:var(--surface);border-left:4px solid var(--bar-2);border-radius:0 12px 12px 0;padding:14px 18px 6px}
+.blick h2{font-family:var(--head);font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 8px}
+.blick dl{margin:0}
+.blick dl > div{display:grid;grid-template-columns:78px 1fr;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.blick dl > div:first-child{border-top:0}
+.blick dt{font-family:var(--head);font-weight:700;font-size:.92rem}
+.blick dd{margin:0;font-size:.98rem;line-height:1.45}
+.blick .offen dd{color:var(--muted);font-style:italic}
+.text{margin-top:8px}
+.text h2{font-family:var(--head);font-weight:700;font-size:1.28rem;line-height:1.25;margin:30px 0 8px}
+.text p{font-size:1.07rem;line-height:1.72;margin:0 0 16px}
+.text .zeitleiste{margin-top:12px}
+.einordnung{margin-top:40px;border-top:6px solid var(--surface);padding-top:22px}
+.einordnung-titel{font-family:var(--head);font-size:1.35rem;margin:0 0 12px}
+.tabs{display:flex;gap:6px;overflow-x:auto;border-bottom:1px solid var(--line);margin-bottom:16px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{font-family:var(--head);font-weight:700;font-size:.98rem;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:10px 12px;min-height:46px;cursor:pointer;white-space:nowrap}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--bar-2)}
+.ein-h{font-family:var(--head);font-size:1.05rem;margin:18px 0 8px}
+.ein-h:first-child{margin-top:4px}
+.tab-inhalt .lernen h2{display:none}
+.tab-inhalt .block{margin-top:0}
+.detail .check-box{margin-top:28px}
+.verstaendnis{background:var(--surface);border-radius:12px;padding:2px 18px 4px;margin:28px 0 16px}
+.verstaendnis h2{margin-top:16px !important}
+.v-hinweis{font-family:var(--head);font-size:.8rem !important;color:var(--muted);margin:-4px 0 10px !important}
+@media (min-width:601px){ .detail .hero{max-height:420px;width:100%} }
 </style>
 </head>
 <body>
@@ -521,55 +567,98 @@ function meldenAktivieren(n){
 function detail(n, archiv){
   document.getElementById("rubNav").hidden = true;
   AKTUELLE_DETAIL = n;
-  let stufe = "ausfuehrlich";
+  let stufe = "ausfuehrlich", tab = "fakten";
   try { stufe = localStorage.getItem("heft-stufe") || "ausfuehrlich"; } catch {}
-  const quellen = n.medien.map(m => `<article class="src">
-      <div class="src-head"><span class="src-name">${esc(m.name)}</span>${m.ort ? `<span class="src-date">${esc(m.ort)}</span>` : ""}<span class="typ">${esc(m.typ)}</span></div>
-      <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
-      <div class="fokus"><b>Schwerpunkt:</b> ${esc(m.fokus)}</div>
-      <p>${esc(m.text)}</p>
-      <a class="orig" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${m.video ? "▶ Video ansehen ↗" : "Originalbericht öffnen ↗"}</a>
-    </article>`).join("");
+  const b = n.bildInfo;
+  const einfach = stufe === "einfach" && n.einfach;
+  const clipDauer = dauerText(dauerSek(segmenteBauen("clip", n.id)));
+  const W = [["Wer","wer"],["Was","was"],["Wann","wann"],["Wo","wo"],["Wie","wie"],["Warum","warum"],["Quellen","quellenlage"]];
+
+  const koerper = einfach
+    ? n.einfach.absaetze.map(p => `<p>${esc(p)}</p>`).join("")
+    : n.artikel?.length
+      ? n.artikel.map(a => /verständnis/i.test(a.ueberschrift)
+          ? `<div class="verstaendnis"><h2>${esc(a.ueberschrift)}</h2><p class="v-hinweis">Allgemeines Grundwissen – nicht aus den verglichenen Berichten</p>${a.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}</div>`
+          : `<h2>${esc(a.ueberschrift)}</h2>${a.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}`).join("")
+      : `<h2>Das Wichtigste</h2>${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}`;
+
+  const tabs = [
+    ["fakten", "Fakten", true],
+    ["stimmen", "Stimmen", n.positionen?.length || n.fehlend],
+    ["medien", "Medien", true],
+    ["lernen", "Lernen", n.lernen]
+  ].filter(t => t[2]);
+
+  const panel = {
+    fakten: `<h3 class="ein-h">Darin sind sich die Medien einig</h3>
+      <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x => `<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul>
+      ${n.unklar?.length ? `<h3 class="ein-h">Noch unklar oder umstritten</h3><div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}`,
+    stimmen: `${(n.positionen || []).map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p>${q ? `<div class="pos-q">berichtet von: ${esc(q)}</div>` : ""}</div>`).join("")}
+      ${n.fehlend ? `<p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p>` : ""}`,
+    medien: `${n.medien.map(m => `<article class="src">
+        <div class="src-head"><span class="src-name">${esc(m.name)}</span><span class="typ">${esc(m.typ)}</span></div>
+        <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
+        <div class="fokus"><b>Schwerpunkt:</b> ${esc(m.fokus)}</div>
+        <p>${esc(m.text)}</p>
+        <a class="orig" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${m.video ? "▶ Video ansehen ↗" : "Originalbericht lesen ↗"}</a>
+      </article>`).join("")}
+      ${n.unterschiede?.length ? `<h3 class="ein-h">Unterschiede zwischen den Berichten</h3><ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul>` : ""}`,
+    lernen: lernbereich(n.lernen)
+  };
+
   $app.innerHTML = `<article class="detail">
-    ${zurueck}
-    ${archiv ? `<div class="archiv-hinweis">Aus dem Archiv · ${esc(fmtZeit(n.zeit, n.nurDatum))} – der Stand kann sich seitdem geändert haben.</div>` : ""}
-    <div class="meta" style="margin-top:18px">${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}
-      <span class="rub">${esc(n.rubrik)}</span><span>${esc(fmtZeit(n.zeit, n.nurDatum))}</span>
-      <span class="check">✓ ${n.medien.length} Medien verglichen</span></div>
-    <h1>${esc(n.titel)}</h1>
-    <p class="lead">${esc(stufe === "einfach" && n.einfach?.vorspann ? n.einfach.vorspann : n.vorspann)}</p>
-    <div class="hero"><div class="tafel">${esc(n.rubrik)}</div>${n.bildInfo ? `<img src="${esc(n.bildInfo.url)}" alt="${esc(n.bildInfo.hinweis)}" referrerpolicy="no-referrer" style="position:relative" onerror="if(this.dataset.o!=='1'&&'${esc(n.bildInfo.original||'')}'){this.dataset.o='1';this.src='${esc(n.bildInfo.original||'')}'}else{this.remove()}">` : ""}
-      <button class="hero-play" id="clipBtn">▶ Clip ansehen · ca. ${dauerText(dauerSek(segmenteBauen("clip", n.id)))}</button></div>
-    ${n.bildInfo ? `<p class="bildnachweis">${esc(n.bildInfo.hinweis)} · Foto: ${esc(n.bildInfo.urheber)} / <a href="${esc(n.bildInfo.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${n.bildInfo.lizenzUrl ? `<a href="${esc(n.bildInfo.lizenzUrl)}" target="_blank" rel="noopener">${esc(n.bildInfo.lizenz)}</a>` : esc(n.bildInfo.lizenz)}</p>` : ""}
-    ${n.aktualisiert ? `<p class="update">${esc(n.aktualisiert)}</p>` : ""}
-    ${n.wfragen ? `<div class="wfragen"><h2>Die W-Fragen</h2><dl>${[["Wer?","wer"],["Was?","was"],["Wann?","wann"],["Wo?","wo"],["Wie?","wie"],["Warum?","warum"],["Woher wissen wir das?","quellenlage"]]
-      .filter(([,k]) => n.wfragen[k]).map(([l,k]) => `<dt>${l}</dt><dd class="${/noch unklar/i.test(n.wfragen[k]) ? "offen" : ""}">${esc(n.wfragen[k])}</dd>`).join("")}</dl></div>` : ""}
-    ${n.einfach || n.artikel?.length ? `<div class="stufen" role="group" aria-label="Textfassung"><button data-s="einfach" aria-pressed="${stufe === "einfach"}">Einfach</button><button data-s="ausfuehrlich" aria-pressed="${stufe !== "einfach"}">Ausführlich</button></div>` : ""}
-    ${stufe === "einfach" && n.einfach
-      ? `<section class="block artikel"><h2>Einfach erklärt</h2>${n.einfach.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}</section>`
-      : n.artikel?.length
-        ? `<section class="block artikel">${n.artikel.map((a, i) => `${i === 0 ? `<h2>${esc(a.ueberschrift)}</h2>` : `<h3>${esc(a.ueberschrift)}</h3>`}${a.absaetze.map(p => `<p>${esc(p)}</p>`).join("")}`).join("")}</section>`
-        : `<section class="block"><h2>Das Wichtigste – neutral zusammengefasst</h2>${n.zusammenfassung.map(p => `<p>${esc(p)}</p>`).join("")}</section>`}
-    ${n.zeitleiste?.length >= 2 ? `<section class="block"><h2>Zeitleiste</h2><ol class="zeitleiste">${n.zeitleiste.map(([d,e]) => `<li><b>${esc(d)}</b>${esc(e)}</li>`).join("")}</ol></section>` : ""}
-    <section class="block"><h2>Darin sind sich alle Medien einig</h2>
-      <ul class="facts">${n.einig.map(([f,q]) => `<li>${esc(f)}<div class="belege">${q.map(x => `<span class="beleg">${esc(x)}</span>`).join("")}</div></li>`).join("")}</ul></section>
-    ${n.unklar?.length ? `<section class="block"><h2>Noch unklar oder umstritten</h2><div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div></section>` : ""}
-    ${n.positionen?.length ? `<section class="block"><h2>Wer sagt was</h2>
-      ${n.positionen.map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p>${q ? `<div class="pos-q">berichtet von: ${esc(q)}</div>` : ""}</div>`).join("")}
-      ${n.fehlend ? `<p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p>` : ""}</section>` : ""}
-    <section class="block"><h2>So berichten die Medien</h2>${quellen}</section>
-    ${n.unterschiede?.length ? `<section class="block"><h2>Unterschiede zwischen den Berichten</h2>
-      <ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul></section>` : ""}
-    ${lernbereich(n.lernen)}
+    <a class="zurueck-link" href="#/">‹ Alle Nachrichten</a>
+    <figure class="hero">
+      <div class="tafel" aria-hidden="true">${esc(n.rubrik)}</div>
+      ${b ? `<img src="${esc(b.url)}" alt="${esc(b.hinweis)}" referrerpolicy="no-referrer" onerror="if(this.dataset.o!=='1'&&this.dataset.orig){this.dataset.o='1';this.src=this.dataset.orig}else{this.remove()}" data-orig="${esc(b.original || "")}">` : ""}
+      <button class="hero-play" id="clipBtn"><span class="pl-dreieck">▶</span> Clip · ${clipDauer}</button>
+      ${b ? `<figcaption>${esc(b.hinweis)} · Foto: ${esc(b.urheber)} / <a href="${esc(b.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${b.lizenzUrl ? `<a href="${esc(b.lizenzUrl)}" target="_blank" rel="noopener">${esc(b.lizenz)}</a>` : esc(b.lizenz)}</figcaption>` : ""}
+    </figure>
+
+    <div class="kopf">
+      <div class="dachzeile">${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}<span>${esc(n.rubrik)}</span></div>
+      <h1>${esc(n.titel)}</h1>
+      <div class="zeile">
+        <span>${esc(fmtZeit(n.zeit, n.nurDatum))} Uhr</span>
+        ${n.aktualisiert ? `<span>${esc(n.aktualisiert)}</span>` : ""}
+        <span class="check">✓ ${n.medien.length} Medien verglichen</span>
+        ${n.geprueft ? `<span class="check">✓ geprüft</span>` : ""}
+      </div>
+      ${archiv ? `<div class="archiv-hinweis">Aus dem Archiv – der Stand kann sich seitdem geändert haben.</div>` : ""}
+      <p class="lead">${esc(einfach && n.einfach.vorspann ? n.einfach.vorspann : n.vorspann)}</p>
+      ${n.einfach || n.artikel?.length ? `<div class="stufen" role="group" aria-label="Textfassung">
+        <button data-s="ausfuehrlich" aria-pressed="${!einfach}">Ausführlich</button>
+        <button data-s="einfach" aria-pressed="${!!einfach}">Einfache Sprache</button></div>` : ""}
+    </div>
+
+    ${n.wfragen ? `<aside class="blick"><h2>Auf einen Blick</h2><dl>${W.filter(([,k]) => n.wfragen[k]).map(([l,k]) =>
+      `<div class="${/noch unklar/i.test(n.wfragen[k]) ? "offen" : ""}"><dt>${l}</dt><dd>${esc(n.wfragen[k])}</dd></div>`).join("")}</dl></aside>` : ""}
+
+    <div class="text">${koerper}
+      ${n.zeitleiste?.length >= 2 && !einfach ? `<h2>Chronologie</h2><ol class="zeitleiste">${n.zeitleiste.map(([d,e]) => `<li><b>${esc(d)}</b>${esc(e)}</li>`).join("")}</ol>` : ""}
+    </div>
+
+    <section class="einordnung">
+      <h2 class="einordnung-titel">Einordnung</h2>
+      <div class="tabs" role="tablist">${tabs.map(([k,l]) => `<button role="tab" data-t="${k}" aria-selected="${k === tab}">${l}</button>`).join("")}</div>
+      <div class="tab-inhalt" id="tabInhalt">${panel[tab]}</div>
+    </section>
+
     ${neutralCheck(n)}
     ${fehlerMelden(n)}
     <div class="bottom-back">${zurueck}</div>
   </article>`;
-  if (n.lernen?.quiz?.length) quizAktivieren(n.lernen);
+
+  const tabWechsel = k => {
+    document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x.dataset.t === k));
+    document.getElementById("tabInhalt").innerHTML = panel[k];
+    if (k === "lernen" && n.lernen?.quiz?.length) quizAktivieren(n.lernen);
+  };
+  document.querySelectorAll(".tabs button").forEach(x => x.onclick = () => tabWechsel(x.dataset.t));
   meldenAktivieren(n);
   document.getElementById("clipBtn").onclick = () => { PLAYER.zurueck = location.hash; location.hash = `#/video/clip/${n.id}`; };
-  document.querySelectorAll(".stufen button").forEach(b => b.onclick = () => {
-    try { localStorage.setItem("heft-stufe", b.dataset.s); } catch {}
+  document.querySelectorAll(".stufen button").forEach(x => x.onclick = () => {
+    try { localStorage.setItem("heft-stufe", x.dataset.s); } catch {}
     const y = scrollY; detail(n, archiv); scrollTo(0, y);
   });
 }

@@ -8,6 +8,7 @@ import { execSync } from "node:child_process";
 const ROOT = new URL("./", import.meta.url);
 const DATA_FILE = new URL("data/news.json", ROOT);
 const UA = "Mozilla/5.0 (compatible; NachrichtenHeft/1.0; Schulprojekt)";
+const TEXT_VERSION = 3; // höhere Zahl = ältere Artikel werden nach und nach neu geschrieben
 
 // ---------- Hilfsfunktionen ----------
 export function decode(s = "") {
@@ -192,18 +193,28 @@ async function themaSchreiben(thema, quellenTexte, altesThema) {
   const namen = quellenTexte.map(q => q.name).join(", ");
   return ki(REGELN, `${docs}
 ${hinweis}
-Schreibe einen ausführlichen, gut lesbaren Nachrichtenartikel zu diesem Thema (Rubrik: ${thema.rubrik}), wie in einer seriösen Nachrichten-App. Verfügbare Quellennamen: ${namen}.
-Nutze die Details aus den Berichten (Zahlen, Orte, Abläufe, Hintergründe), aber nur, was dort steht.
+Schreibe einen LANGEN, ausführlichen und streng sachlichen Nachrichtenartikel zu diesem Thema (Rubrik: ${thema.rubrik}) – im nüchternen Stil einer Nachrichtenagentur wie dpa oder Reuters. Verfügbare Quellennamen: ${namen}.
+Länge und Inhalt:
+- Der Artikel ("artikel") hat insgesamt 600 bis 1000 Wörter. Jeder Absatz besteht aus 3 bis 5 vollständigen Sätzen.
+- Nutze ALLE Details aus ALLEN Quellen und führe sie zusammen: Zahlen, Namen, Funktionen, Orte, Uhrzeiten, Abläufe, Vorgeschichte, Zitate (sinngemäß), angekündigte Schritte.
+- Nennt eine Quelle etwas, das die anderen nicht nennen, schreibe dazu, von wem es stammt („laut ZDFheute …“).
+- Widersprechen sich Quellen, nenne beide Angaben.
+Stil:
+- Sachlich und nüchtern. Keine wertenden, dramatisierenden oder gefühlsbetonten Wörter (z. B. nicht „besorgniserregend“, „bedrohlich“, „dramatisch“, „massiv“, „schockierend“).
+- Keine Vermutungen der Redaktion, keine Spekulation, keine rhetorischen Fragen.
+- Fachbegriffe beim ersten Vorkommen kurz erklären.
 Antworte NUR mit JSON in genau diesem Format:
 {
  "titel": "sachliche Überschrift",
  "vorspann": "2 Sätze, die das Wichtigste enthalten",
  "eil": ${thema.eil ? "true" : "false"},
- "wfragen": {"wer": "", "was": "", "wann": "", "wo": "", "wie": "", "warum": "Gründe mit Angabe, wer sie nennt – oder 'noch unklar'", "quellenlage": "Worauf stützen sich die Berichte? (Behörden, Augenzeugen, eigene Recherche …)"},
+ "wfragen": {"wer": "höchstens 12 Wörter", "was": "höchstens 12 Wörter", "wann": "Datum/Uhrzeit", "wo": "Ort", "wie": "höchstens 15 Wörter", "warum": "höchstens 15 Wörter, mit Angabe wer den Grund nennt – oder 'noch unklar'", "quellenlage": "höchstens 12 Wörter: worauf stützen sich die Berichte (Polizei, Unternehmen, Augenzeugen …)"},
  "artikel": [
-   {"ueberschrift": "Das ist passiert", "absaetze": ["2–4 Absätze"]},
-   {"ueberschrift": "Hintergrund", "absaetze": ["1–3 Absätze"]},
-   {"ueberschrift": "Reaktionen", "absaetze": ["1–3 Absätze, jede Aussage gekennzeichnet"]},
+   {"ueberschrift": "Das ist passiert", "absaetze": ["2–3 Absätze: das Ereignis mit allen gesicherten Einzelheiten"]},
+   {"ueberschrift": "Die Einzelheiten", "absaetze": ["2–3 Absätze: Ablauf, Zahlen, Beteiligte, Orte genauer"]},
+   {"ueberschrift": "Hintergrund", "absaetze": ["1–3 Absätze: Vorgeschichte und Zusammenhänge laut den Berichten"]},
+   {"ueberschrift": "Zum Verständnis", "absaetze": ["1–2 Absätze: gesichertes, allgemein bekanntes Grundwissen, das man zum Verstehen braucht (z. B. was eine Institution macht, wie ein Verfahren abläuft). KEINE aktuellen Ereignisse, Zahlen oder Bewertungen, die nicht in den Berichten stehen."]},
+   {"ueberschrift": "Reaktionen", "absaetze": ["1–3 Absätze, jede Aussage mit Namen und Funktion gekennzeichnet"]},
    {"ueberschrift": "Wie geht es weiter?", "absaetze": ["1–2 Absätze, nur was in den Berichten angekündigt wird"]}
  ],
  "zusammenfassung": ["3 bis 5 kurze Absätze: die Kurzfassung"],
@@ -216,7 +227,7 @@ Antworte NUR mit JSON in genau diesem Format:
  "unterschiede": [["Stichwort (z. B. Ton, Stimmen, Weggelassenes)", "Erklärung"]],
  "bild": {"art": "person | ort | institution | symbol | keins", "suchbegriff": "Suchbegriff für ein freies Foto bei Wikimedia Commons, z. B. 'Ulf Kristersson' oder 'Reichstag building Berlin'"}
 }
-Regeln für "artikel": Abschnitte ohne Inhalt in den Berichten weglassen. Insgesamt 6–12 Absätze.
+Regeln für "artikel": Abschnitte nur weglassen, wenn die Berichte dazu wirklich nichts enthalten. Insgesamt mindestens 8 Absätze, wenn das Material reicht.
 Regeln für "zeitleiste": nur Schritte, die in den Berichten stehen; bei neuen Ereignissen ohne Vorgeschichte leere Liste.
 Regeln für "bild": Zeige nie das Ereignis selbst, sondern eine beteiligte Person, einen Ort, eine Institution oder ein neutrales Symbol. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER "keins".`, 9000);
 }
@@ -238,7 +249,9 @@ Aufgabe 1 – Prüfen und korrigieren:
 - Zahlen, Namen, Daten und Orte genau mit den Quellen vergleichen – auch in "artikel", "wfragen" und "zeitleiste".
 - Unbekanntes in "wfragen" als "noch unklar" angeben, nicht raten.
 - Aussagen von Beteiligten müssen als Aussage gekennzeichnet sein.
-- Wertende oder zuspitzende Wörter durch neutrale ersetzen (außer in gekennzeichneten Zitaten).
+- Wertende, dramatisierende oder gefühlsbetonte Wörter durch neutrale ersetzen (außer in gekennzeichneten Zitaten).
+- Im Abschnitt "Zum Verständnis" nur gesichertes Grundwissen stehen lassen; alles Aktuelle, Strittige oder Zahlen ohne Beleg entfernen.
+- KÜRZE DEN ARTIKEL NICHT. Ersetze Entferntes möglichst durch belegte Informationen aus den Originalberichten, damit er ausführlich bleibt.
 - Beschreibe jede Änderung in "korrekturen" in einem kurzen Satz. Keine Änderung nötig: leere Liste.
 
 Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften Nachricht):
@@ -481,7 +494,7 @@ async function main() {
   const bestehende = alt.nachrichten || [];
   const { themen = [] } = await themenFinden(artikel, bestehende);
   const ergebnis = new Map(bestehende.map(n => [n.id, n]));
-  let neuGeschrieben = 0;
+  let neuGeschrieben = 0, upgrades = 0;
 
   for (const t of themen) {
     const auswahl = [];
@@ -493,7 +506,9 @@ async function main() {
     if (auswahl.length < 2) continue;
     const altesThema = ergebnis.get(t.id);
     const alteLinks = new Set((altesThema?.medien || []).map(m => m.url));
-    if (altesThema && auswahl.every(a => alteLinks.has(a.link))) continue; // nichts Neues
+    const veraltet = altesThema && (altesThema.version || 1) < TEXT_VERSION;
+    if (altesThema && !veraltet && auswahl.every(a => alteLinks.has(a.link))) continue; // nichts Neues
+    if (veraltet && auswahl.every(a => alteLinks.has(a.link))) { if (upgrades >= (CFG.maxNeuschreibenProLauf ?? 3)) continue; upgrades++; }
     if (!altesThema && neuGeschrieben >= CFG.maxNeueThemenProLauf) continue;
 
     // 3. Artikeltexte holen
@@ -543,7 +558,7 @@ async function main() {
         zeit: neuesteZeit,
         aktualisiert: altesThema ? `aktualisiert um ${berlinUhr(jetzt)} Uhr` : undefined,
         ...entwurf,
-        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo
+        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo, version: TEXT_VERSION
       });
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);
