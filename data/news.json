@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Springmann Live-Scanner</title>
+    <!-- Web App Manifest für die Smartphone-Installation -->
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIlNwcmluZ21hbm4gV2FyZW5lcmZhc3N1bmciLAogICJzaG9ydF9uYW1lIjogIlNwcmluZ21hbm4iLAogICJzdGFydF91cmwiOiAiLiIsCiAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsCiAgInRoZW1lX2NvbG9yIjogIiM3YTIzOGMiCn0=">
+    
+    <!-- Tesseract.js für echte Texterkennung (OCR) laden -->
+    <script src="https://jsdelivr.net"></script>
+
+    <style>
+        :root {
+            --primary-color: #7a238c; /* Orchideen-Lila */
+            --bg-color: #f8f9fa;
+            --text-color: #212529; /* Anthrazit */
+            --card-bg: #ffffff;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); padding: 15px; }
+        
+        header { text-align: center; padding: 20px 0; background: var(--card-bg); border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 20px; }
+        .logo-text { font-style: italic; font-weight: bold; font-size: 28px; }
+        .logo-sub { color: var(--primary-color); font-size: 14px; letter-spacing: 2px; text-transform: uppercase; margin-top: 5px; }
+        
+        .container { max-width: 500px; margin: 0 auto; }
+        
+        .btn-scan { background-color: var(--primary-color); color: white; border: none; width: 100%; padding: 16px; font-size: 18px; font-weight: bold; border-radius: 8px; cursor: pointer; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(122, 35, 140, 0.3); }
+        
+        /* Kamera-Bereich */
+        #cameraContainer { display: none; background: #000; border-radius: 12px; overflow: hidden; position: relative; margin-bottom: 20px; }
+        video { width: 100%; display: block; }
+        .btn-capture { background: #ff3b30; color: white; border: none; padding: 12px; font-weight: bold; width: 100%; cursor: pointer; }
+        #loadingStatus { display: none; text-align: center; color: var(--primary-color); font-weight: bold; margin-bottom: 15px; }
+
+        /* Pop-up Fenster (Modal) */
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); justify-content: center; align-items: flex-end; z-index: 1000; }
+        .modal-content { background: var(--card-bg); width: 100%; max-width: 500px; border-top-left-radius: 20px; border-top-right-radius: 20px; padding: 20px; max-height: 85vh; overflow-y: auto; }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--bg-color); padding-bottom: 10px; margin-bottom: 15px; }
+        .close-btn { font-size: 28px; cursor: pointer; color: #aaa; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { text-align: left; padding: 12px 8px; border-bottom: 1px solid #eee; }
+        th { background-color: var(--bg-color); }
+        
+        .new-customer-form { background: var(--bg-color); padding: 15px; border-radius: 8px; margin-top: 20px; }
+        input { width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+        .btn-add { background: #212529; color: white; border: none; width: 100%; padding: 12px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+
+        .install-banner { display: none; position: fixed; bottom: 20px; left: 20px; right: 20px; background: var(--primary-color); color: white; padding: 15px; border-radius: 12px; z-index: 2000; justify-content: space-between; align-items: center; max-width: 460px; margin: 0 auto; }
+        .btn-install { background: white; color: var(--primary-color); border: none; padding: 8px 16px; border-radius: 6px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo-text">Springmann</div>
+        <div class="logo-sub">❀ Pflanzengroßhandel</div>
+    </header>
+
+    <!-- Der echte Kamera-Start-Button -->
+    <button class="btn-scan" onclick="startCamera()">
+        📷 Echte Handykamera öffnen
+    </button>
+
+    <!-- Hier wird das Live-Kamerabild angezeigt -->
+    <div id="cameraContainer">
+        <video id="webcam" autoplay playsinline></video>
+        <button class="btn-capture" onclick="takePhotoAndScan()">📸 Foto machen & Code auslesen</button>
+    </div>
+
+    <!-- Statusmeldung beim Scannen -->
+    <div id="loadingStatus">Bilder werden analysiert... Bitte warten...</div>
+
+    <!-- Unsichtbare Arbeitsfläche für das Foto im Hintergrund -->
+    <canvas id="hiddenCanvas" style="display:none;"></canvas>
+</div>
+
+<!-- Das aufploppende Bestell-Fenster -->
+<div id="scanModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <div>
+                <h3 id="modalArticleTitle">Artikel: D36162</h3>
+                <small style="color: #666;">Gescannter Code wird oben angezeigt</small>
+            </div>
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+
+        <h4>Offene Bestellungen für diesen Artikel:</h4>
+        <table>
+            <thead>
+                <tr><th>Kunde</th><th>Farbe</th><th>Menge</th></tr>
+            </thead>
+            <tbody id="customerTableBody"></tbody>
+        </table>
+
+        <div class="new-customer-form">
+            <h4>➕ Ware neu zuweisen / Kunde hinzufügen</h4>
+            <input type="text" id="newCustName" placeholder="Name des neuen Kunden">
+            <input type="text" id="newCustColor" placeholder="Farbe (z.B. grün-gold)" value="grün-gold">
+            <input type="number" id="newCustQty" placeholder="Menge (Stück)" value="1">
+            <button class="btn-add" onclick="addNewCustomer()">Kunde live hinzufügen</button>
+        </div>
+    </div>
+</div>
+
+<!-- Installations-Banner -->
+<div id="installBanner" class="install-banner">
+    <span>App auf dem Gerät installieren?</span>
+    <button class="btn-install" onclick="triggerInstallation()">Installieren</button>
+</div>
+
+<script>
+    // Beispiel-Datenbank mit Artikeln (darunter auch der D36162 von deinem Foto)
+    let orderDatabase = [
+        { article: "D36162", name: "Gärtnerei Müller", color: "grün-gold", qty: 25 },
+        { article: "D36162", name: "Blumenparadies Weber", color: "grün", qty: 10 },
+        { article: "D12345", name: "Blumenladen Kraushaar", color: "rot", qty: 5 }
+    ];
+
+    let currentScannedArticle = "D36162"; 
+    let stream = null;
+
+    // 1. Kamera starten
+    async function startCamera() {
+        const video = document.getElementById('webcam');
+        const container = document.getElementById('cameraContainer');
+        
+        try {
+            // Fragt nach der Rückkamera des Handys (environment)
+            stream = await navigator.mediaDevices.getUserMedia({ 
+                video: { facingMode: "environment" }, 
+                audio: false 
+            });
+            video.srcObject = stream;
+            container.style.display = 'block';
+        } catch (err) {
+            alert("Kamera-Fehler: Bitte erlaube der App den Zugriff auf deine Kamera oder teste es auf einem Smartphone.");
+            console.error(err);
+        }
+    }
+
+    // 2. Foto schießen und per KI auslesen
+    async function takePhotoAndScan() {
+        const video = document.getElementById('webcam');
+        const canvas = document.getElementById('hiddenCanvas');
+        const status = document.getElementById('loadingStatus');
+        const ctx = canvas.getContext('2d');
+
+        // Video-Bild auf die Arbeitsfläche zeichnen
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Kamera stoppen, um Akku zu sparen
+        if (stream) {
+            stream.getTracks().forEach(track => track.stop());
+            document.getElementById('cameraContainer').style.display = 'none';
+        }
+
+        // OCR-Texterkennung starten
+        status.style.display = 'block';
+        
+        try {
+            const result = await Tesseract.recognize(canvas, 'deu');
+            const fullText = result.data.text;
+            status.style.display = 'none';
+
+            // Suche nach einer Artikelnummer (z.B. ein Buchstabe gefolgt von 5 Zahlen wie D36162)
+            const match = fullText.match(/[A-Z]\d{5}/i);
+            
+            if (match) {
+                currentScannedArticle = match[0].toUpperCase();
+            } else {
+                // Falls die Kamera unscharf war, nehmen wir als Fallback deine Nummer vom Foto
+                alert("Nummer nicht perfekt erkannt. Zeige zur Demonstration den Artikel D36162 vom Foto an.");
+                currentScannedArticle = "D36162";
+            }
+
+            openModal(currentScannedArticle);
+
+        } catch (ocrError) {
+            status.style.display = 'none';
+            alert("Fehler bei der Texterkennung. Nutze Standard-Artikel D36162.");
+            openModal("D36162");
+        }
+    }
+
+    function openModal(articleNumber) {
+        document.getElementById('modalArticleTitle').innerText = "Artikel: " + articleNumber;
+        renderTable(articleNumber);
+        document.getElementById('scanModal').style.display = 'flex';
+    }
+
+    function renderTable(articleNumber) {
+        const tbody = document.getElementById('customerTableBody');
+        tbody.innerHTML = "";
+        
+        const filtered = orderDatabase.filter(item => item.article === articleNumber);
+        
+        if(filtered.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="3" style="text-align:center; color: #999;">Keine offenen Bestellungen für diesen Artikel gefunden.</td></tr>`;
