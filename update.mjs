@@ -78,10 +78,20 @@ function jsonAusText(text) {
   return JSON.parse(t.slice(t.indexOf("{"), t.lastIndexOf("}") + 1));
 }
 
+let geminiIndex = 0;
+const geminiModelle = () => [].concat(CFG.modelle.gemini);
+function naechstesGeminiModell() {
+  const liste = geminiModelle();
+  if (liste.length < 2) return false;
+  geminiIndex = (geminiIndex + 1) % liste.length;
+  console.warn(`Wechsle zu Modell: ${liste[geminiIndex]}`);
+  return true;
+}
+
 async function geminiAnfrage(system, user, maxTokens) {
   const key = process.env.GEMINI_API_KEY;
   if (!key) throw new Error("GEMINI_API_KEY fehlt (GitHub Secret anlegen).");
-  const modell = CFG.modelle.gemini;
+  const modell = geminiModelle()[geminiIndex];
   const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modell}:generateContent`, {
     method: "POST",
     headers: { "content-type": "application/json", "x-goog-api-key": key },
@@ -112,23 +122,38 @@ async function anthropicAnfrage(system, user, maxTokens) {
 
 let letzteAnfrage = 0;
 async function ki(system, user, maxTokens = 4000) {
-  const anfrage = CFG.anbieter === "anthropic" ? anthropicAnfrage : geminiAnfrage;
-  for (let versuch = 1; versuch <= 4; versuch++) {
+  const gemini = CFG.anbieter !== "anthropic";
+  const anfrage = gemini ? geminiAnfrage : anthropicAnfrage;
+  const maxVersuche = 8;
+  for (let versuch = 1; versuch <= maxVersuche; versuch++) {
     const pause = (CFG.pauseZwischenKiAnfragenSekunden || 0) * 1000 - (Date.now() - letzteAnfrage);
     if (pause > 0) await warte(pause);
     letzteAnfrage = Date.now();
-    const antwort = await anfrage(system, user, maxTokens);
+    let antwort;
+    try { antwort = await anfrage(system, user, maxTokens); }
+    catch (e) { if (/fehlt/.test(e.message)) throw e; antwort = { fehler: 0, text: e.message }; }
     if (!antwort.fehler) {
       try { return jsonAusText(antwort.text); }
       catch { console.warn("Antwort war kein gültiges JSON, neuer Versuch …"); }
     } else {
-      console.warn(`KI-Fehler ${antwort.fehler}: ${antwort.text.slice(0, 300)}`);
-      if ([400, 401, 403, 404].includes(antwort.fehler)) throw new Error("Schlüssel, Modellname oder Anfrage ungültig (siehe Meldung oben).");
-      if (antwort.fehler === 429) { console.warn("Kostenloses Limit erreicht – warte 60 Sekunden …"); await warte(60000); continue; }
+      const kurz = antwort.text.replace(/\s+/g, " ").slice(0, 160);
+      console.warn(`KI-Fehler ${antwort.fehler} (Versuch ${versuch}/${maxVersuche}): ${kurz}`);
+      if ([400, 401, 403].includes(antwort.fehler)) throw new Error("Schlüssel oder Anfrage ungültig (siehe Meldung oben).");
+      if (antwort.fehler === 404) {
+        if (gemini && naechstesGeminiModell()) continue;
+        throw new Error("Modellname nicht gefunden (siehe Meldung oben).");
+      }
+      if ([429, 500, 503, 529].includes(antwort.fehler)) {
+        if (gemini) naechstesGeminiModell();
+        const sek = Math.min(20 * versuch, 90);
+        console.warn(`Dienst überlastet oder Limit erreicht – warte ${sek} Sekunden …`);
+        await warte(sek * 1000);
+        continue;
+      }
     }
     await warte(5000 * versuch);
   }
-  throw new Error("Die KI hat nach 4 Versuchen nicht geantwortet.");
+  throw new Error("Die KI war dauerhaft nicht erreichbar. Beim nächsten geplanten Lauf wird es automatisch erneut versucht.");
 }
 
 const REGELN = `Du schreibst für eine neutrale Nachrichten-App für den Gemeinschaftskunde-Unterricht (Schülerinnen und Schüler).
