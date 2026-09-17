@@ -1,6 +1,7 @@
 {
- "stand": "2026-09-17T15:39:50.089Z",
+ "stand": "2026-09-17T16:01:51.070Z",
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
+ "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
   "schwedischer-ministerpraesident-kristersson-zurueckgetreten"
  ],
@@ -135,62 +136,64 @@
    "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
    "rubrik": "Welt",
    "zeit": "2026-09-17T15:17:18.000Z",
+   "aktualisiert": "aktualisiert um 18:01 Uhr",
    "titel": "Parlamentswahl in Schweden: Ministerpräsident Kristersson tritt zurück",
    "vorspann": "Nach der Parlamentswahl in Schweden hat der konservative Ministerpräsident Ulf Kristersson seinen Rücktritt erklärt. Das Mitte-Links-Lager unter der Führung von Magdalena Andersson hat laut den Berichten eine knappe Mehrheit erreicht.",
    "eil": true,
    "zusammenfassung": [
-    "Bei der Parlamentswahl in Schweden hat das konservativ-rechte Bündnis von Ministerpräsident Ulf Kristersson eine Niederlage erlitten.",
-    "Kristersson erklärte daraufhin seinen Rücktritt und reichte sein Rücktrittsgesuch beim Parlamentspräsidenten ein.",
-    "Das Mitte-Links-Lager unter der Sozialdemokratin Magdalena Andersson errang nach Angaben aus den Berichten eine knappe Mehrheit von 176 Sitzen im Parlament.",
-    "Die Regierungsbildung gilt wegen unterschiedlicher Ansichten und möglicher Koalitionshürden zwischen den beteiligten Parteien als kompliziert."
+    "In Schweden hat das Mitte-Links-Lager die Parlamentswahl knapp gewonnen.",
+    "Das bisherige Regierungsbündnis unter der Führung von Ministerpräsident Ulf Kristersson kam auf 173 Sitze.",
+    "Nach der Niederlage hat der konservative Ministerpräsident Ulf Kristersson seinen Rücktritt bekannt gegeben.",
+    "Die Regierungsbildung gilt laut den Angaben als schwierig, da die Parteien in verschiedenen Fragen unterschiedliche Positionen vertreten."
    ],
    "einig": [
     [
-     "Ministerpräsident Ulf Kristersson hat seinen Rücktritt erklärt.",
+     "Das Bündnis um Magdalena Andersson hat 176 Sitze im Parlament errungen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "Der bisherige Ministerpräsident Ulf Kristersson ist zurückgetreten.",
      [
       "Tagesschau/ARD",
       "Deutschlandfunk",
+      "Spiegel",
       "BBC"
      ]
     ],
     [
-     "Ulf Kristersson gab seinen Rücktritt über die Plattform X bekannt.",
+     "Das rechte Regierungsbündnis kommt auf 173 Mandate.",
      [
       "Tagesschau/ARD",
-      "Deutschlandfunk"
-     ]
-    ],
-    [
-     "Das Mitte-Links-Lager von Magdalena Andersson hat bei der Wahl eine knappe Mehrheit von 176 Mandaten erzielt.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "Das konservative Bündnis von Ministerpräsident Kristersson kommt auf 173 Sitze.",
-     [
-      "Tagesschau/ARD",
+      "Spiegel",
       "BBC"
      ]
     ]
    ],
    "unklar": [
-    "Ob das Wahlergebnis bereits offiziell endgültig feststeht, wird unterschiedlich beschrieben: Laut Tagesschau/ARD gibt es ein offizielles Endergebnis, während die BBC angibt, dass die Ergebnisse noch formal zertifiziert und am Wochenende finalisiert werden müssen."
+    "Das Wahlergebnis muss laut Spiegel und BBC in den kommenden Tagen noch formell bestätigt beziehungsweise zertifiziert werden."
    ],
    "positionen": [
     [
-     "Ulf Kristersson (zurückgetretener Ministerpräsident)",
-     "Das Wahlergebnis und frühere Aussagen der Parteien machen die Bildung einer stabilen Regierung kompliziert, weshalb konstruktive Offenheit und Gespräche nötig sind.",
-     "Tagesschau/ARD,Deutschlandfunk,BBC"
+     "Ulf Kristersson",
+     "Das Wahlergebnis und unterschiedliche Aussagen der Parteien vor der Wahl machen die Bildung einer neuen Regierung kompliziert.",
+     "Tagesschau/ARD, Deutschlandfunk, BBC"
     ],
     [
-     "Magdalena Andersson (Spitzenkandididin der Sozialdemokraten)",
-     "Die schwedische Bevölkerung hat für eine neue Richtung im Land gestimmt.",
-     "BBC"
+     "Magdalena Andersson",
+     "Die schwedischen Bürger haben für eine neue Richtung des Landes gestimmt.",
+     "Spiegel, BBC"
+    ],
+    [
+     "Andreas Norlen",
+     "Die Regierungsbildung könnte ein komplizierter Prozess werden.",
+     "Spiegel"
     ]
    ],
-   "fehlend": "Stimmen anderer Parteien wie der Schwedendemokraten oder der Kleinparteien bezüglich der Regierungsbildung sowie offizielle Reaktionen des Parlamentspräsidenten.",
+   "fehlend": "Genaue Angaben zu den künftigen Koalitionsverhandlungen zwischen allen beteiligten Parteien.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -198,8 +201,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "17.09.26, 17:13",
-     "fokus": "Sitzverteilung und Regierungsbildung",
-     "text": "Der Bericht nennt die genaue Sitzverteilung von 176 zu 173 Sitzen. Zudem wird erläutert, welche Parteien als Koalitionspartner infrage kommen und welche Hürden es dabei gibt.",
+     "fokus": "Politischer Ablauf und Koalitionshürden",
+     "text": "Die Tagesschau berichtet über den Rücktritt von Kristersson und die Aussagen zu den Bedingungen für eine Regierungsbildung.",
      "url": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
      "video": false
     },
@@ -209,9 +212,20 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "17.09.26, 17:17",
-     "fokus": "Kurze Rücktrittsmeldung",
-     "text": "Diese kurze Meldung konzentriert sich auf die Ankündigung des Rücktritts von Ministerpräsident Kristersson über die Plattform X nach der Wahlniederlage.",
+     "fokus": "Kurzmeldung zum Rücktritt",
+     "text": "Der Deutschlandfunk fasst zusammen, dass Ministerpräsident Kristersson nach der Wahl seinen Rücktritt angekündigt hat.",
      "url": "https://www.deutschlandfunk.de/schwedischer-ministerpraesident-kristersson-erklaert-ruecktritt-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 14:04",
+     "fokus": "Hintergründe und politische Sachfragen",
+     "text": "Der Spiegel beleuchtet den Wahlausgang, die Sitze im Parlament sowie inhaltliche Differenzen der Parteien.",
+     "url": "https://www.spiegel.de/ausland/mitte-links-buendnis-gewinnt-wahl-in-schweden-knapp-ministerpraesident-kristersson-tritt-ab-a-32154b9a-e571-4ef8-b951-55fde1be4aca#ref=rss",
      "video": false
     },
     {
@@ -220,79 +234,138 @@
      "art": "internationaler Sender",
      "stamm": true,
      "datum": "17.09.26, 14:41",
-     "fokus": "Hintergründe und Blockbildung",
-     "text": "Der Artikel beleuchtet umfassend die Historie der schwedischen Politik, die Rolle der rechtspopulistischen Schwedendemokraten und gibt Details zu den bisherigen Regierungsbildungen.",
+     "fokus": "Einordnung für internationales Publikum",
+     "text": "Die BBC erklärt das schwedische Wahlsystem, die Parteienblöcke und den Rücktritt des Ministerpräsidenten.",
      "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Ausführlichkeit der Hintergründe",
-     "Die BBC liefert sehr viele Hintergrundinformationen zur Geschichte der Parteien und zur schwedischen Regierungsbildung, während der Deutschlandfunk eine sehr kurze Nachricht veröffentlicht. Die Tagesschau liegt im Mittelfeld und nennt konkrete Mandatszahlen."
+     "Details zu Parteien",
+     "BBC nennt historische Details zu den Schwedendemokraten und der Dauer vorheriger Regierungsbildungen, während andere Quellen sich kürzer fassen."
     ]
-   ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Formulierung im Vorspann und in der Zusammenfassung angepasst, um streng den Vorgaben der Neutralität und den Texten zu entsprechen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Parlament",
+      "Eine Volksvertretung, die in einer Demokratie Gesetze beschließt und die Regierung kontrolliert."
+     ],
+     [
+      "Regierungsbildung",
+      "Der Prozess, in dem nach einer Wahl Parteien eine neue Regierung zusammenstellen."
+     ],
+     [
+      "Mandat",
+      "Ein Sitz im Parlament, den ein Politiker bei einer Wahl errungen hat."
+     ]
+    ],
+    "fragen": [
+     "Welche Herausforderungen kann eine knappe Mehrheit im Parlament für die Bildung einer stabilen Regierung bedeuten?",
+     "Warum ist es für Medien wichtig, offizielle Ergebnisse von Wahlbehörden abzuwarten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Sitze im Parlament errang das Bündnis um Magdalena Andersson?",
+      "optionen": [
+       "173 Sitze",
+       "176 Sitze",
+       "349 Sitze"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD, Spiegel und BBC sicherte sich das Bündnis 176 der 349 Sitze."
+     },
+     {
+      "frage": "Was tat Ministerpräsident Ulf Kristersson nach der Wahl?",
+      "optionen": [
+       "Er trat zurück.",
+       "Er übernahm sofort ein neues Amt.",
+       "Er rief zu Neuwahlen auf."
+      ],
+      "richtig": 0,
+      "erklaerung": "Alle Quellen (Tagesschau/ARD, Deutschlandfunk, Spiegel, BBC) berichten übereinstimmend von seinem Rücktritt."
+     },
+     {
+      "frage": "Wie viele Sitze im Parlament entfielen auf das rechte Regierungsbündnis?",
+      "optionen": [
+       "173 Sitze",
+       "176 Sitze",
+       "350 Sitze"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD, Spiegel und BBC kam das konservative Bündnis auf 173 Mandate."
+     }
+    ]
+   }
   },
   {
    "id": "kanada-eu-assoziierte-mitgliedschaft",
    "rubrik": "Welt",
    "zeit": "2026-09-17T15:17:18.000Z",
+   "aktualisiert": "aktualisiert um 18:01 Uhr",
    "titel": "Kanadischer Premierminister spricht im Europaparlament über EU-Annäherung",
    "vorspann": "Kanadas Premierminister Mark Carney hat sich in einer Rede im Europäischen Parlament offen für einen neuen Status als assoziiertes EU-Mitglied gezeigt. Die geplante Annäherung ruft Reaktionen bei US-Präsident Donald Trump hervor.",
    "eil": false,
    "zusammenfassung": [
-    "Kanadas Premierminister Mark Carney hielt eine Rede vor dem Europäischen Parlament in Straßburg.",
-    "Dabei begrüßte er den Vorschlag von EU-Kommissionspräsidentin Ursula von der Leyen, dass Kanada ein assoziiertes EU-Mitglied werden könnte.",
-    "Hintergrund der Annäherung ist ein Handelsstreit zwischen Kanada und den Vereinigten Staaten.",
-    "US-Präsident Donald Trump reagierte darauf mit Warnungen vor möglichen Zöllen gegen Europa."
+    "Kanadas Premierminister Mark Carney hat in einer Rede vor dem Europäischen Parlament den Vorstoß von EU-Kommissionspräsidentin Ursula von der Leyen begrüßt. Beide Seiten streben an, Kanada zum ersten assoziierten Mitglied der EU zu machen.",
+    "Hintergrund der Annäherung ist unter anderem ein Handelsstreit zwischen Kanada und den USA. Carney betonte, dass Kanada keine reguläre EU-Mitgliedschaft anstrebe, sondern ein anderes Modell.",
+    "US-Präsident Donald Trump reagierte auf den Vorschlag mit Kritik und drohte mit Zöllen oder Handelsbeschränkungen für Europa, falls er die Pläne als feindseligen Akt ansehe. Gleichzeitig äußerte er, dass gut gemeinte Absichten in Ordnung seien.",
+    "Der Status als assoziiertes Mitglied existiert in der EU bisher nicht und muss erst ausgearbeitet werden. Alle 27 EU-Mitgliedstaaten müssen einer solchen Neuerung zustimmen."
    ],
    "einig": [
     [
-     "Kanadas Premierminister Mark Carney hat in einer Rede vor dem Europäischen Parlament in Straßburg den Vorschlag begrüßt, dass Kanada ein assoziiertes EU-Mitglied werden könnte.",
+     "Kanadas Premierminister Mark Carney hat sich im Europäischen Parlament offen für den Vorschlag gezeigt, dass Kanada ein assoziiertes EU-Mitglied werden könnte.",
      [
+      "Tagesschau/ARD",
       "Deutschlandfunk",
-      "Spiegel",
-      "Süddeutsche Zeitung",
-      "BBC"
-     ]
-    ],
-    [
-     "US-Präsident Donald Trump äußerte Kritik an den Plänen und drohte Europa mit Zöllen oder Handelseinschränkungen, falls er die Annäherung als feindseligen Akt ansieht.",
-     [
       "Spiegel",
       "BBC"
      ]
     ],
     [
-     "Der Vorschlag für eine assoziierte Mitgliedschaft stammt von EU-Kommissionspräsidentin Ursula von der Leyen.",
+     "EU-Kommissionspräsidentin Ursula von der Leyen schlug vor, Kanada zum ersten assoziierten Mitglied der EU zu machen.",
      [
-      "Deutschlandfunk",
+      "Spiegel",
+      "FAZ",
+      "BBC"
+     ]
+    ],
+    [
+     "US-Präsident Donald Trump drohte bei einer negativen Bewertung des Vorhabens mit hohen Zöllen oder der Einstellung des Handels mit Europa.",
+     [
+      "Spiegel",
       "BBC"
      ]
     ]
    ],
    "unklar": [
-    "Es ist laut BBC noch unklar, wie die genaue Ausgestaltung dieser Partnerschaft aussehen wird, da der Status eines assoziierten Mitglieds in der EU derzeit nicht existiert und die Zustimmung aller 27 EU-Mitgliedstaaten erfordert.",
-    "Es ist unklar, ob und wann die Pläne umgesetzt werden, da laut BBC noch eine Debatte und eine Abstimmung im kanadischen Parlament ausstehen und Details bei einem Gipfel im Oktober besprochen werden sollen."
+    "Es ist unklar, wie genau das Verhältnis eines assoziierten Mitglieds aussehen wird, da dieser Status in der EU derzeit nicht existiert, laut BBC.",
+    "Es ist unklar, woran US-Präsident Trump festmachen will, ob es sich um einen feindseligen oder gut gemeinten Akt handelt, laut Spiegel."
    ],
    "positionen": [
     [
      "Mark Carney (Kanadischer Premierminister)",
-     "Die Annäherung an die EU ist ein positiver Prozess und eine Antwort auf den US-Präsidenten. Kanada und Europa stehen gemeinsam stärker da und verteidigen ihre Werte und Freiheit.",
-     "Deutschlandfunk,Spiegel,Süddeutsche Zeitung,BBC"
-    ],
-    [
-     "Donald Trump (US-Präsident)",
-     "Die Pläne mit Kanada sind lächerlich. Bei einem feindseligen Akt droht er mit sehr schweren Zöllen oder der Einstellung des Handels mit Europa.",
-     "Spiegel,BBC"
+     "Er begrüßte den Vorschlag einer assoziierten Mitgliedschaft, betonte aber, dass Kanada kein Vollmitglied werden wolle und kein dritter Machtblock zur Dominanz anderer geschaffen werden soll.",
+     "Tagesschau/ARD,Deutschlandfunk,Spiegel,FAZ,BBC"
     ],
     [
      "Ursula von der Leyen (EU-Kommissionspräsidentin)",
-     "Sie schlägt vor, die Tür für eine assoziierte Mitgliedschaft Kanadas zu öffnen und die Zusammenarbeit in Bereichen wie Wirtschaft, Sicherheit und Technologie zu vertiefen.",
-     "Deutschlandfunk,BBC"
+     "Sie möchte die transatlantische Kooperation stärken und die Beziehungen zu Kanada auf das höchstmögliche Niveau bringen, indem sie das Land zum ersten assoziierten Mitglied macht.",
+     "Spiegel,FAZ,BBC"
+    ],
+    [
+     "Donald Trump (US-Präsident)",
+     "Er bezeichnete die Idee als lächerlich und drohte Europa mit schweren Zöllen oder Handelseinstellungen, falls er den Schritt als feindseligen Akt wertet.",
+     "Spiegel,BBC"
     ]
    ],
-   "fehlend": "Es fehlen direkte Stellungnahmen oder Reaktionen von Vertretern der einzelnen 27 EU-Mitgliedstaaten, deren Zustimmung für den neuen Status notwendig ist.",
+   "fehlend": "Stimmen oder Reaktionen aus den Parlamenten oder Regierungen der einzelnen 27 EU-Mitgliedstaaten (außer dem Hinweis, dass alle zustimmen müssen und es teils Vorbehalte gibt).",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -300,8 +373,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "17.09.26, 16:06",
-     "fokus": "Kurze Meldung zur Rede",
-     "text": "Die Tagesschau berichtet in einer kurzen Meldung darüber, dass der kanadische Premier die Pläne bei seiner Rede vor der EU begrüßt hat.",
+     "fokus": "Kompakte Kurzmeldung",
+     "text": "Die Tagesschau berichtet kurz und sachlich über Carneys Rede und die Begrüßung der Pläne für das assoziierte Mitglied im EU-Plenum. Weitere Hintergründe werden in dieser Meldung nicht genannt.",
      "url": "https://www.tagesschau.de/video/video-1650632.html",
      "video": true
     },
@@ -311,8 +384,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "17.09.26, 17:17",
-     "fokus": "Reaktion des Premierministers",
-     "text": "Der Deutschlandfunk meldet, dass sich der liberale Politiker Carney offen für den Vorstoß der Kommissionspräsidentin gezeigt hat.",
+     "fokus": "Kurzer Redebericht",
+     "text": "Der Deutschlandfunk meldet kurz die Offenheit von Premierminister Carney für den Vorstoß von der Leyens. Dabei wird auf Carneys liberale Partei und seine Rede im Parlament verwiesen.",
      "url": "https://www.deutschlandfunk.de/assoziiertes-eu-mitglied-kanadas-premier-carney-offen-fuer-vorschlag-100.html",
      "video": false
     },
@@ -321,22 +394,22 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "17.09.26, 16:49",
-     "fokus": "Konflikt mit US-Präsident",
-     "text": "Der Spiegel beleuchtet vor allem die scharfe Reaktion und die Warnungen von US-Präsident Trump auf die Annäherung zwischen Kanada und Europa.",
-     "url": "https://www.spiegel.de/ausland/kanada-eu-annaeherung-als-antwort-auf-us-praesidenten-a-1322e7a6-b9f7-4c8b-893b-4f8e2f6c5f73#ref=rss",
+     "datum": "17.09.26, 12:19",
+     "fokus": "Umfassende Hintergründe und Trump-Drohung",
+     "text": "Der Spiegel liefert viele Details zu Carneys Rede, konkreten Kooperationsbereichen und der Energieversorgung. Zudem wird ausführlich auf den Handelsstreit mit den USA und Trumps Drohungen eingegangen.",
+     "url": "https://www.spiegel.de/ausland/kanada-ist-laut-mark-carney-offen-fuer-idee-einer-eu-sondermitgliedschaft-a-bac9d100-3566-40ae-8ddc-84cd65aca170#ref=rss",
      "video": false
     },
     {
-     "name": "Süddeutsche Zeitung",
+     "name": "FAZ",
      "typ": "Tageszeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "17.09.26, 14:17",
-     "fokus": "Suche nach Hilfe gegen Trump",
-     "text": "Die Süddeutsche Zeitung betont, dass Kanada in Europa Hilfe im Handelsstreit sucht, da die alte Weltordnung durch Verbündete demontiert werde.",
-     "url": "https://www.sueddeutsche.de/politik/kanada-eu-parlament-carney-allianz-europa-trump-usa-li.3549197",
-     "video": false
+     "datum": "17.09.26, 15:56",
+     "fokus": "Europapolitische Einordnung",
+     "text": "Die FAZ ordnet den Vorstoß in den Druck auf Europa durch KI, US-Konflikte und den Ukraine-Krieg ein. Zudem wird erwähnt, dass Carney in Toronto befragt wurde und Kanada kein EU-Vollmitglied werden möchte.",
+     "url": "https://www.faz.net/video/carney-kanada-will-engere-anbindung-an-die-eu-201237374.html",
+     "video": true
     },
     {
      "name": "BBC",
@@ -344,8 +417,8 @@
      "art": "internationaler Sender",
      "stamm": true,
      "datum": "17.09.26, 14:27",
-     "fokus": "Ausführliche Details zum Status",
-     "text": "Die BBC liefert viele Einzelheiten zu den Plänen, zur Zusammenarbeit bei Rohstoffen und Energie sowie zur unklaren Rechtslage des neuen Status.",
+     "fokus": "Internationale Reaktionen und Details",
+     "text": "Die BBC beleuchtet Carneys Auftritt im EU-Parlament in Straßburg, seine Zitate zu geopolitischen Brüchen und Trumps Reaktionen. Außerdem wird erklärt, dass der Status noch nicht existiert und alle 27 Staaten zustimmen müssen.",
      "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
      "video": false
     }
@@ -353,9 +426,66 @@
    "unterschiede": [
     [
      "Ausführlichkeit",
-     "Während Tagesschau/ARD und Deutschlandfunk nur sehr kurz über Carneys Rede berichten, gehen BBC und Spiegel ausführlich auf die Hintergründe des Handelsstreits mit den USA ein."
+     "Während Tagesschau/ARD und Deutschlandfunk sehr kurze Meldungen zur Rede veröffentlichen, bieten Spiegel, FAZ und BBC deutlich mehr Kontext zur US-Handelspolitik und den Inhalten der Rede."
     ]
-   ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Das Wort 'eskalierend' wurde bei Handelsstreit entfernt, um neutral zu bleiben."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Assoziiertes Mitglied",
+      "Ein besonderer Status in einer Organisation oder Gemeinschaft für Partner, die keine reguläre Vollmitgliedschaft anstreben."
+     ],
+     [
+      "Zoll",
+      "Eine Abgabe oder Steuer, die beim Handel über Landesgrenzen hinweg auf Waren erhoben wird."
+     ],
+     [
+      "Strategische Autonomie",
+      "Die Fähigkeit eines Staates oder Bündnisses, in wichtigen Bereichen eigenständig zu handeln und unabhängig zu bleiben."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nennen die Berichte für die Annäherung zwischen Kanada und der EU?",
+     "Wie bewerten verschiedene politische Akteure in den Berichten den Vorschlag einer assoziierten Mitgliedschaft?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer schlug vor, Kanada zum ersten assoziierten Mitglied der EU zu machen?",
+      "optionen": [
+       "EU-Kommissionspräsidentin Ursula von der Leyen",
+       "US-Präsident Donald Trump",
+       "Kanadas Premierminister Mark Carney"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Spiegel, FAZ und BBC schlug EU-Kommissionspräsidentin Ursula von der Leyen diesen Schritt vor."
+     },
+     {
+      "frage": "Welche Reaktion zeigte US-Präsident Donald Trump auf den Vorschlag?",
+      "optionen": [
+       "Er begrüsste die Pläne ausdrücklich.",
+       "Er drohte mit Zöllen oder Handelsbeschränkungen bei einer negativen Bewertung.",
+       "Er schlug vor, den US-Handel mit Kanada zu verdoppeln."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Spiegel und BBC drohte US-Präsident Trump bei einer negativen Bewertung mit hohen Zöllen oder der Einstellung des Handels."
+     },
+     {
+      "frage": "Was betonte Kanadas Premierminister Mark Carney in Bezug auf die EU-Mitgliedschaft?",
+      "optionen": [
+       "Kanada will schnellstmöglich ein reguläres EU-Vollmitglied werden.",
+       "Kanada strebt keine reguläre EU-Mitgliedschaft an.",
+       "Kanada fordert den Beitritt zur Europäischen Währungsunion."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut FAZ und BBC betonte Carney, dass Kanada nicht das Ziel habe, ein Vollmitglied der Europäischen Union zu werden."
+     }
+    ]
+   }
   },
   {
    "id": "festnahme-islamist-anschlag-kirche-bremen",
@@ -589,6 +719,1003 @@
      "ZDFheute liefert umfangreiche Zusatzinformationen zur weltweiten Situation der Krankheit und medizinische Erklärungen, während Deutschlandfunk und Süddeutsche Zeitung sich stark auf die Kernfakten des aktuellen Falls konzentrieren."
     ]
    ]
+  },
+  {
+   "id": "us-notenbank-erhoeht-leitzins",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "US-Notenbank erhöht den Leitzins",
+   "vorspann": "Die US-Notenbank Federal Reserve hat ihren Leitzins angehoben. Dies geschieht vor dem Hintergrund einer Inflation und führt zu Kritik von US-Präsident Donald Trump.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die US-Notenbank Fed hat den Leitzins um 0,25 Prozentpunkte auf eine Spanne von 3,75 bis 4,00 Prozent erhöht.",
+    "Es ist die erste Zinserhöhung der Notenbank seit dem Jahr 2023.",
+    "Als Grund nennen die Verantwortlichen die anhaltende Inflation.",
+    "US-Präsident Donald Trump reagierte verärgert auf die Entscheidung und forderte niedrigere Zinsen.",
+    "Notenbankchef Kevin Warsh betonte hingegen die Unabhängigkeit der Fed."
+   ],
+   "einig": [
+    [
+     "Die US-Notenbank Fed hat den Leitzins um 0,25 Prozentpunkte auf 3,75 bis 4,00 Prozent erhöht.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Es ist die erste Zinserhöhung der US-Notenbank seit 2023.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Notenbankchef Kevin Warsh gerät durch die Entscheidung auf Konfrontationskurs mit US-Präsident Donald Trump.",
+     [
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es ist noch unklar, wie die nächsten Zinsentscheidungen der Fed ausfallen werden."
+   ],
+   "positionen": [
+    [
+     "US-Präsident Donald Trump",
+     "Die Zinssätze sollten bei einem Prozent oder darunter liegen, und die Fed füge ihm mit politischen Motiven Schaden zu.",
+     "Tagesschau/ARD, Zeit, Süddeutsche Zeitung"
+    ],
+    [
+     "Notenbankchef Kevin Warsh",
+     "Die Zinserhöhung war die richtige Entscheidung zur Erfüllung des Auftrags für stabile Preise, und er wolle die Fed unabhängig weiterführen.",
+     "Tagesschau/ARD, Deutschlandfunk, Spiegel, Süddeutsche Zeitung"
+    ]
+   ],
+   "fehlend": "Stimmen aus anderen politischen Bereichen oder weitere Details.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 02:07",
+     "fokus": "Hintergrund, Kritik und Reaktionen",
+     "text": "Der Bericht beleuchtet die politische Debatte und die Aussagen zwischen Trump und Notenbankchef Warsh.",
+     "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-leitzins-erhoeht-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Kompakte Zusammenfassung der Entscheidung",
+     "text": "Die Meldung konzentriert sich auf die Fakten zur Zinserhöhung und den Konfrontationskurs zwischen der Fed und US-Präsident Trump.",
+     "url": "https://www.deutschlandfunk.de/us-notenbank-erhoeht-erstmals-seit-juli-2023-wieder-leitzins-104.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "16.09.26, 20:13",
+     "fokus": "Inflationsdaten und europäischer Kontext",
+     "text": "Der Artikel nennt Teuerungsraten und erwähnt, dass auch die Europäische Zentralbank ihren Leitzins erhöht hatte.",
+     "url": "https://www.spiegel.de/wirtschaft/us-notenbank-fed-erhoeht-leitzins-erstmals-seit-2023-a-c72447c1-ff8e-4fdb-a5c1-9745d77ce5b9#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 03:00",
+     "fokus": "Kurze Zusammenfassung des Konflikts",
+     "text": "Die Meldung beschreibt die Zinserhöhung der Fed zur Bekämpfung der Inflation sowie die Kritik von US-Präsident Donald Trump.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/us-notenbank-erhoeht-erstmals-seit-2023-den-leitzins",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "16.09.26, 23:17",
+     "fokus": "Kontext",
+     "text": "Der Text beschreibt den Erwartungsdruck auf den Fed-Chef Warsh vor der Sitzung.",
+     "url": "https://www.sueddeutsche.de/wirtschaft/us-notenbank-fed-leitzins-erhoehung-warsh-trump-li.3548613",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Einige Medien bieten lange Hintergrundanalysen, während andere kompaktere Meldungen veröffentlichen."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Begriffe wie hartnäckig und Iran-Krieg im Vorspann entfernt, da nicht in allen Quellen als einig oder neutral geführt.",
+    "Nicht belegte Details in Zusammenfassung und Unklar angepasst."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Leitzins",
+      "Der Leitzins ist der Zinssatz, zu dem sich Geschäftsbanken Geld bei der Zentralbank leihen können. Er beeinflusst die Zinsen für Kredite und Spareinlagen in der gesamten Wirtschaft."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente nennen Notenbankchef Kevin Warsh und US-Präsident Donald Trump jeweils in dem Konflikt?",
+     "Welche Rolle spielt die Unabhängigkeit einer Zentralbank bei Zinsentscheidungen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Um wie viel wurde der Leitzins der US-Notenbank Fed angehoben?",
+      "optionen": [
+       "Um 0,10 Prozentpunkte",
+       "Um 0,25 Prozentpunkte",
+       "Um 0,50 Prozentpunkte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD, Deutschlandfunk, Spiegel und Süddeutsche Zeitung wurde der Leitzins um 0,25 Prozentpunkte erhöht."
+     }
+    ]
+   }
+  },
+  {
+   "id": "usa-sanktionen-russland-kongress",
+   "rubrik": "Welt",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "US-Kongress beschließt neue Sanktionen gegen Russland",
+   "vorspann": "Nach langen Verhandlungen hat das US-Repräsentantenhaus ein neues Sanktionspaket gegen Russland verabschiedet. Das Gesetz sieht unter anderem Maßnahmen gegen russische Energieexporte vor.",
+   "eil": false,
+   "zusammenfassung": [
+    "Das US-Repräsentantenhaus hat dem neuen Sanktionsgesetz mit einer Mehrheit von 262 zu 159 Stimmen zugestimmt.",
+    "Nachdem der Senat das Gesetz im vergangenen Monat gebilligt hatte, muss nun noch US-Präsident Donald Trump es unterzeichnen.",
+    "Das Vorhaben ist nach dem im Juli verstorbenen Senator Lindsey Graham benannt, der es maßgeblich vorangetrieben hatte.",
+    "Das Gesetz zielt darauf ab, Russlands Einnahmen aus Öl- und Gasexporten zu verringern und die sogenannte Schattenflotte zu treffen.",
+    "Zudem ermächtigt das Gesetz den US-Präsidenten, Zölle von bis zu 100 Prozent auf Einfuhren aus Ländern zu erheben, die weiterhin russische Energieträger kaufen."
+   ],
+   "einig": [
+    [
+     "Das US-Repräsentantenhaus hat dem neuen Sanktionsgesetz gegen Russland mit 262 zu 159 Stimmen zugestimmt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Der Gesetzentwurf geht zur Unterzeichnung an US-Präsident Donald Trump weiter.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Das Gesetzesvorhaben ist nach dem im Juli verstorbenen Senator Lindsey Graham benannt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob US-Präsident Donald Trump die weitreichenden Befugnisse und die neuen Sanktionen tatsächlich umfassend nutzen wird, bleibt laut Tagesschau/ARD, ZDFheute und Deutsche Welle offen."
+   ],
+   "positionen": [
+    [
+     "Jeanne Shaheen (demokratische Senatorin)",
+     "Das Gesetz ist ein wichtiges Signal für die Ukraine und bringt die USA in Einklang mit europäischen Verbündeten.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Michael McCaul (republikanischer Abgeordneter)",
+     "Wirkliche Verhandlungen über ein Kriegsende setzen maximalen Druck auf Russland voraus.",
+     "Tagesschau/ARD,ZDFheute"
+    ],
+    [
+     "Wolodymyr Selenskyj (ukrainischer Präsident)",
+     "Er hat das Gesetz beziehungsweise die Zustimmung des Senats bereits im August begrüßt.",
+     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
+    ],
+    [
+     "Andrij Sybiha (ukrainischer Außenminister)",
+     "Das Gesetz ist die richtige Reaktion auf Russlands Weigerung, seinen Terror zu beenden.",
+     "Deutsche Welle"
+    ],
+    [
+     "Richard Blumenthal (demokratischer Senator)",
+     "Europäische Verbündete sind von den Maßnahmen nicht betroffen, da Ausnahmen für geringe Importe vorgesehen sind.",
+     "ZDFheute,Spiegel,Deutsche Welle"
+    ],
+    [
+     "Gregory Meeks (ranghöchster Demokrat im Auswärtigen Ausschuss)",
+     "Der Entwurf ist zutiefst mangelhaft, da er Trumps Zollmöglichkeiten maximiert, aber Verpflichtungen für tatsächliche Sanktionen minimiert.",
+     "Deutsche Welle"
+    ]
+   ],
+   "fehlend": "Stimmen oder offizielle Reaktionen aus Russland, China und Indien zu dem neuen US-Gesetz.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 09:25",
+     "fokus": "Hintergründe und politische Reaktionen",
+     "text": "Der Bericht beleuchtet ausführlich die Debatte über Trumps Spielräume und zitiert verschiedene US-Politiker. Zudem wird auf die Beziehungen zu China eingegangen.",
+     "url": "https://www.tagesschau.de/ausland/amerika/usa-russland-sanktionen-140.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 02:52",
+     "fokus": "Details des Gesetzes",
+     "text": "Es werden konkrete Inhalte wie Einreiseverbote, Vermögenseinforungen und die genauen Zollregeln für die Hauptabnehmer russischer Energie erläutert.",
+     "url": "https://www.zdfheute.de/politik/ausland/usa-kongress-russland-sanktionen-ukraine-krieg-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Kurze Zusammenfassung",
+     "text": "Der Text fasst die wichtigsten Fakten zur Verabschiedung im Repräsentantenhaus und zur Weiterleitung an den US-Präsidenten kurz zusammen.",
+     "url": "https://www.deutschlandfunk.de/neue-russland-sanktionen-was-der-us-kongress-beschlossen-hat-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 01:51",
+     "fokus": "Handelsbeziehungen und Hintergrund",
+     "text": "Der Artikel nennt den genauen englischen Titel des Gesetzes und geht auf die Handelskonflikte mit China und Indien ein.",
+     "url": "https://www.spiegel.de/ausland/ukraine-krieg-us-kongress-erhoeht-mit-sanktionsgesetz-den-druck-auf-russland-a-fa55cbbc-468d-4641-9032-82892cc931da#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "17.09.26, 09:51",
+     "fokus": "Kritik und internationale Reaktionen",
+     "text": "Es wird detailliert auf die Kritik von Demokraten am Gesetz eingegangen und die offizielle Reaktion des ukrainischen Außenministers zitiert.",
+     "url": "https://www.dw.com/de/us-kongress-beschließt-schärfere-russland-sanktionen/a-79300568?maca=de-rss-de-all-1119-rdf",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Namen des Gesetze",
+     "Der Spiegel nennt den genauen englischen Originalnamen des Gesetzes, während die anderen Berichte diesen Namen weglassen."
+    ],
+    [
+     "Zoll-Obergrenze für Russland",
+     "Die Deutsche Welle erwähnt zusätzlich, dass Trump Importe aus Russland direkt mit Strafzöllen von bis zu 500 Prozent belegen kann."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Sanktionen",
+      "Wirtschaftliche Strafmaßnahmen gegen einen Staat, um diesen zu einem bestimmten Verhalten zu bewegen."
+     ],
+     [
+      "Schattenflotte",
+      "Schiffe, die unter anderer Flagge fahren und den Transport von Öl und Gas für Russland übernehmen, um internationale Sanktionen zu umgehen."
+     ],
+     [
+      "Strafzölle",
+      "Zusätzliche Steuern auf eingeführte Waren aus bestimmten Ländern, um den Handel zu erschweren."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile könnte es haben, wenn die Anwendung von Sanktionen weitgehend im Ermessen des US-Präsidenten liegt?",
+     "Wie bewerten verschiedene Politiker in den USA die neuen Gesetzesregeln?"
+    ],
+    "quiz": [
+     {
+      "frage": "Mit welcher Stimmenmehrheit hat das US-Repräsentantenhaus für das Sanktionsgesetz gestimmt?",
+      "optionen": [
+       "262 zu 159 Stimmen",
+       "200 zu 200 Stimmen",
+       "300 zu 100 Stimmen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut allen Quellen stimmten 262 Abgeordnete für und 159 gegen das Gesetz."
+     },
+     {
+      "frage": "Nach welcher Person ist das Gesetzesvorhaben benannt?",
+      "optionen": [
+       "Donald Trump",
+       "Lindsey Graham",
+       "Wladimir Putin"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Vorhaben trägt den Namen des im Juli verstorbenen Senators Lindsey Graham."
+     },
+     {
+      "frage": "Was muss nach der Zustimmung des Repräsentantenhauses als Nächstes geschehen, damit das Gesetz in Kraft treten kann?",
+      "optionen": [
+       "Es muss vom Internationalen Gerichtshof geprüft werden.",
+       "Es muss von US-Präsident Donald Trump unterzeichnet werden.",
+       "Es muss im EU-Parlament abgestimmt werden."
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Gesetz geht nach der Abstimmung im Repräsentantenhaus zur Unterzeichnung an US-Präsident Donald Trump."
+     }
+    ]
+   }
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "Höchstpreise für Diesel und Benzin in Deutschland",
+   "vorspann": "Die Spritpreise in Deutschland haben neue Rekordwerte erreicht. In der Bundesregierung wird über mögliche Entlastungen diskutiert.",
+   "eil": false,
+   "zusammenfassung": [
+    "Nach Angaben des ADAC kostete ein Liter Diesel am Mittwoch im bundesweiten Tagesschnitt 2,453 Euro und war damit so teuer wie nie zuvor.",
+    "Auch Benzin hat in den vergangenen Tagen Rekordpreise erreicht, wobei Super E10 im Durchschnitt bei 2,314 Euro pro Liter lag.",
+    "Als Hauptursache für die hohen Kraftstoffpreise nennen die Berichte den Iran-Krieg seit Ende Februar.",
+    "In der Politik ist eine Debatte über Entlastungen entbrannt, über deren genaue Form in der Koalition noch diskutiert wird."
+   ],
+   "einig": [
+    [
+     "Ein Liter Diesel kostete am Mittwoch laut ADAC im bundesweiten Tagesschnitt 2,453 Euro.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Bundeskanzler Friedrich Merz hat Entlastungen an der Zapfsäule in Aussicht gestellt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Süddeutsche Zeitung"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es ist laut Tagesschau/ARD und ZDFheute noch unklar, welche konkreten Maßnahmen die Bundesregierung zur Entlastung umsetzen wird.",
+    "Laut Süddeutsche Zeitung ist offen, wann genau und mit welchen Schritten die Entlastungen erfolgen sollen."
+   ],
+   "positionen": [
+    [
+     "Wirtschaftsministerin Katherina Reiche (CDU)",
+     "Schlägt eine vorübergehende Senkung der Mehrwertsteuer auf Kraftstoffe von 19 auf sieben Prozent sowie Direktzahlungen vor. Sie lehnt einen Spritpreisdeckel und eine Übergewinnsteuer ab.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Vizekanzler und Finanzminister Lars Klingbeil (SPD)",
+     "Fordert laut ZDFheute eine Übergewinnsteuer für Mineralölkonzerne.",
+     "ZDFheute"
+    ],
+    [
+     "Unionsfraktionschef Thorsten Frei (CDU/CSU)",
+     "Hält eine schnelle Entscheidung für Entlastungen zum 1. Oktober für machbar und nennt eine erneute Senkung der Energiesteuer oder der Mehrwertsteuer als Optionen.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Spediteursverband BGL",
+     "Fordert staatliche Entlastungen, da die hohen Dieselpreise laut Tagesschau/ARD zahlreiche mittelständische Betriebe und das Transportgewerbe gefährden.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Es fehlen direkte Stellungnahmen von Vertretungen der Mineralölkonzerne zu den Forderungen der Politik.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 10:07",
+     "fokus": "Politische Debatte und Verbände",
+     "text": "Der Bericht beleuchtet ausführlich die Forderungen des Spediteursverbandes BGL und verschiedene Vorschläge innerhalb der Koalition.",
+     "url": "https://www.tagesschau.de/inland/spritpreise-frei-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 16:25",
+     "fokus": "Preisentwicklung und Tagesverläufe",
+     "text": "Dieser Beitrag beschreibt neben den Rekordwerten auch die Schwankungen der Spritpreise und den Zusammenhang mit dem Iran-Krieg.",
+     "url": "https://www.zdfheute.de/wirtschaft/diesel-rekordhoch-spritpreise-2026-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Kurze Meldung zum ADAC-Wert",
+     "text": "Der Kurzdienst konzentriert sich auf die Bekanntgabe des neuen Diesel-Rekords vom Vortag auf Basis der ADAC-Zahlen.",
+     "url": "https://www.deutschlandfunk.de/diesel-in-deutschland-teuer-wie-nie-zuvor-100.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 09:53",
+     "fokus": "Kurze Faktenübersicht",
+     "text": "Die Wochenzeitung fasst in einer kurzen Meldung die neuen Höchstwerte für Diesel und Benzin zusammen.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/diesel-in-deutschland-teuer-wie-nie-zuvor",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 09:13",
+     "fokus": "Kostenberechnung für Autofahrer",
+     "text": "Die Tageszeitung nennt konkrete Beispiele für Mehrkosten durch die gestiegenen Preise und führt Aussagen von Wirtschaftsministerin Reiche auf.",
+     "url": "https://www.sueddeutsche.de/wirtschaft/spritpreise-deutschland-diesel-rekord-li.3549205",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Die Medien unterscheiden sich in der Tiefe der Darstellung der politischen Vorschläge und der Berichterstattung über Alltagsfolgen."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Die Quelle 'Zeit' wurde bei der Einigkeit zum Dieselpreis ergänzt, da sie den Wert ebenfalls nennt.",
+    "Lars Klingbeil wurde bezüglich seiner genauen Funktionen und Zitate an die Angaben der konkreten Quelltexte angepasst."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Mehrwertsteuer",
+      "Eine Steuer, die beim Kauf von Waren und Dienstleistungen auf den Preis aufgeschlagen wird."
+     ],
+     [
+      "Übergewinnsteuer",
+      "Eine spezielle Steuer auf Gewinne von Unternehmen, die durch bestimmte Krisen besonders hoch ausfallen."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile nennen Politikerinnen und Politiker bei den verschiedenen Vorschlägen zur Entlastung?",
+     "Wie wirken sich die gestiegenen Spritpreise nach den Berichten auf verschiedene Wirtschaftsbereiche aus?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie hoch war der bundesweite Tagesschnitt für einen Liter Diesel am Mittwoch laut ADAC?",
+      "optionen": [
+       "2,453 Euro",
+       "2,314 Euro",
+       "3,000 Euro"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Angaben in den Berichten lag der ADAC-Durchschnittspreis für Diesel am Mittwoch bei 2,453 Euro."
+     },
+     {
+      "frage": "Wer hat laut den Berichten Entlastungen an der Zapfsäule in Aussicht gestellt?",
+      "optionen": [
+       "Bundeskanzler Friedrich Merz",
+       "Wirtschaftsministerin Katherina Reiche",
+       "Finanzminister Lars Klingbeil"
+      ],
+      "richtig": 0,
+      "erklaerung": "In den Berichten von Tagesschau, ZDFheute und Süddeutscher Zeitung wird genannt, dass Bundeskanzler Friedrich Merz Entlastungen in Aussicht gestellt hat."
+     },
+     {
+      "frage": "Welche Maßnahme schlägt Wirtschaftsministerin Katherina Reiche zur Entlastung vor?",
+      "optionen": [
+       "Einen Spritpreisdeckel",
+       "Eine befristete Senkung der Mehrwertsteuer auf Kraftstoffe",
+       "Eine Erhöhung der Energiesteuer"
+      ],
+      "richtig": 1,
+      "erklaerung": "Wirtschaftsministerin Reiche schlägt eine vorübergehende Senkung der Mehrwertsteuer auf Kraftstoffe von 19 auf sieben Prozent vor."
+     }
+    ]
+   }
+  },
+  {
+   "id": "klopp-dfb-kader-nominierung",
+   "rubrik": "Sport",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "Bundestrainer Jürgen Klopp nominiert 44 Spieler für erste Länderspiele",
+   "vorspann": "Der Bundestrainer Jürgen Klopp hat für seine ersten Partien insgesamt 44 Spieler in zwei verschiedene Kader berufen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Bundestrainer Jürgen Klopp hat seine ersten Kader für die anstehenden Länderspiele bekannt gegeben.",
+    "Das Aufgebot umfasst insgesamt 44 Spieler, die auf zwei verschiedene Kader aufgeteilt sind.",
+    "Zu den nominierten Spielern gehören laut Berichten erfahrene Kräfte wie Kapitän Joshua Kimmich sowie zahlreiche neue Gesichter."
+   ],
+   "einig": [
+    [
+     "Bundestrainer Jürgen Klopp hat insgesamt 44 Spieler für seine ersten Länderspiele nominiert.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ],
+    [
+     "Das Aufgebot ist in zwei verschiedene Kader aufgeteilt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es wird in den Berichten nicht einheitlich genannt, welche genauen Spieler in jedem der beiden Kader stehen."
+   ],
+   "positionen": [
+    [
+     "Bundestrainer Jürgen Klopp",
+     "Er erklärte laut Tagesschau und ZDFheute, dass er so viele Spieler wie möglich kennenlernen und Spielern mit Verletzungshistorie eine lange Betreuung ermöglichen möchte.",
+     "Tagesschau/ARD,ZDFheute"
+    ],
+    [
+     "Bundestrainer Jürgen Klopp",
+     "Er äußerte sich laut Spiegel zu Themen wie positivem Patriotismus, dem Schwenken der Fahne und dem gesellschaftlichen Wert von Berufen.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Reaktionen von betroffenen Vereinen, Spielern oder dem DFB-Präsidium.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 12:40",
+     "fokus": "Kaderdetails und Spielerwechsel",
+     "text": "Der Bericht beleuchtet die genaue Aufteilung der 44 Spieler auf zwei Listen und nennt Rücktritte sowie verletzte Spieler.",
+     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 10:41",
+     "fokus": "Erneuerung und Debütanten",
+     "text": "Der Artikel nennt zahlreiche neue Spieler im Aufgebot und führt die Spielerlisten für beide Kader auf.",
+     "url": "https://www.zdfheute.de/sport/fussball-klopp-erste-kadernominierung-nations-league-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Kurze Meldung zum Aufgebot",
+     "text": "Die Meldung fasst zusammen, dass der Bundestrainer insgesamt 44 Spieler für seine ersten Länderspiele nominiert hat.",
+     "url": "https://www.deutschlandfunk.de/bundestrainer-klopp-nominiert-insgesamt-44-spieler-fuer-die-ersten-laenderspiele-102.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 14:41",
+     "fokus": "Äußerungen zu Nationalstolz",
+     "text": "Das Magazin berichtet über Aussagen von Jürgen Klopp zu den Themen Nationalstolz, Patriotismus und Gesellschaft.",
+     "url": "https://www.spiegel.de/sport/juergen-klopp-nationalstolz-nicht-den-falschen-leuten-ueberlassen-a-7d12dd2a-3d3d-47df-a9ec-45d303779c45#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 11:08",
+     "fokus": "Kompakte Aufteilung der Kader",
+     "text": "Der Artikel informiert kurz über die Zusammenstellung des ersten Aufgebots mit insgesamt 44 Spielern in zwei Kadern.",
+     "url": "https://www.zeit.de/sport/2026-09/dfb-nationalmannschaft-juergen-klopp-kader-nominierung-nations-league-gxe",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Themenschwerpunkt",
+     "Während Tagesschau und ZDFheute auf die Spielernamen und den Ablauf eingehen, konzentriert sich der Spiegel auf Klopps Aussagen zu Nationalstolz."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Begriffe wie 'weitereichende Erneuerung' und 'Fußball-Revolution' wurden entfernt, um neutral zu bleiben.",
+    "Aussagen von Jürgen Klopp wurden als solche gekennzeichnet."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Bundestrainer",
+      "Der Bundestrainer ist der verantwortliche Trainer für die deutsche Fußball-Nationalmannschaft."
+     ],
+     [
+      "Kader",
+      "Ein Kader ist die Gruppe von sportlich ausgewählten Spielern für eine bestimmte Mannschaft oder ein Turnier."
+     ]
+    ],
+    "fragen": [
+     "Welche Vorteile könnte ein Trainer haben, wenn er viele verschiedene Spieler in das Aufgebot beruft?",
+     "Wie beeinflussen gesellschaftliche Themen die Berichterstattung über den Sport?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Spieler hat Bundestrainer Jürgen Klopp für seine ersten Länderspiele nominiert?",
+      "optionen": [
+       "33 Spieler",
+       "44 Spieler",
+       "55 Spieler"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD, ZDFheute, Deutschlandfunk und Zeit wurden insgesamt 44 Spieler nominiert."
+     }
+    ]
+   }
+  },
+  {
+   "id": "obi-orangener-markenstreit-bgh",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "Bundesgerichtshof entscheidet im Markenstreit um die Farbe Orange",
+   "vorspann": "Die Baumarktkette Obi hat ihren Markenschutz für den Farbton Orange verloren. Der Bundesgerichtshof lehnte eine exklusive Nutzung ab.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die Baumarktkette Obi kann sich die Farbe Orange nicht als Marke schützen lassen. Das hat der Bundesgerichtshof entschieden.",
+    "Das Gericht wies damit die Revision des Unternehmens gegen das Bundespatentgericht zurück. Zuvor hatten die Konkurrenten Hornbach und Globus die Löschung beantragt.",
+    "Laut dem Gericht fehlt dem Farbton die nötige Unterscheidungskraft. Verbraucher würden die Farbe nicht eindeutig mit Obi verbinden, sondern höchstens mit Baumärkten im Allgemeinen.",
+    "Obi erklärte, dass die Farbe Orange weiterhin das zentrale visuelle Erkennungsmerkmal bleiben werde und sich in der Praxis nichts ändere.",
+    "Mehrere andere Unternehmen wie die Sparkassen, Lindt, die Telekom und Milka hatten in der Vergangenheit erfolgreich Markenrechte für bestimmte Farben erhalten."
+   ],
+   "einig": [
+    [
+     "Der Bundesgerichtshof hat entschieden, dass die Baumarktkette Obi keinen Markenschutz für die Farbe Orange erhält.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit"
+     ]
+    ],
+    [
+     "Die Konkurrenten Hornbach und Globus hatten die Löschung der Farbmarke beim Deutschen Patent- und Markenamt beantragt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Obi hatte in Gutachten angegeben, dass rund 45,6 und 49,6 Prozent der Bevölkerung die Farbe Orange mit dem Unternehmen verbinden, während ein Gutachten der Gegenseite auf einen Wert von 30 Prozent kam.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [],
+   "positionen": [
+    [
+     "Bundesgerichtshof (Vorsitzender Richter Thomas Koch)",
+     "Abstrakten Farbmarken fehle die Unterscheidungskraft, da Verbraucher nicht von der Farbe auf die Herkunft schließen können.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ],
+    [
+     "Baumarktkette Obi",
+     "Die Hausfarbe bleibt Orange und das Urteil ändert in der Praxis nichts an der Markenidentität und der täglichen Kommunikation.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ],
+    [
+     "Hornbach-Sprecher",
+     "Das Urteil des Bundesgerichtshofs zur Farbmarke Orange wird sehr begrüßt.",
+     "Tagesschau/ARD,ZDFheute"
+    ]
+   ],
+   "fehlend": "Reaktionen oder Aussagen der Baumarktkette Globus.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 14:55",
+     "fokus": "Urteil und Gutachten",
+     "text": "Der Bericht schildert detailliert die Begründung des Gerichts und nennt genaue Zahlen aus den vorgelegten Gutachten. Zudem vergleicht er den Fall mit anderen erfolgreichen Farbmarken wie Rot bei den Sparkassen oder Lila bei Milka.",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/orange-baumarkt-urteil-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 14:43",
+     "fokus": "Hintergrund und Randnotizen",
+     "text": "Die Berichterstattung erläutert die Entscheidung des Bundesgerichtshofs und erwähnt im Text zusätzlich zwei kurze Meldungen über ein Secondhand-Baumarktprojekt in Hamburg sowie einen Baumarkt-Roboter.",
+     "url": "https://www.zdfheute.de/wirtschaft/unternehmen/obi-farbstreit-orange-allgemeingut-baumarkt-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Kurzmeldung",
+     "text": "Der Artikel fasst das Ergebnis des Verfahrens in einem sehr kurzen Satz zusammen und nennt das Kernurteil des Bundesgerichtshofs.",
+     "url": "https://www.deutschlandfunk.de/bundesgerichtshof-obi-verliert-farbstreit-um-orange-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 12:29",
+     "fokus": "Verfahrensverlauf",
+     "text": "Der Text beschreibt das Ende der langjährigen Auseinandersetzung zwischen Obi, Hornbach und Globus. Er erwähnt zusätzlich eine frühere Einschätzung des Gerichts vom Mai, bei der die geringen Chancen bereits deutlich wurden.",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/obi-hornbach-und-globus-obi-unterliegt-im-baumarkt-streit-ueber-die-farbe-orange-am-bundesgerichtshof-a-63a92969-0f6f-49d4-9113-2496a5460c6f#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 13:15",
+     "fokus": "Kompakte Einordnung",
+     "text": "Die Wochenzeitung fasst den Streit und das BGH-Urteil zur fehlenden Unterscheidungskraft des Obi-Orange kurz und sachlich zusammen.",
+     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-09/bgh-entschied-obi-orange-farbmarke-baumarkt-hornbach-globus-gxe",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Während die Tagesschau, das ZDF und der Spiegel viele Details zum Verfahren und zu früheren Farbrechtsstreiten nennen, fassen Deutschlandfunk und Zeit das Thema in sehr wenigen Sätzen zusammen."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Bundesgerichtshof (BGH)",
+      "Das ist das oberste deutsche Gericht für Zivilsachen und Strafsachen. Es prüft, ob Gesetze in früheren Urteilen richtig ausgelegt wurden."
+     ],
+     [
+      "Markenschutz",
+      "Das ist ein rechtliches Recht für ein Unternehmen. Es sorgt dafür, dass bestimmte Zeichen, Namen oder Farben nur von diesem einen Unternehmen genutzt werden dürfen."
+     ],
+     [
+      "Unterscheidungskraft",
+      "Das bedeutet bei Marken, dass Kunden ein Produkt oder eine Farbe sofort und ohne Verwechslung einem bestimmten Unternehmen zuordnen können."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nannte der Bundesgerichtshof dafür, dass eine Farbe nicht immer als Marke geschützt werden kann?",
+     "Welche Rolle spielen Umfragen und Gutachten bei Gerichtsverfahren über Markenrechte?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welches Gericht hat im Streit um das \"Obi-Orange\" die Revision der Baumarktkette zurückgewiesen?",
+      "optionen": [
+       "Das Bundespatentgericht",
+       "Der Bundesgerichtshof",
+       "Das Europäische Gericht"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut allen genannten Quellen hat der Bundesgerichtshof die Revision des Unternehmens gegen eine Entscheidung des Bundespatentgerichts zurückgewiesen."
+     },
+     {
+      "frage": "Welche anderen Baumarktketten hatten die Löschung der Farbmarke beantragt?",
+      "optionen": [
+       "Hornbach und Globus",
+       "Toom und Bauhaus",
+       "Hagebau und Hellweg"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD, ZDFheute und Spiegel hatten die Konkurrenten Hornbach und Globus die Löschung beim Deutschen Patent- und Markenamt beantragt."
+     },
+     {
+      "frage": "Wie viel Prozent der Bevölkerung verbanden laut den von Obi vorgelegten Gutachten die Farbe Orange mit dem Unternehmen?",
+      "optionen": [
+       "Genau 30 Prozent",
+       "Rund 45,6 und 49,6 Prozent",
+       "Mehr als 70 Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD, ZDFheute und Spiegel ergaben die von Obi vorgelegten Gutachten Zuordnungsgrade von 45,6 und 49,6 Prozent (während das Gutachten der Gegenseite bei 30 Prozent lag)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "wmo-bericht-globaler-wasserkreislauf",
+   "rubrik": "Wissen & Klima",
+   "zeit": "2026-09-17T15:17:18.000Z",
+   "titel": "Weltweiter Rückgang der Wasserressourcen laut WMO-Bericht",
+   "vorspann": "Ein neuer Bericht der Weltwetterorganisation warnt vor weltweit schrumpfenden Wasserreserven. Als Gründe werden der Klimawandel und eine steigende Nachfrage genannt.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die Weltwetterorganisation (WMO) hat einen neuen Bericht zu den globalen Wasserressourcen veröffentlicht.",
+    "Demnach schrumpfen die weltweiten Wasserspeicher seit rund zehn Jahren kontinuierlich.",
+    "Als Ursachen nennen die Experten den menschengemachten Klimawandel, eine wachsende Weltbevölkerung und natürliche Schwankungen.",
+    "Der Abfluss aus Flüssen erreichte laut dem Bericht niedrige Werte, und auch der Grundwasserspiegel ist in vielen Regionen gesunken."
+   ],
+   "einig": [
+    [
+     "Die weltweiten Wasserressourcen sind nach einem Bericht der Weltwetterorganisation (WMO) weiter zurückgegangen.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Zu den Gründen gehören der menschengemachte Klimawandel, natürliche Schwankungen und ein steigender Wasserbedarf.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Europa ist von der Wasserknappheit betroffen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es gibt keine Widersprüche in den Berichten bezüglich des WMO-Berichts."
+   ],
+   "positionen": [
+    [
+     "Weltwetterorganisation (WMO)",
+     "Die Wasserreserven schrumpfen weltweit seit Jahren.",
+     "Tagesschau/ARD,Deutschlandfunk,ZDFheute"
+    ]
+   ],
+   "fehlend": "Stimmen oder Einschätzungen von betroffenen Landwirten, Regierungen oder Umweltverbänden zur konkreten Bewältigung der Wasserknappheit kommen in den Berichten nicht vor.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 07:55",
+     "fokus": "Ausführlicher Bericht mit Details",
+     "text": "Dieser Bericht beschreibt detailliert die Ergebnisse des WMO-Berichts. Er nennt sinkende Grundwasserspiegel in Europa und verweist auf kommende Risiken durch das Wetterphänomen El Niño.",
+     "url": "https://www.tagesschau.de/wissen/klima/wmo-bericht-zu-wasserressourcen-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 14:00",
+     "fokus": "Kurze Zusammenfassung zur Wasserknappheit",
+     "text": "Der kurze Bericht hebt hervor, dass sich die Süßwasserreserven weiter reduzieren. Zudem wird Europa als Dürre-Hotspot bezeichnet.",
+     "url": "https://www.zdfheute.de/video/heute-in-deutschland/wasserknappheit-nimmt-zu-100.html",
+     "video": true
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:17",
+     "fokus": "Meldung zum UN-Bericht",
+     "text": "Der Bericht fasst kurz die Veröffentlichung der Weltwetterorganisation zusammen. Er nennt die drei Hauptgründe für den Rückgang der Wasserressourcen.",
+     "url": "https://www.deutschlandfunk.de/uno-bericht-wasserreserven-der-erde-schwinden-weiter-100.html",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 13:20",
+     "fokus": "Politische und sportliche Randthemen",
+     "text": "Die FAZ berichtet im erfassten Text nicht über den WMO-Bericht, sondern thematisiert stattdessen politische Aussagen in Europa und Sportthemen.",
+     "url": "https://www.faz.net/video/wmo-bericht-fluesse-weltweit-am-trockensten-seit-35-jahren-201236344.html",
+     "video": true
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Während Tagesschau/ARD den Bericht ausführlich mit vielen Zahlen und Hintergrundinformationen darstellt, fassen ZDFheute und Deutschlandfunk die Kernaussagen sehr kurz zusammen. Die FAZ erwähnt das Thema im vorgegebenen Text gar nicht."
+    ]
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Das Wort \"historisch\" beim Flussabfluss wurde entfernt, da es so nicht in den Quellen stand."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Weltwetterorganisation (WMO)",
+      "Eine Sonderorganisation der Vereinten Nationen, die sich mit Wetter, Klima und Wasserressourcen beschäftigt."
+     ],
+     [
+      "Grundwasserspiegel",
+      "Die Oberfäche des Grundwassers im Boden, die je nach Niederschlag sinken oder steigen kann."
+     ],
+     [
+      "El Niño",
+      "Ein natürliches Wetterphänomen, das Wind- und Wasserkreisläufe beeinflusst und Dürren oder Überschwemmungen auslösen kann."
+     ]
+    ],
+    "fragen": [
+     "Welche Ursachen nennt die Weltwetterorganisation für den Rückgang der Wasserressourcen?",
+     "Warum ist es laut den Berichten wichtig, den Zustand der globalen Wasserspeicher zu beobachten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat den Bericht zu den weltweiten Wasserressourcen veröffentlicht?",
+      "optionen": [
+       "Die Weltgesundheitsorganisation (WHO)",
+       "Die Weltwetterorganisation (WMO)",
+       "Die Europäische Union (EU)"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und Deutschlandfunk stammt der Bericht über die Wasserressourcen von der Weltwetterorganisation (WMO)."
+     }
+    ]
+   }
   }
  ]
 }
