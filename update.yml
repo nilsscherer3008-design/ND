@@ -5,7 +5,7 @@ on:
   # Das Programm prüft selbst, ob es in Berlin zwischen 6 und 21 Uhr ist
   # und ob seit dem letzten Lauf mindestens 2,5 Stunden vergangen sind.
   schedule:
-    - cron: "7 4,5,7,8,10,11,13,14,16,17,19,20 * * *"
+    - cron: "7 * * * *"   # jede Stunde; das Programm prüft selbst, ob es 6–22 Uhr in Berlin ist
   workflow_dispatch:   # Knopf "Run workflow" = sofort aktualisieren
 
 permissions:
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +27,7 @@ jobs:
           node-version: 20
 
       - name: Nachrichten sammeln und zusammenfassen
-        run: node scripts/update.mjs
+        run: node update.mjs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

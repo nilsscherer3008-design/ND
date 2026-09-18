@@ -441,7 +441,7 @@ function band(){
   else if (DATEN.stand){
     const std = (Date.now() - new Date(DATEN.stand)) / 36e5;
     const h = stundeBerlin(new Date());
-    if (std > 8 && h >= 8 && h <= 22) text = `Hinweis: Die letzte Aktualisierung ist ${Math.floor(std)} Stunden her. Neue Nachrichten fehlen möglicherweise.`;
+    if (std > 3 && h >= 7 && h <= 22) text = `Hinweis: Die letzte Aktualisierung ist ${Math.floor(std)} Stunden her. Neue Nachrichten fehlen möglicherweise.`;
   }
   t.textContent = text; el.hidden = !text;
 }
@@ -490,7 +490,7 @@ function startseite(rubrik){
     }
   }
   html += `<details class="about"><summary>So entsteht dieses Heft</summary>
-    <p>Alle 3 Stunden zwischen 6 und 21 Uhr werden die Nachrichten-Feeds von Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Zeit, Süddeutscher Zeitung, FAZ, Deutscher Welle und BBC gelesen. Ein Thema erscheint nur, wenn mindestens zwei Medien darüber berichten.</p>
+    <p>Jede Stunde zwischen 6 und 22 Uhr werden die Nachrichten-Feeds von Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Zeit, Süddeutscher Zeitung, FAZ, Deutscher Welle und BBC gelesen. Ein Thema erscheint nur, wenn mindestens zwei Medien darüber berichten.</p>
     <p>Eine KI schreibt eine neutrale Zusammenfassung. Eine zweite KI-Prüfung gleicht jeden Satz mit den Originalberichten ab und korrigiert, was dort nicht steht. Unter „einig“ steht nur, was mindestens zwei Medien bestätigen. Aussagen von Beteiligten sind immer als Aussage gekennzeichnet.</p>
     <p><b>Grenzen:</b> Keine Nachrichten-App ist völlig neutral. Schon welche Themen und welche Medien ausgewählt werden, ist eine Entscheidung. Die KI kann trotz Prüfung Fehler machen – im Zweifel gilt der Originalbericht. Fehler kannst du bei jeder Nachricht melden.</p>
     <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks. Die App verwendet keine Werbung, kein Tracking und keine Anmeldung.</p>
@@ -1023,6 +1023,12 @@ const FORMATE = {
 };
 let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {};
 const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
+function naechsteAktualisierung(){
+  const jetzt = new Date(), h = stundeBerlin(jetzt);
+  if (h < 6) return "ab 6:00 Uhr";
+  if (h >= 22) return "morgen 6:00 Uhr";
+  return `gegen ${h + 1}:00 Uhr`;
+}
 function naechsteSendung(){
   const jetzt = new Date(), h = stundeBerlin(jetzt), m = parseInt(new Intl.DateTimeFormat("en-GB", { timeZone:"Europe/Berlin", minute:"2-digit" }).format(jetzt), 10);
   const naechste = SENDEZEITEN.find(z => z > h || (z === h && m < 5));
@@ -1329,7 +1335,7 @@ addEventListener("hashchange", route);
 function datenUebernehmen(res){
   DATEN = res.d; NACHRICHTEN = res.d.nachrichten || []; ausCache = res.ausCache;
   document.getElementById("stand").textContent = DATEN.stand ? fmtZeit(DATEN.stand) : "–";
-  document.getElementById("naechste").textContent = "nächste " + naechsteSendung().replace("heute ", "");
+  document.getElementById("naechste").textContent = "nächste " + naechsteAktualisierung();
   band();
 }
 $app.innerHTML = '<p class="laden">Nachrichten werden geladen …</p>';

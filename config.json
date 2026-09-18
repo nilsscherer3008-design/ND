@@ -9,14 +9,14 @@
     "anthropic": "claude-sonnet-5"
   },
   "pauseZwischenKiAnfragenSekunden": 15,
-  "maxNeueThemenProLauf": 5,
+  "maxNeueThemenProLauf": 3,
   "maxArtikelProThema": 5,
   "nachrichtenBehaltenStunden": 48,
   "maxNachrichten": 60,
   "zeitfenster": {
     "vonUhr": 6,
-    "bisUhr": 21,
-    "mindestAbstandStunden": 2.5
+    "bisUhr": 22,
+    "mindestAbstandStunden": 0.75
   },
   "ntfyServer": "https://ntfy.sh",
   "rubriken": [
@@ -169,5 +169,5 @@
   ],
   "maxMeldungenProQuelle": 60,
   "bilder": true,
-  "maxNeuschreibenProLauf": 3
+  "maxNeuschreibenProLauf": 2
 }
