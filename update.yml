@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: web-push installieren (für Handy-Mitteilungen)
+        run: npm install web-push --no-save --silent
+
       - name: Nachrichten sammeln und zusammenfassen
         run: node update.mjs
         env:
@@ -34,6 +37,10 @@ jobs:
           NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL }}
+          PUSH_URL: ${{ vars.PUSH_URL }}
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+          VAPID_PUBLIC: ${{ vars.VAPID_PUBLIC }}
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
       - name: Neue Ausgabe speichern

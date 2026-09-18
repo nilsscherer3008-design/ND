@@ -586,6 +586,42 @@ export function aufraeumen(nachrichten, jetzt, cfg) {
   return { aktiv, alt: sortiert.filter(n => !ids.has(n.id)) };
 }
 
+// ---------- Handy-Mitteilungen über den eigenen Briefkasten (Web Push) ----------
+async function webPush(neue) {
+  const url = process.env.PUSH_URL, token = process.env.PUSH_TOKEN;
+  const oeffentlich = process.env.VAPID_PUBLIC, geheim = process.env.VAPID_PRIVATE;
+  if (!url || !token || !oeffentlich || !geheim || !neue.length) return;
+  let wp;
+  try { wp = (await import("web-push")).default; }
+  catch { return console.log("web-push nicht installiert – überspringe Handy-Mitteilungen."); }
+  wp.setVapidDetails(process.env.PUSH_KONTAKT || "mailto:heft@example.org", oeffentlich, geheim);
+  let abos = [];
+  try {
+    const r = await fetch(url.replace(/\/$/, "") + "/liste", { headers: { authorization: "Bearer " + token } });
+    abos = r.ok ? await r.json() : [];
+  } catch (e) { return console.warn("Abo-Liste nicht erreichbar: " + e.message); }
+  if (!abos.length) return console.log("Noch niemand für Mitteilungen angemeldet.");
+  const seite = (process.env.SITE_URL || "").replace(/\/$/, "");
+  const kaputt = [];
+  let gesendet = 0;
+  for (const n of neue) {
+    const inhalt = JSON.stringify({
+      titel: (n.eil ? "Eilmeldung: " : n.rubrik + ": ") + n.titel,
+      text: n.vorspann, id: n.id, eil: !!n.eil, url: seite ? `${seite}/#/n/${n.id}` : "./"
+    });
+    for (const a of abos) {
+      // wer Rubriken gewählt hat, bekommt nur diese; Eilmeldungen gehen an alle
+      if (!n.eil && a.rubriken?.length && !a.rubriken.includes(n.rubrik)) continue;
+      try { await wp.sendNotification(a.abo, inhalt); gesendet++; }
+      catch (e) { if (e.statusCode === 404 || e.statusCode === 410) kaputt.push(a.id); }
+    }
+  }
+  if (kaputt.length) {
+    try { await fetch(url.replace(/\/$/, "") + "/loeschen", { method: "POST", headers: { authorization: "Bearer " + token, "content-type": "application/json" }, body: JSON.stringify({ ids: kaputt }) }); } catch {}
+  }
+  console.log(`Handy-Mitteilungen: ${gesendet} verschickt an ${abos.length} Geräte${kaputt.length ? `, ${kaputt.length} veraltete gelöscht` : ""}.`);
+}
+
 const rubrikSlug = r => String(r).toLowerCase().replace(/ & /g, "-").replace(/[^a-zäöü-]/g, "").replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue");
 async function pushSenden(n, nurRubrik = false) {
   const basis = process.env.NTFY_TOPIC;
@@ -785,8 +821,19 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
     notified.add(n.id);
   }
 
+  // neue Themen für Handy-Mitteilungen sammeln (Eilmeldungen zuerst)
+  const frischePush = nachrichten
+    .filter(n => jetzt - new Date(n.zeit) < 4 * 36e5 && (n.eil || !alt.notified?.includes(n.id)))
+    .filter(n => !(alt.gepusht || []).includes(n.id))
+    .sort((a, b) => (b.eil - a.eil) || b.zeit.localeCompare(a.zeit))
+    .slice(0, 6);
+  try { await webPush(frischePush); } catch (e) { console.warn("Push-Fehler: " + e.message); }
+
   await fs.writeFile(DATA_FILE, JSON.stringify({
     stand: jetzt.toISOString(),
+    push: process.env.PUSH_URL && process.env.VAPID_PUBLIC
+      ? { url: process.env.PUSH_URL.replace(/\/$/, ""), key: process.env.VAPID_PUBLIC } : undefined,
+    gepusht: [...new Set([...(alt.gepusht || []), ...frischePush.map(n => n.id)])].slice(-80),
     ntfyTopic: process.env.NTFY_TOPIC || "",
     fehlerTopic: process.env.NTFY_TOPIC ? process.env.NTFY_TOPIC + "-fehler" : "",
     notified: [...notified].filter(id => nachrichten.some(n => n.id === id)),

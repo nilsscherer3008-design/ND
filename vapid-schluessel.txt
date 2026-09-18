@@ -1,0 +1,8 @@
+VAPID-Schlüssel für das Nachrichten-Heft
+(nur einmal erzeugen, nie ändern, sonst müssen sich alle neu anmelden)
+
+VAPID_PUBLIC  (GitHub Variable, darf öffentlich sein):
+BEVOyIptYFAsWZBV0ztbqNn6qNqNHpk5W2avwK19Au7UR-l3dKYvM6kmPjc3Q7cxyqJDLlRWrAuLpBfWaHjT6_g
+
+VAPID_PRIVATE (GitHub Secret, geheim halten!):
+ncxcfSXujwNwmuWPeR1H14VEqof2TjkuNVpBq67u3yI

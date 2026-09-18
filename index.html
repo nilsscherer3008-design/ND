@@ -420,6 +420,10 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .detail-aktionen{display:flex;gap:6px;align-items:center;margin-left:auto}
 .mini{font-family:var(--head);font-size:.82rem;font-weight:600;background:var(--surface);color:var(--ink);border:0;border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
 .mini-status{font-family:var(--head);font-size:.78rem;color:var(--muted)}
+.push-box{border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:18px 0}
+.push-box .an{color:var(--green)}
+.rub-wahl{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.rub-wahl label{font-family:var(--head);font-size:.95rem;background:var(--surface);border-radius:999px;padding:8px 14px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;min-height:42px}
 </style>
 </head>
 <body>
@@ -562,7 +566,7 @@ function startseite(rubrik){
     : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. Ältere Nachrichten findest du im <a href="#/archiv">Archiv</a>.</div>`;
   if (rubrik === "Alle"){
     if (DATEN.ntfyTopic && !merker.hat("heft-eil")){
-      html += `<a class="push-knopf" href="#/eil"><span class="pk-icon">🔔</span><span><b>Eilmeldungen aufs Handy</b><small>In 3 Schritten eingerichtet – mit QR-Code</small></span><span class="pk-pfeil">›</span></a>`;
+      html += `<a class="push-knopf" href="#/eil"><span class="pk-icon">🔔</span><span><b>Nachrichten aufs Handy</b><small>Ein Tipp auf „Erlauben“ – ohne zusätzliche App</small></span><span class="pk-pfeil">›</span></a>`;
     }
     if (!istInstalliert && (installAufforderung || istIOS)){
       html += `<div class="push"><b>📲 Als App installieren</b>
@@ -733,7 +737,7 @@ function mehrSeite(){
   document.getElementById("rubNav").hidden = true;
   $app.innerHTML = `<h1 class="seiten-titel">Mehr</h1>
     <div class="list">
-      <a class="card" href="#/eil"><h3>🔔 Eilmeldungen aufs Handy</h3><p>Mitteilungen einrichten, mit QR-Code.</p></a>
+      <a class="card" href="#/eil"><h3>🔔 Nachrichten aufs Handy</h3><p>Mitteilungen einschalten und Rubriken auswählen.</p></a>
       <a class="card" href="#/medien"><h3>📊 Medien-Spiegel</h3><p>Wer berichtet worüber, und wie viele Medien pro Thema.</p></a>
       <a class="card" href="#/archiv"><h3>🔍 Suche &amp; Archiv</h3><p>Ältere Nachrichten aus 13 Monaten durchsuchen.</p></a>
       <a class="card" href="#/story"><h3>📱 Story-Modus</h3><p>Durch die Schlagzeilen wischen.</p></a>
@@ -812,36 +816,105 @@ function medienSeite(){
     </section>`;
 }
 
+/* ---------- Handy-Mitteilungen (Web Push) ---------- */
+const pushMoeglich = () => "serviceWorker" in navigator && "PushManager" in window && DATEN.push?.url && DATEN.push?.key;
+function b64ZuBytes(b64){
+  const rein = (b64 + "=".repeat((4 - b64.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/");
+  return Uint8Array.from(atob(rein), c => c.charCodeAt(0));
+}
+async function pushStatus(){
+  if (!pushMoeglich()) return "nicht möglich";
+  if (Notification.permission === "denied") return "blockiert";
+  const reg = await navigator.serviceWorker.ready;
+  return (await reg.pushManager.getSubscription()) ? "an" : "aus";
+}
+async function pushAnmelden(rubriken){
+  const erlaubnis = await Notification.requestPermission();
+  if (erlaubnis !== "granted") return "blockiert";
+  const reg = await navigator.serviceWorker.ready;
+  const abo = await reg.pushManager.getSubscription()
+    || await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64ZuBytes(DATEN.push.key) });
+  const r = await fetch(DATEN.push.url + "/abo", { method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ abo: abo.toJSON(), rubriken }) });
+  if (!r.ok) throw new Error("Anmeldung fehlgeschlagen");
+  try { localStorage.setItem("heft-push-rubriken", JSON.stringify(rubriken)); } catch {}
+  return "an";
+}
+async function pushAbmelden(){
+  const reg = await navigator.serviceWorker.ready;
+  const abo = await reg.pushManager.getSubscription();
+  if (!abo) return "aus";
+  try { await fetch(DATEN.push.url + "/abmelden", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ endpoint: abo.endpoint }) }); } catch {}
+  await abo.unsubscribe();
+  return "aus";
+}
+
 /* ---------- Seite: Eilmeldungen einrichten ---------- */
 function eilSeite(){
   document.getElementById("rubNav").hidden = true;
   const topic = DATEN.ntfyTopic || "";
   const link = `https://ntfy.sh/${encodeURIComponent(topic)}`;
+  let gewaehlt = [];
+  try { gewaehlt = JSON.parse(localStorage.getItem("heft-push-rubriken") || "[]"); } catch {}
   $app.innerHTML = `<a class="zurueck-link" href="#/">‹ Alle Nachrichten</a>
-    <h1 class="seiten-titel">🔔 Eilmeldungen aufs Handy</h1>
-    <p>Bei wichtigen Nachrichten bekommst du sofort eine Mitteilung – so wie bei einer Nachrichten-App.</p>
-    ${topic ? `
-    <ol class="schritte">
-      <li><b>App installieren</b>
-        <p>Die kostenlose App <b>ntfy</b> aus dem Store laden. Ein Konto brauchst du nicht.</p>
-        <p class="knoepfe"><a class="btn" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android: ntfy laden</a>
-        <a class="btn" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone: ntfy laden</a></p></li>
-      <li><b>QR-Code scannen</b>
-        <p>Mit der Handy-Kamera auf den Code halten und den Link öffnen. Die ntfy-App fragt dann, ob du den Kanal abonnieren willst.</p>
-        <img class="qr" src="eil-qr.png" alt="QR-Code zum Abonnieren der Eilmeldungen" onerror="this.remove()">
-        <p class="knoepfe"><a class="btn" href="${esc(link)}" target="_blank" rel="noopener">Oder hier tippen: Kanal öffnen</a></p></li>
-      <li><b>Mitteilungen erlauben</b>
-        <p>Beim ersten Mal fragt dein Handy, ob ntfy dir Mitteilungen schicken darf. Tippe auf „Erlauben“. Fertig.</p>
-        <p class="knoepfe"><button class="btn" id="eilFertig">${merker.hat("heft-eil") ? "✓ Eingerichtet" : "Ich habe es eingerichtet"}</button></p></li>
-    </ol>
-    <details class="about"><summary>Mehr Einzelheiten</summary>
-      <p><b>Kanalname</b> (falls du ihn von Hand eingeben willst): <code>${esc(topic)}</code></p>
-      <p><b>Wann kommt eine Mitteilung?</b> Nur bei Eilmeldungen wie Wahlergebnissen, Rücktritten oder großen Unglücken. Die App prüft alle 3 Stunden zwischen 6 und 21 Uhr, nachts kommt nichts.</p>
-      <p><b>Ohne App mitlesen:</b> <a href="${esc(link)}" target="_blank" rel="noopener">im Browser öffnen ↗</a></p>
-      <p><b>Datenschutz:</b> Du musst dich nirgends anmelden und gibst keine persönlichen Daten an. Der Kanal ist öffentlich: Wer den Namen kennt, kann die Meldungen mitlesen.</p>
-    </details>` : `<div class="empty">Für dieses Heft ist noch kein Kanal für Eilmeldungen eingerichtet.</div>`}`;
-  const f = document.getElementById("eilFertig");
-  if (f) f.onclick = () => { merker.setz("heft-eil"); f.textContent = "✓ Eingerichtet"; };
+    <h1 class="seiten-titel">🔔 Nachrichten aufs Handy</h1>
+    <p>Bei wichtigen Ereignissen bekommst du eine Mitteilung – wie bei jeder Nachrichten-App.</p>
+    <div id="pushBox" class="push-box"><p class="laden">wird geprüft …</p></div>
+    <details class="about"><summary>Wenn das nicht klappt: Weg über die App ntfy</summary>
+      <p>Manche Geräte oder Browser erlauben keine Mitteilungen. Dann funktioniert dieser Weg immer:</p>
+      <ol class="schritte">
+        <li><b>App installieren</b><p>Die kostenlose App <b>ntfy</b> laden.</p>
+          <p class="knoepfe"><a class="btn" href="https://play.google.com/store/apps/details?id=io.heckel.ntfy" target="_blank" rel="noopener">Android</a>
+          <a class="btn" href="https://apps.apple.com/app/ntfy/id1625396347" target="_blank" rel="noopener">iPhone</a></p></li>
+        <li><b>Kanal abonnieren</b><p>QR-Code scannen oder auf den Knopf tippen.</p>
+          <img class="qr" src="eil-qr.png" alt="QR-Code" onerror="this.remove()">
+          <p class="knoepfe"><a class="btn" href="${esc(link)}" target="_blank" rel="noopener">Kanal öffnen</a></p>
+          <p>Kanalname: <code>${esc(topic)}</code>${topic ? `<br>Nur eine Rubrik? Dann <code>${esc(topic)}-wirtschaft</code>, <code>${esc(topic)}-sport</code> und so weiter.` : ""}</p></li>
+      </ol>
+    </details>`;
+  pushBoxZeichnen(gewaehlt);
+}
+
+async function pushBoxZeichnen(gewaehlt){
+  const box = document.getElementById("pushBox"); if (!box) return;
+  const status = await pushStatus();
+  if (status === "nicht möglich"){
+    box.innerHTML = `<p><b>Auf diesem Gerät nicht verfügbar.</b> Auf dem iPhone musst du die App zuerst über <b>Teilen → Zum Home-Bildschirm</b> installieren. Sonst nimm den Weg über ntfy weiter unten.</p>`;
+    return;
+  }
+  if (status === "blockiert"){
+    box.innerHTML = `<p><b>Mitteilungen sind blockiert.</b> Erlaube sie in den Browser-Einstellungen für diese Seite (Schloss-Symbol neben der Adresse) und lade die Seite neu.</p>`;
+    return;
+  }
+  if (status === "an"){
+    box.innerHTML = `<p class="an"><b>✓ Mitteilungen sind eingeschaltet.</b></p>
+      <p>Du bekommst Eilmeldungen sofort und neue Nachrichten aus deinen Rubriken.</p>
+      ${rubrikAuswahl(gewaehlt)}
+      <p class="knoepfe"><button class="btn" id="pushSpeichern">Auswahl speichern</button>
+      <button class="btn hell" id="pushAus">Mitteilungen ausschalten</button></p><p class="status" id="pushStatusText"></p>`;
+  } else {
+    box.innerHTML = `<p>Ein Tipp auf den Knopf, dann fragt dein Handy einmal nach – das war's. Keine zusätzliche App, keine Anmeldung.</p>
+      ${rubrikAuswahl(gewaehlt)}
+      <p class="knoepfe"><button class="btn" id="pushAn">🔔 Mitteilungen erlauben</button></p><p class="status" id="pushStatusText"></p>`;
+  }
+  const rubriken = () => [...document.querySelectorAll(".rub-wahl input:checked")].map(i => i.value);
+  const text = document.getElementById("pushStatusText");
+  document.getElementById("pushAn")?.addEventListener("click", async () => {
+    text.textContent = "einen Moment …";
+    try { await pushAnmelden(rubriken()); text.textContent = ""; pushBoxZeichnen(rubriken()); }
+    catch (e) { text.textContent = "Hat nicht geklappt. Versuch es später noch einmal oder nimm den Weg über ntfy."; }
+  });
+  document.getElementById("pushSpeichern")?.addEventListener("click", async () => {
+    try { await pushAnmelden(rubriken()); text.textContent = "✓ Gespeichert."; } catch { text.textContent = "Speichern hat nicht geklappt."; }
+  });
+  document.getElementById("pushAus")?.addEventListener("click", async () => {
+    await pushAbmelden(); pushBoxZeichnen(gewaehlt);
+  });
+}
+function rubrikAuswahl(gewaehlt){
+  const rub = RUBRIKEN.filter(r => r !== "Alle");
+  return `<p class="status">Eilmeldungen bekommst du immer. Zusätzlich normale Nachrichten aus:</p>
+    <div class="rub-wahl">${rub.map(r => `<label><input type="checkbox" value="${esc(r)}"${gewaehlt.includes(r) ? " checked" : ""}> ${esc(r)}</label>`).join("")}</div>`;
 }
 
 /* ---------- Suche & Archiv ---------- */

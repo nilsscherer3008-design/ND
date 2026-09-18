@@ -1,5 +1,5 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v7";
+const VERSION = "heft-v8";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -55,4 +55,29 @@ self.addEventListener("fetch", e => {
   if (url.pathname.endsWith(".json")) return e.respondWith(netzZuerst(req));
   if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com") || url.hostname.endsWith("wikimedia.org")) return e.respondWith(speicherZuerst(req));
   if (url.origin === self.location.origin) return e.respondWith(speicherUndAktualisieren(req));
+});
+
+// ---------- Handy-Mitteilungen ----------
+self.addEventListener("push", e => {
+  let d = {};
+  try { d = e.data ? e.data.json() : {}; } catch { d = { titel: "Neue Nachricht", text: e.data ? e.data.text() : "" }; }
+  const titel = d.titel || "Nachrichten-Heft";
+  e.waitUntil(self.registration.showNotification(titel, {
+    body: d.text || "",
+    icon: "icon-192.png",
+    badge: "icon-192.png",
+    tag: d.id || "heft",
+    renotify: !!d.eil,
+    requireInteraction: !!d.eil,
+    data: { url: d.url || "./" }
+  }));
+});
+
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  const ziel = e.notification.data?.url || "./";
+  e.waitUntil(clients.matchAll({ type: "window", includeUncontrolled: true }).then(liste => {
+    for (const c of liste) if ("focus" in c) { c.navigate(ziel); return c.focus(); }
+    return clients.openWindow(ziel);
+  }));
 });
