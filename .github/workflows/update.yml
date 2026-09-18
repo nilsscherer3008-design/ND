@@ -1,12 +1,9 @@
 name: Nachrichten aktualisieren
 
 on:
-  # Zeiten in UTC. Die Liste deckt Sommer- und Winterzeit ab.
-  # Das Programm prüft selbst, ob es in Berlin zwischen 6 und 21 Uhr ist
-  # und ob seit dem letzten Lauf mindestens 2,5 Stunden vergangen sind.
   schedule:
-    - cron: "7 * * * *"   # jede Stunde; das Programm prüft selbst, ob es 6–22 Uhr in Berlin ist
-  workflow_dispatch:   # Knopf "Run workflow" = sofort aktualisieren
+    - cron: "7 * * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -47,10 +44,11 @@ jobs:
         run: |
           git config user.name "nachrichten-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json
+          git add data
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
           else
             git commit -m "Nachrichten-Update $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
             git push
           fi
+          
