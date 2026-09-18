@@ -317,7 +317,7 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-bild .karte .k-meer{fill:#0D2B55}
 .pl-bild .karte .k-land path{fill:#1d4a86;stroke:#0D2B55}
 .pl-bild .karte .k-name{fill:#fff;stroke:#0D2B55}
-.pl-bu{position:absolute;left:5%;right:5%;bottom:12%;z-index:2;font-family:var(--head);font-size:clamp(.6rem,1.5vw,.8rem);opacity:.9}
+.pl-bu{position:absolute;left:5%;right:5%;bottom:20%;z-index:2;font-family:var(--head);font-size:clamp(.6rem,1.5vw,.8rem);opacity:.9}
 .push-knopf{display:flex;align-items:center;gap:14px;margin-top:22px;padding:14px 16px;border-radius:14px;background:var(--bar);color:#fff;text-decoration:none}
 .push-knopf b{font-family:var(--head);font-size:1.05rem;display:block}
 .push-knopf small{font-family:var(--head);font-size:.85rem;color:var(--bar-muted)}
@@ -355,6 +355,28 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 @keyframes strichAuf{from{width:0}to{width:72%}}
 @keyframes titelAuf{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.pl-logo-anim,.pl-logo-anim .pl-strich,.pl-logo-anim + .pl-titel{animation:none}.pl-logo-anim .pl-strich{width:72%}}
+.pl-buehne{--akzent:#16407A}
+.pl-inhalt.einblenden .pl-rubrik{animation:vonLinks .5s cubic-bezier(.2,.8,.2,1) both}
+.pl-inhalt.einblenden .pl-titel{animation:vonUnten .55s cubic-bezier(.2,.8,.2,1) .12s both}
+.pl-inhalt.einblenden .pl-chips span{animation:vonUnten .5s ease-out both}
+.pl-inhalt.einblenden .pl-chips span:nth-child(2){animation-delay:.08s}
+.pl-inhalt.einblenden .pl-chips span:nth-child(3){animation-delay:.16s}
+.pl-inhalt.einblenden .pl-chips span:nth-child(4){animation-delay:.24s}
+.pl-inhalt.einblenden .pl-link{animation:vonUnten .5s ease-out .3s both}
+@keyframes vonLinks{from{opacity:0;transform:translateX(-26px)}to{opacity:1;transform:none}}
+@keyframes vonUnten{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.pl-rubrik{display:inline-block;background:var(--akzent);color:#fff;padding:3px 10px;border-radius:4px}
+.pl-titel{border-left:5px solid var(--akzent);padding-left:12px}
+.pl-bild.wechsel{animation:blende .5s ease-out both}
+@keyframes blende{from{opacity:.3}to{opacity:1}}
+.pl-uhr{position:absolute;right:0;bottom:0;height:8%;min-height:26px;display:flex;align-items:center;padding:0 10px;background:var(--akzent);color:#fff;z-index:4;font-family:var(--head);font-weight:700;font-size:clamp(.62rem,1.5vw,.85rem);background:rgba(0,0,0,.45);padding:2px 8px;border-radius:5px}
+.pl-laufband{position:absolute;left:0;right:76px;bottom:0;height:8%;min-height:26px;z-index:3;background:rgba(5,15,30,.85);border-top:2px solid var(--akzent);overflow:hidden;display:flex;align-items:center}
+.pl-lauf-inhalt{display:flex;gap:44px;white-space:nowrap;padding-left:100%;animation:lauf 40s linear infinite;font-family:var(--head);font-size:clamp(.6rem,1.5vw,.82rem);color:#d7e2f0}
+.pl-lauf-inhalt span::before{content:"•";color:var(--akzent);margin-right:12px}
+@keyframes lauf{to{transform:translateX(-50%)}}
+.pl-ut{bottom:12%}
+.hoch .pl-ut{bottom:14%}
+@media (prefers-reduced-motion:reduce){.pl-lauf-inhalt,.pl-inhalt.einblenden *{animation:none}}
 </style>
 </head>
 <body>
@@ -995,6 +1017,14 @@ function melodie(){
   return 8.6;   // danach beginnt die Stimme, die Musik klingt darunter aus
 }
 
+// kurzes Übergangsgeräusch zwischen zwei Themen
+function uebergang(){
+  const ctx = tonKontext(); if (!ctx || PLAYER.stumm) return;
+  const t = ctx.currentTime + 0.01;
+  rauschen(ctx, t, 0.28, 700, 5200, .09);
+  note(ctx, 73.42, t + 0.05, 0.5, .10);
+}
+
 // Leise Ticker-Spur unter der Stimme (läuft im Hintergrund weiter)
 let TICKER = null;
 function tickerStart(){
@@ -1134,6 +1164,8 @@ function playerOeffnen(format, id){
       <div class="pl-inhalt"></div>
       <div class="pl-ut" aria-live="polite"></div>
       <div class="pl-marke">KI-Zusammenfassung · Computerstimme</div>
+      <div class="pl-uhr"></div>
+      <div class="pl-laufband"><div class="pl-lauf-inhalt"></div></div>
       <button class="pl-start">▶</button>
     </div>
     <div class="pl-steuer">
@@ -1170,19 +1202,33 @@ function playerSchliessen(){
   const ziel = PLAYER.zurueck || "#/"; PLAYER.zurueck = null;
   if (location.hash.startsWith("#/video")) location.hash = ziel;
 }
+const RUBRIK_FARBE = { "Deutschland":"#C41E2E", "Welt":"#1F7A9E", "Wirtschaft":"#B07A00", "Wissen & Klima":"#1D7A4C", "Sport":"#6A3FA0" };
+function laufbandFuellen(){
+  const el = document.getElementById("player"); if (!el) return;
+  const box = el.querySelector(".pl-lauf-inhalt"); if (!box) return;
+  const titel = PLAYER.segs.filter(x => x.typ === "thema").map(x => x.titel);
+  if (!titel.length || box.dataset.voll === "1") return;
+  box.innerHTML = titel.concat(titel).map(t => `<span>${esc(t)}</span>`).join("");
+  box.style.animationDuration = Math.max(30, titel.length * 9) + "s";
+  box.dataset.voll = "1";
+}
 function zeigen(){
   const el = document.getElementById("player"); if (!el) return;
   const s = PLAYER.segs[PLAYER.si];
+  el.querySelector(".pl-buehne").style.setProperty("--akzent", RUBRIK_FARBE[s.rubrik] || "#16407A");
+  el.querySelector(".pl-uhr").textContent = berlin(new Date(), { hour:"2-digit", minute:"2-digit" }) + " Uhr";
   el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((_, i) => `<i class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}"></i>`).join("");
   bildZeigen();
   const kopfzeile = s.typ === "intro" || s.typ === "outro" ? `<div class="pl-logo${s.typ === "intro" ? " pl-logo-anim" : ""}">Nachrichten-Heft <span>· neutral</span><i class="pl-strich"></i></div>`
     : `<div class="pl-rubrik">${s.eil && s.typ !== "unklar" ? '<b class="pl-eil">EILMELDUNG</b> ' : ""}${s.typ === "unklar" ? "⚠ Noch unklar" : esc(s.rubrik)}</div>`;
-  el.querySelector(".pl-inhalt").innerHTML = `${kopfzeile}
+  const inhalt = el.querySelector(".pl-inhalt");
+  inhalt.classList.remove("einblenden"); void inhalt.offsetWidth; inhalt.classList.add("einblenden");
+  inhalt.innerHTML = `${kopfzeile}
     <div class="pl-titel">${esc(s.titel)}</div>
     ${s.chips?.length && s.typ === "thema" ? `<div class="pl-chips">${s.chips.map(([k,v]) => `<span><b>${k}:</b> ${esc(v.length > 60 ? v.slice(0,57) + "…" : v)}</span>`).join("")}</div>` : ""}
     ${s.id && PLAYER.format !== "clip" ? `<a class="pl-link" href="#/n/${esc(s.id)}">Ganzen Artikel lesen →</a>` : ""}`;
   el.querySelector(".pl-inhalt .pl-link")?.addEventListener("click", () => { stopp(); document.getElementById("player")?.remove(); document.body.style.overflow = ""; PLAYER.zurueck = null; });
-  untertitel();
+  untertitel(); laufbandFuellen();
 }
 function bildZeigen(){
   const el = document.getElementById("player"); if (!el) return;
@@ -1191,6 +1237,7 @@ function bildZeigen(){
   const b = liste.length ? liste[PLAYER.ti % liste.length] : null;
   const karte = !b && s.ort ? karteSVG(s.ort, 34, 19) : "";
   bild.className = "pl-bild " + (b ? "foto" : karte ? "karte-hg" : "tafel") + (s.typ === "unklar" ? " gelb" : "") + (s.eil && s.typ === "thema" ? " rot" : "");
+  bild.classList.remove("wechsel"); void bild.offsetWidth; bild.classList.add("wechsel");
   const fahrten = ["fahrt-zoom-in", "fahrt-zoom-out", "fahrt-pan-links", "fahrt-pan-rechts"];
   const fahrt = fahrten[(PLAYER.si + PLAYER.ti) % fahrten.length];
   bild.innerHTML = b
@@ -1242,6 +1289,7 @@ function sprechen(){
       const naechstes = PLAYER.segs[PLAYER.si];
       if (naechstes && !PLAYER.stumm && naechstes.eil && naechstes.typ === "thema" && PLAYER.letzteEil !== naechstes.id){ PLAYER.letzteEil = naechstes.id; eilSignal(); }
       if (PLAYER.si >= PLAYER.segs.length){ PLAYER.si = PLAYER.segs.length - 1; PLAYER.ti = s.saetze.length - 1; stopp(); return; }
+      uebergang();
       clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(() => { zeigen(); sprechen(); }, 900); return; // Atempause zwischen den Themen
     }
     sprechen();
