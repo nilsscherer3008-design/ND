@@ -217,8 +217,15 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-fortschritt i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28)}
 .pl-fortschritt i.fertig,.pl-fortschritt i.jetzt{background:#fff}
 .pl-bild{position:absolute;inset:0}
-.pl-bild img{width:100%;height:100%;object-fit:cover;animation:zoom 14s ease-out forwards}
-@keyframes zoom{from{transform:scale(1)}to{transform:scale(1.08)}}
+.pl-bild img{width:100%;height:100%;object-fit:cover;transform-origin:center}
+.fahrt-zoom-in{animation:zoomIn 12s ease-out forwards}
+.fahrt-zoom-out{animation:zoomOut 12s ease-out forwards}
+.fahrt-pan-links{animation:panLinks 14s linear forwards}
+.fahrt-pan-rechts{animation:panRechts 14s linear forwards}
+@keyframes zoomIn{from{transform:scale(1.01)}to{transform:scale(1.10)}}
+@keyframes zoomOut{from{transform:scale(1.10)}to{transform:scale(1.01)}}
+@keyframes panLinks{from{transform:scale(1.10) translateX(2.5%)}to{transform:scale(1.10) translateX(-2.5%)}}
+@keyframes panRechts{from{transform:scale(1.10) translateX(-2.5%)}to{transform:scale(1.10) translateX(2.5%)}}
 @media (prefers-reduced-motion:reduce){.pl-bild img{animation:none}}
 .pl-bild::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,15,30,.55) 0%,rgba(5,15,30,.1) 35%,rgba(5,15,30,.85) 100%)}
 .pl-bild.tafel{background:linear-gradient(135deg,#0D2B55,#16407A)}
@@ -337,6 +344,17 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 .intro-punkte i.jetzt{background:var(--bar-2);width:22px;border-radius:5px}
 .intro-knoepfe{display:flex;gap:10px;justify-content:flex-end}
 .intro-knoepfe .btn{flex:1}
+.stimmwahl{font-family:var(--head);font-size:.95rem;display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap}
+.stimmwahl select{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);min-height:42px}
+.pl-logo{position:relative}
+.pl-strich{display:block;height:4px;background:var(--red);border-radius:2px;margin-top:10px;width:0}
+.pl-logo-anim{animation:logoAuf 1.2s ease-out both}
+.pl-logo-anim .pl-strich{animation:strichAuf 2.6s cubic-bezier(.2,.8,.2,1) 1.1s both}
+.pl-logo-anim + .pl-titel{animation:titelAuf .9s ease-out 4.6s both}
+@keyframes logoAuf{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes strichAuf{from{width:0}to{width:72%}}
+@keyframes titelAuf{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.pl-logo-anim,.pl-logo-anim .pl-strich,.pl-logo-anim + .pl-titel{animation:none}.pl-logo-anim .pl-strich{width:72%}}
 </style>
 </head>
 <body>
@@ -477,10 +495,23 @@ function startseite(rubrik){
     <p><b>Grenzen:</b> Keine Nachrichten-App ist völlig neutral. Schon welche Themen und welche Medien ausgewählt werden, ist eine Entscheidung. Die KI kann trotz Prüfung Fehler machen – im Zweifel gilt der Originalbericht. Fehler kannst du bei jeder Nachricht melden.</p>
     <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks. Die App verwendet keine Werbung, kein Tracking und keine Anmeldung.</p>
     ${DATEN.stand ? `<p>Letzte Aktualisierung: ${esc(fmtZeit(DATEN.stand))} Uhr.</p>` : ""}
+    <p><label class="stimmwahl">Stimme für die Videos: <select id="stimmWahl"><option value="">automatisch</option></select></label></p>
     <p><button class="btn hell" id="introBtn">Einführung noch einmal ansehen</button>
     ${DATEN.ntfyTopic ? `<button class="btn hell" id="eilBtn">Eilmeldungen einrichten</button>` : ""}</p>
   </details>`;
   $app.innerHTML = html;
+  const sw = document.getElementById("stimmWahl");
+  if (sw && "speechSynthesis" in window){
+    const fuellen = () => {
+      let aktuell = ""; try { aktuell = localStorage.getItem("heft-stimme") || ""; } catch {}
+      sw.innerHTML = `<option value="">automatisch</option>` + deutscheStimmen().map(v => `<option value="${esc(v.name)}"${v.name === aktuell ? " selected" : ""}>${esc(v.name)}</option>`).join("");
+    };
+    fuellen(); speechSynthesis.onvoiceschanged = fuellen;
+    sw.onchange = () => {
+      try { sw.value ? localStorage.setItem("heft-stimme", sw.value) : localStorage.removeItem("heft-stimme"); } catch {}
+      try { const probe = new SpeechSynthesisUtterance("So klingt diese Stimme im Nachrichten-Heft."); const v = stimmeWaehlen(); if (v) probe.voice = v; probe.lang = "de-DE"; probe.rate = 0.9; speechSynthesis.cancel(); speechSynthesis.speak(probe); } catch {}
+    };
+  }
   const intro = document.getElementById("introBtn");
   if (intro) intro.onclick = () => introZeigen(true);
   const eb = document.getElementById("eilBtn");
@@ -855,21 +886,123 @@ function note(ctx, frequenz, start, dauer, lautstaerke = .22, form = "sine"){
   o.connect(g); o2.connect(g2); g2.connect(g); g.connect(ctx.destination);
   o.start(start); o2.start(start); o.stop(start + dauer + .05); o2.stop(start + dauer + .05);
 }
-// Erkennungsmelodie: ruhiges, sachliches Signal (ca. 3 Sekunden)
+// Nachrichten-Opener: tiefer Bass, dezentes Ticken, keine Melodie (ca. 3 Sekunden)
+function tick(ctx, start, lautstaerke = .05){
+  const o = ctx.createOscillator(), g = ctx.createGain(), f = ctx.createBiquadFilter();
+  o.type = "square"; o.frequency.value = 2400;
+  f.type = "bandpass"; f.frequency.value = 2200; f.Q.value = 6;
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.004);
+  g.gain.exponentialRampToValueAtTime(0.0001, start + 0.05);
+  o.connect(f); f.connect(g); g.connect(ctx.destination);
+  o.start(start); o.stop(start + 0.07);
+}
+// kurzer, tiefer Schlag (wie eine gedämpfte Pauke)
+function puls(ctx, start, lautstaerke){
+  const o = ctx.createOscillator(), g = ctx.createGain();
+  o.type = "sine";
+  o.frequency.setValueAtTime(110, start);
+  o.frequency.exponentialRampToValueAtTime(45, start + 0.14);
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.012);
+  g.gain.exponentialRampToValueAtTime(0.0001, start + 0.34);
+  o.connect(g); g.connect(ctx.destination); o.start(start); o.stop(start + 0.4);
+}
+// kurzer Akkordschlag mit blechartigem Klang
+function blech(ctx, frequenzen, start, dauer, lautstaerke){
+  const g = ctx.createGain(), f = ctx.createBiquadFilter();
+  f.type = "lowpass"; f.Q.value = 2.5;
+  f.frequency.setValueAtTime(600, start);
+  f.frequency.exponentialRampToValueAtTime(5200, start + 0.07);   // heller Anblas-Moment
+  f.frequency.exponentialRampToValueAtTime(1400, start + dauer);
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.035);
+  g.gain.setValueAtTime(lautstaerke, start + Math.min(0.18, dauer * 0.5));
+  g.gain.exponentialRampToValueAtTime(0.0001, start + dauer);
+  // Grundton, Oktave und Quinte darüber: klingt voller und lauter
+  const alle = frequenzen.flatMap(fr => [fr, fr * 2, fr * 3]);
+  for (const fr of alle){
+    if (fr > 6000) continue;
+    const o = ctx.createOscillator(); o.type = "sawtooth"; o.frequency.value = fr;
+    const d = ctx.createOscillator(); d.type = "sawtooth"; d.frequency.value = fr * 1.007;
+    const mix = ctx.createGain(); mix.gain.value = fr > 900 ? 0.45 : 1;
+    o.connect(mix); d.connect(mix); mix.connect(f);
+    o.start(start); d.start(start); o.stop(start + dauer + .05); d.stop(start + dauer + .05);
+  }
+  f.connect(g); g.connect(ctx.destination);
+  rauschen(ctx, start, Math.min(0.22, dauer), 5000, 1200, lautstaerke * 0.35);  // Luft im Anblasen
+}
+
+function rauschen(ctx, start, dauer, vonHz, bisHz, lautstaerke){
+  const laenge = Math.ceil(ctx.sampleRate * dauer), puffer = ctx.createBuffer(1, laenge, ctx.sampleRate), daten = puffer.getChannelData(0);
+  for (let i = 0; i < laenge; i++) daten[i] = (Math.random() * 2 - 1) * (1 - i / laenge);
+  const q = ctx.createBufferSource(); q.buffer = puffer;
+  const f = ctx.createBiquadFilter(); f.type = "bandpass"; f.Q.value = 1.1;
+  f.frequency.setValueAtTime(vonHz, start); f.frequency.exponentialRampToValueAtTime(bisHz, start + dauer);
+  const g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + dauer * 0.75);
+  g.gain.exponentialRampToValueAtTime(0.0001, start + dauer);
+  q.connect(f); f.connect(g); g.connect(ctx.destination); q.start(start); q.stop(start + dauer + .05);
+}
+function bassRutsch(ctx, start, vonHz, bisHz, dauer, lautstaerke){
+  const o = ctx.createOscillator(), g = ctx.createGain();
+  o.type = "sine";
+  o.frequency.setValueAtTime(vonHz, start);
+  o.frequency.exponentialRampToValueAtTime(bisHz, start + dauer);
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.05);
+  g.gain.exponentialRampToValueAtTime(0.0001, start + dauer);
+  o.connect(g); g.connect(ctx.destination); o.start(start); o.stop(start + dauer + .05);
+}
+// Nachrichten-Opener mit Spannungsbogen (ca. 7 Sekunden, Stimme setzt nach 5,4 s ein)
 function melodie(){
   const ctx = tonKontext(); if (!ctx) return 0;
   const t = ctx.currentTime + 0.05;
-  const [D3, A3, D4, Fis4, A4, D5] = [146.83, 220, 293.66, 369.99, 440, 587.33];
-  note(ctx, D3, t, 2.8, .10);                 // ruhiger Grundton
-  note(ctx, A3, t + 0.00, 0.45, .18);
-  note(ctx, D4, t + 0.35, 0.45, .20);
-  note(ctx, Fis4, t + 0.70, 0.45, .18);
-  note(ctx, A4, t + 1.05, 0.80, .20);
-  note(ctx, D5, t + 1.55, 1.40, .17);         // Schlusston
-  note(ctx, Fis4, t + 1.55, 1.40, .10);
-  note(ctx, A4, t + 1.55, 1.40, .10);
-  return 2.6;
+  // 1. Ruhiger Beginn: gleichmäßiges Ticken über tiefem Ton
+  note(ctx, 55, t, 3.4, .14);
+  note(ctx, 82.4, t + 0.8, 2.6, .08);
+  for (let i = 0; i < 8; i++) tick(ctx, t + i * 0.30, .045);
+  // 2. Aufbau: Puls wird schneller, Rauschen steigt
+  let p = 2.4;
+  for (let i = 0; i < 10; i++){ tick(ctx, t + p, .05 + i * 0.012); p += 0.20 - i * 0.014; }
+  note(ctx, 110, t + 2.4, 1.6, .10);
+  rauschen(ctx, t + 2.9, 1.0, 300, 5600, .17);
+  // 3. Der Schlag
+  bassRutsch(ctx, t + 3.9, 190, 41, 1.8, .58);
+  rauschen(ctx, t + 3.9, 0.55, 6500, 800, .13);
+  note(ctx, 146.83, t + 3.9, 1.8, .17);
+  note(ctx, 220, t + 3.9, 1.8, .11);
+  note(ctx, 293.66, t + 3.9, 1.6, .07);
+  // 4. Signaturteil: gleichmäßiger Puls mit kurzen Akkordschlägen (ca. 3,5 Sekunden)
+  const takt = 0.44;                       // etwa 136 Schläge pro Minute
+  const start = t + 4.5;
+  for (let i = 0; i < 8; i++){
+    const z = start + i * takt;
+    puls(ctx, z, i % 2 === 0 ? .55 : .34);                    // tiefer Schlag
+    note(ctx, 73.42, z, takt * 0.9, .12);                     // Bass-Puls
+    if (i % 2 === 0) blech(ctx, [146.83, 220], z + 0.02, 0.32, .34);   // kräftiger Akkordschlag
+  }
+  blech(ctx, [110, 164.81, 220], start + 3 * takt, 0.60, .40);
+  blech(ctx, [123.47, 185, 246.94], start + 5 * takt, 0.60, .42);
+  puls(ctx, start + 7 * takt, .75);
+  rauschen(ctx, start + 7 * takt, 0.45, 7000, 900, .18);
+  blech(ctx, [146.83, 220, 293.66, 440], start + 7 * takt, 2.10, .52);  // lauter Schlussakkord
+  note(ctx, 36.71, start + 7 * takt, 2.2, .30);                         // Sub-Bass darunter
+  // 5. Ausklang: ruhiger Grundton, Ticken läuft in die Sendung hinein
+  note(ctx, 73.42, start + 3.3, 2.2, .12);
+  for (let i = 0; i < 6; i++) tick(ctx, start + 3.4 + i * 0.30, .035);
+  return 8.6;   // danach beginnt die Stimme, die Musik klingt darunter aus
 }
+
+// Leise Ticker-Spur unter der Stimme (läuft im Hintergrund weiter)
+let TICKER = null;
+function tickerStart(){
+  const ctx = tonKontext(); if (!ctx || TICKER) return;
+  const takt = () => { if (!TICKER) return; tick(ctx, ctx.currentTime + 0.02, .012); };
+  TICKER = setInterval(takt, 500); takt();
+}
+function tickerStopp(){ clearInterval(TICKER); TICKER = null; }
 // kurzes Signal vor einer Eilmeldung
 function eilSignal(){
   const ctx = tonKontext(); if (!ctx) return 0;
@@ -883,7 +1016,7 @@ function eilSignal(){
 const FORMATE = {
   "100s":    { name:"Heft in 100 Sekunden", kurz:"100 Sekunden", quer:true },
   "haupt":   { name:"Hauptausgabe", kurz:"Hauptausgabe", quer:true },
-  "einfach": { name:"Einfach erklärt", kurz:"Einfach erklärt", quer:true, rate:0.92 },
+  "einfach": { name:"Einfach erklärt", kurz:"Einfach erklärt", quer:true, rate:0.84 },
   "woche":   { name:"Wochenrückblick", kurz:"Woche", quer:true },
   "clip":    { name:"Clip", kurz:"Clip", quer:false },
   "ausgabe": { name:"Ausgabe", kurz:"Ausgabe", quer:true }
@@ -951,9 +1084,35 @@ const dauerText = sek => sek < 90 ? `${Math.max(30, Math.round(sek/10)*10)} Sek.
 let AKTUELLE_DETAIL = null;
 const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, format:null, zurueck:"#/" };
 
+function deutscheStimmen(){
+  return (speechSynthesis?.getVoices?.() || []).filter(v => /^de/i.test(v.lang));
+}
 function stimmeWaehlen(){
-  const v = speechSynthesis?.getVoices?.() || [];
-  return v.find(x => /de[-_]DE/i.test(x.lang) && /google|natural|neural|premium|enhanced/i.test(x.name)) || v.find(x => /^de/i.test(x.lang));
+  const v = deutscheStimmen();
+  let gewuenscht = null;
+  try { gewuenscht = localStorage.getItem("heft-stimme"); } catch {}
+  if (gewuenscht){ const t = v.find(x => x.name === gewuenscht); if (t) return t; }
+  const punkte = x => {
+    let p = 0;
+    if (/de[-_]DE/i.test(x.lang)) p += 3;
+    if (/natural|neural|premium|enhanced|online|wavenet|studio/i.test(x.name)) p += 6;
+    if (/google/i.test(x.name)) p += 4;
+    if (/siri|eloquence|compact/i.test(x.name)) p -= 3;
+    if (x.localService === false) p += 2;   // Online-Stimmen klingen meist natürlicher
+    return p;
+  };
+  return v.slice().sort((a, b) => punkte(b) - punkte(a))[0];
+}
+// Lange Sätze in Sprechabschnitte teilen: klingt natürlicher als ein Satz am Stück
+function sprechTeile(satz){
+  const teile = String(satz).split(/(?<=,|;|:| –)\s+/).map(t => t.trim()).filter(Boolean);
+  const zusammen = [];
+  for (const t of teile){
+    const letzte = zusammen[zusammen.length - 1];
+    if (letzte && (letzte.split(/\s+/).length < 4 || t.split(/\s+/).length < 4)) zusammen[zusammen.length - 1] = letzte + " " + t;
+    else zusammen.push(t);
+  }
+  return zusammen.length ? zusammen : [String(satz)];
 }
 function playerOeffnen(format, id){
   const segs = segmenteBauen(format, id);
@@ -998,7 +1157,7 @@ function playerOeffnen(format, id){
   el.tabIndex = -1; el.focus();
 }
 function playerSchliessen(){
-  stopp();
+  stopp(); tickerStopp();
   document.getElementById("player")?.remove();
   document.body.style.overflow = "";
   if (document.fullscreenElement) document.exitFullscreen().catch(()=>{});
@@ -1010,7 +1169,7 @@ function zeigen(){
   const s = PLAYER.segs[PLAYER.si];
   el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((_, i) => `<i class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}"></i>`).join("");
   bildZeigen();
-  const kopfzeile = s.typ === "intro" || s.typ === "outro" ? `<div class="pl-logo">Nachrichten-Heft <span>· neutral</span></div>`
+  const kopfzeile = s.typ === "intro" || s.typ === "outro" ? `<div class="pl-logo${s.typ === "intro" ? " pl-logo-anim" : ""}">Nachrichten-Heft <span>· neutral</span><i class="pl-strich"></i></div>`
     : `<div class="pl-rubrik">${s.eil && s.typ !== "unklar" ? '<b class="pl-eil">EILMELDUNG</b> ' : ""}${s.typ === "unklar" ? "⚠ Noch unklar" : esc(s.rubrik)}</div>`;
   el.querySelector(".pl-inhalt").innerHTML = `${kopfzeile}
     <div class="pl-titel">${esc(s.titel)}</div>
@@ -1026,8 +1185,10 @@ function bildZeigen(){
   const b = liste.length ? liste[PLAYER.ti % liste.length] : null;
   const karte = !b && s.ort ? karteSVG(s.ort, 34, 19) : "";
   bild.className = "pl-bild " + (b ? "foto" : karte ? "karte-hg" : "tafel") + (s.typ === "unklar" ? " gelb" : "") + (s.eil && s.typ === "thema" ? " rot" : "");
+  const fahrten = ["fahrt-zoom-in", "fahrt-zoom-out", "fahrt-pan-links", "fahrt-pan-rechts"];
+  const fahrt = fahrten[(PLAYER.si + PLAYER.ti) % fahrten.length];
   bild.innerHTML = b
-    ? `<img src="${esc(b.url)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.className='pl-bild tafel';this.remove()">
+    ? `<img class="${fahrt}" src="${esc(b.url)}" alt="" referrerpolicy="no-referrer" onerror="this.parentNode.className='pl-bild tafel';this.remove()">
        <span class="pl-credit">${esc(b.hinweis)} · Foto: ${esc(b.urheber)} / Wikimedia Commons · ${esc(b.lizenz)}</span>
        ${b.bildunterschrift ? `<span class="pl-bu">${esc(b.bildunterschrift)}</span>` : ""}`
     : karte;
@@ -1047,13 +1208,14 @@ function knoepfe(){
   const st = el.querySelector(".pl-start"); if (st) st.hidden = PLAYER.spielt || PLAYER.si > 0 || PLAYER.ti > 0;
 }
 function stopp(){
-  PLAYER.spielt = false; clearTimeout(PLAYER.timer);
+  PLAYER.spielt = false; clearTimeout(PLAYER.timer); tickerStopp();
   try { speechSynthesis.cancel(); } catch {}
   knoepfe();
 }
 function abspielen(){
   if (!PLAYER.segs.length) return;
   PLAYER.spielt = true; knoepfe();
+  if (!PLAYER.stumm) tickerStart();
   const s = PLAYER.segs[PLAYER.si];
   let warten = 0;
   if (!PLAYER.stumm && PLAYER.ti === 0 && !PLAYER.melodieGespielt && s.typ === "intro"){ warten = melodie(); PLAYER.melodieGespielt = true; }
@@ -1074,7 +1236,7 @@ function sprechen(){
       const naechstes = PLAYER.segs[PLAYER.si];
       if (naechstes && !PLAYER.stumm && naechstes.eil && naechstes.typ === "thema" && PLAYER.letzteEil !== naechstes.id){ PLAYER.letzteEil = naechstes.id; eilSignal(); }
       if (PLAYER.si >= PLAYER.segs.length){ PLAYER.si = PLAYER.segs.length - 1; PLAYER.ti = s.saetze.length - 1; stopp(); return; }
-      clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(() => { zeigen(); sprechen(); }, 700); return;
+      clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(() => { zeigen(); sprechen(); }, 900); return; // Atempause zwischen den Themen
     }
     sprechen();
   };
@@ -1082,14 +1244,23 @@ function sprechen(){
   if (PLAYER.stumm || !("speechSynthesis" in window)){
     clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(weiter, lesezeit + 500); return;
   }
-  const u = new SpeechSynthesisUtterance(satz);
-  u.lang = "de-DE"; const v = stimmeWaehlen(); if (v) u.voice = v;
-  u.rate = FORMATE[PLAYER.format]?.rate || 1;
+  const v = stimmeWaehlen();
+  const grundTempo = FORMATE[PLAYER.format]?.rate || 0.9;
+  const teile = sprechTeile(satz);
   let fertig = false;
-  const ende = () => { if (fertig) return; fertig = true; clearTimeout(PLAYER.timer); weiter(); };
-  u.onend = ende; u.onerror = e => { if (e.error !== "interrupted" && e.error !== "canceled") ende(); };
-  clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(ende, lesezeit * 2.5 + 3000); // Sicherheitsnetz
-  speechSynthesis.cancel(); speechSynthesis.speak(u);
+  const ende = () => { if (fertig) return; fertig = true; clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(weiter, 420); }; // Atempause nach dem Satz
+  speechSynthesis.cancel();
+  teile.forEach((teil, i) => {
+    const u = new SpeechSynthesisUtterance(teil);
+    u.lang = "de-DE"; if (v) u.voice = v;
+    // leichte Schwankungen in Tempo und Tonhöhe wirken lebendiger als immer gleich
+    u.rate = grundTempo + (i % 2 ? 0.03 : -0.02) + (PLAYER.ti % 3) * 0.01;
+    u.pitch = 0.94 + (i === teile.length - 1 ? -0.04 : 0.02);
+    u.volume = 1;
+    if (i === teile.length - 1){ u.onend = ende; u.onerror = e => { if (e.error !== "interrupted" && e.error !== "canceled") ende(); }; }
+    speechSynthesis.speak(u);
+  });
+  clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(ende, lesezeit * 2.6 + 3500); // Sicherheitsnetz
 }
 function steuern(a){
   const P = PLAYER;

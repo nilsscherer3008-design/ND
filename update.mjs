@@ -258,7 +258,7 @@ Aufgabe 1 – Prüfen und korrigieren:
 
 Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften Nachricht):
 - "einfach": Vorspann und 3–5 kurze Absätze in einfacher Sprache (kurze Sätze, keine Fremdwörter ohne Erklärung) für Jugendliche ab 12.
-- "video": Sprechtexte zum Vorlesen, jeder Satz höchstens 20 Wörter, keine Abkürzungen, Zahlen gut vorlesbar.
+- "video": Sprechtexte für eine Nachrichtensendung. Jeder Satz höchstens 14 Wörter. Kurze Hauptsätze, Präsens oder Perfekt. Keine Abkürzungen, Zahlen ausgeschrieben, wie man sie spricht (z. B. "drei Komma sieben fünf Prozent"). Setze Kommas dort, wo ein Sprecher Luft holt. Keine Floskeln wie "Guten Abend". Wenn mehrere Medien berichten, darf ein Satz das sachlich erwähnen ("Mehrere Medien berichten übereinstimmend").
   Erzähle in dieser Reihenfolge: 1. ein Einstiegssatz, der neugierig macht, aber nichts übertreibt und nichts wertet. 2. die wichtigsten Fakten. 3. ein Schlusssatz, der sagt, was als Nächstes passiert oder was noch offen ist.
   "kurz": 3 Sätze. "lang": 6–8 Sätze. "einfach": 4–5 sehr einfache Sätze.
 
