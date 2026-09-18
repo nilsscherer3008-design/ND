@@ -8,7 +8,7 @@ import { execSync } from "node:child_process";
 const ROOT = new URL("./", import.meta.url);
 const DATA_FILE = new URL("data/news.json", ROOT);
 const UA = "Mozilla/5.0 (compatible; NachrichtenHeft/1.0; Schulprojekt)";
-const TEXT_VERSION = 4; // höhere Zahl = ältere Artikel werden nach und nach neu geschrieben
+const TEXT_VERSION = 5; // höhere Zahl = ältere Artikel werden nach und nach neu geschrieben
 
 // ---------- Hilfsfunktionen ----------
 export function decode(s = "") {
@@ -258,6 +258,9 @@ Aufgabe 1 – Prüfen und korrigieren:
 
 Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften Nachricht):
 - "einfach": Vorspann und 3–5 kurze Absätze in einfacher Sprache (kurze Sätze, keine Fremdwörter ohne Erklärung) für Jugendliche ab 12.
+- "dossier": {"slug": "kurzer-themen-slug", "titel": "Name des übergeordneten Themas, z. B. 'Wahl in Schweden' oder 'Krieg in der Ukraine'"} – gleiche Ereignisketten bekommen denselben Slug.
+- "kurz": 3 bis 4 Stichpunkte für Eilige, je höchstens 15 Wörter.
+- "fakten": die wichtigsten Zahlen und Daten als Paare, z. B. [["Stimmen im Parlament", "262 zu 159"], ["Datum", "17. September 2026"]]. Nur Zahlen, die in den Berichten stehen. Leere Liste, wenn es keine gibt.
 - "video": Sprechtexte für eine Nachrichtensendung. Jeder Satz höchstens 14 Wörter. Kurze Hauptsätze, Präsens oder Perfekt. Keine Abkürzungen, Zahlen ausgeschrieben, wie man sie spricht (z. B. "drei Komma sieben fünf Prozent"). Setze Kommas dort, wo ein Sprecher Luft holt. Keine Floskeln wie "Guten Abend". Wenn mehrere Medien berichten, darf ein Satz das sachlich erwähnen ("Mehrere Medien berichten übereinstimmend").
   Erzähle in dieser Reihenfolge: 1. ein Einstiegssatz, der neugierig macht, aber nichts übertreibt und nichts wertet. 2. die wichtigsten Fakten. 3. ein Schlusssatz, der sagt, was als Nächstes passiert oder was noch offen ist.
   "kurz": 3 Sätze. "lang": 6–8 Sätze. "einfach": 4–5 sehr einfache Sätze.
@@ -267,7 +270,7 @@ Aufgabe 3 – Lernmaterial für Schülerinnen und Schüler:
 - "fragen": 2–3 offene Diskussionsfragen, die keine Meinung vorgeben (z. B. zu Quellen, Wortwahl, Folgen).
 - "quiz": 3 Fragen mit je 3 Antworten; genau eine richtig; die richtige Antwort muss unter "einig" belegt sein.
 
-Antworte NUR mit JSON: {"nachricht": {gleiches Format wie der Entwurf}, "korrekturen": ["..."], "einfach": {"vorspann": "...", "absaetze": ["..."]}, "video": {"kurz": ["..."], "lang": ["..."], "einfach": ["..."]}, "lernen": {"begriffe": [["Begriff","Erklärung"]], "fragen": ["..."], "quiz": [{"frage":"...","optionen":["...","...","..."],"richtig":0,"erklaerung":"..."}]}}`, 12000);
+Antworte NUR mit JSON: {"nachricht": {gleiches Format wie der Entwurf}, "korrekturen": ["..."], "dossier": {"slug": "...", "titel": "..."}, "kurz": ["..."], "fakten": [["Bezeichnung", "Wert"]], "einfach": {"vorspann": "...", "absaetze": ["..."]}, "video": {"kurz": ["..."], "lang": ["..."], "einfach": ["..."]}, "lernen": {"begriffe": [["Begriff","Erklärung"]], "fragen": ["..."], "quiz": [{"frage":"...","optionen":["...","...","..."],"richtig":0,"erklaerung":"..."}]}}`, 12000);
 }
 
 export function lernenPruefen(l) {
@@ -318,7 +321,7 @@ export async function archivieren(alteNachrichten, aktive, jetzt, cfg, root = RO
   const sucheDatei = new URL("data/suche.json", root);
   const suche = await leseJson(sucheDatei, []);
   const idx = new Map(suche.map(e => [e.id, e]));
-  for (const n of alteNachrichten) idx.set(n.id, { id: n.id, titel: n.titel, vorspann: n.vorspann, rubrik: n.rubrik, zeit: n.zeit, monat: berlinMonat(n.zeit) });
+  for (const n of alteNachrichten) idx.set(n.id, { id: n.id, titel: n.titel, vorspann: n.vorspann, rubrik: n.rubrik, zeit: n.zeit, monat: berlinMonat(n.zeit), dossier: n.dossier });
   for (const n of aktive) idx.delete(n.id); // aktive Nachrichten stehen in news.json
   const grenze = jetzt - (cfg.archivMonate || 13) * 30 * 864e5;
   const neu = [...idx.values()].filter(e => new Date(e.zeit) >= grenze).sort((a, b) => b.zeit.localeCompare(a.zeit));
@@ -371,6 +374,19 @@ export function wfragenPruefen(w) {
 export function einfachPruefen(e) {
   if (!e || !Array.isArray(e.absaetze) || !e.absaetze.length) return undefined;
   return { vorspann: String(e.vorspann || ""), absaetze: e.absaetze.map(String).filter(Boolean).slice(0, 6) };
+}
+export function kurzPruefen(k) {
+  const l = (Array.isArray(k) ? k : []).map(String).map(t => t.trim()).filter(Boolean).slice(0, 5);
+  return l.length ? l : undefined;
+}
+export function faktenPruefen(f) {
+  const l = (Array.isArray(f) ? f : []).filter(x => Array.isArray(x) && x[0] && x[1]).map(x => [String(x[0]), String(x[1])]).slice(0, 8);
+  return l.length ? l : undefined;
+}
+export function dossierPruefen(d) {
+  if (!d || !d.slug) return undefined;
+  const slug = String(d.slug).toLowerCase().replace(/[^a-z0-9äöüß-]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
+  return slug ? { slug, titel: String(d.titel || slug).slice(0, 80) } : undefined;
 }
 export function videoPruefen(v) {
   if (!v || typeof v !== "object") return undefined;
@@ -656,7 +672,7 @@ async function main() {
     try {
       let entwurf = pruefen(await themaSchreiben(t, quellenTexte, altesThema), quellenTexte);
       if (!entwurf.titel || entwurf.einig.length === 0) { console.warn(`Übersprungen (keine belegten Fakten): ${t.id}`); continue; }
-      let geprueft = false, korrekturen = [], lernen, einfach, video;
+      let geprueft = false, korrekturen = [], lernen, einfach, video, kurz, fakten, dossier;
       try {
         const pr = await themaPruefen(entwurf, quellenTexte);
         const korrigiert = pruefen({ ...pr.nachricht, eil: entwurf.eil }, quellenTexte);
@@ -667,6 +683,9 @@ async function main() {
           lernen = lernenPruefen(pr.lernen);
           einfach = einfachPruefen(pr.einfach);
           video = videoPruefen(pr.video);
+          kurz = kurzPruefen(pr.kurz);
+          fakten = faktenPruefen(pr.fakten);
+          dossier = dossierPruefen(pr.dossier);
           console.log(`  Prüfung: ${korrekturen.length} Korrektur(en)`);
         } else console.warn("  Prüfung lieferte keine gültige Fassung – Entwurf bleibt, als ungeprüft markiert.");
       } catch (e) { console.warn(`  Prüfung fehlgeschlagen: ${e.message}`); }
@@ -698,7 +717,8 @@ async function main() {
         zeit: neuesteZeit,
         aktualisiert: altesThema ? `aktualisiert um ${berlinUhr(jetzt)} Uhr` : undefined,
         ...entwurf,
-        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo, bildInfos, ortInfo, version: TEXT_VERSION
+        geprueft, korrekturen, wortwarnung, lernen, einfach, video, kurz, fakten,
+        dossier: dossier || altesThema?.dossier, bildInfo, bildInfos, ortInfo, version: TEXT_VERSION
       });
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);

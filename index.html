@@ -377,6 +377,23 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 .pl-ut{bottom:12%}
 .hoch .pl-ut{bottom:14%}
 @media (prefers-reduced-motion:reduce){.pl-lauf-inhalt,.pl-inhalt.einblenden *{animation:none}}
+.kurzliste{margin:0;padding-left:22px}
+.kurzliste li{font-size:1.07rem;line-height:1.6;margin-bottom:12px}
+.fakten{margin:24px 0 8px;border:1px solid var(--line);border-radius:12px;padding:14px 18px 6px;background:var(--card)}
+.fakten h2{font-family:var(--head);font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:0 0 8px}
+.fakten dl{margin:0}
+.fakten dl > div{display:flex;justify-content:space-between;gap:16px;padding:8px 0;border-top:1px solid var(--line)}
+.fakten dl > div:first-child{border-top:0}
+.fakten dt{font-family:var(--head);font-size:.95rem;color:var(--muted)}
+.fakten dd{margin:0;font-family:var(--head);font-weight:700;text-align:right}
+.dossier-link{margin-left:auto;font-weight:600;text-decoration:none}
+.balken-zeile{display:flex;align-items:center;gap:10px;padding:7px 0}
+.balken-name{flex:0 0 40%;font-family:var(--head);font-size:.9rem;color:var(--ink);text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.balken{flex:1;height:14px;background:var(--surface);border-radius:7px;overflow:hidden}
+.balken i{display:block;height:100%;background:var(--bar-2);border-radius:7px}
+.balken-zahl{font-family:var(--head);font-weight:700;font-size:.9rem;width:24px;text-align:right}
+.hero-zweit{left:auto;right:12px;font-size:.85rem;background:rgba(0,0,0,.6)}
+@media (max-width:520px){ .hero-zweit{display:none} }
 </style>
 </head>
 <body>
@@ -499,6 +516,8 @@ function startseite(rubrik){
       <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
   }
   if (rubrik === "Alle") html += sendungsLeiste() + videoLeiste();
+  else if (liste.length >= 2) html += `<section class="videos"><div class="vreihe"><a class="vkarte sendung" href="#/video/rubrik/${slug(rubrik)}">
+      <span class="vk-text"><b>▶ ${esc(rubrik)} als Video</b><small>${liste.length} Themen</small></span></a></div></section>`;
   html += liste.length ? `<div class="list">${liste.map(n => karte(n)).join("")}</div>`
     : `<div class="empty"><strong>Zurzeit keine Nachricht in „${esc(rubrik)}“.</strong><br>Ein Thema erscheint erst, wenn mehrere Medien vergleichbar darüber berichten. Ältere Nachrichten findest du im <a href="#/archiv">Archiv</a>.</div>`;
   if (rubrik === "Alle"){
@@ -518,6 +537,7 @@ function startseite(rubrik){
     <p>Sortiert wird nur nach Uhrzeit, nicht nach Klicks. Die App verwendet keine Werbung, kein Tracking und keine Anmeldung.</p>
     ${DATEN.stand ? `<p>Letzte Aktualisierung: ${esc(fmtZeit(DATEN.stand))} Uhr.</p>` : ""}
     <p><label class="stimmwahl">Stimme für die Videos: <select id="stimmWahl"><option value="">automatisch</option></select></label></p>
+    <p><a class="btn hell" href="#/medien" style="text-decoration:none">Medien-Spiegel ansehen</a></p>
     <p><button class="btn hell" id="introBtn">Einführung noch einmal ansehen</button>
     ${DATEN.ntfyTopic ? `<button class="btn hell" id="eilBtn">Eilmeldungen einrichten</button>` : ""}</p>
   </details>`;
@@ -588,6 +608,49 @@ function introZeigen(erzwungen){
   el.querySelector("#introSkip").onclick = schliessen;
   el.querySelectorAll(".intro-punkte i").forEach(p => p.onclick = () => { introIndex = +p.dataset.i; male(); });
   male();
+}
+
+/* ---------- Themenseite (Dossier) ---------- */
+async function themenSeite(slug){
+  document.getElementById("rubNav").hidden = true;
+  $app.innerHTML = `<a class="zurueck-link" href="#/">‹ Alle Nachrichten</a><p class="laden">Thema wird geladen …</p>`;
+  const aktiv = NACHRICHTEN.filter(n => n.dossier?.slug === slug);
+  const suche = await ladeSuche();
+  const alt = suche.filter(e => e.dossier?.slug === slug && !aktiv.some(a => a.id === e.id));
+  const alle = [...aktiv, ...alt].sort((a, b) => b.zeit.localeCompare(a.zeit));
+  if (!alle.length){ $app.innerHTML = `<a class="zurueck-link" href="#/">‹ Alle Nachrichten</a><div class="empty">Zu diesem Thema gibt es noch nichts.</div>`; return; }
+  const titel = aktiv[0]?.dossier?.titel || alt[0]?.dossier?.titel || slug;
+  const zeitleiste = aktiv.flatMap(n => n.zeitleiste || []);
+  $app.innerHTML = `<a class="zurueck-link" href="#/">‹ Alle Nachrichten</a>
+    <h1 class="seiten-titel">Thema: ${esc(titel)}</h1>
+    <p class="treffer-info">${alle.length} Nachricht${alle.length > 1 ? "en" : ""} · von ${esc(fmtZeit(alle[alle.length-1].zeit, true))} bis ${esc(fmtZeit(alle[0].zeit, true))}</p>
+    ${zeitleiste.length >= 2 ? `<section class="block"><h2>Chronologie</h2><ol class="zeitleiste">${zeitleiste.map(([d,e]) => `<li><b>${esc(d)}</b>${esc(e)}</li>`).join("")}</ol></section>` : ""}
+    <div class="list">${alle.map(n => karte(n, true)).join("")}</div>`;
+}
+
+/* ---------- Medien-Spiegel ---------- */
+function medienSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const zaehler = new Map();
+  NACHRICHTEN.forEach(n => n.medien.forEach(m => {
+    const e = zaehler.get(m.name) || { name: m.name, typ: m.typ, stamm: m.stamm, anzahl: 0, themen: [] };
+    e.anzahl++; e.themen.push(n.titel); zaehler.set(m.name, e);
+  }));
+  const liste = [...zaehler.values()].sort((a, b) => b.anzahl - a.anzahl);
+  const max = liste[0]?.anzahl || 1;
+  const proThema = [...NACHRICHTEN].sort((a, b) => b.medien.length - a.medien.length);
+  $app.innerHTML = `<a class="zurueck-link" href="#/">‹ Alle Nachrichten</a>
+    <h1 class="seiten-titel">Medien-Spiegel</h1>
+    <p>Wer berichtet gerade worüber? Grundlage sind die ${NACHRICHTEN.length} Nachrichten, die aktuell im Heft stehen.</p>
+    <section class="block"><h2>Wie oft ein Medium vorkommt</h2>
+      ${liste.map(m => `<div class="balken-zeile"><span class="balken-name">${esc(m.name)}${m.stamm ? "" : ' <em class="aussen">extern</em>'}</span>
+        <span class="balken"><i style="width:${Math.round(m.anzahl / max * 100)}%"></i></span><span class="balken-zahl">${m.anzahl}</span></div>`).join("")}
+    </section>
+    <section class="block"><h2>Wie viele Medien pro Thema</h2>
+      <p class="treffer-info">Je mehr Medien berichten, desto besser lässt sich ein Thema prüfen.</p>
+      ${proThema.map(n => `<div class="balken-zeile"><a class="balken-name" href="#/n/${esc(n.id)}">${esc(n.titel.slice(0, 48))}${n.titel.length > 48 ? "…" : ""}</a>
+        <span class="balken"><i style="width:${Math.round(n.medien.length / 6 * 100)}%"></i></span><span class="balken-zahl">${n.medien.length}</span></div>`).join("")}
+    </section>`;
 }
 
 /* ---------- Seite: Eilmeldungen einrichten ---------- */
@@ -757,10 +820,13 @@ function detail(n, archiv){
   const bilder = n.bildInfos?.length ? n.bildInfos : n.bildInfo ? [n.bildInfo] : [];
   const b = bilder[0];
   const einfach = stufe === "einfach" && n.einfach;
+  const kurzfassung = stufe === "kurz" && n.kurz;
   const clipDauer = dauerText(dauerSek(segmenteBauen("clip", n.id)));
   const W = [["Wer","wer"],["Was","was"],["Wann","wann"],["Wo","wo"],["Wie","wie"],["Warum","warum"],["Quellen","quellenlage"]];
 
-  const koerper = einfach
+  const koerper = kurzfassung
+    ? `<h2>Das Wichtigste in Kürze</h2><ul class="kurzliste">${n.kurz.map(k => `<li>${esc(k)}</li>`).join("")}</ul>`
+    : einfach
     ? n.einfach.absaetze.map(p => `<p>${esc(p)}</p>`).join("")
     : n.artikel?.length
       ? n.artikel.map(a => /verständnis/i.test(a.ueberschrift)
@@ -798,11 +864,12 @@ function detail(n, archiv){
       <div class="tafel" aria-hidden="true">${esc(n.rubrik)}</div>
       ${b ? `<img src="${esc(b.url)}" alt="${esc(b.hinweis)}" referrerpolicy="no-referrer" onerror="if(this.dataset.o!=='1'&&this.dataset.orig){this.dataset.o='1';this.src=this.dataset.orig}else{this.remove()}" data-orig="${esc(b.original || "")}">` : ""}
       <button class="hero-play" id="clipBtn"><span class="pl-dreieck">▶</span> Clip · ${clipDauer}</button>
+      ${n.artikel?.length ? `<button class="hero-play hero-zweit" id="tiefBtn">▶ Ganzer Artikel vorgelesen</button>` : ""}
       ${b ? `<figcaption>${esc(b.hinweis)} · Foto: ${esc(b.urheber)} / <a href="${esc(b.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${b.lizenzUrl ? `<a href="${esc(b.lizenzUrl)}" target="_blank" rel="noopener">${esc(b.lizenz)}</a>` : esc(b.lizenz)}</figcaption>` : ""}
     </figure>
 
     <div class="kopf">
-      <div class="dachzeile">${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}<span>${esc(n.rubrik)}</span></div>
+      <div class="dachzeile">${n.eil ? '<span class="eil-tag">Eilmeldung</span>' : ""}<span>${esc(n.rubrik)}</span>${n.dossier ? `<a class="dossier-link" href="#/thema/${esc(n.dossier.slug)}">Thema: ${esc(n.dossier.titel)} ›</a>` : ""}</div>
       <h1>${esc(n.titel)}</h1>
       <div class="zeile">
         <span>${esc(fmtZeit(n.zeit, n.nurDatum))} Uhr</span>
@@ -812,9 +879,10 @@ function detail(n, archiv){
       </div>
       ${archiv ? `<div class="archiv-hinweis">Aus dem Archiv – der Stand kann sich seitdem geändert haben.</div>` : ""}
       <p class="lead">${esc(einfach && n.einfach.vorspann ? n.einfach.vorspann : n.vorspann)}</p>
-      ${n.einfach || n.artikel?.length ? `<div class="stufen" role="group" aria-label="Textfassung">
-        <button data-s="ausfuehrlich" aria-pressed="${!einfach}">Ausführlich</button>
-        <button data-s="einfach" aria-pressed="${!!einfach}">Einfache Sprache</button></div>` : ""}
+      ${n.einfach || n.artikel?.length || n.kurz ? `<div class="stufen" role="group" aria-label="Textfassung">
+        ${n.kurz ? `<button data-s="kurz" aria-pressed="${!!kurzfassung}">Kurz</button>` : ""}
+        <button data-s="ausfuehrlich" aria-pressed="${!einfach && !kurzfassung}">Ausführlich</button>
+        ${n.einfach ? `<button data-s="einfach" aria-pressed="${!!einfach}">Einfache Sprache</button>` : ""}</div>` : ""}
     </div>
 
     ${n.wfragen ? `<aside class="blick"><h2>Auf einen Blick</h2><dl>${W.filter(([,k]) => n.wfragen[k]).map(([l,k]) =>
@@ -825,6 +893,7 @@ function detail(n, archiv){
         <figcaption>${x.bildunterschrift ? esc(x.bildunterschrift) + " " : ""}<span class="nachweis">${esc(x.hinweis)} · Foto: ${esc(x.urheber)} / <a href="${esc(x.seite)}" target="_blank" rel="noopener">Wikimedia Commons</a> · ${esc(x.lizenz)}</span></figcaption></figure>`).join("")}
       ${n.ortInfo ? `<figure class="karten-figur">${karteSVG(n.ortInfo)}<figcaption>Wo ist das passiert? ${esc(n.ortInfo.name)} <span class="nachweis">Karte: eigene Darstellung, Daten von Natural Earth</span></figcaption></figure>` : ""}
     </section>` : ""}
+    ${n.fakten?.length ? `<aside class="fakten"><h2>Zahlen und Fakten</h2><dl>${n.fakten.map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></aside>` : ""}
     <div class="text">${koerper}
       ${n.zeitleiste?.length >= 2 && !einfach ? `<h2>Chronologie</h2><ol class="zeitleiste">${n.zeitleiste.map(([d,e]) => `<li><b>${esc(d)}</b>${esc(e)}</li>`).join("")}</ol>` : ""}
     </div>
@@ -848,6 +917,8 @@ function detail(n, archiv){
   document.querySelectorAll(".tabs button").forEach(x => x.onclick = () => tabWechsel(x.dataset.t));
   meldenAktivieren(n);
   document.getElementById("clipBtn").onclick = () => { PLAYER.zurueck = location.hash; location.hash = `#/video/clip/${n.id}`; };
+  const tb = document.getElementById("tiefBtn");
+  if (tb) tb.onclick = () => { PLAYER.zurueck = location.hash; location.hash = `#/video/tief/${n.id}`; };
   document.querySelectorAll(".stufen button").forEach(x => x.onclick = () => {
     try { localStorage.setItem("heft-stufe", x.dataset.s); } catch {}
     const y = scrollY; detail(n, archiv); scrollTo(0, y);
@@ -1062,7 +1133,10 @@ const FORMATE = {
   "einfach": { name:"Einfach erklärt", kurz:"Einfach erklärt", quer:true, rate:0.84 },
   "woche":   { name:"Wochenrückblick", kurz:"Woche", quer:true },
   "clip":    { name:"Clip", kurz:"Clip", quer:false },
-  "ausgabe": { name:"Ausgabe", kurz:"Ausgabe", quer:true }
+  "ausgabe": { name:"Ausgabe", kurz:"Ausgabe", quer:true },
+  "kurzmeldungen": { name:"Kurzmeldungen", kurz:"Kurzmeldungen", quer:true, rate:0.95 },
+  "tief":    { name:"Thema ausführlich", kurz:"Ausführlich", quer:true },
+  "rubrik":  { name:"Rubrik-Ausgabe", kurz:"Rubrik", quer:true }
 };
 let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {};
 const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
@@ -1119,6 +1193,25 @@ function segmenteBauen(format, id){
   } else if (format === "woche" && WOCHE){
     s = [{ typ:"intro", titel:"Wochenrückblick", saetze:[`Nachrichten-Heft. Der Wochenrückblick bis ${berlin(new Date(WOCHE.bis), { weekday:"long", day:"numeric", month:"long" })}.`] },
       ...WOCHE.themen.map(t => ({ typ:"thema", id:t.id, rubrik:t.rubrik, titel:t.titel, bilder:t.bild ? [t.bild] : [], chips:[], saetze:t.saetze })), outro];
+  } else if (format === "kurzmeldungen"){
+    const liste = aktuelle().slice(0, 10);
+    s = [intro("Kurzmeldungen"), ...liste.map(n => thema(n, erste([n.titel + "."], 1).concat(n.kurz?.length ? [n.kurz[0]] : []))), outro];
+  } else if (format === "tief"){
+    const n = NACHRICHTEN.find(x => x.id === id) || AKTUELLE_DETAIL;
+    if (!n) return [];
+    s = [{ typ:"intro", titel:n.titel, saetze:[`Thema ausführlich. ${n.titel}.`] }];
+    (n.artikel || []).forEach(a => {
+      const saetze = a.absaetze.flatMap(saetzeAus).slice(0, 8);
+      if (saetze.length) s.push({ ...thema(n, saetze), titel:a.ueberschrift, rubrik:n.rubrik });
+    });
+    if (!n.artikel?.length) s.push(thema(n, erste([n.vorspann, ...(n.zusammenfassung || [])], 8)));
+    if (n.unklar?.length) s.push({ ...thema(n, erste([n.unklar[0]], 2)), typ:"unklar", titel:"Noch unklar" });
+    s.push(outro);
+  } else if (format === "rubrik"){
+    const rub = RUBRIKEN.find(r => slug(r) === id);
+    const liste = aktuelle().filter(n => n.rubrik === rub).slice(0, 8);
+    if (!liste.length) return [];
+    s = [intro(rub), ...liste.map(n => thema(n, n.video?.lang?.length ? n.video.lang : erste([n.vorspann, ...(n.zusammenfassung||[])], 4))), outro];
   } else if (format === "clip"){
     const n = NACHRICHTEN.find(x => x.id === id) || AKTUELLE_DETAIL;
     if (!n) return [];
@@ -1356,7 +1449,7 @@ function sendungsLeiste(){
 }
 function videoLeiste(){
   const liste = [
-    ["100s", "▶ Heft in 100 Sekunden"], ["haupt", "▶ Hauptausgabe"], ["einfach", "▶ Einfach erklärt"]
+    ["100s", "▶ Heft in 100 Sekunden"], ["haupt", "▶ Hauptausgabe"], ["einfach", "▶ Einfach erklärt"], ["kurzmeldungen", "▶ Kurzmeldungen"]
   ].concat(WOCHE ? [["woche", "▶ Wochenrückblick"]] : []);
   const karten = liste.map(([f, t]) => {
     const segs = segmenteBauen(f);
@@ -1372,6 +1465,11 @@ function videoLeiste(){
 function route(){
   const h = decodeURIComponent(location.hash || "#/");
   let m;
+  if ((m = h.match(/^#\/video\/(tief|rubrik)\/(.+)$/))) {
+    if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle");
+    if (m[1] === "tief" && !NACHRICHTEN.find(x => x.id === m[2])) { detailSuchen(m[2]).then(() => playerOeffnen("tief", m[2])); return; }
+    playerOeffnen(m[1], m[2]); return;
+  }
   if ((m = h.match(/^#\/video\/clip\/(.+)$/))) { if (!document.getElementById("app").querySelector(".detail")) detailSuchen(m[1]).then(() => playerOeffnen("clip", m[1])); else playerOeffnen("clip", m[1]); return; }
   if ((m = h.match(/^#\/video\/ausgabe\/([\w-]+)$/))) {
     const id = m[1];
@@ -1380,7 +1478,7 @@ function route(){
     else ladeJson(`data/ausgaben/${id}.json`).then(r => { AUSGABE_DATEN[id] = r.d; playerOeffnen("ausgabe", id); }).catch(() => playerOeffnen("ausgabe", id));
     return;
   }
-  if ((m = h.match(/^#\/video\/(100s|haupt|einfach|woche)$/))) { if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle"); playerOeffnen(m[1]); return; }
+  if ((m = h.match(/^#\/video\/(100s|haupt|einfach|woche|kurzmeldungen)$/))) { if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle"); playerOeffnen(m[1]); return; }
   if (document.getElementById("player")) { stopp(); document.getElementById("player").remove(); document.body.style.overflow = ""; }
   if ((m = h.match(/^#\/n\/(.+)$/))) detailSuchen(m[1]);
   else if ((m = h.match(/^#\/r\/(.+)$/))) startseite(RUBRIKEN.find(r => slug(r) === m[1]) || "Alle");
@@ -1388,6 +1486,8 @@ function route(){
   else if ((m = h.match(/^#\/archiv\/(\d{4}-\d{2})$/))) archivSeite(m[1]);
   else if (h.startsWith("#/archiv")) archivSeite();
   else if (h.startsWith("#/eil")) eilSeite();
+  else if ((m = h.match(/^#\/thema\/(.+)$/))) themenSeite(m[1]);
+  else if (h.startsWith("#/medien")) medienSeite();
   else startseite("Alle");
   window.scrollTo(0,0);
 }

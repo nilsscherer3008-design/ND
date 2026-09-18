@@ -126,6 +126,60 @@
         "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
         "https://feeds.bbci.co.uk/sport/rss.xml"
       ]
+    },
+    {
+      "name": "NZZ",
+      "typ": "Tageszeitung (Schweiz)",
+      "art": "privates Medium",
+      "stamm": false,
+      "feeds": [
+        "https://www.nzz.ch/recent.rss"
+      ]
+    },
+    {
+      "name": "Welt",
+      "typ": "Tageszeitung",
+      "art": "privates Medium",
+      "stamm": false,
+      "feeds": [
+        "https://www.welt.de/feeds/latest.rss"
+      ]
+    },
+    {
+      "name": "taz",
+      "typ": "Tageszeitung (Genossenschaft)",
+      "art": "privates Medium",
+      "stamm": false,
+      "feeds": [
+        "https://taz.de/!p4608;rss/"
+      ]
+    },
+    {
+      "name": "ORF",
+      "typ": "öffentlich-rechtlich (Österreich)",
+      "art": "öffentlich-rechtlich",
+      "stamm": false,
+      "feeds": [
+        "https://rss.orf.at/news.xml"
+      ]
+    },
+    {
+      "name": "SRF",
+      "typ": "öffentlich-rechtlich (Schweiz)",
+      "art": "öffentlich-rechtlich",
+      "stamm": false,
+      "feeds": [
+        "https://www.srf.ch/news/bnf/rss/1646"
+      ]
+    },
+    {
+      "name": "The Guardian",
+      "typ": "Tageszeitung (Großbritannien)",
+      "art": "internationaler Sender",
+      "stamm": false,
+      "feeds": [
+        "https://www.theguardian.com/world/rss"
+      ]
     }
   ],
   "archivMonate": 13,
@@ -169,5 +223,10 @@
   ],
   "maxMeldungenProQuelle": 60,
   "bilder": true,
-  "maxNeuschreibenProLauf": 2
+  "maxNeuschreibenProLauf": 2,
+  "ton": {
+    "aktiv": false,
+    "stimme": "de_DE-thorsten-medium",
+    "hinweis": "auf true stellen, wenn die Piper-Stimme im Ablauf eingerichtet ist"
+  }
 }
