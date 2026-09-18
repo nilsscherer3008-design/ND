@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-17T22:48:34.620Z",
+ "stand": "2026-09-18T04:43:13.891Z",
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
@@ -248,7 +248,15 @@
      "Ein Mann hat ein Feuer an einer Synagoge in Wuppertal gelegt. Die Polizei hat den Verdächtigen sofort festgenommen."
     ]
    },
-   "version": 3
+   "version": 3,
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "",
+     "bildunterschrift": ""
+    }
+   ],
+   "bildVersucht": true
   },
   {
    "id": "usa-sanktionen-russland-kongress",
@@ -3410,7 +3418,15 @@
      "In Frankfurt ist ein Mensch an Malaria gestorben. Die Person wohnte nahe am Flughafen und war nicht verreist."
     ]
    },
-   "version": 3
+   "version": 3,
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "",
+     "bildunterschrift": ""
+    }
+   ],
+   "bildVersucht": true
   },
   {
    "id": "dieseltrend-hoechststand-spritpreise",
