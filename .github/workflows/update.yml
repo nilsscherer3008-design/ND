@@ -1,9 +1,12 @@
 name: Nachrichten aktualisieren
 
 on:
+  # Zeiten in UTC. Die Liste deckt Sommer- und Winterzeit ab.
+  # Das Programm prüft selbst, ob es in Berlin zwischen 6 und 21 Uhr ist
+  # und ob seit dem letzten Lauf mindestens 2,5 Stunden vergangen sind.
   schedule:
-    - cron: "7 4,5,7,8,10,11,13,14,16,17,19,20 * * *"
-  workflow_dispatch:
+    - cron: "7 * * * *"   # jede Stunde; das Programm prüft selbst, ob es 6–22 Uhr in Berlin ist
+  workflow_dispatch:   # Knopf "Run workflow" = sofort aktualisieren
 
 permissions:
   contents: write
@@ -15,13 +18,16 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - name: web-push installieren (für Handy-Mitteilungen)
+        run: npm install web-push --no-save --silent
 
       - name: Nachrichten sammeln und zusammenfassen
         run: node update.mjs
@@ -31,6 +37,10 @@ jobs:
           NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL }}
+          PUSH_URL: ${{ vars.PUSH_URL }}
+          PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+          VAPID_PUBLIC: ${{ vars.VAPID_PUBLIC }}
+          VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
       - name: Neue Ausgabe speichern
