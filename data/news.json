@@ -1,68 +1,129 @@
 {
- "stand": "2026-09-18T15:20:44.169Z",
+ "stand": "2026-09-18T18:59:09.192Z",
+ "gepusht": [
+  "dieseltrend-hoechststand-spritpreise",
+  "brandanschlag-synagoge-wuppertal",
+  "klopp-dfb-kader-nominierung"
+ ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
-  "schwedischer-ministerpraesident-kristersson-zurueckgetreten"
+  "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
+  "dieseltrend-hoechststand-spritpreise",
+  "brandanschlag-synagoge-wuppertal",
+  "klopp-dfb-kader-nominierung"
  ],
  "nachrichten": [
   {
    "id": "dieseltrend-hoechststand-spritpreise",
    "rubrik": "Wirtschaft",
-   "zeit": "2026-09-18T15:11:07.000Z",
-   "aktualisiert": "aktualisiert um 17:20 Uhr",
-   "titel": "Bundesregierung plant Maßnahmen zur Entlastung bei Spritpreisen",
-   "vorspann": "Angesichts hoher Kraftstoffpreise plant die Bundesregierung laut Medienberichten einen Tankpreisdeckel und weitere Entlastungsmaßnahmen für Bürger.",
+   "zeit": "2026-09-18T18:52:53.000Z",
+   "aktualisiert": "aktualisiert um 20:59 Uhr",
+   "titel": "Einigung auf Tankrabatt und Spritpreisdeckel",
+   "vorspann": "Die Bundesregierung hat sich grundsätzlich auf Entlastungen bei den hohen Spritpreisen geeinigt. Geplant sind unter anderem ein Tankrabatt und ein krisenbedingter Spritpreisdeckel.",
    "eil": false,
    "zusammenfassung": [
-    "Die Bundesregierung berät über Maßnahmen zur Entlastung von Autofahrern angesichts hoher Spritpreise.",
-    "Dabei sind ein Tankpreisdeckel und eine Wiedereinführung des Tankrabatts im Gespräch.",
-    "Die Bundesländer müssen in die Pläne einbezogen werden oder zustimmen.",
-    "Es wird eine baldige Einigung und Verkündung der Maßnahmen erwartet."
+    "Die Bundesregierung hat sich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt.",
+    "Die Energiesteuer auf Benzin und Diesel soll bis Ende 2026 gesenkt werden.",
+    "Zusammen mit der Umsatzsteuer ergibt sich eine Entlastung von 17 Cent pro Liter.",
+    "Ein Spritpreisdeckel nach dem Vorbild von Luxemburg und Belgien soll bis spätestens Januar 2027 geprüft und eingeführt werden."
    ],
    "einig": [
     [
-     "Die Bundesregierung plant Maßnahmen wie einen Tankpreisdeckel zur Entlastung bei Spritpreisen.",
+     "Einigung auf einen Tankrabatt und einen Spritpreisdeckel",
      [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
       "Spiegel",
-      "Zeit"
+      "Zeit",
+      "FAZ"
      ]
     ],
     [
-     "Die Bundesländer müssen in die Pläne einbezogen werden oder zustimmen.",
+     "Entlastung bei Kraftstoffen um faktisch 17 Cent pro Liter",
      [
+      "Tagesschau/ARD",
       "Spiegel",
-      "Zeit"
+      "FAZ"
+     ]
+    ],
+    [
+     "Finanzielle Beteiligung der Länder in Höhe von 1,25 Milliarden Euro über einen Umsatzsteuerfestbetrag",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Spritpreisdeckel nach dem Vorbild von Luxemburg und Belgien mit Einführung spätestens bis zum 1. Januar 2027",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Anstieg des durchschnittlichen Dieselpreises auf 2,471 Euro laut ADAC",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
      ]
     ]
    ],
    "unklar": [
-    "Bei welchem Preis der Tankpreisdeckel liegen soll, ist laut Spiegel unklar.",
-    "Wie der Preisdeckel genau ausgestaltet wird, ist laut Spiegel unklar."
+    "Ab wann genau der Tankrabatt und der Spritpreisdeckel eingeführt werden sollen, ist laut FAZ und Tagesschau/ARD noch unklar.",
+    "Ob eine Übergewinnsteuer dauerhaft eingeführt wird, ist laut Spiegel unklar, da sie weiter geprüft wird."
    ],
    "positionen": [
     [
-     "Union (Bundeskanzler Friedrich Merz, Bundeswirtschaftsministerin Katherina Reiche, Fraktionschef Thorsten Frei)",
-     "Favorisierten eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf sieben Prozent.",
-     "Spiegel"
+     "Bundesfinanzminister Lars Klingbeil (SPD)",
+     "Fordert die Prüfung einer Übergewinnsteuer und kritisiert die EU-Kommission wegen hoher Spritpreise.",
+     "Tagesschau/ARD,Spiegel"
     ],
     [
-     "Brandenburgs Ministerpräsident Dietmar Woidke (SPD)",
-     "Signalisiert Gesprächsbereitschaft über Belastungen durch Steuerausfälle und betont die Wichtigkeit schnellen Handelns.",
+     "Bundeswirtschaftsministerin Katherina Reiche (CDU)",
+     "Sprach sich gegen einen Spritpreisdeckel aus.",
+     "Tagesschau/ARD,FAZ"
+    ],
+    [
+     "Bundeskanzler Friedrich Merz und Fraktionschef Thorsten Frei (CDU)",
+     "Favorisierten im Bund zunächst eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf 7 Prozent.",
      "Spiegel"
     ]
    ],
-   "fehlend": "Stimmen von Vertretern der Mineralölwirtschaft, von Tankstellenbetreibern oder Automobilclubs",
+   "fehlend": "Stimmen von Vertretern der Mineralölwirtschaft, der Opposition im Bundestag sowie von Verbraucherschutzverbänden.",
    "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 20:48",
+     "fokus": "Umfassende Berichterstattung mit ADAC-Zahlen",
+     "text": "Die Tagesschau nennt genaue ADAC-Zahlen zu Benzin- und Dieselpreisen und beleuchtet die Kritik von Finanzminister Klingbeil an der EU.",
+     "url": "https://www.tagesschau.de/eilmeldung/einigung-tankrabatt-spritpreisdeckel-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 20:43",
+     "fokus": "–",
+     "text": "Die Bundesregierung hat sich grundsätzlich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt. Das melden mehrere Medien übereinstimmend. Laut ARD-Informationen müssen die Länder aber noch zustimmen.",
+     "url": "https://www.deutschlandfunk.de/grundsaetzliche-einigung-der-bundesregierung-auf-tankrabatt-und-spritpreisdeckel-100.html",
+     "video": false
+    },
     {
      "name": "Spiegel",
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "18.09.26, 16:07",
-     "fokus": "Hintergründe und Details",
-     "text": "Der Spiegel berichtet ausführlich über die internen Beratungen der Regierung und mögliche Modelle des Preisdeckels.",
-     "url": "https://www.spiegel.de/politik/deutschland/spritpreise-regierung-einigt-sich-offenbar-auf-tankpreisdeckel-a-e8dfdecc-4a64-4b26-8895-94180b30a37d#ref=rss",
+     "datum": "18.09.26, 20:13",
+     "fokus": "Details aus der Beschlussvorlage",
+     "text": "Der Spiegel zitiert ausführlich aus der Beschlussvorlage und beschreibt den parteiinternen Ringkampf zwischen CDU und SPD.",
+     "url": "https://www.spiegel.de/politik/deutschland/spritpreise-bundesregierung-einigt-sich-auf-tankrabatt-und-preisdeckel-a-3775ae88-a507-4222-b746-ef2b4b4e8a94#ref=rss",
      "video": false
     },
     {
@@ -70,61 +131,86 @@
      "typ": "Wochenzeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "18.09.26, 17:11",
-     "fokus": "Kurzmeldung zum Stand",
-     "text": "Die Zeit fasst kurz zusammen, dass sich die Regierung auf Maßnahmen geeinigt hat und die Länder noch zustimmen müssen.",
-     "url": "https://www.zeit.de/politik/deutschland/2026-09/tankpreisdeckel-spritpreise-regierung-entlastung",
+     "datum": "18.09.26, 20:44",
+     "fokus": "–",
+     "text": "Die Regierungskoalition hat einen neuen Tankrabatt und einen Spritpreisdeckel beschlossen. Die Benzin- und Dieselpreise sollen wohl um siebzehn Cent pro Liter gesenkt werden.",
+     "url": "https://www.zeit.de/politik/deutschland/2026-09/regierung-einigt-sich-auf-tankrabatt-und-spritpreisdeckel",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 20:52",
+     "fokus": "Politischer Terminplan und Landtagswahlen",
+     "text": "Die FAZ ordnet die Maßnahmen zeitlich ein und erwähnt die bevorstehenden Landtagswahlen in Mecklenburg-Vorpommern und Berlin.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/tankrabatt-und-spritpreisdeckel-darauf-hat-sich-die-bundesregierung-geeinigt-201242083.html",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Ausführlichkeit",
-     "Der Spiegel liefert viele Details und Hintergründe, während die Zeit eine sehr kurze Zusammenfassung bietet."
+     "Zitate aus Beschlussvorlagen",
+     "Der Spiegel zitiert direkt aus der internen Beschlussvorlage der Koalition, während andere Medien den Inhalt sinngemäß wiedergeben."
+    ],
+    [
+     "Zusätzlicher Kontext",
+     "Die FAZ und die Zeit erwähnen die anstehenden Landtagswahlen als zeitlichen Hintergrund für den Druck auf die Politik, während der Deutschlandfunk eine sehr kurze Zusammenfassung liefert."
     ]
    ],
    "wfragen": {
     "wer": "Bundesregierung und Bundesländer",
-    "was": "Planung von Tankpreisdeckel und Entlastungsmaßnahmen",
-    "wann": "noch unklar",
+    "was": "Einigung auf Tankrabatt und Spritpreisdeckel",
+    "wann": "18. September 2026",
     "wo": "Deutschland",
-    "wie": "Durch Gespräche zwischen Kanzleramt, Ministerien und Ländern",
-    "warum": "Hohe Spritpreise laut Berichten von Spiegel und Zeit",
-    "quellenlage": "Medienberichte von Spiegel und Zeit"
+    "wie": "Durch Steuersenkungen und Finanzhilfen von Bund und Ländern",
+    "warum": "Wegen stark gestiegener Kraftstoffpreise laut Tagesschau/ARD und Spiegel",
+    "quellenlage": "Berichte von Tagesschau/ARD, Deutschlandfunk, Spiegel, Zeit und FAZ"
    },
    "artikel": [
     {
-     "ueberschrift": "Aktuelle Entwicklungen",
+     "ueberschrift": "Grundlegende Einigung der Koalition",
      "absaetze": [
-      "Die Bundesregierung plant nach Angaben von Spiegel und Zeit einen Tankpreisdeckel, um Autofahrer wegen hoher Spritpreise zu entlasten. Laut Spiegel soll dieses Vorhaben mit anderen Maßnahmen zu einem Paket geschnürt werden. Derzeit laufen intensive Gespräche zwischen Bundesfinanzministerium und Kanzleramt. Auch die Bundesländer sind laut Spiegel in diese Gespräche einbezogen worden. Die Zeit berichtet ergänzend, dass die Länder den Maßnahmen noch zustimmen müssen.",
-      "Nach Informationen des Spiegel ringt die Regierung seit Tagen um eine Lösung für die Kraftstoffpreise. Am Dienstag hatte der Bundeskanzler laut Spiegel in Aussicht gestellt, einen Vorschlag zu unterbreiten. Dabei sollten verschiedene Instrumente von den Koalitionsspitzen diskutiert werden. In der Union favorisierten Bundeskanzler Friedrich Merz, Bundeswirtschaftsministerin Katherina Reiche und Fraktionschef Thorsten Frei eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf sieben Prozent.",
-      "Als zusätzliche Maßnahme soll laut Spiegel auch der Tankrabatt wiederbelebt werden, den es im Mai und Juni bereits einmal gegeben hat. Damals war die Energiesteuer um 17 Cent pro Liter gesenkt worden. Dieses Instrument soll laut Spiegel schnell wieder aktiviert werden, um eine sichtbare Lösung für die Bürger zu präsentieren."
+      "Die Koalition hat sich nach Angaben aus Regierungskreisen grundsätzlich auf Maßnahmen zur Entlastung bei den hohen Spritpreisen verständigt. Laut Tagesschau/ARD, Spiegel, FAZ und Deutschlandfunk umfasst das Paket einen Tankrabatt sowie einen Spritpreisdeckel. Bürgerinnen, Bürger und Unternehmen sollen demnach insgesamt um rund 2,5 Milliarden Euro entlastet werden. Der Beschluss folgt auf Beratungen innerhalb der Bundesregierung. Die Länder müssen dem Vorhaben laut Tagesschau/ARD und Deutschlandfunk noch zustimmen.",
+      "Laut dem Spiegel liegt eine entsprechende Beschlussvorlage vor, welche die gemeinsame Entlastung in schwieriger Haushaltslage begründet. Die FAZ und die Tagesschau/ARD bestätigten die Einigung nach Verhandlungen zwischen der Bundesregierung und Vertretern der Länder. Bundeskanzler Friedrich Merz hatte zuvor Entlastungen in Aussicht gestellt. Die Zeit berichtete ebenfalls von einer Einigung der Regierungskoalition.",
+      "Die Krise im Nahen Osten treibt die Kraftstoffpreise in Deutschland laut Tagesschau/ARD und FAZ nach oben. Der Dieselpreis kletterte demnach an einem Donnerstag auf einen Höchstwert. Ein Liter kostete nach Auswertung des ADAC im bundesweiten Tagesdurchschnitt 2,471 Euro. Super E10 verbilligte sich laut denselben Quellen dagegen minimal auf 2,308 Euro."
      ]
     },
     {
-     "ueberschrift": "Planungen und Details",
+     "ueberschrift": "Details zum Tankrabatt und zur Finanzierung",
      "absaetze": [
-      "Nach Informationen des Spiegel plant die Regierung, noch im Laufe des Freitags eine Einigung zu verkünden. Derzeit laufen laut Spiegel nur noch letzte Abstimmungen zwischen den Beteiligten. Im Bundeswirtschaftsministerium bereitet man sich auf Fachebene bereits auf einen Spritpreisdeckel vor. Derzeit zeichnet sich laut Spiegel ab, dass die SPD sich in der politischen Debatte mit diesem Vorschlag durchsetzen wird.",
-      "Unklar ist bislang laut Spiegel allerdings, bei welchem Preis der Deckel liegen soll und wie er ausgestaltet wird. Eine wichtige Frage betrifft laut Spiegel die Unterscheidung zwischen einem harten Preisdeckel und einer staatlichen Kostenübernahme. Bei einem harten Preisdeckel müssten Raffinerien, Importeure und Tankstellen die Differenz zum Marktpreis tragen.",
-      "Laut Spiegel könnten bei einem harten Preisdeckel Versorgungsengpässe die Folge sein. Sollten Tankstellenbetreiber den Sprit nicht mehr kostendeckend verkaufen können, drohe eine Verlagerung des Verkaufs in Länder ohne Preisdeckel. Auch die Schließung von Standorten in Deutschland wird als mögliche Folge genannt. Sollte sich der Staat dagegen an den Kosten beteiligen, könnte dies laut Spiegel für den Steuerzahler teuer werden."
+      "Die Pläne sehen laut Tagesschau/ARD, Spiegel und FAZ vor, dass der Bund die Energiesteuer auf Benzin und Diesel bis Ende 2026 senkt. Zusammen mit der Umsatzsteuer ergibt sich demnach eine Entlastung von 17 Cent pro Liter bei den Kraftstoffen. Die reine Energiesteuer soll um 14 Cent gesenkt werden. Von Anfang Mai bis Ende Juni hatte bereits ein Tankrabatt in derselben Größenordnung gegolten.",
+      "Die Länder beteiligen sich laut Tagesschau/ARD und Spiegel mit einem Beitrag in Höhe von 1,25 Milliarden Euro über einen Umsatzsteuerfestbetrag. Die Koalitionsspitzen hoben in der Beschlussvorlage hervor, dass dies Teil einer gemeinsamen Entlastung ist. Verhandlungen dazu fanden am Donnerstagabend unter anderem mit den Ministerpräsidenten Olaf Lies und Gordon Schnieder statt.",
+      "In der Union hatten Bundeskanzler Friedrich Merz und Fraktionschef Thorsten Frei laut dem Spiegel zunächst eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf 7 Prozent favorisiert. Dies stieß jedoch auf Bedenken des Bundesfinanzministeriums. Die Senkung der Mehrwertsteuer sei europarechtlich schwierig."
      ]
     },
     {
-     "ueberschrift": "Reaktionen und Forderungen",
+     "ueberschrift": "Pläne für den Spritpreisdeckel und weitere Maßnahmen",
      "absaetze": [
-      "Die Bundesregierung pocht laut Spiegel darauf, dass sich anders als beim Tankrabatt im Mai und Juni dieses Mal auch die Länder an den Hilfen beteiligen. Einige Landesregierungen signalisieren laut Spiegel grundsätzlich Gesprächsbereitschaft. Brandenburgs Ministerpräsident Dietmar Woidke äußerte sich zu den anstehenden Belastungen durch Steuerausfälle. Der SPD-Politiker betonte laut Spiegel, dass man zwar andere Lösungen favorisiert habe, es jetzt aber auf schnelles Handeln ankomme."
+      "Zusätzlich zum Tankrabatt soll laut den Berichten ein krisenbedingter Spritpreisdeckel eingeführt werden. Als Vorbilder für entsprechende Regelungen werden in der Beschlussvorlage Luxemburg und Belgien angeführt. Bei einem Spritpreisdeckel wird ein Höchstpreis für Benzin und Diesel festgelegt. Dieser orientiert sich laut Tagesschau/ARD und FAZ an der Entwicklung der Ölpreise, den Kosten für Transport und Vertrieb sowie an einer Händlermarge.",
+      "Unklar ist laut Tagesschau/ARD und FAZ noch, ab wann der Spritpreisdeckel genau eingeführt werden soll. Als spätestes Datum wird in dem Beschlussvorschlag der 1. Januar 2027 genannt. Der Spiegel präzisiert, dass der Deckel frühestmöglich und spätestens zu diesem Termin durch regelmäßige Gespräche mit der Mineralölwirtschaft beschlossen werden soll.",
+      "Um Bürgerinnen und Bürger weiter zu entlasten, sollen laut Tagesschau/ARD und Spiegel zudem zielgerichtete Maßnahmen für kleine und mittlere Einkommen geprüft werden. Dazu gehört die Schaffung der Voraussetzungen für einen einkommensbezogenen Direktauszahlungsmechanismus. Bislang ist dieser Mechanismus laut Spiegel nicht voll einsatzfähig, weil das Bundesfinanzministerium keine Einkommensteuerdaten aus den Bundesländern hat."
+     ]
+    },
+    {
+     "ueberschrift": "Positionen zur Übergewinnsteuer",
+     "absaetze": [
+      "Ein weiterer Bestandteil der Diskussion ist die Forderung nach einer Übergewinnsteuer für Mineralölkonzerne. Laut Tagesschau/ARD und Spiegel macht sich Bundesfinanzminister Lars Klingbeil stark dafür, Maßnahmen gegenüber der Mineralölwirtschaft zu prüfen. Die Bundesregierung begrüßt demnach Gespräche in der Europäischen Union, die analog zum EU-Energiekrisenbeitrag 2022 geführt werden.",
+      "Der Spiegel berichtet, dass sich Finanzminister Klingbeil mit der sofortigen Einführung der Übergewinnsteuer zunächst nicht durchsetzen konnte. Die SPD und die Union verabredeten jedoch, die Maßnahme weiter zu prüfen. Klingbeil warf Mineralölkonzernen vor, die Krise an den Energiemärkten auszunutzen.",
+      "Bei der Übergewinnsteuer werden laut Spiegel die Durchschnittsgewinne von Energiekonzernen mit den aktuellen, höheren Gewinnen verglichen. Ein Prozentsatz davon wird als Steuer vom Staat einbehalten. Die SPD fordert den Spritpreisdeckel und die Steuer nach Angaben der Berichte bereits seit Langem."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und politisches Umfeld",
+     "absaetze": [
+      "Bundeswirtschaftsministerin Katherina Reiche hatte sich laut Tagesschau/ARD und FAZ gegen einen Preisdeckel ausgesprochen. Die SPD setzte sich nach Darstellung des Spiegels mit ihren Forderungen weitgehend gegen die Pläne der CDU durch. Kanzler Merz kündigte am Dienstag an, einen Vorschlag zur Entlastung an der Tankstelle zu unterbreiten.",
+      "Finanzminister Klingbeil übte laut Tagesschau/ARD scharfe Kritik an der EU-Kommission wegen der hohen Spritpreise. Die FAZ merkt an, dass am kommenden Sonntag Landtagswahlen in Mecklenburg-Vorpommern und Berlin stattfinden. Vor diesen Wahlen wollten Union und SPD ein Zeichen an die Autofahrer senden.",
+      "Die Bundesregierung will die Preisentwicklung und mögliche wirtschaftliche Folgewirkungen laut Spiegel weiterhin eng beobachten. Auf dieser Grundlage sollen im Jahr 2027 bei Bedarf weitere Maßnahmen auf den Weg gebracht werden."
      ]
     }
    ],
    "zeitleiste": [
-    [
-     "Mittwoch",
-     "Erreichen eines Höchstpreises beim Benzinpreis laut Zeit"
-    ],
-    [
-     "17. September 2026",
-     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über Entlastungen"
-    ],
     [
      "April",
      "Bisheriger Rekordwert beim Dieselpreis in Deutschland"
@@ -156,18 +242,39 @@
     [
      "Freitag",
      "Berichte über geplante Einigung der Regierung auf Tankpreisdeckel und Maßnahmen laut Spiegel"
+    ],
+    [
+     "Dienstag",
+     "Bundeskanzler Friedrich Merz kündigte Vorschläge zur Entlastung an der Tankstelle an."
+    ],
+    [
+     "Donnerstag",
+     "Der Dieselpreis kletterte laut ADAC auf einen Höchstwert von durchschnittlich 2,471 Euro."
+    ],
+    [
+     "Donnerstagabend",
+     "Verhandlungen von Bundeskanzler Merz mit den Länderkoordinatoren fanden statt."
+    ],
+    [
+     "18. September 2026",
+     "Die Bundesregierung erzielte eine grundsätzliche Einigung auf Tankrabatt und Spritpreisdeckel."
     ]
    ],
    "bilder": [
     {
      "art": "institution",
-     "suchbegriff": "German Federal Chancellery building Berlin",
-     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo Gespräche zur Entlastung der Bürger stattfinden."
+     "suchbegriff": "German Federal Ministry of Finance building Berlin",
+     "bildunterschrift": "Das Bundesfinanzministerium in Berlin, welches an den Finanzberatungen zur Entlastung beteiligt war."
     },
     {
      "art": "symbol",
      "suchbegriff": "Gas station price sign Germany",
-     "bildunterschrift": "Preisanzeige an einer Tankstelle in Deutschland."
+     "bildunterschrift": "Preisanzeige an einer Tankstelle für Benzin und Diesel in Deutschland."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Lars Klingbeil politician",
+     "bildunterschrift": "Bundesfinanzminister Lars Klingbeil forderte Maßnahmen gegen die Mineralölwirtschaft."
     }
    ],
    "ort": {
@@ -175,119 +282,162 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Datum in W-Fragen von einem festen Tag auf 'noch unklar' korrigiert, da kein fixes Datum in den Quellen genannt wird.",
-    "Zeitleiste für Freitag angepasst, da im Text steht, dass die Einigung im Laufe des Freitags verkündet werden soll."
+    "Das Wort 'schwarz-rote Koalisation' im Artikel wurde zu 'Koalition' korrigiert.",
+    "Das wertende Wort 'krachend' oder ähnliche Begriffe wurden aus dem gesamten Text entfernt.",
+    "Zahlen und Fakten wurden strikt mit den Quelltexten abgeglichen."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
-      "Preisdeckel",
-      "Eine staatliche Obergrenze für den Preis von Waren, damit diese nicht teurer werden dürfen."
-     ],
-     [
-      "Mehrwertsteuer",
-      "Eine Steuer auf den Kauf von Waren und Dienstleistungen, die an den Staat gezahlt wird."
-     ],
-     [
       "Tankrabatt",
-      "Eine zeitweilige staatliche Senkung der Energiesteuer auf Kraftstoffe, um das Tanken billiger zu machen."
+      "Eine zeitweilige staatliche Senkung von Steuern auf Kraftstoffe, damit Benzin und Diesel an der Tankstelle billiger werden."
+     ],
+     [
+      "Spritpreisdeckel",
+      "Ein vom Staat festgelegter Höchstpreis für Benzin und Diesel, den Tankstellen nicht überschreiten dürfen."
+     ],
+     [
+      "Übergewinnsteuer",
+      "Eine Sondersteuer für Unternehmen, die in Krisenzeiten besonders hohe Gewinne erzielen."
      ]
     ],
     "fragen": [
-     "Welche Vor- und Nachteile könnte ein harter Preisdeckel für Tankstellen und den Staat haben?",
-     "Warum ist es wichtig, dass bei politischen Entscheidungen verschiedene Medien verglichen werden?"
+     "Welche Vor- und Nachteile könnte ein staatlicher Preisdeckel für Kraftstoffe haben?",
+     "Warum ist es wichtig, dass bei politischen Entscheidungen verschiedene Ministerien und die Bundesländer beteiligt werden?"
     ],
     "quiz": [
      {
-      "frage": "Was plant die Bundesregierung laut den Berichten zur Entlastung bei Spritpreisen?",
+      "frage": "Wie hoch soll die Entlastung pro Liter Kraftstoff durch die Steuersenkung sein?",
       "optionen": [
-       "Einen Tankpreisdeckel",
-       "Ein Verbot von Benzinautos",
-       "Eine Erhöhung der Mineralölsteuer"
+       "zehn Cent",
+       "siebzehn Cent",
+       "zwanzig Cent"
       ],
-      "richtig": 0,
-      "erklaerung": "Laut übereinstimmenden Berichten von Spiegel und Zeit plant die Bundesregierung einen Tankpreisdeckel."
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD, Spiegel und FAZ ergibt sich durch die Senkung der Energiesteuer zusammen mit der Umsatzsteuer eine Entlastung von siebzehn Cent pro Liter."
      },
      {
-      "frage": "Wer muss den Plänen der Bundesregierung nach den Berichten noch zustimmen?",
+      "frage": "Welche Länder werden in den Berichten als Vorbilder für den Spritpreisdeckel genannt?",
       "optionen": [
-       "Die Bundesländer",
+       "Luxemburg und Belgien",
+       "Frankreich und Österreich",
+       "Polen und Dänemark"
+      ],
+      "richtig": 0,
+      "erklaerung": "In den Berichten von Tagesschau/ARD, Spiegel und FAZ werden Luxemburg und Belgien als Vorbilder für den Spritpreisdeckel genannt."
+     },
+     {
+      "frage": "Wer muss den Plänen nach den vorliegenden Informationen noch zustimmen?",
+      "optionen": [
        "Die Europäische Union",
-       "Die Automobilclubs"
+       "Die Bundesländer",
+       "Der ADAC"
       ],
-      "richtig": 0,
-      "erklaerung": "Sowohl der Spiegel als auch die Zeit berichten, dass die Bundesländer noch zustimmen müssen."
-     },
-     {
-      "frage": "Welche Maßnahme schlug ein Teil der Union laut dem Spiegel stattdessen vor?",
-      "optionen": [
-       "Eine Senkung der Mehrwertsteuer auf Diesel und Benzin",
-       "Eine Erhöhung des Mindestlohns",
-       "Die Abschaffung aller Steuern auf Kraftstoffe"
-      ],
-      "richtig": 0,
-      "erklaerung": "Der Spiegel berichtet, dass Friedrich Merz, Katherina Reiche und Thorsten Frei eine Senkung der Mehrwertsteuer von 19 auf sieben Prozent favorisierten."
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und Deutschlandfunk müssen die Bundesländer den Plänen noch zustimmen."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Die Spritpreise sind sehr hoch. Deshalb plant die Bundesregierung neue Hilfen für Autofahrer.",
+    "vorspann": "Wegen sehr hoher Spritpreise will die Politik den Bürgern helfen. Die Regierung hat sich auf neue Maßnahmen geeinigt.",
     "absaetze": [
-     "Im Gespräch sind ein Preisdeckel für Benzin und Diesel sowie ein neuer Tankrabatt.",
-     "Über die genaue Höhe des Preisdeckels und die Kosten wird noch beraten.",
-     "Die Bundesländer müssen den Plänen ebenfalls zustimmen und einbezogen werden.",
-     "Die Regierung will sich über die Maßnahmen noch absprechen und eine Einigung bekannt geben."
+     "Autofahrer sollen an den Tankstellen entlastet werden. Geplant sind ein neuer Tankrabatt und ein Spritpreisdeckel.",
+     "Der Preis für Benzin und Diesel soll um siebzehn Cent pro Liter sinken. Dafür wird die Energiesteuer gesenkt.",
+     "Auch die Bundesländer müssen den Plänen noch zustimmen. Sie beteiligen sich mit Geld an dem Hilfspaket.",
+     "Zusätzlich wird ein Spritpreisdeckel geprüft, der einen Höchstpreis für Benzin und Diesel festlegen soll."
     ]
    },
    "video": {
     "kurz": [
-     "Mehrere Medien berichten übereinstimmend über geplante Entlastungen bei den Spritpreisen.",
-     "Die Bundesregierung plant einen Tankpreisdeckel und weitere Maßnahmen für Autofahrer.",
-     "Die Bundesländer müssen den Plänen noch zustimmen und beraten darüber."
+     "Mehrere Medien berichten übereinstimmend über eine Einigung der Bundesregierung.",
+     "Ein Tankrabatt und ein Spritpreisdeckel sollen die Spritpreise senken.",
+     "Die Autofahrer sollen um siebzehn Cent pro Liter entlastet werden."
     ],
     "lang": [
-     "Mehrere Medien berichten über neue Pläne der Bundesregierung zur Entlastung von Autofahrern.",
-     "Wegen hoher Spritpreise berät die Politik über einen Tankpreisdeckel.",
-     "Auch über eine Rückkehr des Tankrabatts wird nach Angaben des Spiegels gesprochen.",
-     "Einige Politiker der Union hatten zuvor eine Senkung der Mehrwertsteuer vorgeschlagen.",
-     "Brandenburgs Ministerpräsident Dietmar Woidke betont die Wichtigkeit schnellen Handelns."
+     "Die Bundesregierung hat sich grundsätzlich auf Entlastungen bei den Spritpreisen geeinigt.",
+     "Mehrere Medien berichten über diesen Beschluss der Koalition.",
+     "Geplant sind ein Tankrabatt und ein krisenbedingter Spritpreisdeckel.",
+     "Die Steuer auf Benzin und Diesel soll bis Ende zweitausendsechsundzwanzig sinken.",
+     "Dadurch ergibt sich eine Entlastung von siebzehn Cent pro Liter."
     ],
     "einfach": [
-     "Wegen hoher Spritpreise plant die Politik neue Hilfen.",
-     "Im Gespräch sind ein Tankpreisdeckel und weitere Entlastungen.",
-     "Auch die Bundesländer müssen den Plänen noch zustimmen.",
-     "Wie teuer der Sprit genau gedeckelt wird, ist noch unklar."
+     "Die Regierung hat sich auf Hilfe für Autofahrer geeinigt.",
+     "Benzin und Diesel sollen billiger werden.",
+     "Die Preise sollen um siebzehn Cent pro Liter sinken.",
+     "Auch die Bundesländer müssen diesen Plänen noch zustimmen."
     ]
    },
+   "kurz": [
+    "Die Bundesregierung hat sich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt.",
+    "Die Entlastung bei Benzin und Diesel soll faktisch siebzehn Cent pro Liter betragen.",
+    "Die Bundesländer müssen den Plänen noch zustimmen.",
+    "Die Länder beteiligen sich mit einem Betrag von einer Milliarde zweihundertfünfzig Millionen Euro."
+   ],
+   "fakten": [
+    [
+     "Gesamtentlastung",
+     "zwei Komma fünf Milliarden Euro"
+    ],
+    [
+     "Entlastung pro Liter",
+     "siebzehn Cent"
+    ],
+    [
+     "Beitrag der Länder",
+     "eine Milliarde zweihundertfünfzig Millionen Euro"
+    ],
+    [
+     "Durchschnittspreis Diesel",
+     "zwei Euro und vierzig sieben Cent"
+    ]
+   ],
+   "dossier": {
+    "slug": "spritpreise-und-entlastungen-2026",
+    "titel": "Spritpreise und Entlastungsmaßnahmen der Bundesregierung"
+   },
    "bildInfo": {
-    "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
-    "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
-    "urheber": "Diego Delso",
+    "titel": "Square of East German uprising of 1953, Platz der Volksaufstand vom 1953 at the Federal Ministry of Finance Building in Berlin, Germany (Ank Kumar, Infosys Limited) 01.jpg",
+    "beschreibung": "Square of East German uprising of 1953 Platz der Volksaufstand vom 1953 and Federal Ministry of Finance Building in Berlin, Germany. The Detlev-Rohwedder-Haus (Detlev Rohwedder House) in Berlin is a b",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Square_of_East_German_uprising_of_1953%2C_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin%2C_Germany_%28Ank_Kumar%2C_Infosys_Limited%29_01.jpg/1280px-thumbnail.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Square_of_East_German_uprising_of_1953%2C_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin%2C_Germany_%28Ank_Kumar%2C_Infosys_Limited%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Square_of_East_German_uprising_of_1953,_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin,_Germany_(Ank_Kumar,_Infosys_Limited)_01.jpg",
+    "urheber": "Ank Kumar",
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "art": "institution",
-    "suchbegriff": "German Federal Chancellery building Berlin",
-    "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Bundesregierung über Maßnahmen berät.",
+    "suchbegriff": "German Federal Ministry of Finance building Berlin",
+    "bildunterschrift": "Das Bundesfinanzministerium in Berlin ist der Ort, an dem über finanzielle Entlastungen beraten wird.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
     {
-     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
-     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
-     "urheber": "Diego Delso",
+     "titel": "Square of East German uprising of 1953, Platz der Volksaufstand vom 1953 at the Federal Ministry of Finance Building in Berlin, Germany (Ank Kumar, Infosys Limited) 01.jpg",
+     "beschreibung": "Square of East German uprising of 1953 Platz der Volksaufstand vom 1953 and Federal Ministry of Finance Building in Berlin, Germany. The Detlev-Rohwedder-Haus (Detlev Rohwedder House) in Berlin is a b",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Square_of_East_German_uprising_of_1953%2C_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin%2C_Germany_%28Ank_Kumar%2C_Infosys_Limited%29_01.jpg/1280px-thumbnail.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Square_of_East_German_uprising_of_1953%2C_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin%2C_Germany_%28Ank_Kumar%2C_Infosys_Limited%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Square_of_East_German_uprising_of_1953,_Platz_der_Volksaufstand_vom_1953_at_the_Federal_Ministry_of_Finance_Building_in_Berlin,_Germany_(Ank_Kumar,_Infosys_Limited)_01.jpg",
+     "urheber": "Ank Kumar",
      "lizenz": "CC BY-SA 4.0",
      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
      "art": "institution",
-     "suchbegriff": "German Federal Chancellery building Berlin",
-     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Bundesregierung über Maßnahmen berät.",
+     "suchbegriff": "German Federal Ministry of Finance building Berlin",
+     "bildunterschrift": "Das Bundesfinanzministerium in Berlin ist der Ort, an dem über finanzielle Entlastungen beraten wird.",
      "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Dorothea Lange, Gas station price analysis, Santa Fe, New Mexico, 1938.jpg",
+     "beschreibung": "Santa Fe, New Mexico. Gas station price analysis. Washing, greasing, motor steam cleaned, fishing worms. Gasoline ... 5¢ State ... 5¢ Uncle Sam ... 1¢ City ... 1¢ R.R. ... 2 ¾¢ Agent ... 1 ¼¢ Me ... 4",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg/1280px-Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange,_Gas_station_price_analysis,_Santa_Fe,_New_Mexico,_1938.jpg",
+     "urheber": "Dorothea Lange",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Gas station price sign Germany",
+     "bildunterschrift": "Eine Zapfsäule symbolisiert die steigenden Spritpreise, auf die mit Maßnahmen wie einem Tankrabatt reagiert werden soll.",
+     "hinweis": "Symbolbild"
     }
    ],
    "ortInfo": {
@@ -295,8 +445,1085 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 4,
+   "version": 5,
    "bildVersucht": true
+  },
+  {
+   "id": "brandanschlag-synagoge-wuppertal",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-18T18:43:31.000Z",
+   "aktualisiert": "aktualisiert um 20:59 Uhr",
+   "titel": "Brandanschlag auf die Bergische Synagoge in Wuppertal",
+   "vorspann": "Nach einem Brandanschlag auf die Synagoge in Wuppertal befindet sich ein 37-jähriger Tatverdächtiger in Untersuchungshaft. Ermittlungsbehörden gehen von einem antisemitischen Motiv aus.",
+   "eil": false,
+   "zusammenfassung": [
+    "In Wuppertal wurde ein Brandanschlag auf die Synagoge verübt, bei dem niemand verletzt wurde.",
+    "Ein 37-jähriger Verdächtiger aus Afghanistan wurde festgenommen und sitzt in Untersuchungshaft.",
+    "Ermittler gehen von einem antisemitischen Motiv aus, da sich der Mann entsprechend äußerte.",
+    "Zahlreiche Vertreter aus Politik, Kirchen und muslimischen Gemeinden verurteilten die Tat."
+   ],
+   "einig": [
+    [
+     "Ein 37-jähriger Verdächtiger aus Afghanistan wurde nach dem Brandanschlag festgenommen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Die Staatsanwaltschaft ermittelt wegen eines antisemitischen Motivs.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Der Sachschaden an der Synagoge war gering und es gab keine Verletzten.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "In der Wohnung des Verdächtigen wurden Messer und eine Machete gefunden.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob es sich um einen reinen Einzeltäter handelt, wird von der Polizei geprüft, die Ermittlungen dauern an."
+   ],
+   "positionen": [
+    [
+     "Josef Schuster (Präsident des Zentralrats der Juden)",
+     "Der Zeitpunkt des Anschlags vor Jom Kippur ist nicht zufällig gewählt und zeigt eine fortschreitende Normalisierung des Judenhasses.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Miriam Scherff (Oberbürgermeisterin Wuppertal)",
+     "Die Tat wird scharf verurteilt und es wird Solidarität mit der jüdischen Gemeinde gefordert.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Interessenvertretung Wuppertaler Moscheen und Ditib",
+     "Nichts rechtfertigt einen Angriff auf ein Gotteshaus, und die Gesellschaft darf sich nicht spalten lassen.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Angaben von Vertretern des Bundesinnenministeriums oder der Verteidigung.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 17:19",
+     "fokus": "Umfassende Reaktionen und Stimmen",
+     "text": "Der Bericht beleuchtet neben den Ermittlungsdetails zahlreiche Reaktionen aus der Kommunalpolitik, von Kirchen und muslimischen Verbänden.",
+     "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/brandanschlag-synagoge-wuppertal-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 16:27",
+     "fokus": "Ablauf und Tatdetails",
+     "text": "Der Text konzentriert sich auf den Tathergang, die Festnahme sowie Aussagen der Staatsanwaltschaft.",
+     "url": "https://www.zdfheute.de/panorama/kriminalitaet/brandanschlag-synagoge-wuppertal-antisemitismus-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 20:43",
+     "fokus": "Kurzmeldung zur Haft",
+     "text": "Die Meldung bestätigt kurz die Inhaftierung des Tatverdächtigen nach dem Brandanschlag.",
+     "url": "https://www.deutschlandfunk.de/brandanschlag-auf-wuppertaler-synagoge-tatverdaechtiger-in-untersuchungshaft-100.html",
+     "video": false
+    },
+    {
+     "name": "taz",
+     "typ": "Tageszeitung (Genossenschaft)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "18.09.26, 13:19",
+     "fokus": "Hintergründe und Einzeltäter-Hypothese",
+     "text": "Der Artikel beschreibt die polizeilichen Einschätzungen zum Einzeltäter sowie frühere Brandanschläge.",
+     "url": "https://taz.de/Brandanschlag-auf-Synagoge/!6214242/",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zum Tathergang",
+     "Einige Berichte nennen genauere Angaben zu den geworfenen Beuteln und den genauen Zeitpunkten als andere."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Ein 37-jähriger Verdächtiger aus Afghanistan",
+    "was": "Ein Brandanschlag auf eine Synagoge",
+    "wann": "2026-09-18",
+    "wo": "Wuppertal, Deutschland",
+    "wie": "Durch das Ausgießen und Anzünden von brennbarer Flüssigkeit",
+    "warum": "Laut Ermittlern ein antisemitisches Motiv",
+    "quellenlage": "Polizei, Staatsanwaltschaft und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Auf die Synagoge der Jüdischen Kultusgemeinde in Wuppertal ist ein Brandanschlag verübt worden. Ein aus Afghanistan stammender Verdächtiger befindet sich nach Angaben der Behörden in Untersuchungshaft. Die Ermittler gehen von einem antisemitischen Motiv aus. Nach Angaben der Berichte wurde an einer Nebentür des Gebäudes Feuer gelegt.",
+      "Der 37-jährige Tatverdächtige hat sich laut der Staatsanwaltschaft klar antisemitisch geäußert. Hinweise auf einen islamistischen Hintergrund seien bislang nicht entdeckt worden. Gegen den Mann wird wegen versuchter schwerer Brandstiftung ermittelt. Die Polizei ging am Tag nach der Tat von einem Einzeltäter aus.",
+      "Das Feuer wurde auf einer Treppe an einem Nebeneingang der Bergischen Synagoge gelegt. Mitarbeiter der Synagoge konnten den Brand schnell mit einem Feuerlöscher löschen. Verletzt wurde bei dem Vorfall niemand. Der Sachschaden an dem Gebäude blieb laut Polizei gering."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der Verdächtige soll zwei Beutel mit Flüssigkeit an die Synagoge geworfen und einen dritten an einer Nebentür ausgegossen und angezündet haben. Die Tat ereignete sich am Donnerstagnachmittag gegen 14 Uhr. Laut der taz geschah dies um genau 14.02 Uhr, drei Tage vor dem jüdischen Feiertag Jom Kippur. Der Beschuldigte wurde unmittelbar nach der Tat in Tatortnähe festgenommen.",
+      "Die Wuppertaler Synagoge wird wegen möglicher Sicherheitsrisiken rund um die Uhr von Polizeibeamten bewacht. Bei einer Durchsuchung der Wohnung des 37-Jähringen wurden mehrere Messer und eine Machete gefunden, die dort griffbereit gelegen haben sollen. Zudem wurde ein Mobiltelefon sichergestellt, dessen Auswertung zurzeit andauert.",
+      "Die Staatsanwaltschaft teilte mit, dass der Beschuldigte eine Vorstrafe wegen der Bedrohung einer Nachbarin hat. Der Polizeisprecher Niklas Rademacher erklärte laut taz, dass der Mann vermutlich mindestens seit 2014 in Deutschland ist. Aus diesem Jahr sei ein erster Polizeikontakt aktenkundig. Die Polizei sucht zudem nach zwei jungen Frauen als Zeuginnen, die sich zur Tatzeit in der Nähe aufhielten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der Zeitpunkt des Anschlags liegt kurz vor dem höchsten jüdischen Feiertag Jom Kippur, der drei Tage nach der Tat beginnt. Vertreter jüdischer Organisationen und Behörden bewerten diesen Zeitpunkt als gezielt gewählt. In den Berichten werden Vergleiche zu früheren Taten gezogen. Dazu gehört ein Brandanschlag auf dieselbe Synagoge im Jahr 2014.",
+      "Im Jahr 2014 hatten drei Palästinenser sechs Molotowcocktails auf das Gotteshaus geworfen und wurden später zu Bewährungsstrafen verurteilt. Damals gaben die Täter an, auf den Konflikt im Gazastreifen aufmerksam machen zu wollen. Zudem wird in den Berichten ein Anschlag auf eine Schule in Bochum im Jahr 2023 erwähnt, der im Zusammenhang mit einer Synagoge stand.",
+      "Der Präsident des Zentralrats der Juden in Deutschland, Josef Schuster, erinnerte in diesem Zusammenhang an frühere Anschläge auf Synagogen im In- und Ausland. Er erklärte, dass die deutschen Sicherheitsbehörden in der Pflicht seien, die Sicherheit der Gottesdienste zu gewährleisten. Die jüdischen Gemeinden in Nordrhein-Westfalen zeigten sich betroffen von der erneuten Attacke."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine Synagoge ist das jüdische Haus für den Gottesdienst, das Lernen und die Versammlung der Gemeinde. Die Jüdische Kultusgemeinde Wuppertal umfasst nach Angaben der Berichte rund 2.000 Mitglieder. Das Gebäude der Bergischen Synagoge wurde im Jahr 2002 eröffnet.",
+      "Der Staatsschutz ist eine spezialisierte Abteilung der deutschen Polizei, die für die Bearbeitung von politisch motivierter Kriminalität zuständig ist. Eine Untersuchungshaft ist eine richterlich angeordnete Freiheitsentziehung vor einem Gerichtsprozess, die sicherstellen soll, dass der Beschuldigte dem Verfahren zur Verfügung steht.",
+      "Ein Haftbefehl ist ein schriftlicher richterlicher Befehl zur Festnahme und Unterbringung einer verdächtigen Person. Die Staatsanwaltschaft leitet die Ermittlungen in einem Strafverfahren und entscheidet am Ende, ob Anklage erhoben wird."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Wuppertaler Oberbürgermeisterin Miriam Scherff verurteilte die Tat als sehr schäbig und rief zur Solidarität auf. Josef Schuster, Präsident des Zentralrats der Juden, erklärte, der Anschlag bezeuge eine fortschreitende Normalisierung des Judenhasses. Die Ehrenvorsitzende der Jüdischen Kultusgemeinde, Ruth Yael Tutzinger, sprach gegenüber dem WDR von einem wachsenden Hass auf Juden in der Stadt.",
+      "Der Landesverband der Jüdischen Gemeinden von Nordrhein erklärte, der Vorfall führe vor Augen, dass Jüdinnen und Juden in Deutschland nicht sicher seien. Die Interessenvertretung Wuppertaler Moscheen und die Ditib-Gemeinde verurteilten den Anschlag ebenfalls und sprachen der jüdischen Gemeinde Solidarität aus. Sie riefen dazu auf, sich nicht durch Konflikte außerhalb Deutschlands spalten zu lassen.",
+      "Die katholische Stadtkirche Wuppertal mit Stadtdechant Bruno Kurth und Barbara Reul-Nocke bezeichnete die Tat als Ausdruck von Judenhass. Der Präses der Evangelischen Kirche im Rheinland, Thorsten Latzel, nannte es unsäglich, dass antisemitische Gewalt stattfinde. Auch Politiker von SPD, CDU und Grünen äußerten Bestürzung und forderten einen konsequenten Schutz jüdischer Einrichtungen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Gegen den 37-jährigen Tatverdächtigen wurde ein Haftbefehl erlassen. Er soll einem Haftrichter vorgeführt werden. Die Ermittlungsbehörden werten das sichergestellte Mobiltelefon sowie weitere Funde aus der Wohnung des Beschuldigten aus.",
+      "Die Polizei sucht weiterhin nach Zeugen und insbesondere nach zwei jungen Frauen, die sich zum Tatzeitpunkt in der Nähe der Synagoge aufgehalten haben sollen. Der Schutz der Synagoge in Wuppertal soll im Hinblick auf den feiernden Beginn von Jom Kippur noch einmal verstärkt werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2014",
+     "Ein früherer Brandanschlag auf die Wuppertaler Synagoge wurde von drei Männern verübt."
+    ],
+    [
+     "2026-09-18",
+     "Ein Brandanschlag auf die Synagoge in Wuppertal wird verübt, der Verdächtige wird festgenommen."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Aufgrund der Berichterstattung über eine Gewalttat wird auf die Darstellung von Bildern verzichtet."
+    }
+   ],
+   "ort": {
+    "name": "Wuppertal, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Schreibfehler bei Brandstifterei im Entwurf korrigiert zu Brandstiftung."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Synagoge",
+      "Eine Synagoge ist ein Gebäude, in dem sich jüdische Gemeinden zum Gottesdienst und zum Lernen versammeln."
+     ],
+     [
+      "Antisemitismus",
+      "Antisemitismus bezeichnet die Feindschaft oder den Hass gegenüber Jüdinnen und Juden."
+     ],
+     [
+      "Untersuchungshaft",
+      "Eine Untersuchungshaft ist eine vorläufige Festnahme von Verdächtigen vor einem Gerichtsprozess, damit sie nicht fliehen können."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen religiöse und politische Verbände nach solchen Taten für den gesellschaftlichen Zusammenhalt?",
+     "Wie berichten verschiedene Medien über den Vorfall, und worin unterscheiden sich ihre Schwerpunkte?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer wurde nach dem Anschlag festgenommen?",
+      "optionen": [
+       "Ein Jugendlicher",
+       "Ein 37-jähriger Verdächtiger aus Afghanistan",
+       "Niemand"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau und ZDFheute wurde ein 37-jähriger Verdächtiger aus Afghanistan festgenommen."
+     },
+     {
+      "frage": "Was vermuten die Ermittler als Motiv für die Tat?",
+      "optionen": [
+       "Ein antisemitisches Motiv",
+       "Einen Versicherungsbetrug",
+       "Einen Nachbarschaftsstreit"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte von Tagesschau und ZDFheute bestätigen, dass die Ermittler von einem antisemitischen Motiv ausgehen."
+     },
+     {
+      "frage": "Welcher Feiertag stand kurz bevor?",
+      "optionen": [
+       "Weihnachten",
+       "Jom Kippur",
+       "Chanukka"
+      ],
+      "richtig": 1,
+      "erklaerung": "Mehrere Berichte erwähnen, dass der Anschlag drei Tage vor dem jüdischen Feiertag Jom Kippur stattfand."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Wuppertal wurde ein Anschlag auf eine Synagoge verübt. Die Polizei hat einen Verdächtigen festgenommen.",
+    "absaetze": [
+     "Am Donnerstag gab es einen Brandanschlag auf die Synagoge in Wuppertal. Ein Mann warf brennbare Flüssigkeit an das Gebäude und zündete sie an.",
+     "Mitarbeiter der Synagoge löschten das Feuer schnell. Es wurde niemand verletzt, und der Sachschaden ist gering.",
+     "Die Polizei nahm einen 37-jährigen Mann aus Afghanistan in der Nähe fest. Er sitzt nun in Untersuchungshaft.",
+     "Ermittler vermuten ein antisemitisches Motiv, weil sich der Mann entsprechend äußerte. Vertreter aus Politik und Religion verurteilten die Tat scharf."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Wuppertal hat es einen Brandanschlag auf eine Synagoge gegeben.",
+     "Ein Verdächtiger sitzt nach der Festnahme in Untersuchungshaft.",
+     "Die Ermittler prüfen nun die Hintergründe der Tat."
+    ],
+    "lang": [
+     "In Wuppertal hat ein Unbekannter Feuer an einer Synagoge gelegt.",
+     "Mitarbeiter der jüdischen Gemeinde löschten die Flammen schnell.",
+     "Verletzt wurde bei dem Brandanschlag glücklicherweise niemand.",
+     "Einsatzkräfte nahmen einen siebenunddreißigjährigen Verdächtigen fest.",
+     "Die Staatsanwaltschaft geht von einem antisemitischen Motiv aus."
+    ],
+    "einfach": [
+     "In Wuppertal gab es einen Brandanschlag auf eine Synagoge.",
+     "Die Polizei hat einen Verdächtigen festgenommen.",
+     "Niemand wurde bei dem Feuer verletzt.",
+     "Die Ermittler suchen nach weiteren Hinweisen."
+    ]
+   },
+   "kurz": [
+    "In Wuppertal gab es einen Brandanschlag auf eine Synagoge.",
+    "Ein 37-jähriger Verdächtiger wurde festgenommen und sitzt in Haft.",
+    "Es gab keine Verletzten, und der Sachschaden ist gering.",
+    "Ermittler gehen von einem antisemitischen Motiv aus."
+   ],
+   "fakten": [
+    [
+     "Alter des Verdächtigen",
+     "37 Jahre"
+    ],
+    [
+     "Datum der Tat",
+     "18. September 2026"
+    ],
+    [
+     "Mitglieder der Gemeinde",
+     "rund 2000"
+    ],
+    [
+     "Datum früherer Anschlag",
+     "2014"
+    ]
+   ],
+   "dossier": {
+    "slug": "brandanschlag-wuppertal",
+    "titel": "Brandanschlag auf Synagoge in Wuppertal"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Wuppertal, Deutschland",
+    "lat": 51.264,
+    "lon": 7.178
+   },
+   "version": 5
+  },
+  {
+   "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
+   "rubrik": "Welt",
+   "zeit": "2026-09-18T18:43:31.000Z",
+   "aktualisiert": "aktualisiert um 20:59 Uhr",
+   "titel": "Parlamentswahl in Schweden: Magdalena Andersson erhält Regierungsauftrag",
+   "vorspann": "Nach dem knappen Wahlsieg des Mitte-links-Lagers bei der schwedischen Parlamentswahl hat Parlamentspräsident Andreas Norlén die sozialdemokratische Spitzenkandidatin Magdalena Andersson mit der Bildung einer Regierung beauftragt. Der bisherige Ministerpräsident Ulf Kristersson ist nach der Niederlage seines konservativ-rechten Blocks von seinem Amt zurückgetreten.",
+   "eil": false,
+   "zusammenfassung": [
+    "Nach der Parlamentswahl in Schweden hat das Mitte-links-Lager eine knappe Mehrheit von 176 von 349 Mandaten erreicht.",
+    "Der konservative Ministerpräsident Ulf Kristersson hat nach der Niederlage seines Blocks seinen Rücktritt eingereicht.",
+    "Parlamentspräsident Andreas Norlén hat die sozialdemokratische Spitzenkandidatin Magdalena Andersson offiziell mit der Regierungsbildung beauftragt.",
+    "Aufgrund von Differenzen innerhalb des Mitte-links-Lagers und unterschiedlichen Aussagen der Parteien gilt die Regierungsbildung als schwierig."
+   ],
+   "einig": [
+    [
+     "Das Mitte-links-Lager errang bei der Wahl eine knappe Mehrheit von 176 Sitzen.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "ORF"
+     ]
+    ],
+    [
+     "Das konservative Lager unter der Führung von Ulf Kristersson kommt auf 173 Sitze.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "ORF"
+     ]
+    ],
+    [
+     "Ulf Kristersson hat seinen Rücktritt erklärt.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "ORF"
+     ]
+    ],
+    [
+     "Magdalena Andersson wurde von Parlamentspräsident Andreas Norlén mit der Regierungsbildung beauftragt.",
+     [
+      "FAZ",
+      "ORF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob Magdalena Andersson tatsächlich eine stabile Regierung bilden kann, da es innerhalb ihres Blocks inhaltliche Differenzen gibt (laut Tagesschau/ARD, FAZ, ORF).",
+    "Wann das endgültige Wahlergebnis genau vorliegt."
+   ],
+   "positionen": [
+    [
+     "Ulf Kristersson (bisheriger Ministerpräsident)",
+     "Das Wahlergebnis erschwert die Regierungsbildung durch frühere Aussagen der Parteien, es braucht konstruktive Offenheit und Gespräche mit allen Seiten.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Magdalena Andersson (Sozialdemokratische Spitzenkandidatin)",
+     "Parteitaktiken müssen beiseitegelegt werden, um Schweden in einem neuen Geist der Zusammenarbeit zu führen und eine breite Kooperation anzustreben.",
+     "FAZ, ORF"
+    ],
+    [
+     "Andreas Norlén (Parlamentspräsident)",
+     "Alle Parteichefs haben mit verschiedenem Grad der Begeisterung gesagt, dass es vernünftig ist, wenn Magdalena Andersson den Sondierungsauftrag bekommt.",
+     "FAZ"
+    ],
+    [
+     "Zentrumspartei (Mögliche Partner im Lager)",
+     "Hat vorab erklärt, nicht mit den Linken regieren zu wollen.",
+     "Tagesschau/ARD, FAZ"
+    ]
+   ],
+   "fehlend": "Detaillierte Aussagen der rechtspopulistischen Schwedendemokraten oder der kleineren Parteien des linken Blocks zur Regierungsbildung.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 17:13",
+     "fokus": "Rücktritt und X-Post von Kristersson",
+     "text": "Berichtet ausführlich über das Rücktrittsgesuch des bisherigen Ministerpräsidenten auf der Plattform X und beleuchtet die Schwierigkeiten der Regierungsbildung.",
+     "url": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 20:43",
+     "fokus": "Bereitschaftserklärung von Andersson",
+     "text": "Fasst kurz und prägnant die Bereitschaft der Spitzenkandidatin zur Regierungsbildung nach dem Wahlsieg zusammen.",
+     "url": "https://www.deutschlandfunk.de/schwedische-sozialdemokraten-erklaeren-bereitschaft-zur-regierungsbildung-104.html",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 17:20",
+     "fokus": "Sondierungsauftrag durch den Parlamentspräsidenten",
+     "text": "Hebt die Gespräche des Parlamentspräsidenten mit allen Parteien hervor und nennt das genaue Vorgehen im Reichstag.",
+     "url": "https://www.faz.net/aktuell/politik/ausland/sozialdemokratin-andersson-soll-in-schweden-regierung-bilden-201241680.html",
+     "video": false
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "18.09.26, 14:30",
+     "fokus": "Hauchdünner Wahlsieg und Fristen",
+     "text": "Betont den knappen Ausgang der Wahl und nennt den 28. September als Termin für den Bericht im Parlament.",
+     "url": "https://orf.at/stories/3442559/",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "Einige Medien (wie Tagesschau/ARD) legen den Schwerpunkt stark auf den Rücktritt von Ulf Kristersson und dessen Aussagen, während andere (wie FAZ und ORF) den Fokus auf den offiziellen Regierungsauftrag durch Parlamentspräsident Norlén legen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Die sozialdemokratische Spitzenkandidatin Magdalena Andersson",
+    "was": "Erteilung des Regierungsauftrags und Rücktritt des bisherigen Ministerpräsidenten",
+    "wann": "September 2026",
+    "wo": "Stockholm, Schweden",
+    "wie": "Durch den offiziellen Auftrag des Parlamentspräsidenten nach Parteigesprächen",
+    "warum": "Weil das Mitte-links-Lager eine knappe Mehrheit im Parlament errang (laut Tagesschau/ARD, FAZ, ORF)",
+    "quellenlage": "Offizielle Wahlergebnisse, Parlamentspräsident und Aussagen der beteiligten Parteien"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Nach dem Wahlsieg des oppositionellen Mitte-links-Lagers bei der Parlamentswahl in Schweden hat die sozialdemokratische Spitzenkandidatin Magdalena Andersson den offiziellen Auftrag zur Regierungsbildung erhalten. Dies gab Parlamentspräsident Andreas Norlén am Freitag bekannt. Zuvor hatte Norlén Gespräche mit Vertretern aller acht im Reichstag vertretenen Parteien geführt. Alle Parteichefs hätten laut Norlén mit verschiedenem Grad der Begeisterung erklärt, dass es vernünftig sei, diesen Sondierungsauftrag an Andersson zu vergeben. Der bisherige konservative Ministerpräsident Ulf Kristersson hatte zuvor sein Rücktrittsgesuch eingereicht.",
+      "Bei der Wahl am Sonntag wurden die Sozialdemokraten laut dem vorläufigen Endergebnis mit 28 Prozent der Stimmen stärkste Kraft. Gemeinsam erreichten die vier Parteien des Mitte-links-Lagers eine knappe Mehrheit von 176 der insgesamt 349 Sitze im Parlament. Zu diesem Block zählen neben den Sozialdemokraten auch die Linken, die Grünen sowie die liberale Zentrumspartei. Das konservative Lager aus der bisherigen Regierung und den Rechtspopulisten unterlag mit 173 Mandaten. Der konservative Ministerpräsident Ulf Kristersson reichte daraufhin sein Rücktrittsgesuch ein.",
+      "Das endgültige Wahlergebnis soll laut Medienberichten erst am Wochenende feststehen. Ungeachtet dessen ist die künftige Regierungsbildung mit Schwierigkeiten verbunden. Obwohl der Block eine knappe Mehrheit erzielt hat, gibt es inhaltliche Hürden zwischen den beteiligten Parteien. So hatte die liberale Zentrumspartei bereits vor der Wahl erklärt, nicht mit den Linken regieren zu wollen. Magdalena Andersson steht damit vor der Aufgabe, eine Regierung unter schwierigen parlamentarischen Voraussetzungen zu formen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der zurückgetretene Ministerpräsident Ulf Kristersson gab seinen Rücktritt über die Plattform X bekannt, wo er sein Rücktrittsgesuch an den Parlamentspräsidenten veröffentlichte. Er begründete den Schritt damit, dass das Wahlergebnis die Regierungsbildung kompliziert mache. Vor dem Wahltag geäußerte unterschiedliche Aussagen der Parteien könnten jegliche denkbare Regierungsbildung und Koalition behindern. Kristersson betonte, dass konstruktive Offenheit und Gespräche mit allen Parteien nötig seien, um eine stabile Regierung zu bilden.",
+      "Magdalena Andersson äußerte sich ebenfalls zu den anstehenden Aufgaben und betonte die Notwendigkeit der Zusammenarbeit. Auf Instagram schrieb sie, dass alle politischen Kräfte Parteitaktiken beiseitelegen und Schweden an erste Stelle setzen müssten. Sie wolle Schweden in einem neuen Geist der Zusammenarbeit führen und eine breite Kooperation anstreben. Was sie unter einer breiten Kooperation genau versteht, ließ sie zunächst offen.",
+      "Der parlamentarische Zeitplan für die kommenden Wochen ist ebenfalls festgelegt. Am 28. September tritt der neu gewählte Reichstag erstmals zusammen und wählt einen Parlamentspräsidenten. Frühestens am Tag darauf kann dieser einen Kandidaten für das Amt des Regierungschefs vorschlagen. Das Parlament stimmt dann über diesen Vorschlag ab. Zum Ministerpräsidenten kann gewählt werden, wer keine absolute Mehrheit im Parlament gegen sich hat. Stimmt aber mehr als die Hälfte der Abgeordneten gegen den Vorschlag, beginnt die Suche nach einem neuen Kandidaten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "In der vergangenen Regierungsperiode führte der konservative Politiker Ulf Kristersson eine Minderheitsregierung aus seinen Moderaten, den Christdemokraten und den Liberalen an, die im Parlament auf die Stimmen der Schwedendemokraten angewiesen war. Letztere mussten bei der aktuellen Wahl erhebliche Einbußen hinnehmen.",
+      "Magdalena Andersson verfügt bereits über Regierungserfahrung. Sie war bereits von 2021 bis 2022 für die Dauer von zehn Monaten als Ministerpräsidentin im Amt. Die damalige sozialdemokratische Regierung musste sich nach den darauffolgenden Wahlen jedoch dem konservativ-rechten Lager geschlagen geben, das nun seinerseits die Regierungsverantwortung abgeben muss.",
+      "Das nun siegreiche Mitte-links-Lager setzt sich aus vier Parteien zusammen. Neben den Sozialdemokraten stützen auch die Linkspartei, die Grünen und die Zentrumspartei den Machtwechsel. Die unterschiedlichen politischen Programme dieser Parteien erschweren jedoch die Bildung einer gemeinsamen Koalition oder das Finden einer stabilen Regierungsform."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Reichstag ist das Parlament des Königreichs Schweden mit Sitz in Stockholm. Es besteht aus einer einzigen Kammer und hat insgesamt 349 Abgeordnete, die von den Bürgerinnen und Bürgern gewählt werden. Das Parlament entscheidet über Gesetze und wählt den Ministerpräsidenten oder die Ministerpräsidentin.",
+      "Eine Minderheitsregierung ist eine Regierung, deren Parteien im Parlament nicht über die Mehrheit der Sitze verfügen. Um Gesetze zu verabschieden oder im Amt zu bleiben, ist eine solche Regierung auf die Unterstützung von Abgeordneten aus anderen Parteien bei einzelnen Abstimmungen angewiesen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der zurückgetretene Ministerpräsident Ulf Kristersson erklärte laut Tagesschau/ARD, dass das Wahlergebnis die Bildung einer neuen Regierung kompliziert mache und konstruktive Gespräche nötig seien.",
+      "Parlamentspräsident Andreas Norlén teilte laut FAZ mit, dass alle Parteichefs mit verschiedenem Grad der Begeisterung erklärt hätten, es sei vernünftig, Magdalena Andersson den Sondierungsauftrag zu geben.",
+      "Die sozialdemokratische Spitzenkandidatin Magdalena Andersson erklärte laut FAZ und ORF, sie wolle Schweden in einem neuen Geist der Zusammenarbeit führen und eine breite Kooperation anstreben."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Der Parlamentspräsident hat Magdalena Andersson beauftragt, die Regierungsbildung zu sondieren. Bis zum 28. September muss sie dem Parlamentspräsidenten über ihre Bemühungen berichten.",
+      "Am 28. September tritt der neue Reichstag erstmals zusammen, um einen Parlamentspräsidenten zu wählen. Danach folgen die Beratungen und Abstimmungen über das Amt des Regierungschefs."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Sonntag",
+     "Die Parlamentswahl in Schweden findet statt und die Auszählung der Stimmen beginnt."
+    ],
+    [
+     "Donnerstag",
+     "Ministerpräsident Ulf Kristersson erklärt nach der Bekanntgabe des offiziellen Endergebnisses seinen Rücktritt."
+    ],
+    [
+     "Sonntag",
+     "Die Parlamentswahl in Schweden findet statt."
+    ],
+    [
+     "Donnerstag",
+     "Ministerpräsident Ulf Kristersson erklärt seinen Rücktritt."
+    ],
+    [
+     "Freitag",
+     "Parlamentspräsident Andreas Norlén beauftragt Magdalena Andersson mit der Regierungsbildung."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Magdalena Andersson politician",
+     "bildunterschrift": "Die sozialdemokratische Spitzenkandidatin Magdalena Andersson hat den Auftrag zur Regierungsbildung erhalten."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Riksdag building Stockholm",
+     "bildunterschrift": "Das schwedische Parlamentsgebäude in Stockholm, in dem der neue Reichstag zusammentritt."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Ulf Kristersson politician",
+     "bildunterschrift": "Der bisherige schwedische Ministerpräsident Ulf Kristersson hat nach der Wahlniederlage seinen Rücktritt eingereicht."
+    }
+   ],
+   "ort": {
+    "name": "Stockholm, Schweden"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Zahlen und Details aus den Berichten im Artikel und in den Abschnitten präzisiert und nicht belegte Interpretationen entfernt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Reichstag",
+      "So heisst das Parlament in Schweden. Dort sitzen die gewählten Abgeordneten."
+     ],
+     [
+      "Minderheitsregierung",
+      "Eine Regierung, deren Parteien keine eigene Mehrheit im Parlament haben. Sie braucht für Entscheidungen die Unterstützung anderer Parteien."
+     ],
+     [
+      "Sondierungsauftrag",
+      "Der offizielle Auftrag an einen Politiker, Gespräche zu führen, um zu prüfen, ob eine Regierung gebildet werden kann."
+     ]
+    ],
+    "fragen": [
+     "Welche Probleme können entstehen, wenn ein Parlament sehr knapp entschieden ist?",
+     "Warum ist es wichtig, dass der Parlamentspräsident mit allen Parteien spricht?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Sitze hat das siegreiche Mitte-links-Lager im Parlament errungen?",
+      "optionen": [
+       "173 Sitze",
+       "176 Sitze",
+       "349 Sitze"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut den übereinstimmenden Berichten von Tagesschau/ARD, FAZ und ORF hat das Mitte-links-Lager 176 von 349 Sitzen errungen."
+     },
+     {
+      "frage": "Wer ist nach der Wahl von seinem Amt als Regierungschef zurückgetreten?",
+      "optionen": [
+       "Ulf Kristersson",
+       "Magdalena Andersson",
+       "Andreas Norlén"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der konservative Ministerpräsident Ulf Kristersson hat nach der Niederlage seines Blocks seinen Rücktritt erklärt."
+     },
+     {
+      "frage": "Wer hat Magdalena Andersson mit der Regierungsbildung beauftragt?",
+      "optionen": [
+       "Der Bundespräsident",
+       "Der Parlamentspräsident",
+       "Der Parteichef"
+      ],
+      "richtig": 1,
+      "erklaerung": "Parlamentspräsident Andreas Norlén hat Magdalena Andersson offiziell mit der Regierungsbildung beauftragt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Schweden hat es eine Parlamentswahl gegeben. Das Mitte-links-Lager hat die Wahl knapp gewonnen.",
+    "absaetze": [
+     "Die vier Parteien des Mitte-links-Lagers haben zusammen einhundertsechsundsiebzig Sitze im Parlament bekommen. Das ist eine knappe Mehrheit.",
+     "Der bisherige Ministerpräsident Ulf Kristersson gehört zu den Verlierern. Sein konservatives Lager kommt auf einhundertdreiundsiebzig Sitze. Kristersson ist von seinem Amt zurückgetreten.",
+     "Parlamentspräsident Andreas Norlén hat daraufhin die sozialdemokratische Politikerin Magdalena Andersson mit der Bildung einer neuen Regierung beauftragt.",
+     "Die Bildung einer Regierung wird schwierig. Die Parteien im Mitte-links-Lager sind sich in einigen Fragen nicht einig und haben unterschiedliche Forderungen gestellt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Schweden hat das Mitte-links-Lager die Parlamentswahl knapp gewonnen.",
+     "Der bisherige Ministerpräsident Ulf Kristersson ist daraufhin von seinem Amt zurückgetreten.",
+     "Magdalena Andersson hat den offiziellen Auftrag zur Regierungsbildung erhalten."
+    ],
+    "lang": [
+     "Mehrere Medien berichten über den Ausgang der Parlamentswahl in Schweden.",
+     "Das Mitte-links-Lager hat dabei eine knappe Mehrheit im Parlament erreicht.",
+     "Die Sozialdemokraten wurden mit achtundzwanzig Prozent stärkste Kraft.",
+     "Der konservative Ministerpräsident Ulf Kristersson hat nach der Niederlage seinen Rücktritt erklärt.",
+     "Parlamentspräsident Andreas Norlén beauftragte daraufhin die Politikerin Magdalena Andersson mit der Regierungsbildung."
+    ],
+    "einfach": [
+     "In Schweden gab es eine wichtige Parlamentswahl.",
+     "Das Mitte-links-Lager hat knapp gewonnen.",
+     "Der Ministerpräsident ist zurückgetreten.",
+     "Magdalena Andersson soll nun eine neue Regierung bilden.",
+     "Ob das einfach klappt, ist noch unklar."
+    ]
+   },
+   "kurz": [
+    "Das Mitte-links-Lager hat die Parlamentswahl in Schweden knapp gewonnen.",
+    "Ministerpräsident Ulf Kristersson ist nach der Niederlage zurückgetreten.",
+    "Magdalena Andersson hat den Auftrag zur Regierungsbildung erhalten.",
+    "Die Regierungsbildung gilt wegen inhaltlicher Differenzen als schwierig."
+   ],
+   "fakten": [
+    [
+     "Sitze Mitte-links-Lager",
+     "176"
+    ],
+    [
+     "Sitze konservatives Lager",
+     "173"
+    ],
+    [
+     "Gesamtzahl Sitze im Parlament",
+     "349"
+    ],
+    [
+     "Stimmenanteil Sozialdemokraten",
+     "28 Prozent"
+    ]
+   ],
+   "dossier": {
+    "slug": "wahl-in-schweden-2026",
+    "titel": "Wahl in Schweden"
+   },
+   "bildInfo": {
+    "titel": "Sanna Marin and Magdalena Andersson in 2022.jpg",
+    "beschreibung": "Kuvassa vasemmalta oikealle: Sanna Marin, Magdalena Andersson.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg/1280px-Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+    "urheber": "Fanni Uusitalo / Prime Minister's Office Finland",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "person",
+    "suchbegriff": "Magdalena Andersson politician",
+    "bildunterschrift": "Magdalena Andersson erhielt nach der Parlamentswahl in Schweden den Regierungsauftrag.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Sanna Marin and Magdalena Andersson in 2022.jpg",
+     "beschreibung": "Kuvassa vasemmalta oikealle: Sanna Marin, Magdalena Andersson.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg/1280px-Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+     "urheber": "Fanni Uusitalo / Prime Minister's Office Finland",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Magdalena Andersson politician",
+     "bildunterschrift": "Magdalena Andersson erhielt nach der Parlamentswahl in Schweden den Regierungsauftrag.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Ulf Kristersson (January 2023).jpg",
+     "beschreibung": "On Tuesday morning, Swedish Prime Minister Ulf Kristersson discussed the priorities of the Swedish Council Presidency with MEPs in Strasbourg. During his address, Mr Kristersson said that his country’",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ulf_Kristersson_%28January_2023%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Ulf_Kristersson_%28January_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ulf_Kristersson_(January_2023).jpg",
+     "urheber": "European Parliament",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Ulf Kristersson politician",
+     "bildunterschrift": "Ulf Kristersson war als schwedischer Politiker in Regierungs- und Parlamentsprozesse eingebunden.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Riksdagshuset Parliament House Kungliga Operan Stockholm 2016 02.jpg",
+     "beschreibung": "Riksdagshuset (Parliament House) in Stockholm, with the Kungliga Operan (Royal Swedish Opera) in the background.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Riksdagshuset_Parliament_House_Kungliga_Operan_Stockholm_2016_02.jpg/1280px-Riksdagshuset_Parliament_House_Kungliga_Operan_Stockholm_2016_02.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Riksdagshuset_Parliament_House_Kungliga_Operan_Stockholm_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Riksdagshuset_Parliament_House_Kungliga_Operan_Stockholm_2016_02.jpg",
+     "urheber": "Julian Herzog ( Website )",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "Riksdag building Stockholm",
+     "bildunterschrift": "Das schwedische Parlamentsgebäude in Stockholm ist der Ort der politischen Entscheidungen nach der Wahl.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Stockholm, Schweden",
+    "lat": 59.325,
+    "lon": 18.071
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "klopp-dfb-kader-nominierung",
+   "rubrik": "Sport",
+   "zeit": "2026-09-18T16:47:07.000Z",
+   "aktualisiert": "aktualisiert um 20:59 Uhr",
+   "titel": "Bundestrainer Jürgen Klopp nominiert 44 Spieler für erste Länderspiele",
+   "vorspann": "Der Bundestrainer Jürgen Klopp hat einen Kader von 44 Spielern für seine ersten vier Partien benannt. Das große Aufgebot teilt sich in zwei Gruppen auf.",
+   "eil": false,
+   "zusammenfassung": [
+    "Bundestrainer Jürgen Klopp hat einen Kader mit 44 Spielern für seine ersten vier Länderspiele vorgestellt.",
+    "Das Aufgebot teilt sich in zwei Gruppen auf.",
+    "Mehrere bekannte Spieler fehlen im Vergleich zur Weltmeisterschaft, während auch neue Akteure und Spieler des SC Freiburg nominiert wurden.",
+    "Die Nationalmannschaft trifft sich am 21. September 2026 im Quartier in Herzogenaurach."
+   ],
+   "einig": [
+    [
+     "Bundestrainer Jürgen Klopp hat einen Kader von 44 Spielern für seine Länderspiele berufen.",
+     [
+      "Tagesschau/ARD",
+      "Zeit",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Die Bekanntgabe des Kaders erfolgte bei einer Pressekonferenz in der Frankfurter Verbandszentrale des DFB.",
+     [
+      "Tagesschau/ARD",
+      "Süddeutsche Zeitung"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es ist unklar, welche konkreten Spieler aus dem ersten Kader dauerhaft in Herzogenaurach verbleiben werden."
+   ],
+   "positionen": [
+    [
+     "Oliver Baumann (Torhüter TSG Hoffenheim)",
+     "Er akzeptiert die Entscheidung des Trainers, obwohl sie ihm nicht gefällt, und steht bei Bedarf weiterhin zur Verfügung.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Jürgen Klopp (Bundestrainer)",
+     "Er wünscht sich mehr Gemeinschaftsgefühl in Deutschland.",
+     "Süddeutsche Zeitung"
+    ]
+   ],
+   "fehlend": "Stimmen von Vereinsvertretern der Bundesligavereine oder weiteren nicht nominierten Spielern.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 22:06",
+     "fokus": "Kaderdetails und Spielerstimmen",
+     "text": "Die Tagesschau berichtet über die einzelnen Spieler des 44er-Kaders, Verletzte, Rücktritte sowie Reaktionen des Torhüters Oliver Baumann.",
+     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 18:47",
+     "fokus": "Kompakte Ankündigung",
+     "text": "Die Zeit kündigt in einer kurzen Meldung die Vorstellung der Spieler durch Jürgen Klopp an.",
+     "url": "https://www.zeit.de/sport/2026-09/juergen-klopp-kader-44-dfb",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:01",
+     "fokus": "Ablauf der Pressekonferenz",
+     "text": "Die Süddeutsche Zeitung beleuchtet den Auftritt des Bundestrainers mit einem Pappkarton und seine Äußerungen zu politischen Entwicklungen.",
+     "url": "https://www.sueddeutsche.de/sport/bundestrainer-klopp-nominierung-kader-nationalmannschaft-li.3549390",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Themenvielfalt",
+     "Die Tagesschau nennt viele Namen und Details zu Spielern, während die Zeit eine kurze Ankündigung bringt und die Süddeutsche Zeitung den Auftritt mit einem Karton sowie politische Äußerungen hervorhebt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundestrainer Jürgen Klopp",
+    "was": "Nominierung eines Kaders von 44 Spielern",
+    "wann": "17.09.2026",
+    "wo": "Frankfurt am Main, Deutschland",
+    "quellenlage": "Berichte von Tagesschau/ARD, Zeit und Süddeutsche Zeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der Bundestrainer Jürgen Klopp hat am 17. September 2026 in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes seinen ersten Kader vorgestellt. Für seine ersten vier Partien in der Nations League und weiteren Begegnungen berief er insgesamt 44 Spieler in ein Aufgebot. Laut den Berichten von Tagesschau/ARD und Süddeutsche Zeitung brachte der Coach zur Pressekonferenz einen großen Pappkarton in einer Trainingsjacke und mit Schirmmütze mit. Nach Angaben der Tagesschau/ARD ist ein solches Aufgebot im bisherigen deutschen Nationalmannschaftsfußball unüblich. Die Zeit berichtet ebenfalls über dieses sportliche Ereignis und stellt den Kader vor.",
+      "Das große Aufgebot teilt sich in zwei verschiedene Gruppen von Spielern auf. Die erste Liste umfasst 24 Namen für die anstehenden Partien der Nations League. Diese Begegnungen finden am 24. September 2026 in den Niederlanden und am 27. September 2026 gegen Griechenland statt. Der zweite Kader beinhaltet 21 Spieler für die folgenden Aufgaben. Dazu gehören das Spiel am 1. Oktober 2026 in München gegen Serbien sowie der Abschluss in Thessaloniki gegen Griechenland. Laut den Angaben der Tagesschau/ARD taucht lediglich der Torhüter Finn Dahmen vom FC Augsburg auf beiden Listen auf.",
+      "Das Reglement der Europäischen Fußball-Union UEFA sieht vor, dass ein Kader für die Nations League 23 Spieler umfassen muss. Daher werden nach Angaben der Tagesschau/ARD einige Profis von der ersten Liste nach der Partie in Augsburg in das Quartier nach Herzogenaurach zurückkehren. Der Bundestrainer erklärte auf der Pressekonferenz, dass es so geplant sei, dass bestimmte Akteure aus dem ersten Kader dabeibleiben. Dies betrifft laut den Ausführungen von Jürgen Klopp insbesondere Spieler wie Nico Schlotterbeck, Jamal Musiala und Serge Gnabry. Sie sollen über den gesamten Zeitraum bei der Mannschaft bleiben. Auf diese Weise will der Trainerstab sicherstellen, dass diese Akteure stets betreut und im Training gehalten werden."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten des Kaders",
+     "absaetze": [
+      "Der Kader enthält zahlreiche Überraschungen und neue Gesichter im deutschen Trikot. Laut der Tagesschau/ARD ist der Kapitän Joshua Kimmich wieder dabei. Auch Nico Schlotterbeck ist rechtzeitig wieder fit geworden für die Auswahl. Nick Woltemade erhielt trotz eines Formtiefs eine Nominierung, während Deniz Undav im Gegensatz dazu keine Berücksichtigung fand. Zu den neuen Namen im Aufgebot gehört Mika Baur, ein 22 Jahre alter Mittelfeldspieler. Dieser war vor der Saison vom SC Paderborn zu Celtic Glasgow gewechselt. Ebenfalls zum Kader gehören Bambasé Conté von der TSG Hoffenheim und Felix Keidel vom SV Elversberg, die beide 23 Jahre alt sind.",
+      "Ein weiterer Schwerpunkt des neuen Kaders liegt auf Spielern des SC Freiburg. Obwohl Bundestrainer Klopp bei der Weltmeisterschaft auf Matthias Ginter verzichtet, stellt der SC Freiburg vier Akteure im Aufgebot. Dazu zählen Yannik Engelhardt, Philipp Treu, Max Rosenfelder und Derry Scherhant. Insgesamt befinden sich unter den Nominierten zwölf Spieler, die zuvor noch nie für die A-Nationalmannschaft berufen wurden. Die Freiburger Fraktion ist damit nach Angaben der Tagesschau/ARD größer als die jeweiligen Abordnungen von Borussia Dortmund und RB Leipzig. Von Borussia Dortmund fehlt beispielsweise Maximilian Beier, der bei der Weltmeisterschaft noch im Kader stand.",
+      "Ein Einblick in die sportlichen Planungen wurde während der Pressekonferenz ebenfalls gegeben. Laut der Tagesschau/ARD ist Marc-André ter Stegen für den Moment die Nummer eins im Tor. Er wird auch im ersten Spiel in den Niederlanden zum Einsatz kommen. Die Partie wird in der Arena von Ajax Amsterdam ausgetragen, wo der Torhüter seit dieser Saison unter Vertrag steht."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Vorgeschichte",
+     "absaetze": [
+      "Die Umstellung im Trainerteam und im Spielerkader ist auch eine Folge der vergangenen Turniere. Nach Angaben der Tagesschau/ARD führte das Ausscheiden der deutschen Mannschaft im Sechzehntelfinale der Weltmeisterschaft gegen Paraguay zum Amtsverlust des bisherigen Bundestrainers Julian Nagelsmann. Von den Spielern, die bei der Weltmeisterschaft noch zum Kader gehörten, fehlen bei der ersten Nominierung des neuen Trainers nun elf Akteure.",
+      "Zu den personellen Veränderungen zählen auch Rücktritte und Verletzungen. Manuel Neuer und Antonio Rüdiger haben ihre Karrieren in der Nationalmannschaft beendet. Leon Goretzka von Aston Villa, Angelo Stiller vom VfB Stuttgart und Assan Ouédraogo von RB Leipzig stehen wegen Verletzungen nicht zur Verfügung. Neben Maximilian Beier erhielten zudem Spieler wie Deniz Undav, Jamie Leweling, Pascal Groß, Leroy Sané und Oliver Baumann keine Berücksichtigung mehr für die anstehenden Begegnungen der Nationalmannschaft.",
+      "Der Bundestrainer äußerte sich während der Nominierungs-Pressekonferenz laut der Süddeutschen Zeitung auch über Entwicklungen in der Politik. Demnach wünscht sich der Coach ein größeres Gemeinschaftsgefühl in Deutschland. Diese Äußerung tätigte er im Rahmen seiner Ausführungen zu gesellschaftlichen Themen neben der sportlichen Kaderbekanntgabe."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Nichtnominierung stieß bei einigen betroffenen Spielern auf Enttäuschung, die jedoch professionell aufgenommen wurde. Laut der Tagesschau/ARD äußerte sich der Torhüter Oliver Baumann nach der 0:2-Niederlage seiner TSG Hoffenheim in der Europa League bei OFI Kreta zu seiner Situation. \"Die Entscheidung muss ich akzeptieren\", sagte Baumann demnach. Er fügte hinzu: \"Die gefällt mir nicht, das ist klar. Sie schlagen einen anderen Weg ein, das muss ich akzeptieren und respektieren.\"",
+      "Trotz der Nichtberücksichtigung strebt Oliver Baumann kein vorzeitiges Karriereende in der Nationalmannschaft an. Laut den Angaben der Tagesschau/ARD betonte der Hoffenheimer Torwart: \"Es ist so ein bisschen so ein Umbruchthema. Ich fühle mich topfit, egal, wie alt ich bin. Ich kann nur sagen: Wenn er mich braucht, dann bin ich auch da.\""
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Nationalmannschaft wird sich am Montag, dem 21. September 2026, im Quartier in Herzogenaurach einfinden. Dort beginnt die Vorbereitung auf die anstehenden Länderspiele. Laut den Angaben der Tagesschau/ARD verweilen einige Profis von der ersten Liste nach der Partie in Augsburg dauerhaft in diesem Quartier.",
+      "Das erste Spiel der Nations League findet am 24. September 2026 gegen die Niederlande in Amsterdam statt. Im Anschluss daran empfängt die Mannschaft am 27. September 2026 Griechenland in Augsburg. Am 1. Oktober 2026 folgt die Partie in München gegen Serbien, bevor die Länderspielreise mit dem Spiel am 4. Oktober 2026 in Thessaloniki gegen Griechenland ihren Abschluss findet."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland."
+    ],
+    [
+     "2026-09-17",
+     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung des Kaders für vier Länderspiele bekannt."
+    ],
+    [
+     "2026-09-17",
+     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
+    ],
+    [
+     "2026-09-21",
+     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
+    ],
+    [
+     "2026-09-24",
+     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
+    ],
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
+    ],
+    [
+     "2026-10-01",
+     "Drittes Nations-League-Spiel gegen Serbien in München."
+    ],
+    [
+     "2026-10-04",
+     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Jürgen Klopp football manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat einen Kader für die kommenden Länderspiele nominiert."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "DFB Campus Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main, in der die Kaderbekanntgabe stattfand."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Herzogenaurach town hall",
+     "bildunterschrift": "Herzogenaurach, in dem sich das Quartier der Nationalmannschaft befindet."
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Wertende und übertriebene Formulierungen wie 'monumental', 'kolossal', 'nie gesehen' und 'reformerischer Schwerpunkt' aus dem Text entfernt, um die Neutralität zu wahren."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Bundestrainer",
+      "Der Bundestrainer ist der Cheftrainer der deutschen Fußball-Nationalmannschaft."
+     ],
+     [
+      "Nations League",
+      "Die Nations League ist ein offizieller Wettbewerb für europäische Nationalmannschaften im Fußball."
+     ],
+     [
+      "Deutscher Fußball-Bund",
+      "Der Deutsche Fußball-Bund, abgekürzt DFB, ist der Dachverband für den Fussball in Deutschland."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile kann ein sehr großer Kader mit 44 Spielern für eine Nationalmannschaft haben?",
+     "Wie gehen Spieler mit einer Nichtnominierung für die Nationalmannschaft um?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Spieler hat Bundestrainer Jürgen Klopp für seine ersten Länderspiele nominiert?",
+      "optionen": [
+       "23 Spieler",
+       "44 Spieler",
+       "50 Spieler"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD, Zeit und Süddeutscher Zeitung hat Jürgen Klopp 44 Spieler nominiert."
+     },
+     {
+      "frage": "Wo fand die Pressekonferenz zur Bekanntgabe des Kaders statt?",
+      "optionen": [
+       "In der Frankfurter Verbandszentrale des DFB",
+       "Im Quartier in Herzogenaurach",
+       "In der Arena von Ajax Amsterdam"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Tagesschau und die Süddeutsche Zeitung berichten übereinstimmend, dass die Bekanntgabe in der Frankfurter Verbandszentrale des DFB stattfand."
+     },
+     {
+      "frage": "Welcher Torhüter taucht laut Tagesschau auf beiden Listen des Kaders auf?",
+      "optionen": [
+       "Marc-André ter Stegen",
+       "Oliver Baumann",
+       "Finn Dahmen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut dem Bericht der Tagesschau taucht einzig Torhüter Finn Dahmen vom FC Augsburg auf beiden Listen auf."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat einen sehr großen Kader mit 44 Spielern für die kommenden Länderspiele vorgestellt.",
+    "absaetze": [
+     "Die Bekanntgabe fand in der Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main statt. Der Kader teilt sich in zwei Gruppen auf.",
+     "Ein Teil der Spieler kommt für die ersten Spiele gegen die Niederlande und Griechenland zum Einsatz. Danach wird der Kader fast komplett ausgetauscht.",
+     "Im Vergleich zur Weltmeisterschaft gibt es einige Änderungen. Mehrere bekannte Spieler fehlen, und es wurden auch neue Spieler nominiert.",
+     "Am 21. September 2026 trifft sich die Nationalmannschaft in ihrem Quartier in Herzogenaurach, um sich vorzubereiten."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Bundestrainer Jürgen Klopp hat einen Kader von 44 Spielern nominiert.",
+     "Das Aufgebot teilt sich in zwei Gruppen für vier Länderspiele auf.",
+     "Die Mannschaft trifft sich am 21. September 2026 im Quartier in Herzogenaurach."
+    ],
+    "lang": [
+     "Der neue Bundestrainer Jürgen Klopp hat einen großen Kader vorgestellt.",
+     "Insgesamt 44 Spieler wurden für vier anstehende Länderspiele berufen.",
+     "Das Aufgebot teilt sich in zwei Gruppen auf.",
+     "Die Spieler der ersten Liste spielen gegen die Niederlande und Griechenland.",
+     "Danach ist ein Austausch des Kaders für die nächsten Partien geplant."
+    ],
+    "einfach": [
+     "Bundestrainer Jürgen Klopp hat 44 Spieler für Länderspiele nominiert.",
+     "Der Kader teilt sich in zwei Gruppen auf.",
+     "Nach den ersten Spielen wird die Mannschaft fast komplett ausgetauscht.",
+     "Am 21. September 2026 beginnt die Vorbereitung im Quartier."
+    ]
+   },
+   "kurz": [
+    "Bundestrainer Jürgen Klopp hat einen Kader von 44 Spielern für vier Länderspiele benannt.",
+    "Das Aufgebot teilt sich in zwei Gruppen auf, die nach den ersten Partien weitgehend ausgetauscht werden.",
+    "Das Team trifft sich am 21. September 2026 im Quartier in Herzogenaurach.",
+    "Torhüter Oliver Baumann äußerte Enttäuschung über seine Nichtnominierung, steht aber bei Bedarf bereit."
+   ],
+   "fakten": [
+    [
+     "Anzahl nominierter Spieler",
+     "44"
+    ],
+    [
+     "Spieler auf der ersten Liste",
+     "24"
+    ],
+    [
+     "Spieler auf der zweiten Liste",
+     "21"
+    ],
+    [
+     "Datum des ersten Spiels",
+     "24.09.2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "dfb-kader-klopp-2026",
+    "titel": "Deutscher Fußball-Bund: Neuer Kader unter Bundestrainer Jürgen Klopp"
+   },
+   "bildInfo": {
+    "titel": "Klopp (24669321424).jpg",
+    "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+    "urheber": "PAUL ROBINSON",
+    "lizenz": "CC BY-SA 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "art": "person",
+    "suchbegriff": "Juergen Klopp manager",
+    "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Klopp (24669321424).jpg",
+     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+     "urheber": "PAUL ROBINSON",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "person",
+     "suchbegriff": "Juergen Klopp manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
+     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "institution",
+     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "version": 5
   },
   {
    "id": "malaria-todesfall-frankfurt",
@@ -530,272 +1757,6 @@
     "name": "Frankfurt am Main, Deutschland",
     "lat": 50.111,
     "lon": 8.682
-   },
-   "version": 4
-  },
-  {
-   "id": "brandanschlag-synagoge-wuppertal",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-18T13:28:32.000Z",
-   "aktualisiert": "aktualisiert um 16:00 Uhr",
-   "titel": "Brandanschlag auf Synagoge in Wuppertal verhindert",
-   "vorspann": "An der Bergischen Synagoge in Wuppertal ist ein Feuer an einem Nebeneingang gelegt worden. Die Polizei hat einen Tatverdächtigen festgenommen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Ein 37-jähriger Mann hat an einer Synagoge in Wuppertal ein Feuer gelegt.",
-    "Mitarbeiter der Gemeinde konnten den Brand schnell löschen, es gab keine Verletzten.",
-    "Die Polizei nahm den Tatverdächtigen fest, der Staatsschutz ermittelt wegen eines antisemitischen Motivs.",
-    "Politiker und Vertreter verschiedener Glaubensrichtungen verurteilten den Brandanschlag scharf."
-   ],
-   "einig": [
-    [
-     "Ein 37-jähriger Verdächtiger wurde nach einem versuchten Brandanschlag auf die Synagoge in Wuppertal festgenommen.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk"
-     ]
-    ],
-    [
-     "Das Feuer an einem Nebeneingang der Synagoge konnte von Angehörigen der Gemeinde schnell gelöscht werden.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Es gab keine Verletzten und der Sachschaden war gering.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Der Zentralrat der Juden weist auf den zeitlichen Zusammenhang mit dem Feiertag Jom Kippur hin.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob der Täter konkrete Hinterleute oder Kontakte zu extremistischen Organisationen hatte, ist laut den Berichten noch nicht vollständig geklärt."
-   ],
-   "positionen": [
-    [
-     "Zentralrat der Juden (Josef Schuster)",
-     "Der Zeitpunkt des Anschlags ist gezielt gewählt, um Angst zu verbreiten und jüdisches Leben zu verdrängen.",
-     "Tagesschau/ARD,ZDFheute"
-    ],
-    [
-     "Oberbürgermeisterin Miriam Scherff",
-     "Die Tat wird scharf verurteilt, es gibt keinen Platz für Gewalt und Antisemitismus in Wuppertal.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Interessenvertretung Wuppertaler Moscheen und Ditib",
-     "Angriffe auf Gotteshäuser sind durch nichts zu rechtfertigen und gefährden das friedliche Zusammenleben.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Katholische Stadtkirche Wuppertal",
-     "Die Tat ist Ausdruck von Judenhass; jüdisches Leben gehört fest zur Stadt.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Keine Angaben von Seiten des Beschuldigten selbst oder dessen Verteidigung.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 14:18",
-     "fokus": "Umfassende Details zu Ermittlungen und Reaktionen",
-     "text": "Die Tagesschau liefert viele Hintergründe zu den Durchsuchungen, Funden in der Wohnung und Reaktionen lokaler Institutionen.",
-     "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/brandanschlag-synagoge-wuppertal-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 21:07",
-     "fokus": "Einordnung durch den Zentralrat der Juden",
-     "text": "Das ZDF legt einen Schwerpunkt auf die Aussagen von Josef Schuster und historische Vergleiche zu früheren antisemitischen Anschlägen.",
-     "url": "https://www.zdfheute.de/panorama/kriminalitaet/synagoge-wuppertal-brand-feuer-gelegt-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 15:28",
-     "fokus": "Kompakte Kurzmeldung",
-     "text": "Der Deutschlandfunk meldet kurz die Festnahme nach dem versuchten Brandanschlag.",
-     "url": "https://www.deutschlandfunk.de/mann-soll-feuer-an-tuer-von-wuppertaler-synagoge-gelegt-haben-106.html",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit",
-     "Tagesschau/ARD und ZDFheute bieten lange Berichte mit vielen Zitaten und Hintergrundinfos, während der Deutschlandfunk eine kurze Meldung publiziert hat."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Ein 37-jähriger Mann aus Afghanistan",
-    "was": "Ein versuchter Brandanschlag auf eine Synagoge",
-    "wann": "17. September 2026",
-    "wo": "Wuppertal, Nordrhein-Westfalen",
-    "wie": "Durch eine brennbare Flüssigkeit an einer Tür",
-    "warum": "Antisemitismus vermuten Ermittler und Zentralrat, laut Berichten",
-    "quellenlage": "Polizei, Staatsanwaltschaft, Zentralrat der Juden, Medienberichte"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das Ereignis in Wuppertal",
-     "absaetze": [
-      "An der Bergischen Synagoge in Wuppertal ist am Donnerstag ein Feuer an einem Nebeneingang gelegt worden. Nach Angaben der Polizei wurde dabei niemand verletzt. Der Sachschaden an dem Gebäude blieb gering. Die Staatsschutzabteilung hat die Ermittlungen in dem Fall aufgenommen.",
-      "Der Tatverdächtige soll nach polizeilichen Erkenntnissen am frühen Nachmittag eine brennbare Flüssigkeit auf den Treppenstufen ausgebreitet und entzündet haben. Um welche Flüssigkeit es sich handelte, war zunächst nicht bekannt. Mitarbeiter der Synagoge konnten das Feuer nach Angaben der Einsatzkräfte sehr schnell löschen.",
-      "Die Synagoge wird nach Angaben der Tagesschau/ARD rund um die Uhr von der Polizei bewacht. Dieser Umstand hat nach Einschätzung von Beobachtern möglicherweise dazu beigetragen, den Tatverdächtigen schnell zu ermitteln. Die Polizei nahm den 37-jährigen Mann kurz nach der Tat fest."
-     ]
-    },
-    {
-     "ueberschrift": "Details zum Verdächtigen",
-     "absaetze": [
-      "Bei dem Festgenommenen handelt es sich um einen 37-jährigen Mann mit afghanischer Staatsangehörigkeit. Laut Polizei und Staatsanwaltschaft handelte er nach ersten Erkenntnissen allein. Er ist den Behörden bereits polizeilich bekannt. Wegen der Bedrohung einer Nachbarin ist er vorbestraft.",
-      "Bei einer Durchsuchung der Wohnung des Verdächtigen fanden die Ermittler ein Mobiltelefon sowie mehrere Messer und eine Machete. Diese Gegenstände waren laut Angaben der Staatsanwaltschaft griffbereit abgelegt. Das gefundene Mobiltelefon wird derzeit von den Behörden ausgewertet.",
-      "Gegen den Beschuldigten wurde ein Haftbefehl erlassen. Sollten die Gerichte ihn wegen versuchter schwerer Brandstiftung verurteilen, droht ihm eine Freiheitsstrafe zwischen drei Monaten und 15 Jahren. Nach Angaben der Tagesschau/ARD wird zudem nach zwei jungen Frauen gesucht, die sich zur Tatzeit in der Nähe aufhielten."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Einordnung",
-     "absaetze": [
-      "Der Vorfall ereignete sich wenige Tage vor dem höchsten jüdischen Feiertag Jom Kippur. Der Zentralrat der Juden sieht in dem Zeitpunkt kein Zufallselement. Laut Josef Schuster erinnert das Vorgehen an frühere Angriffe auf jüdische Einrichtungen. Als Vergleiche nennt der Zentralrat den Anschlag in Halle im Jahr 2019 sowie Vorfälle in Manchester und Sydney im Jahr 2025.",
-      "In Wuppertal gab es bereits im Jahr 2014 einen Brandanschlag auf die Synagoge. Damals hatten drei Täter Brandsätze auf das Gebäude geschleudert und waren später zu Freiheitsstrafen auf Bewährung verurteilt worden. Die Täter hatten damals angegeben, die Aufmerksamkeit auf den Gaza-Konflikt lenken zu wollen.",
-      "Die Jüdische Kultusgemeinde Wuppertal zählt laut Angaben des Zentralrats der Juden gut 2.000 Mitglieder. Die Bergische Synagoge wurde im Jahr 2002 eröffnet. Jüdische Gemeinden in Deutschland verzeichnen laut einer Umfrage des Zentralrats eine steigende Zahl antisemitischer Vorfälle."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen aus Politik und Gesellschaft",
-     "absaetze": [
-      "Der Präsident des Zentralrats der Juden, Josef Schuster, erklärte laut den Berichten, dass der Zeitpunkt des Angriffs bewusst gewählt sei. Die Sicherheitsbehörden stünden in der Pflicht, die Gottesdienste zu schützen. Man wolle sich vom religiösen Leben nicht abhalten lassen.",
-      "Wuppertals Oberbürgermeisterin Miriam Scherff verurteilte die Tat laut Tagesschau/ARD in einer Pressemitteilung scharf. Sie bezeichnete den Vorfall als schäbig und betonte ihre Haltung gegen Gewalt und Antisemitismus. Vor der Synagoge versammelten sich Menschen zu einer spontanen Mahnwache.",
-      "Die Interessenvertretung Wuppertaler Moscheen und die Ditib-Gemeinde sprachen der jüdischen Gemeinde Solidarität aus. Laut den Berichten erklärten sie, dass Angriffe auf Gotteshäuser das friedliche Zusammenleben gefährden. Auch die katholische Stadtkirche verurteilte die Tat als Judenhass."
-     ]
-    },
-    {
-     "ueberschrift": "Weiteres Vorgehen der Behörden",
-     "absaetze": [
-      "Die Ermittlungen der Staatsschutzabteilung und der Staatsanwaltschaft dauern an. Die Polizei wertet die Beweismittel aus der Wohnung des Verdächtigen aus. Dazu gehören das sichergestellte Mobiltelefon und die aufgefundenen Waffen.",
-      "Zudem sucht the Polizei nach Zeugen des Vorfalls. Insbesondere zwei junge Frauen, die sich zum Tatzeitpunkt in der Nähe der Synagoge aufgehalten haben sollen, werden von den Beamten gesucht. Die Sicherheitsmaßnahmen für jüdische Einrichtungen im Hinblick auf den Feiertag Jom Kippur wurden thematisiert."
-     ]
-    }
-   ],
-   "zeitleiste": [],
-   "bilder": [
-    {
-     "art": "keins",
-     "suchbegriff": "keins",
-     "bildunterschrift": "Aufgrund des Themas von Gewalt wird kein Bild angezeigt."
-    }
-   ],
-   "ort": {
-    "name": "Wuppertal, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Keine Änderungen am Entwurf erforderlich, da alle Fakten belegt sind."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Synagoge",
-      "Eine Synagoge ist das jüdische Haus für den Gottesdienst und das Gebet."
-     ],
-     [
-      "Jom Kippur",
-      "Jom Kippur ist der höchste jüdische Feiertag, an dem Gläubige fasten und beten."
-     ],
-     [
-      "Staatsschutz",
-      "Der Staatsschutz ist eine spezielle Abteilung der Polizei für politische Straftaten und den Schutz des Staates."
-     ]
-    ],
-    "fragen": [
-     "Wie bewertet ihr die Solidaritätsbekundungen verschiedener Religionsgemeinschaften nach dem Anschlag?",
-     "Welche Rolle spielen historische Vergleiche bei der Berichterstattung über solche Taten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie alt ist der Tatverdächtige, den die Polizei festgenommen hat?",
-      "optionen": [
-       "Einundzwanzig Jahre",
-       "Siebenunddreißig Jahre",
-       "Fünfundvierzig Jahre"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD und ZDFheute ist der Verdächtige siebenunddreißig Jahre alt."
-     },
-     {
-      "frage": "Wer konnte das Feuer am Nebeneingang der Synagoge schnell löschen?",
-      "optionen": [
-       "Die Feuerwehr",
-       "Mitarbeiter der Synagoge",
-       "Passanten auf der Straße"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau/ARD und ZDFheute konnten Angehörige beziehungsweise Mitarbeiter der Synagoge das Feuer sehr schnell löschen."
-     },
-     {
-      "frage": "Welcher jüdische Feiertag steht kurz bevor?",
-      "optionen": [
-       "Sabbat",
-       "Pessach",
-       "Jom Kippur"
-      ],
-      "richtig": 2,
-      "erklaerung": "In den Berichten von Tagesschau/ARD und ZDFheute wird mehrfach erwähnt, dass der Anschlag kurz vor dem höchsten jüdischen Feiertag Jom Kippur stattfand."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Wuppertal hat es einen Brandanschlag auf eine Synagoge gegeben. Die Polizei hat einen Verdächtigen festgenommen.",
-    "absaetze": [
-     "An einem Nebeneingang der Bergischen Synagoge in Wuppertal ist ein Feuer gelegt worden. Mitarbeiter der Synagoge konnten das Feuer schnell löschen. Es wurde niemand verletzt und der Sachschaden ist gering.",
-     "Die Polizei hat einen siebenunddreißigjährigen Mann aus Afghanistan als Tatverdächtigen festgenommen. Die Ermittler gehen von einem antisemitischen Motiv aus. In seiner Wohnung wurden Waffen und ein Handy gefunden.",
-     "Der Zentralrat der Juden weist darauf hin, dass der Angriff kurz vor dem jüdischen Feiertag Jom Kippur stattfand. Auch Politiker und Vertreter anderer Religionen verurteilten die Tat scharf. Die Ermittlungen des Staatsschutzes dauern an."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Wuppertal hat es einen Brandanschlag auf eine Synagoge gegeben.",
-     "Die Polizei nahm einen siebenunddreißigjährigen Tatverdächtigen fest.",
-     "Der Staatsschutz ermittelt nun wegen eines antisemitischen Motivs."
-    ],
-    "lang": [
-     "In Wuppertal ist ein Feuer an einer Synagoge gelegt worden.",
-     "Mehrere Medien berichten übereinstimmend über diesen Vorfall.",
-     "Mitarbeiter der Gemeinde konnten das Feuer sehr schnell löschen.",
-     "Verletzt wurde bei dem versuchten Brandanschlag niemand.",
-     "Die Polizei hat einen siebenunddreißigjährigen Verdächtigen festgenommen."
-    ],
-    "einfach": [
-     "In Wuppertal gab es einen Brandanschlag auf eine Synagoge.",
-     "Niemand wurde verletzt, weil das Feuer schnell gelöscht wurde.",
-     "Die Polizei hat einen verdächtigen Mann festgenommen.",
-     "Politiker und Gemeinden verurteilen die Tat scharf."
-    ]
-   },
-   "bildInfos": [],
-   "ortInfo": {
-    "name": "Wuppertal, Deutschland",
-    "lat": 51.264,
-    "lon": 7.178
    },
    "version": 4
   },
@@ -1602,335 +2563,6 @@
     "hinweis": "Archivfoto"
    },
    "version": 3
-  },
-  {
-   "id": "klopp-dfb-kader-nominierung",
-   "rubrik": "Sport",
-   "zeit": "2026-09-17T20:06:27.000Z",
-   "aktualisiert": "aktualisiert um 17:20 Uhr",
-   "titel": "Bundestrainer Jürgen Klopp gibt ersten Kader bekannt",
-   "vorspann": "Der neue Bundestrainer Jürgen Klopp hat einen Kader für vier anstehende Spiele der Nationalmannschaft nominiert. Das Aufgebot ist in zwei verschiedene Gruppen aufgeteilt und enthält zahlreiche Spieler, die erstmals berufen wurden.",
-   "eil": false,
-   "zusammenfassung": [
-    "Bundestrainer Jürgen Klopp hat einen Kader für vier anstehende Länderspiele benannt.",
-    "Das Aufgebot ist in zwei Listen unterteilt und beinhaltet zahlreiche neue sowie erfahrene Spieler.",
-    "Das Team trifft sich in Herzogenaurach zur Vorbereitung.",
-    "Die Spiele der Nations League finden in den Niederlanden, in Deutschland und in Griechenland statt."
-   ],
-   "einig": [
-    [
-     "Bundestrainer Jürgen Klopp hat einen Kader für seine ersten vier Spiele nominiert.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Die Bekanntgabe fand in der Verbandszentrale des Deutschen Fußball-Bundes in Frankfurt statt.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Es gibt keine wesentlichen inhaltlichen Widersprüche in den Berichten."
-   ],
-   "positionen": [
-    [
-     "Oliver Baumann (Torhüter, TSG Hoffenheim)",
-     "Die Entscheidung gefällt ihm nicht, aber er muss und will sie akzeptieren.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Jürgen Klopp (Bundestrainer)",
-     "Er begründet die Kadergröße mit Planungen für vier Spiele und der optimalen Betreuung von Spielern nach Verletzungen.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stellungnahmen von weiteren Vereinsvertretern der betroffenen Bundesligisten.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 22:06",
-     "fokus": "Kaderdetails und Spielerstimmen",
-     "text": "Der Bericht listet detailliert alle nominierten Spieler, verletzten Akteure und Rücktritte auf. Zudem enthält er Zitate von Oliver Baumann zu seiner Nichtnominierung.",
-     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 16:37",
-     "fokus": "Einordnung und politische Äußerungen",
-     "text": "Der Artikel beleuchtet die Verpflichtung des Trainers und erwähnt kritische Äußerungen des Bundestrainers zu Medien und der AfD.",
-     "url": "https://www.zeit.de/sport/2026-09/nationalmannschaft-dfb-fussball-juergen-klopp-nominierung-kritik",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 16:01",
-     "fokus": "Ablauf der Pressekonferenz",
-     "text": "Die Berichterstattung beschreibt anschaulich das Auftreten des Bundestrainers bei der Pressekonferenz in Frankfurt mit einem Pappkarton.",
-     "url": "https://www.sueddeutsche.de/sport/bundestrainer-klopp-nominierung-kader-nationalmannschaft-li.3549390",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Schwerpunkte der Berichte",
-     "Tagesschau/ARD konzentriert sich auf die genaue Kaderanalyse und Spielerstatistiken, während Zeit und Süddeutsche Zeitung das Auftreten des Trainers und den Rahmen der Pressekonferenz stärker betonen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Bundestrainer Jürgen Klopp",
-    "was": "Nominierung eines Kaders für vier Spiele",
-    "wann": "2026-09-17",
-    "wo": "Frankfurt am Main, Deutschland",
-    "wie": "Durch die Bekanntgabe von zwei aufeinanderfolgenden Spielerlisten in einer Verbandszentrale",
-    "warum": "Zur Vorbereitung auf die kommenden Spiele und zur Betreuung von Spielern nach Verletzungen laut Bundestrainer Jürgen Klopp",
-    "quellenlage": "Berichte von Tagesschau/ARD, Zeit und Süddeutsche Zeitung"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Der Deutsche Fußball-Bund hat die ersten Nominierungen des neuen Bundestrainers Jürgen Klopp bekannt gegeben. Laut den Berichten von Tagesschau/ARD und Süddeutsche Zeitung umfasst das Aufgebot insgesamt vierundvierzig Spieler für vier anstehende Partien. Diese ungewöhnlich große Anzahl an Spielern ist in zwei unterschiedliche Gruppen aufgeteilt. Der Bundestrainer begründete die Vorgehensweise unter anderem mit der Notwendigkeit einer optimalen Betreuung einzelner Spieler.",
-      "Die Bekanntgabe fand in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes statt. Laut Süddeutsche Zeitung erschien der Trainer mit einem großen Pappkarton am Veranstaltungsort. Nach der Veröffentlichung der Namen wurden in den Berichten verschiedene Reaktionen von beteiligten Personen und Vereinen dokumentiert. Der Kader teilt sich auf zwei Spielphasen auf, wobei nach den ersten Partien ein nahezu kompletter Austausch erfolgen soll.",
-      "Einige Spieler stehen vor der Möglichkeit, ihre ersten Einsätze in der Nationalmannschaft zu absolvieren. Unter den Nominierten befinden sich Akteure aus verschiedenen in- und ausländischen Ligen. Die Verbandszentrale in Frankfurt bildete den Ausgangspunkt für die öffentlich gewordene Nominierungsliste. Die Berichterstattung widmete sich ausführlich den personellen Zusammensetzungen der beiden Kaderlisten."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Laut Tagesschau/ARD umfasst die erste Liste für die Spiele in den Niederlanden und gegen Griechenland vierundzwanzig Namen. Die zweite Liste für die anschließenden Partien gegen Serbien und abermals Griechenland enthält einundzwanzig Spieler. Der Torhüter Finn Dahmen vom FC Augsburg ist der einzige Akteur, der auf beiden Listen verzeichnet ist. Das Regelwerk der Europäischen Fußball-Union sieht für die Nations League einen Kader von dreiundzwanzig Spielern vor.",
-      "Aus diesem Grund verbleiben laut Bundestrainer Jürgen Klopp einige Profis aus dem ersten Kader auch für die Zeit nach der Partie in Augsburg im Quartier in Herzogenaurach. Dieses Trainingslager beginnt an einem Montag. Zu den Spielern, die den gesamten Zeitraum bei der Mannschaft verbringen sollen, zählen Nico Schlotterbeck, Jamal Musiala und Serge Gnabry. Hiermit soll eine durchgehende Betreuung nach überstandenen Verletzungen gewährleistet werden.",
-      "Unter den vierundvierzig Spielern befinden sich zwölf Akteure, die zuvor noch nie für die A-Nationalmannschaft nominiert wurden. Vier dieser Spieler stehen beim SC Freiburg unter Vertrag, darunter Yannik Engelhardt, Philipp Treu, Max Rosenfelder und Derry Scherhant. Kapitän Joshua Kimmich ist ebenfalls Teil des Aufgebots. Marc-André ter Stegen ist laut Aussage des Bundestrainers vorerst als Nummer eins eingeplant und wird im ersten Spiel in den Niederlanden auflaufen."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Nominierung erfolgt vor dem Start der nächsten Partien in der Nations League. Laut Tagesschau/ARD fehlen elf Spieler aus dem bisherigen Kader der Weltmeisterschaft. Dazu gehören die nach Rücktritten nicht mehr verfügbaren Manuel Neuer und Antonio Rüdiger sowie mehrere verletzte Spieler wie Leon Goretzka, Angelo Stiller und Assan Ouédraogo. Einige andere Akteure wurden nicht berücksichtigt.",
-      "Einige Vereine wurden in den Berichten im Zusammenhang mit den Kaderplänen erwähnt. Der Verein Borussia Dortmund ist im Aufgebot vertreten, wenngleich Spieler wie Maximilian Beier keine Berücksichtigung fanden. Das Ausscheiden bei der Weltmeisterschaft im Sechzehntelfinale gegen Paraguay wurde von Tagesschau/ARD als ein Faktor genannt, der zuvor zum Ausscheiden des früheren Bundestrainers Julian Nagelsmann führte.",
-      "Die Medien berichteten zudem über Begleitumstände der Nominierung. Laut Zeit und Süddeutsche Zeitung äußerte sich der Bundestrainer auf der Pressekonferenz neben sportlichen Themen auch zu politischen Entwicklungen und Medienfragen. Das gewählte Vorgehen mit einem sehr großen Kader wurde in den Berichten eingeordnet."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Der Deutsche Fußball-Bund, kurz DFB, ist der Dachverband des Fußballs in Deutschland. Zu seinen Aufgaben gehört die Organisation des Spielbetriebs sowie die Verantwortung für die deutschen Nationalmannschaften.",
-      "Die Nationalmannschaft ist eine Auswahl von Spielern, die das Land bei internationalen Wettbewerben und Freundschaftsspielen vertreten. Die Auswahl der Spieler erfolgt durch den jeweiligen Bundestrainer, der vom DFB angestellt wird."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Oliver Baumann äußerte sich laut Tagesschau/ARD zu seiner Nichtnominierung nach einem Europapokalspiel. Er erklärte, dass ihm die Entscheidung zwar nicht gefalle, er sie jedoch akzeptieren müsse. Zudem betonte er, dass er sich fit fühle und bei Bedarf weiterhin zur Verfügung stehe.",
-      "Der Bundestrainer selbst erläuterte auf der Pressekonferenz seine Beweggründe für den großen Kader und die geplante Betreuung verletzter Spieler. Weitere offizielle Stellungnahmen von Vereinsvertretern oder Spielern wurden in den Berichten in Auszügen wiedergegeben."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Nationalmannschaft wird sich in dem Quartier in Herzogenaurach einfinden. Dort beginnt die gemeinsame Vorbereitung auf die anstehenden Begegnungen.",
-      "Das erste Spiel der Nations League findet gegen die Niederlande in Amsterdam statt. Darauf folgen Partien gegen Griechenland in Augsburg, gegen Serbien in München sowie das abschließende Spiel gegen Griechenland in Thessaloniki."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-09-17",
-     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
-    ],
-    [
-     "2026-09-27",
-     "Zweites Nations-League-Spiel gegen Griechenland."
-    ],
-    [
-     "2026-09-17",
-     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung des Kaders für vier Länderspiele bekannt."
-    ],
-    [
-     "2026-09-21",
-     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
-    ],
-    [
-     "2026-09-24",
-     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
-    ],
-    [
-     "2026-09-27",
-     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
-    ],
-    [
-     "2026-10-01",
-     "Drittes Nations-League-Spiel gegen Serbien in München."
-    ],
-    [
-     "2026-10-04",
-     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Juergen Klopp football manager",
-     "bildunterschrift": "Der Bundestrainer Jürgen Klopp bei einer Veranstaltung."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "German Football Association headquarters Frankfurt",
-     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main."
-    }
-   ],
-   "ort": {
-    "name": "Frankfurt am Main, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Genaue Daten aus den Artikeln im Fließtext teilweise durch allgemeine Zeitangaben ersetzt, um unbelegte Details zu vermeiden."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Bundestrainer",
-      "Der Bundestrainer ist der verantwortliche Trainer für die deutsche Fußball-Nationalmannschaft. Er wird vom Deutschen Fußball-Bund angestellt."
-     ],
-     [
-      "Nations League",
-      "Die Nations League ist ein internationaler Fußball-Wettbewerb für Nationalmannschaften in Europa."
-     ],
-     [
-      "Deutscher Fußball-Bund (DFB)",
-      "Der DFB ist der Sportverband für den Fußballsport in Deutschland und organisiert unter anderem die Nationalmannschaft."
-     ]
-    ],
-    "fragen": [
-     "Welche Vorteile oder Nachteile könnte ein sehr großer Kader für eine Nationalmannschaft haben?",
-     "Wie berichten verschiedene Medien über denselben sportlichen Termin?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Spieler hat Bundestrainer Jürgen Klopp für die ersten vier Spiele nominiert?",
-      "optionen": [
-       "vierundvierzig Spieler",
-       "dreiundzwanzig Spieler",
-       "elf Spieler"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau/ARD und Süddeutsche Zeitung umfasst der Kader vierundvierzig Spieler."
-     },
-     {
-      "frage": "Wo fand die Pressekonferenz zur Bekanntgabe des Kaders statt?",
-      "optionen": [
-       "In München",
-       "In Frankfurt am Main",
-       "In Herzogenaurach"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Tagesschau/ARD und die Süddeutsche Zeitung berichten, dass die Bekanntgabe in der Verbandszentrale des DFB in Frankfurt stattfand."
-     },
-     {
-      "frage": "Welcher Torhüter äußerte sich enttäuscht über seine Nichtnominierung?",
-      "optionen": [
-       "Marc-André ter Stegen",
-       "Finn Dahmen",
-       "Oliver Baumann"
-      ],
-      "richtig": 2,
-      "erklaerung": "Laut Tagesschau/ARD äußerte sich Oliver Baumann nach einem Spiel zu seiner Nichtnominierung."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft bekannt gegeben.",
-    "absaetze": [
-     "Für vier anstehende Länderspiele hat der Trainer insgesamt vierundvierzig Spieler in einen sehr großen Kader berufen.",
-     "Das Aufgebot ist in zwei verschiedene Gruppen aufgeteilt, da nach den ersten Partien ein fast kompletter Austausch der Spieler geplant ist.",
-     "Der Bundestrainer begründete diese Entscheidung unter anderem damit, verletzte Spieler über einen längeren Zeitraum optimal zu betreuen.",
-     "Mehrere Spieler wurden zum ersten Mal für die Nationalmannschaft nominiert. Die Vorbereitung auf die Spiele beginnt in einem Quartier in Herzogenaurach."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader vorgestellt.",
-     "Er hat insgesamt vierundvierzig Spieler für vier anstehende Länderspiele nominiert.",
-     "Die Mannschaft wird sich zur Vorbereitung in Herzogenaurach treffen."
-    ],
-    "lang": [
-     "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader vorgestellt.",
-     "Mehrere Medien berichten über die Nominierung von vierundvierzig Spielern für vier Länderspiele.",
-     "Das große Aufgebot ist in zwei verschiedene Gruppen aufgeteilt.",
-     "Der Trainer begründet dies mit Planungen für die Partien und der Betreuung von Spielern.",
-     "Einige Spieler wurden zum ersten Mal für die Nationalmannschaft berufen."
-    ],
-    "einfach": [
-     "Der neue Bundestrainer Jürgen Klopp hat seinen Kader bekannt gegeben.",
-     "Er hat vierundvierzig Spieler für vier Spiele berufen.",
-     "Die Spieler sind in zwei Gruppen aufgeteilt.",
-     "Die Mannschaft trifft sich bald in Herzogenaurach zur Vorbereitung."
-    ]
-   },
-   "bildInfo": {
-    "titel": "Klopp (24669321424).jpg",
-    "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
-    "urheber": "PAUL ROBINSON",
-    "lizenz": "CC BY-SA 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "art": "person",
-    "suchbegriff": "Juergen Klopp manager",
-    "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Klopp (24669321424).jpg",
-     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
-     "urheber": "PAUL ROBINSON",
-     "lizenz": "CC BY-SA 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-     "art": "person",
-     "suchbegriff": "Juergen Klopp manager",
-     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
-     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "urheber": "Olaf Kosinsky",
-     "lizenz": "CC BY-SA 3.0 de",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-     "art": "institution",
-     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
-     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Frankfurt am Main, Deutschland",
-    "lat": 50.111,
-    "lon": 8.682
-   },
-   "version": 4
   },
   {
    "id": "olympische-spiele-rudern-krokodile",
@@ -3040,276 +3672,6 @@
     "lizenz": "CC BY 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
     "art": "institution",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3
-  },
-  {
-   "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
-   "rubrik": "Welt",
-   "zeit": "2026-09-17T16:00:24.000Z",
-   "aktualisiert": "aktualisiert um 18:38 Uhr",
-   "titel": "Parlamentswahl in Schweden: Ministerpräsident Kristersson tritt zurück",
-   "vorspann": "Nach der Parlamentswahl in Schweden hat Ministerpräsident Ulf Kristersson seinen Rücktritt erklärt. Das Mitte-links-Lager gewann die Wahl nach offiziellen Angaben knapp.",
-   "eil": true,
-   "zusammenfassung": [
-    "Nach der Parlamentswahl in Schweden ist Ministerpräsident Ulf Kristersson zurückgetreten.",
-    "Das linke Oppositionslager unter Führung von Magdalena Andersson errang eine knappe Mehrheit von 176 zu 173 Sitzen.",
-    "Die Regierungsbildung gilt wegen inhaltlicher Differenzen zwischen den potenziellen Koalitionspartnern als kompliziert.",
-    "Der Parlamentspräsident übernimmt nun die weiteren Schritte zur Bildung einer neuen Regierung."
-   ],
-   "einig": [
-    [
-     "Ulf Kristersson ist als Ministerpräsident zurückgetreten.",
-     [
-      "Tagesschau/ARD",
-      "Deutschlandfunk",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Das Mitte-links-Lager um Magdalena Andersson gewann die Parlamentswahl knapp.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Das Oppositionsbündnis errang 176 Mandate, während der konservativ-rechte Block auf 173 Sitze kommt.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Die formelle Bestätigung des finalen Wahlergebnisses steht laut Spiegel und BBC noch aus."
-   ],
-   "positionen": [
-    [
-     "Ulf Kristersson (zurückgetretener Ministerpräsident)",
-     "Laut Kristersson wird die Regierungsbildung durch unterschiedliche Aussagen der Parteien vor dem Wahltag behindert; es braucht konstruktive Offenheit.",
-     "Tagesschau/ARD,Deutschlandfunk,Spiegel,BBC"
-    ],
-    [
-     "Magdalena Andersson (Oppositionsführerin)",
-     "Laut Andersson haben die schwedischen Bürger für eine neue Richtung des Landes gestimmt.",
-     "Spiegel,BBC"
-    ],
-    [
-     "Andreas Norlen (Parlamentspräsident)",
-     "Laut Norlen könnte die Regierungsbildung ein komplizierter Prozess werden.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen oder Stellungnahmen der Parteien wie der Schwedendemokraten oder der Linkspartei zu den aktuellen Koalitionsverhandlungen über die in den Texten genannten Punkte hinaus.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 17:13",
-     "fokus": "Rücktritt und offizielle Mandatsverteilung",
-     "text": "Berichtet ausführlich über Kristerssons Rücktritt auf X und das offizielle Endergebnis der Wahlbehörde von 176 zu 173 Sitzen.",
-     "url": "https://www.tagesschau.de/ausland/europa/schweden-parlamentswahl-ruecktritt-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 18:00",
-     "fokus": "Kurzmeldung zum Rücktritt",
-     "text": "Fasst den Rücktritt von Ministerpräsident Kristersson und die Erklärung auf X kompakt zusammen.",
-     "url": "https://www.deutschlandfunk.de/schwedischer-ministerpraesident-kristersson-erklaert-ruecktritt-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 14:04",
-     "fokus": "Hintergründe und inhaltliche Differenzen",
-     "text": "Beleuchtet die politischen Positionen der Parteien zur Wirtschafts- und Migrationspolitik sowie die historische Einordnung des Rechtsrucks.",
-     "url": "https://www.spiegel.de/ausland/mitte-links-buendnis-gewinnt-wahl-in-schweden-knapp-ministerpraesident-kristersson-tritt-ab-a-32154b9a-e571-4ef8-b951-55fde1be4aca#ref=rss",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "17.09.26, 14:41",
-     "fokus": "Internationale Einordnung und historische Daten",
-     "text": "Erwähnt historische Regierungsbildungsdauern, die Rolle der Schwedendemokraten und detaillierte Angaben zur Stimmendifferenz.",
-     "url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Stimmenabstand",
-     "Die BBC nennt als Detail, dass etwa 50.000 Stimmen die beiden Blöcke trennten, während die anderen Medien sich auf die Sitzverteilung konzentrieren."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Ministerpräsident Ulf Kristersson und Oppositionsführerin Magdalena Andersson",
-    "was": "Rücktritt des Regierungschefs nach einer knappen Wahlniederlage",
-    "wann": "17. September 2026",
-    "wo": "Schweden",
-    "wie": "Durch eine knappe Mehrheit von 176 zu 173 Sitzen",
-    "warum": "Laut Kristersson wegen komplizierter Bedingungen für die Regierungsbildung",
-    "quellenlage": "Offizielles Wahlergebnis der schwedischen Wahlbehörde und Erklärungen auf X"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Nach der Parlamentswahl in Schweden hat der konservative Ministerpräsident Ulf Kristersson seinen Rücktritt bekannt gegeben. Das gab der Politiker am Donnerstag auf der Plattform X bekannt. Laut Tagesschau/ARD und Deutschlandfunk folgte der Schritt nach einer Niederlage seines konservativ-rechten Parteienblöcks. Das Mitte-links-Lager um die frühere Ministerpräsidentin Magdalena Andersson errang bei der Wahl eine knappe Mehrheit. Nach Angaben der schwedischen Wahlbehörde, zitiert vom Spiegel, sicherte sich das Oppositionsbündnis 176 der insgesamt 349 Sitze im Parlament. Der regierende rechtsgerichtete Block kam demnach auf 173 Mandate.",
-      "Der bisherige Regierungschef Ulf Kristersson veröffentlichte sein Rücktrittsgesuch an den Parlamentspräsidenten auf X. Laut Tagesschau/ARD erklärte Kristersson in dem Schreiben, dass das Wahlergebnis die Bildung einer neuen Regierung kompliziert mache. Die unterschiedlichen Aussagen der Parteien vor dem Wahltag könnten jegliche denkbare Regierungsbildung und Koalition behindern. Nun sei konstruktive Offenheit der Parteien nötig. Es müssten Gespräche geführt werden, um Lösungen zu finden und die Voraussetzungen für eine stabile Regierung zu schaffen.",
-      "Laut BBC schätzte der britische Sender, dass etwa 50.000 Stimmen die beiden politischen Blöcke in dem Land mit rund zehn Millionen Einwohnern trennten. Die BBC berichtete ferner, dass vorläufige Ergebnisse und die dazugehörige Berichterstattung seit dem Wahlsonntag liefen. Am Mittwoch begannen Wahlkomitees mit der Auszählung spätest eingereichter Briefwahlen sowie Stimmen aus dem Ausland. Die offiziellen Ergebnisse müssen in den kommenden Tagen noch formell bestätigt und voraussichtlich am Wochenende finalisiert werden."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Die vier Parteien, die die Sozialdemokratin Magdalena Andersson als mögliche Regierungschefin unterstützen, errangen laut dem offiziellen Endergebnis der Tagesschau/ARD exakt 176 Mandate. Die konservative Regierungskoalition von Kristersson kommt demnach auf 173 Sitze. Zum rechtsgerichteten Block gehört laut Spiegel neben Kristerssons Moderaten auch die rechtspopulistische Partei der Schwedendemokraten sowie die Christdemokraten und die Liberalen. Der Spiegel ergänzt, dass der Erfolg des Oppositionsbündnisses den Rechtsruck der vergangenen vier Jahre beendet, in denen Schweden seine liberale Migrationspolitik deutlich verschärft hatte.",
-      "Zu den möglichen Koalitionspartnern der Sozialdemokraten zählen laut Tagesschau/ARD die Linken und die Grünen sowie die liberale Zentrumspartei. Letztere hatte jedoch vorab erklärt, nicht mit den Linken regieren zu wollen. Der Spiegel und die Tagesschau weisen darauf hin, dass die Zentrumspartei eine Zusammenarbeit mit der Linkspartei ablehnt, während die Linkspartei auf einer Regierungsbeteiligung beharrt. Ebenso widersprechen sich die Parteien in der Wirtschaftspolitik, wo Grüne und Linke eine stärkere Besteuerung von Vermögen fordern, was von der Zentrumspartei abgelehnt wird. In der Migrationspolitik will Andersson laut Spiegel trotz anderer Wünsche potenzieller Partner an einem restriktiven Kurs festhalten.",
-      "Laut BBC hatte Kristersson den Schwedendemokraten im Falle eines Wahlsiegs Kabinettsposten versprochen. Die Schwedendemokraten, die im Parlament zuletzt drittstärkste Kraft waren und die Regierung von außen stützten, verloren bei der Wahl laut BBC jedoch erstmals seit ihrem Einzug in das Parlament im Jahr 2010 an Unterstützung und büßten drei Prozentpunkte gegenüber 2022 ein. Die BBC führt aus, dass die Partei in den 1980er Jahren von Anhängern des Nationalsozialismus gegründet und jahrzehntelang gemieden wurde, sich seit Mitte der 2000er Jahre jedoch umbenannt hat."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Schweden blickt auf eine lange Tradition von Minderheits- und Koalitionsregierungen zurück. Im Parlament, dem sogenannten Riksdag, gibt es laut BBC zwei große politische Blöcke mit jeweils vier Parteien. Die Sozialdemokraten haben schwedische Regierungen seit dem Zweiten Weltkrieg regelmäßig angeführt und waren laut BBC für den Großteil des letzten Jahrhunderts die dominante politische Kraft des Landes. Magdalena Andersson war bereits von November 2021 bis Oktober 2022 die erste weibliche Ministerpräsidentin Schwedens, bevor Ulf Kristersson die Wahl im Herbst 2022 gewann.",
-      "Die Regierungsbildung in Schweden gilt traditionsgemäß als anspruchsvoll. Die BBC führt als historische Vergleiche an, dass es nach der Wahl 2022 insgesamt 37 Tage dauerte, bis eine Regierung gebildet war, während der Prozess im Jahr 2018 sogar 134 Tage in Anspruch nahm. An der prowestlichen und proukrainischen Ausrichtung des Landes dürfte sich laut übereinstimmenden Analysen im Spiegel durch den Regierungswechsel voraussichtlich nichts ändern."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Das Parlament in Schweden heißt Riksdag und hat 349 Sitze. Nach dem Rücktritt eines Ministerpräsidenten führt der Parlamentspräsident Gespräche mit allen Parteien, um einen Kandidaten für die nächste Regierungsspitze vorzuschlagen. Dieser Vorschlag wird anschließend vom Parlament in einer Abstimmung behandelt.",
-      "Eine Minderheitsregierung ist eine Regierung, die nicht über die absolute Mehrheit der Sitze im Parlament verfügt. Sie ist bei Abstimmungen auf die Unterstützung oder Stimmenthaltung anderer Parteien angewiesen, um Gesetze zu verabschieden."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Der zurückgetretene Ministerpräsident Ulf Kristersson erklärte auf der Plattform X, das Wahlergebnis mache die Regierungsbildung kompliziert, und forderte konstruktive Offenheit aller Parteien, wie Tagesschau/ARD, Deutschlandfunk und Spiegel berichten. Die Oppositionsführerin Magdalena Andersson erklärte am Sonntagabend vor Anhängern laut Spiegel, Schweden werde bei einer Bestätigung des Ergebnisses eine neue Regierung bekommen. Auf Instagram äußerte Andersson laut BBC zudem, das schwedische Volk habe für eine neue Richtung gestimmt.",
-      "Der Parlamentspräsident Andreas Norlen erklärte im schwedischen Fernsehen laut Spiegel, dass die Regierungsbildung ein komplizierter Prozess werden könne. Die genaue Zusammensetzung einer Koalition sei unklar."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Der Parlamentspräsident wird nun laut Tagesschau/ARD und BBC die nächsten Schritte zur Bildung einer neuen Regierung einleiten. Dazu führt der Parlamentspräsident Gespräche mit allen Parteien, um einen neuen Regierungschef vorzuschlagen. Das offizielle Endergebnis der Wahl soll in den kommenden Tagen von der Wahlbehörde formell bestätigt werden."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Sonntag",
-     "Die Parlamentswahl in Schweden findet statt und die Auszählung der Stimmen beginnt."
-    ],
-    [
-     "Donnerstag",
-     "Ministerpräsident Ulf Kristersson erklärt nach der Bekanntgabe des offiziellen Endergebnisses seinen Rücktritt."
-    ]
-   ],
-   "bild": {
-    "art": "person",
-    "suchbegriff": "Ulf Kristersson"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Keine inhaltlichen Korrekturen erforderlich, da alle Aussagen durch die Berichte belegt sind."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Riksdag",
-      "So heisst das Parlament in Schweden. Dort sitzen Abgeordnete, die von den Bürgerinnen und Bürgern gewählt werden."
-     ],
-     [
-      "Minderheitsregierung",
-      "Eine Regierung, die im Parlament keine absolute Mehrheit der Sitze hat. Sie braucht bei Abstimmungen oft die Hilfe von anderen Parteien."
-     ],
-     [
-      "Koalition",
-      "Ein Bündnis aus mehreren Parteien, die gemeinsam eine Regierung bilden."
-     ]
-    ],
-    "fragen": [
-     "Welche Schwierigkeiten kann es bei der Bildung einer Regierung geben, wenn verschiedene Parteien unterschiedliche politische Ziele verfolgen?",
-     "Welche Rolle spielt der Parlamentspräsident nach dem Rücktritt eines Ministerpräsidenten in Schweden?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Sitze im Parlament gewann das linke Oppositionslager bei der Wahl in Schweden?",
-      "optionen": [
-       "173 Sitze",
-       "176 Sitze",
-       "349 Sitze"
-      ],
-      "richtig": 1,
-      "erklaerung": "Das Oppositionsbündnis um Magdalena Andersson sicherte sich laut den Berichten 176 der 349 Sitze."
-     },
-     {
-      "frage": "Wer ist nach der Parlamentswahl als Ministerpräsident von Schweden zurückgetreten?",
-      "optionen": [
-       "Ulf Kristersson",
-       "Magdalena Andersson",
-       "Andreas Norlen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Der konservative Ministerpräsident Ulf Kristersson gab seinen Rücktritt auf der Plattform X bekannt."
-     },
-     {
-      "frage": "Wie viele Sitze hat das schwedische Parlament insgesamt?",
-      "optionen": [
-       "176 Sitze",
-       "173 Sitze",
-       "349 Sitze"
-      ],
-      "richtig": 2,
-      "erklaerung": "Das Parlament in Schweden, der Riksdag, besteht aus 349 Sitzen."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Nach der Parlamentswahl in Schweden ist Ministerpräsident Ulf Kristersson zurückgetreten. Das linke Oppositionslager hat die Wahl knapp gewonnen.",
-    "absaetze": [
-     "Bei der Parlamentswahl in Schweden hat das Oppositionsbündnis unter Führung von Magdalena Andersson 176 Sitze gewonnen. Der bisherige Regierungschef Ulf Kristersson kam mit seinem Block auf 173 Sitze.",
-     "Wegen des knappen Ergebnisses und unterschiedlicher Meinungen der beteiligten Parteien wird die Bildung einer neuen Regierung als schwierig eingeschätzt. Der Parlamentspräsident führt nun Gespräche mit den Parteien.",
-     "Ministerpräsident Kristersson gab seinen Rücktritt auf der Internetplattform X bekannt. Die Wahlbehörde hat die offiziellen Zahlen veröffentlicht, die endgültige Bestätigung steht noch aus."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Nach der Parlamentswahl in Schweden ist Ministerpräsident Ulf Kristersson zurückgetreten. Sein konservatives Bündnis verlor die Abstimmung gegen das linke Oppositionslager knapp mit 173 zu 176 Sitzen."
-    ],
-    "lang": [
-     "In Schweden hat das linke Oppositionslager die Parlamentswahl knapp gewonnen. Das Bündnis um Magdalena Andersson errang 176 Sitze, während der bisherige Regierungschef Ulf Kristersson auf 173 Sitze kam. Nach der Niederlage hat Kristersson seinen Rücktritt erklärt und den Weg für eine neue Regierung freigemacht."
-    ],
-    "einfach": [
-     "Schweden hat ein neues Parlament gewählt. Ministerpräsident Ulf Kristersson ist nach einer Niederlage zurückgetreten. Nun wird eine neue Regierung gesucht."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ulf_Kristersson_on_29_June_2023.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Ulf_Kristersson_on_29_June_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Ulf_Kristersson_on_29_June_2023.jpg",
-    "urheber": "European Commission (Christophe Licoppe)",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-    "art": "person",
     "hinweis": "Archivfoto"
    },
    "version": 3
