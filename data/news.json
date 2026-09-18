@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-18T08:57:14.356Z",
+ "stand": "2026-09-18T14:00:01.848Z",
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
@@ -7,36 +7,283 @@
  ],
  "nachrichten": [
   {
-   "id": "brandanschlag-synagoge-wuppertal",
+   "id": "malaria-todesfall-frankfurt",
    "rubrik": "Deutschland",
-   "zeit": "2026-09-17T22:44:21.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "Festnahme nach Feuer an Synagoge in Wuppertal",
-   "vorspann": "Nach einem Feuer an einer Synagoge in Wuppertal hat die Polizei einen Verdächtigen festgenommen. Der Staatsschutz hat die Ermittlungen zu dem Vorfall aufgenommen.",
+   "zeit": "2026-09-18T13:50:33.000Z",
+   "aktualisiert": "aktualisiert um 16:00 Uhr",
+   "titel": "Todesfall nach Malaria-Infektion in Frankfurt am Main",
+   "vorspann": "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben. Das Gesundheitsamt hat zu erhöhter Aufmerksamkeit in der Nähe des Flughafens aufgerufen.",
    "eil": false,
    "zusammenfassung": [
-    "An der Bergischen Synagoge in Wuppertal hat ein 37-jähriger Verdächtiger am Donnerstag ein Feuer gelegt. Niemand wurde verletzt, das Feuer konnte von Angehörigen schnell gelöscht werden.",
-    "Die Polizei hat den Verdächtigen festgenommen, der Staatsschutz ermittelt. Der Vorfall ereignet sich kurz vor dem jüdischen Feiertag Jom Kippur.",
-    "Vertreter des Zentralrats der Juden und der Politik verurteilten die Tat und verwiesen auf wiederkehrende Muster antisemitischer Gewalt.",
-    "Die Ermittlungen dauern an, und am Tatort sind weitere Mahnwachen geplant."
+    "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
+    "Die verstorbene Person lebte mit einer weiteren Erkrankten im Stadtteil Schwanheim nahe dem Flughafen.",
+    "Beide hatten zuvor keine entsprechenden Endemiegebiete bereist.",
+    "Das Gesundheitsamt geht davon aus, dass eine eingeschleppte Mücke die Infektionen verursacht hat."
    ],
    "einig": [
     [
-     "Ein 37-jähriger Verdächtiger hat an einer Synagoge in Wuppertal ein Feuer gelegt und wurde festgenommen.",
+     "Eine an Malaria erkrankte Person aus Frankfurt am Main ist gestorben.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die betroffenen Personen lebten in Frankfurt-Schwanheim nahe dem Flughafen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die Personen hatten zuvor kein Malaria-Endemiegebiet bereist.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Der genaue gesundheitliche Zustand der zweiten erkrankten Person wurde vom Gesundheitsamt nicht mitgeteilt."
+   ],
+   "positionen": [
+    [
+     "Gesundheitsamt Frankfurt (Leiter Peter Tinnemann)",
+     "Geht davon aus, dass eine Mücke vom Flughafen so weit geflogen ist und die Personen infiziert hat.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Robert Koch-Institut (RKI)",
+     "Teilte mit, dass die Betroffenen in unterschiedlichen Haushalten lebten.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Es fehlen direkte Aussagen von Angehörigen der betroffenen Personen oder behandelnden Ärzten der Uniklinik, da der Spiegel-Artikel hinter einer Bezahlschranke liegt.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 15:50",
+     "fokus": "Lokale Malaria-Fälle in Frankfurt",
+     "text": "Der Bericht schildert ausführlich die neuen Malaria-Fälle in Frankfurt-Schwanheim. Er zitiert den Leiter des Gesundheitsamtes und nennt Details zu den Betroffenen sowie früheren Fällen.",
+     "url": "https://www.tagesschau.de/inland/regional/hessen/malaria-faelle-frankfurt-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:59",
+     "fokus": "Hintergrund des Ausbruchs",
+     "text": "Das Nachrichtenmagazin thematisiert den Ausbruch in Frankfurt Schwanheim. Der Text des Artikels ist wegen einer Bezahlschranke nicht voll abrufbar, wird jedoch in der Zeitleiste geführt.",
+     "url": "https://www.spiegel.de/wissenschaft/malaria-in-frankfurt-schwanheim-wie-gefaehrlich-ist-der-ausbruch-a-1fd29de2-2f80-4c21-989d-72749d98a780#ref=rss",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Verfügbarkeit",
+     "Der Artikel von Spiegel ist durch eine Paywall nicht vollständig lesbar, während Tagesschau/ARD alle Details liefert."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Eine an Malaria erkrankte Person in Frankfurt",
+    "was": "Eine infizierte Person ist gestorben",
+    "wann": "18.09.2026",
+    "wo": "Frankfurt am Main, Deutschland",
+    "wie": "Durch Infektion, vermutlich übertragen durch eine eingeschleppte Mücke",
+    "warum": "Laut Gesundheitsamt durch eine vom Flughafen her eingeflogene Mücke",
+    "quellenlage": "Berichte stützen sich auf das Gesundheitsamt Frankfurt und das Robert Koch-Institut"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In Frankfurt am Main ist eine Person nach einer Infektion mit Malaria gestorben. Dies gab das Gesundheitsamt der Stadt am Donnerstag bekannt. Die betroffene Person hatte zuvor kein Gebiet bereist, in dem die Krankheit üblicherweise vorkommt. Das Gesundheitsamt teilte mit, dass die verstorbene Person in Schwanheim in der Nähe des Flughafens gewohnt hat.",
+      "Neben dem Todesfall gab es einen weiteren Krankheitsfall in demselben Stadtteil. Laut den Angaben befanden sich beide Personen in stationärer Behandlung im Krankenhaus. Zum genauen gesundheitlichen Zustand der zweiten erkrankten Person machte das Gesundheitsamt keine Angaben. Die beiden Betroffenen lebten nach Angaben des Robert Koch-Instituts in unterschiedlichen Haushalten.",
+      "Die Stadt hatte am Dienstag über die beiden neuen Malaria-Fälle in Schwanheim berichtet. Beide Personen hatten weder ein sogenanntes Endemiegebiet bereist noch am Flughafen gearbeitet. Damit sind in Frankfurt in diesem laufenden Jahr nun drei Menschen nach einer Malaria-Infektion gestorben. Im Sommer hatten sich bereits sechs Mitarbeiter des Flughafenbetreibers Fraport infiziert, von denen zwei starben."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Nach Informationen der hessenschau handelt es sich bei der verstorbenen Person um einen fünfundsiebzig Jahre alten Mann. Die zweite erkrankte Person ist eine sechzig Jahre alte Frau, welche im Uniklinikum Frankfurt behandelt wird. Die beiden Fälle in Schwanheim traten in einem Umkreis von fünf Kilometern um den Frankfurter Flughafen auf. Das Gesundheitsamt betonte, dass seit Anfang der Woche keine weiteren Fälle gemeldet wurden.",
+      "Das Gesundheitsamt rief Bürgerinnen und Bürger, die nahe dem Flughafen leben oder arbeiten, zu erhöhter Aufmerksamkeit auf. Bei Beschwerden sollen diese Personen ärztlichen Rat einholen und dabei auf ihren Wohnort hinweisen. Auch Ärzte wurden angewiesen, bei Patienten mit unklarem Fieber in Frankfurt eine mögliche Malaria-Erkrankung in Betracht zu ziehen. Diese Maßnahme gilt besonders für Menschen aus der Flughafenregion.",
+      "Der Leiter des Gesundheitsamtes, Peter Tinnemann, äußerte sich am Dienstag gegenüber der hessenschau zu den Hintergründen. Mücken, die über den Flughafen nach Frankfurt gelangen, können sich über mehrere Kilometer fortbewegen. In diesem Fall wird davon ausgegangen, dass ein Insekt so weit geflogen ist und die beiden Personen infiziert hat."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Malaria ist eine Infektionskrankheit. Die Übertragung erfolgt in der Regel durch Mücken. Endemiegebiete sind Regionen, in denen die Krankheit dauerhaft vorkommt.",
+      "Gelegentlich können Mücken als blinde Passagiere in Flugzeugen aus anderen Regionen nach Europa eingeschleppt werden. Diese Tiere können nach dem Verlassen des Flugzeugs in der näheren Umgebung Menschen stechen. Die aktuellen Fälle in Frankfurt stehen nach Einschätzung der Behörden in diesem Zusammenhang mit dem dortigen Flughafen.",
+      "Bereits im Sommer dieses Jahres kam es zu Infektionen bei Mitarbeitern des Flughafenbetreibers Fraport. Damals infizierten sich sechs Beschäftigte, von denen zwei starben."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Gesundheitsamt ist eine staatliche Behörde auf kommunaler Ebene. Zu ihren Aufgaben gehört der Schutz der Bevölkerung vor übertragbaren Krankheiten. Sie registriert Infektionsfälle und leitet Schutzmaßnahmen ein.",
+      "Das Robert Koch-Institut, kurz RKI, ist eine Bundesbehörde in Deutschland. Es erforscht Infektionskrankheiten und berät bei gesundheitlichen Fragen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der Leiter des Gesundheitsamtes Frankfurt, Peter Tinnemann, erklärte am Dienstag gegenüber der hessenschau, dass Mücken über den Flughafen nach Frankfurt kommen können. Er erläuterte, dass sich solche Insekten über mehrere Kilometer bewegen können. In dem konkreten Fall geht das Amt davon aus, dass eine Mücke so weit geflogen ist und die beiden Personen infiziert hat.",
+      "Das Gesundheitsamt Frankfurt teilte am Donnerstag mit, dass es sich bei dem Verstorbenen um eine der beiden Personen aus Schwanheim handelt. Die Behörde gab zudem an, dass sich beide Betroffenen in stationärer Behandlung befanden. Zum genauen Zustand der Erkrankten wurden keine Auskünfte erteilt.",
+      "Das Robert Koch-Institut gab an, dass die betroffenen Personen in unterschiedlichen Haushalten lebten."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Das Gesundheitsamt hat angekündigt, die Situation in Frankfurt weiter zu beobachten. Bürgerinnen und Bürger in der Nähe des Flughafens sollen bei Beschwerden sofort ärztliche Hilfe aufsuchen und den Wohnort nennen. Ärzte in Frankfurt sind angewiesen, bei unklarem Fieber auf Malaria zu achten."
+     ]
+    }
+   ],
+   "zeitleiste": [],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Zu diesem Artikel wird wegen des Todesfalls kein Bild gezeigt."
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Zahlen in Text und Video zur besseren Lesbarkeit und Konformität ausgeschrieben. Kleinere redaktionelle Anpassungen zur reinen Faktenstreue aus den Quellen vorgenommen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Malaria",
+      "Eine Infektionskrankheit, die durch Parasiten übertragen wird und meistens von Mücken auf den Menschen gelangt."
+     ],
+     [
+      "Gesundheitsamt",
+      "Eine staatliche Behörde auf der Ebene einer Stadt oder eines Kreises, die sich um den Schutz der Gesundheit der Bevölkerung kümmert."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen internationale Verkehrswege wie Flughäfen bei der Verbreitung von Infektionskrankheiten?",
+     "Wie gehen Medien mit Informationen um, wenn wichtige Details durch Bezahlschranken nur eingeschränkt zugänglich sind?"
+    ],
+    "quiz": [
+     {
+      "frage": "In welchem Frankfurter Stadtteil wohnten die betroffenen Personen?",
+      "optionen": [
+       "Frankfurt-Schwanheim",
+       "Frankfurt-Höchst",
+       "Frankfurt-Sachsenhausen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel lebten die Personen im Stadtteil Schwanheim."
+     },
+     {
+      "frage": "Welche Vermutung äußert das Gesundheitsamt bezüglich der Übertragung?",
+      "optionen": [
+       "Eine Mücke wurde über den Flughafen eingeschleppt und flog weit.",
+       "Die Personen haben sich auf einer Auslandsreise angesteckt.",
+       "Die Übertragung erfolgte von Mensch zu Mensch im selben Haushalt."
+      ],
+      "richtig": 0,
+      "erklaerung": "Das Gesundheitsamt geht davon aus, dass eine Mücke vom Flughafen so weit geflogen ist und die Personen infiziert hat."
+     },
+     {
+      "frage": "Was teilt das Robert Koch-Institut zu den Betroffenen mit?",
+      "optionen": [
+       "Sie arbeiteten alle am Flughafen.",
+       "Sie lebten in unterschiedlichen Haushalten.",
+       "Sie wurden gemeinsam in einer Praxis behandelt."
+      ],
+      "richtig": 1,
+      "erklaerung": "Nach Angaben des Robert Koch-Instituts lebten die Betroffenen in unterschiedlichen Haushalten."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Frankfurt am Main ist ein Mensch an Malaria gestorben. Die Person hatte zuvor keine Reise in ein Gebiet gemacht, in dem es Malaria gibt.",
+    "absaetze": [
+     "Das Gesundheitsamt teilte mit, dass die verstorbene Person in Frankfurt-Schwanheim in der Nähe des Flughafens gewohnt hat. Eine zweite erkrankte Person aus derselben Gegend wird im Krankenhaus behandelt.",
+     "Beide Personen waren zuvor nicht in einem Malaria-Gebiet. Das Gesundheitsamt geht davon aus, dass eine Mücke vom Flughafen die Menschen gestochen und infiziert hat.",
+     "Menschen in der Nähe des Flughafens sollen bei Beschwerden sofort zum Arzt gehen und ihren Wohnort nennen. Auch Ärzte sollen bei unklarem Fieber an Malaria denken."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
+     "Mehrere Medien berichten übereinstimmend, dass die Betroffenen zuvor nicht in einem Endemiegebiet waren.",
+     "Das Gesundheitsamt vermutet eine durch den Flughafen eingeschleppte Mücke als Ursache."
+    ],
+    "lang": [
+     "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
+     "Mehrere Medien berichten übereinstimmend über diesen Vorfall in Frankfurt-Schwanheim.",
+     "Die betroffenen Personen wohnten in der Nähe des Flughafens.",
+     "Sie hatten zuvor keine entsprechenden Gebiete bereist.",
+     "Das Gesundheitsamt geht von einer eingeschleppten Mücke als Überträger aus."
+    ],
+    "einfach": [
+     "In Frankfurt ist ein Mensch an Malaria gestorben.",
+     "Die Person hat vorher keine Reise in ein Malaria-Gebiet gemacht.",
+     "Das Gesundheitsamt vermutet eine Mücke als Ursache.",
+     "Die Behörden raten zu Aufmerksamkeit bei Fieber in der Nähe des Flughafens."
+    ]
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "version": 4
+  },
+  {
+   "id": "brandanschlag-synagoge-wuppertal",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-18T13:28:32.000Z",
+   "aktualisiert": "aktualisiert um 16:00 Uhr",
+   "titel": "Brandanschlag auf Synagoge in Wuppertal verhindert",
+   "vorspann": "An der Bergischen Synagoge in Wuppertal ist ein Feuer an einem Nebeneingang gelegt worden. Die Polizei hat einen Tatverdächtigen festgenommen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Ein 37-jähriger Mann hat an einer Synagoge in Wuppertal ein Feuer gelegt.",
+    "Mitarbeiter der Gemeinde konnten den Brand schnell löschen, es gab keine Verletzten.",
+    "Die Polizei nahm den Tatverdächtigen fest, der Staatsschutz ermittelt wegen eines antisemitischen Motivs.",
+    "Politiker und Vertreter verschiedener Glaubensrichtungen verurteilten den Brandanschlag scharf."
+   ],
+   "einig": [
+    [
+     "Ein 37-jähriger Verdächtiger wurde nach einem versuchten Brandanschlag auf die Synagoge in Wuppertal festgenommen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Das Feuer an einem Nebeneingang der Synagoge konnte von Angehörigen der Gemeinde schnell gelöscht werden.",
      [
       "Tagesschau/ARD",
       "ZDFheute"
      ]
     ],
     [
-     "Das Feuer konnte am Nebeneingang der Synagoge schnell gelöscht werden und es gab keine Verletzten.",
+     "Es gab keine Verletzten und der Sachschaden war gering.",
      [
       "Tagesschau/ARD",
       "ZDFheute"
      ]
     ],
     [
-     "Der Vorfall ereignet sich kurz vor dem jüdischen Feiertag Jom Kippur.",
+     "Der Zentralrat der Juden weist auf den zeitlichen Zusammenhang mit dem Feiertag Jom Kippur hin.",
      [
       "Tagesschau/ARD",
       "ZDFheute"
@@ -44,40 +291,40 @@
     ]
    ],
    "unklar": [
-    "Um welche genaue brennbare Flüssigkeit es sich handelte, ist laut ZDFheute zunächst nicht bekannt gewesen."
+    "Ob der Täter konkrete Hinterleute oder Kontakte zu extremistischen Organisationen hatte, ist laut den Berichten noch nicht vollständig geklärt."
    ],
    "positionen": [
     [
-     "Josef Schuster (Präsident des Zentralrats der Juden)",
-     "Der Zeitpunkt des Anschlags ist nicht zufällig gewählt und folgt dem Muster antisemitischer Gewalt an Feiertagen.",
+     "Zentralrat der Juden (Josef Schuster)",
+     "Der Zeitpunkt des Anschlags ist gezielt gewählt, um Angst zu verbreiten und jüdisches Leben zu verdrängen.",
      "Tagesschau/ARD,ZDFheute"
     ],
     [
-     "Ruth Yael Tutzinger (Ehrenvorsitzende Jüdische Kultusgemeinde Wuppertal)",
-     "Es gibt einen wachsenden Antisemitismus und immer mehr Anfeindungen gegen Juden.",
+     "Oberbürgermeisterin Miriam Scherff",
+     "Die Tat wird scharf verurteilt, es gibt keinen Platz für Gewalt und Antisemitismus in Wuppertal.",
      "Tagesschau/ARD"
     ],
     [
-     "Orthodoxe Rabbinerkonferenz Deutschland",
-     "Wer jüdisches Leben angreift, greift die Demokratie an; jüdisches Leben muss in Deutschland sicher möglich sein.",
-     "ZDFheute"
+     "Interessenvertretung Wuppertaler Moscheen und Ditib",
+     "Angriffe auf Gotteshäuser sind durch nichts zu rechtfertigen und gefährden das friedliche Zusammenleben.",
+     "Tagesschau/ARD"
     ],
     [
-     "Solinger CDU",
-     "Der Brandanschlag wird verurteilt und der Gemeinde wird uneingeschränkte Solidarität ausgesprochen.",
+     "Katholische Stadtkirche Wuppertal",
+     "Die Tat ist Ausdruck von Judenhass; jüdisches Leben gehört fest zur Stadt.",
      "Tagesschau/ARD"
     ]
    ],
-   "fehlend": "Stimmen von Bundes- oder Landespolitikern außerhalb der lokalen Ebene oder des Zentralrats.",
+   "fehlend": "Keine Angaben von Seiten des Beschuldigten selbst oder dessen Verteidigung.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "17.09.26, 21:48",
-     "fokus": "Reaktionen vor Ort und Zeugenaussagen",
-     "text": "Die Tagesschau berichtet ausführlich über Mahnwachen in Wuppertal, Reaktionen der lokalen Politik sowie das Interview mit der Ehrenvorsitzenden der Gemeinde.",
+     "datum": "18.09.26, 14:18",
+     "fokus": "Umfassende Details zu Ermittlungen und Reaktionen",
+     "text": "Die Tagesschau liefert viele Hintergründe zu den Durchsuchungen, Funden in der Wohnung und Reaktionen lokaler Institutionen.",
      "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/brandanschlag-synagoge-wuppertal-100.html",
      "video": false
     },
@@ -87,8 +334,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "17.09.26, 21:07",
-     "fokus": "Einordnung und internationale Vergleiche",
-     "text": "Das ZDF legt den Fokus stark auf die Erklärungen des Zentralrats zur historischen Einordnung, zu Statistiken über Antisemitismus und frühere internationale Anschläge.",
+     "fokus": "Einordnung durch den Zentralrat der Juden",
+     "text": "Das ZDF legt einen Schwerpunkt auf die Aussagen von Josef Schuster und historische Vergleiche zu früheren antisemitischen Anschlägen.",
      "url": "https://www.zdfheute.de/panorama/kriminalitaet/synagoge-wuppertal-brand-feuer-gelegt-100.html",
      "video": false
     },
@@ -97,9 +344,9 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "18.09.26, 00:44",
-     "fokus": "Kurzmeldung zum Sachverhalt",
-     "text": "Der Deutschlandfunk bietet eine sehr kurze Zusammenfassung des versuchten Brandanschlags und der Festnahme.",
+     "datum": "18.09.26, 15:28",
+     "fokus": "Kompakte Kurzmeldung",
+     "text": "Der Deutschlandfunk meldet kurz die Festnahme nach dem versuchten Brandanschlag.",
      "url": "https://www.deutschlandfunk.de/mann-soll-feuer-an-tuer-von-wuppertaler-synagoge-gelegt-haben-106.html",
      "video": false
     }
@@ -107,155 +354,1195 @@
    "unterschiede": [
     [
      "Ausführlichkeit",
-     "Während Tagesschau/ARD und ZDFheute sehr detailliert über die Reaktionen und Hintergründe berichten, beschränkt sich der Deutschlandfunk auf eine kurze Nachricht über die Festnahme."
+     "Tagesschau/ARD und ZDFheute bieten lange Berichte mit vielen Zitaten und Hintergrundinfos, während der Deutschlandfunk eine kurze Meldung publiziert hat."
     ]
    ],
    "wfragen": {
-    "wer": "Ein 37-jähriger Verdächtiger afghanischer Herkunft",
-    "was": "Ein Feuer an einer Synagoge gelegt",
-    "wann": "17.09.2026",
-    "wo": "Wuppertal",
-    "wie": "Durch das Ausbreiten und Anzünden einer brennbaren Flüssigkeit",
-    "warum": "Noch unklar",
-    "quellenlage": "Polizei, Zentralrat der Juden, Rabbinerkonferenz und Berichte"
+    "wer": "Ein 37-jähriger Mann aus Afghanistan",
+    "was": "Ein versuchter Brandanschlag auf eine Synagoge",
+    "wann": "17. September 2026",
+    "wo": "Wuppertal, Nordrhein-Westfalen",
+    "wie": "Durch eine brennbare Flüssigkeit an einer Tür",
+    "warum": "Antisemitismus vermuten Ermittler und Zentralrat, laut Berichten",
+    "quellenlage": "Polizei, Staatsanwaltschaft, Zentralrat der Juden, Medienberichte"
    },
    "artikel": [
     {
-     "ueberschrift": "Das ist passiert",
+     "ueberschrift": "Das Ereignis in Wuppertal",
      "absaetze": [
-      "An der Bergischen Synagoge in Wuppertal ist ein Feuer gelegt worden. Ein Mann soll einen Beutel mit brennbarer Flüssigkeit an das Gebäude geworfen haben. Nach ersten Ermittlungen hat der Verdächtige versucht, ein Feuer an einem Nebeneingang zu legen.",
-      "Der Tatverdächtige besitzt laut Polizei die afghanische Staatsangehörigkeit. Nach Angaben der Behörden wurde der Verdächtige festgenommen. Der Staatsschutz hat die Ermittlungen aufgenommen.",
-      "Bei dem Vorfall wurde nach offiziellen Angaben niemand verletzt. Mitarbeiter der Synagoge konnten das Feuer sehr schnell löschen. Der Sachschaden an dem Gebäude blieb gering."
+      "An der Bergischen Synagoge in Wuppertal ist am Donnerstag ein Feuer an einem Nebeneingang gelegt worden. Nach Angaben der Polizei wurde dabei niemand verletzt. Der Sachschaden an dem Gebäude blieb gering. Die Staatsschutzabteilung hat die Ermittlungen in dem Fall aufgenommen.",
+      "Der Tatverdächtige soll nach polizeilichen Erkenntnissen am frühen Nachmittag eine brennbare Flüssigkeit auf den Treppenstufen ausgebreitet und entzündet haben. Um welche Flüssigkeit es sich handelte, war zunächst nicht bekannt. Mitarbeiter der Synagoge konnten das Feuer nach Angaben der Einsatzkräfte sehr schnell löschen.",
+      "Die Synagoge wird nach Angaben der Tagesschau/ARD rund um die Uhr von der Polizei bewacht. Dieser Umstand hat nach Einschätzung von Beobachtern möglicherweise dazu beigetragen, den Tatverdächtigen schnell zu ermitteln. Die Polizei nahm den 37-jährigen Mann kurz nach der Tat fest."
      ]
     },
     {
-     "ueberschrift": "Die Einzelheiten",
+     "ueberschrift": "Details zum Verdächtigen",
      "absaetze": [
-      "Der Vorfall ereignete sich am frühen Donnerstagnachmittag. Laut Polizei hat der Mann um 14:00 Uhr eine brennbare Flüssigkeit auf den Treppenstufen vor der Tür ausgebreitet und angezündet. Um welche Flüssigkeit es sich genau handelte, wurde zunächst nicht bekannt.",
-      "Die Synagoge wird nach Angaben der Tagesschau/ARD praktisch rund um die Uhr von Polizeibeamten bewacht. Möglicherweise konnte deshalb der Verdächtige schnell ausgemacht werden. Zudem befindet sich auch am Barmer Rathaus laut Polizei eine erhöhte Polizeipräsenz als Sicherungsmaßnahme im Zusammenhang mit dem Anschlag.",
-      "Der Verdächtige ist laut ZDFheute polizeibekannt und hat nach ersten Erkenntnissen allein gehandelt. Die Synagoge im Wuppertaler Stadtteil Barmen war im Jahr 2002 eröffnet worden und gehört zur Jüdischen Kultusgemeinde, der laut Zentralrat gut 2.000 Menschen angehören."
+      "Bei dem Festgenommenen handelt es sich um einen 37-jährigen Mann mit afghanischer Staatsangehörigkeit. Laut Polizei und Staatsanwaltschaft handelte er nach ersten Erkenntnissen allein. Er ist den Behörden bereits polizeilich bekannt. Wegen der Bedrohung einer Nachbarin ist er vorbestraft.",
+      "Bei einer Durchsuchung der Wohnung des Verdächtigen fanden die Ermittler ein Mobiltelefon sowie mehrere Messer und eine Machete. Diese Gegenstände waren laut Angaben der Staatsanwaltschaft griffbereit abgelegt. Das gefundene Mobiltelefon wird derzeit von den Behörden ausgewertet.",
+      "Gegen den Beschuldigten wurde ein Haftbefehl erlassen. Sollten die Gerichte ihn wegen versuchter schwerer Brandstiftung verurteilen, droht ihm eine Freiheitsstrafe zwischen drei Monaten und 15 Jahren. Nach Angaben der Tagesschau/ARD wird zudem nach zwei jungen Frauen gesucht, die sich zur Tatzeit in der Nähe aufhielten."
      ]
     },
     {
-     "ueberschrift": "Hintergrund",
+     "ueberschrift": "Hintergrund und Einordnung",
      "absaetze": [
-      "In drei Tagen beginnt der höchste jüdische Feiertag Jom Kippur. Der Zeitpunkt des Vorfalls weckt Erinnerungen an frühere Taten. In Wuppertal war bereits im Jahr 2014 ein Brandanschlag auf die Synagoge verübt worden.",
-      "Damals waren drei Palästinenser für die Tat verantwortlich. Sie gaben im Prozess an, Brandsätze geschleudert zu haben, um die Aufmerksamkeit auf den Gaza-Konflikt zu lenken. Die Täter wurden damals zu Haft- beziehungsweise Bewährungsstrafen verurteilt.",
-      "Der Zentralrat der Juden verweist zudem auf internationale Vorfälle wie die Anschläge in Sydney und Manchester im Jahr 2025 sowie den Anschlag in Halle im Jahr 2019. Laut einer Umfrage des Zentralrats fühlen sich jüdische Gemeinden in Deutschland unsicher, da antisemitische Vorfälle zunehmen."
+      "Der Vorfall ereignete sich wenige Tage vor dem höchsten jüdischen Feiertag Jom Kippur. Der Zentralrat der Juden sieht in dem Zeitpunkt kein Zufallselement. Laut Josef Schuster erinnert das Vorgehen an frühere Angriffe auf jüdische Einrichtungen. Als Vergleiche nennt der Zentralrat den Anschlag in Halle im Jahr 2019 sowie Vorfälle in Manchester und Sydney im Jahr 2025.",
+      "In Wuppertal gab es bereits im Jahr 2014 einen Brandanschlag auf die Synagoge. Damals hatten drei Täter Brandsätze auf das Gebäude geschleudert und waren später zu Freiheitsstrafen auf Bewährung verurteilt worden. Die Täter hatten damals angegeben, die Aufmerksamkeit auf den Gaza-Konflikt lenken zu wollen.",
+      "Die Jüdische Kultusgemeinde Wuppertal zählt laut Angaben des Zentralrats der Juden gut 2.000 Mitglieder. Die Bergische Synagoge wurde im Jahr 2002 eröffnet. Jüdische Gemeinden in Deutschland verzeichnen laut einer Umfrage des Zentralrats eine steigende Zahl antisemitischer Vorfälle."
      ]
     },
     {
-     "ueberschrift": "Zum Verständnis",
+     "ueberschrift": "Reaktionen aus Politik und Gesellschaft",
      "absaetze": [
-      "Eine Synagoge ist ein jüdisches Versammlungs- und Gotteshaus, das für religiöse Feiern und das Gebet genutzt wird. Der Zentralrat der Juden in Deutschland ist die Dachorganisation der jüdischen Landesverbände und Gemeinden im Land.",
-      "Der Staatsschutz ist eine spezialisierte Abteilung der deutschen Polizei. Sie ist für die Verfolgung von politisch motivierten Straftaten zuständig."
+      "Der Präsident des Zentralrats der Juden, Josef Schuster, erklärte laut den Berichten, dass der Zeitpunkt des Angriffs bewusst gewählt sei. Die Sicherheitsbehörden stünden in der Pflicht, die Gottesdienste zu schützen. Man wolle sich vom religiösen Leben nicht abhalten lassen.",
+      "Wuppertals Oberbürgermeisterin Miriam Scherff verurteilte die Tat laut Tagesschau/ARD in einer Pressemitteilung scharf. Sie bezeichnete den Vorfall als schäbig und betonte ihre Haltung gegen Gewalt und Antisemitismus. Vor der Synagoge versammelten sich Menschen zu einer spontanen Mahnwache.",
+      "Die Interessenvertretung Wuppertaler Moscheen und die Ditib-Gemeinde sprachen der jüdischen Gemeinde Solidarität aus. Laut den Berichten erklärten sie, dass Angriffe auf Gotteshäuser das friedliche Zusammenleben gefährden. Auch die katholische Stadtkirche verurteilte die Tat als Judenhass."
      ]
     },
     {
-     "ueberschrift": "Reaktionen",
+     "ueberschrift": "Weiteres Vorgehen der Behörden",
      "absaetze": [
-      "Josef Schuster, der Präsident des Zentralrats der Juden, erklärte laut Tagesschau/ARD und ZDFheute, dass der Zeitpunkt des Anschlags nicht zufällig gewählt sei. Er sprach von einem Muster antisemitischer Gewalt und erklärte, dass der Täter am helllichten Tag gehandelt habe.",
-      "Ruth Yael Tutzinger, die 95-jährige Ehrenvorsitzende der Jüdischen Kultusgemeinde in Wuppertal, berichtete im WDR-Interview laut Tagesschau/ARD von einem wachsenden Antisemitismus und anhaltendem Hass auf Juden. Die Solinger CDU äußerte sich laut Tagesschau/ARD ebenfalls bestürzt und verurteilte den Brandanschlag.",
-      "Die Orthodoxe Rabbinerkonferenz Deutschland erklärte laut ZDFheute in einer Mitteilung, dass Angriffe auf jüdisches Leben zugleich Angriffe auf die Demokratie seien. Jüdinnen und Juden müssten in Deutschland sicher leben können."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Der festgenommene Verdächtige wird derzeit befragt. Die Polizei kündigte an, sich erst dann zur Identität des Mannes zu äußern, wenn die Spurensicherung am Tatort abgeschlossen ist.",
-      "Die Ermittlungen des Staatsschutzes laufen. Spontane Mahnwachen von Vertretern vieler Parteien und Glaubensrichtungen fanden bereits statt und sind auch für Freitagvormittag im Wuppertaler Stadtteil Barmen geplant."
+      "Die Ermittlungen der Staatsschutzabteilung und der Staatsanwaltschaft dauern an. Die Polizei wertet die Beweismittel aus der Wohnung des Verdächtigen aus. Dazu gehören das sichergestellte Mobiltelefon und die aufgefundenen Waffen.",
+      "Zudem sucht the Polizei nach Zeugen des Vorfalls. Insbesondere zwei junge Frauen, die sich zum Tatzeitpunkt in der Nähe der Synagoge aufgehalten haben sollen, werden von den Beamten gesucht. Die Sicherheitsmaßnahmen für jüdische Einrichtungen im Hinblick auf den Feiertag Jom Kippur wurden thematisiert."
      ]
     }
    ],
    "zeitleiste": [],
-   "bild": {
-    "art": "keins",
-    "suchbegriff": "keins"
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Aufgrund des Themas von Gewalt wird kein Bild angezeigt."
+    }
+   ],
+   "ort": {
+    "name": "Wuppertal, Deutschland"
    },
    "geprueft": true,
    "korrekturen": [
-    "Wertende Wörter wie 'schärfste' bei der CDU und 'schockierend' wurden im Text entfernt, um die neutrale Berichterstattung zu wahren."
+    "Keine Änderungen am Entwurf erforderlich, da alle Fakten belegt sind."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
       "Synagoge",
-      "Eine Synagoge ist ein jüdisches Versammlungs- und Gotteshaus, in dem gebetet und gefeiert wird."
+      "Eine Synagoge ist das jüdische Haus für den Gottesdienst und das Gebet."
+     ],
+     [
+      "Jom Kippur",
+      "Jom Kippur ist der höchste jüdische Feiertag, an dem Gläubige fasten und beten."
      ],
      [
       "Staatsschutz",
-      "Der Staatsschutz ist eine spezielle Abteilung der Polizei für politisch motivierte Straftaten."
-     ],
-     [
-      "Antisemitismus",
-      "Antisemitismus bezeichnet den Hass, die Feindschaft oder die Diskriminierung gegenüber jüdischen Menschen."
+      "Der Staatsschutz ist eine spezielle Abteilung der Polizei für politische Straftaten und den Schutz des Staates."
      ]
     ],
     "fragen": [
-     "Wie berichten verschiedene Medien über denselben Vorfall?",
-     "Welche Reaktionen zeigen Politiker und Vertreter der jüdischen Gemeinde nach solchen Taten?"
+     "Wie bewertet ihr die Solidaritätsbekundungen verschiedener Religionsgemeinschaften nach dem Anschlag?",
+     "Welche Rolle spielen historische Vergleiche bei der Berichterstattung über solche Taten?"
     ],
     "quiz": [
      {
-      "frage": "Wer hat den Verdächtigen nach dem Feuer an der Synagoge festgenommen?",
+      "frage": "Wie alt ist der Tatverdächtige, den die Polizei festgenommen hat?",
+      "optionen": [
+       "Einundzwanzig Jahre",
+       "Siebenunddreißig Jahre",
+       "Fünfundvierzig Jahre"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD und ZDFheute ist der Verdächtige siebenunddreißig Jahre alt."
+     },
+     {
+      "frage": "Wer konnte das Feuer am Nebeneingang der Synagoge schnell löschen?",
       "optionen": [
        "Die Feuerwehr",
-       "Die Polizei",
-       "Der Zentralrat der Juden"
+       "Mitarbeiter der Synagoge",
+       "Passanten auf der Straße"
       ],
       "richtig": 1,
-      "erklaerung": "Laut den Berichten hat die Polizei den Tatverdächtigen festgenommen."
+      "erklaerung": "Laut Tagesschau/ARD und ZDFheute konnten Angehörige beziehungsweise Mitarbeiter der Synagoge das Feuer sehr schnell löschen."
      },
      {
-      "frage": "Wann ereignete sich der Vorfall im Verhältnis zu einem Feiertag?",
+      "frage": "Welcher jüdische Feiertag steht kurz bevor?",
       "optionen": [
-       "Kurz vor dem jüdischen Feiertag Jom Kippur",
-       "Direkt nach Weihnachten",
-       "Zum Beginn des neuen Jahres"
+       "Sabbat",
+       "Pessach",
+       "Jom Kippur"
       ],
-      "richtig": 0,
-      "erklaerung": "In den Berichten steht, dass die Tat drei Tage vor dem jüdischen Feiertag Jom Kippur stattfand."
-     },
-     {
-      "frage": "Was geschah mit dem Feuer an der Synagoge?",
-      "optionen": [
-       "Es brannte das ganze Gebäude nieder.",
-       "Es wurde von Mitarbeitern schnell gelöscht.",
-       "Es erlosch von selbst nach mehreren Stunden."
-      ],
-      "richtig": 1,
-      "erklaerung": "Mitarbeiter der Synagoge konnten das Feuer laut Polizei sehr schnell löschen."
+      "richtig": 2,
+      "erklaerung": "In den Berichten von Tagesschau/ARD und ZDFheute wird mehrfach erwähnt, dass der Anschlag kurz vor dem höchsten jüdischen Feiertag Jom Kippur stattfand."
      }
     ]
    },
    "einfach": {
-    "vorspann": "In Wuppertal hat ein Mann ein Feuer an einer Synagoge gelegt. Die Polizei hat den Verdächtigen festgenommen.",
+    "vorspann": "In Wuppertal hat es einen Brandanschlag auf eine Synagoge gegeben. Die Polizei hat einen Verdächtigen festgenommen.",
     "absaetze": [
-     "An der Bergischen Synagoge in Wuppertal hat ein 37-jähriger Mann am Donnerstag ein Feuer an einem Nebeneingang gelegt. Mitarbeiter der Synagoge konnten das Feuer schnell löschen, sodass niemand verletzt wurde.",
-     "Kurz nach der Tat nahm die Polizei einen Verdächtigen fest. Der Staatsschutz ermittelt nun in diesem Fall. Die Tat passierte nur drei Tage vor dem wichtigen jüdischen Feiertag Jom Kippur.",
-     "Vertreter jüdischer Gemeinden und Politiker verurteilten den Vorfall. Sie erklärten, dass solche Angriffe oft gezielt an Feiertagen passieren, um Angst zu verbreiten."
+     "An einem Nebeneingang der Bergischen Synagoge in Wuppertal ist ein Feuer gelegt worden. Mitarbeiter der Synagoge konnten das Feuer schnell löschen. Es wurde niemand verletzt und der Sachschaden ist gering.",
+     "Die Polizei hat einen siebenunddreißigjährigen Mann aus Afghanistan als Tatverdächtigen festgenommen. Die Ermittler gehen von einem antisemitischen Motiv aus. In seiner Wohnung wurden Waffen und ein Handy gefunden.",
+     "Der Zentralrat der Juden weist darauf hin, dass der Angriff kurz vor dem jüdischen Feiertag Jom Kippur stattfand. Auch Politiker und Vertreter anderer Religionen verurteilten die Tat scharf. Die Ermittlungen des Staatsschutzes dauern an."
     ]
    },
    "video": {
     "kurz": [
-     "Nach einem Feuer an einer Synagoge in Wuppertal hat die Polizei einen Verdächtigen festgenommen. Niemand wurde bei dem Vorfall verletzt."
+     "In Wuppertal hat es einen Brandanschlag auf eine Synagoge gegeben.",
+     "Die Polizei nahm einen siebenunddreißigjährigen Tatverdächtigen fest.",
+     "Der Staatsschutz ermittelt nun wegen eines antisemitischen Motivs."
     ],
     "lang": [
-     "In Wuppertal hat ein 37-jähriger Mann ein Feuer an einer Synagoge gelegt. Mitarbeiter der Gemeinde konnten die Flammen schnell löschen. Es wurde niemand verletzt. Die Polizei nahm den Tatverdächtigen fest, und der Staatsschutz hat die Ermittlungen aufgenommen."
+     "In Wuppertal ist ein Feuer an einer Synagoge gelegt worden.",
+     "Mehrere Medien berichten übereinstimmend über diesen Vorfall.",
+     "Mitarbeiter der Gemeinde konnten das Feuer sehr schnell löschen.",
+     "Verletzt wurde bei dem versuchten Brandanschlag niemand.",
+     "Die Polizei hat einen siebenunddreißigjährigen Verdächtigen festgenommen."
     ],
     "einfach": [
-     "Ein Mann hat ein Feuer an einer Synagoge in Wuppertal gelegt. Die Polizei hat den Verdächtigen sofort festgenommen."
+     "In Wuppertal gab es einen Brandanschlag auf eine Synagoge.",
+     "Niemand wurde verletzt, weil das Feuer schnell gelöscht wurde.",
+     "Die Polizei hat einen verdächtigen Mann festgenommen.",
+     "Politiker und Gemeinden verurteilen die Tat scharf."
     ]
    },
-   "version": 3,
-   "bilder": [
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Wuppertal, Deutschland",
+    "lat": 51.264,
+    "lon": 7.178
+   },
+   "version": 4
+  },
+  {
+   "id": "kanada-eu-assoziierte-mitgliedschaft",
+   "rubrik": "Welt",
+   "zeit": "2026-09-18T13:28:32.000Z",
+   "aktualisiert": "aktualisiert um 16:00 Uhr",
+   "titel": "Debatte über assoziierte EU-Mitgliedschaft für Kanada",
+   "vorspann": "Kanadas Premierminister Mark Carney hat sich im Europaparlament positiv zu einer möglichen assoziierten EU-Mitgliedschaft geäußert. US-Präsident Donald Trump reagierte darauf mit Kritik und Warnungen vor Handelsbeschränkungen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Kanadas Premierminister Mark Carney hat sich im Europaparlament für eine engere Zusammenarbeit mit der EU ausgesprochen.",
+    "EU-Kommissionschefin von der Leyen hatte zuvor den Vorschlag einer assoziierten EU-Mitgliedschaft für Kanada eingebracht.",
+    "Bundesfinanzminister Klingbeil unterstützte das Vorhaben und forderte eine zügige Umsetzung.",
+    "US-Präsident Trump kritisierte die Annäherung scharf und drohte mit hohen Zöllen oder Handelsbeschränkungen."
+   ],
+   "einig": [
+    [
+     "Kanadas Premier Mark Carney hat im Europaparlament in Straßburg eine engere Partnerschaft und eine mögliche assoziierte EU-Mitgliedschaft befürwortet.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "US-Präsident Donald Trump hat die Annäherung zwischen der EU und Kanada kritisiert und mit Zöllen oder Handelseinschränkungen gedroht.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "EU-Kommissionschefin Ursula von der Leyen hat den Vorschlag einer assoziierten Mitgliedschaft für Kanada unterbreitet.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Wie genau die engere Zusammenarbeit und das Partnerschaftsmodell rechtlich und praktisch ausgestaltet werden sollen, ist laut Tagesschau/ARD bisher unklar.",
+    "Ob und unter welchen Bedingungen die Drohungen von US-Präsident Trump umgesetzt werden, ließ er laut Tagesschau/ARD offen."
+   ],
+   "positionen": [
+    [
+     "Mark Carney (Kanadischer Premierminister)",
+     "Befürwortet eine engere Partnerschaft und eine assoziierte EU-Mitgliedschaft zur Stärkung der gemeinsamen Werte und des Handels.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "Ursula von der Leyen (EU-Kommissionschefin)",
+     "Schlug eine assoziierte Mitgliedschaft ohne Stimmrechte und Sitze in Entscheidungsgremien vor.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Jörg Klingbeil (Bundesfinanzminister)",
+     "Begrüßte das Konzept der assoziierten EU-Mitgliedschaft und forderte eine zügige Umsetzung.",
+     "Deutschlandfunk"
+    ],
+    [
+     "Donald Trump (US-Präsident)",
+     "Kritisierte die Pläne und drohte mit Zöllen sowie der Einstellung des Handels.",
+     "Tagesschau/ARD,Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen aus den nationalen Parlamenten der EU-Mitgliedstaaten oder der kanadischen Opposition",
+   "medien": [
     {
-     "art": "keins",
-     "suchbegriff": "",
-     "bildunterschrift": ""
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 19:19",
+     "fokus": "Rede von Carney und Reaktionen",
+     "text": "Berichtet ausführlich über Carnes Auftritt im EU-Parlament, die Reaktionen von Ursula von der Leyen und die Drohungen von US-Präsident Trump.",
+     "url": "https://www.tagesschau.de/ausland/europa/bruessel-carney-eu-besuch-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 15:28",
+     "fokus": "Statement von Jörg Klingbeil",
+     "text": "Meldet kurz die Befürwortung des Bundesfinanzministers für das Vorhaben und dessen Forderung nach raschen Schritten.",
+     "url": "https://www.deutschlandfunk.de/klingbeil-assoziierte-eu-mitgliedschaft-jetzt-schnell-angehen-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:49",
+     "fokus": "Hintergrund zum Handelsstreit",
+     "text": "Zitiert Carney mit Aussagen zur Partnerschaft und ordnet die Annäherung als Reaktion auf den eskalierten Handelsstreit mit den USA ein.",
+     "url": "https://www.spiegel.de/ausland/kanada-eu-annaeherung-als-antwort-auf-us-praesidenten-a-1322e7a6-b9f7-4c8b-893b-4f8e2f6c5f73#ref=rss",
+     "video": false
     }
    ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Die Tagesschau liefert einen sehr langen Bericht mit vielen Details zu Carnes Rede und Trumps Drohungen, während der Deutschlandfunk eine kurze Meldung über Klingbeil bringt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Kanadas Premier Carney, EU-Kommissionschefin von der Leyen und US-Präsident Trump",
+    "was": "Beratung über eine neue assoziierte EU-Mitgliedschaft für Kanada",
+    "wann": "17. und 18. September 2026",
+    "wo": "Straßburg und Dublin",
+    "wie": "Durch eine Rede im Europaparlament und politische Erklärungen",
+    "warum": "Laut Carney und von der Leyen zur Stärkung der Zusammenarbeit",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, Spiegel"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Treffen im Europaparlament",
+     "absaetze": [
+      "Kanadas Premierminister Mark Carney hat sich im Europaparlament in Straßburg zu einer engeren Partnerschaft mit der Europäischen Union geäußert. Laut Tagesschau/ARD wurde er dort äußerst freundlich empfangen und erhielt langen Beifall. Er sprach frei und fast ohne Manuskript vor den Abgeordneten. Dabei betonte er die Möglichkeiten für eine engere Zusammenarbeit zwischen Europa und Kanada. Nach Angaben des Spiegel bestätigte Carney in seiner Rede, dass Kanada grundsätzlich offen ist für eine Art EU-Sondermitgliedschaft.",
+      "Die Initiative geht auf einen Vorschlag der EU-Kommissionschefin Ursula von der Leyen zurück. Laut Tagesschau/ARD hatte sie Carney als Ehrengast zu ihrer Rede im EU-Parlament eingeladen. Dabei unterbreitete sie ihm das Angebot einer assoziierten Mitgliedschaft. Diese Form der Anbindung existiert im bisherigen EU-Recht noch nicht. Da Vollmitglieder ausschließlich europäische Staaten sein dürfen, könnte es sich um eine Sonderform handeln.",
+      "Ein solches Modell würde laut Tagesschau/ARD ohne Stimmrechte und ohne Sitze in politischen Entscheidungsgremien wie dem Europäischen Parlament oder dem EU-Ministerrat auskommen. Dennoch könnte es viele Vorteile bringen. Genannt wurden dabei Erleichterungen für Studenten beim Erasmus-Programm sowie die Personenfreizügigkeit. Bürgerinnen und Bürger könnten sich demnach in Kanada niederlassen und dort Arbeit suchen und umgekehrt.",
+      "Bundesfinanzminister Klingbeil hat den Vorschlag einer assoziierten EU-Mitgliedschaft für Kanada begrüßt. Laut Deutschlandfunk forderte der SPD-Politiker in Dublin, dass das Thema einer engen Partnerschaft jetzt zügig angegangen werden solle. Dort führt er Gespräche mit seinen EU-Kollegen."
+     ]
+    },
+    {
+     "ueberschrift": "Wirtschaftliche Verbindungen und Abkommen",
+     "absaetze": [
+      "Kanada und die EU arbeiten bereits durch das Handelsabkommen CETA zusammen. Laut Tagesschau/ARD ist dieses Abkommen seit nunmehr neun Jahren vorläufig in Kraft. Sowohl Carney als auch von der Leyen bezeichneten das Abkommen als ein Erfolgsmodell. Dies gilt laut Tagesschau/ARD ungeachtet der Probleme mit einigen EU-Staaten, die das Abkommen wegen möglicher Agrar-Konkurrenz aus Kanada noch nicht vollständig ratifiziert haben.",
+      "Carney verzichtete in seiner Rede darauf, die vollständige Ratifizierung einzufordern, da die Verantwortlichen nicht im Saal anwesend waren. Laut Tagesschau/ARD wird dieses Thema jedoch beim bevorstehenden EU-Kanada-Gipfel in Montreal erwartet. Der Handel zwischen den Regionen läuft bereits. Die geplante Partnerschaft soll über bestehende Abkommen wie CETA hinausgehen.",
+      "Ein zentrales Motiv in Carnes Rede war der gemeinsame Widerstand gegen wirtschaftliche Erpressung. Laut Tagesschau/ARD wünscht er sich diesen Widerstand von Europa mehr denn je. Die Rede enthielt nach Angaben der Berichte indirekte Seitenhiebe gegen US-Präsident Donald Trump und die USA. Carney betonte, dass Kanada und die EU keine Schönwetter-Alliierten seien.",
+      "Carney erklärte im Europaparlament laut Tagesschau/ARD, dass niemand Kanada vorschreiben werde, mit wem internationale Abkommen geschlossen werden dürfen. Eine Partnerschaft müsse auf Werten begründet sein und nicht auf Profit-Überlegungen oder Eigensinn. Für eine EU-Vollmitgliedschaft sieht der kanadische Premier laut Tagesschau/ARD wenig Chancen, wobei er die Motive weniger im geltenden Recht als in geopolitischen Überlegungen sieht."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und Drohungen der USA",
+     "absaetze": [
+      "Die angebahnte Annäherung stieß auf Kritik des US-Präsidenten. Laut Spiegel und Tagesschau/ARD hatte Trump bereits im Vorfeld klargestellt, dass ihm die engere Partnerschaft zwischen der EU und Kanada nicht gefällt. Er will seinen Einfluss nutzen, um eine solche Entwicklung zu verhindern, da ihm das Motiv einer verringerten Abhängigkeit von den USA nicht behagt.",
+      "Am Mittwoch sendete Trump laut Spiegel eine Warnung an Kanada und die EU. Er kündigte an, dass er die Maßnahmen bei auch nur geringfügiger Betrachtung als feindseligen Akt werten werde. In diesem Fall drohte er damit, sehr hohe Zölle zu verhängen oder den Handel mit Europa in vielen Bereichen einzustellen.",
+      "In der Nacht zu Donnerstag richtete Trump laut Tagesschau/ARD erneute Drohungen an die Adresse der EU. Er wiederholte die Warnung vor hohen Zöllen oder der Einstellung des Handels. Ob, zu welchem Zeitpunkt und unter welchen konkreten Bedingungen diese Drohungen umgesetzt werden sollen, ließ der US-Präsident laut Tagesschau/ARD offen.",
+      "Von diesen möglichen Konsequenzen wollen sich die Beteiligten laut Tagesschau/ARD nicht beeindrucken lassen. Ein Sprecher der EU-Kommission erklärte, dass sich die Partnerschaft gegen niemanden richte und der eigenen Stärke diene. Laut Spiegel ist die Annäherung auch eine Antwort auf einen Handelsstreit, den Trumps Regierung dem kanadischen Land beschert hatte und der zuletzt wieder eskaliert war."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Europäische Parlament ist das Parlament der Europäischen Union und vertritt die Bürgerinnen und Bürger der Mitgliedstaaten. Es berät und verabschiedet gemeinsam mit dem Rat der Europäischen Union Rechtsvorschriften. Die EU-Kommission leitet die EU und schlägt neue Gesetze vor; an ihrer Spitze steht die EU-Kommissionschefin.",
+      "Das Handelsabkommen CETA ist ein Freihandelsabkommen zwischen der EU und Kanada, das den Handel mit Waren und Dienstleistungen erleichtern soll. Eine assoziierte Mitgliedschaft ist eine vertragliche Sonderform der Bindung an eine Staatengemeinschaft."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Mittwoch",
+     "EU-Kommissionspräsidentin von der Leyen schlägt Kanadas assoziierte EU-Mitgliedschaft vor; US-Präsident Trump äußert sich kritisch"
+    ],
+    [
+     "Donnerstag",
+     "Kanadas Premierminister Carney äußert sich im EU-Parlament positiv zu dem Vorschlag"
+    ],
+    [
+     "Mittwoch",
+     "EU-Kommissionspräsidentin von der Leyen schlägt Kanadas assoziierte EU-Mitgliedschaft vor und US-Präsident Trump äußert sich kritisch."
+    ],
+    [
+     "Mittwoch",
+     "EU-Kommissionspräsidentin von der Leyen schlägt Kanadas assoziierte EU-Mitgliedschaft vor; US-Präsident Trump äußert sich kritisch."
+    ],
+    [
+     "Donnerstag",
+     "Kanadas Premierminister Carney äußert sich im EU-Parlament positiv zu dem Vorschlag und reagiert auf Drohungen der USA."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Mark Carney politician",
+     "bildunterschrift": "Der kanadische Premierminister Mark Carney äußerte sich im Europaparlament positiv zu einer engeren Partnerschaft mit der EU."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "European Parliament Strasbourg building",
+     "bildunterschrift": "Das Europäische Parlament in Straßburg war der Ort der Rede von Premierminister Mark Carney."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Ursula von der Leyen politician",
+     "bildunterschrift": "EU-Kommissionschefin Ursula von der Leyen hatte den Vorschlag einer assoziierten Mitgliedschaft für Kanada unterbreitet."
+    }
+   ],
+   "ort": {
+    "name": "Straßburg, Frankreich"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Zitat im Quiz korrigiert und wertende Wörter im Text entfernt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Assoziierte Mitgliedschaft",
+      "Eine Sonderform der vertraglichen Bindung an eine Staatengemeinschaft, die im EU-Recht für Nicht-EU-Staaten bisher nicht als Standard vorgesehen ist."
+     ],
+     [
+      "CETA",
+      "Ein Freihandelsabkommen zwischen der Europäischen Union und Kanada, das den Handel mit Waren und Dienstleistungen erleichtern soll."
+     ],
+     [
+      "Zoll",
+      "Eine Abgabe, die beim Transport von Waren über Landesgrenzen hinweg erhoben wird, um den Import zu verteuern."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nennen Politiker für eine engere Zusammenarbeit zwischen der EU und Kanada?",
+     "Wie bewertest du die Drohungen von US-Präsident Trump gegenüber der EU?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat den Vorschlag für eine assoziierte EU-Mitgliedschaft Kanadas eingebracht?",
+      "optionen": [
+       "Ursula von der Leyen",
+       "Donald Trump",
+       "Mark Carney"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel hat EU-Kommissionschefin Ursula von der Leyen diesen Vorschlag unterbreitet."
+     },
+     {
+      "frage": "Wie hat Kanadas Premier Mark Carney auf den Vorschlag reagiert?",
+      "optionen": [
+       "Er hat ihn abgelehnt.",
+       "Er hat ihn positiv bewertet.",
+       "Er hat sich nicht dazu geäußert."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel hat Carney den Vorschlag im Europaparlament befürwortet."
+     },
+     {
+      "frage": "Wie hat US-Präsident Donald Trump auf die Annäherung reagiert?",
+      "optionen": [
+       "Er hat finanzielle Hilfe angeboten.",
+       "Er hat mit Zöllen und Handelsbeschränkungen gedroht.",
+       "Er hat die Pläne gelobt."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel hat Trump mit hohen Zöllen oder der Einstellung des Handels gedroht."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Kanada und die Europäische Union wollen in Zukunft vielleicht noch enger zusammenarbeiten.",
+    "absaetze": [
+     "Die Chefin der Europäischen Kommission, Ursula von der Leyen, hat vorgeschlagen, dass Kanada eine Art Sonder-Mitgliedschaft bei der EU bekommt.",
+     "Der kanadische Premierminister Mark Carney hat diesen Vorschlag bei einer Rede im Europäischen Parlament gelobt.",
+     "Auch der deutsche Bundesfinanzminister Jörg Klingbeil findet den Plan gut.",
+     "US-Präsident Donald Trump ist dagegen und hat mit hohen Zöllen gedroht."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Kanadas Premierminister Mark Carney war zu Gast im Europäischen Parlament.",
+     "Dort hat er über eine mögliche Sonder-Mitgliedschaft Kanadas in der EU gesprochen.",
+     "US-Präsident Donald Trump hat diese Annäherung kritisiert und mit Handelsstopps gedroht."
+    ],
+    "lang": [
+     "Mehrere Medien berichten über eine mögliche engere Partnerschaft zwischen der Europäischen Union und Kanada.",
+     "Kanadas Premierminister Mark Carney hat sich im Europäischen Parlament positiv zu einer Sonder-Mitgliedschaft geäußert.",
+     "Die Idee dazu kam von EU-Kommissionschefin Ursula von der Leyen.",
+     "Auch der deutsche Bundesfinanzminister Jörg Klingbeil unterstützt den Vorschlag.",
+     "US-Präsident Donald Trump findet die Pläne jedoch nicht gut."
+    ],
+    "einfach": [
+     "Kanada und die EU planen eine engere Zusammenarbeit.",
+     "Der kanadische Premierminister Mark Carney findet den Vorschlag gut.",
+     "US-Präsident Donald Trump hat darauf mit scharfer Kritik reagiert.",
+     "Wie genau die Partnerschaft aussieht, bleibt noch abzuwarten."
+    ]
+   },
+   "bildInfo": {
+    "titel": "Mark Carney.jpg",
+    "beschreibung": "Mark Carney at a Policy Exchange summer party, August 2015",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mark_Carney.jpg/1280px-Mark_Carney.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mark_Carney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Mark_Carney.jpg",
+    "urheber": "Policy Exchange",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "person",
+    "suchbegriff": "Mark Carney politician",
+    "bildunterschrift": "Mark Carney äußerte sich positiv zu einer möglichen assoziierten EU-Mitgliedschaft.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Mark Carney.jpg",
+     "beschreibung": "Mark Carney at a Policy Exchange summer party, August 2015",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mark_Carney.jpg/1280px-Mark_Carney.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mark_Carney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mark_Carney.jpg",
+     "urheber": "Policy Exchange",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Mark Carney politician",
+     "bildunterschrift": "Mark Carney äußerte sich positiv zu einer möglichen assoziierten EU-Mitgliedschaft.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "European Parliament Strasbourg Hemicycle - Diliff.jpg",
+     "beschreibung": "The Hemicycle of the European Parliament in Strasbourg during a plenary session in 2014.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/1280px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
+     "urheber": "Diliff",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "European Parliament Strasbourg building",
+     "bildunterschrift": "Der Plenarsaal des Europäischen Parlaments in Strasbourg.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Straßburg, Frankreich",
+    "lat": 48.585,
+    "lon": 7.751
+   },
+   "version": 4,
+   "bildVersucht": true
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-18T13:28:32.000Z",
+   "aktualisiert": "aktualisiert um 16:00 Uhr",
+   "titel": "Kraftstoffpreise erreichen neue Höchststände und Debatte über Entlastungen",
+   "vorspann": "Der Preis für Dieselkraftstoff hat an deutschen Tankstellen einen neuen Höchststand erreicht. In der Bundesregierung und auf EU-Ebene wird über Maßnahmen zur Entlastung der Verbraucher beraten.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die Kraftstoffpreise an deutschen Tankstellen bleiben hoch, wobei der Dieselpreis laut ADAC ein neues Rekordhoch von 2,471 Euro pro Liter erreicht hat.",
+    "Als Hauptursache für die hohen Spritpreise nennt die Tagesschau/ARD die militärische Eskalation im Nahen Osten und am Persischen Golf.",
+    "In der Bundesregierung wird über Entlastungsmaßnahmen debattiert, wobei SPD, CDU/CSU und Minister unterschiedliche Vorschläge wie Preisdeckel, Steuerrabatte oder Direktzahlungen einbringen.",
+    "Bundesfinanzminister Lars Klingbeil fordert eine EU-weite Übergewinnsteuer für Mineralölkonzerne, scheiterte damit vorerst jedoch bei der EU-Kommission in Dublin.",
+    "Konkrete Entlastungsbeschlüsse der Bundesregierung stehen nach Angaben des Deutschlandfunks weiterhin aus."
+   ],
+   "einig": [
+    [
+     "Der Dieselpreis im bundesweiten Durchschnitt lag bei 2,471 Euro pro Liter laut ADAC-Auswertung.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Super-Benzin E10 sank im Preis leicht auf durchschnittlich 2,308 Euro pro Liter.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Bundeskanzler Friedrich Merz hatte zuvor Entlastungen für die Verbraucher in Aussicht gestellt.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Bundesfinanzminister Lars Klingbeil setzt sich für eine Übergewinnsteuer ein.",
+     [
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Bundesregierung sich auf konkrete Entlastungsmaßnahmen einigen kann und welcher Weg dabei eingeschlagen wird, ist laut Tagesschau/ARD und Deutschlandfunk noch unklar.",
+    "Ob die EU-Kommission in den kommenden Monaten doch noch Vorschläge für eine Übergewinnsteuer vorlegt, ist laut EU-Wirtschaftskommissar Valdis Dombrovskis (zitiert im Spiegel) zum jetzigen Zeitpunkt noch offen."
+   ],
+   "positionen": [
+    [
+     "Bundeskanzler Friedrich Merz (CDU)",
+     "Hat baldige Hilfe und Entlastungen für Verbraucher zugesagt.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "SPD",
+     "Fordert einen Preisdeckel, der vom Bundeswirtschaftsministerium umgesetzt werden müsste.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Bundeswirtschaftsministerin Katherina Reiche (CDU)",
+     "Will Spritpreise per Steuerrabatt senken und schlägt Direktzahlungen an Geringverdiener vor.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Bundesfinanzminister Lars Klingbeil (SPD)",
+     "Fordert eine EU-weite Übergewinnsteuer für Mineralölkonzerne zur Entlastung der Bürger.",
+     "Deutschlandfunk,Spiegel,Zeit"
+    ],
+    [
+     "EU-Wirtschaftskommissar Valdis Dombrovskis",
+     "Lehnt einen EU-weiten Vorschlag für eine Übergewinnsteuer zum jetzigen Zeitpunkt ab.",
+     "Spiegel"
+    ],
+    [
+     "Französischer Finanzminister Roland Lescure",
+     "Betont, dass Vorschläge der Kommission maßgeschneidert sein müssen und Einheitslösungen vermieden werden sollten.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen von Verbraucherschützern, Vertretern der Mineralölkonzerne selbst sowie betroffenen Bürgern oder Wirtschaftsverbänden.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 11:45",
+     "fokus": "–",
+     "text": "Am zweiten Tag in Folge hat der Preis für Diesel ein neues Rekordhoch erreicht. Im Schnitt kostete der Liter zuletzt 2,471 Euro, so eine Auswertung des ADAC. Beim Benzinpreis ging es dagegen leicht nach unten.",
+     "url": "https://www.tagesschau.de/wirtschaft/energie/diesel-preis-rekordhoch-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "18.09.26, 15:28",
+     "fokus": "–",
+     "text": "Die Bundesregierung hat weiter keine konkreten Maßnahmen gegen die hohen Spritpreise beschlossen. Auch eine hochrangig besetzte Runde am Donnerstagabend brachte keine Einigung. Anfang der Woche hatte Bundeskanzler Merz Entlastungen angekündigt. Bundesfinanzminister Klingbeil hat sich jetzt noch einmal für eine Übergewinnsteuer ausgesprochen.",
+     "url": "https://www.deutschlandfunk.de/suche-nach-entlastungen-uebergewinnsteuer-senkung-der-stromsteuer-oder-direktzahlungen-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 14:13",
+     "fokus": "–",
+     "text": "Finanzminister Lars Klingbeil dringt auf eine Extra-Abgabe für Mineralölfirmen auf europäischer Ebene. Bei einem Treffen in Dublin stößt der SPD-Politiker aber auf wenig Begeisterung.",
+     "url": "https://www.spiegel.de/wirtschaft/service/uebergewinnsteuer-eu-laesst-finanzminister-lars-klingbeil-mit-plaenen-auflaufen-a-2cc95ff4-3834-4fbd-90b6-77f2faa2a33d#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 15:00",
+     "fokus": "–",
+     "text": "Angesichts hoher Spritpreise fordert Bundesfinanzminister Lars Klingbeil eine EU-weite Übergewinnsteuer für Mineralölkonzerne. Die EU-Kommission will das derzeit nicht.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/uebergewinnsteuer-mineraloelkonzerne-eu-kommission-lars-klingbeil-gxe",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "Während Tagesschau/ARD stark auf die konkreten Preisdaten des ADAC und die innerdeutschen Koalitionsdebatten eingeht, konzentriert sich der Spiegel vor allem auf den europäischen Streit um die Übergewinnsteuer in Dublin."
+    ]
+   ],
+   "wfragen": {
+    "wer": "ADAC, Bundesregierung, EU-Kommission und Minister",
+    "was": "Neue Rekordpreise für Diesel und Diskussionen über eine Übergewinnsteuer",
+    "wann": "18. September 2026",
+    "wo": "Deutschland und Dublin",
+    "wie": "Durch Datenauswertungen von Tankstellen und politische Verhandlungen auf nationaler sowie europäischer Ebene",
+    "warum": "Militärische Eskalation in Nahost und am Persischen Golf laut Tagesschau/ARD",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, Spiegel, Zeit"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Neue Rekordwerte beim Dieselpreis",
+     "absaetze": [
+      "Am zweiten Tag in Folge hat der Preis für Dieselkraftstoff an deutschen Tankstellen ein neues Rekordhoch erreicht. Im bundesweiten Durchschnitt kostete der Liter zuletzt 2,471 Euro, wie eine Auswertung des ADAC zeigt. Bereits am Mittwoch hatte der Dieselpreis mit durchschnittlich 2,453 Euro pro Liter den vorherigen Rekord gebrochen. Auch die Echtzeit-Auswertung des SWR-Datenteams ermittelte zuletzt neue Höchststände. Am Freitagvormittag lag der mittlere Preis für den Liter Diesel bei 2,45 Euro, basierend auf einer Analyse aller Kraftstoffpreise von 15.000 deutschen Tankstellen um 10 Uhr.",
+      "Der Spiegel und die Tagesschau/ARD berichten übereinstimmend über diese Entwicklung der Kraftstoffpreise. Die Auswertungen verdeutlichen die kontinuierliche Aufwärtsbewegung des Dieselpreises an den Zapfsäulen in Deutschland. Der ADAC erfasst diese Daten regelmässig im bundesweiten Durchschnitt. Die Datenteams des SWR ergänzen dies durch punktuelle Echtzeit-Analysen. Damit liegen präzise Werte zur Preisentwicklung für Verbraucher vor.",
+      "Die Situation an den Tankstellen betrifft Millionen Autofahrer in Deutschland täglich. Kraftstoffpreise unterliegen permanenten Schwankungen durch den Rohölmarkt. Die aktuellen Daten dokumentieren eine spürbare finanzielle Belastung für private Haushalte und Unternehmen. Der ADAC und das SWR-Datenteam beobachten diese Entwicklung fortlaufend. Die Erhöhungen spiegeln sich direkt in den täglichen Durchschnittspreisen wider."
+     ]
+    },
+    {
+     "ueberschrift": "Minimale Entspannung beim Benzinpreis",
+     "absaetze": [
+      "Eine minimale Entspannung an den Zapfsäulen gab es laut ADAC dagegen beim Benzin. Der Preis für Super-Benzin der Sorte E10 sank demnach am Donnerstag leicht auf im Schnitt 2,308 Euro pro Liter. Am Mittwoch hatte das Benzin noch durchschnittlich 2,314 Euro pro Liter gekostet. Dieser Rückgang stellt einen Gegensatz zur starken Verteuerung beim Diesel dar. Dennoch verbleiben auch die Benzinpreise auf einem insgesamt sehr hohen Niveau.",
+      "Der Spiegel bestätigt diesen leichten Preisrückgang bei der Sorte E10 ebenfalls in seinen Berichten. Die Differenz zum Vortag beträgt nur wenige Zehntelcent. Mehrere Medien, darunter die Tagesschau/ARD und der Spiegel, führen diese Zahlen an. Sie verdeutlichen, dass sich die Kraftstoffsorten in ihrer kurzfristigen Preisbewegung leicht voneinander unterscheiden. Grundlegende Entwarnung für Autofahrer lässt sich daraus jedoch nicht ableiten.",
+      "Die Verbraucher spüren die hohen Kosten an jeder Tankstelle im Land. Während Diesel kontinuierlich neue Höchstmarken erreicht, zeigt sich bei Benzin eine Seitwärtsbewegung mit leichter Tendenz nach unten. Die statistischen Erfassungen des ADAC bilden diese Nuancen genau ab. Wirtschaftliche Analysten und Autofahrer verfolgen diese Kennzahlen täglich. Sie bilden die Grundlage für die politische Debatte über mögliche Entlastungen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Ursachen der hohen Preise",
+     "absaetze": [
+      "Hintergrund der hohen Spritpreise ist laut Tagesschau/ARD die militärische Eskalation in Nahost und am Persischen Golf. Seit der Sperrung der Straße von Hormus ist demnach bereits seit längerer Zeit weniger Rohöl auf dem Weltmarkt verfügbar. Die Spannungen rund um die Meerenge Bab al-Mandab vor der Küste des Jemen haben die Situation nach Angaben der Tagesschau nochmals verschärft. Hinzu kommt, dass zahlreiche Energieanlagen durch Angriffe beschädigt wurden. Betroffen sind laut demselben Bericht Förderstätten und Raffinerien in den Golfstaaten.",
+      "Die weltweiten Verflechtungen des Energiemarktes führen somit direkt zu Preissteigerungen in Europa. Rohöl ist der zentrale Grundstoff für die Herstellung von Benzin und Diesel. Wenn die Förderung in wichtigen Regionen stockt oder Transportwege blockiert sind, reagieren die internationalen Märkte mit steigenden Preisen. Die Raffinerien müssen teurer einkaufen, was sich auf die Endkundenpreise auswirkt. Diese Zusammenhänge erklären das aktuelle Preisniveau an den Tankstellen.",
+      "Ob Öl-Industrie oder Staat von den Preisen profitieren, hängt laut Tagesschau/ARD von der jeweiligen Kraftstoffsorte ab. Die genaue Aufteilung der Einnahmen ist Gegenstand wirtschaftlicher Analysen. In der politischen Öffentlichkeit wird dieser Aspekt intensiv diskutiert. Die weltpolitischen Krisenherde bleiben der zentrale Treiber für die Marktlage. Eine Entspannung der Lage hängt massiv von der Entwicklung in den betroffenen Fördergebieten ab."
+     ]
+    },
+    {
+     "ueberschrift": "Politische Debatte über Entlastungen in Deutschland",
+     "absaetze": [
+      "In Deutschland läuft eine Debatte über Entlastungen für die Verbraucherinnen und Verbraucher. Bundeskanzler Friedrich Merz (CDU) hatte laut Tagesschau/ARD und Spiegel bereits baldige Hilfe zugesagt. Konkrete Maßnahmen ließ er dabei jedoch offen, wie der Spiegel ergänzt. Aktuell wird in der Bundesregierung noch über den richtigen Weg diskutiert. Eine hochrangig besetzte Runde am Donnerstagabend brachte laut dem Deutschlandfunk keine Einigung.",
+      "Die Koalitionspartner in der Bundesregierung vertreten unterschiedliche Ansätze zur Lösung des Problems. Die SPD fordert laut Tagesschau/ARD einen Preisdeckel, der vom Bundeswirtschaftsministerium umgesetzt werden müsste. Bundeswirtschaftsministerin Katherina Reiche (CDU) will die Spritpreise laut Tagesschau/ARD lieber per Steuerrabatt senken. Zudem schlägt Reiche Direktzahlungen an Geringverdiener vor. Bundesfinanzminister Lars Klingbeil hat sich laut Deutschlandfunk und Spiegel noch einmal für eine Übergewinnsteuer ausgesprochen.",
+      "Die Union aus CDU und CSU steht einer nationalen Übergewinnsteuer laut Spiegel eher skeptisch gegenüber. Sie hätte sich höchstens eine europäische Lösung vorstellen können. Dass Deutschland nun im Alleingang eine solche Steuer einführt, ist laut Spiegel noch schwerer vorstellbar. Die unterschiedlichen Vorstellungen der beteiligten Parteien erschweren eine schnelle Einigung innerhalb der Bundesregierung. Die Suche nach einem gemeinsamen Vorgehen dauert demnach an."
+     ]
+    },
+    {
+     "ueberschrift": "Rückschlag für Finanzminister Klingbeil auf EU-Ebene",
+     "absaetze": [
+      "Bundesfinanzminister Lars Klingbeil hat bei seinen Plänen für eine Übergewinnsteuer nun einen herben Rückschlag hinnehmen müssen, berichtet der Spiegel. Die EU-Kommission hat den Vorstoß des SPD-Politikers nach einer europäischen Übergewinnsteuer für Mineralölkonzerne vorerst zurückgewiesen. »Zum jetzigen Zeitpunkt legen wir keinen EU-weiten Vorschlag vor«, sagte EU-Wirtschaftskommissar Valdis Dombrovskis bei einem Treffen der Finanzminister der Mitgliedstaaten in Dublin laut Spiegel. Klingbeil macht sich laut Spiegel schon länger stark für eine solche Steuer, die Mineralölfirmen auf kräftig gestiegene Profite wegen des Irankriegs zahlen sollen.",
+      "Ende August startete Klingbeil nach Angaben des Spiegels dafür mit seinen Ressortkollegen aus Portugal, Spanien, Österreich, Italien und Polen einen Vorstoß auf EU-Ebene. In Dublin argumentierte Klingbeil laut Spiegel, wenn sechs Finanzminister dafür und andere nicht komplett dagegen seien, müsse die Kommission nun in die Puschen kommen, sich anstrengen und Optionen vorlegen. Es gehe um etwas Grundsätzliches. Auch Europa müsse dazu beitragen, dass die Spritpreise sinken und die Menschen im Alltag entlastet werden, so Klingbeil laut Spiegel. Spätestens bei der nächsten Zusammenkunft der Finanzminister Anfang Oktober müsse die Kommission Modelle vorlegen.",
+      "EU-Wirtschaftskommissar Dombrovskis entgegnete laut Spiegel auf diese Forderung, er wolle jetzt nicht beginnen, Ankündigungen für die kommenden Monate zu machen. Er betonte jedoch, dass durchaus die Möglichkeit bestehe, dass die Mitgliedstaaten eine solche Besteuerung von Übergewinnen einführen. Die Kommission beobachte die Lage und Entwicklungen selbstverständlich weiter und werde, sofern angemessen, Vorschläge und Reaktionen vorlegen, so Dombrovskis laut Spiegel. Auch die Zeit berichtet in ihrer Kurzmeldung über diesen Vorgang und hält fest, dass die EU-Kommission eine EU-weite Übergewinnsteuer für Ölkonzerne derzeit nicht plant."
+     ]
+    },
+    {
+     "ueberschrift": "Internationale Positionen und historische Vergleiche",
+     "absaetze": [
+      "Der französische Finanzminister Roland Lescure sagte in Dublin laut Spiegel, Vorschläge der Kommission müssten maßgeschneidert sein, denn der Schock betreffe alle, aber alle auf unterschiedliche Weise. Gespräche seien selbstverständlich willkommen, so Lescure laut Spiegel. Man wolle jedoch auch sicherstellen, dass keine Maßnahmen nach dem Prinzip »one size fits all« eingeführt werden, betonte der französische Minister laut Spiegel. Die europäischen Partner blicken somit aus unterschiedlichen Blickwinkeln auf die Krisenfolgen.",
+      "Ein historisches Vorbild für eine solche Übergewinnsteuer gibt es laut Spiegel durchaus. Während der Pandemie hatten Erdöl-, Gas-, Kohle- und Raffineriekonzerne außergewöhnliche Gewinne zeitweise mit 33 Prozent zusätzlich versteuern müssen, berichtet der Spiegel. Mehrere Milliarden Euro flossen auf diese Weise nach Deutschland, so der Spiegel weiter. Der Schritt ist unter Ökonomen allerdings umstritten. Manche Experten warnen vor einer Unterscheidung in »gute« und »schlechte« Gewinne sowie vor einer staatlichen Festlegung, ab wann Gewinne zu hoch sind. Andere verlangen laut Spiegel dagegen, dass Krisengewinne schnell wegbesteuert werden.",
+      "Die Zeit widmet dem Thema ebenfalls Aufmerksamkeit und fasst zusammen, dass die EU-Kommission vorerst keine Übergewinnsteuer plant. Bundesfinanzminister Klingbeil treibt das Thema dennoch weiter voran. Die Diskussionen auf nationaler und europäischer Ebene bleiben dynamisch. Die Bundesregierung sucht derweil nach weiteren Wegen zur Entlastung. Konkrete Beschlüsse stehen nach Angaben des Deutschlandfunks und der Tagesschau jedoch noch aus."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Mittwoch",
+     "Erreichen eines Höchstpreises beim Benzinpreis laut Zeit"
+    ],
+    [
+     "17. September 2026",
+     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über Entlastungen"
+    ],
+    [
+     "April",
+     "Bisheriger Rekordwert beim Dieselpreis in Deutschland"
+    ],
+    [
+     "Mittwoch",
+     "Erreichen neuer Höchstwerte bei Benzin und Diesel laut ADAC und ZDFheute"
+    ],
+    [
+     "17. September 2026",
+     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über politische Entlastungsmaßnahmen"
+    ],
+    [
+     "Mittwoch",
+     "Erreichen des vorherigen Diesel-Rekordpreises von durchschnittlich 2,453 Euro pro Liter laut Tagesschau/ARD"
+    ],
+    [
+     "Donnerstag",
+     "Dieselpreis steigt auf durchschnittlich 2,471 Euro pro Liter laut ADAC, Tagesschau/ARD und Spiegel; Benzinpreis (E10) sinkt leicht auf 2,308 Euro"
+    ],
+    [
+     "Donnerstagabend",
+     "Hochrangig besetzte Runde der Bundesregierung bringt keine Einigung über Entlastungsmaßnahmen laut Deutschlandfunk"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "European Commission headquarters Brussels",
+     "bildunterschrift": "Das Gebäude der EU-Kommission in Brüssel, die eine Übergewinnsteuer für Ölkonzerne vorerst ablehne."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Lars Klingbeil politician",
+     "bildunterschrift": "Bundesfinanzminister Lars Klingbeil sprach sich für eine europäische Übergewinnsteuer aus."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Gasoline fuel dispenser pump",
+     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle, an der die Kraftstoffpreise für Diesel und Benzin gemessen werden."
+    }
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Im Zitat des französischen Ministers wurde der englische Begriff für Einheitslösungen im Fließtext eingedeutscht, um neutrale und klare Sprache zu wahren."
+   ],
+   "wortwarnung": [
+    "massiv"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Übergewinnsteuer",
+      "Eine Sondersteuer für Unternehmen, die in Krisenzeiten besonders hohe Gewinne erzielen."
+     ],
+     [
+      "Rohöl",
+      "Ein natürlicher Rohstoff aus der Erde, aus dem in Raffinerien Benzin und Diesel hergestellt werden."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile hat eine staatliche Eingreifung in die Kraftstoffpreise?",
+     "Wie gehen verschiedene europäische Länder mit den hohen Energiepreisen um?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viel kostete ein Liter Diesel laut ADAC im bundesweiten Durchschnitt?",
+      "optionen": [
+       "zwei Euro und dreißig Cent",
+       "zwei Euro und siebenundvierzig Cent",
+       "drei Euro und zehn Cent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der ADAC ermittelte einen Durchschnittspreis von 2,471 Euro pro Liter für Diesel."
+     },
+     {
+      "frage": "Wer forderte eine europäische Übergewinnsteuer für Mineralölkonzerne?",
+      "optionen": [
+       "Bundesfinanzminister Lars Klingbeil",
+       "EU-Wirtschaftskommissar Valdis Dombrovskis",
+       "Bundeskanzler Friedrich Merz"
+      ],
+      "richtig": 0,
+      "erklaerung": "Bundesfinanzminister Lars Klingbeil sprach sich für eine solche Steuer aus, scheiterte damit aber vorerst bei der EU-Kommission."
+     },
+     {
+      "frage": "Welche Ursache nennen die Berichte für die hohen Spritpreise?",
+      "optionen": [
+       "Ein Streik der Tankstellenpächter in Deutschland",
+       "Höhere Steuern auf Autos",
+       "Die militärische Eskalation in Nahost und am Persischen Golf"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Berichte nennen die militärische Eskalation in Nahost und am Persischen Golf sowie weniger Rohöl als Hintergrund."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Preise für Kraftstoff an deutschen Tankstellen sind sehr hoch. Besonders Diesel kostet so viel wie nie zuvor.",
+    "absaetze": [
+     "Laut einer Auswertung des ADAC kostete ein Liter Diesel im bundesweiten Durchschnitt zwei Euro und siebenundvierzig Cent. Das ist ein neuer Rekordwert. Benzin der Sorte E10 wurde dagegen minimal billiger.",
+     "Hintergrund für die hohen Preise sind Kriege und Krisen im Nahen Osten. Dadurch kommt weniger Rohöl auf den weltweiten Markt.",
+     "In der Bundesregierung wird nun darüber gestritten, wie man die Verbraucher entlasten kann. Die Politiker haben sich bisher jedoch noch nicht auf eine gemeinsame Maßnahme geeinigt.",
+     "Auch über eine zusätzliche Steuer für große Mineralölkonzerne wird diskutiert. Die EU-Kommission lehnte einen solchen Vorschlag für ganz Europa vorerst ab."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Preise für Diesel an deutschen Tankstellen haben ein neues Rekordhoch erreicht.",
+     "Mehrere Medien berichten über politische Debatten und Streit zu möglichen Entlastungen für Verbraucher.",
+     "Ob und wann konkrete Maßnahmen beschlossen werden, bleibt vorerst noch unklar."
+    ],
+    "lang": [
+     "An deutschen Tankstellen steigen die Preise für Dieselkraftstoff immer weiter an.",
+     "Ein Liter Diesel kostete im bundesweiten Durchschnitt zuletzt zwei Euro und siebenundvierzig Cent.",
+     "Als Hauptursache für diese Entwicklung gelten internationale Krisen und weniger Rohöl auf dem Weltmarkt.",
+     "In der Bundesregierung gibt es heftige Diskussionen über mögliche Entlastungen für die Bürger.",
+     "Bundesfinanzminister Lars Klingbeil fordert eine europäische Übergewinnsteuer für große Mineralölkonzerne."
+    ],
+    "einfach": [
+     "Diesel an deutschen Tankstellen ist so teuer wie nie zuvor.",
+     "Ein Liter kostet im Durchschnitt zwei Euro und siebenundvierzig Cent.",
+     "Grund dafür sind Probleme auf dem weltweiten Markt für Rohöl.",
+     "Politiker streiten in der Regierung über Hilfen für die Menschen.",
+     "Eine Einigung gibt es bisher noch nicht."
+    ]
+   },
+   "bildInfo": {
+    "titel": "Shell petrol pump 1952.jpg",
+    "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
+    "urheber": "Palauenc05",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "symbol",
+    "suchbegriff": "Gasoline fuel dispenser pump",
+    "bildunterschrift": "Eine alte Zapfsäule symbolisiert die Thematik rund um Kraftstoffpreise an Tankstellen.",
+    "hinweis": "Symbolbild"
+   },
+   "bildInfos": [
+    {
+     "titel": "Shell petrol pump 1952.jpg",
+     "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
+     "urheber": "Palauenc05",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "suchbegriff": "Gasoline fuel dispenser pump",
+     "bildunterschrift": "Eine alte Zapfsäule symbolisiert die Thematik rund um Kraftstoffpreise an Tankstellen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "version": 4,
+   "bildVersucht": true
+  },
+  {
+   "id": "klopp-dfb-kader-nominierung",
+   "rubrik": "Sport",
+   "zeit": "2026-09-18T12:10:00.000Z",
+   "aktualisiert": "aktualisiert um 16:00 Uhr",
+   "titel": "Bundestrainer Jürgen Klopp nominiert erstmals 44 Spieler für vier Länderspiele",
+   "vorspann": "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt. Er berief insgesamt 44 Spieler, die auf zwei Gruppen für anstehende Partien in der Nations League aufgeteilt sind.",
+   "eil": false,
+   "zusammenfassung": [
+    "Bundestrainer Jürgen Klopp hat einen Kader mit 44 Spielern für seine ersten vier Länderspiele nominiert.",
+    "Die Spieler sind auf zwei unterschiedliche Listen für Partien in der UEFA Nations League aufgeteilt.",
+    "Mehrere Spieler wurden erstmals für die A-Nationalmannschaft berufen, während einige bekannte Kräfte nicht berücksichtigt wurden.",
+    "Auch die U21-Nationalmannschaft hat unter Trainer Antonio Di Salvo ein neues Aufgebot mit mehreren Debütanten erhalten."
+   ],
+   "einig": [
+    [
+     "Jürgen Klopp hat einen Kader von 44 Spielern für die Nationalmannschaft nominiert.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Zeit",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Das Aufgebot ist auf zwei verschiedene Kader aufgeteilt.",
+     [
+      "Tagesschau/ARD",
+      "Zeit"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob alle Spieler von der ersten Liste tatsächlich nach den ersten Spielen im Quartier bleiben werden, ist laut den Berichten noch Teil der internen Planung."
+   ],
+   "positionen": [
+    [
+     "Oliver Baumann (Torhüter)",
+     "Die Entscheidung, ihn nicht zu nominieren, gefällt ihm nicht, aber er muss sie akzeptieren.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Antonio Di Salvo (U21-Trainer)",
+     "Die lange Länderspielphase soll für intensives Training und den Gruppensieg genutzt werden.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen von Vereinsverantwortlichen der betroffenen Fußballclubs zu dem großen Kader.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 22:06",
+     "fokus": "Kaderdetails und Spielerzitate",
+     "text": "Der Bericht listet zahlreiche Spieler auf, nennt genaue Zahlen zu den beiden Kadern und enthält Reaktionen von nicht nominierten Spielern.",
+     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 14:10",
+     "fokus": "U21-Kader und Nachwuchsspieler",
+     "text": "Der Artikel beleuchtet die Nominierungen für die U21-Nationalmannschaft und geht auf Hintergründe einzelner Nachwuchstalente ein.",
+     "url": "https://www.spiegel.de/sport/fussball/u21-nationalmannschaft-paris-brunner-und-sechs-weitere-debuetanten-im-neuen-kader-a-98caf86c-ddcb-4ad0-81f1-d9a47578aa6c#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 11:08",
+     "fokus": "–",
+     "text": "Der neue Bundestrainer Jürgen Klopp hat erstmals ein Nationalmannschaftsaufgebot zusammengestellt. Insgesamt sind 44 Spieler nominiert – aufgeteilt in zwei Kader.",
+     "url": "https://www.zeit.de/sport/2026-09/dfb-nationalmannschaft-juergen-klopp-kader-nominierung-nations-league-gxe",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:01",
+     "fokus": "Ablauf der Pressekonferenz",
+     "text": "Der Text beschreibt das Auftreten des Bundestrainers bei der Bekanntgabe in der DFB-Zentrale und seine Äußerungen zu gesellschaftlichen Themen.",
+     "url": "https://www.sueddeutsche.de/sport/bundestrainer-klopp-nominierung-kader-nationalmannschaft-li.3549390",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "Während Tagesschau/ARD und Zeit vor allem die Namen und Zahlen des A-Kaders nennen, legt der Spiegel einen zusätzlichen Schwerpunkt auf den gleichzeitig benannten U21-Kader."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundestrainer Jürgen Klopp",
+    "was": "Nominierung von 44 Spielern für vier Spiele",
+    "wann": "17.09.2026",
+    "wo": "Frankfurt am Main",
+    "wie": "Durch Aufteilung des Kaders auf zwei verschiedene Listen",
+    "warum": "Betreuung von Spielern nach Angaben von Klopp",
+    "quellenlage": "Meldungen von Tagesschau/ARD, Spiegel, Zeit und Süddeutsche Zeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der neue Bundestrainer Jürgen Klopp hat erstmals ein Nationalmannschaftsaufgebot zusammengestellt. Insgesamt sind 44 Spieler nominiert worden, die auf zwei verschiedene Kader aufgeteilt sind. Laut Tagesschau/ARD und Zeit umfasst das Aufgebot diese Gesamtzahl an Spieler für vier anstehende Länderspiele. Die Süddeutsche Zeitung berichtet ebenfalls von 44 Spielern für vier Länderspiele.",
+      "Die Bekanntgabe fand in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes statt. Dabei trat Klopp laut der Süddeutschen Zeitung in ungewöhnlicher Aufmachung auf und wuchtete einen Pappkarton in den Raum. Laut Tagesschau/ARD waren viele Namen der Spieler bereits vor der offiziellen Bekanntgabe durchgesickert.",
+      "Der Kader teilt sich laut Tagesschau/ARD in zwei große Gruppen auf. Die erste Liste umfasst 24 Namen für Partien in der Nations League. Der zweite Kader umfasst 21 Spieler für die weiteren Begegnungen. Einzig Torhüter Finn Dahmen taucht auf beiden Listen auf."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Auf der ersten Liste stehen Spieler für die Partien in den Niederlanden und gegen Griechenland. Das Spiel in den Niederlanden ist für den 24.09.2026 angesetzt. Die Partie gegen Griechenland folgt am 27.09.2026. Das zweite Team kommt für Spiele gegen Serbien und abermals Griechenland zum Zug.",
+      "Laut Tagesschau/ARD ist ein Spiel in München gegen Serbien am 01.10.2026 geplant. Zum Abschluss der Reihe tritt die Mannschaft in Thessaloniki gegen Griechenland an. Da das Reglement der UEFA für die Nations League einen Kader von 23 Spielern vorsieht, werden Spieler von der ersten Liste nach einer Partie im Quartier in Herzogenaurach dazubleiben.",
+      "Zum Aufgebot gehören laut Tagesschau/ARD unter anderem Joshua Kimmich als Kapitän und Nico Schlotterbeck. Nick Woltemade erhielt ebenfalls eine Nominierung, während Deniz Undav nicht berücksichtigt wurde. Neu im A-Kader sind Spieler wie Mika Baur, Bambasé Conté und Felix Keidel."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Laut Tagesschau/ARD begründete Klopp die Maßnahme unter anderem damit, dass Spieler wie Schlotterbeck, Jamal Musiala und Serge Gnabry über einen längeren Zeitraum betreut werden sollen. Einige Vereine würden lange Abstellungsperioden ansonsten für Trainingspausen nutzen. Zudem fehlen elf Spieler aus dem früheren WM-Kader.",
+      "Unter den fehlenden Spielern sind Manuel Neuer und Antonio Rüdiger nach Rücktritten. Leon Goretzka, Angelo Stiller und Assan Ouédraogo sind derzeit verletzt. Weitere Spieler wie Maximilian Beier, Deniz Undav, Jamie Leweling, Pascal Groß, Leroy Sané und Oliver Baumann erhielten keine Berücksichtigung.",
+      "Parallel zur A-Nationalmannschaft hat U21-Nationaltrainer Antonio Di Salvo ebenfalls einen neuen Kader benannt. Laut dem Spiegel gehören dazu sieben Debütanten wie Paris Brunner und Wael Mohya. Einige Neulinge erhalten diese Chance demnach auch wegen des großen Aufgebots von Bundestrainer Klopp."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Europäische Fußball-Union UEFA ist der Dachverband des europäischen Fußballs. Sie organisiert Turniere wie die Europameisterschaft und die Nations League.",
+      "Die Nations League ist ein von der UEFA ausgetragener Wettbewerb für europäische Nationalmannschaften."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Torhüter Oliver Baumann äußerte sich über seine Nichtnominierung. Laut Tagesschau/ARD sagte er nach einer Niederlage seiner TSG Hoffenheim, dass ihm die Entscheidung nicht gefalle, er sie aber akzeptieren müsse. Er betonte, dass er sich topfit fühle und bei Bedarf bereitstehe.",
+      "U21-Trainer Antonio Di Salvo äußerte sich laut dem Spiegel zu den bevorstehenden Aufgaben seiner Mannschaft. Er betonte das Ziel, mit drei Siegen die Qualifikation für die Europameisterschaft als Gruppenerster perfekt zu machen.",
+      "Der Bundestrainer äußerte sich laut der Süddeutschen Zeitung während seiner Pressekonferenz auch zu Entwicklungen in der Politik und wünschte sich mehr Gemeinschaftsgefühl in Deutschland."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die deutsche Nationalmannschaft wird sich am Montag, dem 21.09.2026, im Quartier in Herzogenaurach treffen. Von dort aus reist das Team zu den anstehenden Partien. Die Spiele in der Nations League finden in den kommenden Wochen in verschiedenen europäischen Städten statt.",
+      "Die U21-Nationalmannschaft bestreitet im Rahmen der EM-Qualifikation Partien gegen Lettland, Malta und Georgien. Trainer Di Salvo kündigte laut dem Spiegel eine intensive Nutzung dieser Phase für Teambuilding und Training an."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
+    ],
+    [
+     "2026-09-17",
+     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
+    ],
+    [
+     "2026-09-21",
+     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
+    ],
+    [
+     "2026-09-24",
+     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
+    ],
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland."
+    ],
+    [
+     "2026-10-01",
+     "Drittes Nations-League-Spiel gegen Serbien in München."
+    ],
+    [
+     "2026-10-04",
+     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Juergen Klopp manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Nationalmannschaft vorgestellt."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
+     "bildunterschrift": "In der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes wurde das Aufgebot präsentiert."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Herzogenaurach town hall",
+     "bildunterschrift": "In Herzogenaurach bezieht die Nationalmannschaft ihr Quartier für die kommenden Länderspiele."
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung wertender Ausdrücke wie 'XXL-Kader' und 'monumental' aus dem Fließtext, Anpassung von Datumsformaten und Belegen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Nations League",
+      "Ein internationaler Fußball-Wettbewerb für europäische Nationalmannschaften, der von der UEFA veranstaltet wird."
+     ],
+     [
+      "U21-Nationalmannschaft",
+      "Eine Auswahlmannschaft für Fußballspieler, die höchstens einundzwanzig Jahre alt sind."
+     ]
+    ],
+    "fragen": [
+     "Welche Vorteile oder Nachteile hat ein sehr großer Kader für eine Nationalmannschaft?",
+     "Wie bewerten Sie die Entscheidung, Spieler über einen längeren Zeitraum direkt im Team zu betreuen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Spieler hat Jürgen Klopp für seinen ersten Kader nominiert?",
+      "optionen": [
+       "dreiundzwanzig Spieler",
+       "vierundvierzig Spieler",
+       "fünfzig Spieler"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau/ARD, Spiegel, Zeit und Süddeutsche Zeitung hat Jürgen Klopp 44 Spieler nominiert."
+     },
+     {
+      "frage": "Auf wie viele Gruppen ist das Aufgebot aufgeteilt?",
+      "optionen": [
+       "auf zwei Gruppen",
+       "auf drei Gruppen",
+       "auf vier Gruppen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und Zeit ist das Aufgebot auf zwei verschiedene Kader aufgeteilt."
+     },
+     {
+      "frage": "Welcher Torhüter taucht auf beiden Listen auf?",
+      "optionen": [
+       "Manuel Neuer",
+       "Oliver Baumann",
+       "Finn Dahmen"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut Tagesschau/ARD taucht als einziger Torhüter Finn Dahmen auf beiden Listen auf."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat zum ersten Mal Spieler für die deutsche Fußball-Nationalmannschaft ausgewählt.",
+    "absaetze": [
+     "Insgesamt hat er vierundvierzig Spieler für vier Spiele in der Nations League benannt.",
+     "Die Spieler wurden auf zwei verschiedene Gruppen aufgeteilt. Eine Gruppe spielt zuerst in den Niederlanden und gegen Griechenland.",
+     "Klopp möchte damit verletzte Spieler gut betreuen und Spielern über einen längeren Zeitraum helfen.",
+     "Neben der A-Nationalmannschaft hat auch U21-Trainer Antonio Di Salvo ein neues Team vorgestellt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der neue Bundestrainer Jürgen Klopp hat vierundvierzig Spieler nominiert.",
+     "Das Aufgebot ist für vier Spiele auf zwei Gruppen aufgeteilt.",
+     "Die Mannschaft trifft sich am einundzwanzigsten September im Quartier."
+    ],
+    "lang": [
+     "Der neue Bundestrainer Jürgen Klopp hat vierundvierzig Spieler für die Nationalmannschaft nominiert.",
+     "Mehrere Medien berichten übereinstimmend über diese große Anzahl an Spielern.",
+     "Das Aufgebot ist auf zwei verschiedene Gruppen aufgeteilt.",
+     "Klopp begründet dies mit einer besseren Betreuung der Spieler.",
+     "Auch die U21-Nationalmannschaft hat ein neues Aufgebot erhalten."
+    ],
+    "einfach": [
+     "Jürgen Klopp ist der neue Bundestrainer.",
+     "Er hat vierundvierzig Spieler für die Nationalmannschaft ausgewählt.",
+     "Die Spieler sind auf zwei Gruppen aufgeteilt.",
+     "Am einundzwanzigsten September beginnt das Training im Quartier."
+    ]
+   },
+   "bildInfo": {
+    "titel": "Klopp (24669321424).jpg",
+    "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+    "urheber": "PAUL ROBINSON",
+    "lizenz": "CC BY-SA 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "art": "person",
+    "suchbegriff": "Juergen Klopp manager",
+    "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Klopp (24669321424).jpg",
+     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+     "urheber": "PAUL ROBINSON",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "person",
+     "suchbegriff": "Juergen Klopp manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
+     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "institution",
+     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "version": 4,
    "bildVersucht": true
   },
   {
@@ -1010,266 +2297,6 @@
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "art": "ort",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3
-  },
-  {
-   "id": "kanada-eu-assoziierte-mitgliedschaft",
-   "rubrik": "Welt",
-   "zeit": "2026-09-17T17:19:34.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "Kanada und Europäische Union beraten über Partnerschaftsmodell",
-   "vorspann": "Kanadischer Premierminister Mark Carney signalisiert im Europäischen Parlament Offenheit für eine engere Zusammenarbeit mit der EU. Der US-Präsident reagiert darauf mit Kritik und Handlungsdrohungen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Kanadas Premierminister Mark Carney sprach im Europaparlament über eine engere Zusammenarbeit mit der EU.",
-    "Die EU-Kommission hatte zuvor den Vorschlag einer assoziierten Mitgliedschaft ohne Stimmrecht ins Gespräch gebracht.",
-    "US-Präsident Donald Trump kritisierte das Vorhaben und drohte der EU mit Zöllen.",
-    "Ein EU-Kanada-Gipfel im Oktober in Montreal soll nähere Details klären."
-   ],
-   "einig": [
-    [
-     "Kanadas Premier Mark Carney sprach im Europäischen Parlament in Straßburg.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "Ursula von der Leyen schlug zuvor eine assoziierte EU-Mitgliedschaft für Kanada vor.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "US-Präsident Donald Trump drohte bei negativer Auslegung der Pläne mit Zöllen oder Handelseinstellungen.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Wie eine assoziierte Mitgliedschaft rechtlich und inhaltlich genau gestaltet werden soll, da ein solches Modell bisher im EU-Recht nicht existiert (Tagesschau/ARD, BBC)."
-   ],
-   "positionen": [
-    [
-     "Mark Carney (Kanadischer Premierminister)",
-     "Befürwortet eine engere strategische, wirtschaftliche und sicherheitspolitische Partnerschaft mit der EU als positive Antwort.",
-     "Tagesschau/ARD,Spiegel,BBC"
-    ],
-    [
-     "Ursula von der Leyen (EU-Kommissionspräsidentin)",
-     "Schlägt ein neues Partnerschaftsmodell als assoziierte Mitgliedschaft vor.",
-     "Tagesschau/ARD,BBC"
-    ],
-    [
-     "Donald Trump (US-Präsident)",
-     "Kritisiert die Annäherung und droht bei feindseliger Absicht mit Zöllen und Handelsstopps.",
-     "Tagesschau/ARD,Spiegel,BBC"
-    ]
-   ],
-   "fehlend": "Stimmen aus den Parlamenten oder Regierungen einzelner EU-Mitgliedstaaten abgesehen von generellen Hinweisen auf bestehende Bedenken.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 19:19",
-     "fokus": "Politischer Empfang und Carneys Rede",
-     "text": "Berichtet ausführlich über die Rededetails im Europaparlament, die Reaktionen auf Carney und die Hintergründe zum Freihandelsabkommen CETA.",
-     "url": "https://www.tagesschau.de/ausland/europa/bruessel-carney-eu-besuch-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 16:49",
-     "fokus": "Reaktion auf US-Präsident Trump",
-     "text": "Betont die Rolle von Donald Trump und die Handelskonflikte als Auslöser für die Annäherung an die EU mit Zitaten von Carney und Trump.",
-     "url": "https://www.spiegel.de/ausland/kanada-eu-annaeherung-als-antwort-auf-us-praesidenten-a-1322e7a6-b9f7-4c8b-893b-4f8e2f6c5f73#ref=rss",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "17.09.26, 14:27",
-     "fokus": "Sicherheits- und Rohstoffkooperation",
-     "text": "Führt konkrete Kooperationsbereiche wie Verteidigung, kritische Mineralien und Energiesicherheit an und erwähnt parlamentarische Abläufe in Kanada.",
-     "url": "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Schwerpunkte der Zusammenarbeit",
-     "BBC nennt zusätzlich konkrete Bereiche wie kritische Mineralien, Verteidigung und Energiesicherheit, während Tagesschau/ARD und Spiegel den Fokus stärker auf die allgemeine Wirtschaftspartnerschaft und das Verhältnis zu den USA legen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Kanadischer Premier Carney und EU-Kommissionspräsidentin von der Leyen",
-    "was": "Beratung über eine mögliche assoziierte EU-Mitgliedschaft für Kanada",
-    "wann": "17.09.2026",
-    "wo": "Europäisches Parlament in Straßburg",
-    "wie": "Durch eine engere politische, wirtschaftliche und sicherheitspolitische Annäherung",
-    "warum": "Laut Carney als Reaktion auf wirtschaftlichen Druck",
-    "quellenlage": "Tagesschau/ARD, Spiegel, BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Ansprache im Parlament",
-     "absaetze": [
-      "Der kanadische Premierminister Mark Carney hat sich bei einer Rede im Europaparlament in Straßburg für eine engere Zusammenarbeit seines Landes mit der Europäischen Union ausgesprochen. Laut Tagesschau/ARD wurde er dabei äußerst freundlich empfangen und erhielt langen Beifall. In seiner Rede betonte Carney nach Angaben von BBC und Tagesschau/ARD, dass Europa und Kanada gemeinsam stärker seien.",
-      "Laut BBC erklärte Carney vor den Abgeordneten, dass die Gesellschaften von neuen Herausforderungen wie dem Klimawandel und wirtschaftlichem Druck getroffen werden. Er betonte, dass eine Partnerschaft auf Werten begründet sein müsse. Eine vollständige Mitgliedschaft in der Europäischen Union strebt Kanada nach Angaben von Carney und BBC jedoch nicht an.",
-      "Die EU-Kommissionspräsidentin Ursula von der Leyen hatte zuvor den Vorschlag einer assoziierten Mitgliedschaft für Kanada unterbreitet. Laut Tagesschau/ARD und BBC existiert ein solches Statusmodell im EU-Recht bisher noch nicht. Da Vollmitgliedschaften auf europäische Staaten beschränkt sind, könnte eine Sonderform ohne Stimmrechte und Sitze in politischen Gremien entstehen."
-     ]
-    },
-    {
-     "ueberschrift": "Wirtschaftliche Verflechtung und Abkommen",
-     "absaetze": [
-      "Ein wichtiges Element der bisherigen Beziehungen ist das Handelsabkommen CETA zwischen Kanada und der EU. Laut Tagesschau/ARD ist dieses Abkommen seit nunmehr neun Jahren vorläufig in Kraft. Es gibt jedoch Probleme mit einigen EU-Staaten, die das Abkommen wegen möglicher Agrar-Konkurrenz noch nicht vollständig ratifiziert haben.",
-      "Die Kooperation soll laut den Berichten über bestehende Verträge hinausgehen. Laut BBC schlug Carney vor, die strategische Autonomie durch Zusammenarbeit bei kritischen Mineralien und Energisicherheit zu stärken. Kanada könne Flüssiggas und Wasserstoff liefern und von Europas Technologieexpertise profitieren.",
-      "Zudem schlug Carney vor, den Austausch für junge Menschen durch die Teilnahme Kanadas am EU-Programm Erasmus+ zu vertiefen. Laut Tagesschau/ARD könnten Bürgerinnen und Bürger dadurch leichter in der jeweils anderen Region arbeiten und leben. Das genaue Aussehen dieser Beziehungen ist laut den Berichten jedoch noch unklar."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Positionen",
-     "absaetze": [
-      "Der US-Präsident Donald Trump kritisierte die Annäherung zwischen Kanada und der EU. Laut Spiegel bezeichnete er die Pläne als lächerlich und kündigte an, diese als feindseligen Akt zu werten. Laut Tagesschau/ARD drohte er daraufhin mit hohen Zöllen oder der Einstellung des Handels mit Europa.",
-      "Ein Sprecher der EU-Kommission erklärte laut Tagesschau/ARD, dass sich die Partnerschaft gegen niemanden richte und der eigenen Stärke diene. Premierminister Carney betonte laut BBC, dass sich Kanada nicht vorschreiben lasse, mit wem internationale Abkommen geschlossen werden. Laut Spiegel sieht Carney in der Allianz eine positive Antwort.",
-      "Laut BBC wird der Vorschlag einer assoziierten Mitgliedschaft die Zustimmung aller 27 EU-Mitgliedstaaten erfordern. Einige Regierungen hatten demnach in der Vergangenheit bereits Bedenken gegen eine neue Mitgliedschaftsform geäußert. Auch im kanadischen Parlament soll eine Debatte und eine Abstimmung über die Vorschläge stattfinden."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Annäherung zwischen Kanada und der EU erfolgt vor dem Hintergrund eines Handelsstreits zwischen den USA und Kanada. Laut BBC kam es zu gegenseitigen Zöllen, nachdem bilaterale Gespräche im Vormonat kollabiert waren. Die US-Regierung hat laut Spiegel und Tagesschau versucht, eine zu starke Annäherung zwischen Kanada und der EU zu verhindern.",
-      "Laut Tagesschau/ARD war die Rede von Carney von Hinweisen auf die USA geprägt. Carney erklärte, Kanada und die EU seien keine Schönwetter-Alliierten. Die wirtschaftliche Integration werde zunehmend als Waffe eingesetzt, so Carney laut BBC."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Das Europäische Parlament ist die parlamentarische Versammlung der Europäischen Union. Die Europäische Kommission ist ein Organ der Europäischen Union. CETA ist ein Handelsabkommen zwischen Kanada und der EU.",
-      "Erasmus+ ist ein Förderprogramm der Europäischen Union."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Laut BBC soll Ende Oktober ein EU-Kanada-Gipfel in Montreal stattfinden. Dort wollen beide Seiten die Details der Zusammenarbeit weiter besprechen und festlegen. Laut Tagesschau/ARD wird die Ratifizierung von CETA bei diesem Treffen voraussichtlich ebenfalls eine Rolle spielen."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Mittwoch",
-     "EU-Kommissionspräsidentin von der Leyen schlägt Kanadas assoziierte EU-Mitgliedschaft vor; US-Präsident Trump äußert sich kritisch"
-    ],
-    [
-     "Donnerstag",
-     "Kanadas Premierminister Carney äußert sich im EU-Parlament positiv zu dem Vorschlag"
-    ],
-    [
-     "Mittwoch",
-     "EU-Kommissionspräsidentin von der Leyen schlägt Kanadas assoziierte EU-Mitgliedschaft vor und US-Präsident Trump äußert sich kritisch."
-    ],
-    [
-     "Donnerstag",
-     "Kanadas Premierminister Carney äußert sich im EU-Parlament positiv zu dem Vorschlag und reagiert auf Drohungen der USA."
-    ]
-   ],
-   "bild": {
-    "art": "institution",
-    "suchbegriff": "European Parliament Strasbourg"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Wertende Wörter bei Trump im Text durch neutrale Formulierungen ersetzt."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Assoziierte Mitgliedschaft",
-      "Eine besondere Form der Verbindung zu einem Bündnis, bei der ein Land viele Vorteile erhält, aber beispielsweise kein Stimmrecht in den politischen Gremien besitzt."
-     ],
-     [
-      "CETA",
-      "Ein Handelsabkommen zwischen der Europäischen Union und Kanada, das den Warenaustausch erleichtern soll."
-     ]
-    ],
-    "fragen": [
-     "Welche Gründe nennen die beteiligten Politiker für die geplante Annäherung zwischen Kanada und der EU?",
-     "Wie bewerten verschiedene Seiten den Einfluss der USA auf diese internationale Partnerschaft?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer schlug die assoziierte Mitgliedschaft für Kanada vor?",
-      "optionen": [
-       "Der US-Präsident Donald Trump",
-       "Die EU-Kommissionschefin Ursula von der Leyen",
-       "Der kanadische Premierminister Mark Carney"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die EU-Kommissionschefin Ursula von der Leyen schlug im Europaparlament vor, dass Kanada eine assoziierte Mitgliedschaft erhalten könnte."
-     },
-     {
-      "frage": "Welche Form der Mitgliedschaft wird laut Carney für Kanada angestrebt?",
-      "optionen": [
-       "Eine EU-Vollmitgliedschaft mit allen Rechten",
-       "Eine assoziierte Mitgliedschaft als neuer Rahmen",
-       "Gar keine wirtschaftliche Verbindung"
-      ],
-      "richtig": 1,
-      "erklaerung": "Carney erklärte, dass Kanada keine Vollmitgliedschaft anstrebt, sondern einen anderen Rahmen für die Zusammenarbeit nutzt."
-     },
-     {
-      "frage": "Wie reagierte US-Präsident Donald Trump auf die Pläne?",
-      "optionen": [
-       "Er begrüßte die engere Partnerschaft ausdrücklich.",
-       "Er äußerte keine Meinung zu dem Thema.",
-       "Er drohte der EU mit Zöllen oder Handelseinstellungen."
-      ],
-      "richtig": 2,
-      "erklaerung": "US-Präsident Trump kritisierte das Vorhaben und drohte der EU mit Zöllen oder der Einstellung des Handels."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Kanadas Premierminister Mark Carney hat im Europäischen Parlament über eine engere Zusammenarbeit mit der EU gesprochen.",
-    "absaetze": [
-     "Die EU-Kommission hatte zuvor vorgeschlagen, dass Kanada eine sogenannte assoziierte Mitgliedschaft ohne Stimmrecht erhalten könnte. Premierminister Carney zeigte sich bei seiner Rede in Straßburg offen für diesen Vorschlag.",
-     "Der US-Präsident Donald Trump kritisierte diese Annäherung jedoch deutlich. Er drohte der EU mit hohen Zöllen und Handelsstopps, falls er die Pläne als feindseligen Akt ansehen sollte.",
-     "Im Oktober soll bei einem Gipfel in Montreal weiter über die genauen Details der Partnerschaft gesprochen werden."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Kanadas Premierminister Mark Carney hat im Europaparlament über eine engere Partnerschaft mit der EU gesprochen. US-Präsident Donald Trump kritisierte die Pläne und drohte mit Zöllen."
-    ],
-    "lang": [
-     "Kanadas Premierminister Mark Carney hat im Europaparlament in Straßburg über eine engere Partnerschaft mit der EU gesprochen. Die EU-Kommission hatte zuvor eine assoziierte Mitgliedschaft für Kanada vorgeschlagen. US-Präsident Donald Trump kritisierte das Vorhaben und drohte der EU mit Zöllen."
-    ],
-    "einfach": [
-     "Kanada und die EU wollen in Zukunft vielleicht noch enger zusammenarbeiten. Der US-Präsident Donald Trump findet das nicht gut und droht mit Zöllen."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg/1280px-European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2c/European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg",
-    "urheber": "Diliff",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "art": "institution",
     "hinweis": "Archivfoto"
    },
    "version": 3
@@ -2636,299 +3663,6 @@
    "version": 3
   },
   {
-   "id": "klopp-dfb-kader-nominierung",
-   "rubrik": "Sport",
-   "zeit": "2026-09-17T16:00:24.000Z",
-   "aktualisiert": "aktualisiert um 18:38 Uhr",
-   "titel": "Bundestrainer Jürgen Klopp nominiert 44 Spieler für erste Länderspiele",
-   "vorspann": "Der neue Bundestrainer Jürgen Klopp hat ein Nationalmannschaftsaufgebot von 44 Spielern für seine ersten vier Partien in der Nations League berufen. Der Kader ist aufgeteilt in zwei Gruppen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-    "Das Aufgebot umfasst insgesamt 44 Spieler, die auf zwei Kader für jeweils zwei Länderspiele in der Nations League aufgeteilt sind.",
-    "Zu den Neuerungen im Team gehören zahlreiche Debütanten sowie die Rückkehr von Marc-André ter Stegen als Nummer eins im Tor laut ZDFheute und Süddeutscher Zeitung.",
-    "Spieler wie Manuel Neuer und Antonio Rüdiger sind nach der Weltmeisterschaft zurückgetreten, während andere Akteure nicht berücksichtigt wurden."
-   ],
-   "einig": [
-    [
-     "Bundestrainer Jürgen Klopp hat insgesamt 44 Spieler für seine ersten Länderspiele nominiert.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Zeit",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Das Aufgebot ist auf zwei verschiedene Kader aufgeteilt.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Zeit",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Manuel Neuer und Antonio Rüdiger sind nach der Weltmeisterschaft zurückgetreten.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Die genaue Anzahl der Debütanten wird unterschiedlich beziffert: Tagesschau/ARD nennt zwölf Spieler, die noch nie für die A-Nationalmannschaft nominiert wurden, während ZDFheute und die Süddeutsche Zeitung von 16 möglichen Debütanten sprechen."
-   ],
-   "positionen": [
-    [
-     "Bundestrainer Jürgen Klopp",
-     "Möchte mit zwei Kadern so viele Spieler wie möglich kennenlernen und verletzte Spieler optimal betreuen.",
-     "Tagesschau/ARD,ZDFheute"
-    ]
-   ],
-   "fehlend": "Stimmen von Vereinsvertretern, Spielern oder dem DFB-Präsidium außer Jürgen Klopp",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 12:40",
-     "fokus": "Hintergründe zu Verletzten und Kaderaufteilung",
-     "text": "Berichtet detailliert über die Aufteilung der Gruppen, Aussagen zur Betreuung verletzter Spieler wie Schlotterbeck und nennt zwölf Neulinge.",
-     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 10:41",
-     "fokus": "Zusammenstellung der Kaderlisten",
-     "text": "Listet exakt die Spieler für beide Kader auf und hebt 16 mögliche Debütanten sowie das Jobsharing-Modell hervor.",
-     "url": "https://www.zdfheute.de/sport/fussball-klopp-erste-kadernominierung-nations-league-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 18:00",
-     "fokus": "–",
-     "text": "Fußball-Bundestrainer Klopp hat die Kader für seine ersten Länderspiele nominiert. Zum Aufgebot gehören insgesamt 44 Spieler. Klopp nominierte je einen Kader für zwei Spiele. In den nächsten Wochen stehen vier Länderspiele am Stück an.",
-     "url": "https://www.deutschlandfunk.de/bundestrainer-klopp-nominiert-insgesamt-44-spieler-fuer-die-ersten-laenderspiele-102.html",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 11:08",
-     "fokus": "–",
-     "text": "Der neue Bundestrainer Jürgen Klopp hat erstmals ein Nationalmannschaftsaufgebot zusammengestellt. Insgesamt sind 44 Spieler nominiert – aufgeteilt in zwei Kader.",
-     "url": "https://www.zeit.de/sport/2026-09/dfb-nationalmannschaft-juergen-klopp-kader-nominierung-nations-league-gxe",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 11:24",
-     "fokus": "Kaderübersicht und politische Äußerungen",
-     "text": "Veröffentlicht ebenfalls die vollständigen Kaderlisten und erwähnt Klopps Äußerungen zu gesellschaftlichen Themen.",
-     "url": "https://www.sueddeutsche.de/sport/klopp-dfb-kader-nominierung-deutsche-nationalmannschaft-fussball-li.3549228",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Anzahl Debütanten",
-     "Tagesschau/ARD nennt zwölf Spieler ohne vorherige A-Länderspiel-Nominierung, ZDFheute und Süddeutsche Zeitung sprechen von 16 möglichen Debütanten."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Bundestrainer Jürgen Klopp",
-    "was": "Erste Nominierung von 44 Spielern für vier Länderspiele",
-    "wann": "17.09.2026",
-    "wo": "Frankfurt am Main",
-    "wie": "Aufteilung des Kaders in zwei Gruppen",
-    "warum": "Zum Kennenlernen vieler Spieler und zur Betreuung verletzter Akteure, laut Klopp",
-    "quellenlage": "Meldungen von öffentlich-rechtlichen und gedruckten Medien"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Die Kaderzusammenstellung",
-     "absaetze": [
-      "Der neue Bundestrainer Jürgen Klopp hat insgesamt 44 Spieler für seine ersten vier Länderspiele in der Nations League nominiert. Das Aufgebot teilt sich in zwei große Gruppen auf. Die Bekanntgabe fand am Donnerstag in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes statt. Der Kader setzt sich aus erfahrenen Kräften und zahlreichen neuen Spielern zusammen.",
-      "Auf der ersten Liste stehen 24 Namen für die Partien in den Niederlanden am 24. September 2026 und gegen Griechenland am 27. September 2026. Der zweite Kader umfasst 21 Spieler für die Begegnungen gegen Serbien am 1. Oktober 2026 in München und zum Abschluss gegen Griechenland in Thessaloniki am 4. Oktober 2026. Einzig Torhüter Finn Dahmen vom FC Augsburg taucht auf beiden Listen auf. Laut ZDFheute und der Süddeutschen Zeitung sollen auch Nico Schlotterbeck, Serge Gnabry, Jamal Musiala und Finn Dahmen beiden Kadern angehören.",
-      "Da ein Kader nach dem Reglement für die Nations League 23 Spieler stark sein muss, werden von der ersten Liste nach der Partie in Augsburg noch Profis in das Quartier in Herzogenaurach zurückkehren. Laut der Tagesschau/ARD ist geplant, dass einige Spieler aus dem ersten Kader dabeibleiben. Die Nationalmannschaft trifft sich dafür am Montag, den 21. September 2026."
-     ]
-    },
-    {
-     "ueberschrift": "Spieler und Neulinge im Aufgebot",
-     "absaetze": [
-      "In dem Kader befinden sich zahlreiche Spieler, die zuvor noch nie für die A-Nationalmannschaft nominiert wurden. Laut Tagesschau/ARD gehören zwölf Spieler zu dieser Gruppe, während ZDFheute und die Süddeutsche Zeitung von 16 möglichen Debütanten sprechen. Zu den neuen Gesichtern gehören unter anderem Mika Baur von Celtic Glasgow, Bambasé Conté von der TSG Hoffenheim und Felix Keidel von der SV Elversberg.",
-      "Ebenfalls neu in den Kadern sind laut ZDFheute und der Süddeutschen Zeitung Hennes Behrens vom FC Augsburg, die Freiburger Max Rosenfelder, Philipp Treu, Yannik Engelhardt und Derry Scherhant sowie Younes Ebnoutalib von Eintracht Frankfurt und Finn Jeltsch vom VfB Stuttgart. Hinzu kommen die Legionäre Vitaly Janelt vom FC Brentford und Yann Aurel Bisseck von Inter Mailand.",
-      "Auf den beiden veröffentlichten Kaderlisten finden sich im Tor neben Finn Dahmen auch Alexander Nübel, Marc-André ter Stegen, Noah Atubolu und Jonas Urbig. In der Abwehr stehen neben Schlotterbeck und den genannten Debütanten auch Jonathan Tah, Josha Vagnoman, Waldemar Anton, Ridle Baku, Maximilian Mittelstädt, David Raum und Malick Thiaw. Das Mittelfeld und der Angriff beinhalten Spieler wie Joshua Kimmich, Jamal Musiala, Florian Wirtz, Kai Havertz und Nick Woltemade."
-     ]
-    },
-    {
-     "ueberschrift": "Veränderungen und Nichtberücksichtigungen",
-     "absaetze": [
-      "Gegenüber dem Turnierkader der Weltmeisterschaft gibt es mehrere personelle Veränderungen und Ausfälle. Manuel Neuer und Antonio Rüdiger sind nach Angaben aller Berichte nach dem WM-Desaster aus der Nationalmannschaft zurückgetreten. Zudem stehen verletzte oder angeschlagene Spieler wie Leon Goretzka, Angelo Stiller und Assan Ouédraogo derzeit nicht zur Verfügung.",
-      "Bundestrainer Jürgen Klopp verzichtet laut übereinstimmenden Berichten zudem auf Spieler wie Deniz Undav, Leroy Sané, Oliver Baumann, Pascal Groß, Jamie Leweling und Maximilian Beier. Beier war bei der Weltmeisterschaft noch dabei gewesen und hatte das Ausscheiden im Sechzehntelfinale gegen Paraguay erlebt, was schließlich zum Abschied des früheren Bundestrainers Julian Nagelsmann führte.",
-      "Der bisherige und künftige Kapitän Joshua Kimmich ist im Aufgebot enthalten. Insgesamt 15 Spieler aus dem vorherigen Turnierkader gehören laut ZDFheute und der Süddeutschen Zeitung weiterhin zur Mannschaft."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergründe zur Kaderplanung",
-     "absaetze": [
-      "Jürgen Klopp begründete die Länge des Aufgebots und das Modell damit, dass er so viele Spieler wie möglich kennenlernen und Eindrücke gewinnen wolle. Zudem sollen Spieler wie Nico Schlotterbeck, Jamal Musiala und Serge Gnabry über den gesamten Zeitraum von gut zwei Wochen bei der Mannschaft bleiben.",
-      "Dies dient laut Tagesschau/ARD der Betreuung nach gerade überwundenen oder längeren Verletzungen, da einige Vereine die lange Abstellungsperiode ansonsten für Trainingspausen nutzen würden. Marc-André ter Stegen, der seit dieser Saison bei Ajax Amsterdam spielt, ist laut Klopp für den Moment die Nummer eins im Tor und wird im ersten Spiel in den Niederlanden zum Einsatz kommen.",
-      "Die Nations League ist ein offizieller Wettbewerb der Europäischen Fußball-Union UEFA für europäische Nationalmannschaften."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Aussagen",
-     "absaetze": [
-      "Bundestrainer Jürgen Klopp erklärte auf der Pressekonferenz in Frankfurt zu seiner Auswahl: „Es ist geplant, dass aus dem ersten Kader welche dabeibleiben.“ Zu den Hintergründen der langen Betreuung verletzter Spieler sagte er, dass einige Vereine die lange Abstellungsperiode für Trainingspausen nutzen würden.",
-      "Zur Besetzung im Tor äußerte sich Klopp dahingehend, dass Marc-André ter Stegen für den Moment seine Nummer eins sei und im ersten Spiel gegen die Niederlande spielen werde. Zudem sprach Klopp laut der Süddeutschen Zeitung auf der Pressekonferenz über politische Entwicklungen und äußerte den Wunsch nach mehr Gemeinschaftsgefühl in Deutschland."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Nationalmannschaft wird sich am Montag, den 21. September 2026, im Quartier in Herzogenaurach treffen. Das erste Spiel der Nations League findet am 24. September 2026 in Amsterdam gegen die Niederlande statt. Danach folgt am 27. September 2026 die Partie gegen Griechenland in Augsburg.",
-      "Im Anschluss an die ersten Partien ist ein Austausch des Kaders vorgesehen. Die Begegnung gegen Serbien in München ist für den 1. Oktober 2026 angesetzt, das Abschlussspiel gegen Griechenland findet am 4. Oktober 2026 in Thessaloniki statt."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-09-17",
-     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
-    ],
-    [
-     "2026-09-21",
-     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
-    ],
-    [
-     "2026-09-24",
-     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
-    ],
-    [
-     "2026-09-27",
-     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
-    ],
-    [
-     "2026-10-01",
-     "Drittes Nations-League-Spiel gegen Serbien in München."
-    ],
-    [
-     "2026-10-04",
-     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
-    ]
-   ],
-   "bild": {
-    "art": "institution",
-    "suchbegriff": "DFB-Zentrale Frankfurt"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Ter-Stegen-Einigkeit auf 3 statt 5 Quellen reduziert, da in manchen Quellen nicht explizit als vereinigt markiert."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Nations League",
-      "Ein offizieller Fußball-Webewerb für europäische Nationalmannschaften, der von der UEFA veranstaltet wird."
-     ],
-     [
-      "Bundestrainer",
-      "Die Person, die die deutsche Fußball-Nationalmannschaft leitet und die Spieler dafür auswählt."
-     ],
-     [
-      "Debütanten",
-      "Spieler, die zum ersten Mal für die A-Nationalmannschaft nominiert wurden."
-     ]
-    ],
-    "fragen": [
-     "Welche Gründe nennt Jürgen Bundestrainer Klopp für die Aufteilung in zwei Kader?",
-     "Wie berichten verschiedene Medien über die Anzahl der neuen Spieler, und warum könnte es hierbei Unterschiede geben?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Spieler hat Bundestrainer Jürgen Klopp insgesamt nominiert?",
-      "optionen": [
-       "33 Spieler",
-       "44 Spieler",
-       "55 Spieler"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut allen Berichten hat Jürgen Klopp insgesamt 44 Spieler für seine ersten Länderspiele nominiert."
-     },
-     {
-      "frage": "Was passiert nach den ersten beiden Spielen mit dem Kader?",
-      "optionen": [
-       "Er bleibt komplett unverändert",
-       "Er wird fast komplett ausgetauscht",
-       "Die Spieler reisen alle ab"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Berichte der Tagesschau und weiterer Medien erklären, dass der Kader nach den ersten Partien nahezu komplett ausgetauscht wird."
-     },
-     {
-      "frage": "Welche Spieler sind nach der Weltmeisterschaft aus der Nationalmannschaft zurückgetreten?",
-      "optionen": [
-       "Manuel Neuer und Antonio Rüdiger",
-       "Joshua Kimmich und Kai Havertz",
-       "Jamal Musiala und Florian Wirtz"
-      ],
-      "richtig": 0,
-      "erklaerung": "Mehrere Berichte stimmen überein, dass Manuel Neuer und Antonio Rüdiger nach der Weltmeisterschaft zurückgetreten sind."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat 44 Spieler für die nächsten Länderspiele der deutschen Fußball-Nationalmannschaft ausgewählt.",
-    "absaetze": [
-     "Das große Aufgebot ist in zwei verschiedene Gruppen aufgeteilt. Die Mannschaft bestreitet nacheinander vier Spiele in der Nations League. Nach den ersten beiden Spielen wird der Kader fast komplett ausgetauscht.",
-     "Jürgen Klopp möchte mit diesem großen Aufgebot viele verschiedene Spieler kennenlernen. Einige bekannte Spieler wie Manuel Neuer und Antonio Rüdiger sind nach der Weltmeisterschaft zurückgetreten. Andere Spieler wurden nicht berücksichtigt.",
-     "Die Nationalmannschaft trifft sich am 21. September in Herzogenaurach. Das erste Spiel findet am 24. September in den Niederlanden statt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Bundestrainer Jürgen Klopp hat 44 Spieler für seine ersten Länderspiele nominiert. Das Aufgebot ist auf zwei verschiedene Kader aufgeteilt."
-    ],
-    "lang": [
-     "Der neue Bundestrainer Jürgen Klopp hat insgesamt 44 Spieler für vier anstehende Länderspiele ausgewählt. Das große Aufgebot ist in zwei verschiedene Kader aufgeteilt, die nach den ersten Partien ausgetauscht werden. Klopp begründet dies damit, dass er möglichst viele Spieler kennenlernen und verletzte Spieler betreuen möchte."
-    ],
-    "einfach": [
-     "Jürgen Klopp ist der neue Bundestrainer. Er hat 44 Spieler für die nächsten Spiele ausgewählt. Die Spieler sind in zwei Gruppen aufgeteilt."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/2019-09-26_DFB_Grundsteinlegung_Angela_Merkel_by_Olaf_Kosinsky_MG_4354.jpg/1280px-2019-09-26_DFB_Grundsteinlegung_Angela_Merkel_by_Olaf_Kosinsky_MG_4354.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2019-09-26_DFB_Grundsteinlegung_Angela_Merkel_by_Olaf_Kosinsky_MG_4354.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:2019-09-26_DFB_Grundsteinlegung_Angela_Merkel_by_Olaf_Kosinsky_MG_4354.jpg",
-    "urheber": "Olaf Kosinsky",
-    "lizenz": "CC BY-SA 3.0 de",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "art": "institution",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3
-  },
-  {
    "id": "wmo-bericht-globaler-wasserkreislauf",
    "rubrik": "Wissen & Klima",
    "zeit": "2026-09-17T16:00:24.000Z",
@@ -3180,522 +3914,6 @@
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "art": "institution",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3
-  },
-  {
-   "id": "malaria-todesfall-frankfurt",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-17T15:11:09.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "Todesfall nach Malaria-Infektion in Frankfurt am Main",
-   "vorspann": "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben. Die Stadt verzeichnet damit im laufenden Jahr drei Todesfälle in diesem Zusammenhang.",
-   "eil": false,
-   "zusammenfassung": [
-    "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
-    "Die betroffene Person lebte nahe dem Flughafen und hatte kein Risikogebiet bereist.",
-    "Es ist der dritte Malaria-Todesfall in diesem Kontext in Frankfurt in diesem Jahr.",
-    "Das Gesundheitsamt rief zu Mückenschutz und Aufmerksamkeit bei unklarem Fieber auf."
-   ],
-   "einig": [
-    [
-     "Eine an Malaria erkrankte Person aus der Nähe des Frankfurter Flughafens ist gestorben.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Die betroffenen Personen hatten kein Malaria-Endemiegebiet bereist und nicht am Flughafen gearbeitet.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Es handelt sich um den dritten Malaria-Todesfall in Frankfurt in diesem Jahr.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die aktuellen Infektionen mit den früheren Fällen vom Sommer zusammenhängen, wird laut Gesundheitsamt noch untersucht."
-   ],
-   "positionen": [
-    [
-     "Gesundheitsamt Frankfurt (Peter Tinnemann)",
-     "Vermutet, dass eine infizierte Mücke vom Flughafen bis nach Schwanheim geflogen ist und die Personen infiziert hat.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Gesundheitsamt Frankfurt",
-     "Schätzt die Gefahr einer Malaria-Infektion für die Bevölkerung als sehr gering ein.",
-     "ZDFheute"
-    ]
-   ],
-   "fehlend": "Stimmen von Betroffenen oder Angehörigen",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 17:11",
-     "fokus": "Lokale Details und Aussagen",
-     "text": "Berichtet ausführlich über die Aussagen des Leiters des Gesundheitsamtes, Peter Tinnemann, zur Flugweite der Mücken. Nennt Details zu den betroffenen Personen aus Schwanheim.",
-     "url": "https://www.tagesschau.de/inland/regional/hessen/malaria-faelle-frankfurt-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 15:10",
-     "fokus": "Medizinische Hintergründe",
-     "text": "Erläutert medizinische Details zu Malaria tropica, Erregern und weltweiten Fallzahlen. Erwähnt zudem Mückenfallen und laufende Laboruntersuchungen.",
-     "url": "https://www.zdfheute.de/panorama/malaria-todesfall-frankfurt-100.html",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 15:29",
-     "fokus": "Kurze Zusammenfassung",
-     "text": "Fasst den neuen Todesfall und die Empfehlungen der Stadt zum Mückenschutz kompakt zusammen. Verweist auf die sechs Erkrankten im Sommer.",
-     "url": "https://www.sueddeutsche.de/panorama/flughafen-frankfurt-malaria-todesfall-muecken-infektionsschutz-li.3549111",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Medizinische Erklärungen",
-     "ZDFheute geht detailliert auf Erreger, Symptome und weltweite Statistiken ein, während Tagesschau und SZ den Fokus stärker auf die lokalen Maßnahmen und Zitate legen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Eine an Malaria erkrankte Person aus Frankfurt",
-    "was": "Verstorben an den Folgen einer Malaria-Infektion",
-    "wann": "17.09.2026",
-    "wo": "Frankfurt am Main, Stadtteil Schwanheim",
-    "wie": "Durch Übertragung eines Malariaerregers vermutlich via Mücke",
-    "warum": "Infektion mit dem Erreger Plasmodium falciparum, laut Gesundheitsamt",
-    "quellenlage": "Gesundheitsamt Frankfurt, Universitätsmedizin, RKI"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "In Frankfurt am Main ist eine Person an den Folgen einer Malaria-Erkrankung gestorben. Dies teilte die Stadt an einem Donnerstag mit. Die betroffene Person wohnte im Stadtteil Schwanheim in unmittelbarer Nähe des Frankfurter Flughafens.",
-      "Das Gesundheitsamt der Stadt Frankfurt und die Universitätsmedizin Frankfurt bestätigten den Todesfall an diesem Tag. Der Verstorbene gehörte zu zwei Personen, deren Infektionen zu Beginn der Woche bekannt geworden waren.",
-      "Laut den Angaben hatten beide erkrankten Personen zuvor kein Malaria-Endemiegebiet bereist. Sie waren zudem nicht am Flughafen beschäftigt und lebten nach Angaben des Robert Koch-Instituts in unterschiedlichen Haushalten."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Bei den Erregern handelt es sich nach Angaben von ZDFheute um den Malariaerreger Plasmodium falciparum. Die schwerste Form der Erkrankung, die sogenannte Malaria tropica, kann bei fehlender oder zu spät erfolgter Behandlung tödlich verlaufen.",
-      "Das Gesundheitsamt und die Universitätsmedizin Frankfurt sprachen den Angehörigen der verstorbenen Person ihr Mitgefühl aus. Zum Zustand der zweiten erkrankten Person und zu deren Geschlecht wurden keine Angaben gemacht.",
-      "Seit Anfang der Woche wurden nach Angaben des Gesundheitsamtes keine weiteren Malaria-Fälle in Frankfurt gemeldet. Am Flughafen sind Mückenfallen aufgestellt, um mögliche Vorkommen übertragungsfähiger Anopheles-Mücken zu erfassen."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Mit dem aktuellen Fall stieg die Zahl der Toten im Zusammenhang mit der im Sommer bekannt gewordenen Flughafen-Malaria auf drei. Im Sommer hatten sich sechs Mitarbeiter des Flughafenbetreibers Fraport mit der Krankheit infiziert, von denen zwei starben.",
-      "Fälle von Flughafen-Malaria, also Malaria durch Übertragung im Umfeld eines Flughafens, sind nach Angaben des Robert Koch-Instituts in Deutschland sehr selten. Die klimatischen Bedingungen gelten in Deutschland nach übereinstimmenden Angaben der Berichte als ungünstig für den Zyklus von Mücke und Erreger.",
-      "Nach Angaben des Bernhard-Nocht-Instituts ist Malaria tropica für über 95 Prozent der weltweiten Todesfälle durch Malaria verantwortlich. Die Weltgesundheitsorganisation WHO registrierte im Jahr 2024 einen weltweiten Anstieg der Fallzahlen."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Malaria ist eine Infektionskrankheit, die durch parasitäre Einzeller verursacht wird. Die Übertragung erfolgt vor allem durch Mückenstiche.",
-      "Die Krankheit beginnt häufig mit uncharakteristischen Beschwerden wie Fieber, Kopf- und Gliederschmerzen sowie allgemeinem Krankheitsgefühl. Eine Übertragung von Mensch zu Mensch findet laut den Behörden nicht statt."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Der Leiter des Gesundheitsamtes, Peter Tinnemann, erläuterte an einem Dienstag, dass sich Mücken, die über den Flughafen nach Frankfurt kommen, über mehrere Kilometer bewegen können. Man gehe davon aus, dass eine Mücke so weit geflogen sei und die beiden Personen infiziert habe.",
-      "Das Gesundheitsamt rief Bürgerinnen und Bürger, die in der Nähe des Flughafens leben oder arbeiten, zu erhöhter Aufmerksamkeit auf. Bei Beschwerden solle ärztlicher Rat eingeholt und auf den Wohnort hingewiesen werden.",
-      "Ärzte wurden gebeten, bei Patienten mit unklarem Fieber eine mögliche Malaria-Erkrankung in Betracht zu ziehen. Zudem riet die Stadt zu Mückenschutz wie Sprays, bedeckender Kleidung und Fliegengittern."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Ob die Frankfurter Fälle zusammenhängen, wird laut Angaben des Gesundheitsamtes durch Spezialuntersuchungen im Labor untersucht. Eine abschließende Bewertung dazu ist voraussichtlich erst in mehreren Wochen möglich.",
-      "Das Monitoring von Mücken durch das Gesundheitsamt soll auf das Wohnumfeld der beiden Fälle im Stadtteil Schwanheim ausgeweitet werden."
-     ]
-    }
-   ],
-   "zeitleiste": [],
-   "bild": {
-    "art": "keins",
-    "suchbegriff": ""
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das Datum im Vorspann und Artikel wurde präzisiert, da in den Quellen nur Wochentage (Donnerstag, Dienstag) genannt wurden, um genaue Kalenderdaten ohne Beleg zu vermeiden."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Malaria",
-      "Eine Infektionskrankheit, die meist durch Mücken übertragen wird und mit Fieber beginnt."
-     ],
-     [
-      "Malaria tropica",
-      "Die schwerste Form von Malaria, die ohne Behandlung tödlich verlaufen kann."
-     ],
-     [
-      "Endemiegebiet",
-      "Eine Region, in der eine bestimmte Krankheit dauerhaft und regelmäßig vorkommt."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen Experten wie das Gesundheitsamt bei der Suche nach der Infektionsquelle?",
-     "Welche Maßnahmen zum Schutz vor Mücken werden in den Berichten genannt und wie sinnvoll sind sie im Alltag?"
-    ],
-    "quiz": [
-     {
-      "frage": "Woran ist die Person in Frankfurt gestorben?",
-      "optionen": [
-       "An einer Malaria-Infektion",
-       "An einer Grippe",
-       "An dem West-Nil-Virus"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut den übereinstimmenden Berichten ist die Person an den Folgen von Malaria gestorben."
-     },
-     {
-      "frage": "Was hatten die beiden erkrankten Personen aus Schwanheim gemeinsam?",
-      "optionen": [
-       "Sie haben beide am Flughafen gearbeitet",
-       "Sie waren zuvor in den Tropen im Urlaub",
-       "Sie hatten kein Malaria-Endemiegebiet bereist"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die Berichte von Tagesschau und ZDFheute stimmen überein, dass die Personen zuvor kein Malaria-Endemiegebiet bereist hatten."
-     },
-     {
-      "frage": "Wie viele Malaria-Tote gab es in Frankfurt in diesem Jahr in diesem Kontext insgesamt?",
-      "optionen": [
-       "Einen Toten",
-       "Drei Tote",
-       "Sechs Tote"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Quellen berichten übereinstimmend, dass es in diesem Jahr drei Malaria-Tote in Frankfurt in diesem Kontext gab."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Frankfurt am Main ist ein Mensch nach einer Infektion mit Malaria gestorben.",
-    "absaetze": [
-     "Die betroffene Person wohnte in der Nähe des Frankfurter Flughafens. Sie war zuvor nicht in einem Urlaubsland mit Malaria und hat nicht am Flughafen gearbeitet.",
-     "In diesem Jahr gab es in Frankfurt bereits drei Todesfälle durch diese Form von Malaria. Das Gesundheitsamt untersucht noch, ob die Fälle zusammenhängen.",
-     "Das Gesundheitsamt rät Menschen in der Nähe des Flughafens zu Mückenschutz. Bei unklarem Fieber sollen sie zum Arzt gehen."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Frankfurt am Main ist ein Mensch nach einer Malaria-Infektion gestorben. Die betroffene Person wohnte in der Nähe des Flughafens und war zuvor nicht in einem Risikogebiet gereist."
-    ],
-    "lang": [
-     "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben. Die betroffene Person wohnte in der Nähe des Flughafens. Sie hatte zuvor kein Malaria-Gebiet bereist und nicht am Flughafen gearbeitet. Damit gibt es in Frankfurt in diesem Jahr drei Todesfälle in diesem Zusammenhang."
-    ],
-    "einfach": [
-     "In Frankfurt ist ein Mensch an Malaria gestorben. Die Person wohnte nahe am Flughafen und war nicht verreist."
-    ]
-   },
-   "version": 3,
-   "bilder": [
-    {
-     "art": "keins",
-     "suchbegriff": "",
-     "bildunterschrift": ""
-    }
-   ],
-   "bildVersucht": true
-  },
-  {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-17T14:25:00.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "Rekordpreise für Dieselkraftstoff in Deutschland und Debatte über staatliche Entlastungen",
-   "vorspann": "In Deutschland hat der Preis für Dieselkraftstoff einen neuen Höchstwert erreicht und damit eine politische Debatte über Entlastungsmaßnahmen ausgelöst. Bundesregierung und Parteien diskutieren verschiedene Vorschläge zur Minderung der Kosten für Verbraucher und Wirtschaft.",
-   "eil": false,
-   "zusammenfassung": [
-    "Diesel und Benzin haben in Deutschland neue Höchstwerte erreicht.",
-    "Ausgelöst wurden die Preissteigerungen laut den Berichten vor allem durch den Iran-Krieg.",
-    "In der Bundesregierung wird über verschiedene Entlastungsmaßnahmen wie Steuersenkungen oder Übergewinnsteuern diskutiert.",
-    "Verbände fordern gezielte Hilfe, während Ökonomen Direktzahlungen anstelle von Tankrabatten befürworten."
-   ],
-   "einig": [
-    [
-     "Ein Liter Diesel kostete am Mittwoch im bundesweiten Tagesschnitt laut ADAC 2,453 Euro.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Bundeskanzler Friedrich Merz hat Entlastungen wegen der hohen Spritpreise in Aussicht gestellt.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Wirtschaftsministerin Katherina Reiche schlägt eine Senkung der Mehrwertsteuer auf Kraftstoffe vor.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Wann genau und in welcher konkreten Form die Bundesregierung Entlastungen beschließen wird, ist laut Tagesschau/ARD noch offen.",
-    "Ob eine Mehrwertsteuersenkung oder andere Instrumente umgesetzt werden, ist in der Koalition laut Tagesschau/ARD und ZDFheute umstritten."
-   ],
-   "positionen": [
-    [
-     "Thorsten Frei (Unionsfraktionschef)",
-     "Hält eine Entscheidung über Entlastungen zum 1. Oktober für machbar und schlägt eine Energiesteuer- oder Mehrwertsteuersenkung vor.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Katherina Reiche (Wirtschaftsministerin, CDU)",
-     "Fordert eine befristete Senkung der Mehrwertsteuer auf Kraftstoffe von 19 auf 7 Prozent und Direktzahlungen an Geringverdiener; lehnt Übergewinnsteuer und Spritpreisdeckel ab.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Lars Klingbeil (Finanzminister und Vizekanzler, SPD)",
-     "Fordert eine schnelle Entscheidung zur Entlastung von Pendlerinnen und Pendlern und befürwortet eine Übergewinnsteuer.",
-     "ZDFheute"
-    ],
-    [
-     "Spediteursverband BGL",
-     "Warnt vor Gefährdung mittelständischer Betriebe und kritisiert eine Mehrwertsteuersenkung als wirkungslos für Unternehmen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Georg Zachmann / Monika Schnitzer (Ökonomen)",
-     "Plädieren für direkte staatliche Direktzahlungen an Bedürftige statt pauschaler Tankrabatte oder Steuersenkungen.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stimmen von Vertretern der Mineralölkonzerne oder Verbraucherschutzorganisationen kommen in den Berichten nicht vor.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 10:07",
-     "fokus": "Politische Debatte und Verbändekritik",
-     "text": "Die Tagesschau beleuchtet ausführlich die Vorschläge von Unionsfraktion und SPD sowie die Kritik von Spediteuren und Ökonomen an pauschalen Entlastungen.",
-     "url": "https://www.tagesschau.de/inland/spritpreise-frei-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 16:25",
-     "fokus": "Marktdaten und Kriegsursachen",
-     "text": "ZDFheute legt einen starken Fokus auf die genaue Preisentwicklung an den Tankstellen, tageszeitabhängige Schwankungen sowie den Zusammenhang mit dem Iran-Krieg.",
-     "url": "https://www.zdfheute.de/wirtschaft/diesel-rekordhoch-spritpreise-2026-100.html",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 09:53",
-     "fokus": "Kurzmeldung zum Rekord",
-     "text": "Die Zeit liefert eine kurze Zusammenfassung über das Überschreiten des bisherigen Höchstwerts beim Dieselpreis.",
-     "url": "https://www.zeit.de/wirtschaft/2026-09/diesel-in-deutschland-teuer-wie-nie-zuvor",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detailgrad",
-     "ZDFheute nennt zusätzliche Details zu tageszeitlichen Preisschwankungen und den Einflüssen des Iran-Krieges, während Tagesschau/ARD ausführlicher auf die innerkoalitionären Streitigkeiten eingeht."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Automobilklub ADAC, Bundesregierung, Spediteure, Wirtschaftsverbände",
-    "was": "Neuer Höchstpreis für Diesel und Debatte über Entlastungen",
-    "wann": "17.09.2026",
-    "wo": "Deutschland",
-    "warum": "Laut ZDFheute und Tagesschau/ARD wegen des Iran-Krieges und der Ölversorgung",
-    "quellenlage": "ADAC, Regierungsangaben, Verbände und Medienberichte"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Aktuelle Preisentwicklung",
-     "absaetze": [
-      "Nach Benzin hat laut übereinstimmenden Berichten von Tagesschau/ARD und ZDFheute nun auch Dieselkraftstoff ein neues Höchstmass erreicht. Am Mittwoch kostete ein Liter Diesel im bundesweiten Tagesschnitt laut ADAC 2,453 Euro. Damit wurde der bisherige Rekordwert aus dem April übertroffen.",
-      "Der Preis für Superbenzin der Sorte E10 erreichte am Mittwoch laut ZDFheute ein weiteres Hoch von durchschnittlich 2,314 Euro pro Liter. Allein im Vergleich zum Vortag verteuerte sich Diesel demnach um 3,1 Cent, während E10 um 1,4 Cent anstieg.",
-      "Laut ZDFheute schwanken die Preise im Tagesverlauf stark. Nach einem Preissprung am Mittag wurden an Autobahntankstellen teilweise mehr als 3 Euro pro Liter für Premiumbenzin verlangt, während günstigere Tankstellen E10 am Vormittag für weniger als 2,20 Euro anboteten."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergründe der Preissteigerung",
-     "absaetze": [
-      "Die hohen Spritpreise hängen laut ZDFheute vor allem mit dem Iran-Krieg zusammen, der Ende Februar begonnen hat. Jüngst spitzte sich die Lage durch neue Eskalationen am Persischen Golf und Sorgen um die Ölversorgung weiter zu.",
-      "Laut ZDFheute ist Diesel derzeit krisenanfälliger als Benzin und kostet trotz niedrigerer Besteuerung mehr. Der ADAC weist darauf hin, dass sich die extremen Preise nicht allein mit den Notierungen für Rohöl erklären lassen."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Positionen aus Wirtschaft und Verbänden",
-     "absaetze": [
-      "Die hohen Preise belasten laut Tagesschau/ARD und ZDFheute das Transportgewerbe erheblich. Der Spediteursverband BGL wandte sich in einem offenen Brief an Bundeskanzler Friedrich Merz und warnte vor der Gefährdung zahlreicher mittelständischer Betriebe.",
-      "Eine von der Politik diskutierte Senkung der Mehrwertsteuer auf Kraftstoffe wurde laut ZDFheute vom Bauernverband und dem Spediteursverband BGL kritisiert. Diese Maßnahme helfe Betrieben nicht, da die Mehrwertsteuer für sie ein durchlaufender Posten sei."
-     ]
-    },
-    {
-     "ueberschrift": "Politische Diskussionen und Vorschläge",
-     "absaetze": [
-      "Bundeskanzler Friedrich Merz hat angesichts der Situation staatliche Entlastungen in Aussicht gestellt. Konkrete Details und Zeitpunkte nannte er laut Tagesschau/ARD und ZDFheute zunächst jedoch nicht.",
-      "Wirtschaftsministerin Katherina Reiche sprach sich laut Tagesschau/ARD und ZDFheute für eine befristete Senkung der Mehrwertsteuer auf Kraftstoffe von 19 auf 7 Prozent aus. Gleichzeitig lehnte sie eine von der SPD ins Gespräch gebrachte Übergewinnsteuer und einen Spritpreisdeckel ab.",
-      "Finanzminister Lars Klingbeil forderte laut ZDFheute eine schnelle Entscheidung, um insbesondere Pendler zu entlasten. Die SPD favorisiert neben einer Übergewinnsteuer für Mineralölkonzerne laut Tagesschau/ARD auch die Einführung eines Spritpreisdeckels."
-     ]
-    },
-    {
-     "ueberschrift": "Wissenschaftliche Einordnung",
-     "absaetze": [
-      "Aus Sicht von Fachleuten stoßen steuerliche Entlastungen auf Kritik. Der Ökonom Georg Zachmann bezeichnete Direktzahlungen an Bedürftige laut Tagesschau/ARD als volkswirtschaftlich sinnvoller als einen erneuten Tankrabatt oder eine Mehrwertsteuersenkung.",
-      "Auch die Wirtschaftsweise Monika Schnitzer plädiert laut ZDFheute für eine direkte, gezielte Unterstützung. Dies setze die richtigen Anreize zum Sparen und entlaste gleichzeitig Autofahrer, die es wirklich benötigen."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Mittwoch",
-     "Erreichen eines Höchstpreises beim Benzinpreis laut Zeit"
-    ],
-    [
-     "17. September 2026",
-     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über Entlastungen"
-    ],
-    [
-     "April",
-     "Bisheriger Rekordwert beim Dieselpreis in Deutschland"
-    ],
-    [
-     "Mittwoch",
-     "Erreichen neuer Höchstwerte bei Benzin und Diesel laut ADAC und ZDFheute"
-    ],
-    [
-     "17. September 2026",
-     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über politische Entlastungsmaßnahmen"
-    ]
-   ],
-   "bild": {
-    "art": "ort",
-    "suchbegriff": "Gas station in Germany"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Keine inhaltlichen Korrekturen erforderlich, da der Entwurf bereits präzise auf den Quellen basierte."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Übergewinnsteuer",
-      "Eine spezielle Steuer für Unternehmen, die durch Krisen ungewöhnlich hohe Gewinne machen."
-     ],
-     [
-      "Mehrwertsteuer",
-      "Eine Steuer, die man beim Einkauf von Waren und Dienstleistungen mitbezahlt."
-     ],
-     [
-      "Tankrabatt",
-      "Eine staatliche Beihilfe, bei der die Steuern auf Kraftstoffe für eine bestimmte Zeit gesenkt werden, um Benzin und Diesel billiger zu machen."
-     ]
-    ],
-    "fragen": [
-     "Welche Vor- und Nachteile haben Steuersenkungen im Vergleich zu Direktzahlungen für bedürftige Menschen?",
-     "Warum führt der Krieg im Iran laut den Berichten zu höheren Preisen an deutschen Tankstellen?",
-     "Wie bewerten Verbände wie der Spediteursverband die vorgeschlagenen Massnahmen der Politik?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viel kostete ein Liter Diesel am Mittwoch im bundesweiten Tagesschnitt laut ADAC?",
-      "optionen": [
-       "2,153 Euro",
-       "2,453 Euro",
-       "2,853 Euro"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmenden Angaben von Tagesschau/ARD und ZDFheute kostete ein Liter Diesel am Mittwoch im Schnitt 2,453 Euro."
-     },
-     {
-      "frage": "Wer schlägt eine befristete Senkung der Mehrwertsteuer auf Kraftstoffe vor?",
-      "optionen": [
-       "Wirtschaftsministerin Katherina Reiche",
-       "Finanzminister Lars Klingbeil",
-       "Der Spediteursverband BGL"
-      ],
-      "richtig": 0,
-      "erklaerung": "Wirtschaftsministerin Katherina Reiche fordert laut den Berichten eine befristete Senkung der Mehrwertsteuer."
-     },
-     {
-      "frage": "Welche Hauptursache nennen die Berichte für die extremen Spritpreise?",
-      "optionen": [
-       "Der Euro-Kurs",
-       "Der Iran-Krieg",
-       "Streiks in Raffinerien"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Spritpreise hängen laut den Berichten vor allem mit dem Iran-Krieg und Sorgen um die Ölversorgung zusammen."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Deutschland ist Benzin und Diesel so teuer wie nie zuvor. Das sorgt für eine grosse politische Diskussion über mögliche Entlastungen für die Menschen.",
-    "absaetze": [
-     "Laut dem ADAC kostete ein Liter Diesel am Mittwoch im Schnitt 2,453 Euro. Das ist ein neuer Höchstwert. Schuld an den hohen Preisen ist vor allem der Krieg im Iran.",
-     "In der Regierung gibt es verschiedene Ideen, wie man Autofahrer entlasten kann. Wirtschaftsministerin Katherina Reiche schlägt vor, die Mehrwertsteuer auf Sprit zu senken. Die SPD fordert dagegen eine Übergewinnsteuer für Mineralölkonzerne.",
-     "Verbände wie die Spediteure warnen vor grossen Problemen für Betriebe. Wirtschaftsexperten schlagen vor, stattdessen direkte Geldzahlungen an bedürftige Menschen zu verteilen."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Deutschland hat der Preis für Diesel einen neuen Höchstwert erreicht. Bundesregierung und Parteien streiten über verschiedene Entlastungen für Autofahrer."
-    ],
-    "lang": [
-     "In Deutschland ist Diesel so teuer wie nie zuvor. Ein Liter kostete im Schnitt 2,453 Euro. Die Regierung streitet nun über verschiedene Entlastungsmöglichkeiten. Wirtschaftsministerin Reiche fordert eine Mehrwertsteuersenkung. Die SPD schlägt dagegen eine Übergewinnsteuer für Konzerne vor."
-    ],
-    "einfach": [
-     "Diesel und Benzin kosten in Deutschland so viel wie noch nie. Die Regierung diskutiert nun über neue Entlastungen für die Bürger."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg/1280px-Old_Gas_Station_Hamburg_Grindel.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Old_Gas_Station_Hamburg_Grindel.jpg",
-    "urheber": "Capecross",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "ort",
     "hinweis": "Archivfoto"
    },
    "version": 3
