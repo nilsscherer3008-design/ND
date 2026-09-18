@@ -586,17 +586,20 @@ export function aufraeumen(nachrichten, jetzt, cfg) {
   return { aktiv, alt: sortiert.filter(n => !ids.has(n.id)) };
 }
 
-async function pushSenden(n) {
-  const topic = process.env.NTFY_TOPIC;
-  if (!topic) return console.log("Kein NTFY_TOPIC gesetzt – keine Push-Nachricht.");
+const rubrikSlug = r => String(r).toLowerCase().replace(/ & /g, "-").replace(/[^a-zäöü-]/g, "").replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue");
+async function pushSenden(n, nurRubrik = false) {
+  const basis = process.env.NTFY_TOPIC;
+  if (!basis) return console.log("Kein NTFY_TOPIC gesetzt – keine Push-Nachricht.");
+  const topic = nurRubrik ? `${basis}-${rubrikSlug(n.rubrik)}` : basis;
   const headers = { "content-type": "application/json" };
   if (process.env.NTFY_TOKEN) headers.authorization = "Bearer " + process.env.NTFY_TOKEN;
   const seite = process.env.SITE_URL ? `${process.env.SITE_URL.replace(/\/$/, "")}/#/n/${n.id}` : undefined;
   const r = await fetch(CFG.ntfyServer, {
     method: "POST", headers,
-    body: JSON.stringify({ topic, title: "EILMELDUNG: " + n.titel, message: n.vorspann, priority: 5, tags: ["rotating_light"], click: seite })
+    body: JSON.stringify({ topic, title: (nurRubrik ? n.rubrik + ": " : "EILMELDUNG: ") + n.titel, message: n.vorspann,
+      priority: nurRubrik ? 3 : 5, tags: [nurRubrik ? "newspaper" : "rotating_light"], click: seite })
   });
-  console.log(r.ok ? `Push gesendet: ${n.titel}` : `Push fehlgeschlagen (${r.status})`);
+  console.log(r.ok ? `Push (${topic}): ${n.titel}` : `Push fehlgeschlagen (${r.status})`);
 }
 
 // ---------- Hauptprogramm ----------
@@ -774,6 +777,11 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
   const notified = new Set(alt.notified || []);
   for (const n of nachrichten.filter(n => n.eil && !notified.has(n.id) && jetzt - new Date(n.zeit) < 6 * 36e5)) {
     try { await pushSenden(n); } catch (e) { console.warn("Push-Fehler: " + e.message); }
+    notified.add(n.id);
+  }
+  // Rubrik-Kanäle: neue Themen ohne Eilmeldung, damit man gezielt abonnieren kann
+  for (const n of nachrichten.filter(n => !notified.has(n.id) && jetzt - new Date(n.zeit) < 4 * 36e5)) {
+    try { await pushSenden(n, true); } catch (e) { console.warn("Push-Fehler: " + e.message); }
     notified.add(n.id);
   }
 

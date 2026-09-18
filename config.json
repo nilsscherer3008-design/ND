@@ -24,7 +24,8 @@
     "Welt",
     "Wirtschaft",
     "Wissen & Klima",
-    "Sport"
+    "Sport",
+    "Region"
   ],
   "quellen": [
     {
@@ -180,6 +181,26 @@
       "feeds": [
         "https://www.theguardian.com/world/rss"
       ]
+    },
+    {
+      "name": "SWR Baden-Württemberg",
+      "typ": "öffentlich-rechtlich (Region)",
+      "art": "öffentlich-rechtlich",
+      "stamm": false,
+      "regional": true,
+      "feeds": [
+        "https://www.swr.de/~rss/swraktuell/baden-wuerttemberg/index.xml"
+      ]
+    },
+    {
+      "name": "Badische Zeitung",
+      "typ": "Regionalzeitung",
+      "art": "privates Medium",
+      "stamm": false,
+      "regional": true,
+      "feeds": [
+        "https://www.badische-zeitung.de/rss/bz-suedwest.rss"
+      ]
     }
   ],
   "archivMonate": 13,
@@ -228,5 +249,10 @@
     "aktiv": false,
     "stimme": "de_DE-thorsten-medium",
     "hinweis": "auf true stellen, wenn die Piper-Stimme im Ablauf eingerichtet ist"
+  },
+  "wetter": {
+    "ort": "Teningen",
+    "lat": 48.13,
+    "lon": 7.81
   }
 }
