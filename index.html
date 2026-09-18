@@ -349,8 +349,8 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 .pl-logo{position:relative}
 .pl-strich{display:block;height:4px;background:var(--red);border-radius:2px;margin-top:10px;width:0}
 .pl-logo-anim{animation:logoAuf 1.2s ease-out both}
-.pl-logo-anim .pl-strich{animation:strichAuf 2.6s cubic-bezier(.2,.8,.2,1) 1.1s both}
-.pl-logo-anim + .pl-titel{animation:titelAuf .9s ease-out 4.6s both}
+.pl-logo-anim .pl-strich{animation:strichAuf 4.2s cubic-bezier(.2,.8,.2,1) 1.1s both}
+.pl-logo-anim + .pl-titel{animation:titelAuf .9s ease-out 6.0s both}
 @keyframes logoAuf{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
 @keyframes strichAuf{from{width:0}to{width:72%}}
 @keyframes titelAuf{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
@@ -935,7 +935,7 @@ function blech(ctx, frequenzen, start, dauer, lautstaerke){
   const g = ctx.createGain(), f = ctx.createBiquadFilter();
   f.type = "lowpass"; f.Q.value = 2.5;
   f.frequency.setValueAtTime(600, start);
-  f.frequency.exponentialRampToValueAtTime(5200, start + 0.07);   // heller Anblas-Moment
+  f.frequency.exponentialRampToValueAtTime(4200, start + 0.08);   // weicher Anblas-Moment
   f.frequency.exponentialRampToValueAtTime(1400, start + dauer);
   g.gain.setValueAtTime(0.0001, start);
   g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.035);
@@ -977,44 +977,57 @@ function bassRutsch(ctx, start, vonHz, bisHz, dauer, lautstaerke){
   g.gain.exponentialRampToValueAtTime(0.0001, start + dauer);
   o.connect(g); g.connect(ctx.destination); o.start(start); o.stop(start + dauer + .05);
 }
-// Nachrichten-Opener mit Spannungsbogen (ca. 7 Sekunden, Stimme setzt nach 5,4 s ein)
+// Streicherteppich (weicher, alter Orchesterklang)
+function streicher(ctx, frequenzen, start, dauer, lautstaerke){
+  const g = ctx.createGain(), f = ctx.createBiquadFilter();
+  f.type = "lowpass"; f.frequency.value = 1600; f.Q.value = 0.7;
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.linearRampToValueAtTime(lautstaerke, start + 0.7);
+  g.gain.setValueAtTime(lautstaerke, start + dauer - 0.6);
+  g.gain.linearRampToValueAtTime(0.0001, start + dauer);
+  for (const fr of frequenzen) for (const v of [1, 1.004, 0.997]){
+    const o = ctx.createOscillator(); o.type = "sawtooth"; o.frequency.value = fr * v;
+    const m = ctx.createGain(); m.gain.value = 0.33 / frequenzen.length;
+    o.connect(m); m.connect(f); o.start(start); o.stop(start + dauer + .1);
+  }
+  f.connect(g); g.connect(ctx.destination);
+}
+// Pauke
+function pauke(ctx, start, lautstaerke){
+  const o = ctx.createOscillator(), g = ctx.createGain();
+  o.type = "sine";
+  o.frequency.setValueAtTime(115, start);
+  o.frequency.exponentialRampToValueAtTime(44, start + 0.16);
+  g.gain.setValueAtTime(0.0001, start);
+  g.gain.exponentialRampToValueAtTime(lautstaerke, start + 0.015);
+  g.gain.exponentialRampToValueAtTime(0.0001, start + 0.6);
+  o.connect(g); g.connect(ctx.destination); o.start(start); o.stop(start + 0.65);
+  rauschen(ctx, start, 0.12, 900, 200, lautstaerke * 0.25);   // Fellanschlag
+}
+// Erkennungsmelodie: klassisch-orchestral, Puls, zwei Akkordwechsel, großer Schluss (ca. 9 s)
 function melodie(){
   const ctx = tonKontext(); if (!ctx) return 0;
   const t = ctx.currentTime + 0.05;
-  // 1. Ruhiger Beginn: gleichmäßiges Ticken über tiefem Ton
-  note(ctx, 55, t, 3.4, .14);
-  note(ctx, 82.4, t + 0.8, 2.6, .08);
-  for (let i = 0; i < 8; i++) tick(ctx, t + i * 0.30, .045);
-  // 2. Aufbau: Puls wird schneller, Rauschen steigt
-  let p = 2.4;
-  for (let i = 0; i < 10; i++){ tick(ctx, t + p, .05 + i * 0.012); p += 0.20 - i * 0.014; }
-  note(ctx, 110, t + 2.4, 1.6, .10);
-  rauschen(ctx, t + 2.9, 1.0, 300, 5600, .17);
-  // 3. Der Schlag
-  bassRutsch(ctx, t + 3.9, 190, 41, 1.8, .58);
-  rauschen(ctx, t + 3.9, 0.55, 6500, 800, .13);
-  note(ctx, 146.83, t + 3.9, 1.8, .17);
-  note(ctx, 220, t + 3.9, 1.8, .11);
-  note(ctx, 293.66, t + 3.9, 1.6, .07);
-  // 4. Signaturteil: gleichmäßiger Puls mit kurzen Akkordschlägen (ca. 3,5 Sekunden)
-  const takt = 0.44;                       // etwa 136 Schläge pro Minute
-  const start = t + 4.5;
-  for (let i = 0; i < 8; i++){
-    const z = start + i * takt;
-    puls(ctx, z, i % 2 === 0 ? .55 : .34);                    // tiefer Schlag
-    note(ctx, 73.42, z, takt * 0.9, .12);                     // Bass-Puls
-    if (i % 2 === 0) blech(ctx, [146.83, 220], z + 0.02, 0.32, .34);   // kräftiger Akkordschlag
+  streicher(ctx, [110, 164.81, 220], t, 4.8, .16);          // Streicher tragen von Anfang an
+  note(ctx, 55, t, 3.2, .16);
+  for (let i = 0; i < 6; i++) pauke(ctx, t + 0.15 + i * 0.42, .22 + i * 0.035);
+  const takt = 0.42, s = t + 2.7;
+  for (let i = 0; i < 6; i++){
+    const z = s + i * takt;
+    pauke(ctx, z, i % 2 === 0 ? .50 : .30);
+    note(ctx, 73.42, z, takt * 0.9, .10);
+    if (i % 2 === 0) blech(ctx, [110, 164.81], z, 0.34, .34);
   }
-  blech(ctx, [110, 164.81, 220], start + 3 * takt, 0.60, .40);
-  blech(ctx, [123.47, 185, 246.94], start + 5 * takt, 0.60, .42);
-  puls(ctx, start + 7 * takt, .75);
-  rauschen(ctx, start + 7 * takt, 0.45, 7000, 900, .18);
-  blech(ctx, [146.83, 220, 293.66, 440], start + 7 * takt, 2.10, .52);  // lauter Schlussakkord
-  note(ctx, 36.71, start + 7 * takt, 2.2, .30);                         // Sub-Bass darunter
-  // 5. Ausklang: ruhiger Grundton, Ticken läuft in die Sendung hinein
-  note(ctx, 73.42, start + 3.3, 2.2, .12);
-  for (let i = 0; i < 6; i++) tick(ctx, start + 3.4 + i * 0.30, .035);
-  return 8.6;   // danach beginnt die Stimme, die Musik klingt darunter aus
+  blech(ctx, [123.47, 185, 246.94], s + 6 * takt, 0.50, .40);   // erster Akkordwechsel
+  pauke(ctx, s + 6 * takt, .55);
+  blech(ctx, [130.81, 196, 261.63], s + 7 * takt, 0.50, .42);   // zweiter Akkordwechsel
+  pauke(ctx, s + 7 * takt, .55);
+  const ende = s + 8 * takt;
+  pauke(ctx, ende, .85);
+  blech(ctx, [146.83, 220, 293.66, 369.99], ende, 2.6, .52);    // großer Schlussakkord
+  streicher(ctx, [146.83, 220, 293.66], ende, 2.8, .18);
+  note(ctx, 36.71, ende, 2.6, .28);
+  return 7.3;   // danach setzt die Stimme ein, der Akkord klingt darunter aus
 }
 
 // kurzes Übergangsgeräusch zwischen zwei Themen
