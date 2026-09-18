@@ -8,7 +8,7 @@ import { execSync } from "node:child_process";
 const ROOT = new URL("./", import.meta.url);
 const DATA_FILE = new URL("data/news.json", ROOT);
 const UA = "Mozilla/5.0 (compatible; NachrichtenHeft/1.0; Schulprojekt)";
-const TEXT_VERSION = 3; // höhere Zahl = ältere Artikel werden nach und nach neu geschrieben
+const TEXT_VERSION = 4; // höhere Zahl = ältere Artikel werden nach und nach neu geschrieben
 
 // ---------- Hilfsfunktionen ----------
 export function decode(s = "") {
@@ -42,7 +42,7 @@ export function parseFeed(xml) {
 }
 
 export function berlinStunde(d = new Date()) {
-  return +new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", hour: "numeric", hourCycle: "h23" }).format(d);
+  return parseInt(new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", hour: "2-digit", hourCycle: "h23" }).format(d), 10);
 }
 const berlinUhr = (d = new Date()) =>
   new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", hour: "2-digit", minute: "2-digit" }).format(d);
@@ -81,6 +81,7 @@ function jsonAusText(text) {
 }
 
 let geminiIndex = 0;
+export const modellZuruecksetzen = () => { geminiIndex = 0; };
 const geminiModelle = () => [].concat(CFG.modelle.gemini);
 function naechstesGeminiModell() {
   const liste = geminiModelle();
@@ -195,7 +196,7 @@ async function themaSchreiben(thema, quellenTexte, altesThema) {
 ${hinweis}
 Schreibe einen LANGEN, ausführlichen und streng sachlichen Nachrichtenartikel zu diesem Thema (Rubrik: ${thema.rubrik}) – im nüchternen Stil einer Nachrichtenagentur wie dpa oder Reuters. Verfügbare Quellennamen: ${namen}.
 Länge und Inhalt:
-- Der Artikel ("artikel") hat insgesamt 600 bis 1000 Wörter. Jeder Absatz besteht aus 3 bis 5 vollständigen Sätzen.
+- Der Artikel ("artikel") hat insgesamt 900 bis 1400 Wörter und mindestens 12 Absätze. Jeder Absatz besteht aus 4 bis 6 vollständigen Sätzen. Schreibe für Leserinnen und Leser, die alles genau wissen wollen.
 - Nutze ALLE Details aus ALLEN Quellen und führe sie zusammen: Zahlen, Namen, Funktionen, Orte, Uhrzeiten, Abläufe, Vorgeschichte, Zitate (sinngemäß), angekündigte Schritte.
 - Nennt eine Quelle etwas, das die anderen nicht nennen, schreibe dazu, von wem es stammt („laut ZDFheute …“).
 - Widersprechen sich Quellen, nenne beide Angaben.
@@ -225,11 +226,12 @@ Antworte NUR mit JSON in genau diesem Format:
  "fehlend": "Welche Stimmen oder Seiten in den Berichten nicht vorkommen",
  "medien": [{"name": "Quellenname", "fokus": "Schwerpunkt in 2–5 Wörtern", "text": "2–3 Sätze: was dieser Bericht betont"}],
  "unterschiede": [["Stichwort (z. B. Ton, Stimmen, Weggelassenes)", "Erklärung"]],
- "bild": {"art": "person | ort | institution | symbol | keins", "suchbegriff": "Suchbegriff für ein freies Foto bei Wikimedia Commons, z. B. 'Ulf Kristersson' oder 'Reichstag building Berlin'"}
+ "bilder": [{"art": "person | ort | institution | symbol | keins", "suchbegriff": "genauer Suchbegriff für Wikimedia Commons: Eigenname plus Zusatz, möglichst auf Englisch, z. B. 'Ulf Kristersson politician', 'Riksdag building Stockholm', 'European Central Bank headquarters'. Keine allgemeinen Wörter wie 'Politik' oder 'Nachrichten'.", "bildunterschrift": "1 Satz: was zu sehen ist und was es mit dem Thema zu tun hat"}],
+ "ort": {"name": "Ort und Land, wo das Ereignis stattfand – z. B. 'Wuppertal, Deutschland'; sonst 'keiner'"}
 }
-Regeln für "artikel": Abschnitte nur weglassen, wenn die Berichte dazu wirklich nichts enthalten. Insgesamt mindestens 8 Absätze, wenn das Material reicht.
+Regeln für "artikel": Abschnitte nur weglassen, wenn die Berichte dazu wirklich nichts enthalten. Lieber ausführlich als knapp – solange jede Angabe belegt ist.
 Regeln für "zeitleiste": nur Schritte, die in den Berichten stehen; bei neuen Ereignissen ohne Vorgeschichte leere Liste.
-Regeln für "bild": Zeige nie das Ereignis selbst, sondern eine beteiligte Person, einen Ort, eine Institution oder ein neutrales Symbol. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER "keins".`, 9000);
+Regeln für "bilder": 2 bis 4 verschiedene Vorschläge, die das Thema verständlicher machen (z. B. die beteiligte Person, der Ort, das Gebäude der Institution, ein neutrales Symbol). Zeige nie das Ereignis selbst. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER nur einen Eintrag mit art "keins".`, 9000);
 }
 
 // ---------- Zweiter Prüfdurchgang + Lernbereich ----------
@@ -256,8 +258,9 @@ Aufgabe 1 – Prüfen und korrigieren:
 
 Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften Nachricht):
 - "einfach": Vorspann und 3–5 kurze Absätze in einfacher Sprache (kurze Sätze, keine Fremdwörter ohne Erklärung) für Jugendliche ab 12.
-- "video": Sprechtexte zum Vorlesen, jeder Satz höchstens 20 Wörter, keine Abkürzungen, Zahlen so, dass man sie gut vorlesen kann.
-  "kurz": 2 Sätze. "lang": 3–4 Sätze. "einfach": 2–3 sehr einfache Sätze.
+- "video": Sprechtexte zum Vorlesen, jeder Satz höchstens 20 Wörter, keine Abkürzungen, Zahlen gut vorlesbar.
+  Erzähle in dieser Reihenfolge: 1. ein Einstiegssatz, der neugierig macht, aber nichts übertreibt und nichts wertet. 2. die wichtigsten Fakten. 3. ein Schlusssatz, der sagt, was als Nächstes passiert oder was noch offen ist.
+  "kurz": 3 Sätze. "lang": 6–8 Sätze. "einfach": 4–5 sehr einfache Sätze.
 
 Aufgabe 3 – Lernmaterial für Schülerinnen und Schüler:
 - "begriffe": 3–4 schwierige Begriffe aus der Nachricht, je 1–2 einfache Sätze Erklärung, ohne Wertung.
@@ -350,7 +353,11 @@ export function pruefen(entwurf, quellenTexte) {
     artikel: (entwurf.artikel || []).filter(a => a && a.ueberschrift && Array.isArray(a.absaetze) && a.absaetze.length)
       .map(a => ({ ueberschrift: String(a.ueberschrift), absaetze: a.absaetze.map(String).filter(Boolean) })).slice(0, 6),
     zeitleiste: (entwurf.zeitleiste || []).filter(z => Array.isArray(z) && z[0] && z[1]).map(z => [String(z[0]), String(z[1])]).slice(0, 12),
-    bild: entwurf.bild && typeof entwurf.bild === "object" ? { art: String(entwurf.bild.art || "keins").trim().toLowerCase(), suchbegriff: String(entwurf.bild.suchbegriff || "") } : undefined
+    bilder: (Array.isArray(entwurf.bilder) ? entwurf.bilder : entwurf.bild ? [entwurf.bild] : [])
+      .filter(b => b && typeof b === "object")
+      .map(b => ({ art: String(b.art || "keins").trim().toLowerCase(), suchbegriff: String(b.suchbegriff || ""), bildunterschrift: String(b.bildunterschrift || "") }))
+      .slice(0, 4),
+    ort: entwurf.ort?.name && !/^kein/i.test(entwurf.ort.name) ? { name: String(entwurf.ort.name).slice(0, 80) } : undefined
   };
 }
 
@@ -374,6 +381,73 @@ export function videoPruefen(v) {
 
 // ---------- Fotos von Wikimedia Commons ----------
 const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd)/i;
+const ohneAkzente = t => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+// mindestens ein aussagekräftiges Wort des Suchbegriffs muss im Dateititel oder in der Beschreibung stehen
+export function passtZumSuchbegriff(suchbegriff, titel, beschreibung) {
+  const worte = ohneAkzente(suchbegriff).split(/[^a-z0-9äöüß]+/i).filter(w => w.length >= 4);
+  if (!worte.length) return true;
+  const text = ohneAkzente(titel + " " + beschreibung);
+  return worte.some(w => text.includes(w));
+}
+export async function bildKandidaten(bild, maximal = 5) {
+  if (!bild || !bild.suchbegriff || bild.art === "keins" || !["person", "ort", "institution", "symbol"].includes(bild.art)) return [];
+  const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
+    action: "query", format: "json", generator: "search", gsrnamespace: "6", gsrlimit: "12",
+    gsrsearch: `${bild.suchbegriff} filetype:bitmap`, prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1280"
+  });
+  try {
+    const r = await fetch(url, { headers: { "User-Agent": "NachrichtenHeft/1.0 (Schulprojekt; GitHub Pages)" } });
+    if (!r.ok) return [];
+    const seiten = Object.values((await r.json()).query?.pages || {}).sort((a, b) => (a.index || 0) - (b.index || 0));
+    const treffer = [];
+    for (const p of seiten) {
+      const ii = p.imageinfo?.[0]; const m = ii?.extmetadata || {};
+      const lizenz = decode(m.LicenseShortName?.value || "");
+      if (!ii || !/image\/(jpeg|png|webp)/.test(ii.mime) || (ii.width || 0) < 600 || !FREIE_LIZENZ.test(lizenz)) continue;
+      const titel = decode(p.title || "").replace(/^Datei:|^File:/i, "");
+      const beschreibung = decode(m.ImageDescription?.value || m.ObjectName?.value || "").slice(0, 200);
+      if (!passtZumSuchbegriff(bild.suchbegriff, titel, beschreibung)) continue;
+      treffer.push({ titel, beschreibung, url: (ii.thumburl || ii.url).split("?")[0], original: ii.url, seite: ii.descriptionurl,
+        urheber: decode(m.Artist?.value || "unbekannt").slice(0, 90), lizenz, lizenzUrl: m.LicenseUrl?.value || "",
+        art: bild.art, suchbegriff: bild.suchbegriff, bildunterschrift: bild.bildunterschrift || "",
+        hinweis: bild.art === "symbol" ? "Symbolbild" : "Archivfoto" });
+      if (treffer.length >= maximal) break;
+    }
+    return treffer;
+  } catch { return []; }
+}
+
+// Eine KI-Anfrage wählt für alle Themen die passenden Bilder aus
+export async function bilderAuswaehlen(kandidatenProThema, kiFn) {
+  const eintraege = [...kandidatenProThema.entries()].filter(([, v]) => v.kandidaten.length);
+  if (!eintraege.length) return new Map();
+  const liste = eintraege.map(([id, v]) =>
+    `## Thema ${id}\n${v.titel}\n${v.vorspann.slice(0, 180)}\nBilder:\n` +
+    v.kandidaten.map((k, i) => `[${id}#${i}] (${k.art}, Suche: ${k.suchbegriff}) ${k.titel} – ${k.beschreibung.slice(0, 120)}`).join("\n")
+  ).join("\n\n");
+  const antwort = await kiFn(`${liste}
+
+Wähle für jedes Thema die Bilder aus, die WIRKLICH zum Thema passen und es verständlicher machen.
+Regeln:
+- Höchstens 3 Bilder je Thema, sinnvolle Reihenfolge: zuerst die beteiligte Person oder der Ort, dann Gebäude oder Symbol.
+- Passt ein Bild nicht eindeutig zum Thema (falsche Person, falscher Ort, unpassendes Motiv, unklares Motiv), lass es weg.
+- Lieber gar kein Bild als ein falsches. Themen ohne passendes Bild bekommen eine leere Liste.
+- Schreibe zu jedem gewählten Bild eine sachliche Bildunterschrift in einem Satz (was zu sehen ist und der Bezug zum Thema).
+Antworte NUR mit JSON: {"auswahl": [{"thema": "themen-id", "bilder": [{"ref": "themen-id#0", "bildunterschrift": "..."}]}]}`, 3000);
+  const ergebnis = new Map();
+  for (const a of antwort.auswahl || []) {
+    const v = kandidatenProThema.get(a.thema); if (!v) continue;
+    const gewaehlt = [];
+    for (const b of (a.bilder || []).slice(0, 3)) {
+      const i = +String(b.ref || "").split("#")[1];
+      const k = v.kandidaten[i];
+      if (k && !gewaehlt.some(g => g.url === k.url)) gewaehlt.push({ ...k, bildunterschrift: String(b.bildunterschrift || k.bildunterschrift || "") });
+    }
+    ergebnis.set(a.thema, gewaehlt);
+  }
+  return ergebnis;
+}
+
 export async function bildSuchen(bild) {
   if (!bild || !bild.suchbegriff || bild.art === "keins" || !["person", "ort", "institution", "symbol"].includes(bild.art)) return undefined;
   const begriffe = [bild.suchbegriff, bild.suchbegriff.split(/\s+/).slice(0, 2).join(" ")].filter((b, i, a) => b && a.indexOf(b) === i);
@@ -400,6 +474,61 @@ export async function bildSuchen(bild) {
     } catch { /* nächster Versuch */ }
   }
   return undefined;
+}
+
+export async function bilderSuchen(bilder, schonDa = []) {
+  const treffer = [], gesehen = new Set(schonDa.map(b => b.url));
+  for (const b of (bilder || []).slice(0, 4)) {
+    if (treffer.length >= 3) break;
+    const info = await bildSuchen(b);
+    if (info && !gesehen.has(info.url)) {
+      gesehen.add(info.url);
+      treffer.push({ ...info, bildunterschrift: b.bildunterschrift || "" });
+    }
+  }
+  return treffer;
+}
+
+// ---------- Ort für die Karte ----------
+export async function ortSuchen(ort) {
+  if (!ort?.name) return undefined;
+  try {
+    const r = await fetch("https://nominatim.openstreetmap.org/search?" + new URLSearchParams({ q: ort.name, format: "json", limit: "1" }),
+      { headers: { "User-Agent": UA, "Accept-Language": "de" } });
+    if (!r.ok) return undefined;
+    const [t] = await r.json();
+    if (!t) return undefined;
+    return { name: ort.name, lat: +(+t.lat).toFixed(3), lon: +(+t.lon).toFixed(3) };
+  } catch { return undefined; }
+}
+
+// ---------- Ausgaben zu festen Zeiten ----------
+const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
+export function aktuelleSendezeit(jetzt) {
+  const h = berlinStunde(jetzt);
+  const passend = [...SENDEZEITEN].reverse().find(z => h >= z);
+  return passend ?? null;
+}
+async function ausgabeSpeichern(jetzt, nachrichten) {
+  const stunde = aktuelleSendezeit(jetzt);
+  if (stunde === null) return;
+  const tag = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Berlin" }).format(jetzt);
+  const id = `${tag}-${String(stunde).padStart(2, "0")}`;
+  const themen = [...nachrichten]
+    .sort((a, b) => (b.eil - a.eil) || b.zeit.localeCompare(a.zeit))
+    .slice(0, 12)
+    .map(n => ({ id: n.id, titel: n.titel, rubrik: n.rubrik, eil: !!n.eil, bilder: n.bildInfos || (n.bildInfo ? [n.bildInfo] : []), ort: n.ortInfo,
+      saetze: n.video?.lang?.length ? n.video.lang : [n.vorspann] }));
+  if (themen.length < 3) return;
+  const ordner = new URL("data/ausgaben/", ROOT);
+  await fs.mkdir(ordner, { recursive: true });
+  const name = `${stunde}-Uhr-Ausgabe`;
+  await fs.writeFile(new URL(`${id}.json`, ordner), JSON.stringify({ id, name, stunde, zeit: jetzt.toISOString(), themen }, null, 1));
+  const indexDatei = new URL("index.json", ordner);
+  const alt = await leseJson(indexDatei, []);
+  const neu = [{ id, name, stunde, zeit: jetzt.toISOString(), anzahl: themen.length }, ...alt.filter(a => a.id !== id)].slice(0, 40);
+  await fs.writeFile(indexDatei, JSON.stringify(neu, null, 1));
+  console.log(`Ausgabe gespeichert: ${name} (${themen.length} Themen)`);
 }
 
 // ---------- Wochenrückblick ----------
@@ -495,6 +624,7 @@ async function main() {
   const { themen = [] } = await themenFinden(artikel, bestehende);
   const ergebnis = new Map(bestehende.map(n => [n.id, n]));
   let neuGeschrieben = 0, upgrades = 0;
+  const bildWahl = new Map(); // Kandidaten je Thema
 
   for (const t of themen) {
     const auswahl = [];
@@ -510,6 +640,8 @@ async function main() {
     if (altesThema && !veraltet && auswahl.every(a => alteLinks.has(a.link))) continue; // nichts Neues
     if (veraltet && auswahl.every(a => alteLinks.has(a.link))) { if (upgrades >= (CFG.maxNeuschreibenProLauf ?? 3)) continue; upgrades++; }
     if (!altesThema && neuGeschrieben >= CFG.maxNeueThemenProLauf) continue;
+
+    modellZuruecksetzen(); // für jedes Thema zuerst wieder das beste Modell versuchen
 
     // 3. Artikeltexte holen
     const quellenTexte = [];
@@ -545,12 +677,20 @@ async function main() {
         const bekannt = new Set(entwurf.zeitleiste.map(z => z[1]));
         entwurf.zeitleiste = [...altesThema.zeitleiste.filter(z => !bekannt.has(z[1])), ...entwurf.zeitleiste].slice(-12);
       }
-      // Foto: bei gleichem Suchbegriff das bisherige behalten
-      let bildInfo = altesThema?.bildInfo && altesThema?.bild?.suchbegriff === entwurf.bild?.suchbegriff ? altesThema.bildInfo : undefined;
-      if (!bildInfo && CFG.bilder !== false) {
-        bildInfo = await bildSuchen(entwurf.bild);
-        console.log(bildInfo ? `  Foto: ${bildInfo.urheber} (${bildInfo.lizenz})` : `  Kein Foto (${entwurf.bild?.art || "–"})`);
+      // Fotos: Kandidaten sammeln, die Auswahl trifft später eine gemeinsame KI-Anfrage
+      let bildInfos = altesThema?.bildInfos || (altesThema?.bildInfo ? [altesThema.bildInfo] : []);
+      if (CFG.bilder !== false && bildInfos.length < 2) {
+        const kandidaten = [];
+        for (const b of (entwurf.bilder || []).slice(0, 4)) {
+          if (kandidaten.length >= 8) break;
+          kandidaten.push(...(await bildKandidaten(b, 3)));
+        }
+        if (kandidaten.length) bildWahl.set(t.id, { titel: entwurf.titel, vorspann: entwurf.vorspann, kandidaten });
+        console.log(`  Bildvorschläge: ${kandidaten.length}`);
       }
+      const bildInfo = bildInfos[0];
+      const ortInfo = altesThema?.ortInfo?.name === entwurf.ort?.name ? altesThema.ortInfo : await ortSuchen(entwurf.ort);
+      if (ortInfo) console.log(`  Ort: ${ortInfo.name} (${ortInfo.lat}, ${ortInfo.lon})`);
       if (wortwarnung.length) console.warn(`  Wertende Wörter gefunden: ${wortwarnung.join(", ")}`);
       const neuesteZeit = quellenTexte.map(q => q.datum).filter(d => d !== "unbekannt").sort().pop() || jetzt.toISOString();
       ergebnis.set(t.id, {
@@ -558,16 +698,28 @@ async function main() {
         zeit: neuesteZeit,
         aktualisiert: altesThema ? `aktualisiert um ${berlinUhr(jetzt)} Uhr` : undefined,
         ...entwurf,
-        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo, version: TEXT_VERSION
+        geprueft, korrekturen, wortwarnung, lernen, einfach, video, bildInfo, bildInfos, ortInfo, version: TEXT_VERSION
       });
       neuGeschrieben++;
       console.log(`${altesThema ? "↻" : "+"} ${entwurf.titel} (${quellenTexte.length} Quellen)`);
     } catch (e) { console.warn(`Fehler bei ${t.id}: ${e.message}`); }
   }
 
+  // Bilder auswählen: eine KI-Anfrage prüft alle Kandidaten auf Passgenauigkeit
+  if (bildWahl.size) {
+    try {
+      const wahl = await bilderAuswaehlen(bildWahl, (text, max) => ki(REGELN, text, max || 3000));
+      for (const [id, bilder] of wahl) {
+        const n = ergebnis.get(id); if (!n) continue;
+        n.bildInfos = bilder; n.bildInfo = bilder[0]; n.bildVersucht = true;
+        console.log(`  Bilder für ${id}: ${bilder.length ? bilder.map(b => b.titel.slice(0, 40)).join(" | ") : "keins passte"}`);
+      }
+    } catch (e) { console.warn("Bildauswahl fehlgeschlagen: " + e.message); }
+  }
+
   // Fotos für Nachrichten ohne Bild nachholen (eine gemeinsame KI-Anfrage)
   if (CFG.bilder !== false) {
-    const ohneBild = [...ergebnis.values()].filter(n => !n.bildInfo && !(n.bild && n.bild.art === "keins") && !n.bildVersucht).slice(0, 15);
+    const ohneBild = [...ergebnis.values()].filter(n => !n.bildInfo && !(n.bilder?.[0]?.art === "keins") && !n.bildVersucht).slice(0, 15);
     if (ohneBild.length) {
       try {
         const erg = await ki(REGELN, `Schlage für diese Nachrichten je ein freies Foto bei Wikimedia Commons vor.
@@ -575,12 +727,18 @@ Zeige nie das Ereignis selbst, sondern eine beteiligte Person, einen Ort, eine I
 Bei Unglücken mit Toten oder Verletzten, Gewalttaten, Opfern oder Kindern: art "keins".
 ${ohneBild.map(n => `[${n.id}] ${n.titel} – ${n.vorspann}`).join("\n")}
 Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institution | symbol | keins", "suchbegriff": "..."}]}`, 2000);
+        const nachhol = new Map();
         for (const b of erg.bilder || []) {
           const n = ergebnis.get(b.id); if (!n) continue;
-          n.bild = { art: String(b.art || "keins").toLowerCase(), suchbegriff: String(b.suchbegriff || "") };
+          n.bilder = [{ art: String(b.art || "keins").toLowerCase(), suchbegriff: String(b.suchbegriff || ""), bildunterschrift: "" }];
           n.bildVersucht = true;
-          n.bildInfo = await bildSuchen(n.bild);
-          console.log(`  Foto nachgeholt für ${n.id}: ${n.bildInfo ? n.bildInfo.urheber : "keins"}`);
+          nachhol.set(n.id, { titel: n.titel, vorspann: n.vorspann, kandidaten: await bildKandidaten(n.bilder[0], 4) });
+        }
+        const wahl2 = await bilderAuswaehlen(nachhol, (text, max) => ki(REGELN, text, max || 3000));
+        for (const [id, bilder] of wahl2) {
+          const n = ergebnis.get(id); if (!n) continue;
+          n.bildInfos = bilder; n.bildInfo = bilder[0];
+          console.log(`  Foto nachgeholt für ${id}: ${bilder.length ? bilder[0].titel.slice(0, 40) : "keins passte"}`);
         }
       } catch (e) { console.warn("Fotos nachholen fehlgeschlagen: " + e.message); }
     }
@@ -588,6 +746,7 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
 
   const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
   const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
+  await ausgabeSpeichern(jetzt, nachrichten);
   await wochenrueckblick(jetzt, nachrichten, !!process.env.FORCE_WOCHE);
   if (altListe.length) console.log(`Archiviert: ${altListe.length} (Archiv gesamt: ${imArchiv})`);
 
