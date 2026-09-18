@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-18T14:00:01.848Z",
+ "stand": "2026-09-18T15:20:44.169Z",
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
@@ -7,58 +7,350 @@
  ],
  "nachrichten": [
   {
-   "id": "malaria-todesfall-frankfurt",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-18T13:50:33.000Z",
-   "aktualisiert": "aktualisiert um 16:00 Uhr",
-   "titel": "Todesfall nach Malaria-Infektion in Frankfurt am Main",
-   "vorspann": "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben. Das Gesundheitsamt hat zu erhöhter Aufmerksamkeit in der Nähe des Flughafens aufgerufen.",
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-18T15:11:07.000Z",
+   "aktualisiert": "aktualisiert um 17:20 Uhr",
+   "titel": "Bundesregierung plant Maßnahmen zur Entlastung bei Spritpreisen",
+   "vorspann": "Angesichts hoher Kraftstoffpreise plant die Bundesregierung laut Medienberichten einen Tankpreisdeckel und weitere Entlastungsmaßnahmen für Bürger.",
    "eil": false,
    "zusammenfassung": [
-    "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
-    "Die verstorbene Person lebte mit einer weiteren Erkrankten im Stadtteil Schwanheim nahe dem Flughafen.",
-    "Beide hatten zuvor keine entsprechenden Endemiegebiete bereist.",
-    "Das Gesundheitsamt geht davon aus, dass eine eingeschleppte Mücke die Infektionen verursacht hat."
+    "Die Bundesregierung berät über Maßnahmen zur Entlastung von Autofahrern angesichts hoher Spritpreise.",
+    "Dabei sind ein Tankpreisdeckel und eine Wiedereinführung des Tankrabatts im Gespräch.",
+    "Die Bundesländer müssen in die Pläne einbezogen werden oder zustimmen.",
+    "Es wird eine baldige Einigung und Verkündung der Maßnahmen erwartet."
    ],
    "einig": [
     [
-     "Eine an Malaria erkrankte Person aus Frankfurt am Main ist gestorben.",
+     "Die Bundesregierung plant Maßnahmen wie einen Tankpreisdeckel zur Entlastung bei Spritpreisen.",
      [
-      "Tagesschau/ARD",
-      "Spiegel"
+      "Spiegel",
+      "Zeit"
      ]
     ],
     [
-     "Die betroffenen Personen lebten in Frankfurt-Schwanheim nahe dem Flughafen.",
+     "Die Bundesländer müssen in die Pläne einbezogen werden oder zustimmen.",
      [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Die Personen hatten zuvor kein Malaria-Endemiegebiet bereist.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
+      "Spiegel",
+      "Zeit"
      ]
     ]
    ],
    "unklar": [
-    "Der genaue gesundheitliche Zustand der zweiten erkrankten Person wurde vom Gesundheitsamt nicht mitgeteilt."
+    "Bei welchem Preis der Tankpreisdeckel liegen soll, ist laut Spiegel unklar.",
+    "Wie der Preisdeckel genau ausgestaltet wird, ist laut Spiegel unklar."
    ],
    "positionen": [
     [
-     "Gesundheitsamt Frankfurt (Leiter Peter Tinnemann)",
+     "Union (Bundeskanzler Friedrich Merz, Bundeswirtschaftsministerin Katherina Reiche, Fraktionschef Thorsten Frei)",
+     "Favorisierten eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf sieben Prozent.",
+     "Spiegel"
+    ],
+    [
+     "Brandenburgs Ministerpräsident Dietmar Woidke (SPD)",
+     "Signalisiert Gesprächsbereitschaft über Belastungen durch Steuerausfälle und betont die Wichtigkeit schnellen Handelns.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen von Vertretern der Mineralölwirtschaft, von Tankstellenbetreibern oder Automobilclubs",
+   "medien": [
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 16:07",
+     "fokus": "Hintergründe und Details",
+     "text": "Der Spiegel berichtet ausführlich über die internen Beratungen der Regierung und mögliche Modelle des Preisdeckels.",
+     "url": "https://www.spiegel.de/politik/deutschland/spritpreise-regierung-einigt-sich-offenbar-auf-tankpreisdeckel-a-e8dfdecc-4a64-4b26-8895-94180b30a37d#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "18.09.26, 17:11",
+     "fokus": "Kurzmeldung zum Stand",
+     "text": "Die Zeit fasst kurz zusammen, dass sich die Regierung auf Maßnahmen geeinigt hat und die Länder noch zustimmen müssen.",
+     "url": "https://www.zeit.de/politik/deutschland/2026-09/tankpreisdeckel-spritpreise-regierung-entlastung",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Der Spiegel liefert viele Details und Hintergründe, während die Zeit eine sehr kurze Zusammenfassung bietet."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundesregierung und Bundesländer",
+    "was": "Planung von Tankpreisdeckel und Entlastungsmaßnahmen",
+    "wann": "noch unklar",
+    "wo": "Deutschland",
+    "wie": "Durch Gespräche zwischen Kanzleramt, Ministerien und Ländern",
+    "warum": "Hohe Spritpreise laut Berichten von Spiegel und Zeit",
+    "quellenlage": "Medienberichte von Spiegel und Zeit"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Aktuelle Entwicklungen",
+     "absaetze": [
+      "Die Bundesregierung plant nach Angaben von Spiegel und Zeit einen Tankpreisdeckel, um Autofahrer wegen hoher Spritpreise zu entlasten. Laut Spiegel soll dieses Vorhaben mit anderen Maßnahmen zu einem Paket geschnürt werden. Derzeit laufen intensive Gespräche zwischen Bundesfinanzministerium und Kanzleramt. Auch die Bundesländer sind laut Spiegel in diese Gespräche einbezogen worden. Die Zeit berichtet ergänzend, dass die Länder den Maßnahmen noch zustimmen müssen.",
+      "Nach Informationen des Spiegel ringt die Regierung seit Tagen um eine Lösung für die Kraftstoffpreise. Am Dienstag hatte der Bundeskanzler laut Spiegel in Aussicht gestellt, einen Vorschlag zu unterbreiten. Dabei sollten verschiedene Instrumente von den Koalitionsspitzen diskutiert werden. In der Union favorisierten Bundeskanzler Friedrich Merz, Bundeswirtschaftsministerin Katherina Reiche und Fraktionschef Thorsten Frei eine Senkung der Mehrwertsteuer auf Diesel und Benzin von 19 auf sieben Prozent.",
+      "Als zusätzliche Maßnahme soll laut Spiegel auch der Tankrabatt wiederbelebt werden, den es im Mai und Juni bereits einmal gegeben hat. Damals war die Energiesteuer um 17 Cent pro Liter gesenkt worden. Dieses Instrument soll laut Spiegel schnell wieder aktiviert werden, um eine sichtbare Lösung für die Bürger zu präsentieren."
+     ]
+    },
+    {
+     "ueberschrift": "Planungen und Details",
+     "absaetze": [
+      "Nach Informationen des Spiegel plant die Regierung, noch im Laufe des Freitags eine Einigung zu verkünden. Derzeit laufen laut Spiegel nur noch letzte Abstimmungen zwischen den Beteiligten. Im Bundeswirtschaftsministerium bereitet man sich auf Fachebene bereits auf einen Spritpreisdeckel vor. Derzeit zeichnet sich laut Spiegel ab, dass die SPD sich in der politischen Debatte mit diesem Vorschlag durchsetzen wird.",
+      "Unklar ist bislang laut Spiegel allerdings, bei welchem Preis der Deckel liegen soll und wie er ausgestaltet wird. Eine wichtige Frage betrifft laut Spiegel die Unterscheidung zwischen einem harten Preisdeckel und einer staatlichen Kostenübernahme. Bei einem harten Preisdeckel müssten Raffinerien, Importeure und Tankstellen die Differenz zum Marktpreis tragen.",
+      "Laut Spiegel könnten bei einem harten Preisdeckel Versorgungsengpässe die Folge sein. Sollten Tankstellenbetreiber den Sprit nicht mehr kostendeckend verkaufen können, drohe eine Verlagerung des Verkaufs in Länder ohne Preisdeckel. Auch die Schließung von Standorten in Deutschland wird als mögliche Folge genannt. Sollte sich der Staat dagegen an den Kosten beteiligen, könnte dies laut Spiegel für den Steuerzahler teuer werden."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und Forderungen",
+     "absaetze": [
+      "Die Bundesregierung pocht laut Spiegel darauf, dass sich anders als beim Tankrabatt im Mai und Juni dieses Mal auch die Länder an den Hilfen beteiligen. Einige Landesregierungen signalisieren laut Spiegel grundsätzlich Gesprächsbereitschaft. Brandenburgs Ministerpräsident Dietmar Woidke äußerte sich zu den anstehenden Belastungen durch Steuerausfälle. Der SPD-Politiker betonte laut Spiegel, dass man zwar andere Lösungen favorisiert habe, es jetzt aber auf schnelles Handeln ankomme."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Mittwoch",
+     "Erreichen eines Höchstpreises beim Benzinpreis laut Zeit"
+    ],
+    [
+     "17. September 2026",
+     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über Entlastungen"
+    ],
+    [
+     "April",
+     "Bisheriger Rekordwert beim Dieselpreis in Deutschland"
+    ],
+    [
+     "Mittwoch",
+     "Erreichen neuer Höchstwerte bei Benzin und Diesel laut ADAC und ZDFheute"
+    ],
+    [
+     "17. September 2026",
+     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über politische Entlastungsmaßnahmen"
+    ],
+    [
+     "Mittwoch",
+     "Erreichen des vorherigen Diesel-Rekordpreises von durchschnittlich 2,453 Euro pro Liter laut Tagesschau/ARD"
+    ],
+    [
+     "Donnerstag",
+     "Dieselpreis steigt auf durchschnittlich 2,471 Euro pro Liter laut ADAC, Tagesschau/ARD und Spiegel; Benzinpreis (E10) sinkt leicht auf 2,308 Euro"
+    ],
+    [
+     "Donnerstagabend",
+     "Hochrangig besetzte Runde der Bundesregierung bringt keine Einigung über Entlastungsmaßnahmen laut Deutschlandfunk"
+    ],
+    [
+     "Dienstag",
+     "Bundeskanzler stellt Vorschlag zur Hilfe an der Tankstelle in Aussicht laut Spiegel"
+    ],
+    [
+     "Freitag",
+     "Berichte über geplante Einigung der Regierung auf Tankpreisdeckel und Maßnahmen laut Spiegel"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "German Federal Chancellery building Berlin",
+     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo Gespräche zur Entlastung der Bürger stattfinden."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Gas station price sign Germany",
+     "bildunterschrift": "Preisanzeige an einer Tankstelle in Deutschland."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Datum in W-Fragen von einem festen Tag auf 'noch unklar' korrigiert, da kein fixes Datum in den Quellen genannt wird.",
+    "Zeitleiste für Freitag angepasst, da im Text steht, dass die Einigung im Laufe des Freitags verkündet werden soll."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Preisdeckel",
+      "Eine staatliche Obergrenze für den Preis von Waren, damit diese nicht teurer werden dürfen."
+     ],
+     [
+      "Mehrwertsteuer",
+      "Eine Steuer auf den Kauf von Waren und Dienstleistungen, die an den Staat gezahlt wird."
+     ],
+     [
+      "Tankrabatt",
+      "Eine zeitweilige staatliche Senkung der Energiesteuer auf Kraftstoffe, um das Tanken billiger zu machen."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile könnte ein harter Preisdeckel für Tankstellen und den Staat haben?",
+     "Warum ist es wichtig, dass bei politischen Entscheidungen verschiedene Medien verglichen werden?"
+    ],
+    "quiz": [
+     {
+      "frage": "Was plant die Bundesregierung laut den Berichten zur Entlastung bei Spritpreisen?",
+      "optionen": [
+       "Einen Tankpreisdeckel",
+       "Ein Verbot von Benzinautos",
+       "Eine Erhöhung der Mineralölsteuer"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von Spiegel und Zeit plant die Bundesregierung einen Tankpreisdeckel."
+     },
+     {
+      "frage": "Wer muss den Plänen der Bundesregierung nach den Berichten noch zustimmen?",
+      "optionen": [
+       "Die Bundesländer",
+       "Die Europäische Union",
+       "Die Automobilclubs"
+      ],
+      "richtig": 0,
+      "erklaerung": "Sowohl der Spiegel als auch die Zeit berichten, dass die Bundesländer noch zustimmen müssen."
+     },
+     {
+      "frage": "Welche Maßnahme schlug ein Teil der Union laut dem Spiegel stattdessen vor?",
+      "optionen": [
+       "Eine Senkung der Mehrwertsteuer auf Diesel und Benzin",
+       "Eine Erhöhung des Mindestlohns",
+       "Die Abschaffung aller Steuern auf Kraftstoffe"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Spiegel berichtet, dass Friedrich Merz, Katherina Reiche und Thorsten Frei eine Senkung der Mehrwertsteuer von 19 auf sieben Prozent favorisierten."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Spritpreise sind sehr hoch. Deshalb plant die Bundesregierung neue Hilfen für Autofahrer.",
+    "absaetze": [
+     "Im Gespräch sind ein Preisdeckel für Benzin und Diesel sowie ein neuer Tankrabatt.",
+     "Über die genaue Höhe des Preisdeckels und die Kosten wird noch beraten.",
+     "Die Bundesländer müssen den Plänen ebenfalls zustimmen und einbezogen werden.",
+     "Die Regierung will sich über die Maßnahmen noch absprechen und eine Einigung bekannt geben."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Mehrere Medien berichten übereinstimmend über geplante Entlastungen bei den Spritpreisen.",
+     "Die Bundesregierung plant einen Tankpreisdeckel und weitere Maßnahmen für Autofahrer.",
+     "Die Bundesländer müssen den Plänen noch zustimmen und beraten darüber."
+    ],
+    "lang": [
+     "Mehrere Medien berichten über neue Pläne der Bundesregierung zur Entlastung von Autofahrern.",
+     "Wegen hoher Spritpreise berät die Politik über einen Tankpreisdeckel.",
+     "Auch über eine Rückkehr des Tankrabatts wird nach Angaben des Spiegels gesprochen.",
+     "Einige Politiker der Union hatten zuvor eine Senkung der Mehrwertsteuer vorgeschlagen.",
+     "Brandenburgs Ministerpräsident Dietmar Woidke betont die Wichtigkeit schnellen Handelns."
+    ],
+    "einfach": [
+     "Wegen hoher Spritpreise plant die Politik neue Hilfen.",
+     "Im Gespräch sind ein Tankpreisdeckel und weitere Entlastungen.",
+     "Auch die Bundesländer müssen den Plänen noch zustimmen.",
+     "Wie teuer der Sprit genau gedeckelt wird, ist noch unklar."
+    ]
+   },
+   "bildInfo": {
+    "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
+    "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+    "urheber": "Diego Delso",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "institution",
+    "suchbegriff": "German Federal Chancellery building Berlin",
+    "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Bundesregierung über Maßnahmen berät.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
+     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+     "urheber": "Diego Delso",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "German Federal Chancellery building Berlin",
+     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Bundesregierung über Maßnahmen berät.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 4,
+   "bildVersucht": true
+  },
+  {
+   "id": "malaria-todesfall-frankfurt",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-18T14:03:00.000Z",
+   "aktualisiert": "aktualisiert um 17:20 Uhr",
+   "titel": "Todesfall nach Malaria-Infektion in Frankfurt am Main",
+   "vorspann": "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben. Das Gesundheitsamt hat zu erhöhter Aufmerksamkeit in der Nähe des Flughafens aufgerufen.",
+   "eil": false,
+   "zusammenfassung": [
+    "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben, eine weitere Person wird medizinisch behandelt.",
+    "Beide Personen lebten im Stadtteil Schwanheim nahe dem Flughafen und hatten zuvor keine Malaria-Gebiete bereist.",
+    "Das Gesundheitsamt geht von einer sogenannten Flughafenmalaria aus, bei der eine infizierte Mücke aus dem Ausland transportiert wurde.",
+    "In diesem Jahr sind in Frankfurt bereits drei Menschen nach einer Malaria-Infektion gestorben, insgesamt gab es acht Erkrankungen im Umfeld des Flughafens."
+   ],
+   "einig": [
+    [
+     "Eine an Malaria erkrankte Person ist in Frankfurt am Main gestorben.",
+     [
+      "Tagesschau/ARD",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Die betroffenen Personen lebten in Frankfurt-Schwanheim in der Nähe des Flughafens und hatten kein Endemiegebiet bereist.",
+     [
+      "Tagesschau/ARD",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Seit Juli gab es im Umfeld des Flughafens acht Erkrankungen und drei Todesfälle durch Malaria.",
+     [
+      "Tagesschau/ARD",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Der genaue Zustand der erkrankten Personen wurde laut Gesundheitsamt und Stadt nicht öffentlich mitgeteilt."
+   ],
+   "positionen": [
+    [
+     "Peter Tinnemann (Leiter des Gesundheitsamtes Frankfurt)",
      "Geht davon aus, dass eine Mücke vom Flughafen so weit geflogen ist und die Personen infiziert hat.",
      "Tagesschau/ARD"
     ],
     [
-     "Robert Koch-Institut (RKI)",
-     "Teilte mit, dass die Betroffenen in unterschiedlichen Haushalten lebten.",
-     "Tagesschau/ARD"
+     "Prof. Achim Hörauf (Direktor UKB)",
+     "Bezeichnet das Ereignis als sehr seltenes Vorkommen und erklärt die medizinischen Abläufe sowie Komplikationen der Infektion.",
+     "Deutsche Welle"
     ]
    ],
-   "fehlend": "Es fehlen direkte Aussagen von Angehörigen der betroffenen Personen oder behandelnden Ärzten der Uniklinik, da der Spiegel-Artikel hinter einer Bezahlschranke liegt.",
+   "fehlend": "Stimmen von Angehörigen der Betroffenen oder des Flughafenbetreibers Fraport zur aktuellen Situation.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -66,8 +358,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "18.09.26, 15:50",
-     "fokus": "Lokale Malaria-Fälle in Frankfurt",
-     "text": "Der Bericht schildert ausführlich die neuen Malaria-Fälle in Frankfurt-Schwanheim. Er zitiert den Leiter des Gesundheitsamtes und nennt Details zu den Betroffenen sowie früheren Fällen.",
+     "fokus": "Lokale Details aus Frankfurt",
+     "text": "Der Bericht konzentriert sich auf die neuen Fälle in Schwanheim, den Todesfall des 75-jährigen Mannes sowie die Aussagen des Gesundheitsamtsleiters Peter Tinnemann.",
      "url": "https://www.tagesschau.de/inland/regional/hessen/malaria-faelle-frankfurt-100.html",
      "video": false
     },
@@ -77,71 +369,81 @@
      "art": "privates Medium",
      "stamm": true,
      "datum": "17.09.26, 16:59",
-     "fokus": "Hintergrund des Ausbruchs",
-     "text": "Das Nachrichtenmagazin thematisiert den Ausbruch in Frankfurt Schwanheim. Der Text des Artikels ist wegen einer Bezahlschranke nicht voll abrufbar, wird jedoch in der Zeitleiste geführt.",
+     "fokus": "–",
+     "text": "Im Sommer starben in Frankfurt zwei Flughafenmitarbeiter an Malaria, nun kam ein Anwohner im Stadtteil Schwanheim durch den Parasiten ums Leben. Das Gesundheitsamt rät zu Mückenschutz.",
      "url": "https://www.spiegel.de/wissenschaft/malaria-in-frankfurt-schwanheim-wie-gefaehrlich-ist-der-ausbruch-a-1fd29de2-2f80-4c21-989d-72749d98a780#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "18.09.26, 16:03",
+     "fokus": "Medizinische Hintergründe und Experteneinordnung",
+     "text": "Die Deutsche Welle beleuchtet die Krankheit Malaria tropica ausführlich durch Erklärungen von Professor Achim Hörauf vom Universitätsklinikum Bonn.",
+     "url": "https://www.dw.com/de/flughafenmalaria-in-deutschland-wie-groß-ist-die-gefahr/a-79321705?maca=de-rss-de-all-1119-rdf",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Verfügbarkeit",
-     "Der Artikel von Spiegel ist durch eine Paywall nicht vollständig lesbar, während Tagesschau/ARD alle Details liefert."
+     "Tiefe der medizinischen Erklärungen",
+     "Die Deutsche Welle enthält detaillierte medizinische Erläuterungen zu den Erregern und Symptomen von Professor Hörauf, während Tagesschau/ARD den lokalen Fall in Frankfurt und die Aussagen des Gesundheitsamtes stärker in den Vordergrund stellt."
     ]
    ],
    "wfragen": {
-    "wer": "Eine an Malaria erkrankte Person in Frankfurt",
-    "was": "Eine infizierte Person ist gestorben",
-    "wann": "18.09.2026",
+    "wer": "Eine an Malaria erkrankte Person und das Gesundheitsamt",
+    "was": "Ein Todesfall nach einer Malaria-Infektion",
+    "wann": "17. September 2026",
     "wo": "Frankfurt am Main, Deutschland",
-    "wie": "Durch Infektion, vermutlich übertragen durch eine eingeschleppte Mücke",
-    "warum": "Laut Gesundheitsamt durch eine vom Flughafen her eingeflogene Mücke",
-    "quellenlage": "Berichte stützen sich auf das Gesundheitsamt Frankfurt und das Robert Koch-Institut"
+    "wie": "Durch den Stich einer infizierten Anopheles-Mücke laut Gesundheitsamt",
+    "warum": "Übertragung durch eine Mücke, laut Leiter des Gesundheitsamtes Peter Tinnemann",
+    "quellenlage": "Tagesschau/ARD und Deutsche Welle"
    },
    "artikel": [
     {
      "ueberschrift": "Das ist passiert",
      "absaetze": [
-      "In Frankfurt am Main ist eine Person nach einer Infektion mit Malaria gestorben. Dies gab das Gesundheitsamt der Stadt am Donnerstag bekannt. Die betroffene Person hatte zuvor kein Gebiet bereist, in dem die Krankheit üblicherweise vorkommt. Das Gesundheitsamt teilte mit, dass die verstorbene Person in Schwanheim in der Nähe des Flughafens gewohnt hat.",
-      "Neben dem Todesfall gab es einen weiteren Krankheitsfall in demselben Stadtteil. Laut den Angaben befanden sich beide Personen in stationärer Behandlung im Krankenhaus. Zum genauen gesundheitlichen Zustand der zweiten erkrankten Person machte das Gesundheitsamt keine Angaben. Die beiden Betroffenen lebten nach Angaben des Robert Koch-Instituts in unterschiedlichen Haushalten.",
-      "Die Stadt hatte am Dienstag über die beiden neuen Malaria-Fälle in Schwanheim berichtet. Beide Personen hatten weder ein sogenanntes Endemiegebiet bereist noch am Flughafen gearbeitet. Damit sind in Frankfurt in diesem laufenden Jahr nun drei Menschen nach einer Malaria-Infektion gestorben. Im Sommer hatten sich bereits sechs Mitarbeiter des Flughafenbetreibers Fraport infiziert, von denen zwei starben."
+      "In Frankfurt am Main ist eine Person nach einer Malaria-Infektion gestorben. Dies teilte das Gesundheitsamt am Donnerstag mit. Die betroffene Person lebte im Stadtteil Schwanheim nahe dem Flughafen. Ein Malaria-Gebiet hatte die Person zuvor nicht bereist. Laut Informationen der hessenschau handelt es sich bei dem Verstorbenen um einen 75 Jahre alten Mann.",
+      "Neben dem Todesfall gab es eine zweite erkrankte Person in demselben Stadtteil. Nach Angaben der hessenschau handelt es sich dabei um eine 60 Jahre alte Frau. Sie soll im Uniklinikum Frankfurt behandelt werden. Beide erkrankten Personen lebten in unterschiedlichen Haushalten, wie das Robert Koch-Institut mitteilte. Beide hatten zuvor weder ein Malaria-Endemiegebiet bereist noch am Flughafen gearbeitet.",
+      "Die zwei Fälle in Schwanheim traten im Umkreis von fünf Kilometern um den Frankfurter Flughafen auf. Das Gesundheitsamt und die Stadt teilten zum Zustand der Erkrankten keine genauen Details mit. Sie gaben jedoch an, dass sich beide in stationärer Behandlung befunden hätten. Seit Anfang der Woche wurden laut Mitteilung keine weiteren Malaria-Fälle in Frankfurt gemeldet.",
+      "Insgesamt sind in Frankfurt in diesem Jahr nun drei Menschen nach einer Malaria-Infektion gestorben. Im Sommer hatten sich sechs Mitarbeiter des Flughafenbetreibers Fraport mit der Krankheit infiziert, von denen zwei starben. Seit Juli sind im Umfeld des Frankfurter Flughafens insgesamt acht Menschen an Malaria erkrankt."
      ]
     },
     {
      "ueberschrift": "Die Einzelheiten",
      "absaetze": [
-      "Nach Informationen der hessenschau handelt es sich bei der verstorbenen Person um einen fünfundsiebzig Jahre alten Mann. Die zweite erkrankte Person ist eine sechzig Jahre alte Frau, welche im Uniklinikum Frankfurt behandelt wird. Die beiden Fälle in Schwanheim traten in einem Umkreis von fünf Kilometern um den Frankfurter Flughafen auf. Das Gesundheitsamt betonte, dass seit Anfang der Woche keine weiteren Fälle gemeldet wurden.",
-      "Das Gesundheitsamt rief Bürgerinnen und Bürger, die nahe dem Flughafen leben oder arbeiten, zu erhöhter Aufmerksamkeit auf. Bei Beschwerden sollen diese Personen ärztlichen Rat einholen und dabei auf ihren Wohnort hinweisen. Auch Ärzte wurden angewiesen, bei Patienten mit unklarem Fieber in Frankfurt eine mögliche Malaria-Erkrankung in Betracht zu ziehen. Diese Maßnahme gilt besonders für Menschen aus der Flughafenregion.",
-      "Der Leiter des Gesundheitsamtes, Peter Tinnemann, äußerte sich am Dienstag gegenüber der hessenschau zu den Hintergründen. Mücken, die über den Flughafen nach Frankfurt gelangen, können sich über mehrere Kilometer fortbewegen. In diesem Fall wird davon ausgegangen, dass ein Insekt so weit geflogen ist und die beiden Personen infiziert hat."
+      "Das Frankfurter Gesundheitsamt geht von der sogenannten Flughafenmalaria aus. Damit sind Infektionen durch den Stich einer mit dem Malariaerreger infizierten Anopheles-Mücke gemeint. Diese Mücke kann mit dem Flugzeug aus Malaria-Gebieten nach Deutschland gelangt sein. Der Leiter des Gesundheitsamtes, Peter Tinnemann, erläuterte dazu am Dienstag, dass sich Mücken vom Flughafen über mehrere Kilometer bewegen können.",
+      "In diesem Fall wird laut Tinnemann davon ausgegangen, dass eine Mücke so weit geflogen ist und die beiden Personen infiziert hat. Die gemeldeten Infektionen in Frankfurt betreffen nach bisherigen Erkenntnissen Malaria tropica. Dies ist die Form der Malaria, die als am gefährlichsten gilt. Für eine Infektion ist der Stich einer weiblichen Anopheles-Mücke notwendig, die mit dem Parasiten Plasmodium falciparum infiziert ist.",
+      "Der Erreger wird durch den Stich an den Menschen weitergegeben und befällt die roten Blutkörperchen. Professor Achim Hörauf vom Universitätsklinikum Bonn erklärte, dass es dabei zu vielen kleinen Gefäßverschlüssen kommen kann. Je nach betroffenem Organ können schwere Komplikationen wie Flüssigkeit in der Lunge oder neurologische Schäden im Gehirn entstehen. Auch ein akutes Nierenversagen ist bei der Erkrankung möglich.",
+      "Unbehandelt sterben laut Hörauf bis zu 20 Prozent der Erkrankten an dieser Form der Infektion. Die Symptome ähneln zunächst denen einer Grippe und umfassen plötzliches hohes Fieber, Schüttelfrost sowie Kopf- und Gliederschmerzen. Auch Übelkeit, Erbrechen und Durchfall können auftreten. Die Inkubationszeit des Erregers beträgt sieben bis 15 Tage, weshalb zwischen dem Stich und den ersten Symptomen mehr als zwei Wochen liegen können."
      ]
     },
     {
      "ueberschrift": "Hintergrund",
      "absaetze": [
-      "Malaria ist eine Infektionskrankheit. Die Übertragung erfolgt in der Regel durch Mücken. Endemiegebiete sind Regionen, in denen die Krankheit dauerhaft vorkommt.",
-      "Gelegentlich können Mücken als blinde Passagiere in Flugzeugen aus anderen Regionen nach Europa eingeschleppt werden. Diese Tiere können nach dem Verlassen des Flugzeugs in der näheren Umgebung Menschen stechen. Die aktuellen Fälle in Frankfurt stehen nach Einschätzung der Behörden in diesem Zusammenhang mit dem dortigen Flughafen.",
-      "Bereits im Sommer dieses Jahres kam es zu Infektionen bei Mitarbeitern des Flughafenbetreibers Fraport. Damals infizierten sich sechs Beschäftigte, von denen zwei starben."
+      "Normalerweise sind in Deutschland fast ausschließlich Fernreisende von Malaria betroffen, die sich in einem Malariagebiet infiziert haben. Vor der aktuellen Häufung wurde der letzte Fall von Flughafenmalaria in Deutschland im Jahr 2023 dokumentiert. Dies geht aus dem Epidemiologischen Bulletin des Robert Koch-Instituts hervor. Das Institut informiert regelmäßig über Infektionskrankheiten und die öffentliche Gesundheit.",
+      "Eine Mücke kann als blinder Passagier in einem Koffer oder in Kleidungsstücken nach Deutschland gelangen. In beheizten Bereichen eines Flughafens findet sie oft geeignete Bedingungen vor und kann einige Zeit überleben. Mit dem Ende des Sommers verschlechtern sich jedoch die Bedingungen in Deutschland für die Mücke und den Parasiten. Vor allem sinkende Nachttemperaturen sorgen dafür, dass Mücken weniger aktiv sind und ihre Überlebensdauer abnimmt."
      ]
     },
     {
      "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Das Gesundheitsamt ist eine staatliche Behörde auf kommunaler Ebene. Zu ihren Aufgaben gehört der Schutz der Bevölkerung vor übertragbaren Krankheiten. Sie registriert Infektionsfälle und leitet Schutzmaßnahmen ein.",
-      "Das Robert Koch-Institut, kurz RKI, ist eine Bundesbehörde in Deutschland. Es erforscht Infektionskrankheiten und berät bei gesundheitlichen Fragen."
+      "Das Robert Koch-Institut ist eine Bundesbehörde, die wichtige Aufgaben im Bereich der Überwachung von Infektionskrankheiten wahrnimmt. Ein Gesundheitsamt ist eine Behörde auf kommunaler Ebene, die für den Schutz der öffentlichen Gesundheit zuständig ist."
      ]
     },
     {
      "ueberschrift": "Reaktionen",
      "absaetze": [
-      "Der Leiter des Gesundheitsamtes Frankfurt, Peter Tinnemann, erklärte am Dienstag gegenüber der hessenschau, dass Mücken über den Flughafen nach Frankfurt kommen können. Er erläuterte, dass sich solche Insekten über mehrere Kilometer bewegen können. In dem konkreten Fall geht das Amt davon aus, dass eine Mücke so weit geflogen ist und die beiden Personen infiziert hat.",
-      "Das Gesundheitsamt Frankfurt teilte am Donnerstag mit, dass es sich bei dem Verstorbenen um eine der beiden Personen aus Schwanheim handelt. Die Behörde gab zudem an, dass sich beide Betroffenen in stationärer Behandlung befanden. Zum genauen Zustand der Erkrankten wurden keine Auskünfte erteilt.",
-      "Das Robert Koch-Institut gab an, dass die betroffenen Personen in unterschiedlichen Haushalten lebten."
+      "Das Frankfurter Gesundheitsamt rief Bürgerinnen und Bürger, die in der Nähe des Flughafens leben oder arbeiten, zu erhöhter Aufmerksamkeit auf. Bei Beschwerden sollten sie sofort ärztlichen Rat einholen und auf ihren Wohnort hinweisen. Ärzte sollen laut Gesundheitsamt bei Patienten mit unklarem Fieber eine mögliche Malaria-Erkrankung in Betracht ziehen. Dies gilt besonders für Menschen aus der Flughafenumgebung.",
+      "Professor Achim Hörauf vom Universitätsklinikum Bonn bezeichnete das Ereignis als sehr selten und betonte, dass es sich nicht um eine neue Alltagserkrankung in Deutschland handelt. Laut Hörauf besteht die größte Herausforderung darin, ohne vorherigen Auslandsaufenthalt überhaupt an Malaria zu denken."
      ]
     },
     {
      "ueberschrift": "Wie geht es weiter?",
      "absaetze": [
-      "Das Gesundheitsamt hat angekündigt, die Situation in Frankfurt weiter zu beobachten. Bürgerinnen und Bürger in der Nähe des Flughafens sollen bei Beschwerden sofort ärztliche Hilfe aufsuchen und den Wohnort nennen. Ärzte in Frankfurt sind angewiesen, bei unklarem Fieber auf Malaria zu achten."
+      "Die zweite erkrankte Person wird nach Angaben der hessenschau im Uniklinikum Frankfurt weiter behandelt. Das Gesundheitsamt kündigte an, die Situation in der Umgebung des Flughafens weiterhin zu beobachten und die Ärzteschaft für die Diagnose zu sensibilisieren."
      ]
     }
    ],
@@ -150,7 +452,7 @@
     {
      "art": "keins",
      "suchbegriff": "keins",
-     "bildunterschrift": "Zu diesem Artikel wird wegen des Todesfalls kein Bild gezeigt."
+     "bildunterschrift": "Es wird kein Bild angezeigt, da der Artikel von einem Todesfall und einer Erkrankung handelt."
     }
    ],
    "ort": {
@@ -158,83 +460,69 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Zahlen in Text und Video zur besseren Lesbarkeit und Konformität ausgeschrieben. Kleinere redaktionelle Anpassungen zur reinen Faktenstreue aus den Quellen vorgenommen."
+    "Das Datum in den wfragen von 18. September auf 17. September korrigiert, da das Gesundheitsamt die Mitteilung am Donnerstag veröffentlichte (Sendung vom 17.09.).",
+    "Formulierungen an den genauen Text der Vorlagen angepasst."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
       "Malaria",
-      "Eine Infektionskrankheit, die durch Parasiten übertragen wird und meistens von Mücken auf den Menschen gelangt."
+      "Eine Tropenkrankheit, die durch den Stich bestimmter Mücken übertragen wird und zu schweren Fieberanfällen führen kann."
      ],
      [
-      "Gesundheitsamt",
-      "Eine staatliche Behörde auf der Ebene einer Stadt oder eines Kreises, die sich um den Schutz der Gesundheit der Bevölkerung kümmert."
+      "Inkubationszeit",
+      "Die Zeitspanne von der Ansteckung durch einen Erreger bis zum Ausbruch der ersten Krankheitssymptome."
+     ],
+     [
+      "Gesundheitseinrichtung",
+      "Eine staatliche Behörde auf kommunaler Ebene, die für den Schutz der öffentlichen Gesundheit und die Seuchenbekämpfung zuständig ist."
      ]
     ],
     "fragen": [
-     "Welche Rolle spielen internationale Verkehrswege wie Flughäfen bei der Verbreitung von Infektionskrankheiten?",
-     "Wie gehen Medien mit Informationen um, wenn wichtige Details durch Bezahlschranken nur eingeschränkt zugänglich sind?"
+     "Welche Rolle spielen internationale Flughäfen bei der Verbreitung von seltenen Infektionskrankheiten in Deutschland?",
+     "Wie wichtig sind Expertenmeinungen in Medienberichten über unbekannte oder seltene Krankheitsfälle?"
     ],
     "quiz": [
      {
-      "frage": "In welchem Frankfurter Stadtteil wohnten die betroffenen Personen?",
+      "frage": "Wo lebten die beiden neu erkrankten Personen in Frankfurt?",
       "optionen": [
-       "Frankfurt-Schwanheim",
-       "Frankfurt-Höchst",
-       "Frankfurt-Sachsenhausen"
+       "Im Stadtteil Schwanheim nahe dem Flughafen",
+       "Direkt im Gebäude des Hauptbahnhofs",
+       "In der Frankfurter Innenstadt"
       ],
       "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und Spiegel lebten die Personen im Stadtteil Schwanheim."
-     },
-     {
-      "frage": "Welche Vermutung äußert das Gesundheitsamt bezüglich der Übertragung?",
-      "optionen": [
-       "Eine Mücke wurde über den Flughafen eingeschleppt und flog weit.",
-       "Die Personen haben sich auf einer Auslandsreise angesteckt.",
-       "Die Übertragung erfolgte von Mensch zu Mensch im selben Haushalt."
-      ],
-      "richtig": 0,
-      "erklaerung": "Das Gesundheitsamt geht davon aus, dass eine Mücke vom Flughafen so weit geflogen ist und die Personen infiziert hat."
-     },
-     {
-      "frage": "Was teilt das Robert Koch-Institut zu den Betroffenen mit?",
-      "optionen": [
-       "Sie arbeiteten alle am Flughafen.",
-       "Sie lebten in unterschiedlichen Haushalten.",
-       "Sie wurden gemeinsam in einer Praxis behandelt."
-      ],
-      "richtig": 1,
-      "erklaerung": "Nach Angaben des Robert Koch-Instituts lebten die Betroffenen in unterschiedlichen Haushalten."
+      "erklaerung": "Laut Tagesschau und Deutscher Welle lebten die Betroffenen im Stadtteil Schwanheim in unmittelbarer Nähe des Frankfurter Flughafens."
      }
     ]
    },
    "einfach": {
-    "vorspann": "In Frankfurt am Main ist ein Mensch an Malaria gestorben. Die Person hatte zuvor keine Reise in ein Gebiet gemacht, in dem es Malaria gibt.",
+    "vorspann": "In Frankfurt am Main ist ein Mensch an der Infektion Malaria gestorben.",
     "absaetze": [
-     "Das Gesundheitsamt teilte mit, dass die verstorbene Person in Frankfurt-Schwanheim in der Nähe des Flughafens gewohnt hat. Eine zweite erkrankte Person aus derselben Gegend wird im Krankenhaus behandelt.",
-     "Beide Personen waren zuvor nicht in einem Malaria-Gebiet. Das Gesundheitsamt geht davon aus, dass eine Mücke vom Flughafen die Menschen gestochen und infiziert hat.",
-     "Menschen in der Nähe des Flughafens sollen bei Beschwerden sofort zum Arzt gehen und ihren Wohnort nennen. Auch Ärzte sollen bei unklarem Fieber an Malaria denken."
+     "Zwei Menschen erkrankten in Frankfurt an Malaria, obwohl sie nicht in einem fremden Land waren. Beide wohnten in der Nähe des Flughafens im Stadtteil Schwanheim. Eine der beiden Personen ist nun gestorben.",
+     "Das Gesundheitsamt geht davon aus, dass eine infizierte Mücke aus dem Ausland mit dem Flugzeug nach Deutschland kam. Diese Mücke hat die Menschen gestochen.",
+     "In diesem Jahr gab es im Umfeld des Flughafens insgesamt acht Erkrankungen und drei Todesfälle.",
+     "Das Gesundheitsamt rät Menschen in der Nähe des Flughafens, bei Fieber sofort zum Arzt zu gehen und den Wohnort zu nennen."
     ]
    },
    "video": {
     "kurz": [
-     "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
-     "Mehrere Medien berichten übereinstimmend, dass die Betroffenen zuvor nicht in einem Endemiegebiet waren.",
-     "Das Gesundheitsamt vermutet eine durch den Flughafen eingeschleppte Mücke als Ursache."
+     "In Frankfurt am Main ist eine Person nach einer Malaria-Infektion gestorben.",
+     "Mehrere Medien berichten übereinstimmend von insgesamt acht Erkrankungen im Umfeld des Flughafens.",
+     "Das Gesundheitsamt beobachtet die Situation weiter und rät zu Aufmerksamkeit bei Beschwerden."
     ],
     "lang": [
      "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
-     "Mehrere Medien berichten übereinstimmend über diesen Vorfall in Frankfurt-Schwanheim.",
-     "Die betroffenen Personen wohnten in der Nähe des Flughafens.",
-     "Sie hatten zuvor keine entsprechenden Gebiete bereist.",
-     "Das Gesundheitsamt geht von einer eingeschleppten Mücke als Überträger aus."
+     "Mehrere Medien berichten übereinstimmend von diesem Vorfall.",
+     "Die betroffenen Personen lebten in der Nähe des Frankfurter Flughafens.",
+     "Sie hatten zuvor keine Malaria-Gebiete bereist.",
+     "Das Gesundheitsamt geht von einer Übertragung durch eine infizierte Mücke aus."
     ],
     "einfach": [
-     "In Frankfurt ist ein Mensch an Malaria gestorben.",
-     "Die Person hat vorher keine Reise in ein Malaria-Gebiet gemacht.",
-     "Das Gesundheitsamt vermutet eine Mücke als Ursache.",
-     "Die Behörden raten zu Aufmerksamkeit bei Fieber in der Nähe des Flughafens."
+     "In Frankfurt am Main ist ein Mensch an Malaria gestorben.",
+     "Zwei Personen erkrankten in der Nähe des Flughafens ohne Auslandsreise.",
+     "Das Gesundheitsamt vermutet eine infizierte Mücke als Ursache.",
+     "Menschen in der Umgebung sollen bei Fieber zum Arzt gehen."
     ]
    },
    "bildInfos": [],
@@ -842,710 +1130,6 @@
    "bildVersucht": true
   },
   {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-18T13:28:32.000Z",
-   "aktualisiert": "aktualisiert um 16:00 Uhr",
-   "titel": "Kraftstoffpreise erreichen neue Höchststände und Debatte über Entlastungen",
-   "vorspann": "Der Preis für Dieselkraftstoff hat an deutschen Tankstellen einen neuen Höchststand erreicht. In der Bundesregierung und auf EU-Ebene wird über Maßnahmen zur Entlastung der Verbraucher beraten.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die Kraftstoffpreise an deutschen Tankstellen bleiben hoch, wobei der Dieselpreis laut ADAC ein neues Rekordhoch von 2,471 Euro pro Liter erreicht hat.",
-    "Als Hauptursache für die hohen Spritpreise nennt die Tagesschau/ARD die militärische Eskalation im Nahen Osten und am Persischen Golf.",
-    "In der Bundesregierung wird über Entlastungsmaßnahmen debattiert, wobei SPD, CDU/CSU und Minister unterschiedliche Vorschläge wie Preisdeckel, Steuerrabatte oder Direktzahlungen einbringen.",
-    "Bundesfinanzminister Lars Klingbeil fordert eine EU-weite Übergewinnsteuer für Mineralölkonzerne, scheiterte damit vorerst jedoch bei der EU-Kommission in Dublin.",
-    "Konkrete Entlastungsbeschlüsse der Bundesregierung stehen nach Angaben des Deutschlandfunks weiterhin aus."
-   ],
-   "einig": [
-    [
-     "Der Dieselpreis im bundesweiten Durchschnitt lag bei 2,471 Euro pro Liter laut ADAC-Auswertung.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Super-Benzin E10 sank im Preis leicht auf durchschnittlich 2,308 Euro pro Liter.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Bundeskanzler Friedrich Merz hatte zuvor Entlastungen für die Verbraucher in Aussicht gestellt.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Bundesfinanzminister Lars Klingbeil setzt sich für eine Übergewinnsteuer ein.",
-     [
-      "Deutschlandfunk",
-      "Spiegel",
-      "Zeit"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die Bundesregierung sich auf konkrete Entlastungsmaßnahmen einigen kann und welcher Weg dabei eingeschlagen wird, ist laut Tagesschau/ARD und Deutschlandfunk noch unklar.",
-    "Ob die EU-Kommission in den kommenden Monaten doch noch Vorschläge für eine Übergewinnsteuer vorlegt, ist laut EU-Wirtschaftskommissar Valdis Dombrovskis (zitiert im Spiegel) zum jetzigen Zeitpunkt noch offen."
-   ],
-   "positionen": [
-    [
-     "Bundeskanzler Friedrich Merz (CDU)",
-     "Hat baldige Hilfe und Entlastungen für Verbraucher zugesagt.",
-     "Tagesschau/ARD,Spiegel"
-    ],
-    [
-     "SPD",
-     "Fordert einen Preisdeckel, der vom Bundeswirtschaftsministerium umgesetzt werden müsste.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Bundeswirtschaftsministerin Katherina Reiche (CDU)",
-     "Will Spritpreise per Steuerrabatt senken und schlägt Direktzahlungen an Geringverdiener vor.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Bundesfinanzminister Lars Klingbeil (SPD)",
-     "Fordert eine EU-weite Übergewinnsteuer für Mineralölkonzerne zur Entlastung der Bürger.",
-     "Deutschlandfunk,Spiegel,Zeit"
-    ],
-    [
-     "EU-Wirtschaftskommissar Valdis Dombrovskis",
-     "Lehnt einen EU-weiten Vorschlag für eine Übergewinnsteuer zum jetzigen Zeitpunkt ab.",
-     "Spiegel"
-    ],
-    [
-     "Französischer Finanzminister Roland Lescure",
-     "Betont, dass Vorschläge der Kommission maßgeschneidert sein müssen und Einheitslösungen vermieden werden sollten.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen von Verbraucherschützern, Vertretern der Mineralölkonzerne selbst sowie betroffenen Bürgern oder Wirtschaftsverbänden.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 11:45",
-     "fokus": "–",
-     "text": "Am zweiten Tag in Folge hat der Preis für Diesel ein neues Rekordhoch erreicht. Im Schnitt kostete der Liter zuletzt 2,471 Euro, so eine Auswertung des ADAC. Beim Benzinpreis ging es dagegen leicht nach unten.",
-     "url": "https://www.tagesschau.de/wirtschaft/energie/diesel-preis-rekordhoch-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 15:28",
-     "fokus": "–",
-     "text": "Die Bundesregierung hat weiter keine konkreten Maßnahmen gegen die hohen Spritpreise beschlossen. Auch eine hochrangig besetzte Runde am Donnerstagabend brachte keine Einigung. Anfang der Woche hatte Bundeskanzler Merz Entlastungen angekündigt. Bundesfinanzminister Klingbeil hat sich jetzt noch einmal für eine Übergewinnsteuer ausgesprochen.",
-     "url": "https://www.deutschlandfunk.de/suche-nach-entlastungen-uebergewinnsteuer-senkung-der-stromsteuer-oder-direktzahlungen-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "18.09.26, 14:13",
-     "fokus": "–",
-     "text": "Finanzminister Lars Klingbeil dringt auf eine Extra-Abgabe für Mineralölfirmen auf europäischer Ebene. Bei einem Treffen in Dublin stößt der SPD-Politiker aber auf wenig Begeisterung.",
-     "url": "https://www.spiegel.de/wirtschaft/service/uebergewinnsteuer-eu-laesst-finanzminister-lars-klingbeil-mit-plaenen-auflaufen-a-2cc95ff4-3834-4fbd-90b6-77f2faa2a33d#ref=rss",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "18.09.26, 15:00",
-     "fokus": "–",
-     "text": "Angesichts hoher Spritpreise fordert Bundesfinanzminister Lars Klingbeil eine EU-weite Übergewinnsteuer für Mineralölkonzerne. Die EU-Kommission will das derzeit nicht.",
-     "url": "https://www.zeit.de/wirtschaft/2026-09/uebergewinnsteuer-mineraloelkonzerne-eu-kommission-lars-klingbeil-gxe",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Fokus der Berichterstattung",
-     "Während Tagesschau/ARD stark auf die konkreten Preisdaten des ADAC und die innerdeutschen Koalitionsdebatten eingeht, konzentriert sich der Spiegel vor allem auf den europäischen Streit um die Übergewinnsteuer in Dublin."
-    ]
-   ],
-   "wfragen": {
-    "wer": "ADAC, Bundesregierung, EU-Kommission und Minister",
-    "was": "Neue Rekordpreise für Diesel und Diskussionen über eine Übergewinnsteuer",
-    "wann": "18. September 2026",
-    "wo": "Deutschland und Dublin",
-    "wie": "Durch Datenauswertungen von Tankstellen und politische Verhandlungen auf nationaler sowie europäischer Ebene",
-    "warum": "Militärische Eskalation in Nahost und am Persischen Golf laut Tagesschau/ARD",
-    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, Spiegel, Zeit"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Neue Rekordwerte beim Dieselpreis",
-     "absaetze": [
-      "Am zweiten Tag in Folge hat der Preis für Dieselkraftstoff an deutschen Tankstellen ein neues Rekordhoch erreicht. Im bundesweiten Durchschnitt kostete der Liter zuletzt 2,471 Euro, wie eine Auswertung des ADAC zeigt. Bereits am Mittwoch hatte der Dieselpreis mit durchschnittlich 2,453 Euro pro Liter den vorherigen Rekord gebrochen. Auch die Echtzeit-Auswertung des SWR-Datenteams ermittelte zuletzt neue Höchststände. Am Freitagvormittag lag der mittlere Preis für den Liter Diesel bei 2,45 Euro, basierend auf einer Analyse aller Kraftstoffpreise von 15.000 deutschen Tankstellen um 10 Uhr.",
-      "Der Spiegel und die Tagesschau/ARD berichten übereinstimmend über diese Entwicklung der Kraftstoffpreise. Die Auswertungen verdeutlichen die kontinuierliche Aufwärtsbewegung des Dieselpreises an den Zapfsäulen in Deutschland. Der ADAC erfasst diese Daten regelmässig im bundesweiten Durchschnitt. Die Datenteams des SWR ergänzen dies durch punktuelle Echtzeit-Analysen. Damit liegen präzise Werte zur Preisentwicklung für Verbraucher vor.",
-      "Die Situation an den Tankstellen betrifft Millionen Autofahrer in Deutschland täglich. Kraftstoffpreise unterliegen permanenten Schwankungen durch den Rohölmarkt. Die aktuellen Daten dokumentieren eine spürbare finanzielle Belastung für private Haushalte und Unternehmen. Der ADAC und das SWR-Datenteam beobachten diese Entwicklung fortlaufend. Die Erhöhungen spiegeln sich direkt in den täglichen Durchschnittspreisen wider."
-     ]
-    },
-    {
-     "ueberschrift": "Minimale Entspannung beim Benzinpreis",
-     "absaetze": [
-      "Eine minimale Entspannung an den Zapfsäulen gab es laut ADAC dagegen beim Benzin. Der Preis für Super-Benzin der Sorte E10 sank demnach am Donnerstag leicht auf im Schnitt 2,308 Euro pro Liter. Am Mittwoch hatte das Benzin noch durchschnittlich 2,314 Euro pro Liter gekostet. Dieser Rückgang stellt einen Gegensatz zur starken Verteuerung beim Diesel dar. Dennoch verbleiben auch die Benzinpreise auf einem insgesamt sehr hohen Niveau.",
-      "Der Spiegel bestätigt diesen leichten Preisrückgang bei der Sorte E10 ebenfalls in seinen Berichten. Die Differenz zum Vortag beträgt nur wenige Zehntelcent. Mehrere Medien, darunter die Tagesschau/ARD und der Spiegel, führen diese Zahlen an. Sie verdeutlichen, dass sich die Kraftstoffsorten in ihrer kurzfristigen Preisbewegung leicht voneinander unterscheiden. Grundlegende Entwarnung für Autofahrer lässt sich daraus jedoch nicht ableiten.",
-      "Die Verbraucher spüren die hohen Kosten an jeder Tankstelle im Land. Während Diesel kontinuierlich neue Höchstmarken erreicht, zeigt sich bei Benzin eine Seitwärtsbewegung mit leichter Tendenz nach unten. Die statistischen Erfassungen des ADAC bilden diese Nuancen genau ab. Wirtschaftliche Analysten und Autofahrer verfolgen diese Kennzahlen täglich. Sie bilden die Grundlage für die politische Debatte über mögliche Entlastungen."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Ursachen der hohen Preise",
-     "absaetze": [
-      "Hintergrund der hohen Spritpreise ist laut Tagesschau/ARD die militärische Eskalation in Nahost und am Persischen Golf. Seit der Sperrung der Straße von Hormus ist demnach bereits seit längerer Zeit weniger Rohöl auf dem Weltmarkt verfügbar. Die Spannungen rund um die Meerenge Bab al-Mandab vor der Küste des Jemen haben die Situation nach Angaben der Tagesschau nochmals verschärft. Hinzu kommt, dass zahlreiche Energieanlagen durch Angriffe beschädigt wurden. Betroffen sind laut demselben Bericht Förderstätten und Raffinerien in den Golfstaaten.",
-      "Die weltweiten Verflechtungen des Energiemarktes führen somit direkt zu Preissteigerungen in Europa. Rohöl ist der zentrale Grundstoff für die Herstellung von Benzin und Diesel. Wenn die Förderung in wichtigen Regionen stockt oder Transportwege blockiert sind, reagieren die internationalen Märkte mit steigenden Preisen. Die Raffinerien müssen teurer einkaufen, was sich auf die Endkundenpreise auswirkt. Diese Zusammenhänge erklären das aktuelle Preisniveau an den Tankstellen.",
-      "Ob Öl-Industrie oder Staat von den Preisen profitieren, hängt laut Tagesschau/ARD von der jeweiligen Kraftstoffsorte ab. Die genaue Aufteilung der Einnahmen ist Gegenstand wirtschaftlicher Analysen. In der politischen Öffentlichkeit wird dieser Aspekt intensiv diskutiert. Die weltpolitischen Krisenherde bleiben der zentrale Treiber für die Marktlage. Eine Entspannung der Lage hängt massiv von der Entwicklung in den betroffenen Fördergebieten ab."
-     ]
-    },
-    {
-     "ueberschrift": "Politische Debatte über Entlastungen in Deutschland",
-     "absaetze": [
-      "In Deutschland läuft eine Debatte über Entlastungen für die Verbraucherinnen und Verbraucher. Bundeskanzler Friedrich Merz (CDU) hatte laut Tagesschau/ARD und Spiegel bereits baldige Hilfe zugesagt. Konkrete Maßnahmen ließ er dabei jedoch offen, wie der Spiegel ergänzt. Aktuell wird in der Bundesregierung noch über den richtigen Weg diskutiert. Eine hochrangig besetzte Runde am Donnerstagabend brachte laut dem Deutschlandfunk keine Einigung.",
-      "Die Koalitionspartner in der Bundesregierung vertreten unterschiedliche Ansätze zur Lösung des Problems. Die SPD fordert laut Tagesschau/ARD einen Preisdeckel, der vom Bundeswirtschaftsministerium umgesetzt werden müsste. Bundeswirtschaftsministerin Katherina Reiche (CDU) will die Spritpreise laut Tagesschau/ARD lieber per Steuerrabatt senken. Zudem schlägt Reiche Direktzahlungen an Geringverdiener vor. Bundesfinanzminister Lars Klingbeil hat sich laut Deutschlandfunk und Spiegel noch einmal für eine Übergewinnsteuer ausgesprochen.",
-      "Die Union aus CDU und CSU steht einer nationalen Übergewinnsteuer laut Spiegel eher skeptisch gegenüber. Sie hätte sich höchstens eine europäische Lösung vorstellen können. Dass Deutschland nun im Alleingang eine solche Steuer einführt, ist laut Spiegel noch schwerer vorstellbar. Die unterschiedlichen Vorstellungen der beteiligten Parteien erschweren eine schnelle Einigung innerhalb der Bundesregierung. Die Suche nach einem gemeinsamen Vorgehen dauert demnach an."
-     ]
-    },
-    {
-     "ueberschrift": "Rückschlag für Finanzminister Klingbeil auf EU-Ebene",
-     "absaetze": [
-      "Bundesfinanzminister Lars Klingbeil hat bei seinen Plänen für eine Übergewinnsteuer nun einen herben Rückschlag hinnehmen müssen, berichtet der Spiegel. Die EU-Kommission hat den Vorstoß des SPD-Politikers nach einer europäischen Übergewinnsteuer für Mineralölkonzerne vorerst zurückgewiesen. »Zum jetzigen Zeitpunkt legen wir keinen EU-weiten Vorschlag vor«, sagte EU-Wirtschaftskommissar Valdis Dombrovskis bei einem Treffen der Finanzminister der Mitgliedstaaten in Dublin laut Spiegel. Klingbeil macht sich laut Spiegel schon länger stark für eine solche Steuer, die Mineralölfirmen auf kräftig gestiegene Profite wegen des Irankriegs zahlen sollen.",
-      "Ende August startete Klingbeil nach Angaben des Spiegels dafür mit seinen Ressortkollegen aus Portugal, Spanien, Österreich, Italien und Polen einen Vorstoß auf EU-Ebene. In Dublin argumentierte Klingbeil laut Spiegel, wenn sechs Finanzminister dafür und andere nicht komplett dagegen seien, müsse die Kommission nun in die Puschen kommen, sich anstrengen und Optionen vorlegen. Es gehe um etwas Grundsätzliches. Auch Europa müsse dazu beitragen, dass die Spritpreise sinken und die Menschen im Alltag entlastet werden, so Klingbeil laut Spiegel. Spätestens bei der nächsten Zusammenkunft der Finanzminister Anfang Oktober müsse die Kommission Modelle vorlegen.",
-      "EU-Wirtschaftskommissar Dombrovskis entgegnete laut Spiegel auf diese Forderung, er wolle jetzt nicht beginnen, Ankündigungen für die kommenden Monate zu machen. Er betonte jedoch, dass durchaus die Möglichkeit bestehe, dass die Mitgliedstaaten eine solche Besteuerung von Übergewinnen einführen. Die Kommission beobachte die Lage und Entwicklungen selbstverständlich weiter und werde, sofern angemessen, Vorschläge und Reaktionen vorlegen, so Dombrovskis laut Spiegel. Auch die Zeit berichtet in ihrer Kurzmeldung über diesen Vorgang und hält fest, dass die EU-Kommission eine EU-weite Übergewinnsteuer für Ölkonzerne derzeit nicht plant."
-     ]
-    },
-    {
-     "ueberschrift": "Internationale Positionen und historische Vergleiche",
-     "absaetze": [
-      "Der französische Finanzminister Roland Lescure sagte in Dublin laut Spiegel, Vorschläge der Kommission müssten maßgeschneidert sein, denn der Schock betreffe alle, aber alle auf unterschiedliche Weise. Gespräche seien selbstverständlich willkommen, so Lescure laut Spiegel. Man wolle jedoch auch sicherstellen, dass keine Maßnahmen nach dem Prinzip »one size fits all« eingeführt werden, betonte der französische Minister laut Spiegel. Die europäischen Partner blicken somit aus unterschiedlichen Blickwinkeln auf die Krisenfolgen.",
-      "Ein historisches Vorbild für eine solche Übergewinnsteuer gibt es laut Spiegel durchaus. Während der Pandemie hatten Erdöl-, Gas-, Kohle- und Raffineriekonzerne außergewöhnliche Gewinne zeitweise mit 33 Prozent zusätzlich versteuern müssen, berichtet der Spiegel. Mehrere Milliarden Euro flossen auf diese Weise nach Deutschland, so der Spiegel weiter. Der Schritt ist unter Ökonomen allerdings umstritten. Manche Experten warnen vor einer Unterscheidung in »gute« und »schlechte« Gewinne sowie vor einer staatlichen Festlegung, ab wann Gewinne zu hoch sind. Andere verlangen laut Spiegel dagegen, dass Krisengewinne schnell wegbesteuert werden.",
-      "Die Zeit widmet dem Thema ebenfalls Aufmerksamkeit und fasst zusammen, dass die EU-Kommission vorerst keine Übergewinnsteuer plant. Bundesfinanzminister Klingbeil treibt das Thema dennoch weiter voran. Die Diskussionen auf nationaler und europäischer Ebene bleiben dynamisch. Die Bundesregierung sucht derweil nach weiteren Wegen zur Entlastung. Konkrete Beschlüsse stehen nach Angaben des Deutschlandfunks und der Tagesschau jedoch noch aus."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Mittwoch",
-     "Erreichen eines Höchstpreises beim Benzinpreis laut Zeit"
-    ],
-    [
-     "17. September 2026",
-     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über Entlastungen"
-    ],
-    [
-     "April",
-     "Bisheriger Rekordwert beim Dieselpreis in Deutschland"
-    ],
-    [
-     "Mittwoch",
-     "Erreichen neuer Höchstwerte bei Benzin und Diesel laut ADAC und ZDFheute"
-    ],
-    [
-     "17. September 2026",
-     "Veröffentlichung aktueller ADAC-Zahlen und Debatte über politische Entlastungsmaßnahmen"
-    ],
-    [
-     "Mittwoch",
-     "Erreichen des vorherigen Diesel-Rekordpreises von durchschnittlich 2,453 Euro pro Liter laut Tagesschau/ARD"
-    ],
-    [
-     "Donnerstag",
-     "Dieselpreis steigt auf durchschnittlich 2,471 Euro pro Liter laut ADAC, Tagesschau/ARD und Spiegel; Benzinpreis (E10) sinkt leicht auf 2,308 Euro"
-    ],
-    [
-     "Donnerstagabend",
-     "Hochrangig besetzte Runde der Bundesregierung bringt keine Einigung über Entlastungsmaßnahmen laut Deutschlandfunk"
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "institution",
-     "suchbegriff": "European Commission headquarters Brussels",
-     "bildunterschrift": "Das Gebäude der EU-Kommission in Brüssel, die eine Übergewinnsteuer für Ölkonzerne vorerst ablehne."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Lars Klingbeil politician",
-     "bildunterschrift": "Bundesfinanzminister Lars Klingbeil sprach sich für eine europäische Übergewinnsteuer aus."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Gasoline fuel dispenser pump",
-     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle, an der die Kraftstoffpreise für Diesel und Benzin gemessen werden."
-    }
-   ],
-   "geprueft": true,
-   "korrekturen": [
-    "Im Zitat des französischen Ministers wurde der englische Begriff für Einheitslösungen im Fließtext eingedeutscht, um neutrale und klare Sprache zu wahren."
-   ],
-   "wortwarnung": [
-    "massiv"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Übergewinnsteuer",
-      "Eine Sondersteuer für Unternehmen, die in Krisenzeiten besonders hohe Gewinne erzielen."
-     ],
-     [
-      "Rohöl",
-      "Ein natürlicher Rohstoff aus der Erde, aus dem in Raffinerien Benzin und Diesel hergestellt werden."
-     ]
-    ],
-    "fragen": [
-     "Welche Vor- und Nachteile hat eine staatliche Eingreifung in die Kraftstoffpreise?",
-     "Wie gehen verschiedene europäische Länder mit den hohen Energiepreisen um?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viel kostete ein Liter Diesel laut ADAC im bundesweiten Durchschnitt?",
-      "optionen": [
-       "zwei Euro und dreißig Cent",
-       "zwei Euro und siebenundvierzig Cent",
-       "drei Euro und zehn Cent"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der ADAC ermittelte einen Durchschnittspreis von 2,471 Euro pro Liter für Diesel."
-     },
-     {
-      "frage": "Wer forderte eine europäische Übergewinnsteuer für Mineralölkonzerne?",
-      "optionen": [
-       "Bundesfinanzminister Lars Klingbeil",
-       "EU-Wirtschaftskommissar Valdis Dombrovskis",
-       "Bundeskanzler Friedrich Merz"
-      ],
-      "richtig": 0,
-      "erklaerung": "Bundesfinanzminister Lars Klingbeil sprach sich für eine solche Steuer aus, scheiterte damit aber vorerst bei der EU-Kommission."
-     },
-     {
-      "frage": "Welche Ursache nennen die Berichte für die hohen Spritpreise?",
-      "optionen": [
-       "Ein Streik der Tankstellenpächter in Deutschland",
-       "Höhere Steuern auf Autos",
-       "Die militärische Eskalation in Nahost und am Persischen Golf"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die Berichte nennen die militärische Eskalation in Nahost und am Persischen Golf sowie weniger Rohöl als Hintergrund."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Preise für Kraftstoff an deutschen Tankstellen sind sehr hoch. Besonders Diesel kostet so viel wie nie zuvor.",
-    "absaetze": [
-     "Laut einer Auswertung des ADAC kostete ein Liter Diesel im bundesweiten Durchschnitt zwei Euro und siebenundvierzig Cent. Das ist ein neuer Rekordwert. Benzin der Sorte E10 wurde dagegen minimal billiger.",
-     "Hintergrund für die hohen Preise sind Kriege und Krisen im Nahen Osten. Dadurch kommt weniger Rohöl auf den weltweiten Markt.",
-     "In der Bundesregierung wird nun darüber gestritten, wie man die Verbraucher entlasten kann. Die Politiker haben sich bisher jedoch noch nicht auf eine gemeinsame Maßnahme geeinigt.",
-     "Auch über eine zusätzliche Steuer für große Mineralölkonzerne wird diskutiert. Die EU-Kommission lehnte einen solchen Vorschlag für ganz Europa vorerst ab."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Preise für Diesel an deutschen Tankstellen haben ein neues Rekordhoch erreicht.",
-     "Mehrere Medien berichten über politische Debatten und Streit zu möglichen Entlastungen für Verbraucher.",
-     "Ob und wann konkrete Maßnahmen beschlossen werden, bleibt vorerst noch unklar."
-    ],
-    "lang": [
-     "An deutschen Tankstellen steigen die Preise für Dieselkraftstoff immer weiter an.",
-     "Ein Liter Diesel kostete im bundesweiten Durchschnitt zuletzt zwei Euro und siebenundvierzig Cent.",
-     "Als Hauptursache für diese Entwicklung gelten internationale Krisen und weniger Rohöl auf dem Weltmarkt.",
-     "In der Bundesregierung gibt es heftige Diskussionen über mögliche Entlastungen für die Bürger.",
-     "Bundesfinanzminister Lars Klingbeil fordert eine europäische Übergewinnsteuer für große Mineralölkonzerne."
-    ],
-    "einfach": [
-     "Diesel an deutschen Tankstellen ist so teuer wie nie zuvor.",
-     "Ein Liter kostet im Durchschnitt zwei Euro und siebenundvierzig Cent.",
-     "Grund dafür sind Probleme auf dem weltweiten Markt für Rohöl.",
-     "Politiker streiten in der Regierung über Hilfen für die Menschen.",
-     "Eine Einigung gibt es bisher noch nicht."
-    ]
-   },
-   "bildInfo": {
-    "titel": "Shell petrol pump 1952.jpg",
-    "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
-    "urheber": "Palauenc05",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "symbol",
-    "suchbegriff": "Gasoline fuel dispenser pump",
-    "bildunterschrift": "Eine alte Zapfsäule symbolisiert die Thematik rund um Kraftstoffpreise an Tankstellen.",
-    "hinweis": "Symbolbild"
-   },
-   "bildInfos": [
-    {
-     "titel": "Shell petrol pump 1952.jpg",
-     "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
-     "urheber": "Palauenc05",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "symbol",
-     "suchbegriff": "Gasoline fuel dispenser pump",
-     "bildunterschrift": "Eine alte Zapfsäule symbolisiert die Thematik rund um Kraftstoffpreise an Tankstellen.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "version": 4,
-   "bildVersucht": true
-  },
-  {
-   "id": "klopp-dfb-kader-nominierung",
-   "rubrik": "Sport",
-   "zeit": "2026-09-18T12:10:00.000Z",
-   "aktualisiert": "aktualisiert um 16:00 Uhr",
-   "titel": "Bundestrainer Jürgen Klopp nominiert erstmals 44 Spieler für vier Länderspiele",
-   "vorspann": "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt. Er berief insgesamt 44 Spieler, die auf zwei Gruppen für anstehende Partien in der Nations League aufgeteilt sind.",
-   "eil": false,
-   "zusammenfassung": [
-    "Bundestrainer Jürgen Klopp hat einen Kader mit 44 Spielern für seine ersten vier Länderspiele nominiert.",
-    "Die Spieler sind auf zwei unterschiedliche Listen für Partien in der UEFA Nations League aufgeteilt.",
-    "Mehrere Spieler wurden erstmals für die A-Nationalmannschaft berufen, während einige bekannte Kräfte nicht berücksichtigt wurden.",
-    "Auch die U21-Nationalmannschaft hat unter Trainer Antonio Di Salvo ein neues Aufgebot mit mehreren Debütanten erhalten."
-   ],
-   "einig": [
-    [
-     "Jürgen Klopp hat einen Kader von 44 Spielern für die Nationalmannschaft nominiert.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel",
-      "Zeit",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Das Aufgebot ist auf zwei verschiedene Kader aufgeteilt.",
-     [
-      "Tagesschau/ARD",
-      "Zeit"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob alle Spieler von der ersten Liste tatsächlich nach den ersten Spielen im Quartier bleiben werden, ist laut den Berichten noch Teil der internen Planung."
-   ],
-   "positionen": [
-    [
-     "Oliver Baumann (Torhüter)",
-     "Die Entscheidung, ihn nicht zu nominieren, gefällt ihm nicht, aber er muss sie akzeptieren.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Antonio Di Salvo (U21-Trainer)",
-     "Die lange Länderspielphase soll für intensives Training und den Gruppensieg genutzt werden.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen von Vereinsverantwortlichen der betroffenen Fußballclubs zu dem großen Kader.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 22:06",
-     "fokus": "Kaderdetails und Spielerzitate",
-     "text": "Der Bericht listet zahlreiche Spieler auf, nennt genaue Zahlen zu den beiden Kadern und enthält Reaktionen von nicht nominierten Spielern.",
-     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "18.09.26, 14:10",
-     "fokus": "U21-Kader und Nachwuchsspieler",
-     "text": "Der Artikel beleuchtet die Nominierungen für die U21-Nationalmannschaft und geht auf Hintergründe einzelner Nachwuchstalente ein.",
-     "url": "https://www.spiegel.de/sport/fussball/u21-nationalmannschaft-paris-brunner-und-sechs-weitere-debuetanten-im-neuen-kader-a-98caf86c-ddcb-4ad0-81f1-d9a47578aa6c#ref=rss",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 11:08",
-     "fokus": "–",
-     "text": "Der neue Bundestrainer Jürgen Klopp hat erstmals ein Nationalmannschaftsaufgebot zusammengestellt. Insgesamt sind 44 Spieler nominiert – aufgeteilt in zwei Kader.",
-     "url": "https://www.zeit.de/sport/2026-09/dfb-nationalmannschaft-juergen-klopp-kader-nominierung-nations-league-gxe",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 16:01",
-     "fokus": "Ablauf der Pressekonferenz",
-     "text": "Der Text beschreibt das Auftreten des Bundestrainers bei der Bekanntgabe in der DFB-Zentrale und seine Äußerungen zu gesellschaftlichen Themen.",
-     "url": "https://www.sueddeutsche.de/sport/bundestrainer-klopp-nominierung-kader-nationalmannschaft-li.3549390",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Fokus der Berichterstattung",
-     "Während Tagesschau/ARD und Zeit vor allem die Namen und Zahlen des A-Kaders nennen, legt der Spiegel einen zusätzlichen Schwerpunkt auf den gleichzeitig benannten U21-Kader."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Bundestrainer Jürgen Klopp",
-    "was": "Nominierung von 44 Spielern für vier Spiele",
-    "wann": "17.09.2026",
-    "wo": "Frankfurt am Main",
-    "wie": "Durch Aufteilung des Kaders auf zwei verschiedene Listen",
-    "warum": "Betreuung von Spielern nach Angaben von Klopp",
-    "quellenlage": "Meldungen von Tagesschau/ARD, Spiegel, Zeit und Süddeutsche Zeitung"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Der neue Bundestrainer Jürgen Klopp hat erstmals ein Nationalmannschaftsaufgebot zusammengestellt. Insgesamt sind 44 Spieler nominiert worden, die auf zwei verschiedene Kader aufgeteilt sind. Laut Tagesschau/ARD und Zeit umfasst das Aufgebot diese Gesamtzahl an Spieler für vier anstehende Länderspiele. Die Süddeutsche Zeitung berichtet ebenfalls von 44 Spielern für vier Länderspiele.",
-      "Die Bekanntgabe fand in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes statt. Dabei trat Klopp laut der Süddeutschen Zeitung in ungewöhnlicher Aufmachung auf und wuchtete einen Pappkarton in den Raum. Laut Tagesschau/ARD waren viele Namen der Spieler bereits vor der offiziellen Bekanntgabe durchgesickert.",
-      "Der Kader teilt sich laut Tagesschau/ARD in zwei große Gruppen auf. Die erste Liste umfasst 24 Namen für Partien in der Nations League. Der zweite Kader umfasst 21 Spieler für die weiteren Begegnungen. Einzig Torhüter Finn Dahmen taucht auf beiden Listen auf."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Auf der ersten Liste stehen Spieler für die Partien in den Niederlanden und gegen Griechenland. Das Spiel in den Niederlanden ist für den 24.09.2026 angesetzt. Die Partie gegen Griechenland folgt am 27.09.2026. Das zweite Team kommt für Spiele gegen Serbien und abermals Griechenland zum Zug.",
-      "Laut Tagesschau/ARD ist ein Spiel in München gegen Serbien am 01.10.2026 geplant. Zum Abschluss der Reihe tritt die Mannschaft in Thessaloniki gegen Griechenland an. Da das Reglement der UEFA für die Nations League einen Kader von 23 Spielern vorsieht, werden Spieler von der ersten Liste nach einer Partie im Quartier in Herzogenaurach dazubleiben.",
-      "Zum Aufgebot gehören laut Tagesschau/ARD unter anderem Joshua Kimmich als Kapitän und Nico Schlotterbeck. Nick Woltemade erhielt ebenfalls eine Nominierung, während Deniz Undav nicht berücksichtigt wurde. Neu im A-Kader sind Spieler wie Mika Baur, Bambasé Conté und Felix Keidel."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Laut Tagesschau/ARD begründete Klopp die Maßnahme unter anderem damit, dass Spieler wie Schlotterbeck, Jamal Musiala und Serge Gnabry über einen längeren Zeitraum betreut werden sollen. Einige Vereine würden lange Abstellungsperioden ansonsten für Trainingspausen nutzen. Zudem fehlen elf Spieler aus dem früheren WM-Kader.",
-      "Unter den fehlenden Spielern sind Manuel Neuer und Antonio Rüdiger nach Rücktritten. Leon Goretzka, Angelo Stiller und Assan Ouédraogo sind derzeit verletzt. Weitere Spieler wie Maximilian Beier, Deniz Undav, Jamie Leweling, Pascal Groß, Leroy Sané und Oliver Baumann erhielten keine Berücksichtigung.",
-      "Parallel zur A-Nationalmannschaft hat U21-Nationaltrainer Antonio Di Salvo ebenfalls einen neuen Kader benannt. Laut dem Spiegel gehören dazu sieben Debütanten wie Paris Brunner und Wael Mohya. Einige Neulinge erhalten diese Chance demnach auch wegen des großen Aufgebots von Bundestrainer Klopp."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Europäische Fußball-Union UEFA ist der Dachverband des europäischen Fußballs. Sie organisiert Turniere wie die Europameisterschaft und die Nations League.",
-      "Die Nations League ist ein von der UEFA ausgetragener Wettbewerb für europäische Nationalmannschaften."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Torhüter Oliver Baumann äußerte sich über seine Nichtnominierung. Laut Tagesschau/ARD sagte er nach einer Niederlage seiner TSG Hoffenheim, dass ihm die Entscheidung nicht gefalle, er sie aber akzeptieren müsse. Er betonte, dass er sich topfit fühle und bei Bedarf bereitstehe.",
-      "U21-Trainer Antonio Di Salvo äußerte sich laut dem Spiegel zu den bevorstehenden Aufgaben seiner Mannschaft. Er betonte das Ziel, mit drei Siegen die Qualifikation für die Europameisterschaft als Gruppenerster perfekt zu machen.",
-      "Der Bundestrainer äußerte sich laut der Süddeutschen Zeitung während seiner Pressekonferenz auch zu Entwicklungen in der Politik und wünschte sich mehr Gemeinschaftsgefühl in Deutschland."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die deutsche Nationalmannschaft wird sich am Montag, dem 21.09.2026, im Quartier in Herzogenaurach treffen. Von dort aus reist das Team zu den anstehenden Partien. Die Spiele in der Nations League finden in den kommenden Wochen in verschiedenen europäischen Städten statt.",
-      "Die U21-Nationalmannschaft bestreitet im Rahmen der EM-Qualifikation Partien gegen Lettland, Malta und Georgien. Trainer Di Salvo kündigte laut dem Spiegel eine intensive Nutzung dieser Phase für Teambuilding und Training an."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-09-27",
-     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
-    ],
-    [
-     "2026-09-17",
-     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
-    ],
-    [
-     "2026-09-21",
-     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
-    ],
-    [
-     "2026-09-24",
-     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
-    ],
-    [
-     "2026-09-27",
-     "Zweites Nations-League-Spiel gegen Griechenland."
-    ],
-    [
-     "2026-10-01",
-     "Drittes Nations-League-Spiel gegen Serbien in München."
-    ],
-    [
-     "2026-10-04",
-     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Juergen Klopp manager",
-     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Nationalmannschaft vorgestellt."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
-     "bildunterschrift": "In der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes wurde das Aufgebot präsentiert."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Herzogenaurach town hall",
-     "bildunterschrift": "In Herzogenaurach bezieht die Nationalmannschaft ihr Quartier für die kommenden Länderspiele."
-    }
-   ],
-   "ort": {
-    "name": "Frankfurt am Main, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Entfernung wertender Ausdrücke wie 'XXL-Kader' und 'monumental' aus dem Fließtext, Anpassung von Datumsformaten und Belegen."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Nations League",
-      "Ein internationaler Fußball-Wettbewerb für europäische Nationalmannschaften, der von der UEFA veranstaltet wird."
-     ],
-     [
-      "U21-Nationalmannschaft",
-      "Eine Auswahlmannschaft für Fußballspieler, die höchstens einundzwanzig Jahre alt sind."
-     ]
-    ],
-    "fragen": [
-     "Welche Vorteile oder Nachteile hat ein sehr großer Kader für eine Nationalmannschaft?",
-     "Wie bewerten Sie die Entscheidung, Spieler über einen längeren Zeitraum direkt im Team zu betreuen?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Spieler hat Jürgen Klopp für seinen ersten Kader nominiert?",
-      "optionen": [
-       "dreiundzwanzig Spieler",
-       "vierundvierzig Spieler",
-       "fünfzig Spieler"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau/ARD, Spiegel, Zeit und Süddeutsche Zeitung hat Jürgen Klopp 44 Spieler nominiert."
-     },
-     {
-      "frage": "Auf wie viele Gruppen ist das Aufgebot aufgeteilt?",
-      "optionen": [
-       "auf zwei Gruppen",
-       "auf drei Gruppen",
-       "auf vier Gruppen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und Zeit ist das Aufgebot auf zwei verschiedene Kader aufgeteilt."
-     },
-     {
-      "frage": "Welcher Torhüter taucht auf beiden Listen auf?",
-      "optionen": [
-       "Manuel Neuer",
-       "Oliver Baumann",
-       "Finn Dahmen"
-      ],
-      "richtig": 2,
-      "erklaerung": "Laut Tagesschau/ARD taucht als einziger Torhüter Finn Dahmen auf beiden Listen auf."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat zum ersten Mal Spieler für die deutsche Fußball-Nationalmannschaft ausgewählt.",
-    "absaetze": [
-     "Insgesamt hat er vierundvierzig Spieler für vier Spiele in der Nations League benannt.",
-     "Die Spieler wurden auf zwei verschiedene Gruppen aufgeteilt. Eine Gruppe spielt zuerst in den Niederlanden und gegen Griechenland.",
-     "Klopp möchte damit verletzte Spieler gut betreuen und Spielern über einen längeren Zeitraum helfen.",
-     "Neben der A-Nationalmannschaft hat auch U21-Trainer Antonio Di Salvo ein neues Team vorgestellt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Der neue Bundestrainer Jürgen Klopp hat vierundvierzig Spieler nominiert.",
-     "Das Aufgebot ist für vier Spiele auf zwei Gruppen aufgeteilt.",
-     "Die Mannschaft trifft sich am einundzwanzigsten September im Quartier."
-    ],
-    "lang": [
-     "Der neue Bundestrainer Jürgen Klopp hat vierundvierzig Spieler für die Nationalmannschaft nominiert.",
-     "Mehrere Medien berichten übereinstimmend über diese große Anzahl an Spielern.",
-     "Das Aufgebot ist auf zwei verschiedene Gruppen aufgeteilt.",
-     "Klopp begründet dies mit einer besseren Betreuung der Spieler.",
-     "Auch die U21-Nationalmannschaft hat ein neues Aufgebot erhalten."
-    ],
-    "einfach": [
-     "Jürgen Klopp ist der neue Bundestrainer.",
-     "Er hat vierundvierzig Spieler für die Nationalmannschaft ausgewählt.",
-     "Die Spieler sind auf zwei Gruppen aufgeteilt.",
-     "Am einundzwanzigsten September beginnt das Training im Quartier."
-    ]
-   },
-   "bildInfo": {
-    "titel": "Klopp (24669321424).jpg",
-    "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
-    "urheber": "PAUL ROBINSON",
-    "lizenz": "CC BY-SA 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "art": "person",
-    "suchbegriff": "Juergen Klopp manager",
-    "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Klopp (24669321424).jpg",
-     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
-     "urheber": "PAUL ROBINSON",
-     "lizenz": "CC BY-SA 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-     "art": "person",
-     "suchbegriff": "Juergen Klopp manager",
-     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
-     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "urheber": "Olaf Kosinsky",
-     "lizenz": "CC BY-SA 3.0 de",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-     "art": "institution",
-     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
-     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Frankfurt am Main, Deutschland",
-    "lat": 50.111,
-    "lon": 8.682
-   },
-   "version": 4,
-   "bildVersucht": true
-  },
-  {
    "id": "usa-sanktionen-russland-kongress",
    "rubrik": "Welt",
    "zeit": "2026-09-17T20:42:33.000Z",
@@ -2018,6 +1602,335 @@
     "hinweis": "Archivfoto"
    },
    "version": 3
+  },
+  {
+   "id": "klopp-dfb-kader-nominierung",
+   "rubrik": "Sport",
+   "zeit": "2026-09-17T20:06:27.000Z",
+   "aktualisiert": "aktualisiert um 17:20 Uhr",
+   "titel": "Bundestrainer Jürgen Klopp gibt ersten Kader bekannt",
+   "vorspann": "Der neue Bundestrainer Jürgen Klopp hat einen Kader für vier anstehende Spiele der Nationalmannschaft nominiert. Das Aufgebot ist in zwei verschiedene Gruppen aufgeteilt und enthält zahlreiche Spieler, die erstmals berufen wurden.",
+   "eil": false,
+   "zusammenfassung": [
+    "Bundestrainer Jürgen Klopp hat einen Kader für vier anstehende Länderspiele benannt.",
+    "Das Aufgebot ist in zwei Listen unterteilt und beinhaltet zahlreiche neue sowie erfahrene Spieler.",
+    "Das Team trifft sich in Herzogenaurach zur Vorbereitung.",
+    "Die Spiele der Nations League finden in den Niederlanden, in Deutschland und in Griechenland statt."
+   ],
+   "einig": [
+    [
+     "Bundestrainer Jürgen Klopp hat einen Kader für seine ersten vier Spiele nominiert.",
+     [
+      "Tagesschau/ARD",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Die Bekanntgabe fand in der Verbandszentrale des Deutschen Fußball-Bundes in Frankfurt statt.",
+     [
+      "Tagesschau/ARD",
+      "Süddeutsche Zeitung"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es gibt keine wesentlichen inhaltlichen Widersprüche in den Berichten."
+   ],
+   "positionen": [
+    [
+     "Oliver Baumann (Torhüter, TSG Hoffenheim)",
+     "Die Entscheidung gefällt ihm nicht, aber er muss und will sie akzeptieren.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Jürgen Klopp (Bundestrainer)",
+     "Er begründet die Kadergröße mit Planungen für vier Spiele und der optimalen Betreuung von Spielern nach Verletzungen.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von weiteren Vereinsvertretern der betroffenen Bundesligisten.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "17.09.26, 22:06",
+     "fokus": "Kaderdetails und Spielerstimmen",
+     "text": "Der Bericht listet detailliert alle nominierten Spieler, verletzten Akteure und Rücktritte auf. Zudem enthält er Zitate von Oliver Baumann zu seiner Nichtnominierung.",
+     "url": "https://www.sportschau.de/fussball/nationalmannschaft/44-spieler-juergen-klopp-ueberrascht-mit-erstem-dfb-kader,dfb-klopp-kader-104.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:37",
+     "fokus": "Einordnung und politische Äußerungen",
+     "text": "Der Artikel beleuchtet die Verpflichtung des Trainers und erwähnt kritische Äußerungen des Bundestrainers zu Medien und der AfD.",
+     "url": "https://www.zeit.de/sport/2026-09/nationalmannschaft-dfb-fussball-juergen-klopp-nominierung-kritik",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "17.09.26, 16:01",
+     "fokus": "Ablauf der Pressekonferenz",
+     "text": "Die Berichterstattung beschreibt anschaulich das Auftreten des Bundestrainers bei der Pressekonferenz in Frankfurt mit einem Pappkarton.",
+     "url": "https://www.sueddeutsche.de/sport/bundestrainer-klopp-nominierung-kader-nationalmannschaft-li.3549390",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Schwerpunkte der Berichte",
+     "Tagesschau/ARD konzentriert sich auf die genaue Kaderanalyse und Spielerstatistiken, während Zeit und Süddeutsche Zeitung das Auftreten des Trainers und den Rahmen der Pressekonferenz stärker betonen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundestrainer Jürgen Klopp",
+    "was": "Nominierung eines Kaders für vier Spiele",
+    "wann": "2026-09-17",
+    "wo": "Frankfurt am Main, Deutschland",
+    "wie": "Durch die Bekanntgabe von zwei aufeinanderfolgenden Spielerlisten in einer Verbandszentrale",
+    "warum": "Zur Vorbereitung auf die kommenden Spiele und zur Betreuung von Spielern nach Verletzungen laut Bundestrainer Jürgen Klopp",
+    "quellenlage": "Berichte von Tagesschau/ARD, Zeit und Süddeutsche Zeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der Deutsche Fußball-Bund hat die ersten Nominierungen des neuen Bundestrainers Jürgen Klopp bekannt gegeben. Laut den Berichten von Tagesschau/ARD und Süddeutsche Zeitung umfasst das Aufgebot insgesamt vierundvierzig Spieler für vier anstehende Partien. Diese ungewöhnlich große Anzahl an Spielern ist in zwei unterschiedliche Gruppen aufgeteilt. Der Bundestrainer begründete die Vorgehensweise unter anderem mit der Notwendigkeit einer optimalen Betreuung einzelner Spieler.",
+      "Die Bekanntgabe fand in der Frankfurter Verbandszentrale des Deutschen Fußball-Bundes statt. Laut Süddeutsche Zeitung erschien der Trainer mit einem großen Pappkarton am Veranstaltungsort. Nach der Veröffentlichung der Namen wurden in den Berichten verschiedene Reaktionen von beteiligten Personen und Vereinen dokumentiert. Der Kader teilt sich auf zwei Spielphasen auf, wobei nach den ersten Partien ein nahezu kompletter Austausch erfolgen soll.",
+      "Einige Spieler stehen vor der Möglichkeit, ihre ersten Einsätze in der Nationalmannschaft zu absolvieren. Unter den Nominierten befinden sich Akteure aus verschiedenen in- und ausländischen Ligen. Die Verbandszentrale in Frankfurt bildete den Ausgangspunkt für die öffentlich gewordene Nominierungsliste. Die Berichterstattung widmete sich ausführlich den personellen Zusammensetzungen der beiden Kaderlisten."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut Tagesschau/ARD umfasst die erste Liste für die Spiele in den Niederlanden und gegen Griechenland vierundzwanzig Namen. Die zweite Liste für die anschließenden Partien gegen Serbien und abermals Griechenland enthält einundzwanzig Spieler. Der Torhüter Finn Dahmen vom FC Augsburg ist der einzige Akteur, der auf beiden Listen verzeichnet ist. Das Regelwerk der Europäischen Fußball-Union sieht für die Nations League einen Kader von dreiundzwanzig Spielern vor.",
+      "Aus diesem Grund verbleiben laut Bundestrainer Jürgen Klopp einige Profis aus dem ersten Kader auch für die Zeit nach der Partie in Augsburg im Quartier in Herzogenaurach. Dieses Trainingslager beginnt an einem Montag. Zu den Spielern, die den gesamten Zeitraum bei der Mannschaft verbringen sollen, zählen Nico Schlotterbeck, Jamal Musiala und Serge Gnabry. Hiermit soll eine durchgehende Betreuung nach überstandenen Verletzungen gewährleistet werden.",
+      "Unter den vierundvierzig Spielern befinden sich zwölf Akteure, die zuvor noch nie für die A-Nationalmannschaft nominiert wurden. Vier dieser Spieler stehen beim SC Freiburg unter Vertrag, darunter Yannik Engelhardt, Philipp Treu, Max Rosenfelder und Derry Scherhant. Kapitän Joshua Kimmich ist ebenfalls Teil des Aufgebots. Marc-André ter Stegen ist laut Aussage des Bundestrainers vorerst als Nummer eins eingeplant und wird im ersten Spiel in den Niederlanden auflaufen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Nominierung erfolgt vor dem Start der nächsten Partien in der Nations League. Laut Tagesschau/ARD fehlen elf Spieler aus dem bisherigen Kader der Weltmeisterschaft. Dazu gehören die nach Rücktritten nicht mehr verfügbaren Manuel Neuer und Antonio Rüdiger sowie mehrere verletzte Spieler wie Leon Goretzka, Angelo Stiller und Assan Ouédraogo. Einige andere Akteure wurden nicht berücksichtigt.",
+      "Einige Vereine wurden in den Berichten im Zusammenhang mit den Kaderplänen erwähnt. Der Verein Borussia Dortmund ist im Aufgebot vertreten, wenngleich Spieler wie Maximilian Beier keine Berücksichtigung fanden. Das Ausscheiden bei der Weltmeisterschaft im Sechzehntelfinale gegen Paraguay wurde von Tagesschau/ARD als ein Faktor genannt, der zuvor zum Ausscheiden des früheren Bundestrainers Julian Nagelsmann führte.",
+      "Die Medien berichteten zudem über Begleitumstände der Nominierung. Laut Zeit und Süddeutsche Zeitung äußerte sich der Bundestrainer auf der Pressekonferenz neben sportlichen Themen auch zu politischen Entwicklungen und Medienfragen. Das gewählte Vorgehen mit einem sehr großen Kader wurde in den Berichten eingeordnet."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Deutsche Fußball-Bund, kurz DFB, ist der Dachverband des Fußballs in Deutschland. Zu seinen Aufgaben gehört die Organisation des Spielbetriebs sowie die Verantwortung für die deutschen Nationalmannschaften.",
+      "Die Nationalmannschaft ist eine Auswahl von Spielern, die das Land bei internationalen Wettbewerben und Freundschaftsspielen vertreten. Die Auswahl der Spieler erfolgt durch den jeweiligen Bundestrainer, der vom DFB angestellt wird."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Oliver Baumann äußerte sich laut Tagesschau/ARD zu seiner Nichtnominierung nach einem Europapokalspiel. Er erklärte, dass ihm die Entscheidung zwar nicht gefalle, er sie jedoch akzeptieren müsse. Zudem betonte er, dass er sich fit fühle und bei Bedarf weiterhin zur Verfügung stehe.",
+      "Der Bundestrainer selbst erläuterte auf der Pressekonferenz seine Beweggründe für den großen Kader und die geplante Betreuung verletzter Spieler. Weitere offizielle Stellungnahmen von Vereinsvertretern oder Spielern wurden in den Berichten in Auszügen wiedergegeben."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Nationalmannschaft wird sich in dem Quartier in Herzogenaurach einfinden. Dort beginnt die gemeinsame Vorbereitung auf die anstehenden Begegnungen.",
+      "Das erste Spiel der Nations League findet gegen die Niederlande in Amsterdam statt. Darauf folgen Partien gegen Griechenland in Augsburg, gegen Serbien in München sowie das abschließende Spiel gegen Griechenland in Thessaloniki."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-17",
+     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung von 44 Spielern für vier Länderspiele bekannt."
+    ],
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland."
+    ],
+    [
+     "2026-09-17",
+     "Bundestrainer Jürgen Klopp gibt in Frankfurt die Nominierung des Kaders für vier Länderspiele bekannt."
+    ],
+    [
+     "2026-09-21",
+     "Die Nationalmannschaft trifft sich im Quartier in Herzogenaurach."
+    ],
+    [
+     "2026-09-24",
+     "Erstes Nations-League-Spiel gegen die Niederlande in Amsterdam."
+    ],
+    [
+     "2026-09-27",
+     "Zweites Nations-League-Spiel gegen Griechenland in Augsburg."
+    ],
+    [
+     "2026-10-01",
+     "Drittes Nations-League-Spiel gegen Serbien in München."
+    ],
+    [
+     "2026-10-04",
+     "Viertes Nations-League-Spiel gegen Griechenland in Thessaloniki."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Juergen Klopp football manager",
+     "bildunterschrift": "Der Bundestrainer Jürgen Klopp bei einer Veranstaltung."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "German Football Association headquarters Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main."
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Genaue Daten aus den Artikeln im Fließtext teilweise durch allgemeine Zeitangaben ersetzt, um unbelegte Details zu vermeiden."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Bundestrainer",
+      "Der Bundestrainer ist der verantwortliche Trainer für die deutsche Fußball-Nationalmannschaft. Er wird vom Deutschen Fußball-Bund angestellt."
+     ],
+     [
+      "Nations League",
+      "Die Nations League ist ein internationaler Fußball-Wettbewerb für Nationalmannschaften in Europa."
+     ],
+     [
+      "Deutscher Fußball-Bund (DFB)",
+      "Der DFB ist der Sportverband für den Fußballsport in Deutschland und organisiert unter anderem die Nationalmannschaft."
+     ]
+    ],
+    "fragen": [
+     "Welche Vorteile oder Nachteile könnte ein sehr großer Kader für eine Nationalmannschaft haben?",
+     "Wie berichten verschiedene Medien über denselben sportlichen Termin?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Spieler hat Bundestrainer Jürgen Klopp für die ersten vier Spiele nominiert?",
+      "optionen": [
+       "vierundvierzig Spieler",
+       "dreiundzwanzig Spieler",
+       "elf Spieler"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau/ARD und Süddeutsche Zeitung umfasst der Kader vierundvierzig Spieler."
+     },
+     {
+      "frage": "Wo fand die Pressekonferenz zur Bekanntgabe des Kaders statt?",
+      "optionen": [
+       "In München",
+       "In Frankfurt am Main",
+       "In Herzogenaurach"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Tagesschau/ARD und die Süddeutsche Zeitung berichten, dass die Bekanntgabe in der Verbandszentrale des DFB in Frankfurt stattfand."
+     },
+     {
+      "frage": "Welcher Torhüter äußerte sich enttäuscht über seine Nichtnominierung?",
+      "optionen": [
+       "Marc-André ter Stegen",
+       "Finn Dahmen",
+       "Oliver Baumann"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut Tagesschau/ARD äußerte sich Oliver Baumann nach einem Spiel zu seiner Nichtnominierung."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft bekannt gegeben.",
+    "absaetze": [
+     "Für vier anstehende Länderspiele hat der Trainer insgesamt vierundvierzig Spieler in einen sehr großen Kader berufen.",
+     "Das Aufgebot ist in zwei verschiedene Gruppen aufgeteilt, da nach den ersten Partien ein fast kompletter Austausch der Spieler geplant ist.",
+     "Der Bundestrainer begründete diese Entscheidung unter anderem damit, verletzte Spieler über einen längeren Zeitraum optimal zu betreuen.",
+     "Mehrere Spieler wurden zum ersten Mal für die Nationalmannschaft nominiert. Die Vorbereitung auf die Spiele beginnt in einem Quartier in Herzogenaurach."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader vorgestellt.",
+     "Er hat insgesamt vierundvierzig Spieler für vier anstehende Länderspiele nominiert.",
+     "Die Mannschaft wird sich zur Vorbereitung in Herzogenaurach treffen."
+    ],
+    "lang": [
+     "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader vorgestellt.",
+     "Mehrere Medien berichten über die Nominierung von vierundvierzig Spielern für vier Länderspiele.",
+     "Das große Aufgebot ist in zwei verschiedene Gruppen aufgeteilt.",
+     "Der Trainer begründet dies mit Planungen für die Partien und der Betreuung von Spielern.",
+     "Einige Spieler wurden zum ersten Mal für die Nationalmannschaft berufen."
+    ],
+    "einfach": [
+     "Der neue Bundestrainer Jürgen Klopp hat seinen Kader bekannt gegeben.",
+     "Er hat vierundvierzig Spieler für vier Spiele berufen.",
+     "Die Spieler sind in zwei Gruppen aufgeteilt.",
+     "Die Mannschaft trifft sich bald in Herzogenaurach zur Vorbereitung."
+    ]
+   },
+   "bildInfo": {
+    "titel": "Klopp (24669321424).jpg",
+    "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+    "urheber": "PAUL ROBINSON",
+    "lizenz": "CC BY-SA 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "art": "person",
+    "suchbegriff": "Juergen Klopp manager",
+    "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Klopp (24669321424).jpg",
+     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+     "urheber": "PAUL ROBINSON",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "person",
+     "suchbegriff": "Juergen Klopp manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
+     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "institution",
+     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "version": 4
   },
   {
    "id": "olympische-spiele-rudern-krokodile",

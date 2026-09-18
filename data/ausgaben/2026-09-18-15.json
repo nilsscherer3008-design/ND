@@ -2,7 +2,7 @@
  "id": "2026-09-18-15",
  "name": "15-Uhr-Ausgabe",
  "stunde": 15,
- "zeit": "2026-09-18T14:00:01.848Z",
+ "zeit": "2026-09-18T15:20:44.169Z",
  "themen": [
   {
    "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
@@ -26,6 +26,40 @@
    ]
   },
   {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "titel": "Bundesregierung plant Maßnahmen zur Entlastung bei Spritpreisen",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
+     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+     "urheber": "Diego Delso",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "German Federal Chancellery building Berlin",
+     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Bundesregierung über Maßnahmen berät.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Mehrere Medien berichten über neue Pläne der Bundesregierung zur Entlastung von Autofahrern.",
+    "Wegen hoher Spritpreise berät die Politik über einen Tankpreisdeckel.",
+    "Auch über eine Rückkehr des Tankrabatts wird nach Angaben des Spiegels gesprochen.",
+    "Einige Politiker der Union hatten zuvor eine Senkung der Mehrwertsteuer vorgeschlagen.",
+    "Brandenburgs Ministerpräsident Dietmar Woidke betont die Wichtigkeit schnellen Handelns."
+   ]
+  },
+  {
    "id": "malaria-todesfall-frankfurt",
    "titel": "Todesfall nach Malaria-Infektion in Frankfurt am Main",
    "rubrik": "Deutschland",
@@ -38,10 +72,10 @@
    },
    "saetze": [
     "In Frankfurt am Main ist eine an Malaria erkrankte Person gestorben.",
-    "Mehrere Medien berichten übereinstimmend über diesen Vorfall in Frankfurt-Schwanheim.",
-    "Die betroffenen Personen wohnten in der Nähe des Flughafens.",
-    "Sie hatten zuvor keine entsprechenden Gebiete bereist.",
-    "Das Gesundheitsamt geht von einer eingeschleppten Mücke als Überträger aus."
+    "Mehrere Medien berichten übereinstimmend von diesem Vorfall.",
+    "Die betroffenen Personen lebten in der Nähe des Frankfurter Flughafens.",
+    "Sie hatten zuvor keine Malaria-Gebiete bereist.",
+    "Das Gesundheitsamt geht von einer Übertragung durch eine infizierte Mücke aus."
    ]
   },
   {
@@ -112,83 +146,6 @@
    ]
   },
   {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "titel": "Kraftstoffpreise erreichen neue Höchststände und Debatte über Entlastungen",
-   "rubrik": "Wirtschaft",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Shell petrol pump 1952.jpg",
-     "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
-     "urheber": "Palauenc05",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "symbol",
-     "suchbegriff": "Gasoline fuel dispenser pump",
-     "bildunterschrift": "Eine alte Zapfsäule symbolisiert die Thematik rund um Kraftstoffpreise an Tankstellen.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "saetze": [
-    "An deutschen Tankstellen steigen die Preise für Dieselkraftstoff immer weiter an.",
-    "Ein Liter Diesel kostete im bundesweiten Durchschnitt zuletzt zwei Euro und siebenundvierzig Cent.",
-    "Als Hauptursache für diese Entwicklung gelten internationale Krisen und weniger Rohöl auf dem Weltmarkt.",
-    "In der Bundesregierung gibt es heftige Diskussionen über mögliche Entlastungen für die Bürger.",
-    "Bundesfinanzminister Lars Klingbeil fordert eine europäische Übergewinnsteuer für große Mineralölkonzerne."
-   ]
-  },
-  {
-   "id": "klopp-dfb-kader-nominierung",
-   "titel": "Bundestrainer Jürgen Klopp nominiert erstmals 44 Spieler für vier Länderspiele",
-   "rubrik": "Sport",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Klopp (24669321424).jpg",
-     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
-     "urheber": "PAUL ROBINSON",
-     "lizenz": "CC BY-SA 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-     "art": "person",
-     "suchbegriff": "Juergen Klopp manager",
-     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
-     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
-     "urheber": "Olaf Kosinsky",
-     "lizenz": "CC BY-SA 3.0 de",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-     "art": "institution",
-     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
-     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Frankfurt am Main, Deutschland",
-    "lat": 50.111,
-    "lon": 8.682
-   },
-   "saetze": [
-    "Der neue Bundestrainer Jürgen Klopp hat vierundvierzig Spieler für die Nationalmannschaft nominiert.",
-    "Mehrere Medien berichten übereinstimmend über diese große Anzahl an Spielern.",
-    "Das Aufgebot ist auf zwei verschiedene Gruppen aufgeteilt.",
-    "Klopp begründet dies mit einer besseren Betreuung der Spieler.",
-    "Auch die U21-Nationalmannschaft hat ein neues Aufgebot erhalten."
-   ]
-  },
-  {
    "id": "usa-sanktionen-russland-kongress",
    "titel": "US-Repräsentantenhaus stimmt für Sanktionspaket gegen Russland",
    "rubrik": "Welt",
@@ -228,6 +185,54 @@
    ],
    "saetze": [
     "Die Europäische Kommission hat einen Entwurf für neue Altersgrenzen in sozialen Medien vorgestellt. Kinder unter 13 Jahren sollen demnach keinen Zugang zu Plattformen erhalten. Für Jugendliche zwischen 13 und 15 Jahren ist ein zeitlich begrenzter Zugang über Elternkonten geplant. Das Gesetz muss noch von den EU-Staaten und dem Parlament genehmigt werden."
+   ]
+  },
+  {
+   "id": "klopp-dfb-kader-nominierung",
+   "titel": "Bundestrainer Jürgen Klopp gibt ersten Kader bekannt",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Klopp (24669321424).jpg",
+     "beschreibung": "Juergen Klopp as manager of Liverpool FC before Europa League clash against FC Augsburg on 25 February 2016.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Klopp_%2824669321424%29.jpg/1280px-Klopp_%2824669321424%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Klopp_%2824669321424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Klopp_(24669321424).jpg",
+     "urheber": "PAUL ROBINSON",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "person",
+     "suchbegriff": "Juergen Klopp manager",
+     "bildunterschrift": "Bundestrainer Jürgen Klopp hat seinen ersten Kader für die deutsche Fußball-Nationalmannschaft vorgestellt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2015-07-03 DFB by Olaf Kosinsky-1.jpg",
+     "beschreibung": "Zentrale des DFB in Frankfurt am Main",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg/1280px-2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2015-07-03_DFB_by_Olaf_Kosinsky-1.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "institution",
+     "suchbegriff": "Deutscher Fussball-Bund building Frankfurt",
+     "bildunterschrift": "Die Zentrale des Deutschen Fußball-Bundes in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "saetze": [
+    "Der neue Bundestrainer Jürgen Klopp hat seinen ersten Kader vorgestellt.",
+    "Mehrere Medien berichten über die Nominierung von vierundvierzig Spielern für vier Länderspiele.",
+    "Das große Aufgebot ist in zwei verschiedene Gruppen aufgeteilt.",
+    "Der Trainer begründet dies mit Planungen für die Partien und der Betreuung von Spielern.",
+    "Einige Spieler wurden zum ersten Mal für die Nationalmannschaft berufen."
    ]
   },
   {
