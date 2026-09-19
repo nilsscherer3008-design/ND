@@ -1,258 +1,261 @@
 {
-  "anbieter": "gemini",
-  "modelle": {
-    "gemini": [
-      "gemini-flash-latest",
-      "gemini-flash-lite-latest",
-      "gemini-2.5-flash"
-    ],
-    "anthropic": "claude-sonnet-5"
-  },
-  "pauseZwischenKiAnfragenSekunden": 15,
-  "maxNeueThemenProLauf": 3,
-  "maxArtikelProThema": 5,
-  "nachrichtenBehaltenStunden": 48,
-  "maxNachrichten": 60,
-  "zeitfenster": {
-    "vonUhr": 6,
-    "bisUhr": 22,
-    "mindestAbstandStunden": 0.75
-  },
-  "ntfyServer": "https://ntfy.sh",
-  "rubriken": [
-    "Deutschland",
-    "Welt",
-    "Wirtschaft",
-    "Wissen & Klima",
-    "Sport",
-    "Region"
+ "anbieter": "gemini",
+ "modelle": {
+  "gemini": [
+   "gemini-flash-latest",
+   "gemini-flash-lite-latest",
+   "gemini-2.5-flash"
   ],
-  "quellen": [
-    {
-      "name": "Tagesschau/ARD",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.tagesschau.de/index~rss2.xml",
-        "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
-        "https://www.tagesschau.de/wissen/index~rss2.xml",
-        "https://www.tagesschau.de/ausland/index~rss2.xml"
-      ]
-    },
-    {
-      "name": "ZDFheute",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.zdf.de/rss/zdf/nachrichten"
-      ]
-    },
-    {
-      "name": "Deutschlandfunk",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.deutschlandfunk.de/nachrichten-100.rss"
-      ]
-    },
-    {
-      "name": "Spiegel",
-      "typ": "Nachrichtenmagazin",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://www.spiegel.de/schlagzeilen/index.rss",
-        "https://www.spiegel.de/wirtschaft/index.rss",
-        "https://www.spiegel.de/sport/index.rss",
-        "https://www.spiegel.de/wissenschaft/index.rss",
-        "https://www.spiegel.de/ausland/index.rss"
-      ]
-    },
-    {
-      "name": "Zeit",
-      "typ": "Wochenzeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://newsfeed.zeit.de/index",
-        "https://newsfeed.zeit.de/wirtschaft/index",
-        "https://newsfeed.zeit.de/sport/index",
-        "https://newsfeed.zeit.de/wissen/index"
-      ]
-    },
-    {
-      "name": "Süddeutsche Zeitung",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://rss.sueddeutsche.de/rss/Topthemen",
-        "https://rss.sueddeutsche.de/rss/Wirtschaft",
-        "https://rss.sueddeutsche.de/rss/Sport",
-        "https://rss.sueddeutsche.de/rss/Wissen"
-      ]
-    },
-    {
-      "name": "FAZ",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://www.faz.net/rss/aktuell/",
-        "https://www.faz.net/rss/aktuell/wirtschaft/",
-        "https://www.faz.net/rss/aktuell/sport/",
-        "https://www.faz.net/rss/aktuell/wissen/"
-      ]
-    },
-    {
-      "name": "Deutsche Welle",
-      "typ": "Auslandssender (öffentlich finanziert)",
-      "art": "internationaler Sender",
-      "stamm": true,
-      "feeds": [
-        "https://rss.dw.com/rdf/rss-de-all"
-      ]
-    },
-    {
-      "name": "BBC",
-      "typ": "öffentlich-rechtlich (Großbritannien)",
-      "art": "internationaler Sender",
-      "stamm": true,
-      "feeds": [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-        "https://feeds.bbci.co.uk/sport/rss.xml"
-      ]
-    },
-    {
-      "name": "NZZ",
-      "typ": "Tageszeitung (Schweiz)",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://www.nzz.ch/recent.rss"
-      ]
-    },
-    {
-      "name": "Welt",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://www.welt.de/feeds/latest.rss"
-      ]
-    },
-    {
-      "name": "taz",
-      "typ": "Tageszeitung (Genossenschaft)",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://taz.de/!p4608;rss/"
-      ]
-    },
-    {
-      "name": "ORF",
-      "typ": "öffentlich-rechtlich (Österreich)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "feeds": [
-        "https://rss.orf.at/news.xml"
-      ]
-    },
-    {
-      "name": "SRF",
-      "typ": "öffentlich-rechtlich (Schweiz)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "feeds": [
-        "https://www.srf.ch/news/bnf/rss/1646"
-      ]
-    },
-    {
-      "name": "The Guardian",
-      "typ": "Tageszeitung (Großbritannien)",
-      "art": "internationaler Sender",
-      "stamm": false,
-      "feeds": [
-        "https://www.theguardian.com/world/rss"
-      ]
-    },
-    {
-      "name": "SWR Baden-Württemberg",
-      "typ": "öffentlich-rechtlich (Region)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "regional": true,
-      "feeds": [
-        "https://www.swr.de/~rss/swraktuell/baden-wuerttemberg/index.xml"
-      ]
-    },
-    {
-      "name": "Badische Zeitung",
-      "typ": "Regionalzeitung",
-      "art": "privates Medium",
-      "stamm": false,
-      "regional": true,
-      "feeds": [
-        "https://www.badische-zeitung.de/rss/bz-suedwest.rss"
-      ]
-    }
-  ],
-  "archivMonate": 13,
-  "wertendeWoerter": [
-    "Chaos",
-    "Debakel",
-    "Fiasko",
-    "Hammer",
-    "Horror",
-    "Klatsche",
-    "Skandal",
-    "Wahnsinn",
-    "absurd",
-    "alarmierend",
-    "bedenklich",
-    "bedrohlich",
-    "beispiellos",
-    "besorgniserregend",
-    "brisant",
-    "desaströs",
-    "dramatisch",
-    "empörend",
-    "endlich",
-    "erschreckend",
-    "gigantisch",
-    "grandios",
-    "heftig",
-    "katastrophal",
-    "krachend",
-    "leider",
-    "massiv",
-    "peinlich",
-    "schockierend",
-    "sensationell",
-    "skandalös",
-    "spektakulär",
-    "unfassbar",
-    "unglaublich",
-    "verheerend",
-    "zum Glück"
-  ],
-  "maxMeldungenProQuelle": 60,
-  "bilder": true,
-  "maxNeuschreibenProLauf": 2,
-  "ton": {
-    "aktiv": false,
-    "stimme": "de_DE-thorsten-medium",
-    "hinweis": "auf true stellen, wenn die Piper-Stimme im Ablauf eingerichtet ist"
+  "anthropic": "claude-sonnet-5"
+ },
+ "pauseZwischenKiAnfragenSekunden": 12,
+ "maxNeueThemenProLauf": 5,
+ "maxArtikelProThema": 5,
+ "nachrichtenBehaltenStunden": 72,
+ "maxNachrichten": 100,
+ "zeitfenster": {
+  "vonUhr": 6,
+  "bisUhr": 22,
+  "mindestAbstandStunden": 0.75
+ },
+ "ntfyServer": "https://ntfy.sh",
+ "rubriken": [
+  "Deutschland",
+  "Welt",
+  "Wirtschaft",
+  "Wissen & Klima",
+  "Sport",
+  "Region"
+ ],
+ "quellen": [
+  {
+   "name": "Tagesschau/ARD",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.tagesschau.de/index~rss2.xml",
+    "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
+    "https://www.tagesschau.de/wissen/index~rss2.xml",
+    "https://www.tagesschau.de/ausland/index~rss2.xml"
+   ]
   },
-  "wetter": {
-    "ort": "Teningen",
-    "lat": 48.13,
-    "lon": 7.81
+  {
+   "name": "ZDFheute",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.zdf.de/rss/zdf/nachrichten"
+   ]
+  },
+  {
+   "name": "Deutschlandfunk",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.deutschlandfunk.de/nachrichten-100.rss"
+   ]
+  },
+  {
+   "name": "Spiegel",
+   "typ": "Nachrichtenmagazin",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://www.spiegel.de/schlagzeilen/index.rss",
+    "https://www.spiegel.de/wirtschaft/index.rss",
+    "https://www.spiegel.de/sport/index.rss",
+    "https://www.spiegel.de/wissenschaft/index.rss",
+    "https://www.spiegel.de/ausland/index.rss"
+   ]
+  },
+  {
+   "name": "Zeit",
+   "typ": "Wochenzeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://newsfeed.zeit.de/index",
+    "https://newsfeed.zeit.de/wirtschaft/index",
+    "https://newsfeed.zeit.de/sport/index",
+    "https://newsfeed.zeit.de/wissen/index"
+   ]
+  },
+  {
+   "name": "Süddeutsche Zeitung",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://rss.sueddeutsche.de/rss/Topthemen",
+    "https://rss.sueddeutsche.de/rss/Wirtschaft",
+    "https://rss.sueddeutsche.de/rss/Sport",
+    "https://rss.sueddeutsche.de/rss/Wissen"
+   ]
+  },
+  {
+   "name": "FAZ",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://www.faz.net/rss/aktuell/",
+    "https://www.faz.net/rss/aktuell/wirtschaft/",
+    "https://www.faz.net/rss/aktuell/sport/",
+    "https://www.faz.net/rss/aktuell/wissen/"
+   ]
+  },
+  {
+   "name": "Deutsche Welle",
+   "typ": "Auslandssender (öffentlich finanziert)",
+   "art": "internationaler Sender",
+   "stamm": true,
+   "feeds": [
+    "https://rss.dw.com/rdf/rss-de-all"
+   ]
+  },
+  {
+   "name": "BBC",
+   "typ": "öffentlich-rechtlich (Großbritannien)",
+   "art": "internationaler Sender",
+   "stamm": true,
+   "feeds": [
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "https://feeds.bbci.co.uk/sport/rss.xml"
+   ]
+  },
+  {
+   "name": "NZZ",
+   "typ": "Tageszeitung (Schweiz)",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://www.nzz.ch/recent.rss"
+   ]
+  },
+  {
+   "name": "Welt",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://www.welt.de/feeds/latest.rss"
+   ]
+  },
+  {
+   "name": "taz",
+   "typ": "Tageszeitung (Genossenschaft)",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://taz.de/!p4608;rss/"
+   ]
+  },
+  {
+   "name": "ORF",
+   "typ": "öffentlich-rechtlich (Österreich)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "feeds": [
+    "https://rss.orf.at/news.xml"
+   ]
+  },
+  {
+   "name": "SRF",
+   "typ": "öffentlich-rechtlich (Schweiz)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "feeds": [
+    "https://www.srf.ch/news/bnf/rss/1646"
+   ]
+  },
+  {
+   "name": "The Guardian",
+   "typ": "Tageszeitung (Großbritannien)",
+   "art": "internationaler Sender",
+   "stamm": false,
+   "feeds": [
+    "https://www.theguardian.com/world/rss"
+   ]
+  },
+  {
+   "name": "SWR Baden-Württemberg",
+   "typ": "öffentlich-rechtlich (Region)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "regional": true,
+   "feeds": [
+    "https://www.swr.de/~rss/swraktuell/baden-wuerttemberg/index.xml"
+   ]
+  },
+  {
+   "name": "Badische Zeitung",
+   "typ": "Regionalzeitung",
+   "art": "privates Medium",
+   "stamm": false,
+   "regional": true,
+   "feeds": [
+    "https://www.badische-zeitung.de/rss/bz-suedwest.rss"
+   ]
   }
+ ],
+ "archivMonate": 13,
+ "wertendeWoerter": [
+  "Chaos",
+  "Debakel",
+  "Fiasko",
+  "Hammer",
+  "Horror",
+  "Klatsche",
+  "Skandal",
+  "Wahnsinn",
+  "absurd",
+  "alarmierend",
+  "bedenklich",
+  "bedrohlich",
+  "beispiellos",
+  "besorgniserregend",
+  "brisant",
+  "desaströs",
+  "dramatisch",
+  "empörend",
+  "endlich",
+  "erschreckend",
+  "gigantisch",
+  "grandios",
+  "heftig",
+  "katastrophal",
+  "krachend",
+  "leider",
+  "massiv",
+  "peinlich",
+  "schockierend",
+  "sensationell",
+  "skandalös",
+  "spektakulär",
+  "unfassbar",
+  "unglaublich",
+  "verheerend",
+  "zum Glück"
+ ],
+ "maxMeldungenProQuelle": 80,
+ "bilder": true,
+ "maxNeuschreibenProLauf": 2,
+ "ton": {
+  "aktiv": true,
+  "stimme": "de_DE-thorsten-medium",
+  "formate": [
+   "lang",
+   "kurz",
+   "einfach"
+  ],
+  "tief": true,
+  "budgetSekunden": 900,
+  "maxLaufzeitSekunden": 600
+ },
+ "wetter": true
 }

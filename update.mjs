@@ -231,7 +231,7 @@ Antworte NUR mit JSON in genau diesem Format:
 }
 Regeln für "artikel": Abschnitte nur weglassen, wenn die Berichte dazu wirklich nichts enthalten. Lieber ausführlich als knapp – solange jede Angabe belegt ist.
 Regeln für "zeitleiste": nur Schritte, die in den Berichten stehen; bei neuen Ereignissen ohne Vorgeschichte leere Liste.
-Regeln für "bilder": 2 bis 4 verschiedene Vorschläge, die das Thema verständlicher machen (z. B. die beteiligte Person, der Ort, das Gebäude der Institution, ein neutrales Symbol). Zeige nie das Ereignis selbst. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER nur einen Eintrag mit art "keins".`, 9000);
+Regeln für "bilder": 3 bis 5 deutlich verschiedene Vorschläge (Person, Ort, Gebäude, Symbol – nicht zweimal dasselbe Motiv), die das Thema verständlicher machen (z. B. die beteiligte Person, der Ort, das Gebäude der Institution, ein neutrales Symbol). Zeige nie das Ereignis selbst. Bei Unglücken mit Toten oder Verletzten, bei Gewalttaten, bei Opfern oder bei Kindern IMMER nur einen Eintrag mit art "keins".`, 9000);
 }
 
 // ---------- Zweiter Prüfdurchgang + Lernbereich ----------
@@ -261,9 +261,16 @@ Aufgabe 2 – Einfache Fassung und Videotexte (nur aus Inhalten der geprüften N
 - "dossier": {"slug": "kurzer-themen-slug", "titel": "Name des übergeordneten Themas, z. B. 'Wahl in Schweden' oder 'Krieg in der Ukraine'"} – gleiche Ereignisketten bekommen denselben Slug.
 - "kurz": 3 bis 4 Stichpunkte für Eilige, je höchstens 15 Wörter.
 - "fakten": die wichtigsten Zahlen und Daten als Paare, z. B. [["Stimmen im Parlament", "262 zu 159"], ["Datum", "17. September 2026"]]. Nur Zahlen, die in den Berichten stehen. Leere Liste, wenn es keine gibt.
-- "video": Sprechtexte für eine Nachrichtensendung. Jeder Satz höchstens 14 Wörter. Kurze Hauptsätze, Präsens oder Perfekt. Keine Abkürzungen, Zahlen ausgeschrieben, wie man sie spricht (z. B. "drei Komma sieben fünf Prozent"). Setze Kommas dort, wo ein Sprecher Luft holt. Keine Floskeln wie "Guten Abend". Wenn mehrere Medien berichten, darf ein Satz das sachlich erwähnen ("Mehrere Medien berichten übereinstimmend").
-  Erzähle in dieser Reihenfolge: 1. ein Einstiegssatz, der neugierig macht, aber nichts übertreibt und nichts wertet. 2. die wichtigsten Fakten. 3. ein Schlusssatz, der sagt, was als Nächstes passiert oder was noch offen ist.
-  "kurz": 3 Sätze. "lang": 6–8 Sätze. "einfach": 4–5 sehr einfache Sätze.
+- "video": Sprechtexte für eine Nachrichtensendung, so wie sie eine Sprecherin oder ein Sprecher vorliest.
+  Sprechregeln (wichtig, der Text wird wirklich vorgelesen):
+  · Jeder Satz höchstens 16 Wörter, ein Gedanke pro Satz. Kurze Hauptsätze, Präsens oder Perfekt, aktive Formulierungen ("Das Parlament beschloss", nicht "es wurde beschlossen").
+  · Keine Abkürzungen. Schreibe alles so, wie man es spricht: Zahlen als Wörter ("drei Komma sieben fünf Prozent", "siebzehnter September"), Prozent statt %, Euro statt €, "und so weiter" statt "usw.", "Europäische Union" statt "EU" beim ersten Mal.
+  · Setze Kommas genau dort, wo ein Sprecher Luft holt. Keine Klammern, keine Gedankenstriche, keine Aufzählungszeichen, keine Anführungszeichen um ganze Sätze.
+  · Keine Floskeln wie "Guten Abend", "Willkommen", "Bleiben Sie dran". Keine Fragen an das Publikum.
+  · Namen beim ersten Mal mit Funktion ("die schwedische Ministerpräsidentin Magdalena Andersson"), danach nur noch der Nachname.
+  · Aussagen immer kennzeichnen: "nach Angaben der Polizei", "das sagte er am Donnerstag". Wenn mehrere Medien dasselbe berichten, darf ein Satz das sachlich erwähnen.
+  Aufbau von "lang" (8 bis 10 Sätze): 1. Ein Einstiegssatz, der das Wichtigste sofort sagt, ohne zu werten und ohne zu übertreiben. 2.–3. Was genau passiert ist, mit Ort und Zeit. 4.–6. Die wichtigsten Zahlen, Namen und Abläufe, jeweils mit Beleg. 7. Wenn es unterschiedliche Angaben oder Sichtweisen gibt: ein Satz dazu, wer was sagt. 8. Ein Hintergrundsatz, der das Ereignis einordnet – nur Gesichertes. 9.–10. Wie es weitergeht oder was noch offen ist.
+  "kurz": 3 bis 4 Sätze – Kern, wichtigste Zahl, Ausblick. "einfach": 5 bis 6 sehr einfache Sätze für Jugendliche ab zwölf, jeder Satz höchstens zwölf Wörter, schwierige Wörter direkt im Satz erklärt.
 
 Aufgabe 3 – Lernmaterial für Schülerinnen und Schüler:
 - "begriffe": 3–4 schwierige Begriffe aus der Nachricht, je 1–2 einfache Sätze Erklärung, ohne Wertung.
@@ -390,8 +397,8 @@ export function dossierPruefen(d) {
 }
 export function videoPruefen(v) {
   if (!v || typeof v !== "object") return undefined;
-  const sätze = x => (Array.isArray(x) ? x : [x]).map(t => String(t || "").trim()).filter(Boolean).slice(0, 5);
-  const o = { kurz: sätze(v.kurz), lang: sätze(v.lang), einfach: sätze(v.einfach) };
+  const sätze = (x, max) => (Array.isArray(x) ? x : [x]).map(t => String(t || "").trim()).filter(Boolean).slice(0, max);
+  const o = { kurz: sätze(v.kurz, 4), lang: sätze(v.lang, 10), einfach: sätze(v.einfach, 6) };
   return o.kurz.length || o.lang.length ? o : undefined;
 }
 
@@ -445,7 +452,7 @@ export async function bilderAuswaehlen(kandidatenProThema, kiFn) {
 
 Wähle für jedes Thema die Bilder aus, die WIRKLICH zum Thema passen und es verständlicher machen.
 Regeln:
-- Höchstens 3 Bilder je Thema, sinnvolle Reihenfolge: zuerst die beteiligte Person oder der Ort, dann Gebäude oder Symbol.
+- Höchstens 4 Bilder je Thema, sinnvolle Reihenfolge: zuerst die beteiligte Person oder der Ort, dann Gebäude oder Symbol. Wähle möglichst unterschiedliche Motive, keine zwei fast gleichen Bilder.
 - Passt ein Bild nicht eindeutig zum Thema (falsche Person, falscher Ort, unpassendes Motiv, unklares Motiv), lass es weg.
 - Lieber gar kein Bild als ein falsches. Themen ohne passendes Bild bekommen eine leere Liste.
 - Schreibe zu jedem gewählten Bild eine sachliche Bildunterschrift in einem Satz (was zu sehen ist und der Bezug zum Thema).
@@ -454,7 +461,7 @@ Antworte NUR mit JSON: {"auswahl": [{"thema": "themen-id", "bilder": [{"ref": "t
   for (const a of antwort.auswahl || []) {
     const v = kandidatenProThema.get(a.thema); if (!v) continue;
     const gewaehlt = [];
-    for (const b of (a.bilder || []).slice(0, 3)) {
+    for (const b of (a.bilder || []).slice(0, 4)) {
       const i = +String(b.ref || "").split("#")[1];
       const k = v.kandidaten[i];
       if (k && !gewaehlt.some(g => g.url === k.url)) gewaehlt.push({ ...k, bildunterschrift: String(b.bildunterschrift || k.bildunterschrift || "") });
@@ -516,6 +523,72 @@ export async function ortSuchen(ort) {
     if (!t) return undefined;
     return { name: ort.name, lat: +(+t.lat).toFixed(3), lon: +(+t.lon).toFixed(3) };
   } catch { return undefined; }
+}
+
+
+// ---------- Wetter (Open-Meteo, Daten vom Deutschen Wetterdienst – kostenlos, ohne Schlüssel) ----------
+// Reine Messdaten: hier rechnet keine KI mit, der Text wird aus den Zahlen gebaut.
+const WETTER_ORTE = [
+  { name: "Hamburg", lat: 53.55, lon: 9.99, teil: "Norden" },
+  { name: "Berlin", lat: 52.52, lon: 13.40, teil: "Osten" },
+  { name: "Leipzig", lat: 51.34, lon: 12.37, teil: "Osten" },
+  { name: "Köln", lat: 50.94, lon: 6.96, teil: "Westen" },
+  { name: "Frankfurt", lat: 50.11, lon: 8.68, teil: "Westen" },
+  { name: "Stuttgart", lat: 48.78, lon: 9.18, teil: "Süden" },
+  { name: "München", lat: 48.14, lon: 11.58, teil: "Süden" }
+];
+const WETTER_WORT = { 0:"klar", 1:"meist klar", 2:"teils bewölkt", 3:"bewölkt", 45:"neblig", 48:"neblig",
+  51:"leichter Nieselregen", 53:"Nieselregen", 55:"starker Nieselregen", 56:"gefrierender Nieselregen", 57:"gefrierender Nieselregen",
+  61:"leichter Regen", 63:"Regen", 65:"starker Regen", 66:"gefrierender Regen", 67:"gefrierender Regen",
+  71:"leichter Schneefall", 73:"Schneefall", 75:"starker Schneefall", 77:"Schneegriesel",
+  80:"Regenschauer", 81:"Regenschauer", 82:"kräftige Schauer", 85:"Schneeschauer", 86:"Schneeschauer",
+  95:"Gewitter", 96:"Gewitter mit Hagel", 99:"Gewitter mit Hagel" };
+export const wetterWort = c => WETTER_WORT[c] || "wechselhaft";
+const haeufigstes = liste => {
+  const z = new Map();
+  liste.forEach(c => z.set(c, (z.get(c) || 0) + 1));
+  return [...z.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+};
+export function wetterText(orte, morgenTag) {
+  if (!orte.length) return [];
+  const heuteMax = orte.map(o => o.heute.max), morgenMax = orte.map(o => o.morgen.max);
+  const waermste = orte.slice().sort((a, b) => b.morgen.max - a.morgen.max)[0];
+  const gruppe = teil => orte.filter(o => o.teil === teil);
+  const wort = liste => wetterWort(haeufigstes(liste.map(o => o.morgen.code)));
+  const nord = wort(gruppe("Norden").concat(gruppe("Osten")));
+  const sued = wort(gruppe("Süden").concat(gruppe("Westen")));
+  const t = [];
+  t.push(`Heute liegen die Höchstwerte zwischen ${Math.min(...heuteMax)} und ${Math.max(...heuteMax)} Grad.`);
+  t.push(nord === sued
+    ? `Die Vorhersage für morgen, ${morgenTag}, im ganzen Land: ${nord}.`
+    : `Die Vorhersage für morgen, ${morgenTag}: im Norden und Osten ${nord}, im Süden und Westen ${sued}.`);
+  t.push(`Die Temperaturen erreichen dann ${Math.min(...morgenMax)} bis ${Math.max(...morgenMax)} Grad.`);
+  t.push(`Am wärmsten wird es in ${waermste.name} mit ${waermste.morgen.max} Grad.`);
+  t.push("Die Daten kommen vom Deutschen Wetterdienst.");
+  return t;
+}
+async function wetterHolen(jetzt) {
+  const url = "https://api.open-meteo.com/v1/forecast?" + new URLSearchParams({
+    latitude: WETTER_ORTE.map(o => o.lat).join(","),
+    longitude: WETTER_ORTE.map(o => o.lon).join(","),
+    daily: "weather_code,temperature_2m_max,temperature_2m_min",
+    timezone: "Europe/Berlin", forecast_days: "2"
+  });
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error("Wetterdienst antwortet nicht (" + r.status + ")");
+  const roh = await r.json();
+  const liste = Array.isArray(roh) ? roh : [roh];
+  const orte = WETTER_ORTE.map((o, i) => {
+    const d = liste[i]?.daily;
+    if (!d || !d.temperature_2m_max) return null;
+    const tag = k => ({ code: d.weather_code[k], max: Math.round(d.temperature_2m_max[k]), min: Math.round(d.temperature_2m_min[k]) });
+    return { ...o, heute: tag(0), morgen: tag(1) };
+  }).filter(Boolean);
+  if (orte.length < 3) throw new Error("zu wenige Messwerte");
+  const morgen = new Date(+jetzt + 24 * 36e5);
+  const morgenTag = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", weekday: "long" }).format(morgen);
+  return { stand: jetzt.toISOString(), morgenTag, orte, text: wetterText(orte, morgenTag),
+    quelle: "Open-Meteo / Deutscher Wetterdienst" };
 }
 
 // ---------- Ausgaben zu festen Zeiten ----------
@@ -737,10 +810,10 @@ async function main() {
       }
       // Fotos: Kandidaten sammeln, die Auswahl trifft später eine gemeinsame KI-Anfrage
       let bildInfos = altesThema?.bildInfos || (altesThema?.bildInfo ? [altesThema.bildInfo] : []);
-      if (CFG.bilder !== false && bildInfos.length < 2) {
+      if (CFG.bilder !== false && bildInfos.length < 3) {
         const kandidaten = [];
-        for (const b of (entwurf.bilder || []).slice(0, 4)) {
-          if (kandidaten.length >= 8) break;
+        for (const b of (entwurf.bilder || []).slice(0, 5)) {
+          if (kandidaten.length >= 12) break;
           kandidaten.push(...(await bildKandidaten(b, 3)));
         }
         if (kandidaten.length) bildWahl.set(t.id, { titel: entwurf.titel, vorspann: entwurf.vorspann, kandidaten });
@@ -803,6 +876,12 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
     }
   }
 
+  let wetter = alt.wetter;
+  if (CFG.wetter !== false) {
+    try { wetter = await wetterHolen(jetzt); console.log(`Wetter: ${wetter.orte.length} Orte, morgen ${wetter.morgenTag}`); }
+    catch (e) { console.warn("Wetter nicht abrufbar: " + e.message); }
+  }
+
   const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
   const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
   await ausgabeSpeichern(jetzt, nachrichten);
@@ -837,6 +916,8 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
     ntfyTopic: process.env.NTFY_TOPIC || "",
     fehlerTopic: process.env.NTFY_TOPIC ? process.env.NTFY_TOPIC + "-fehler" : "",
     notified: [...notified].filter(id => nachrichten.some(n => n.id === id)),
+    wetter,
+    ton: alt.ton,
     nachrichten
   }, null, 1));
   console.log(`Fertig: ${nachrichten.length} Nachrichten, ${neuGeschrieben} neu/aktualisiert.`);

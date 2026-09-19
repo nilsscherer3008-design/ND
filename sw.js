@@ -1,5 +1,5 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v8";
+const VERSION = "heft-v9";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
@@ -53,6 +53,8 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.pathname.endsWith(".json")) return e.respondWith(netzZuerst(req));
+  // Tonaufnahmen tragen den Inhalt im Namen und ändern sich nie: einmal laden, dann aus dem Speicher
+  if (url.pathname.endsWith(".mp3")) return e.respondWith(speicherZuerst(req));
   if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com") || url.hostname.endsWith("wikimedia.org")) return e.respondWith(speicherZuerst(req));
   if (url.origin === self.location.origin) return e.respondWith(speicherUndAktualisieren(req));
 });
