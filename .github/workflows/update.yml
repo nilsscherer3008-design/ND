@@ -102,7 +102,18 @@ jobs:
           git add data
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
-          else
-            git commit -m "Nachrichten-Update $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
-            git push
+            exit 0
           fi
+          git commit -m "Nachrichten-Update $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          # Falls in der Zwischenzeit jemand Dateien hochgeladen hat: erst holen, dann noch einmal versuchen
+          for versuch in 1 2 3 4 5; do
+            if git push; then
+              echo "Gespeichert (Versuch $versuch)."
+              exit 0
+            fi
+            echo "Push abgelehnt – hole die neueren Dateien und versuche es erneut ($versuch)."
+            git pull --rebase --autostash origin main || exit 1
+            sleep 5
+          done
+          echo "Speichern hat nach fünf Versuchen nicht geklappt."
+          exit 1
