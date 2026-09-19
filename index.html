@@ -232,13 +232,20 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .zeitleiste b{font-family:var(--head);display:block;font-size:.9rem;color:var(--muted)}
 #player{position:fixed;inset:0;z-index:100;background:#05080d;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:10px;outline:none}
 .pl-kopf{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:10px 14px;font-family:var(--head);font-weight:700}
-.pl-x{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:1.1rem;cursor:pointer}
+.pl-x{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);color:#fff;border:0;
+  border-radius:999px;width:42px;height:42px;padding:0;cursor:pointer}
+.pl-x svg{width:20px;height:20px}
+.pl-x:hover{background:rgba(255,255,255,.22)}
 .pl-buehne{position:relative;overflow:hidden;border-radius:12px;background:#0D2B55}
 .pl-buehne.quer{width:min(96vw,calc((100vh - 150px)*16/9));aspect-ratio:16/9}
 .pl-buehne.hoch{height:min(calc(100vh - 150px),calc(96vw*16/9));aspect-ratio:9/16}
 .pl-buehne:fullscreen{width:100vw;height:100vh;border-radius:0;aspect-ratio:auto}
 .pl-fortschritt{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px;z-index:3}
-.pl-fortschritt i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28)}
+.pl-fortschritt i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28);cursor:pointer;
+  transition:background .15s,transform .12s}
+.pl-fortschritt i::after{content:"";position:absolute;top:-9px;bottom:-9px;left:0;right:0}
+.pl-fortschritt i{position:relative}
+.pl-fortschritt i:hover{background:rgba(255,255,255,.7);transform:scaleY(1.8)}
 .pl-fortschritt i.fertig,.pl-fortschritt i.jetzt{background:#fff}
 .pl-bild{position:absolute;inset:0}
 .pl-bild img{width:100%;height:100%;object-fit:cover;transform-origin:center}
@@ -256,7 +263,9 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-bild.tafel.gelb{background:linear-gradient(135deg,#5a4a10,#8C7520)}
 .pl-bild.tafel.rot{background:linear-gradient(135deg,#7a1020,#C41E2E)}
 .pl-credit{position:absolute;right:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);background:rgba(0,0,0,.5);padding:2px 8px;border-radius:6px;max-width:70%;text-align:right}
-.pl-inhalt{position:absolute;left:0;right:0;bottom:22%;padding:0 5%;z-index:2}
+.pl-inhalt{position:absolute;left:0;right:0;bottom:22%;padding:0 5%;z-index:2;transition:bottom .2s}
+.pl-buehne.mit-ut .pl-inhalt{bottom:calc(12% + 62px)}
+.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(14% + 66px)}
 .hoch .pl-inhalt{bottom:26%}
 .pl-logo{font-family:var(--head);font-weight:800;font-size:clamp(1rem,3vw,1.6rem)}
 .pl-logo span{color:#B9C8DE;font-weight:600}
@@ -270,10 +279,35 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-ut{position:absolute;left:4%;right:4%;bottom:5%;z-index:2;text-align:center;font-family:var(--body);font-size:clamp(.85rem,2.2vw,1.35rem);line-height:1.35}
 .pl-ut:not(:empty){background:rgba(0,0,0,.72);padding:6px 12px;border-radius:8px}
 .pl-marke{position:absolute;left:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);opacity:.8}
-.pl-start{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#0D2B55;font-size:2rem;cursor:pointer;z-index:4}
-.pl-steuer{display:flex;gap:8px}
-.pl-steuer button{background:rgba(255,255,255,.12);color:#fff;border:0;border-radius:999px;width:48px;height:48px;font-size:1.15rem;cursor:pointer}
-.pl-steuer .pl-haupt{width:60px;background:#fff;color:#0D2B55}
+.pl-start{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;border:0;
+  display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.94);color:#0D2B55;cursor:pointer;z-index:4;
+  box-shadow:0 8px 28px rgba(0,0,0,.45);transition:transform .12s}
+.pl-start svg{width:38px;height:38px;fill:currentColor;margin-left:3px}
+.pl-start:hover{transform:scale(1.06)}
+.pl-start[hidden]{display:none}
+.pl-steuer{display:flex;gap:8px;align-items:center;width:min(96vw,760px);padding:0 4px}
+.pl-steuer button{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);color:#fff;
+  border:0;border-radius:999px;width:48px;height:48px;padding:0;cursor:pointer;flex:0 0 auto;
+  transition:background .15s,transform .1s,opacity .15s;-webkit-tap-highlight-color:transparent}
+.pl-steuer button svg{width:24px;height:24px;fill:currentColor;display:block}
+.pl-steuer button:hover{background:rgba(255,255,255,.22)}
+.pl-steuer button:active{transform:scale(.93)}
+.pl-steuer button:focus-visible{outline:3px solid #7FB3E8;outline-offset:2px}
+.pl-steuer .pl-haupt{width:62px;height:62px;background:#fff;color:#0D2B55}
+.pl-steuer .pl-haupt:hover{background:#E6EDF6}
+.pl-steuer .pl-haupt svg{width:30px;height:30px}
+.pl-steuer button.aus{opacity:.55}
+.pl-steuer button.an{background:var(--red);color:#fff}
+.pl-zeit{font-family:var(--head);font-weight:700;font-size:.92rem;color:#D7E2F0;font-variant-numeric:tabular-nums;
+  margin-left:6px;white-space:nowrap}
+.pl-luecke{flex:1 1 auto}
+@media (max-width:430px){
+  .pl-steuer{gap:5px}
+  .pl-steuer button{width:44px;height:44px}
+  .pl-steuer .pl-haupt{width:56px;height:56px}
+  .pl-steuer button svg{width:22px;height:22px}
+  .pl-zeit{font-size:.8rem;margin-left:2px}
+}
 /* ===== Artikelseite (neu) ===== */
 .bar .wrap{min-height:56px}
 @media (max-width:520px){ .stand{font-size:0} .stand b{font-size:.82rem} .brand{font-size:1.05rem} .brand span{display:block;font-size:.8rem} }
@@ -386,6 +420,8 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 @keyframes strichAuf{from{width:0}to{width:72%}}
 @keyframes titelAuf{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.pl-logo-anim,.pl-logo-anim .pl-strich,.pl-logo-anim + .pl-titel{animation:none}.pl-logo-anim .pl-strich{width:72%}}
+.pl-logo + .pl-titel{border-left:0;padding-left:0;margin-top:16px;color:#D7E2F0;font-size:clamp(1rem,3vw,1.7rem)}
+.pl-inhalt.einblenden .pl-logo-anim + .pl-titel{animation:titelAuf .8s ease-out 1.5s both}
 .pl-buehne{--akzent:#16407A}
 .pl-inhalt.einblenden .pl-rubrik{animation:vonLinks .5s cubic-bezier(.2,.8,.2,1) both}
 .pl-inhalt.einblenden .pl-titel{animation:vonUnten .55s cubic-bezier(.2,.8,.2,1) .12s both}
@@ -462,24 +498,30 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   background:radial-gradient(115% 115% at 6% -12%,var(--akzent) 0%,rgba(0,0,0,0) 58%),
              repeating-linear-gradient(118deg,rgba(255,255,255,.035) 0 2px,rgba(0,0,0,0) 2px 11px);opacity:.6}
 .pl-bild.tafel-flaeche::after{background:linear-gradient(180deg,rgba(5,15,30,.3) 0%,rgba(5,15,30,0) 45%,rgba(5,15,30,.78) 100%)}
-.tf{position:absolute;left:6%;right:6%;top:11%;bottom:23%;z-index:2;display:flex;flex-direction:column;justify-content:center;
-  gap:clamp(8px,1.8vh,20px);color:#fff}
-.hoch .tf{top:13%;bottom:28%}
-.tf-kopf{align-self:flex-start;font-family:var(--head);font-weight:800;text-transform:uppercase;letter-spacing:.08em;
-  font-size:clamp(.56rem,1.45vw,.86rem);background:var(--akzent);padding:4px 12px;border-radius:4px}
-.tf-band{position:absolute;left:0;right:0;bottom:-2%;font-family:var(--head);font-weight:600;
+.tf{position:absolute;left:6%;right:6%;top:calc(7% + 24px);bottom:23%;z-index:2;display:flex;flex-direction:column;
+  justify-content:center;justify-content:safe center;overflow:hidden;
+  gap:clamp(5px,1.5vh,20px);color:#fff}
+.tf > *{flex:0 0 auto;min-height:0}
+.hoch .tf{top:calc(9% + 24px);bottom:28%}
+.pl-buehne.mit-ut .tf{bottom:calc(12% + 66px)}
+.pl-buehne.hoch.mit-ut .tf{bottom:calc(14% + 70px)}
+.pl-buehne.mit-ut .tf-karte{bottom:auto}
+.tf-kopf{flex:0 0 auto;align-self:flex-start;font-family:var(--head);font-weight:800;text-transform:uppercase;letter-spacing:.08em;
+  font-size:clamp(.52rem,1.45vw,.86rem);background:var(--akzent);padding:3px 10px;border-radius:4px}
+.tf-band{margin-top:.6em;font-family:var(--head);font-weight:600;
   font-size:clamp(.56rem,1.35vw,.8rem);color:#9FB3CC;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tf-zahlen{display:flex;gap:clamp(12px,4vw,52px);flex-wrap:wrap}
 .tf-zahlen div{flex:1 1 40%;border-left:4px solid var(--akzent);padding-left:clamp(8px,1.4vw,18px)}
 .tf-zahlen b{display:block;font-family:var(--head);font-weight:800;line-height:1;font-variant-numeric:tabular-nums;
   font-size:clamp(1.4rem,6vw,4.2rem)}
 .tf-zahlen span{display:block;margin-top:.45em;font-family:var(--head);font-size:clamp(.6rem,1.5vw,.95rem);color:#C7D6E8}
-.tf-zitat blockquote{margin:0;font-family:var(--body);font-size:clamp(.92rem,2.9vw,1.95rem);line-height:1.32}
+.tf-zitat blockquote{margin:0;font-family:var(--body);font-size:clamp(.82rem,2.9vw,1.95rem);line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .tf-zitat blockquote::before{content:"„";color:var(--akzent);font-family:var(--head);font-weight:800;font-size:1.6em;line-height:0;
   position:relative;top:.25em;margin-right:.04em}
 .tf-zitat blockquote::after{content:"“";color:var(--akzent);font-family:var(--head);font-weight:800;font-size:1.6em;line-height:0;
   position:relative;top:.25em;margin-left:.02em}
-.tf-wer{font-family:var(--head);font-weight:700;font-size:clamp(.7rem,1.8vw,1.1rem)}
+.tf-wer{flex:0 0 auto;font-family:var(--head);font-weight:700;font-size:clamp(.64rem,1.8vw,1.1rem)}
 .tf-wer span{display:block;font-weight:500;color:#9FB3CC;font-size:.82em;margin-top:3px}
 .tf-zeit{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:clamp(5px,1.2vh,13px)}
 .tf-zeit li{display:grid;grid-template-columns:clamp(56px,14%,140px) 1fr;gap:clamp(8px,1.5vw,20px);align-items:baseline;
@@ -501,7 +543,8 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .tf-w b{display:block;font-family:var(--head);text-transform:uppercase;letter-spacing:.07em;color:#9FB3CC;
   font-size:clamp(.54rem,1.3vw,.8rem)}
 .tf-w span{font-family:var(--body);font-size:clamp(.72rem,1.9vw,1.15rem);line-height:1.25}
-.tf-gross{margin:0;font-family:var(--body);font-size:clamp(.88rem,2.5vw,1.65rem);line-height:1.32}
+.tf-gross{margin:0;font-family:var(--body);font-size:clamp(.82rem,2.5vw,1.65rem);line-height:1.3;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .tf-warn .tf-kopf{background:#8C7520}
 .tf-warn .tf-kopf::before{content:"⚠ "}
 .pl-bild.tafel-flaeche.gelb::before{background:radial-gradient(90% 100% at 0% 50%,#A8892A 0%,rgba(0,0,0,0) 52%),
@@ -528,10 +571,9 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .tf.auf li:nth-child(5),.tf.auf .tf-medien > div:nth-child(5){animation-delay:.64s}
 .tf.auf li:nth-child(6),.tf.auf .tf-medien > div:nth-child(6){animation-delay:.76s}
 .tf-zahlen b.lang{font-size:clamp(1.05rem,3.6vw,2.5rem)}
-.tf-karte{justify-content:flex-start;bottom:auto;top:11%}
+.tf-karte{justify-content:flex-start;bottom:auto}
 .tf-ortname{font-family:var(--head);font-weight:800;line-height:1.05;font-size:clamp(1.2rem,4.4vw,3rem);
   text-shadow:0 2px 16px rgba(0,0,0,.65);align-self:flex-start;margin-top:.15em}
-.tf-karte .tf-band{position:static;margin-top:.5em}
 @media (prefers-reduced-motion:reduce){.tf.auf *,.tf-logo i{animation:none}.tf-logo i{width:60%}}
 
 /* ---------- Wetter ---------- */
@@ -1718,7 +1760,7 @@ function tonEintrag(s){
   const k = (s.saetze || []).join(" ").slice(0, 80);
   return k ? (liste.find(e => e && e.k === k) || null) : null;
 }
-const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, format:null, zurueck:"#/" };
+const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, format:null, zurueck:"#/", lauf:0, fertig:false };
 
 function deutscheStimmen(){
   return (speechSynthesis?.getVoices?.() || []).filter(v => /^de/i.test(v.lang));
@@ -1750,6 +1792,18 @@ function sprechTeile(satz){
   }
   return zusammen.length ? zusammen : [String(satz)];
 }
+const SYM = {
+  play:  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg>',
+  pause: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="5" width="3.6" height="14" rx="1.1"/><rect x="13.4" y="5" width="3.6" height="14" rx="1.1"/></svg>',
+  neu:   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V2.5L8 6l4 3.5V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7z"/></svg>',
+  zurueck: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6h2.2v12H7z"/><path d="M19 6v12l-8.4-6z"/></svg>',
+  weiter:  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.8 6H17v12h-2.2z"/><path d="M5 6v12l8.4-6z"/></svg>',
+  ton:   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.4L12 5.4v13.2L7.4 14.5H4z"/><path d="M15.2 8.8a4.6 4.6 0 0 1 0 6.4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M17.6 6.4a8 8 0 0 1 0 11.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
+  stumm: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.4L12 5.4v13.2L7.4 14.5H4z"/><path d="M15.5 9.5l5 5m0-5l-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  ut:    '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M10 10.4a2.6 2.6 0 1 0 0 3.2M18 10.4a2.6 2.6 0 1 0 0 3.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg>',
+  voll:  '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  x:     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>'
+};
 function playerOeffnen(format, id){
   const segs = segmenteBauen(format, id);
   const f = FORMATE[format];
@@ -1757,7 +1811,7 @@ function playerOeffnen(format, id){
   document.getElementById("player")?.remove();
   const el = document.createElement("div");
   el.id = "player"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", f.name);
-  el.innerHTML = `<div class="pl-kopf"><span>${esc(f.name)}</span><button class="pl-x" aria-label="Video schließen">✕</button></div>
+  el.innerHTML = `<div class="pl-kopf"><span>${esc(f.name)}</span><button class="pl-x" aria-label="Video schließen">${SYM.x}</button></div>
     <div class="pl-buehne ${f.quer ? "quer" : "hoch"}">
       <div class="pl-fortschritt"></div>
       <div class="pl-bild"></div>
@@ -1766,15 +1820,17 @@ function playerOeffnen(format, id){
       <div class="pl-marke">KI-Zusammenfassung · Computerstimme</div>
       <div class="pl-uhr"></div>
       <div class="pl-laufband"><div class="pl-lauf-inhalt"></div></div>
-      <button class="pl-start">▶</button>
+      <button class="pl-start" aria-label="Video starten">${SYM.play}</button>
     </div>
     <div class="pl-steuer">
-      <button data-a="zurueck" aria-label="Vorheriges Thema">⏮</button>
-      <button data-a="play" aria-label="Abspielen oder Pause" class="pl-haupt">▶</button>
-      <button data-a="weiter" aria-label="Nächstes Thema">⏭</button>
-      <button data-a="ton" aria-label="Ton an oder aus">🔊</button>
-      <button data-a="ut" aria-label="Untertitel an oder aus">💬</button>
-      <button data-a="voll" aria-label="Vollbild">⛶</button>
+      <button data-a="zurueck" aria-label="Vorheriges Thema">${SYM.zurueck}</button>
+      <button data-a="play" aria-label="Abspielen" class="pl-haupt">${SYM.play}</button>
+      <button data-a="weiter" aria-label="Nächstes Thema">${SYM.weiter}</button>
+      <span class="pl-zeit" aria-live="off">–</span>
+      <span class="pl-luecke"></span>
+      <button data-a="ton" aria-label="Ton aus">${SYM.ton}</button>
+      <button data-a="ut" aria-label="Untertitel aus" class="an">${SYM.ut}</button>
+      <button data-a="voll" aria-label="Vollbild">${SYM.voll}</button>
     </div>`;
   document.body.appendChild(el);
   document.body.style.overflow = "hidden";
@@ -1786,6 +1842,10 @@ function playerOeffnen(format, id){
   el.querySelector(".pl-x").onclick = playerSchliessen;
   el.querySelector(".pl-start")?.addEventListener("click", () => abspielen());
   el.querySelectorAll(".pl-steuer button").forEach(b => b.onclick = () => steuern(b.dataset.a));
+  el.querySelector(".pl-fortschritt").onclick = ev => {
+    const i = ev.target?.dataset?.i;
+    if (i !== undefined) springen(+i);
+  };
   el.addEventListener("keydown", e => {
     if (e.key === " "){ e.preventDefault(); steuern("play"); }
     if (e.key === "ArrowRight") steuern("weiter");
@@ -1816,7 +1876,8 @@ function zeigen(){
   const s = PLAYER.segs[PLAYER.si];
   el.querySelector(".pl-buehne").style.setProperty("--akzent", RUBRIK_FARBE[s.rubrik] || "#16407A");
   el.querySelector(".pl-uhr").textContent = berlin(new Date(), { hour:"2-digit", minute:"2-digit" }) + " Uhr";
-  el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((_, i) => `<i class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}"></i>`).join("");
+  el.querySelector(".pl-fortschritt").innerHTML = PLAYER.segs.map((x, i) =>
+    `<i data-i="${i}" class="${i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : ""}" title="${esc(x.titel || "")}"></i>`).join("");
   if (!s.shots) s.shots = regie(s);
   const marke = el.querySelector(".pl-marke");
   if (marke) marke.textContent = tonEintrag(s) ? "KI-Zusammenfassung · Sprecherstimme Thorsten (Piper)" : "KI-Zusammenfassung · Vorlesestimme des Geräts";
@@ -1872,7 +1933,7 @@ function tafelHTML(sh, s){
   if (sh.typ === "zahl") return `<div class="tf auf"><div class="tf-kopf">Die Zahlen dazu</div>
     <div class="tf-zahlen">${sh.werte.map(([k, v]) => `<div><b class="${String(v).length > 11 ? "lang" : ""}">${esc(v)}</b><span>${esc(k)}</span></div>`).join("")}</div>${band}</div>`;
   if (sh.typ === "zitat") return `<div class="tf auf tf-zitat"><div class="tf-kopf">Was gesagt wurde</div>
-    <blockquote>${esc(sh.was)}</blockquote>
+    <blockquote>${esc(String(sh.was).length > 210 ? String(sh.was).slice(0, 205).replace(/\s+\S*$/, "") + " …" : sh.was)}</blockquote>
     <div class="tf-wer">${esc(sh.wer)}${sh.quelle ? `<span>berichtet von ${esc(sh.quelle)}</span>` : ""}</div>${band}</div>`;
   if (sh.typ === "zeit") return `<div class="tf auf"><div class="tf-kopf">So kam es dazu</div>
     <ol class="tf-zeit">${sh.eintraege.map(([d, e]) => `<li><b>${esc(d)}</b><span>${esc(e)}</span></li>`).join("")}</ol>${band}</div>`;
@@ -1941,17 +2002,50 @@ function untertitel(){
   const ut = el.querySelector(".pl-ut");
   ut.textContent = PLAYER.untertitel ? ((s.saetze || [])[PLAYER.ti] || "") : "";
   ut.hidden = !PLAYER.untertitel || !ut.textContent;
+  el.querySelector(".pl-buehne")?.classList.toggle("mit-ut", !ut.hidden);
 }
 function zeigenTeil(){ untertitel(); shotZeigen(); }
 function knoepfe(){
   const el = document.getElementById("player"); if (!el) return;
-  el.querySelector('[data-a="play"]').textContent = PLAYER.spielt ? "⏸" : "▶";
-  el.querySelector('[data-a="ton"]').textContent = PLAYER.stumm ? "🔇" : "🔊";
-  el.querySelector('[data-a="ut"]').style.opacity = PLAYER.untertitel ? 1 : .5;
-  const st = el.querySelector(".pl-start"); if (st) st.hidden = PLAYER.spielt || PLAYER.si > 0 || PLAYER.ti > 0;
+  const play = el.querySelector('[data-a="play"]');
+  play.innerHTML = PLAYER.spielt ? SYM.pause : (PLAYER.fertig ? SYM.neu : SYM.play);
+  play.setAttribute("aria-label", PLAYER.spielt ? "Pause" : PLAYER.fertig ? "Noch einmal abspielen" : "Abspielen");
+  const ton = el.querySelector('[data-a="ton"]');
+  ton.innerHTML = PLAYER.stumm ? SYM.stumm : SYM.ton;
+  ton.classList.toggle("aus", PLAYER.stumm);
+  ton.setAttribute("aria-label", PLAYER.stumm ? "Ton an" : "Ton aus");
+  const ut = el.querySelector('[data-a="ut"]');
+  ut.classList.toggle("an", PLAYER.untertitel);
+  ut.setAttribute("aria-label", PLAYER.untertitel ? "Untertitel aus" : "Untertitel an");
+  const st = el.querySelector(".pl-start");
+  if (st){
+    st.hidden = PLAYER.spielt;
+    st.innerHTML = PLAYER.fertig ? SYM.neu : SYM.play;
+    st.setAttribute("aria-label", PLAYER.fertig ? "Noch einmal abspielen" : "Video starten");
+  }
+  el.querySelector(".pl-fortschritt")?.querySelectorAll("i").forEach((k, i) => {
+    k.className = i < PLAYER.si ? "fertig" : i === PLAYER.si ? "jetzt" : "";
+  });
+  zeitAnzeigen();
 }
+const mmss = sek => `${Math.floor(sek / 60)}:${String(Math.max(0, Math.round(sek % 60))).padStart(2, "0")}`;
+function zeitAnzeigen(){
+  const el = document.getElementById("player"); if (!el) return;
+  const z = el.querySelector(".pl-zeit"); if (!z) return;
+  const dauern = PLAYER.segs.map(x => { const e = tonEintrag(x); return e ? e.l : Math.max(2, (x.saetze || []).join(" ").split(/\s+/).filter(Boolean).length / 2.5 + 1); });
+  const gesamt = dauern.reduce((a, b) => a + b, 0);
+  let bisher = dauern.slice(0, PLAYER.si).reduce((a, b) => a + b, 0);
+  const e = tonEintrag(PLAYER.segs[PLAYER.si]);
+  if (e && AUDIO && !AUDIO.paused) bisher += AUDIO.currentTime;
+  else if (PLAYER.ti) bisher += dauern[PLAYER.si] * (PLAYER.ti / Math.max(1, (PLAYER.segs[PLAYER.si].saetze || []).length));
+  z.textContent = `${mmss(Math.min(bisher, gesamt))} / ${mmss(gesamt)}`;
+}
+// Jeder Start bekommt eine Nummer. Alles, was später zurückkommt und eine alte Nummer trägt,
+// wird verworfen – sonst reden zwei Abschnitte gleichzeitig, wenn man schnell weiterspringt.
+const gueltig = lauf => PLAYER.spielt && PLAYER.lauf === lauf;
 function stopp(){
-  PLAYER.spielt = false; clearTimeout(PLAYER.timer); tickerStopp();
+  PLAYER.spielt = false; PLAYER.lauf++;
+  clearTimeout(PLAYER.timer); tickerStopp();
   try { speechSynthesis.cancel(); } catch {}
   tonAus();
   knoepfe();
@@ -1963,16 +2057,29 @@ function tonAus(){
 }
 function abspielen(){
   if (!PLAYER.segs.length) return;
-  PLAYER.spielt = true; knoepfe();
+  PLAYER.spielt = true;
+  if (PLAYER.fertig){ PLAYER.fertig = false; PLAYER.si = 0; PLAYER.ti = 0; PLAYER.melodieGespielt = false; zeigen(); }
+  knoepfe();
   if (!PLAYER.stumm) tickerStart();
   const s = PLAYER.segs[PLAYER.si];
+  const lauf = ++PLAYER.lauf;
   let warten = 0;
   if (!PLAYER.stumm && PLAYER.ti === 0 && !PLAYER.melodieGespielt && s.typ === "intro"){ warten = melodie(); PLAYER.melodieGespielt = true; }
   else if (!PLAYER.stumm && PLAYER.ti === 0 && s.eil && s.typ === "thema" && PLAYER.letzteEil !== s.id){ warten = eilSignal(); PLAYER.letzteEil = s.id; }
-  if (warten > 0){ clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(() => { if (PLAYER.spielt) losSprechen(); }, warten * 1000); }
-  else losSprechen();
+  if (warten > 0){
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) losSprechen(); }, warten * 1000);
+  } else losSprechen();
 }
-// nächstes Thema: kurze Atempause, Übergangsgeräusch, dann weiter
+function springen(ziel){
+  const lief = PLAYER.spielt;
+  stopp();
+  PLAYER.si = Math.max(0, Math.min(PLAYER.segs.length - 1, ziel));
+  PLAYER.ti = 0; PLAYER.fertig = false;
+  PLAYER.spielt = lief;
+  zeigen();
+  if (lief) losSprechen(); else knoepfe();
+}
 function naechstesSegment(){
   if (!PLAYER.spielt) return;
   tonAus();
@@ -1980,56 +2087,53 @@ function naechstesSegment(){
   if (PLAYER.si >= PLAYER.segs.length){
     PLAYER.si = PLAYER.segs.length - 1;
     PLAYER.ti = Math.max(0, (PLAYER.segs[PLAYER.si].saetze || []).length - 1);
-    stopp(); return;
+    PLAYER.fertig = true;
+    stopp();
+    return;
   }
   const n = PLAYER.segs[PLAYER.si];
   if (!PLAYER.stumm && n.eil && n.typ === "thema" && PLAYER.letzteEil !== n.id){ PLAYER.letzteEil = n.id; eilSignal(); }
   uebergang();
+  const lauf = ++PLAYER.lauf;
   clearTimeout(PLAYER.timer);
-  PLAYER.timer = setTimeout(() => { if (!PLAYER.spielt) return; zeigen(); losSprechen(); }, 820);
-}
-function naechsterSatz(){
-  if (!PLAYER.spielt) return;
-  const s = PLAYER.segs[PLAYER.si];
-  PLAYER.ti++;
-  if (PLAYER.ti >= (s.saetze || []).length) return naechstesSegment();
-  zeigenTeil();
-  geraetSprechen(s);
+  PLAYER.timer = setTimeout(() => { if (!gueltig(lauf)) return; zeigen(); losSprechen(); }, 820);
 }
 function losSprechen(){
   if (!PLAYER.spielt) return;
+  const lauf = ++PLAYER.lauf;
   const s = PLAYER.segs[PLAYER.si];
-  zeigenTeil();
-  if (!(s.saetze || []).length){   // stille Kapiteltafel
+  zeigenTeil(); knoepfe();
+  if (!(s.saetze || []).length){          // stille Kapiteltafel
     clearTimeout(PLAYER.timer);
-    PLAYER.timer = setTimeout(naechstesSegment, (s.standzeit || 2.6) * 1000);
+    PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) naechstesSegment(); }, (s.standzeit || 2.6) * 1000);
     return;
   }
   const e = tonEintrag(s);
-  if (e && AUDIO) tonSprechen(s, e); else geraetSprechen(s);
+  if (e && AUDIO) tonSprechen(s, e, lauf); else geraetSprechen(s, lauf);
 }
-// echte Sprecherstimme: eine Aufnahme je Abschnitt, Untertitel laufen mit
-function tonSprechen(s, e){
+// echte Sprecherstimme: eine Aufnahme je Abschnitt, Untertitel und Bilder laufen mit
+function tonSprechen(s, e, lauf){
   try { speechSynthesis.cancel(); } catch {}
   const url = tonBasis() + e.d;
   const start = (e.s && e.s[PLAYER.ti] != null) ? e.s[PLAYER.ti] : 0;
-  AUDIO.ontimeupdate = null; AUDIO.onended = null; AUDIO.onerror = null;
+  tonAus();
   if (AUDIO.getAttribute("src") !== url){ AUDIO.setAttribute("src", url); AUDIO.load(); }
   const anSeineStelle = () => { try { if (Math.abs(AUDIO.currentTime - start) > 0.3) AUDIO.currentTime = start; } catch {} };
   if (AUDIO.readyState >= 1) anSeineStelle(); else AUDIO.addEventListener("loadedmetadata", anSeineStelle, { once:true });
   AUDIO.muted = PLAYER.stumm;
   AUDIO.ontimeupdate = () => {
-    if (!PLAYER.spielt || !e.s) return;
+    if (!gueltig(lauf) || !e.s) return;
     let i = 0;
     while (i + 1 < e.s.length && AUDIO.currentTime >= e.s[i + 1] - 0.06) i++;
     if (i !== PLAYER.ti){ PLAYER.ti = i; zeigenTeil(); }
+    zeitAnzeigen();
   };
-  AUDIO.onended = () => { if (PLAYER.spielt) naechstesSegment(); };
-  AUDIO.onerror = () => { if (PLAYER.spielt){ tonAus(); geraetSprechen(s); } };
+  AUDIO.onended = () => { if (gueltig(lauf)) naechstesSegment(); };
+  AUDIO.onerror = () => { if (gueltig(lauf)) geraetSprechen(s, lauf); };
   const versuch = AUDIO.play();
-  if (versuch && versuch.catch) versuch.catch(() => { if (PLAYER.spielt){ tonAus(); geraetSprechen(s); } });
+  if (versuch && versuch.catch) versuch.catch(() => { if (gueltig(lauf)) geraetSprechen(s, lauf); });
   clearTimeout(PLAYER.timer);
-  PLAYER.timer = setTimeout(() => { if (PLAYER.spielt && AUDIO.paused){ tonAus(); geraetSprechen(s); } }, 6000);
+  PLAYER.timer = setTimeout(() => { if (gueltig(lauf) && AUDIO.paused) geraetSprechen(s, lauf); }, 5000);
   tonVorladen(PLAYER.si + 1);
 }
 function tonVorladen(i){
@@ -2038,18 +2142,33 @@ function tonVorladen(i){
   try { fetch(tonBasis() + e.d, { cache:"force-cache" }).catch(() => {}); } catch {}
 }
 // Rückfallebene: Vorlesestimme des Geräts, Satz für Satz
-function geraetSprechen(s){
-  if (!PLAYER.spielt) return;
+function geraetSprechen(s, lauf){
+  if (!gueltig(lauf)) return;
+  tonAus();
   const satz = (s.saetze || [])[PLAYER.ti] || "";
   const lesezeit = Math.max(1800, satz.split(/\s+/).length * 400);
+  const weiter = () => {
+    if (!gueltig(lauf)) return;
+    PLAYER.ti++;
+    if (PLAYER.ti >= (s.saetze || []).length) return naechstesSegment();
+    zeigenTeil();
+    geraetSprechen(s, lauf);
+  };
   if (PLAYER.stumm || !("speechSynthesis" in window)){
-    clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(naechsterSatz, lesezeit + 500); return;
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(weiter, lesezeit + 500);
+    return;
   }
   const v = stimmeWaehlen();
   const grundTempo = FORMATE[PLAYER.format]?.rate || 0.9;
   const teile = sprechTeile(satz);
   let fertig = false;
-  const ende = () => { if (fertig) return; fertig = true; clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(naechsterSatz, 420); };
+  const ende = () => {
+    if (fertig || !gueltig(lauf)) return;
+    fertig = true;
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(weiter, 420);
+  };
   speechSynthesis.cancel();
   teile.forEach((teil, i) => {
     const u = new SpeechSynthesisUtterance(teil);
@@ -2060,23 +2179,26 @@ function geraetSprechen(s){
     if (i === teile.length - 1){ u.onend = ende; u.onerror = ev => { if (ev.error !== "interrupted" && ev.error !== "canceled") ende(); } }
     speechSynthesis.speak(u);
   });
-  clearTimeout(PLAYER.timer); PLAYER.timer = setTimeout(ende, lesezeit * 2.6 + 3500);
+  clearTimeout(PLAYER.timer);
+  PLAYER.timer = setTimeout(ende, lesezeit * 2.6 + 3500);
 }
 function steuern(a){
   const P = PLAYER;
   if (a === "play") return P.spielt ? stopp() : abspielen();
-  if (a === "weiter" || a === "zurueck"){
-    const lief = P.spielt; stopp();
-    P.si = Math.max(0, Math.min(P.segs.length - 1, P.si + (a === "weiter" ? 1 : -1))); P.ti = 0;
-    P.spielt = lief;
-    zeigen(); if (lief) losSprechen(); else knoepfe(); return;
+  if (a === "weiter") return springen(P.si + 1);
+  if (a === "zurueck"){
+    // wie bei jedem Abspielgerät: erst an den Anfang des Abschnitts, beim zweiten Tippen zurück
+    const weitDrin = P.ti > 0 || (AUDIO && !AUDIO.paused && AUDIO.currentTime > 3);
+    return springen(weitDrin ? P.si : P.si - 1);
   }
   if (a === "ton"){
     P.stumm = !P.stumm;
     if (AUDIO) AUDIO.muted = P.stumm;
-    if (P.stumm){ try { speechSynthesis.cancel(); } catch {} if (AUDIO && !AUDIO.paused){ knoepfe(); return; } }
-    const lief = P.spielt; stopp(); P.spielt = lief;
-    if (lief) losSprechen(); else knoepfe();
+    if (P.stumm){ try { speechSynthesis.cancel(); } catch {} tickerStopp(); }
+    else if (P.spielt) tickerStart();
+    // die Vorlesestimme kann man nicht stummschalten, also den Abschnitt neu starten
+    if (P.spielt && !(AUDIO && !AUDIO.paused)){ const i = P.si; springen(i); return; }
+    knoepfe();
     return;
   }
   if (a === "ut"){ P.untertitel = !P.untertitel; untertitel(); knoepfe(); return; }
