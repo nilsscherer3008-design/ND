@@ -476,7 +476,10 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .tf-gross{margin:0;font-family:var(--body);font-size:clamp(.88rem,2.5vw,1.65rem);line-height:1.32}
 .tf-warn .tf-kopf{background:#8C7520}
 .tf-warn .tf-kopf::before{content:"⚠ "}
-.pl-bild.tafel-flaeche.gelb::before{background:radial-gradient(115% 115% at 6% -12%,#8C7520 0%,rgba(0,0,0,0) 58%)}
+.pl-bild.tafel-flaeche.gelb::before{background:radial-gradient(90% 100% at 0% 50%,#A8892A 0%,rgba(0,0,0,0) 52%),
+  repeating-linear-gradient(118deg,rgba(255,255,255,.03) 0 2px,rgba(0,0,0,0) 2px 11px);opacity:.5}
+.pl-inhalt.gross .pl-titel{font-size:clamp(1.3rem,4.4vw,2.9rem)}
+.hoch .pl-inhalt.gross .pl-titel{font-size:clamp(1.2rem,6.2vw,2rem)}
 .tf-begriff{align-self:flex-start;font-family:var(--head);font-weight:800;line-height:1.04;
   font-size:clamp(1.25rem,5vw,3.1rem);border-bottom:5px solid var(--akzent);padding-bottom:.1em}
 .tf-titel{font-family:var(--head);font-weight:800;line-height:1.08;font-size:clamp(1.25rem,4.8vw,3.3rem);
@@ -1823,9 +1826,7 @@ function tafelHTML(sh, s){
     <p class="tf-gross">${esc(sh.text)}</p>${band}</div>`;
   if (sh.typ === "begriff") return `<div class="tf auf"><div class="tf-kopf">Begriff erklärt</div>
     <div class="tf-begriff">${esc(sh.titel)}</div>${sh.erster ? "" : `<p class="tf-gross">${esc(sh.text)}</p>`}</div>`;
-  if (sh.typ === "logo") return `<div class="tf tf-mitte"><div class="tf-logo">Nachrichten-Heft<span>· neutral</span><i></i></div></div>`;
-  return `<div class="tf auf"><div class="tf-kopf">${esc(sh.rubrik || "Thema")}</div>
-    <div class="tf-titel">${esc(sh.titel || "")}</div></div>`;
+  return "";   // Logo- und Themen-Tafel: die Kopfzeile unten trägt Rubrik und Titel
 }
 // Lädt ein Foto nicht, tritt an seine Stelle eine Grafiktafel – nie eine leere Fläche
 function fotoFehlt(img){
@@ -1850,6 +1851,7 @@ function shotZeigen(neuesSegment){
   const grafik = GRAFIK.has(sh.typ) || sh.typ === "logo";
   const inhalt = el.querySelector(".pl-inhalt");
   if (inhalt) inhalt.hidden = (grafik && sh.typ !== "logo" && sh.typ !== "titel") || sh.typ === "wetter";
+  if (inhalt) inhalt.classList.toggle("gross", sh.typ === "logo" || sh.typ === "titel");
   bild.className = "pl-bild " + (sh.typ === "foto" ? "foto" : (sh.typ === "karte" || sh.typ === "wetter") ? "karte-hg" : "tafel-flaeche")
     + (sh.typ === "unklar" ? " gelb" : "") + (s.eil && s.typ === "thema" && sh.typ === "titel" ? " rot" : "");
   bild.classList.remove("wechsel"); void bild.offsetWidth; bild.classList.add("wechsel");
