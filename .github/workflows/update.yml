@@ -15,13 +15,17 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
       - name: web-push installieren (für Handy-Mitteilungen)
         run: npm install web-push --no-save --silent
@@ -40,6 +44,57 @@ jobs:
           VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
 
+      # ---- Sprecherstimme (Piper). Schlägt das fehl, laufen die Nachrichten trotzdem weiter. ----
+      - name: Stimme zwischenspeichern
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: .stimmen
+          key: piper-stimme-de-thorsten-medium-v1
+
+      - name: Bisherige Tonaufnahmen holen
+        continue-on-error: true
+        run: |
+          mkdir -p ton
+          if git fetch --depth=1 origin ton; then
+            git archive FETCH_HEAD | tar -x -C ton
+            echo "Vorhandene Aufnahmen: $(ls ton | wc -l)"
+          else
+            echo "Noch keine Tonaufnahmen vorhanden."
+          fi
+
+      - name: Sprecherstimme erzeugen
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          fi
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet piper-tts
+          python3 ton.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Ton veröffentlichen
+        continue-on-error: true
+        run: |
+          if [ -z "$(ls -A ton 2>/dev/null)" ]; then
+            echo "Kein Ton zum Veröffentlichen."
+            exit 0
+          fi
+          rm -rf /tmp/tonzweig
+          mkdir -p /tmp/tonzweig
+          cp ton/*.mp3 /tmp/tonzweig/
+          cd /tmp/tonzweig
+          git init -q -b ton
+          git config user.name "nachrichten-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Tonaufnahmen $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ton:ton
+          echo "Veröffentlicht: $(ls | wc -l) Aufnahmen"
+
       - name: Neue Ausgabe speichern
         run: |
           git config user.name "nachrichten-bot"
@@ -51,4 +106,3 @@ jobs:
             git commit -m "Nachrichten-Update $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
             git push
           fi
-          
