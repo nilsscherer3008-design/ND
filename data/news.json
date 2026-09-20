@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-20T16:46:32.668Z",
+ "stand": "2026-09-20T19:25:21.333Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -14,7 +14,8 @@
   "duma-wahl-russland-drohnenangriffe",
   "huthi-angriffe-saudi-arabien",
   "guterres-nachfolge-bachelet",
-  "us-medienbann-weisses-haus"
+  "us-medienbann-weisses-haus",
+  "porsche-stellenabbau"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -33,10 +34,11 @@
   "duma-wahl-russland-drohnenangriffe",
   "huthi-angriffe-saudi-arabien",
   "guterres-nachfolge-bachelet",
-  "us-medienbann-weisses-haus"
+  "us-medienbann-weisses-haus",
+  "porsche-stellenabbau"
  ],
  "wetter": {
-  "stand": "2026-09-20T16:46:32.668Z",
+  "stand": "2026-09-20T19:25:21.333Z",
   "morgenTag": "Montag",
   "orte": [
    {
@@ -100,7 +102,7 @@
     "morgen": {
      "code": 3,
      "max": 19,
-     "min": 12
+     "min": 13
     }
    },
    {
@@ -275,88 +277,70 @@
   {
    "id": "wahlen-berlin-mecklenburg-vorpommern",
    "rubrik": "Deutschland",
-   "zeit": "2026-09-20T16:44:56.000Z",
-   "aktualisiert": "aktualisiert um 18:46 Uhr",
-   "titel": "Wahlen zum Berliner Abgeordnetenhaus und zum Landtag in Mecklenburg-Vorpommern",
-   "vorspann": "In Berlin und Mecklenburg-Vorpommern fanden Wahlen zu den jeweiligen Landesparlamenten statt. Erste Hochrechnungen zeigen deutliche Veränderungen bei den Stimmanteilen der Parteien.",
+   "zeit": "2026-09-20T19:22:55.000Z",
+   "aktualisiert": "aktualisiert um 21:25 Uhr",
+   "titel": "Landtagswahl in Mecklenburg-Vorpommern und Abgeordnetenhauswahl in Berlin",
+   "vorspann": "In Mecklenburg-Vorpommern und Berlin haben Wahlen zu den Landesparlamenten stattgefunden. Laut aktuellen Berichten und Hochrechnungen gibt es in beiden Bundesländern Veränderungen bei den Stimmanteilen der Parteien.",
    "eil": false,
    "zusammenfassung": [
-    "In Mecklenburg-Vorpommern und Berlin haben die Bürgerinnen und Bürger neue Landesparlamente gewählt.",
-    "In Mecklenburg-Vorpommern liegt die AfD laut Hochrechnungen knapp vor der SPD, während die CDU starke Verluste verzeichnet.",
-    "In Berlin liegt Die Linke vor der CDU, während die SPD deutliche Verluste erleidet und die bisherige schwarz-rote Koalition ihre Mehrheit verliert.",
-    "Bundeskanzler Friedrich Merz kündigte an, trotz der schlechten CDU-Ergebnisse im Amt zu bleiben und den Reformkurs fortzusetzen."
+    "In Mecklenburg-Vorpommern und Berlin fanden Landtags- und Abgeordnetenhauswahlen statt.",
+    "In Berlin ist die Linke laut Berichten von Deutschlandfunk und Spiegel stärkste Kraft geworden.",
+    "In Mecklenburg-Vorpommern liegt die AfD laut Hochrechnungen vor der SPD.",
+    "CDU und BSW müssen laut aktuellen Zahlen in Mecklenburg-Vorpommern um den Einzug in das Parlament bangen."
    ],
    "einig": [
     [
-     "Die AfD liegt in Mecklenburg-Vorpommern laut Hochrechnungen bei 37,1 Prozent.",
+     "Die AfD liegt bei der Landtagswahl in Mecklenburg-Vorpommern nach Hochrechnungen vorn.",
      [
       "Tagesschau/ARD",
-      "Zeit"
+      "Zeit",
+      "Süddeutsche Zeitung"
      ]
     ],
     [
-     "Die SPD erreicht in Mecklenburg-Vorpommern laut Hochrechnungen 35,6 Prozent.",
+     "Die Linke ist bei der Wahl in Berlin laut Medienberichten stärkste Kraft geworden.",
      [
-      "Tagesschau/ARD",
-      "Zeit"
-     ]
-    ],
-    [
-     "Die SPD kommt bei der Wahl in Berlin laut den Berichten auf 12 Prozent.",
-     [
-      "ZDFheute",
+      "Deutschlandfunk",
       "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Ob das BSW in Berlin und Mecklenburg-Vorpommern den Sprung in die Parlamente sicher schafft, ist laut Hochrechnungen mit genau 5 Prozent noch knapp.",
-    "Die genauen Prozentwerte für die AfD und Die Linke in Berlin unterscheiden sich leicht je nach Institut (Infratest dimap für ARD im Vergleich zur Forschungsgruppe Wahlen beim ZDF)."
+    "Ob CDU und BSW die Fünf-Prozent-Hürde in Mecklenburg-Vorpommern übertreffen, da Hochrechnungen nahe an dieser Marke liegen und Briefwahlstimmen laut Tagesschau/ARD noch nicht vollständig eingerechnet sind."
    ],
    "positionen": [
     [
-     "Leif-Erik Holm (AfD-Spitzenkandidat Mecklenburg-Vorpommern)",
-     "Sieht den Regierungsauftrag bei der AfD und will alle Parteien zu Gesprächen einladen.",
+     "Tim Klüssendorf (SPD-Generalsekretär)",
+     "Das Ergebnis der AfD sei erschreckend und die Bundespolitik müsse Lehren aus den Wahlergebnissen ziehen.",
      "Tagesschau/ARD"
     ],
     [
-     "Manuela Schwesig (SPD-Spitzenkandidatin Mecklenburg-Vorpommern)",
-     "Bewertet das Abschneiden als erfolgreiche Aufholjagd und schwere Teamleistung.",
+     "Gordon Schnieder (CDU, rheinland-pfälzischer Ministerpräsident)",
+     "Die Wahlergebnisse seien schmerzhaft und extremistischer Kräfte treiben die Gesellschaft auseinander.",
      "Tagesschau/ARD"
     ],
     [
-     "Friedrich Merz (CDU-Bundesvorsitzender und Bundeskanzler)",
-     "Will trotz der Wahlniederlagen im Amt bleiben und den Reformkurs fortsetzen; bewertet das Berliner Ergebnis für Stefan Evers als ordentlich.",
-     "Tagesschau/ARD,ZDFheute"
+     "Alexander Schweitzer (SPD-Bundesvize)",
+     "Das starke Abschneiden der AfD sei verheerend und müsse demokratische Parteien aufrütteln.",
+     "Tagesschau/ARD"
     ],
     [
-     "Elif Eralp (Linke-Spitzenkandidatin Berlin)",
-     "Freut sich über das Wahlergebnis und will Berlin gemeinsam verändern und zu einem besseren Ort machen.",
-     "ZDFheute"
+     "Alice Weidel (AfD-Vorsitzende)",
+     "Das Wahlergebnis sei ein sehr starkes Wählermandat und ein klarer Regierungsauftrag.",
+     "Tagesschau/ARD"
     ]
    ],
-   "fehlend": "Detaillierte Stimmen von kleineren Parteien außer den im Text genannten oder Aussagen von Wählerinnen und Wählern.",
+   "fehlend": "Genaue und endgültige Prozentzahlen nach vollständiger Auszählung aller Stimmen liegen noch nicht vor.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "20.09.26, 18:44",
-     "fokus": "Schwerpunkt Mecklenburg-Vorpommern und Reaktionen",
-     "text": "Der Bericht beleuchtet ausführlich das Kopf-an-Kopf-Rennen in Mecklenburg-Vorpommern, die Reaktionen von Schwesig und Holm sowie die Lage der Bundes-CDU und von Kanzler Merz.",
-     "url": "https://www.tagesschau.de/inland/landtagswahlen/mecklenburg-vorpommern/mecklenburg-vorpommern-landtagswahl-ergebnis-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 18:38",
-     "fokus": "Schwerpunkt Berlin und Hochrechnungen",
-     "text": "Der Bericht konzentriert sich auf die Abgeordnetenwahl in Berlin, die Spitzenkandidaten Elif Eralp und Stefan Evers sowie die Hintergründe zum Rücktritt des früheren Regierenden Bürgermeisters Kai Wegner.",
-     "url": "https://www.zdfheute.de/politik/deutschland/wahl-berlin-wahlergebnisse-cdu-die-linke-evers-eralp-100.html",
+     "datum": "20.09.26, 21:22",
+     "fokus": "Hochrechnungen und Reaktionen",
+     "text": "Liefert umfangreiche Daten zu den Hochrechnungen und Zitate von Politikern.",
+     "url": "https://www.tagesschau.de/newsticker/liveblog-landtagswahl-mecklenburg-vorpommern-100.html",
      "video": false
     },
     {
@@ -364,10 +348,10 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "20.09.26, 18:40",
-     "fokus": "–",
-     "text": "",
-     "url": "https://www.deutschlandfunk.de/ard-hochrechnung-fuer-berlin-linke-24-8-cdu-20-0-afd-15-7-gruene-15-0-spd-12-0-bsw-5-100.html",
+     "datum": "20.09.26, 21:15",
+     "fokus": "Berlin-Wahl",
+     "text": "Berichtet über den Wahlausgang in Berlin.",
+     "url": "https://www.deutschlandfunk.de/abgeordnetenhauswahl-in-berlin-linke-deutlich-vor-der-cdu-100.html",
      "video": false
     },
     {
@@ -375,10 +359,10 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "20.09.26, 18:41",
-     "fokus": "Zahlenvergleich der Institute für Berlin",
-     "text": "Das Nachrichtenmagazin vergleicht die unterschiedlichen Hochrechnungswerte von Infratest dimap für die ARD und der Forschungsgruppe Wahlen für das ZDF und ordnet die historische Entwicklung ein.",
-     "url": "https://www.spiegel.de/politik/deutschland/wahlen-in-berlin-linke-siegt-mit-elif-eralp-laut-ersten-hochrechnungen-a-6411c25b-0b4d-4f52-8d96-2f0bb21185e4#ref=rss",
+     "datum": "20.09.26, 20:27",
+     "fokus": "Berlin-Wahl",
+     "text": "Berichtet über den Wahlsieg der Linken in Berlin.",
+     "url": "https://www.spiegel.de/politik/deutschland/berlin-wahl-linke-ueberholt-cdu-und-sorgt-fuer-politische-sensation-a-ffe054c8-7072-4686-97fb-f54c4a3d7ba0#ref=rss",
      "video": false
     },
     {
@@ -386,75 +370,40 @@
      "typ": "Wochenzeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "20.09.26, 18:44",
-     "fokus": "–",
-     "text": "Laut erster Hochrechnung liegt die AfD mit 37,1 Prozent vor der SPD mit 35,6 Prozent. CDU und Grüne liegen um fünf Prozent und müssen zittern. Das Liveblog",
+     "datum": "20.09.26, 21:13",
+     "fokus": "Mecklenburg-Vorpommern",
+     "text": "Fokussiert auf die Hochrechnungen zur AfD und CDU.",
      "url": "https://www.zeit.de/politik/deutschland/2026-09/mecklenburg-vorpommern-landtagswahl-liveblog",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 19:36",
+     "fokus": "Wahlen",
+     "text": "Berichtet im Newsblog über die Entwicklungen der Wahlen.",
+     "url": "https://www.sueddeutsche.de/politik/landtagswahl-mecklenburg-vorpommern-2026-aktuelle-hochrechnung-afd-spd-cdu-li.3550920",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Zahlenangaben Berlin",
-     "Der Spiegel und ZDFheute nennen teils leicht abweichende Prozentwerte für Parteien in Berlin (z. B. AfD mit 15,7 Prozent bei Infratest dimap im Vergleich zu 13,8 Prozent bei der Forschungsgruppe Wahlen)."
+     "Fokus der Berichterstattung",
+     "Einige Medien wie Deutschlandfunk und Spiegel berichten über Berlin, während Tagesschau, Zeit und Süddeutsche Zeitung ihren Schwerpunkt auf Mecklenburg-Vorpommern legen."
     ]
    ],
    "wfragen": {
-    "wer": "Wählerinnen und Wähler sowie die Parteien in Berlin und Mecklenburg-Vorpommern",
-    "was": "Wahlen zum Abgeordnetenhaus in Berlin und zum Landtag in Mecklenburg-Vorpommern",
-    "wann": "2026-09-20",
+    "wer": "Wählerinnen und Wähler sowie Parteien in Berlin und Mecklenburg-Vorpommern",
+    "was": "Wahlen zum Abgeordnetenhaus und zum Landtag",
+    "wann": "Zum Zeitpunkt der Berichterstattung aktuell",
     "wo": "Berlin und Mecklenburg-Vorpommern, Deutschland",
-    "wie": "Durch Stimmabgabe in Wahllokalen im Rahmen von Landtags- und Abgeordnetenhauswahlen",
-    "warum": "Reguläre Wahltermine sowie gerichtliche Wiederholungswahlen laut Berichten",
-    "quellenlage": "Öffentlich-rechtliche Sender, Nachrichtenmagazin, Tageszeitungen und Wahlstudios"
+    "wie": "Durch Stimmabgabe in Wahllokalen und Briefwahl",
+    "warum": "Reguläre Parlamentswahlen in den Bundesländern",
+    "quellenlage": "Hochrechnungen, Angaben von Landeswahlleitern, Parteien und Medienberichten"
    },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Am 20. September 2026 fanden in Berlin und Mecklenburg-Vorpommern Wahlen statt. In Mecklenburg-Vorpommern wurde ein neuer Landtag gewählt. Laut den ersten Hochrechnungen gibt es dort ein enges Rennen an der Spitze. Die AfD liegt demnach knapp vor der bisher regierenden SPD. Die CDU verzeichnet starke Verluste und muss um den Einzug in das Parlament bangen. Die Stimmabgabe in den Wahllokalen endete am Abend um 18 Uhr.",
-      "Parallel dazu wurde in Berlin das Abgeordnetenhaus gewählt. Laut Hochrechnungen der Forschungsgruppe Wahlen und von Infratest dimap für die ARD liegt dort Die Linke deutlich vorn. Die CDU belegt den zweiten Platz. Die SPD verzeichnet auch in Berlin deutliche Verluste. Die Wahl in Berlin war eine vom Gericht angeordnete Wiederholungswahl wegen zahlreicher Pannen aus dem Jahr 2021. Die Zahl der Wahlberechtigten in Berlin war unter anderem gestiegen, weil erstmals auch 16- und 17-Jährige wählen durften.",
-      "In Mecklenburg-Vorpommern erzielte die AfD ihr bislang bestes Ergebnis bei einer Landtagswahl. Die Partei konnte ihr Ergebnis im Vergleich zum Jahr 2021 mehr als verdoppeln. Die SPD verlor im Vergleich zur vorherigen Wahl an Zustimmung, liegt aber nach den Hochrechnungen auf dem zweiten Platz. Die CDU stürzte in Mecklenburg-Vorpommern auf ein einstellelliges Ergebnis ab. Die Linke und die Grünen büßten ebenfalls Stimmen ein, wobei Letztere laut Hochrechnung den Einzug in den Landtag schaffen könnten."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "In Mecklenburg-Vorpommern sieht die ARD-Hochrechnung die AfD bei 37,1 Prozent der Stimmen. Die SPD erreicht demnach 35,6 Prozent und verliert damit nach 28 Jahren den Status als stärkste Kraft im Land. Die CDU kommt laut ARD auf 5,4 Prozent und bewegt sich damit nahe an der Fünf-Prozent-Hürde. Die Linke erzielt 7,4 Prozent, die Grünen erreichen 5,5 Prozent und die FDP scheitert mit 1,1 Prozent klar am Einzug. Das BSW liegt laut der Hochrechnung bei genau 5,0 Prozent und hofft auf den Einzug in den Landtag in Schwerin. Für eine absolute Mehrheit im Landtag mit mindestens 71 vergebenen Sitzen wird eine Mehrheit der Stimmen der eingezogenen Parteien benötigt.",
-      "Für Berlin zeigen die Hochrechnungen unterschiedliche genaue Prozentwerte je nach Institut. Laut ZDF (Forschungsgruppe Wahlen) kommt Die Linke mit Spitzenkandidatin Elif Eralp auf 25,8 Prozent, während Infratest dimap für die ARD einen Wert von 24,8 Prozent nennt. Die CDU mit Spitzenkandidat Stefan Evers erreicht in beiden Erhebungen 20 Prozent. Die Grünen liegen laut ZDF bei 15,4 Prozent, gefolgt von der AfD mit 13,8 Prozent (Infratest dimap nennt für die AfD 15,7 Prozent). Die SPD mit Spitzenkandidat Steffen Krach kommt einheitlich auf 12 Prozent. Das BSW erreicht in Berlin ebenfalls rund 5 Prozent und muss um den Einzug in das Abgeordnetenhaus bangen.",
-      "In Berlin sind im Abgeordnetenhaus insgesamt 130 Sitze zu vergeben, wofür eine Mehrheit von 66 Sitzen für eine Regierung nötig ist. Das bisherige Regierungsbündnis aus CDU und SPD unter dem Regierenden Bürgermeister verliert seine Mehrheit deutlich und kommt zusammen nur auf 45 Sitze. Die CDU-Führung äußerte sich zu den Ergebnissen. Bundeskanzler Friedrich Merz bezeichnete das Ergebnis für Stefan Evers in Berlin als ordentliches Resultat unter schwierigen Bedingungen. In Berlin hatte zuvor im Juli der damalige Regierende Bürgermeister Kai Wegner auf eine erneute Kandidatur verzichtet, nachdem eine fehlerhafte Kommunikation nach einem Anschlag auf das Stromnetz im Januar die Partei in ein Umfragetief gestürzt hatte. Zudem sorgten vor der Wahl Ermittlungen der Staatsanwaltschaft Hannover gegen den Berliner SPD-Spitzenkandidaten Steffen Krach wegen des Anfangsverdachts der Vorteilsannahme in zwei Fällen für Aufregung; der Politiker wies die Vorwürfe zurück."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Wahlen in Mecklenburg-Vorpommern und Berlin fanden parallel statt. In Mecklenburg-Vorpommern regierte zuletzt eine SPD-geführte Regierung unter Ministerpräsidentin Manuela Schwesig, zuletzt in einer Koalition mit der Linken. Schwesig setzte im Wahlkampf auf ihren Amtsbonus und ging dabei auf Distanz zur Bundes-SPD und zum Kurs der Bundesregierung. Zu den Themen zählten unter anderem Rentenreformpläne und hohe Spritpreise, woraufhin die Bundesregierung kurz vor der Wahl Entlastungen wie Tankrabatt und Spritpreisdeckel auf den Weg brachte. Die AfD trat im Wahlkampf weitgehend gemäßigt auf und profitierte laut Analysen von einer massiven Unzufriedenheit mit der Bundesregierung.",
-      "In Berlin war die Wahl eine Wiederholung der Abgeordnetenhauswahl von 2023, die wegen zahlreicher organisatorischer Pannen vom Gericht angeordnet worden war. Bei jener Wahl im Jahr 2023 hatte die CDU unter Kai Wegner gesiegt und anschließend eine schwarz-rote Koalition gebildet, obwohl auch eine rot-grün-roten Mehrheit im Raum gestanden hätte. Der frühere Regierende Bürgermeister Kai Wegner trat im Sommer 2026 nicht wieder an."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Bei Landtagswahlen und Abgeordnetenhauswahlen in Deutschland bestimmen die Bürgerinnen und Bürger die Zusammensetzung der Landesparlamente. Diese Parlamente wählen in der Regel den Ministerpräsidenten oder den Regierenden Bürgermeister und beschließen Landesgesetze. Parteien müssen in der Regel mindestens fünf Prozent der gültigen Stimmen erhalten, um in das Parlament einzuziehen (Fünf-Prozent-Hürde). Gelingt dies nicht, bleiben sie bei der Verteilung der Sitze unberücksichtigt.",
-      "Hochrechnungen sind statistische Berechnungen am Wahlabend. Sie basieren auf den ersten ausgezählten Stimmen in ausgewählten Stimmbezirken und gleichen diese mit historischen Wahldaten ab. Sie dienen dazu, das voraussichtliche Endergebnis vor der offiziellen Auszählung abzuschätzen."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "In Mecklenburg-Vorpommern äußerte sich die SPD-Spitzenkandidatin Manuela Schwesig erfreut über das Abschneiden und sprach vor Anhängern von einer schwierigen Landtagswahl und einer großen Teamleistung, wie die Tagesschau/ARD berichtet. Der AfD-Spitzenkandidat und Ministerpräsidentenkandidat Leif-Erik Holm erklärte vor Anhängern in Schwerin laut Tagesschau/ARD, man sehe den Regierungsauftrag bei der AfD und werde alle Parteien zu Gesprächen einladen.",
-      "Bundeskanzler und CDU-Chef Friedrich Merz trat nach den Wahlen vor die Presse und erklärte laut Tagesschau/ARD sowie ZDFheute, dass er ungeachtet der schlechten Ergebnisse der CDU in Berlin und Mecklenburg-Vorpommern im Amt bleiben und den eingeschlagenen Reformkurs als Parteivorsitzender fortsetzen wolle. Er betonte, das Land voranbringen zu wollen.",
-      "In Berlin feierte die Spitzenkandidatin der Linken, Elif Eralp, das Abschneiden ihrer Partei auf einer Wahlparty mit frenetischem Applaus. Sie erklärte laut ZDFheute, man wolle Berlin gemeinsam verändern und zu einem besseren Ort machen. Der Berliner CDU-Spitzenkandidat Stefan Evers erhielt laut ZDFheute Rückendeckung von Bundeskanzler Friedrich Merz, der von einem ordentlichen Ergebnis sprach."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Nach den Hochrechnungen stehen die Parteien vor schwierigen Koalitionsverhandlungen. In Mecklenburg-Vorpommern hat die AfD eine Alleinregierung verfehlt, da sie für eine absolute Mehrheit auf Koalitionspartner oder eine Duldung angewiesen wäre, eine Zusammenarbeit von den anderen Parteien jedoch offiziell ausgeschlossen wurde. Denkbar sind laut Tagesschau/ARD verschiedene Konstellationen wie eine Fortsetzung einer Regierungsbildung unter Einbindung der Grünen oder Minderheitsregierungen.",
-      "In Berlin stehen nach den vorläufigen Zahlen ebenfalls schwierige Regierungsbildungen bevor, da keine der beiden großen Parteien an der Spitze eine klare absolute Mehrheit hat. Laut ZDFheute kommen aufgrund der Haltung der CDU gegenüber der Linkspartei und dem Ausschluss der AfD vor allem Dreierbündnisse in Betracht, wobei die Frage im Raum steht, welche Partei SPD und Grüne von einer Koalition überzeugen kann."
-     ]
-    }
-   ],
+   "artikel": [],
    "zeitleiste": [
     [
      "2026-09-10",
@@ -471,151 +420,133 @@
     [
      "Sonntag, 18 Uhr",
      "Geplantes Ende der Stimmabgabe in den Wahllokalen"
+    ],
+    [
+     "Aktuell",
+     "Schließung der Wahllokale und Veröffentlichung erster Hochrechnungen für Berlin und Mecklenburg-Vorpommern"
     ]
    ],
    "bilder": [
     {
-     "art": "person",
-     "suchbegriff": "Manuela Schwesig politician",
-     "bildunterschrift": "Manuela Schwesig, Ministerpräsidentin von Mecklenburg-Vorpommern, war Spitzenkandidatin der SPD bei der Landtagswahl."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Friedrich Merz politician",
-     "bildunterschrift": "Bundeskanzler Friedrich Merz kündigte an, trotz der Wahlergebnisse im Amt zu bleiben."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Schwerin Castle Mecklenburg Western Pomerania",
-     "bildunterschrift": "Schwerin ist der Tagungsort des Landtages von Mecklenburg-Vorpommern."
-    },
-    {
      "art": "institution",
-     "suchbegriff": "Abgeordnetenhaus of Berlin building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin ist das Parlament des Landes Berlin."
+     "suchbegriff": "Schwerin Castle MecklenburgVorpommern",
+     "bildunterschrift": "Das Schloss Schwerin, Sitz des Landtages von Mecklenburg-Vorpommern."
+    },
+    {
+     "art": "building",
+     "suchbegriff": "Abgeordnetenhaus von Berlin building",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin, der Tagungsort des Berliner Parlaments."
     }
    ],
+   "ort": {
+    "name": "Schwerin und Berlin, Deutschland"
+   },
    "geprueft": true,
    "korrekturen": [
-    "Entfernung von wertenden Ausdrücken wie 'krachend' aus dem ursprünglichen Entwurf, Anpassung von Formulierungen im Artikel an die reinen Fakten der Quellen."
+    "Unbelegte Details aus dem Entwurf wurden entfernt und durch Angaben aus den Originalquellen ersetzt."
    ],
-   "wortwarnung": [
-    "massiven"
-   ],
+   "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
       "Hochrechnung",
-      "Eine Hochrechnung ist eine wissenschaftliche Vorhersage am Wahlabend. Sie berechnet das voraussichtliche Endergebnis anhand von bereits ausgezählten Stimmzetteln."
+      "Eine wissenschaftliche Vorberechnung des Wahlergebnisses auf Basis bereits ausgezählter Stimmen, bevor das amtliche Endergebnis feststeht."
      ],
      [
-      "Koalition",
-      "Eine Koalition ist ein Bündnis aus mehreren Parteien, die zusammen eine Regierung bilden, weil keine Partei allein die absolute Mehrheit hat."
-     ],
-     [
-      "Fünf-Prozent-Hürde",
-      "Diese Regel besagt, dass eine Partei in der Regel mindestens fünf Prozent der Stimmen braucht, um in ein Parlament einzuziehen."
+      "Landtag",
+      "Das Parlament eines deutschen Bundeslandes, das Gesetze beschließt und die Landesregierung kontrolliert."
      ]
     ],
     "fragen": [
-     "Welche Rolle spielen Hochrechnungen am Wahlabend für die Medien und die Öffentlichkeit?",
-     "Warum können Wahlen in Bundesländern auch Auswirkungen auf die Bundespolitik haben?"
+     "Welche Rolle spielen Hochrechnungen am Wahlabend und warum können sich Werte noch verändern?",
+     "Warum ist es für Parteien wichtig, die Fünf-Prozent-Hürde zu überschreiten?"
     ],
     "quiz": [
      {
-      "frage": "Welche Partei liegt in Mecklenburg-Vorpommern laut der ARD-Hochrechnung auf dem ersten Platz?",
+      "frage": "Welche Partei liegt laut Hochrechnungen der Tagesschau in Mecklenburg-Vorpommern vorn?",
       "optionen": [
-       "Christlich Demokratische Union",
-       "Alternative für Deutschland",
-       "Sozialdemokratische Partei Deutschlands"
+       "CDU",
+       "AfD",
+       "SPD"
       ],
       "richtig": 1,
-      "erklaerung": "Die ARD-Hochrechnung sieht die AfD mit 37,1 Prozent knapp vor der SPD."
+      "erklaerung": "Die Tagesschau berichtet, dass die AfD mit siebenunddreißig Komma neun Prozent auf dem ersten Platz liegt."
      },
      {
-      "frage": "Wie viel Prozent der Stimmen erreicht die SPD bei der Wahl in Berlin laut den Berichten?",
+      "frage": "Welche Partei wurde in Berlin laut Deutschlandfunk und Spiegel stärkste Kraft?",
       "optionen": [
-       "12 Prozent",
-       "15,4 Prozent",
-       "20 Prozent"
+       "Die Linke",
+       "SPD",
+       "Grüne"
       ],
       "richtig": 0,
-      "erklaerung": "ZDFheute und der Spiegel berichten übereinstimmend, dass die SPD in Berlin auf 12 Prozent kommt."
+      "erklaerung": "Deutschlandfunk und Spiegel berichten übereinstimmend, dass die Linke in Berlin klar stärkste Kraft geworden ist."
      },
      {
-      "frage": "Wer kündigte an, trotz der schlechten Wahlergebnisse der CDU im Amt bleiben zu wollen?",
+      "frage": "Wer teilte laut Tagesschau mit, dass der Großteil der Stimmen in Mecklenburg-Vorpommern bereits ausgezählt ist?",
       "optionen": [
-       "Manuela Schwesig",
-       "Kai Wegner",
-       "Friedrich Merz"
+       "Der Bundeskanzler",
+       "Der Landeswahlleiter Christian Boden",
+       "Die AfD-Vorsitzende Alice Weidel"
       ],
-      "richtig": 2,
-      "erklaerung": "Bundeskanzler Friedrich Merz erklärte vor der Presse, dass er im Amt bleiben und den Reformkurs fortsetzen möchte."
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau erklärte der Landeswahlleiter Christian Boden, dass der Großteil der Stimmen bereits ausgezählt ist."
      }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In zwei deutschen Bundesländern wurde gewählt. Die Menschen bestimmten neue Parlamente.",
-    "absaetze": [
-     "In Mecklenburg-Vorpommern gab es eine Landtagswahl. Die Partei Alternative für Deutschland liegt dort nach Hochrechnungen knapp vor der Sozialdemokratischen Partei Deutschlands. Die Christlich Demokratische Union verlor viele Stimmen. Bundeskanzler Friedrich Merz sagte nach der Wahl, dass er im Amt bleiben will.",
-     "In Berlin wurde das Abgeordnetenhaus gewählt. Das ist das Parlament der Hauptstadt. Die Partei Die Linke liegt dort nach Hochrechnungen auf dem ersten Platz vor der Christlich Demokratischen Union. Die bisherige Regierung aus Christlich Demokratischer Union und Sozialdemokratischer Partei Deutschlands hat keine Mehrheit mehr im Parlament. Für eine neue Regierung müssen Parteien nun Gespräche führen."
     ]
    },
    "video": {
     "kurz": [
-     "In Berlin und Mecklenburg-Vorpommern haben die Menschen neue Parlamente gewählt.",
-     "In Mecklenburg-Vorpommern liegt die Alternative für Deutschland laut Hochrechnungen knapp vor der Sozialdemokratischen Partei Deutschlands.",
-     "In Berlin liegt die Partei Die Linke nach ersten Daten vor der Christlich Demokratischen Union."
+     "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger neue Parlamente gewählt.",
+     "In Berlin ist die Linke laut Medienberichten stärkste Kraft geworden.",
+     "In Mecklenburg-Vorpommern liegt die AfD in den Hochrechnungen vor der SPD.",
+     "CDU und BSW müssen um den Einzug in den Landtag bangen."
     ],
     "lang": [
-     "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger am zwanzigsten September neue Parlamente gewählt.",
-     "In Mecklenburg-Vorpommern liegen die Alternative für Deutschland und die Sozialdemokratische Partei Deutschlands nach ersten Hochrechnungen sehr nah beieinander.",
-     "Die Alternative für Deutschland kommt demnach auf siebenunddreißig Komma eins Prozent der Stimmen.",
-     "Die Sozialdemokratische Partei Deutschlands erreicht nach Angaben der Berichte fünfunddreißig Komma sechs Prozent.",
-     "In Berlin liegt die Partei Die Linke laut Hochrechnungen der Forschungsgruppe Wahlen mit fünfundzwanzig Komma acht Prozent auf dem ersten Platz.",
-     "Die Christlich Demokratische Union kommt in Berlin auf zwanzig Prozent.",
-     "Bundeskanzler Friedrich Merz erklärte vor der Presse, dass er trotz der schlechten Ergebnisse der Christlich Demokratischen Union im Amt bleiben möchte.",
-     "Die Regierungen in beiden Bundesländern müssen sich nach den Wahlen neu bilden, weil bisherige Mehrheiten fehlen oder Koalitionen keine Mehrheit mehr haben."
+     "In Berlin und Mecklenburg-Vorpommern haben die Menschen neue Parlamente gewählt.",
+     "In Berlin wurde das Abgeordnetenhaus und in Mecklenburg-Vorpommern der Landtag bestimmt.",
+     "In Berlin ist die Linke nach Berichten von Deutschlandfunk und Spiegel stärkste Kraft geworden.",
+     "In Mecklenburg-Vorpommern liegt die AfD nach Hochrechnungen der Tagesschau mit siebenunddreißig Komma neun Prozent vorn.",
+     "Die SPD folgt demnach auf dem zweiten Platz mit fünfunddreißig Komma sieben Prozent.",
+     "Die CDU und das Bündnis Sahra Wagenknecht müssen laut den Zahlen um den Einzug in den Landtag bangen.",
+     "Nach Angaben des SPD-Generalsekretärs Tim Klüssendorf ist das Ergebnis der AfD erschreckend.",
+     "Die AfD-Vorsitzende Alice Weidel sprach von einem klaren Regierungsauftrag für ihre Partei.",
+     "Die offiziellen Endergebnisse stehen nach Angaben der Wahlleitung noch aus, weil Briefwahlstimmen noch ausgezählt werden."
     ],
     "einfach": [
-     "In zwei Bundesländern gab es am Sonntag Wahlen. Die Menschen wählten neue Parlamente. In Mecklenburg-Vorpommern liegt die Partei Alternative für Deutschland vorne. Dahinter folgt die Sozialdemokratische Partei Deutschlands. In Berlin liegt die Partei Die Linke auf dem ersten Platz. Die bisherige Regierung in Berlin hat keine Mehrheit mehr. Bundeskanzler Friedrich Merz will trotz der Verluste im Amt bleiben."
+     "In Berlin und Mecklenburg-Vorpommern wurde gewählt.",
+     "Die Bürgerinnen und Bürger haben neue Parlamente bestimmt.",
+     "In Berlin ist die Linke laut Berichten stärkste Kraft.",
+     "In Mecklenburg-Vorpommern liegt die AfD in Hochrechnungen vorn.",
+     "Einige Parteien müssen noch um ihren Einzug in den Landtag bangen."
     ]
    },
    "kurz": [
-    "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger neue Parlamente gewählt.",
-    "In Mecklenburg-Vorpommern liegt die AfD laut ersten Hochrechnungen knapp vor der SPD.",
-    "In Berlin liegt die Partei Die Linke nach ersten Hochrechnungen auf dem ersten Platz vor der CDU.",
-    "Bundeskanzler Friedrich Merz erklärte, trotz schlechter Wahlergebnisse im Amt bleiben zu wollen."
+    "In Berlin und Mecklenburg-Vorpommern fanden Wahlen statt.",
+    "Die Linke wurde in Berlin laut Berichten stärkste Kraft.",
+    "In Mecklenburg-Vorpommern führt die AfD in den Hochrechnungen.",
+    "CDU und BSW bangen um den Einzug in den Landtag in Schwerin."
    ],
    "fakten": [
     [
-     "AfD Mecklenburg-Vorpommern",
-     "37,1 Prozent"
+     "AfD in Mecklenburg-Vorpommern",
+     "37,9 Prozent"
     ],
     [
-     "SPD Mecklenburg-Vorpommern",
-     "35,6 Prozent"
+     "SPD in Mecklenburg-Vorpommern",
+     "35,7 Prozent"
     ],
     [
-     "CDU Mecklenburg-Vorpommern",
-     "5,4 Prozent"
+     "CDU in Mecklenburg-Vorpommern",
+     "5,0 Prozent"
     ],
     [
-     "Die Linke Berlin (Forschungsgruppe Wahlen)",
-     "25,8 Prozent"
-    ],
-    [
-     "CDU Berlin",
-     "20 Prozent"
-    ],
-    [
-     "SPD Berlin",
-     "12 Prozent"
+     "BSW in Mecklenburg-Vorpommern",
+     "4,9 Prozent"
     ]
    ],
    "dossier": {
-    "slug": "wahlen-berlin-mv-2026",
-    "titel": "Landtagswahl in Mecklenburg-Vorpommern und Abgeordnetenhauswahl in Berlin"
+    "slug": "wahlen-in-deutschland-2026",
+    "titel": "Wahlen in Mecklenburg-Vorpommern und Berlin"
    },
    "bildInfo": {
     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
@@ -678,54 +609,1902 @@
    "version": 5,
    "ton": [
     {
-     "k": "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger am zwanzig",
-     "d": "bff4e7972f.mp3",
-     "l": 55.22,
-     "s": [
-      0.25,
-      7.01,
-      15.74,
-      20.88,
-      27.15,
-      34.83,
-      39.21,
-      47.13
-     ]
-    },
-    {
      "k": "In Berlin und Mecklenburg-Vorpommern haben die Menschen neue Parlamente gewählt.",
-     "d": "f6c41d2c7c.mp3",
-     "l": 17.75,
+     "d": "906d34eb4c.mp3",
+     "l": 52.64,
      "s": [
       0.25,
-      4.79,
-      12.39
+      4.9,
+      10.18,
+      15.33,
+      22.62,
+      27.65,
+      33.94,
+      39.98,
+      45.73
      ]
     },
     {
-     "k": "In zwei Bundesländern gab es am Sonntag Wahlen. Die Menschen wählten neue Parlam",
-     "d": "78d841e1b4.mp3",
-     "l": 25.01,
+     "k": "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger neue Parla",
+     "d": "9ca773c1b5.mp3",
+     "l": 18.64,
+     "s": [
+      0.25,
+      5.66,
+      9.74,
+      14.49
+     ]
+    },
+    {
+     "k": "In Berlin und Mecklenburg-Vorpommern wurde gewählt. Die Bürgerinnen und Bürger h",
+     "d": "e6f9960e70.mp3",
+     "l": 20.03,
+     "s": [
+      0.25,
+      3.78,
+      7.68,
+      11.39,
+      16.07
+     ]
+    },
+    {
+     "k": "Ob CDU und BSW die Fünf-Prozent-Hürde in Mecklenburg-Vorpommern übertreffen, da ",
+     "d": "3151d778c8.mp3",
+     "l": 11.88,
      "s": [
       0.25
      ]
     },
     {
-     "k": "Ob das BSW in Berlin und Mecklenburg-Vorpommern den Sprung in die Parlamente sic",
-     "d": "529a31d670.mp3",
-     "l": 9.0,
+     "k": "Was bedeutet eigentlich Hochrechnung? Eine wissenschaftliche Vorberechnung des W",
+     "d": "d8f08fd82f.mp3",
+     "l": 10.9,
+     "s": [
+      0.25,
+      2.67
+     ]
+    }
+   ]
+  },
+  {
+   "id": "usa-daenemark-groenland-abkommen",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T19:15:57.000Z",
+   "aktualisiert": "aktualisiert um 21:25 Uhr",
+   "titel": "Einigung zwischen den USA, Dänemark und Grönland über Sicherheitsfragen",
+   "vorspann": "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein gemeinsames Abkommen zur Sicherheit der Arktisinsel verständigt. Die Unterzeichnung soll in der kommenden Woche am Rande der UN-Generalversammlung stattfinden.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die USA, Dänemark und Grönland haben sich auf ein neues Sicherheitsabkommen für die Arktis geeinigt.",
+    "Das Abkommen sieht nach Angaben von Regierungsvertretern eine Ausweitung der US-Militärpräsenz und Investitionsbeschränkungen für bestimmte Staaten vor.",
+    "Die offizielle Unterzeichnung ist für die kommende Woche am Rande der UN-Generalversammlung geplant.",
+    "Regierungsvertreter betonen, dass die Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands gewahrt bleiben."
+   ],
+   "einig": [
+    [
+     "Die USA, Dänemark und Grönland haben sich auf ein Abkommen verständigt.",
+     [
+      "Deutschlandfunk",
+      "FAZ",
+      "BBC",
+      "taz",
+      "SRF"
+     ]
+    ],
+    [
+     "Das Abkommen soll in der kommenden Woche am Rande der UN-Generalversammlung unterzeichnet werden.",
+     [
+      "FAZ",
+      "BBC",
+      "SRF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche konkreten Unterschiede das neue Abkommen im Detail zum Verteidigungsabkommen aus dem Jahr 1951 aufweist, ist laut FAZ und BBC noch unklar, da der offizielle Text nicht veröffentlicht wurde.",
+    "Ob das Abkommen den genauen Wünschen von US-Präsident Trump entspricht oder ob es sich lediglich um eine Fortschreibung bestehender Rechte handelt, wird in den Medien unterschiedlich bewertet."
+   ],
+   "positionen": [
+    [
+     "US-Präsident Donald Trump",
+     "Das Abkommen bringt dauerhafte Sicherheit und kostet die USA nichts.",
+     "Deutschlandfunk,BBC,taz,SRF"
+    ],
+    [
+     "Grönländischer Außenminister Mute B. Egede",
+     "Die Vereinbarung respektiert das Recht auf Selbstbestimmung und das Völkerrecht.",
+     "SRF"
+    ],
+    [
+     "Dänische Ministerpräsidentin Mette Frederiksen",
+     "Das Abkommen stärkt die gemeinsame Sicherheit in der Arktis und im Nordatlantik.",
+     "FAZ,BBC"
+    ]
+   ],
+   "fehlend": "Direkte Stellungnahmen von Regierungsvertretern aus Russland oder China zu den gegen sie gerichteten Investitionsverboten.",
+   "medien": [
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 21:15",
+     "fokus": "Militärpräsenz",
+     "text": "Berichtet kurz über die Einigung zur Ausweitung der US-Militärpräsenz.",
+     "url": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-ausweiten-102.html",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 16:53",
+     "fokus": "–",
+     "text": "Trump feiert seinen Grönland-Deal. China und Russland sollen es nun schwerer haben in der Arktis.",
+     "url": "https://www.faz.net/aktuell/politik/ausland/donald-trumps-groenland-deal-war-es-das-wert-fuer-die-nato-201244796.html",
+     "video": false
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "20.09.26, 01:00",
+     "fokus": "Hintergrund und Details",
+     "text": "Liefert ausführliche Informationen von ungenannten US-Quellen und Reaktionen aus Grönland.",
+     "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+     "video": false
+    },
+    {
+     "name": "taz",
+     "typ": "Tageszeitung (Genossenschaft)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "20.09.26, 15:34",
+     "fokus": "–",
+     "text": "Die USA und Grönland haben ein Abkommen zur Sicherheit der Insel getroffen, alle Seiten sind zufrieden.",
+     "url": "https://taz.de/Groenland-Abkommen/!6214715/",
+     "video": false
+    },
+    {
+     "name": "SRF",
+     "typ": "öffentlich-rechtlich (Schweiz)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "19.09.26, 17:58",
+     "fokus": "Schweizer Perspektive",
+     "text": "Beleuchtet die Einordnung aus Grönland und verweist auf das Abkommen von 1951.",
+     "url": "https://www.srf.ch/news/international/streit-um-groenland-zu-ende-grenzen-fuer-trump-im-ewigen-eis",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Bewertung des Erfolgs",
+     "Während US-Präsident Trump den Deal als großen eigenen Erfolg darstellt, betonen dänische und grönländische Stellen die Wahrung des Völkerrechts und der Souveränität."
+    ]
+   ],
+   "wfragen": {
+    "wer": "USA, Dänemark und Grönland",
+    "was": "Einigung auf ein gemeinsames Sicherheitsabkommen",
+    "wann": "kommende Woche",
+    "wo": "New York",
+    "wie": "Durch Verhandlungen zwischen den beteiligten Regierungen",
+    "warum": "Zur Stärkung der regionalen Sicherheit laut den beteiligten Regierungen",
+    "quellenlage": "Mitteilungen von Regierungsvertretern und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Abkommen",
+     "absaetze": [
+      "Die Regierungen der Vereinigten Staaten, Dänemarks und Grönlands haben sich nach Angaben aus den Berichten auf ein neues Abkommen verständigt. Laut den Mitteilungen soll die Vereinbarung in der kommenden Woche während der UN-Generalversammlung offiziell unterzeichnet werden. Das Abkommen betrifft die Arktisregion und die künftige Ausrichtung der dortigen Sicherheitsstrukturen. Bisher ist der genaue Wortlaut des Abkommens noch nicht öffentlich veröffentlicht worden. Die beteiligten Regierungen haben jedoch angekündigt, dass nach der Unterzeichnung die notwendigen parlamentarischen Verfahren zur Ratifizierung eingeleitet werden.",
+      "US-Präsident Donald Trump teilte mit, dass die USA ihre Militärpräsenz auf Grönland ausweiten wollen. Laut Angaben aus den Berichten beinhaltet das Abkommen eine dauerhafte militärische Präsenz der Vereinigten Staaten auf der Insel. Ein ungenannter Vertreter des US-Außenministeriums erklärte laut der BBC, dass die USA das Recht erhalten sollen, zusätzliche militärische Strukturen zu errichten. Dafür sei nach diesen Angaben keine erneute Zustimmung von Grönland oder Dänemark erforderlich. Zudem umfasse die Vereinbarung dauerhafte Zugangs-, Stützpunkt- und Überflugsrechte.",
+      "Nach Angaben der dänischen Regierung und der grönländischen Vertretung bleibt die Souveränität des Königreiches Dänemark durch das Abkommen unberührt. Auch das Recht der grönländischen Bevölkerung auf Selbstbestimmung werde anerkannt, so die Regierungen in Kopenhagen und Nuuk. Die dänische Ministerpräsidentin Mette Frederiksen betonte laut den Berichten, dass die Vereinbarung die gemeinsame Sicherheit in der Arktis und im Nordatlantik stärke. Der grönländische Minister Jens-Frederik Nielsen bezeichnete das Abkommen ebenfalls als positiv für die internationale Zusammenarbeit."
+     ]
+    },
+    {
+     "ueberschrift": "Wirtschaftliche Regelungen und Investitionen",
+     "absaetze": [
+      "Das Abkommen enthält laut den Berichten auch Bestimmungen zu wirtschaftlichen Aktivitäten und Investitionen auf der Insel. Ein ungenannter Vertreter des US-Außenministeriums erklärte gegenüber der BBC, dass Gegner der Vereinigten Staaten von einem Engagement auf Grönland ausgeschlossen werden sollen. Insbesondere wird in den Berichten auf Regeln verwiesen, die den Einfluss von Staaten wie Russland und China verhindern sollen. Demnach dürfen Gegner der USA keine militärische Präsenz in Grönland unterhalten. Auch sensible Investitionen in kritische Sektoren der Insel sind laut diesen Angaben ohne ausdrückliche Genehmigung der USA untersagt.",
+      "Nach Angaben der Tageszeitung taz betrifft das Abkommen auch den Abbau von Rohstoffen und Vorkommen an Seltenen Erden auf Grönland. In den Berichten wird erwähnt, dass Unternehmen wie Critical Metals Limited oder Firmen aus Texas ein Interesse an der Erschließung von Ressourcen auf der Insel haben. Das Schweizer Medium SRF berichtete zudem, dass Washington durch die Vereinbarung mehr Mitbestimmungsrechte bei der Erteilung von Bewilligungen für ausländische Investitionen erhalten soll. Dies betrifft laut diesen Informationen Lizenzen für den Abbau von Rohstoffen und den Bau kritischer Infrastruktur."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Reaktionen",
+     "absaetze": [
+      "Die Einigung folgt auf monatelange diplomatische Spannungen zwischen den beteiligten Parteien. US-Präsident Donald Trump hatte in den vergangenen Monaten erklärt, die Arktisinsel aufgrund von Sicherheitsbedenken erwerben oder kontrollieren zu wollen. Dies hatte in Grönland, Dänemark und bei anderen NATO-Mitgliedern zu Reaktionen und Protesten geführt. Die NATO-Führung begrüßte das nun erzielte Abkommen als Beitrag zur Stabilität und Sicherheit in der Region. Auch der französische Präsident Emmanuel Macron äußerte sich positiv und betonte, dass die dänische Souveränität über Grönland gewahrt bleibe.",
+      "In Grönland selbst fielen die Reaktionen nach den Berichten unterschiedlich aus. Während Regierungsvertreter die Wahrung des Selbstbestimmungsrechts hervorhoben, äußerten sich einige Politiker zurückhaltend. Die grönländische Parlamentsabgeordnete Naaja Nathanielsen bezeichnete das Abkommen laut der BBC als erfreuliche Nachricht, betonte jedoch die Wichtigkeit des Selbstbestimmungsrechts. Die ehemalige grönländische Politikerin Aaja Chemnitz erklärte demnach, sie blicke der endgültigen Unterzeichnung skeptisch entgegen. Die Tageszeitung FAZ analysierte, dass das Abkommen im Wesentlichen an bestehende Vereinbarungen anknüpfe und die USA ihre militärischen Optionen auf der Insel bereits nach dem Kalten Krieg angepasst hatten."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Januar 2026",
+     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits durch die USA, Dänemark und Grönland"
+    ],
+    [
+     "Januar 2026",
+     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte und Veröffentlichung einer Umfrage zur Unabhängigkeit Grönlands"
+    ],
+    [
+     "Januar 2026",
+     "Einrichtung einer hochrangigen Arbeitsgruppe zur Beilegung des Grönland-Konflikts"
+    ],
+    [
+     "18. September 2026",
+     "Verkündung einer Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
+    ],
+    [
+     "19. September 2026",
+     "Bekanntgabe weiterer Details und geplante Unterzeichnung des Abkommens in der kommenden Woche"
+    ],
+    [
+     "Januar 2026",
+     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits zwischen den USA, Dänemark und Grönland"
+    ],
+    [
+     "19. September 2026",
+     "Verkündung der Einigung und des geplanten Abkommens durch die Regierungen und US-Präsident Trump"
+    ],
+    [
+     "Januar 2026",
+     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte auf dem Weltwirtschaftsforum in Davos"
+    ],
+    [
+     "Januar 2026",
+     "Veröffentlichung einer Umfrage zur Ablehnung einer US-Zugehörigkeit in Grönland"
+    ],
+    [
+     "September 2026",
+     "Verkündung der Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
+    ],
+    [
+     "19. September 2026",
+     "Verkündung der Einigung auf ein gemeinsames Abkommen zwischen den USA, Dänemark und Grönland"
+    ],
+    [
+     "Kommende Woche",
+     "Geplante Unterzeichnung des Abkommens am Rande der UN-Generalversammlung"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "Nuuk Greenland cityscape",
+     "bildunterschrift": "Blick auf die grönländische Hauptstadt Nuuk, in der über die Sicherheitsfragen verhandelt wurde."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters New York",
+     "bildunterschrift": "Das Hauptquartier der Vereinten Nationen in New York, wo die Unterzeichnung des Abkommens stattfinden soll."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Arctic region globe map",
+     "bildunterschrift": "Eine Karte der Arktis verdeutlicht die geografische Lage und die strategische Bedeutung Grönlands."
+    }
+   ],
+   "geprueft": true,
+   "korrekturen": [
+    "Datum im Wfragen-Feld von Januar 2026 korrigiert, da in den Quellen kein exakter Tag genannt wird.",
+    "Namen von Jens-Frensh-Nielsen in Jens-Frederik Nielsen korrigiert laut BBC-Quelle."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Souveränität",
+      "Das Recht eines Staates, unabhängig und selbstbestimmt über seine eigenen Angelegenheiten zu entscheiden."
+     ],
+     [
+      "NATO",
+      "Ein Bündnis aus mehreren nordamerikanischen und europäischen Ländern, die sich gegenseitig bei der Verteidigung helfen."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen ungenannte Quellen in der Berichterstattung über internationale Abkommen?",
+     "Wie bewerten verschiedene Medien den Erfolg der beteiligten Regierungen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wann soll das Abkommen unterzeichnet werden?",
+      "optionen": [
+       "In der kommenden Woche am Rande der UN-Generalversammlung",
+       "Im nächsten Monat in Washington",
+       "Bereits in dieser Woche in Kopenhagen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die FAZ, die BBC und SRF berichten übereinstimmend, dass die Unterzeichnung kommende Woche am Rande der UN-Generalversammlung stattfinden soll."
+     },
+     {
+      "frage": "Welcher Staat weitet laut den Berichten seine Militärpräsenz aus?",
+      "optionen": [
+       "China",
+       "Die Vereinigten Staaten",
+       "Dänemark"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Deutschlandfunk und weiteren Quellen wollen die USA ihre Militärpräsenz auf Grönland ausweiten."
+     },
+     {
+      "frage": "Was besagt das Abkommen laut dänischen und grönländischen Regierungsangaben zur Souveränität?",
+      "optionen": [
+       "Die Souveränität Dänemarks wird nicht beeinträchtigt.",
+       "Grönland verliert seine Eigenständigkeit vollständig.",
+       "Die USA übernehmen die alleinige Verwaltung."
+      ],
+      "richtig": 0,
+      "erklaerung": "Deutschlandfunk und die BBC berichten, dass die Souveränität Grönlands beziehungsweise des Königreichs Dänemark laut den Regierungen gewahrt bleibt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Sicherheitsabkommen geeinigt.",
+    "absaetze": [
+     "Das Abkommen betrifft die Arktis. Die Unterzeichnung soll nächste Woche bei den Vereinten Nationen stattfinden.",
+     "Nach Angaben von Regierungsvertretern wird die US-Militärpräsenz auf Grönland ausgeweitet. Die Souveränität von Dänemark bleibt dabei bestehen.",
+     "Zudem enthält das Abkommen Regeln gegen den Einfluss anderer Staaten wie Russland und China.",
+     "Einige Politiker in Grönland blicken der Unterzeichnung noch skeptisch entgegen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen für die Arktis vereinbart. Das Abkommen sieht eine Ausweitung der US-Militärpräsenz vor. Die Unterzeichnung soll in der kommenden Woche stattfinden."
+    ],
+    "lang": [
+     "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Sicherheitsabkommen geeinigt.",
+     "Die offizielle Unterzeichnung findet in der kommenden Woche in New York statt.",
+     "Das Abkommen soll die Sicherheit in der Arktis stärken.",
+     "Nach Angaben von US-Präsident Donald Trump werden die USA ihre Militärpräsenz auf Grönland ausweiten.",
+     "Dänische und grönländische Regierungsvertreter betonen, dass die Souveränität und das Selbstbestimmungsrecht gewahrt bleiben.",
+     "Zudem verbietet die Vereinbarung bestimmten Staaten militärische Präsenz oder sensible Investitionen.",
+     "Über die genauen Details des Textes gibt es unterschiedliche Darstellungen.",
+     "Das Abkommen folgt auf monatelange diplomatische Spannungen.",
+     "Die genauen Unterschiede zu früheren Verträgen sind noch unklar.",
+     "Nach der Unterzeichnung müssen die nationalen Parlamente das Abkommen noch ratifizieren."
+    ],
+    "einfach": [
+     "Die USA, Dänemark und Grönland haben ein neues Abkommen geschlossen.",
+     "Es geht dabei um die Sicherheit in der Arktis.",
+     "Die USA wollen ihre Soldaten auf Grönland verstärken.",
+     "Dänemark behält dabei seine Rechte über die Insel.",
+     "Nächste Woche soll das Abkommen feierlich unterzeichnet werden."
+    ]
+   },
+   "kurz": [
+    "Die USA, Dänemark und Grönland haben ein Sicherheitsabkommen für die Arktis vereinbart.",
+    "Das Abkommen sieht eine Ausweitung der US-Militärpräsenz vor.",
+    "Die offizielle Unterzeichnung ist für die kommende Woche geplant."
+   ],
+   "dossier": {
+    "slug": "sicherheitsabkommen-groenland",
+    "titel": "Sicherheitsabkommen zwischen den USA, Dänemark und Grönland"
+   },
+   "bildInfo": {
+    "titel": "Iceberg in North Star Bay, Greenland.jpg",
+    "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+    "urheber": "Jeremy Harbeck",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "ort",
+    "suchbegriff": "Greenland landscape ice",
+    "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Iceberg in North Star Bay, Greenland.jpg",
+     "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+     "urheber": "Jeremy Harbeck",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "ort",
+     "suchbegriff": "Greenland landscape ice",
+     "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Mette Frederiksen in 2023 (cropped).jpg",
+     "beschreibung": "Ministra do Reino da Dinamarca, Mette Frederiksen . Edifício Europa, escritório da Dinamarca - Bruxelas - Bélgica. Foto: Ricardo Stuckert/PR",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mette_Frederiksen_in_2023_(cropped).jpg",
+     "urheber": "Palácio do Planalto",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Mette Frederiksen",
+     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen, die an der Einigung beteiligt war.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump, dessen Land an der Einigung im Streit um Grönland beteiligt ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Sicherhe",
+     "d": "b69640097b.mp3",
+     "l": 51.36,
+     "s": [
+      0.25,
+      6.36,
+      10.79,
+      14.34,
+      21.02,
+      28.12,
+      34.21,
+      38.42,
+      42.15,
+      46.08
+     ]
+    },
+    {
+     "k": "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen für die Arkti",
+     "d": "fd0bbe3c79.mp3",
+     "l": 12.78,
      "s": [
       0.25
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Hochrechnung? Eine Hochrechnung ist eine wissenschaftlic",
-     "d": "2691aa9917.mp3",
-     "l": 12.5,
+     "k": "Die USA, Dänemark und Grönland haben ein neues Abkommen geschlossen. Es geht dab",
+     "d": "e882d53e7b.mp3",
+     "l": 18.62,
      "s": [
       0.25,
-      2.83,
-      6.94
+      5.01,
+      7.92,
+      11.5,
+      14.86
+     ]
+    },
+    {
+     "k": "Welche konkreten Unterschiede das neue Abkommen im Detail zum Verteidigungsabkom",
+     "d": "c9897e1f56.mp3",
+     "l": 13.65,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Souveränität? Das Recht eines Staates, unabhängig und se",
+     "d": "98937cd9f8.mp3",
+     "l": 9.14,
+     "s": [
+      0.25,
+      3.07
+     ]
+    },
+    {
+     "k": "Die Regierungen der Vereinigten Staaten, Dänemarks und Grönlands haben sich nach",
+     "d": "95eb869872.mp3",
+     "l": 57.96,
+     "s": [
+      0.25,
+      8.03,
+      15.06,
+      21.05,
+      26.05,
+      34.57,
+      40.87,
+      48.09
+     ]
+    },
+    {
+     "k": "Das Abkommen enthält laut den Berichten auch Bestimmungen zu wirtschaftlichen Ak",
+     "d": "b6e98595dd.mp3",
+     "l": 63.09,
+     "s": [
+      0.25,
+      6.71,
+      16.68,
+      23.26,
+      28.67,
+      36.18,
+      44.06,
+      52.62
+     ]
+    },
+    {
+     "k": "Die Einigung folgt auf monatelange diplomatische Spannungen zwischen den beteili",
+     "d": "e18dd13a5f.mp3",
+     "l": 56.9,
+     "s": [
+      0.25,
+      5.5,
+      14.55,
+      20.69,
+      26.97,
+      34.99,
+      39.53,
+      46.28
+     ]
+    }
+   ]
+  },
+  {
+   "id": "duma-wahl-russland-drohnenangriffe",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T19:15:57.000Z",
+   "aktualisiert": "aktualisiert um 21:25 Uhr",
+   "titel": "Parlamentarische Wahlen in der Russischen Föderation",
+   "vorspann": "In der Russischen Föderation ist die dreitägige Wahl des Parlaments zu Ende gegangen. Laut Nachbefragungen zeichnet sich ein Sieg der Regierungspartei ab.",
+   "eil": false,
+   "zusammenfassung": [
+    "In Russland ist die dreitägige Wahl zur Staatsduma zu Ende gegangen.",
+    "Die Regierungspartei Geeintes Russland ging laut Nachbefragungen als Siegerin hervor.",
+    "Beobachter und Oppositionelle kritisierten Unregelmäßigkeiten bei der Stimmabgabe.",
+    "Die Wahl fand erstmals auch in besetzten ukrainischen Gebieten statt, was auf Protest stieß."
+   ],
+   "einig": [
+    [
+     "Die Partei Geeintes Russland geht als Siegerin aus der Parlamentswahl hervor.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die Wahlen wurden auch in den besetzten ukrainischen Gebieten abgehalten.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Das genaue Ausmaß von Wahlmanipulationen und die Täterschaft bei den Cyberangriffen auf das Wahlsystem bleiben ungeklärt."
+   ],
+   "positionen": [
+    [
+     "Ukrainische Führung",
+     "Die Wahl in den besetzten Gebieten findet unter Zwang statt und wird nicht anerkannt.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Ella Pamfilowa (Leiterin der Zentralen Wahlkommission)",
+     "Die Wahl verlief im Großen und Ganzen ordnungsgemäß.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Nikolai Rybakow (Jabloko-Vorsitzender)",
+     "Die Opposition wird von Wahlen ausgeschlossen, weshalb Stimmzettel ungültig gemacht werden sollten.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen unabhängiger internationaler Wahlbeobachter wie der Organisation für Sicherheit und Zusammenarbeit in Europa",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 17:09",
+     "fokus": "Hintergründe und Beobachterberichte",
+     "text": "Die Tagesschau beleuchtet Berichte von Wahlbeobachtern über Unregelmäßigkeiten und geht auf die wirtschaftliche Lage in Russland ein.",
+     "url": "https://www.tagesschau.de/ausland/europa/duma-wahl-russland-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 20:08",
+     "fokus": "Prognosen und Wahlergebnisse",
+     "text": "ZDFheute nennt konkrete Prozentzahlen der Parteien aus Nachbefragungen und berichtet über Drohnenangriffe auf Moskau.",
+     "url": "https://www.zdfheute.de/politik/ausland/parlamentswahl-putin-wahl-staatsduma-geeintes-russland-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 21:15",
+     "fokus": "–",
+     "text": "Die Partei Geeintes Russland von Kreml-Chef Putin ist nach der dreitägigen Parlamentswahl zur Siegerin erklärt worden.",
+     "url": "https://www.deutschlandfunk.de/partei-geeintes-russland-von-staatschef-putin-gewinnt-erwartungsgemaess-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 21:07",
+     "fokus": "Kritik an der Demokratie",
+     "text": "Der Spiegel betont den Mangel an Fairness bei den Wahlen und beschreibt die wirtschaftlichen Probleme.",
+     "url": "https://www.spiegel.de/ausland/russland-prognosen-sehen-kremlpartei-einiges-russland-als-sieger-bei-parlamentswahl-a-2b4a2913-ce72-4866-87ba-1141c614547f#ref=rss",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 21:13",
+     "fokus": "–",
+     "text": "Zusammentreffen nächste Woche in New York, Russland beklagt Cyberattacken auf Parlamentswahl, Ukraine greift Großraum Moskau am letzten Wahltag an.",
+     "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-kuendigt-treffen-mit-trump-an-faz-110683325.html",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Detaillierungsgrad der Prozentzahlen",
+     "ZDFheute und Spiegel nennen exakte Zahlen für alle Parteien aus Nachbefragungen, während andere Quellen sich auf die Regierungspartei konzentrieren."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Wahlberechtigte in Russland, Regierungspartei Geeintes Russland",
+    "was": "Wahl der Staatsduma",
+    "wann": "20. September 2026",
+    "wo": "Russland und besetzte ukrainische Gebiete",
+    "wie": "Durch dreitägige Stimmabgabe vor Ort und elektronisch",
+    "warum": "Reguläre parlamentarische Neuwahl",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In der Russischen Föderation ist eine dreitägige Parlamentswahl zu Ende gegangen. Nach dem Abschluss der Stimmabgabe wurden erste Ergebnisse und Nachbefragungen veröffentlicht. Laut Angaben von Agenturen und dem Meinungsforschungsinstitut Wziom liegt die Regierungspartei Geeintes Russland vorn. Die Partei kam demnach auf 49,4 Prozent der stimmen.",
+      "Die Wahl der Staatsduma umfasst insgesamt 450 Abgeordnete. Wahlberechtigt waren mehr als 110 Millionen Bürgerinnen und Bürger. Neben den Wahllokalen vor Ort stand auch ein elektronisches Abstimmungssystem zur Verfügung. Die Beteiligung lag nach amtlichen Angaben bei mehr als 56 Prozent.",
+      "Die Abstimmung fand unter dem Eindruck militärischer Auseinandersetzungen statt. Erstmals wurde das Parlament auch in den von Russland kontrollierten Teilen der ukrainischen Regionen Luhansk, Donezk, Saporischschja und Cherson gewählt. Dies geschah trotz des Protests der ukrainischen Führung."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut den Prognosen schafften neben der regierenden Partei Geeintes Russland vier weitere Parteien den Einzug in das Parlament. Die Kommunistische Partei erreichte 14,2 Prozent der Stimmen. Die ultranationalistische Partei LDPR erzielte 10,7 Prozent. Die Partei Nowyje Ljudi kam auf 9,7 Prozent und die Partei Gerechtes Russland auf 6,6 Prozent.",
+      "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten begleitet. Beobachter sowie Parteivertreter meldeten Manipulationsversuche. Unter anderem sei es zu Behinderungen von Beobachtern gekommen. In St. Petersburg stimmten Wahlprotokolle nach Berichten nicht mit der Zahl der Wähler überein.",
+      "Zudem gab es Berichte über das Einwerfen vorausgefüllter Wahlzettel in die Urnen. Wähler beklagten außerdem, ohne ihr Wissen für eine Online-Abstimmung registriert worden zu sein. Die Zentrale Wahlkommission meldete zudem massive Cyberangriffe auf die elektronische Wahlinfrastruktur in Moskau."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Parlamentswahl gilt laut Berichten als Bestätigung für den politischen Kurs von Präsident Wladimir Putin. Es war die erste Abstimmung seit Beginn des Krieges gegen die Ukraine im Februar 2022. Die regierende Partei Geeintes Russland war mit einer schwierigen wirtschaftlichen Lage konfrontiert.",
+      "Westliche Sanktionen führten zu einer hohen Inflation im Land. Zudem klagten Bürger über Treibstoffmangel an Tankstellen. Ursache dafür waren laut Berichten unter anderem ukrainische Drohnenangriffe auf Ölraffinerien. Die russische Hauptstadt Moskau erlebte nach Angaben der Behörden schwere Drohnenangriffe."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Staatsduma ist das Abgeordnetenhaus und bildet zusammen mit dem Föderationsrat das Parlament der Russischen Föderation. Sie beschließt Gesetze und entscheidet über den Haushalt."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die ukrainische Führung kritisierte die Stimmabgabe in den besetzten Gebieten scharf. Sie sprach von einer Wahl unter Zwang und will die Ergebnisse dort nicht anerkennen. Die Leiterin der Zentralen Wahlkommission, Ella Pamfilowa, erklärte hingegen, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen. Sie bestätigte Angriffe auf das elektronische System, betonte jedoch deren Abwehr.",
+      "Der Vorsitzende der Partei Jabloko, Nikolai Rybakow, kritisierte den Ausschluss von Kräften. Er machte seinen Stimmzettel demonstrativ ungültig. Jabloko-Beobachter wurden nach Angaben der Partei in mehreren Städten an der Arbeit gehindert.",
+      "Kritiker wie der Vertraute des verstorbenen Alexej Nawalny, Leonid Wolkow, äußerten Zweifel an der Integrität des elektronischen Wahlsystems. Sie vermuteten absichtlich herbeigeführte Störungen bei der Papierstimmzettel-Ausgabe."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Nach Schließung der Wahllokale erfolgt die vollständige Auszählung der Stimmen. Die Verkündung offizieller Endergebnisse wird durch die Wahlkommission vorbereitet. Die gewählten Abgeordneten nehmen anschließend ihre Arbeit in der neuen Staatsduma auf."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Freitag",
+     "Angriff auf ein Munitionslager im Gebiet Kiew."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland und Drohnenangriffe."
+    ],
+    [
+     "Freitag",
+     "Russischer Angriff auf ein Munitionslager im Gebiet Kiew."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland und ukrainische Drohnenangriffe auf die Region Moskau und Jaroslawl."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau, in das die neuen Abgeordneten gewählt werden."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Vladimir Putin official portrait",
+     "bildunterschrift": "Wladimir Putin, Präsident der Russischen Föderation."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Red Square Moscow",
+     "bildunterschrift": "Der Rote Platz in Moskau nahe den zentralen Regierungsgebäuden."
+    }
+   ],
+   "ort": {
+    "name": "Moskau, Russland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Unbelegte Details im Abschnitt Zum Verständnis entfernt.",
+    "Bezeichnungen in den W-Fragen korrigiert.",
+    "Formulierungen in den Positionen an die Quellentexte angepasst."
+   ],
+   "wortwarnung": [
+    "massive"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Staatsduma",
+      "Die Staatsduma ist das Abgeordnetenhaus und ein Teil des Parlaments in Russland."
+     ],
+     [
+      "Wahlbeobachter",
+      "Wahlbeobachter prüfen, ob eine Wahl fair und ohne Betrug abläuft."
+     ],
+     [
+      "Sanktionen",
+      "Sanktionen sind wirtschaftliche Strafen, die gegen ein Land verhängt werden."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Wahlbeobachter bei Wahlen?",
+     "Warum ist eine Wahl in besetzten Kriegsgebieten international umstritten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Partei ging laut Nachbefragungen als Siegerin aus der Wahl hervor?",
+      "optionen": [
+       "Geeintes Russland",
+       "Kommunistische Partei",
+       "Jabloko"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Partei Geeintes Russland erreichte laut den Nachbefragungen 49,4 Prozent der Stimmen."
+     },
+     {
+      "frage": "Wo fand die Parlamentswahl in diesem Jahr erstmals ebenfalls statt?",
+      "optionen": [
+       "In Belarus",
+       "In besetzten ukrainischen Gebieten",
+       "In Kasachstan"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Wahl wurde laut den Berichten erstmals auch in den von Russland kontrollierten Teilen der ukrainischen Regionen abgehalten."
+     },
+     {
+      "frage": "Wie viele Abgeordnete werden für die neue Staatsduma gewählt?",
+      "optionen": [
+       "100 Abgeordnete",
+       "450 Abgeordnete",
+       "600 Abgeordnete"
+      ],
+      "richtig": 1,
+      "erklaerung": "Es wurden 450 Abgeordnete für die neue Staatsduma in Moskau gewählt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Russland haben die Menschen drei Tage lang ein neues Parlament gewählt.",
+    "absaetze": [
+     "Das Parlament heißt Staatsduma und hat vierhundertfünfzig Abgeordnete.",
+     "Die Partei von Präsident Wladimir Putin hat die Wahl laut Umfragen gewonnen.",
+     "Die Wahl fand auch in besetzten Gebieten der Ukraine statt.",
+     "Kritiker und Beobachter meldeten jedoch viele Fehler und Betrug bei der Wahl.",
+     "Die ukrainische Führung lehnte die Abstimmung in den besetzten Gebieten ab."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Russland ist die Parlamentswahl zu Ende gegangen.",
+     "Die Partei von Präsident Putin liegt nach Umfragen vorn.",
+     "Beobachter kritisierten jedoch Unregelmäßigkeiten bei der Stimmabgabe."
+    ],
+    "lang": [
+     "In Russland ist die dreitägige Wahl für das Parlament zu Ende gegangen.",
+     "Nach Angaben von Nachbefragungen gewinnt die Partei Geeintes Russland die Wahl.",
+     "Die Partei von Präsident Wladimir Putin kam demnach auf 49,4 Prozent der Stimmen.",
+     "Mehr als einhundertzehn Millionen Menschen waren zur Wahl der vierhundertfünfzig Abgeordneten aufgerufen.",
+     "Die Wahl fand erstmals auch in besetzten Gebieten der Ukraine statt.",
+     "Die ukrainische Führung kritisierte diese Abstimmung scharf als Zwang.",
+     "Wahlbeobachter und Oppositionelle berichteten zudem über Manipulationsversuche in den Wahllokalen.",
+     "Die Leiterin der Wahlkommission Ella Pamfilowa erklärte dagegen, die Wahl sei ordnungsgemäß verlaufen.",
+     "Die Parlamentswahl gilt als wichtige Bestätigung für den politischen Kurs von Präsident Putin.",
+     "Die offiziellen Endergebnisse werden nach der vollständigen Auszählung der Stimmen erwartet."
+    ],
+    "einfach": [
+     "In Russland ist die Wahl für ein neues Parlament beendet.",
+     "Die Partei von Präsident Putin hat laut Umfragen gewonnen.",
+     "Es gab aber viele Berichte über Streit und Fehler bei der Wahl.",
+     "Auch in besetzten Gebieten der Ukraine wurde abgestimmt.",
+     "Die Ukraine war damit nicht einverstanden."
+    ]
+   },
+   "kurz": [
+    "In Russland ist die dreitägige Wahl zur Staatsduma zu Ende gegangen.",
+    "Die Regierungspartei Geeintes Russland liegt nach Nachbefragungen vorn.",
+    "Beobachter berichteten von Unregelmäßigkeiten und Manipulationsversuchen.",
+    "Die Abstimmung fand auch in besetzten ukrainischen Gebieten statt."
+   ],
+   "fakten": [
+    [
+     "Stimmen Geeintes Russland",
+     "49,4 Prozent"
+    ],
+    [
+     "Stimmen Kommunistische Partei",
+     "14,2 Prozent"
+    ],
+    [
+     "Stimmen LDPR",
+     "10,7 Prozent"
+    ],
+    [
+     "Stimmen Nowyje Ljudi",
+     "9,7 Prozent"
+    ],
+    [
+     "Stimmen Gerechtes Russland",
+     "6,6 Prozent"
+    ],
+    [
+     "Wahlbeteiligung",
+     "mehr als 56 Prozent"
+    ],
+    [
+     "Anzahl Abgeordnete",
+     "450"
+    ],
+    [
+     "Wahlberechtigte",
+     "mehr als 110 Millionen"
+    ]
+   ],
+   "dossier": {
+    "slug": "wahl-russland-2026",
+    "titel": "Parlamentswahl in Russland"
+   },
+   "bildInfo": {
+    "titel": "Vladimir Putin - 2012.jpg",
+    "beschreibung": "Official portrait of Vladimir Putin .",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
+    "urheber": "Russian Presidential Press and Information Office",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "art": "person",
+    "suchbegriff": "Vladimir Putin official portrait",
+    "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Vladimir Putin - 2012.jpg",
+     "beschreibung": "Official portrait of Vladimir Putin .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
+     "urheber": "Russian Presidential Press and Information Office",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Vladimir Putin official portrait",
+     "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow. State Duma at night1.jpg",
+     "beschreibung": "Москва. Госдума ночью.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Moscow._State_Duma_at_night1.jpg/1280px-Moscow._State_Duma_at_night1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Moscow._State_Duma_at_night1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow._State_Duma_at_night1.jpg",
+     "urheber": "Юрий Д.К.",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau bei Nacht.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow's Red Square, Moscow, Russia.jpg",
+     "beschreibung": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg",
+     "urheber": "Vyacheslav Argenberg",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "ort",
+     "suchbegriff": "Red Square Moscow",
+     "bildunterschrift": "Der Rote Platz in Moskau.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Moskau, Russland",
+    "lat": 55.626,
+    "lon": 37.606
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Russland ist die dreitägige Wahl für das Parlament zu Ende gegangen. Nach Ang",
+     "d": "2292950fc2.mp3",
+     "l": 52.12,
+     "s": [
+      0.25,
+      4.29,
+      8.85,
+      14.62,
+      20.49,
+      24.47,
+      28.53,
+      34.71,
+      40.96,
+      46.56
+     ]
+    },
+    {
+     "k": "In Russland ist die Parlamentswahl zu Ende gegangen. Die Partei von Präsident Pu",
+     "d": "dd20cbf109.mp3",
+     "l": 11.14,
+     "s": [
+      0.25,
+      3.24,
+      6.71
+     ]
+    },
+    {
+     "k": "In Russland ist die Wahl für ein neues Parlament beendet. Die Partei von Präside",
+     "d": "42663b64d9.mp3",
+     "l": 18.95,
+     "s": [
+      0.25,
+      4.11,
+      8.33,
+      12.29,
+      15.89
+     ]
+    },
+    {
+     "k": "Das genaue Ausmaß von Wahlmanipulationen und die Täterschaft bei den Cyberangrif",
+     "d": "b4e9bd1967.mp3",
+     "l": 7.58,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Abgeordnetenhaus und ",
+     "d": "a44d7d14e4.mp3",
+     "l": 8.26,
+     "s": [
+      0.25,
+      2.82
+     ]
+    },
+    {
+     "k": "In der Russischen Föderation ist eine dreitägige Parlamentswahl zu Ende gegangen",
+     "d": "62a76aa5cc.mp3",
+     "l": 41.34,
+     "s": [
+      0.25,
+      5.11,
+      10.43,
+      17.55,
+      22.16,
+      26.73,
+      31.22,
+      36.39
+     ]
+    },
+    {
+     "k": "Laut den Prognosen schafften neben der regierenden Partei Geeintes Russland vier",
+     "d": "cbaef9eb5a.mp3",
+     "l": 38.16,
+     "s": [
+      0.25,
+      7.46,
+      11.79,
+      17.06,
+      24.45,
+      28.51,
+      32.99,
+      36.75
+     ]
+    },
+    {
+     "k": "Die Parlamentswahl gilt laut Berichten als Bestätigung für den politischen Kurs ",
+     "d": "afca3a1255.mp3",
+     "l": 37.24,
+     "s": [
+      0.25,
+      6.44,
+      12.93,
+      18.49,
+      22.23,
+      26.1,
+      31.87
+     ]
+    }
+   ]
+  },
+  {
+   "id": "guterres-nachfolge-bachelet",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T19:15:57.000Z",
+   "aktualisiert": "aktualisiert um 21:25 Uhr",
+   "titel": "Michelle Bachelet zieht Kandidatur für das Amt der UN-Generalsekretärin zurück",
+   "vorspann": "Die chilenische Politikerin Michelle Bachelet beendet ihre Bewerbung für die Nachfolge von UN-Generalsekretär António Guterres. Dies gab die 74-Jährige in einer Videobotschaft bekannt.",
+   "eil": false,
+   "zusammenfassung": [
+    "Chiles Ex-Präsidentin Michelle Bachelet hat ihre Kandidatur als UN-Generalsekretärin zurückgezogen. Eine konkrete Begründung nannte sie in ihrer Erklärung nicht.",
+    "Berichten zufolge war sie zuvor bei einer Probeabstimmung im UN-Sicherheitsrat auf dem vorletzten Platz gelandet. Ihre Unterstützung war stark eingebrochen.",
+    "Als Favoritin gilt nach mehreren Probeabstimmungen die costa-ricanische Diplomatin Rebeca Grynspan. Insgesamt laufen die Beratungen des Sicherheitsrates weiter.",
+    "Amtsinhaber António Guterres scheidet zum Jahresende aus dem Amt aus. Die Entscheidung über die Nachfolge soll im September fallen."
+   ],
+   "einig": [
+    [
+     "Michelle Bachelet hat ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Deutsche Welle",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Bachelet gab ihren Rückzug auf der Plattform Instagram bekannt.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Bachelet nannte keine konkrete Begründung für ihren Rückzug.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Die israelische UN-Mission teilte unter Berufung auf den Sicherheitsrat mit, dass Bachelet bei der Probeabstimmung auf dem vorletzten Platz landete.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Rebeca Grynspan gilt als Favoritin für die Nachfolge.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Der UN-Sicherheitsrat hat 15 Mitglieder, von denen fünf ständige Mitglieder ein Vetorecht besitzen.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "António Guterres scheidet am 31. Dezember aus dem Amt aus.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Deutsche Welle",
+      "The Guardian"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Anzahl der verbliebenen Kandidaten nach Bachelets Rückzug."
+   ],
+   "positionen": [
+    [
+     "Michelle Bachelet (Kandidatin)",
+     "Bedauert den Rückzug nicht und betonte ihren Einsatz für Frauen aus Lateinamerika sowie internationale Werte.",
+     "ZDFheute, Spiegel, Deutsche Welle, The Guardian"
+    ],
+    [
+     "Annalena Baerbock (Präsidentin der UN-Generalversammlung)",
+     "Sprach sich explizit für eine Nachfolgerin an der UN-Spitze aus.",
+     "Spiegel"
+    ],
+    [
+     "Luiz Inácio Lula da Silva und Claudia Sheinbaum (Präsidenten von Brasilien und Mexiko)",
+     "Unterstützten die Kandidatur von Michelle Bachelet.",
+     "ZDFheute, Spiegel, Deutsche Welle"
+    ],
+    [
+     "José Antonio Kast (Präsident von Chile)",
+     "Entzog Bachelet im Nachhinein die Unterstützung.",
+     "Deutsche Welle"
+    ]
+   ],
+   "fehlend": "Stimmen der USA und Russlands im Detail zu Baerbocks Vorstoß; detaillierte Aussagen weiterer Gegenkandidaten.",
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 02:34",
+     "fokus": "Hintergrund und politisches Umfeld",
+     "text": "Berichtet ausführlich über Bachelets politischen Werdegang, Unterstützer und den Nominierungsprozess im Sicherheitsrat.",
+     "url": "https://www.zdfheute.de/politik/ausland/un-nachfolge-guterres-bachelet-kandidatur-rueckzug-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 21:15",
+     "fokus": "Kurzmeldung",
+     "text": "Fasst den Rückzug der chilenischen Ex-Präsidentin kurz und prägnant zusammen.",
+     "url": "https://www.deutschlandfunk.de/amt-der-uno-generalsekretaerin-chiles-ex-praesidentin-bachelet-zieht-kandidatur-zurueck-102.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 09:32",
+     "fokus": "Details zu den Probeabstimmungen",
+     "text": "Nennt konkrete Ergebnisse weiterer Probeabstimmungen und zitiert Annalena Baerbock.",
+     "url": "https://www.spiegel.de/ausland/michelle-bachelet-chiles-ex-praesidentin-zieht-uno-kandidatur-zurueck-a-b6d352b1-9b25-434c-a39f-0a8f12f99bda#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "20.09.26, 11:41",
+     "fokus": "Internationale Hintergründe und Biografie",
+     "text": "Beleuchtet die Rolle von lateinamerikanischen Kandidaten und Details aus Bachelets Biografie.",
+     "url": "https://www.dw.com/de/chilenin-bachelet-zieht-kandidatur-für-un-spitze-zurück/a-79342792?maca=de-rss-de-all-1119-rdf",
+     "video": false
+    },
+    {
+     "name": "The Guardian",
+     "typ": "Tageszeitung (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "20.09.26, 14:04",
+     "fokus": "Wochenend-Entwicklung",
+     "text": "Fokussiert sich auf das Ende des Versuchs nach dem Zusammenbruch der Unterstützung im Sicherheitsrat.",
+     "url": "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Während Spiegel, Deutsche Welle und ZDFheute sehr viele biographische und prozedurbezogene Details nennen, fasst der Deutschlandfunk das Ereignis in wenigen Sätzen zusammen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Michelle Bachelet und der UN-Sicherheitsrat",
+    "was": "Rückzug von der Kandidatur für die UN-Generalsekretärsspitze",
+    "wann": "September 2026",
+    "wie": "Durch eine Bekanntgabe auf der Plattform Instagram",
+    "warum": "Konkrete Begründung nicht genannt; laut Israel-Mission schlechte Platzierung bei Probeabstimmung",
+    "quellenlage": "Öffentlich-rechtliche Medien, Nachrichtenmagazin und internationale Tageszeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Chiles frühere Präsidentin Michelle Bachelet hat ihre Kandidatur für das Amt der Generalsekretärin der Vereinten Nationen zurückgezogen. Dies teilte die 74-Jährige über die Online-Plattform Instagram mit. Eine konkrete Begründung für diesen Schritt nannte sie nicht. Die Entscheidung erfolgte während der laufenden Phase der Kandidatenfindung im UN-Sicherheitsrat.",
+      "Bachelets Rückzug verringert das Feld der Bewerber für die Nachfolge von António Guterres. Die Vereinten Nationen müssen einen Nachfolger oder eine Nachfolgerin für den amtierenden Portugiesen finden.",
+      "Die Bekanntgabe ihres Rückzugs wurde über soziale Medien verbreitet. In ihrer Erklärung betonte Bachelet, dass sie ihre Kandidatur nicht bereue. Sie verwies auf ihren Beitrag, das Thema einer weiblichen Führung aus Lateinamerika auf die globale Agenda gesetzt zu haben. Ihre Bewerbung hatte zuvor internationale Beachtung gefunden."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut Angaben der israelischen UN-Mission, die sich auf Quellen im Sicherheitsrat berief, war Bachelet bei einer Probeabstimmung auf dem vorletzten Platz gelandet. Dies berichteten übereinstimmend ZDFheute, der Spiegel und die Deutsche Welle. In einer informellen Probeabstimmung war ihre Unterstützung demnach stark eingebrochen. Die Abstimmungen im Sicherheitsrat finden in geheimer Form statt.",
+      "Als Favoritin für die Nachfolge von António Guterres gilt nach diesen Probeabstimmungen die Diplomatin Rebeca Grynspan aus Costa Rica. Laut dem Spiegel lag Grynspan in Probeabstimmungen vorn, während eine weitere Abstimmung von der früheren Außenministerin Guyanas, Carolyn Rodrigues-Birkett, gewonnen wurde. Insgesamt bewerben sich laut ZDFheute und Deutscher Welle mehrere Personen aus Lateinamerika um den Posten.",
+      "Zu den weiteren Bewerberinnen gehören laut den Berichten die ecuadorianischen Politikerinnen María Fernanda Espinosa und Ivonne A-Baki. Der Auswahlprozess erfordert, dass sich der fünfzehnköpfige Sicherheitsrat auf einen Namen verständigt. Wer die Nachfolge antreten will, benötigt mindestens neun Stimmen im Gremium. Die fünf ständigen Mitglieder besitzen zudem ein Vetorecht."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Michelle Bachelet war im Februar vom damaligen chilenischen Präsidenten Gabriel Boric für das Amt nominiert worden. Dies berichtete die Deutsche Welle. Chiles Präsident José Antonio Kast entzog ihr später jedoch die Unterstützung. Unterstützt wurde ihre Bewerbung zudem vom brasilianischen Präsidenten Luiz Inácio Lula da Silva und der mexikanischen Präsidentin Claudia Sheinbaum.",
+      "Bachelet war in ihrer politischen Laufbahn zweimal Präsidentin von Chile, und zwar von 2006 bis 2010 sowie von 2014 bis 2018. Bei ihrer ersten Wahl wurde sie zur ersten Präsidentin des Landes ernannt. Zwischen 2018 und 2022 fungierte sie als UN-Hochkommissarin für Menschenrechte. Während der Militärdiktatur von Augusto Pinochet war sie mit ihrer Mutter in die DDR geflohen, wo sie Deutsch lernte und Medizin studierte.",
+      "In ihrer Kampagne für die UN-Spitze setzte sich Bachelet für Multilateralismus, Völkerrecht, Demokratie, Menschenrechte und Klimaschutz ein. Sie hatte zuvor gefordert, die Person an der UN-Spitze müsse über eine moralische Stimme verfügen. Als UN-Menschenrechtskommissarin hatte sie in der Vergangenheit unter anderem China kritisiert. Die US-Regierung kritisierte sie laut Deutscher Welle insbesondere wegen ihrer Haltung zum Recht auf Abtreibung."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der UN-Sicherheitsrat ist das Gremium der Vereinten Nationen und besteht aus fünfzehn Mitgliedern. Fünf davon sind ständige Mitglieder: China, Frankreich, Großbritannien, Russland und die USA. Diese fünf Staaten verfügen über ein Vetorecht und können Personalvorschläge blockieren. Die zehn weiteren Mitglieder werden für begrenzte Zeit gewählt.",
+      "Die Suche nach einem neuen UN-Generalsekretär erfolgt durch geheime Probeabstimmungen im Sicherheitsrat. Wenn sich das Gremium auf einen Kandidaten oder eine Kandidatin geeinigt hat, wird eine offizielle Empfehlung ausgesprochen. Diese geht an die UN-Vollversammlung, die aus allen Mitgliedstaaten besteht und die formelle Ernennung vornimmt. Am einfunddreißigsten Dezember endet die zweite und letzte Amtszeit des aktuellen Amtsinhabers António Guterres."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Präsidentin der UN-Generalversammlung, Annalena Baerbock, sprach sich laut Spiegel explizit für eine Nachfolgerin aus. Die Politikerin erklärte, es sei Zeit für eine Frau an der Spitze der Organisation. Bislang hatten ausschließlich Männer das Amt inne. Laut ZDFheute stieß Baerbocks Forderung bei den USA und Russland auf Kritik.",
+      "Michelle Bachelet erklärte in ihrem Statement laut Deutscher Welle: Einige mögen glauben, dass es nicht der richtige Zeitpunkt war für eine Kandidatur. Sie betonte jedoch, sie bedauere es nicht, sich dieser großen Herausforderung gestellt zu haben. Zudem erklärte sie laut Spiegel, man habe dazu beigetragen, das Thema einer Lateinamerikanerin an der Spitze auf die globale Agenda zu setzen.",
+      "Brasiliens Präsident Luiz Inácio Lula da Silva und Mexikos Präsidentin Claudia Sheinbaum unterstützten laut übereinstimmenden Berichten von ZDFheute, Spiegel und Deutscher Welle die Bewerbung der chilenischen Politikerin. Der chilenische Präsident Gabriel Boric hatte sie im Februar nominiert, während José Antonio Kast ihr die Unterstützung entzog."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Der fünfzehn Mitglieder zählende UN-Sicherheitsrat setzt die Phase der Kandidatenfindung fort. Mit weiteren geheimen Probeabstimmungen soll versucht werden, sich auf einen Nachfolger oder eine Kandidatin für den amtierenden Generalsekretär zu einigen. Der Auswahlprozess läuft vor dem Fristende des einfunddreißigsten Dezembers, wenn António Guterres aus dem Amt scheidet.",
+      "Nach einer möglichen Einigung im Sicherheitsrat wird die Personalie an die UN-Vollversammlung übergeben. Dort findet die abschließende Abstimmung über die Ernennung statt. Bis dahin bleibt offen, welche der verbleibenden Personen die notwendige Unterstützung der Mitgliedstaaten erhalten wird."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Februar 2026",
+     "Nominierung Bachelets durch den damaligen chilenischen Präsidenten Gabriel Boric."
+    ],
+    [
+     "Februar 2026",
+     "Nominierung Bachelets durch den chilenischen Präsidenten Gabriel Boric."
+    ],
+    [
+     "September 2026",
+     "Michelle Bachelet gibt ihren Rückzug von der Kandidatur für das Amt der UN-Generalsekretärin bekannt."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Michelle Bachelet official portrait",
+     "bildunterschrift": "Die chilenische Politikerin Michelle Bachelet zog ihre Kandidatur für das Amt der UN-Generalsekretärin zurück."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters New York",
+     "bildunterschrift": "Der Sitz der Vereinten Nationen in New York, wo der Sicherheitsrat über die Nachfolge berät."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "António Guterres UN Secretary-General",
+     "bildunterschrift": "Der amtierende UN-Generalsekretär António Guterres, dessen Amtszeit Ende Dezember endet."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Annalena Baerbock politician",
+     "bildunterschrift": "Annalena Baerbock äußerte sich zur Besetzung des Postens."
+    }
+   ],
+   "ort": {
+    "name": "New York, USA"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Daten aus Artikel-Zahlen korrigiert (Zahlen als Wörter ausgeschrieben gemäß den Vorleseregeln für das Video, spezifische Abweichungen bei Kandidatenanzahl bereinigt)."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Multilateralismus",
+      "Eine Form der Politik, bei der viele Staaten gemeinsam und nach gleichen Regeln international zusammenarbeiten."
+     ],
+     [
+      "Vetorecht",
+      "Das Recht bestimmter Staaten, einen Beschluss oder eine Personalie mit einer Gegenstimme ganz allein zu blockieren."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen die ständigen Mitglieder des UN-Sicherheitsrates bei der Auswahl des neuen UN-Generalsekretärs?",
+     "Warum nutzen Politikerinnen und Politiker soziale Medien wie Instagram, um wichtige politische Entscheidungen bekannt zu geben?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat die Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen?",
+      "optionen": [
+       "Michelle Bachelet",
+       "Rebeca Grynspan",
+       "Annalena Baerbock"
+      ],
+      "richtig": 0,
+      "erklaerung": "Michelle Bachelet hat ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen, wie unter anderem ZDFheute und der Spiegel übereinstimmend berichten."
+     },
+     {
+      "frage": "Auf welchem Platz landete Bachelet laut der israelischen UN-Mission bei einer Probeabstimmung?",
+      "optionen": [
+       "Auf dem ersten Platz",
+       "Auf dem vorletzten Platz",
+       "Auf dem letzten Platz"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Angaben der israelischen UN-Mission landete Bachelet bei einer Probeabstimmung auf dem vorletzten Platz."
+     },
+     {
+      "frage": "Wann endet die Amtszeit des aktuellen UN-Generalsekretärs António Guterres?",
+      "optionen": [
+       "Am 30. Juni",
+       "Am 31. Oktober",
+       "Am 31. Dezember"
+      ],
+      "richtig": 2,
+      "erklaerung": "António Guterres scheidet laut den Berichten am einfunddreißigsten Dezember aus dem Amt aus."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die frühere Präsidentin von Chile, Michelle Bachelet, will nicht mehr Chefin der Vereinten Nationen werden.",
+    "absaetze": [
+     "Michelle Bachelet hat ihre Bewerbung für das Amt der Generalsekretärin zurückgezogen. Das gab die Politikerin über die Plattform Instagram bekannt. Einen Grund für ihre Entscheidung nannte sie nicht. Nach Angaben der israelischen UN-Mission war sie zuvor bei einer geheimen Abstimmung weit hinten gelandet. Der UN-Sicherheitsrat berät nun weiter über die Nachfolge des aktuellen Chefs António Guterres. Seine Amtszeit endet im Dezember."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zurück. Das gab sie bei Instagram bekannt. Nach Angaben der israelischen UN-Mission landete sie zuvor bei einer Probeabstimmung weit hinten. Im September fällt die Entscheidung über die Nachfolge von António Guterres."
+    ],
+    "lang": [
+     "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zurück. Das gab die chilenische Politikerin auf der Internetplattform Instagram bekannt. Eine konkrete Begründung nannte die vierundsiebzigjährige Politikerin nicht. Nach Angaben der israelischen UN-Mission war sie bei einer Probeabstimmung im UN-Sicherheitsrat zuvor auf dem vorletzten Platz gelandet. Die Costa-Ricanische Diplomatin Rebeca Grynspan gilt nach mehreren Probeabstimmungen als Favoritin für die Nachfolge. Der amtierende UN-Generalsekretär António Guterres scheidet am einfunddreißigsten Dezember aus dem Amt aus. Kritiker und Befürworter streiten derweil darüber, ob die Nachfolge erstmals an eine Frau gehen soll. Die Entscheidung über den Spitzenposten bei den Vereinten Nationen fällt im September. Bis dahin berät der Sicherheitsrat weiter über die verschiedenen Kandidatinnen und Kandidaten."
+    ],
+    "einfach": [
+     "Michelle Bachelet will nicht mehr Chefin der Vereinten Nationen werden. Die Politikerin aus Chile hat ihre Bewerbung zurückgezogen. Einen Grund dafür nannte sie nicht. Bei einer Abstimmung im Sicherheitsrat landete sie zuvor weit hinten. Im Dezember endet die Amtszeit des aktuellen Chefs António Guterres."
+    ]
+   },
+   "kurz": [
+    "Michelle Bachelet zieht ihre Kandidatur für den Posten der UN-Generalsekretärin zurück.",
+    "Eine genaue Begründung nannte die chilenische Politikerin bei ihrer Bekanntgabe nicht.",
+    "Zuvor landete sie bei einer geheimen Probeabstimmung im UN-Sicherheitsrat auf dem vorletzten Platz.",
+    "Die Amtszeit des aktuellen UN-Generalsekretärs António Guterres endet am einfunddreißigsten Dezember."
+   ],
+   "fakten": [
+    [
+     "Alter von Michelle Bachelet",
+     "74"
+    ],
+    [
+     "Mitglieder im UN-Sicherheitsrat",
+     "15"
+    ],
+    [
+     "Ende der Amtszeit von António Guterres",
+     "31. Dezember"
+    ]
+   ],
+   "dossier": {
+    "slug": "un-generalsekretaer-wahl",
+    "titel": "Wahl der neuen UN-Generalsekretärin oder des UN-Generalsekretärs"
+   },
+   "bildInfo": {
+    "titel": "Prime Minister Sanna Marin met with United Nations High Commissioner for Human Rights, Michelle Bachelet in Helsinki 5.2.2020 (49491548267).jpg",
+    "beschreibung": "© Laura Kotila | valtioneuvoston kanslia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg/1280px-Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights,_Michelle_Bachelet_in_Helsinki_5.2.2020_(49491548267).jpg",
+    "urheber": "FinnishGovernment",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "person",
+    "suchbegriff": "Michelle Bachelet politician",
+    "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Prime Minister Sanna Marin met with United Nations High Commissioner for Human Rights, Michelle Bachelet in Helsinki 5.2.2020 (49491548267).jpg",
+     "beschreibung": "© Laura Kotila | valtioneuvoston kanslia",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg/1280px-Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights,_Michelle_Bachelet_in_Helsinki_5.2.2020_(49491548267).jpg",
+     "urheber": "FinnishGovernment",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Michelle Bachelet politician",
+     "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+     "beschreibung": "United Nations General Assembly Building, New York City",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+     "urheber": "Jakub Hałun",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters New York",
+     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "António Guterres United Nations Secretary-General in 2024 (cropped).jpg",
+     "beschreibung": "Secretary Antony J. Blinken meets with UN Secretary-General Antonio Guterres at the Department of State in Washington, D.C., June 4, 2024. (Official State Department photo by Chuck Kennedy)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_(cropped).jpg",
+     "urheber": "U.S. Department of State from United States",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "António Guterres UN Secretary General",
+     "bildunterschrift": "UN-Generalsekretär António Guterres, dessen Nachfolge ausgeschrieben ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "New York, USA",
+    "lat": 40.713,
+    "lon": -74.006
+   },
+   "version": 5,
+   "ton": [
+    {
+     "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
+     "d": "acbbba6429.mp3",
+     "l": 16.87,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Michelle Bachelet will nicht mehr Chefin der Vereinten Nationen werden. Die Poli",
+     "d": "4d2ab8383f.mp3",
+     "l": 17.65,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Die genaue Anzahl der verbliebenen Kandidaten nach Bachelets Rückzug.",
+     "d": "0488a7a58b.mp3",
+     "l": 4.75,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Multilateralismus? Eine Form der Politik, bei der viele ",
+     "d": "6fbed3e579.mp3",
+     "l": 9.96,
+     "s": [
+      0.25,
+      3.29
+     ]
+    }
+   ]
+  },
+  {
+   "id": "porsche-stellenabbau",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-20T19:15:57.000Z",
+   "titel": "Berichte über möglichen weiteren Stellenabbau beim Sportwagenbauer Porsche",
+   "vorspann": "Medienberichten zufolge könnten beim Sportwagenbauer Porsche im Rahmen von Sparmaßnahmen weitere Arbeitsplätze wegfallen. Demnach wächst beim Mutterkonzern VW die Sorge, dass bisherige Vereinbarungen zur Kostensenkung nicht ausreichen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge weitere 4.000 Stellen abgebaut werden.",
+    "Das Handelsblatt beruft sich dabei auf interne Unterlagen aus einer VW-Aufsichtsratssitzung vom September.",
+    "Volkswagen hat zuvor seine Gewinnprognose wegen einer Abschreibung auf Porsche gesenkt.",
+    "Beide Unternehmen haben sich zu den Berichten über zusätzliche Sparpläne bisher nicht geäußert."
+   ],
+   "einig": [
+    [
+     "Beim Sportwagenbauer Porsche könnten laut einem Bericht des Handelsblatts weitere 4.000 Stellen abgebaut werden.",
+     [
+      "Deutschlandfunk",
+      "Zeit",
+      "ORF",
+      "SWR Baden-Württemberg"
+     ]
+    ],
+    [
+     "Die Berichte stützen sich auf Unterlagen aus dem VW-Aufsichtsrat von Anfang September.",
+     [
+      "ORF",
+      "SWR Baden-Württemberg"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Pläne tatsächlich umgesetzt werden, ist noch unklar.",
+    "Die beteiligten Unternehmen haben sich laut SWR Baden-Württemberg bisher nicht zu den Medienberichten geäußert."
+   ],
+   "positionen": [
+    [
+     "Volkswagen-Konzern (Aufsichtsrat)",
+     "Sorge, dass das bisherige Sparpaket nicht ausreicht; Vorlage sieht Reduktion um rund 4.100 Mitarbeitende vor",
+     "ORF"
+    ]
+   ],
+   "fehlend": "Stimmen von Arbeitnehmervertretern, Betriebsräten und Gewerkschaften sowie offizielle Stellungnahmen der Unternehmensleitungen von Porsche und VW.",
+   "medien": [
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 21:15",
+     "fokus": "–",
+     "text": "Bei dem Sportwagenbauer Porsche könnten einem Zeitungsbericht zufolge 4.000 weitere Stellen wegfallen.",
+     "url": "https://www.deutschlandfunk.de/handelsblatt-abbau-von-4-000-weiteren-stellen-bei-porsche-moeglich-104.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 15:46",
+     "fokus": "–",
+     "text": "2026 rechnet der VW-Konzern nur mit einer Umsatzrendite von einem Prozent. Die Sparmaßnahmen bei der Tochter Porsche könnten laut Handelsblatt ausgeweitet werden.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/porsche-vw-stellenabbau-gewinnprognose-gxe",
+     "video": false
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "20.09.26, 11:52",
+     "fokus": "Finanzdetails und VW-Prognose",
+     "text": "Der ORF ergänzte Details zur Gewinnwarnung von Volkswagen und den fehlenden Gemeinkosten in Höhe von 700 Millionen Euro.",
+     "url": "https://orf.at/stories/3442718/",
+     "video": false
+    },
+    {
+     "name": "SWR Baden-Württemberg",
+     "typ": "öffentlich-rechtlich (Region)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "20.09.26, 00:30",
+     "fokus": "Lokale Bezüge und Reaktionen",
+     "text": "Der SWR berichtete über die Situation in Stuttgart-Zuffenhausen, das anstehende Zukunftspaket und den Verkauf der IT-Beratung MHP.",
+     "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/porsche-baut-moeglicherweise-4000-weitere-stellen-ab-100.html",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Tiefe der Berichterstattung",
+     "Während Deutschlandfunk und Zeit kurz über den Bericht informieren, nennen ORF und SWR zusätzliche Details zu VW-Zahlen und lokalen Hintergründen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Der Sportwagenbauer Porsche und der Mutterkonzern VW",
+    "was": "Möglicher Abbau von weiteren 4.000 Stellen",
+    "wann": "September",
+    "wo": "Stuttgart-Zuffenhausen, Deutschland",
+    "wie": "Durch zusätzliche Sparmaßnahmen laut einem Zeitungsbericht",
+    "warum": "Wegen sinkender Umsatzrenditen laut dem Handelsblatt",
+    "quellenlage": "Unterlagen aus dem VW-Aufsichtsrat und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Bei dem deutschen Sportwagenbauer Porsche könnten einem Zeitungsbericht zufolge 4.000 weitere Stellen wegfallen. Das berichtete das Handelsblatt unter Berufung auf interne Unterlagen. Der Mutterkonzern Volkswagen blickt auf eine schwierige finanzielle Situation im laufenden Geschäftsjahr. Volkswagen hatte seine Prognose für das Jahr zuvor nach unten korrigiert. Als Grund für die Gewinnwarnung wird eine Abschreibung auf die Tochter Porsche genannt.",
+      "Nach den Berichten wächst im VW-Aufsichtsrat die Sorge, dass die bisher vereinbarten Sparpakete nicht ausreichen werden. Die Unterlagen stammen aus einer Sitzung des Aufsichtsrates von Anfang September. Die Vorlage sieht für die Markengruppe Sport Luxury eine Reduktion des Personals vor. Zu dieser Markengruppe gehört der Sportwagenbauer Porsche. Allein bei den Gemeinkosten fehlen nach den Angaben rund 700 Millionen Euro.",
+      "Der VW-Plan soll laut dem Bericht ausdrücklich zusätzlich zu bereits bestehenden Vereinbarungen gelten. Volkswagen kann als Mutterkonzern aufgrund der Eigenständigkeit von Porsche solche Maßnahmen nur empfehlen, nicht anordnen. Die Unternehmen selbst reagierten zunächst nicht öffentlich auf die vorliegenden Medienberichte."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Das Handelsblatt veröffentlichte die Details aus den Aufsichtsratsunterlagen des Volkswagen-Konzerns. Demnach beläuft sich die geplante Reduktion an Mitarbeitenden in der Markengruppe Sport Luxury auf rund 4.100 Personen. Die genaue Zahl der gefährdeten Stellen bei Porsche wird in den Berichten mit 4.000 beziffert. Bereits im Juli hatte Porsche zur Senkung der Personalkosten die Streichung von 5.000 weiteren Stellen bis 2035 beschlossen.",
+      "Der Volkswagen-Konzern rechnet im Jahr 2026 mit einer geringeren Umsatzrendite von nur noch einem Prozent statt der bisher angenommenen vier bis 5,5 Prozent. Die Finanzprobleme führen dazu, dass bestehende Sparpläne auf den Prüfstand gestellt werden. Die Berichterstattung hierzu stützt sich auf die Dokumente aus dem Kontrollgremium von VW.",
+      "Das SWR Baden-Württemberg berichtete ergänzend über die Situation am Stammsitz in Stuttgart-Zuffenhausen. Dort ringt das Unternehmen um seine Neuaufstellung. In Zuffenhausen werden Details zu einem Zukunftspaket erwartet. Gleichzeitig verkauft Porsche die Management- und IT-Beratung MHP an den indischen IT-Dienstleister TCS und fokussiert sich stärker aufs Kerngeschäft."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der Volkswagen-Konzern und seine Marken reagieren auf die veränderten Marktbedingungen mit umfassenden Sparprogrammen. Porsche verdient nach Berichten trotz sinkender Verkaufszahlen mehr Geld. Dennoch stellt sich das Unternehmen auf weniger Autos, Sparpakete und möglichen Stellenabbau ein.",
+      "Im Juli hatte Porsche entschieden, den Personalabbau durch eine Reduzierung von insgesamt 5.000 Stellen bis 2035 voranzutreiben. Die nun bekannt gewordenen Unterlagen aus dem September deuten auf einen zusätzlichen Bedarf hin. Der Konzern konzentriert sich verstärkt auf sein Kerngeschäft.",
+      "Der Verkauf der Tochtergesellschaft MHP an das indische Unternehmen TCS ist Teil dieser Strategie. Die Marken und Tochtergesellschaften innerhalb des Volkswagen-Konzerns agieren eigenständig. Dies führt dazu, dass der Mutterkonzern Maßnahmen bei Porsche nur empfehlen kann."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine Umsatzrendite ist eine Kennzahl für ein Unternehmen. Sie beschreibt das Verhältnis von Gewinn zu Umsatz in Prozent.",
+      "Ein Aufsichtsrat ist ein Kontrollorgan in einer Aktiengesellschaft. Er überwacht die Arbeit des Vorstandes und entscheidet über wichtige strategische Fragen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Beide Unternehmen, sowohl Porsche als auch der Volkswagen-Konzern, haben sich laut dem SWR Baden-Württemberg bisher nicht zu dem Bericht des Handelsblatts geäußert. Es liegen keine offiziellen Stellungnahmen der Firmensprecher vor."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "In Stuttgart-Zuffenhausen werden Details zu dem angekündigten Zukunftspaket erwartet. Der Verkauf der IT-Beratung MHP an TCS soll im Rahmen der Fokussierung auf das Kerngeschäft umgesetzt werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Juli",
+     "Porsche beschließt die Streichung von 5.000 Stellen bis 2035."
+    ],
+    [
+     "Anfang September",
+     "VW-Aufsichtsrat bespricht in Unterlagen mögliche weitere Einsparungen."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "building",
+     "suchbegriff": "Volkswagen headquarters Wolfsburg building",
+     "bildunterschrift": "Die Zentrale des Mutterkonzerns Volkswagen in Wolfsburg, wo die Entscheidungen des Aufsichtsrates getroffen werden."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Porsche Museum Stuttgart Zuffenhausen",
+     "bildunterschrift": "Das Porsche-Museum am Stammsitz des Sportwagenbauers in Stuttgart-Zuffenhausen."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Sports car assembly line factory",
+     "bildunterschrift": "Eine Montagehalle in der Automobilproduktion, in der Sportwagen gefertigt werden."
+    }
+   ],
+   "ort": {
+    "name": "Stuttgart, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Jahreszahlen im Text korrigiert und nicht belegte Details entfernt.",
+    "Unbelegte Jahreszahlen und ungesicherte Behauptungen in 'Zum Verständnis' entfernt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Umsatzrendite",
+      "Eine Kennzahl, die das Verhältnis von Gewinn zu Umsatz in Prozent beschreibt."
+     ],
+     [
+      "Aufsichtsrat",
+      "Ein Kontrollorgan in einer Aktiengesellschaft, das den Vorstand überwacht."
+     ],
+     [
+      "Mutterkonzern",
+      "Ein Unternehmen, das die Mehrheit an anderen Unternehmen besitzt und diese kontrolliert."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielt der Aufsichtsrat bei Entscheidungen in großen Unternehmen?",
+     "Warum kann ein Mutterkonzern wie Volkswagen nicht einfach Sparmaßnahmen bei einer eigenständigen Tochterfirma anordnen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele weitere Stellen könnten laut dem Medienbericht bei Porsche wegfallen?",
+      "optionen": [
+       "2.000 Stellen",
+       "4.000 Stellen",
+       "5.000 Stellen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Deutschlandfunk, Zeit, ORF und SWR könnten 4.000 weitere Stellen wegfallen."
+     },
+     {
+      "frage": "Worauf stützt sich die Berichterstattung über die möglichen Sparmaßnahmen?",
+      "optionen": [
+       "Auf Unterlagen aus dem VW-Aufsichtsrat von Anfang September",
+       "Auf eine direkte Pressekonferenz des Porsche-Vorstands",
+       "Auf eine offizielle Mitteilung der Gewerkschaften"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte stützen sich laut ORF und SWR Baden-Württemberg auf Unterlagen aus dem VW-Aufsichtsrat von Anfang September."
+     },
+     {
+      "frage": "Mit welcher Umsatzrendite rechnet der VW-Konzern für das Jahr 2026?",
+      "optionen": [
+       "Mit vier Prozent",
+       "Mit fünf Prozent",
+       "Mit einem Prozent"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut den Berichten rechnet der VW-Konzern 2026 nur mit einer Umsatzrendite von einem Prozent."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Beim Sportwagenbauer Porsche könnten laut Medienberichten noch mehr Arbeitsplätze wegstreichen. Der Mutterkonzern Volkswagen macht sich Sorgen wegen der Finanzen.",
+    "absaetze": [
+     "Das Handelsblatt hat berichtet, dass bei Porsche vier Tausend Arbeitsplätze wegfallen könnten. Die Berichte stützen sich auf Unterlagen aus dem Aufsichtsrat von Volkswagen.",
+     "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig mit viel weniger Gewinn. Deshalb sollen bestehende Sparpläne ausgeweitet werden.",
+     "Volkswagen ist der Mutterkonzern von Porsche. Wegen der Eigenständigkeit von Porsche kann Volkswagen solche Maßnahmen aber nur empfehlen.",
+     "Beide Unternehmen haben sich bisher nicht zu den Berichten geäußert."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Beim Sportwagenbauer Porsche könnten laut Medienberichten vier Tausend weitere Stellen wegfallen.",
+     "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig nur mit einer Umsatzrendite von einem Prozent.",
+     "Die Unternehmen haben sich zu den Berichten bisher nicht geäußert."
+    ],
+    "lang": [
+     "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge vier Tausend weitere Stellen wegfallen.",
+     "Das berichtete das Handelsblatt unter Berufung auf Unterlagen aus dem Aufsichtsrat von Volkswagen.",
+     "Die Unterlagen stammen aus einer Sitzung des Gremiums von Anfang September.",
+     "Nach Angaben aus den Berichten wächst beim Mutterkonzern Volkswagen die Sorge um die Finanzen.",
+     "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig nur mit einer Umsatzrendite von einem Prozent.",
+     "Allein bei den Gemeinkosten der Markengruppe Sport Luxury fehlen nach den Angaben siebenhundert Millionen Euro.",
+     "Wegen der Eigenständigkeit von Porsche kann der Mutterkonzern Volkswagen solche Sparmaßnahmen nur empfehlen.",
+     "Eine Umsatzrendite beschreibt das Verhältnis von Gewinn zu Umsatz in einem Unternehmen.",
+     "Beide Unternehmen haben sich nach Angaben des Südwestrundfunks bisher nicht zu den Berichten geäußert."
+    ],
+    "einfach": [
+     "Beim Sportwagenbauer Porsche könnten vier Tausend Stellen wegfallen.",
+     "Das berichtet das Handelsblatt aus Unterlagen von Volkswagen.",
+     "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig mit viel weniger Gewinn.",
+     "Eine Umsatzrendite ist der Gewinn im Verhältnis zum Umsatz.",
+     "Die Firmen haben sich dazu bisher nicht geäußert."
+    ]
+   },
+   "kurz": [
+    "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge weitere 4.000 Stellen wegfallen.",
+    "Der VW-Konzern rechnet im Jahr 2026 nur mit einer Umsatzrendite von einem Prozent.",
+    "Die Pläne gehen aus Unterlagen des VW-Aufsichtsrats von Anfang September hervor."
+   ],
+   "fakten": [
+    [
+     "Mögliche weitere Stellen bei Porsche",
+     "4.000"
+    ],
+    [
+     "Geplante Reduktion Sport Luxury",
+     "4.100 Mitarbeitende"
+    ],
+    [
+     "Fehlende Gemeinkosten",
+     "700 Millionen Euro"
+    ],
+    [
+     "Geplante Umsatzrendite VW 2026",
+     "ein Prozent"
+    ]
+   ],
+   "dossier": {
+    "slug": "porsche-stellenabbau-vw",
+    "titel": "Sparmaßnahmen und Stellenabbau bei Porsche und Volkswagen"
+   },
+   "bildInfo": {
+    "titel": "Porsche-Museum in Stuttgart-Zuffenhausen 04.jpg",
+    "beschreibung": "Porsche-Museum in Stuttgart-Zuffenhausen",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg/1280px-Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+    "urheber": "Giftzwerg 88",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "art": "ort",
+    "suchbegriff": "Porsche Museum Stuttgart Zuffenhausen",
+    "bildunterschrift": "Das Porsche-Museum in Stuttgart-Zuffenhausen.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Porsche-Museum in Stuttgart-Zuffenhausen 04.jpg",
+     "beschreibung": "Porsche-Museum in Stuttgart-Zuffenhausen",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg/1280px-Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+     "urheber": "Giftzwerg 88",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Porsche Museum Stuttgart Zuffenhausen",
+     "bildunterschrift": "Das Porsche-Museum in Stuttgart-Zuffenhausen.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Stuttgart, Deutschland",
+    "lat": 48.778,
+    "lon": 9.18
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge vier Tausend weiter",
+     "d": "69c20829df.mp3",
+     "l": 51.56,
+     "s": [
+      0.25,
+      6.36,
+      11.97,
+      16.49,
+      21.72,
+      28.23,
+      34.8,
+      40.88,
+      45.92
+     ]
+    },
+    {
+     "k": "Beim Sportwagenbauer Porsche könnten laut Medienberichten vier Tausend weitere S",
+     "d": "a519dec866.mp3",
+     "l": 15.98,
+     "s": [
+      0.25,
+      5.83,
+      12.2
+     ]
+    },
+    {
+     "k": "Beim Sportwagenbauer Porsche könnten vier Tausend Stellen wegfallen. Das bericht",
+     "d": "299658bd9e.mp3",
+     "l": 21.72,
+     "s": [
+      0.25,
+      4.81,
+      8.75,
+      14.32,
+      18.18
+     ]
+    },
+    {
+     "k": "Ob die Pläne tatsächlich umgesetzt werden, ist noch unklar.",
+     "d": "d0043d2023.mp3",
+     "l": 4.22,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Umsatzrendite? Eine Kennzahl, die das Verhältnis von Gew",
+     "d": "98875c3c78.mp3",
+     "l": 8.2,
+     "s": [
+      0.25,
+      3.43
      ]
     }
    ]
@@ -1216,873 +2995,6 @@
      "s": [
       0.25,
       3.18
-     ]
-    }
-   ]
-  },
-  {
-   "id": "usa-daenemark-groenland-abkommen",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T16:40:59.000Z",
-   "aktualisiert": "aktualisiert um 18:46 Uhr",
-   "titel": "Einigung im Streit um Grönland zwischen den USA, Dänemark und Grönland",
-   "vorspann": "Die USA, Dänemark und Grönland haben sich auf ein gemeinsames Abkommen verständigt. Die Regierungen planen die Unterzeichnung bei der UN-Generalversammlung in der kommenden Woche.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die USA, Dänemark und Grönland haben sich auf ein gemeinsames Abkommen geeinigt.",
-    "Das Abkommen soll den USA langfristige Sicherheitsrechte und Kontrolle über Investitionen sichern, während Dänemark und Grönland die Wahrung ihrer Souveränität betonen.",
-    "Die offizielle Unterzeichnung ist für die kommende Woche bei der UN-Generalversammlung vorgesehen, gefolgt von einer parlamentarischen Beratung in Dänemark."
-   ],
-   "einig": [
-    [
-     "Einigung zwischen USA, Dänemark und Grönland auf ein Abkommen",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Süddeutsche Zeitung",
-      "FAZ"
-     ]
-    ],
-    [
-     "Geplante Unterzeichnung des Abkommens bei der UN-Generalversammlung in der kommenden Woche",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "FAZ"
-     ]
-    ],
-    [
-     "Anerkennung der Souveränität Dänemarks und Grönlands laut offiziellen Erklärungen",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Süddeutsche Zeitung",
-      "FAZ"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Genaue Inhalte und Vertragstexte des Abkommens sind von offizieller Seite noch nicht vollständig veröffentlicht worden (Tagesschau/ARD, Süddeutsche Zeitung, FAZ)",
-    "Ausmaß der tatsächlichen Kontrolle und Veränderungen im Vergleich zum Abkommen von 1951 (ZDFheute, Süddeutsche Zeitung, FAZ)"
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Das Abkommen gibt den USA dauerhafte Kontrolle über Sicherheit und Belange in Grönland sowie ein Vetorecht bei Investitionen.",
-     "Tagesschau/ARD,ZDFheute,Süddeutsche Zeitung,FAZ"
-    ],
-    [
-     "Mette Frederiksen (Dänische Ministerpräsidentin)",
-     "Das Abkommen stärkt die Sicherheit in der Arktis und wahrt die Souveränität des Königreichs sowie das Selbstbestimmungsrecht Grönlands.",
-     "Tagesschau/ARD,FAZ"
-    ],
-    [
-     "Jens-Frederik Nielsen (Grönländischer Regierungschef)",
-     "Das Abkommen berücksichtigt die Interessen Grönlands und seinen Platz in der internationalen Zusammenarbeit.",
-     "Tagesschau/ARD,FAZ"
-    ],
-    [
-     "Michael Paul (Arktis-Experte, SWP)",
-     "Die Tragweite des Abkommens ist geringer als von Trump dargestellt, rote Linien wurden offenbar nicht überschritten.",
-     "ZDFheute"
-    ]
-   ],
-   "fehlend": "Stimmen aus der russischen oder chinesischen Regierung zu den Investitions- und Stützpunktbeschränkungen",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 13:02",
-     "fokus": "Überblick und Reaktionen",
-     "text": "Berichtet umfassend über die Reaktionen in Grönland und Dänemark sowie die bisher bekannten Details des Abkommens.",
-     "url": "https://www.tagesschau.de/ausland/amerika/groenland-abkommen-usa-daenemark-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 14:03",
-     "fokus": "Experten-Einordnung",
-     "text": "Beleuchtet das Abkommen durch ein Interview mit dem Arktis-Experten Michael Paul bezüglich der militärischen Bedeutung.",
-     "url": "https://www.zdfheute.de/politik/ausland/groenland-trump-daenemark-einigung-experte-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 18:40",
-     "fokus": "Kompakte Kurzmeldung",
-     "text": "Fasst die Einigung über die Ausweitung der US-Militärpräsenz kurz zusammen.",
-     "url": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-ausweiten-102.html",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 14:53",
-     "fokus": "Hintergrund und historischer Vergleich",
-     "text": "Vergleicht das neue Abkommen mit dem bestehenden Vertrag von 1951 und beschreibt die Stimmung in Grönland.",
-     "url": "https://www.sueddeutsche.de/politik/usa-daenemark-verteidigungsabkommen-groenland-li.3550725",
-     "video": false
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 10:28",
-     "fokus": "Diplomatische Details",
-     "text": "Analysiert die Vereinbarungen bezüglich Investitionssperren für Nicht-NATO-Staaten und die Reaktionen grönländischer Politiker.",
-     "url": "https://www.faz.net/aktuell/politik/ausland/groenland-abkommen-usa-und-daenemark-einigen-sich-accg-201242732.html",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Darstellung der Tragweite",
-     "Während Trump von dauerhafter Kontrolle über alle Belange spricht, betonen Experten wie Michael Paul sowie dänische Stellen, dass sich grundlegend wenig ändert und die Souveränität gewahrt bleibt."
-    ]
-   ],
-   "wfragen": {
-    "wer": "USA, Dänemark und Grönland",
-    "was": "Einigung auf ein gemeinsames Abkommen",
-    "wann": "September 2026",
-    "wo": "Washington, Kopenhagen und Nuuk",
-    "wie": "Durch diplomatische Verhandlungen zwischen den beteiligten Regierungen",
-    "warum": "Zur Beendigung des Streits und zur Sicherung der gemeinsamen Verteidigung",
-    "quellenlage": "Berichte von Tagesschau/ARD, ZDFheute, Deutschlandfunk, Süddeutsche Zeitung und FAZ"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Im Streit um die Arktis-Insel Grönland haben sich die Vereinigten Staaten, Dänemark und Grönland auf ein gemeinsames Abkommen geeinigt. Dies gaben die Regierungen und US-Präsident Donald Trump im September 2026 bekannt. Der Konflikt hatte zuvor zu anhaltenden Spannungen in der NATO und im Verhältnis der EU zu den USA geführt. Die Vereinbarung soll nach Angaben der dänischen Regierung in der kommenden Woche bei der UN-Generalversammlung in New York unterzeichnet werden.",
-      "Über konkrete Inhalte der Vereinbarung äußerten sich Dänemark und Grönland zunächst zurückhaltend. Laut US-Präsident Donald Trump gewährt das Abkommen den USA jedoch die dauerhafte Kontrolle über die Sicherheit und alle weiteren Belange in Grönland. Zudem sollen die USA das Recht erhalten, Feinde von militärischen Stützpunkten fernzuhalten. Auch sensible Investitionen in Grönland sollen künftig der Genehmigung durch die US-Regierung bedürfen.",
-      "Die dänische Ministerpräsidentin Mette Frederiksen betonte, dass mit der geplanten Vereinbarung die Souveränität und territoriale Integrität des dänischen Königreichs anerkannt werden. Auch das Selbstbestimmungsrecht des grönländischen Volkes bleibe gewahrt. Der grönländische Regierungschef Jens-Frederik Nielsen erklärte, das Abkommen berücksichtige die Interessen Grönlands und dessen Platz in der internationalen Zusammenarbeit. Das Abkommen muss nach dänischen Angaben noch vom dänischen Parlament abgesegnet werden, bevor es in Kraft treten kann."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Laut Berichten der Süddeutschen Zeitung und der FAZ ähnelt das neue Abkommen in großen Teilen einer bereits im Jahr 1951 unterzeichneten Vereinbarung. Diese gab den USA bereits freien Zugang zu Verteidigungszonen und die Möglichkeit zur Errichtung von Stützpunkten. Die FAZ berichtete unter Berufung auf einen amerikanischen Regierungsvertreter, dass das Abkommen auch für den Fall einer grönländischen Unabhängigkeit gelten soll. Für den Ausbau militärischer Strukturen sei demnach keine Zustimmung Grönlands oder Dänemarks erforderlich.",
-      "Die Vereinbarung schränkt nach Medienberichten zudem Investitionen von Staaten aus, die nicht der NATO angehören. Die USA erhalten demnach ein Vetorecht bei sensiblen Investitionen, um den Einfluss von Staaten wie China und Russland einzudämmen. Nach Angaben der Süddeutschen Zeitung hatte die grönländische Regierung in der Vergangenheit einen Gesetzesentwurf zu Investitionen vorbereitet, diesen jedoch nach den Drohungen aus den USA zurückgezogen. Die Kosten für den Betrieb und die Errichtung von Stützpunkten tragen laut den Berichten die USA.",
-      "ZDFheute und die FAZ verwiesen auf die bestehende Pituffik Space Base im Nordwesten Grönlands, die vom US-Militär für Raketenabwehr und Radarüberwachung genutzt wird. Der Arktis-Experte Michael Paul merkte bei ZDFheute an, dass sich durch den Deal im Vergleich zu bisherigen Regelungen grundlegend wenig verändere. Ob die USA neben Radarsystemen auch konkrete Abwehrsysteme oder neue Stützpunkte errichten werden, müsse nach Vorliegen des genauen Vertragstextes bewertet werden."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Der Streit um Grönland entwickelte sich zu einer erheblichen Belastungsprobe für das transatlantische Bündnis und die NATO. US-Präsident Donald Trump hatte seit Ende 2025 wiederholt gefordert, Grönland zu erwerben. Im Januar 2026 äußerte er die Absicht, die Insel notfalls auch mit militärischer Gewalt unter US-Kontrolle zu bringen. Dies löste vehemente Ablehnung in Grönland, Dänemark und zahlreichen EU-Staaten aus.",
-      "Grönland ist eine einstige dänische Kolonie und gehört bis heute zum dänischen Königreich, besitzt jedoch seit Jahrzehnten einen weitreichenden Autonomiestatus. Innenpolitische Entscheidungen trifft die Regierung der Insel eigenständig. Eine im Januar 2026 veröffentlichte Umfrage der Meinungsforschungsagentur Verian zeigte, dass rund 85 Prozent der befragten grönländischen Bevölkerung eine US-Zugehörigkeit ablehnen. Knapp die Hälfte befürwortete stattdessen eine vollständige Unabhängigkeit, während andere wirtschaftliche Einschnitte durch eine Loslösung von Dänemark befürchteten.",
-      "Dänemark lehnte die Forderungen der USA kategorisch ab und betonte die Unverkäuflichkeit der Insel sowie die Einhaltung roter Linien bezüglich der Souveränität. Die Europäische Union unterstützte diese Haltung und kündigte ein Investitionspaket an, um ein Zeichen gegen die Gebietsansprüche zu setzen. US-Präsident Trump drohte daraufhin betroffenen EU-Staaten mit Strafzöllen, bevor sich die Verhandlungen durch diplomatische Kontakte auf eine Einigung zubewegten."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die NATO ist ein militärisches Bündnis von nordamerikanischen und europäischen Staaten. Es dient der gemeinsamen Verteidigung und dem Schutz der territorialen Integrität seiner Mitglieder.",
-      "Die Souveränität eines Staates bezeichnet dessen rechtliche Unabhängigkeit und die alleinige Herrschaftsgewalt über ein bestimmtes Staatsgebiet."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Dänemarks Ministerpräsidentin Mette Frederiksen erklärte, das Abkommen stärke die gemeinsame Sicherheit in der Arktis und erkenne die Souveränität des Königreichs sowie das Selbstbestimmungsrecht Grönlands an. Der dänische Außenminister Lars Løkke äußerte die Hoffnung auf ein Ende der langanhaltenden Unsicherheit, wie die Tagesschau/ARD berichtete.",
-      "Grönlands Regierungschef Jens-Frederik Nielsen betonte laut Tagesschau/ARD, dass das Abkommen die Interessen Grönlands und dessen Platz in der internationalen Zusammenarbeit respektiere. Der grönländische Publizist und Politiker Aqqaluk Lynge äußerte in der FAZ Erleichterung und bezeichnete das Abkommen als eine hervorragende diplomatische Leistung.",
-      "US-Präsident Donald Trump erklärte auf Truth Social, den USA werde die dauerhafte Kontrolle über Sicherheit und Belange gewährt, und kündigte einen unverzüglichen Ausbau der militärischen Präsenz an. US-Außenminister Marco Rubio teilte mit, Grönland bleibe für immer Teil des strategischen Verteidigungsraums Nordamerikas. Der Arktis-Experte Michael Paul von der Stiftung Wissenschaft und Politik schätzte laut ZDFheute ein, dass die Tragweite des Deals geringer als von Trump dargestellt ist."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Regierungen der Vereinigten Staaten, Dänemarks und Grönlands planen die offizielle Unterzeichnung des Abkommens für die kommende Woche im Rahmen der UN-Generalversammlung in New York. Anschließend muss das Dokument nach dänischen Angaben noch vom Parlament in Kopenhagen gebilligt werden.",
-      "Erst nach der vollständigen Ratifizierung und dem Bekanntwerden des offiziellen Vertragstextes können Experten und Regierungen die genauen Auswirkungen auf Investitionen und militärische Strukturen auf der Insel abschließend bewerten."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Januar 2026",
-     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits durch die USA, Dänemark und Grönland"
-    ],
-    [
-     "Januar 2026",
-     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte und Veröffentlichung einer Umfrage zur Unabhängigkeit Grönlands"
-    ],
-    [
-     "Januar 2026",
-     "Einrichtung einer hochrangigen Arbeitsgruppe zur Beilegung des Grönland-Konflikts"
-    ],
-    [
-     "18. September 2026",
-     "Verkündung einer Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
-    ],
-    [
-     "19. September 2026",
-     "Bekanntgabe weiterer Details und geplante Unterzeichnung des Abkommens in der kommenden Woche"
-    ],
-    [
-     "Januar 2026",
-     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits zwischen den USA, Dänemark und Grönland"
-    ],
-    [
-     "19. September 2026",
-     "Verkündung der Einigung und des geplanten Abkommens durch die Regierungen und US-Präsident Trump"
-    ],
-    [
-     "Januar 2026",
-     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte auf dem Weltwirtschaftsforum in Davos"
-    ],
-    [
-     "19. September 2026",
-     "Verkündung der Einigung auf ein gemeinsames Abkommen zwischen den USA, Dänemark und Grönland"
-    ],
-    [
-     "Januar 2026",
-     "Veröffentlichung einer Umfrage zur Ablehnung einer US-Zugehörigkeit in Grönland"
-    ],
-    [
-     "September 2026",
-     "Verkündung der Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "ort",
-     "suchbegriff": "Nuuk landscape Greenland",
-     "bildunterschrift": "Blick auf Nuuk, die Hauptstadt von Grönland, wo über die politische Zukunft und das Abkommen beraten wurde."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Mette Frederiksen Prime Minister Denmark",
-     "bildunterschrift": "Mette Frederiksen, die Ministerpräsidentin Dänemarks, führte die Verhandlungen im Streit um Grönland."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters New York",
-     "bildunterschrift": "Der Sitz der Vereinten Nationen in New York, wo die Unterzeichnung des Abkommens geplant ist."
-    }
-   ],
-   "ort": {
-    "name": "Nuuk, Grönland und Kopenhagen, Dänemark"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Exakte Daten im Artikel und in der Zeitleiste angepasst, da keine konkreten Tage außer September 2026 genannt werden sollten."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Souveränität",
-      "Die staatliche Unabhängigkeit und das Recht eines Landes, selbst über seine Gesetze und seine Politik zu bestimmen."
-     ],
-     [
-      "NATO",
-      "Die Nordatlantische Vertrags-Organisation ist ein militärisches Bündnis von europäischen und nordamerikanischen Staaten zur gemeinsamen Verteidigung."
-     ]
-    ],
-    "fragen": [
-     "Welche unterschiedlichen Ziele verfolgten die beteiligten Regierungen im Streit um Grönland?",
-     "Warum ist der genaue Inhalt des Abkommens laut Experten schwer einzuschätzen?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat sich im September 2026 auf ein Abkommen geeinigt?",
-      "optionen": [
-       "Deutschland, Frankreich und die USA",
-       "Die USA, Dänemark und Grönland",
-       "China, Russland und die USA"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmenden Berichten haben sich die USA, Dänemark und Grönland auf das Abkommen verständigt."
-     },
-     {
-      "frage": "Wo ist die Unterzeichnung des Abkommens geplant?",
-      "optionen": [
-       "Bei der UN-Generalversammlung",
-       "In der Hauptstadt Nuuk",
-       "Beim NATO-Gipfel in Brüssel"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Regierungen planen die Unterzeichnung des Abkommens bei der UN-Generalversammlung in der kommenden Woche."
-     },
-     {
-      "frage": "Was betont die dänische Ministerpräsidentin Mette Frederiksen in Bezug auf das Abkommen?",
-      "optionen": [
-       "Dass Grönland an die USA verkauft wurde",
-       "Dass die Souveränität und territoriale Integrität des Königreichs anerkannt werden",
-       "Dass die dänische Armee aufgelöst wird"
-      ],
-      "richtig": 1,
-      "erklaerung": "Frederiksen betonte, dass die Vereinbarung die Souveränität und territoriale Integrität des dänischen Königreichs anerkennt."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Länder USA, Dänemark und Grönland haben sich geeinigt. Sie wollen in der nächsten Woche einen neuen Vertrag unterschreiben.",
-    "absaetze": [
-     "Im Streit um die Insel Grönland gibt es eine Lösung. Der amerikanische Präsident Donald Trump hatte die Insel früher gefordert. Das hatte für viel Streit gesorgt.",
-     "Nun haben die Regierungen der USA, von Dänemark und von Grönland ein gemeinsames Abkommen ausgearbeitet. Die Unterzeichnung soll bei der Versammlung der Vereinten Nationen stattfinden.",
-     "Über den genauen Inhalt wird noch geredet. Präsident Trump sagt, die USA bekommen mehr Kontrolle über die Sicherheit. Die dänische Ministerpräsidentin Mette Frederiksen betont dagegen, dass die Unabhängigkeit von Grönland und Dänemark erhalten bleibt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die USA, Dänemark und Grönland haben sich auf ein neues Abkommen geeinigt.",
-     "Das teilten die beteiligten Regierungen mit.",
-     "Die Unterzeichnung ist für die kommende Woche geplant."
-    ],
-    "lang": [
-     "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Abkommen geeinigt.",
-     "Das gaben die Regierungen im September des Jahres zweitausendsechs bekannt.",
-     "Zuvor hatte ein heftiger Streit um die Arktis-Insel das Bündnis der Nordatlantischen Vertrags-Organisation belastet.",
-     "Die offizielle Unterzeichnung soll nach Angaben der dänischen Regierung in der kommenden Woche bei den Vereinten Nationen in New York stattfinden.",
-     "Nach Darstellung des amerikanischen Präsidenten Donald Trump erhalten die Vereinigten Staaten damit die dauerhafte Kontrolle über die Sicherheit auf der Insel.",
-     "Die dänische Ministerpräsidentin Mette Frederiksen betonte dagegen, dass das Abkommen die Souveränität und die territoriale Integrität des dänischen Königreichs anerkennt.",
-     "Der Experte Michael Paul von der Stiftung Wissenschaft und Politik erklärte in einer Einschätzung, dass die Tragweite des Abkommens vermutlich geringer ist als von Trump dargestellt.",
-     "Das Abkommen soll nach dänischen Angaben erst nach einer Zustimmung des Parlaments in Kopenhagen in Kraft treten.",
-     "Über den genauen Vertragstext gaben die beteiligten Regierungen zunächst wenig Details bekannt.",
-     "Experten und Politiker wollen die genauen Auswirkungen nach der offiziellen Veröffentlichung bewerten."
-    ],
-    "einfach": [
-     "Die USA, Dänemark und Grönland haben sich geeinigt.",
-     "Das teilten die Regierungen im September des Jahres zweitausendsechs mit.",
-     "Ein Abkommen soll den Streit um die Insel beenden.",
-     "Präsident Trump sagt, die USA bekommen mehr Macht für die Sicherheit.",
-     "Die dänische Regierung betont dagegen, dass die Insel frei bleibt.",
-     "In der nächsten Woche soll der Vertrag bei den Vereinten Nationen unterzeichnet werden."
-    ]
-   },
-   "kurz": [
-    "Die USA, Dänemark und Grönland haben sich auf ein gemeinsames Abkommen geeinigt.",
-    "US-Präsident Trump spricht von dauerhafter Kontrolle, während Dänemark die Souveränität betont.",
-    "Die Unterzeichnung ist für die kommende Woche bei den Vereinten Nationen geplant."
-   ],
-   "fakten": [
-    [
-     "Ablehnung einer US-Zugehörigkeit in Umfrage",
-     "85 Prozent"
-    ],
-    [
-     "Soldaten auf der Militärbasis Pituffik Space Base",
-     "etwa 200"
-    ]
-   ],
-   "dossier": {
-    "slug": "streit-um-groenland",
-    "titel": "Streit um Grönland"
-   },
-   "bildInfo": {
-    "titel": "Iceberg in North Star Bay, Greenland.jpg",
-    "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
-    "urheber": "Jeremy Harbeck",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "art": "ort",
-    "suchbegriff": "Greenland landscape ice",
-    "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Iceberg in North Star Bay, Greenland.jpg",
-     "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
-     "urheber": "Jeremy Harbeck",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "ort",
-     "suchbegriff": "Greenland landscape ice",
-     "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Mette Frederiksen in 2023 (cropped).jpg",
-     "beschreibung": "Ministra do Reino da Dinamarca, Mette Frederiksen . Edifício Europa, escritório da Dinamarca - Bruxelas - Bélgica. Foto: Ricardo Stuckert/PR",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Mette_Frederiksen_in_2023_(cropped).jpg",
-     "urheber": "Palácio do Planalto",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "person",
-     "suchbegriff": "Mette Frederiksen",
-     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen, die an der Einigung beteiligt war.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump official portrait",
-     "bildunterschrift": "US-Präsident Donald Trump, dessen Land an der Einigung im Streit um Grönland beteiligt ist.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "version": 5,
-   "ton": [
-    {
-     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Abkommen",
-     "d": "f6a1ed3c6b.mp3",
-     "l": 71.34,
-     "s": [
-      0.25,
-      5.77,
-      10.07,
-      16.66,
-      24.35,
-      33.22,
-      43.13,
-      52.95,
-      59.68,
-      65.35
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben sich auf ein neues Abkommen geeinigt. Das t",
-     "d": "c60df37d80.mp3",
-     "l": 10.47,
-     "s": [
-      0.25,
-      4.93,
-      7.35
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben sich geeinigt. Das teilten die Regierungen ",
-     "d": "096a650c1b.mp3",
-     "l": 26.38,
-     "s": [
-      0.25,
-      4.02,
-      9.12,
-      12.52,
-      17.12,
-      21.04
-     ]
-    },
-    {
-     "k": "Genaue Inhalte und Vertragstexte des Abkommens sind von offizieller Seite noch n",
-     "d": "84ae17c0ba.mp3",
-     "l": 10.23,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Souveränität? Die staatliche Unabhängigkeit und das Rech",
-     "d": "fe5361530f.mp3",
-     "l": 9.72,
-     "s": [
-      0.25,
-      3.07
-     ]
-    }
-   ]
-  },
-  {
-   "id": "duma-wahl-russland-drohnenangriffe",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T16:40:59.000Z",
-   "aktualisiert": "aktualisiert um 18:46 Uhr",
-   "titel": "Parlamentswahl in Russland und Luftangriffe im Kriegsgeschehen",
-   "vorspann": "In Russland ist die dreitägige Wahl für das Parlament zu Ende gegangen. Gleichzeitig kam es im Verlauf des Krieges zu zahlreichen Luftangriffen zwischen Russland und der Ukraine.",
-   "eil": false,
-   "zusammenfassung": [
-    "In Russland ist die dreitägige Wahl für ein neues Parlament beendet worden.",
-    "Die Ukraine hat die Region Moskau und weitere russische Gebiete mit zahlreichen Drohnen angegriffen.",
-    "Unabhängige Beobachter und die ukrainische Führung kritisierten die Wahlen in Russland und in den besetzten Gebieten als undemokratisch.",
-    "Auch in der Ukraine führten Angriffe zu Todesfällen unter der Zivilbevölkerung und Schäden an der Infrastruktur."
-   ],
-   "einig": [
-    [
-     "Die dreitägige Parlamentswahl in Russland ging zu Ende.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Die Region Moskau wurde Ziel ukrainischer Drohnenangriffe.",
-     [
-      "ZDFheute",
-      "BBC"
-     ]
-    ],
-    [
-     "Zwei Menschen wurden in der Region Moskau bei den Angriffen getötet.",
-     [
-      "ZDFheute",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Die genaue Gesamtzahl der abgefangenen Drohnen im Vergleich zu den tatsächlichen Einschlägen variiert je nach Darstellung der Behörden."
-   ],
-   "positionen": [
-    [
-     "Moskauer Bürgermeister Sergej Sobjanin",
-     "Der Drohnenangriff auf Moskau war ein beispielloser Versuch, die Parlamentswahl zu stören.",
-     "ZDFheute, BBC"
-    ],
-    [
-     "Ukrainischer Präsident Wolodimir Selenskyj",
-     "Die Angriffe auf russische Öleinrichtungen treffen wichtige Finanzierungsquellen der russischen Kriegsmaschinerie.",
-     "ZDFheute, BBC"
-    ],
-    [
-     "Ukrainische Führung",
-     "Die Wahlen in den besetzten ukrainischen Gebieten sind Pseudowahlen, die nicht anerkannt werden.",
-     "Tagesschau/ARD, ZDFheute"
-    ]
-   ],
-   "fehlend": "Stimmen aus der westlichen Regierung zur Parlamentswahl selbst fehlen in den Berichten.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 17:09",
-     "fokus": "Parlamentswahl und Beobachterberichte",
-     "text": "Berichtet detailliert über den Ablauf der Duma-Wahl, angebliche Manipulationen sowie den Ausschluss von Oppositionsparteien.",
-     "url": "https://www.tagesschau.de/ausland/europa/duma-wahl-russland-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 14:10",
-     "fokus": "Drohnenangriffe und Wahltag",
-     "text": "Verknüpft die Parlamentswahl in Russland mit den parallelen, massiven Drohnenangriffen auf Moskau.",
-     "url": "https://www.zdfheute.de/politik/ausland/moskau-angriff-parlamentswahl-ukraine-krieg-russland-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 18:40",
-     "fokus": "-",
-     "text": "Am letzten Tag der Parlamentswahl in Russland ist die Hauptstadtregion Moskau erneut zum Ziel ukrainischer Drohnenangriffe geworden.",
-     "url": "https://www.deutschlandfunk.de/russische-parlamentswahl-geht-zu-ende-zwei-tote-bei-drohnenangriffen-auf-moskau-100.html",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "20.09.26, 12:45",
-     "fokus": "Ausmaß der Drohnenangriffe",
-     "text": "Legt den Schwerpunkt auf die Angriffe in der Region Moskau und die getroffenen Ölraffinerien.",
-     "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-     "video": false
-    },
-    {
-     "name": "NZZ",
-     "typ": "Tageszeitung (Schweiz)",
-     "art": "privates Medium",
-     "stamm": false,
-     "datum": "20.09.26, 15:40",
-     "fokus": "Kriegsgeschehen und Opferzahlen",
-     "text": "Dokumentiert umfassend die Opfer und Angriffe auf Munitionslager in der Ukraine sowie in Jaroslawl.",
-     "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-moskau-meldet-ukrainischen-angriff-mit-180-drohnen-am-letzten-wahltag-berichte-von-cyberangriff-bei-wahlen-in-russland-ld.10021245",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Fokus der Berichterstattung",
-     "Einige Medien legen den Schwerpunkt auf die russische Parlamentswahl, während andere ausführlich über die gleichzeitigen Drohnenangriffe auf Moskau berichten."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Wähler, Behörden und Streitkräfte in Russland und der Ukraine",
-    "was": "Parlamentswahl in Russland sowie gegenseitige Luftangriffe",
-    "wann": "20. September 2026",
-    "wo": "Russland und Ukraine",
-    "wie": "Durch Stimmabgabe an Urnen und elektronisch sowie durch Drohnenangriffe",
-    "warum": "Zur Parlamentsbestätigung laut Tagesschau und zur Kriegsfortführung laut Angaben",
-    "quellenlage": "Öffentlich-rechtliche Sender und Tageszeitungen"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "In Russland ging die dreitägige Wahl für ein neues Parlament zu Ende. Nach Angaben der Berichte begann am Freitag die Stimmabgabe für die Staatsduma.",
-      "Gleichzeitig geriet die russische Hauptstadtregion Moskau nach Angaben von ZDFheute, Deutschlandfunk und BBC ins Ziel umfangreicher Drohnenangriffe. Laut den Berichten wurden dabei Ölraffinerien und Wohngebäude getroffen. In der Region Moskau sowie im besetzten Teil von Cherson wurden Todesfälle gemeldet.",
-      "Die Abstimmung über die 450 Sitze in der Staatsduma erstreckte sich über elf Zeitzonen. Neben der Duma fanden laut ZDFheute auch Regional- und Kommunalwahlen statt.",
-      "Die zehn auf dem Stimmzettel aufgeführten Parteien gelten laut Tagesschau und ZDFheute durchweg als kremlnah. Sie unterstützen demnach den im Jahr 2022 von Präsident Wladimir Putin befohlenen Angriffskrieg.",
-      "Unabhängige Beobachter meldeten laut Tagesschau Manipulationsversuche und Regelverstöße. Die Chefin der Zentralen Wahlkommission, Ella Pamfilowa, erklärte, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Laut Angaben von ZDFheute und BBC wurden bei dem Angriff auf die Region Moskau zahlreiche Drohnen eingesetzt. Moskaus Bürgermeister Sergej Sobjanin sprach laut ZDFheute und BBC von einem massiven Angriff, der darauf abzielte, die Wahl zu stören.",
-      "In der Region Moskau wurden durch Drohneneinschläge in Wohngebäude laut den Berichten von BBC und dem Gouverneur Andrei Worobyev zwei Menschen getötet. Zudem wurden rund zwanzig Menschen verletzt. Eine Anlage der Moskauer Ölraffinerie wurde beschädigt.",
-      "Zusätzlich zu den Ereignissen in Moskau meldete die NZZ unter Berufung auf den Gouverneur und Präsident Wolodimir Selenski Luftangriffe auf ein Munitionslager im Gebiet Kiew. Dabei wurden laut NZZ zahlreiche Menschen getötet und verletzt.",
-      "In der zentralrussischen Region Jaroslawl kam bei ukrainischen Drohnenangriffen laut NZZ mindestens eine Person ums Leben. Weitere wurden verletzt. Ziel war hier eine Ölraffinerie des Unternehmens Slavneft, wo ein Brand ausbrach.",
-      "In den Regionen Kiew und Sumy wurden laut BBC bei russischen Angriffen ebenfalls Zivilisten getötet. Unter den Opfern befanden sich nach Angaben der Regionalleiter auch Kinder."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Parlamentswahl in Russland findet erstmals seit Beginn des umfassenden Angriffskrieges im Februar 2022 statt. Präsident Wladimir Putin hatte die Bürger laut Tagesschau aufgefordert, mit ihrer Stimmabgabe einen Beitrag zum Sieg des Landes zu leisten.",
-      "Das Leben in Russland wird durch westliche Sanktionen belastet. Laut Tagesschau klagen die Menschen über hohe Inflation sowie Treibstoffknappheit.",
-      "Die Antikriegspartei Jabloko wurde im August von der Wahl ausgeschlossen und rief zu einem Boykott auf. Beobachter der Partei wurden laut Tagesschau an der Überwachung gehindert."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Staatsduma ist das Parlament der Russischen Föderation. Sie besteht aus 450 Abgeordneten, die für eine bestimmte Amtszeit gewählt werden.",
-      "Wahlbeobachter sind unabhängige Personen oder Organisationen, die den Ablauf von Wahlen kontrollieren."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Der ukrainische Präsident Wolodimir Selenskyj erklärte auf X laut ZDFheute, dass die Langstrecken-Reaktionen erhebliche Auswirkungen in der Region Moskau hatten.",
-      "Der Moskauer Bürgermeister Sergej Sobjanin erklärte laut ZDFheute, dass der Angriff auf Moskau das Ziel hatte, die Wahlen zu stören.",
-      "Die Zentrale Wahlkommission Russlands teilte durch Ella Pamfilowa mit, dass es in Moskau Cyberattacken gegeben habe. Diese seien jedoch abgewehrt worden."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Umfassende Ergebnisse der russischen Parlamentswahl sollen laut ZDFheute am Montag vorliegen. Die Zentrale Wahlkommission kündigte an, den gemeldeten Unregelmäßigkeiten nachzugehen.",
-      "Präsident Wolodimir Selenskyj kündigte laut NZZ an, die Zahl der täglichen Langstrecken-Drohnenangriffe auf das russische Hinterland weiter zu erhöhen."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Freitag",
-     "Angriff auf ein Munitionslager im Gebiet Kiew."
-    ],
-    [
-     "Sonntag",
-     "Ende der dreitägigen Parlamentswahl in Russland und Drohnenangriffe."
-    ],
-    [
-     "Freitag",
-     "Russischer Angriff auf ein Munitionslager im Gebiet Kiew."
-    ],
-    [
-     "Sonntag",
-     "Ende der dreitägigen Parlamentswahl in Russland und ukrainische Drohnenangriffe auf die Region Moskau und Jaroslawl."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "keins",
-     "suchbegriff": "keins",
-     "bildunterschrift": "Es wird kein Bild angezeigt, da der Artikel Berichte über Todesopfer und Angriffe enthält."
-    }
-   ],
-   "ort": {
-    "name": "Moskau, Russland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Formulierung von Trump angepasst, da sie nicht direkt zur Wahl stand, sondern aus der NZZ-Meldung stammte."
-   ],
-   "wortwarnung": [
-    "massiven"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Staatsduma",
-      "Die Staatsduma ist das Parlament in Russland, in das die Abgeordneten gewählt werden."
-     ],
-     [
-      "Wahlbeobachter",
-      "Wahlbeobachter sind unabhängige Personen, die den Ablauf einer Wahl kontrollieren."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen unabhängige Wahlbeobachter bei Wahlen?",
-     "Wie beeinflussen militärische Angriffe den Alltag und die Politik während einer Wahl?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Tage dauerte die Parlamentswahl in Russland?",
-      "optionen": [
-       "Drei Tage",
-       "Eine Woche",
-       "Einen Tag"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und ZDFheute dauerte die Parlamentswahl in Russland drei Tage."
-     },
-     {
-      "frage": "Wer sprach von einem beispiellosen Drohnenangriff auf Moskau?",
-      "optionen": [
-       "Der russische Präsident",
-       "Der Moskauer Bürgermeister",
-       "Der ukrainische Präsident"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Moskauer Bürgermeister Sergej Sobjanin sprach laut ZDFheute und BBC von einem beispiellosen Angriff."
-     },
-     {
-      "frage": "Welche Partei regiert in Russland seit mehr als zwanzig Jahren laut den Berichten?",
-      "optionen": [
-       "Jabloko",
-       "Geeintes Russland",
-       "Slavneft"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Tagesschau nennt die Kremlpartei Geeintes Russland, die seit mehr als zwanzig Jahren regiert."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Russland wurde ein neues Parlament gewählt. Gleichzeitig gab es schwere Angriffe mit Drohnen.",
-    "absaetze": [
-     "Die Wahl in Russland dauerte drei Tage lang.",
-     "Die Regierungspartei wird voraussichtlich wieder gewinnen.",
-     "Unabhängige Beobachter sagten, dass es bei der Wahl Betrug gab.",
-     "Die Ukraine hat die russische Hauptstadt Moskau mit vielen Drohnen angegriffen.",
-     "Dabei wurden Ölraffinerien und Häuser getroffen und Menschen getötet."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Russland ist die Parlamentswahl nach drei Tagen zu Ende gegangen.",
-     "Gleichzeitig hat die Ukraine die Region Moskau mit vielen Drohnen angegriffen.",
-     "Dabei wurden nach Behördenangaben Ölraffinerien beschädigt und Menschen getötet."
-    ],
-    "lang": [
-     "In Russland ist die dreitägige Wahl für ein neues Parlament beendet worden.",
-     "Gleichzeitig geriet die Region um die Hauptstadt Moskau am Sonntag ins Ziel massiver Drohnenangriffe.",
-     "Nach Angaben der Behörden wurden dabei mehrere Menschen getötet und Gebäude beschädigt.",
-     "Der Moskauer Bürgermeister Sergej Sobjanin sagte, der Angriff sollte die Parlamentswahl stören.",
-     "Der ukrainische Präsident Wolodimir Selenskyj erklärte nach Angaben von ZDFheute und der BBC, es seien wichtige Öleinrichtungen getroffen worden.",
-     "Unabhängige Beobachter berichteten zudem von Manipulationsversuchen während der Parlamentswahl in Russland.",
-     "Die Chefin der Zentralen Wahlkommission Ella Pamfilowa erklärte dagegen, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen.",
-     "Die Parlamentswahl findet erstmals seit Beginn des russischen Angriffskrieges im Februar zweitausendzweiundzwanzig statt.",
-     "Umfassende Ergebnisse der Abstimmung sollen nach Angaben von ZDFheute am Montag vorliegen."
-    ],
-    "einfach": [
-     "In Russland ist die Wahl für das Parlament vorbei.",
-     "Die Ukraine hat die Stadt Moskau mit Drohnen angegriffen.",
-     "Dabei wurden auch Ölraffinerien getroffen.",
-     "Beobachter sagten, die Wahl in Russland war nicht fair.",
-     "Es gab Streit und Vorwürfe von beiden Seiten."
-    ]
-   },
-   "kurz": [
-    "In Russland ist die dreitägige Parlamentswahl zu Ende gegangen.",
-    "Die Ukraine hat die Region Moskau mit zahlreichen Drohnen angegriffen.",
-    "Beobachter berichteten von Manipulationsversuchen bei der Wahl in Russland.",
-    "Bei den Luftangriffen gab es mehrere Todesopfer und Verletzte."
-   ],
-   "fakten": [
-    [
-     "Sitze in der Staatsduma",
-     "450"
-    ],
-    [
-     "Zeitzonen für die Wahl",
-     "11"
-    ]
-   ],
-   "dossier": {
-    "slug": "wahl-und-krieg-russland-ukraine",
-    "titel": "Parlamentswahl in Russland und Kriegsgeschehen"
-   },
-   "bildInfos": [],
-   "ortInfo": {
-    "name": "Moskau, Russland",
-    "lat": 55.626,
-    "lon": 37.606
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "In Russland ist die dreitägige Wahl für ein neues Parlament beendet worden. Glei",
-     "d": "28e14e5816.mp3",
-     "l": 57.51,
-     "s": [
-      0.25,
-      4.63,
-      11.08,
-      16.07,
-      21.87,
-      31.17,
-      37.09,
-      44.9,
-      51.82
-     ]
-    },
-    {
-     "k": "In Russland ist die Parlamentswahl nach drei Tagen zu Ende gegangen. Gleichzeiti",
-     "d": "5036c69338.mp3",
-     "l": 14.12,
-     "s": [
-      0.25,
-      4.03,
-      8.58
-     ]
-    },
-    {
-     "k": "In Russland ist die Wahl für das Parlament vorbei. Die Ukraine hat die Stadt Mos",
-     "d": "5b916b7293.mp3",
-     "l": 17.21,
-     "s": [
-      0.25,
-      3.44,
-      7.29,
-      10.53,
-      13.92
-     ]
-    },
-    {
-     "k": "Die genaue Gesamtzahl der abgefangenen Drohnen im Vergleich zu den tatsächlichen",
-     "d": "48ce78cfe6.mp3",
-     "l": 7.37,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Parlament in Russland",
-     "d": "5b488f0928.mp3",
-     "l": 7.69,
-     "s": [
-      0.25,
-      2.62
      ]
     }
    ]
@@ -2927,6 +3839,23 @@
       15.47,
       19.04
      ]
+    },
+    {
+     "k": "Ob und wann Gerichte über die Rechtmäßigkeit des Hausverbots entscheiden werden,",
+     "d": "33988f19c2.mp3",
+     "l": 6.28,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Pressefreiheit? Das Recht von Journalisten, frei und ohn",
+     "d": "e1b5b9775a.mp3",
+     "l": 8.24,
+     "s": [
+      0.25,
+      3.22
+     ]
     }
    ]
   },
@@ -3305,6 +4234,23 @@
       14.76,
       18.3,
       23.22
+     ]
+    },
+    {
+     "k": "Welche konkreten wirtschaftlichen Gesamtauswirkungen die angedrohten Zölle auf C",
+     "d": "04490ba39b.mp3",
+     "l": 7.48,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Sanktionen? Wirtschaftliche Strafen oder Verbote gegen e",
+     "d": "6a5a5f8e2b.mp3",
+     "l": 8.83,
+     "s": [
+      0.25,
+      2.68
      ]
     }
    ]
@@ -3728,6 +4674,15 @@
       6.08,
       9.83,
       12.85
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Fassanstich? Das offizielle Öffnen des ersten Bierfasses",
+     "d": "088c6e2407.mp3",
+     "l": 8.57,
+     "s": [
+      0.25,
+      2.67
      ]
     }
    ]
@@ -4594,466 +5549,6 @@
    ]
   },
   {
-   "id": "guterres-nachfolge-bachelet",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T12:10:21.000Z",
-   "titel": "Michelle Bachelet zieht Kandidatur für das Amt der UN-Generalsekretärin zurück",
-   "vorspann": "Chiles frühere Präsidentin Michelle Bachelet bewirbt sich nicht länger um die Nachfolge von UN-Generalsekretär António Guterres. Sie gab ihren Rückzug auf Instagram und in einem Onlinevideo bekannt.",
-   "eil": false,
-   "zusammenfassung": [
-    "Chiles Ex-Präsidentin Michelle Bachelet hat ihre Kandidatur als UN-Generalsekretärin zurückgezogen.",
-    "Eine konkrete Begründung nannte sie nicht, zuvor hatte sie bei einer Probeabstimmung im Sicherheitsrat jedoch auf dem vorletzten Platz gelegen.",
-    "Das Auswahlverfahren läuft über den Sicherheitsrat, wo Rebeca Grynspan aus Costa Rica laut Berichten als Favoritin gilt.",
-    "Die Suche nach einer Nachfolge für António Guterres ist Teil eines Prozesses vor dem Ende seiner Amtszeit am 31. Dezember."
-   ],
-   "einig": [
-    [
-     "Michelle Bachelet hat ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen.",
-     [
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "Bachelet nannte keine konkrete Begründung für ihren Rückzug.",
-     [
-      "ZDFheute",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "Bachelet lag bei einer Probeabstimmung im Sicherheitsrat auf dem vorletzten Platz, mitgeteilt von der israelischen UN-Mission.",
-     [
-      "ZDFheute",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "António Guterres scheidet am 31. Dezember nach zwei Amtszeiten aus dem Amt.",
-     [
-      "ZDFheute",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Die genauen Beweggründe für den Rückzug von Michelle Bachelet, da sie keine konkrete Begründung nannte (laut ZDFheute, Deutschlandfunk, Spiegel, FAZ, Deutsche Welle)."
-   ],
-   "positionen": [
-    [
-     "Michelle Bachelet (Kandidatin)",
-     "Ihre Kandidatur trug dazu bei, dass eine Frau aus Lateinamerika auf die globale Agenda gesetzt wurde; sie bereut den Schritt nicht.",
-     "ZDFheute, Spiegel, FAZ, Deutsche Welle"
-    ],
-    [
-     "Annalena Baerbock (Präsidentin der UN-Generalversammlung)",
-     "Es ist Zeit für eine Frau an der Spitze der Vereinten Nationen.",
-     "Spiegel"
-    ],
-    [
-     "USA und Russland",
-     "Kritik an dem Ruf nach einer Frau an der UN-Spitze.",
-     "ZDFheute"
-    ]
-   ],
-   "fehlend": "Direkte Stellungnahmen von António Guterres, den ständigen Mitgliedern des Sicherheitsrates sowie den anderen Bewerberinnen zu Bachelets Rückzug.",
-   "medien": [
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 02:34",
-     "fokus": "Politischer Kontext und Streit",
-     "text": "Berichtet ausführlich über die Hintergründe der Kandidatensuche und erwähnt den Streit um Baerbocks Forderung nach einer Frau an der UN-Spitze.",
-     "url": "https://www.zdfheute.de/politik/ausland/un-nachfolge-guterres-bachelet-kandidatur-rueckzug-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 14:10",
-     "fokus": "Kurzmeldung und Details zur Nominierung",
-     "text": "Fasst den Rückzug kompakt zusammen und liefert ergänzende Details zur ursprünglichen Nominierung durch Boric sowie zum entzogenen Rückhalt durch Kast.",
-     "url": "https://www.deutschlandfunk.de/amt-der-uno-generalsekretaerin-chiles-ex-praesidentin-bachelet-zieht-kandidatur-zurueck-102.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 09:32",
-     "fokus": "Ablauf der Probeabstimmungen",
-     "text": "Nennt zusätzliche Details zu den Ergebnissen der bisherigen Probeabstimmungen im Sicherheitsrat und zitiert Baerbock zur Frauenfrage.",
-     "url": "https://www.spiegel.de/ausland/michelle-bachelet-chiles-ex-praesidentin-zieht-uno-kandidatur-zurueck-a-b6d352b1-9b25-434c-a39f-0a8f12f99bda#ref=rss",
-     "video": false
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 04:07",
-     "fokus": "Kompakte Zusammenfassung",
-     "text": "Beleuchtet den Rückzug im Rahmen der internationalen Berichterstattung und listet die Eckdaten des Auswahlverfahrens auf.",
-     "url": "https://www.faz.net/aktuell/politik/ausland/bachelet-gibt-kandidatur-als-un-generalsekretaerin-auf-accg-201243877.html",
-     "video": false
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "20.09.26, 11:41",
-     "fokus": "Hintergrund des Bewerberfeldes",
-     "text": "Gibt eine detaillierte Übersicht über das gesamte Bewerberfeld, die regionale Rotation und Bachelets frühere politische Laufbahn sowie Verfolgungsgeschichte.",
-     "url": "https://www.dw.com/de/chilenin-bachelet-zieht-kandidatur-für-un-spitze-zurück/a-79342792?maca=de-rss-de-all-1119-rdf",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit des Bewerberfeldes",
-     "Die Deutsche Welle nennt eine genaue Aufteilung von fünf Frauen und drei Männern sowie Details zu Grynspan und Rodrigues-Birkett, während andere Quellen sich auf einzelne Favoriten konzentrieren."
-    ],
-    [
-     "Erwähnung von José Antonio Kast",
-     "Nur die Deutsche Welle erwähnt, dass der chilenische Präsident Kast Bachelet die Unterstützung entzogen hat."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Michelle Bachelet, frühere Präsidentin Chiles",
-    "was": "Rückzug der Kandidatur für die UN-Generalsekretärin",
-    "wann": "September 2026",
-    "wo": "New York, Vereinigte Staaten",
-    "wie": "Durch Bekanntgabe auf Instagram und in einem Onlinevideo",
-    "warum": "Keine konkrete Begründung genannt, laut Bachelet",
-    "quellenlage": "UN-Mission, Instagram-Post, Onlinevideo und Berichte aus dem UN-Sicherheitsrat"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Chiles frühere Präsidentin Michelle Bachelet hat ihre Bewerbung für das Amt der UN-Generalsekretärin beendet. Dies teilte die 74-Jährige auf der Plattform Instagram sowie in einem Onlinevideo mit. Eine konkrete Begründung für diesen Schritt nannte sie nicht. Die Suche nach einer Nachfolge für den amtierenden UN-Generalsekretär läuft über den UN-Sicherheitsrat. In den vergangenen Wochen fanden dazu geheime Probeabstimmungen in diesem Gremium statt.",
-      "Laut Mitteilungen der israelischen UN-Mission unter Berufung auf Quellen im Sicherheitsrat landete Bachelet bei der jüngsten Probeabstimmung auf dem vorletzten Platz. Die Chilenin hatte sich im Rahmen ihrer Kampagne für Multilateralismus, Völkerrecht, Demokratie, Menschenrechte und Klimaschutz eingesetzt. Zu ihren erklärten Zielen gehörte auch, das Bewusstsein für eine Kandidatin aus Lateinamerika zu stärken.",
-      "Bachelet erklärte, sie bereue ihre Kandidatur nicht und betonte ihren Beitrag zur globalen Debatte. Sie äußerte, dass man dazu beigetragen habe, die Überzeugung auf die Agenda zu setzen, dass die nächste Generalsekretärin eine Frau aus Lateinamerika sein sollte. Neben ihr erfüllen laut den Berichten auch die ecuadorianischen Bewerberinnen María Fernanda Espinosa und Ivonne A-Baki dieses Kriterium. Das Bewerberfeld umfasste zuletzt verschiedene Persönlichkeiten aus Lateinamerika und Afrika."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten und das Umfeld",
-     "absaetze": [
-      "Bei der Auswahl im UN-Sicherheitsrat spielen geheime Probeabstimmungen eine zentrale Rolle zur Sondierung der Kandidaten. In den bisherigen Probeabstimmungen lag laut den Berichten die Diplomatin Rebeca Grynspan aus Costa Rica vorn. Eine weitere Abstimmung konnte die frühere Außenministerin des Karibikstaates Guyana, Carolyn Rodrigues-Birkett, für sich entscheiden. Als Favoritin für die Nachfolge von António Guterres gilt demnach Rebeca Grynspan.",
-      "Bachelets Kandidatur erfuhr während des Prozesses unterschiedliche Unterstützungen. Laut der Deutschen Welle war sie im Februar vom damaligen chilenischen Präsidenten Gabriel Boric nominiert worden. Brasiliens Präsident Luiz Inácio Lula da Silva und Mexikos Präsidentin Claudia Sheinbaum unterstützten die Bewerbung ebenfalls. Chiles neuer Präsident José Antonio Kast entzog ihr später jedoch die Unterstützung, wie die Deutsche Welle berichtet.",
-      "Das aktuelle Bewerberfeld im Rennen um den Posten besteht laut Angaben der Deutschen Welle aus fünf Frauen aus Lateinamerika sowie drei Männern aus Lateinamerika und Afrika. Die 15 Mitglieder des UN-Sicherheitsrates befinden sich in der Phase der Kandidatenfindung. Wer das Amt von Guterres übernehmen möchte, benötigt mindestens die Stimmen von neun Mitgliedern des Gremiums."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Biografie",
-     "absaetze": [
-      "Michelle Bachelet blickt auf eine lange politische und internationale Laufbahn zurück. Sie war zweimal Präsidentin ihres Heimatlandes Chile, und zwar in den Jahren 2006 bis 2010 sowie von 2014 bis 2018. Bei ihrer ersten Wahl wurde sie zur ersten Präsidentin des Landes gewählt. Zwischen 2018 und 2022 fungierte sie als UN-Hochkommissarin für Menschenrechte.",
-      "In ihrer Biografie finden sich prägende historische Stationen während der Militärdiktatur in Chile. Während der Diktatur von Augusto Pinochet wurde Bachelet nach Angaben der Berichte wegen ihres Widerstands gefoltert. Später floh sie mit ihrer Mutter in die Deutsche Demokratische Republik, wo sie Deutsch lernte und Medizin studierte. Als UN-Menschenrechtskommissarin kritisierte sie später unter anderem China, während die US-Regierung sie insbesondere wegen ihrer Haltung zum Recht auf Abtreibung kritisierte.",
-      "Der derzeitige UN-Generalsekretär António Guterres scheidet nach zehn Jahren und zwei Amtszeiten am 31. Dezember aus dem Amt. Nach einer ungeschriebenen regionalen Rotation wäre nach dem Portugiesen diesmal Lateinamerika an der Reihe. Einziger Amtsinhaber aus dieser Region war bislang der Peruaner Javier Pérez de Cuéllar von 1982 bis 1991. Bislang stand zudem noch nie eine Frau an der Spitze der Vereinten Nationen."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Vereinten Nationen sind eine internationale Organisation von Staaten. Sie setzen sich weltweit für den Weltfrieden, die Einhaltung des Völkerrechts, Menschenrechte und die internationale Zusammenarbeit ein. An der Spitze der Organisation steht der Generalsekretär oder die Generalsekretärin.",
-      "Der UN-Sicherheitsrat ist das Gremium der Vereinten Nationen mit 15 Mitgliedern. Fünf dieser Mitglieder sind ständige Mitglieder: Russland, China, Frankreich, Großbritannien und die USA. Diese fünf Staaten besitzen jeweils ein Vetorecht, mit dem sie Personalvorschläge blockieren können."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Positionen",
-     "absaetze": [
-      "Die Suche nach einem neuen UN-Generalsekretär sorgt für Diskussionen auf internationaler Ebene. Die Präsidentin der UN-Generalversammlung, Annalena Baerbock, sprach sich explizit für eine Nachfolgerin an der Spitze der Organisation aus. Sie äußerte laut Spiegel, dass es Zeit für eine Frau sei. Baerbocks Ruf nach einer Frau an der UN-Spitze stößt laut ZDFheute bei den USA und Russland auf Kritik.",
-      "Michelle Bachelet selbst äußerte in Bezug auf ihren Rückzug, dass einige möglicherweise glaubten, es sei nicht der richtige Zeitpunkt für ihre Art von Kandidatur gewesen. Sie betonte jedoch, dass sie die Herausforderung nicht bedauere. Die israelische UN-Mission teilte unter Berufung auf Quellen im Sicherheitsrat den vorletzten Platz von Bachelet bei der Probeabstimmung mit.",
-      "Internationale politische Akteure begleiten den Auswahlprozess mit verschiedenen Aussagen. Die Regierungen von Brasilien und Mexiko unter den Präsidenten Luiz Inácio Lula da Silva und Claudia Sheinbaum unterstützten die Bewerbung Bachelets. Chiles neuer Präsident José Antonio Kast entzog ihr dagegen laut der Deutschen Welle die Unterstützung."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Mitglieder des UN-Sicherheitsrates setzen die Phase der Kandidatenfindung fort. Mit weiteren geheimen Probeabstimmungen soll versucht werden, sich auf einen Nachfolger oder eine Nachfolgerin zu verständigen. Im September fällt die endgültige Entscheidung über den Personalvorschlag des Sicherheitsrates.",
-      "Wenn sich der Sicherheitsrat auf einen Personalvorschlag geeinigt hat, erfolgt im nächsten Schritt die Abstimmung in der UN-Vollversammlung. Der amtierende Generalsekretär António Guterres bleibt noch bis zum 31. Dezember im Amt."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Februar 2026",
-     "Nominierung Bachelets durch den damaligen chilenischen Präsidenten Gabriel Boric."
-    ],
-    [
-     "September 2026",
-     "Michelle Bachelet gibt ihren Rückzug von der Kandidatur für das Amt der UN-Generalsekretärin bekannt."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Michelle Bachelet politician",
-     "bildunterschrift": "Michelle Bachelet, die frühere Präsidentin Chiles und ehemalige UN-Menschenrechtskommissarin."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters New York",
-     "bildunterschrift": "Das Hauptquartier der Vereinten Nationen in New York, dem Tagungsort des Sicherheitsrates."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "António Guterres UN Secretary General",
-     "bildunterschrift": "Der amtierende UN-Generalsekretär António Guterres, dessen Amtszeit Ende Dezember endet."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Annalena Baerbock politician",
-     "bildunterschrift": "Annalena Baerbock, Präsidentin der UN-Generalversammlung."
-    }
-   ],
-   "ort": {
-    "name": "New York, Vereinigte Staaten"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das Datum in wfragen wurde von exakt '20. September 2026' auf 'September 2026' angepasst, da kein genauer Tag in allen Texten genannt wird.",
-    "Der Begriff DDR wurde im Text ausgeschrieben.",
-    "Unbelegte Details im Abschnitt Zum Verständnis wurden entfernt."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Multilateralismus",
-      "Eine Form der Politik, bei der mehrere Staaten eng zusammenarbeiten, um gemeinsame Probleme zu lösen."
-     ],
-     [
-      "Vetorecht",
-      "Das Recht bestimmter Staaten, einen Beschluss oder eine Personalie im UN-Sicherheitsrat ganz alleine zu blockieren."
-     ],
-     [
-      "Probeabstimmung",
-      "Eine geheime Testwahl im Sicherheitsrat, um zu sehen, welche Kandidaten genügend Unterstützung haben."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen die ständigen Mitglieder des UN-Sicherheitsrates bei der Auswahl der neuen Generalsekretärin oder des neuen Generalsekretärs?",
-     "Warum ist es laut den Berichten für Kandidatinnen und Kandidaten wichtig, bei den Probeabstimmungen im Sicherheitsrat gut abzuschneiden?",
-     "Welche Argumente bringen verschiedene Politikerinnen und Politiker für die Besetzung des Amtes mit einer Frau vor?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat die Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen?",
-      "optionen": [
-       "Annalena Baerbock",
-       "Michelle Bachelet",
-       "Rebeca Grynspan"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmender Berichte hat Chiles frühere Präsidentin Michelle Bachelet ihre Kandidatur zurückgezogen."
-     },
-     {
-      "frage": "Wie viele Mitglieder hat der UN-Sicherheitsrat laut den Berichten?",
-      "optionen": [
-       "10 Mitglieder",
-       "15 Mitglieder",
-       "20 Mitglieder"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der UN-Sicherheitsrat besteht laut den Berichten aus 15 Mitgliedern."
-     },
-     {
-      "frage": "Wann endet die Amtszeit des amtierenden UN-Generalsekretärs António Guterres?",
-      "optionen": [
-       "Am 31. Dezember",
-       "Am 30. September",
-       "Am 31. Januar"
-      ],
-      "richtig": 0,
-      "erklaerung": "In den Berichten steht übereinstimmend, dass António Guterres am 31. Dezember aus dem Amt scheidet."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die früher in Chile regierende Michelle Bachelet bewirbt sich nicht länger um die Führung der Vereinten Nationen.",
-    "absaetze": [
-     "Michelle Bachelet hat ihre Bewerbung für das Amt der Generalsekretärin bei den Vereinten Nationen zurückgezogen.",
-     "Das gab die vierundsiebzigjährige Politikerin auf Instagram und in einem Video bekannt.",
-     "Einen genauen Grund für ihren Schritt nannte sie nicht.",
-     "Zuvor hatte bei einer geheimen Abstimmung im Sicherheitsrat ein anderes Ergebnis gezeigt, dass sie dort weit hinten landete.",
-     "Die Vereinten Nationen suchen eine Nachfolge für den aktuellen Chef António Guterres, dessen Amtszeit Ende Dezember endet."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zurück.",
-     "Bei einer Probeabstimmung im Sicherheitsrat landete sie zuvor auf dem vorletzten Platz.",
-     "Der amtierende Generalsekretär António Guterres scheidet Ende Dezember aus dem Amt."
-    ],
-    "lang": [
-     "Die frühere chilenische Präsidentin Michelle Bachelet bewirbt sich nicht länger um den Posten der UN-Generalsekretärin.",
-     "Das gab die vierundsiebzigjährige Politikerin im September über soziale Medien bekannt.",
-     "Einen konkreten Grund für den Rückzug nannte sie nach Angaben der Berichte nicht.",
-     "Bei einer geheimen Probeabstimmung im Sicherheitsrat der Vereinten Nationen landete Bachelet zuvor auf dem vorletzten Platz.",
-     "Das teilte die israelische UN-Mission unter Berufung auf Quellen aus dem Sicherheitsrat mit.",
-     "Als Favoritin für die Nachfolge von António Guterres gilt nach Angaben der Medien die Diplomatin Rebeca Grynspan aus Costa Rica.",
-     "Die USA und Russland übten zuvor Kritik an Forderungen, dass eine Frau das Amt übernehmen soll.",
-     "Die Vereinten Nationen sind eine internationale Organisation, die sich weltweit für den Frieden einsetzt.",
-     "Im September fällt im Sicherheitsrat die endgültige Entscheidung über den Personalvorschlag für die Vollversammlung.",
-     "Der bisherige Amtsinhaber Guterres bleibt noch bis zum einunddreißigsten Dezember im Amt."
-    ],
-    "einfach": [
-     "Michelle Bachelet will nicht mehr UN-Generalsekretärin werden.",
-     "Sie hat ihre Bewerbung im September überraschend zurückgezogen.",
-     "Zuvor lief eine Abstimmung im Sicherheitsrat nicht gut für sie.",
-     "Der Sicherheitsrat ist ein wichtiges Gremium der Vereinten Nationen.",
-     "Dort wird im September über eine Nachfolge für António Guterres beraten.",
-     "Ende Dezember endet die Amtszeit des bisherigen Chefs."
-    ]
-   },
-   "kurz": [
-    "Chiles Ex-Präsidentin Michelle Bachelet zieht ihre Kandidatur für den UN-Vorsitz zurück.",
-    "Zuvor belegte sie bei einer geheimen Probeabstimmung im Sicherheitsrat den vorletzten Platz.",
-    "Der amtierende UN-Generalsekretär António Guterres scheidet am einunddreißigsten Dezember aus dem Amt.",
-    "Die Entscheidung über die Nachfolge im UN-Sicherheitsrat fällt im September."
-   ],
-   "fakten": [
-    [
-     "Alter von Michelle Bachelet",
-     "74 Jahre"
-    ],
-    [
-     "Mitglieder im UN-Sicherheitsrat",
-     "15"
-    ],
-    [
-     "Ständige Mitglieder mit Vetorecht",
-     "5"
-    ],
-    [
-     "Benötigte Stimmen im Sicherheitsrat",
-     "mindestens 9"
-    ]
-   ],
-   "dossier": {
-    "slug": "un-generalsekretariat-2026",
-    "titel": "Suche nach der neuen UN-Generalsekretärin oder dem neuen UN-Generalsekretär"
-   },
-   "bildInfo": {
-    "titel": "Prime Minister Sanna Marin met with United Nations High Commissioner for Human Rights, Michelle Bachelet in Helsinki 5.2.2020 (49491548267).jpg",
-    "beschreibung": "© Laura Kotila | valtioneuvoston kanslia",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg/1280px-Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights,_Michelle_Bachelet_in_Helsinki_5.2.2020_(49491548267).jpg",
-    "urheber": "FinnishGovernment",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "art": "person",
-    "suchbegriff": "Michelle Bachelet politician",
-    "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Prime Minister Sanna Marin met with United Nations High Commissioner for Human Rights, Michelle Bachelet in Helsinki 5.2.2020 (49491548267).jpg",
-     "beschreibung": "© Laura Kotila | valtioneuvoston kanslia",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg/1280px-Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights,_Michelle_Bachelet_in_Helsinki_5.2.2020_(49491548267).jpg",
-     "urheber": "FinnishGovernment",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "person",
-     "suchbegriff": "Michelle Bachelet politician",
-     "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
-     "beschreibung": "United Nations General Assembly Building, New York City",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
-     "urheber": "Jakub Hałun",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters New York",
-     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York City.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "António Guterres United Nations Secretary-General in 2024 (cropped).jpg",
-     "beschreibung": "Secretary Antony J. Blinken meets with UN Secretary-General Antonio Guterres at the Department of State in Washington, D.C., June 4, 2024. (Official State Department photo by Chuck Kennedy)",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_(cropped).jpg",
-     "urheber": "U.S. Department of State from United States",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "António Guterres UN Secretary General",
-     "bildunterschrift": "UN-Generalsekretär António Guterres, dessen Nachfolge ausgeschrieben ist.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die frühere chilenische Präsidentin Michelle Bachelet bewirbt sich nicht länger ",
-     "d": "f9061a4213.mp3",
-     "l": 61.89,
-     "s": [
-      0.25,
-      6.99,
-      12.39,
-      16.92,
-      23.92,
-      29.41,
-      37.72,
-      43.62,
-      49.82,
-      56.15
-     ]
-    },
-    {
-     "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
-     "d": "8f8ad78e48.mp3",
-     "l": 15.81,
-     "s": [
-      0.25,
-      5.34,
-      10.3
-     ]
-    },
-    {
-     "k": "Michelle Bachelet will nicht mehr UN-Generalsekretärin werden. Sie hat ihre Bewe",
-     "d": "3a3a5170a6.mp3",
-     "l": 26.03,
-     "s": [
-      0.25,
-      3.98,
-      8,
-      12.3,
-      17.02,
-      22.16
-     ]
-    }
-   ]
-  },
-  {
    "id": "bayern-muenchen-union-berlin-fussball",
    "rubrik": "Sport",
    "zeit": "2026-09-19T12:21:48.000Z",
@@ -5455,11 +5950,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.65,
+     "l": 12.71,
      "s": [
       0.25,
-      5.47,
-      9.33
+      5.6,
+      9.5
      ]
     },
     {
