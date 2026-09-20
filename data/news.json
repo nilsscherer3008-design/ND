@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-19T19:18:05.810Z",
+ "stand": "2026-09-20T06:11:05.247Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -9,7 +9,10 @@
   "usa-daenemark-groenland-abkommen",
   "google-gemini-ki-cyberangriffe",
   "oktoberfest-muenchen-eroeffnung",
-  "bayern-muenchen-union-berlin-fussball"
+  "bayern-muenchen-union-berlin-fussball",
+  "wahlen-berlin-mecklenburg-vorpommern",
+  "duma-wahl-russland-drohnenangriffe",
+  "huthi-angriffe-saudi-arabien"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -23,11 +26,14 @@
   "usa-daenemark-groenland-abkommen",
   "google-gemini-ki-cyberangriffe",
   "oktoberfest-muenchen-eroeffnung",
-  "bayern-muenchen-union-berlin-fussball"
+  "bayern-muenchen-union-berlin-fussball",
+  "wahlen-berlin-mecklenburg-vorpommern",
+  "duma-wahl-russland-drohnenangriffe",
+  "huthi-angriffe-saudi-arabien"
  ],
  "wetter": {
-  "stand": "2026-09-19T19:18:05.810Z",
-  "morgenTag": "Sonntag",
+  "stand": "2026-09-20T06:11:05.247Z",
+  "morgenTag": "Montag",
   "orte": [
    {
     "name": "Hamburg",
@@ -35,14 +41,14 @@
     "lon": 9.99,
     "teil": "Norden",
     "heute": {
-     "code": 61,
-     "max": 19,
-     "min": 14
+     "code": 80,
+     "max": 18,
+     "min": 13
     },
     "morgen": {
      "code": 80,
-     "max": 19,
-     "min": 14
+     "max": 18,
+     "min": 12
     }
    },
    {
@@ -52,13 +58,13 @@
     "teil": "Osten",
     "heute": {
      "code": 61,
-     "max": 21,
-     "min": 12
+     "max": 23,
+     "min": 15
     },
     "morgen": {
      "code": 80,
-     "max": 21,
-     "min": 14
+     "max": 18,
+     "min": 13
     }
    },
    {
@@ -67,14 +73,14 @@
     "lon": 12.37,
     "teil": "Osten",
     "heute": {
-     "code": 61,
-     "max": 21,
-     "min": 12
+     "code": 80,
+     "max": 20,
+     "min": 14
     },
     "morgen": {
      "code": 80,
-     "max": 19,
-     "min": 13
+     "max": 18,
+     "min": 11
     }
    },
    {
@@ -83,14 +89,14 @@
     "lon": 6.96,
     "teil": "Westen",
     "heute": {
-     "code": 51,
-     "max": 24,
-     "min": 16
+     "code": 63,
+     "max": 20,
+     "min": 14
     },
     "morgen": {
-     "code": 53,
+     "code": 3,
      "max": 20,
-     "min": 15
+     "min": 13
     }
    },
    {
@@ -99,14 +105,14 @@
     "lon": 8.68,
     "teil": "Westen",
     "heute": {
-     "code": 3,
-     "max": 25,
-     "min": 11
+     "code": 61,
+     "max": 21,
+     "min": 13
     },
     "morgen": {
-     "code": 61,
-     "max": 20,
-     "min": 13
+     "code": 3,
+     "max": 19,
+     "min": 10
     }
    },
    {
@@ -115,14 +121,14 @@
     "lon": 9.18,
     "teil": "Süden",
     "heute": {
-     "code": 3,
-     "max": 25,
-     "min": 11
+     "code": 61,
+     "max": 26,
+     "min": 14
     },
     "morgen": {
-     "code": 61,
-     "max": 25,
-     "min": 14
+     "code": 3,
+     "max": 19,
+     "min": 11
     }
    },
    {
@@ -131,22 +137,22 @@
     "lon": 11.58,
     "teil": "Süden",
     "heute": {
-     "code": 45,
-     "max": 22,
-     "min": 10
+     "code": 80,
+     "max": 24,
+     "min": 13
     },
     "morgen": {
      "code": 61,
-     "max": 24,
-     "min": 13
+     "max": 17,
+     "min": 12
     }
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 19 und 25 Grad.",
-   "Die Vorhersage für morgen, Sonntag: im Norden und Osten Regenschauer, im Süden und Westen leichter Regen.",
-   "Die Temperaturen erreichen dann 19 bis 25 Grad.",
-   "Am wärmsten wird es in Stuttgart mit 25 Grad.",
+   "Heute liegen die Höchstwerte zwischen 18 und 26 Grad.",
+   "Die Vorhersage für morgen, Montag: im Norden und Osten Regenschauer, im Süden und Westen bewölkt.",
+   "Die Temperaturen erreichen dann 17 bis 20 Grad.",
+   "Am wärmsten wird es in Köln mit 20 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "quelle": "Open-Meteo / Deutscher Wetterdienst"
@@ -156,89 +162,89 @@
   "stimme": "Thorsten (Piper, offene Stimme)",
   "ansagen": [
    {
-    "k": "Nachrichten-Heft. Die Hauptausgabe vom Samstag, 19. September.",
-    "d": "d6741a3b81.mp3",
+    "k": "Nachrichten-Heft. Die Hauptausgabe vom Sonntag, 20. September.",
+    "d": "18a903477e.mp3",
+    "l": 4.91,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Sonntag, 20. September.",
+    "d": "0b9d000527.mp3",
+    "l": 5.57,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Einfach erklärt vom Sonntag, 20. September.",
+    "d": "9b7ef33f1f.mp3",
+    "l": 4.88,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Kurzmeldungen vom Sonntag, 20. September.",
+    "d": "2bc795a80d.mp3",
+    "l": 5.1,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Der Wochenrückblick vom Sonntag, 20. September.",
+    "d": "0326ec28f5.mp3",
     "l": 5.07,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Samstag, 19. September.",
-    "d": "301d24aaaf.mp3",
+    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Sonntag, 20. September.",
+    "d": "ca866791bd.mp3",
+    "l": 5.75,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Sonntag, 20. September.",
+    "d": "c08fc07938.mp3",
+    "l": 5.46,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Sonntag, 20. September.",
+    "d": "689c99aa16.mp3",
     "l": 5.76,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Einfach erklärt vom Samstag, 19. September.",
-    "d": "fd10eabd7a.mp3",
-    "l": 5.03,
+    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Sonntag, 20. September.",
+    "d": "f755cfab9d.mp3",
+    "l": 5.61,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Kurzmeldungen vom Samstag, 19. September.",
-    "d": "1346e8ecb0.mp3",
-    "l": 5.2,
+    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Sonntag, 20. September.",
+    "d": "785a9ce3bf.mp3",
+    "l": 5.99,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Der Wochenrückblick vom Samstag, 19. September.",
-    "d": "115d8c5326.mp3",
-    "l": 5.29,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Samstag, 19. September.",
-    "d": "21c25f5b97.mp3",
-    "l": 5.63,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Samstag, 19. September.",
-    "d": "056dbdc86f.mp3",
-    "l": 5.84,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Samstag, 19. September.",
-    "d": "344ff3a694.mp3",
-    "l": 6.14,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Samstag, 19. September.",
-    "d": "7118a3de81.mp3",
-    "l": 5.91,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Samstag, 19. September.",
-    "d": "b5e02dfcbe.mp3",
-    "l": 5.58,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Samstag, 19. September.",
-    "d": "f1cfd2656b.mp3",
-    "l": 6.51,
+    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Sonntag, 20. September.",
+    "d": "634f36c2cf.mp3",
+    "l": 6.35,
     "s": [
      0.25
     ]
@@ -263,44 +269,28 @@
  },
  "nachrichten": [
   {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-19T18:54:55.000Z",
-   "aktualisiert": "aktualisiert um 21:18 Uhr",
-   "titel": "Bund und Länder vereinbaren Maßnahmen zur Entlastung bei Kraftstoffpreisen",
-   "vorspann": "Bund und Länder haben sich auf einen neuen Tankrabatt sowie einen Spritpreisdeckel geeinigt. Damit sollen Bürgerinnen, Bürger und Unternehmen angesichts hoher Kraftstoffpreise um rund 2,5 Milliarden Euro entlastet werden.",
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-20T06:03:38.000Z",
+   "titel": "Wahlen zum Abgeordnetenhaus in Berlin und zum Landtag in Mecklenburg-Vorpommern",
+   "vorspann": "In Berlin und Mecklenburg-Vorpommern finden Wahlen zu den Landesparlamenten statt. Die Wahllokale sind am Sonntag von 8 bis 18 Uhr geöffnet.",
    "eil": false,
    "zusammenfassung": [
-    "Bund und Länder haben sich auf ein Entlastungspaket geeinigt, das einen neuen Tankrabatt und einen Spritpreisdeckel umfasst.",
-    "Die Energiesteuer auf Benzin und Diesel soll ab dem 1. Oktober bis Ende 2026 um 14 Cent gesenkt werden, was zusammen mit der Umsatzsteuer eine Ersparnis von rund 17 Cent pro Liter ausmacht.",
-    "Bürger und Unternehmen sollen insgesamt um rund 2,5 Milliarden Euro entlastet werden, wobei die Länder die Hälfte tragen.",
-    "Die Maßnahmen sind eine Reaktion auf Rekordwerte bei den Spritpreisen, die durch die Krise im Nahen Osten ausgelöst wurden."
+    "In Berlin und Mecklenburg-Vorpommern haben am Sonntag die Wahllokale für die Parlamentswahlen geöffnet.",
+    "Die Stimmabgabe ist in beiden Bundesländern bis 18 Uhr möglich, wobei in Berlin das Abgeordnetenhaus und in Mecklenburg-Vorpommern der Landtag gewählt wird.",
+    "Laut übereinstimmenden Berichten wird in beiden Regionen mit knappen Ergebnissen gerechnet, wobei in Berlin laut Umfragen die Linke und die CDU vorne liegen.",
+    "Die Berliner Polizei sichert die Wahllokale mit zusätzlichen Einsatzkräften ab."
    ],
    "einig": [
     [
-     "Bund und Länder haben sich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk"
-     ]
-    ],
-    [
-     "Das Entlastungsvolumen beträgt insgesamt rund 2,5 Milliarden Euro.",
+     "Die Wahllokale in Berlin und Mecklenburg-Vorpommern öffnen am Wahltag von 8 Uhr bis 18 Uhr.",
      [
       "Tagesschau/ARD",
       "ZDFheute"
      ]
     ],
     [
-     "Die Energiesteuer soll vom 1. Oktober bis Ende 2026 um 14 Cent gesenkt werden.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Der Dieselpreis erreichte am Donnerstag im bundesweiten Tagesdurchschnitt ein neues Allzeithoch von 2,471 Euro laut ADAC.",
+     "In Berlin sind rund 2,5 Millionen Menschen zur Wahl des Abgeordnetenhauses berechtigt.",
      [
       "Tagesschau/ARD",
       "ZDFheute"
@@ -308,47 +298,31 @@
     ]
    ],
    "unklar": [
-    "Ob der Tankrabatt tatsächlich fristgerecht zum 1. Oktober eingeführt werden kann, da dafür eine Zwei-Drittel-Mehrheit im Bundestag nötig ist (laut ZDFheute).",
-    "Ab welchem genauen Datum der Spritpreisdeckel eingeführt wird, wobei der 1. Januar 2027 als spätestes Datum genannt wird (laut Tagesschau/ARD)."
+    "Das genaue Wahlergebnis steht noch aus und wird erst nach Schließung der Wahllokale ab 18 Uhr ermittelt."
    ],
    "positionen": [
     [
-     "Bundeskanzler Friedrich Merz (CDU)",
-     "Die Entlastung ist in Zeiten angespannter Haushalte kein Pappenstiel, und wer auf das Auto angewiesen ist, kommt an seine Belastungsgrenze.",
-     "Tagesschau/ARD,ZDFheute"
+     "Manuela Schwesig",
+     "Tritt als SPD-Spitzenkandidatin bei der Landtagswahl in Mecklenburg-Vorpommern an.",
+     "ZDFheute"
     ],
     [
-     "Vizekanzler und Finanzminister Lars Klingbeil (SPD)",
-     "Man will die Abzocke an den Zapfsäulen beenden und die Krisenprofite der Mineralölkonzerne an die Bürger zurückgeben.",
-     "Tagesschau/ARD,ZDFheute"
-    ],
-    [
-     "Niedersächsischer Ministerpräsident Olaf Lies (SPD)",
-     "Die Einigung bringt die Preise akut nach unten und sichert eine weitere Entspannung durch einen Spritpreisdeckel.",
-     "Tagesschau/ARD,ZDFheute"
-    ],
-    [
-     "Rheinland-pfälzischer Regierungschef Gordon Schnieder (CDU)",
-     "Mit der Senkung der Energiesteuer werden auch mittelständische Betriebe in den Blick genommen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Henning Vöpel (Leiter Centrum für Europäische Politik)",
-     "Das Maßnahmenpaket ist kein gutes Signal, nicht sozial und nicht geeignet, das Vertrauen in die Politik zurückzubringen.",
+     "Leif-Erik Holm",
+     "Tritt als AfD-Spitzenkandidat in Mecklenburg-Vorpommern an.",
      "ZDFheute"
     ]
    ],
-   "fehlend": "Vertreter der Oppositionsparteien im Bundestag (außer allgemeinen Hinweisen auf die Grünen bei ZDFheute) sowie Verbände der Mineralölwirtschaft kommen in den Berichten nicht direkt mit eigenen Aussagen zu Wort.",
+   "fehlend": "Stimmen oder Einschätzungen von Vertretern der einzelnen politischen Parteien zu den aktuellen Wahlergebnissen.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "18.09.26, 21:34",
-     "fokus": "Details zu Steuersenkung und Politikeraussagen",
-     "text": "Der Bericht beleuchtet ausführlich die genauen Zahlen der Steuersenkung um 17 Cent sowie die Reaktionen verschiedener Ministerpräsidenten.",
-     "url": "https://www.tagesschau.de/eilmeldung/einigung-tankrabatt-spritpreisdeckel-100.html",
+     "datum": "20.09.26, 08:01",
+     "fokus": "Berlin-Wahl und Liveblog",
+     "text": "Berichtet ausführlich im Liveticker aus Berlin, nennt genaue Zahlen zu Wahlberechtigten, Parteien und Polizeieinsätzen.",
+     "url": "https://www.tagesschau.de/newsticker/liveblog-berlin-wahl-2026-100.html",
      "video": false
     },
     {
@@ -356,10 +330,10 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "18.09.26, 21:19",
-     "fokus": "Hintergründe, Parlamentshürden und Ökonomen-Kritik",
-     "text": "ZDFheute fokussiert sich zusätzlich auf die notwendige Zwei-Drittel-Mehrheit im Bundestag, die Rolle der EU und die Kritik des Ökonomen Henning Vöpel.",
-     "url": "https://www.zdfheute.de/politik/deutschland/sprit-preise-entlastungen-benzin-diesel-regierung-100.html",
+     "datum": "20.09.26, 08:00",
+     "fokus": "Wahlen in zwei Bundesländern",
+     "text": "Behandelt sowohl Berlin als auch Mecklenburg-Vorpommern und verweist auf mögliche Auswirkungen auf die Bundespolitik.",
+     "url": "https://www.zdfheute.de/politik/deutschland/wahl-berlin-landtagswahl-mecklenburg-vorpommern-prognose-hochrechnung-ergebnisse-liveticker-100.html",
      "video": false
     },
     {
@@ -367,86 +341,556 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "19.09.26, 20:54",
-     "fokus": "Kompakte Zusammenfassung im Q&A-Stil",
-     "text": "Der Deutschlandfunk bietet eine kurze Übersicht über die wichtigsten Fragen und Antworten zum neuen Entlastungspaket.",
-     "url": "https://www.deutschlandfunk.de/tankrabatt-und-preisdeckel-was-die-bundesregierung-gegen-die-hohen-spritpreise-plant-100.html",
+     "datum": "20.09.26, 08:03",
+     "fokus": "Kurze Übersicht",
+     "text": "Fasst die Ausgangslage in beiden Bundesländern kurz und sachlich zusammen.",
+     "url": "https://www.deutschlandfunk.de/in-berlin-und-mecklenburg-vorpommern-werden-neue-parlamente-gewaehlt-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 07:51",
+     "fokus": "TV-Duell in Mecklenburg-Vorpommern",
+     "text": "Erwähnt das Duell zwischen Manuela Schwesig und Leif-Erik Holm im Norden.",
+     "url": "https://www.spiegel.de/politik/deutschland/mecklenburg-vorpommern-was-sie-ueber-die-landtagswahl-wissen-sollten-a-83418abb-d0a2-40db-80cd-3cc2e694be66#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 08:03",
+     "fokus": "Kurzmeldung MV",
+     "text": "Meldet kurz die Öffnung der Wahllokale im Nordosten.",
+     "url": "https://www.zeit.de/news/2026-09/20/wahllokale-im-nordosten-geoeffnet",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Parlamentarische Hürden",
-     "ZDFheute erwähnt explizit, dass für den Termin am 1. Oktober ein Fristverzicht und eine Zwei-Drittel-Mehrheit im Bundestag nötig sind, während Tagesschau/ARD diesen Aspekt nicht nennt."
-    ],
-    [
-     "Kritische Einordnung",
-     "ZDFheute bindet die Einschätzung des Ökonomen Henning Vöpel ein, der das Paket kritisiert, was bei Tagesschau/ARD und Deutschlandfunk in dieser Form nicht vorkommt."
+     "Fokus der Berichterstattung",
+     "Einige Medien konzentrieren sich stark auf Berlin, andere betonen die Parallelen zur Wahl in Mecklenburg-Vorpommern."
     ]
    ],
    "wfragen": {
-    "wer": "Bund und Länder",
-    "was": "Einigung auf Tankrabatt und Spritpreisdeckel",
-    "wann": "18. September 2026",
-    "wo": "Deutschland",
-    "wie": "Durch Steuersenkungen und geplante Höchstpreise",
-    "warum": "Hohe Spritpreise durch den Konflikt im Nahen Osten, laut Tagesschau/ARD und ZDFheute",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk"
+    "wer": "Wahlberechtigte in Berlin und Mecklenburg-Vorpommern",
+    "was": "Wahlen zum Berliner Abgeordnetenhaus und zum Landtag in Mecklenburg-Vorpommern",
+    "wann": "20.09.2026, 8 bis 18 Uhr",
+    "wo": "Berlin und Mecklenburg-Vorpommern, Deutschland",
+    "wie": "Durch Stimmabgabe in Wahllokalen mit Sicherheitsvorkehrungen",
+    "warum": "Reguläre beziehungsweise neu angesetzte Parlamentswahlen laut den Berichten",
+    "quellenlage": "Öffentlich-rechtliche Sender und Nachrichtenmagazine"
    },
    "artikel": [
     {
-     "ueberschrift": "Das ist passiert",
+     "ueberschrift": "Wahlen in zwei Bundesländern",
      "absaetze": [
-      "Bund und Länder haben sich wegen der hohen Spritpreise auf einen Tankrabatt und einen Spritpreisdeckel geeinigt. Laut Tagesschau/ARD und ZDFheute sollen Bürger und Unternehmen insgesamt um rund 2,5 Milliarden Euro entlastet werden. Die Länder sollen sich an diesem Betrag mit einer Summe von 1,25 Milliarden Euro über einen Umsatzsteuerfestbetrag beteiligen. Die Bundesregierung hatte zuvor über Gegenmaßnahmen zur Dämpfung der steigenden Kosten für Benzin und Diesel beraten. Laut ZDFheute wurde das entsprechende Papier zwischen der Bundesregierung und den sechzehn Bundesländern abgestimmt.",
-      "Die Pläne sehen vor, dass der Bund die Energiesteuer auf Benzin und Diesel vom ersten Oktober an bis Ende zweitausendsechsundzwanzig um vierzehn Cent senkt. Zusammen mit der Umsatzsteuer ergibt sich laut Tagesschau/ARD eine Senkung um siebzehn Cent pro Liter bei den Kraftstoffen. Ein erster Tankrabatt in derselben Größenordnung war bereits von Anfang Mai bis Ende Juni in Deutschland gültig gewesen. Der niedersächsische Ministerpräsident Olaf Lies sprach nach Angaben der Tagesschau/ARD und von ZDFheute von einer entschlossenen Einigung, mit der die Preise akut nach unten gebracht werden sollen.",
-      "Zusätzlich zum Tankrabatt ist die Einführung eines Spritpreisdeckels vorgesehen. Laut Tagesschau/ARD ist derzeit unklar, ab wann ein solcher Deckel exakt eingeführt werden soll, als spätestes Datum wird jedoch der erste Januar zweitausendsechsundzwanzig genannt. Als Vorbilder für entsprechende Regelungen werden in den Berichten Luxemburg und Belgien angeführt. Bei einem Spritpreisdeckel wird ein Höchstpreis für Benzin und Diesel festgelegt, der sich an verschiedenen Faktoren orientiert."
+      "In Berlin und Mecklenburg-Vorpommern wird am Sonntag über die Zusammensetzung der Landesparlamente abgestimmt. Die Wahllokale in beiden Bundesländern haben um 8 Uhr am Morgen ihre Türen geöffnet. Die Stimmabgabe ist den Angaben zufolge bis 18 Uhr am Abend möglich. In Berlin wird das Abgeordnetenhaus neu gewählt. Gleichzeitig findet in Mecklenburg-Vorpommern die Wahl für einen neuen Landtag statt.",
+      "Laut übereinstimmenden Berichten wird in beiden Regionen mit knappen Wahlergebnissen gerechnet. Die Wählerinnen und Wähler sind aufgerufen, ihre Stimmen abzugeben. In Berlin handelt es sich um eine Wahl nach der Wiederholungswahl 2023. Die Vorbereitungen liefen in den vergangenen Wochen. Die Parteien kämpften bis zuletzt um die Wählerschaft.",
+      "In Berlin sind rund 2,5 Millionen Menschen zur Stimmabgabe für das Abgeordnetenhaus aufgerufen. Dies geht aus den Angaben der Berichterstattung hervor. Neben dem Abgeordnetenhaus werden in der Hauptstadt auch die zwölf Bezirksverordnetenversammlungen gewählt. Für diese Gremien liegt die Zahl der Wahlberechtigten laut ZDFheute bei gut 2,7 Millionen Personen, da dort auch in Berlin lebende EU-Ausländer abstimmen dürfen. In Mecklenburg-Vorpommern sind laut ZDFheute rund 1,3 Millionen Menschen wahlberechtigt.",
+      "Die Altersgrenze für das Wahlrecht unterscheidet sich in den beiden Bundesländern teilweise. In Berlin sind alle Deutschen wahlberechtigt, die am Wahltag das 16. Lebensjahr vollendet haben und ihren Wohnsitz seit mindestens drei Monaten ununterbrochen in der Hauptstadt haben. In Mecklenburg-Vorpommern dürfen nach Angaben von ZDFheute zum ersten Mal auch 16- und 17-Jährige ihre Stimme abgeben.",
+      "Die Organisation der Wahlen erfordert einen logistischen Aufwand vor Ort. In Berlin stehen mehr als 2.500 Wahllokale für die Bürgerinnen und Bürger bereit. Die Berliner Polizei ist im Einsatz, um die Abstimmung abzusichern. Rund 1.100 zusätzliche Einsatzkräfte sind stadtweit unterwegs. Dies teilte ein Behördensprecher auf Anfrage der Nachrichtenachrichtenagentur dpa mit, wie die Tagesschau/ARD berichtet."
      ]
     },
     {
-     "ueberschrift": "Die Einzelheiten",
+     "ueberschrift": "Sicherheitsmaßnahmen und gesetzliche Vorgaben",
      "absaetze": [
-      "Die Berechnung des Höchstpreises für den geplanten Spritpreisdeckel orientiert sich laut Tagesschau/ARD an der Entwicklung der Ölpreise sowie an den Kosten für Transport, Vertrieb und einer Händlermarge. Die Versorgungssicherheit müsse gewährleistet und missbräuchliche Preisaufschläge müssten unterbunden werden. Um besonders betroffene Bürger sowie Unternehmen weiter zu entlasten, sollen laut Tagesschau/ARD zudem zielgerichtete Maßnahmen geprüft werden. Dazu gehört die Schaffung von Voraussetzungen für einen einkommensbezogenen Direktauszahlungsmechanismus.",
-      "Nach Angaben von ZDFheute ist noch offen, ob der Tankrabatt tatsächlich wie angestrebt zum ersten Oktober eingeführt werden kann. Dafür sei ein sogenannter Fristverzicht notwendig, für den eine Zwei-Drittel-Mehrheit im Bundestag stimmen müsste. Die Bundesregierung sei in diesem Punkt auf die Unterstützung der Opposition angewiesen. Laut ZDFheute finden die Grünen den Tankrabatt mutmaßlich nicht gut, da dieser nicht zum Spritsparen anreize.",
-      "Die Kraftstoffpreise an den Tankstellen erreichten zuletzt Rekordwerte. Laut Tagesschau/ARD kletterte der Preis für Diesel am Donnerstag auf ein neues Allzeihoch. Ein Liter kostete demnach nach Auswertung des ADAC im bundesweiten Tagesdurchschnitt zwei Euro und siebenundvierzig Komma eins Cent und damit knapp zwei Cent mehr als am Vortag. Super E10 verbilligte sich laut denselben Angaben dagegen minimal auf zwei Euro und dreißig Komma acht Cent. Das ZDFheute berichtete ebenfalls über diese ADAC-Werte und ergänzte, dass der Benzinpreis für Super E10 am Vortag bei zwei Euro und einunddreißig Komma vier Cent gelegen hatte."
+      "Der Polizeieinsatz in Berlin begann am Sonntag um 10 Uhr zusätzlich im gesamten Stadtgebiet. Die Beamtinnen und Beamten kümmern sich um den Schutz der mehr als 2.500 Wahllokale, des Abgeordnetenhauses und der Regierungsgebäude. Dies geht aus den Berichten der Tagesschau/ARD hervor.",
+      "Ein Schwerpunkt der polizeilichen Überwachung liegt auf dem direkten Umfeld der Wahllokale. Die Einsatzkräfte achten darauf, dass es zu keinen unzulässigen Beeinflussungen der Wählerinnen und Wähler kommt. Das Landeswahlgesetz sieht hierfür klare Regeln vor. So sind beispielsweise in einem Radius von 30 Metern keine größeren Kundgebungen vor den Wahllokalen gestattet.",
+      "Für die Parteien stellt sich die Situation bei der Wahl in Berlin anders dar als im Jahr 2023. Während bei der vorherigen Abgeordnetenhauswahl noch 34 Parteien zur Stimmabgabe zugelassen waren, sind es in diesem Jahr laut Tagesschau/ARD nur noch 17 Parteien. Dies liegt an bestimmten Voraussetzungen für die Zulassung, die einige frühere Teilnehmer diesmal nicht erfüllen oder nicht erneut antreten. Laut Tagesschau/ARD liegen elf der 17 angetretenen Parteien im aktuellen BerlinTrend unter drei Prozent.",
+      "In Mecklenburg-Vorpommern ist die politische Lage ebenfalls umkämpft. Laut dem ZDF-Politbarometer waren wenige Tage vor der Abstimmung noch 21 Prozent der Wahlberechtigten unentschieden. Die Parteien im Nordosten versuchten deshalb bis zuletzt, diese Wählergruppe zu erreichen. Dies wird in den Berichten von ZDFheute hervorgehoben.",
+      "Die CDU im Nordosten befindet sich laut den Berichten in einer schwierigen Ausgangslage. Sie wird demnach von der AfD angegriffen und ist auf die Stimmen der Unentschieden angewiesen. Mit aktuellen Werten von sechs Prozent im Politbarometer erscheint der Wiedereinzug der CDU in den Landtag laut ZDFheute als ungewiss."
      ]
     },
     {
-     "ueberschrift": "Hintergrund",
+     "ueberschrift": "Umfragen und politische Ausgangslage",
      "absaetze": [
-      "Die hohen Spritpreise in Deutschland hängen nach Angaben von ZDFheute vor allem mit dem Iran-Krieg zusammen, wobei Deutschland nur eine kleine Menge Erdöl aus dieser Region bezieht. Die Krise im Nahen Osten treibt laut Tagesschau/ARD die Kraftstoffpreise von Rekord zu Rekord. Bereits am Donnerstagabend hatte es Verhandlungen von Bundeskanzler Friedrich Merz mit den Koordinatoren der SPD- sowie CDU-geführten Länder gegeben.",
-      "Ein weiterer strittiger Punkt betrifft die Einführung einer Übergewinnsteuer für Mineralölkonzerne. Laut Tagesschau/ARD fordert die SPD einen Spritpreisdeckel seit langem, während Bundeswirtschaftsministerin Katherina Reiche sich gegen einen Preisdeckel ausgesprochen hatte. Bundesfinanzminister Lars Klingbeil treibt zudem Maßnahmen voran. Laut ZDFheute ist eine Übergewinnsteuer für Mineralölkonzerne auf EU-Ebene jedoch vorerst nicht in Sicht, nachdem Finanzminister Klingbeil die EU-Kommission bei einem Treffen in Dublin erneut aufgefordert hatte, einen Vorschlag zu unterbreiten.",
-      "EU-Wirtschaftskommissar Valdis Dombrovskis verwies laut ZDFheute lediglich darauf, dass die Mitgliedstaaten auf nationaler Ebene bereits eine Steuer auf außerordentliche Gewinne einführen können, wenn sie dies wünschen. Eine nationale Übergewinnsteuer würde Unternehmen in Deutschland jedoch benachteiligen, weshalb Bundeskanzler Merz dies laut ZDFheute ausgeschlossen hat. Die Bundesregierung begrüßt nach Angaben der Tagesschau/ARD dennoch Gespräche in der Europäischen Union, um analog zum EU-Energiekrisenbeitrag 2022 Maßnahmen gegenüber der Mineralölwirtschaft zu prüfen."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Energiesteuer ist eine Verbrauchssteuer auf Energieprodukte wie Benzin, Diesel oder Heizöl, die vom Bund erhoben wird. Sie ist fest im Gesetz verankert und macht einen wesentlichen Teil des Endverbraucherpreises an den Zapfsäulen aus. Durch eine staatliche Absenkung dieser Steuer sinken die nominalen Kosten pro Liter Kraftstoff unmittelbar.",
-      "Die Umsatzsteuer, oft auch als Mehrwertsteuer bezeichnet, ist eine Steuer, die auf den Verkauf von Waren und Dienstleistungen erhoben wird. Da sie prozentual auf den Nettopreis aufgeschlagen wird, führt eine Senkung der Energiesteuer automatisch auch zu einer geringeren absoluten Umsatzsteuerbelastung pro Liter Kraftstoff."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Bundeskanzler Friedrich Merz bezeichnete die geplante Entlastung laut Tagesschau/ARD und ZDFheute in Zeiten angespannter Haushalte als keinen Pappenstiel. Wer jeden Tag auf das Auto angewiesen sei, komme an seine Belastungsgrenze. Merz erklärte zudem laut ZDFheute, dass man schnell handle und einen klaren Fahrplan für 2027 habe.",
-      "Bundesfinanzminister Lars Klingbeil erklärte laut Tagesschau/ARD und ZDFheute, man wolle die Abzocke an den Zapfsäulen beenden und die Krisenprofite der Mineralölkonzerne an die Bürger zurückgeben. Klingbeil betonte laut den Berichten, dass ihm dieses Vorgehen besonders wichtig gewesen sei.",
-      "Der niedersächsische Ministerpräsident Olaf Lies sprach laut Tagesschau/ARD von einer Entlastung, die die Preise akut nach unten bringe und gleichzeitig durch einen Spritpreisdeckel und eine Übergewinnsteuer absichere. Der rheinland-pfälzische Regierungschef Gordon Schnieder betonte laut Tagesschau/ARD, dass mit der Senkung der Energiesteuer auch die mittelständischen Betriebe in den Blick genommen würden.",
-      "Kritik an dem Maßnahmenpaket äußerte Henning Vöpel, der Leiter des Centrums für Europäische Politik. Er nannte das Paket laut ZDFheute kein gutes Signal und nicht geeignet, das Vertrauen in die Politik zurückzubringen. Zudem sei der Tankrabatt sehr teuer und nicht besonders sozial, da er sich nicht gezielt an stark betroffene Gruppen richte."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Bundesregierung will laut Tagesschau/ARD und ZDFheute die Voraussetzungen für die Realisierung eines einkommensbezogenen Direktauszahlungsmechanismus schaffen, um besonders betroffene Bürger und Unternehmen weiter zu entlasten. Zudem wird geprüft, welche Maßnahmen analog zum EU-Energiekrisenbeitrag 2022 gegenüber der Mineralölwirtschaft ergriffen werden können.",
-      "Die Umsetzung des Tankrabatts ist für den ersten Oktober 2026 vorgesehen. Ob dieser Termin eingehalten werden kann, hängt laut ZDFheute von der Zustimmung des Bundestages und einem notwendigen Fristverzicht ab. Der Spritpreisdeckel soll spätestens zum ersten Januar 2027 eingeführt werden."
+      "Vor den Wahlen wurden in den Medien verschiedene Umfragewerte veröffentlicht. In Berlin dürfte es laut der ARD-Vorwahlumfrage vom 10. September eng zugehen. Demnach kommt die Linke auf 21 Prozent. Die CDU, die derzeit mit der SPD regiert, folgt knapp dahinter mit 20 Prozent der Stimmen. Als dritte Kraft wird die AfD mit 18 Prozent gesehen, gefolgt von den Grünen mit 16 Prozent und der SPD mit 12 Prozent. Das erstmals antretende BSW würde den Umfragen zufolge mit vier Prozent den Einzug ins Rote Rathaus verfehlen.",
+      "In Mecklenburg-Vorpommern deuten die Umfragen laut ZDFheute auf ein enges Rennen zwischen der SPD mit Ministerpräsidentin Manuela Schwesig und der AfD mit Leif-Erik Holm hin. Der Spiegel erwähnt in diesem Zusammenhang ein zweites TV-Duell der beiden Politiker.",
+      "Die Berlinerinnen und Berliner treiben laut den Berichten konkrete Sorgen um. Die Wohnungsnot und hohe Mieten gelten als das mit Abstand wichtigste Thema dieser Wahl. Die Tagesschau/ARD berichtet von Besuchen bei Familien, deren Alltag stark von diesem Thema bestimmt wird. Um den Wählern bei der Entscheidung zu helfen, wurden digitale Angebote wie der Wahl-O-Mat bereitgestellt.",
+      "Interessierte Bürgerinnen und Bürger können ihre eigene politische Haltung mit den Programmen der Parteien vergleichen. Auch Übersichtsseiten mit Hintergrundberichten wurden von den Rundfunkanstalten eingerichtet. Die Wahlen in Berlin und Mecklenburg-Vorpommern könnten laut ZDFheute auch Folgen für die Bundesregierung haben.",
+      "Die Berichterstattung über den Wahltag wird von den Medien in Form von Liveblogs und Sondersendungen begleitet. Das Erste kündigte spezielle Sendungen für den Nachmittag und Abend an. Die Redaktionen informieren fortlaufend über alle neuen Entwicklungen, die Wahlbeteiligung und die ersten Ergebnisse nach Schließung der Wahllokale um 18 Uhr."
      ]
     }
    ],
    "zeitleiste": [
     [
-     "Mai bis Juni",
-     "Erster Tankrabatt in gleicher Größenordnung laut Tagesschau/ARD und ZDFheute"
+     "2026-09-10",
+     "Veröffentlichung der letzten ARD-Vorwahlumfrage für Berlin"
     ],
+    [
+     "2026-09-20T08:00:00",
+     "Öffnung der Wahllokale in Berlin und Mecklenburg-Vorpommern"
+    ],
+    [
+     "2026-09-20T10:00:00",
+     "Zusätzlicher Einsatz der Berliner Polizei zur Absicherung der Wahlen"
+    ],
+    [
+     "2026-09-20T18:00:00",
+     "Geplantes Ende der Stimmabgabe in den Wahllokalen"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "Berlin Red Town Hall exterior",
+     "bildunterschrift": "Das Rote Rathaus in Berlin, Sitz des Regierenden Bürgermeisters und Ziel der Parteien bei der Abgeordnetenhauswahl."
+    },
+    {
+     "art": "gebaeude",
+     "suchbegriff": "Abgeordnetenhaus von Berlin building",
+     "bildunterschrift": "Das Gebäude des Abgeordnetenhauses von Berlin, welches ebenfalls von der Polizei geschützt wird."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne symbolisiert die Stimmabgabe der Bürger bei den Landesparlamentswahlen."
+    }
+   ],
+   "ort": {
+    "name": "Berlin und Mecklenburg-Vorpommern, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernt ungesicherte Spekulationen und nicht deckungsgleiche Punkte im Abschnitt 'einig'.",
+    "Bereinigt wertende Begriffe wie 'frontal' oder 'dramatisch' und passt sie an den Beleg an."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Abgeordnetenhaus",
+      "Das Parlament und die Volksvertretung des Landes Berlin."
+     ],
+     [
+      "Landtag",
+      "Das Parlament eines deutschen Bundeslandes, das Gesetze beschließt und die Landesregierung kontrolliert."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Umfragen vor Wahlen und wie zuverlässig sind sie deiner Meinung nach?",
+     "Warum ist es wichtig, dass die Polizei Wahllokale absichert?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie lange sind die Wahllokale am Wahltag geöffnet?",
+      "optionen": [
+       "Von 6 bis 20 Uhr",
+       "Von 8 bis 18 Uhr",
+       "Von 9 bis 17 Uhr"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau und ZDFheute sind die Wahllokale von 8 bis 18 Uhr geöffnet."
+     },
+     {
+      "frage": "Wie viele Menschen sind in Berlin zur Wahl des Abgeordnetenhauses berechtigt?",
+      "optionen": [
+       "Rund 1,3 Millionen",
+       "Rund 2,5 Millionen",
+       "Rund 5,0 Millionen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte von Tagesschau und ZDFheute nennen rund 2,5 Millionen Wahlberechtigte in Berlin."
+     },
+     {
+      "frage": "Welche Partei führt laut den genannten Umfragen in Berlin das Feld an?",
+      "optionen": [
+       "Die Linke",
+       "Die SPD",
+       "Die Grünen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut der ARD-Vorwahlumfrage kommt die Linke auf 21 Prozent und liegt damit knapp an der Spitze."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Berlin und Mecklenburg-Vorpommern wird gewählt. Die Menschen bestimmen die neuen Parlamente in den beiden Bundesländern.",
+    "absaetze": [
+     "Am Sonntag haben die Wahllokale von acht Uhr morgens bis achtzehn Uhr abends geöffnet. In Berlin wählen die Bürger ein neues Abgeordnetenhaus. In Mecklenburg-Vorpommern wählen die Bürger einen neuen Landtag.",
+     "In Berlin sind rund zweieinhalb Millionen Menschen wahlberechtigt. Die Berliner Polizei ist mit zusätzlichen Einsatzkräften im Einsatz, um die Wahllokale zu schützen.",
+     "Umfragen zeigen vor der Wahl ein knappes Rennen zwischen den Parteien. In Berlin liegen laut Umfragen die Linke und die CDU vorn. Die genauen Wahlergebnisse werden nach Schließung der Wahllokale ermittelt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Berlin und Mecklenburg-Vorpommern haben am Sonntag die Wahllokale für die Parlamentswahlen geöffnet. Die Stimmabgabe ist bis achtzehn Uhr möglich. Nach Angaben von Medien wird in beiden Bundesländern mit knappen Ergebnissen gerechnet."
+    ],
+    "lang": [
+     "In Berlin und Mecklenburg-Vorpommern finden am Sonntag Wahlen zu den Landesparlamenten statt.",
+     "Die Wahllokale haben von acht Uhr morgens bis achtzehn Uhr abends geöffnet.",
+     "In Berlin sind rund zweieinhalb Millionen Menschen zur Wahl des Abgeordnetenhauses aufgerufen.",
+     "In Mecklenburg-Vorpommern sind es rund eins Komma drei Millionen Wahlberechtigte, wie der Sender ZDFheute berichtet.",
+     "Die Berliner Polizei sichert die Wahl mit rund elfhundert zusätzlichen Einsatzkräften ab.",
+     "Laut Umfragen vor der Wahl ist das Rennen in beiden Bundesländern sehr knapp.",
+     "In Berlin liegen die Linke und die CDU nach Angaben der Umfragen vorn.",
+     "Die genauen Wahlergebnisse stehen erst nach der Schließung der Wahllokale am Abend fest.",
+     "Die Wahlen könnten nach Angaben von ZDFheute auch Auswirkungen auf die Bundesregierung haben."
+    ],
+    "einfach": [
+     "In Berlin und Mecklenburg-Vorpommern wird an diesem Sonntag gewählt. Die Wahllokale sind von acht bis achtzehn Uhr geöffnet. In Berlin wird ein neues Abgeordnetenhaus gewählt. In Mecklenburg-Vorpommern wählen die Bürger einen neuen Landtag. Umfragen zeigen vor der Wahl ein sehr knappes Rennen. Die genauen Wahlergebnisse erfahren die Bürger am Abend."
+    ]
+   },
+   "kurz": [
+    "In Berlin und Mecklenburg-Vorpommern finden Wahlen zu den Landesparlamenten statt.",
+    "Die Wahllokale haben am Sonntag von 8 bis 18 Uhr geöffnet.",
+    "In Berlin sind rund 2,5 Millionen Menschen zur Wahl des Abgeordnetenhauses aufgerufen.",
+    "Umfragen zeigen ein enges Rennen in beiden Bundesländern."
+   ],
+   "fakten": [
+    [
+     "Wahlberechtigte Berlin",
+     "rund 2,5 Millionen"
+    ],
+    [
+     "Wahlberechtigte Mecklenburg-Vorpommern",
+     "rund 1,3 Millionen"
+    ],
+    [
+     "Öffnungszeit der Wahllokale",
+     "8 bis 18 Uhr"
+    ],
+    [
+     "Anzahl Parteien Berlin 2026",
+     "17"
+    ]
+   ],
+   "dossier": {
+    "slug": "wahlen-berlin-mv-2026",
+    "titel": "Wahlen in Berlin und Mecklenburg-Vorpommern"
+   },
+   "bildInfo": {
+    "titel": "Election MG 3455.JPG",
+    "beschreibung": "Second round of the French presidential election of 2007.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+    "urheber": "Rama",
+    "lizenz": "CC BY-SA 2.0 fr",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "art": "symbol",
+    "suchbegriff": "Ballot box election Germany",
+    "bildunterschrift": "Eine Wahlurne symbolisiert die Parlamentswahlen in Berlin und Mecklenburg-Vorpommern.",
+    "hinweis": "Symbolbild"
+   },
+   "bildInfos": [
+    {
+     "titel": "Election MG 3455.JPG",
+     "beschreibung": "Second round of the French presidential election of 2007.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+     "urheber": "Rama",
+     "lizenz": "CC BY-SA 2.0 fr",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne symbolisiert die Parlamentswahlen in Berlin und Mecklenburg-Vorpommern.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin und Mecklenburg-Vorpommern, Deutschland",
+    "lat": 54.086,
+    "lon": 12.136
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Berlin und Mecklenburg-Vorpommern finden am Sonntag Wahlen zu den Landesparla",
+     "d": "9ca7a2e41c.mp3",
+     "l": 47.61,
+     "s": [
+      0.25,
+      5.86,
+      10.52,
+      15.96,
+      22.96,
+      27.88,
+      32.34,
+      36.71,
+      41.74
+     ]
+    },
+    {
+     "k": "In Berlin und Mecklenburg-Vorpommern haben am Sonntag die Wahllokale für die Par",
+     "d": "06b69e43e6.mp3",
+     "l": 13.37,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Berlin und Mecklenburg-Vorpommern wird an diesem Sonntag gewählt. Die Wahllok",
+     "d": "662f78c8a6.mp3",
+     "l": 20.87,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Das genaue Wahlergebnis steht noch aus und wird erst nach Schließung der Wahllok",
+     "d": "0410c68592.mp3",
+     "l": 6.66,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Abgeordnetenhaus? Das Parlament und die Volksvertretung ",
+     "d": "f7d5acb8f6.mp3",
+     "l": 6.76,
+     "s": [
+      0.25,
+      2.93
+     ]
+    },
+    {
+     "k": "In Berlin und Mecklenburg-Vorpommern wird am Sonntag über die Zusammensetzung de",
+     "d": "7498518329.mp3",
+     "l": 39.88,
+     "s": [
+      0.25,
+      6.56,
+      11.75,
+      16.76,
+      19.84,
+      24.68,
+      30.6,
+      34.26
+     ]
+    },
+    {
+     "k": "Der Polizeieinsatz in Berlin begann am Sonntag um 10 Uhr zusätzlich im gesamten ",
+     "d": "43ca7931b7.mp3",
+     "l": 39.69,
+     "s": [
+      0.25,
+      5.72,
+      10.1,
+      14.62,
+      18.18,
+      23.01,
+      29.17,
+      32.55
+     ]
+    },
+    {
+     "k": "Vor den Wahlen wurden in den Medien verschiedene Umfragewerte veröffentlicht. In",
+     "d": "c655ee00b4.mp3",
+     "l": 44.85,
+     "s": [
+      0.25,
+      4.76,
+      8.49,
+      10.31,
+      13.44,
+      19.32,
+      27.2,
+      34.14
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "aktualisiert": "aktualisiert um 08:11 Uhr",
+   "titel": "Bund und Länder vereinbaren Maßnahmen zur Kraftstoffpreissenkung",
+   "vorspann": "Die Bundesregierung und die Bundesländer haben sich auf ein neues Entlastungspaket geeinigt. Dieses sieht einen vorübergehenden Tankrabatt und einen Spritpreisdeckel vor.",
+   "eil": false,
+   "zusammenfassung": [
+    "Bund und Länder haben sich auf ein neues Entlastungspaket zur Senkung der Kraftstoffpreise geeinigt.",
+    "Ab Oktober soll ein dreimonatiger Tankrabatt von 17 Cent pro Liter durch eine gesenkte Energiesteuer eingeführt werden.",
+    "Spätestens ab Januar 2027 soll zusätzlich ein befristeter Spritpreisdeckel folgen.",
+    "Während einige Politiker die Maßnahmen begrüßen, üben Opposition, Verbraucherschützer und Verbände scharfe Kritik."
+   ],
+   "einig": [
+    [
+     "Union und SPD haben sich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Der Tankrabatt soll von Oktober bis Jahresende 17 Cent pro Liter betragen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Als Vorbilder für den Spritpreisdeckel gelten Luxemburg und Belgien.",
+     [
+      "ZDFheute",
+      "Süddeutsche Zeitung"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Bundesländer der hälftigen Kostenübernahme für den Tankrabatt zustimmen, ist laut Süddeutscher Zeitung noch offen.",
+    "Wie genau der Spritpreisdeckel berechnet werden soll, ist laut ZDFheute und Süddeutscher Zeitung noch unklar."
+   ],
+   "positionen": [
+    [
+     "Katherina Reiche (Wirtschaftsministerin, CDU)",
+     "Die Maßnahmen helfen Bürgern, Familien, Handwerk, Mittelstand und Industrie in der Krise.",
+     "Tagesschau/ARD, Süddeutsche Zeitung"
+    ],
+    [
+     "Manuela Schwesig (Ministerpräsidentin Mecklenburg-Vorpommern, SPD)",
+     "Das Handeln der Bundesregierung ist richtig, da die Spritpreise eine massive Belastung sind.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Andreas Audretsch (Grüne)",
+     "Der Tankrabatt ist ein Kniefall vor den Ölkonzernen; gefordert wird ein Energiegeld.",
+     "Tagesschau/ARD, Süddeutsche Zeitung"
+    ],
+    [
+     "Clemens Fuest (Ifo-Institut)",
+     "Der Tankrabatt ist ein Fehler, da er Besserverdienende begünstigt und das Geld nicht zielgenau einsetzt.",
+     "Tagesschau/ARD, ZDFheute"
+    ],
+    [
+     "Tomaso Duso (Monopolkommission)",
+     "Ein Preisdeckel ist ein bürokratisches Monster, das zu Marktverzerrungen und höheren Preisen führen kann.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen direkt aus der Mineralölwirtschaft zu den neuen Beschlüssen",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "19.09.26, 14:39",
+     "fokus": "Reaktionen aus Politik und Verbänden",
+     "text": "Der Beitrag listet zahlreiche Zitate von Befürwortern und Kritikern der Maßnahmen auf.",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/tankrabatt-reaktionen-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "19.09.26, 21:33",
+     "fokus": "Hintergründe und Gesetzesverfahren",
+     "text": "Der Artikel erklärt die Ursachen der Krise und die Verteilung der Kosten.",
+     "url": "https://www.zdfheute.de/politik/deutschland/spritpreise-benzin-diesel-tankrabatt-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 08:03",
+     "fokus": "Einigung der Regierung",
+     "text": "Bericht über die Einigung von Union, SPD und den Ländern.",
+     "url": "https://www.deutschlandfunk.de/wirtschaftsweise-grimm-nennt-neuen-tankrabatt-zynisch-kritik-auch-von-opposition-und-sozialverbaende-100.html",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 14:10",
+     "fokus": "Pläne der Bundesregierung",
+     "text": "Bericht über den Tankrabatt und den geplanten Spritpreisdeckel.",
+     "url": "https://www.sueddeutsche.de/politik/tankrabatt-bundesregierung-deutschland-benzin-spritpreisdeckel-li.3550484",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 11:22",
+     "fokus": "Kritischer Wirtschaftsmentar",
+     "text": "Der Kommentar kritisiert das Entlastungspaket.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/tankrabatt-und-preisdeckel-sind-aktionistisch-teuer-und-kontraproduktiv-ein-kommentar-201242809.html",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ton und Bewertung",
+     "Die FAZ bewertet das Paket in ihrem Kommentar sehr kritisch, während Tagesschau und ZDFheute die Positionen der Beteiligten neutral abbilden."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundesregierung, Bundesländer, Union und SPD",
+    "was": "Einigung auf ein Entlastungspaket gegen hohe Kraftstoffpreise",
+    "wann": "18. September 2026",
+    "wo": "Deutschland",
+    "wie": "Durch Steuersenkung und geplante Höchstpreise",
+    "warum": "Hohe Kraftstoffpreise wegen internationaler Krisen",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Süddeutsche Zeitung, FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Bundesregierung hat auf die gestiegenen Kraftstoffpreise reagiert und ein Maßnahmenpaket beschlossen. Nach Angaben der Quellen haben sich Union und SPD gemeinsam mit den Bundesländern auf diesen Schritt verständigt. Das Paket umfasst eine zeitlich begrenzte Senkung der Energiesteuer für Benzin und Diesel. Zusätzlich ist die Einführung eines Spritpreises als Obergrenze geplant.",
+      "Die Bundesregierung will mit den beschlossenen Schritten den Preisschock an den Tankstellen abfedern. Die Maßnahmen sollen sowohl privaten Haushalten als auch der Wirtschaft zugutekommen. Laut Wirtschaftsministerin Katherina Reiche handelt die Regierung, weil Bürger und Unternehmen konkrete Entlastungen benötigen. Die Opposition und verschiedene Verbände übten an den Plänen jedoch Kritik.",
+      "Das Entlastungspaket soll in den kommenden Monaten umgesetzt werden. Laut den Berichten ist ein zügiges parlamentarisches Verfahren geplant. Bundestag und Bundesrat sollen das Gesetz kurzfristig beraten und beschließen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Ab dem 1. Oktober sollen Benzin und Diesel für die Dauer von drei Monaten um 17 Cent pro Liter entlastet werden. Dafür senkt der Bund laut den Berichten die Energiesteuer. Im Frühsommer hatte ein ähnlicher Tankrabatt gegolten. Der Bund rechnet mit Kosten von rund zweieinhalb Milliarden Euro für das neue Paket bis zum Jahresende.",
+      "Im Gegensatz zum ersten Tankrabatt soll der Bund die Kosten nicht allein tragen. Die Bundesländer sollen laut den Berichten die Hälfte der Kosten übernehmen, was einem Betrag von einer Milliarde zweihundertfünfzig Millionen Euro entspricht. Ob alle Länder dieser Aufteilung zustimmen, ist den Berichten zufolge noch offen.",
+      "Spätestens zum 1. Januar 2027 soll ein Spritpreisdeckel eingeführt werden. Dieser soll nicht dauerhaft gelten, sondern solange die aktuelle Krise anhält. Die Bundesregierung plant Gespräche mit der Mineralölwirtschaft, um festzulegen, wie die Höchstpreise ermittelt werden. Als Vorbilder für den Preisdeckel gelten Luxemburg und Belgien."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Auslöser für die starken Preissteigerungen an den Tankstellen ist nach übereinstimmenden Berichten der Iran-Krieg. Seit dem Angriff Israels und der USA auf den Iran ist die Straße von Hormus faktisch blockiert. Diese Meerenge gehört zu den weltweit wichtigsten Transportwegen für Erdöl. Wegen knapperer Raffinerie-Kapazitäten reagiert insbesondere Diesel stark auf Krisen.",
+      "Zusätzlich wird die Lage dadurch verschärft, dass die Huthi-Miliz die Meerenge Bab al-Mandab kontrolliert. Dies ist ein weiterer wichtiger Engpass für den internationalen Seehandel. Auch der Wechselkurs zwischen Euro und US-Dollar spielt laut ZDFheute beim Anstieg der Spritpreise eine Rolle.",
+      "Bereits im Mai und Juni 2026 gab es einen Tankrabatt in Deutschland. Laut Analysen des Bundeskartellamts und der Monopolkommission hatten die Konzerne den damaligen Rabatt möglicherweise nicht vollständig an die Kundschaft weitergegeben."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine Energiesteuer ist eine Verbrauchssteuer auf Energieerzeugnisse wie Benzin, Diesel oder Heizöl. Sie wird vom Bund erhoben und ist fester Bestandteil des Kraftstoffpreises an den Tankstellen.",
+      "Ein Bundesrat ist ein Verfassungsorgan der Bundesrepublik Deutschland, durch das die Länder bei der Gesetzgebung und Verwaltung des Bundes mitwirken. Der Bundestag ist das Parlament und vertritt die Bürgerinnen und Bürger auf Bundesebene."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Pläne stoßen auf ein geteiltes Echo in Wirtschaft und Politik. Mecklenburg-Vorpommerns Ministerpräsidentin Manuela Schwesig begrüßte das Handeln der Bundesregierung als wichtige Entlastung für Bürger und Wirtschaft. Auch der Deutsche Bauernverband und die Logistikbranche bewerteten den Tankrabatt positiv.",
+      "Kritik kam hingegen von der Opposition, Umweltverbänden und Verbraucherschützern. Grünen-Fraktionsvize Andreas Audretsch kritisierte den Tankrabatt und forderte stattdessen die Auszahlung eines Energiegeldes. Greenpeace und der BUND kritisierten, dass ein pauschaler Rabatt vor allem einkommensstarke Haushalte mit hohem Verbrauch entlaste.",
+      "Die Chefin des Verbraucherzentrale Bundesverbandes, Ramona Pop, nannte die Maßnahmen teuer und wenig zielgenau. Ähnlich äußerte sich der Präsident des Ifo-Instituts, Clemens Fuest. Der Vorsitzende der Monopolkommission, Tomaso Duso, lehnte einen Preisdeckel ab."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Fraktionen von Union und SPD wollen das Gesetzespaket beraten und beschließen. Bundestag und Bundesrat tagen, um die gesetzlichen Grundlagen für den Tankrabatt zu schaffen. Das Bundesfinanzministerium plant eine Formulierungshilfe für die Koalitionsfraktionen.",
+      "Für den Spritpreisdeckel gibt es weniger Zeitdruck, da dieser erst zum 1. Januar 2027 in Kraft treten soll. Die Bundesregierung will in den kommenden Wochen Gespräche mit Vertretern der Mineralölwirtschaft führen, um die genaue Ausgestaltung der Höchstpreise zu klären."
+     ]
+    }
+   ],
+   "zeitleiste": [
     [
      "Donnerstag",
      "Der Dieselpreis kletterte laut ADAC auf einen Höchstwert von durchschnittlich 2,471 Euro"
@@ -454,10 +898,6 @@
     [
      "18. September 2026",
      "Die Bundesregierung und die Bundesländer erzielten eine Einigung auf Tankrabatt und Spritpreisdeckel"
-    ],
-    [
-     "Mai bis Juni",
-     "Ein erster Tankrabatt in gleicher Größenordnung galt in Deutschland."
     ],
     [
      "18. September 2026",
@@ -490,28 +930,26 @@
     [
      "1. Oktober 2026",
      "Geplante Einführung des neuen Tankrabatts."
+    ],
+    [
+     "Mai bis Juni 2026",
+     "Ein erster Tankrabatt in gleicher Größenordnung galt in Deutschland."
+    ],
+    [
+     "18. September 2026",
+     "Die Bundesregierung und die Bundesländer erzielten eine Einigung auf Tankrabatt und Spritpreisdeckel."
     ]
    ],
    "bilder": [
     {
-     "art": "building",
-     "suchbegriff": "German Federal Chancellery building Berlin",
-     "bildunterschrift": "Das Bundeskanzleramt in Berlin, wo die Beratungen zwischen Bund und Ländern stattfanden."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Friedrich Merz politician portrait",
-     "bildunterschrift": "Bundeskanzler Friedrich Merz äußerte sich zu den Belastungen für Autofahrer."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Lars Klingbeil politician",
-     "bildunterschrift": "Bundesfinanzminister Lars Klingbeil forderte Maßnahmen gegen die Kraftstoffpreise."
+     "art": "gebaeude",
+     "suchbegriff": "Reichstag building Berlin",
+     "bildunterschrift": "Das Reichstagsgebäude in Berlin, in dem der Bundestag über das Entlastungspaket berät."
     },
     {
      "art": "symbol",
      "suchbegriff": "Gas station price sign Germany",
-     "bildunterschrift": "Kraftstoffpreise an einer Tankstelle erreichten zuletzt Rekordwerte."
+     "bildunterschrift": "Preisanzeige an einer Tankstelle für Kraftstoff."
     }
    ],
    "ort": {
@@ -519,127 +957,130 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Das Datum des spätesten Spritpreisdeckels wurde zu 2027 korrigiert. Die Formulierung zu Klingbeils EU-Aktivitäten wurde sachlich angepasst."
+    "Zahlen und Daten wurden an die exakten Vorgaben der Berichte angepasst.",
+    "Unbelegte Aussagen im Abschnitt Zum Verständnis wurden entfernt."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
       "Energiesteuer",
-      "Eine Steuer des Bundes auf Energieprodukte wie Benzin und Diesel, die im Benzinpreis enthalten ist."
+      "Eine Steuer des Bundes auf Energieträger wie Benzin oder Diesel, die fest im Tankstellenpreis enthalten ist."
      ],
      [
-      "Spritpreisdeckel",
-      "Eine staatliche Regelung, die einen Höchstpreis für Benzin und Diesel festlegt."
+      "Preisdeckel",
+      "Eine festgelegte Obergrenze für Preise, die nicht überschritten werden darf."
      ],
      [
       "Übergewinnsteuer",
-      "Eine Sondersteuer für Unternehmen, die in Krisenzeiten besonders hohe Gewinne erzielen."
+      "Eine Sondersteuer auf Gewinne von Unternehmen, die durch Krisen besonders stark steigen."
      ]
     ],
     "fragen": [
-     "Welche Vor- und Nachteile hat ein Tankrabatt für die Verbraucher und den Staat?",
-     "Warum ist es für die Politik manchmal schwierig, schnelle Hilfen wie einen Tankrabatt umzusetzen?"
+     "Welche Argumente bringen Kritiker gegen den pauschalen Tankrabatt vor?",
+     "Warum beteiligt sich bei diesem Tankrabatt im Gegensatz zum Frühsommer auch der Bund nicht allein an den Kosten?"
     ],
     "quiz": [
      {
-      "frage": "Um wie viel Cent sinkt der Kraftstoffpreis an der Zapfsäule durch die geplante Steuersenkung insgesamt?",
+      "frage": "Wie hoch soll der geplante Tankrabatt pro Liter Kraftstoff sein?",
       "optionen": [
        "10 Cent",
        "17 Cent",
        "25 Cent"
       ],
       "richtig": 1,
-      "erklaerung": "Laut Tagesschau/ARD ergibt sich durch die Senkung der Energiesteuer um 14 Cent zusammen mit der Umsatzsteuer eine Ersparnis von rund 17 Cent pro Liter."
+      "erklaerung": "Laut übereinstimmender Berichte soll der Tankrabatt von Oktober bis Jahresende 17 Cent pro Liter betragen."
      },
      {
-      "frage": "Wer trägt die Hälfte der Kosten für das Entlastungspaket von rund 2,5 Milliarden Euro?",
+      "frage": "Welche Länder gelten als Vorbild für den geplanten Spritpreisdeckel?",
       "optionen": [
-       "Die Bundesländer",
-       "Die Europäische Union",
-       "Die Mineralölkonzerne"
+       "Luxemburg und Belgien",
+       "Österreich und die Schweiz",
+       "Frankreich und Polen"
       ],
       "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und ZDFheute beteiligen sich die Länder mit einer Summe von 1,25 Milliarden Euro und tragen damit die Hälfte."
+      "erklaerung": "In den Berichten von ZDFheute und Süddeutscher Zeitung werden Luxemburg und Belgien als Vorbilder genannt."
      },
      {
-      "frage": "Wann soll die Energiesteuer laut den Plänen von Bund und Ländern gesenkt werden?",
+      "frage": "Wann soll der Spritpreisdeckel spätestens eingeführt werden?",
       "optionen": [
-       "Ab dem 1. Mai",
-       "Ab dem 1. Oktober",
-       "Ab dem 1. Januar 2027"
+       "Am 1. Oktober 2026",
+       "Am 1. November 2026",
+       "Am 1. Januar 2027"
       ],
-      "richtig": 1,
-      "erklaerung": "In den Berichten von Tagesschau/ARD und ZDFheute steht übereinstimmend, dass die Energiesteuer vom 1. Oktober an gesenkt werden soll."
+      "richtig": 2,
+      "erklaerung": "Die Berichte geben an, dass der Spritpreisdeckel spätestens zum 1. Januar 2027 starten soll."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Wegen sehr hoher Spritpreise helfen Bund und Länder den Menschen in Deutschland. Es gibt bald einen neuen Tankrabatt und einen Preisdeckel.",
+    "vorspann": "Wegen hoher Spritpreise hat die Bundesregierung neue Hilfen beschlossen.",
     "absaetze": [
-     "Benzin und Diesel sind an den Tankstellen extrem teuer geworden. Deshalb haben sich die Bundesregierung und die sechzehn Bundesländer auf Hilfe geeinigt.",
-     "Ab dem ersten Oktober soll die Steuer auf Kraftstoffe sinken. Dadurch wird ein Liter Benzin oder Diesel um siebzehn Cent billiger.",
-     "Zusätzlich soll es einen Spritpreisdeckel geben. Das bedeutet, dass ein Höchstpreis für Benzin und Diesel festgelegt werden soll.",
-     "Insgesamt kostet dieses Entlastungspaket rund zweieinhalb Milliarden Euro. Die Hälfte davon bezahlen die Bundesländer."
+     "Die Regierung und die Bundesländer haben sich auf ein Entlastungspaket geeinigt.",
+     "Ab dem ersten Oktober soll es einen Tankrabatt von siebzehn Cent pro Liter geben.",
+     "Dieser Rabatt soll drei Monate lang gelten und Geld durch eine niedrigere Energiesteuer sparen.",
+     "Spätestens ab Januar zweitausend siebenundzwanzig soll zusätzlich ein Preisdeckel für Sprit kommen.",
+     "Während einige Politiker die Hilfen loben, kritisieren Verbände und die Opposition die Pläne als ungerecht."
     ]
    },
    "video": {
     "kurz": [
-     "Bund und Länder haben sich auf einen Tankrabatt geeinigt.",
-     "Die Energiesteuer soll ab Oktober um vierzehn Cent sinken.",
-     "Zusätzlich ist ein Höchstpreis für Benzin und Diesel geplant."
+     "Bund und Länder haben sich auf ein Entlastungspaket gegen hohe Spritpreise geeinigt.",
+     "Ab Oktober senkt ein dreimonatiger Tankrabatt den Preis um siebzehn Cent pro Liter.",
+     "Im Januar zweitausend siebenundzwanzig soll zusätzlich ein befristeter Spritpreisdeckel folgen.",
+     "Kritiker bemängeln jedoch, dass die Maßnahmen nicht zielgenau genug seien."
     ],
     "lang": [
-     "Wegen hoher Spritpreise haben sich Bund und Länder auf ein Entlastungspaket geeinigt.",
-     "Das teilten die Tagesschau und das ZDF am achtzehnten September mit.",
-     "Geplant sind ein neuer Tankrabatt und ein Spritpreisdeckel für Benzin und Diesel.",
-     "Die Energiesteuer sinkt ab dem ersten Oktober um vierzehn Cent pro Liter.",
-     "Zusammen mit der Umsatzsteuer sparen Autofahrer siebzehn Cent pro Liter.",
-     "Insgesamt sollen Bürger und Unternehmen um zweieinhalb Milliarden Euro entlastet werden.",
-     "Bundeskanzler Friedrich Merz sagte nach Angaben der Medien, dass viele Menschen an ihre Belastungsgrenze kommen.",
-     "Ökonomen kritisieren das Paket allerdings als teuer und wenig sozial.",
-     "Ob der Termin im Oktober eingehalten wird, hängt vom Bundestag ab."
+     "Die Bundesregierung und die Bundesländer haben sich auf Maßnahmen gegen hohe Spritpreise geeinigt.",
+     "Das gaben die beteiligten Stellen am achtzehnten September bekannt.",
+     "Auslöser für die hohen Preise sind internationale Konflikte und blockierte Transportwege für Erdöl.",
+     "Ab dem ersten Oktober sollen Benzin und Diesel für drei Monate um siebzehn Cent billiger werden.",
+     "Dafür senkt der Bund die Energiesteuer, wobei sich die Bundesländer zur Hälfte an den Kosten beteiligen.",
+     "Insgesamt kostet das Paket nach Regierungsangaben rund zweieinhalb Milliarden Euro.",
+     "Spätestens zum ersten Januar zweitausend siebenundzwanzig soll zusätzlich ein Spritpreisdeckel eingeführt werden.",
+     "Nach Angaben der Nachrichtenquellen kritisieren Opposition und Verbraucherschützer die Pläne als unsozial und wenig zielgenau.",
+     "Befürworter aus Politik und Wirtschaft sehen darin hingegen eine notwendige Hilfe für Bürger und Unternehmen.",
+     "Die gesetzlichen Grundlagen sollen in den kommenden Tagen im Eiltempo beraten und beschlossen werden."
     ],
     "einfach": [
-     "Kraftstoffe an den Tankstellen sind im Moment sehr teuer.",
-     "Deshalb haben Bund und Länder ein neues Hilfspaket beschlossen.",
-     "Ab dem ersten Oktober sinkt die Steuer auf Benzin und Diesel.",
-     "Ein Liter Kraftstoff wird dadurch siebzehn Cent billiger.",
-     "Zusätzlich soll es einen Höchstpreis für Benzin und Diesel geben.",
-     "Kritiker finden das Paket jedoch zu teuer und ungerecht."
+     "Die Spritpreise an den Tankstellen sind in letzter Zeit stark gestiegen.",
+     "Deshalb hat die Bundesregierung ein neues Entlastungspaket beschlossen.",
+     "Ab Oktober soll der Sprit durch einen Rabatt siebzehn Cent pro Liter billiger werden.",
+     "Im Januar zweitausend siebenundzwanzig soll außerdem ein Höchstpreis für Benzin und Diesel eingeführt werden.",
+     "Experten und Verbraucherschützer streiten darüber, ob diese Hilfen gerecht und sinnvoll sind."
     ]
    },
    "kurz": [
-    "Bund und Länder haben sich auf einen Tankrabatt und einen Spritpreisdeckel geeinigt.",
-    "Bürger und Unternehmen sollen insgesamt um rund zweieinhalb Milliarden Euro entlastet werden.",
-    "Die Energiesteuer auf Benzin und Diesel soll ab dem ersten Oktober gesenkt werden.",
-    "Auslöser für die hohen Kraftstoffpreise ist die Krise im Nahen Osten."
+    "Bund und Länder haben sich auf ein Entlastungspaket gegen hohe Spritpreise geeinigt.",
+    "Ab Oktober soll ein Tankrabatt von 17 Cent pro Liter für drei Monate gelten.",
+    "Spätestens ab Januar 2027 ist ein befristeter Spritpreisdeckel geplant.",
+    "Die Pläne stoßen auf geteiltes Echo und Kritik von Verbänden und Opposition."
    ],
    "fakten": [
     [
-     "Entlastungsvolumen",
-     "2,5 Milliarden Euro"
-    ],
-    [
-     "Steuersenkung Energiesteuer",
-     "14 Cent pro Liter"
-    ],
-    [
-     "Gesamteinsparung an Zapfsäule",
+     "Kraftstoff-Entlastung",
      "17 Cent pro Liter"
     ],
     [
-     "Dieselpreis Rekordwert",
-     "2,471 Euro"
+     "Geplante Gesamtkosten",
+     "2,5 Milliarden Euro"
     ],
     [
-     "Super E10 Preis",
-     "2,308 Euro"
+     "Anteil der Bundesländer",
+     "1,25 Milliarden Euro"
+    ],
+    [
+     "Geplanter Start Tankrabatt",
+     "1. Oktober"
+    ],
+    [
+     "Geplanter Start Preisdeckel",
+     "1. Januar 2027"
     ]
    ],
    "dossier": {
-    "slug": "hohe-spritpreise-entlastung",
-    "titel": "Maßnahmen gegen hohe Spritpreise"
+    "slug": "kraftstoffpreise-entlastung-2026",
+    "titel": "Maßnahmen gegen hohe Kraftstoffpreise"
    },
    "bildInfo": {
     "titel": "05 OMV gas station prices in Austria - gas prices in Europe 2012.jpg",
@@ -652,7 +1093,7 @@
     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
     "art": "symbol",
     "suchbegriff": "Gas station price sign Germany",
-    "bildunterschrift": "Eine Preistafel an einer Tankstelle, die Kraftstoffpreise anzeigt.",
+    "bildunterschrift": "Eine Preistafel an einer Tankstelle veranschaulicht die Kraftstoffpreise.",
     "hinweis": "Symbolbild"
    },
    "bildInfos": [
@@ -667,7 +1108,7 @@
      "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
      "art": "symbol",
      "suchbegriff": "Gas station price sign Germany",
-     "bildunterschrift": "Eine Preistafel an einer Tankstelle, die Kraftstoffpreise anzeigt.",
+     "bildunterschrift": "Eine Preistafel an einer Tankstelle veranschaulicht die Kraftstoffpreise.",
      "hinweis": "Symbolbild"
     }
    ],
@@ -680,144 +1121,1727 @@
    "bildVersucht": true,
    "ton": [
     {
-     "k": "Wegen hoher Spritpreise haben sich Bund und Länder auf ein Entlastungspaket geei",
-     "d": "cf8807a983.mp3",
-     "l": 43.64,
+     "k": "Die Bundesregierung und die Bundesländer haben sich auf Maßnahmen gegen hohe Spr",
+     "d": "59be66d170.mp3",
+     "l": 58.52,
      "s": [
       0.25,
-      5.11,
-      9.83,
-      14.62,
-      19.04,
-      23.36,
-      28.56,
-      35.0,
-      39.49
+      5.99,
+      9.95,
+      15.98,
+      21.52,
+      27.16,
+      32.36,
+      38.93,
+      46.38,
+      52.56
      ]
     },
     {
-     "k": "Bund und Länder haben sich auf einen Tankrabatt geeinigt. Die Energiesteuer soll",
-     "d": "5f433faa68.mp3",
-     "l": 11.5,
+     "k": "Bund und Länder haben sich auf ein Entlastungspaket gegen hohe Spritpreise geein",
+     "d": "317ad57a5d.mp3",
+     "l": 19.79,
      "s": [
       0.25,
-      3.67,
-      7.65
+      4.8,
+      9.81,
+      15.44
      ]
     },
     {
-     "k": "Kraftstoffe an den Tankstellen sind im Moment sehr teuer. Deshalb haben Bund und",
-     "d": "748d069346.mp3",
-     "l": 24.02,
+     "k": "Die Spritpreise an den Tankstellen sind in letzter Zeit stark gestiegen. Deshalb",
+     "d": "abe89197c0.mp3",
+     "l": 27.79,
      "s": [
       0.25,
-      3.84,
-      8.36,
-      12.42,
-      16.18,
-      20.12
+      4.82,
+      9.39,
+      14.38,
+      21.69
      ]
     },
     {
-     "k": "Ob der Tankrabatt tatsächlich fristgerecht zum 1. Oktober eingeführt werden kann",
-     "d": "4ace022956.mp3",
-     "l": 10.56,
+     "k": "Ob die Bundesländer der hälftigen Kostenübernahme für den Tankrabatt zustimmen, ",
+     "d": "8e7db1115d.mp3",
+     "l": 6.87,
      "s": [
-      0.25,
-      3.69
+      0.25
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Energiesteuer? Eine Steuer des Bundes auf Energieprodukt",
-     "d": "9718798404.mp3",
-     "l": 9.03,
+     "k": "Was bedeutet eigentlich Energiesteuer? Eine Steuer des Bundes auf Energieträger ",
+     "d": "2958cef0b8.mp3",
+     "l": 10.0,
      "s": [
       0.25,
-      2.92
+      3.26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "usa-daenemark-groenland-abkommen",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "aktualisiert": "aktualisiert um 08:11 Uhr",
+   "titel": "Einigung im Streit um Grönland zwischen den USA, Dänemark und Grönland",
+   "vorspann": "Nach monatelangen Verhandlungen haben die USA, Dänemark und Grönland ein mögliches Abkommen über die Insel verkündet. Die Vereinbarung soll in der kommenden Woche unterzeichnet werden und muss danach parlamentarische Prozesse durchlaufen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die USA, Dänemark und Grönland haben sich nach monatelangem Streit auf ein Abkommen geeinigt.",
+    "Das Abkommen soll in der kommenden Woche während der UN-Generalversammlung unterzeichnet werden und muss anschliessend parlamentarische Prozesse durchlaufen.",
+    "Während US-Präsident Trump von dauerhafter Kontrolle und weitreichenden Sicherheitsbefugnissen spricht, betonen Dänemark und Grönland die Wahrung ihrer Souveränität."
+   ],
+   "einig": [
+    [
+     "Die USA, Dänemark und Grönland haben sich auf ein Abkommen geeinigt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Das Abkommen soll in der kommenden Woche unterzeichnet werden.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Grönland bleibt unter dänischer Souveränität.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Gegner der USA dürfen ohne Genehmigung keine militärischen Stützpunkte errichten oder sensible Investitionen tätigen.",
+     [
+      "ZDFheute",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Wer für die Kosten der Militärpräsenz aufkommen wird, bleibt laut ZDFheute unklar.",
+    "Ob die geplante grosse Militärpräsenz ausschliesslich von den USA gestellt wird, ist laut ZDFheute unklar.",
+    "Ob drei neue Stützpunkte im Süden Grönlands errichtet werden, ist laut Deutscher Welle nicht offiziell bestätigt."
+   ],
+   "positionen": [
+    [
+     "US-Präsident Donald Trump",
+     "Die USA erhalten durch das Abkommen die dauerhafte Kontrolle über Sicherheit und alle Belange in Grönland.",
+     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
+    ],
+    [
+     "Dänische Regierung und Ministerpräsidentin Mette Frederiksen",
+     "Das Abkommen wahrt die Souveränität und territoriale Integrität des dänischen Königreichs und stärkt die gemeinsame Sicherheit.",
+     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
+    ],
+    [
+     "Grönländischer Regierungschef Jens-Frederik Nielsen",
+     "Das Abkommen erkennt Grönlands Interessen und den Platz des Landes in der internationalen Zusammenarbeit an.",
+     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von Vertretern aus Russland und China zu den getroffenen Vereinbarungen.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "19.09.26, 23:23",
+     "fokus": "Mögliches Abkommen",
+     "text": "Die Tagesschau berichtet sachlich über die Aussicht auf ein Abkommen nach monatelangem Streit zwischen den drei beteiligten Parteien.",
+     "url": "https://www.tagesschau.de/tagesthemen/video-1651962.html",
+     "video": true
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "19.09.26, 13:09",
+     "fokus": "Hintergründe und Details",
+     "text": "ZDFheute liefert eine ausführliche Übersicht mit Fragen und Antworten, Expertenmeinungen sowie Details zur Rolle der EU.",
+     "url": "https://www.zdfheute.de/politik/ausland/trump-usa-daenemark-groenland-abkommen-faq-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 08:03",
+     "fokus": "Militärische Ausweitung",
+     "text": "Der Deutschlandfunk meldet kurz die Einigung über die Ausweitung der US-Militärpräsenz unter Wahrung der Souveränität.",
+     "url": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-ausweiten-102.html",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 11:27",
+     "fokus": "Inlandspolitik und Medien",
+     "text": "Die FAZ erwähnt neben dem Grönland-Abkommen auch innenpolitische Themen wie den Ausschluss von Medien aus Presseräumen.",
+     "url": "https://www.faz.net/video/neues-abkommen-sichert-usa-dauerhafte-militaerpraesenz-auf-groenland-201242939.html",
+     "video": true
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "19.09.26, 10:55",
+     "fokus": "Geopolitische Einordnung",
+     "text": "Die Deutsche Welle beleuchtet die geostrategische Lage Grönlands und verweist auf unbestätigte Medienberichte über neue Stützpunkte.",
+     "url": "https://www.dw.com/de/usa-verkünden-einigung-im-streit-mit-dänemark-und-grönland/a-79336544?maca=de-rss-de-all-1119-rdf",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus auf Zusatzthemen",
+     "Die FAZ behandelt in ihrer Ausgabe zusätzlich innenpolitische Nachrichten wie Tankrabatte und den Ausschluss von Journalisten, während die anderen Sender sich auf Grönland konzentrieren."
+    ]
+   ],
+   "wfragen": {
+    "wer": "USA, Dänemark und Grönland",
+    "was": "Einigung auf ein gemeinsames Abkommen",
+    "wann": "kommende Woche",
+    "wo": "Grönland, Dänemark und USA",
+    "wie": "Durch Verhandlungen und eine gemeinsame Mitteilung",
+    "warum": "Sicherheitsinteressen und Präsenz anderer Staaten in der Arktis laut Trump",
+    "quellenlage": "Mitteilungen von Regierungen und US-Präsident Trump auf Truth Social"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Regierungen der Vereinigten Staaten, Dänemarks und Grönlands haben nach monatelangen Verhandlungen einen Durchbruch und eine Einigung im Streit um die Arktisinsel verkündet. Das künftige Abkommen soll in der kommenden Woche im Rahmen der UN-Generalversammlung in New York unterzeichnet werden. Nach der Unterzeichnung muss die Vereinbarung noch parlamentarische Prozesse durchlaufen, um endgültig in Kraft zu treten. Der Streit hatte zuvor monatelang angedauert und war unter anderem von Forderungen des US-Präsidenten nach Kontrolle geprägt worden. Nun liegt eine gemeinsame Mitteilung vor, die Aussicht auf eine vertragliche Regelung eröffnet.",
+      "US-Präsident Donald Trump hatte zuvor auf seiner Online-Plattform Truth Social erklärt, dass ein vollständiges Abkommen bereits besiegelt sei. Laut seinen Angaben gewährt der Deal den Vereinigten Staaten dauerhafte Kontrolle über alle Belange der Sicherheit und der Verteidigung auf der Arktisinsel. Gegner der Vereinigten Staaten dürften demnach ohne ausdrückliche Genehmigung keine militärischen Stützpunkte mehr auf Grönland errichten. Zudem sollen keine sensiblen Investitionen von Drittstaaten ohne Zustimmung getätigt und keine fremde militärische Präsenz zugelassen werden. Sofortige Vorbereitungen für den Aufbau einer US-Militärpräsenz seien ebenfalls vorgesehen.",
+      "Die dänische und die grönländische Regierung betonten in einer gemeinsamen Mitteilung hingegen, dass die Souveränität und territoriale Integrität des dänischen Königreichs durch das Abkommen gewahrt bleibe. Die Vereinbarung erkenne die Interessen Grönlands und dessen Platz in der internationalen Zusammenarbeit an. Dänemarks Ministerpräsidentin Mette Frederiksen erklärte, dass die gemeinsame Sicherheit in der Arktis und im Nordatlantik gestärkt werde. Auch der grönländische Regierungschef Jens-Frederik Nielsen äußerte sich positiv zu den festgelegten Regelungen. Die offizielle Bekanntgabe erfolgte kurz vor dem Wochenende durch die beteiligten Parteien."
      ]
     },
     {
-     "k": "Bund und Länder haben sich wegen der hohen Spritpreise auf einen Tankrabatt und ",
-     "d": "d115c02822.mp3",
-     "l": 58.81,
-     "s": [
-      0.25,
-      6.5,
-      14.86,
-      22.67,
-      29.25,
-      36.03,
-      44.55,
-      51.76
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Grönland ist zu vier Fünfteln mit Eis bedeckt und hat knapp 60.000 Einwohner. Die Insel ist eine frühere dänische Kolonie und inzwischen weitgehend autonom, gehört aber weiterhin zum Königreich Dänemark. Aktuell unterhält das US-Militär nur eine einzige Militärbasis auf dem Territorium, nämlich die Pituffik Space Base im Nordwesten. Diese Basis dient der Raketenabwehr und der Radarüberwachung sowie der Überwachung von Weltraumaktivitäten. Die Basis geht auf ein Verteidigungsabkommen zwischen Washington und Kopenhagen aus dem Jahr 1951 zurück, das später ergänzt wurde.",
+      "Laut Berichten von US-Medien, auf die sich die Deutsche Welle bezieht, wolle das US-Militär möglicherweise drei neue Stützpunkte im Süden Grönlands errichten. Eine offizielle Bestätigung für diese drei neuen Stützpunkte gibt es laut den Berichten jedoch nicht. US-Präsident Trump erwähnte in seinen Mitteilungen zudem die Idee, ein Raketenabwehrsystem namens Golden Dome auf der Insel zu errichten. Ob die geplante große Militärpräsenz ausschließlich von den USA gestellt wird, ging aus den Posts des Präsidenten nicht eindeutig hervor. Auch die Frage, wer für die anfallenden Kosten aufkommt, blieb in den Erklärungen zunächst offen.",
+      "Die Europäische Union zeigte währenddessen eigene Aktivitäten in der Region, um ihren Einfluss zu stärken. EU-Kommissionspräsidentin Ursula von der Leyen besuchte die Arktisinsel und gab einen Ausbau der Zusammenarbeit bekannt. Dabei wurden wirtschaftliche und politische Beziehungen vertieft sowie ein Investitionspaket angekündigt. Die Europäische Union will künftig auch bei der Bergung von Rohstoffen helfen. Unter dem grönländischen Eis befinden sich zahlreiche seltene Erden und Rohstoffe von internationalem Interesse, die Begehrlichkeiten wecken."
      ]
     },
     {
-     "k": "Die Berechnung des Höchstpreises für den geplanten Spritpreisdeckel orientiert s",
-     "d": "4c110f98eb.mp3",
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Schon während seiner ersten Amtszeit äußerte US-Präsident Trump die Idee, Grönland zu kaufen, was damals auf der Insel und in Dänemark als Scherz aufgefasst wurde. Im Januar dieses Jahres wurde jedoch deutlich, dass die USA ernsthafte Ansprüche auf Kontrolle erheben. Trump forderte wiederholt die Annexion und schloss dabei die Anwendung von Gewalt nicht aus. Später wurde ein Kompromiss auf dem Weltwirtschaftsforum in Davos durch NATO-Generalsekretär Mark Rutte vermittelt. Im Januar wurde daraufhin eine Arbeitsgruppe mit Vertretern aller drei Länder zur Klärung des Konflikts eingerichtet.",
+      "Die offizielle Begründung der US-Regierung für das Vorgehen lautet, dass Dänemark angesichts der wachsenden Präsenz von Staaten wie China und Russland in der Arktis nicht allein für die Sicherheit sorgen könne. Grönland liegt geografisch günstig im Nordatlantik und im Arktischen Ozean auf einer möglichen Flugbahn russischer Raketen in Richtung USA. Die NATO erhöhte bereits Anfang des Jahres ihre Präsenz in der Arktis offiziell zur Abwehr russischer Interessen. Inoffiziell spielte dabei auch das Interesse der USA an der strategisch wichtigen Region eine zentrale Rolle.",
+      "Beobachter und Experten wie Michael Paul von der Stiftung Wissenschaft und Politik schätzen das Abkommen als vertieften strategischen Pakt ein. Laut dieser Einschätzung verändert sich durch den Deal nichts Fundamentales an der Souveränität, da diese unangetastet bleibe. Der US-Präsident habe mit der Einigung möglicherweise eines seiner selbst geschaffenen Probleme gelöst. Die rote Linie Dänemarks, die Souveränität nicht zu beschneiden, sei nach Angaben der beteiligten Regierungen gewahrt worden. Der Konflikt schien damit vorerst friedlich beigelegt zu sein."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Königreich Dänemark besteht aus dem Mutterland Dänemark sowie den beiden autonomen Gebieten Grönland und den Färöern. Grönland besitzt ein eigenes Parlament und eine eigene Regierung für innere Angelegenheiten, während Dänemark weiterhin für Bereiche wie Außen- und Verteidigungspolitik zuständig ist. Die NATO ist ein militärisches Bündnis aus europäischen und nordamerikanischen Staaten, das auf gegenseitige Verteidigung ausgerichtet ist. Die Arktis ist die Polarregion um den Nordpol, die aufgrund des Klimawandels und des Zugangs zu Schifffahrtswegen und Rohstoffen zunehmend in den Fokus internationaler Politik gerät. Die Vereinten Nationen bilden eine weltweite Organisation zur Sicherung des Friedens und der internationalen Zusammenarbeit."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "US-Präsident Donald Trump erklärte auf der Plattform Truth Social, dass die USA dauerhafte Kontrolle über Sicherheit und alle anderen Belange auf Grönland erhalten. Dänemarks Ministerpräsidentin Mette Frederiksen äußerte in einer Pressemitteilung Freude über die Aussicht auf ein gutes Abkommen. Sie betonte laut Tagesschau und ZDFheute, dass die Vereinbarung die gemeinsame Sicherheit in der Arktis stärke. Der grönländische Regierungschef Jens-Frederik Nielsen erklärte laut den Berichten, das Abkommen anerkenne die Interessen Grönlands und den Platz des Landes in der internationalen Zusammenarbeit. EU-Kommissionspräsidentin Ursula von der Leyen kündigte bei einem Besuch auf der Insel Investitionen an.",
+      "Experten wie Michael Paul von der Stiftung Wissenschaft und Politik erklärten laut ZDFheute, dass sich durch den Deal vermutlich nichts Grundlegendes verändere. Er betonte, dass eine Beschneidung der Souveränität für Dänemark und Grönland eine rote Linie darstelle. Laut dem ZDF-Korrespondenten David Sauer handelt es sich bei dem Abkommen mutmaßlich um einen vertieften strategischen Pakt. Weitere offizielle Stellungnahmen von Regierungen anderer Nato-Staaten blieben zunächst abgewartet."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Das ausgearbeitete Abkommen zwischen den USA, Dänemark und Grönland soll in der kommenden Woche im Rahmen der UN-Generalversammlung in New York unterzeichnet werden. Nach der Unterzeichnung muss die Vereinbarung noch die parlamentarischen Prozesse in den beteiligten Ländern durchlaufen, um formell in Kraft zu treten. Ob weitere Nato-Länder in den Deal eingebunden werden, blieb zunächst offen. Auch die Frage, wie sich die militärische Präsenz konkret ausgestaltet und wer die Kosten dafür trägt, soll in den kommenden Schritten geklärt werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Januar 2026",
+     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits durch die USA, Dänemark und Grönland"
+    ],
+    [
+     "Januar 2026",
+     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte und Veröffentlichung einer Umfrage zur Unabhängigkeit Grönlands"
+    ],
+    [
+     "19. September 2026",
+     "Verkündung der Einigung auf ein gemeinsames Abkommen zwischen den USA, Dänemark und Grönland"
+    ],
+    [
+     "Januar 2026",
+     "Einrichtung einer hochrangigen Arbeitsgruppe zur Beilegung des Grönland-Konflikts"
+    ],
+    [
+     "18. September 2026",
+     "Verkündung einer Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
+    ],
+    [
+     "19. September 2026",
+     "Bekanntgabe weiterer Details und geplante Unterzeichnung des Abkommens in der kommenden Woche"
+    ],
+    [
+     "Januar 2026",
+     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte auf dem Weltwirtschaftsforum in Davos"
+    ],
+    [
+     "Januar 2026",
+     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits zwischen den USA, Dänemark und Grönland"
+    ],
+    [
+     "19. September 2026",
+     "Verkündung der Einigung und des geplanten Abkommens durch die Regierungen und US-Präsident Trump"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "Nuuk Greenland landscape",
+     "bildunterschrift": "Blick auf Nuuk, die Hauptstadt von Grönland, das im Zentrum des internationalen Abkommens steht."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Mette Frederiksen official portrait",
+     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen betonte die Wahrung der Souveränität des Königreichs."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters New York",
+     "bildunterschrift": "Das Hauptquartier der Vereinten Nationen in New York, wo das Abkommen unterzeichnet werden soll."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "NATO flag symbol",
+     "bildunterschrift": "Die Flagge der NATO symbolisiert das nordatlantische Bündnis, dessen Sicherheit durch den Pakt gestärkt werden soll."
+    }
+   ],
+   "ort": {
+    "name": "Nuuk, Grönland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Die Erwähnung der EU-Investitionen im Vorspann wurde entfernt, da sie nicht von mindestens zwei Quellen im Abschnitt Einig getragen wird.",
+    "Die nicht belegten Angaben zu Millionenbeträgen bei EU-Investitionen wurden aus dem Text entfernt.",
+    "Das genaue Datum 18. September wurde aus der Zeitleiste entfernt, da nur der 19. September in den Berichten steht."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Souveränität",
+      "Die staatliche Unabhängigkeit und das Recht eines Landes, selbst über seine Gesetze und seine Politik zu bestimmen."
+     ]
+    ],
+    "fragen": [
+     "Welche unterschiedlichen Sichtweisen haben die beteiligten Regierungen auf das neue Abkommen?",
+     "Warum ist die Region Grönland für andere Staaten und das Militär von so großer Bedeutung?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wann soll das Abkommen nach den Berichten voraussichtlich unterzeichnet werden?",
+      "optionen": [
+       "In der kommenden Woche",
+       "Im Januar nächsten Jahres",
+       "Erst nach den Wahlen in den USA"
+      ],
+      "richtig": 0,
+      "erklaerung": "In den Berichten wird übereinstimmend erklärt, dass das Abkommen in der kommenden Woche unterzeichnet werden soll."
+     },
+     {
+      "frage": "Was betonten die Regierungen von Dänemark und Grönland im Gegensatz zu US-Präsident Trump?",
+      "optionen": [
+       "Dass Grönland ein eigenständiger Staat wird",
+       "Dass die Souveränität des dänischen Königreichs gewahrt bleibt",
+       "Dass die Vereinigten Staaten alle Kosten übernehmen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Dänemark und Grönland betonten laut den Berichten, dass das Abkommen die Souveränität und territoriale Integrität des Königreichs anerkennt."
+     },
+     {
+      "frage": "Welche militärische Einrichtung der USA befindet sich bereits auf Grönland?",
+      "optionen": [
+       "Ein großer Marinestützpunkt im Süden",
+       "Die Pituffik Space Base im Nordwesten",
+       "Eine Luftwaffenbasis in der Hauptstadt Nuuk"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte nennen die Pituffik Space Base im Nordwesten als die derzeit einzige Militärbasis der USA auf Grönland."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach langem Streit auf ein gemeinsames Abkommen geeinigt. Die Vereinbarung soll in der nächsten Woche bei den Vereinten Nationen unterzeichnet werden.",
+    "absaetze": [
+     "Die Insel Grönland gehört zu Dänemark, ist aber weitgehend selbstständig. Die Vereinigten Staaten wollten schon länger mehr Einfluss auf der Insel haben. Jetzt haben die drei Regierungen einen Durchbruch verkündet.",
+     "Der amerikanische Präsident Donald Trump sagt, dass die Vereinigten Staaten durch das Abkommen die Kontrolle über die Sicherheit erhalten. Gegner dürfen ohne Erlaubnis keine Militärbasen mehr bauen.",
+     "Dänemark und Grönland betonen dagegen, dass die Selbstständigkeit und die Souveränität der Insel erhalten bleiben. Das bedeutet, dass das dänische Königreich weiter das Sagen hat.",
+     "Ob das Militär drei neue Stützpunkte bekommt und wer die Kosten bezahlt, ist im Moment noch unklar. Das Abkommen muss nach der Unterschrift noch von Parlamenten geprüft werden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach langem Streit auf ein Abkommen geeinigt.",
+     "Das Abkommen soll in der kommenden Woche bei den Vereinten Nationen unterzeichnet werden.",
+     "Nach Angaben von US-Präsident Donald Trump erhalten die Vereinigten Staaten dauerhafte Kontrolle über Sicherheitsfragen.",
+     "Dänemark und Grönland betonen hingegen, dass die Souveränität des Königreichs gewahrt bleibt."
+    ],
+    "lang": [
+     "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach monatelangem Streit auf ein gemeinsames Abkommen geeinigt.",
+     "Das teilten die Regierungen und US-Präsident Donald Trump mit.",
+     "Die Vereinbarung soll in der kommenden Woche bei den Vereinten Nationen unterzeichnet werden und muss danach parlamentarische Prozesse durchlaufen.",
+     "Nach Angaben von Präsident Trump erhalten die Vereinigten Staaten eine dauerhafte Kontrolle über alle Sicherheitsbelange auf der Insel.",
+     "Gegner der Vereinigten Staaten dürfen laut den Berichten ohne Erlaubnis keine Militärstützpunkte mehr auf Grönland errichten.",
+     "Dänische und grönländische Regierungsvertreter betonten dagegen, dass das Abkommen die Souveränität und die territoriale Integrität des dänischen Königreichs anerkennt.",
+     "Ob die geplante starke Militärpräsenz ausschließlich von den Vereinigten Staaten gestellt wird und wer die Kosten trägt, ist laut den Berichten noch unklar.",
+     "Grönland ist eine frühere dänische Kolonie mit knapp sechzigtausend Einwohnern und liegt strategisch wichtig im Nordatlantik.",
+     "Experten schätzen das Abkommen als einen vertieften strategischen Pakt ein.",
+     "Das Abkommen muss nach der feierlichen Unterzeichnung noch von den Parlamenten gebilligt werden."
+    ],
+    "einfach": [
+     "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein Abkommen geeinigt.",
+     "Das Abkommen soll in der nächsten Woche unterzeichnet werden.",
+     "Der amerikanische Präsident Donald Trump sagt, dass sein Land die Kontrolle über die Sicherheit bekommt.",
+     "Dänemark und Grönland betonen aber, dass die Insel weiterhin zu Dänemark gehört.",
+     "Wichtige Fragen zu den Kosten und zu neuen Stützpunkten sind im Moment noch unklar."
+    ]
+   },
+   "kurz": [
+    "Die USA, Dänemark und Grönland haben sich auf ein Abkommen geeinigt.",
+    "Das Abkommen soll in der kommenden Woche unterzeichnet werden.",
+    "Trump spricht von dauerhafter Kontrolle, während Dänemark die Souveränität betont."
+   ],
+   "fakten": [
+    [
+     "Einwohner Grönlands",
+     "knapp 60.000"
+    ],
+    [
+     "Bedeckung Grönlands mit Eis",
+     "zu vier Fünfteln"
+    ]
+   ],
+   "dossier": {
+    "slug": "streit-um-groenland",
+    "titel": "Streit und Abkommen um Grönland"
+   },
+   "bildInfo": {
+    "titel": "Iceberg in North Star Bay, Greenland.jpg",
+    "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+    "urheber": "Jeremy Harbeck",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "ort",
+    "suchbegriff": "Greenland landscape ice",
+    "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Iceberg in North Star Bay, Greenland.jpg",
+     "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+     "urheber": "Jeremy Harbeck",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "ort",
+     "suchbegriff": "Greenland landscape ice",
+     "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Mette Frederiksen in 2023 (cropped).jpg",
+     "beschreibung": "Ministra do Reino da Dinamarca, Mette Frederiksen . Edifício Europa, escritório da Dinamarca - Bruxelas - Bélgica. Foto: Ricardo Stuckert/PR",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mette_Frederiksen_in_2023_(cropped).jpg",
+     "urheber": "Palácio do Planalto",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Mette Frederiksen",
+     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen, die an der Einigung beteiligt war.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump, dessen Land an der Einigung im Streit um Grönland beteiligt ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Nuuk, Grönland",
+    "lat": 64.177,
+    "lon": -51.736
+   },
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach monatelangem Stre",
+     "d": "007573b044.mp3",
+     "l": 68.19,
+     "s": [
+      0.25,
+      7.2,
+      11.41,
+      19.22,
+      26.65,
+      33.51,
+      42.67,
+      51.24,
+      58.51,
+      63.17
+     ]
+    },
+    {
+     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach langem Streit auf",
+     "d": "9be51ac8cb.mp3",
+     "l": 23.79,
+     "s": [
+      0.25,
+      6.1,
+      11.15,
+      18.08
+     ]
+    },
+    {
+     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein Abkommen geein",
+     "d": "2e41b5ab3c.mp3",
+     "l": 25.92,
+     "s": [
+      0.25,
+      5.52,
+      9.0,
+      15.13,
+      20.48
+     ]
+    },
+    {
+     "k": "Wer für die Kosten der Militärpräsenz aufkommen wird, bleibt laut ZDFheute unkla",
+     "d": "7f91a9de9c.mp3",
+     "l": 5.69,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Souveränität? Die staatliche Unabhängigkeit und das Rech",
+     "d": "fe5361530f.mp3",
+     "l": 9.73,
+     "s": [
+      0.25,
+      3.0
+     ]
+    }
+   ]
+  },
+  {
+   "id": "duma-wahl-russland-drohnenangriffe",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "titel": "Parlamentswahlen in Russland und Luftangriffe",
+   "vorspann": "In Russland ist die dreitägige Wahl für ein neues Parlament zu Ende gegangen. Gleichzeitig wurden Angriffe mit Drohnen und Explosionsfolgen gemeldet.",
+   "eil": false,
+   "zusammenfassung": [
+    "In Russland ist die Parlamentswahl beendet worden.",
+    "Die Hauptstadt Moskau und andere Regionen waren laut Berichten das Ziel von Drohnenangriffen.",
+    "In der Ukraine gab es nach Berichten Angriffe auf ein Munitionslager und weitere Orte mit Todesopfern.",
+    "Beide Seiten führen Angriffe auf Energie- und Logistikeinrichtungen fort."
+   ],
+   "einig": [
+    [
+     "In Russland ging die dreitägige Parlamentswahl zu Ende.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Gesamtzahl der eingesetzten Drohnen bei den Angriffen auf Moskau variiert in den Berichten.",
+    "Die Angaben zu Angriffen auf Energieinfrastruktur und deren Überprüfung sind teilweise unterschiedlich."
+   ],
+   "positionen": [
+    [
+     "Ukrainische Führung",
+     "Die Parlamentswahl in den besetzten Gebieten ist illegal und findet unter Zwang statt.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Russische Behörden",
+     "Die Wahl verlief im Großen und Ganzen ordnungsgemäß.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen unabhängiger internationaler Beobachterorganisationen wie der OSZE zur Wahl.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 05:29",
+     "fokus": "Duma-Wahl und Regelverstöße",
+     "text": "Berichtet über den Verlauf der Parlamentswahl und Vorwürfe der Manipulation.",
+     "url": "https://www.tagesschau.de/ausland/europa/duma-wahl-russland-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 08:03",
+     "fokus": "Drohnenangriffe",
+     "text": "Berichtet über Drohnenangriffe auf die Hauptstadtregion Moskau.",
+     "url": "https://www.deutschlandfunk.de/russische-parlamentswahl-geht-zu-ende-zwei-tote-bei-drohnenangriffen-auf-moskau-100.html",
+     "video": false
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "20.09.26, 07:56",
+     "fokus": "Drohnenangriffe auf Moskau",
+     "text": "Schildert die Opfer und Schäden der nächtlichen Drohnenangriffe in der Region Moskau.",
+     "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+     "video": false
+    },
+    {
+     "name": "NZZ",
+     "typ": "Tageszeitung (Schweiz)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "20.09.26, 06:20",
+     "fokus": "Kriegsgeschehen",
+     "text": "Fokus auf Opferzahlen im Kiewer Umland und militärische Lagemeldungen.",
+     "url": "https://www.nzz.ch/international/krieg-in-der-ukraine-moskau-meldet-ukrainischen-angriff-mit-180-drohnen-am-letzten-wahltag-berichte-von-cyberangriff-bei-wahlen-in-russland-ld.10021245",
+     "video": false
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "20.09.26, 07:43",
+     "fokus": "Drohnenangriffe",
+     "text": "Berichtet über abgefangene Drohnen im Raum Moskau.",
+     "url": "https://www.welt.de/politik/video6aaf6b64b1857e86757a7c5d/parlamentswahl-in-russland-ukraine-attackiert-moskau-mit-zahlreichen-drohnen.html",
+     "video": true
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "Während Tagesschau und NZZ stark auf die innenpolitische Wahl und das Kriegsgeschehen blicken, konzentrieren sich Deutschlandfunk, Welt und BBC primär auf die aktuellen Drohnenangriffe."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Wahlbeteiligte in Russland, russische und ukrainische Behörden sowie Streitkräfte",
+    "was": "Parlamentswahl in Russland und Drohnenangriffe auf Städte und Infrastruktur",
+    "wann": "20.09.2026",
+    "wo": "Russland und Ukraine",
+    "wie": "Durch Stimmabgabe und Luftangriffe",
+    "warum": "Noch unklar",
+    "quellenlage": "Behördenangaben, Gouverneure, Medienberichte, Wahlbeobachter"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Parlamentswahl in Russland",
+     "absaetze": [
+      "Drei Tage lang haben die Bürger in Russland ein neues Parlament gewählt. Ab zwanzig Uhr wurden die Stimmen ausgezählt. Ein Sieg der Regierungspartei Geeintes Russland gilt laut den Berichten als sicher. Präsident Wladimir Putin will sich durch die Abstimmung seinen Kurs gegen die Ukraine offiziell bestätigen lassen. Trotz Wirtschaftskrise wird eine Zweidrittelmehrheit für die Kremlpartei erwartet.",
+      "Die Wahl wurde erstmals auch in den von Russland kontrollierten Teilen der ukrainischen Regionen Luhansk, Donezk, Saporischschja und Cherson abgehalten. Die ukrainische Führung kritisierte diese Stimmabgabe und lehnte eine Anerkennung der offiziellen Ergebnisse ab. Die zehn auf dem Wahlzettel vertretenen Parteien unterstützen den Kurs der Regierung.",
+      "Unabhängige Wahlbeobachter meldeten verschiedene Manipulationsversuche und Regelverstöße während der Stimmabgabe. Die Zentrale Wahlkommission erklärte jedoch, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen."
+     ]
+    },
+    {
+     "ueberschrift": "Drohnenangriffe und zivile Opfer",
+     "absaetze": [
+      "Die Hauptstadtregion Moskau und weitere russische Regionen gerieten am letzten Wahltag erneut in das Ziel von Drohnenangriffen. Nach Angaben des Gouverneurs Andrei Worobjow wurden im Moskauer Gebiet mindestens zwei Menschen getötet und sechs weitere verletzt. In der Hauptstadt selbst wurde nach Angaben von Bürgermeister Sergei Sobjanin eine Ölraffinerie beschädigt.",
+      "In der zentralrussischen Region Jaroslawl kam nach Angaben des Gouverneurs mindestens eine Person bei Drohnenangriffen ums Leben. Dort geriet eine Ölraffinerie nach Treffern in Brand. Die staatliche Nachrichtenagentur Tass berichtete über abgefangene Drohnen im Raum Moskau.",
+      "Auf ukrainischer Seite wurden ebenfalls schwere Angriffe und zivile Opfer gemeldet. Bei einem Angriff auf ein Munitionslager im Gebiet Kiew stieg die Zahl der Toten nach Angaben von Präsident Wolodimir Selenski auf 38."
+     ]
+    },
+    {
+     "ueberschrift": "Wirtschaftliche und militärische Lage",
+     "absaetze": [
+      "Westliche Sanktionen haben das Leben in Russland verteuert und nach Berichten zu einer Treibstoffkrise geführt. Wegen ukrainischer Angriffe auf Ölraffinerien ist Benzin an Tankstellen knapp oder wird rationiert. Kremlchef Wladimir Putin räumte wirtschaftliche Schäden ein.",
+      "Die Ukraine verzeichnete Zerstörungen an Logistikzentren und Lebensmittellagern. Nach Angaben von Landwirtschaftsminister Taras Wisotski sind rund 90 Prozent der vom Einzelhandel betriebenen Lebensmittelversorgungsketten unterbrochen. Präsident Selenski kündigte an, die Langstreckenangriffe auf das russische Hinterland auszuweiten.",
+      "Der frühere ukrainische Verteidigungsminister Michajlo Fedorow wurde als Innovationsberater im italienischen Verteidigungsministerium benannt. Verteidigungsminister Guido Crosetto bestätigte die Ernennung."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Duma ist das Parlament in Russland. Sie gehört zur gesetzgebenden Gewalt im Staat.",
+      "Ölraffinerien sind Industrieanlagen, in denen Rohöl in Produkte wie Benzin oder Diesel umgewandelt wird."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der russische Präsident Wladimir Putin forderte die Bevölkerung auf, an der Wahl teilzunehmen. Die Leiterin der Zentralen Wahlkommission versprach, den Vorwürfen zu den Wahlmanipulationen nachzugehen.",
+      "Der ukrainische Präsident Wolodimir Selenski kündigte an, die Verantwortlichen für Vorfälle zur Rechenschaft zu ziehen und drohte mit weiteren Drohnenschlägen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die offizielle Verkündung erster Ergebnisse zur Zusammensetzung der Duma wurde nach Schließung der Wahllokale erwartet. Behörden und Hilfskräfte setzten die Beseitigung von Schäden fort."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Freitag",
+     "Angriff auf ein Munitionslager im Gebiet Kiew."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland und Drohnenangriffe."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Aufgrund von Todesfällen und Gewalt wird kein Bild angezeigt."
+    }
+   ],
+   "ort": {
+    "name": "Moskau, Russland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernte unbestätigte Angaben und wertende Formulierungen aus dem Entwurf.",
+    "Bezeichnungen und Zahlen an die Originalberichte angepasst."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Parlament",
+      "Eine Volksvertretung, die Gesetze berät und beschließt."
+     ],
+     [
+      "Drohne",
+      "Ein unbemanntes Fluggerät, das ferngesteuert wird und in Konflikten auch für Angriffe eingesetzt werden kann."
+     ],
+     [
+      "Wahlbeobachter",
+      "Personen, die den Ablauf einer Wahl überprüfen und bewerten, ob sie fair abläuft."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen unabhängige Wahlbeobachter bei Wahlen?",
+     "Wie beeinflussen gegenseitige Luftangriffe die Zivilbevölkerung im Konflikt?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wo endete am Sonntag eine dreitägige Parlamentswahl?",
+      "optionen": [
+       "In der Ukraine",
+       "In Russland",
+       "In den Vereinigten Staaten"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und Deutschlandfunk ging die dreitägige Parlamentswahl in Russland zu Ende."
+     },
+     {
+      "frage": "Was meldeten unabhängige Wahlbeobachter bei der Wahl?",
+      "optionen": [
+       "Einen reibungslosen Ablauf ohne jede Kritik",
+       "Manipulationsversuche und Regelverstöße",
+       "Eine Beteiligung von hundert Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Tagesschau/ARD berichtete, dass unabhängige Wahlbeobachter Manipulationsversuche und Regelverstöße meldeten."
+     },
+     {
+      "frage": "Welches Ziel in Moskau wurde nach Behördenangaben beschädigt?",
+      "optionen": [
+       "Ein Museum",
+       "Eine Ölraffinerie",
+       "Ein Stadion"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut BBC und Tagesschau/ARD wurde in der Hauptstadt Moskau eine Ölraffinerie beschädigt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Russland haben die Menschen drei Tage lang ein neues Parlament gewählt. Gleichzeitig gab es viele Angriffe mit Drohnen.",
+    "absaetze": [
+     "Das Parlament in Russland nennt man Duma. Dort werden Gesetze gemacht.",
+     "Die Regierungspartei wollte bei der Wahl eine große Mehrheit erreichen.",
+     "Wahlbeobachter sagten, dass es bei der Wahl Unregelmäßigkeiten und Regelnverstöße gab.",
+     "Gleichzeitig griffen Drohnen die russische Hauptstadt Moskau an.",
+     "Auch in der Ukraine gab es schwere Angriffe auf Lager und Wohngebiete mit vielen Toten."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Russland ist die Parlamentswahl zu Ende gegangen.",
+     "Wahlbeobachter meldeten bei der Abstimmung verschiedene Regelverstöße.",
+     "Gleichzeitig schlugen in Moskau und in der Ukraine zahlreiche Drohnen ein.",
+     "Beide Seiten gaben an, Infrastrukturziele getroffen und Verluste erlitten zu haben."
+    ],
+    "lang": [
+     "In Russland ist die dreitägige Wahl für ein neues Parlament beendet worden.",
+     "Das berichteten Medien übereinstimmend am Sonntag.",
+     "Wahlbeobachter meldeten während der Abstimmung in mehreren Städten Manipulationsversuche.",
+     "Die Zentrale Wahlkommission erklärte dagegen, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen.",
+     "Gleichzeitig geriet die russische Hauptstadt Moskau nach Angaben von Behörden in das Ziel zahlreicher Drohnenangriffe.",
+     "Auch in der Ukraine wurden nach Berichten von Präsident Wolodimir Selenski durch Angriffe auf ein Munitionslager acht und dreißig Menschen getötet.",
+     "Die ukrainische Führung kritisierte zudem die Durchführung der Parlamentswahl in den besetzten Gebieten als illegal.",
+     "Eine Ölraffinerie ist eine Industrieanlage, in der Rohöl zu Kraftstoffen wie Benzin verarbeitet wird.",
+     "Beide Konfliktparteien setzten ihre Angriffe auf Energieanlagen fort.",
+     "Die offiziellen Ergebnisse der Parlamentswahl wurden für den Abend erwartet."
+    ],
+    "einfach": [
+     "In Russland ist die Wahl für ein neues Parlament beendet worden.",
+     "Beobachter sprachen von Fehlern und Manipulationen bei der Abstimmung.",
+     "Gleichzeitig gab es in Moskau und in der Ukraine Angriffe mit Drohnen.",
+     "Dabei wurden nach Behördenangaben viele Menschen getötet und verletzt.",
+     "Die Kämpfe zwischen Russland und der Ukraine dauern weiter an."
+    ]
+   },
+   "kurz": [
+    "In Russland ist die dreitägige Parlamentswahl zu Ende gegangen.",
+    "Wahlbeobachter berichteten über Manipulationsversuche bei der Stimmabgabe.",
+    "Gleichzeitig meldeten Behörden zahlreiche Drohnenangriffe auf Moskau und die Ukraine.",
+    "Beide Seiten verzeichneten Schäden an Infrastruktur sowie zivile Opfer."
+   ],
+   "fakten": [
+    [
+     "Tote im Gebiet Kiew",
+     "38"
+    ]
+   ],
+   "dossier": {
+    "slug": "russland-ukraine-wahlen",
+    "titel": "Parlamentswahl in Russland und Kriegsgeschehen"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Moskau, Russland",
+    "lat": 55.626,
+    "lon": 37.606
+   },
+   "version": 5,
+   "ton": [
+    {
+     "k": "In Russland ist die dreitägige Wahl für ein neues Parlament beendet worden. Das ",
+     "d": "2b108b2433.mp3",
+     "l": 56.3,
+     "s": [
+      0.25,
+      4.56,
+      7.69,
+      13.23,
+      19.34,
+      26.01,
+      34.28,
+      41.16,
+      47.19,
+      51.65
+     ]
+    },
+    {
+     "k": "In Russland ist die Parlamentswahl zu Ende gegangen. Wahlbeobachter meldeten bei",
+     "d": "09173029fe.mp3",
+     "l": 16.97,
+     "s": [
+      0.25,
+      3.13,
+      7.41,
+      11.92
+     ]
+    },
+    {
+     "k": "In Russland ist die Wahl für ein neues Parlament beendet worden. Beobachter spra",
+     "d": "c5ffcbe4c0.mp3",
+     "l": 22.91,
+     "s": [
+      0.25,
+      4.55,
+      9.04,
+      13.63,
+      18.34
+     ]
+    },
+    {
+     "k": "Die genaue Gesamtzahl der eingesetzten Drohnen bei den Angriffen auf Moskau vari",
+     "d": "34ed6c9f96.mp3",
+     "l": 6.25,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Parlament? Eine Volksvertretung, die Gesetze berät und b",
+     "d": "f10564f59a.mp3",
+     "l": 6.41,
+     "s": [
+      0.25,
+      2.56
+     ]
+    }
+   ]
+  },
+  {
+   "id": "huthi-angriffe-saudi-arabien",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "titel": "Angriffe der Huthi-Miliz auf Ziele in Saudi-Arabien",
+   "vorspann": "Die Huthi-Miliz im Jemen hat Angriffe auf die saudi-arabische Hauptstadt Riad sowie auf Ölanlagen am Roten Meer gemeldet. Saudi-arabische Behörden und die von Riad angeführte Militärkoalition bestätigten Abwehrmaßnahmen gegen Raketen und Drohnen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die Huthi-Miliz aus dem Jemen hat Angriffe mit Raketen und Drohnen auf die saudi-arabische Hauptstadt Riad sowie auf Ölanlagen gemeldet.",
+    "Saudi-arabische Behörden und die Militärkoalition bestätigten das Abfangen von Raketen.",
+    "Die Angriffe stehen im Zusammenhang mit einer militärischen Eskalation an der Meerenge Bab al-Mandab.",
+    "Internationale Akteure wie der UNO-Sicherheitsrat verurteilten die Angriffe."
+   ],
+   "einig": [
+    [
+     "Die Huthi-Miliz hat Angriffe auf Riad und Ölanlagen am Roten Meer gemeldet.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "BBC",
+      "ORF"
+     ]
+    ],
+    [
+     "Am internationalen Flughafen von Riad gab es Flugstörungen und Rauchsäulen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC",
+      "ORF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Zahl der saudischen Luftangriffe im Jemen.",
+    "Das genaue Ausmaß der Schäden und Opfer in Saudi-Arabien."
+   ],
+   "positionen": [
+    [
+     "Huthi-Miliz (Sprecher Jahja Saree)",
+     "Die Angriffe auf Riad und Janbu waren eine Reaktion auf saudische Luftangriffe im Jemen.",
+     "Tagesschau/ARD, Spiegel, BBC, ORF"
+    ],
+    [
+     "Saudi-arabische Militärkoalition (Sprecher Turki al-Malki)",
+     "Die Luftabwehr hat feindliche Raketen und Drohnen auf Riad und weitere Städte erfolgreich abgefangen.",
+     "Tagesschau/ARD, BBC"
+    ],
+    [
+     "UNO-Sicherheitsrat",
+     "Die Angriffe auf die Handelsschifffahrt im Roten Meer werden verurteilt; Saudi-Arabien hat das Recht auf Selbstverteidigung.",
+     "ORF"
+    ]
+   ],
+   "fehlend": "Direkte Stellungnahmen der iranischen Regierung zu den Vorwürfen der Unterstützung der Huthis in diesem Kontext.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 01:10",
+     "fokus": "Überblick über Angriffe und Militärreaktionen",
+     "text": "Der Bericht schildert die Angriffe der Huthis, die Berichte von Anwohnern sowie die Reaktionen der saudi-arabischen Militärkoalition.",
+     "url": "https://www.tagesschau.de/ausland/asien/riad-angriffe-huthis-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 08:03",
+     "fokus": "–",
+     "text": "Die Huthi-Miliz im Jemen hat nach eigenen Angaben Ziele in der saudi-arabischen Hauptstadt Riad angegriffen sowie Ölanlagen am Roten Meer.",
+     "url": "https://www.deutschlandfunk.de/huthi-miliz-meldet-angriffe-auf-saudiarabische-hauptstadt-riad-und-oelanlagen-am-roten-meer-108.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 21:09",
+     "fokus": "Ablauf der Angriffe und Telegram-Mitteilungen",
+     "text": "Der Artikel beleuchtet die Erklärungen des Huthi-Sprechers über den Onlinedienst Telegram und schildert Beobachtungen von AFP-Journalisten vor Ort.",
+     "url": "https://www.spiegel.de/ausland/jemen-krieg-rauchsaeule-nahe-flughafen-huthi-miliz-meldet-angriffe-auf-riad-a-4454be6a-b5fc-4de2-b656-db7cb73b5859#ref=rss",
+     "video": false
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "20.09.26, 01:49",
+     "fokus": "Internationale Warnungen und militärische Details",
+     "text": "Die BBC ergänzt Informationen des US-Außenministeriums, Einschätzungen von JP Morgan zu den Ölpreisen sowie Berichte über Gefechte und Vertreibungen.",
+     "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+     "video": false
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "19.09.26, 17:12",
+     "fokus": "Reaktionen von UNO und Europäischer Union",
+     "text": "Der ORF hebt die Erklärungen des UNO-Sicherheitsrates, der EU-Außenbeauftragten Kallas zur Marinemission Aspides sowie Schifffahrtsdaten hervor.",
+     "url": "https://orf.at/stories/3442666/",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zahlenangaben",
+     "Die Berichte nennen unterschiedliche Zahlen zu vorausgegangenen saudischen Luftangriffen (Tagesschau und ORF: 700; BBC: 300)."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Huthi-Miliz aus dem Jemen",
+    "was": "Angriffe mit Raketen und Drohnen auf Ziele in Saudi-Arabien",
+    "wann": "Samstag",
+    "wo": "Riad und Janbu, Saudi-Arabien",
+    "wie": "Mit ballistischen Raketen, Marschflugkräften und Drohnen laut Huthi-Miliz",
+    "warum": "Laut Huthi-Miliz als Reaktion auf Luftangriffe Saudi-Arabiens im Jemen",
+    "quellenlage": "Berichte von Augenzeugen, Behörden, internationalen Organisationen und Medien"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Huthi-Miliz hat nach eigenen Angaben Angriffe auf wichtige Einrichtungen in der saudi-arabischen Hauptstadt Riad sowie auf Ölanlagen am Roten Meer ausgeführt. Ein Sprecher der Miliz erklärte über den Onlinedienst Telegram, es seien ballistische Raketen, Marschflugkörper und Drohnen eingesetzt worden. Betroffen seien sensible Ziele in Riad sowie Anlagen des Ölkonzerns Aramco in der Hafenstadt Janbu gewesen.",
+      "Anwohner und Augenzeugen in Riad berichteten zuvor von Explosionen sowie von einer schwarzen Rauchsäule und Flammen in der Nähe des internationalen Flughafens. Nach Angaben der Website Flightradar24 führte der Vorfall zu größeren Schwierigkeiten, Flugstreichungen und Verspätungen am Flughafen. In der Hauptstadt ertönte nach Angaben von Medien wie der Tagesschau und dem Spiegel Luftalarm.",
+      "Saudi-arabische Stellen bestätigten Angriffe auf Riad und weitere Städte. Der Sprecher der von Saudi-Arabien angeführten Militärkoalition, Turki al-Malki, teilte mit, die Luftabwehr habe eine in Richtung Riad abgefeuerte Rakete sowie Angriffe auf Janbu und andere Städte abgefangen und zerstört."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut dem Huthi-Militärsprecher Jahja Saree handelte es sich um zwei Militäreinsätze. Die Angriffe seien eine direkte Reaktion auf saudische Luftangriffe im Jemen gewesen. Die Huthi-Miliz warf Saudi-Arabien vor, zuvor Luftangriffe im Jemen verübt zu haben. Laut Tagesschau und ORF sprachen die Huthis von rund 700 Angriffen, während die BBC von 300 Angriffen in der vergangenen Woche berichtete.",
+      "In Riad kam es nach Angaben von Augenzeugen und Journalisten zu einem Brand an einem Treibstofftank mit dem Logo des Ölkonzerns Aramco nahe dem Flughafen. Feuerwehrleute versuchten, die Flammen zu löschen. Die saudischen Zivilschutzbehörden gaben über Nacht Warnungen per SMS heraus, bevor am Morgen Entwarnung gegeben wurde. Der US-Sender BBC und weitere Medien berichteten über Sicherheitswarnungen für US-Bürger in der Region.",
+      "Neben den Vorfällen in Riad und Janbu kam es auch an anderen Orten zu Abwehrmaßnahmen. Die Militärkoalition erklärte laut BBC, dass feindliche Versuche zur Bekämpfung von Zielen auch in den Städten Bisch, Taif, Farasan und Janbu abgewehrt wurden. Die jemenitische Regierung meldete zudem die Abwehr von Infiltrationsversuchen in der Provinz Marib."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Saudi-Arabien unterstützt die international anerkannte Regierung des Jemen in einem langwierigen Konflikt gegen die Huthi-Miliz. Nach einer Offensive übernahmen die Huthis zuletzt die Kontrolle über große Teile der jemenitischen Küste an der strategisch wichtigen Meerenge Bab al-Mandab. Diese Meerenge verbindet das Rote Meer mit dem Golf von Aden und ist zentral für den internationalen Schiffsverkehr.",
+      "Die Bedeutung der Route stieg zusätzlich, nachdem die Straße von Hormus am Persischen Golf weitgehend blockiert wurde. Die Huthis hatten im Juli eine Seeblockade gegen Saudi-Arabien verhängt. Dies führte zu einer starken Zunahme gegenseitiger militärischer Handlungen und beeinträchtigte den saudi-arabischen Öltransport nach Asien."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Huthi-Miliz ist eine bewaffnete Gruppierung im Jemen. Saudi-Arabien führt eine Militärkoalition an, die gegen die Miliz kämpft, um die Regierung zu stützen. Die Meerenge Bab al-Mandab ist ein wichtiger Meeresarm für den Welthandel."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der Sprecher der von Saudi-Arabien angeführten Koalition, Turki al-Malki, erklärte laut Tagesschau und BBC, dass die Luftabwehr Angriffe abgewehrt habe. Die Huthi-Miliz teilte über ihren Sprecher Jahja Saree mit, die Angriffe seien eine Antwort auf Angriffe im Jemen. Der UNO-Sicherheitsrat verurteilte laut ORF die Angriffe der Huthis auf die Handelsschifffahrt und erklärte Solidarität mit Saudi-Arabien.",
+      "Die EU-Außenbeauftragte Kaja Kallas erklärte laut ORF auf der Plattform X, die Angriffe seien inakzeptabel. Die EU-Marinemission Aspides erhöhte ihre Alarmbereitschaft zum Schutz der Handelsschifffahrt. Das US-Außenministerium rief US-Bürger laut BBC zu erhöhter Wachsamkeit auf."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Internationale Institutionen beobachten die Situation an den Energiemärkten und Schifffahrtswegen. Laut BBC erklärte die Bank JPMorgan, die Auswirkungen des Konflikts auf die Ölpreise derzeit kaum modellieren zu können. Die beteiligten Parteien halten an ihren militärischen Positionen fest."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Juli",
+     "Die Huthi-Miliz verkündet eine Seeblockade gegen Saudi-Arabien."
+    ],
+    [
+     "Vergangene Woche",
+     "Die Huthis übernehmen die Kontrolle über Teile der jemenitischen Küste an der Bab-al-Mandab-Meerenge."
+    ],
+    [
+     "Freitag",
+     "Der UNO-Sicherheitsrat verurteilt Angriffe auf die Handelsschifffahrt."
+    ],
+    [
+     "Samstag",
+     "Die Huthi-Miliz führt Angriffe auf Riad und Janbu aus; saudi-arabische Luftabwehr wehrt Angriffe ab."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "King Khalid International Airport Riyadh",
+     "bildunterschrift": "Der internationale Flughafen von Riad, in dessen Nähe Rauch aufgestiegen war."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Bab-el-Mandeb strait map",
+     "bildunterschrift": "Karte der Meerenge Bab al-Mandab, die das Rote Meer mit dem Golf von Aden verbindet."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "United Nations Security Council chamber New York",
+     "bildunterschrift": "Der Sitzungssaal des UNO-Sicherheitsrates, der sich mit der Lage befasst hat."
+    }
+   ],
+   "ort": {
+    "name": "Riad, Saudi-Arabien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Behauptung über abgefangene Rakete in der Einigkeit aus Tagesschau und BBC korrigiert, da in anderen Quellen nicht explizit in allen Details genannt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Huthi-Miliz",
+      "Eine bewaffnete Gruppe im Jemen, die große Teile des Landes und der Küste kontrolliert."
+     ],
+     [
+      "Meerenge Bab al-Mandab",
+      "Ein schmaler Meeresarm zwischen dem Jemen und Afrika, der das Rote Meer mit dem Indischen Ozean verbindet und wichtig für den Welthandel ist."
+     ],
+     [
+      "Luftabwehr",
+      "Ein militärisches System, um anfliegende Raketen oder Flugzeuge in der Luft zu zerstören."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen internationale Organisationen wie der UNO-Sicherheitsrat bei diesem Konflikt?",
+     "Warum ist die Kontrolle über Meeresengen wie Bab al-Mandab für den Welthandel so wichtig?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat nach übereinstimmenden Berichten Angriffe auf Riad und Ölanlagen gemeldet?",
+      "optionen": [
+       "Die Huthi-Miliz",
+       "Die Europäische Union",
+       "Die Vereinten Nationen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau, Deutschlandfunk, Spiegel, BBC und ORF hat die Huthi-Miliz diese Angriffe gemeldet."
+     },
+     {
+      "frage": "Welche Einrichtung meldete Probleme am Flughafen von Riad?",
+      "optionen": [
+       "Flightradar24",
+       "Die Weltgesundheitsorganisation",
+       "Die NATO"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Website Flightradar24 meldete laut mehreren Berichten Schwierigkeiten am Flughafen von Riad."
+     },
+     {
+      "frage": "Wer führt die von Saudi-Arabien unterstützte Regierung im Jemen an?",
+      "optionen": [
+       "Die Berichte nennen dazu keine Staatsführung, sondern sprechen nur von der international anerkannten Regierung.",
+       "Der iranische Präsident",
+       "Der Sprecher Jahja Saree"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte erwähnen lediglich die international anerkannte Regierung des Jemen, nennen aber keine Namen von Personen an ihrer Spitze."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Huthi-Miliz aus dem Jemen hat Raketen auf Saudi-Arabien abgefeuert.",
+    "absaetze": [
+     "Ziel der Angriffe waren die saudi-arabische Hauptstadt Riad und Ölanlagen an der Küste.",
+     "Augenzeugen sahen in Riad dichten Rauch und hörten Explosionen.",
+     "Die saudi-arabische Regierung teilte mit, dass die Luftabwehr die Raketen abgewehrt hat.",
+     "Der UNO-Sicherheitsrat verurteilte die Angriffe und fordert Frieden in der Region."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Huthi-Miliz aus dem Jemen hat Angriffe auf Ziele in Saudi-Arabien gemeldet.",
+     "Die saudi-arabische Luftabwehr fing nach Behördenangaben Raketen ab.",
+     "Der Konflikt sorgt für große Sorge an den internationalen Energiemärkten."
+    ],
+    "lang": [
+     "Die Huthi-Miliz im Jemen hat nach eigenen Angaben Angriffe mit Raketen und Drohnen auf Saudi-Arabien ausgeführt.",
+     "Betroffen waren die Hauptstadt Riad und Ölanlagen am Roten Meer.",
+     "Augenzeugen berichteten am Samstag von Explosionen und Rauchsäulen in der Nähe des Flughafens in Riad.",
+     "Die saudi-arabische Militärkoalition teilte mit, dass die Luftabwehr die Angriffe abgewehrt habe.",
+     "Ein Sprecher der Huthis erklärte laut Medienberichten, die Attacken seien eine Reaktion auf Luftangriffe im Jemen.",
+     "Der UNO-Sicherheitsrat verurteilte die Angriffe auf die Handelsschifffahrt im Roten Meer.",
+     "Die Europäische Union erhöhte die Alarmbereitschaft ihrer Marinemission zum Schutz der Schiffe.",
+     "Saudi-Arabien unterstützt die jemenitische Regierung in einem langwierigen Bürgerkrieg gegen die Miliz.",
+     "Die wirtschaftlichen Folgen des Konflikts für den Welthandel sind derzeit noch nicht genau absehbar."
+    ],
+    "einfach": [
+     "Die Huthi-Miliz aus dem Jemen hat Raketen auf Saudi-Arabien geschossen.",
+     "Dabei wurden die Hauptstadt Riad und Ölanlagen getroffen.",
+     "Die saudi-arabische Luftabwehr hat die Raketen nach eigenen Angaben zerstört.",
+     "Viele Menschen in der Region sind durch die Kämpfe in Gefahr.",
+     "Internationale Organisationen fordern ein Ende der Gewalt."
+    ]
+   },
+   "kurz": [
+    "Die Huthi-Miliz hat Angriffe mit Raketen und Drohnen auf Ziele in Saudi-Arabien gemeldet.",
+    "Die saudische Luftabwehr wehrte nach Angaben der Militärkoalition Angriffe ab.",
+    "Internationale Organisationen wie der UNO-Sicherheitsrat verurteilten die Eskalation."
+   ],
+   "fakten": [
+    [
+     "Vertriebene durch Kämpfer",
+     "104.796"
+    ],
+    [
+     "Todesopfer bei Gefechten laut Agenturberichten",
+     "48"
+    ]
+   ],
+   "dossier": {
+    "slug": "konflikt-jemen-saudi-arabien",
+    "titel": "Konflikt im Jemen und Angriffe in Saudi-Arabien"
+   },
+   "bildInfo": {
+    "titel": "Bab-el-Mandeb Strait, Africa-Arabia (ASTER).jpg",
+    "beschreibung": "The Bab-el-Mandeb, Gate of Tears, strait connects the Red Sea to the Gulf of Aden, and separates Yemen on the Arabian Peninsula and Djibouti and Eritrea in the Horn of Africa. It is a strategic link b",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg/1280px-Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bab-el-Mandeb_Strait,_Africa-Arabia_(ASTER).jpg",
+    "urheber": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "ort",
+    "suchbegriff": "Bab-el-Mandeb strait map",
+    "bildunterschrift": "Die Satellitenkarte zeigt die Region um die Straße von Bab al-Mandab am Roten Meer.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Bab-el-Mandeb Strait, Africa-Arabia (ASTER).jpg",
+     "beschreibung": "The Bab-el-Mandeb, Gate of Tears, strait connects the Red Sea to the Gulf of Aden, and separates Yemen on the Arabian Peninsula and Djibouti and Eritrea in the Horn of Africa. It is a strategic link b",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg/1280px-Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Bab-el-Mandeb_Strait%2C_Africa-Arabia_%28ASTER%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bab-el-Mandeb_Strait,_Africa-Arabia_(ASTER).jpg",
+     "urheber": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "ort",
+     "suchbegriff": "Bab-el-Mandeb strait map",
+     "bildunterschrift": "Die Satellitenkarte zeigt die Region um die Straße von Bab al-Mandab am Roten Meer.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Riad, Saudi-Arabien",
+    "lat": 24.639,
+    "lon": 46.716
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Huthi-Miliz im Jemen hat nach eigenen Angaben Angriffe mit Raketen und Drohn",
+     "d": "5dceb03128.mp3",
+     "l": 51.17,
+     "s": [
+      0.25,
+      6.99,
+      10.96,
+      17.2,
+      22.83,
+      29.34,
+      34.54,
+      40.08,
+      45.88
+     ]
+    },
+    {
+     "k": "Die Huthi-Miliz aus dem Jemen hat Angriffe auf Ziele in Saudi-Arabien gemeldet. ",
+     "d": "bfb32c93cb.mp3",
+     "l": 14.4,
+     "s": [
+      0.25,
+      5.36,
+      9.82
+     ]
+    },
+    {
+     "k": "Die Huthi-Miliz aus dem Jemen hat Raketen auf Saudi-Arabien geschossen. Dabei wu",
+     "d": "d725ba4383.mp3",
+     "l": 22.49,
+     "s": [
+      0.25,
+      5.04,
+      9.32,
+      14.33,
+      18.16
+     ]
+    },
+    {
+     "k": "Die genaue Zahl der saudischen Luftangriffe im Jemen.",
+     "d": "344ec56fbd.mp3",
+     "l": 3.63,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Huthi-Miliz? Eine bewaffnete Gruppe im Jemen, die große ",
+     "d": "3f843c2f93.mp3",
+     "l": 8.3,
+     "s": [
+      0.25,
+      2.95
+     ]
+    }
+   ]
+  },
+  {
+   "id": "us-medienbann-weisses-haus",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T01:55:19.000Z",
+   "titel": "Ausschluss von Journalisten aus dem Weißen Haus",
+   "vorspann": "Dem US-amerikanischen Nachrichtensender MS NOW, CNN sowie dem Nachrichtenportal Politico ist der Zutritt zum Weißen Haus verwehrt worden. Zuvor hatte US-Präsident Donald Trump angekündigt, diesen Medien die Akkreditierung zu entziehen.",
+   "eil": false,
+   "zusammenfassung": [
+    "US-Präsident Donald Trump hat den Sendern CNN, MS NOW und dem Portal Politico den Zutritt zum Weißen Haus verwehrt.",
+    "Sicherheitskräfte zogen den betroffenen Journalisten am Samstag die Hausausweise und Akkreditierungen ein.",
+    "Die Medienunternehmen und der Korrespondentenverband verurteilten das Vorgehen als illegal und als Angriff auf die Pressefreiheit.",
+    "Experten und Verbände kündigten an, juristisch gegen das Ausweisverbot vorgehen zu wollen."
+   ],
+   "einig": [
+    [
+     "Donald Trump hat den Medien CNN, MS NOW und Politico den Zutritt zum Weißen Haus untersagt.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "Journalisten der genannten Medien wurde am Samstag der Zutritt verwehrt und die Ausweise wurden abgenommen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "Der Verband der White-House-Korrespondenten (WHCA) verurteilte den Schritt als Verletzung des ersten Verfassungszusatzes.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "Die betroffenen Medien kündigten an, ihre Berichterstattung fortzusetzen und ihre Rechte zu verteidigen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die angekündigten Ausweitungen des Verbots auf weitere Medien formell umgesetzt werden, ist laut den Berichten noch unklar."
+   ],
+   "positionen": [
+    [
+     "Donald Trump (US-Präsident)",
+     "Die betroffenen Medien verbreiten Falschinformationen und Fiktion, weshalb ihnen der Zutritt entzogen wird.",
+     "Tagesschau/ARD,Spiegel,BBC"
+    ],
+    [
+     "White-House-Korrespondentenverband (WHCA)",
+     "Das Hausverbot ist verfassungswidrig und verletzt die Pressefreiheit sowie das Recht der Öffentlichkeit auf Information.",
+     "Tagesschau/ARD,Spiegel,BBC"
+    ],
+    [
+     "CNN, MS NOW, Politico",
+     "Das Verbot stellt einen rechtswidrigen Angriff auf die durch die Verfassung garantierte Pressefreiheit dar.",
+     "Tagesschau/ARD,Spiegel,BBC"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von Regierungsvertretern abseits der Äußerungen des Präsidenten selbst.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 03:55",
+     "fokus": "Hintergründe und Reaktionen",
+     "text": "Die Tagesschau beleuchtet neben dem aktuellen Vorfall auch die politische Vorgeschichte in Trumps erster Amtszeit sowie die innenpolitische Lage kurz vor den Zwischenwahlen.",
+     "url": "https://www.tagesschau.de/ausland/amerika/trump-presse-weisses-haus-104.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 16:09",
+     "fokus": "Ablauf vor Ort",
+     "text": "Der Spiegel konzentriert sich auf die genauen Schilderungen der Korrespondentin Akayla Gardner beim Passieren der Sicherheitskontrollen.",
+     "url": "https://www.spiegel.de/ausland/donald-trump-weisses-haus-verwehrt-fernsehjournalisten-von-ms-now-den-zugang-a-5764ff07-67e0-44e2-8005-5d54860dfa2e#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 17:52",
+     "fokus": "Kurzmeldung zum Newsblog",
+     "text": "Die Süddeutsche Zeitung fasst die Ankündigung und die Abweisung der Journalisten kurz im Rahmen eines Newsblogs zusammen.",
+     "url": "https://www.sueddeutsche.de/politik/medien-zugang-weisses-haus-trump-journalismus-li.3530667",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "19.09.26, 14:55",
+     "fokus": "Kurze Erwähnung",
+     "text": "Die FAZ erwähnt den Bann kurz in einer Übersicht, während der restliche Text andere Themen behandelt.",
+     "url": "https://www.faz.net/video/trump-verbannt-cnn-ms-now-und-politico-aus-dem-weissen-haus-201243171.html",
+     "video": true
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "19.09.26, 21:13",
+     "fokus": "Rechtliche Einordnung",
+     "text": "Die BBC betont die Aussagen von Medienrechtsorganisationen wie dem Reporters Committee for Freedom of the Press bezüglich der mutmaßlichen Verfassungswidrigkeit.",
+     "url": "https://www.bbc.co.uk/news/articles/cj4gklz9dxplo?at_medium=RSS&at_campaign=rss",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Während Tagesschau/ARD und BBC umfangreiche Details zu Reaktionen von Konkurrenzmedien und Rechtsexperten liefern, beschränken sich andere Quellen auf eine kompakte Meldung des Vorfalls."
+    ]
+   ],
+   "wfragen": {
+    "wer": "US-Präsident Donald Trump und betroffene Medien",
+    "was": "Zutrittsverbot und Entzug der Hausausweise",
+    "wann": "19. September 2026",
+    "wo": "Washington, D.C., Vereinigte Staaten",
+    "wie": "Durch Einziehen der Akkreditierungen an den Eingangskontrollen",
+    "warum": "Laut Trump wegen der Verbreitung von Falschinformationen",
+    "quellenlage": "Berichte von Tagesschau/ARD, Spiegel, Süddeutsche Zeitung und BBC"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Journalisten der US-Medien CNN, MS NOW und Politico ist am Samstag der Zutritt zum Gelände des Weißen Hauses verwehrt worden. Laut übereinstimmenden Medienberichten wurden ihren Teams die Akkreditierungen entzogen. Die Maßnahme folgte auf eine Ankündigung des US-Präsidenten Donald Trump vom Freitag. Dieser hatte erklärt, den genannten Medien mit sofortiger Wirkung den Zutritt zu untersagen.",
+      "Laut Tagesschau/ARD und Spiegel versuchten Reporter am Samstagmorgen, das Gelände zu betreten. Die MS-NOW-Korrespondentin Akayla Gardner berichtete laut Tagesschau/ARD und Spiegel, dass ihr Ausweis an der dritten Schleuse nicht gescannt werden konnte. Ein Beamter des Secret Service forderte sie demnach auf, den Ausweis abzugeben. Auch ihr Kameramann konnte die Kontrolle laut Spiegel nicht passieren.",
+      "Laut Tagesschau/ARD und BBC konnte eine Produzentin von MS NOW den Eingang dagegen passieren. Die Gründe für diese Ausnahme blieben unklar. Der Reporterin wurde laut BBC von einem Beamten mitgeteilt, dass ihr Ausweis deaktiviert worden sei. Die betroffenen Medien bestätigten die Vorfälle und kündigten rechtliche Schritte sowie weiteres Vorgehen an."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut Tagesschau/ARD und BBC waren neben Akayla Gardner auch weitere Reporterinnen betroffen. Die Politico-Journalistin Cheyenne Haslett wurde laut ihren Angaben abgewiesen, und ihr Ausweis wurde vom Sicherheitsdienst abgenommen. Dies bestätigte laut Tagesschau/ARD ihr Chefredakteur Jonathan Greenberger. CNN-Reporterin Betsy Klein erklärte laut Tagesschau/ARD und BBC ebenfalls, dass ein Secret-Service-Agent ihr mitgeteilt habe, dass ihr Ausweis deaktiviert worden sei.",
+      "US-Präsident Donald Trump hatte das Verbot am Freitag auf seiner Onlineplattform Truth Social veröffentlicht. Laut Tagesschau/ARD und Spiegel warf er CNN, MS NOW und Politico vor, Falschinformationen und Fiktion zu verbreiten. Trump begründete die Entscheidung laut Tagesschau/ARD und BBC damit, dass Medien nicht ständig Erfindungen und Lügen verbreiten sollten. Er kündigte zudem an, dass weitere Medien folgen könnten.",
+      "Laut Tagesschau/ARD und BBC äußerte sich Trump später dahingehend, dass es sich um kumulative Berichte der letzten Jahre handele. Auf die Nachfrage, welche Medien gemeint seien, nannte er laut BBC namentlich die New York Times und die Washington Post als Medien, die seiner Ansicht nach Falschmeldungen verbreiten. Eine offizielle schriftliche Anweisung für weitere Medien gab es laut den Berichten zunächst jedoch nicht."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Das Verhältnis zwischen der Regierung von Donald Trump und kritischen Medien ist seit langem von Spannungen geprägt. Laut Tagesschau/ARD und BBC hat die US-Regierung in der Vergangenheit bereits mehrfach versucht, gegen missliebige Medien vorzugehen. So wurde der Nachrichtenagentur Associated Press im Vorjahr der Zutritt zu bestimmten Veranstaltungen untersagt, nachdem diese sich geweigert hatte, den Golf von Mexiko umzubenennen.",
+      "In der ersten Amtszeit von Donald Trump war es laut Tagesschau/ARD bereits zu einem ähnlichen Vorfall gekommen. Dem CNN-Journalisten Jim Acosta war damals nach einem Wortwechsel vorübergehend die Akkreditierung entzogen worden. Ein Gericht hatte diese Anordnung damals allerdings zu Fall gebracht. Auch in der aktuellen Amtszeit geht die Regierung laut Spiegel hart gegen Medien vor.",
+      "Die aktuelle Maßnahme erfolgt in einer politisch angespannten Phase. Laut Tagesschau/ARD sind die Zustimmungsraten des Präsidenten auf ein Rekordtief gefallen. Als Gründe werden unter anderem hohe Lebenshaltungskosten, Benzinpreise und die unklare Lage bezüglich eines Krieges gegen den Iran genannt. Am 3. November finden zudem Zwischenwahlen zum US-Kongress statt, bei denen die Republikaner um ihre Mehrheiten in beiden Kammern bangen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Weiße Haus in Washington, D.C., ist der Amtssitz und die Arbeitsstätte des Präsidenten der Vereinigten Staaten von Amerika. Es dient als zentraler Ort für politische Erklärungen und offizielle Medienkonferenzen. Der Zugang für Journalisten wird traditionell über spezielle Akkreditierungen geregelt.",
+      "Der erste Zusatzartikel zur US-Verfassung garantiert in den Vereinigten Staaten die Meinungs- und Pressefreiheit. Er schützt Journalisten nach allgemeinem Rechtsverständnis davor, von staatlichen Stellen wegen ihrer Berichterstattung behindert zu werden. Verbände und Rechtsexperten berufen sich in diesem Zusammenhang auf frühere Gerichtsentscheidungen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der Verband der White-House-Korrespondenten (WHCA) verurteilte den Schritt laut Tagesschau/ARD, Spiegel und BBC als verfassungswidrig. Die WHCA-Vorsitzende Jacqui Heinrich erklärte laut den Berichten, dass der Ausschluss das Recht der US-Bevölkerung auf eine unabhängige Berichterstattung verletze. Der Verband forderte die Regierung auf, den Zugang umgehend wiederherzustellen.",
+      "Die betroffenen Medienhäuser reagierten mit scharfer Kritik. CNN erklärte laut Tagesschau/ARD, Spiegel und BBC, das Verbot sei ein illegaler und rechtswidriger Angriff auf grundlegende Rechte. MS NOW teilte laut denselben Quellen mit, dass der Sender alle nötigen Schritte zur Verteidigung des ersten Verfassungszusatzes unternehmen werde. Politico-Chefredakteur Jonathan Greenberger kündigte laut BBC an, die Rechte der Reporter rigoros zu verteidigen.",
+      "Auch andere Medienorganisationen übten Kritik an der Maßnahme. Lauren Easton, Sprecherin der Nachrichtenagentur Associated Press, erklärte laut Tagesschau/ARD, dass keine Nachrichtenorganisation wegen ihrer Wortwahl mit Vergeltungsmaßnahmen belegt werden sollte. Die New York Times und die Washington Post veröffentlichten laut Tagesschau/ARD ebenfalls ablehnende Stellungnahmen. Juristische Organisationen wie das Komitee für die Pressefreiheit bewerteten den Schritt laut BBC ebenfalls als verfassungswidrig."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die betroffenen Medienunternehmen haben angekündigt, weiterhin über die Regierung zu berichten. Laut Spiegel und BBC deuten die Erklärungen der Sender an, dass rechtliche Schritte gegen das ausgesprochene Hausverbot geprüft oder eingeleitet werden könnten. Rechtsexperten erwarten laut BBC eine schnelle Prüfung durch US-Gerichte.",
+      "Ob die Regierung weitere Medien vom Gelände des Weißen Hauses ausschließen wird, bleibt abzuwarten. US-Präsident Donald Trump hatte laut Tagesschau/ARD und BBC angedeutet, dass nach den drei genannten Organisationen weitere folgen könnten. Konkrete Schritte oder Verbote gegen zusätzliche Medien wurden jedoch zunächst nicht offiziell verkündet."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Freitag",
+     "Donald Trump kündigt auf Truth Social das Zutrittsverbot für CNN, MS NOW und Politico an."
+    ],
+    [
+     "Samstag",
+     "Sicherheitskräfte verweigern Journalisten der betroffenen Medien den Zutritt und nehmen die Ausweise ab."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "White House Washington DC building",
+     "bildunterschrift": "Das Weiße Haus in Washington, D.C., ist der Amtssitz des US-Präsidenten und der Ort, an dem das Zutrittsverbot für Journalisten verhängt wurde."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump ordnete den Entzug der Akkreditierungen für mehrere Medienorganisationen an."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "First Amendment to the United States Constitution document",
+     "bildunterschrift": "Der erste Zusatzartikel zur US-Verfassung garantiert die in der Debatte angeführte Pressefreiheit."
+    }
+   ],
+   "ort": {
+    "name": "Washington, D.C., Vereinigte Staaten"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Die FAZ-Meldung im Entwurf enthielt unpassende Nachrichten zu Dänemark und Tankrabatten, diese wurden aus den Quellenbezügen der betroffenen einig-Punkte und Abschnitte entfernt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Akkreditierung",
+      "Eine offizielle Erlaubnis für Journalisten, an bestimmten Orten wie dem Weißen Haus zu arbeiten."
+     ],
+     [
+      "Pressefreiheit",
+      "Ein Grundrecht, das besagt, dass Medien unabhängig und ohne Behinderung durch den Staat berichten dürfen."
+     ],
+     [
+      "Erster Verfassungszusatz",
+      "Ein Teil der US-Verfassung, der unter anderem die Meinungsfreiheit und die Pressefreiheit garantiert."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente nennen Präsident Donald Trump und der Korrespondentenverband jeweils zu dem Hausverbot?",
+     "Welche Rolle spielen unabhängige Medien für eine Demokratie nach Ansicht des Korrespondentenverbandes?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Medien wurden vom Zutritt zum Weißen Haus ausgeschlossen?",
+      "optionen": [
+       "CNN, MS NOW und Politico",
+       "Fox News, New York Times und BBC",
+       "Associated Press, Reuters und dpa"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD, Spiegel und BBC hat Donald Trump den Medien CNN, MS NOW und Politico den Zutritt untersagt."
+     },
+     {
+      "frage": "Was machten die Sicherheitskräfte am Samstag am Weißen Haus?",
+      "optionen": [
+       "Sie verteilten neue Presseausweise.",
+       "Sie nahmen den betroffenen Journalisten die Hausausweise ab.",
+       "Sie führten Interviews mit den Reportern."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD, Spiegel und BBC wurden den Reportern der betroffenen Medien die Ausweise abgenommen."
+     },
+     {
+      "frage": "Wie reagierte der Verband der White-House-Korrespondenten auf das Verbot?",
+      "optionen": [
+       "Der Verband begrüsste die Maßnahme.",
+       "Der Verband forderte strengere Regeln für Journalisten.",
+       "Der Verband verurteilte den Schritt als Verletzung des ersten Verfassungszusatzes."
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut Tagesschau/ARD, Spiegel und BBC verurteilte der Korrespondentenverband den Schritt als Verstoß gegen den ersten Verfassungszusatz."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Mehreren Journalisten wurde der Zutritt zum Weißen Haus in den Vereinigten Staaten verboten.",
+    "absaetze": [
+     "US-Präsident Donald Trump hat am Freitag angekündigt, dass bestimmte Medien nicht mehr in das Weiße Haus dürfen. Betroffen sind die Sender CNN und MS NOW sowie das Portal Politico. Trump wirft diesen Medien vor, Falschinformationen zu verbreiten.",
+     "Am Samstag wurden Reporter dieser Medien an den Kontrollen abgewiesen. Sicherheitskräfte nahmen ihnen die Hausausweise ab. Eine Produzentin kam allerdings ohne Probleme durch.",
+     "Die betroffenen Medien und der Verband der White-House-Korrespondenten kritisieren die Maßnahme scharf. Sie nennen das Verbot einen Angriff auf die Pressefreiheit und wollen dagegen vorgehen. Trump kündigte an, dass auch andere Medien folgen könnten."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der US-amerikanische Präsident Donald Trump hat den Sendern CNN und MS NOW sowie dem Portal Politico den Zutritt zum Weißen Haus verboten. Am Samstag wurden Reporter an den Kontrollpunkten abgewiesen und ihre Ausweise wurden eingezogen. Der Korrespondentenverband verurteilte den Schritt als Verletzung der Pressefreiheit."
+    ],
+    "lang": [
+     "Dem US-amerikanischen Fernsehsender MS NOW, CNN sowie dem Nachrichtenportal Politico ist der Zutritt zum Weißen Haus verwehrt worden.",
+     "US-Präsident Donald Trump hatte diesen Schritt am Freitag auf seiner Onlineplattform angekündigt.",
+     "Am Samstagmorgen wurden Reporter der genannten Medien an den Kontrollpunkten des Weißen Hauses abgewiesen.",
+     "Sicherheitskräfte nahmen den betroffenen Journalisten nach Angaben der Berichte ihre Hausausweise ab.",
+     "Trump begründete die Entscheidung damit, dass diese Medien Falschinformationen und Fiktion verbreiten würden.",
+     "Der Verband der White-House-Korrespondenten und die betroffenen Medien kritisierten den Schritt scharf.",
+     "Nach Angaben des Verbandes verstößt das Hausverbot gegen den ersten Zusatzartikel der Verfassung und die Pressefreiheit.",
+     "Das Weiße Haus ist der Amtssitz des Präsidenten in Washington, in dem traditionell die politischen Berichte entstehen.",
+     "Die Medienunternehmen kündigten an, ihre Berichterstattung fortzusetzen und rechtliche Schritte zu prüfen."
+    ],
+    "einfach": [
+     "Mehreren Sendern wurde der Zutritt zum Weißen Haus verboten.",
+     "Der US-Präsident Donald Trump begründete dies mit Falschinformationen.",
+     "Am Samstag nahmen Sicherheitskräfte den Reportern die Ausweise ab.",
+     "Betroffen sind die Sender CNN und MS NOW sowie Politico.",
+     "Der Korrespondentenverband nannte das Verbot einen Angriff auf die Pressefreiheit."
+    ]
+   },
+   "kurz": [
+    "US-Präsident Donald Trump hat den Medien CNN, MS NOW und Politico das Hausverbot erteilt.",
+    "Sicherheitskräfte nahmen den Journalisten am Samstag die Ausweise am Weißen Haus ab.",
+    "Der Korrespondentenverband und die betroffenen Sender kritisieren das Verbot als verfassungswidrig."
+   ],
+   "dossier": {
+    "slug": "hausverbot-usa-journalisten",
+    "titel": "Ausschluss von Journalisten im Weißen Haus"
+   },
+   "bildInfo": {
+    "titel": "The White House, Northside, Washington DC (8595853330).jpg",
+    "beschreibung": "The White House is the official residence and principal workplace of the President of the United States. Located at 1600 Pennsylvania Avenue NW in Washington, D.C., the house was designed by Irish-bor",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_White_House%2C_Northside%2C_Washington_DC_%288595853330%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_White_House%2C_Northside%2C_Washington_DC_%288595853330%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:The_White_House,_Northside,_Washington_DC_(8595853330).jpg",
+    "urheber": "www.GlynLowe.com from Hamburg, Germany",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "institution",
+    "suchbegriff": "White House Washington DC building",
+    "bildunterschrift": "Das Weiße Haus in Washington, D.C., ist der Amtssitz des US-Präsidenten.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "The White House, Northside, Washington DC (8595853330).jpg",
+     "beschreibung": "The White House is the official residence and principal workplace of the President of the United States. Located at 1600 Pennsylvania Avenue NW in Washington, D.C., the house was designed by Irish-bor",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_White_House%2C_Northside%2C_Washington_DC_%288595853330%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/27/The_White_House%2C_Northside%2C_Washington_DC_%288595853330%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:The_White_House,_Northside,_Washington_DC_(8595853330).jpg",
+     "urheber": "www.GlynLowe.com from Hamburg, Germany",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "institution",
+     "suchbegriff": "White House Washington DC building",
+     "bildunterschrift": "Das Weiße Haus in Washington, D.C., ist der Amtssitz des US-Präsidenten.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump wird auf einem offiziellen Porträt gezeigt.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Dem US-amerikanischen Fernsehsender MS NOW, CNN sowie dem Nachrichtenportal Poli",
+     "d": "c0e6125544.mp3",
      "l": 58.66,
      "s": [
       0.25,
-      11.99,
-      18.18,
-      26.59,
-      32.96,
-      40.59,
-      46.79,
-      51.67
+      8.57,
+      14.25,
+      20.93,
+      26.56,
+      32.61,
+      38.57,
+      45.34,
+      52.13
      ]
     },
     {
-     "k": "Die hohen Spritpreise in Deutschland hängen nach Angaben von ZDFheute vor allem ",
-     "d": "dd885447e0.mp3",
-     "l": 70.68,
+     "k": "Der US-amerikanische Präsident Donald Trump hat den Sendern CNN und MS NOW sowie",
+     "d": "e4e47974d2.mp3",
+     "l": 19.74,
      "s": [
-      0.25,
-      10.53,
-      16.63,
-      25.66,
-      31.33,
-      41.28,
-      45.43,
-      58.67
+      0.25
      ]
     },
     {
-     "k": "Eine Energiesteuer ist eine Verbrauchssteuer auf Energieprodukte wie Benzin, Die",
-     "d": "db655e33d4.mp3",
-     "l": 38.84,
+     "k": "Mehreren Sendern wurde der Zutritt zum Weißen Haus verboten. Der US-Präsident Do",
+     "d": "c99ce7985d.mp3",
+     "l": 24.32,
      "s": [
       0.25,
-      7.18,
-      13.72,
-      19.93,
-      28.15
+      4.53,
+      9.4,
+      13.86,
+      18.65
      ]
     },
     {
-     "k": "Bundeskanzler Friedrich Merz bezeichnete die geplante Entlastung laut Tagesschau",
-     "d": "6082f1d574.mp3",
-     "l": 67.27,
+     "k": "Ob die angekündigten Ausweitungen des Verbots auf weitere Medien formell umgeset",
+     "d": "538805eb9b.mp3",
+     "l": 7.68,
      "s": [
-      0.25,
-      10.28,
-      14.83,
-      22.38,
-      34.11,
-      39.24,
-      51.28,
-      61.04
+      0.25
      ]
     },
     {
-     "k": "Die Bundesregierung will laut Tagesschau/ARD und ZDFheute die Voraussetzungen fü",
-     "d": "90ab20b4bc.mp3",
-     "l": 43.15,
+     "k": "Was bedeutet eigentlich Akkreditierung? Eine offizielle Erlaubnis für Journalist",
+     "d": "45f0d66374.mp3",
+     "l": 9.23,
      "s": [
       0.25,
-      13.54,
-      22.91,
-      29.09,
-      36.7
+      3.22
      ]
     }
    ]
@@ -2205,495 +4229,6 @@
    ]
   },
   {
-   "id": "usa-daenemark-groenland-abkommen",
-   "rubrik": "Welt",
-   "zeit": "2026-09-19T18:54:55.000Z",
-   "aktualisiert": "aktualisiert um 21:18 Uhr",
-   "titel": "Einigung im Streit um Grönland zwischen den USA, Dänemark und Grönland",
-   "vorspann": "Die Regierungen der USA, Dänemarks und Grönlands haben eine Einigung im langjährigen Streit um die Arktis-Insel verkündet. Ein entsprechendes Abkommen soll in der kommenden Woche unterzeichnet werden.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die USA, Dänemark und Grönland haben sich im Streit um die Arktis-Insel auf ein gemeinsames Abkommen geeinigt.",
-    "Das Abkommen soll in der kommenden Woche bei der UN-Generalversammlung in New York unterzeichnet werden.",
-    "Während US-Präsident Trump von dauerhafter Kontrolle und neuen Militäranlagen spricht, betonen Dänemark und Grönland die Wahrung ihrer Souveränität.",
-    "Das Abkommen muss nach der Unterzeichnung noch parlamentarische Prozesse durchlaufen, um in Kraft zu treten."
-   ],
-   "einig": [
-    [
-     "Einigung auf ein Abkommen zwischen den USA, Dänemark und Grönland",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Geplante Unterzeichnung des Abkommens in der kommenden Woche bei der UN-Generalversammlung in New York",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Notwendigkeit parlamentarischer Prozesse nach der Unterzeichnung",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "The Guardian"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Wer die genauen Kosten für den Aufbau und Unterhalt der neuen Militäreinrichtungen trägt, ist laut ZDFheute unklar.",
-    "Ob die geplante große Militärpräsenz ausschließlich von den USA gestellt wird, geht laut ZDFheute aus den Mitteilungen nicht eindeutig hervor.",
-    "Wie weitreichend die tatsächlichen neuen Befugnisse der USA im Vergleich zu den bereits bestehenden NATO-Rechten sind, ist laut Experten und Medienberichten umstritten."
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Das Abkommen gewährt den USA die dauerhafte Kontrolle über Sicherheit und alle Belange auf Grönland sowie das Recht auf Ausbau der Militärpräsenz.",
-     "Tagesschau/ARD, ZDFheute, The Guardian"
-    ],
-    [
-     "Mette Frederiksen (Dänische Ministerpräsidentin)",
-     "Das Abkommen stärkt die gemeinsame Sicherheit in der Arktis und im Nordatlantik und erkennt die Souveränität des Königreichs an.",
-     "Tagesschau/ARD, ZDFheute, The Guardian"
-    ],
-    [
-     "Jens-Frederik Nielsen (Grönlands Regierungschef)",
-     "Die Vereinbarung nützt allen Beteiligten und respektiert die Souveränität sowie das Selbstbestimmungsrecht des grönländischen Volkes.",
-     "Tagesschau/ARD, ZDFheute, The Guardian"
-    ]
-   ],
-   "fehlend": "Stimmen aus Russland, China oder der NATO sowie offizielle Stellungnahmen der deutschen Bundesregierung zu den konkreten Vertragsdetails.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 01:54",
-     "fokus": "Offizielle Erklärungen der Regierungen",
-     "text": "Die Tagesschau berichtet sachlich über die Ankündigung der Regierungen und betont die Bedeutung für die Arktis-Sicherheit.",
-     "url": "https://www.tagesschau.de/ausland/amerika/abkommen-usa-daenemark-groenland-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 13:09",
-     "fokus": "Hintergründe und Experten-Einschätzungen",
-     "text": "ZDFheute ordnet die Aussagen mit Experten wie Michael Paul ein und beleuchtet die Rolle der Europäischen Union.",
-     "url": "https://www.zdfheute.de/politik/ausland/trump-usa-daenemark-groenland-abkommen-faq-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 20:54",
-     "fokus": "Kurzmeldung zur Militärpräsenz",
-     "text": "Der Deutschlandfunk fasst kurz zusammen, dass die USA ihre Militärpräsenz auf Grönland ausweiten wollen.",
-     "url": "https://www.deutschlandfunk.de/einigung-mit-daenemark-und-groenland-usa-wollen-militaerpraesenz-ausweiten-100.html",
-     "video": false
-    },
-    {
-     "name": "The Guardian",
-     "typ": "Tageszeitung (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": false,
-     "datum": "19.09.26, 03:01",
-     "fokus": "Politische Einordnung und US-Innenpolitik",
-     "text": "The Guardian verknüpft das Abkommen mit den anstehenden US-Zwischenwahlen und Trumps früheren Drohungen.",
-     "url": "https://www.theguardian.com/world/2026/sep/18/united-states-denmark-greenland-security",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Fokus der Darstellung",
-     "Während Trump von umfassender Kontrolle und einem Triumph spricht, betonen dänische und grönländische Quellen die Wahrung der Souveränität."
-    ]
-   ],
-   "wfragen": {
-    "wer": "USA, Dänemark und Grönland",
-    "was": "Einigung auf ein Sicherheitsabkommen",
-    "wann": "18. und 19. September 2026",
-    "wo": "Washington, Kopenhagen, Nuuk und New York",
-    "wie": "Durch Regierungsmitteilungen und Erklärungen der Beteiligten",
-    "warum": "Laut den USA wegen der Sicherheit in der Arktis, laut Dänemark zur Stärkung der gemeinsamen Sicherheit",
-    "quellenlage": "Regierungserklärungen, Social-Media-Beiträge von Donald Trump sowie Medienberichte"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Nach langem Streit haben die Regierungen der Vereinigten Staaten, des Königreichs Dänemark und Grönlands eine Einigung im Streit um die Arktis-Insel erzielt. Laut übereinstimmenden Mitteilungen soll das Abkommen in der kommenden Woche unterzeichnet werden. Die Unterzeichnung ist für den Rahmen der UN-Generalversammlung in New York geplant. US-Präsident Donald Trump verkündete die Einigung vorab über seine Plattform Truth Social. Die Regierungen von Dänemark und Grönland bestätigten die Aussicht auf das Abkommen in offiziellen Erklärungen. Um in Kraft zu treten, muss das Dokument nach Angaben von Dänemark und Grönland noch parlamentarische Verfahren durchlaufen. Laut Tagesschau und ZDFheute wurde im Januar dieses Jahres eine gemeinsame Arbeitsgruppe eingerichtet, um den Konflikt beizulegen.",
-      "US-Präsident Trump beschrieb das Abkommen auf seiner Online-Plattform als Erfolg. Laut seinen Worten gewährt die Vereinbarung den Vereinigten Staaten die dauerhafte Kontrolle über die Sicherheit und alle weiteren Belange auf Grönland. Zudem erklärte Trump, dass US-Gegner ohne ausdrückliche Genehmigung keine Militärbasen errichten oder sensible Investitionen tätigen dürfen. Nach Angaben von Trump sollen sofort Vorbereitungen für den Aufbau einer großen US-Militärpräsenz auf der Insel getroffen werden. Der Guardian ergänzt, dass Trump das Abkommen als Erfüllung aller US-Anliegen darstellte. Dänemark und Grönland betonten hingegen, dass die Souveränität und die territoriale Integrität des dänischen Königreichs gewahrt bleiben. Die dänische Premierministerin Mette Frederiksen sprach laut ZDFheute von einer Vereinbarung zur Stärkung der gemeinsamen Sicherheit in der Arktis und im Nordatlantik.",
-      "Grönlands Regierungschef Jens-Frederik Nielsen erklärte laut Tagesschau, dass das Abkommen allen Beteiligten nütze. Es erkenne die Souveränität des Königreichs sowie das Selbstbestimmungsrecht des grönländischen Volkes an. Der Guardian zitiert Nielsen mit der Aussage, dass das Abkommen die Sicherheit aller Beteiligten stärke und den Platz Grönlands in der internationalen Zusammenarbeit sichere. Laut ZDFheute und Tagesschau begründete US-Präsident Trump seine Forderungen zuvor damit, dass Dänemark allein nicht ausreichend für die Sicherheit der Insel sorgen könne. Experten wie Michael Paul von der Stiftung Wissenschaft und Politik vermuten laut ZDFheute jedoch, dass sich durch das Abkommen in der Praxis möglicherweise nicht viel Grundlegendes ändert, da die USA bereits über langfristige Rechte vor Ort verfügen."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Grönland ist die größte Insel der Erde und zu rund vier Fünfteln von Eis bedeckt. Die Region hat knapp 60.000 Einwohner und gilt aufgrund schmelzender Eisschichten sowie unter dem Eis liegender Rohstoffe als geopolitisch bedeutsam. Die USA unterhalten bereits seit dem Kalten Krieg eine militärische Präsenz auf der Insel. Die wichtigste Einrichtung ist dabei die Pituffik Space Base im Nordwesten Grönlands, die der Raketenabwehr und der Radarüberwachung dient. In den vergangenen Monaten hatte US-Präsident Trump mehrfach Ansprüche auf die Insel erhoben und den Kauf des Territoriums ins Gespräch gebracht. Der Guardian berichtet, dass Trump während seiner ersten Amtszeit im Jahr 2019 das Interesse an einem Kauf äußerte. Im Januar dieses Jahres spitzte sich der Streit zu, als Trump eine Landkarte auf Truth Social veröffentlichte, die Grönland in den Farben der US-Flagge zeigte.",
-      "Die Reaktionen in Europa fielen im Vorfeld aus. Deutschland und andere europäische Staaten forderten laut Tagesschau eine stärkere Rolle der EU in der arktischen Region. Die dänische Regierung reagierte auf die Drohungen nach Medienberichten mit diplomatischen Vorsichtsmaßnahmen und beobachtete die US-Verlautbarungen aufmerksam. Das US-Militär nutzt die bestehenden Vereinbarungen innerhalb der NATO bereits für Zwecke. Der US-Vizepräsident JD Vance besuchte im vergangenen Jahr die Truppen auf der Pituffik-Basis, was von der lokalen Bevölkerung kritisch aufgenommen wurde. Laut Umfragen lehnen die Einwohner Grönlands eine US-amerikanische Übernahme der Insel ab."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Grönland war eine dänische Kolonie und erhielt später den Status einer autonomen Region. Die Insel gehört zum Königreich Dänemark, verfügt jedoch über eine eigene Regierung und Selbstverwaltung. Außen- und sicherheitspolitische Fragen wurden traditionell in Abstimmung mit Kopenhagen geregelt. Der Status als autonomes Territorium innerhalb des dänischen Staatsgebiets bildet den Rahmen für internationale Abkommen. In den letzten Jahren rückte die Arktis wegen des Klimawandels und des Abbaus von Rohstoffen stärker in den Fokus. Russland hat seine militärische Präsenz im Norden ausgebaut, und auch die Volksrepublik China zeigt wirtschaftliches Interesse an der Region. Die NATO und westliche Staaten beobachten diese Entwicklungen und haben ihre Sicherheitsaktivitäten im Nordatlantik verstärkt."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Ein Abkommen ist eine völkerrechtliche Vereinbarung zwischen Staaten oder internationalen Organisationen. Solche Verträge regeln Rechte und Pflichten der beteiligten Parteien und müssen von den jeweiligen Parlamenten gebilligt werden, bevor sie in Kraft treten. Die Souveränität bezeichnet das Recht eines Staates, über sein eigenes Staatsgebiet und seine inneren Angelegenheiten zu bestimmen. Die territoriale Integrität schützt die Unversehrtheit der Staatsgrenzen eines Landes. Eine NATO ist ein militärisches Bündnis von nordamerikanischen und europäischen Staaten zur gemeinsamen Verteidigung. Eine autonome Region besitzt das Recht zur Selbstverwaltung in bestimmten inneren Angelegenheiten, bleibt aber übergeordnetem Staatsrecht unterworfen."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "US-Präsident Donald Trump erklärte auf Truth Social, die Vereinbarung gebe den USA dauerhafte Kontrolle über Sicherheit und alle anderen Belange auf Grönland. Dänemarks Premierministerin Mette Frederiksen betonte laut dänischen Regierungsmittteilungen, das Abkommen stärke die gemeinsame Sicherheit und anerkenne die Souveränität des Königreichs. Grönlands Regierungschef Jens-Frederik Nielsen erklärte laut Tagesschau und ZDFheute, das Dokument nütze allen Beteiligten und achte das Selbstbestimmungsrecht des grönländischen Volkes. Der Experte Michael Paul von der Stiftung Wissenschaft und Politik äußerte gegenüber ZDFheute die Einschätzung, dass der Deal wahrscheinlich keine fundamentale geopolitische Zäsur darstelle, sondern bestehende Rechte fortschreibe."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Regierungen von den USA, Dänemark und Grönland planen die offizielle Unterzeichnung des Abkommens für die kommende Woche am Rande der UN-Generalversammlung in New York. Nach der Unterzeichnung müssen die Parlamente der beteiligten Staaten und Regionen die gesetzlichen Prozesse durchlaufen. Erst nach Abschluss dieser parlamentarischen Verfahren tritt die Vereinbarung offiziell in Kraft."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Januar 2026",
-     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits durch die USA, Dänemark und Grönland"
-    ],
-    [
-     "September 2026",
-     "Verkündung der Einigung und des geplanten Abkommens durch die Regierungen und US-Präsident Trump"
-    ],
-    [
-     "Januar 2026",
-     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte und Veröffentlichung einer Umfrage zur Unabhängigkeit Grönlands"
-    ],
-    [
-     "19. September 2026",
-     "Verkündung der Einigung auf ein gemeinsames Abkommen zwischen den USA, Dänemark und Grönland"
-    ],
-    [
-     "Januar 2026",
-     "Einrichtung einer hochrangigen Arbeitsgruppe zur Beilegung des Grönland-Konflikts"
-    ],
-    [
-     "18. September 2026",
-     "Verkündung einer Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
-    ],
-    [
-     "19. September 2026",
-     "Bekanntgabe weiterer Details und geplante Unterzeichnung des Abkommens in der kommenden Woche"
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "ort",
-     "suchbegriff": "Greenland landscape ice fjord",
-     "bildunterschrift": "Eine Küstenlandschaft in Grönland mit eisbedeckten Bergen und dem umliegenden Meer."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters New York",
-     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, wo das Abkommen unterzeichnet werden soll."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "NATO flag emblem",
-     "bildunterschrift": "Die Flagge der NATO als Symbol für das transatlantische Sicherheitsbündnis."
-    }
-   ],
-   "ort": {
-    "name": "Nuuk, Grönland und Kopenhagen, Dänemark"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Entfernung unbelegter Details und nicht im Text genannter Beträge sowie Anpassung spekulativer Formulierungen an die Berichte."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Souveränität",
-      "Das Recht eines Staates, über sein eigenes Gebiet und seine Politik selbst zu bestimmen."
-     ],
-     [
-      "Autonome Region",
-      "Ein Gebiet, das in einem Staat liegt, aber das Recht zur Selbstverwaltung in bestimmten inneren Angelegenheiten besitzt."
-     ]
-    ],
-    "fragen": [
-     "Welche unterschiedlichen Sichtweisen haben die USA und Grönland auf das neue Abkommen?",
-     "Warum ist die Region um Grönland für andere Staaten geopolitisch von Bedeutung?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wann soll das Abkommen voraussichtlich unterzeichnet werden?",
-      "optionen": [
-       "In dieser Woche",
-       "In der kommenden Woche",
-       "Im nächsten Monat"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau, ZDFheute und The Guardian soll das Abkommen kommende Woche bei der UN-Generalversammlung unterzeichnet werden."
-     },
-     {
-      "frage": "Welche Einrichtung betreibt das US-Militär bereits auf Grönland?",
-      "optionen": [
-       "Die Pituffik Space Base",
-       "Eine Marinebasis in Nuuk",
-       "Ein Hauptquartier in Kopenhagen"
-      ],
-      "richtig": 0,
-      "erklaerung": "ZDFheute und The Guardian nennen die Pituffik Space Base als bestehende militärische Einrichtung."
-     },
-     {
-      "frage": "Wer betont nach den Berichten die Wahrung der Souveränität des dänischen Königreichs?",
-      "optionen": [
-       "Nur der US-Präsident",
-       "Die Regierungen von Dänemark und Grönland",
-       "Die Vereinten Nationen"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Regierungen von Dänemark und Grönland erklärten laut übereinstimmenden Berichten, dass das Abkommen die Souveränität anerkennt."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Länder USA, Dänemark und Grönland haben sich nach langem Streit geeinigt.",
-    "absaetze": [
-     "In der kommenden Woche soll ein neues Abkommen unterzeichnet werden. Das Treffen dafür findet bei den Vereinten Nationen statt.",
-     "Der amerikanische Präsident Donald Trump sagt, dass die USA nun dauerhaft die Kontrolle über die Sicherheit auf Grönland haben.",
-     "Die Regierung von Dänemark und die Regierung von Grönland betonen dagegen, dass die Selbstbestimmung der Insel erhalten bleibt.",
-     "Bevor der Vertrag gilt, müssen die Parlamente der Länder noch darüber abstimmen."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die USA, Dänemark und Grönland haben sich auf ein Sicherheitsabkommen geeinigt. Die Unterzeichnung ist für die kommende Woche in New York geplant. US-Präsident Trump und die Regierung in Grönland bewerten die Folgen des Abkommens unterschiedlich."
-    ],
-    "lang": [
-     "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach langem Streit auf ein gemeinsames Abkommen geeinigt. Das teilten die beteiligten Regierungen am achtzehnten und neunzehnten September im Jahr zweitausendsechsundzwanzig mit. Die Unterzeichnung ist für die kommende Woche bei der Hauptversammlung der Vereinten Nationen in New York geplant. Um in Kraft zu treten, muss das Abkommen noch parlamentarische Prozesse durchlaufen. Der amerikanische Präsident Donald Trump erklärte auf seiner Plattform Truth Social, dass der Deal den USA die dauerhafte Kontrolle über die Sicherheit auf Grönland gewährt. Dänemarks Premierministerin Mette Frederiksen und Grönlands Regierungschef Jens-Frederik Nielsen betonten hingegen, dass das Abkommen die Souveränität des dänischen Königreichs anerkennt. Experten wie Michael Paul von der Stiftung Wissenschaft und Politik vermuten, dass sich durch das Abkommen in der Praxis möglicherweise nicht viel Grundlegendes ändert. Die Insel Grönland ist weitgehend autonom und gehört zum dänischen Königreich."
-    ],
-    "einfach": [
-     "Die USA, Dänemark und Grönland haben sich auf ein Abkommen geeinigt. Das Abkommen soll in der nächsten Woche in New York unterzeichnet werden. Der amerikanische Präsident Trump sagt, dass die USA nun die Kontrolle über Grönland haben. Die Politiker in Dänemark und Grönland betonen, dass die Insel weiterhin selbstbestimmt bleibt. Das Parlament muss den Vertrag noch prüfen und annehmen."
-    ]
-   },
-   "kurz": [
-    "Die USA, Dänemark und Grönland haben sich auf ein Sicherheitsabkommen geeinigt.",
-    "Die Unterzeichnung ist für die kommende Woche bei der UN-Generalversammlung in New York geplant.",
-    "US-Präsident Trump spricht von dauerhafter Kontrolle, während Dänemark und Grönland die Souveränität betonen."
-   ],
-   "fakten": [
-    [
-     "Einwohnerzahl Grönlands",
-     "knapp 60.000"
-    ],
-    [
-     "Datum der Einigung",
-     "18. September 2026"
-    ]
-   ],
-   "dossier": {
-    "slug": "konflikt-um-groenland",
-    "titel": "Streit um Grönland"
-   },
-   "bildInfo": {
-    "titel": "Iceberg in North Star Bay, Greenland.jpg",
-    "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
-    "urheber": "Jeremy Harbeck",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "art": "ort",
-    "suchbegriff": "Greenland landscape ice",
-    "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Iceberg in North Star Bay, Greenland.jpg",
-     "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
-     "urheber": "Jeremy Harbeck",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "ort",
-     "suchbegriff": "Greenland landscape ice",
-     "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Mette Frederiksen in 2023 (cropped).jpg",
-     "beschreibung": "Ministra do Reino da Dinamarca, Mette Frederiksen . Edifício Europa, escritório da Dinamarca - Bruxelas - Bélgica. Foto: Ricardo Stuckert/PR",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Mette_Frederiksen_in_2023_(cropped).jpg",
-     "urheber": "Palácio do Planalto",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "person",
-     "suchbegriff": "Mette Frederiksen",
-     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen, die an der Einigung beteiligt war.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump official portrait",
-     "bildunterschrift": "US-Präsident Donald Trump, dessen Land an der Einigung im Streit um Grönland beteiligt ist.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "version": 5,
-   "ton": [
-    {
-     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben sich nach langem Streit auf",
-     "d": "6c544bbaa5.mp3",
-     "l": 56.47,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben sich auf ein Sicherheitsabkommen geeinigt. ",
-     "d": "c217b0f7cf.mp3",
-     "l": 14.05,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben sich auf ein Abkommen geeinigt. Das Abkomme",
-     "d": "c3be2847b5.mp3",
-     "l": 22.81,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Wer die genauen Kosten für den Aufbau und Unterhalt der neuen Militäreinrichtung",
-     "d": "8e8fd5abf7.mp3",
-     "l": 7.93,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Souveränität? Das Recht eines Staates, über sein eigenes",
-     "d": "574742fa6b.mp3",
-     "l": 8.02,
-     "s": [
-      0.25,
-      2.78
-     ]
-    },
-    {
-     "k": "Nach langem Streit haben die Regierungen der Vereinigten Staaten, des Königreich",
-     "d": "577db762b0.mp3",
-     "l": 52.05,
-     "s": [
-      0.25,
-      8.91,
-      14.39,
-      19.15,
-      24.89,
-      31.23,
-      38.61,
-      46.82
-     ]
-    },
-    {
-     "k": "Grönland ist die größte Insel der Erde und zu rund vier Fünfteln von Eis bedeckt",
-     "d": "e052fb33ba.mp3",
-     "l": 52.63,
-     "s": [
-      0.25,
-      5.16,
-      7.27,
-      15.02,
-      20.02,
-      27.63,
-      35.94,
-      43.35
-     ]
-    },
-    {
-     "k": "Grönland war eine dänische Kolonie und erhielt später den Status einer autonomen",
-     "d": "6d5282a8c6.mp3",
-     "l": 47.17,
-     "s": [
-      0.25,
-      5.52,
-      11.77,
-      17.84,
-      25.29,
-      31.82,
-      39.99
-     ]
-    },
-    {
-     "k": "Ein Abkommen ist eine völkerrechtliche Vereinbarung zwischen Staaten oder intern",
-     "d": "7c73f8c936.mp3",
-     "l": 42.12,
-     "s": [
-      0.25,
-      6.55,
-      14.57,
-      21.61,
-      26.7,
-      33.82
-     ]
-    },
-    {
-     "k": "US-Präsident Donald Trump erklärte auf Truth Social, die Vereinbarung gebe den U",
-     "d": "d2f12c2be2.mp3",
-     "l": 43.73,
-     "s": [
-      0.25,
-      9.63,
-      19.84,
-      30.75
-     ]
-    },
-    {
-     "k": "Die Regierungen von den USA, Dänemark und Grönland planen die offizielle Unterze",
-     "d": "8e25d94eb5.mp3",
-     "l": 21.77,
-     "s": [
-      0.25,
-      9.68,
-      16.29
-     ]
-    }
-   ]
-  },
-  {
    "id": "trump-medienbann-weisses-haus",
    "rubrik": "Welt",
    "zeit": "2026-09-19T18:54:55.000Z",
@@ -3599,11 +5134,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.42,
+     "l": 12.29,
      "s": [
       0.25,
-      5.4,
-      9.35
+      5.34,
+      9.23
      ]
     },
     {
@@ -3658,7 +5193,7 @@
       0.25,
       3.61,
       6.63,
-      12.0,
+      12,
       16.25,
       17.9,
       21.9,
@@ -8043,7 +9578,7 @@
       0.25,
       6.33,
       11.66,
-      17.0
+      17
      ]
     },
     {

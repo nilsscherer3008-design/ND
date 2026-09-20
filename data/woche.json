@@ -1,92 +1,149 @@
 {
- "erstellt": "2026-09-17T16:23:08.886Z",
- "von": "2026-09-10T16:23:08.886Z",
- "bis": "2026-09-17T16:23:08.886Z",
+ "erstellt": "2026-09-20T06:11:05.247Z",
+ "von": "2026-09-13T06:11:05.247Z",
+ "bis": "2026-09-20T06:11:05.247Z",
  "themen": [
   {
-   "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
-   "titel": "Parlamentswahl in Schweden: Ministerpräsident Kristersson tritt zurück",
-   "rubrik": "Welt",
-   "zeit": "2026-09-17T15:17:18.000Z",
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "titel": "Wahlen zum Abgeordnetenhaus in Berlin und zum Landtag in Mecklenburg-Vorpommern",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-20T06:03:38.000Z",
+   "bild": {
+    "titel": "Election MG 3455.JPG",
+    "beschreibung": "Second round of the French presidential election of 2007.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+    "urheber": "Rama",
+    "lizenz": "CC BY-SA 2.0 fr",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+    "art": "symbol",
+    "suchbegriff": "Ballot box election Germany",
+    "bildunterschrift": "Eine Wahlurne symbolisiert die Parlamentswahlen in Berlin und Mecklenburg-Vorpommern.",
+    "hinweis": "Symbolbild"
+   },
    "saetze": [
-    "Nach der Parlamentswahl in Schweden hat der konservative Ministerpräsident Ulf Kristersson seinen Rücktritt erklärt.",
-    "Das Mitte-Links-Lager hat die Parlamentswahl in Schweden knapp gewonnen.",
-    "Das bisherige Regierungsbündnis kam auf 173 Sitze."
+    "In Berlin und Mecklenburg-Vorpommern finden Wahlen zu den Landesparlamenten statt.",
+    "Die Wahllokale sind am Sonntag von 8 bis 18 Uhr geöffnet.",
+    "Laut übereinstimmenden Berichten wird in beiden Regionen mit knappen Ergebnissen gerechnet."
+   ]
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "titel": "Bund und Länder vereinbaren Maßnahmen zur Kraftstoffpreissenkung",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "bild": {
+    "titel": "05 OMV gas station prices in Austria - gas prices in Europe 2012.jpg",
+    "beschreibung": "OMV gas station sign with 2012 gasoline prices at a highway rest stop in Austria.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/05_OMV_gas_station_prices_in_Austria_-_gas_prices_in_Europe_2012.jpg/1280px-05_OMV_gas_station_prices_in_Austria_-_gas_prices_in_Europe_2012.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/05_OMV_gas_station_prices_in_Austria_-_gas_prices_in_Europe_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:05_OMV_gas_station_prices_in_Austria_-_gas_prices_in_Europe_2012.jpg",
+    "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "art": "symbol",
+    "suchbegriff": "Gas station price sign Germany",
+    "bildunterschrift": "Eine Preistafel an einer Tankstelle veranschaulicht die Kraftstoffpreise.",
+    "hinweis": "Symbolbild"
+   },
+   "saetze": [
+    "Die Bundesregierung und die Bundesländer haben sich auf ein neues Entlastungspaket geeinigt.",
+    "Dieses sieht einen vorübergehenden Tankrabatt und einen Spritpreisdeckel vor.",
+    "Ab Oktober soll ein dreimonatiger Tankrabatt von 17 Cent pro Liter durch eine gesenkte Energiesteuer eingeführt werden."
+   ]
+  },
+  {
+   "id": "duma-wahl-russland-drohnenangriffe",
+   "titel": "Parlamentswahlen in Russland und Luftangriffe",
+   "rubrik": "Welt",
+   "zeit": "2026-09-20T06:03:27.000Z",
+   "saetze": [
+    "In Russland ist die dreitägige Wahl für ein neues Parlament zu Ende gegangen.",
+    "Gleichzeitig wurden Angriffe mit Drohnen und Explosionsfolgen gemeldet.",
+    "Die Hauptstadt Moskau und andere Regionen waren laut Berichten das Ziel von Drohnenangriffen."
+   ]
+  },
+  {
+   "id": "trump-medienbann-weisses-haus",
+   "titel": "Zugangssperre zum Weißen Haus für ausgewählte Medien",
+   "rubrik": "Welt",
+   "zeit": "2026-09-19T18:54:55.000Z",
+   "bild": {
+    "titel": "President-Donald-Trump-Official-Presidential-Portrait.png",
+    "beschreibung": "Official portrait of Donald Trump's second term as president.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/President-Donald-Trump-Official-Presidential-Portrait.png/1280px-President-Donald-Trump-Official-Presidential-Portrait.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/52/President-Donald-Trump-Official-Presidential-Portrait.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:President-Donald-Trump-Official-Presidential-Portrait.png",
+    "urheber": "Daniel Torok",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "person",
+    "suchbegriff": "Donald Trump official portrait 2025",
+    "bildunterschrift": "Das offizielle Porträt von US-Präsident Donald Trump, der die Zugangssperre für ausgewählte Medien im Weißen Haus begründete.",
+    "hinweis": "Archivfoto"
+   },
+   "saetze": [
+    "Dem US-amerikanischen Nachrichtensender MS NOW, CNN sowie dem Nachrichtenportal Politico ist der Zutritt zum Weißen Haus verwehrt worden.",
+    "US-Präsident Donald Trump begründete die Maßnahme mit der angeblichen Verbreitung von Falschnachrichten.",
+    "Die betroffenen Medien kündigten rechtliche Schritte an."
    ]
   },
   {
    "id": "brandanschlag-synagoge-wuppertal",
-   "titel": "Brandanschlag auf Synagoge in Wuppertal",
+   "titel": "Brandanschlag auf die Bergische Synagoge in Wuppertal",
    "rubrik": "Deutschland",
-   "zeit": "2026-09-17T16:10:00.000Z",
+   "zeit": "2026-09-18T18:43:31.000Z",
    "saetze": [
-    "In Wuppertal ist ein Brandanschlag auf eine Synagoge verübt worden.",
-    "Die Polizei hat einen Verdächtigen festgenommen.",
-    "Es gab keine Verletzten und nur geringen Sachschaden."
+    "Nach einem Brandanschlag auf die Synagoge in Wuppertal befindet sich ein 37-jähriger Tatverdächtiger in Untersuchungshaft.",
+    "Ermittlungsbehörden gehen von einem antisemitischen Motiv aus.",
+    "In Wuppertal wurde ein Brandanschlag auf die Synagoge verübt, bei dem niemand verletzt wurde."
    ]
   },
   {
-   "id": "us-notenbank-erhoeht-leitzins",
-   "titel": "US-Notenbank erhöht den Leitzins",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-17T15:17:18.000Z",
-   "saetze": [
-    "Die US-Notenbank Fed hat den Leitzins erhöht.",
-    "Als Grund nennen die Verantwortlichen die anhaltende Inflation.",
-    "US-Präsident Donald Trump reagierte verärgert auf die Entscheidung."
-   ]
-  },
-  {
-   "id": "festnahme-islamist-anschlag-kirche-bremen",
-   "titel": "Festnahme eines mutmaßlichen IS-Anhängers in Brandenburg",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-17T15:17:18.000Z",
-   "saetze": [
-    "In Brandenburg ist ein mutmaßlicher Anhänger der Terrormiliz Islamischer Staat festgenommen worden.",
-    "Die Bundesanwaltschaft hat einen 24-jährigen Iraker festnehmen lassen.",
-    "Dem Mann wird die Vorbereitung einer schweren staatsgefährdenden Gewalttat vorgeworfen."
-   ]
-  },
-  {
-   "id": "eu-plaene-social-media-verbot-kinder",
-   "titel": "EU-Kommission stellt Vorschläge zum Schutz von Kindern und Jugendlichen im Internet vor",
-   "rubrik": "Wissen & Klima",
-   "zeit": "2026-09-17T15:17:34.000Z",
-   "saetze": [
-    "Die EU-Kommission hat neue Regeln für die Nutzung von sozialen Medien durch Kinder vorgestellt.",
-    "Das Gesetz trägt den Namen EU Kids Act.",
-    "Kinder unter 13 Jahren sollen soziale Netzwerke künftig nicht mehr nutzen dürfen."
-   ]
-  },
-  {
-   "id": "usa-sanktionen-russland-kongress",
-   "titel": "US-Kongress beschließt neue Sanktionen gegen Russland",
+   "id": "schwedischer-ministerpraesident-kristersson-zurueckgetreten",
+   "titel": "Parlamentswahl in Schweden: Magdalena Andersson erhält Regierungsauftrag",
    "rubrik": "Welt",
-   "zeit": "2026-09-17T15:17:18.000Z",
+   "zeit": "2026-09-18T18:43:31.000Z",
+   "bild": {
+    "titel": "Sanna Marin and Magdalena Andersson in 2022.jpg",
+    "beschreibung": "Kuvassa vasemmalta oikealle: Sanna Marin, Magdalena Andersson.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg/1280px-Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Sanna_Marin_and_Magdalena_Andersson_in_2022.jpg",
+    "urheber": "Fanni Uusitalo / Prime Minister's Office Finland",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "person",
+    "suchbegriff": "Magdalena Andersson politician",
+    "bildunterschrift": "Magdalena Andersson erhielt nach der Parlamentswahl in Schweden den Regierungsauftrag.",
+    "hinweis": "Archivfoto"
+   },
    "saetze": [
-    "Das US-Repräsentantenhaus hat ein neues Sanktionsgesetz gegen Russland verabschiedet.",
-    "Das Gesetz sieht unter anderem Maßnahmen gegen russische Energieexporte vor.",
-    "Nun muss noch US-Präsident Donald Trump das Gesetz unterzeichnen."
+    "Nach dem knappen Wahlsieg des Mitte-links-Lagers bei der schwedischen Parlamentswahl hat Parlamentspräsident Andreas Norlén Magdalena Andersson mit der Regierungsbildung beauftragt.",
+    "Der bisherige Ministerpräsident Ulf Kristersson ist nach der Niederlage seines konservativ-rechten Blocks von seinem Amt zurückgetreten.",
+    "Nach der Parlamentswahl in Schweden hat das Mitte-links-Lager eine knappe Mehrheit von 176 von 349 Mandaten erreicht."
    ]
   },
   {
    "id": "rtl-sky-stellenabbau",
-   "titel": "RTL Deutschland und Sky planen Stellenabbau",
+   "titel": "RTL Deutschland und Sky planen Stellenabbau nach Zusammenschluss",
    "rubrik": "Wirtschaft",
    "zeit": "2026-09-17T16:00:24.000Z",
    "bild": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/RTL_Logo_2022.png/1280px-RTL_Logo_2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "seite": "https://commons.wikimedia.org/wiki/File:RTL_Logo_2022.png",
-    "urheber": "https://logo-generator.rtl.de/",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/RTL_Junkersdorf.jpg/1280px-RTL_Junkersdorf.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/RTL_Junkersdorf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:RTL_Junkersdorf.jpg",
+    "urheber": "Stefan Flöper",
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "art": "institution",
     "hinweis": "Archivfoto"
    },
    "saetze": [
-    "RTL Deutschland und Sky planen einen Zusammenschluss.",
-    "Bis Ende 2027 sollen rund 500 Stellen abgebaut werden.",
-    "Der Stellenabbau soll sozialverträglich und in Abstimmung mit Betriebsräten erfolgen."
+    "Nach dem Zusammenschluss von RTL Deutschland und Sky sollen bis Ende 2027 rund 500 Stellen abgebaut werden.",
+    "Der überwiegende Teil davon soll laut Angaben des Unternehmens bereits im Jahr 2026 gestrichen werden.",
+    "Der Stellenabbau soll sozialverträglich und in Abstimmung mit den Vertretungen erfolgen."
    ]
   }
  ]
