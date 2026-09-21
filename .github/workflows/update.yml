@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 28
     steps:
       - uses: actions/checkout@v4
 
@@ -35,6 +35,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASIS: ${{ vars.OPENAI_BASIS }}
+          OPENAI_MODELL: ${{ vars.OPENAI_MODELL }}
           NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL }}
@@ -43,6 +46,33 @@ jobs:
           VAPID_PUBLIC: ${{ vars.VAPID_PUBLIC }}
           VAPID_PRIVATE: ${{ secrets.VAPID_PRIVATE }}
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+
+      # Zuerst die Nachrichten sichern. Alles Weitere darf danach schiefgehen,
+      # ohne dass die App auf einem alten Stand hängen bleibt.
+      - name: Nachrichten speichern
+        if: always()
+        env:
+          NACHRICHT: "Nachrichten-Update"
+        run: |
+          git config user.name "nachrichten-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git commit -m "$NACHRICHT $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          for versuch in 1 2 3 4 5; do
+            if git push; then
+              echo "Gespeichert (Versuch $versuch)."
+              exit 0
+            fi
+            echo "Push abgelehnt - erst die neueren Dateien holen, dann noch einmal ($versuch)."
+            git pull --rebase --autostash origin main || exit 1
+            sleep 5
+          done
+          echo "Speichern hat nach fuenf Versuchen nicht geklappt."
+          exit 1
 
       # ---- Sprecherstimme (Piper). Schlägt das fehl, laufen die Nachrichten trotzdem weiter. ----
       - name: Stimme zwischenspeichern
@@ -65,7 +95,7 @@ jobs:
 
       - name: Sprecherstimme erzeugen
         continue-on-error: true
-        timeout-minutes: 15
+        timeout-minutes: 12
         run: |
           if ! command -v ffmpeg >/dev/null; then
             sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
@@ -95,7 +125,11 @@ jobs:
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ton:ton
           echo "Veröffentlicht: $(ls | wc -l) Aufnahmen"
 
-      - name: Neue Ausgabe speichern
+      - name: Tonliste nachtragen
+        if: always()
+        continue-on-error: true
+        env:
+          NACHRICHT: "Tonaufnahmen"
         run: |
           git config user.name "nachrichten-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -104,16 +138,23 @@ jobs:
             echo "Keine Änderungen."
             exit 0
           fi
-          git commit -m "Nachrichten-Update $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
-          # Falls in der Zwischenzeit jemand Dateien hochgeladen hat: erst holen, dann noch einmal versuchen
+          git commit -m "$NACHRICHT $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
           for versuch in 1 2 3 4 5; do
             if git push; then
               echo "Gespeichert (Versuch $versuch)."
               exit 0
             fi
-            echo "Push abgelehnt – hole die neueren Dateien und versuche es erneut ($versuch)."
+            echo "Push abgelehnt - erst die neueren Dateien holen, dann noch einmal ($versuch)."
             git pull --rebase --autostash origin main || exit 1
             sleep 5
           done
-          echo "Speichern hat nach fünf Versuchen nicht geklappt."
+          echo "Speichern hat nach fuenf Versuchen nicht geklappt."
           exit 1
+
+      - name: Bei einem Fehler Bescheid geben
+        if: failure() && vars.NTFY_TOPIC != ''
+        continue-on-error: true
+        run: |
+          curl -s -X POST "https://ntfy.sh/${{ vars.NTFY_TOPIC }}-fehler" \
+            -H "Title: Nachrichten-Heft: Lauf fehlgeschlagen" \
+            -d "Der Lauf um $(TZ=Europe/Berlin date '+%H:%M') ist abgebrochen. Schau bei GitHub unter Actions nach." || true
