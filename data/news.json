@@ -732,7 +732,144 @@
     "lon": 13.395
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Nach der Abgeordnetenhauswahl in Berlin hat Bundeskanzler Friedrich Merz ein Bun",
+     "d": "c202e52cee.mp3",
+     "l": 54.8,
+     "s": [
+      0.25,
+      7.21,
+      11.27,
+      16.83,
+      22.9,
+      27.83,
+      32.98,
+      37.44,
+      43.02,
+      48.96
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz kündigte ein neues Bundesgesetz gegen Enteignungen ",
+     "d": "7ab866c768.mp3",
+     "l": 20.59,
+     "s": [
+      0.25,
+      5.26,
+      10.17,
+      15.29
+     ]
+    },
+    {
+     "k": "Die Linkspartei hat die Wahl in Berlin gewonnen. Die Partei will große Wohnungsu",
+     "d": "54147804c6.mp3",
+     "l": 20.35,
+     "s": [
+      0.25,
+      3.54,
+      7.49,
+      12.16,
+      15.98
+     ]
+    },
+    {
+     "k": "Ob ein Bundesverbot von Enteignungen verfassungsrechtlich zulässig ist, ist laut",
+     "d": "e67fc85e27.mp3",
+     "l": 11.54,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Vergesellschaftung? Die Überführung von privatem Eigentu",
+     "d": "b1dbd25ed3.mp3",
+     "l": 11.68,
+     "s": [
+      0.25,
+      3.66
+     ]
+    },
+    {
+     "k": "Nach der Abgeordnetenhauswahl in Berlin hat Bundeskanzler Friedrich Merz laut Ta",
+     "d": "1b4fd18592.mp3",
+     "l": 64.12,
+     "s": [
+      0.25,
+      12.37,
+      18.69,
+      28.47,
+      36.34,
+      46.16,
+      50.61,
+      54.31
+     ]
+    },
+    {
+     "k": "Durch die geplante Vergesellschaftung in Berlin würde der Anteil der Wohnungsbes",
+     "d": "544f513620.mp3",
+     "l": 52.49,
+     "s": [
+      0.25,
+      11.47,
+      17.06,
+      21.74,
+      25.47,
+      31.78,
+      39.93,
+      45.44
+     ]
+    },
+    {
+     "k": "Die Wahlen in Berlin und Mecklenburg-Vorpommern haben laut ZDFheute die politisc",
+     "d": "bf971421c6.mp3",
+     "l": 52.3,
+     "s": [
+      0.25,
+      7.06,
+      11.69,
+      18.41,
+      23.45,
+      29.27,
+      36.95,
+      43.3
+     ]
+    },
+    {
+     "k": "Unter Vergesellschaftung versteht man in der Politik die Überführung von private",
+     "d": "73b41dfc33.mp3",
+     "l": 25.01,
+     "s": [
+      0.25,
+      8.36,
+      18.15
+     ]
+    },
+    {
+     "k": "Linken-Co-Chefin Ines Schwerdtner verteidigte die Pläne als Antwort auf hohe Mie",
+     "d": "7f98d958af.mp3",
+     "l": 40.57,
+     "s": [
+      0.25,
+      7.95,
+      12.76,
+      18.27,
+      25.56,
+      31.38
+     ]
+    },
+    {
+     "k": "Die Bundesregierung will laut Bundeskanzler Friedrich Merz das Gesetzgebungsverf",
+     "d": "a40876d904.mp3",
+     "l": 23.55,
+     "s": [
+      0.25,
+      7.06,
+      15.36
+     ]
+    }
+   ]
   },
   {
    "id": "wahlen-berlin-mecklenburg-vorpommern",
@@ -2215,6 +2352,63 @@
       0.25,
       3.83
      ]
+    },
+    {
+     "k": "Das US-Unternehmen Google ist zu einer Geldbuße verurteilt worden. Grund für die",
+     "d": "e74632c420.mp3",
+     "l": 45.63,
+     "s": [
+      0.25,
+      4.5,
+      8.81,
+      17.67,
+      24.19,
+      28.95,
+      36.57,
+      41.55
+     ]
+    },
+    {
+     "k": "Die Beanstandungen der Behörde beziehen sich auf drei spezifische Funktionen des",
+     "d": "5a49be00e9.mp3",
+     "l": 47.73,
+     "s": [
+      0.25,
+      5.55,
+      12.45,
+      18.46,
+      23.91,
+      31.95,
+      39.43,
+      43.14
+     ]
+    },
+    {
+     "k": "Ein Sprecher von Google erklärte zu dem Verfahren, dass es sich um alte Richtlin",
+     "d": "dbdcda0143.mp3",
+     "l": 41.0,
+     "s": [
+      0.25,
+      5.25,
+      12.87,
+      18.71,
+      24.48,
+      29.27,
+      35.97
+     ]
+    },
+    {
+     "k": "Neben der Geldstrafe wurde Google von der Behörde zu weiteren Schritten aufgefor",
+     "d": "7415a9aa5e.mp3",
+     "l": 27.37,
+     "s": [
+      0.25,
+      5.21,
+      11.44,
+      14.87,
+      20.16,
+      23.82
+     ]
     }
    ]
   },
@@ -2638,6 +2832,66 @@
       3.79,
       7.89
      ]
+    },
+    {
+     "k": "Vor dem Landgericht Berlin hat ein Strafverfahren gegen den früheren Bundesverke",
+     "d": "4785944e29.mp3",
+     "l": 60.54,
+     "s": [
+      0.25,
+      9.4,
+      15.99,
+      23.15,
+      31.4,
+      36.44,
+      43.1,
+      54.49
+     ]
+    },
+    {
+     "k": "Zum Auftakt des Prozesses wiesen sowohl Andreas Scheuer als auch Gerhard Schulz ",
+     "d": "73049938ee.mp3",
+     "l": 49.56,
+     "s": [
+      0.25,
+      7.2,
+      13.35,
+      16.9,
+      26.03,
+      32.61,
+      38.2,
+      43.45
+     ]
+    },
+    {
+     "k": "Die politische Vorgeschichte der Pkw-Maut reicht bis in das Jahr 2013 zurück. Da",
+     "d": "1d5412fc48.mp3",
+     "l": 54.74,
+     "s": [
+      0.25,
+      5.85,
+      14.9,
+      21.53,
+      28.55,
+      34.3,
+      43.28,
+      50.43
+     ]
+    },
+    {
+     "k": "Das Landgericht Berlin hat für den Prozess gegen Scheuer und Schulz zunächst zwö",
+     "d": "7b41305d9b.mp3",
+     "l": 59.34,
+     "s": [
+      0.25,
+      6.3,
+      10.55,
+      16.03,
+      24.01,
+      35.06,
+      42.03,
+      48.7
+     ]
     }
    ]
   },
@@ -2960,11 +3214,11 @@
     {
      "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
      "d": "cae7875f8a.mp3",
-     "l": 17.57,
+     "l": 17.25,
      "s": [
       0.25,
-      5.53,
-      10.71
+      5.32,
+      10.51
      ]
     },
     {
@@ -2995,6 +3249,75 @@
      "s": [
       0.25,
       3.64
+     ]
+    },
+    {
+     "k": "Der Automobilhersteller Porsche hat einen Medienbericht über den Abbau von weite",
+     "d": "67bf10651c.mp3",
+     "l": 41.93,
+     "s": [
+      0.25,
+      7.27,
+      12.1,
+      15.31,
+      22.53,
+      29.52,
+      33.93,
+      40.0
+     ]
+    },
+    {
+     "k": "Bereits im Juli hatte der Stuttgarter Autobauer Porsche ein weiteres Sparpaket b",
+     "d": "056fa289e5.mp3",
+     "l": 28.85,
+     "s": [
+      0.25,
+      5.56,
+      8.29,
+      12.95,
+      16.69,
+      19.2,
+      22.63,
+      25.8
+     ]
+    },
+    {
+     "k": "Volkswagen hatte seine Gewinnprognose vor allem wegen einer Abschreibung auf Por",
+     "d": "893bb85b90.mp3",
+     "l": 20.37,
+     "s": [
+      0.25,
+      5.72,
+      10.94,
+      15.74
+     ]
+    },
+    {
+     "k": "Ein Aufsichtsrat ist ein Kontrollorgan in einer Aktiengesellschaft. Er überwacht",
+     "d": "57f5eaa18e.mp3",
+     "l": 6.56,
+     "s": [
+      0.25,
+      4.24
+     ]
+    },
+    {
+     "k": "Porsche-Vorstandschef Michael Leiters erklärte im Intranet, dass der Abbau von w",
+     "d": "397eab2a2c.mp3",
+     "l": 17.44,
+     "s": [
+      0.25,
+      6.96,
+      14.14
+     ]
+    },
+    {
+     "k": "Die Planung der Porsche AG ist vom Aufsichtsrat bestätigt worden, und es wird ke",
+     "d": "0842bb6489.mp3",
+     "l": 14.15,
+     "s": [
+      0.25,
+      6.69
      ]
     }
    ]
@@ -3260,6 +3583,51 @@
      "l": 4.88,
      "s": [
       0.25
+     ]
+    },
+    {
+     "k": "Der Bundestag und der Bundesrat sollen in dieser Woche über den neuen Tankrabatt",
+     "d": "2cebc7556a.mp3",
+     "l": 31.89,
+     "s": [
+      0.25,
+      5.48,
+      8.67,
+      13.58,
+      17.13,
+      21.52,
+      25.92,
+      28.58
+     ]
+    },
+    {
+     "k": "Laut dem Deutschlandfunk ist der Beschluss durch Bundestag und Bundesrat für die",
+     "d": "a7440beec2.mp3",
+     "l": 39.26,
+     "s": [
+      0.25,
+      5.85,
+      8.91,
+      14.69,
+      18.6,
+      24.62,
+      29.02,
+      33.87
+     ]
+    },
+    {
+     "k": "In der bisherigen Zeitleiste gab es bereits im Mai bis Juni 2026 einen ersten Ta",
+     "d": "5ff51ef358.mp3",
+     "l": 46.08,
+     "s": [
+      0.25,
+      9.3,
+      16.09,
+      24.16,
+      25.41,
+      34.03,
+      39.22,
+      42.86
      ]
     }
    ]
@@ -3544,7 +3912,66 @@
     "lon": 9.004
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Autohersteller Mercedes-Benz hat mögliche Werkschließungen in Deutschland an",
+     "d": "446332abdc.mp3",
+     "l": 50.69,
+     "s": [
+      0.25,
+      5.51,
+      10.59,
+      14.76,
+      19.08,
+      23.74,
+      30.61,
+      35.6,
+      41.19,
+      45.93
+     ]
+    },
+    {
+     "k": "Mercedes-Benz stellt die Schließung von zwei deutschen Werken in Aussicht. Grund",
+     "d": "3f0984a628.mp3",
+     "l": 12.92,
+     "s": [
+      0.25,
+      4.29,
+      8.19
+     ]
+    },
+    {
+     "k": "Mercedes-Benz will möglicherweise zwei Werke in Deutschland schließen. Das hat d",
+     "d": "ed1ca65b29.mp3",
+     "l": 25.32,
+     "s": [
+      0.25,
+      4.97,
+      8.58,
+      12.62,
+      15.42,
+      20.74
+     ]
+    },
+    {
+     "k": "Welche konkreten Standorte bei einem Scheitern der Verhandlungen geschlossen wür",
+     "d": "59e6921d67.mp3",
+     "l": 6.7,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Tarifverhandlungen? Das sind offizielle Gespräche über G",
+     "d": "91a830f8b3.mp3",
+     "l": 11.23,
+     "s": [
+      0.25,
+      3.71
+     ]
+    }
+   ]
   },
   {
    "id": "rad-wm-zeitfahren-montreal",
@@ -4271,7 +4698,41 @@
     "lat": 55.626,
     "lon": 37.606
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die russische Wahlkommission hat das vorläufige Ergebnis der Parlamentswahl beka",
+     "d": "0b6b1542d0.mp3",
+     "l": 18.13,
+     "s": [
+      0.25,
+      5.22,
+      9.24,
+      13.72
+     ]
+    },
+    {
+     "k": "In Russland gab es eine Wahl für das Parlament. Das Parlament heißt Duma. Die Pa",
+     "d": "31a3145f83.mp3",
+     "l": 20.92,
+     "s": [
+      0.25,
+      3.54,
+      6.05,
+      10.46,
+      13.24,
+      17.73
+     ]
+    },
+    {
+     "k": "Das genaue Ausmaß von Unregelmäßigkeiten bei der Stimmabgabe und die tatsächlich",
+     "d": "80d82e50df.mp3",
+     "l": 10.89,
+     "s": [
+      0.25
+     ]
+    }
+   ]
   },
   {
    "id": "ig-metall-aktionstag",
@@ -4591,7 +5052,51 @@
     "lon": 9.18
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Gewerkschaft IG Metall hat zu einem bundesweiten Aktionstag in der Automobil",
+     "d": "f628947d03.mp3",
+     "l": 43.91,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall rief zu bundesweiten Protesten in der Autoindustrie a",
+     "d": "f1df65e371.mp3",
+     "l": 12.11,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall hat zu Protesten aufgerufen. Viele Menschen in der Au",
+     "d": "68e2291b2c.mp3",
+     "l": 24.77,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Es gibt keine Widersprüche in den Berichten, jedoch nennt nur die Tagesschau/ARD",
+     "d": "71d4f0a4ae.mp3",
+     "l": 12.08,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Gewerkschaft? Eine Gewerkschaft ist eine Vereinigung von",
+     "d": "2d39560fe5.mp3",
+     "l": 11.86,
+     "s": [
+      0.25,
+      3.5,
+      7.63
+     ]
+    }
+   ]
   },
   {
    "id": "davis-cup-tennis-finale",
@@ -5905,7 +6410,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 17.67,
+     "l": 16.91,
      "s": [
       0.25
      ]
@@ -8742,11 +9247,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.5,
+     "l": 13.03,
      "s": [
       0.25,
-      5.43,
-      9.2
+      5.81,
+      9.6
      ]
     },
     {
