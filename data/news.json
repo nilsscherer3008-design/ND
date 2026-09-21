@@ -752,7 +752,124 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Bundeskanzler Friedrich Merz kündigte nach der Wahl in Berlin ein schnelles Bund",
+     "d": "31754ddb0f.mp3",
+     "l": 16.42,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Berlin fordert Die Linke die Übernahme großer Wohnungskonzerne.\nBundeskanzler",
+     "d": "74d014850d.mp3",
+     "l": 21.09,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob der Bund Enteignungen auf Landesebene rechtlich grundsätzlich untersagen kann",
+     "d": "699cc8b5d1.mp3",
+     "l": 10.04,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Vergesellschaftung? Die Überführung von privatem Eigentu",
+     "d": "115255cce9.mp3",
+     "l": 13.26,
+     "s": [
+      0.25,
+      3.66
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz hat nach der Wahl in Berlin angekündigt, ein rasche",
+     "d": "aff0d7488f.mp3",
+     "l": 56.46,
+     "s": [
+      0.25,
+      9.29,
+      14.73,
+      22.52,
+      28.0,
+      35.63,
+      41.68,
+      50.23
+     ]
+    },
+    {
+     "k": "Die Diskussion um die Vergesellschaftung stützt sich auf einen Volksentscheid au",
+     "d": "d4c14e4c3e.mp3",
+     "l": 66.84,
+     "s": [
+      0.25,
+      11.32,
+      20.23,
+      29.39,
+      40.16,
+      44.54,
+      54.12,
+      61.53
+     ]
+    },
+    {
+     "k": "Die Vorgeschichte reicht zum Volksentscheid aus dem Jahr 2021 zurück, bei dem si",
+     "d": "d44b81ed2b.mp3",
+     "l": 59.05,
+     "s": [
+      0.25,
+      10.62,
+      24.02,
+      25.34,
+      33.1,
+      37.93,
+      47.14,
+      55.9
+     ]
+    },
+    {
+     "k": "Eine Vergesellschaftung bezeichnet in diesem Kontext die Überführung von private",
+     "d": "7fe9bd2861.mp3",
+     "l": 46.24,
+     "s": [
+      0.25,
+      11.27,
+      20.33,
+      25.52,
+      35.16
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz erklärte, dass die Pläne der Linken eine verheerend",
+     "d": "1366d1d6d6.mp3",
+     "l": 68.94,
+     "s": [
+      0.25,
+      9.13,
+      15.76,
+      27.21,
+      34.29,
+      40.52,
+      50.19,
+      59.58
+     ]
+    },
+    {
+     "k": "Die Bundesregierung treibt das Gesetzesvorhaben voran, um Enteignungen von Wohnu",
+     "d": "8d564d4f15.mp3",
+     "l": 23.69,
+     "s": [
+      0.25,
+      7.5,
+      15.79
+     ]
+    }
+   ]
   },
   {
    "id": "wahlen-berlin-mecklenburg-vorpommern",
@@ -1192,7 +1309,83 @@
      "hinweis": "Symbolbild"
     }
    ],
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Nach den Landtagswahlen in Mecklenburg-Vorpommern und Berlin hat die Christlich ",
+     "d": "640c7a3f2e.mp3",
+     "l": 64.92,
+     "s": [
+      0.25,
+      7.79,
+      13.29,
+      20.09,
+      26.9,
+      34.69,
+      39.29,
+      44.5,
+      50.08,
+      56.79
+     ]
+    },
+    {
+     "k": "Nach den Landtagswahlen in Mecklenburg-Vorpommern und Berlin hat die CDU schwere",
+     "d": "22df22ca65.mp3",
+     "l": 23.76,
+     "s": [
+      0.25,
+      6.19,
+      11.53,
+      17.97
+     ]
+    },
+    {
+     "k": "In Mecklenburg-Vorpommern und Berlin gab es Wahlen für neue Parlamente. Die Chri",
+     "d": "8a369ae699.mp3",
+     "l": 31.74,
+     "s": [
+      0.25,
+      5.11,
+      10.75,
+      15.68,
+      20.49,
+      26.42
+     ]
+    },
+    {
+     "k": "Ob die Bundesregierung ihre politischen Reformen trotz der Wahlniederlagen anpas",
+     "d": "692933263d.mp3",
+     "l": 8.96,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Fünf-Prozent-Hürde? Eine Regel bei Wahlen in Deutschland",
+     "d": "ddd96e2d40.mp3",
+     "l": 12.63,
+     "s": [
+      0.25,
+      3.8,
+      6.37
+     ]
+    },
+    {
+     "k": "In den Bundesländern Mecklenburg-Vorpommern und Berlin fanden Landtagswahlen sta",
+     "d": "766542abb6.mp3",
+     "l": 65.7,
+     "s": [
+      0.25,
+      5.09,
+      11.79,
+      19.1,
+      28.48,
+      39.89,
+      49.37,
+      55.18
+     ]
+    }
+   ]
   },
   {
    "id": "us-medienbann-weisses-haus",
@@ -1577,7 +1770,65 @@
     "lon": -77.036
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Das Weiße Haus hat den Sendern CNN und MS NOW sowie der Plattform Politico den Z",
+     "d": "adb32f79ed.mp3",
+     "l": 52.01,
+     "s": [
+      0.25,
+      6.66,
+      11.22,
+      14.78,
+      19.68,
+      24.29,
+      31.76,
+      38.4,
+      45.83
+     ]
+    },
+    {
+     "k": "Das Weiße Haus verbot Medien wie CNN den Zutritt. Die betroffenen Sender reichte",
+     "d": "20d9fe940f.mp3",
+     "l": 11.43,
+     "s": [
+      0.25,
+      3.51,
+      6.56
+     ]
+    },
+    {
+     "k": "Das Weiße Haus hat Medien den Zugang verboten. Betroffen sind die Sender CNN und",
+     "d": "79e3ea23b1.mp3",
+     "l": 31.18,
+     "s": [
+      0.25,
+      3.99,
+      9.73,
+      14.51,
+      18.86,
+      25.41
+     ]
+    },
+    {
+     "k": "Wie lange die Hausverbote für die Journalisten im Weißen Haus gelten sollen, ist",
+     "d": "2d4ec98688.mp3",
+     "l": 9.28,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Akkreditierung? Ein offizieller Ausweis oder eine Erlaub",
+     "d": "e50aefe094.mp3",
+     "l": 11.12,
+     "s": [
+      0.25,
+      3.75
+     ]
+    }
+   ]
   },
   {
    "id": "google-strafe-datenschutz",
@@ -1951,7 +2202,50 @@
     "lat": 53.349,
     "lon": -6.261
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Das Technologieunternehmen Google muss in der Europäischen Union eine Geldbuße v",
+     "d": "6e95e5c525.mp3",
+     "l": 43.05,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Google muss wegen Verstößen gegen den Datenschutz eine Geldstrafe von 403 Millio",
+     "d": "2983fc7e9c.mp3",
+     "l": 16.4,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Google muss eine Strafe von mehr als 400 Millionen Euro bezahlen. Das hat eine B",
+     "d": "52b161a9d9.mp3",
+     "l": 24.29,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob Google die neuen Auflagen fristgerecht vollständig umsetzen wird, bleibt abzu",
+     "d": "d801643ad9.mp3",
+     "l": 5.68,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Standortdaten? Daten, die anzeigen, wo sich ein Mensch m",
+     "d": "c2e5bc7c89.mp3",
+     "l": 10.88,
+     "s": [
+      0.25,
+      3.67
+     ]
+    }
+   ]
   },
   {
    "id": "scheuer-maut-prozess-gericht",
@@ -2356,7 +2650,65 @@
     "lon": 13.395
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Vor dem Landgericht Berlin hat am einundzwanzigsten September ein Prozess gegen ",
+     "d": "fd715dcb42.mp3",
+     "l": 54.01,
+     "s": [
+      0.25,
+      7.46,
+      13.11,
+      21.69,
+      31.45,
+      42.18,
+      49.89
+     ]
+    },
+    {
+     "k": "In Berlin hat der Prozess gegen den früheren Verkehrsminister Andreas Scheuer be",
+     "d": "b53a954674.mp3",
+     "l": 17.23,
+     "s": [
+      0.25,
+      4.92,
+      10.06,
+      13.49
+     ]
+    },
+    {
+     "k": "In Berlin hat ein Prozess gegen den früheren Verkehrsminister Andreas Scheuer be",
+     "d": "c22ac659d2.mp3",
+     "l": 29.71,
+     "s": [
+      0.25,
+      6.45,
+      11.83,
+      16.45,
+      20.09,
+      24.47
+     ]
+    },
+    {
+     "k": "Ob die Bietergemeinschaft beim Treffen am 29. November 2018 tatsächlich ein form",
+     "d": "947405f8f9.mp3",
+     "l": 12.43,
+     "s": [
+      0.25,
+      3.48
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Untersuchungsausschuss? Ein Ausschuss ist eine Gruppe vo",
+     "d": "92b12d291a.mp3",
+     "l": 12.91,
+     "s": [
+      0.25,
+      3.72
+     ]
+    }
+   ]
   },
   {
    "id": "ig-metall-aktionstag",
@@ -2765,7 +3117,65 @@
     "lon": 10.786
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Gewerkschaft IG Metall hat einen bundesweiten Aktionstag in der Automobilind",
+     "d": "bf80e466f1.mp3",
+     "l": 54.98,
+     "s": [
+      0.25,
+      6.17,
+      12.11,
+      17.51,
+      24.32,
+      30.49,
+      37.22,
+      43.11,
+      50.09
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall hat zu einem bundesweiten Protesttag in der Autoindus",
+     "d": "f55063c64d.mp3",
+     "l": 16.79,
+     "s": [
+      0.25,
+      5.77,
+      12.27
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall hat zu Protesten in der Autoindustrie aufgerufen. Vie",
+     "d": "306f317b4b.mp3",
+     "l": 29.87,
+     "s": [
+      0.25,
+      6.12,
+      11.78,
+      18.54,
+      24.94
+     ]
+    },
+    {
+     "k": "Die genaue Gesamtzahl der Teilnehmenden am Aktionstag ist unklar; die IG Metall ",
+     "d": "0f23026181.mp3",
+     "l": 14.41,
+     "s": [
+      0.25,
+      7.66
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Gewerkschaft? Eine Gewerkschaft ist eine Organisation vo",
+     "d": "ce18bc362a.mp3",
+     "l": 12.27,
+     "s": [
+      0.25,
+      3.72
+     ]
+    }
+   ]
   },
   {
    "id": "rad-wm-zeitfahren-montreal",
@@ -3137,7 +3547,63 @@
     "lon": -73.57
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Bei den Straßenrad-Weltmeisterschaften in Kanada haben Franziska Koch und Remco ",
+     "d": "4b62c2b6d8.mp3",
+     "l": 55.62,
+     "s": [
+      0.25,
+      8.23,
+      11.88,
+      17.2,
+      22.69,
+      28.69,
+      32.62,
+      37.85,
+      43.4,
+      50.96
+     ]
+    },
+    {
+     "k": "Franziska Koch gewinnt Bronze im Einzelzeitfahren bei der Straßenrad-Weltmeister",
+     "d": "18697ee067.mp3",
+     "l": 13.01,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Kanada gab es wichtige Rennen im Radsport. Dabei fahren die Sportler einzeln ",
+     "d": "8d3f01031e.mp3",
+     "l": 19.78,
+     "s": [
+      0.25,
+      4.1,
+      7.6,
+      11.93,
+      15.74
+     ]
+    },
+    {
+     "k": "Ob die Organisatoren der Tour de France künftig wieder mehr Kilometer für Zeitfa",
+     "d": "9d29be8073.mp3",
+     "l": 6.62,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Einzelzeitfahren? Ein Radrennen, bei dem die Sportler ei",
+     "d": "7ebaed4bae.mp3",
+     "l": 10.96,
+     "s": [
+      0.25,
+      3.9
+     ]
+    }
+   ]
   },
   {
    "id": "porsche-stellenabbau",
@@ -3458,11 +3924,11 @@
     {
      "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
      "d": "cae7875f8a.mp3",
-     "l": 17.25,
+     "l": 17.21,
      "s": [
       0.25,
-      5.32,
-      10.51
+      5.21,
+      10.58
      ]
     },
     {
@@ -4617,7 +5083,65 @@
     "lat": 55.626,
     "lon": 37.606
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die russische Regierungspartei Geeintes Russland hat die Parlamentswahl nach Ang",
+     "d": "cb2300f358.mp3",
+     "l": 57.39,
+     "s": [
+      0.25,
+      6.15,
+      9.78,
+      17.21,
+      23.16,
+      28.87,
+      35.46,
+      43.28,
+      50.69
+     ]
+    },
+    {
+     "k": "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen. ",
+     "d": "77f360dc2c.mp3",
+     "l": 17.65,
+     "s": [
+      0.25,
+      4.75,
+      12.04
+     ]
+    },
+    {
+     "k": "In Russland gab es eine Wahl für das Parlament. Die Partei von Präsident Wladimi",
+     "d": "63ae7d5433.mp3",
+     "l": 22.84,
+     "s": [
+      0.25,
+      3.7,
+      7.79,
+      11.26,
+      14.86,
+      18.52
+     ]
+    },
+    {
+     "k": "Die genaue Höhe der Wahlbeteiligung und die Verlässlichkeit der offiziellen Zahl",
+     "d": "37f3c50aae.mp3",
+     "l": 9.76,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Unterhaus des russisc",
+     "d": "b7be4483cb.mp3",
+     "l": 10.66,
+     "s": [
+      0.25,
+      3.35
+     ]
+    }
+   ]
   },
   {
    "id": "davis-cup-tennis-finale",
@@ -5931,7 +6455,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 16.91,
+     "l": 16.89,
      "s": [
       0.25
      ]
@@ -8768,11 +9292,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 13.03,
+     "l": 12.86,
      "s": [
       0.25,
-      5.81,
-      9.6
+      5.57,
+      9.62
      ]
     },
     {
