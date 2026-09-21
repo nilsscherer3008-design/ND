@@ -294,7 +294,7 @@
     "basis": "https://api.groq.com/openai/v1",
     "modell": "llama-3.3-70b-versatile"
   },
-  "maxKiAnfragenProLauf": 20,
+  "maxKiAnfragenProLauf": 22,
   "doku": {
     "aktiv": true,
     "kapitel": 10,
@@ -302,5 +302,6 @@
     "behalten": 12,
     "bilder": true,
     "bilderProKapitel": 7
-  }
+  },
+  "reserveFuerWissenUndDoku": 6
 }

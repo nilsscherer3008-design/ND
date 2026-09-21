@@ -209,6 +209,22 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
   font-size:clamp(.95rem,4vw,1.3rem);text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .kb-credit{position:absolute;right:6px;bottom:6px;z-index:2;font-family:var(--head);font-size:.58rem;color:#fff;
   background:rgba(0,0,0,.5);padding:2px 6px;border-radius:4px;max-width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* Abspielknopf auf einer Kachel */
+.kbild-huelle{position:relative;display:block}
+.kb-play{position:absolute;left:10px;bottom:10px;z-index:3;display:flex;align-items:center;gap:7px;
+  background:rgba(8,18,32,.74);padding:5px 10px 5px 5px;border-radius:999px;backdrop-filter:blur(3px);
+  box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.kb-play-kreis{width:26px;height:26px;border-radius:50%;background:#fff;color:#0D2B55;display:flex;
+  align-items:center;justify-content:center;font-size:.68rem;padding-left:2px}
+.kb-play b{font-family:var(--head);font-size:.72rem;font-weight:700;color:#fff;letter-spacing:.01em}
+/* In Arbeit: zeigt an, dass eine lange Doku entsteht */
+.in-arbeit{display:flex;gap:12px;align-items:center;border:1px dashed var(--line);border-radius:14px;
+  padding:13px 15px;margin:10px 0 4px;background:var(--card)}
+.in-arbeit .ia-text{flex:1;min-width:0}
+.in-arbeit b{display:block;font-family:var(--head);font-size:.95rem}
+.in-arbeit small{display:block;color:var(--muted);font-size:.82rem;margin-top:2px;line-height:1.35}
+.ia-balken{height:6px;border-radius:3px;background:var(--line);margin-top:8px;overflow:hidden}
+.ia-balken i{display:block;height:100%;background:#1D7A4C;border-radius:3px}
 .card h3{margin:8px 0 6px}
 .hero{position:relative;margin:16px 0 8px;border-radius:14px;overflow:hidden;background:var(--bar);aspect-ratio:16/9}
 .hero img{width:100%;height:100%;object-fit:cover;display:block}
@@ -936,11 +952,19 @@ function wissenBild(w, gross){
     ${f ? `<div class="kb-zahl"><b>${esc(String(f[1]).slice(0,16))}</b><span>${esc(f[0])}</span></div>`
         : `<div class="kb-marke"><b>Wissen</b><span>${esc(w.bereich || "")}</span></div>`}</div>`;
 }
+// Abspielknopf auf der Kachel – sonst sieht niemand, dass es zu dem Stück ein Video gibt.
+function videoPlakette(dauer){
+  return `<span class="kb-play" aria-hidden="true"><span class="kb-play-kreis">▶</span>${dauer ? `<b>${esc(dauer)}</b>` : ""}</span>`;
+}
+function wissenDauer(w){
+  return w.video?.length ? dauerText(dauerSek([{ saetze:w.video, tonListe:w.ton || [] }])) : "";
+}
 function wissenKarte(w){
+  const dauer = wissenDauer(w);
   return `<a class="card wissen-karte" href="#/wissen/${esc(w.id)}">
-    ${wissenBild(w)}
+    <div class="kbild-huelle">${wissenBild(w)}${dauer ? videoPlakette(dauer) : ""}</div>
     <div class="ktext">
-      <div class="meta"><span class="rub wissen">Wissen</span><span>${esc(w.bereich || "")}</span></div>
+      <div class="meta"><span class="rub wissen">Wissen</span><span>${esc(w.bereich || "")}</span>${dauer ? `<span>▶ Video · ${esc(dauer)}</span>` : ""}</div>
       <h3>${esc(w.titel)}</h3><p>${esc(w.vorspann)}</p>
     </div></a>`;
 }
@@ -951,7 +975,7 @@ function dokuKarte(d){
     ? `<div class="kbild foto" style="--akzent:${WISSEN_FARBE}"><img src="${esc(b.url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.kbild').className='kbild tafel';this.remove()"></div>`
     : `<div class="kbild tafel" style="--akzent:${WISSEN_FARBE}"><div class="kb-gross" aria-hidden="true">Doku</div>
        <div class="kb-marke"><b>Dokumentation</b><span>${esc(d.bereich || "")}</span></div></div>`;
-  return `<a class="card doku-karte" href="#/doku/${esc(d.id)}">${bild}
+  return `<a class="card doku-karte" href="#/doku/${esc(d.id)}"><div class="kbild-huelle">${bild}${videoPlakette(dokuDauer(d))}</div>
     <div class="ktext"><div class="meta"><span class="rub doku">Dokumentation</span>
       <span>${esc(dokuDauer(d))}</span><span>${d.kapitel.length} Kapitel</span></div>
       <h3>${esc(d.titel)}</h3><p>${esc(d.untertitel || "")}</p></div></a>`;
@@ -996,6 +1020,21 @@ function wissenLeiste(){
     <div class="list">${DOKU.slice(0, 1).map(dokuKarte).join("")}${WISSEN.slice(0, 2).map(wissenKarte).join("")}</div>
     ${(WISSEN.length + DOKU.length) > 3 ? `<p class="mehr-zeile"><a href="#/wissen">Alles ansehen ›</a></p>` : ""}</section>`;
 }
+// Eine Doku wird über viele Stunden geschrieben. Bis sie fertig ist, zeigen wir hier,
+// wie weit sie ist – sonst wirkt der Bereich leer, obwohl im Hintergrund gearbeitet wird.
+function dokuInArbeitHTML(a){
+  const gesamt = (a.kapitel || []).length;
+  if (!gesamt) return "";
+  const fertig = (a.kapitel || []).filter(k => k && (k.absaetze?.length || k.fehlgeschlagen)).length;
+  const anteil = Math.round(fertig / gesamt * 100);
+  return `<div class="in-arbeit">
+    <div class="ia-text">
+      <b>In Arbeit: ${esc(a.titel)}</b>
+      <small>${esc(a.untertitel || "")}</small>
+      <small>Kapitel ${fertig} von ${gesamt} geschrieben. Die Doku erscheint hier, sobald sie komplett ist.</small>
+      <div class="ia-balken"><i style="width:${anteil}%"></i></div>
+    </div></div>`;
+}
 let WISSEN_FILTER = "";
 function bereichsListe(){
   const alle = [...DOKU, ...WISSEN].map(x => x.bereich).filter(Boolean);
@@ -1015,10 +1054,11 @@ function wissenSeite(){
       <button class="${WISSEN_FILTER ? "" : "an"}" data-b="">Alles</button>
       ${bereiche.map(b => `<button class="${WISSEN_FILTER === b ? "an" : ""}" data-b="${esc(b)}">${esc(b)}</button>`).join("")}
     </nav>` : ""}
-    ${dokus.length ? `<h2 class="abschnitt">Dokumentationen <small>· die lange Form</small></h2>
-      <div class="list">${dokus.map(dokuKarte).join("")}</div>` : ""}
+    ${dokus.length || (DOKU_ARBEIT && !WISSEN_FILTER) ? `<h2 class="abschnitt">Dokumentationen <small>· die lange Form</small></h2>
+      ${dokus.length ? `<div class="list">${dokus.map(dokuKarte).join("")}</div>` : ""}
+      ${DOKU_ARBEIT && !WISSEN_FILTER ? dokuInArbeitHTML(DOKU_ARBEIT) : ""}` : ""}
     ${stuecke.length ? `<h2 class="abschnitt">Kurz erklärt</h2><div class="list">${stuecke.map(wissenKarte).join("")}</div>` : ""}
-    ${!dokus.length && !stuecke.length ? `<div class="empty"><strong>${WISSEN_FILTER ? "In diesem Bereich ist noch nichts da." : "Noch nichts da."}</strong><br>${WISSEN_FILTER ? `<a href="#" onclick="WISSEN_FILTER='';wissenSeite();return false">Alle Bereiche zeigen</a>` : "Jeden Tag kommt ein Stück dazu, und an einer langen Doku wird im Hintergrund gearbeitet."}</div>` : ""}`;
+    ${!dokus.length && !stuecke.length && !(DOKU_ARBEIT && !WISSEN_FILTER) ? `<div class="empty"><strong>${WISSEN_FILTER ? "In diesem Bereich ist noch nichts da." : "Noch nichts da."}</strong><br>${WISSEN_FILTER ? `<a href="#" onclick="WISSEN_FILTER='';wissenSeite();return false">Alle Bereiche zeigen</a>` : "Jeden Tag kommt ein Stück dazu, und an einer langen Doku wird im Hintergrund gearbeitet."}</div>` : ""}`;
   $app.querySelectorAll(".bereich-nav button").forEach(b => b.onclick = () => { WISSEN_FILTER = b.dataset.b; wissenSeite(); window.scrollTo(0, 0); });
 }
 function wissenDetail(id){
@@ -2098,7 +2138,7 @@ const FORMATE = {
   "doku":    { name:"Dokumentation", kurz:"Doku", quer:true, rate:0.88 },
   "kurzvideo": { name:"Kurzvideos", kurz:"Kurz", quer:false, hochkant:true, rate:0.9 }
 };
-let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {}, WISSEN = [], DOKU = [];
+let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {}, WISSEN = [], DOKU = [], DOKU_ARBEIT = null;
 const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
 // Der Wochenrückblick läuft nur sonntags – sonst wiederholt er bloß, was ohnehin in der App steht.
 const WOCHE_TAGE = ["Sun"];
@@ -2925,6 +2965,7 @@ ladeJson("data/news.json").then(res => {
   datenUebernehmen(res); route(); introZeigen(false);
   ladeJson("data/woche.json").then(w => { WOCHE = w.d; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});
   ladeJson("data/doku.json").then(d => { DOKU = (d.d?.fertig || []).filter(x => x.kapitel?.length);
+    DOKU_ARBEIT = d.d?.inArbeit || null;
     if (!location.hash || location.hash === "#/" || location.hash.startsWith("#/wissen") || location.hash.startsWith("#/doku") || location.hash.startsWith("#/video/doku")) route(); }).catch(() => {});
   ladeJson("data/wissen.json").then(w => { WISSEN = w.d?.stuecke || []; if (!location.hash || location.hash === "#/" || location.hash.startsWith("#/wissen") || location.hash.startsWith("#/video/wissen")) route(); }).catch(() => {});
   ladeJson("data/ausgaben/index.json").then(a => { AUSGABEN = a.d || []; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});

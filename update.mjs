@@ -1237,7 +1237,12 @@ async function main() {
     if (altesThema && !veraltet && auswahl.every(a => alteLinks.has(a.link))) continue; // nichts Neues
     if (veraltet && auswahl.every(a => alteLinks.has(a.link))) { if (upgrades >= (CFG.maxNeuschreibenProLauf ?? 3)) continue; upgrades++; }
     if (!altesThema && neuGeschrieben >= CFG.maxNeueThemenProLauf) continue;
-    if (!kiBudgetFrei()) { console.warn(`KI-Budget für diesen Lauf aufgebraucht (${kiVerbrauch()} Anfragen) – Rest folgt beim nächsten Lauf.`); break; }
+    // Ein Teil des Kontingents bleibt für „Warum eigentlich?“ und die Doku reserviert –
+    // sonst fressen die Nachrichten jeden Lauf alles auf und die Doku kommt nie voran.
+    if (kiBudgetRest() <= (CFG.reserveFuerWissenUndDoku ?? 5)) {
+      console.warn(`KI-Budget für die Nachrichten aufgebraucht (${kiVerbrauch()} Anfragen) – der Rest ist für Wissen und Doku reserviert.`);
+      break;
+    }
 
     modellZuruecksetzen(); // für jedes Thema zuerst wieder das beste Modell versuchen
 
