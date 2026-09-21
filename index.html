@@ -504,8 +504,10 @@ html[data-schrift="klein"]{font-size:15px}
 html[data-schrift="gross"]{font-size:20px}
 body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .tableiste{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
-.tableiste a{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 2px 9px;font-family:var(--head);font-size:.7rem;color:var(--muted);text-decoration:none;min-height:56px}
-.tableiste a span{font-size:1.15rem;line-height:1.1}
+.tableiste a{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 1px 9px;
+  font-family:var(--head);font-size:clamp(.58rem,2.5vw,.7rem);letter-spacing:-.01em;color:var(--muted);text-decoration:none;
+  min-height:56px;white-space:nowrap;overflow:hidden}
+.tableiste a span{font-size:clamp(1rem,4.2vw,1.15rem);line-height:1.1}
 .tableiste a[aria-current="page"]{color:var(--link);font-weight:700}
 #player,#intro{bottom:0;z-index:100}
 .story-start{display:block;text-align:center;font-family:var(--head);font-weight:700;background:var(--surface);border-radius:12px;padding:13px;margin-bottom:18px;text-decoration:none;color:var(--ink)}
@@ -783,6 +785,7 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 <nav class="tableiste" aria-label="Hauptbereiche">
   <a href="#/" data-t="heft"><span>📰</span>Heft</a>
   <a href="#/videos" data-t="videos"><span>▶</span>Videos</a>
+  <a href="#/wissen" data-t="wissen"><span>💡</span>Wissen</a>
   <a href="#/archiv" data-t="archiv"><span>🔍</span>Suche</a>
   <a href="#/merkliste" data-t="merkliste"><span>★</span>Merkliste</a>
   <a href="#/mehr" data-t="mehr"><span>☰</span>Mehr</a>
@@ -2905,6 +2908,7 @@ function tabsMarkieren(){
   const wo = h.startsWith("#/videos") || h.startsWith("#/video/") ? "videos"
     : h.startsWith("#/archiv") ? "archiv"
     : h.startsWith("#/merkliste") ? "merkliste"
+    : h.startsWith("#/wissen") || h.startsWith("#/doku") ? "wissen"
     : h.startsWith("#/mehr") || h.startsWith("#/eil") || h.startsWith("#/medien") ? "mehr" : "heft";
   document.querySelectorAll(".tableiste a").forEach(a => a.setAttribute("aria-current", a.dataset.t === wo ? "page" : "false"));
 }
