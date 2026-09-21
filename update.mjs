@@ -156,6 +156,8 @@ const anbieterReihe = () => (CFG?.anbieterReihe || ["gemini", "openai", "anthrop
 let kiAnfragen = 0;
 export const kiVerbrauch = () => kiAnfragen;
 export const kiBudgetFrei = () => kiAnfragen < (CFG?.maxKiAnfragenProLauf || 99);
+// Wie viele Anfragen sind in diesem Lauf noch übrig?
+export const kiBudgetRest = () => Math.max(0, (CFG?.maxKiAnfragenProLauf || 99) - kiAnfragen);
 
 let letzteAnfrage = 0;
 async function ki(system, user, maxTokens = 4000) {
@@ -774,14 +776,39 @@ async function wissenErzeugen(jetzt, cfg) {
   if (heuteSchon >= proTag) return null;
 
   modellZuruecksetzen();
-  const thema = await wissenThemaFinden(stuecke.map(x => x.titel));
-  if (!thema?.wikipedia) throw new Error("kein Thema gefunden");
-  console.log(`  Wissensthema: ${thema.titel} (Quelle: ${thema.wikipedia})`);
-  const quelle = await wikipediaText(thema.wikipedia);
-  if (!quelle) throw new Error(`kein Wikipedia-Artikel zu „${thema.wikipedia}“`);
-  const stueck = wissenPruefen(await wissenSchreiben(thema, quelle), thema, quelle);
-  if (!stueck) throw new Error("Text war zu dünn");
-  if (stuecke.some(x => x.id === stueck.id)) { console.log("  Wissensstück gab es schon."); return null; }
+  // Mehrere Anläufe: klappt ein Thema nicht (kein Wikipedia-Artikel, zu wenig Text,
+  // schon vorhanden), wird einfach ein anderes genommen statt aufzugeben.
+  const versuche = Math.max(1, cfg.versuche ?? 3);
+  const schonProbiert = [];
+  let thema = null, quelle = null, stueck = null, letzterGrund = "";
+  for (let v = 1; v <= versuche; v++) {
+    // Ein Anlauf braucht zwei Anfragen (Thema + Text). Zusätzlich bleibt eine
+    // Anfrage für die Doku-Vorproduktion übrig, damit die auch vorankommt.
+    if (kiBudgetRest() < (v === 1 ? 2 : 3)) { letzterGrund = letzterGrund || "KI-Budget aufgebraucht"; break; }
+    try {
+      thema = await wissenThemaFinden([...stuecke.map(x => x.titel), ...schonProbiert]);
+      if (!thema?.wikipedia) { letzterGrund = "kein Thema gefunden"; continue; }
+      schonProbiert.push(thema.titel);
+      console.log(`  Wissensthema (Versuch ${v}/${versuche}): ${thema.titel} (Quelle: ${thema.wikipedia})`);
+
+      quelle = await wikipediaText(thema.wikipedia);
+      if (!quelle) { letzterGrund = `kein Wikipedia-Artikel zu „${thema.wikipedia}“`; console.log("  " + letzterGrund); continue; }
+      if (String(quelle.text || "").length < 1200) {
+        letzterGrund = `Wikipedia-Artikel „${quelle.titel}“ ist zu kurz`; console.log("  " + letzterGrund); continue;
+      }
+
+      const roh = wissenPruefen(await wissenSchreiben(thema, quelle), thema, quelle);
+      if (!roh) { letzterGrund = "Text war zu dünn"; console.log("  " + letzterGrund); continue; }
+      if (stuecke.some(x => x.id === roh.id)) { letzterGrund = "Wissensstück gab es schon"; console.log("  " + letzterGrund); continue; }
+
+      stueck = roh;
+      break;
+    } catch (e) {
+      letzterGrund = e.message;
+      console.log(`  Versuch ${v} fehlgeschlagen: ${e.message}`);
+    }
+  }
+  if (!stueck) throw new Error(letzterGrund || "kein Wissensstück zustande gekommen");
 
   if (cfg.bilder !== false) {
     try {
