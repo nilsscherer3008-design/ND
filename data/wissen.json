@@ -1,6 +1,139 @@
 {
- "stand": "2026-09-21T17:53:49.843Z",
+ "stand": "2026-09-21T19:22:01.266Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-3d-drucker",
+   "zeit": "2026-09-21T19:31:36.686Z",
+   "bereich": "Technik und Erfindungen",
+   "titel": "Wie funktioniert eigentlich ein 3D-Drucker?",
+   "vorspann": "Der 3D-Druck stellt dreidimensionale Gegenstände durch den schichtweisen Auftrag von Material her. Diese Technik wird heute in vielen verschiedenen Bereichen wie der Industrie und der Medizin eingesetzt.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der 3D-Druck wird auch als additive Fertigung bezeichnet. Bei diesem Verfahren werden dreidimensionale Gegenstände Schicht für Schicht aufgebaut. Frühere Bezeichnungen für diese Technologie sind generative Fertigung oder Rapid-Technologien. Der Begriff Additive Manufacturing wird ebenfalls genutzt. Die Technik unterscheidet sich stark von traditionellen Verfahren. Während bei anderen Methoden Material abgetragen wird, kommt beim 3D-Druck Material hinzu.",
+      "Die Technik kommt in zahlreichen Bereichen zum Einsatz. Dazu gehören die Industrie, der Modellbau und die Forschung. Auch im Heim- und Unterhaltungsbereich sowie im Baugewerbe wird die Technologie genutzt. Weitere Anwendungsgebiete sind die Kunst und die Medizin. Die Verfahren eignen sich besonders für die Herstellung von Unikaten, Prototypen oder komplexen Einzelteilen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Der Aufbau eines Bauteils erfolgt computergesteuert auf Basis von CAD- und CAM-Daten. Bei den meisten Verfahren werden die Schichten durch das Aufeinanderfügen von gleichartigen zweidimensionalen Ebenen erstellt. Dabei werden physikalische oder chemische Härtungs- und Schmelzprozesse genutzt. Als Werkstoffe dienen Kunststoffe, Kunstharze, Keramiken und aufbereitete Metalle in Pulverform. Inzwischen wurden zudem Carbon- und Graphitmaterialien entwickelt.",
+      "Laut dem deutschen Wikipedia-Artikel über den 3D-Druck gibt es sehr unterschiedliche Herstellungsverfahren. Dazu zählt die kunststoffbasierte Fertigung, die bereits seit den 1980er-Jahren entwickelt wird. Auch die Metallbearbeitung ist möglich, die direkt oder indirekt erfolgen kann. Bei der direkten Methode entsteht das Metallbauteil mit vollwertigen Eigenschaften sofort durch den additiven Aufbau. Bei der indirekten Methode entsteht zunächst ein Grünling, der anschliessend im Ofen gesintert wird.",
+      "Zusätzlich existieren verschiedene Kategorien von Fertigungsverfahren, wie die Materialextrusion oder das pulverbettbasierte Schmelzen. Für manche Bauteile ist nach dem Druckvorgang eine Nachbehandlung notwendig. Diese kann aus einer Beschichtung durch Galvanisierung oder einer Hybridisierung mit anderen Materialien bestehen."
+     ]
+    },
+    {
+     "ueberschrift": "Soher wir das wissen",
+     "absaetze": [
+      "Die Geschichte der Technik reicht in das zwanzigste Jahrhundert zurück. Laut dem deutschen Wikipedia-Artikel erfand Chuck Hull im Jahr 1981 die Stereolithografie. Im Jahr 1983 wurde das Verfahren erstmals praktisch umgesetzt. Das erste Konstruktionsprogramm folgte 1985, und im Jahr 1986 publizierte Hull seine erste Patentanmeldung. Das Lasersintern wurde 1987 von Carl Deckard veröffentlicht."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Laut dem Text gibt es bei der direkten Herstellung von Metallbauteilen noch Hürden, die einer großflächigen industriellen Nutzung entgegenstehen. Dazu gehören hohe Investitionen, teilweise noch unzureichende Qualität, eine niedrigere Produktionsgeschwindigkeit oder fehlendes Know-how der Unternehmen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erfindung Stereolithografie",
+     "1981"
+    ],
+    [
+     "Erste praktische Umsetzung Stereolithografie",
+     "1983"
+    ],
+    [
+     "Erstes 3D-Konstruktionsprogramm erhältlich",
+     "1985"
+    ],
+    [
+     "Erste Patentanmeldung durch Chuck Hull",
+     "1986"
+    ],
+    [
+     "Veröffentlichung Lasersintern",
+     "1987"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Additive Fertigung",
+     "Ein Fertigungsverfahren, bei dem Material Schicht für Schicht aufgetragen wird, um dreidimensionale Gegenstände zu fertigen."
+    ],
+    [
+     "CAD-Daten",
+     "Computerdaten, die für die digitale Konstruktion von Bauteilen verwendet werden."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie wird der 3D-Druck noch genannt?",
+     "optionen": [
+      "Additive Fertigung",
+      "Subtrakive Fertigung",
+      "Manuelle Fertigung"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der 3D-Druck wird auch als additive Fertigung bezeichnet."
+    }
+   ],
+   "video": [
+    "Der 3D-Druck baut Gegenstände Schicht für Schicht auf.",
+    "Diese Technik nennt man auch additive Fertigung.",
+    "Als Werkstoffe dienen Kunststoffe, Keramiken und Metalle.",
+    "Ein Computer steuert den gesamten Aufbau der Bauteile.",
+    "Schon im Jahr 1981 wurde die Stereolithografie erfunden.",
+    "Heute nutzt man die Technik in vielen Bereichen.",
+    "Dazu gehören die Industrie, die Medizin und die Forschung.",
+    "Manchmal ist nach dem Druck eine Nachbehandlung nötig."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "3D-Druck",
+    "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
+   },
+   "quelle": {
+    "titel": "3D-Druck",
+    "url": "https://de.wikipedia.org/wiki/3D-Druck",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 349,
+   "bildInfos": [
+    {
+     "titel": "3D-Druck-Filament in verschiedenen Farben.jpg",
+     "beschreibung": "1,75-mm-Filament für den FDM-3D-Druck in verschiedenen Farben",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg/1280px-3D-Druck-Filament_in_verschiedenen_Farben.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:3D-Druck-Filament_in_verschiedenen_Farben.jpg",
+     "urheber": "Suit",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Filament (3D-Druck)",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
+    }
+   ],
+   "bildInfo": {
+    "titel": "3D-Druck-Filament in verschiedenen Farben.jpg",
+    "beschreibung": "1,75-mm-Filament für den FDM-3D-Druck in verschiedenen Farben",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg/1280px-3D-Druck-Filament_in_verschiedenen_Farben.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:3D-Druck-Filament_in_verschiedenen_Farben.jpg",
+    "urheber": "Suit",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Filament (3D-Druck)",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
+   }
+  },
   {
    "id": "wie-entsteht-eine-mondfinsternis",
    "zeit": "2026-09-21T17:59:02.758Z",

@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-21T17:53:49.843Z",
+ "stand": "2026-09-21T19:22:01.266Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -16,7 +16,8 @@
    {
     "ueberschrift": "Woher das Wasser stammt",
     "wikipedia": "Entstehung der Erde",
-    "fokus": "Die Ankunft des Wassers auf der jungen Erde."
+    "fokus": "Die Ankunft des Wassers auf der jungen Erde.",
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Der ewige Kreislauf",
