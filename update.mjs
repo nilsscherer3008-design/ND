@@ -628,6 +628,28 @@ export async function ortSuchen(ort) {
 
 
 
+// Alle frei lizenzierten Bilder eines Wikipedia-Artikels holen – so viele, wie eine Doku braucht.
+const BILD_MUELL = /(commons-logo|wiki(pedia|media|quote|source|books)|logo|icon|disambig|ambox|question_?book|edit-|symbol|flag_of|wappen|coat_of_arms|\.svg$|map_of_the_world|translation)/i;
+export async function wikipediaBilder(artikelTitel, maximal = 8, sprache = "de") {
+  try {
+    const url = `https://${sprache}.wikipedia.org/w/api.php?` + new URLSearchParams({
+      action: "query", format: "json", prop: "images", titles: artikelTitel, imlimit: "40", redirects: "1"
+    });
+    const r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok) return [];
+    const seite = Object.values((await r.json()).query?.pages || {})[0];
+    const namen = (seite?.images || []).map(i => i.title)
+      .filter(t => /\.(jpg|jpeg|png|webp)$/i.test(t) && !BILD_MUELL.test(t));
+    const treffer = [];
+    for (const name of namen.slice(0, maximal * 3)) {
+      if (treffer.length >= maximal) break;
+      const d = await commonsDatei(name);
+      if (d && !treffer.some(t => t.url === d.url)) treffer.push({ ...d, art: "symbol", hinweis: "Bild aus der Wikipedia" });
+    }
+    return treffer;
+  } catch { return []; }
+}
+
 // ---------- Wissensbereich: die KI sucht sich ein Thema und schlägt es in der Wikipedia nach ----------
 // Regel wie überall in dieser App: Das Thema darf sie sich ausdenken, die Fakten nicht.
 export async function wikipediaText(titel) {
@@ -761,11 +783,18 @@ async function wissenErzeugen(jetzt, cfg) {
   if (!stueck) throw new Error("Text war zu dünn");
   if (stuecke.some(x => x.id === stueck.id)) { console.log("  Wissensstück gab es schon."); return null; }
 
-  if (stueck.bild && cfg.bilder !== false) {
+  if (cfg.bilder !== false) {
     try {
-      const b = await wikipediaBild(quelle.titel) || (await bildKandidaten(stueck.bild, 1))[0];
-      if (b) stueck.bildInfo = { ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
-        bildunterschrift: stueck.bild.bildunterschrift || b.beschreibung || "" };
+      const titel = await wikipediaBild(quelle.titel);
+      const weitere = await wikipediaBilder(quelle.titel, cfg.bilderProStueck ?? 6);
+      const alle = [titel, ...weitere].filter(Boolean)
+        .filter((b, i, a) => b.url && a.findIndex(x => x.url === b.url) === i);
+      if (alle.length) {
+        stueck.bildInfos = alle.map((b, i) => ({ ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
+          bildunterschrift: i === 0 ? (stueck.bild?.bildunterschrift || b.beschreibung || "") : (b.beschreibung || "") }));
+        stueck.bildInfo = stueck.bildInfos[0];
+        console.log(`  Bilder: ${stueck.bildInfos.length}`);
+      }
     } catch { /* ohne Bild ist auch gut */ }
   }
   const neu = [stueck, ...stuecke].slice(0, cfg.behalten ?? 40);
@@ -877,11 +906,18 @@ async function dokuArbeiten(jetzt, cfg) {
         console.warn(`  Kapitel „${k.ueberschrift}“ übersprungen: kein Artikel zu „${k.wikipedia}“`);
       } else {
         arbeit.kapitel[offen] = await dokuKapitelSchreiben(arbeit, k, quelle, offen + 1, arbeit.kapitel.length, cfg);
-        if (arbeit.kapitel[offen].bild && cfg.bilder !== false) {
+        if (cfg.bilder !== false) {
           try {
-            const b = await wikipediaBild(quelle.titel);
-            if (b) arbeit.kapitel[offen].bildInfo = { ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
-              bildunterschrift: arbeit.kapitel[offen].bild.bildunterschrift || "" };
+            const titel = await wikipediaBild(quelle.titel);
+            const weitere = await wikipediaBilder(quelle.titel, cfg.bilderProKapitel ?? 7);
+            const alle = [titel, ...weitere].filter(Boolean)
+              .filter((b, i, a) => b.url && a.findIndex(x => x.url === b.url) === i);
+            if (alle.length) {
+              arbeit.kapitel[offen].bildInfos = alle.map((b, i) => ({ ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
+                bildunterschrift: i === 0 ? (arbeit.kapitel[offen].bild?.bildunterschrift || b.beschreibung || "") : (b.beschreibung || "") }));
+              arbeit.kapitel[offen].bildInfo = arbeit.kapitel[offen].bildInfos[0];
+              console.log(`    Bilder: ${alle.length}`);
+            }
           } catch { /* ohne Bild */ }
         }
         console.log(`  Kapitel ${offen + 1}/${arbeit.kapitel.length}: ${arbeit.kapitel[offen].ueberschrift} (${arbeit.kapitel[offen].woerter} Wörter)`);
@@ -893,11 +929,17 @@ async function dokuArbeiten(jetzt, cfg) {
   // Alles geschrieben? Dann ist die Doku fertig und kommt in die App.
   const geschrieben = arbeit.kapitel.filter(k => k.absaetze?.length);
   if (geschrieben.length && !arbeit.kapitel.some(k => !k.absaetze?.length && !k.fehlgeschlagen)) {
+    const gesehen = new Set();
+    for (const k of geschrieben) {
+      k.bildInfos = (k.bildInfos || []).filter(b => b?.url && !gesehen.has(b.url) && gesehen.add(b.url));
+      k.bildInfo = k.bildInfos[0] || k.bildInfo;
+    }
     const doku = {
       id: arbeit.id, titel: arbeit.titel, untertitel: arbeit.untertitel, bereich: arbeit.bereich,
       zeit: jetzt.toISOString(), kapitel: geschrieben,
       woerter: geschrieben.reduce((a, k) => a + (k.woerter || 0), 0),
       bildInfo: geschrieben.find(k => k.bildInfo)?.bildInfo,
+      bilderGesamt: geschrieben.reduce((a, k) => a + (k.bildInfos?.length || 0), 0),
       quellen: [...new Map(geschrieben.map(k => [k.quelle.url, k.quelle])).values()]
     };
     doku.dauerMinuten = Math.round(doku.woerter / 140);

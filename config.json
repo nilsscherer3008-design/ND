@@ -281,7 +281,8 @@
   "aktiv": true,
   "proTag": 4,
   "behalten": 40,
-  "bilder": true
+  "bilder": true,
+  "bilderProStueck": 6
  },
  "anbieterReihe": [
   "gemini",
@@ -298,6 +299,7 @@
   "kapitel": 10,
   "woerterProKapitel": 650,
   "behalten": 12,
-  "bilder": true
+  "bilder": true,
+  "bilderProKapitel": 7
  }
 }
