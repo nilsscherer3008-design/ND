@@ -32,8 +32,8 @@ MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
 ZAHLWORT = {6: "sechs", 9: "neun", 12: "zwölf", 15: "fünfzehn", 18: "achtzehn", 21: "einundzwanzig"}
 
 # Tempo je Format: 1.0 = normal, größer = langsamer
-TEMPO = {"wetter": 1.02, "kurz": 1.0, "lang": 1.04, "einfach": 1.16, "unklar": 1.06, "begriff": 1.12, "tief": 1.04, "ansage": 1.0}
-PAUSE = {"wetter": 0.34, "kurz": 0.30, "lang": 0.34, "einfach": 0.46, "unklar": 0.36, "begriff": 0.42, "tief": 0.34, "ansage": 0.30}
+TEMPO = {"doku": 1.08, "wissen": 1.06, "wetter": 1.02, "kurz": 1.0, "lang": 1.04, "einfach": 1.16, "unklar": 1.06, "begriff": 1.12, "tief": 1.04, "ansage": 1.0}
+PAUSE = {"doku": 0.44, "wissen": 0.40, "wetter": 0.34, "kurz": 0.30, "lang": 0.34, "einfach": 0.46, "unklar": 0.36, "begriff": 0.42, "tief": 0.34, "ansage": 0.30}
 
 
 def log(*a):
@@ -81,6 +81,53 @@ def stimme_laden(name):
         log(f"Lade Stimme {name} …")
         download_voice(name, STIMMEN)
     return PiperVoice.load(modell)
+
+
+class Sprecher:
+    """Verwaltet die Stimmen: welche liest was, und was passiert, wenn eine fehlt."""
+
+    def __init__(self, cfg):
+        standard = {"modell": [cfg.get("stimme", "de_DE-thorsten-medium")], "name": "Thorsten"}
+        self.cfg = cfg.get("stimmen") or {"standard": standard}
+        if "standard" not in self.cfg:
+            self.cfg["standard"] = standard
+        self.zuordnung = cfg.get("zuordnung") or {"einfach": "einfach", "begriff": "einfach"}
+        self.geladen = {}
+
+    def schluessel(self, art):
+        return self.zuordnung.get(re.sub(r"\d+$", "", art or ""), "standard")
+
+    def name(self, schluessel):
+        eintrag = self.cfg.get(schluessel) or self.cfg["standard"]
+        return eintrag.get("name", "Computerstimme")
+
+    def kennung(self, schluessel):
+        eintrag = self.cfg.get(schluessel) or self.cfg["standard"]
+        modelle = eintrag.get("modell") or ["de_DE-thorsten-medium"]
+        return modelle[0] if isinstance(modelle, list) else str(modelle)
+
+    def stimme(self, schluessel):
+        if schluessel in self.geladen:
+            return self.geladen[schluessel]
+        eintrag = self.cfg.get(schluessel) or self.cfg["standard"]
+        modelle = eintrag.get("modell") or ["de_DE-thorsten-medium"]
+        if not isinstance(modelle, list):
+            modelle = [modelle]
+        for m in modelle:
+            try:
+                self.geladen[schluessel] = stimme_laden(m)
+                log(f"  Stimme bereit: {eintrag.get('name', m)} ({m})")
+                return self.geladen[schluessel]
+            except Exception as e:
+                log(f"  Stimme {m} nicht ladbar: {e}")
+        if schluessel != "standard":
+            log(f"  {eintrag.get('name', schluessel)} fällt auf die Standardstimme zurück.")
+            self.geladen[schluessel] = self.stimme("standard")
+            return self.geladen[schluessel]
+        raise RuntimeError("Keine Stimme konnte geladen werden.")
+
+    def namen(self):
+        return {k: v.get("name", "Computerstimme") for k, v in self.cfg.items()}
 
 
 def mp3_schreiben(pcm, rate, ziel):
@@ -155,7 +202,7 @@ def auftraege(daten, cfg):
     return jobs
 
 
-def ansage_saetze(jetzt_iso, cfg):
+def ansage_saetze(jetzt_iso, sprecher):
     """Feste Ansagen (Anfang und Ende der Sendungen) – jeden Tag einmal neu."""
     import datetime
     try:
@@ -170,9 +217,14 @@ def ansage_saetze(jetzt_iso, cfg):
     datum = f"{WOCHENTAGE[d.weekday()]}, {d.day}. {MONATE[d.month - 1]}"
     titel = ["Die Hauptausgabe", "Heft in hundert Sekunden", "Einfach erklärt", "Kurzmeldungen", "Der Wochenrückblick"]
     titel += [f"Die Ausgabe um {ZAHLWORT[h]} Uhr" for h in (6, 9, 12, 15, 18, 21)]
-    liste = [[f"Nachrichten-Heft. {t} vom {datum}."] for t in titel]
-    liste.append(["Alle Hintergründe und Quellen findest du im Nachrichten-Heft."])
-    liste.append(["Noch unklar."])
+    titel += ["Deutschland", "Welt", "Wirtschaft", "Wissen und Klima", "Sport", "Region"]
+    liste = []
+    for t in titel:
+        # "Einfach erklärt" liest die zweite Stimme – wie eine eigene Sendung
+        art = "begriff" if t == "Einfach erklärt" else "ansage"
+        name = sprecher.name(sprecher.schluessel(art))
+        liste.append((art, [f"Nachrichten-Heft. {t} vom {datum}.", f"Es liest die Computerstimme {name}."]))
+    liste.append(("ansage", ["Alle Hintergründe und Quellen findest du im Nachrichten-Heft."]))
     return liste
 
 
@@ -188,20 +240,20 @@ def main():
     daten = json.loads(DATEN.read_text(encoding="utf8"))
     TON.mkdir(parents=True, exist_ok=True)
 
-    stimme_name = cfg.get("stimme", "de_DE-thorsten-medium")
+    sprecher = Sprecher(cfg)
     budget = float(os.environ.get("TON_BUDGET", cfg.get("budgetSekunden", 900)))
     frist = time.time() + float(os.environ.get("TON_ZEIT", cfg.get("maxLaufzeitSekunden", 600)))
 
     vorhanden = {p.name for p in TON.glob("*.mp3")}
     gebraucht = set()
     neu = 0
-    voice = None
 
     def sichern(art, saetze, vorher):
         """Vorhandene Aufnahme wiederverwenden oder neu erzeugen."""
-        nonlocal voice, neu, budget
+        nonlocal neu, budget
         k = schluessel(saetze)
-        h = hashlib.sha1((stimme_name + "|" + art + "|" + "\n".join(saetze)).encode("utf8")).hexdigest()[:10]
+        wer = sprecher.schluessel(art)
+        h = hashlib.sha1((sprecher.kennung(wer) + "|" + art + "|" + "\n".join(saetze)).encode("utf8")).hexdigest()[:10]
         name = f"{h}.mp3"
         alt = next((e for e in (vorher or []) if e.get("d") == name), None)
         if name in vorhanden and alt:
@@ -211,9 +263,8 @@ def main():
         schaetzung = woerter / 2.6 + len(saetze) * 0.4
         if budget <= 0 or time.time() > frist:
             return None
-        if voice is None:
-            voice = stimme_laden(stimme_name)
         try:
+            voice = sprecher.stimme(wer)
             zeiten, dauer = aufnehmen(voice, saetze, re.sub(r"\d+$", "", art), TON / name)
         except Exception as e:
             log(f"  ✗ {art}: {e}")
@@ -227,8 +278,8 @@ def main():
     # 1. Ansagen
     alteAnsagen = ((daten.get("ton") or {}).get("ansagen")) or []
     ansagen = []
-    for s in ansage_saetze(daten.get("stand"), cfg):
-        e = sichern("ansage", s, alteAnsagen)
+    for art, saetze in ansage_saetze(daten.get("stand"), sprecher):
+        e = sichern(art, saetze, alteAnsagen)
         if e:
             ansagen.append(e)
 
@@ -247,6 +298,41 @@ def main():
         if e:
             w["ton"] = e
 
+    # 2c. Wissensstücke (eigene Datei)
+    wissen_datei = ROOT / "data" / "wissen.json"
+    wissen = None
+    if wissen_datei.exists():
+        try:
+            wissen = json.loads(wissen_datei.read_text(encoding="utf8"))
+            for st in (wissen.get("stuecke") or [])[:6]:
+                saetze = [str(x) for x in (st.get("video") or []) if str(x).strip()]
+                if not saetze:
+                    continue
+                e = sichern("wissen", saetze, st.get("ton") or [])
+                if e:
+                    st["ton"] = [e]
+        except Exception as ex:
+            log("Wissensstücke nicht vertont: " + str(ex))
+            wissen = None
+
+    # 2d. Lange Dokus – kapitelweise, so weit das Budget dieses Laufs reicht
+    doku_datei = ROOT / "data" / "doku.json"
+    doku = None
+    if doku_datei.exists():
+        try:
+            doku = json.loads(doku_datei.read_text(encoding="utf8"))
+            for d in (doku.get("fertig") or [])[:3]:
+                for kap in d.get("kapitel") or []:
+                    saetze = [x for ab in kap.get("absaetze", []) for x in saetze_aus(ab)]
+                    if not saetze:
+                        continue
+                    e = sichern("doku", saetze, kap.get("ton") or [])
+                    if e:
+                        kap["ton"] = [e]
+        except Exception as ex:
+            log("Doku nicht vertont: " + str(ex))
+            doku = None
+
     # 3. Aufräumen: nur behalten, was noch gebraucht wird
     behalten = set(gebraucht)
     for n in daten.get("nachrichten", []):
@@ -255,6 +341,20 @@ def main():
             n.pop("ton", None)
     if daten.get("wetter", {}).get("ton", {}).get("d") not in behalten:
         daten.get("wetter", {}).pop("ton", None)
+    if wissen:
+        for st in wissen.get("stuecke") or []:
+            st["ton"] = [e for e in (st.get("ton") or []) if e.get("d") in behalten]
+            if not st["ton"]:
+                st.pop("ton", None)
+        wissen_datei.write_text(json.dumps(wissen, ensure_ascii=False, indent=1), encoding="utf8")
+    if doku:
+        for d in doku.get("fertig") or []:
+            for kap in d.get("kapitel") or []:
+                kap["ton"] = [e for e in (kap.get("ton") or []) if e.get("d") in behalten]
+                if not kap["ton"]:
+                    kap.pop("ton", None)
+            d["vertont"] = all(k.get("ton") for k in (d.get("kapitel") or []))
+        doku_datei.write_text(json.dumps(doku, ensure_ascii=False, indent=1), encoding="utf8")
     weg = 0
     for p in TON.glob("*.mp3"):
         if p.name not in behalten:
@@ -264,7 +364,8 @@ def main():
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     daten["ton"] = {
         "basis": f"https://raw.githubusercontent.com/{repo}/ton/" if repo else "ton/",
-        "stimme": "Thorsten (Piper, offene Stimme)",
+        "stimmen": sprecher.namen(),
+        "zuordnung": sprecher.zuordnung,
         "ansagen": ansagen
     }
     DATEN.write_text(json.dumps(daten, ensure_ascii=False, indent=1), encoding="utf8")

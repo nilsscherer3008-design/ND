@@ -9,7 +9,7 @@
   "anthropic": "claude-sonnet-5"
  },
  "pauseZwischenKiAnfragenSekunden": 12,
- "maxNeueThemenProLauf": 5,
+ "maxNeueThemenProLauf": 4,
  "maxArtikelProThema": 5,
  "nachrichtenBehaltenStunden": 72,
  "maxNachrichten": 100,
@@ -247,15 +247,57 @@
  "maxNeuschreibenProLauf": 2,
  "ton": {
   "aktiv": true,
-  "stimme": "de_DE-thorsten-medium",
+  "stimmen": {
+   "standard": {
+    "modell": [
+     "de_DE-thorsten-medium"
+    ],
+    "name": "Thorsten"
+   },
+   "einfach": {
+    "modell": [
+     "de_DE-kerstin-low",
+     "de_DE-eva_k-x_low",
+     "de_DE-thorsten-medium"
+    ],
+    "name": "Kerstin"
+   }
+  },
+  "zuordnung": {
+   "einfach": "einfach",
+   "begriff": "einfach"
+  },
   "formate": [
    "lang",
    "kurz",
    "einfach"
   ],
   "tief": true,
-  "budgetSekunden": 900,
-  "maxLaufzeitSekunden": 600
+  "budgetSekunden": 1500,
+  "maxLaufzeitSekunden": 660
  },
- "wetter": true
+ "wetter": true,
+ "wissen": {
+  "aktiv": true,
+  "proTag": 4,
+  "behalten": 40,
+  "bilder": true
+ },
+ "anbieterReihe": [
+  "gemini",
+  "openai",
+  "anthropic"
+ ],
+ "zweitdienst": {
+  "basis": "https://api.groq.com/openai/v1",
+  "modell": "llama-3.3-70b-versatile"
+ },
+ "maxKiAnfragenProLauf": 16,
+ "doku": {
+  "aktiv": true,
+  "kapitel": 10,
+  "woerterProKapitel": 650,
+  "behalten": 12,
+  "bilder": true
+ }
 }
