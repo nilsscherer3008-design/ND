@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-20T19:25:21.333Z",
+ "stand": "2026-09-21T06:16:03.674Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -15,7 +15,9 @@
   "huthi-angriffe-saudi-arabien",
   "guterres-nachfolge-bachelet",
   "us-medienbann-weisses-haus",
-  "porsche-stellenabbau"
+  "porsche-stellenabbau",
+  "scheuer-maut-prozess-gericht",
+  "rad-wm-zeitfahren-montreal"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -35,11 +37,13 @@
   "huthi-angriffe-saudi-arabien",
   "guterres-nachfolge-bachelet",
   "us-medienbann-weisses-haus",
-  "porsche-stellenabbau"
+  "porsche-stellenabbau",
+  "scheuer-maut-prozess-gericht",
+  "rad-wm-zeitfahren-montreal"
  ],
  "wetter": {
-  "stand": "2026-09-20T19:25:21.333Z",
-  "morgenTag": "Montag",
+  "stand": "2026-09-21T06:16:03.674Z",
+  "morgenTag": "Dienstag",
   "orte": [
    {
     "name": "Hamburg",
@@ -48,13 +52,13 @@
     "teil": "Norden",
     "heute": {
      "code": 80,
-     "max": 19,
-     "min": 13
-    },
-    "morgen": {
-     "code": 80,
      "max": 17,
      "min": 12
+    },
+    "morgen": {
+     "code": 2,
+     "max": 17,
+     "min": 9
     }
    },
    {
@@ -63,14 +67,14 @@
     "lon": 13.4,
     "teil": "Osten",
     "heute": {
-     "code": 95,
-     "max": 21,
-     "min": 14
-    },
-    "morgen": {
      "code": 80,
      "max": 18,
      "min": 13
+    },
+    "morgen": {
+     "code": 3,
+     "max": 19,
+     "min": 9
     }
    },
    {
@@ -79,14 +83,14 @@
     "lon": 12.37,
     "teil": "Osten",
     "heute": {
-     "code": 80,
-     "max": 19,
-     "min": 14
-    },
-    "morgen": {
      "code": 3,
      "max": 18,
      "min": 11
+    },
+    "morgen": {
+     "code": 2,
+     "max": 17,
+     "min": 9
     }
    },
    {
@@ -95,13 +99,13 @@
     "lon": 6.96,
     "teil": "Westen",
     "heute": {
-     "code": 63,
-     "max": 20,
-     "min": 14
+     "code": 3,
+     "max": 19,
+     "min": 12
     },
     "morgen": {
      "code": 3,
-     "max": 19,
+     "max": 20,
      "min": 13
     }
    },
@@ -111,13 +115,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "heute": {
-     "code": 61,
-     "max": 21,
-     "min": 13
+     "code": 3,
+     "max": 19,
+     "min": 10
     },
     "morgen": {
-     "code": 3,
-     "max": 20,
+     "code": 2,
+     "max": 19,
      "min": 10
     }
    },
@@ -127,14 +131,14 @@
     "lon": 9.18,
     "teil": "Süden",
     "heute": {
-     "code": 61,
-     "max": 26,
-     "min": 14
-    },
-    "morgen": {
      "code": 3,
      "max": 19,
-     "min": 11
+     "min": 12
+    },
+    "morgen": {
+     "code": 1,
+     "max": 19,
+     "min": 10
     }
    },
    {
@@ -143,22 +147,22 @@
     "lon": 11.58,
     "teil": "Süden",
     "heute": {
-     "code": 61,
-     "max": 24,
-     "min": 13
+     "code": 3,
+     "max": 17,
+     "min": 12
     },
     "morgen": {
      "code": 3,
-     "max": 18,
-     "min": 12
+     "max": 16,
+     "min": 9
     }
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 19 und 26 Grad.",
-   "Die Vorhersage für morgen, Montag: im Norden und Osten Regenschauer, im Süden und Westen bewölkt.",
-   "Die Temperaturen erreichen dann 17 bis 20 Grad.",
-   "Am wärmsten wird es in Frankfurt mit 20 Grad.",
+   "Heute liegen die Höchstwerte zwischen 17 und 19 Grad.",
+   "Die Vorhersage für morgen, Dienstag: im Norden und Osten teils bewölkt, im Süden und Westen bewölkt.",
+   "Die Temperaturen erreichen dann 16 bis 20 Grad.",
+   "Am wärmsten wird es in Köln mit 20 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "quelle": "Open-Meteo / Deutscher Wetterdienst"
@@ -168,89 +172,89 @@
   "stimme": "Thorsten (Piper, offene Stimme)",
   "ansagen": [
    {
-    "k": "Nachrichten-Heft. Die Hauptausgabe vom Sonntag, 20. September.",
-    "d": "18a903477e.mp3",
-    "l": 4.91,
+    "k": "Nachrichten-Heft. Die Hauptausgabe vom Montag, 21. September.",
+    "d": "48ddcf66b2.mp3",
+    "l": 5.48,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Sonntag, 20. September.",
-    "d": "0b9d000527.mp3",
-    "l": 5.57,
+    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Montag, 21. September.",
+    "d": "1182b4e471.mp3",
+    "l": 5.63,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Einfach erklärt vom Sonntag, 20. September.",
-    "d": "9b7ef33f1f.mp3",
-    "l": 4.88,
+    "k": "Nachrichten-Heft. Einfach erklärt vom Montag, 21. September.",
+    "d": "4cd7c63002.mp3",
+    "l": 5.29,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Kurzmeldungen vom Sonntag, 20. September.",
-    "d": "2bc795a80d.mp3",
-    "l": 5.1,
+    "k": "Nachrichten-Heft. Kurzmeldungen vom Montag, 21. September.",
+    "d": "ce9bc90ed4.mp3",
+    "l": 5.34,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Der Wochenrückblick vom Sonntag, 20. September.",
-    "d": "0326ec28f5.mp3",
-    "l": 5.07,
+    "k": "Nachrichten-Heft. Der Wochenrückblick vom Montag, 21. September.",
+    "d": "3e4f8b05fc.mp3",
+    "l": 5.3,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Sonntag, 20. September.",
-    "d": "ca866791bd.mp3",
+    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Montag, 21. September.",
+    "d": "80302f3c8f.mp3",
+    "l": 5.82,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Montag, 21. September.",
+    "d": "7114b910f4.mp3",
+    "l": 5.82,
+    "s": [
+     0.25
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Montag, 21. September.",
+    "d": "9eeafc1ff1.mp3",
     "l": 5.75,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Sonntag, 20. September.",
-    "d": "c08fc07938.mp3",
-    "l": 5.46,
+    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Montag, 21. September.",
+    "d": "7723b8be54.mp3",
+    "l": 6.38,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Sonntag, 20. September.",
-    "d": "689c99aa16.mp3",
-    "l": 5.76,
+    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Montag, 21. September.",
+    "d": "455e0d87f3.mp3",
+    "l": 6.04,
     "s": [
      0.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Sonntag, 20. September.",
-    "d": "f755cfab9d.mp3",
-    "l": 5.61,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Sonntag, 20. September.",
-    "d": "785a9ce3bf.mp3",
-    "l": 5.99,
-    "s": [
-     0.25
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Sonntag, 20. September.",
-    "d": "634f36c2cf.mp3",
-    "l": 6.35,
+    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Montag, 21. September.",
+    "d": "6a0810d313.mp3",
+    "l": 6.29,
     "s": [
      0.25
     ]
@@ -275,72 +279,78 @@
  },
  "nachrichten": [
   {
-   "id": "wahlen-berlin-mecklenburg-vorpommern",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-20T19:22:55.000Z",
-   "aktualisiert": "aktualisiert um 21:25 Uhr",
-   "titel": "Landtagswahl in Mecklenburg-Vorpommern und Abgeordnetenhauswahl in Berlin",
-   "vorspann": "In Mecklenburg-Vorpommern und Berlin haben Wahlen zu den Landesparlamenten stattgefunden. Laut aktuellen Berichten und Hochrechnungen gibt es in beiden Bundesländern Veränderungen bei den Stimmanteilen der Parteien.",
+   "id": "duma-wahl-russland-drohnenangriffe",
+   "rubrik": "Welt",
+   "zeit": "2026-09-21T05:55:06.000Z",
+   "aktualisiert": "aktualisiert um 08:16 Uhr",
+   "titel": "Parlamentarische Wahlen in Russland",
+   "vorspann": "In Russland hat die dreitägige Parlamentswahl stattgefunden, bei der die Kremlpartei Geeintes Russland ersten Hochrechnungen zufolge vorne liegt. Die Abstimmung wurde von Vorwürfen über Unregelmäßigkeiten und schweren Drohnenangriffen begleitet.",
    "eil": false,
    "zusammenfassung": [
-    "In Mecklenburg-Vorpommern und Berlin fanden Landtags- und Abgeordnetenhauswahlen statt.",
-    "In Berlin ist die Linke laut Berichten von Deutschlandfunk und Spiegel stärkste Kraft geworden.",
-    "In Mecklenburg-Vorpommern liegt die AfD laut Hochrechnungen vor der SPD.",
-    "CDU und BSW müssen laut aktuellen Zahlen in Mecklenburg-Vorpommern um den Einzug in das Parlament bangen."
+    "In Russland ging die dreitägige Parlamentswahl zu Ende, bei der die Kremlpartei Geeintes Russland ersten Hochrechnungen zufolge vorne liegt.",
+    "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten und Angriffe begleitet.",
+    "Die Wahlkommission kündigte die Bekanntgabe der endgültigen Ergebnisse für den 25. September an.",
+    "Die im Parlament vertretenen Kräfte unterstützen sämtlich den Kurs der Regierung in der Ukraine."
    ],
    "einig": [
     [
-     "Die AfD liegt bei der Landtagswahl in Mecklenburg-Vorpommern nach Hochrechnungen vorn.",
+     "Die Kremlpartei Geeintes Russland liegt bei der Parlamentswahl in ersten Hochrechnungen deutlich vorn.",
      [
       "Tagesschau/ARD",
-      "Zeit",
-      "Süddeutsche Zeitung"
+      "ZDFheute"
      ]
     ],
     [
-     "Die Linke ist bei der Wahl in Berlin laut Medienberichten stärkste Kraft geworden.",
+     "Zehn Parteien standen zur Wahl und alle zugelassenen Parteien gelten als kremlnah.",
      [
-      "Deutschlandfunk",
-      "Spiegel"
+      "Tagesschau/ARD",
+      "ZDFheute"
      ]
     ]
    ],
    "unklar": [
-    "Ob CDU und BSW die Fünf-Prozent-Hürde in Mecklenburg-Vorpommern übertreffen, da Hochrechnungen nahe an dieser Marke liegen und Briefwahlstimmen laut Tagesschau/ARD noch nicht vollständig eingerechnet sind."
+    "Ob Geeintes Russland ihre bisherige Zweidrittelmehrheit im Parlament behalten kann (laut Tagesschau/ARD noch nicht feststehend).",
+    "Wer hinter den gemeldeten Cyberangriffen auf das elektronische Wahlsystem steckt (laut Tagesschau/ARD und ZDFheute von Wahlleiterin Pamfilowa nicht genannt)."
    ],
    "positionen": [
     [
-     "Tim Klüssendorf (SPD-Generalsekretär)",
-     "Das Ergebnis der AfD sei erschreckend und die Bundespolitik müsse Lehren aus den Wahlergebnissen ziehen.",
-     "Tagesschau/ARD"
+     "Wladimir Putin (Russischer Präsident)",
+     "Die Teilnahme an den Wahlen ist ein gemeinsamer Beitrag zum Sieg Russlands in der Vollinvasion.",
+     "Tagesschau/ARD, NZZ"
     ],
     [
-     "Gordon Schnieder (CDU, rheinland-pfälzischer Ministerpräsident)",
-     "Die Wahlergebnisse seien schmerzhaft und extremistischer Kräfte treiben die Gesellschaft auseinander.",
-     "Tagesschau/ARD"
+     "Ella Pamfilowa (Leiterin der Zentralen Wahlkommission)",
+     "Das elektronische Wahlsystem war Ziel von massiven Cyberangriffen und Überlastungsversuchen.",
+     "Tagesschau/ARD, ZDFheute"
     ],
     [
-     "Alexander Schweitzer (SPD-Bundesvize)",
-     "Das starke Abschneiden der AfD sei verheerend und müsse demokratische Parteien aufrütteln.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Alice Weidel (AfD-Vorsitzende)",
-     "Das Wahlergebnis sei ein sehr starkes Wählermandat und ein klarer Regierungsauftrag.",
-     "Tagesschau/ARD"
+     "Sergei Sobjanin (Bürgermeister von Moskau)",
+     "Die Drohnenangriffe auf Moskau waren ein Versuch, die Wahlen zu stören, der jedoch scheiterte.",
+     "NZZ"
     ]
    ],
-   "fehlend": "Genaue und endgültige Prozentzahlen nach vollständiger Auszählung aller Stimmen liegen noch nicht vor.",
+   "fehlend": "Stimmen aus der regierenden ukrainischen Staatsführung zur Wahl selbst (außer der Erwähnung des ukrainischen Präsidenten zu Marschflugkörpern).",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "20.09.26, 21:22",
-     "fokus": "Hochrechnungen und Reaktionen",
-     "text": "Liefert umfangreiche Daten zu den Hochrechnungen und Zitate von Politikern.",
-     "url": "https://www.tagesschau.de/newsticker/liveblog-landtagswahl-mecklenburg-vorpommern-100.html",
+     "datum": "20.09.26, 22:03",
+     "fokus": "Ablauf und Unregelmäßigkeiten",
+     "text": "Berichtet detailliert über Wahlbeobachtung, Vorwürfe der Manipulation und den Einsatz elektronischer Terminals.",
+     "url": "https://www.tagesschau.de/ausland/europa/wahlen-russland-148.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 05:54",
+     "fokus": "Prognosen und Zwischenstände",
+     "text": "Liefert konkrete Zahlen aus ersten Auswertungen sowie Einschätzungen.",
+     "url": "https://www.zdfheute.de/politik/ausland/parlamentswahl-putin-wahl-staatsduma-geeintes-russland-100.html",
      "video": false
     },
     {
@@ -348,21 +358,999 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "20.09.26, 21:15",
-     "fokus": "Berlin-Wahl",
-     "text": "Berichtet über den Wahlausgang in Berlin.",
-     "url": "https://www.deutschlandfunk.de/abgeordnetenhauswahl-in-berlin-linke-deutlich-vor-der-cdu-100.html",
+     "datum": "21.09.26, 07:55",
+     "fokus": "–",
+     "text": "In Russland ist die Partei von Präsident Putin erwartungsgemäß zur Siegerin der Parlamentswahl erklärt worden.",
+     "url": "https://www.deutschlandfunk.de/kremlpartei-geeintes-russland-zur-wahlsiegerin-erklaert-100.html",
      "video": false
     },
     {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
+     "name": "FAZ",
+     "typ": "Tageszeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "20.09.26, 20:27",
-     "fokus": "Berlin-Wahl",
-     "text": "Berichtet über den Wahlsieg der Linken in Berlin.",
-     "url": "https://www.spiegel.de/politik/deutschland/berlin-wahl-linke-ueberholt-cdu-und-sorgt-fuer-politische-sensation-a-ffe054c8-7072-4686-97fb-f54c4a3d7ba0#ref=rss",
+     "datum": "21.09.26, 03:08",
+     "fokus": "–",
+     "text": "Alle Texte, Hintergründe und Kommentare zum Krieg in der Ukraine finden Sie auch auf unserer Sonderseite.",
+     "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-russlands-kremlpartei-zur-wahlsiegerin-erklaert-faz-110683325.html",
+     "video": false
+    },
+    {
+     "name": "NZZ",
+     "typ": "Tageszeitung (Schweiz)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "21.09.26, 07:54",
+     "fokus": "Internationaler Kontext und Kriegsgeschehen",
+     "text": "Verknüpft die Wahl mit dem Drohnenangriff auf Moskau.",
+     "url": "https://www.nzz.ch/international/pannen-protestaktionen-und-ein-ukrainischer-grossangriff-duma-wahlen-im-schatten-des-krieges-ld.10024624",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Schwerpunkt",
+     "Während Tagesschau und ZDFheute stark auf innenpolitische Unregelmäßigkeiten und das Wahlsystem eingehen, legt die NZZ einen größeren Fokus auf das Kriegsgeschehen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Die russische Partei Geeintes Russland und das Parlament.",
+    "was": "Wahl der neuen Staatsduma und parallele Regionalwahlen.",
+    "wann": "2026-09-20",
+    "wo": "Russland und besetzte ukrainische Gebiete",
+    "wie": "Durch dreitägige Stimmabgabe an Wahllokalen sowie über ein elektronisches Wahlsystem.",
+    "warum": "Laut Kreml zur Bestätigung des politischen Kurses, laut Beobachtern reguläre Turnuswahl.",
+    "quellenlage": "Berichte von Tagesschau/ARD, ZDFheute, Deutschlandfunk, FAZ und NZZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In Russland ist die erste Parlamentswahl seit Beginn des Krieges gegen die Ukraine zu Ende gegangen. Laut ersten Hochrechnungen und Teilergebnissen hat die seit mehr als zwanzig Jahren regierende Partei Geeintes Russland den Sieg errungen. Die Partei kommt nach vorläufigen Angaben auf rund 57,5 bis 57,9 Prozent der Stimmen.",
+      "Die Abstimmung dauerte insgesamt drei Tage und wurde nach Angaben von Wahlleiterin Ella Pamfilowa frühestens für den 25. September mit finalen Ergebnissen angekündigt. Neben den nationalen Parlamentswahlen fanden in mehreren russischen Provinzen auch Regionalwahlen statt. Die Wahlkommission meldete eine Beteiligung von mehr als 56 Prozent der Wahlberechtigten.",
+      "Die Abstimmung in Russland wurde von verschiedenen Störungen und Zwischenfällen begleitet. So kam es am letzten Tag der Wahl in Moskau nach Angaben der Behörden zu Problemen mit dem elektronischen Wahlsystem. Die Zentralwahlkommission sprach von Cyberangriffen, während unabhängige Medien und Beobachter von Schwierigkeiten berichtigten."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Nach den vorläufigen Auswertungen erreichen die Kommunisten als zweitstärkste Kraft rund 13,6 bis 13,8 Prozent der Stimmen. Die rechtspopulistische Partei LDPR kommt laut den Angaben auf etwa 8,8 bis 9,2 Prozent der Stimmen. Die Partei Neue Menschen erzielt rund 7,9 bis 8 Prozent, während die Partei Gerechtes Russland um die Fünf-Prozent-Hürde liegt.",
+      "Über die Wählerstärke der Parteien wird lediglich die Hälfte der 450 Sitze im Parlament vergeben, während die anderen 225 Mandate über Direktmandate besetzt werden. Laut der Schweizer Zeitung NZZ liegt Geeintes Russland in einer Vielzahl dieser Wahlkreise ebenfalls vorn. Die Nowaja Gaseta berichtete laut ZDFheute von einer Schätzung von 309 Sitzen für die Kremlpartei durch Direktmandate.",
+      "Die Stimmabgabe fand erstmals auch in den von Russland besetzten Teilen der ukrainischen Regionen Luhansk, Donezk, Saporischschja und Cherson sowie auf der Krim statt. Laut ZDFheute waren mehr als 110 Millionen Bürger zur Wahl von 450 Abgeordneten aufgerufen. Berichte von unabhängigen Beobachtern zählten Dutzende Unregelmäßigkeiten und das Einwerfen vorausgefüllter Wahlzettel."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Staatsduma ist das Abgeordnetenhaus und bildet zusammen mit dem Föderationsrat das Parlament der Russischen Föderation. Die aktuelle Abstimmung war die erste Parlamentswahl seit der im Februar 2022 begonnenen Vollinvasion in der Ukraine. Die Parteien, die an der Wahl teilnehmen durften, gelten laut übereinstimmenden Berichten als kremlnah.",
+      "Die regierende Partei Geeintes Russland war nach Darstellung der Medien mit einem schwierigen Wahlkampf konfrontiert. Als Gründe nennen die Berichte eine massive Wirtschaftskrise, hohe Inflation, Benzinmangel sowie allgemeine Kriegsmüdigkeit in der Bevölkerung. Kritische Oppositionskräfte wurden von der Wahl ausgeschlossen.",
+      "Die Partei Jabloko, deren Zustimmungswerte zuvor gestiegen waren, wurde von der Wahl ausgeschlossen. Deren Parteichef Nikolai Rybakow rief dazu auf, Stimmzettel ungültig zu machen. Der Kreml hatte das Ziel ausgegeben, durch eine möglichst hohe Wahlbeteiligung die Einigkeit des Landes zu demonstrieren."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Staatsduma hat die Aufgabe, Gesetze zu beraten und zu verfassen sowie den Staatshaushalt zu beschließen. Sie besteht aus 450 Abgeordneten, die für eine Legislaturperiode gewählt werden. Ein Teil der Sitze wird über Parteilisten vergeben, der andere Teil über direkte Wahlkreise.",
+      "Wahlen in der Russischen Föderation unterliegen nach internationaler Einschätzung Einschränkungen bezüglich der politischen Freiheit und Fairness. So waren Beobachter der Organisation für Sicherheit und Zusammenarbeit in Europa (OSZE) für diesen Urnengang nicht zugelassen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der russische Präsident Wladimir Putin forderte die Menschen laut Tagesschau und NZZ zuvor auf, mit ihrer Stimme einen Beitrag zum Sieg im Krieg zu leisten. Die Leiterin der Zentralen Wahlkommission, Ella Pamfilowa, erklärte laut ZDFheute und Tagesschau, das elektronische Wahlsystem sei Ziel von Angriffen gewesen.",
+      "Moskaus Bürgermeister Sergei Sobjanin sprach laut NZZ am Sonntagmorgen von einem großen Angriff auf seine Stadt durch ukrainische Drohnen. Dies sei ein Versuch gewesen, die Wahlen zu stören, der jedoch gescheitert sei.",
+      "Leonid Wolkow, ein Vertrauter des inhaftierten Oppositionellen Alexej Nawalny, äußerte laut Tagesschau den Verdacht, dass Probleme bei Papierstimmzetteln absichtlich herbeigeführt worden sein könnten, um Bürger zum E-Voting zu drängen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die endgültigen Wahlergebnisse werden nach Angaben von Wahlleiterin Ella Pamfilowa frühestens am 25. September bekanntgegeben. Danach wird sich zeigen, ob Geeintes Russland seine bisherige Zweidrittelmehrheit in der Staatsduma behalten kann.",
+      "Internationale Beobachter und Regierungen in anderen Staaten bereiten sich laut NZZ auf mögliche weitere Schritte vor."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Freitag",
+     "Angriff auf ein Munitionslager im Gebiet Kiew."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland und Drohnenangriffe."
+    ],
+    [
+     "Freitag",
+     "Russischer Angriff auf ein Munitionslager im Gebiet Kiew."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland und ukrainische Drohnenangriffe auf die Region Moskau und Jaroslawl."
+    ],
+    [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl in Russland."
+    ],
+    [
+     "Freitag",
+     "Beginn der dreitägigen Parlamentswahl in Russland."
+    ],
+    [
+     "Sonntag",
+     "Drohnenangriff auf Moskau und Ende der Wahl."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "gebaeude",
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": ""
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Vladimir Putin official portrait",
+     "bildunterschrift": ""
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Moscow cityscape aerial",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Moskau, Russland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Titel korrigiert, um Tippfehler in 'Forschritt' zu entfernen.",
+    "Nicht belegtes Zitat aus dem Artikel entfernt."
+   ],
+   "wortwarnung": [
+    "massive"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Staatsduma",
+      "Die Staatsduma ist das Abgeordnetenhaus in Russland und ein Teil des Parlaments."
+     ],
+     [
+      "Hochrechnung",
+      "Eine Hochrechnung ist eine Vorhersage des Wahlergebnisses vor der vollständigen Auszählung aller Stimmen."
+     ],
+     [
+      "Wahlbeobachter",
+      "Wahlbeobachter sind unabhängige Personen, die den Ablauf einer Wahl kontrollieren."
+     ]
+    ],
+    "fragen": [
+     "Welche Schwierigkeiten wurden bei der Parlamentswahl in Russland gemeldet?",
+     "Welche Rolle spielen die zugelassenen Parteien laut den Berichten in Bezug auf den Kurs der Regierung?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Partei liegt nach ersten Hochrechnungen bei der Wahl vorn?",
+      "optionen": [
+       "Geeintes Russland",
+       "Die Kommunisten",
+       "Jabloko"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau und ZDFheute liegt die Kremlpartei Geeintes Russland in ersten Hochrechnungen deutlich vorn."
+     },
+     {
+      "frage": "Wann sollen die endgültigen Ergebnisse der Wahl bekanntgegeben werden?",
+      "optionen": [
+       "Am 25. September",
+       "Am 1. Oktober",
+       "Am 20. Oktober"
+      ],
+      "richtig": 0,
+      "erklaerung": "Nach Angaben von Wahlleiterin Ella Pamfilowa werden die endgültigen Ergebnisse frühestens am 25. September bekanntgegeben."
+     },
+     {
+      "frage": "Wie viele Sitze hat die Staatsduma insgesamt?",
+      "optionen": [
+       "309 Sitze",
+       "450 Sitze",
+       "500 Sitze"
+      ],
+      "richtig": 1,
+      "erklaerung": "In den Berichten wird erwähnt, dass die Staatsduma aus 450 Abgeordneten besteht."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Russland hat eine wichtige Wahl stattgefunden.",
+    "absaetze": [
+     "Die Menschen haben drei Tage lang ein neues Parlament gewählt. Das Parlament bestimmt in Russland mit über Gesetze. Die Partei von Präsident Wladimir Putin hat nach ersten Rechnungen klar gewonnen. Kritiker und Beobachter berichten jedoch von vielen Fehlern und Schummeleien bei der Wahl. Zudem gab es schwere Angriffe mit Drohnen in der Hauptstadt Moskau.",
+     "Die endgültigen Ergebnisse sollen am 25. September bekannt gegeben werden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Russland ist die dreitägige Parlamentswahl zu Ende gegangen.",
+     "Ersten Hochrechnungen zufolge gewinnt die Kremlpartei Geeintes Russland klar.",
+     "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten begleitet."
+    ],
+    "lang": [
+     "In Russland hat die dreitägige Parlamentswahl geendet.",
+     "Nach ersten Hochrechnungen liegt die Kremlpartei Geeintes Russland deutlich vorn.",
+     "Die Partei von Präsident Wladimir Putin erreicht rund 57 Prozent der Stimmen.",
+     "Das gaben Medien wie die Tagesschau und das ZDF unter Berufung auf die Wahlleitung bekannt.",
+     "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten und gefüllte Wahlurnen begleitet.",
+     "Zudem meldeten die Behörden schwere Drohnenangriffe auf die Hauptstadt Moskau.",
+     "Die Wahlkommission erklärte, die endgültigen Ergebnisse folgen am fünfundzwanzigsten September.",
+     "Kritiker werfen den Behörden vor, dass die Wahl nicht frei und fair war.",
+     "Die im Parlament vertretenen Parteien unterstützen den Kurs der Regierung in der Ukraine.",
+     "Ob die Regierungspartei ihre Zweidrittelmehrheit behält, ist nach Angaben der Tagesschau noch offen."
+    ],
+    "einfach": [
+     "In Russland gab es eine wichtige Wahl.",
+     "Die Partei von Präsident Wladimir Putin hat gewonnen.",
+     "Das zeigen erste Zahlen von der Wahlleitung.",
+     "Es gab aber auch Berichte über Schwindel bei der Wahl.",
+     "Endgültige Ergebnisse nennt die Wahlleitung am fünfundzwanzigsten September."
+    ]
+   },
+   "kurz": [
+    "In Russland ging die dreitägige Parlamentswahl zu Ende.",
+    "Die Kremlpartei Geeintes Russland liegt laut Hochrechnungen vorn.",
+    "Die Abstimmung wurde von Unregelmäßigkeiten und Drohnenangriffen begleitet.",
+    "Endgültige Ergebnisse werden für den 25. September erwartet."
+   ],
+   "fakten": [
+    [
+     "Stimmen für Geeintes Russland",
+     "57,5 bis 57,9 Prozent"
+    ],
+    [
+     "Sitze in der Staatsduma",
+     "450"
+    ],
+    [
+     "Wahlbeteiligung",
+     "mehr als 56 Prozent"
+    ],
+    [
+     "Datum der endgültigen Ergebnisse",
+     "25. September"
+    ]
+   ],
+   "dossier": {
+    "slug": "parlamentswahl-russland-2026",
+    "titel": "Parlamentswahl in Russland"
+   },
+   "bildInfo": {
+    "titel": "Vladimir Putin - 2012.jpg",
+    "beschreibung": "Official portrait of Vladimir Putin .",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
+    "urheber": "Russian Presidential Press and Information Office",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "art": "person",
+    "suchbegriff": "Vladimir Putin official portrait",
+    "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Vladimir Putin - 2012.jpg",
+     "beschreibung": "Official portrait of Vladimir Putin .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
+     "urheber": "Russian Presidential Press and Information Office",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Vladimir Putin official portrait",
+     "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow. State Duma at night1.jpg",
+     "beschreibung": "Москва. Госдума ночью.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Moscow._State_Duma_at_night1.jpg/1280px-Moscow._State_Duma_at_night1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Moscow._State_Duma_at_night1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow._State_Duma_at_night1.jpg",
+     "urheber": "Юрий Д.К.",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau bei Nacht.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow's Red Square, Moscow, Russia.jpg",
+     "beschreibung": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg",
+     "urheber": "Vyacheslav Argenberg",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "ort",
+     "suchbegriff": "Red Square Moscow",
+     "bildunterschrift": "Der Rote Platz in Moskau.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Moskau, Russland",
+    "lat": 55.626,
+    "lon": 37.606
+   },
+   "version": 5,
+   "ton": [
+    {
+     "k": "In Russland hat die dreitägige Parlamentswahl geendet. Nach ersten Hochrechnunge",
+     "d": "ae59c10c20.mp3",
+     "l": 49.1,
+     "s": [
+      0.25,
+      3.46,
+      8.36,
+      13.55,
+      18.98,
+      24.38,
+      28.93,
+      34.42,
+      38.39,
+      43.28
+     ]
+    },
+    {
+     "k": "In Russland ist die dreitägige Parlamentswahl zu Ende gegangen. Ersten Hochrechn",
+     "d": "02819668f2.mp3",
+     "l": 12.87,
+     "s": [
+      0.25,
+      3.92,
+      8.64
+     ]
+    },
+    {
+     "k": "In Russland gab es eine wichtige Wahl. Die Partei von Präsident Wladimir Putin h",
+     "d": "a3c6c8f535.mp3",
+     "l": 17.66,
+     "s": [
+      0.25,
+      2.82,
+      6.39,
+      9.66,
+      12.89
+     ]
+    },
+    {
+     "k": "Ob Geeintes Russland ihre bisherige Zweidrittelmehrheit im Parlament behalten ka",
+     "d": "d8a7ecde48.mp3",
+     "l": 8.31,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Abgeordnetenhaus in R",
+     "d": "104791b3ed.mp3",
+     "l": 8.35,
+     "s": [
+      0.25,
+      2.59
+     ]
+    },
+    {
+     "k": "In Russland ist die erste Parlamentswahl seit Beginn des Krieges gegen die Ukrai",
+     "d": "125b1a634b.mp3",
+     "l": 49.67,
+     "s": [
+      0.25,
+      5.87,
+      13.79,
+      21.49,
+      29.13,
+      32.09,
+      38.23,
+      44.47
+     ]
+    },
+    {
+     "k": "Nach den vorläufigen Auswertungen erreichen die Kommunisten als zweitstärkste Kr",
+     "d": "fb781b472d.mp3",
+     "l": 66.95,
+     "s": [
+      0.25,
+      8.58,
+      16.14,
+      23.83,
+      34.61,
+      41.15,
+      49.6,
+      59.22
+     ]
+    },
+    {
+     "k": "Die Staatsduma ist das Abgeordnetenhaus und bildet zusammen mit dem Föderationsr",
+     "d": "080faa481f.mp3",
+     "l": 50.22,
+     "s": [
+      0.25,
+      7.5,
+      15.56,
+      21.38,
+      27.89,
+      35.44,
+      39.07,
+      44.86
+     ]
+    },
+    {
+     "k": "Die Staatsduma hat die Aufgabe, Gesetze zu beraten und zu verfassen sowie den St",
+     "d": "86b73eee3c.mp3",
+     "l": 32.98,
+     "s": [
+      0.25,
+      6.48,
+      12.01,
+      17.28,
+      25.26
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scheuer-maut-prozess-gericht",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-21T05:55:06.000Z",
+   "titel": "Prozessbeginn gegen ehemaligen Bundesverkehrsminister Andreas Scheuer in Berlin",
+   "vorspann": "Vor dem Landgericht Berlin hat der Strafprozess gegen den ehemaligen Bundesverkehrsminister Andreas Scheuer begonnen. Die Staatsanwaltschaft wirft dem CSU-Politiker vor, im Untersuchungsausschuss zur gescheiterten Pkw-Maut falsch ausgesagt zu haben.",
+   "eil": false,
+   "zusammenfassung": [
+    "Vor dem Landgericht Berlin hat der Strafprozess gegen den ehemaligen Bundesverkehrsminister Andreas Scheuer begonnen.",
+    "Die Staatsanwaltschaft wirft Scheuer und seinem früheren Staatssekretär Gerhard Schulz eine Falschaussage im Maut-Untersuchungsausschuss vor.",
+    "Es geht um die Frage, ob die Angeklagten ein informelles Angebot von Betreiberfirmen zur Verschiebung von Vertragsabschlüssen im Jahr 2018 wahrheitsgemäß beantwortet haben.",
+    "Die Angeklagten weisen die Vorwürfe zurück und betonen, dass keine unzutreffenden Angaben gemacht wurden.",
+    "Das Verfahren ist auf mehrere Verhandlungstage angesetzt und könnte bei einer Verurteilung zu Freiheitsstrafen führen."
+   ],
+   "einig": [
+    [
+     "Der Europäische Gerichtshof stoppte die Pkw-Maut im Jahr 2019.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "FAZ",
+      "taz"
+     ]
+    ],
+    [
+     "Die Staatsanwaltschaft wirft Andreas Scheuer Falschaussage im Untersuchungsausschuss vor.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "FAZ",
+      "taz"
+     ]
+    ],
+    [
+     "Das Landgericht Berlin hat die Anklage gegen Andreas Scheuer zugelassen.",
+     [
+      "Tagesschau/ARD",
+      "taz"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob das informelle Angebot der Maut-Betreiberfirmen, vor dem EuGH-Urteil keine Verträge zu unterschreiben, tatsächlich in der von den Firmen geschilderten Form stattgefunden hat.",
+    "Ob sich Andreas Scheuer zum Zeitpunkt seiner Aussage vor dem Untersuchungsausschuss noch konkret an das Gespräch erinnern konnte."
+   ],
+   "positionen": [
+    [
+     "Staatsanwaltschaft Berlin",
+     "Geht von einer bewussten Falschaussage Scheuers über eine innere Tatsache aus.",
+     "Tagesschau/ARD,taz"
+    ],
+    [
+     "Andreas Scheuer (Verteidigung)",
+     "Bestreitet die Vorwürfe und ist zuversichtlich, dass das Gericht seine Unschuld bestätigt.",
+     "Tagesschau/ARD,ZDFheute,FAZ"
+    ]
+   ],
+   "fehlend": "Stellungnahmen der beteiligten Betreiberfirmen und der im Ausschuss vertretenen Oppositionsfraktionen aus dem aktuellen Verfahrensverlauf.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 04:36",
+     "fokus": "Ablauf und rechtliche Hintergründe",
+     "text": "Berichtet umfassend über die Vorgeschichte seit 2013, die Aussagen im Untersuchungsausschuss sowie die Einschätzungen der Staatsanwaltschaft.",
+     "url": "https://www.tagesschau.de/inland/pkw-maut-scheuer-104.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 05:16",
+     "fokus": "Prozessauftakt und Anwaltskosten",
+     "text": "Beleuchtet den Beginn des Prozesses vor dem Landgericht Berlin und greift Diskussionen über eine mögliche Kostenübernahme für die Verteidigung auf.",
+     "url": "https://www.zdfheute.de/politik/scheuer-prozess-gericht-maut-falschaussage-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 07:55",
+     "fokus": "Nachrichtenüberblick",
+     "text": "Meldet kurz den Beginn des Prozesses gegen den ehemaligen Bundesverkehrsminister vor dem Berliner Landgericht.",
+     "url": "https://www.deutschlandfunk.de/ex-bundesverkehrsminister-scheuer-wegen-aussagen-zur-pkw-maut-vor-dem-landgericht-100.html",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "21.09.26, 07:16",
+     "fokus": "Verkehrspolitische Einordnung",
+     "text": "Analysiert das Maut-Debakel im Kontext der generellen Infrastrukturfinanzierung und bewertet die wirtschaftlichen Folgen für den Bund.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/scheuer-vor-gericht-das-doppelte-maut-debakel-201239757.html",
+     "video": false
+    },
+    {
+     "name": "taz",
+     "typ": "Tageszeitung (Genossenschaft)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "21.09.26, 07:12",
+     "fokus": "Details zur Anklageschrift",
+     "text": "Gibt genaue Einblicke in die Argumentation der Staatsanwaltschaft bezüglich der inneren Tatsache und des Aussageverhaltens im Ausschuss.",
+     "url": "https://taz.de/Gescheiterte-Auslaender-Maut/!6214761/",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Gesamtkosten der gescheiterten Maut",
+     "Die Tagesschau nennt rund 270 Millionen Euro, während FAZ und taz von 243 Millionen Euro an Entschädigungszahlungen und ZDFheute von mehr als 300 Millionen Euro sprechen."
+    ],
+    [
+     "Schwerpunkt der Berichterstattung",
+     "Während Tagesschau und taz detailliert auf die Anklagepunkte eingehen, legt die FAZ einen starken Fokus auf die verkehrspolitischen und volkswirtschaftlichen Zusammenhänge."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Ehemaliger Verkehrsminister Andreas Scheuer und Ex-Staatssekretär Gerhard Schulz",
+    "was": "Beginn des Strafverfahrens wegen Vorwurfs der Falschaussage",
+    "wann": "2026-09-21",
+    "wo": "Berlin, Deutschland",
+    "wie": "Eröffnung der Hauptverhandlung vor der Strafkammer des Landgerichts",
+    "warum": "Mutmaßliche falsche Aussage vor einem parlamentarischen Ausschuss laut Staatsanwaltschaft",
+    "quellenlage": "Gericht, Staatsanwaltschaft, Medienberichte öffentlich-rechtlicher und tageszeitunglicher Medien"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Rund sieben Jahre nach dem Stopp der geplanten Pkw-Maut hat vor dem Landgericht Berlin der Prozess gegen den ehemaligen Bundesverkehrsminister Andreas Scheuer begonnen. Das Landgericht Berlin I hatte die Anklage gegen den CSU-Politiker im Mai 2026 zugelassen. Für das Verfahren sind nach Angaben der taz zunächst zwölf Verhandlungstage vorgesehen. Neben Andreas Scheuer ist auch sein früherer Staatssekretär Gerhard Schulz angeklagt. Die Staatsanwaltschaft wirft den beiden Angeklagten vor, vor dem parlamentarischen Untersuchungsausschuss falsch ausgesagt zu haben.",
+      "Die Anklagebehörde geht davon aus, dass die Aussagen vor dem Untersuchungsausschuss im Oktober 2020 unzutreffend waren. Konkret betrifft der Vorwurf Aussagen zu einem informellen Treffen mit potenziellen Betreibern des Mautsystems im November 2018. Laut den Berichten der Tagesschau und der taz sollen Vertreter der Betreiberfirmen damals angeboten haben, das Urteil des Europäischen Gerichtshofs abzuwarten, bevor Verträge unterschrieben werden. Die Angeklagten sollen dieses Angebot im Untersuchungsausschuss bestritten beziehungsweise angegeben haben, sich nicht daran erinnern zu können.",
+      "Das Landgericht Berlin I verhandelt in diesem Verfahren ausschließlich das Aussageverhalten der früheren Regierungsmitglieder vor dem Ausschuss. Um die finanzielle Abwicklung der Maut oder um den Tatbestand der Untreue geht es in diesem Strafprozess nicht. Falschaussagen vor einem parlamentarischen Untersuchungsausschuss können laut dem Strafgesetzbuch mit Freiheitsstrafen von drei Monaten bis zu fünf Jahren bestraft werden."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Die Vorgeschichte des Verfahrens reicht bis in das Jahr 2013 zurück, als die Idee einer Pkw-Maut für ausländische Autofahrer im Bundestagswahlkampf diskutiert wurde. Im Jahr 2015 verabschiedete der Bundestag das entsprechende Bundesgesetz zur Einführung der Abgabe. Das Konzept sah vor, dass alle Fahrzeughalter eine Maut entrichten, inländische Halter jedoch über die Kraftfahrzeugsteuer finanziell entlastet werden sollten. Der damalige Verkehrsminister Alexander Dobrindt vertrat die Auffassung, dass diese Ausgestaltung konform mit dem Recht der Europäischen Union sei und keine Benachteiligung ausländischer Bürger darstelle.",
+      "Im Juni 2019 stoppte der Europäische Gerichtshof die Pläne nach einer Klage Österreichs endgültig. Die Richter urteilten, dass die geplante Regelung Autofahrer aus anderen EU-Mitgliedstaaten diskriminiert. Zu diesem Zeitpunkt hatte Andreas Scheuer das Amt des Bundesverkehrsministers bereits von Alexander Dobrindt übernommen. Scheuer hatte trotz laufender rechtlicher Prüfungen und vor der Entscheidung des Gerichtshofs Verträge mit den vorgesehenen Betreiberfirmen geschlossen. Nach dem richterlichen Stopp musste der Bund diese Verträge kündigen, woraufhin die Unternehmen Schadensersatz forderten.",
+      "Die finanziellen Folgen des Vorhabens führten zu erheblichen Belastungen des Bundeshaushalts. Laut Tagesschau beliefen sich die Gesamtkosten für den Steuerzahler auf rund 270 Millionen Euro. Die FAZ und die taz nennen in ihren Berichten eine Summe von 243 Millionen Euro für die Entschädigungszahlungen an das Betreiberkonsortium nach einem Schiedsgerichtsverfahren. Ein im Jahr 2020 eingerichteter parlamentarischer Untersuchungsausschuss des Bundestages sollte die Abläufe und die Verantwortlichkeiten bei dem Projekt aufarbeiten.",
+      "Während der Befragungen im Untersuchungsausschuss und in vorherigen Ausschusssitzungen entstanden Unstimmigkeiten über den genauen Ablauf von Absprachen zwischen dem Ministerium und den Betreibern. Laut ZDFheute und taz bestritt Scheuer im September 2019 im Bundestag zunächst kategorisch, dass es ein Angebot der Firmen gegeben habe, das Urteil abzuwarten. Im Oktober 2020 äußerte er sich vor dem Untersuchungsausschuss vorsichtiger und erklärte laut taz, er könne sich nach seiner Erinnerung nicht an ein solches Angebot erinnern. Die Staatsanwaltschaft Berlin sieht in diesem Verhalten den Tatbestand der Falschdarstellung einer inneren Tatsache."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Einführung einer sogenannten Ausländermaut galt als ein politisches Vorhaben der Christlich-Sozialen Union, das bereits vom damaligen Parteichef Horst Seehofer im Wahlkampf vertreten wurde. Befürworter argumentierten damals, dass Autofahrer aus dem Ausland einen Beitrag zum Erhalt des deutschen Autobahnnetzes leisten sollten, da deutsche Autofahrer in vielen europäischen Nachbarländern ebenfalls Mautgebühren entrichten mussten. Kritiker und die Europäische Kommission hatten jedoch schon in der Planungsphase rechtliche Bedenken wegen möglicher Ungleichbehandlungen von EU-Bürgern geäußert.",
+      "Die parlamentarische Aufarbeitung im Untersuchungsausschuss fand während der COVID-19-Pandemie statt und erstreckte sich über mehrere Monate. Laut den Berichten von ZDFheute und taz ist es das erste Mal in der Geschichte der Bundesrepublik, dass sich ein ehemaliger Bundesminister wegen einer mutmaßlichen Falschaussage vor einem parlamentarischen Gremium vor Gericht verantworten muss. Zu den Fragen der Kostenübernahme für das Gerichtsverfahren berichtete ZDFheute unter Berufung auf Recherchen der Bild-Zeitung, dass Andreas Scheuer eine Anfrage beim Bundesverkehrsministerium zur Übernahme der Anwaltskosten gestellt habe. Laut dem Ministerium existiert eine Rechtsverordnung, die Bundesbediensteten aus Fürsorgegründen die Gewährung eines rückzahlbaren Darlehens unter bestimmten Bedingungen ermöglicht. Das Ministerium teilte demnach mit, dass keine teuren Staranwälte finanziert würden, sondern lediglich der gesetzlich vorgeschriebene Mindestsatz für Anwaltshonorare im Rahmen eines Darlehens zur Verfügung gestellt werden könne."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein parlamentarischer Untersuchungsausschuss ist ein Kontrollinstrument des Bundestages. Er hat die Aufgabe, Sachverhalte im Auftrag des Parlaments aufzuklären, um mögliches Fehlverhalten von Regierungsmitgliedern oder Behörden zu überprüfen. Dazu können Zeugen geladen werden, die vor dem Gremium aussagen müssen.",
+      "Aussagen vor einem Untersuchungsausschuss sind rechtlich verbindlich. Wer dort unrichtige Angaben macht, kann nach den Vorschriften des Strafgesetzbuches wegen Falschaussage belangt werden. Die strafrechtlichen Bestimmungen für uneidliche Aussagen vor Untersuchungsausschüssen entsprechen denen bei Gerichtsverfahren."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der angeklagte ehemalige Bundesverkehrsminister Andreas Scheuer weist die Vorwürfe nach Angaben der Tagesschau und der FAZ zurück. Über seinen Rechtsanwalt Daniel M. Krause ließ er laut ZDFheute erklären, dass er dem Vorwurf nachdrücklich entgegentrete, im Untersuchungsausschuss eine unzutreffende Antwort gegeben zu haben. Scheuer zeigt sich laut Tagesschau zuversichtlich, dass das Gericht seine Unschuld bestätigen wird.",
+      "Eine Sprecherin der Berliner Staatsanwaltschaft erklärte laut Tagesschau, dass die Behörde von einer Falschaussage ausgeht. Es sei nun die Aufgabe des Gerichts, aufzuklären, ob den Angeklagten die Tat nachzuweisen ist. Die Staatsanwaltschaft stützt ihre Anklage nach Angaben der taz auf das Gesamtbild der Indizien und eine entsprechende Glaubwürdigkeitsbeurteilung.",
+      "Der Rechtsanwalt von Andreas Scheuer, Daniel M. Krause, betonte gegenüber ZDFheute, dass sein Mandant keine unzutreffende Auskunft erteilt habe. Das Bundesverkehrsministerium bestätigte laut ZDFheute den Eingang eines Antrags auf ein Darlehen zur Abdeckung von Anwaltskosten, betonte jedoch, dass hierfür strenge haushaltsrechtliche Vorgaben gelten und eine Rückzahlungspflicht besteht."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Das Landgericht Berlin hat für das Hauptverfahren gegen Andreas Scheuer und den mitangeklagten ehemaligen Staatssekretär Gerhard Schulz zunächst zwölf Verhandlungstage angesetzt. In dieser Zeit wird das Gericht Zeugen anhören, Beweise prüfen und die Aussagen aus dem Untersuchungsausschuss bewerten. Am Ende der Verhandlung wird die Strafkammer entscheiden, ob es zu einem Freispruch oder zu einer Verurteilung der Angeklagten kommt."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2013",
+     "Beginn der politischen Debatte und des Wahlkampfversprechens zur Einführung einer Pkw-Maut."
+    ],
+    [
+     "2015",
+     "Der Bundestag verabschiedet das Gesetz zur Einführung der Pkw-Maut."
+    ],
+    [
+     "2019-06",
+     "Der Europäische Gerichtshof stoppt die deutsche Maut nach einer Klage Österreichs."
+    ],
+    [
+     "2020-10",
+     "Andreas Scheuer sagt als Zeuge vor dem parlamentarischen Untersuchungsausschuss aus."
+    ],
+    [
+     "2025-08",
+     "Die Staatsanwaltschaft Berlin erhebt Anklage gegen Andreas Scheuer und Gerhard Schulz."
+    ],
+    [
+     "2026-05",
+     "Das Landgericht Berlin I lässt die Anklage zu."
+    ],
+    [
+     "2026-09-21",
+     "Beginn der Hauptverhandlung vor dem Landgericht Berlin."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "Berlin Criminal Court building",
+     "bildunterschrift": "Das Gebäude des Landgerichts Berlin, vor dem das Verfahren gegen den ehemaligen Verkehrsminister stattfindet."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Andreas Scheuer politician",
+     "bildunterschrift": "Der frühere Bundesverkehrsminister Andreas Scheuer steht im Mittelpunkt des strafrechtlichen Verfahrens."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "German Bundestag building Berlin",
+     "bildunterschrift": "Der Deutsche Bundestag in Berlin, in dessen Untersuchungsausschuss die strittigen Aussagen getätigt wurden."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Begriffe wie 'bewusste' bei der Staatsanwaltschaft und 'vehement' im Text angepasst, um den neutralen Regeln zu entsprechen.",
+    "Wort 'schweizerisch' entfernt, da es ein Tippfehler oder ungenau war und im Text nicht vorkam.",
+    "Rechtschreibung und Formatierung der Medienbelege in den einig-Punkten vereinheitlicht."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Untersuchungsausschuss",
+      "Ein Untersuchungsausschuss ist ein Ausschuss des Parlaments, der die Aufgabe hat, mögliches Fehlverhalten von Regierungen oder Behörden aufzuklären."
+     ],
+     [
+      "Europäischer Gerichtshof",
+      "Der Europäische Gerichtshof ist das höchste Gericht der Europäischen Union und prüft, ob Gesetze mit dem EU-Recht übereinstimmen."
+     ],
+     [
+      "Falschaussage",
+      "Eine Falschaussage liegt vor, wenn eine Person vor Gericht oder in einem Untersuchungsausschuss bewusst oder nachweislich unrichtige Angaben macht."
+     ]
+    ],
+    "fragen": [
+     "Welche Aufgaben hat ein parlamentarischer Untersuchungsausschuss in einem demokratischen System?",
+     "Welche Folgen können politische Entscheidungen haben, die von Gerichten als rechtswidrig eingestuft werden?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wann stoppte der Europäische Gerichtshof die geplante Pkw-Maut?",
+      "optionen": [
+       "Im Jahr 2013",
+       "Im Jahr 2019",
+       "Im Jahr 2025"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Europäische Gerichtshof hat die Pläne für die Pkw-Maut im Jahr 2019 gestoppt."
+     },
+     {
+      "frage": "Welche Behörde hat Anklage gegen Andreas Scheuer erhoben?",
+      "optionen": [
+       "Die Staatsanwaltschaft Berlin",
+       "Die Europäische Kommission",
+       "Das Bundesverkehrsministerium"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Staatsanwaltschaft Berlin wirft Andreas Scheuer eine Falschaussage im Untersuchungsausschuss vor."
+     },
+     {
+      "frage": "Wie viele Verhandlungstage hat das Landgericht Berlin für den Prozess angesetzt?",
+      "optionen": [
+       "Drei Verhandlungstage",
+       "Zwölf Verhandlungstage",
+       "Fünfzig Verhandlungstage"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Landgericht Berlin hat für das Hauptverfahren zunächst zwölf Verhandlungstage angesetzt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Berlin hat ein Strafprozess gegen den früheren Verkehrsminister Andreas Scheuer begonnen.",
+    "absaetze": [
+     "Die Staatsanwaltschaft wirft dem Politiker vor, im Parlament die Unwahrheit gesagt zu haben. Es geht um den Untersuchungsausschuss zur gescheiterten Pkw-Maut. Scheuer soll dort bei Befragungen zu Verträgen mit Firmen gelogen haben. Der Europäische Gerichtshof hatte die Maut im Jahr 2019 gestoppt. Scheuer bestreitet die Vorwürfe und weist die Anschuldigungen zurück. Für den Prozess sind zwölf Verhandlungstage geplant."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Berlin hat der Strafprozess gegen den früheren Verkehrsminister Andreas Scheuer begonnen.",
+     "Die Staatsanwaltschaft wirft ihm eine Falsch Aussage im Untersuchungsausschuss vor.",
+     "Der Europäische Gerichtshof hatte die Pkw-Maut im Jahr 2019 gestoppt.",
+     "Scheuer weist die Vorwürfe nach Angaben seiner Verteidigung zurück."
+    ],
+    "lang": [
+     "Vor dem Landgericht Berlin hat der Strafprozess gegen den ehemaligen Bundesverkehrsminister Andreas Scheuer begonnen.",
+     "Die Staatsanwaltschaft wirft dem Politiker vor, im Untersuchungsausschuss zur Pkw-Maut falsch ausgesagt zu haben.",
+     "Im Mittelpunkt stehen Aussagen aus dem Oktober des Jahres 2020 vor dem Bundestag.",
+     "Damals ging es um ein Treffen mit Betreiberfirmen aus dem Jahr 2018.",
+     "Der Europäische Gerichtshof hatte die deutsche Pkw-Maut im Juni des Jahres 2019 gestoppt.",
+     "Die gescheiterten Verträge kosteten den Bund nach Angaben der Medien hunderte Millionen Euro.",
+     "Die Staatsanwaltschaft geht von einer Falschaussage aus, während der Anwalt von Scheuer die Vorwürfe zurückweist.",
+     "Ein parlamentarischer Untersuchungsausschuss ist ein Kontrollinstrument des Bundestages zur Aufklärung von Fehlverhalten.",
+     "Das Gericht hat für das Verfahren zunächst zwölf Verhandlungstage angesetzt.",
+     "Am Ende der Verhandlung entscheidet die Strafkammer über eine Verurteilung oder einen Freispruch."
+    ],
+    "einfach": [
+     "In Berlin hat ein Prozess gegen den früheren Verkehrsminister Andreas Scheuer begonnen.",
+     "Die Staatsanwaltschaft wirft ihm eine Falschaussage vor.",
+     "Es geht um den Untersuchungsausschuss zur Pkw-Maut.",
+     "Ein Untersuchungsausschuss ist eine Gruppe von Abgeordneten zur Aufklärung von Problemen.",
+     "Der Europäische Gerichtshof stoppte die Maut im Jahr 2019.",
+     "Scheuer weist die Anschuldigungen zurück."
+    ]
+   },
+   "kurz": [
+    "Vor dem Landgericht Berlin hat der Strafprozess gegen den früheren Verkehrsminister Andreas Scheuer begonnen.",
+    "Die Staatsanwaltschaft wirft ihm und einem Ex-Staatssekretär Falschaussagen im Maut-Untersuchungsausschuss vor.",
+    "Der Europäische Gerichtshof hatte die geplante Pkw-Maut im Jahr 2019 gestoppt.",
+    "Die Angeklagten bestreiten die Vorwürfe und weisen die Anschuldigungen zurück."
+   ],
+   "fakten": [
+    [
+     "Gesamtkosten beziehungsweise Entschädigung",
+     "243 bis 300 Millionen Euro"
+    ],
+    [
+     "Jahr des Gerichtsstopps",
+     "2019"
+    ],
+    [
+     "Vorgesehener Verhandlungstage",
+     "Zwölf"
+    ],
+    [
+     "Datum des Prozessbeginns",
+     "21. September 2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "pkz-maut-prozess-scheuer",
+    "titel": "Prozess gegen Andreas Scheuer zur Pkw-Maut"
+   },
+   "bildInfo": {
+    "titel": "Scheuer, Andreas-1407.jpg",
+    "beschreibung": "Andreas Scheuer (* 26. September 1974 in Passau) ist ein deutscher Politiker (CSU). Er war im Kabinett Merkel II von 2009 bis 2013 Parlamentarischer Staatssekretär beim Bundesminister für Verkehr, Bau",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Scheuer%2C_Andreas-1407.jpg/1280px-Scheuer%2C_Andreas-1407.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Scheuer%2C_Andreas-1407.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Scheuer,_Andreas-1407.jpg",
+    "urheber": "Foto-AG Gymnasium Melle",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "art": "person",
+    "suchbegriff": "Andreas Scheuer politician",
+    "bildunterschrift": "Der ehemalige Bundesverkehrsminister Andreas Scheuer (CSU).",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Scheuer, Andreas-1407.jpg",
+     "beschreibung": "Andreas Scheuer (* 26. September 1974 in Passau) ist ein deutscher Politiker (CSU). Er war im Kabinett Merkel II von 2009 bis 2013 Parlamentarischer Staatssekretär beim Bundesminister für Verkehr, Bau",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Scheuer%2C_Andreas-1407.jpg/1280px-Scheuer%2C_Andreas-1407.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Scheuer%2C_Andreas-1407.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Scheuer,_Andreas-1407.jpg",
+     "urheber": "Foto-AG Gymnasium Melle",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "person",
+     "suchbegriff": "Andreas Scheuer politician",
+     "bildunterschrift": "Der ehemalige Bundesverkehrsminister Andreas Scheuer (CSU).",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Paul-Löbe-Haus, Westseite, Frontalansicht, Berlin-Mitte, 151223, ako.jpg",
+     "beschreibung": "West facade of the Paul-Löbe-Haus in Berlin-Mitte during the blue hour. The building was designed by architect Stephan Braunfels and built between 1997 and 2002. It's one of the buildings of the Germa",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg/1280px-Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Paul-L%C3%B6be-Haus,_Westseite,_Frontalansicht,_Berlin-Mitte,_151223,_ako.jpg",
+     "urheber": "Ansgar Koreng",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "ort",
+     "suchbegriff": "German Bundestag building Berlin",
+     "bildunterschrift": "Das Paul-Löbe-Haus in Berlin-Mitte nahe dem Regierungsviertel.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Vor dem Landgericht Berlin hat der Strafprozess gegen den ehemaligen Bundesverke",
+     "d": "b3f2edc2f5.mp3",
+     "l": 59.48,
+     "s": [
+      0.25,
+      6.77,
+      13.6,
+      19.28,
+      24.17,
+      30.71,
+      36.34,
+      42.64,
+      49.57,
+      53.98
+     ]
+    },
+    {
+     "k": "In Berlin hat der Strafprozess gegen den früheren Verkehrsminister Andreas Scheu",
+     "d": "b449d89410.mp3",
+     "l": 19.09,
+     "s": [
+      0.25,
+      5.39,
+      10.17,
+      15.13
+     ]
+    },
+    {
+     "k": "In Berlin hat ein Prozess gegen den früheren Verkehrsminister Andreas Scheuer be",
+     "d": "0e49c5fbff.mp3",
+     "l": 26.66,
+     "s": [
+      0.25,
+      5.59,
+      9.46,
+      12.98,
+      18.87,
+      23.88
+     ]
+    },
+    {
+     "k": "Ob das informelle Angebot der Maut-Betreiberfirmen, vor dem EuGH-Urteil keine Ve",
+     "d": "6b3caf68ae.mp3",
+     "l": 9.9,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Untersuchungsausschuss? Ein Untersuchungsausschuss ist e",
+     "d": "d8d0d77292.mp3",
+     "l": 12.4,
+     "s": [
+      0.25,
+      3.32
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rad-wm-zeitfahren-montreal",
+   "rubrik": "Sport",
+   "zeit": "2026-09-21T05:55:06.000Z",
+   "titel": "Radsport-Weltmeisterschaften in Montreal mit Entscheidungen im Einzelzeitfahren",
+   "vorspann": "Bei den Straßenrad-Weltmeisterschaften in Montreal haben Remco Evenepoel und Marlen Reusser die Goldmedaillen im Einzelzeitfahren gewonnen. Franziska Koch sicherte sich bei den Frauen die Bronzemedaille für Deutschland.",
+   "eil": false,
+   "zusammenfassung": [
+    "Remco Evenepoel hat bei der Straßenrad-WM in Montreal zum vierten Mal in Folge das Einzelzeitfahren der Männer gewonnen.",
+    "Mit diesem Erfolg zog der belgische Radprofi in der ewigen WM-Wertung mit Tony Martin und Fabian Cancellara gleich.",
+    "Bei den Frauen sicherte sich die Schweizerin Marlen Reusser den Goldtitel an ihrem Geburtstag.",
+    "Die deutsche Radsportlerin Franziska Koch belegte den dritten Platz und gewann die Bronzemedaille."
+   ],
+   "einig": [
+    [
+     "Remco Evenepoel gewinnt das Zeitfahren der Männer bei der Rad-WM in Montreal.",
+     [
+      "Deutschlandfunk",
+      "BBC",
+      "SRF"
+     ]
+    ],
+    [
+     "Franziska Koch gewinnt die Bronzemedaille im Einzelzeitfahren der Frauen.",
+     [
+      "Deutschlandfunk",
+      "Zeit",
+      "BBC"
+     ]
+    ],
+    [
+     "Marlen Reusser gewinnt die Goldmedaille im Einzelzeitfahren der Frauen.",
+     [
+      "Zeit",
+      "BBC",
+      "SRF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob Stefan Küngs Renneinteilung der Hauptgrund für seinen siebten Platz war, wird von ihm selbst kritisiert."
+   ],
+   "positionen": [
+    [
+     "Remco Evenepoel (Sieger)",
+     "Er freut sich über seinen historischen vierten Titel in Folge und dankt seinem Team.",
+     "ZDFheute,BBC"
+    ],
+    [
+     "Stefan Küng (Teilnehmer)",
+     "Er ärgert sich, dass er nicht von Anfang an mehr attackiert hat und zu viel Kraft übrig hatte.",
+     "SRF"
+    ],
+    [
+     "Maximilian Walscheid (Teilnehmer)",
+     "Er ist enttäuscht, weil das Ergebnis unter seinen persönlichen Erwartungen lag.",
+     "Zweites ZDFheute"
+    ],
+    [
+     "Zoe Backstedt (Zweitplatzierte)",
+     "Sie freut sich über Silber und erkannte die Stärke von Marlen Reusser an.",
+     "BBC"
+    ]
+   ],
+   "fehlend": "Stimmen des Weltsportverbandes UCI sowie offizielle Erklärungen des Veranstalters zu den Kursbedingungen.",
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 22:15",
+     "fokus": "–",
+     "text": "Remco Evenepoel ist in Montreal als erster Radsport-Profi zum vierten Mal in Folge Zeitfahr-Weltmeister geworden. In der ewigen WM-Wertung liegt er nun gleichauf mit Tony Martin.",
+     "url": "https://www.zdfheute.de/sport/radsport-wm-montreal-zeitfahren-remco-evenepoel-vierter-titel-in-folge-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 07:55",
+     "fokus": "Kurze Meldung der Kernresultate",
+     "text": "Fasst die Siege von Evenepoel und den Bronzegewinn von Koch kompakt zusammen.",
+     "url": "https://www.deutschlandfunk.de/franziska-koch-gewinnt-bronze-im-einzelzeitfahren-remco-evenepoel-siegt-bei-den-maennern-106.html",
      "video": false
     },
     {
@@ -370,40 +1358,516 @@
      "typ": "Wochenzeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "20.09.26, 21:13",
-     "fokus": "Mecklenburg-Vorpommern",
-     "text": "Fokussiert auf die Hochrechnungen zur AfD und CDU.",
-     "url": "https://www.zeit.de/politik/deutschland/2026-09/mecklenburg-vorpommern-landtagswahl-liveblog",
+     "datum": "20.09.26, 20:01",
+     "fokus": "Fokus auf das Frauenrennen",
+     "text": "Hebt die deutsche Meisterin Franziska Koch und Siegerin Marlen Reusser hervor.",
+     "url": "https://www.zeit.de/sport/2026-09/franziska-koch-rad-wm-einzelzeitfahren-montreal-bronze",
      "video": false
     },
     {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
      "stamm": true,
-     "datum": "20.09.26, 19:36",
-     "fokus": "Wahlen",
-     "text": "Berichtet im Newsblog über die Entwicklungen der Wahlen.",
-     "url": "https://www.sueddeutsche.de/politik/landtagswahl-mecklenburg-vorpommern-2026-aktuelle-hochrechnung-afd-spd-cdu-li.3550920",
+     "datum": "20.09.26, 21:49",
+     "fokus": "Britische Perspektive",
+     "text": "Beleuchtet vor allem Zoe Backstedts Erfolg und enthält Reaktionen britischer Beteiligter.",
+     "url": "https://www.bbc.co.uk/sport/cycling/articles/c6pwlp5wd7n7o?at_medium=RSS&at_campaign=rss",
+     "video": false
+    },
+    {
+     "name": "SRF",
+     "typ": "öffentlich-rechtlich (Schweiz)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "20.09.26, 21:31",
+     "fokus": "Schweizer Sportler",
+     "text": "Konzentriert sich auf Reussers Goldmedaille sowie die Aussagen und Leistungen von Stefan Küng und Stefan Bissegger.",
+     "url": "https://www.srf.ch/sport/rad/rad-wm/wm-zeitfahren-in-montreal-4-streich-von-seriensieger-evenepoel-kueng-auf-rang-7",
      "video": false
     }
    ],
    "unterschiede": [
     [
      "Fokus der Berichterstattung",
-     "Einige Medien wie Deutschlandfunk und Spiegel berichten über Berlin, während Tagesschau, Zeit und Süddeutsche Zeitung ihren Schwerpunkt auf Mecklenburg-Vorpommern legen."
+     "Die Medien gewichten je nach Herkunftsland die Leistungen ihrer nationalen Athleten unterschiedlich stark."
     ]
    ],
    "wfragen": {
-    "wer": "Wählerinnen und Wähler sowie Parteien in Berlin und Mecklenburg-Vorpommern",
-    "was": "Wahlen zum Abgeordnetenhaus und zum Landtag",
-    "wann": "Zum Zeitpunkt der Berichterstattung aktuell",
-    "wo": "Berlin und Mecklenburg-Vorpommern, Deutschland",
-    "wie": "Durch Stimmabgabe in Wahllokalen und Briefwahl",
-    "warum": "Reguläre Parlamentswahlen in den Bundesländern",
-    "quellenlage": "Hochrechnungen, Angaben von Landeswahlleitern, Parteien und Medienberichten"
+    "wer": "Remco Evenepoel und Marlen Reusser",
+    "was": "Gewinn der Goldmedaillen im Einzelzeitfahren",
+    "wann": "September 2026",
+    "wo": "Montreal, Kanada",
+    "wie": "Durch Fahrten auf einem 39,2 Kilometer langen Kurs",
+    "warum": "laut Evenepoel gute Vorbereitung und Form",
+    "quellenlage": "ZDFheute, Deutschlandfunk, Zeit, BBC, SRF"
    },
-   "artikel": [],
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Bei den Straßenrad-Weltmeisterschaften im kanadischen Montreal fanden die Wettbewerbe im Einzelzeitfahren statt. Der belgische Radprofi Remco Evenepoel gewann das Rennen der Männer. Er bewältigte die Strecke als Erster und sicherte sich damit den Titel. Bei den Frauen ging die Goldmedaille an die Schweizerin Marlen Reusser. Die deutsche Starterin Franziska Koch erreichte den dritten Platz und gewann die Bronzemedaille.",
+      "Remco Evenepoel fuhr die Strecke über 39,2 Kilometer in einer Zeit von 44 Minuten und 53,13 Sekunden. Er distanzierte den zweitplatzierten Italiener Filippo Ganna mit einem Vorsprung von 57,31 Sekunden. Den dritten Platz bei den Männern belegte der Franzose Paul Seixas. Der 19-jährige Sportler lag im Ziel 1:13 Minuten beziehungsweise 1:13,31 Minuten hinter dem Sieger.",
+      "Das Rennen der Frauen wurde ebenfalls auf dem 39,2 Kilometer langen Kurs ausgetragen. Die Schweizerin Marlen Reusser verteidigte ihren Titel erfolgreich an ihrem 35. Geburtstag. Sie benötigte für die Strecke 50 Minuten und 24,44 Sekunden. Den zweiten Platz belegte die britische Fahrerin Zoe Backstedt mit einem Rückstand von 40,11 Sekunden. Die deutsche Fahrerin Franziska Koch fuhr mit der drittbesten Zeit ins Ziel.",
+      "Die Weltmeisterschaften in Montreal boten ein anspruchsvolles Streckenprofil. Ein Teil des Kurses führte über den dortigen Formel-1-Rennkurs. Die Strecke war nach Angaben von Medienberichten fast doppelt so lang wie ein übliches Zeitfahren. Zahlreiche internationale Top-Athleten nahmen an den Wettbewerben teil und absolvierten das Rennen bei unterschiedlichen Wetter- und Streckenbedingungen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Remco Evenepoel führte das Rennen der Männer bei jeder der insgesamt drei Zwischenzeiten an. Schon zur Hälfte der Renndistanz war sein Vorsprung auf über eine halbe Minute angewachsen. Der schwedische U23-Weltmeister des Vorjahres, Jakob Söderqvist, lag lange Zeit auf einem Medaillenkurs. Er stürzte jedoch rund 2,5 Kilometer vor dem Ziel und beendete den Wettbewerb schlussendlich auf dem fünften Rang.",
+      "Filippo Ganna profitierte von einer starken Renneinteilung. Bei der ersten Zwischenzeit lag der Italiener lediglich auf dem zehnten Platz. Im zweiten Teil des Rennens steigerte er sich deutlich und sicherte sich zum dritten Mal nach 2023 und 2024 die Silbermedaille. Der Schweizer Teilnehmer Stefan Küng zeigte ein konstantes Rennen, lag bei allen Zwischenzeiten auf den Rängen sieben bis neun und wurde am Ende mit 1:44,44 Minuten Rückstand Siebter.",
+      "Ein weiterer Schweizer Starter, Stefan Bissegger, hatte mit den Bedingungen auf dem flachen Kurs mit einem steilen Anstieg vor dem Ziel größere Probleme. Er kam mit knapp drei Minuten Rückstand auf den 28. Schlussrang. Die deutschen Starter Jasha Sütterlin und Maximilian Walscheid belegten die Plätze 14 und 27. Sütterlin erfüllte nach eigenen Angaben seine Zielsetzung, während Walscheid enttäuscht und ratlos im Ziel ankam.",
+      "Im Frauenrennen ging die britische Starterin Zoe Backstedt als dritte von hinten an den Start. Sie setzte zunächst die Bestzeit und lag nach den ersten beiden Zwischenzeiten in Führung. Marlen Reusser lag an der ersten Zwischenzeit noch mehr als zehn Sekunden hinter Backstedt zurück. Die Schweizerin steigerte sich jedoch im weiteren Verlauf und holte den Rückstand auf. Die britische Fahrerin Anna Morris beendete das Rennen auf dem 16. Platz, während Demi Vollering Achte wurde."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Remco Evenepoel schrieb mit seinem Sieg Radsport-Geschichte. Er ist der erste Profi, der den Titel im Einzelzeitfahren zum vierten Mal in Folge gewinnen konnte. Seine vorherigen Triumphe errang er bei den Weltmeisterschaften in Schottland 2023, in der Schweiz 2024 und in Ruanda 2025. In der ewigen Bestleistung des Weltverbandes UCI zog er mit Tony Martin und Fabian Cancellara gleich, die ebenfalls vier Titel in dieser Disziplin errangen.",
+      "Tony Martin gewann seine vier Titel in den Jahren 2011, 2012, 2013 und 2016. Fabian Cancellara siegte in den Jahren 2006, 2007, 2009 und 2010. Evenepoel ist nun gemeinsam mit Martin Spitzenreiter in der WM-Wertung, da beide neben vier Goldmedaillen auch eine Silbermedaille und zweimal Bronze vorweisen können. Michael Rogers aus Australien schaffte zuvor einen Hattrick von 2003 bis 2005.",
+      "Marlen Reusser feierte in Montreal ihren zweiten Weltmeistertitel im Einzelzeitfahren nach ihrem Sieg im Vorjahr in Ruanda. Die Schweizer Fahrerin hat in ihrer bisherigen Karriere zudem zwei Weltmeisterschafts-Silbermedaillen und eine Bronzemedaille gewonnen. In der laufenden Saison galt sie als dominierende Fahrerin in dieser Disziplin und gewann unter anderem Zeitfahren bei der Tour de France Femmes und dem Giro d'Italia Women.",
+      "Zoe Backstedt entschied sich in diesem Jahr bewusst dafür, in der Elite-Kategorie zu starten, anstatt ihren U23-Titel aus dem Vorjahr zu verteidigen. Die Waliserin ist eine ehemalige Weltmeisterin bei den Junioren sowie in der U23-Klasse. Sie gewann bei den diesjährigen britischen Meisterschaften sowohl das Straßenrennen als auch das Zeitfahren. Für Großbritannien ist es insgesamt erst die dritte Medaille im WM-Zeitfahren nach den Erfolgen von Emma Pooley in den Jahren 2010 und 2011."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein Einzelzeitfahren ist ein Radrennen, bei dem die Fahrer einzeln starten. Gewonnen hat am Ende der Sportler, der die vorgegebene Strecke in der kürzesten Gesamtzeit absolviert hat.",
+      "Die Straßenrad-Weltmeisterschaften sind ein internationaler Wettbewerb, der jährlich vom Radsport-Weltverband UCI ausgetragen wird. In verschiedenen Disziplinen werden die jeweiligen Weltmeister ermittelt."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Remco Evenepoel äußerte sich überglücklich über seinen historischen Erfolg. Er sagte laut ZDFheute und BBC, es sei wahnsinnig und er sei hierhergekommen, um den vierten Titel nacheinander zu holen. Er sprach von einer wunderbaren Erfahrung und dankte dem gesamten Team für die Vorbereitung. Zudem erklärte er, er wolle sich nun erst einmal erholen und den speziellen Titel geniessen.",
+      "Stefan Küng analysierte sein Rennen nach dem Zieleinlauf kritisch. Laut SRF sagte der Schweizer, er hätte von Anfang an mehr attackieren müssen. Er erklärte, er habe zum Ende noch ziemlich viel im Tank gehabt, weshalb sich das Rennen für ihn nicht optimal angefühlt habe. Man müsse sich die Kräfte so einteilen, dass man beim Überqueren der Ziellinie vollkommen leer sei.",
+      "Maximilian Walscheid äußerte sich enttäuscht über sein Ergebnis. Laut ZDFheute sagte der deutsche Starter, das Abschneiden habe unter seinen Erwartungen gelegen, da er sich im Vorfeld weiter vorn gesehen hatte. Jasha Sütterlin erklärte hingegen laut ZDFheute, dass er mit seiner Leistung die interne Zielsetzung erfüllt habe.",
+      "Zoe Backstedt berichtete gegenüber Reportern über den Rennverlauf. Laut BBC dachte sie nach der ersten Zwischenzeit, dass ein Sieg möglich sein könnte. Sie betonte jedoch, dass Marlen Reusser sehr stark sei und ein grosses Leistungsvermögen habe. Die britische Fahrerin Hayley Simmonds erklärte ebenfalls laut BBC, dass Backstedt ein sehr reifes Rennen gezeigt habe und zu Recht in der Elite-Klasse mitfahre."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Weltmeisterschaften in Montreal werden in den kommenden Tagen mit weiteren Wettbewerben fortgesetzt. Zoe Backstedt kündigte an, dass sie am kommenden Samstag, dem 26. September, auch im Straßenrennen der Frauen an den Start gehen wird. Weitere Athleten bereiten sich ebenfalls auf die verbleibenden Titelkämpfe der WM vor."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "20. September 2026",
+     "Austragung der Zeitfahren der Damen und Herren bei der Rad-WM in Montreal."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "Montreal city skyline",
+     "bildunterschrift": "Die Skyline von Montreal in Kanada, dem Austragungsort der Straßenrad-Weltmeisterschaften."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Racing bicycle",
+     "bildunterschrift": "Ein modernes Rennrad, wie es bei internationalen Zeitfahren eingesetzt wird."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "UCI headquarters Migle",
+     "bildunterschrift": "Der Internationale Radsportverband UCI organisiert die Weltmeisterschaften."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Circuit Gilles Villeneuve",
+     "bildunterschrift": "Die Rennstrecke in Montreal, die als Teil der Strecke für das Zeitfahren genutzt wurde."
+    }
+   ],
+   "ort": {
+    "name": "Montreal, Kanada"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Keine inhaltlichen Korrekturen nötig, Rechtschreibung und Belege wurden exakt an die Vorlagen angepasst."
+   ],
+   "wortwarnung": [
+    "wahnsinnig"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Einzelzeitfahren",
+      "Ein Radrennen, bei dem die Sportler einzeln starten und nicht in einer Gruppe fahren."
+     ],
+     [
+      "Weltverband UCI",
+      "Die internationale Organisation, die den Radsport leitet und Weltmeisterschaften veranstaltet."
+     ]
+    ],
+    "fragen": [
+     "Welche Vorteile oder Nachteile hat es, wenn Sportler in einem Einzelzeitfahren ganz allein gegen die Uhr fahren statt in einer Gruppe?",
+     "Wie bewertest du es, dass Medien in verschiedenen Ländern unterschiedlich stark über die eigenen Athleten berichten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer gewann das Zeitfahren der Männer bei der Rad-WM in Montreal?",
+      "optionen": [
+       "Tony Martin",
+       "Remco Evenepoel",
+       "Filippo Ganna"
+      ],
+      "richtig": 1,
+      "erklaerung": "Remco Evenepoel gewann das Zeitfahren der Männer und holte damit seinen vierten Titel in Folge."
+     },
+     {
+      "frage": "Welche Medaille gewann die deutsche Starterin Franziska Koch?",
+      "optionen": [
+       "Gold",
+       "Silber",
+       "Bronze"
+      ],
+      "richtig": 2,
+      "erklaerung": "Franziska Koch fuhr im Einzelzeitfahren der Frauen auf den dritten Platz und gewann die Bronzemedaille."
+     },
+     {
+      "frage": "Wie lang war die Strecke des Zeitfahrens in Montreal?",
+      "optionen": [
+       "39,2 Kilometer",
+       "22,0 Kilometer",
+       "50,0 Kilometer"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte nennen eine Streckenlänge von 39,2 Kilometern für das Zeitfahren."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Bei der Rad-Weltmeisterschaft in Kanada gab es spannende Rennen im Einzelzeitfahren. Remco Evenepoel und Marlen Reusser gewannen dabei die Goldmedaillen.",
+    "absaetze": [
+     "Das Einzelzeitfahren ist ein Radrennen. Jeder Sportler fährt die Strecke ganz alleine. Wer am Ende die schnellste Zeit hat, gewinnt. Bei den Männern war der Belgier Remco Evenepoel der Schnellste. Er schaffte den Sieg zum vierten Mal hintereinander. Das hat vor ihm noch kein anderer Radprofi geschafft.",
+     "Bei den Frauen siegte die Schweizerin Marlen Reusser. Sie freute sich an ihrem Geburtstag über die Goldmedaille. Die deutsche Radfahrerin Franziska Koch fuhr ebenfalls ein starkes Rennen. Sie kam als Dritte ins Ziel und gewann die Bronzemedaille. Die Sportlerinnen und Sportler mussten eine Strecke von knapp neununddreißig Kilometern bewältigen. Die Rennen fanden in der kanadischen Stadt Montreal statt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Remco Evenepoel gewinnt das WM-Zeitfahren der Männer in Montreal.",
+     "Marlen Reusser holt bei den Frauen die Goldmedaille für die Schweiz.",
+     "Franziska Koch gewinnt die Bronzemedaille für das deutsche Team."
+    ],
+    "lang": [
+     "Remco Evenepoel und Marlen Reusser gewinnen die Goldmedaillen im Einzelzeitfahren bei der Straßenrad-Weltmeisterschaft.",
+     "Die Wettkämpfe finden im kanadischen Montreal statt.",
+     "Evenepoel absolviert die Strecke von knapp neununddreißig Kilometern in einer Zeit von vierundvierzig Minuten und dreiundfünfzig Komma eins drei Sekunden.",
+     "Der belgische Radprofi gewinnt damit zum vierten Mal in Folge den Titel bei den Männern.",
+     "Den zweiten Platz belegt der Italiener Filippo Ganna, während der Franzose Paul Seixas Bronze gewinnt.",
+     "Bei den Frauen holt die Schweizerin Marlen Reusser den Sieg an ihrem fünfunddreißigsten Geburtstag.",
+     "Die britische Fahrerin Zoe Backstedt sichert sich die Silbermedaille.",
+     "Nach Angaben der Medien erkämpft sich die deutsche Starterin Franziska Koch die Bronzemedaille.",
+     "Die Weltmeisterschaft im Radsport wird in den kommenden Tagen mit weiteren Rennen fortgesetzt."
+    ],
+    "einfach": [
+     "Remco Evenepoel aus Belgien gewinnt das Zeitfahren bei der Rad-Weltmeisterschaft.",
+     "Das Rennen findet in Kanada statt.",
+     "Evenepoel holt zum vierten Mal in Folge die Goldmedaille.",
+     "Bei den Frauen gewinnt Marlen Reusser aus der Schweiz.",
+     "Franziska Koch aus Deutschland holt die Bronzemedaille."
+    ]
+   },
+   "kurz": [
+    "Remco Evenepoel gewinnt zum vierten Mal in Folge das WM-Zeitfahren der Männer.",
+    "Marlen Reusser siegt im Zeitfahren der Frauen in Kanada an ihrem Geburtstag.",
+    "Franziska Koch holt die Bronzemedaille für das deutsche Team."
+   ],
+   "fakten": [
+    [
+     "Streckenlänge",
+     "39,2 Kilometer"
+    ],
+    [
+     "Evenepoels Zeit",
+     "44 Minuten und 53,13 Sekunden"
+    ],
+    [
+     "Vorsprung Evenepoel",
+     "57,31 Sekunden"
+    ],
+    [
+     "Reussers Zeit",
+     "50 Minuten und 24,44 Sekunden"
+    ],
+    [
+     "Alter Marlen Reusser",
+     "35 Jahre"
+    ]
+   ],
+   "dossier": {
+    "slug": "radsport-wm-montreal-2026",
+    "titel": "Straßenrad-Weltmeisterschaften in Montreal"
+   },
+   "bildInfo": {
+    "titel": "Kondiaronk Belvedere, Montreal city, Canada.jpg",
+    "beschreibung": "Terrace of the Mount Royal Chalet , Montreal in winter.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg/1280px-Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kondiaronk_Belvedere,_Montreal_city,_Canada.jpg",
+    "urheber": "Wilfredor",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "art": "ort",
+    "suchbegriff": "Montreal city skyline",
+    "bildunterschrift": "B Blick auf die kanadische Stadt Montreal.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Kondiaronk Belvedere, Montreal city, Canada.jpg",
+     "beschreibung": "Terrace of the Mount Royal Chalet , Montreal in winter.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg/1280px-Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Kondiaronk_Belvedere,_Montreal_city,_Canada.jpg",
+     "urheber": "Wilfredor",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "ort",
+     "suchbegriff": "Montreal city skyline",
+     "bildunterschrift": "B Blick auf die kanadische Stadt Montreal.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Circuit Gilles-Villeneuve, May 29, 2018 SkySat.jpg",
+     "beschreibung": "Circuit Gilles Villeneuve , a motor racing circuit| in Montreal , Quebec , Canada . It is the venue for the FIA| Formula One Canadian Grand Prix . Image taken on May 29, 2018, by a Planet Labs SkySat ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg/1280px-Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Circuit_Gilles-Villeneuve,_May_29,_2018_SkySat.jpg",
+     "urheber": "Planet Labs, Inc.",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Circuit Gilles Villeneuve",
+     "bildunterschrift": "Der Circuit Gilles Villeneuve in Montreal.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Montreal, Kanada",
+    "lat": 45.503,
+    "lon": -73.57
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Remco Evenepoel und Marlen Reusser gewinnen die Goldmedaillen im Einzelzeitfahre",
+     "d": "608215cb6b.mp3",
+     "l": 52.37,
+     "s": [
+      0.25,
+      7.45,
+      11.11,
+      20.58,
+      25.56,
+      31.43,
+      36.92,
+      41.37,
+      47.18
+     ]
+    },
+    {
+     "k": "Remco Evenepoel gewinnt das WM-Zeitfahren der Männer in Montreal. Marlen Reusser",
+     "d": "559c51e45e.mp3",
+     "l": 12.35,
+     "s": [
+      0.25,
+      4.56,
+      8.41
+     ]
+    },
+    {
+     "k": "Remco Evenepoel aus Belgien gewinnt das Zeitfahren bei der Rad-Weltmeisterschaft",
+     "d": "af655b4bd4.mp3",
+     "l": 19.07,
+     "s": [
+      0.25,
+      5.68,
+      8.09,
+      12.22,
+      15.53
+     ]
+    },
+    {
+     "k": "Ob Stefan Küngs Renneinteilung der Hauptgrund für seinen siebten Platz war, wird",
+     "d": "a1fd9d9759.mp3",
+     "l": 6.36,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Einzelzeitfahren? Ein Radrennen, bei dem die Sportler ei",
+     "d": "55b8f1ff11.mp3",
+     "l": 8.24,
+     "s": [
+      0.25,
+      3.06
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-21T05:50:56.000Z",
+   "aktualisiert": "aktualisiert um 08:16 Uhr",
+   "titel": "Landtagswahlen in Mecklenburg-Vorpommern und Abgeordnetenhauswahl in Berlin",
+   "vorspann": "Bei den Landtagswahlen in Mecklenburg-Vorpommern hat die AfD vor der SPD gewonnen. In Berlin entschied die Linke die Abgeordnetenhauswahl für sich.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die AfD hat die Landtagswahl in Mecklenburg-Vorpommern gewonnen.",
+    "Die CDU scheitert in Mecklenburg-Vorpommern an der Fünfprozenthürde.",
+    "In Berlin gewinnt die Linkspartei die Abgeordnetenhauswahl.",
+    "Bundeskanzler Friedrich Merz will laut eigenen Angaben im Amt bleiben."
+   ],
+   "einig": [
+    [
+     "Die AfD hat die Landtagswahl in Mecklenburg-Vorpommern mit 38,2 Prozent gewonnen.",
+     [
+      "Tagesschau/ARD",
+      "Welt",
+      "SRF"
+     ]
+    ],
+    [
+     "Die SPD landet in Mecklenburg-Vorpommern auf dem zweiten Platz mit 35,5 Prozent.",
+     [
+      "Tagesschau/ARD",
+      "Welt",
+      "SRF"
+     ]
+    ],
+    [
+     "Die CDU verpasst mit 4,9 Prozent erstmals den Einzug in ein Landesparlament.",
+     [
+      "Tagesschau/ARD",
+      "Welt",
+      "SRF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche Koalitionen letztlich gebildet werden, ist noch offen, da Gespräche angekündigt wurden."
+   ],
+   "positionen": [
+    [
+     "Leif-Erik Holm (AfD)",
+     "Sieht einen Regierungsauftrag bei der AfD und will Gespräche führen.",
+     "Tagesschau/ARD, Welt, SRF"
+    ],
+    [
+     "Manuela Schwesig (SPD)",
+     "Kündigt Gespräche mit allen demokratischen Parteien an und freut sich über das Ergebnis.",
+     "Tagesschau/ARD, Welt, SRF"
+    ],
+    [
+     "Friedrich Merz (CDU)",
+     "Will trotz der Wahlergebnisse im Amt bleiben und den Reformkurs fortsetzen.",
+     "Tagesschau/ARD, Welt, SRF, ORF"
+    ]
+   ],
+   "fehlend": "Detaillierte Einzelergebnisse kleinerer Parteien abseits der Fünfprozenthürde in Berlin und Mecklenburg-Vorpommern.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 00:15",
+     "fokus": "Umfassender Bericht mit Reaktionen",
+     "text": "Die Tagesschau liefert detaillierte Prozentzahlen, Reaktionen von Spitzenkandidaten sowie Einschätzungen zur Bundespolitik.",
+     "url": "https://www.tagesschau.de/inland/landtagswahlen/mecklenburg-vorpommern/2026/mecklenburg-vorpommern-landtagswahl-ergebnis-104.html",
+     "video": false
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "21.09.26, 07:50",
+     "fokus": "–",
+     "text": "Top US and Chinese officials held talks in New York on Sunday ahead of a Trump-Xi summit this week.",
+     "url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo?at_medium=RSS&at_campaign=rss",
+     "video": false
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "21.09.26, 00:30",
+     "fokus": "Fokus auf historische Tiefstwerte der CDU",
+     "text": "Die Welt betont das schlechteste Ergebnis der CDU und nennt genaue Mandatszahlen.",
+     "url": "https://www.welt.de/politik/deutschland/article6aafe4d2fc619be80f3c4477/mecklenburg-vorpommern-offiziell-cdu-verpasst-erstmals-einzug-in-den-landtag-afd-siegt-deutlich-vor-spd.html",
+     "video": false
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "20.09.26, 18:30",
+     "fokus": "–",
+     "text": "",
+     "url": "https://orf.at/stories/3442739/",
+     "video": false
+    },
+    {
+     "name": "SRF",
+     "typ": "öffentlich-rechtlich (Schweiz)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "21.09.26, 05:22",
+     "fokus": "Vergleich mit den Wahlen in Berlin",
+     "text": "Das SRF ergänzt den Bericht um die parallelen Wahlergebnisse aus Berlin, wo die Linke siegreich war.",
+     "url": "https://www.srf.ch/news/international/landtagswahlen-in-deutschland-historische-schlappe-fuer-kanzlerpartei-cdu-raender-erstarken",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Berücksichtigung von Berlin",
+     "SRF berichtet ausführlich über die Abgeordnetenhauswahl in Berlin, während andere Quellen den Schwerpunkt auf Mecklenburg-Vorpommern legen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Wahlberechtigte in Mecklenburg-Vorpommern und Berlin",
+    "was": "Wahl des Landtages beziehungsweise des Abgeordnetenhauses",
+    "wann": "2026-09-20",
+    "wo": "Mecklenburg-Vorpommern und Berlin, Deutschland",
+    "wie": "Durch Stimmabgabe in Wahllokalen",
+    "warum": "Reguläres Ende der vorherigen Legislaturperiode laut Berichten",
+    "quellenlage": "Landeswahlleitung und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Ergebnisse in Mecklenburg-Vorpommern",
+     "absaetze": [
+      "Die AfD hat die Landtagswahl in Mecklenburg-Vorpommern gewonnen. Laut Tagesschau und Welt erreicht die AfD 38,2 Prozent der Stimmen. Die Partei konnte ihr Ergebnis von 2021 mit 16,7 Prozent mehr als verdoppeln. Auf dem zweiten Platz folgt die SPD mit Ministerpräsidentin Manuela Schwesig mit 35,5 Prozent der Stimmen. Die SPD verzeichnet damit leichte Verluste im Vergleich zu 2021, wo sie noch 39,6 Prozent errang. Ministerpräsidentin Manuela Schwesig konnte in ihrem Wahlkreis Schwerin I zudem das Direktmandat gegen den AfD-Kandidaten verteidigen.",
+      "Die Linkspartei erzielt laut den Berichten 6,5 Prozent und wird drittstärkste Kraft. Die Grünen ziehen mit 5,7 Prozent ebenfalls wieder in den Landtag ein. Die CDU verpasst mit 4,9 Prozent zum ersten Mal den Einzug in ein deutsches Landesparlament, wie unter anderem die Welt und die Tagesschau berichten. Das Ergebnis der Partei wird von Parteivertretern als schwere Niederlage eingestuft. Ebenfalls an der Fünfprozenthürde gescheitert sind das BSW mit 4,8 Prozent und die FDP mit 1,0 Prozent. Die Wahlbeteiligung stieg auf 79,0 Prozent an.",
+      "Im neuen Landtag erhält die AfD 32 Sitze, die SPD kommt auf 29 Sitze. Die Linkspartei und die Grünen erhalten jeweils fünf Mandate. Die absolute Mehrheit im Parlament liegt bei 36 Sitzen. Da eine Regierungsbildung mit der AfD von allen anderen Parteien ausgeschlossen wird, reicht eine rot-rote Koalition rechnerisch nicht aus. Als wahrscheinlich gilt laut SRF nun die Bildung einer Koalition aus SPD, Linken und Grünen."
+     ]
+    },
+    {
+     "ueberschrift": "Ergebnisse in Berlin",
+     "absaetze": [
+      "Bei der parallel stattfindenden Abgeordnetenhauswahl in Berlin erzielte die Linkspartei mit Spitzenkandidatin Elif Eralp ihr bislang bestes Ergebnis. Laut Angaben von SRF erreichte die Partei 25,7 Prozent der Stimmen. Die CDU landet mit 18,8 Prozent auf dem zweiten Platz. Die Christdemokraten hatten die Wahl vor drei Jahren noch gewonnen und danach eine Koalition mit der SPD gebildet. Den dritten Platz belegt die AfD mit 16,3 Prozent der Stimmen. Die Grünen erreichen 14,3 Prozent.",
+      "Die SPD verzeichnet in Berlin mit 12,1 Prozent ihren bisherigen Wert bei einer Abgeordnetenhauswahl. Das BSW verpasst den Einzug mit 4,7 Prozent knapp. Auch die FDP scheitert mit 2,5 Prozent an der Fünfprozenthürde. Als mögliche Regierungsoption in Berlin gilt nun die Bildung einer Dreier-Koalition aus Linken, Grünen und SPD. Die Linke kündigte laut SRF an, auf einem Parteitag über die Aufnahme von Sondierungsgesprächen zu entscheiden."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen der Parteispitzen und der Regierung",
+     "absaetze": [
+      "Bundeskanzler Friedrich Merz äußerte sich am Wahlabend in Berlin zu den Resultaten. Er räumte eine schwierige Situation ein, betonte jedoch nach Angaben der Berichte, dass er im Amt bleiben und den Reformkurs fortsetzen werde. Die Reformen seien notwendig, um das Land voranzubringen und als Mittel gegen autoritäre Strömungen zu dienen. Zuvor hatten sich laut ORF acht CDU-Ministerpräsidenten und CSU-Chef Markus Söder hinter Merz gestellt. Der Kanzler kündigte an, diese Verantwortung zu tragen. Der Berliner Landeschef der CDU, Daniel Peters, bezeichnete das Resultat in Mecklenburg-Vorpommern als Niederlage, unterstützte jedoch die Forderung nach Reformen.",
+      "Die SPD zeigte sich über das Ergebnis in Mecklenburg-Vorpommern trotz leichter Verluste erleichtert. Ministerpräsidentin Manuela Schwesig sprach von einer gelungenen Aufholjagd, nachdem die Partei in früheren Umfragen niedriger gelegen hatte. Schwesig kündigte an, Gespräche mit allen demokratischen Parteien zu führen. Die AfD beansprucht nach den Worten ihres Spitzenkandidaten Leif-Erik Holm einen Regierungsauftrag und will ebenfalls Einladungen zu Gesprächen aussprechen. Die Grünen zeigten sich offen für Koalitionsgespräche mit SPD und Linken auf Landesebene."
+     ]
+    }
+   ],
    "zeitleiste": [
     [
      "2026-09-10",
@@ -424,18 +1888,40 @@
     [
      "Aktuell",
      "Schließung der Wahllokale und Veröffentlichung erster Hochrechnungen für Berlin und Mecklenburg-Vorpommern"
+    ],
+    [
+     "2026-09-20T16:30:38.000Z",
+     "Bundeskanzler Friedrich Merz fordert nach den Wahlen die Fortsetzung der Reformen."
+    ],
+    [
+     "2026-09-20T18:00:00.000Z",
+     "Schließung der Wahllokale und erste Prognosen zur Wahl."
+    ],
+    [
+     "2026-09-21T03:22:29.000Z",
+     "SRF meldet die genauen Ergebnisse und Mandatsverteilungen aus den Wahlregionen."
     ]
    ],
    "bilder": [
     {
-     "art": "institution",
-     "suchbegriff": "Schwerin Castle MecklenburgVorpommern",
-     "bildunterschrift": "Das Schloss Schwerin, Sitz des Landtages von Mecklenburg-Vorpommern."
+     "art": "person",
+     "suchbegriff": "Manuela Schwesig politician",
+     "bildunterschrift": "Manuela Schwesig ist Ministerpräsidentin von Mecklenburg-Vorpommern."
     },
     {
-     "art": "building",
-     "suchbegriff": "Abgeordnetenhaus von Berlin building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin, der Tagungsort des Berliner Parlaments."
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Friedrich Merz ist Bundeskanzler und Bundesvorsitzender der CDU."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Landtag Mecklenburg Vorpommern Schwerin",
+     "bildunterschrift": "Der Landtag von Mecklenburg-Vorpommern hat seinen Sitz in Schwerin."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schloss in Schwerin ist ein bekanntes Wahrzeichen der Landeshauptstadt."
     }
    ],
    "ort": {
@@ -443,110 +1929,93 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Unbelegte Details aus dem Entwurf wurden entfernt und durch Angaben aus den Originalquellen ersetzt."
+    "Wertende Ausdrücke wie 'krachend' und 'dramatisch' außerhalb direkter Zitate wurden durch neutrale Begriffe ersetzt."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
-      "Hochrechnung",
-      "Eine wissenschaftliche Vorberechnung des Wahlergebnisses auf Basis bereits ausgezählter Stimmen, bevor das amtliche Endergebnis feststeht."
+      "Landtag",
+      "Das Parlament eines deutschen Bundeslandes, das Gesetze beschließt."
      ],
      [
-      "Landtag",
-      "Das Parlament eines deutschen Bundeslandes, das Gesetze beschließt und die Landesregierung kontrolliert."
+      "Koalition",
+      "Ein Bündnis aus mehreren Parteien, die zusammen eine Regierung bilden."
+     ],
+     [
+      "Fünf-Prozent-Hürde",
+      "Eine Regel, nach der eine Partei mindestens fünf Prozent der Stimmen braucht, um in ein Parlament einzuziehen."
      ]
     ],
     "fragen": [
-     "Welche Rolle spielen Hochrechnungen am Wahlabend und warum können sich Werte noch verändern?",
-     "Warum ist es für Parteien wichtig, die Fünf-Prozent-Hürde zu überschreiten?"
+     "Welche Folgen haben solche Wahlergebnisse für die Arbeit einer Bundesregierung?",
+     "Warum ist es für Parteien wichtig, nach einer Wahl Koalitionsgespräche zu führen?"
     ],
-    "quiz": [
-     {
-      "frage": "Welche Partei liegt laut Hochrechnungen der Tagesschau in Mecklenburg-Vorpommern vorn?",
-      "optionen": [
-       "CDU",
-       "AfD",
-       "SPD"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Tagesschau berichtet, dass die AfD mit siebenunddreißig Komma neun Prozent auf dem ersten Platz liegt."
-     },
-     {
-      "frage": "Welche Partei wurde in Berlin laut Deutschlandfunk und Spiegel stärkste Kraft?",
-      "optionen": [
-       "Die Linke",
-       "SPD",
-       "Grüne"
-      ],
-      "richtig": 0,
-      "erklaerung": "Deutschlandfunk und Spiegel berichten übereinstimmend, dass die Linke in Berlin klar stärkste Kraft geworden ist."
-     },
-     {
-      "frage": "Wer teilte laut Tagesschau mit, dass der Großteil der Stimmen in Mecklenburg-Vorpommern bereits ausgezählt ist?",
-      "optionen": [
-       "Der Bundeskanzler",
-       "Der Landeswahlleiter Christian Boden",
-       "Die AfD-Vorsitzende Alice Weidel"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau erklärte der Landeswahlleiter Christian Boden, dass der Großteil der Stimmen bereits ausgezählt ist."
-     }
+    "quiz": []
+   },
+   "einfach": {
+    "vorspann": "In Mecklenburg-Vorpommern und in Berlin wurde gewählt.",
+    "absaetze": [
+     "In Mecklenburg-Vorpommern hat die Partei AfD die Landtagswahl gewonnen.",
+     "Die AfD holte nach Angaben der Wahlleitung 38,2 Prozent der Stimmen.",
+     "Die SPD von Ministerpräsidentin Manuela Schwesig landete auf dem zweiten Platz.",
+     "Die CDU verpasste dort zum ersten Mal den Einzug in ein Landesparlament.",
+     "In Berlin gewann die Linkspartei die Wahl zum Abgeordnetenhaus."
     ]
    },
    "video": {
     "kurz": [
-     "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger neue Parlamente gewählt.",
-     "In Berlin ist die Linke laut Medienberichten stärkste Kraft geworden.",
-     "In Mecklenburg-Vorpommern liegt die AfD in den Hochrechnungen vor der SPD.",
-     "CDU und BSW müssen um den Einzug in den Landtag bangen."
+     "Die AfD hat die Landtagswahl in Mecklenburg-Vorpommern gewonnen.",
+     "Die CDU verpasste den Einzug in den Landtag.",
+     "In Berlin entschied die Linkspartei die Abgeordnetenhauswahl für sich."
     ],
     "lang": [
-     "In Berlin und Mecklenburg-Vorpommern haben die Menschen neue Parlamente gewählt.",
-     "In Berlin wurde das Abgeordnetenhaus und in Mecklenburg-Vorpommern der Landtag bestimmt.",
-     "In Berlin ist die Linke nach Berichten von Deutschlandfunk und Spiegel stärkste Kraft geworden.",
-     "In Mecklenburg-Vorpommern liegt die AfD nach Hochrechnungen der Tagesschau mit siebenunddreißig Komma neun Prozent vorn.",
-     "Die SPD folgt demnach auf dem zweiten Platz mit fünfunddreißig Komma sieben Prozent.",
-     "Die CDU und das Bündnis Sahra Wagenknecht müssen laut den Zahlen um den Einzug in den Landtag bangen.",
-     "Nach Angaben des SPD-Generalsekretärs Tim Klüssendorf ist das Ergebnis der AfD erschreckend.",
-     "Die AfD-Vorsitzende Alice Weidel sprach von einem klaren Regierungsauftrag für ihre Partei.",
-     "Die offiziellen Endergebnisse stehen nach Angaben der Wahlleitung noch aus, weil Briefwahlstimmen noch ausgezählt werden."
+     "In Mecklenburg-Vorpommern hat die Partei AfD die Landtagswahl gewonnen.",
+     "Nach Angaben der Wahlleitung erreichte die AfD 38,2 Prozent der Stimmen.",
+     "Auf dem zweiten Platz folgte die SPD mit 35,5 Prozent.",
+     "Die CDU scheiterte an der Fünf-Prozent-Hürde und ist nicht mehr im Parlament vertreten.",
+     "In Berlin gewann die Linkspartei die Abgeordnetenhauswahl mit 25,7 Prozent der Stimmen.",
+     "Bundeskanzler Friedrich Merz erklärte nach den Wahlen, dass er im Amt bleiben will.",
+     "Merz kündigte an, den begonnenen Reformkurs auf Bundesebene fortzusetzen.",
+     "Die weiteren Parteien beraten nun über mögliche Koalitionen und Regierungen.",
+     "Gespräche zwischen verschiedenen Parteien wurden für die kommenden Tage angekündigt."
     ],
     "einfach": [
-     "In Berlin und Mecklenburg-Vorpommern wurde gewählt.",
-     "Die Bürgerinnen und Bürger haben neue Parlamente bestimmt.",
-     "In Berlin ist die Linke laut Berichten stärkste Kraft.",
-     "In Mecklenburg-Vorpommern liegt die AfD in Hochrechnungen vorn.",
-     "Einige Parteien müssen noch um ihren Einzug in den Landtag bangen."
+     "In Mecklenburg-Vorpommern gab es eine wichtige Landtagswahl.",
+     "Die AfD hat diese Wahl mit den meisten Stimmen gewonnen.",
+     "Die CDU schaffte den Einzug in das Parlament nicht.",
+     "In Berlin gab es ebenfalls eine Wahl für das Abgeordnetenhaus.",
+     "Dort hat die Linkspartei die meisten Stimmen bekommen.",
+     "Die Politiker beraten nun über die Zukunft."
     ]
    },
    "kurz": [
-    "In Berlin und Mecklenburg-Vorpommern fanden Wahlen statt.",
-    "Die Linke wurde in Berlin laut Berichten stärkste Kraft.",
-    "In Mecklenburg-Vorpommern führt die AfD in den Hochrechnungen.",
-    "CDU und BSW bangen um den Einzug in den Landtag in Schwerin."
+    "Die AfD gewinnt die Landtagswahl in Mecklenburg-Vorpommern mit 38,2 Prozent.",
+    "Die CDU verpasst dort mit 4,9 Prozent erstmals den Einzug in ein Landesparlament.",
+    "In Berlin gewinnt die Linkspartei die Abgeordnetenhauswahl.",
+    "Bundeskanzler Friedrich Merz kündigt an, im Amt zu bleiben."
    ],
    "fakten": [
     [
      "AfD in Mecklenburg-Vorpommern",
-     "37,9 Prozent"
+     "38,2 Prozent"
     ],
     [
      "SPD in Mecklenburg-Vorpommern",
-     "35,7 Prozent"
+     "35,5 Prozent"
     ],
     [
      "CDU in Mecklenburg-Vorpommern",
-     "5,0 Prozent"
+     "4,9 Prozent"
     ],
     [
-     "BSW in Mecklenburg-Vorpommern",
-     "4,9 Prozent"
+     "Linke in Berlin",
+     "25,7 Prozent"
     ]
    ],
    "dossier": {
-    "slug": "wahlen-in-deutschland-2026",
-    "titel": "Wahlen in Mecklenburg-Vorpommern und Berlin"
+    "slug": "landtagswahlen-mecklenburg-vorpommern-berlin-2026",
+    "titel": "Landtagswahlen in Mecklenburg-Vorpommern und Berlin"
    },
    "bildInfo": {
     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
@@ -609,59 +2078,59 @@
    "version": 5,
    "ton": [
     {
-     "k": "In Berlin und Mecklenburg-Vorpommern haben die Menschen neue Parlamente gewählt.",
-     "d": "906d34eb4c.mp3",
-     "l": 52.64,
+     "k": "In Mecklenburg-Vorpommern hat die Partei AfD die Landtagswahl gewonnen. Nach Ang",
+     "d": "deebaf8935.mp3",
+     "l": 45.3,
      "s": [
       0.25,
-      4.9,
-      10.18,
-      15.33,
-      22.62,
-      27.65,
-      33.94,
-      39.98,
-      45.73
+      4.31,
+      9.47,
+      14.56,
+      19.95,
+      26.16,
+      30.94,
+      35.95,
+      40.56
      ]
     },
     {
-     "k": "In Berlin und Mecklenburg-Vorpommern haben die Bürgerinnen und Bürger neue Parla",
-     "d": "9ca773c1b5.mp3",
-     "l": 18.64,
+     "k": "Die AfD hat die Landtagswahl in Mecklenburg-Vorpommern gewonnen. Die CDU verpass",
+     "d": "4ec73f95d2.mp3",
+     "l": 11.5,
      "s": [
       0.25,
-      5.66,
-      9.74,
-      14.49
+      4.07,
+      7.28
      ]
     },
     {
-     "k": "In Berlin und Mecklenburg-Vorpommern wurde gewählt. Die Bürgerinnen und Bürger h",
-     "d": "e6f9960e70.mp3",
-     "l": 20.03,
+     "k": "In Mecklenburg-Vorpommern gab es eine wichtige Landtagswahl. Die AfD hat diese W",
+     "d": "eb1971194c.mp3",
+     "l": 21.23,
      "s": [
       0.25,
-      3.78,
-      7.68,
-      11.39,
-      16.07
+      3.97,
+      7.17,
+      11.06,
+      15.27,
+      18.39
      ]
     },
     {
-     "k": "Ob CDU und BSW die Fünf-Prozent-Hürde in Mecklenburg-Vorpommern übertreffen, da ",
-     "d": "3151d778c8.mp3",
-     "l": 11.88,
+     "k": "Welche Koalitionen letztlich gebildet werden, ist noch offen, da Gespräche angek",
+     "d": "d29483932e.mp3",
+     "l": 6.01,
      "s": [
       0.25
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Hochrechnung? Eine wissenschaftliche Vorberechnung des W",
-     "d": "d8f08fd82f.mp3",
-     "l": 10.9,
+     "k": "Was bedeutet eigentlich Landtag? Das Parlament eines deutschen Bundeslandes, das",
+     "d": "5670396298.mp3",
+     "l": 6.83,
      "s": [
       0.25,
-      2.67
+      2.54
      ]
     }
    ]
@@ -1143,561 +2612,6 @@
    ]
   },
   {
-   "id": "duma-wahl-russland-drohnenangriffe",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T19:15:57.000Z",
-   "aktualisiert": "aktualisiert um 21:25 Uhr",
-   "titel": "Parlamentarische Wahlen in der Russischen Föderation",
-   "vorspann": "In der Russischen Föderation ist die dreitägige Wahl des Parlaments zu Ende gegangen. Laut Nachbefragungen zeichnet sich ein Sieg der Regierungspartei ab.",
-   "eil": false,
-   "zusammenfassung": [
-    "In Russland ist die dreitägige Wahl zur Staatsduma zu Ende gegangen.",
-    "Die Regierungspartei Geeintes Russland ging laut Nachbefragungen als Siegerin hervor.",
-    "Beobachter und Oppositionelle kritisierten Unregelmäßigkeiten bei der Stimmabgabe.",
-    "Die Wahl fand erstmals auch in besetzten ukrainischen Gebieten statt, was auf Protest stieß."
-   ],
-   "einig": [
-    [
-     "Die Partei Geeintes Russland geht als Siegerin aus der Parlamentswahl hervor.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Die Wahlen wurden auch in den besetzten ukrainischen Gebieten abgehalten.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Das genaue Ausmaß von Wahlmanipulationen und die Täterschaft bei den Cyberangriffen auf das Wahlsystem bleiben ungeklärt."
-   ],
-   "positionen": [
-    [
-     "Ukrainische Führung",
-     "Die Wahl in den besetzten Gebieten findet unter Zwang statt und wird nicht anerkannt.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Ella Pamfilowa (Leiterin der Zentralen Wahlkommission)",
-     "Die Wahl verlief im Großen und Ganzen ordnungsgemäß.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Nikolai Rybakow (Jabloko-Vorsitzender)",
-     "Die Opposition wird von Wahlen ausgeschlossen, weshalb Stimmzettel ungültig gemacht werden sollten.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stimmen unabhängiger internationaler Wahlbeobachter wie der Organisation für Sicherheit und Zusammenarbeit in Europa",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 17:09",
-     "fokus": "Hintergründe und Beobachterberichte",
-     "text": "Die Tagesschau beleuchtet Berichte von Wahlbeobachtern über Unregelmäßigkeiten und geht auf die wirtschaftliche Lage in Russland ein.",
-     "url": "https://www.tagesschau.de/ausland/europa/duma-wahl-russland-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 20:08",
-     "fokus": "Prognosen und Wahlergebnisse",
-     "text": "ZDFheute nennt konkrete Prozentzahlen der Parteien aus Nachbefragungen und berichtet über Drohnenangriffe auf Moskau.",
-     "url": "https://www.zdfheute.de/politik/ausland/parlamentswahl-putin-wahl-staatsduma-geeintes-russland-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 21:15",
-     "fokus": "–",
-     "text": "Die Partei Geeintes Russland von Kreml-Chef Putin ist nach der dreitägigen Parlamentswahl zur Siegerin erklärt worden.",
-     "url": "https://www.deutschlandfunk.de/partei-geeintes-russland-von-staatschef-putin-gewinnt-erwartungsgemaess-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 21:07",
-     "fokus": "Kritik an der Demokratie",
-     "text": "Der Spiegel betont den Mangel an Fairness bei den Wahlen und beschreibt die wirtschaftlichen Probleme.",
-     "url": "https://www.spiegel.de/ausland/russland-prognosen-sehen-kremlpartei-einiges-russland-als-sieger-bei-parlamentswahl-a-2b4a2913-ce72-4866-87ba-1141c614547f#ref=rss",
-     "video": false
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 21:13",
-     "fokus": "–",
-     "text": "Zusammentreffen nächste Woche in New York, Russland beklagt Cyberattacken auf Parlamentswahl, Ukraine greift Großraum Moskau am letzten Wahltag an.",
-     "url": "https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-selenskyj-kuendigt-treffen-mit-trump-an-faz-110683325.html",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detaillierungsgrad der Prozentzahlen",
-     "ZDFheute und Spiegel nennen exakte Zahlen für alle Parteien aus Nachbefragungen, während andere Quellen sich auf die Regierungspartei konzentrieren."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Wahlberechtigte in Russland, Regierungspartei Geeintes Russland",
-    "was": "Wahl der Staatsduma",
-    "wann": "20. September 2026",
-    "wo": "Russland und besetzte ukrainische Gebiete",
-    "wie": "Durch dreitägige Stimmabgabe vor Ort und elektronisch",
-    "warum": "Reguläre parlamentarische Neuwahl",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, FAZ"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "In der Russischen Föderation ist eine dreitägige Parlamentswahl zu Ende gegangen. Nach dem Abschluss der Stimmabgabe wurden erste Ergebnisse und Nachbefragungen veröffentlicht. Laut Angaben von Agenturen und dem Meinungsforschungsinstitut Wziom liegt die Regierungspartei Geeintes Russland vorn. Die Partei kam demnach auf 49,4 Prozent der stimmen.",
-      "Die Wahl der Staatsduma umfasst insgesamt 450 Abgeordnete. Wahlberechtigt waren mehr als 110 Millionen Bürgerinnen und Bürger. Neben den Wahllokalen vor Ort stand auch ein elektronisches Abstimmungssystem zur Verfügung. Die Beteiligung lag nach amtlichen Angaben bei mehr als 56 Prozent.",
-      "Die Abstimmung fand unter dem Eindruck militärischer Auseinandersetzungen statt. Erstmals wurde das Parlament auch in den von Russland kontrollierten Teilen der ukrainischen Regionen Luhansk, Donezk, Saporischschja und Cherson gewählt. Dies geschah trotz des Protests der ukrainischen Führung."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Laut den Prognosen schafften neben der regierenden Partei Geeintes Russland vier weitere Parteien den Einzug in das Parlament. Die Kommunistische Partei erreichte 14,2 Prozent der Stimmen. Die ultranationalistische Partei LDPR erzielte 10,7 Prozent. Die Partei Nowyje Ljudi kam auf 9,7 Prozent und die Partei Gerechtes Russland auf 6,6 Prozent.",
-      "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten begleitet. Beobachter sowie Parteivertreter meldeten Manipulationsversuche. Unter anderem sei es zu Behinderungen von Beobachtern gekommen. In St. Petersburg stimmten Wahlprotokolle nach Berichten nicht mit der Zahl der Wähler überein.",
-      "Zudem gab es Berichte über das Einwerfen vorausgefüllter Wahlzettel in die Urnen. Wähler beklagten außerdem, ohne ihr Wissen für eine Online-Abstimmung registriert worden zu sein. Die Zentrale Wahlkommission meldete zudem massive Cyberangriffe auf die elektronische Wahlinfrastruktur in Moskau."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Parlamentswahl gilt laut Berichten als Bestätigung für den politischen Kurs von Präsident Wladimir Putin. Es war die erste Abstimmung seit Beginn des Krieges gegen die Ukraine im Februar 2022. Die regierende Partei Geeintes Russland war mit einer schwierigen wirtschaftlichen Lage konfrontiert.",
-      "Westliche Sanktionen führten zu einer hohen Inflation im Land. Zudem klagten Bürger über Treibstoffmangel an Tankstellen. Ursache dafür waren laut Berichten unter anderem ukrainische Drohnenangriffe auf Ölraffinerien. Die russische Hauptstadt Moskau erlebte nach Angaben der Behörden schwere Drohnenangriffe."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Staatsduma ist das Abgeordnetenhaus und bildet zusammen mit dem Föderationsrat das Parlament der Russischen Föderation. Sie beschließt Gesetze und entscheidet über den Haushalt."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die ukrainische Führung kritisierte die Stimmabgabe in den besetzten Gebieten scharf. Sie sprach von einer Wahl unter Zwang und will die Ergebnisse dort nicht anerkennen. Die Leiterin der Zentralen Wahlkommission, Ella Pamfilowa, erklärte hingegen, die Wahl sei im Großen und Ganzen ordnungsgemäß verlaufen. Sie bestätigte Angriffe auf das elektronische System, betonte jedoch deren Abwehr.",
-      "Der Vorsitzende der Partei Jabloko, Nikolai Rybakow, kritisierte den Ausschluss von Kräften. Er machte seinen Stimmzettel demonstrativ ungültig. Jabloko-Beobachter wurden nach Angaben der Partei in mehreren Städten an der Arbeit gehindert.",
-      "Kritiker wie der Vertraute des verstorbenen Alexej Nawalny, Leonid Wolkow, äußerten Zweifel an der Integrität des elektronischen Wahlsystems. Sie vermuteten absichtlich herbeigeführte Störungen bei der Papierstimmzettel-Ausgabe."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Nach Schließung der Wahllokale erfolgt die vollständige Auszählung der Stimmen. Die Verkündung offizieller Endergebnisse wird durch die Wahlkommission vorbereitet. Die gewählten Abgeordneten nehmen anschließend ihre Arbeit in der neuen Staatsduma auf."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Freitag",
-     "Angriff auf ein Munitionslager im Gebiet Kiew."
-    ],
-    [
-     "Sonntag",
-     "Ende der dreitägigen Parlamentswahl in Russland und Drohnenangriffe."
-    ],
-    [
-     "Freitag",
-     "Russischer Angriff auf ein Munitionslager im Gebiet Kiew."
-    ],
-    [
-     "Sonntag",
-     "Ende der dreitägigen Parlamentswahl in Russland und ukrainische Drohnenangriffe auf die Region Moskau und Jaroslawl."
-    ],
-    [
-     "Sonntag",
-     "Ende der dreitägigen Parlamentswahl in Russland."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "institution",
-     "suchbegriff": "State Duma building Moscow",
-     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau, in das die neuen Abgeordneten gewählt werden."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Vladimir Putin official portrait",
-     "bildunterschrift": "Wladimir Putin, Präsident der Russischen Föderation."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Red Square Moscow",
-     "bildunterschrift": "Der Rote Platz in Moskau nahe den zentralen Regierungsgebäuden."
-    }
-   ],
-   "ort": {
-    "name": "Moskau, Russland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Unbelegte Details im Abschnitt Zum Verständnis entfernt.",
-    "Bezeichnungen in den W-Fragen korrigiert.",
-    "Formulierungen in den Positionen an die Quellentexte angepasst."
-   ],
-   "wortwarnung": [
-    "massive"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Staatsduma",
-      "Die Staatsduma ist das Abgeordnetenhaus und ein Teil des Parlaments in Russland."
-     ],
-     [
-      "Wahlbeobachter",
-      "Wahlbeobachter prüfen, ob eine Wahl fair und ohne Betrug abläuft."
-     ],
-     [
-      "Sanktionen",
-      "Sanktionen sind wirtschaftliche Strafen, die gegen ein Land verhängt werden."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen Wahlbeobachter bei Wahlen?",
-     "Warum ist eine Wahl in besetzten Kriegsgebieten international umstritten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welche Partei ging laut Nachbefragungen als Siegerin aus der Wahl hervor?",
-      "optionen": [
-       "Geeintes Russland",
-       "Kommunistische Partei",
-       "Jabloko"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Partei Geeintes Russland erreichte laut den Nachbefragungen 49,4 Prozent der Stimmen."
-     },
-     {
-      "frage": "Wo fand die Parlamentswahl in diesem Jahr erstmals ebenfalls statt?",
-      "optionen": [
-       "In Belarus",
-       "In besetzten ukrainischen Gebieten",
-       "In Kasachstan"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Wahl wurde laut den Berichten erstmals auch in den von Russland kontrollierten Teilen der ukrainischen Regionen abgehalten."
-     },
-     {
-      "frage": "Wie viele Abgeordnete werden für die neue Staatsduma gewählt?",
-      "optionen": [
-       "100 Abgeordnete",
-       "450 Abgeordnete",
-       "600 Abgeordnete"
-      ],
-      "richtig": 1,
-      "erklaerung": "Es wurden 450 Abgeordnete für die neue Staatsduma in Moskau gewählt."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Russland haben die Menschen drei Tage lang ein neues Parlament gewählt.",
-    "absaetze": [
-     "Das Parlament heißt Staatsduma und hat vierhundertfünfzig Abgeordnete.",
-     "Die Partei von Präsident Wladimir Putin hat die Wahl laut Umfragen gewonnen.",
-     "Die Wahl fand auch in besetzten Gebieten der Ukraine statt.",
-     "Kritiker und Beobachter meldeten jedoch viele Fehler und Betrug bei der Wahl.",
-     "Die ukrainische Führung lehnte die Abstimmung in den besetzten Gebieten ab."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Russland ist die Parlamentswahl zu Ende gegangen.",
-     "Die Partei von Präsident Putin liegt nach Umfragen vorn.",
-     "Beobachter kritisierten jedoch Unregelmäßigkeiten bei der Stimmabgabe."
-    ],
-    "lang": [
-     "In Russland ist die dreitägige Wahl für das Parlament zu Ende gegangen.",
-     "Nach Angaben von Nachbefragungen gewinnt die Partei Geeintes Russland die Wahl.",
-     "Die Partei von Präsident Wladimir Putin kam demnach auf 49,4 Prozent der Stimmen.",
-     "Mehr als einhundertzehn Millionen Menschen waren zur Wahl der vierhundertfünfzig Abgeordneten aufgerufen.",
-     "Die Wahl fand erstmals auch in besetzten Gebieten der Ukraine statt.",
-     "Die ukrainische Führung kritisierte diese Abstimmung scharf als Zwang.",
-     "Wahlbeobachter und Oppositionelle berichteten zudem über Manipulationsversuche in den Wahllokalen.",
-     "Die Leiterin der Wahlkommission Ella Pamfilowa erklärte dagegen, die Wahl sei ordnungsgemäß verlaufen.",
-     "Die Parlamentswahl gilt als wichtige Bestätigung für den politischen Kurs von Präsident Putin.",
-     "Die offiziellen Endergebnisse werden nach der vollständigen Auszählung der Stimmen erwartet."
-    ],
-    "einfach": [
-     "In Russland ist die Wahl für ein neues Parlament beendet.",
-     "Die Partei von Präsident Putin hat laut Umfragen gewonnen.",
-     "Es gab aber viele Berichte über Streit und Fehler bei der Wahl.",
-     "Auch in besetzten Gebieten der Ukraine wurde abgestimmt.",
-     "Die Ukraine war damit nicht einverstanden."
-    ]
-   },
-   "kurz": [
-    "In Russland ist die dreitägige Wahl zur Staatsduma zu Ende gegangen.",
-    "Die Regierungspartei Geeintes Russland liegt nach Nachbefragungen vorn.",
-    "Beobachter berichteten von Unregelmäßigkeiten und Manipulationsversuchen.",
-    "Die Abstimmung fand auch in besetzten ukrainischen Gebieten statt."
-   ],
-   "fakten": [
-    [
-     "Stimmen Geeintes Russland",
-     "49,4 Prozent"
-    ],
-    [
-     "Stimmen Kommunistische Partei",
-     "14,2 Prozent"
-    ],
-    [
-     "Stimmen LDPR",
-     "10,7 Prozent"
-    ],
-    [
-     "Stimmen Nowyje Ljudi",
-     "9,7 Prozent"
-    ],
-    [
-     "Stimmen Gerechtes Russland",
-     "6,6 Prozent"
-    ],
-    [
-     "Wahlbeteiligung",
-     "mehr als 56 Prozent"
-    ],
-    [
-     "Anzahl Abgeordnete",
-     "450"
-    ],
-    [
-     "Wahlberechtigte",
-     "mehr als 110 Millionen"
-    ]
-   ],
-   "dossier": {
-    "slug": "wahl-russland-2026",
-    "titel": "Parlamentswahl in Russland"
-   },
-   "bildInfo": {
-    "titel": "Vladimir Putin - 2012.jpg",
-    "beschreibung": "Official portrait of Vladimir Putin .",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
-    "urheber": "Russian Presidential Press and Information Office",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-    "art": "person",
-    "suchbegriff": "Vladimir Putin official portrait",
-    "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Vladimir Putin - 2012.jpg",
-     "beschreibung": "Official portrait of Vladimir Putin .",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
-     "urheber": "Russian Presidential Press and Information Office",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "person",
-     "suchbegriff": "Vladimir Putin official portrait",
-     "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Moscow. State Duma at night1.jpg",
-     "beschreibung": "Москва. Госдума ночью.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Moscow._State_Duma_at_night1.jpg/1280px-Moscow._State_Duma_at_night1.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Moscow._State_Duma_at_night1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Moscow._State_Duma_at_night1.jpg",
-     "urheber": "Юрий Д.К.",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "institution",
-     "suchbegriff": "State Duma building Moscow",
-     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau bei Nacht.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Moscow's Red Square, Moscow, Russia.jpg",
-     "beschreibung": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg",
-     "urheber": "Vyacheslav Argenberg",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "ort",
-     "suchbegriff": "Red Square Moscow",
-     "bildunterschrift": "Der Rote Platz in Moskau.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Moskau, Russland",
-    "lat": 55.626,
-    "lon": 37.606
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "In Russland ist die dreitägige Wahl für das Parlament zu Ende gegangen. Nach Ang",
-     "d": "2292950fc2.mp3",
-     "l": 52.12,
-     "s": [
-      0.25,
-      4.29,
-      8.85,
-      14.62,
-      20.49,
-      24.47,
-      28.53,
-      34.71,
-      40.96,
-      46.56
-     ]
-    },
-    {
-     "k": "In Russland ist die Parlamentswahl zu Ende gegangen. Die Partei von Präsident Pu",
-     "d": "dd20cbf109.mp3",
-     "l": 11.14,
-     "s": [
-      0.25,
-      3.24,
-      6.71
-     ]
-    },
-    {
-     "k": "In Russland ist die Wahl für ein neues Parlament beendet. Die Partei von Präside",
-     "d": "42663b64d9.mp3",
-     "l": 18.95,
-     "s": [
-      0.25,
-      4.11,
-      8.33,
-      12.29,
-      15.89
-     ]
-    },
-    {
-     "k": "Das genaue Ausmaß von Wahlmanipulationen und die Täterschaft bei den Cyberangrif",
-     "d": "b4e9bd1967.mp3",
-     "l": 7.58,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Abgeordnetenhaus und ",
-     "d": "a44d7d14e4.mp3",
-     "l": 8.26,
-     "s": [
-      0.25,
-      2.82
-     ]
-    },
-    {
-     "k": "In der Russischen Föderation ist eine dreitägige Parlamentswahl zu Ende gegangen",
-     "d": "62a76aa5cc.mp3",
-     "l": 41.34,
-     "s": [
-      0.25,
-      5.11,
-      10.43,
-      17.55,
-      22.16,
-      26.73,
-      31.22,
-      36.39
-     ]
-    },
-    {
-     "k": "Laut den Prognosen schafften neben der regierenden Partei Geeintes Russland vier",
-     "d": "cbaef9eb5a.mp3",
-     "l": 38.16,
-     "s": [
-      0.25,
-      7.46,
-      11.79,
-      17.06,
-      24.45,
-      28.51,
-      32.99,
-      36.75
-     ]
-    },
-    {
-     "k": "Die Parlamentswahl gilt laut Berichten als Bestätigung für den politischen Kurs ",
-     "d": "afca3a1255.mp3",
-     "l": 37.24,
-     "s": [
-      0.25,
-      6.44,
-      12.93,
-      18.49,
-      22.23,
-      26.1,
-      31.87
-     ]
-    },
-    {
-     "k": "Die Staatsduma ist das Abgeordnetenhaus und bildet zusammen mit dem Föderationsr",
-     "d": "83b76e7614.mp3",
-     "l": 11.16,
-     "s": [
-      0.25,
-      7.73
-     ]
-    },
-    {
-     "k": "Die ukrainische Führung kritisierte die Stimmabgabe in den besetzten Gebieten sc",
-     "d": "0f67cdf48d.mp3",
-     "l": 46.1,
-     "s": [
-      0.25,
-      5.05,
-      9.52,
-      17.85,
-      22.91,
-      28.98,
-      32.16,
-      37.53
-     ]
-    },
-    {
-     "k": "Nach Schließung der Wahllokale erfolgt die vollständige Auszählung der Stimmen. ",
-     "d": "849d2ad8ed.mp3",
-     "l": 14.46,
-     "s": [
-      0.25,
-      4.49,
-      9.34
-     ]
-    }
-   ]
-  },
-  {
    "id": "guterres-nachfolge-bachelet",
    "rubrik": "Welt",
    "zeit": "2026-09-20T19:15:57.000Z",
@@ -2118,7 +3032,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 16.89,
+     "l": 16.73,
      "s": [
       0.25
      ]
@@ -2706,6 +3620,417 @@
    ]
   },
   {
+   "id": "davis-cup-tennis-finale",
+   "rubrik": "Sport",
+   "zeit": "2026-09-20T18:40:00.000Z",
+   "titel": "Tennisteams qualifizieren sich für die Endrunde des Davis Cups",
+   "vorspann": "Mehrere Nationalmannschaften haben sich für das Finalturnier des Davis Cups qualifiziert. Darunter befinden sich die Auswahlen aus Deutschland und Großbritannien.",
+   "eil": false,
+   "zusammenfassung": [
+    "Mehrere Nationalmannschaften haben sich für das Endturnier des Davis Cups qualifiziert.",
+    "Deutschland besiegte Kroatien und zog in die Runde der besten Acht ein.",
+    "Großbritannien gewann ebenfalls die Qualifikation mit einem Sieg gegen Ecuador.",
+    "Die Endrunde findet im November in Bologna statt."
+   ],
+   "einig": [
+    [
+     "Deutschland gewann das Davis-Cup-Duell gegen Kroatien mit 3:1.",
+     [
+      "ZDFheute",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Endrunde des Davis Cups findet in Bologna statt.",
+     [
+      "ZDFheute",
+      "FAZ",
+      "BBC"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob Alexander Zverev im November an den Davis-Cup-Finals teilnehmen wird, ist laut ZDFheute noch unklar."
+   ],
+   "positionen": [
+    [
+     "Alexander Zverev (Tennisspieler)",
+     "Äußerte sich kritisch über das Konzept von Finalturnieren und lobte die Heim- und Auswärtsatmosphäre.",
+     "ZDFheute"
+    ],
+    [
+     "Michael Kohlmann (Davis-Cup-Kapitän)",
+     "Lobte Zverevs Umgang mit dem Druck und kündigte Gespräche über die Finals an.",
+     "ZDFheute"
+    ],
+    [
+     "Leon Smith (Großbritannien-Kapitän)",
+     "Betonte die Freude über die Qualifikation und die geschlossene Mannschaftsleistung trotz Ausfällen.",
+     "BBC"
+    ]
+   ],
+   "fehlend": "Stimmen von Spielern der unterlegenen Mannschaften wie Kroatien oder Ecuador.",
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "20.09.26, 20:40",
+     "fokus": "Deutsches Team und Alexander Zverev",
+     "text": "Berichtet ausführlich über den Auftritt von Alexander Zverev in Halle und zitiert beteiligte Spieler sowie den Teamkapitän.",
+     "url": "https://www.zdfheute.de/sport/tennis-davis-cup-deutschland-finaleinzug-zverev-analyse-100.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 15:46",
+     "fokus": "–",
+     "text": "Alexander Zverev hat auch sein zweites Einzelduell gegen Kroatien im Davis Cup gewonnen. Das deutsche Team steht zum dritten Mal in Folge in der Runde der besten Acht.",
+     "url": "https://www.zeit.de/sport/2026-09/alexander-zverev-davis-cup-deutschland-kroatien-halle-gxe",
+     "video": false
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "20.09.26, 15:29",
+     "fokus": "Ergebnisse und Spielverläufe",
+     "text": "Fasst die Resultate der deutschen Begegnungen und die Rahmendaten des Turniers kurz zusammen.",
+     "url": "https://www.faz.net/aktuell/sport/mehr-sport/alexander-zverev-fuehrt-deutschland-in-endrunde-des-davis-cup-accg-201245162.html",
+     "video": false
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "20.09.26, 17:08",
+     "fokus": "Internationaler Überblick",
+     "text": "Gibt eine umfassende Übersicht über alle Qualifikationsspiele weltweit, mit Schwerpunkt auf der britischen Mannschaft.",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c60re2wqr9j2o?at_medium=RSS&at_campaign=rss",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "ZDFheute konzentriert sich stark auf den deutschen Spieler Alexander Zverev, während BBC einen weltweiten Überblick über alle Qualifikationsspiele gibt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Tennis-Nationalmannschaften und Spieler",
+    "was": "Qualifikation für das Davis-Cup-Finalturnier",
+    "wann": "September 2026",
+    "wo": "Verschiedene Austragungsorte",
+    "wie": "Durch Siege in den Qualifikationsrunden und Duellen",
+    "warum": "Durch erfolgreiche sportliche Leistungen in den Begegnungen",
+    "quellenlage": "Meldungen von ZDFheute, Zeit, FAZ und BBC"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Das deutsche Davis-Cup-Team hat sich für das Finalturnier qualifiziert. Die Begegnung gegen Kroatien endete mit einem Sieg. Alexander Zverev gewann sein zweites Einzelduell gegen Kroatien. Das deutsche Team steht damit in der Runde der besten Acht.",
+      "Am ersten Tag des Länderkampfes hatte sich Alexander Zverev gegen Matej Dodig durchgesetzt. Daniel Altmaier unterlag gegen Dino Prižmić. Das Doppel Kevin Krawietz und Tim Pütz gewann am Sonntag gegen Nikola Mektic und Mate Pavic. Insgesamt endete das Duell mit einem 3:1-Erfolg für Deutschland.",
+      "Großbritannien hat sich ebenfalls für das Finalturnier qualifiziert. Die Mannschaft erreichte einen 4:0-Sieg gegen Ecuador. Henry Patten und Neal Skupski sicherten den entscheidenden Punkt im Doppel. Die Partien fanden in London in der Copper Box Arena statt.",
+      "Weitere Nationen sicherten sich Plätze für die Endrunde. Südkorea schlug Indien mit 3:1. Österreich gewann gegen Belgien. Kanada bezwang Frankreich mit 3:1. Spanien qualifizierte sich ebenfalls durch eine Führung gegen Chile.",
+      "Die USA verpassten die Endrunde im Davis Cup zum zweiten Mal in Folge. Die Mannschaft unterlag der Tschechischen Republik mit 3:2. Christian Harrison und Austin Krajicek gewannen zwar ihr Doppel, doch Ben Shelton und Learner Tien verloren ihre Einzel. Damit schied das Team aus.",
+      "Die Endrunde des Davis Cups findet vom 24. bis 29. November in Bologna in Italien statt. Italien ist als Titelverteidiger und Gastgeber automatisch qualifiziert. Im vergangenen Jahr war Deutschland im Halbfinale an Spanien gescheitert."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Alexander Zverev trat für das deutsche Team in Halle an. Zuvor hatte er das US-Open-Turnier gewonnen. Er spielte gegen Matej Dodig und Dino Prižmić. Die Begegnungen fanden auf einem verlegten Hartplatz statt.",
+      "Das deutsche Doppel aus Kevin Krawietz und Tim Pütz bezwang die kroatischen Olympiasieger Nikola Mektic und Mate Pavic mit 7:5 und 6:2. Nach den Matches blieb das gesamte Team auf dem Platz, um einen Besaiter zu ehren und Autogramme zu geben. Dies wurde laut ZDFheute von einem Sponsor organisiert.",
+      "Bei der britischen Mannschaft gab es kurzfristige Änderungen im Aufgebot. Cameron Norrie zog sich am Freitag im Training eine Verletzung am Arm zu. Harry Wendelken rückte nach und gewann sein Debüt gegen Angel Veliz. Toby Samuel und Arthur Fery gewannen ihre jeweiligen Einzelspiele für das britische Team.",
+      "Die britischen Doppelspieler Henry Patten und Neal Skupski spielten zusammen gegen Gonzalo Escobar und Diego Hidalgo. Sie gewannen das Match in zwei Sätzen. Laut eigener Aussage sind die Spieler gut miteinander befreundet und profitieren von gemeinsamen Trainingsstrukturen.",
+      "In der amerikanischen Mannschaft gab es ebenfalls personelle Veränderungen. Jack Draper beendete seine Saison vorzeitig. Jan Choinski und Jacob Fearnley standen aufgrund von Verletzungen nicht zur Verfügung. Ben Shelton verlor sein Einzel gegen Jakub Mensik."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Alexander Zverev trat trotz Reisestrapazen, Werbeverpflichtungen in New York und gegen das Abraten seines Umfelds für das deutsche Team an. Seine Vorbereitung umfasste nach eigenen Angaben lediglich zwei Trainingseinheiten. Sein Ziel ist das Erreichen der Weltranglistenspitze. Im Liveranking führt er vor dem verletzten Jannik Sinner.",
+      "Das britische Team musste auf mehrere Spieler verzichten. Jack Draper beendete seine Saison vorzeitig. Jan Choinski und Jacob Fearnley fielen ebenfalls aus. Kapitän Leon Smith musste daher auf weniger erfahrene Spieler zurückgreifen.",
+      "Die Endrunde des Turniers wird als Final 8 bezeichnet. Die acht besten Teams treten Ende November gegeneinander an. Im Vorjahr schied Deutschland im Halbfinale gegen Spanien aus. Spanien trat in dieser Qualifikation ohne den verletzten Carlos Alcaraz an."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Davis Cup ist ein internationaler Mannschaftswettbewerb im Herrentennis. Länder treten in verschiedenen Runden im K.-o.-System gegeneinander an. Ein Duell besteht üblicherweise aus mehreren Einzel- und Doppelspielen. Die besten Mannschaften qualifizieren sich für ein abschließendes Finalturnier.",
+      "Ein Doppel im Tennis ist ein Match, bei dem zwei Teams aus jeweils zwei Spielern gegeneinander antreten. Die Zählweise entspricht der im Einzel. Turniere wie die US Open gehören zu den vier wichtigsten Meisterschaften im internationalen Tennis, den sogenannten Grand-Slam-Turnieren."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Alexander Zverev äußerte sich im Interview mit dem Sender ZDF positiv über die geschlossene Mannschaftsleistung. Zu einer festen Zusage für das Finalturnier im November äußerte er sich zurückhaltend. Er verwies auf seinen vollen Turnierkalender und anstehende Aufgaben in Asien.",
+      "Teamkapitän Michael Kohlmann lobte laut ZDFheute die Leistung von Alexander Zverev. Er betonte, dass man die Belastung und den Druck des Spielers anerkenne. Man wolle zu gegebener Zeit über eine Teilnahme an den Finals sprechen.",
+      "Der britische Kapitän Leon Smith erklärte gegenüber der BBC, er freue sich über die geschlossene Leistung seines Teams. Er verwies auf die Herausforderungen durch Verletzungen im Vorfeld. Zudem blickte er auf mögliche Gegner im Finalturnier wie Italien oder Spanien."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die qualifizierten Mannschaften nehmen vom 24. bis 29. November an der Endrunde in Bologna teil. Dort treten die acht besten Teams aufeinander. Zuvor stehen für die Spieler weitere Turniere auf der ATP-Tour an.",
+      "Das deutsche Team plant nach Angaben der Beteiligten, die Vorbereitung auf die kommenden Monate abzustimmen. Alexander Zverev will bei Turnieren in Asien Punkte für die Weltrangliste sammeln. Gespräche über die genaue Besetzung des Teams für die Finals sollen zu einem späteren Zeitpunkt geführt werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Freitag",
+     "Cameron Norrie zog sich im Training eine Verletzung am Arm zu."
+    ],
+    [
+     "Samstag",
+     "Südkorea und Österreich qualifizierten sich für die nächste Runde."
+    ],
+    [
+     "Sonntag",
+     "Deutschland und Großbritannien sicherten sich die Qualifikation für lautet Bericht die Endrunde."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Alexander Zverev tennis player action",
+     "bildunterschrift": "Alexander Zverev bei einem Tennismatch auf dem Platz."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Bologna cityscape Italy",
+     "bildunterschrift": "Blick auf die Stadt Bologna, in der das Finalturnier stattfindet."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Davis Cup trophy",
+     "bildunterschrift": "Die Trophäe des Davis Cups, um die die Nationalmannschaften spielen."
+    }
+   ],
+   "ort": {
+    "name": "Halle/Westfalen, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Datumsangabe im W-Fragen-Bereich von ungenauem Tag auf Monat korrigiert.",
+    "Bezeichnung von Italien als dreifacher Titelverteidiger zu Titelverteidiger korrigiert, da in den Berichten nur von dreifachen Titelverteidigern die Rede ist."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Davis Cup",
+      "Ein internationaler Mannschaftswettbewerb im Herrentennis, bei dem Länder gegeneinander antreten."
+     ],
+     [
+      "Doppel",
+      "Ein Tennismatch, bei dem auf jeder Seite des Netzes zwei Spieler stehen."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Einzelspieler im Vergleich zur Mannschaft bei einem Teamwettbewerb wie dem Davis Cup?",
+     "Warum berichten verschiedene Medien unterschiedlich über sportliche Ereignisse wie den Davis Cup?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie endete das Davis-Cup-Duell zwischen Deutschland und Kroatien?",
+      "optionen": [
+       "3:1 für Deutschland",
+       "4:0 für Kroatien",
+       "2:2 Unentschieden"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut den Berichten von ZDFheute und FAZ gewann Deutschland das Duell mit 3:1."
+     },
+     {
+      "frage": "Wo findet die Endrunde des Davis Cups statt?",
+      "optionen": [
+       "In Berlin",
+       "In Bologna",
+       "In London"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte von ZDFheute, FAZ und BBC stimmen überein, dass die Endrunde in Bologna stattfindet."
+     },
+     {
+      "frage": "Welche Nation gewann das Qualifikationsspiel gegen Ecuador mit 4:0?",
+      "optionen": [
+       "Deutschland",
+       "Großbritannien",
+       "Spanien"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut dem Bericht der BBC hat Großbritannien das Spiel gegen Ecuador mit 4:0 gewonnen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Mehrere Tennisteams haben sich für ein wichtiges Turnier qualifiziert.",
+    "absaetze": [
+     "Das deutsche Nationalteam hat gegen Kroatien gespielt und mit drei zu eins gewonnen.",
+     "Auch die britische Mannschaft hat ihre Begegnung gewonnen und ist weiter.",
+     "Die besten acht Teams spielen im November in der italienischen Stadt Bologna um den Titel.",
+     "Ob der deutsche Spieler Alexander Zverev im November mitspielt, ist noch nicht sicher."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Mehrere Tennisteams haben sich für das Finalturnier des Davis Cups qualifiziert.",
+     "Deutschland gewann sein Duell gegen Kroatien mit drei zu eins.",
+     "Die Endrunde findet im November in der italienischen Stadt Bologna statt."
+    ],
+    "lang": [
+     "Mehrere Nationalmannschaften haben sich für das Finalturnier des Davis Cups qualifiziert.",
+     "Das deutsche Team gewann am Wochenende seine Begegnung gegen Kroatien mit drei zu eins.",
+     "Nach Angaben von ZDFheute und FAZ sicherte sich die Auswahl damit den Einzug in die Runde der besten Acht.",
+     "Auch die britische Mannschaft erreichte nach einem Sieg gegen Ecuador die Endrunde.",
+     "Die Spiele fanden an verschiedenen Orten wie in Halle in Westfalen und in London statt.",
+     "Die entscheidenden Partien im November werden in der italienischen Stadt Bologna ausgetragen.",
+     "Der deutsche Spieler Alexander Zverev äußerte sich kritisch über das Konzept von Finalturnieren, während Teamkapitän Michael Kohlmann die Leistung lobte.",
+     "Der Davis Cup ist ein internationaler Mannschaftswettbewerb im Herrentennis.",
+     "Die Mannschaften bereiten sich nun auf die kommenden Turniere vor.",
+     "Ob Alexander Zverev an den Finals im November teilnimmt, bleibt nach Angaben von ZDFheute abzuwarten."
+    ],
+    "einfach": [
+     "Mehrere Tennisteams spielen im November um den Titel im Davis Cup.",
+     "Deutschland hat das Team aus Kroatien mit drei zu eins geschlagen.",
+     "Auch Großbritannien hat sich für die Endrunde qualifiziert.",
+     "Die Spiele finden Ende November in der Stadt Bologna statt.",
+     "Ob der Tennisspieler Alexander Zverev mitspielt, ist noch unklar."
+    ]
+   },
+   "kurz": [
+    "Deutschland hat das Davis-Cup-Duell gegen Kroatien mit drei zu eins gewonnen.",
+    "Auch Großbritannien und weitere Nationen qualifizierten sich für das Finalturnier.",
+    "Die Endrunde der besten acht Mannschaften findet im November in Bologna statt."
+   ],
+   "fakten": [
+    [
+     "Ergebnis Deutschland gegen Kroatien",
+     "3:1"
+    ],
+    [
+     "Ergebnis Großbritannien gegen Ecuador",
+     "4:0"
+    ],
+    [
+     "Finalrunde Datum",
+     "24. bis 29. November"
+    ],
+    [
+     "Finalrunde Ort",
+     "Bologna, Italien"
+    ]
+   ],
+   "dossier": {
+    "slug": "davis-cup-qualifikation-2026",
+    "titel": "Davis Cup Qualifikation und Finalturnier"
+   },
+   "bildInfo": {
+    "titel": "Davis Cup Praha ČRo 2012-11-28 cropped 1.jpg",
+    "beschreibung": "Davis Cup trophy displayed in the Český rozhlas headquarters, Prague-Vinohrady",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg/1280px-Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+    "urheber": "Draceane",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "art": "institution",
+    "suchbegriff": "Davis Cup trophy",
+    "bildunterschrift": "Die Trophäe des Davis Cups.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Davis Cup Praha ČRo 2012-11-28 cropped 1.jpg",
+     "beschreibung": "Davis Cup trophy displayed in the Český rozhlas headquarters, Prague-Vinohrady",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg/1280px-Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+     "urheber": "Draceane",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "Davis Cup trophy",
+     "bildunterschrift": "Die Trophäe des Davis Cups.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Halle/Westfalen, Deutschland",
+    "lat": 52.06,
+    "lon": 8.362
+   },
+   "version": 5,
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Mehrere Nationalmannschaften haben sich für das Finalturnier des Davis Cups qual",
+     "d": "b142412212.mp3",
+     "l": 56.23,
+     "s": [
+      0.25,
+      5.95,
+      11.02,
+      17.97,
+      22.37,
+      27.34,
+      32.65,
+      40.98,
+      45.43,
+      49.41
+     ]
+    },
+    {
+     "k": "Mehrere Tennisteams haben sich für das Finalturnier des Davis Cups qualifiziert.",
+     "d": "2e10b8ead6.mp3",
+     "l": 13.23,
+     "s": [
+      0.25,
+      5.1,
+      8.65
+     ]
+    },
+    {
+     "k": "Mehrere Tennisteams spielen im November um den Titel im Davis Cup. Deutschland h",
+     "d": "e7e60487f1.mp3",
+     "l": 21.4,
+     "s": [
+      0.25,
+      4.88,
+      9.01,
+      12.85,
+      16.71
+     ]
+    },
+    {
+     "k": "Ob Alexander Zverev im November an den Davis-Cup-Finals teilnehmen wird, ist lau",
+     "d": "2f05e30e6c.mp3",
+     "l": 7.49,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Davis Cup? Ein internationaler Mannschaftswettbewerb im ",
+     "d": "231762f9e6.mp3",
+     "l": 8.81,
+     "s": [
+      0.25,
+      3.1
+     ]
+    }
+   ]
+  },
+  {
    "id": "dieseltrend-hoechststand-spritpreise",
    "rubrik": "Wirtschaft",
    "zeit": "2026-09-20T16:40:59.000Z",
@@ -3205,7 +4530,7 @@
       21.46,
       24.72,
       30.87,
-      37.0
+      37
      ]
     },
     {
@@ -6508,11 +7833,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.67,
+     "l": 12.86,
      "s": [
       0.25,
-      5.41,
-      9.43
+      5.74,
+      9.63
      ]
     },
     {
@@ -8491,625 +9816,6 @@
      "s": [
       0.25,
       3.79
-     ]
-    }
-   ]
-  },
-  {
-   "id": "eu-plaene-social-media-verbot-kinder",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-17T20:34:57.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "EU-Kommission stellt Gesetzentwurf zum Jugendschutz in Sozialen Medien vor",
-   "vorspann": "Die Europäische Kommission hat einen Entwurf für neue Altersgrenzen und Vorgaben für soziale Netzwerke vorgelegt. Kinder unter 15 Jahren sollen demnach in ihren Möglichkeiten zur Nutzung dieser Plattformen eingeschränkt werden.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die Europäische Kommission hat einen Entwurf für den EU Kids Act vorgelegt.",
-    "Kinder unter 13 Jahren sollen demnach von sozialen Medien ausgeschlossen werden.",
-    "Für Jugendliche zwischen 13 und 15 Jahren ist ein zeitlich begrenzter Zugang über Elternkonten geplant.",
-    "Plattformbetreiber müssen strenge Sicherheitsregeln einhalten oder hohe Geldstrafen befürchten.",
-    "Der Entwurf muss noch von den EU-Staaten und dem Parlament gebilligt werden."
-   ],
-   "einig": [
-    [
-     "Kinder unter 13 Jahren sollen nach dem Entwurf von sozialen Medien ausgeschlossen werden.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "Jugendliche von 13 bis 15 Jahren sollen Plattformen nur über Mini-Konten der Eltern für eine Stunde täglich nutzen dürfen.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "Bei Verstößen drohen Unternehmen Geldstrafen von bis zu sechs Prozent ihres weltweiten Umsatzes.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "Das Gesetz muss vom Europäischen Parlament und den Mitgliedstaaten genehmigt werden.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Wie die Altersverifikation technisch und datenschutzrechtlich vollständig abgesichert werden kann, ist umstritten, da Kritiker Bedenken hinsichtlich des Schutzes persönlicher Daten äußern, während die Kommission den Schutz der Daten zusichert."
-   ],
-   "positionen": [
-    [
-     "Ursula von der Leyen (EU-Kommissionspräsidentin)",
-     "Das Gesetz gibt Eltern die Werkzeuge an die Hand, um ihre Kinder zu schützen.",
-     "Tagesschau/ARD,BBC"
-    ],
-    [
-     "Meta (Sprecher des Unternehmens)",
-     "Unternehmensvertreter widersprachen früheren Kommissionsvorwürfen und verwiesen auf bereits getroffene Schutzmaßnahmen für Jugendliche.",
-     "BBC"
-    ],
-    [
-     "Kritiker von Social-Media-Sperren",
-     "Kritiker äußern Bedenken bezüglich des Datenschutzes und der Notwendigkeit persönlicher Angaben bei der Altersüberprüfung.",
-     "BBC"
-    ]
-   ],
-   "fehlend": "Stimmen von Kinder- und Jugendorganisationen, Datenschutzbeauftragten oder weiteren betroffenen Tech-Konzernen wie Google oder ByteDance.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "17.09.26, 22:34",
-     "fokus": "Kompakte Ankündigung",
-     "text": "Berichtet kurz über die Initiative der EU-Kommission zu Altersgrenzen in sozialen Medien.",
-     "url": "https://www.tagesschau.de/tagesthemen/video-1650876.html",
-     "video": true
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "17.09.26, 12:00",
-     "fokus": "Ausführliche Hintergründe",
-     "text": "Liefert detaillierte Informationen zu den einzelnen Altersstufen, Reaktionen von Meta und Vergleichen mit internationalen Beispielen wie Australien.",
-     "url": "https://www.bbc.co.uk/news/articles/c3j4jz8vpz1xo?at_medium=RSS&at_campaign=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit",
-     "Die BBC liefert einen sehr detaillierten Text mit Hintergrundinformationen, Reaktionen und internationalen Vergleichen, während die Tagesschau/ARD das Thema sehr kurz anreißt."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Europäische Kommission und Kommissionspräsidentin Ursula von der Leyen",
-    "was": "Vorstellung des Gesetzentwurfs EU Kids Act zu Altersgrenzen",
-    "wann": "2026",
-    "wo": "Europäische Union",
-    "wie": "Durch stufenweise Altersgrenzen und gesetzliche Vorgaben",
-    "warum": "Laut EU-Kommission zur Steigerung des Wohlbefindens und Verbesserung der Online-Sicherheit",
-    "quellenlage": "Berichte von Tagesschau/ARD und BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Die Europäische Kommission hat offizielle Pläne zur Einschränkung des Zugangs zu sozialen Medien für Kinder unter 15 Jahren präsentiert. Das Gesetz soll in allen Mitgliedstaaten der Europäischen Union gelten. Eine nationale Ausnahme oder ein Ausstieg der Mitgliedstaaten ist laut den Berichten nicht vorgesehen.",
-      "Der Entwurf sieht ein stufenweises Vorgehen für die Nutzung digitaler Plattformen vor. Kinder unter 13 Jahren sollen den Angaben zufolge komplett von der Nutzung sozialer Netzwerke ausgeschlossen werden. Jugendliche im Alter von 13 bis 15 Jahren dürfen Plattformen demnach nur über sogenannte Mini-Konten nutzen, die über das Konto eines Elternteils oder Erziehungsberechtigten eingerichtet werden.",
-      "Für diese Altersgruppe ist eine tägliche Nutzungszeit von maximal einer Stunde vorgesehen. Vollständige und eigene Accounts sollen künftig erst für Jugendliche ab 15 Jahren möglich sein. Die Regelungen betreffen neben bekannten Plattformen wie TikTok, Instagram und Snapchat auch Videoplattformen wie YouTube, Online-Spiele sowie Künstliche Intelligenz als Chatbots."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Unternehmen, die soziale Medien betreiben, sollen laut dem Entwurf strengere Sicherheitsstandards einhalten. Die Europäische Kommission fordert, dass Plattformen von Grund auf sicher gestaltet sein müssen. Bei Verstößen drohen den Unternehmen Geldstrafen von bis zu sechs Prozent ihres weltweiten Umsatzes.",
-      "Zudem sind die Betreiber verpflichtet, detaillierte Kindersicherheitspläne bei den Behörden einzureichen. Für alle Nutzer unter 18 Jahren sollen demnach keine toxischen oder süchtig machenden Funktionen sowie manipulative Gestaltungselemente zulässig sein. Das Alter der Nutzer soll über eine bestehende Verifizierungsanwendung der Europäischen Union überprüft werden, ohne dass dabei persönliche Daten gesammelt oder geteilt werden, wie die Kommission erklärte."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Europäische Kommission begründet das Vorhaben mit einer Vielzahl von Nachweisen über negative Folgen der Plattformnutzung. Im Juli hatte die Behörde bereits erklärt, dass der Meta-Konzern das Design von Facebook und Instagram ändern müsse. Die Kommission kritisierte damals, dass Funktionen wie unendliches Scrollen und automatische Wiedergaben eine Zwangsnutzung bei Jugendlichen begünstigen.",
-      "Einige europäische Länder wie Frankreich und Spanien hatten zuvor eigene nationale Gesetze angekündigt oder ausgearbeitet. Die neuen EU-weiten Regeln sollen diese nationalen Alleingänge ersetzen. Bereits erlassene nationale Gesetze müssten nach Angaben der Kommission gegebenenfalls aufgehoben werden. Als Vorbild für das europäische Vorgehen nannte die Kommission unter anderem Australien, wo im vergangenen Jahr ein Verbot für unter 16-Jährige beschlossen wurde."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Europäische Kommission ist das Exekutivorgan der Europäischen Union und schlägt neue Gesetze vor. Das Europäische Parlament ist die Vertretung der Bürgerinnen und Bürger der Europäischen Union und entscheidet gemeinsam mit den Mitgliedstaaten über Gesetzesvorhaben."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Kommissionspräsidentin Ursula von der Leyen erklärte, die Maßnahme bringe Eltern wieder in eine verantwortliche Position. Sie betonte laut der Berichte, dass zu viele Kinder zu früh einer Online-Welt ausgesetzt seien, die sie noch nicht überblicken könnten. Ein Alterslimit bedeute jedoch nicht, dass Technologiekonzerne für die Inhalte auf ihren Plattformen nicht mehr zur Verantwortung gezogen würden.",
-      "Ein Sprecher des Technologiekonzerns Meta erklärte laut BBC, das Unternehmen sei mit den früheren vorläufigen Untersuchungsergebnissen der Kommission nicht einverstanden. Die Schritte, die das Unternehmen zum Schutz von Jugendlichen unternommen habe, seien dabei nicht ausreichend berücksichtigt worden."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Das Gesetzesvorhaben muss im nächsten Schritt von den Mitgliedstaaten der Europäischen Union und dem Europäischen Parlament beraten und genehmigt werden. Beobachter erwarten in den kommenden Monaten Diskussionen und mögliche Gegnerschaft, da der Weg durch unterschiedliche nationale Interessen und rechtliche Rahmenbedingungen komplex sein dürfte. Als Beispiel hierfür nennt die BBC die Situation in Frankreich, wo das oberste Gericht im Vormonat ein nationales Verbot für unter 15-Jährige aus verfassungsrechtlichen Gründen gestoppt hatte."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-05",
-     "Ursula von der Leyen schlug eine Mindestaltersgrenze für soziale Medien in Europa vor."
-    ],
-    [
-     "2026-07",
-     "Die Europäische Kommission forderte Meta zu Änderungen an den Plattformen Facebook und Instagram auf."
-    ],
-    [
-     "2026-09",
-     "Die Europäische Kommission stellte den offiziellen Gesetzentwurf des EU Kids Act vor."
-    ]
-   ],
-   "bild": {
-    "art": "institution",
-    "suchbegriff": "European Commission building Brussels"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das exakte Datum vom 17.09.2026 wurde im Text und in der Zeitleiste auf das Jahr beziehungsweise den Monat angepasst, da Tagesschau/ARD das genaue Tag-Datum nicht explizit nannte."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Europäische Kommission",
-      "Das Organ der Europäischen Union, das Gesetze vorschlägt und deren Einhaltung überwacht."
-     ],
-     [
-      "Altersverifikation",
-      "Ein technisches Verfahren, um das Alter von Nutzern auf einer Plattform zu überprüfen."
-     ]
-    ],
-    "fragen": [
-     "Welche Vor- und Nachteile sehen Kritiker bei Altersüberprüfungen im Internet?",
-     "Warum ist es für die Europäische Union wichtig, dass alle Mitgliedstaaten die gleichen Regeln anwenden?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welches Verbot ist für Kinder unter 13 Jahren im Gesetzentwurf vorgesehen?",
-      "optionen": [
-       "Ein kompletter Ausschluss von sozialen Medien",
-       "Eine tägliche Nutzung von maximal einer Stunde",
-       "Ein Verbot nur für Videoplattformen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut den Berichten sollen Kinder unter 13 Jahren von den Plattformen ausgeschlossen werden."
-     },
-     {
-      "frage": "Wie lange dürfen Jugendliche zwischen 13 und 15 Jahren soziale Medien nach dem Entwurf täglich nutzen?",
-      "optionen": [
-       "Drei Stunden",
-       "Eine Stunde",
-       "Unbegrenzt"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Berichte geben an, dass 13- bis 15-Jährige die Plattformen für eine Stunde pro Tag nutzen dürfen."
-     },
-     {
-      "frage": "Welche Strafe droht Unternehmen bei Verstößen gegen die neuen Regeln?",
-      "optionen": [
-       "Eine Geldstrafe von bis zu sechs Prozent des weltweiten Umsatzes",
-       "Eine sofortige Schließung des Unternehmens in Europa",
-       "Ein Verbot aller Werbeanzeigen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Bei Missachtung der Regeln drohen Unternehmen laut den Berichten Geldstrafen von bis zu sechs Prozent ihres weltweiten Umsatzes."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Europäische Kommission hat einen Entwurf für neue Altersgrenzen in sozialen Medien vorgelegt. Kinder und Jugendliche sollen je nach Alter unterschiedlich geschützt werden.",
-    "absaetze": [
-     "Kinder unter 13 Jahren sollen nach den Plänen keine eigenen Konten bei sozialen Netzwerken nutzen dürfen. Jugendliche zwischen 13 und 15 Jahren sollen Plattformen nur über ein Konto der Eltern und maximal eine Stunde pro Tag nutzen können. Erst ab 15 Jahren sollen eigene Accounts erlaubt sein. Unternehmen, die sich nicht an die Regeln halten, sollen hohe Geldstrafen zahlen müssen. Der Entwurf muss noch von den Ländern der Europäischen Union und dem Parlament beschlossen werden."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Europäische Kommission hat neue Altersgrenzen für soziale Medien vorgeschlagen. Kinder unter 13 Jahren sollen von den Plattformen ausgeschlossen werden."
-    ],
-    "lang": [
-     "Die Europäische Kommission hat einen Entwurf für neue Altersgrenzen in sozialen Medien vorgestellt. Kinder unter 13 Jahren sollen demnach keinen Zugang zu Plattformen erhalten. Für Jugendliche zwischen 13 und 15 Jahren ist ein zeitlich begrenzter Zugang über Elternkonten geplant. Das Gesetz muss noch von den EU-Staaten und dem Parlament genehmigt werden."
-    ],
-    "einfach": [
-     "Die Europäische Union plant strengere Regeln für soziale Medien. Kinder unter 13 Jahren sollen keine Konten mehr nutzen dürfen."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg",
-    "urheber": "Ank Kumar",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "institution",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3,
-   "ton": [
-    {
-     "k": "Die Europäische Kommission hat einen Entwurf für neue Altersgrenzen in sozialen ",
-     "d": "4d60e7a61e.mp3",
-     "l": 21.76,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Europäische Kommission hat neue Altersgrenzen für soziale Medien vorgeschlag",
-     "d": "459c8368a8.mp3",
-     "l": 9.58,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Europäische Union plant strengere Regeln für soziale Medien. Kinder unter 13",
-     "d": "43e452fa9e.mp3",
-     "l": 9.12,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Wie die Altersverifikation technisch und datenschutzrechtlich vollständig abgesi",
-     "d": "299be1492c.mp3",
-     "l": 13.2,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Europäische Kommission? Das Organ der Europäischen Union",
-     "d": "dc62e0380f.mp3",
-     "l": 9.35,
-     "s": [
-      0.25,
-      3.5
-     ]
-    }
-   ]
-  },
-  {
-   "id": "olympische-spiele-rudern-krokodile",
-   "rubrik": "Sport",
-   "zeit": "2026-09-17T19:35:23.000Z",
-   "aktualisiert": "aktualisiert um 00:48 Uhr",
-   "titel": "Bestimmung des Austragungsortes für olympische Ruder- und Kanuwettbewerbe im Jahr 2032",
-   "vorspann": "Der Fitzroy River in Australien wurde als Austragungsort für die Ruder- und Kanuwettbewerbe der Olympischen Spiele 2032 bestätigt. Der Standort ist jedoch wegen natürlicher Bedingungen und dort lebender Tiere umstritten.",
-   "eil": false,
-   "zusammenfassung": [
-    "Der Fitzroy River in Queensland wurde offiziell als Ruder- und Kanu-Austragungsort für Olympia 2032 ausgewählt.",
-    "Internationale Verbände und technische Prüfungen bewerteten die Strecke auf dem Fluss als geeignet für faire Wettkämpfe.",
-    "Kritiker äußerten zuvor Bedenken wegen der Strömungen, der Infrastruktur und der im Fluss lebenden Salzwasserkrokodile.",
-    "Die Regionalregierung von Queensland wies die Kritik zurück und kündigte den Beginn der Infrastrukturplanung an."
-   ],
-   "einig": [
-    [
-     "Der Fitzroy River bei Rockhampton wurde als Austragungsort für Rudern und Kanu bei Olympia 2032 bestätigt.",
-     [
-      "Spiegel",
-      "Süddeutsche Zeitung",
-      "BBC"
-     ]
-    ],
-    [
-     "Die internationale technische Prüfung der Strecke fiel positiv aus.",
-     [
-      "Spiegel",
-      "Süddeutsche Zeitung",
-      "BBC"
-     ]
-    ],
-    [
-     "Der Ruder-Weltverband World Rowing und der Kanuverband Paddle Worldwide haben den Standort gebilligt.",
-     [
-      "Spiegel",
-      "Süddeutsche Zeitung",
-      "BBC"
-     ]
-    ],
-    [
-     "Im Fitzroy River leben Salzwasserkrokodile.",
-     [
-      "Spiegel",
-      "Süddeutsche Zeitung",
-      "BBC"
-     ]
-    ],
-    [
-     "Mehr als 500 Ruderinnen und Ruderer hatten sich in einem offenen Brief für einen anderen Standort ausgesprochen.",
-     [
-      "Spiegel",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Wie Sportler speziell vor Krokodilen geschützt werden sollen, ist laut Spiegel und Süddeutscher Zeitung zunächst nicht bekannt."
-   ],
-   "positionen": [
-    [
-     "David Crisafulli (Regierungschef Queensland)",
-     "Der Ort hat die Prüfung mit Bravour bestanden; Kritiker sind Eliten, die ländliche Regionen meiden wollen.",
-     "Spiegel,Süddeutsche Zeitung,BBC"
-    ],
-    [
-     "Drew Ginn (Ehemaliger Olympiasieger)",
-     "Hat Bedenken hinsichtlich Überschwemmungen sowie Fairness und Integrität am Austragungsort.",
-     "Spiegel,Süddeutsche Zeitung,BBC"
-    ],
-    [
-     "Moritz Petri (Präsident Deutscher Ruderverband)",
-     "Bedenken richten sich auf faire Bedingungen für Sportler und Nachhaltigkeit, nicht auf Regionenpräferenzen.",
-     "BBC"
-    ],
-    [
-     "Simon Wickham (Chef Rowing New Zealand)",
-     "Das primäre Ziel ist ein fairer Kurs für den Sport.",
-     "BBC"
-    ],
-    [
-     "Tony Williams (Bürgermeister Rockhampton)",
-     "Begrüßt die Entscheidung und fordert den Beginn der Infrastrukturplanung.",
-     "Süddeutsche Zeitung"
-    ]
-   ],
-   "fehlend": "Detaillierte Stellungnahmen von Umweltschutzorganisationen zur Sicherheit der Krokodile und der Sportler.",
-   "medien": [
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 10:36",
-     "fokus": "Politische und technische Details",
-     "text": "Berichtet ausführlich über die technische Prüfung, Aussagen von Politikern und Sportfunktionären sowie bestehende Managementpläne.",
-     "url": "https://www.spiegel.de/sport/olympia/australien-fluss-mit-krokodilen-wird-ruderstrecke-bei-olympia-2032-a-d14c9b82-5ee0-4c0e-be76-ad7b6e7f0b2c#ref=rss",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "17.09.26, 13:31",
-     "fokus": "Reaktionen und lokale Planungen",
-     "text": "Betont die Reaktionen der lokalen Politik, Bürgermeister Williams und die Einbettung in weitere Sportgroßereignisse.",
-     "url": "https://www.sueddeutsche.de/sport/olympia-australien-krokodile-rudern-li.3549436",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "17.09.26, 21:35",
-     "fokus": "Lokale Gegebenheiten und internationale Sportlerperspektiven",
-     "text": "Beleuchtet die Schülerruderregatten vor Ort, historische Unfalldaten und führt Interviews mit internationalen Verbandsvertretern.",
-     "url": "https://www.bbc.co.uk/news/articles/c68xkypqyxw7o?at_medium=RSS&at_campaign=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Zusätzliche Details zu Schülern",
-     "Die BBC berichtet ausführlich über die dort stattfindenden Schülerruderregatten, während Spiegel und Süddeutsche Zeitung darauf nicht eingehen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Regionalregierung von Queensland, World Rowing, Paddle Worldwide",
-    "was": "Bestätigung des Fitzroy River als Olympia-Wettkampfort",
-    "wann": "2026-09-17",
-    "wo": "Fitzroy River bei Rockhampton, Australien",
-    "warum": "laut Behörden wegen ausreichender Platzverhältnisse und bestandener technischer Begutachtung",
-    "quellenlage": "Berichte von Spiegel, Süddeutscher Zeitung und BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Der Fitzroy River bei Rockhampton im australischen Bundesstaat Queensland ist offiziell als Austragungsort für Rudern, Para-Rudern, Kanu-Sprint und Para-Kanu bei den Olympischen Spielen 2032 in Brisbane bestätigt worden. Dies teilte die Regionalregierung von Queensland mit. Die internationale technische Prüfung der geplanten Wettkampfstrecke sei abgeschlossen und positiv ausgefallen.",
-      "Der Ruder-Weltverband World Rowing und der Kanuverband Paddle Worldwide haben die Ergebnisse ebenfalls geprüft und den Standort gebilligt. Der Regierungschef von Queensland, David Crisafulli, erklärte im Landesparlament, der umstrittene Wettkampfort habe die unabhängige Begutachtung bestanden. Der Fluss ist unter anderem Lebensraum von schätzungsweise rund 500 Salzwasserkrokodilen."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Nach Angaben der Regionalregierung bietet der Fluss auf einem 2,7 Kilometer langen Abschnitt genügend Platz für eine internationale Strecke. Vorgesehen ist eine 2000 Meter lange Regattastrecke mit acht Bahnen sowie Bereichen für Start und Ziel. Eine Verbreiterung des Flusses oder Ausbaggerungen seien nach den Untersuchungen laut dem stellvertretenden Premier Jarrod Bleijie nicht erforderlich.",
-      "Die geplante Strecke wurde unabhängig technisch geprüft, unter anderem mit Blick auf Flussbett, Strömungen, Wasserstände sowie Wind-, Wetter- und Umweltbedingungen. Hinzu kamen Vor-Ort-Untersuchungen und Modellberechnungen. Laut BBC wies der Weltverbandspräsident Jean-Christophe Rolland darauf hin, dass der Fluss faire Wettkampfbedingungen während der Spiele bieten kann.",
-      "Laut BBC verzeichneten staatliche Regierungsakten über mehr als 40 Jahre hinweg keine Angriffe der Reptilien auf Menschen. Die Stadt Rockhampton richtet traditionell Schülerruderregatten auf dem Gewässer aus, bei denen laut BBC Sicherheitsregeln mit speziellen Ausrufen und dem Abbruch von Rennen bei Sichtungen gelten."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Um den Standort gab es laut den Berichten seit der Bekanntgabe der Pläne im März 2025 Debatten. Mehr als 500 Ruderinnen und Ruderer, darunter der ehemalige australische Olympiasieger Drew Ginn, hatten sich in einem offenen Brief für einen anderen Standort ausgesprochen. Kritisiert wurden neben den Krokodilen vor allem starke Strömungen, häufige Überschwemmungen, hohe Sedimentmengen und die Eignung als Regattastrecke für den Spitzensport.",
-      "Laut BBC ignorierte die Landesregierung bei ihrer Entscheidung einen im Jahr 2025 in Auftrag gegebenen Bericht, der den Standort für ungeeignet befunden und stattdessen eine Wettkampfstätte aus den Olympischen Spielen 2000 in Sydney empfohlen hatte. Die Sydney-Strecke steht als Reserve bereit, was laut BBC für die Bevölkerung in Queensland jedoch unvorstellbar wäre.",
-      "Laut Spiegel wird der Standort bereits seit Jahren als olympisches Trainingsgelände genutzt. Der Chef der Olympischen Spiele in Brisbane, Andrew Liveris, verglich die Situation mit Gefahren im Ozean und verwies darauf, dass dort trotz Haien gesurft werde."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Regattastrecke ist ein speziell vermessener Kurs für den Ruder- und Kanusport, der definierte Längen und Bahnen aufweist. Technische Prüfungen untersuchen vor sportlichen Großveranstaltungen die Bedingungen vor Ort."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Der Regierungschef von Queensland, David Crisafulli, bezeichnete den Standort im Landesparlament als offiziell bestätigt und warf Kritikern vor, als Gruppe von Eliten Druck auszuüben, um Regionen abseits der großen Zentren zu meiden (laut Spiegel, Süddeutscher Zeitung und BBC).",
-      "Der Präsident des deutschen Ruderverbandes, Moritz Petri, sowie der Chef von Rowing New Zealand, Simon Wickham, erklärten laut BBC, ihre Bedenken bezüglich fairer Bedingungen hätten nichts mit einer Bevorzugung städtischer Regionen zu tun, sondern dienten den Athleten.",
-      "Rockhamptons Bürgermeister Tony Williams begrüßte die Entscheidung und kündigte an, mit der Planung der Infrastruktur zu beginnen (laut Süddeutscher Zeitung). Die Firma Hancock Prospecting der australischen Unternehmerin Gina Rinehart, die das Projekt unterstützt, wies Bedenken als Fehlinformationen zurück (laut BBC)."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Nach der Bestätigung des Austragungsorts beginnt nun die detaillierte Planung für die Wettkampfanlagen und die erforderliche Infrastruktur (laut Süddeutscher Zeitung).",
-      "Der Fitzroy River muss zudem noch eine finale Bewertung hinsichtlich seines Designs, des Kosten-Nutzen-Verhältnisses und eines langfristigen Nutzens für die Gemeinde durchlaufen (laut BBC)."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "März 2025",
-     "Bekanntgabe der Pläne für den Austragungsort und erste Debatten"
-    ],
-    [
-     "2026-09-17",
-     "Offizielle Bestätigung des Fitzroy River als Olympia-Wettkampfort nach technischer Prüfung"
-    ]
-   ],
-   "bild": {
-    "art": "ort",
-    "suchbegriff": "Fitzroy River Queensland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Im Abschnitt 'Zum Verständnis' wurden unbelegte Details entfernt, sodass nur die allgemeine Definition einer Regattastrecke und technischer Prüfungen verbleibt."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Regattastrecke",
-      "Eine speziell vermessene Strecke auf einem Gewässer, auf der sportliche Wettkämpfe im Rudern oder Kanufahren ausgetragen werden."
-     ],
-     [
-      "Salzwasserkrokodil",
-      "Eine grosse Krokodilart, die in Flüssen und Küstengebieten in Australien lebt und dort heimisch ist."
-     ]
-    ],
-    "fragen": [
-     "Welche Argumente nannten Kritiker gegen die Auswahl des Fitzroy River als Olympia-Wettkampfort?",
-     "Wie begründeten die verantwortlichen Politiker und Verbände die Entscheidung für diesen Austragungsort?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welcher Fluss wurde als Austragungsort für die Ruder- und Kanuwettbewerbe der Olympischen Spiele 2032 bestätigt?",
-      "optionen": [
-       "Amazonas",
-       "Fitzroy River",
-       "Mississippi"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmenden Berichten von Spiegel, Süddeutscher Zeitung und BBC wurde der Fitzroy River in Australien als Austragungsort bestätigt."
-     },
-     {
-      "frage": "Welche Tiere leben im Fitzroy River?",
-      "optionen": [
-       "Salzwasserkrokodile",
-       "Pinguine",
-       "Grizzlybären"
-      ],
-      "richtig": 0,
-      "erklaerung": "Alle drei Quellen berichten übereinstimmend, dass der Fitzroy River Lebensraum von Salzwasserkrokodilen ist."
-     },
-     {
-      "frage": "Welche Verbände haben den Standort nach einer Prüfung gebilligt?",
-      "optionen": [
-       "Nur der nationale Fussballverband",
-       "World Rowing und Paddle Worldwide",
-       "Nur das Internationale Olympische Komitee allein"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Spiegel, Süddeutscher Zeitung und BBC haben der Ruder-Weltverband World Rowing und der Kanuverband Paddle Worldwide die Ergebnisse geprüft und den Standort gebilligt."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der Fluss Fitzroy River in Australien soll bei den Olympischen Spielen im Jahr 2032 als Austragungsort für Rudern und Kanu dienen. Das wurde nun offiziell bestätigt. Allerdings gibt es auch Kritik an der Entscheidung.",
-    "absaetze": [
-     "In dem Fluss leben zahlreiche Salzwasserkrokodile. Ausserdem gab es Bedenken wegen starker Strömungen und Überschwemmungen. Mehr als 500 Ruderinnen und Ruderer hatten sich in einem Brief für einen anderen Ort ausgesprochen.",
-     "Internationale Verbände haben den Fluss jedoch untersucht und für geeignet erklärt. Der Regierungschef von Queensland begrüsst die Entscheidung und betont, dass die Prüfungen bestanden wurden.",
-     "Nun beginnen die Planungen für die Wettkampfanlagen vor Ort. Ob und wie die Sportler genau geschützt werden, ist noch nicht im Detail bekannt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Der Fitzroy River in Australien ist als Austragungsort für die olympischen Ruder- und Kanuwettbewerbe im Jahr 2032 bestätigt worden.",
-     "Internationale Sportverbände haben die Strecke auf dem Fluss nach technischen Prüfungen offiziell gebilligt."
-    ],
-    "lang": [
-     "Der Fitzroy River in Australien wurde offiziell als Austragungsort für Rudern und Kanu bei den Olympischen Spielen 2032 bestätigt.",
-     "In dem Gewässer leben jedoch Salzwasserkrokodile, weshalb der Standort im Vorfeld von Sportlern kritisiert wurde.",
-     "Nach Angaben der Regionalregierung fielen technische Prüfungen der Verbände positiv aus, sodass faire Wettkämpfe möglich sind."
-    ],
-    "einfach": [
-     "Der Fluss Fitzroy River ist ein neuer Olympia-Wettkampfort für das Jahr 2032. Dort sollen Ruderer und Kanuten um Medaillen kämpfen. Weil in dem Fluss Krokodile leben, gab es zuvor viel Kritik."
-    ]
-   },
-   "bildInfo": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Fitzroy_River_Rockhampton.jpg/1280px-Fitzroy_River_Rockhampton.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Fitzroy_River_Rockhampton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Fitzroy_River_Rockhampton.jpg",
-    "urheber": "RegionalQueenslander",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "ort",
-    "hinweis": "Archivfoto"
-   },
-   "version": 3,
-   "ton": [
-    {
-     "k": "Der Fitzroy River in Australien wurde offiziell als Austragungsort für Rudern un",
-     "d": "56425fcc24.mp3",
-     "l": 23.36,
-     "s": [
-      0.25,
-      8.89,
-      15.57
-     ]
-    },
-    {
-     "k": "Der Fitzroy River in Australien ist als Austragungsort für die olympischen Ruder",
-     "d": "f3a701d5d4.mp3",
-     "l": 14.99,
-     "s": [
-      0.25,
-      9
-     ]
-    },
-    {
-     "k": "Der Fluss Fitzroy River ist ein neuer Olympia-Wettkampfort für das Jahr 2032. Do",
-     "d": "460b293b51.mp3",
-     "l": 14.45,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Wie Sportler speziell vor Krokodilen geschützt werden sollen, ist laut Spiegel u",
-     "d": "eadee4727f.mp3",
-     "l": 7.28,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Regattastrecke? Eine speziell vermessene Strecke auf ein",
-     "d": "bf6f8287e8.mp3",
-     "l": 10.52,
-     "s": [
-      0.25,
-      3.05
      ]
     }
    ]

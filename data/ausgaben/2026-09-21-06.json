@@ -1,0 +1,616 @@
+{
+ "id": "2026-09-21-06",
+ "name": "6-Uhr-Ausgabe",
+ "stunde": 6,
+ "zeit": "2026-09-21T06:16:03.674Z",
+ "themen": [
+  {
+   "id": "duma-wahl-russland-drohnenangriffe",
+   "titel": "Parlamentarische Wahlen in Russland",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Vladimir Putin - 2012.jpg",
+     "beschreibung": "Official portrait of Vladimir Putin .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Vladimir_Putin_-_2012.jpg/1280px-Vladimir_Putin_-_2012.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Vladimir_Putin_-_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_-_2012.jpg",
+     "urheber": "Russian Presidential Press and Information Office",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Vladimir Putin official portrait",
+     "bildunterschrift": "Offizielles Porträt des russischen Präsidenten Wladimir Putin.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow. State Duma at night1.jpg",
+     "beschreibung": "Москва. Госдума ночью.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Moscow._State_Duma_at_night1.jpg/1280px-Moscow._State_Duma_at_night1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Moscow._State_Duma_at_night1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow._State_Duma_at_night1.jpg",
+     "urheber": "Юрий Д.К.",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau bei Nacht.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Moscow's Red Square, Moscow, Russia.jpg",
+     "beschreibung": "Moscow's Red Square. Sports holiday forum «GTO». Moscow, Russia.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg/1280px-Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Moscow%27s_Red_Square%2C_Moscow%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Moscow%27s_Red_Square,_Moscow,_Russia.jpg",
+     "urheber": "Vyacheslav Argenberg",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "ort",
+     "suchbegriff": "Red Square Moscow",
+     "bildunterschrift": "Der Rote Platz in Moskau.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Moskau, Russland",
+    "lat": 55.626,
+    "lon": 37.606
+   },
+   "saetze": [
+    "In Russland hat die dreitägige Parlamentswahl geendet.",
+    "Nach ersten Hochrechnungen liegt die Kremlpartei Geeintes Russland deutlich vorn.",
+    "Die Partei von Präsident Wladimir Putin erreicht rund 57 Prozent der Stimmen.",
+    "Das gaben Medien wie die Tagesschau und das ZDF unter Berufung auf die Wahlleitung bekannt.",
+    "Die Abstimmung wurde von Berichten über Unregelmäßigkeiten und gefüllte Wahlurnen begleitet.",
+    "Zudem meldeten die Behörden schwere Drohnenangriffe auf die Hauptstadt Moskau.",
+    "Die Wahlkommission erklärte, die endgültigen Ergebnisse folgen am fünfundzwanzigsten September.",
+    "Kritiker werfen den Behörden vor, dass die Wahl nicht frei und fair war.",
+    "Die im Parlament vertretenen Parteien unterstützen den Kurs der Regierung in der Ukraine.",
+    "Ob die Regierungspartei ihre Zweidrittelmehrheit behält, ist nach Angaben der Tagesschau noch offen."
+   ]
+  },
+  {
+   "id": "scheuer-maut-prozess-gericht",
+   "titel": "Prozessbeginn gegen ehemaligen Bundesverkehrsminister Andreas Scheuer in Berlin",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Scheuer, Andreas-1407.jpg",
+     "beschreibung": "Andreas Scheuer (* 26. September 1974 in Passau) ist ein deutscher Politiker (CSU). Er war im Kabinett Merkel II von 2009 bis 2013 Parlamentarischer Staatssekretär beim Bundesminister für Verkehr, Bau",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Scheuer%2C_Andreas-1407.jpg/1280px-Scheuer%2C_Andreas-1407.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Scheuer%2C_Andreas-1407.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Scheuer,_Andreas-1407.jpg",
+     "urheber": "Foto-AG Gymnasium Melle",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "person",
+     "suchbegriff": "Andreas Scheuer politician",
+     "bildunterschrift": "Der ehemalige Bundesverkehrsminister Andreas Scheuer (CSU).",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Paul-Löbe-Haus, Westseite, Frontalansicht, Berlin-Mitte, 151223, ako.jpg",
+     "beschreibung": "West facade of the Paul-Löbe-Haus in Berlin-Mitte during the blue hour. The building was designed by architect Stephan Braunfels and built between 1997 and 2002. It's one of the buildings of the Germa",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg/1280px-Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Paul-L%C3%B6be-Haus%2C_Westseite%2C_Frontalansicht%2C_Berlin-Mitte%2C_151223%2C_ako.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Paul-L%C3%B6be-Haus,_Westseite,_Frontalansicht,_Berlin-Mitte,_151223,_ako.jpg",
+     "urheber": "Ansgar Koreng",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "ort",
+     "suchbegriff": "German Bundestag building Berlin",
+     "bildunterschrift": "Das Paul-Löbe-Haus in Berlin-Mitte nahe dem Regierungsviertel.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Vor dem Landgericht Berlin hat der Strafprozess gegen den ehemaligen Bundesverkehrsminister Andreas Scheuer begonnen.",
+    "Die Staatsanwaltschaft wirft dem Politiker vor, im Untersuchungsausschuss zur Pkw-Maut falsch ausgesagt zu haben.",
+    "Im Mittelpunkt stehen Aussagen aus dem Oktober des Jahres 2020 vor dem Bundestag.",
+    "Damals ging es um ein Treffen mit Betreiberfirmen aus dem Jahr 2018.",
+    "Der Europäische Gerichtshof hatte die deutsche Pkw-Maut im Juni des Jahres 2019 gestoppt.",
+    "Die gescheiterten Verträge kosteten den Bund nach Angaben der Medien hunderte Millionen Euro.",
+    "Die Staatsanwaltschaft geht von einer Falschaussage aus, während der Anwalt von Scheuer die Vorwürfe zurückweist.",
+    "Ein parlamentarischer Untersuchungsausschuss ist ein Kontrollinstrument des Bundestages zur Aufklärung von Fehlverhalten.",
+    "Das Gericht hat für das Verfahren zunächst zwölf Verhandlungstage angesetzt.",
+    "Am Ende der Verhandlung entscheidet die Strafkammer über eine Verurteilung oder einen Freispruch."
+   ]
+  },
+  {
+   "id": "rad-wm-zeitfahren-montreal",
+   "titel": "Radsport-Weltmeisterschaften in Montreal mit Entscheidungen im Einzelzeitfahren",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Kondiaronk Belvedere, Montreal city, Canada.jpg",
+     "beschreibung": "Terrace of the Mount Royal Chalet , Montreal in winter.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg/1280px-Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kondiaronk_Belvedere%2C_Montreal_city%2C_Canada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Kondiaronk_Belvedere,_Montreal_city,_Canada.jpg",
+     "urheber": "Wilfredor",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "ort",
+     "suchbegriff": "Montreal city skyline",
+     "bildunterschrift": "B Blick auf die kanadische Stadt Montreal.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Circuit Gilles-Villeneuve, May 29, 2018 SkySat.jpg",
+     "beschreibung": "Circuit Gilles Villeneuve , a motor racing circuit| in Montreal , Quebec , Canada . It is the venue for the FIA| Formula One Canadian Grand Prix . Image taken on May 29, 2018, by a Planet Labs SkySat ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg/1280px-Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Circuit_Gilles-Villeneuve%2C_May_29%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Circuit_Gilles-Villeneuve,_May_29,_2018_SkySat.jpg",
+     "urheber": "Planet Labs, Inc.",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Circuit Gilles Villeneuve",
+     "bildunterschrift": "Der Circuit Gilles Villeneuve in Montreal.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Montreal, Kanada",
+    "lat": 45.503,
+    "lon": -73.57
+   },
+   "saetze": [
+    "Remco Evenepoel und Marlen Reusser gewinnen die Goldmedaillen im Einzelzeitfahren bei der Straßenrad-Weltmeisterschaft.",
+    "Die Wettkämpfe finden im kanadischen Montreal statt.",
+    "Evenepoel absolviert die Strecke von knapp neununddreißig Kilometern in einer Zeit von vierundvierzig Minuten und dreiundfünfzig Komma eins drei Sekunden.",
+    "Der belgische Radprofi gewinnt damit zum vierten Mal in Folge den Titel bei den Männern.",
+    "Den zweiten Platz belegt der Italiener Filippo Ganna, während der Franzose Paul Seixas Bronze gewinnt.",
+    "Bei den Frauen holt die Schweizerin Marlen Reusser den Sieg an ihrem fünfunddreißigsten Geburtstag.",
+    "Die britische Fahrerin Zoe Backstedt sichert sich die Silbermedaille.",
+    "Nach Angaben der Medien erkämpft sich die deutsche Starterin Franziska Koch die Bronzemedaille.",
+    "Die Weltmeisterschaft im Radsport wird in den kommenden Tagen mit weiteren Rennen fortgesetzt."
+   ]
+  },
+  {
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "titel": "Landtagswahlen in Mecklenburg-Vorpommern und Abgeordnetenhauswahl in Berlin",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
+     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "urheber": "Arild Vågen",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus building",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Schwerin-Schloss-gp.jpg",
+     "beschreibung": "front aspect of Schwerin Castle , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
+     "urheber": "User:Kolossos",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Election MG 3455.JPG",
+     "beschreibung": "Second round of the French presidential election of 2007.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+     "urheber": "Rama",
+     "lizenz": "CC BY-SA 2.0 fr",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "saetze": [
+    "In Mecklenburg-Vorpommern hat die Partei AfD die Landtagswahl gewonnen.",
+    "Nach Angaben der Wahlleitung erreichte die AfD 38,2 Prozent der Stimmen.",
+    "Auf dem zweiten Platz folgte die SPD mit 35,5 Prozent.",
+    "Die CDU scheiterte an der Fünf-Prozent-Hürde und ist nicht mehr im Parlament vertreten.",
+    "In Berlin gewann die Linkspartei die Abgeordnetenhauswahl mit 25,7 Prozent der Stimmen.",
+    "Bundeskanzler Friedrich Merz erklärte nach den Wahlen, dass er im Amt bleiben will.",
+    "Merz kündigte an, den begonnenen Reformkurs auf Bundesebene fortzusetzen.",
+    "Die weiteren Parteien beraten nun über mögliche Koalitionen und Regierungen.",
+    "Gespräche zwischen verschiedenen Parteien wurden für die kommenden Tage angekündigt."
+   ]
+  },
+  {
+   "id": "usa-daenemark-groenland-abkommen",
+   "titel": "Einigung zwischen den USA, Dänemark und Grönland über Sicherheitsfragen",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Iceberg in North Star Bay, Greenland.jpg",
+     "beschreibung": "For five years, Jeremy Harbeck has worked as a support scientist for NASA’s Operation IceBridge, an airborne mission to study polar ice. The data processing that he does typically takes place in an of",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg/1280px-Iceberg_in_North_Star_Bay%2C_Greenland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Iceberg_in_North_Star_Bay%2C_Greenland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Iceberg_in_North_Star_Bay,_Greenland.jpg",
+     "urheber": "Jeremy Harbeck",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "ort",
+     "suchbegriff": "Greenland landscape ice",
+     "bildunterschrift": "Eine Eisscholle vor der Küste Grönlands, um dessen politische und rechtliche Einbindung es im Streit ging.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Mette Frederiksen in 2023 (cropped).jpg",
+     "beschreibung": "Ministra do Reino da Dinamarca, Mette Frederiksen . Edifício Europa, escritório da Dinamarca - Bruxelas - Bélgica. Foto: Ricardo Stuckert/PR",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Mette_Frederiksen_in_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mette_Frederiksen_in_2023_(cropped).jpg",
+     "urheber": "Palácio do Planalto",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Mette Frederiksen",
+     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen, die an der Einigung beteiligt war.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump, dessen Land an der Einigung im Streit um Grönland beteiligt ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "saetze": [
+    "Die Vereinigten Staaten, Dänemark und Grönland haben sich auf ein neues Sicherheitsabkommen geeinigt.",
+    "Die offizielle Unterzeichnung findet in der kommenden Woche in New York statt.",
+    "Das Abkommen soll die Sicherheit in der Arktis stärken.",
+    "Nach Angaben von US-Präsident Donald Trump werden die USA ihre Militärpräsenz auf Grönland ausweiten.",
+    "Dänische und grönländische Regierungsvertreter betonen, dass die Souveränität und das Selbstbestimmungsrecht gewahrt bleiben.",
+    "Zudem verbietet die Vereinbarung bestimmten Staaten militärische Präsenz oder sensible Investitionen.",
+    "Über die genauen Details des Textes gibt es unterschiedliche Darstellungen.",
+    "Das Abkommen folgt auf monatelange diplomatische Spannungen.",
+    "Die genauen Unterschiede zu früheren Verträgen sind noch unklar.",
+    "Nach der Unterzeichnung müssen die nationalen Parlamente das Abkommen noch ratifizieren."
+   ]
+  },
+  {
+   "id": "guterres-nachfolge-bachelet",
+   "titel": "Michelle Bachelet zieht Kandidatur für das Amt der UN-Generalsekretärin zurück",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Prime Minister Sanna Marin met with United Nations High Commissioner for Human Rights, Michelle Bachelet in Helsinki 5.2.2020 (49491548267).jpg",
+     "beschreibung": "© Laura Kotila | valtioneuvoston kanslia",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg/1280px-Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights%2C_Michelle_Bachelet_in_Helsinki_5.2.2020_%2849491548267%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Sanna_Marin_met_with_United_Nations_High_Commissioner_for_Human_Rights,_Michelle_Bachelet_in_Helsinki_5.2.2020_(49491548267).jpg",
+     "urheber": "FinnishGovernment",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Michelle Bachelet politician",
+     "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+     "beschreibung": "United Nations General Assembly Building, New York City",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+     "urheber": "Jakub Hałun",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters New York",
+     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "António Guterres United Nations Secretary-General in 2024 (cropped).jpg",
+     "beschreibung": "Secretary Antony J. Blinken meets with UN Secretary-General Antonio Guterres at the Department of State in Washington, D.C., June 4, 2024. (Official State Department photo by Chuck Kennedy)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ant%C3%B3nio_Guterres_United_Nations_Secretary-General_in_2024_(cropped).jpg",
+     "urheber": "U.S. Department of State from United States",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "António Guterres UN Secretary General",
+     "bildunterschrift": "UN-Generalsekretär António Guterres, dessen Nachfolge ausgeschrieben ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "New York, USA",
+    "lat": 40.713,
+    "lon": -74.006
+   },
+   "saetze": [
+    "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zurück. Das gab die chilenische Politikerin auf der Internetplattform Instagram bekannt. Eine konkrete Begründung nannte die vierundsiebzigjährige Politikerin nicht. Nach Angaben der israelischen UN-Mission war sie bei einer Probeabstimmung im UN-Sicherheitsrat zuvor auf dem vorletzten Platz gelandet. Die Costa-Ricanische Diplomatin Rebeca Grynspan gilt nach mehreren Probeabstimmungen als Favoritin für die Nachfolge. Der amtierende UN-Generalsekretär António Guterres scheidet am einfunddreißigsten Dezember aus dem Amt aus. Kritiker und Befürworter streiten derweil darüber, ob die Nachfolge erstmals an eine Frau gehen soll. Die Entscheidung über den Spitzenposten bei den Vereinten Nationen fällt im September. Bis dahin berät der Sicherheitsrat weiter über die verschiedenen Kandidatinnen und Kandidaten."
+   ]
+  },
+  {
+   "id": "porsche-stellenabbau",
+   "titel": "Berichte über möglichen weiteren Stellenabbau beim Sportwagenbauer Porsche",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Porsche-Museum in Stuttgart-Zuffenhausen 04.jpg",
+     "beschreibung": "Porsche-Museum in Stuttgart-Zuffenhausen",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg/1280px-Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
+     "urheber": "Giftzwerg 88",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Porsche Museum Stuttgart Zuffenhausen",
+     "bildunterschrift": "Das Porsche-Museum in Stuttgart-Zuffenhausen.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Stuttgart, Deutschland",
+    "lat": 48.778,
+    "lon": 9.18
+   },
+   "saetze": [
+    "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge vier Tausend weitere Stellen wegfallen.",
+    "Das berichtete das Handelsblatt unter Berufung auf Unterlagen aus dem Aufsichtsrat von Volkswagen.",
+    "Die Unterlagen stammen aus einer Sitzung des Gremiums von Anfang September.",
+    "Nach Angaben aus den Berichten wächst beim Mutterkonzern Volkswagen die Sorge um die Finanzen.",
+    "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig nur mit einer Umsatzrendite von einem Prozent.",
+    "Allein bei den Gemeinkosten der Markengruppe Sport Luxury fehlen nach den Angaben siebenhundert Millionen Euro.",
+    "Wegen der Eigenständigkeit von Porsche kann der Mutterkonzern Volkswagen solche Sparmaßnahmen nur empfehlen.",
+    "Eine Umsatzrendite beschreibt das Verhältnis von Gewinn zu Umsatz in einem Unternehmen.",
+    "Beide Unternehmen haben sich nach Angaben des Südwestrundfunks bisher nicht zu den Berichten geäußert."
+   ]
+  },
+  {
+   "id": "davis-cup-tennis-finale",
+   "titel": "Tennisteams qualifizieren sich für die Endrunde des Davis Cups",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Davis Cup Praha ČRo 2012-11-28 cropped 1.jpg",
+     "beschreibung": "Davis Cup trophy displayed in the Český rozhlas headquarters, Prague-Vinohrady",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg/1280px-Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
+     "urheber": "Draceane",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "Davis Cup trophy",
+     "bildunterschrift": "Die Trophäe des Davis Cups.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Halle/Westfalen, Deutschland",
+    "lat": 52.06,
+    "lon": 8.362
+   },
+   "saetze": [
+    "Mehrere Nationalmannschaften haben sich für das Finalturnier des Davis Cups qualifiziert.",
+    "Das deutsche Team gewann am Wochenende seine Begegnung gegen Kroatien mit drei zu eins.",
+    "Nach Angaben von ZDFheute und FAZ sicherte sich die Auswahl damit den Einzug in die Runde der besten Acht.",
+    "Auch die britische Mannschaft erreichte nach einem Sieg gegen Ecuador die Endrunde.",
+    "Die Spiele fanden an verschiedenen Orten wie in Halle in Westfalen und in London statt.",
+    "Die entscheidenden Partien im November werden in der italienischen Stadt Bologna ausgetragen.",
+    "Der deutsche Spieler Alexander Zverev äußerte sich kritisch über das Konzept von Finalturnieren, während Teamkapitän Michael Kohlmann die Leistung lobte.",
+    "Der Davis Cup ist ein internationaler Mannschaftswettbewerb im Herrentennis.",
+    "Die Mannschaften bereiten sich nun auf die kommenden Turniere vor.",
+    "Ob Alexander Zverev an den Finals im November teilnimmt, bleibt nach Angaben von ZDFheute abzuwarten."
+   ]
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "titel": "Pläne der Bundesregierung zu neuem Tankrabatt und Spritpreisdeckel",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
+     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+     "urheber": "Diego Delso",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "German Federal Chancellery building Berlin",
+     "bildunterschrift": "Das Bundeskanzleramt in Berlin als Sitz der Bundesregierung, die neue Entlastungen bei den Spritpreisen plant.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Fuel limit notice, high-pressure dispenser, MOL (Szántó Kovács János út), Hódmezővásárhely - March 27, 2022.jpg",
+     "beschreibung": "Fuel limit notice on a high-pressure MOL fuel dispenser at Hódmezővásárhely , Hungary . Fuel purchases were limited at 200 liters per heavy vehicle at this station on March 27, 2022. Location: Szántó ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg/1280px-Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Fuel_limit_notice,_high-pressure_dispenser,_MOL_(Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt),_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27,_2022.jpg",
+     "urheber": "Xbspiro",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "suchbegriff": "Fuel dispenser gas station",
+     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle, an die sich die Pläne zu Spritpreisen und Energiesteuern richten.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Die Bundesregierung plant ein neues Entlastungspaket gegen hohe Spritpreise.",
+    "Dazu gehören ein erneuter Tankrabatt und ein Spritpreisdeckel.",
+    "Ab Oktober soll die Energiesteuer auf Benzin und Diesel um vierzehn Cent pro Liter sinken.",
+    "Mit der Umsatzsteuer ergibt das einen Rabatt von siebzehn Cent.",
+    "Spätestens ab dem ersten Januar zweitausend sieben soll ein Preisdeckel folgen.",
+    "Nach Angaben der Bundesregierung sind die Kosten wegen des Krieges im Iran stark gestiegen.",
+    "Zahlreiche Ökonomen und Umweltverbände kritisieren die Pläne als kurzsichtig und klimaschädlich.",
+    "Wirtschaftsministerin Katherina Reiche äußerte sich skeptisch zu dem Preisdeckel.",
+    "Die Energiesteuer ist eine staatliche Verbrauchsteuer auf Energieprodukte wie Benzin.",
+    "Die Maßnahmen sollen bis zum Jahresende beziehungsweise Anfang des nächsten Jahres umgesetzt werden."
+   ]
+  },
+  {
+   "id": "huthi-angriffe-saudi-arabien",
+   "titel": "Angriffe auf die saudi-arabische Hauptstadt Riad und Ölanlagen",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Riyadh Skyline.jpg",
+     "beschreibung": "Riyadh Skyline is growing. Dated February 2018",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Riyadh_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
+     "urheber": "B.alotaby",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Riyadh skyline",
+     "bildunterschrift": "Die Skyline der saudi-arabischen Hauptstadt Riad, die Ziel von Angriffen der Huthi-Miliz war.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Riad, Saudi-Arabien",
+    "lat": 24.639,
+    "lon": 46.716
+   },
+   "saetze": [
+    "Die Huthi-Miliz aus dem Jemen hat Angriffe mit Raketen und Drohnen auf Saudi-Arabien gemeldet.",
+    "Betroffen waren nach Angaben der Miliz die Hauptstadt Riad und Ölanlagen in Janbu.",
+    "In Riad kam es am Samstag zu Explosionen und starker Rauchentwicklung nahe dem internationalen Flughafen.",
+    "Die saudische Luftabwehr hat nach Angaben der Militärkoalition eine Rakete über Riad abgefangen und zerstört.",
+    "Der Flugverkehr am Flughafen von Riad war wegen der Ereignisse vorübergehend unterbrochen.",
+    "Die Huthi-Miliz erklärte, die Angriffe seien eine Reaktion auf saudische Luftangriffe im Jemen.",
+    "Das US-Außenministerium warnte vor einer raschen Eskalation der Lage und riet von Reisen in die Region ab.",
+    "Ägypten, Jordanien und Kuwait verurteilten die Angriffe auf die saudische Hauptstadt.",
+    "Saudi-Arabien unterstützt die international anerkannte Regierung im jemenitischen Bürgerkrieg.",
+    "Die Beteiligten beobachten die Entwicklung an der wichtigen Schifffahrtsstraße im Roten Meer weiter."
+   ]
+  },
+  {
+   "id": "us-medienbann-weisses-haus",
+   "titel": "Zugangsbeschränkungen für Medien im Weißen Haus in Washington",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "The White House June 2024.jpg",
+     "beschreibung": "The White House in June 20, 2024. Photo taken from Lafayette Square facing towards the northern façade of the White House, with the North Lawn and the North Lawn fountain visible.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/The_White_House_June_2024.jpg/1280px-The_White_House_June_2024.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/The_White_House_June_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:The_White_House_June_2024.jpg",
+     "urheber": "DJTechYT",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "White House Washington DC north facade",
+     "bildunterschrift": "Das Weiße Haus in Washington, wo Journalisten der Zugang verwehrt wurde.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait 2017",
+     "bildunterschrift": "US-Präsident Donald Trump, der den Einlass für mehrere Medien beschränkte.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "saetze": [
+    "US-Präsident Donald Trump hat Journalisten mehrerer bekannter Medien den Zutritt zum Weißen Haus verwehrt.",
+    "Am Samstag haben Sicherheitskräfte den Reportern von CNN, MS NOW und Politico die Hausausweise abgenommen.",
+    "Zuvor hatte Trump auf seiner Onlineplattform Truth Social ein sofortiges Hausverbot für diese Medien angekündigt.",
+    "Als Grund nannte der Präsident nach Angaben aus den Berichten angebliche Falschinformationen der betroffenen Sender und Nachrichtenportale.",
+    "Der Verband der White-House-Korrespondenten verurteilte den Schritt als klaren Verstoß gegen die US-Verfassung.",
+    "Auch die betroffenen Medien kritisierten das Vorgehen und kündigten an, sich juristisch dagegen zu wehren.",
+    "Nach Angaben von Medienorganisationen verstößt das Verbot gegen den ersten Zusatzartikel, der die Pressefreiheit garantiert.",
+    "Das Weiße Haus ist der offizielle Amtssitz des US-Präsidenten in der Hauptstadt Washington.",
+    "Ob Gerichte das Hausverbot kippen werden, ist zum aktuellen Zeitpunkt noch unklar."
+   ]
+  },
+  {
+   "id": "usa-sanktionen-russland-kongress",
+   "titel": "US-Präsident Trump setzt neues Sanktionspaket gegen Russland in Kraft",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "South facade of the White House, Washington DC, as seen from the Washington Monument.jpg",
+     "beschreibung": "South facade of the White House, Washington DC, as seen from the Washington Monument. The White House is the official residence and principal workplace of the President of the United States. Located a",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg/1280px-South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_White_House,_Washington_DC,_as_seen_from_the_Washington_Monument.jpg",
+     "urheber": "Ad Meskens",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "White House Washington DC facade",
+     "bildunterschrift": "Die Südseite des Weißen Hauses in Washington, von dem aus die Unterzeichnung des Gesetzes bekannt gegeben wurde.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Washington, USA",
+    "lat": 38.895,
+    "lon": -77.036
+   },
+   "saetze": [
+    "Der amerikanische Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Russland unterzeichnet.",
+    "Das Weiße Haus in Washington gab diese Entscheidung offiziell bekannt.",
+    "Zuvor stimmten der Senat und das Repräsentantenhaus mit einer parteiübergreifenden Mehrheit für das Paket.",
+    "Das Gesetz soll den Druck auf Russland zur Beendigung des Krieges in der Ukraine erhöhen.",
+    "Es sieht Einreiseverbote für den Kremlchef Wladimir Putin und Militärvertreter vor.",
+    "Zudem werden Vermögen in den Vereinigten Staaten eingefroren und Strafzölle von bis zu fünfhundert Prozent auf Importe erhoben.",
+    "Nach Angaben der Nachrichtenagenturen dankte der ukrainische Präsident Wolodymyr Selenskyj für die Unterstützung.",
+    "Der frühere russische Präsident Dmitri Medwedew forderte dagegen eine militärische Abschreckung.",
+    "Das Gesetz betrifft auch Handelspartner wie China und Indien mit möglichen Zollaufschlägen von bis zu einhundert Prozent.",
+    "Die wirtschaftlichen Folgen für diese Länder sind zum aktuellen Zeitpunkt noch unklar."
+   ]
+  }
+ ]
+}
