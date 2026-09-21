@@ -1,6 +1,131 @@
 {
- "stand": "2026-09-21T17:09:57.316Z",
+ "stand": "2026-09-21T17:53:49.843Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eine-mondfinsternis",
+   "zeit": "2026-09-21T17:59:02.758Z",
+   "bereich": "Weltall",
+   "titel": "Wie entsteht eine Mondfinsternis?",
+   "vorspann": "Bei einer Mondfinsternis durchquert der Mond den Schatten der Erde. Dieses Ereignis findet bei Vollmond statt.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Während einer Mondfinsternis durchquert der Mond den Schatten, den die Erde in den Weltraum wirft. Sonne, Erde und Mond müssen dafür hinreichend genau auf einer Linie liegen. Von der Erde aus gesehen stehen sich Sonne und Mond gegenüber. Es ist Vollmond und das Ereignis ist überall dort zu sehen, wo Nacht ist. Umgangssprachlich ist damit meist eine Kernschattenfinsternis gemeint.",
+      "Es wird zwischen totalen und partiellen Finsternissen unterschieden. Der Mond taucht dabei ganz oder teilweise in den Schatten ein. Die Mondbahnebene ist gegenüber der Bahnebene der Erde um die Sonne geneigt. Pro Jahrhundert ereignen sich im Durchschnitt etwa 154 Kernschattenfinsternisse. Halbschattenfinsternisse finden etwa 88-mal pro Jahrhundert statt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Bei Vollmond steht der Mond in Opposition zur Sonne. Er befindet sich meist nicht in der Ebene der Umlaufbahn der Erde, da die Mondbahn um reichlich fünf Grad geneigt ist. Nur nahe an den gedachten Schnittpunkten, den Mondknoten, kann eine Finsternis entstehen. Nach sechs Mondphasenzyklen ist der Vollmond um etwa vier Tage verspätet.",
+      "Tritt der Mond während der Finsternis vollständig in den Kernschatten ein, handelt es sich um eine totale Kernschattenfinsternis. Die maximale Dauer beträgt ungefähr eine Stunde und sechsundvierzig Minuten. Da Sonnenlicht durch die Erdatmosphäre gebrochen wird, bleibt der Mond mit rötlichem Farbton sichtbar.",
+      "Tritt der Mond nur teilweise in den Kernschatten ein, handelt es sich um eine partielle Kernschattenfinsternis. Bei einer Halbschattenfinsternis durchläuft der Mond den Halbschatten. Die letzte totale Halbschattenfinsternis fand laut dem Wikipedia-Artikel am vierzehnten März zweitausendsechs statt, die nächste findet am neunundzwanzigsten August zweitausenddreiundfünfzig statt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Bereits die Griechen der Antike interpretierten den Rand des Erdschattens als Schattenwurf auf der Mondoberfläche. Aus ihrem kreisförmigen Schatten schlossen sie, dass die Erde eine Kugel ist. Die Voraussage von Finsternisterminen gehört zu den schwierigeren astronomischen Aufgaben, da zahlreiche Einflüsse und Bahnstörungen zu berücksichtigen sind."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Wegen der gegenseitigen Beeinflussung der Himmelskörper ist eine exakte Lösung für dieses Mehr-Körper-Problem nicht möglich, sondern nur eine Annäherung durch numerische Verfahren."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Kernschattenfinsternisse pro Jahrhundert",
+     "etwa 154"
+    ],
+    [
+     "Halbschattenfinsternisse pro Jahrhundert",
+     "etwa 88"
+    ],
+    [
+     "Maximale Dauer einer totalen Mondfinsternis",
+     "ungefähr 1 Stunde und 46 Minuten"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Mondfinsternis",
+     "Ein astronomisches Ereignis, bei dem der Mond den Schatten der Erde durchquert."
+    ],
+    [
+     "Kernschatten",
+     "Der innere, dunklere Bereich des Erdschattens im Weltall."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann kann eine Mondfinsternis eintreten?",
+     "optionen": [
+      "Bei Neumond",
+      "Bei Vollmond",
+      "Bei jeder Mondphase"
+     ],
+     "richtig": 1,
+     "erklaerung": "Eine Mondfinsternis kann nur eintreten, wenn Sonne, Erde und Mond auf einer Linie stehen und es Vollmond ist."
+    }
+   ],
+   "video": [
+    "Während einer Mondfinsternis wandert der Mond durch den Erdschatten.",
+    "Dieses Ereignis kann nur bei Vollmond stattfinden.",
+    "Die Erde wirft dabei einen Kernschatten und einen Halbschatten in den Weltraum.",
+    "Manchmal taucht der Mond nur teilweise in diesen Schatten ein.",
+    "Das nennt man eine partielle Finsternis.",
+    "Bei einer totalen Finsternis wandert der Mond ganz in den Kernschatten.",
+    "Er leuchtet dann oft in einem rötlichen Ton.",
+    "Schon im Altertum wussten Menschen durch Beobachtungen von diesem Schatten."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Mondfinsternis",
+    "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
+   },
+   "quelle": {
+    "titel": "Mondfinsternis",
+    "url": "https://de.wikipedia.org/wiki/Mondfinsternis",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 313,
+   "bildInfos": [
+    {
+     "titel": "Jsnell - Eclipse montage (by).jpg",
+     "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
+     "urheber": "Jason Snell from Mill Valley, CA",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Mondfinsternis",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Jsnell - Eclipse montage (by).jpg",
+    "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
+    "urheber": "Jason Snell from Mill Valley, CA",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Mondfinsternis",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-touchscreen",
    "zeit": "2026-09-21T17:29:35.430Z",

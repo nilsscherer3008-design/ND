@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-21T17:09:57.316Z",
+ "stand": "2026-09-21T17:53:49.843Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -19,7 +19,10 @@
   "scheuer-maut-prozess-gericht",
   "rad-wm-zeitfahren-montreal",
   "google-strafe-datenschutz",
-  "davis-cup-tennis-finale"
+  "davis-cup-tennis-finale",
+  "merzer-enteignungsverbot",
+  "mercedes-werkschliessung",
+  "ig-metall-aktionstag"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -42,10 +45,13 @@
   "scheuer-maut-prozess-gericht",
   "rad-wm-zeitfahren-montreal",
   "google-strafe-datenschutz",
-  "davis-cup-tennis-finale"
+  "davis-cup-tennis-finale",
+  "merzer-enteignungsverbot",
+  "mercedes-werkschliessung",
+  "ig-metall-aktionstag"
  ],
  "wetter": {
-  "stand": "2026-09-21T17:09:57.316Z",
+  "stand": "2026-09-21T17:53:49.843Z",
   "morgenTag": "Dienstag",
   "orte": [
    {
@@ -109,7 +115,7 @@
     "morgen": {
      "code": 3,
      "max": 20,
-     "min": 12
+     "min": 13
     }
    },
    {
@@ -345,6 +351,389 @@
   ]
  },
  "nachrichten": [
+  {
+   "id": "merzer-enteignungsverbot",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-21T17:30:00.000Z",
+   "titel": "Debatte über geplantes Bundesgesetz gegen Enteignungen in Berlin",
+   "vorspann": "Nach dem Wahlsieg der Linkspartei in Berlin hat Bundeskanzler Friedrich Merz ein rasches Bundesgesetz gegen Enteignungen angekündigt. Die Pläne zur Vergesellschaftung von Wohnungsunternehmen stoßen bei der Politik, der Bankenbranche und Investoren auf Reaktionen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Nach dem Wahlsieg der Linkspartei in Berlin kündigte Bundeskanzler Merz ein Bundesgesetz zur Verhinderung von Enteignungen im Wohnungssektor an.",
+    "Die Pläne der Linken sehen die Übernahme großer Immobilienkonzerne vor, um Mieten zu senken, was zu Kritik von Investoren und Banken führt.",
+    "Wirtschafts- und Bankenverbände warnen vor höheren Kreditzinsen und sinkenden Investitionen in Deutschland.",
+    "Rechtlich ist das von der Bundesregierung geplante Verbot von Enteignungen auf Landesebene laut Tagesschau/ARD umstritten.",
+    "In Berlin bereitet die Linkspartei währenddessen mögliche Sondierungsgespräche für eine Regierungsbildung vor."
+   ],
+   "einig": [
+    [
+     "Bundeskanzler Friedrich Merz hat ein Bundesgesetz gegen Enteignungen von Wohnraum angekündigt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Die Pläne der Berliner Linken zur Vergesellschaftung von Immobilienkonzernen haben zu intensiven Debatten geführt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob ein Bundesverbot von Enteignungen verfassungsrechtlich zulässig ist, ist laut Tagesschau/ARD umstritten und wird von Rechtsleuten sowie Bundesjustizministerin Hubig bezweifelt."
+   ],
+   "positionen": [
+    [
+     "Friedrich Merz (Bundeskanzler, CDU)",
+     "Enteignungspläne haben verheerende Wirkung; ein Bundesgesetz soll sie verbieten.",
+     "Tagesschau/ARD, ZDFheute, Deutschlandfunk"
+    ],
+    [
+     "Ines Schwerdtner und Elif Eralp (Die Linke)",
+     "Vergesellschaftung ist notwendig, um hohe Mieten zu bekämpfen und Wohnen in öffentliche Hand zu bringen.",
+     "Tagesschau/ARD, ZDFheute"
+    ],
+    [
+     "Deutsche Kreditwirtschaft (DK)",
+     "Vergesellschaftungen schaffen keinen Wohnraum, bergen finanzielle Risiken und verteuern Kredite.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Vertreter der Immobilienkonzerne selbst kommen in den Berichten nicht direkt mit eigenen Aussagen zu Wort.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 19:11",
+     "fokus": "Wirtschafts- und Rechtsfolgen",
+     "text": "Die Tagesschau beleuchtet ausführlich die Argumente der Bankenbranche und die rechtlichen Bedenken gegen das geplante Bundesgesetz.",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/enteignung-vergesellschaftung-wohnungen-berlin-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 19:30",
+     "fokus": "Politische Reaktionen und Wahlen",
+     "text": "ZDFheute setzt den Schwerpunkt auf die veränderten Kräfteverhältnisse nach den Wahlen und Reaktionen aus der CDU und anderen Parteien.",
+     "url": "https://www.zdfheute.de/politik/deutschland/wahl-mecklenburg-vorpommern-2026-wahl-berlin-reaktionen-parteien-liveticker-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 19:09",
+     "fokus": "Kurzmeldung zur Ankündigung",
+     "text": "Der Deutschlandfunk fasst die Ankündigung des Bundeskanzlers und die Reaktionen auf die Berliner Pläne kurz zusammen.",
+     "url": "https://www.deutschlandfunk.de/bundeskanzler-merz-kuendigt-schnelles-gesetz-gegen-enteignungen-an-100.html",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Thematische Breite",
+     "Während Tagesschau und Deutschlandfunk den Schwerpunkt auf die Enteignungsdebatte legen, behandelt ZDFheute zusätzlich die gesamten Folgen der Wahlen in Berlin und Mecklenburg-Vorpommern."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundeskanzler Friedrich Merz und die Berliner Linkspartei",
+    "was": "Ankündigung eines Bundesgesetzes gegen Enteignungen von Wohnraum",
+    "wann": "2026-09-21",
+    "wo": "Berlin, Deutschland",
+    "wie": "Durch ein geplantes Bundesgesetz zur Unterbindung von Vergesellschaftungen",
+    "warum": "Laut Merz wegen verheerender Wirkungen auf Investoren und privates Eigentum",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Nach der Abgeordnetenhauswahl in Berlin hat Bundeskanzler Friedrich Merz laut Tagesschau/ARD, ZDFheute und Deutschlandfunk angekündigt, ein Bundesgesetz gegen die Enteignung von Wohnraum auf den Weg zu bringen. Die Linkspartei hatte die Wahl in Berlin gewonnen und plant die Vergesellschaftung großer Immobilienkonzerne. Der CDU-Politiker erklärte bei einer Pressekonferenz in Berlin, Deutschland müsse internationalen Investoren signalisieren, dass privates Eigentum nicht angetastet werde.",
+      "Laut Tagesschau/ARD befinden sich erste Entwürfe für das Gesetz bereits in der Abstimmung zwischen dem Justiz- und dem Innenministerium. Bereits im Juli hatten sich die Koalitionsspitzen von Union und SPD im Bund darauf verständigt, die Verstaatlichung privater Mietwohnungen durch Landesgesetze zu unterbinden. Das Vorhaben soll laut Merz relativ schnell zu einer Entscheidung geführt werden.",
+      "Die Berliner Linke treibt die Pläne unterdessen weiter voran. Die Parteispitze verweist auf den Volksentscheid aus dem Jahr 2021, bei dem eine Mehrheit der Berliner für die Vergesellschaftung großer Wohnungskonzerne gestimmt hatte. Mit dem Schritt erhoffen sich die Befürworter eine Kontrolle über rund 240.000 zusätzliche Wohnungen und niedrigere Mieten."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Durch die geplante Vergesellschaftung in Berlin würde der Anteil der Wohnungsbestände in öffentlicher Hand laut Tagesschau/ARD von derzeit rund 20 Prozent auf mehr als 30 Prozent steigen. Mieter in landeseigenen Wohnungen zahlen im Schnitt deutlich weniger als bei privaten Anbietern. Die Linke argumentiert, dass dieser Effekt den gesamten Mietmarkt entlasten könnte.",
+      "Kritiker und Verbände bewerten die Vorhaben dagegen kritisch. Der Dachverband Deutsche Kreditwirtschaft teilte mit, dass eine Vergesellschaftung keinen zusätzlichen Wohnraum schaffe. Zudem drohten erhebliche finanzielle Risiken für die öffentliche Hand, wodurch der Spielraum für Ausgaben in Bildung und Soziales sinken würde.",
+      "Auch die Immobilienfinanzierung sieht die Bankenbranche durch den Entfall von Grundschulden gefährdet. Dies könne finanzierenden Banken und Sparkassen Kreditsicherheiten nehmen und zu teureren Immobilienkrediten führen. Nach den Wahlen in Berlin stehen deutsche Wohnungsbauunternehmen laut Tagesschau/ARD unter Druck."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Wahlen in Berlin und Mecklenburg-Vorpommern haben laut ZDFheute die politischen Kräfteverhältnisse verändert. In Berlin strebt die Linke Sondierungsgespräche mit SPD und Grünen an. Die Berliner Linken-Spitzenkandidatin Elif Eralp betonte die Notwendigkeit von Kompromissen bei den Regierungsplänen.",
+      "Im Zusammenhang mit den Wahlen äußerten sich zahlreiche Politiker zur Lage der Parteien. Altkanzlerin Angela Merkel betonte bei einer Ausstellungseröffnung die Bedeutung von Brückenbauer-Politik. Thüringens Ministerpräsident Mario Voigt bezeichnete das Wahlergebnis als historischen Wendepunkt und forderte eine Generalinventur.",
+      "ZDFheute berichtet zudem über sicherheitspolitische Debatten im Zuge möglicher Regierungsbündnisse. CDU-Politiker Marc Henrichmann warnte vor Risiken einer Abschaffung des Verfassungsschutzes, wie sie von der Berliner Linken im Wahlkampf thematisiert worden war."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Unter Vergesellschaftung versteht man in der Politik die Überführung von privatem Eigentum oder Unternehmen in öffentliches Eigentum gegen eine Entschädigung.",
+      "Ein Volksentscheid ist ein direktdemokratisches Verfahren, bei dem die wahlberechtigte Bevölkerung direkt über ein konkretes Gesetzesvorhaben oder eine politische Sachfrage abstimmt. In Berlin stimmten Bürger im Jahr 2021 über die Vergesellschaftung großer Wohnungsunternehmen ab."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Linken-Co-Chefin Ines Schwerdtner verteidigte die Pläne als Antwort auf hohe Mieten und die Frage der öffentlichen Daseinsvorsorge. Spitzenkandidatin Elif Eralp erklärte, man werde Kompromisse eingehen müssen. Bundeskanzler Friedrich Merz warnte vor verheerenden wirtschaftlichen Wirkungen im In- und Ausland.",
+      "Bundesjustizministerin Stefanie Hubig äußerte laut Tagesschau/ARD Bedenken gegen ein pauschales Verbot durch den Bund. Auch Verfassungsrechtler bezweifeln demnach, dass der Bund Enteignungen grundsätzlich untersagen kann.",
+      "CDU-Spitzenkandidat Stefan Evers betonte laut ZDFheute die Bereitschaft zur Regierungsverantwortung und zur Bearbeitung von Bürgersorgen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Bundesregierung will laut Bundeskanzler Friedrich Merz das Gesetzgebungsverfahren gegen Enteignungen zügig vorantreiben. Die Berliner Linke plant unterdessen Sondierungsgespräche mit SPD und Grünen, die nach Zustimmung der Parteitage in der kommenden Woche beginnen könnten.",
+      "Der Deutsche Olympische Sportbund entscheidet laut ZDFheute über deutsche Olympia-Bewerber, wobei die Linke eine Berliner Bewerbung ablehnt."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2021",
+     "Mehrheit der Berliner stimmt bei Volksentscheid für die Vergesellschaftung großer Wohnungskonzerne."
+    ],
+    [
+     "Juli",
+     "Koalitionsspitzen von Union und SPD verständigen sich auf ein mögliches Bundesgesetz gegen Enteignungen."
+    ],
+    [
+     "20. September 2026",
+     "Abgeordnetenhauswahl in Berlin und Landtagswahl in Mecklenburg-Vorpommern."
+    ],
+    [
+     "21. September 2026",
+     "Bundeskanzler Merz kündigt schnelles Bundesgesetz gegen Enteignungen an."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Bundeskanzler Friedrich Merz kündigte ein rasches Bundesgesetz gegen die Enteignung von Wohnraum an."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus",
+     "bildunterschrift": "Das Berliner Abgeordnetenhaus ist der Ort der politischen Entscheidungen nach der Wahl."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "German Federal Ministry of Justice Berlin",
+     "bildunterschrift": "Im Bundesjustizministerium werden erste Entwürfe für das geplante Gesetz abgestimmt."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Apartment building Berlin",
+     "bildunterschrift": "Große Wohnungsbestände in Berlin stehen im Mittelpunkt der politischen Vergesellschaftungsdebatte."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Aussage über Außenminister Johann Wadephul aus dem Artikel entfernt, da sie nicht in den Originalberichten stand.",
+    "Fehlerhafte Datumsangabe in der W-Frage korrigiert und auf Basis der Berichte angepasst.",
+    "Unbelegte Details im Bereich Zum Verständnis entfernt."
+   ],
+   "wortwarnung": [
+    "verheerenden"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Vergesellschaftung",
+      "Die Überführung von privatem Eigentum oder großen Unternehmen in den Besitz der öffentlichen Hand gegen eine Entschädigung."
+     ],
+     [
+      "Volksentscheid",
+      "Eine Abstimmung, bei der die wahlberechtigte Bevölkerung direkt über ein bestimmtes politisches Thema entscheidet."
+     ],
+     [
+      "Sondierungsgespräche",
+      "Vorbereitende Gespräche von Parteien, um herauszufinden, ob eine gemeinsame Regierung möglich ist."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente bringen Befürworter und Gegner der Vergesellschaftung in Berlin vor?",
+     "Warum ist ein geplantes Bundesverbot von Enteignungen unter Verfassungsrechtlern umstritten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat die Wahl in Berlin im September zweitausendsechsundzwanzig gewonnen?",
+      "optionen": [
+       "Die Linke",
+       "Die CDU",
+       "Die SPD"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und ZDFheute hat die Linkspartei die Wahl in Berlin gewonnen."
+     },
+     {
+      "frage": "Was plant Bundeskanzler Friedrich Merz als Reaktion auf die Berliner Pläne?",
+      "optionen": [
+       "Ein Gesetz zur Förderung privater Investoren",
+       "Ein Bundesgesetz gegen die Enteignung von Wohnraum",
+       "Eine Erhöhung der Mieten im gesamten Land"
+      ],
+      "richtig": 1,
+      "erklaerung": "Bundeskanzler Merz kündigte laut übereinstimmenden Berichten ein rasches Bundesgesetz gegen Enteignungen an."
+     },
+     {
+      "frage": "Wie viel Prozent der Wohnungsbestände wären nach Schätzungen nach einer Vergesellschaftung in öffentlicher Hand?",
+      "optionen": [
+       "Mehr als zehn Prozent",
+       "Mehr als dreißig Prozent",
+       "Genau fünfzig Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD würde sich der Anteil von rund zwanzig auf mehr als dreißig Prozent erhöhen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Nach der Wahl in Berlin plant Bundeskanzler Friedrich Merz ein neues Gesetz gegen Enteignungen.",
+    "absaetze": [
+     "Die Partei Die Linke hat die Wahl in Berlin gewonnen.",
+     "Die Partei möchte große Immobilienkonzerne in den Besitz des Landes bringen.",
+     "Bundeskanzler Friedrich Merz kündigte ein Gesetz an, um solche Enteignungen zu verbieten.",
+     "Banken und Verbände warnen vor teureren Krediten und wirtschaftlichen Problemen.",
+     "Die Linkspartei will nun Gespräche mit SPD und Grünen über eine Regierung führen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Bundeskanzler Friedrich Merz kündigte ein neues Bundesgesetz gegen Enteignungen an.",
+     "Die Berliner Linkspartei will nach ihrem Wahlsieg große Wohnungsunternehmen vergesellschaften.",
+     "Wirtschaftsverbände und Banken warnen vor finanziellen Risiken und höheren Kreditzinsen.",
+     "Die Linkspartei plant nun mögliche Sondierungsgespräche zur Regierungsbildung in Berlin."
+    ],
+    "lang": [
+     "Nach der Abgeordnetenhauswahl in Berlin hat Bundeskanzler Friedrich Merz ein Bundesgesetz gegen Enteignungen angekündigt.",
+     "Das sagte der CDU-Politiker bei einer Pressekonferenz in Berlin.",
+     "Die Linkspartei hatte die Wahl gewonnen und plant die Vergesellschaftung großer Wohnungskonzerne.",
+     "Dadurch soll das Land die Kontrolle über rund zweihunderttausendvierzigtausend weitere Wohnungen erhalten.",
+     "Der Anteil der öffentlichen Wohnungen würde von zwanzig auf über dreißig Prozent steigen.",
+     "Bankenverbände warnen vor höheren Kreditzinsen und sinkenden Investitionen in Deutschland.",
+     "Nach Angaben der Tagesschau ist das geplante Bundesverbot rechtlich umstritten.",
+     "Unter Vergesellschaftung versteht man die Überführung von privatem Eigentum in öffentliches Eigentum.",
+     "Die Berliner Linkspartei bereitet nun mögliche Sondierungsgespräche mit SPD und Grünen vor.",
+     "Der Deutsche Olympische Sportbund entscheidet zudem über eine mögliche deutsche Olympia-Bewerbung."
+    ],
+    "einfach": [
+     "Die Linkspartei hat die Wahl in Berlin gewonnen.",
+     "Die Partei will große Wohnungsunternehmen enteignen.",
+     "Bundeskanzler Friedrich Merz will das mit einem Gesetz verhindern.",
+     "Banken warnen vor teuren Krediten durch diesen Plan.",
+     "Die Linkspartei plant jetzt Gespräche für eine neue Regierung."
+    ]
+   },
+   "kurz": [
+    "Bundeskanzler Friedrich Merz plant ein Bundesgesetz gegen Enteignungen.",
+    "Die Berliner Linkspartei gewann die Wahl und will Immobilienkonzerne vergesellschaften.",
+    "Banken und Investoren warnen vor höheren Kreditzinsen und wirtschaftlichen Risiken.",
+    "Die Linkspartei plant in Berlin nun mögliche Sondierungsgespräche mit SPD und Grünen."
+   ],
+   "fakten": [
+    [
+     "Wohnungsbestand in öffentlicher Hand aktuell",
+     "etwa zwanzig Prozent"
+    ],
+    [
+     "Wohnungsbestand in öffentlicher Hand nach Vergesellschaftung",
+     "mehr als dreißig Prozent"
+    ],
+    [
+     "Anzahl zusätzlicher Wohnungen unter staatlicher Kontrolle",
+     "rund zweihunderttausendvierzigtausend"
+    ]
+   ],
+   "dossier": {
+    "slug": "wahlen-berlin-mv-2026",
+    "titel": "Wahlen in Berlin und Mecklenburg-Vorpommern zweitausendsechsundzwanzig"
+   },
+   "bildInfo": {
+    "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
+    "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+    "urheber": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "person",
+    "suchbegriff": "Friedrich Merz politician",
+    "bildunterschrift": "Friedrich Merz als Parteivorsitzender der CDU.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
+     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Friedrich Merz als Parteivorsitzender der CDU.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Abgeordnetenhaus.jpg",
+     "beschreibung": "Abgeordnetenhaus von Berlin - Hausansicht des Berliner Landesparlaments in der Niederkirchnerstraße, Berlin Mitte. Seit 1993 tagt das Berliner Abgeordntenehaus im Gebäude des ehemaligen Preußischen La",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Abgeordnetenhaus.jpg/1280px-Abgeordnetenhaus.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Abgeordnetenhaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus.jpg",
+     "urheber": "Abghs",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Abgeordnetenhaus von Berlin",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin als Landesparlament.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Berlin, Mitte, Mohrenstrasse 37, Bundesministerium der Justiz.jpg",
+     "beschreibung": "The German Federal Ministry of Justice at Mohrenstraße No. 37 in Berlin-Mitte. The building was constructed from 1912 to 1913 as commercial building \"Prausenhof\" to a design by Ludwig Otte. In front o",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg/1280px-Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Berlin,_Mitte,_Mohrenstrasse_37,_Bundesministerium_der_Justiz.jpg",
+     "urheber": "Jörg Zägel",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "German Federal Ministry of Justice Berlin",
+     "bildunterschrift": "Das Bundesministerium der Justiz in Berlin.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
   {
    "id": "wahlen-berlin-mecklenburg-vorpommern",
    "rubrik": "Deutschland",
@@ -839,7 +1228,7 @@
       18.59,
       25.05,
       30.36,
-      35.0,
+      35,
       43.74
      ]
     },
@@ -2876,6 +3265,288 @@
    ]
   },
   {
+   "id": "mercedes-werkschliessung",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-21T16:27:55.000Z",
+   "titel": "Mercedes-Benz kündigt mögliche Schließung von zwei Werken in Deutschland an",
+   "vorspann": "Der Autohersteller Mercedes-Benz hat angekündigt, zwei Werke in Deutschland zu schließen, falls die Kosten nicht sinken. Laut Produktionsvorstand Michael Schiebe ist das erklärte Ziel des Unternehmens jedoch der Erhalt aller Standorte.",
+   "eil": false,
+   "zusammenfassung": [
+    "Mercedes-Benz stellt die Schließung von zwei Werken in Deutschland in Aussicht, sollten die Kosten nicht sinken.",
+    "Betroffen wären jeweils ein Aufbau- und ein Powertrainwerk an bisher nicht endgültig benannten Standorten.",
+    "Die Gewerkschaft IG Metall und die Beschäftigten protestieren gegen die Sparpläne und den drohenden Arbeitsplatzabbau.",
+    "Im Oktober beginnen die Tarifverhandlungen zwischen den Unternehmen und der IG Metall."
+   ],
+   "einig": [
+    [
+     "Mercedes-Benz könnte zwei Werke in Deutschland schließen, wenn die Kosten nicht sinken.",
+     [
+      "Zeit",
+      "SWR Baden-Württemberg"
+     ]
+    ],
+    [
+     "Das Ziel des Unternehmens bleibt laut Produktionsvorstand der Erhalt aller Werke.",
+     [
+      "Zeit",
+      "SWR Baden-Württemberg"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche konkreten Standorte bei einem Scheitern der Verhandlungen geschlossen würden, ist noch nicht endgültig entschieden."
+   ],
+   "positionen": [
+    [
+     "Produktionsvorstand Michael Schiebe",
+     "Zwei deutsche Werke müssen bei ausbleibenden Kostensenkungen geschlossen werden, aber alle Standorte sollen erhalten bleiben.",
+     "Zeit, SWR Baden-Württemberg"
+    ],
+    [
+     "Gewerkschaft IG Metall und Beschäftigte",
+     "Protest gegen Jobabbau und weitere Einschnitte in der Industrie.",
+     "SWR Baden-Württemberg"
+    ]
+   ],
+   "fehlend": "Detaillierte Stellungnahmen von Betriebsräten oder Politikern werden in den Berichten nicht genannt.",
+   "medien": [
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "21.09.26, 18:27",
+     "fokus": "Kompakte Kurzmeldung",
+     "text": "Die Wochenzeitung berichtet kurz über die Ankündigung des Produktionsvorstands und das Ziel des Werkerhalts.",
+     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-09/mercedes-werksschliessung-michael-schiebe-kostensenkung-gxe",
+     "video": false
+    },
+    {
+     "name": "SWR Baden-Württemberg",
+     "typ": "öffentlich-rechtlich (Region)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "21.09.26, 18:06",
+     "fokus": "Ausführlicher Regionalbericht",
+     "text": "Der Sender liefert detaillierte Informationen über die Betriebsversammlung, betroffene Werkstypen und den Protest der IG Metall.",
+     "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/mercedes-benz-kritik-arbeitskosten-produktionsvorstand-100.html",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Der SWR liefert deutlich mehr Details zu den betroffenen Werkstypen und den Tarifverhandlungen als die Zeit."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Produktionsvorstand Michael Schiebe",
+    "was": "Mögliche Schließung von zwei Werken",
+    "wann": "2024",
+    "wo": "Deutschland und Sindelfingen",
+    "wie": "Durch Gespräche über Kosten und mögliche Maßnahmen",
+    "warum": "Wegen zu hoher Kosten laut Mercedes-Benz",
+    "quellenlage": "Zeit (Wochenzeitung) und SWR Baden-Württemberg"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der Automobilkonzern Mercedes-Benz hat laut den Berichten angekündigt, möglicherweise zwei Werke in Deutschland zu schließen. Dies ist der Fall, wenn die Arbeitskosten im Land nicht gesenkt werden. Das erklärte Produktionsvorstand Michael Schiebe auf einer Betriebsversammlung in Sindelfingen. Zuvor hatte die Stuttgarter Zeitung über diese Pläne berichtet. Ein Unternehmenssprecher bestätigte die Aussagen auf Anfrage der Deutschen Presse-Agentur.",
+      "Das Unternehmen betonte laut den Berichten, dass das grundsätzliche Ziel weiterhin der Erhalt aller bestehenden Standorte sei. Dafür müssten jedoch für alle Seiten verträgliche Maßnahmen gefunden werden, um die Kosten zu verringern. Sollte dies nicht gelingen, sieht sich der Vorstand nach eigenen Angaben zu Schließungen gezwungen. Betroffen wären laut den Berichten ein deutsches Aufbauwerk sowie ein deutsches Powertrainwerk.",
+      "In den sogenannten Aufbauwerken werden laut SWR Baden-Württemberg die Autos zusammengebaut. Solche Standorte befinden sich neben Sindelfingen auch in Rastatt und Bremen. In den Powertrainwerken stellt der Konzern Komponenten für Fahrzeuge her. Diese Werke gibt es an mehreren Orten in Deutschland, darunter in Stuttgart-Untertürkheim, Berlin und Hamburg."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Rahmenbedingungen",
+     "absaetze": [
+      "Die Ankündigung erfolgt vor dem Hintergrund eines verschärften Sparkurses des Autobauers. Mercedes-Benz will mit einem neuen Sparprogramm aus der Krise kommen. Dazu gehört laut SWR Baden-Württemberg unter anderem die Verschiebung einer für Juli vorgesehenen tariflichen Sonderzahlung auf das kommende Jahr. Zudem schlug der Vorstand in einem Schreiben an die Beschäftigten vor, für den gleichen Lohn mehr zu arbeiten.",
+      "Ab dem siebten Oktober verhandeln die Unternehmen der Metall- und Elektroindustrie mit der Gewerkschaft IG Metall über die künftigen Gehälter. Diese Verhandlungen bestimmen maßgeblich die künftigen Kosten für die Unternehmen. Diskutiert wird in der Branche derzeit auch über Modelle mit längeren Arbeitszeiten bei gleichem Lohn, um die Wettbewerbsfähigkeit zu erhöhen.",
+      "Bereits am Montagvormittag hatten sich rund zwanzigtausend Beschäftigte von Mercedes-Benz an einem Aktionstag der IG Metall beteiligt. Sie protestierten dabei unter anderem gegen den drohenden Jobabbau und weitere Einschnitte in ihrer Industrie."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und Positionen",
+     "absaetze": [
+      "Produktionsvorstand Michael Schiebe erklärte laut den Berichten, dass sich der Konzern für den Erhalt der Standorte einsetzen wolle. Es brauche jedoch Einigungen über verträgliche Maßnahmen zur Kostensenkung. Das Unternehmen trat mit seiner Produktionsoffensive eine breite öffentliche Diskussion über die Arbeitskosten in Deutschland los.",
+      "Gewerkschaften und Beschäftigte kritisieren die Pläne des Managements laut den Berichten deutlich. Sie verweisen auf die bereits beschlossenen Einschnitte und den anhaltenden Druck auf die Arbeitsplätze in der deutschen Automobilindustrie. Ökonomen beobachten die Situation und ordnen die Erfolgsaussichten der verschiedenen Arbeitszeitmodelle ein."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Montagvormittag",
+     "Etwa zwanzigtausend Mercedes-Beschäftigte beteiligen sich an einem Aktionstag der IG Metall gegen Jobabbau."
+    ],
+    [
+     "Betriebsversammlung",
+     "Produktionsvorstand Michael Schiebe kündigt auf einer Betriebsversammlung in Sindelfingen mögliche Werkschließungen an."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "Mercedes-Benz logo",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Sindelfingen, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Datum in der W-Frage wurde auf ein in den Berichten nicht genau genanntes Jahr angepasst, da die genaue Jahreszahl nicht in den Quellen stand.",
+    "Zahlen und Namen wurden direkt an die Angaben aus den Berichten angepasst."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Tarifverhandlungen",
+      "Das sind offizielle Gespräche über Gehälter und Arbeitszeiten zwischen Arbeitgebern und einer Gewerkschaft."
+     ],
+     [
+      "Aufbauwerk",
+      "In diesem Werk werden die einzelnen Teile eines Autos zu einem fertigen Fahrzeug zusammengebaut."
+     ],
+     [
+      "Powertrainwerk",
+      "Ein Werk, in dem wichtige Komponenten und Antriebsteile für Fahrzeuge hergestellt werden."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente nennen Unternehmen für Einsparungen und welche Gründe nennen Gewerkschaften für ihren Protest?",
+     "Welche Rolle spielen Medienberichte bei der öffentlichen Diskussion über Arbeitskosten in der Industrie?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat die möglichen Werkschließungen laut den Berichten angekündigt?",
+      "optionen": [
+       "Produktionsvorstand Michael Schiebe",
+       "Der Bundeskanzler",
+       "Der Chef der Gewerkschaft IG Metall"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Zeit und SWR Baden-Württemberg hat Produktionsvorstand Michael Schiebe die mögliche Schließung auf einer Betriebsversammlung erklärt."
+     },
+     {
+      "frage": "Welches Ziel nennt das Unternehmen trotz der drohenden Schließungen?",
+      "optionen": [
+       "Die Schließung aller deutschen Fabriken",
+       "Den Erhalt aller Werke",
+       "Die Verlagerung ins Ausland"
+      ],
+      "richtig": 1,
+      "erklaerung": "Beide Quellen berichten übereinstimmend, dass das erklärte Ziel des Unternehmens der Erhalt aller Werke ist."
+     },
+     {
+      "frage": "Wann beginnen laut SWR Baden-Württemberg die Tarifverhandlungen zwischen den Unternehmen und der IG Metall?",
+      "optionen": [
+       "Am siebten Oktober",
+       "Am ersten Januar",
+       "Am zwanzigsten Dezember"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der SWR berichtet, dass ab dem siebten Oktober verhandelt wird."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der Autohersteller Mercedes-Benz hat über mögliche Werkschließungen in Deutschland gesprochen.",
+    "absaetze": [
+     "Wenn die Kosten nicht sinken, könnten zwei Werke geschlossen werden.",
+     "Das sagte Produktionsvorstand Michael Schiebe auf einer Versammlung in Sindelfingen.",
+     "Das Unternehmen will aber versuchen, alle Standorte zu erhalten.",
+     "Die Gewerkschaft IG Metall und viele Beschäftigte protestieren gegen die Pläne.",
+     "Im Oktober verhandeln die Arbeitgeber und die Gewerkschaft über neue Löhne."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Mercedes-Benz stellt die Schließung von zwei deutschen Werken in Aussicht.",
+     "Grund dafür sind aus Sicht des Unternehmens zu hohe Arbeitskosten.",
+     "Die Gewerkschaft IG Metall und Beschäftigte protestieren gegen diese Pläne."
+    ],
+    "lang": [
+     "Der Autohersteller Mercedes-Benz hat mögliche Werkschließungen in Deutschland angekündigt.",
+     "Das sagte Produktionsvorstand Michael Schiebe auf einer Betriebsversammlung in Sindelfingen.",
+     "Zwei Werke müssten geschlossen werden, wenn die Kosten im Land nicht sinken.",
+     "Das erklärte Ziel des Unternehmens bleibe jedoch der Erhalt aller Standorte.",
+     "Betroffen wären nach Angaben der Berichte ein Aufbauwerk und ein Powertrainwerk.",
+     "Rund zwanzigtausend Beschäftigte beteiligten sich an einem Aktionstag der Gewerkschaft IG Metall gegen den Jobabbau.",
+     "Im Oktober beginnen die Tarifverhandlungen zwischen der Industrie und der Gewerkschaft.",
+     "Das Unternehmen hatte zuvor eine Produktionsoffensive und einen verschärften Sparkurs gestartet.",
+     "Gewerkschaften und Beschäftigte kritisieren die Pläne des Managements deutlich.",
+     "Welche Standorte bei einem Scheitern der Gespräche geschlossen würden, ist noch offen."
+    ],
+    "einfach": [
+     "Mercedes-Benz will möglicherweise zwei Werke in Deutschland schließen.",
+     "Das hat der Vorstand Michael Schiebe mitgeteilt.",
+     "Ein Werk baut Autos, das andere stellt Teile her.",
+     "Grund für die Pläne sind zu hohe Kosten.",
+     "Viele Beschäftigte und die Gewerkschaft IG Metall protestieren dagegen.",
+     "Im Oktober sprechen die Unternehmen und die Gewerkschaft über Geld."
+    ]
+   },
+   "kurz": [
+    "Mercedes-Benz droht bei zu hohen Kosten mit der Schließung von zwei Werken.",
+    "Das Unternehmen betont als Ziel jedoch den Erhalt aller deutschen Standorte.",
+    "Die Gewerkschaft IG Metall und rund zwanzigtausend Beschäftigte protestieren dagegen.",
+    "Im Oktober beginnen Tarifverhandlungen zwischen Arbeitgebern und der Gewerkschaft."
+   ],
+   "fakten": [
+    [
+     "Teilnehmende am Aktionstag",
+     "rund zwanzigtausend Beschäftigte"
+    ],
+    [
+     "Mögliche Schließungen",
+     "zwei Werke (ein Aufbauwerk und ein Powertrainwerk)"
+    ]
+   ],
+   "dossier": {
+    "slug": "mercedes-werke-kosten",
+    "titel": "Mercedes-Benz: Diskussion um Kosten und mögliche Werkschließungen"
+   },
+   "bildInfo": {
+    "titel": "Logo Mercedes-Benz C300 (Germany).png",
+    "beschreibung": "Logo Mercedes-Benz C300 (Germany).",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Mercedes-Benz_C300_%28Germany%29.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Mercedes-Benz_C300_%28Germany%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Logo_Mercedes-Benz_C300_(Germany).png",
+    "urheber": "Mercedes-Benz",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "institution",
+    "suchbegriff": "Mercedes-Benz logo",
+    "bildunterschrift": "Das Logo des Autoherstellers Mercedes-Benz, der mögliche Werksschließungen in Deutschland angekündigt hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Logo Mercedes-Benz C300 (Germany).png",
+     "beschreibung": "Logo Mercedes-Benz C300 (Germany).",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Mercedes-Benz_C300_%28Germany%29.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Mercedes-Benz_C300_%28Germany%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Logo_Mercedes-Benz_C300_(Germany).png",
+     "urheber": "Mercedes-Benz",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "Mercedes-Benz logo",
+     "bildunterschrift": "Das Logo des Autoherstellers Mercedes-Benz, der mögliche Werksschließungen in Deutschland angekündigt hat.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Sindelfingen, Deutschland",
+    "lat": 48.708,
+    "lon": 9.004
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
    "id": "rad-wm-zeitfahren-montreal",
    "rubrik": "Sport",
    "zeit": "2026-09-21T16:17:50.000Z",
@@ -3269,75 +3940,53 @@
    "id": "duma-wahl-russland-drohnenangriffe",
    "rubrik": "Welt",
    "zeit": "2026-09-21T16:08:23.000Z",
-   "aktualisiert": "aktualisiert um 19:09 Uhr",
-   "titel": "Parlamentswahlen in Russland und vorläufige Ergebnisse",
-   "vorspann": "Die Partei Geeintes Russland hat die Parlamentswahl in Russland nach Angaben der Wahlkommission gewonnen. Das Parlament wird nach den vorläufigen Ergebnissen künftig aus vier Parteien bestehen.",
+   "aktualisiert": "aktualisiert um 19:53 Uhr",
+   "titel": "Parlamentswahl in Russland: Vorläufiges Ergebnis der Duma-Wahl",
+   "vorspann": "Die russische Wahlkommission hat das vorläufige Ergebnis der dreitägigen Parlamentswahl bekannt gegeben. Die Kreml-Partei Einiges Russland errang demnach die Mehrheit der Mandate.",
    "eil": false,
    "zusammenfassung": [
-    "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland nach Angaben der Wahlkommission mit deutlicher Mehrheit gewonnen.",
-    "Das Parlament wird künftig voraussichtlich aus vier Parteien bestehen, nachdem Geeintes Russland rund 355 der 450 Sitze errungen hat.",
-    "Oppositionelle Kräfte und die Antikriegspartei Jabloko waren von der Wahl ausgeschlossen worden.",
-    "Internationale Beobachter und die Europäische Union kritisierten die Abstimmung als undemokratisch und erkannten die Wahlen in den besetzten Gebieten der Ukraine nicht an."
+    "Die russische Wahlkommission hat das vorläufige Ergebnis der Duma-Wahl bekannt gegeben.",
+    "Die Kreml-Partei Einiges Russland errang demnach die Mehrheit von 355 der 450 Sitze.",
+    "Kritiker bemängeln den Ausschluss oppositioneller Kräfte und Berichte über Drangsalierungen bei der Stimmabgabe.",
+    "Der Kreml wertet das Ergebnis als Bestätigung seines Kurses und zur Legitimation des Militäreinsatzes."
    ],
    "einig": [
     [
-     "Die Partei Geeintes Russland hat die Parlamentswahl gewonnen.",
+     "Die Partei Einiges Russland hat die Parlamentswahl klar gewonnen und die Mehrheit der Sitze errungen.",
      [
       "Tagesschau/ARD",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle",
-      "BBC"
+      "Spiegel"
      ]
     ],
     [
-     "Geeintes Russland erhält 355 Sitze in der Staatsduma.",
+     "Die Wahlkommission hat das vorläufige Wahlergebnis bekannt gegeben.",
      [
       "Tagesschau/ARD",
-      "Deutsche Welle",
-      "FAZ"
-     ]
-    ],
-    [
-     "Die Antikriegspartei Jabloko wurde von der Wahl ausgeschlossen.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle",
-      "BBC"
-     ]
-    ],
-    [
-     "Wahlleiterin Ella Pamfilowa gab die Ergebnisse in Moskau bekannt.",
-     [
-      "Spiegel",
-      "FAZ",
-      "Deutsche Welle"
+      "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Die genaue Anzahl der in die Duma einziehenden Kriegsteilnehmer, da Angaben von Parteifunktionären korrigiert wurden (FAZ)."
+    "Das genaue Ausmaß von Unregelmäßigkeiten bei der Stimmabgabe und die tatsächliche Beteiligung von Wählern unter Druck, laut Berichten von Wählern und Beobachtern in Tagesschau/ARD."
    ],
    "positionen": [
     [
-     "Dmitri Medwedew (Vorsitzender Geeintes Russland)",
-     "Bewertet das Wahlergebnis als großen Erfolg und kündigte die Umsetzung aller Entscheidungen an.",
-     "Tagesschau/ARD, Deutsche Welle"
+     "Dmitrij Medwedew (Vorsitzender von Einiges Russland)",
+     "Das Parlament wird alle Entscheidungen Putins und alle Belange bezüglich der Ukraine umsetzen.",
+     "Tagesschau/ARD"
     ],
     [
-     "Kaja Kallas (EU-Außenbeauftragte im Namen der 27 Staaten)",
-     "Kündigte Sanktionen an und erklärte, die Wahlen in den besetzten Gebieten nicht anzuerkennen.",
-     "Deutsche Welle"
+     "Andrej Kolesnikow (Politologe)",
+     "Das zugelassene Parteienspektrum ist auf wenige nahezu identische regierungsnahe Parteien reduziert.",
+     "Tagesschau/ARD"
     ],
     [
      "Alexander Morosow (Politologe)",
-     "Erwartet eine Zunahme von Repressionen und bezeichnete das Parlament als Duma des Krieges.",
-     "Tagesschau/ARD, Deutsche Welle"
+     "Das Wahlergebnis führt zu mehr Repressionen und dient als Legitimation für Putins Kandidatur zweitausenddreißig.",
+     "Tagesschau/ARD"
     ]
    ],
-   "fehlend": "Stimmen der ukrainischen Regierung zur Bewertung des gesamten nationalen Wahlausgangs.",
+   "fehlend": "Stimmen der verbotenen Partei Jabloko oder unabhängiger internationaler Wahlbeobachterorganisationen über den gesamten Verlauf.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -3345,8 +3994,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "21.09.26, 18:08",
-     "fokus": "Hintergründe und Expertenstimmen",
-     "text": "Die Tagesschau beleuchtet ausführlich die Rolle der ausgeschlossenen Opposition, Berichte über Drangsalierungen bei der Wahl und Analysen von Politologen.",
+     "fokus": "Ausführliche Hintergründe zur Wahl",
+     "text": "Der Bericht beleuchtet den Verlauf der Duma-Wahl, den Ausschluss von Oppositionsparteien sowie Reaktionen von Politikern und Politologen. Er thematisiert zudem die wirtschaftliche und kriegsbedingte Situation in Russland.",
      "url": "https://www.tagesschau.de/ausland/europa/russland-nach-duma-wahl-100.html",
      "video": false
     },
@@ -3355,106 +4004,72 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "21.09.26, 11:37",
-     "fokus": "Zahlen und offizielle Ergebnisse",
-     "text": "Der Spiegel liefert genaue Prozentzahlen der Parteien sowie Einzelheiten zur Stimmabgabe und zur Wahlbeteiligung.",
-     "url": "https://www.spiegel.de/ausland/russland-putin-partei-gewinnt-scheinwahl-a-02a46881-b302-4670-90ce-3ad990845f92#ref=rss",
+     "datum": "21.09.26, 17:34",
+     "fokus": "Kurze Meldung zum Wahlergebnis",
+     "text": "Der Spiegel berichtet knapp über den Jubel bei den Spitzenkandidaten von Einiges Russland und den aus Sicht der Partei gemeisterten Stresstest.",
+     "url": "https://www.spiegel.de/ausland/russland-putins-sieg-verschleiert-die-schlechte-stimmung-a-5b5a82ca-e84b-415d-a559-519f2a2499a8#ref=rss",
      "video": false
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "21.09.26, 17:26",
-     "fokus": "Details zu Mandaten und Kandidaten",
-     "text": "Die FAZ berichtet detailliert über die Zahl der Kriegsteilnehmer im Parlament, parteiinterne Abläufe und Reaktionen von Funktionären.",
-     "url": "https://www.faz.net/aktuell/politik/ausland/ergebnis-von-russlands-scheinwahl-ein-votum-fuer-putins-krieg-201247549.html",
-     "video": false
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "21.09.26, 13:09",
-     "fokus": "Internationale Reaktionen und EU",
-     "text": "Die Deutsche Welle konzentriert sich auf die Reaktionen der Europäischen Union, angekündigte Sanktionen sowie Einschätzungen aus dem Ausland.",
-     "url": "https://www.dw.com/de/keine-überraschung-putins-partei-gewinnt-wahl-in-russland/a-79350176?maca=de-rss-de-all-1119-rdf",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "21.09.26, 08:58",
-     "fokus": "Kurze Zusammenfassung vor Ort",
-     "text": "Die BBC schildert aus Moskau, dass der Wahlausgang keine Überraschung darstellt und die einzige Antikriegspartei ausgeschlossen wurde.",
-     "url": "https://www.bbc.co.uk/news/videos/cjp30pq0rx6ro?at_medium=RSS&at_campaign=rss",
-     "video": true
     }
    ],
    "unterschiede": [
     [
-     "Prozentangaben der Wahlergebnisse",
-     "Der Spiegel nennt 57,83 Prozent für Geeintes Russland, die FAZ nennt 57,8 Prozent."
+     "Ausführlichkeit",
+     "Tagesschau/ARD liefert einen langen Hintergrundbericht mit Analysen und Kritikpunkten, während der Spiegel nur eine sehr kurze Einleitungsmeldung bietet."
     ]
    ],
    "wfragen": {
-    "wer": "Zentrale Wahlkommission Russlands",
-    "was": "Bekanntgabe der vorläufigen Ergebnisse der Parlamentswahl",
+    "wer": "Wahlkommission und Regierungspartei Einiges Russland",
+    "was": "Bekanntgabe des vorläufigen Wahlergebnisses der Duma",
     "wann": "2026-09-21",
-    "wo": "Moskau, Russland",
-    "wie": "Durch eine dreitägige Abstimmung von Freitag bis Sonntag",
-    "warum": "Reguläre Erneuerung der Staatsduma",
-    "quellenlage": "Offizielle Angaben der Wahlkommission und Medienberichte"
+    "wo": "Russland",
+    "wie": "Durch eine dreitägige Stimmabgabe mit zugelassenen Parteien",
+    "warum": "Regulärer Turnus der Parlamentswahl laut dem politischen System",
+    "quellenlage": "Berichte von Tagesschau/ARD und Spiegel"
    },
    "artikel": [
     {
      "ueberschrift": "Das ist passiert",
      "absaetze": [
-      "Die russische Regierungspartei Geeintes Russland hat nach übereinstimmenden Berichten die Parlamentswahl in Russland gewonnen. Nach Angaben von Wahlleiterin Ella Pamfilowa erreichte die Partei laut Spiegel und Deutsche Welle 57,83 Prozent der Stimmen. Die Tagesschau meldet, dass die Partei das beste Ergebnis ihrer Geschichte erreicht habe. Die Abstimmung fand über drei Tage statt und endete am Sonntag. Mehr als 110 Millionen Bürgerinnen und Bürger waren zur Stimmabgabe aufgerufen.",
-      "Nach den vorläufigen Ergebnissen der zentralen Wahlkommission wird Geeintes Russland 355 der insgesamt 450 Sitze in der Staatsduma erhalten. Laut dem Spiegel liegt die Zahl der Mandate bei mindestens 338 beziehungsweise laut den weiteren Angaben bei 355. Dies bedeutet einen Ausbau der bisherigen Mehrheit. Die Wahlbeteiligung lag nach Angaben der Quellen bei mehr als 56 beziehungsweise 59 Prozent.",
-      "Die Staatsduma ist das Unterhaus des russischen Parlaments. Sie besteht aus 450 Abgeordneten, die zur Hälfte über Parteilisten und zur Hälfte als Direktkandidaten gewählt werden. Die Wahl war die erste Parlamentswahl seit Beginn des russischen Angriffs auf die Ukraine im Februar 2022."
+      "Die Wahlkommission in Russland hat das vorläufige Ergebnis der Parlamentswahl für die Duma veröffentlicht. Laut Angaben der Kommission gewinnt die Partei Einiges Russland das beste Ergebnis ihrer Geschichte. Von insgesamt 450 Abgeordnetensitzen entfallen demnach 355 Sitze auf die Kreml-Partei. Die Abstimmung fand in einer Zeit statt, in der sich das Land im Krieg befindet und die Wirtschaft Störungen aufweist.",
+      "Das politische System in Russland ließ für die Wahl elf Parteien zu. Die einzige Partei, die deutliche Kritik an der Regierung äußerte, war die Anti-Kriegspartei Jabloko. Der Oberste Gerichtshof strich diese Partei nach nur zwölf Tagen von der Wahlliste. Nach Angaben der Tagesschau/ARD hatte Jabloko in kurzer Zeit viel Zuspruch erhalten, insbesondere bei jüngeren Wählern.",
+      "In die neue Duma ziehen fünf Parteien ein, die alle als kremlnah gelten. Alle diese Parteien unterstützen laut den Berichten die sogenannte militärische Spezialoperation gegen die Ukraine. Der Vorsitzende von Einiges Russland, Dmitrij Medwedew, erklärte am Morgen nach der Wahl, dass im Parlament alle Entscheidungen des Präsidenten und alle Belange bezüglich der Ukraine umgesetzt werden."
      ]
     },
     {
      "ueberschrift": "Die Einzelheiten",
      "absaetze": [
-      "Laut dem Spiegel und der FAZ kam die Kommunistische Partei mit 13,84 beziehungsweise 13,8 Prozent der Stimmen auf den zweiten Platz. Die ultranationalistische Partei LDPR erreichte demnach 8,9 beziehungsweise 9 Prozent der Stimmen. Die Partei Nowyje Ljudi erzielte 7,94 beziehungsweise 8 Prozent. Die Partei Gerechtes Russland verfehlte mit 4,95 beziehungsweise 4,96 Prozent knapp die Fünf-Prozent-Hürde.",
-      "Laut den Angaben der Wahlleiterin Ella Pamfilowa, die von der FAZ zitiert wird, besteht jedoch noch die Möglichkeit, dass Gerechtes Russland die Hürde überwindet oder über Direktmandate in die Duma einzieht. Vier Direktkandidaten dieser Partei ziehen laut FAZ in das Parlament ein. Künftig sind demnach nur noch vier Parteien in der Staatsduma vertreten.",
-      "Ein Streitpunkt war laut FAZ die genaue Zahl der Teilnehmer der speziellen Militäroperation, die in die Duma einziehen. Zunächst nannte der Funktionär Wladimir Jakuschew die Zahl 86, korrigierte diese Angabe nach einer zurückgezogenen Meldung jedoch auf 49 Teilnehmer für Geeintes Russland. Die Tagesschau und die FAZ berichten zudem über Berichte von Mitarbeitern von Staatsbetrieben und Studenten, zur Stimmabgabe gedrängt worden zu sein."
+      "Mitarbeiter von Staatsbetrieben sowie Studenten berichteten laut Tagesschau/ARD, sie seien zur Teilnahme an der Wahl gedrängt worden. Wahlbeobachter von drei Parteien klagten über Behinderungen ihrer Arbeit in den Wahllokalen. Wähler beschwerten sich zudem über technische Probleme bei der Stimmabgabe. Die Abstimmung wurde auch in den besetzten Gebieten der Ukraine durchgeführt, die annektiert wurden.",
+      "In Nachbarländern wie Armenien und Georgien registrieren Nachrichtenagenturen laut Tagesschau/ARD steigende Zahlen von Männern, die sich über die Grenze absetzen möchten. Die Berichte bringen dies mit der Angst vor einer neuen Mobilisierungswelle in Verbindung. Präsident Wladimir Putin hatte zwar betont, dass es keine Massenrekrutierung geben wird, doch nicht alle Bürger glauben diesen Aussagen.",
+      "Das Medium Spiegel berichtet ebenfalls über die Wahl und beschreibt die Stimmung bei den Spitzenkandidaten der Regierungspartei Einiges Russland als jubelnd. Laut dem Spiegel wurde der Stresstest der Wahl gemeistert. Weitere Details aus dem Spiegel-Artikel sind wegen technischer Beschränkungen der Zugänglichkeit jedoch nicht verfügbar."
      ]
     },
     {
      "ueberschrift": "Hintergrund",
      "absaetze": [
-      "Die Berichte heben hervor, dass die politische Opposition vor der Abstimmung stark eingeschränkt war. Die liberale Antikriegspartei Jabloko wurde nach kurzer Zulassung von der Wahlliste gestrichen. Auch andere oppositionelle Kräfte blieben ausgeschlossen. Unabhängige Wahlbeobachter sowie Organisationen konnten laut den Berichten nicht arbeiten oder haben sich aufgelöst.",
-      "Zudem wurde in den von Russland besetzten ukrainischen Gebieten Cherson, Saporischschja, Donezk und Luhansk abgestimmt. Die Tagesschau und die FAZ beschreiben diese Abstimmungen als Versuch, dem Militäreinsatz nachträglich Legitimation zu verleihen. Die Europäische Union kündigte an, diese Wahlen und deren Ergebnisse nicht anzuerkennen.",
-      "Am Wahlwochenende kam es laut den Berichten zu Drohnenangriffen in Russland, unter anderem auf Moskau. Die russischen Behörden schrieben diese Angriffe laut FAZ und Deutscher Welle Versuchen der Wahlbeeinflussung zu. Vertreter der Regierungspartei erklärten hingegen, die Angriffe hätten die Bevölkerung zusätzlich zur Stimmabgabe motiviert."
+      "Die Parlamentswahl in Russland fand über einen Zeitraum von drei Tagen statt. Die aktuelle Duma-Wahl ist die erste seit dem Beginn des Krieges gegen die Ukraine.",
+      "Laut dem kremlkritischen Politologen Andrej Kolesnikow bietet das zugelassene Parteienspektrum nur eine sehr begrenzte Auswahl. Er verglich das Angebot mit einem engen Menü nahezu identischer Gerichte, bei denen sich lediglich die Beilagen unterscheiden. Das Wahlergebnis dient dem Kreml nach Einschätzung von Beobachtern dazu, den Militäreinsatz nachträglich zu legitimieren.",
+      "Der Politologe Alexander Morosow äußerte die Erwartung, dass mit dem kremlfreundlichen Wahlergebnis die Repressionen in Russland weiter zunehmen werden. Zudem werde Putin das Ergebnis als Legitimation ansehen, bei der Präsidentschaftswahl im Jahr zweitausenddreißig erneut anzutreten. Dafür müsse er laut Morosow jedoch einen Sieg in der Ukraine vorweisen können."
      ]
     },
     {
      "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Die Staatsduma ist das Parlament der Russischen Föderation und bildet das Unterhaus der Gesetzgebung. Die Abgeordneten werden für eine Legislaturperiode gewählt.",
-      "Wahlen in Russland werden von der Zentralen Wahlkommission organisiert und überwacht. Parteien müssen eine Sperrklausel überwinden, um im Parlament vertreten zu sein."
+      "Die Duma ist das Parlament der Russischen Föderation und bildet das Unterhaus der Bundesversammlung. Sie besteht aus 450 Abgeordneten, die über Wahlen bestimmt werden. Zu ihren Aufgaben gehört die Beratung und Verabschiedung von Gesetzen.",
+      "Die Wahlkommission ist eine staatliche Institution in Russland, die für die Organisation und Durchführung von Wahlen zuständig ist. Sie prüft die Zulassung von Parteien und Kandidaten und gibt die offiziellen Wahlergebnisse bekannt."
      ]
     },
     {
      "ueberschrift": "Reaktionen",
      "absaetze": [
-      "Der Vorsitzende von Geeintes Russland, Dmitri Medwedew, erklärte laut Tagesschau und Deutscher Welle, das Wahlergebnis sei ein großer Erfolg. Man werde im Parlament alle Entscheidungen von Präsident Wladimir Putin sowie bezüglich der Ukraine umsetzen. Die Angriffe auf die Wahl seien gescheitert.",
-      "Die Europäische Union erklärte laut Deutscher Welle durch die EU-Außenbeauftragte Kaja Kallas, dass die Abstimmungen in den besetzten Gebieten nicht anerkannt werden. Die EU wertete die Wahl als weiteren Abbau der Demokratie und kündigte Sanktionen gegen Verantwortliche an. Auch das Fehlen von OSZE-Beobachtern wurde kritisiert.",
-      "Kremlkritische Experten wie der Politologe Alexander Morosow äußerten laut Tagesschau und Deutscher Welle die Erwartung, dass die Repressionen in Russland zunehmen werden. Morosow bezeichnete das Parlament als Staatsduma des Krieges. Die Partei Jabloko und das Team des verstorbenen Oppositionellen Alexej Nawalny erklärten laut Deutscher Welle, vielen Bürgern sei die Stimme genommen worden."
+      "Der Parteivorsitzende von Einiges Russland, Dmitrij Medwedew, erklärte am Morgen nach der Wahl, man werde im Parlament alle Entscheidungen Putins und alle Ukraine-Fragen umsetzen. Dies berichtete die Tagesschau/ARD.",
+      "Der kremlkritische Politologe Andrej Kolesnikow bezeichnete das Parteienspektrum laut Tagesschau/ARD als ein enges und überschaubares Menü aus nahezu identischen Angeboten. Der Politologe Alexander Morosow prognostizierte laut derselben Quelle eine Zunahme der Repressionen und eine erneute Kandidatur Putins im Jahr zweitausenddreißig."
      ]
     },
     {
      "ueberschrift": "Wie geht es weiter?",
      "absaetze": [
-      "Die neu zusammengesetzte Staatsduma wird ihre Arbeit aufnehmen und nach Angaben von Parteivertretern die vom Kreml gewünschten Gesetze und Maßnahmen umsetzen. Beobachter erwarten laut Tagesschau und Deutscher Welle, dass Präsident Putin das Wahlergebnis als Legitimation für eine erneute Kandidatur bei der Präsidentschaftswahl im Jahr 2030 nutzen wird.",
-      "Die Europäische Union kündigte konkrete Strafmaßnahmen und Sanktionen an. Diese richten sich gegen Kandidaten, Organisatoren der Wahlen in den besetzten ukrainischen Gebieten sowie Personen, die freie Wahlen behindert haben sollen."
+      "Die gewählten Abgeordneten werden in der Duma zusammentreten, um die politischen Vorhaben des Kremls zu beraten und umzusetzen. Der Kreml wird das Wahlergebnis für seine politischen Interpretationen und zur nachträglichen Legitimation des Militäreinsatzes nutzen.",
+      "Beobachter erwarten, dass die politische Entwicklung im Land weiterhin von der Situation im Krieg gegen die Ukraine sowie von innenpolitischen Maßnahmen bestimmt wird."
      ]
     }
    ],
@@ -3488,12 +4103,16 @@
      "Ende der dreitägigen Parlamentswahl in Russland und ukrainische Drohnenangriffe."
     ],
     [
+     "Sonntag",
+     "Ende der dreitägigen Parlamentswahl und ukrainische Drohnenangriffe auf russische Ziele."
+    ],
+    [
      "Freitag",
      "Beginn der dreitägigen Parlamentswahl in Russland."
     ],
     [
      "Sonntag",
-     "Ende der dreitägigen Parlamentswahl und ukrainische Drohnenangriffe auf russische Ziele."
+     "Ende der dreitägigen Parlamentswahl."
     ],
     [
      "2026-09-21",
@@ -3504,22 +4123,17 @@
     {
      "art": "person",
      "suchbegriff": "Vladimir Putin politician",
-     "bildunterschrift": "Der russische Präsident Wladimir Putin, dessen Partei die Parlamentswahl gewonnen hat."
+     "bildunterschrift": "Der russische Präsident Wladimir Putin, dessen Partei bei der Duma-Wahl die Mehrheit der Sitze errang."
     },
     {
      "art": "institution",
-     "suchbegriff": "State Duma Moscow",
-     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau, in dem das russische Parlament tagt."
+     "suchbegriff": "State Duma building Moscow",
+     "bildunterschrift": "Das Gebäude der Staatsduma in Moskau, in das die neu gewählten Abgeordneten einziehen."
     },
     {
-     "art": "person",
-     "suchbegriff": "Dmitry Medvedev politician",
-     "bildunterschrift": "Dmitri Medwedew, der Vorsitzende der Partei Geeintes Russland und ehemalige Präsident."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Red Square Moscow",
-     "bildunterschrift": "Der Rote Platz in Moskau vor den Regierungsgebäuden in der russischen Hauptstadt."
+     "art": "symbol",
+     "suchbegriff": "Russian ballot box",
+     "bildunterschrift": "Eine Wahlurne in Russland, an der die Bürger während der dreitägigen Parlamentswahl ihre Stimme abgaben."
     }
    ],
    "ort": {
@@ -3527,114 +4141,71 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Formulierung im Vorspann und in der Einleitung angepasst, um wertende Ausdrücke im unmarkierten Text zu vermeiden."
+    "Jahreszahl im Text als Wort geschrieben",
+    "Nicht belegte Drohnenangriffe aus der Zeitleiste und dem Artikel entfernt",
+    "Wertendes Wort völkerrechtswidrig bei der Annexion entfernt, da nicht von allen genannten Medien in dieser Passage gestützt"
    ],
    "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Staatsduma",
-      "Die Staatsduma ist das Unterhaus des russischen Parlaments, in dem Gesetze beschlossen werden."
-     ],
-     [
-      "Sperrklausel",
-      "Eine Mindestzahl von Stimmen, die eine Partei erreichen muss, um in das Parlament einziehen zu können."
-     ]
-    ],
-    "fragen": [
-     "Warum ist es für Beobachter wichtig, ob Oppositionsparteien zu einer Wahl zugelassen werden?",
-     "Welche Rolle spielen internationale Reaktionen bei Wahlen in anderen Staaten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welche Partei hat nach Angaben der Wahlkommission die Parlamentswahl gewonnen?",
-      "optionen": [
-       "Geeintes Russland",
-       "Die Kommunistische Partei",
-       "Jabloko"
-      ],
-      "richtig": 0,
-      "erklaerung": "Alle genannten Quellen bestätigen den klaren Sieg der Kreml-Partei Geeintes Russland."
-     },
-     {
-      "frage": "Wie viele Sitze erhält Geeintes Russland in der Staatsduma?",
-      "optionen": [
-       "301 Sitze",
-       "355 Sitze",
-       "450 Sitze"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau, FAZ und Deutscher Welle fallen 355 der insgesamt 450 Sitze an Geeintes Russland."
-     },
-     {
-      "frage": "Wer gab die vorläufigen Wahlergebnisse in Moskau bekannt?",
-      "optionen": [
-       "Dmitri Medwedew",
-       "Kaja Kallas",
-       "Ella Pamfilowa"
-      ],
-      "richtig": 2,
-      "erklaerung": "Spiegel, FAZ und Deutsche Welle nennen die Wahlleiterin Ella Pamfilowa als die Person, die das Ergebnis bekannt gab."
-     }
-    ]
-   },
    "einfach": {
-    "vorspann": "In Russland hat die Partei Geeintes Russland die Parlamentswahl gewonnen.",
+    "vorspann": "In Russland hat die Wahlkommission das vorläufige Ergebnis der Parlamentswahl bekannt gegeben.",
     "absaetze": [
-     "Die Partei von Präsident Wladimir Putin hat nach Angaben der Wahlkommission die Mehrheit der Sitze bekommen.",
-     "Die Abstimmung dauerte drei Tage und endete am Sonntag.",
-     "Kritiker und die Europäische Union sagen, dass die Wahl nicht fair war.",
-     "Wichtige Gegner der Regierung durften nicht an der Wahl teilnehmen.",
-     "Die Europäische Union kündigte daraufhin Strafen an."
+     "Die Partei Einiges Russland unterstützt den Präsidenten Wladimir Putin. Sie hat die Wahl klar gewonnen und holt die Mehrheit der Sitze im Parlament.",
+     "Das Parlament heißt in Russland Duma. Von insgesamt 450 Sitzen bekommt die Partei Einiges Russland 355 Sitze.",
+     "Kritiker sagen, dass es bei der Wahl kaum echte Auswahl gab. Wichtige Oppositionsgruppen durften nicht teilnehmen.",
+     "Einige Wähler und Beobachter berichteten zudem von Druck bei der Stimmabgabe.",
+     "Der Kreml will das Ergebnis nutzen, um den Militäreinsatz in der Ukraine zu unterstützen."
     ]
    },
    "video": {
     "kurz": [
-     "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen.",
-     "Nach Angaben der Wahlkommission erhält die Partei dreihundertfünfundfünfzig Sitze.",
-     "Die Europäische Union kritisierte die Abstimmung als undemokratisch."
+     "Die russische Wahlkommission hat das vorläufige Ergebnis der Parlamentswahl bekannt gegeben.",
+     "Die Kreml-Partei Einiges Russland hat dabei die Mehrheit der Sitze gewonnen.",
+     "Kritiker bemängeln den Ausschluss von Oppositionsgruppen und Druck auf Wähler.",
+     "Der Kreml will das Ergebnis als Unterstützung für seine Politik nutzen."
     ],
     "lang": [
-     "Die Partei Geeintes Russland hat die Parlamentswahl in Russland klar gewonnen.",
-     "Das gaben die Behörden am einundzwanzigsten September bekannt.",
-     "Die Abstimmung dauerte von Freitag bis Sonntag.",
-     "Nach Angaben der Wahlkommission entfielen auf die Partei von Präsident Wladimir Putin rund siebenundfünfzig Komma acht Prozent der Stimmen.",
-     "Geeintes Russland erhält damit dreihundertfünfundfünfzig von insgesamt vierhundertfünfzig Sitzen in der Staatsduma.",
-     "Die Wahlbeteiligung lag nach Medienberichten bei mehr als sechsundfünfzig Prozent.",
-     "Kritiker und die Europäische Union bezeichneten die Wahl als undemokratisch und schlossen oppositionelle Parteien aus.",
-     "Die Europäische Union kündigte nach Angaben der Deutschen Welle Sanktionen an.",
-     "Beobachter erwarten, dass das Wahlergebnis als Legitimation für den Kreml dienen wird.",
-     "Wie sich die Zusammensetzung des Parlaments auf die Politik auswirkt, bleibt abzuwarten."
+     "Die russische Wahlkommission hat das vorläufige Ergebnis der Parlamentswahl bekannt gegeben.",
+     "Die Abstimmung fand in Russland über einen Zeitraum von drei Tagen statt.",
+     "Nach Angaben der Kommission errang die Kreml-Partei Einiges Russland 355 von insgesamt 450 Sitzen.",
+     "Das berichten die Tagesschau und der Spiegel am einundzwanzigsten September zweitausendsechsundzwanzig.",
+     "Kritiker bemängeln, dass oppositionelle Parteien kaum zugelassen wurden und Wähler unter Druck gerieten.",
+     "Der Vorsitzende Dmitrij Medwedew erklärte, das Parlament werde alle Entscheidungen des Präsidenten umsetzen.",
+     "Politologen wie Alexander Morosow erwarten nach Angaben der Tagesschau eine Zunahme der politischen Repressionen.",
+     "Die Duma ist das Parlament der Russischen Föderation und berät über Gesetze.",
+     "Der Kreml will das Wahlergebnis nutzen, um den Militäreinsatz in der Ukraine zu rechtfertigen.",
+     "Wie sich die politische Lage weiterentwickelt, bleibt abzuwarten."
     ],
     "einfach": [
      "In Russland gab es eine Wahl für das Parlament.",
-     "Die Partei von Präsident Wladimir Putin hat gewonnen.",
-     "Das Parlament heißt Staatsduma.",
-     "Andere Parteien durften nicht richtig mitmachen.",
-     "Deshalb gab es viel Kritik aus anderen Ländern."
+     "Das Parlament heißt Duma.",
+     "Die Partei von Präsident Wladimir Putin hat klar gewonnen.",
+     "Sie bekommt die Mehrheit der Sitze.",
+     "Kritiker sagen, es gab keine echte Opposition.",
+     "Der Kreml freut sich über das Ergebnis."
     ]
    },
    "kurz": [
-    "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen.",
-    "Nach Angaben der Wahlkommission erhält die Partei 355 von 450 Sitzen.",
-    "Die Europäische Union kritisierte die Abstimmung und kündigte Sanktionen an."
+    "Die russische Wahlkommission hat das vorläufige Ergebnis der Duma-Wahl bekannt gegeben.",
+    "Die Kreml-Partei Einiges Russland gewann 355 von 450 Sitzen.",
+    "Kritiker bemängeln den Ausschluss von Oppositionsparteien und Druck auf Wähler.",
+    "Der Kreml wertet das Ergebnis als Unterstützung für seinen politischen Kurs."
    ],
    "fakten": [
     [
-     "Sitze für Geeintes Russland",
-     "355 von 450"
+     "Gesamtzahl der Sitze in der Duma",
+     "450"
     ],
     [
-     "Stimmenanteil Geeintes Russland",
-     "57,83 Prozent"
+     "Sitze für die Partei Einiges Russland",
+     "355"
     ],
     [
-     "Wahlbeteiligung",
-     "mehr als 56 Prozent"
+     "Dauer der Wahl",
+     "Drei Tage"
     ]
    ],
    "dossier": {
-    "slug": "russland-duma-wahl-2026",
+    "slug": "duma-wahl-russland-2026",
     "titel": "Parlamentswahl in Russland"
    },
    "bildInfo": {
@@ -3700,65 +4271,327 @@
     "lat": 55.626,
     "lon": 37.606
    },
-   "version": 5,
-   "ton": [
+   "version": 5
+  },
+  {
+   "id": "ig-metall-aktionstag",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-21T15:56:46.000Z",
+   "titel": "Aktionstag der IG Metall in der Automobilindustrie",
+   "vorspann": "Die Gewerkschaft IG Metall hat zu bundesweiten Protesten von Beschäftigten in der Automobilindustrie aufgerufen. Im Zentrum stehen Forderungen zum Erhalt von Arbeitsplätzen und Tarifstandards.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die IG Metall hat zu einem bundesweiten Aktionstag in der Automobilindustrie aufgerufen.",
+    "Beschäftigte demonstrieren an zahlreichen Standorten gegen Stellenabbau und für den Erhalt von Tarifstandards.",
+    "In Baden-Württemberg gab es Kundgebungen, unter anderem mit 20.000 Teilnehmenden bei Mercedes-Benz in Sindelfingen.",
+    "Die Gewerkschaft kritisiert einseitige Sparmaßnahmen zulasten der Arbeitnehmer und fordert Planungssicherheit für die Standorte.",
+    "Die Tarifverhandlungen in der Metall- und Elektroindustrie beginnen am 7. Oktober."
+   ],
+   "einig": [
+    [
+     "Die IG Metall rief zu einem bundesweiten Aktionstag in der Autoindustrie auf.",
+     [
+      "Tagesschau/ARD",
+      "Zeit"
+     ]
+    ],
+    [
+     "Es sind Aktionen in über 100 IG-Metall-Geschäftsstellen geplant.",
+     [
+      "Tagesschau/ARD",
+      "Zeit"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Es gibt keine Widersprüche in den Berichten, jedoch nennt nur die Tagesschau/ARD konkrete Details zu Teilnehmerzahlen, Standorten und Aussagen der Betriebsräte, während die Zeit den Aufruf zur Aktion allgemein erwähnt."
+   ],
+   "positionen": [
+    [
+     "Antonio Lupo (Betriebsratsvorsitzender Mahle Eislingen)",
+     "Es ist zu einfach, immer nur bei den Arbeitnehmern den Rotstift anzusetzen; Tarifverträge müssen verteidigt werden.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Michael Kocken (IG-Metall-Geschäftsführer)",
+     "Politik und Arbeitgeber haben sich die Arbeitnehmer als Ziel ausgesucht und fordern Einschnitte, während Lohnkosten nur einen kleinen Teil ausmachen.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Ergun Lümali (Gesamtbetriebsratschef Mercedes-Benz)",
+     "Der Vorstand hat jegliches Gespür verloren und setzt auf Sparmaßnahmen zulasten der Belegschaft statt bei Aktionären oder Vorständen.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen von Arbeitgeberverbänden, Unternehmensleitungen oder der Politik fehlen in den Berichten.",
+   "medien": [
     {
-     "k": "Die Partei Geeintes Russland hat die Parlamentswahl in Russland klar gewonnen. D",
-     "d": "ff59a40f0a.mp3",
-     "l": 52.18,
-     "s": [
-      0.25,
-      4.58,
-      7.95,
-      10.78,
-      18.6,
-      25.45,
-      30.28,
-      37.26,
-      41.75,
-      47.01
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "21.09.26, 17:56",
+     "fokus": "Ausführliche Berichterstattung über den Aktionstag",
+     "text": "Der öffentlich-rechtliche Sender schildert detailliert die Kundgebungen in Baden-Württemberg, nennt konkrete Zahlen und zitiert Betriebsratsmitglieder sowie Gewerkschaftsvertreter. Zudem beleuchtet er die wirtschaftliche Lage bei Mercedes und Zulieferern.",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/autoindustrie-protest-aktionstag-mercedes-100.html",
+     "video": false
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "21.09.26, 08:23",
+     "fokus": "Meldung zum bundesweiten Aufruf",
+     "text": "Die Wochenzeitung liefert eine kurze und kompakte Information darüber, dass die IG Metall zu Protesten bei Herstellern und Zulieferern in über hundert Geschäftsstellen aufgerufen hat.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/ig-metall-protest-autoindustrie-arbeitsplaetze-christiane-benner-daniela-cavallo-vw",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Die Tagesschau/ARD liefert einen langen Report mit vielen Hintergründen, Zahlen und Zitaten, während die Zeit lediglich eine kurze Kurzmeldung über den Aufruf veröffentlicht."
+    ]
+   ],
+   "wfragen": {
+    "wer": "IG Metall und Beschäftigte der Automobilindustrie",
+    "was": "Proteste gegen Stellenabbau und für Tarifstandards",
+    "wann": "2026-09-21",
+    "wo": "Deutschland",
+    "wie": "Durch Kundgebungen und Aktionen an über 100 Geschäftsstellen",
+    "warum": "Wegen Sorgen vor Stellenabbau und Krisenfolgen, laut IG Metall",
+    "quellenlage": "Berichte von Tagesschau/ARD und Zeit"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Gewerkschaft IG Metall hat bundesweit zu Protesten bei Herstellern und Zulieferern der Autoindustrie aufgerufen. Laut der Zeit sind Aktionen in über 100 IG-Metall-Geschäftsstellen geplant. Im Zentrum der Maßnahmen stehen der Erhalt von Arbeitsplätzen und Tarifstandards. Die Beschäftigten machen in mehreren Regionen ihrem Unmut Luft. Die Tagesschau/ARD berichtet über einen Aktionstag mit verschiedenen Kundgebungen.",
+      "Ein Schwerpunkt der Proteste liegt in Baden-Württemberg. Dort demonstrieren Delegationen und Beschäftigte an verschiedenen Standorten. Die Gewerkschaft verbindet den Aktionstag mit einer Botschaft an Arbeitgeber und Politik. Dabei geht es um die wirtschaftliche Lage der Branche. Die IG Metall kritisiert die bisherigen Entwicklungen bei den Unternehmen. Nach Angaben der Tagesschau/ARD beteiligten sich zahlreiche Menschen an den Kundgebungen.",
+      "Die Proteste richten sich gegen bestehende Sparpläne und den drohenden Personalabbau. Nach Angaben der Tagesschau/ARD verweisen Vertreter der Arbeitnehmerseite auf vergangene Einschnitte. Sie lehnen weitere Belastungen ab. Die IG Metall bereitet mit diesen Aktionen auch den Ton für kommende Tarifverhandlungen vor. Die Gespräche in der Metall- und Elektroindustrie sollen am siebten Oktober starten."
      ]
     },
     {
-     "k": "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen. ",
-     "d": "346dd4af0c.mp3",
-     "l": 13.92,
-     "s": [
-      0.25,
-      4.83,
-      9.51
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Im Filstal in Baden-Württemberg fand eine Kundgebung statt, die laut Tagesschau/ARD von einer kleinen Delegation um den Betriebsratsvorsitzenden Antonio Lupo und IG-Metall-Geschäftsführer Michael Kocken getragen wurde. Vor Ort waren zweihundert Spielzeug-Autos und Spielzeugfiguren auf dem Asphalt aufgebaut. Die Figuren trugen kleine Plakate zum Erhalt der Fünfunddreißig-Stunden-Woche. Die IG-Metall-Geschäftsstelle hatte diesen symbolischen Aufbau gewählt, um eine Botschaft zu senden.",
+      "Die Region blickt laut Tagesschau/ARD auf den Verlust von tausendachthundert Arbeitsplätzen allein im vergangenen Jahr zurück. Genannt werden dabei die Schließung des Unternehmens Allgaier in Uhingen Ende zweitausendfünfundzwanzig mit rund sechshundert betroffenen Arbeitsplätzen sowie die Schließung des Schaumstoffzulieferers Neveon in Ebersbach mit rund einhundert Beschäftigten. Bei ContiTech in Eislingen sollen demnach rund zehn Prozent der Belegschaft im mittleren zweistelligen Bereich wegfallen.",
+      "Eine deutlich größere Kundgebung fand laut Tagesschau/ARD bei Mercedes-Benz in Sindelfingen statt. Dort versammelten sich am Vormittag nach Angaben der IG Metall zwanzigtausend Beschäftigte. Auf Plakaten wurde unter anderem der Rücktritt von Konzernchef Ola Källenius gefordert. Der Mercedes-Konzern baut bereits Stellen über Abfindungen ab, streicht Managementposten und plant die Absenkung von Material- und Produktionskosten. Im Juni wurde zudem eine tarifliche Sonderzahlung für rund neunzigtausend Beschäftigte auf zweitausendsiebenundzwanzig verschoben."
      ]
     },
     {
-     "k": "In Russland gab es eine Wahl für das Parlament. Die Partei von Präsident Wladimi",
-     "d": "54a72a6b23.mp3",
-     "l": 18.13,
-     "s": [
-      0.25,
-      3.59,
-      7.7,
-      10.85,
-      14.04
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die deutsche Automobilindustrie befindet sich laut Tagesschau/ARD in einer Krise. Produzieren in Deutschland ist demnach teuer und die Nachfrage sinkt. Immer mehr Unternehmen verlagern ihre Aktivitäten nach Osteuropa. Die IG Metall verweist darauf, dass die Lohnkosten der Beschäftigten im Schnitt nur etwa siebzehn Prozent der Unternehmenskosten ausmachen.",
+      "Zuletzt sorgte ein Bericht der Wirtschaftswoche für Aufsehen, den die Tagesschau/ARD zitiert. Demnach vergleicht Mercedes die Arbeitskosten und Arbeitszeiten deutscher Werke mit ausländischen Standorten. Eine Arbeitsstunde in Tuscaloosa in den Vereinigten Staaten von Amerika soll rund achtzehn Prozent günstiger sein als in Deutschland, in Cugir in Rumänien sogar zweiundachtzig Prozent. Die Arbeitnehmerseite kritisiert diese Vergleiche als Erzeugung eines Klimas der Angst.",
+      "Die Gewerkschaft wirft den Arbeitgebern und der Politik vor, die Krise verschlafen zu haben. Laut IG-Metall-Geschäftsführer Michael Kocken sollen nun die Arbeitnehmer die Lasten tragen. Gefordert werden von den Arbeitnehmern längere Arbeitszeiten, spätere Renteneintritte und die Infragestellung von Tarifverträgen. Die Arbeitnehmerseite fordert stattdessen Auskünfte über geplante Investitionen und die Zukunft der Standorte in Deutschland."
      ]
     },
     {
-     "k": "Die genaue Anzahl der in die Duma einziehenden Kriegsteilnehmer, da Angaben von ",
-     "d": "3ddaf9fc9c.mp3",
-     "l": 7.53,
-     "s": [
-      0.25
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Tarifverträge sind schriftliche Vereinbarungen zwischen Arbeitgeberverbänden oder einzelnen Unternehmen und Gewerkschaften. Sie regeln Arbeitsbedingungen wie Löhne, Arbeitszeiten und Urlaub. In der Metall- und Elektroindustrie ist die Fünfunddreißig-Stunden-Woche seit Jahrzehnten tariflich vereinbart. Die Gewerkschaften vertreten die Interessen der Arbeitnehmerinnen und Arbeitnehmer in diesen Verhandlungen.",
+      "Betriebsräte sind gesetzlich verankerte Vertretungen der Beschäftigten in einem Unternehmen. Sie werden von der Belegschaft gewählt und setzen sich für die Einhaltung von Arbeitnehmerrechten, den Schutz von Arbeitsplätzen und Mitbestimmungsrechte ein. Gesamtbetriebsräte koordinieren die Arbeit der Betriebsräte über verschiedene Standorte eines Unternehmens hinweg."
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Unterhaus des russisc",
-     "d": "7186a8adc4.mp3",
-     "l": 10.11,
-     "s": [
-      0.25,
-      3.55
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Antonio Lupo, Betriebsratsvorsitzender beim Autozulieferer Mahle in Eislingen, erklärte laut Tagesschau/ARD, es sei zu einfach, immer nur bei den Arbeitnehmern zu sparen. Er betonte den Willen, die Tarifverträge zu verteidigen.",
+      "Michael Kocken, IG-Metall-Geschäftsführer, warf Politik und Arbeitgebern laut Tagesschau/ARD vor, die Arbeitnehmer als Ziel für Sparmaßnahmen auszuwählen. Er warnte vor den Folgen für die Region, wenn die Automobilindustrie weiter an Boden verliert.",
+      "Ergun Lümali, Gesamtbetriebsratschef von Mercedes-Benz, kritisierte laut Tagesschau/ARD den Vorstand des Unternehmens. Er warf ihm den Verlust jeglichen Gespürs für die Beschäftigten vor und forderte, dass Einsparungen beim Management oder den Aktionären beginnen sollten, anstatt einseitig die Arbeitnehmer zu belasten."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die IG Metall hat für den siebten Oktober den Start der Tarifverhandlungen in der Metall- und Elektroindustrie angekündigt. Der bundesweite Automobil-Aktionstag diente nach Angaben der Gewerkschaft als Auftakt für den Ton in diesen kommenden Verhandlungen, wie die Tagesschau/ARD berichtet."
      ]
     }
-   ]
+   ],
+   "zeitleiste": [
+    [
+     "Ende 2025",
+     "Schließung des Unternehmens Allgaier in Uhingen mit Verlust von rund 600 Arbeitsplätzen."
+    ],
+    [
+     "Juni 2026",
+     "Mercedes verschob eine tarifliche Sonderzahlung für rund 90.000 Beschäftigte auf 2027."
+    ],
+    [
+     "2026-09-21",
+     "Bundesweiter Automobil-Aktionstag der IG Metall mit Protesten in über 100 Geschäftsstellen."
+    ],
+    [
+     "2026-10-07",
+     "Geplanter Start der Tarifverhandlungen in der Metall- und Elektroindustrie."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Ola Källenius",
+     "bildunterschrift": "Mercedes-Konzernchef Ola Källenius steht wegen des Sparkurses in der Kritik der Arbeitnehmer."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "IG Metall",
+     "bildunterschrift": "Logo der Gewerkschaft IG Metall, die den bundesweiten Aktionstag organisiert hat."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Sindelfingen plant",
+     "bildunterschrift": "Das Werk von Mercedes-Benz in Sindelfingen war Schauplatz einer großen Kundgebung."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Automobile industry",
+     "bildunterschrift": "Die deutsche Automobilindustrie befindet sich in einer Krise mit sinkender Nachfrage und Stellenabbau."
+    }
+   ],
+   "ort": {
+    "name": "Stuttgart, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Zahlen in Textform gebracht und direkte Belege angepasst für die Sprachregeln im Video."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Gewerkschaft",
+      "Eine Gewerkschaft ist eine Vereinigung von Arbeitnehmern. Sie setzt sich für bessere Löhne und Arbeitsbedingungen ein."
+     ],
+     [
+      "Tarifvertrag",
+      "Ein Tarifvertrag ist ein Vertrag zwischen Gewerkschaften und Arbeitgebern. Er regelt zum Beispiel die Arbeitszeit und das Gehalt."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Betriebsräte in der Krise der Automobilindustrie laut den Berichten?",
+     "Warum kritisiert die Gewerkschaft IG Metall die geplanten Sparmaßnahmen der Arbeitgeber?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wozu rief die IG Metall bundesweit auf?",
+      "optionen": [
+       "Zu einem Aktionstag in der Autoindustrie",
+       "Zu einem allgemeinen Streik im öffentlichen Dienst",
+       "Zu Neuwahlen in der Automobilbranche"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Tagesschau und die Zeit berichten übereinstimmend über den Aufruf zu Protesten in der Autoindustrie."
+     },
+     {
+      "frage": "Wie viele Beschäftigte demonstrierten laut IG Metall bei Mercedes-Benz in Sindelfingen?",
+      "optionen": [
+       "2.000 Beschäftigte",
+       "20.000 Beschäftigte",
+       "200.000 Beschäftigte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Tagesschau nennt die Zahl von zwanzigtausend Teilnehmenden bei der Kundgebung in Sindelfingen."
+     },
+     {
+      "frage": "Wann beginnen die Tarifverhandlungen in der Metall- und Elektroindustrie?",
+      "optionen": [
+       "Am 7. September 2026",
+       "Am 7. Oktober 2026",
+       "Am 7. November 2026"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Tagesschau nennt den siebten Oktober als Starttermin für die Tarifverhandlungen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Gewerkschaft IG Metall hat zu Protesten in der Autoindustrie aufgerufen. Viele Beschäftigte machen sich Sorgen um ihre Arbeitsplätze.",
+    "absaetze": [
+     "In ganz Deutschland gingen Menschen auf die Straße. Sie protestierten gegen den Abbau von Arbeitsplätzen. Auch in Baden-Württemberg gab es große Kundgebungen. Bei Mercedes-Benz in Sindelfingen versammelten sich zwanzigtausend Beschäftigte. Die Gewerkschaft kritisiert, dass Firmen nur zulasten der Arbeiter sparen wollen. Am siebten Oktober beginnen neue Tarifverhandlungen in der Branche."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Gewerkschaft IG Metall rief zu bundesweiten Protesten in der Autoindustrie auf. In mehr als einhundert Geschäftsstellen gab es Aktionen. Die Beschäftigten fordern den Schutz ihrer Arbeitsplätze."
+    ],
+    "lang": [
+     "Die Gewerkschaft IG Metall hat zu einem bundesweiten Aktionstag in der Automobilindustrie aufgerufen. Nach Berichten von Tagesschau und Zeit sind Aktionen in mehr als einhundert Geschäftsstellen geplant. Im Zentrum stehen Forderungen zum Erhalt von Arbeitsplätzen und Tarifstandards. In Baden-Württemberg versammelten sich nach Angaben der Gewerkschaft zwanzigtausend Beschäftigte bei Mercedes-Benz in Sindelfingen. Die IG Metall kritisiert einseitige Sparmaßnahmen zulasten der Arbeitnehmer. Unternehmensvertreter und Arbeitgeber wurden in den Berichten nicht direkt zitiert. Die deutsche Automobilindustrie befindet sich nach Medienangaben in einer Krise mit sinkender Nachfrage. Die Tarifverhandlungen in der Metall- und Elektroindustrie starten am siebten Oktober."
+    ],
+    "einfach": [
+     "Die Gewerkschaft IG Metall hat zu Protesten aufgerufen. Viele Menschen in der Autoindustrie haben Angst vor dem Verlust ihrer Arbeit. In Sindelfingen demonstrierten zwanzigtausend Beschäftigte von Mercedes-Benz. Die Gewerkschaft fordert den Erhalt von Tarifverträgen und Arbeitsplätzen. Am siebten Oktober beginnen die Tarifverhandlungen für die Branche."
+    ]
+   },
+   "kurz": [
+    "Die Gewerkschaft IG Metall rief zu einem bundesweiten Aktionstag in der Autoindustrie auf.",
+    "In über einhundert Geschäftsstellen gab es Aktionen gegen Stellenabbau.",
+    "Bei Mercedes in Sindelfingen demonstrierten zwanzigtausend Beschäftigte.",
+    "Die Tarifverhandlungen beginnen am siebten Oktober."
+   ],
+   "fakten": [
+    [
+     "Geplante Aktionen",
+     "Über 100 Geschäftsstellen"
+    ],
+    [
+     "Teilnehmende bei Mercedes in Sindelfingen",
+     "20.000"
+    ],
+    [
+     "Arbeitsplätze im Filstal im Vorjahr verloren",
+     "1.800"
+    ],
+    [
+     "Start der Tarifverhandlungen",
+     "7. Oktober 2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "automobilindustrie-proteste-2026",
+    "titel": "Krise und Proteste in der Automobilindustrie"
+   },
+   "bildInfo": {
+    "titel": "-rpTEN - Tag 2 (26697103592) (cropped).jpg",
+    "beschreibung": "Christiane Benner, Sarah T. Roberts, Max Hoppenstedt, Steven Hill mit „Crowdworking behind the screen - Clickworking & Labor Rights“ am 03.05.2016 auf der re:publica in Berlin. Foto: re:publica/Gregor",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:-rpTEN_-_Tag_2_(26697103592)_(cropped).jpg",
+    "urheber": "re:publica from Germany",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Christiane Benner",
+    "sprache": "en",
+    "art": "institution",
+    "suchbegriff": "IG Metall",
+    "bildunterschrift": "Vertreter der Gewerkschaft IG Metall.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "-rpTEN - Tag 2 (26697103592) (cropped).jpg",
+     "beschreibung": "Christiane Benner, Sarah T. Roberts, Max Hoppenstedt, Steven Hill mit „Crowdworking behind the screen - Clickworking & Labor Rights“ am 03.05.2016 auf der re:publica in Berlin. Foto: re:publica/Gregor",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:-rpTEN_-_Tag_2_(26697103592)_(cropped).jpg",
+     "urheber": "re:publica from Germany",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Christiane Benner",
+     "sprache": "en",
+     "art": "institution",
+     "suchbegriff": "IG Metall",
+     "bildunterschrift": "Vertreter der Gewerkschaft IG Metall.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Stuttgart, Deutschland",
+    "lat": 48.778,
+    "lon": 9.18
+   },
+   "version": 5,
+   "bildVersucht": true
   },
   {
    "id": "davis-cup-tennis-finale",
@@ -4173,7 +5006,7 @@
     {
      "k": "Ob Alexander Zverev im November an der Endrunde in Bologna teilnehmen wird, ist ",
      "d": "7ddd452b47.mp3",
-     "l": 7.0,
+     "l": 7,
      "s": [
       0.25
      ]

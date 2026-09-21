@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-21T16:42:20.131Z",
+ "stand": "2026-09-21T17:53:49.843Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -10,7 +10,8 @@
    {
     "ueberschrift": "Das Rätsel des kühlen Nass",
     "wikipedia": "Wasser",
-    "fokus": "Die physikalischen und chemischen Grundregeln des Wassers."
+    "fokus": "Die physikalischen und chemischen Grundregeln des Wassers.",
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Woher das Wasser stammt",
