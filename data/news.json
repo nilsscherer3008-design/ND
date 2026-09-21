@@ -771,7 +771,145 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die Linke hat die Wahl zum Abgeordnetenhaus in Berlin gewonnen. Nach Angaben der",
+     "d": "f0e2aa1c27.mp3",
+     "l": 49.18,
+     "s": [
+      0.25,
+      3.63,
+      9.49,
+      14.75,
+      19.35,
+      26.13,
+      32.03,
+      38.57,
+      43.52
+     ]
+    },
+    {
+     "k": "Die Linke gewinnt die Wahl zum Abgeordnetenhaus in Berlin mit 25,7 Prozent. Die ",
+     "d": "337cae38aa.mp3",
+     "l": 15.68,
+     "s": [
+      0.25,
+      5.89,
+      11.04
+     ]
+    },
+    {
+     "k": "In Berlin wurde ein neues Parlament gewählt. Die Partei Die Linke hat die Wahl g",
+     "d": "c84e977e11.mp3",
+     "l": 23.18,
+     "s": [
+      0.25,
+      3.62,
+      6.45,
+      10.93,
+      17.27
+     ]
+    },
+    {
+     "k": "Welche Parteien die künftige Regierung bilden werden, ist laut Tagesschau/ARD no",
+     "d": "af2f800c22.mp3",
+     "l": 5.76,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Vergesellschaftung? Unter Vergesellschaftung versteht ma",
+     "d": "64390099ec.mp3",
+     "l": 11.82,
+     "s": [
+      0.25,
+      3.75
+     ]
+    },
+    {
+     "k": "Die Linke in Berlin hat die Wahl zum Abgeordnetenhaus nach vorläufigen Angaben k",
+     "d": "fdd8506236.mp3",
+     "l": 49.5,
+     "s": [
+      0.25,
+      5.54,
+      12.01,
+      18.59,
+      25.05,
+      30.36,
+      35.0,
+      43.74
+     ]
+    },
+    {
+     "k": "Die Linken-Spitzenkandidatin Elif Eralp führte ihre Partei durch den Wahlkampf. ",
+     "d": "51f5af755e.mp3",
+     "l": 53.23,
+     "s": [
+      0.25,
+      5.41,
+      11.05,
+      18.14,
+      21.17,
+      27.52,
+      37.21,
+      43.13
+     ]
+    },
+    {
+     "k": "Die politische Ausgangslage in Berlin war vor der Wahl von einer schwarz-roten K",
+     "d": "93c72f37ef.mp3",
+     "l": 59.22,
+     "s": [
+      0.25,
+      5.62,
+      12.77,
+      21.13,
+      26.61,
+      34.4,
+      42.99,
+      52.6
+     ]
+    },
+    {
+     "k": "Das Abgeordnetenhaus ist das Landesparlament des Bundeslandes Berlin. Es beschli",
+     "d": "37f84ed3b6.mp3",
+     "l": 17.93,
+     "s": [
+      0.25,
+      4.98,
+      10.47
+     ]
+    },
+    {
+     "k": "Linken-Spitzenkandidatin Elif Eralp kündigte an, das Gespräch mit Grünen und SPD",
+     "d": "54f597f765.mp3",
+     "l": 61.37,
+     "s": [
+      0.25,
+      8.28,
+      16.36,
+      24.44,
+      33.46,
+      39.91,
+      43.8,
+      52.8
+     ]
+    },
+    {
+     "k": "Nach den vorläufigen Wahlergebnissen stehen Verhandlungen zur Bildung einer neue",
+     "d": "5faaa3e004.mp3",
+     "l": 34.28,
+     "s": [
+      0.25,
+      5.8,
+      15.44,
+      27.44
+     ]
+    }
+   ]
   },
   {
    "id": "us-medienbann-weisses-haus",
@@ -1164,7 +1302,139 @@
     "lon": -77.036
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "US-Präsident Donald Trump hat den Sendern CNN und MS NOW sowie der Plattform Pol",
+     "d": "a17bfe8837.mp3",
+     "l": 62.24,
+     "s": [
+      0.25,
+      8.71,
+      14.97,
+      21.16,
+      28.28,
+      35.91,
+      42.03,
+      49.34,
+      55.78
+     ]
+    },
+    {
+     "k": "US-Präsident Trump verwehrt den Medien CNN, MS NOW und Politico den Zugang zum W",
+     "d": "045cc61281.mp3",
+     "l": 15.79,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "US-Präsident Trump hat drei Medien den Zugang zum Weißen Haus verboten. Dazu geh",
+     "d": "fd003f0328.mp3",
+     "l": 29.52,
+     "s": [
+      0.25,
+      5.57,
+      10.88,
+      14.37,
+      18.79,
+      24.39
+     ]
+    },
+    {
+     "k": "Wie lange das Hausverbot für die betroffenen Journalisten anhalten wird, ist lau",
+     "d": "e20d509c4b.mp3",
+     "l": 7.88,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Akkreditierung? Ein offizieller Ausweis, der Journaliste",
+     "d": "5ba062cb2e.mp3",
+     "l": 11.28,
+     "s": [
+      0.25,
+      3.75
+     ]
+    },
+    {
+     "k": "US-Präsident Donald Trump hat den Fernsehsendern CNN und MS NOW sowie der Plattf",
+     "d": "b47e0f98c5.mp3",
+     "l": 60.89,
+     "s": [
+      0.25,
+      9.47,
+      15.71,
+      23.28,
+      28.23,
+      35.14,
+      41.68,
+      52.84
+     ]
+    },
+    {
+     "k": "Der Ausschluss betrifft konkret die Korrespondenten der Nachrichtensender CNN un",
+     "d": "61777d40c4.mp3",
+     "l": 61.74,
+     "s": [
+      0.25,
+      7.97,
+      14.51,
+      24.55,
+      31.33,
+      36.79,
+      43.85,
+      51.97
+     ]
+    },
+    {
+     "k": "Der Vorgang reiht sich in langjährige Bemühungen ein, die Berichterstattung krit",
+     "d": "a6c25b0b13.mp3",
+     "l": 34.07,
+     "s": [
+      0.25,
+      6.38,
+      18.43,
+      25.3
+     ]
+    },
+    {
+     "k": "Das Weiße Haus ist der Amtssitz und Arbeitsplatz des US-Präsidenten in Washingto",
+     "d": "dcd255fc14.mp3",
+     "l": 28.48,
+     "s": [
+      0.25,
+      6.31,
+      7.18,
+      14.41,
+      21.8
+     ]
+    },
+    {
+     "k": "Die Sender ABC, CBS, NBC und Fox News erklärten laut Angaben von Tagesschau und ",
+     "d": "b68bca52ff.mp3",
+     "l": 44.79,
+     "s": [
+      0.25,
+      13.06,
+      25.75,
+      35.62
+     ]
+    },
+    {
+     "k": "Die betroffenen Medien haben Klage bei einem Bundesrichter am Bezirksgericht in ",
+     "d": "234da9321a.mp3",
+     "l": 27.62,
+     "s": [
+      0.25,
+      6.19,
+      7.08,
+      11.44,
+      20.14
+     ]
+    }
+   ]
   },
   {
    "id": "google-strafe-datenschutz",
@@ -1514,7 +1784,50 @@
     "lon": -6.261
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der amerikanische Technologiekonzern Google muss eine Geldstrafe von vierhundert",
+     "d": "457cab171d.mp3",
+     "l": 62.21,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Google muss wegen Datenschutzverstößen eine Geldstrafe von mehr als 400 Millione",
+     "d": "9d1924bb22.mp3",
+     "l": 22.75,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Google muss eine große Geldstrafe an die Europäische Union zahlen. Die Strafe be",
+     "d": "4f1584ae3e.mp3",
+     "l": 24.03,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob Google die geforderten Anpassungen vollständig innerhalb der Frist von sechs ",
+     "d": "481d4b412e.mp3",
+     "l": 7.38,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Standortdaten? Informationen darüber, an welchem Ort sic",
+     "d": "65bc5b7d7f.mp3",
+     "l": 10.75,
+     "s": [
+      0.25,
+      3.83
+     ]
+    }
+   ]
   },
   {
    "id": "scheuer-maut-prozess-gericht",
@@ -1892,7 +2205,52 @@
     }
    ],
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Vor dem Landgericht Berlin hat am Montag der Prozess gegen den früheren Bundesve",
+     "d": "a368b95ed2.mp3",
+     "l": 57.56,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Vor dem Landgericht Berlin hat der Prozess gegen den früheren Verkehrsminister A",
+     "d": "709063bc03.mp3",
+     "l": 14.69,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Berlin hat ein Prozess gegen den ehemaligen Verkehrsminister Andreas Scheuer ",
+     "d": "cad39e53a0.mp3",
+     "l": 25.65,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob die Bietergemeinschaft bei dem Treffen am 29. November 2018 tatsächlich ein A",
+     "d": "ec2b5cedfe.mp3",
+     "l": 10.54,
+     "s": [
+      0.25,
+      3.59
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Untersuchungsausschuss? Ein Ausschuss ist eine Gruppe vo",
+     "d": "a33e193d15.mp3",
+     "l": 12.56,
+     "s": [
+      0.25,
+      3.79,
+      7.89
+     ]
+    }
+   ]
   },
   {
    "id": "porsche-stellenabbau",
@@ -2208,7 +2566,49 @@
     "lon": 9.18
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
+     "d": "cae7875f8a.mp3",
+     "l": 17.57,
+     "s": [
+      0.25,
+      5.53,
+      10.71
+     ]
+    },
+    {
+     "k": "Porsche streicht nicht noch mehr Arbeitsplätze. Eine Zeitung hatte das behauptet",
+     "d": "72b99527a4.mp3",
+     "l": 20.61,
+     "s": [
+      0.25,
+      3.48,
+      6.42,
+      10.06,
+      15.67
+     ]
+    },
+    {
+     "k": "Ob über die bereits beschlossenen 5. 000 Stellen hinaus weiterer Bedarf an Einsp",
+     "d": "df4dc572c8.mp3",
+     "l": 11.34,
+     "s": [
+      0.25,
+      2.55
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Aufsichtsrat? Ein Kontrollorgan in einer Aktiengesellsch",
+     "d": "c197404fa6.mp3",
+     "l": 11.5,
+     "s": [
+      0.25,
+      3.64
+     ]
+    }
+   ]
   },
   {
    "id": "dieseltrend-hoechststand-spritpreise",
@@ -2463,7 +2863,17 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Ob alle Länder und Fraktionen im Bundestag dem Beschluss zustimmen werden.",
+     "d": "177452c4b8.mp3",
+     "l": 4.88,
+     "s": [
+      0.25
+     ]
+    }
+   ]
   },
   {
    "id": "rad-wm-zeitfahren-montreal",
@@ -2798,6 +3208,14 @@
    "bildVersucht": true,
    "ton": [
     {
+     "k": "Bei den Straßenrad-Weltmeisterschaften in Montreal haben die Entscheidungen im E",
+     "d": "dcc7297ab0.mp3",
+     "l": 45.29,
+     "s": [
+      0.25
+     ]
+    },
+    {
      "k": "Franziska Koch gewinnt Bronze im Einzelzeitfahren der Frauen bei der Rad-WM in M",
      "d": "3aee8fbdad.mp3",
      "l": 11.69,
@@ -2828,21 +3246,6 @@
      "s": [
       0.25,
       4.01
-     ]
-    },
-    {
-     "k": "Bei den Straßenrad-Weltmeisterschaften in Montreal haben die Entscheidungen im E",
-     "d": "75f8535ad0.mp3",
-     "l": 45.46,
-     "s": [
-      0.25,
-      6.64,
-      11.17,
-      18,
-      22.52,
-      30.27,
-      39.45,
-      42.44
      ]
     },
     {
@@ -3297,7 +3700,65 @@
     "lat": 55.626,
     "lon": 37.606
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die Partei Geeintes Russland hat die Parlamentswahl in Russland klar gewonnen. D",
+     "d": "ff59a40f0a.mp3",
+     "l": 52.18,
+     "s": [
+      0.25,
+      4.58,
+      7.95,
+      10.78,
+      18.6,
+      25.45,
+      30.28,
+      37.26,
+      41.75,
+      47.01
+     ]
+    },
+    {
+     "k": "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen. ",
+     "d": "346dd4af0c.mp3",
+     "l": 13.92,
+     "s": [
+      0.25,
+      4.83,
+      9.51
+     ]
+    },
+    {
+     "k": "In Russland gab es eine Wahl für das Parlament. Die Partei von Präsident Wladimi",
+     "d": "54a72a6b23.mp3",
+     "l": 18.13,
+     "s": [
+      0.25,
+      3.59,
+      7.7,
+      10.85,
+      14.04
+     ]
+    },
+    {
+     "k": "Die genaue Anzahl der in die Duma einziehenden Kriegsteilnehmer, da Angaben von ",
+     "d": "3ddaf9fc9c.mp3",
+     "l": 7.53,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Staatsduma? Die Staatsduma ist das Unterhaus des russisc",
+     "d": "7186a8adc4.mp3",
+     "l": 10.11,
+     "s": [
+      0.25,
+      3.55
+     ]
+    }
+   ]
   },
   {
    "id": "davis-cup-tennis-finale",
@@ -3668,7 +4129,65 @@
     "lon": 11.971
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Das deutsche Davis-Cup-Team steht nach einem Sieg über Kroatien in der Finalrund",
+     "d": "668372c246.mp3",
+     "l": 55.93,
+     "s": [
+      0.25,
+      5.47,
+      9.23,
+      16.01,
+      21.94,
+      26.74,
+      33.28,
+      39.27,
+      47.44,
+      52.91
+     ]
+    },
+    {
+     "k": "Das deutsche Davis-Cup-Team hat sich für die Endrunde qualifiziert. Gegen Kroati",
+     "d": "5662c067f4.mp3",
+     "l": 12.7,
+     "s": [
+      0.25,
+      4.18,
+      7.78
+     ]
+    },
+    {
+     "k": "Deutschland hat ein wichtiges Tennis-Turnier gewonnen. Das Team spielte gegen Kr",
+     "d": "20c572eee7.mp3",
+     "l": 18.59,
+     "s": [
+      0.25,
+      4.15,
+      7.44,
+      12.14,
+      14.97
+     ]
+    },
+    {
+     "k": "Ob Alexander Zverev im November an der Endrunde in Bologna teilnehmen wird, ist ",
+     "d": "7ddd452b47.mp3",
+     "l": 7.0,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Davis Cup? Ein internationaler Mannschaftswettbewerb im ",
+     "d": "5fb4500889.mp3",
+     "l": 11.04,
+     "s": [
+      0.25,
+      3.48
+     ]
+    }
+   ]
   },
   {
    "id": "usa-daenemark-groenland-abkommen",
@@ -4553,7 +5072,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 17.14,
+     "l": 17.67,
      "s": [
       0.25
      ]
@@ -7390,11 +7909,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.59,
+     "l": 12.5,
      "s": [
       0.25,
-      5.44,
-      9.35
+      5.43,
+      9.2
      ]
     },
     {
