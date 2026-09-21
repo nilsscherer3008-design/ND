@@ -2,8 +2,299 @@
  "id": "2026-09-21-18",
  "name": "18-Uhr-Ausgabe",
  "stunde": 18,
- "zeit": "2026-09-21T16:42:20.131Z",
+ "zeit": "2026-09-21T17:09:57.316Z",
  "themen": [
+  {
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "titel": "Vorläufiges Ergebnis zur Wahl des Abgeordnetenhauses in Berlin",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
+     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "urheber": "Arild Vågen",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus building",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Schwerin-Schloss-gp.jpg",
+     "beschreibung": "front aspect of Schwerin Castle , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
+     "urheber": "User:Kolossos",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Election MG 3455.JPG",
+     "beschreibung": "Second round of the French presidential election of 2007.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+     "urheber": "Rama",
+     "lizenz": "CC BY-SA 2.0 fr",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Die Linke hat die Wahl zum Abgeordnetenhaus in Berlin gewonnen.",
+    "Nach Angaben der Tagesschau erreichte die Partei ein Ergebnis von fünfundzwanzig Komma sieben Prozent.",
+    "Die Wahl fand im September des Jahres zweitausendsechsundzwanzig in Berlin statt.",
+    "Die CDU landete mit achtzehn Komma acht Prozent auf dem zweiten Platz.",
+    "Die SPD erhielt zwölf Komma eins Prozent und verzeichnet damit ihr schlechtestes Ergebnis in der Hauptstadt.",
+    "Die AfD kam auf sechzehn Komma drei Prozent und die Grünen auf vierzehn Komma drei Prozent.",
+    "Bundeskanzler Friedrich Merz kündigte laut dem Deutschlandfunk ein Bundesgesetz gegen Enteignungen von Wohnraum an.",
+    "Das Parlament beschließt Landesgesetze und kontrolliert die Landesregierung in Berlin.",
+    "Welche Parteien die neue Regierung bilden werden ist zum aktuellen Zeitpunkt noch unklar."
+   ]
+  },
+  {
+   "id": "us-medienbann-weisses-haus",
+   "titel": "Zugangsbeschränkungen und rechtliche Schritte im Weißen Haus",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "2021 storming of the United States Capitol 09.jpg",
+     "beschreibung": "2021 storming of the United States Capitol",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg/1280px-2021_storming_of_the_United_States_Capitol_09.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2021_storming_of_the_United_States_Capitol_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_09.jpg",
+     "urheber": "Tyler Merbler",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Sturm auf das Kapitol in Washington 2021",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Donald Trump politician",
+     "bildunterschrift": "Donald Trump verwehrte als US-Präsident mehreren Medien den Zugang zum Weißen Haus.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Latrobe White House cropa2.jpg",
+     "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Latrobe_White_House_cropa2.jpg/1280px-Latrobe_White_House_cropa2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Latrobe_White_House_cropa2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Latrobe_White_House_cropa2.jpg",
+     "urheber": "Benjamin Henry Latrobe",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "White House Washington DC",
+     "bildunterschrift": "Das Weiße Haus in Washington, D.C., ist der Amtssitz des US-Präsidenten.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Washington, D.C., USA",
+    "lat": 38.895,
+    "lon": -77.036
+   },
+   "saetze": [
+    "US-Präsident Donald Trump hat den Sendern CNN und MS NOW sowie der Plattform Politico den Zugang zum Weißen Haus verboten.",
+    "Am Samstag wurden die Presseausweise der betroffenen Journalisten deaktiviert und ihnen der Zutritt verweigert.",
+    "Nach Angaben der betroffenen Medien geschah dies ohne Vorankündigung und wegen unzufriedener Berichterstattung.",
+    "Die Medienhäuser haben daraufhin am Montag eine Klage und einen Eilantrag bei einem Gericht in Washington eingereicht.",
+    "Andere große Sender wie ABC, CBS, NBC und Fox News zeigen sich solidarisch mit den ausgeschlossenen Journalisten.",
+    "Diese Sender erklärten, sie würden vorerst nicht mehr in vollem Umfang über die Auftritte des Präsidenten berichten.",
+    "Nach Angaben von Donald Trump verbreiten die betroffenen Medien falsche Nachrichten und stellen eine Bedrohung für die Sicherheit dar.",
+    "Das Weiße Haus ist der offizielle Amtssitz und Arbeitsplatz des amerikanischen Präsidenten in der Hauptstadt.",
+    "Ob und wann die betroffenen Journalisten wieder in das Weiße Haus gelassen werden ist derzeit noch völlig offen."
+   ]
+  },
+  {
+   "id": "google-strafe-datenschutz",
+   "titel": "Irische Datenschutzbehörde verhängt Geldbuße gegen Google",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "DataPrivacy.jpg",
+     "beschreibung": "This image illustrates the concept of data privacy, with a keyhole in the middle of a cloud, up against a digital grid.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/DataPrivacy.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/DataPrivacy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DataPrivacy.jpg",
+     "urheber": "Blue Coat Photos",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "symbol",
+     "suchbegriff": "Data privacy digital security",
+     "bildunterschrift": "Symbolbild zur digitalen Datensicherheit und zum Datenschutz.",
+     "hinweis": "Symbolbild"
+    },
+    {
+     "titel": "Dublin - aerial - 2025-07-07 01.jpg",
+     "beschreibung": "Dublin aerial photograph",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Dublin_-_aerial_-_2025-07-07_01.jpg/1280px-Dublin_-_aerial_-_2025-07-07_01.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Dublin_-_aerial_-_2025-07-07_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dublin_-_aerial_-_2025-07-07_01.jpg",
+     "urheber": "瑞丽江的河水",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Dublin",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Dublin cityscape",
+     "bildunterschrift": "Luftaufnahme von Dublin, dem Sitz der irischen Datenschutzkommission.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Dublin, Irland",
+    "lat": 53.349,
+    "lon": -6.261
+   },
+   "saetze": [
+    "Der amerikanische Technologiekonzern Google muss eine Geldstrafe von vierhundertdrei Millionen Euro an die Europäische Union zahlen. Das teilte die irische Datenschutzkommission als zuständige Behörde am einundzwanzigsten September zweitausendsechsundzwanzig mit. Grund für das Bußgeld sind Verstöße gegen die Europäische Datenschutz-Grundverordnung beim Umgang mit Standortdaten. Nach Angaben der Behörde betrifft dies den Zeitraum von Mai zweitausendachtzehn bis Februar zweitausendzwanzig. Untersucht wurden dabei Funktionen wie der Standortverlauf und die Web- und App-Aktivität. Nach Darstellung der Datenschutzkommission waren sich Nutzer oft nicht bewusst, dass ihre Daten für Werbung verwendet wurden. Ein Sprecher von Google erklärte dazu, dass sich das Verfahren auf frühere Richtlinien bezieht. Seit zweitausendneunzehn habe das Unternehmen neue Werkzeuge zur einfachen Verwaltung von Standortdaten eingeführt. Die irische Behörde forderte Google zudem auf, die Datenverarbeitung innerhalb von sechs Monaten anzupassen. Gegen das Unternehmen laufen nach Angaben der Behörde derzeit noch drei weitere Untersuchungen."
+   ]
+  },
+  {
+   "id": "scheuer-maut-prozess-gericht",
+   "titel": "Prozessbeginn gegen ehemaligen Bundesverkehrsminister Andreas Scheuer in Berlin",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Scheuer Andreas 2017 by Studio Weichselbaumer.jpg",
+     "beschreibung": "Andreas Scheuer",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Scheuer_Andreas_2017_by_Studio_Weichselbaumer.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Scheuer_Andreas_2017_by_Studio_Weichselbaumer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Scheuer_Andreas_2017_by_Studio_Weichselbaumer.jpg",
+     "urheber": "Studio Weichselbaumer",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Andreas Scheuer",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Andreas Scheuer politician",
+     "bildunterschrift": "Der ehemalige Bundesverkehrsminister Andreas Scheuer steht in Berlin vor Gericht.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Landgericht Berlin, Littenstraße, Eingangshalle, 160906, ako.jpg",
+     "beschreibung": "Entrance hall of the regional court of Berlin located in Littenstrasse 12-17 in Berlin-Mitte.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Landgericht_Berlin%2C_Littenstra%C3%9Fe%2C_Eingangshalle%2C_160906%2C_ako.jpg/1280px-Landgericht_Berlin%2C_Littenstra%C3%9Fe%2C_Eingangshalle%2C_160906%2C_ako.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Landgericht_Berlin%2C_Littenstra%C3%9Fe%2C_Eingangshalle%2C_160906%2C_ako.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Landgericht_Berlin,_Littenstra%C3%9Fe,_Eingangshalle,_160906,_ako.jpg",
+     "urheber": "Ansgar Koreng",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Landgericht Berlin",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Landgericht Berlin building",
+     "bildunterschrift": "Die Eingangshalle des Landgerichts Berlin in der Littenstraße.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "saetze": [
+    "Vor dem Landgericht Berlin hat am Montag der Prozess gegen den früheren Bundesverkehrsminister Andreas Scheuer begonnen. Das teilten mehrere Medien übereinstimmend mit. Der Politiker muss sich wegen des Vorwurfs der Falsusaussage verantworten. Nach Angaben der Staatsanwaltschaft soll er in einem parlamentarischen Untersuchungsausschuss die Unwahrheit gesagt haben. Dabei ging es um die Abläufe rund um die gescheiterte Einführung der Pkw-Maut. Die Staatsanwaltschaft wirft Scheuer und dem ebenfalls angeklagten ehemaligen Staatssekretär Gerhard Schulz vor, sich an ein wichtiges Verschiebungsangebot von Betreibern im Jahr 2018 absichtlich nicht erinnert zu haben. Beide Angeklagten wiesen die Vorwürfe vor Gericht zurück und erklärten, sie hätten keine Erinnerung an ein solches Angebot gehabt. Die deutsche Pkw-Maut war im Jahr 2019 nach einer Klage Österreichs vom Gerichtshof der Europäischen Union als rechtswidrig gestoppt worden. Für den Prozess sind zunächst zwölf Verhandlungstage bis zum fünfundzigsten November angesetzt."
+   ]
+  },
+  {
+   "id": "porsche-stellenabbau",
+   "titel": "Porsche-Chef dementiert Medienbericht über zusätzlichen Stellenabbau",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Porsche headquarters Stuttgart 2013 March.jpg",
+     "beschreibung": "Porsche headquarters",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Porsche_headquarters_Stuttgart_2013_March.jpg/1280px-Porsche_headquarters_Stuttgart_2013_March.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/06/Porsche_headquarters_Stuttgart_2013_March.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Porsche_headquarters_Stuttgart_2013_March.jpg",
+     "urheber": "Morio",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "institution",
+     "suchbegriff": "Porsche headquarters Stuttgart",
+     "bildunterschrift": "Die Zentrale des Autobauers Porsche in Stuttgart.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Stuttgart, Deutschland",
+    "lat": 48.778,
+    "lon": 9.18
+   },
+   "saetze": [
+    "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dementiert.",
+    "Das Handelsblatt hatte zuvor berichtet, dass bei dem Sportwagenbauer vier tausend weitere Stellen wegfallen könnten.",
+    "Diese Berichte stützten sich auf Unterlagen zum Aufsichtsratsbeschluss bei Volkswagen.",
+    "Der Vorstandschef von Porsche, Michael Leiters, erklärte im Intranet, dass ein weiterer Stellenabbau nicht geplant ist.",
+    "Das Zukunftspaket umfasst nach seinen Worten unverändert fünf tausend Stellen bis zum Jahr 2035.",
+    "Die Planung sei vom Aufsichtsrat bestätigt worden, und es wird keine Änderung erwartet.",
+    "Nach Angaben des SWR Baden-Württemberg musste Volkswagen zuvor seine Gewinnprognose wegen einer Abschreibung auf Porsche senken.",
+    "Ein Aufsichtsrat ist ein Kontrollorgan in einer Aktiengesellschaft, das die Geschäftsführung überwacht.",
+    "Am siebten Oktober will Porsche-Chef Leiters seine künftige Strategie auf einem Kapitalmarkttag vorstellen."
+   ]
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "titel": "Pläne zu neuem Tankrabatt und Spritpreisen",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
+     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
+     "urheber": "Diego Delso",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "German Federal Chancellery building Berlin",
+     "bildunterschrift": "Das Bundeskanzleramt in Berlin als Sitz der Bundesregierung, die neue Entlastungen bei den Spritpreisen plant.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Fuel limit notice, high-pressure dispenser, MOL (Szántó Kovács János út), Hódmezővásárhely - March 27, 2022.jpg",
+     "beschreibung": "Fuel limit notice on a high-pressure MOL fuel dispenser at Hódmezővásárhely , Hungary . Fuel purchases were limited at 200 liters per heavy vehicle at this station on March 27, 2022. Location: Szántó ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg/1280px-Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Fuel_limit_notice,_high-pressure_dispenser,_MOL_(Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt),_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27,_2022.jpg",
+     "urheber": "Xbspiro",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "suchbegriff": "Fuel dispenser gas station",
+     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle, an die sich die Pläne zu Spritpreisen und Energiesteuern richten.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Bundestag und Bundesrat sollen in dieser Woche über einen neuen Tankrabatt beschließen. Dieser soll nach früheren Plänen im kommenden Herbst in Kraft treten."
+   ]
+  },
   {
    "id": "rad-wm-zeitfahren-montreal",
    "titel": "Entscheidungen im Einzelzeitfahren bei den Straßenrad-Weltmeisterschaften in Montreal",
@@ -51,122 +342,8 @@
    ]
   },
   {
-   "id": "wahlen-berlin-mecklenburg-vorpommern",
-   "titel": "Wahlen in Berlin und Mecklenburg-Vorpommern",
-   "rubrik": "Deutschland",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
-     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "urheber": "Arild Vågen",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Berlin Abgeordnetenhaus building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Schwerin-Schloss-gp.jpg",
-     "beschreibung": "front aspect of Schwerin Castle , Germany",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
-     "urheber": "User:Kolossos",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Schwerin Castle",
-     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Election MG 3455.JPG",
-     "beschreibung": "Second round of the French presidential election of 2007.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
-     "urheber": "Rama",
-     "lizenz": "CC BY-SA 2.0 fr",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
-     "art": "symbol",
-     "suchbegriff": "Ballot box election Germany",
-     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "saetze": [
-    "In Berlin und Mecklenburg-Vorpommern hat nach den Berichten von Deutschlandfunk und der taz eine Landwahl stattgefunden.",
-    "In Berlin ist Die Linke nach Angaben des Deutschlandfunks mit 25,7 Prozent der Stimmen stärkste Kraft geworden.",
-    "Die CDU landete in der Hauptstadt nach Angaben der taz bei knapp zwanzig Prozent der Stimmen.",
-    "In Mecklenburg-Vorpommern erreichte die CDU nach Auszählungen am späten Wahlabend nicht einmal mehr fünf Prozent.",
-    "Damit scheiterte die Landespartei erstmals an der Fünf-Prozent-Hürde und verpasst den Einzug in den Landtag.",
-    "Bundeskanzler Friedrich Merz bezeichnete das Ergebnis in Mecklenburg-Vorpommern als Desaster und kündigte an, an Reformen festzuhalten.",
-    "Der CDU-Politiker Daniel Peters sprach nach Angaben der taz von einer schweren Stunde für seine Partei.",
-    "Die Wahlen fanden in den Bundesländern Berlin und Mecklenburg-Vorpommern statt.",
-    "Wie die künftigen Regierungen gebildet werden, ist nach den Berichten noch unklar."
-   ]
-  },
-  {
-   "id": "us-medienbann-weisses-haus",
-   "titel": "Zugangsbeschränkungen und Klagen von Medien im Weißen Haus",
-   "rubrik": "Welt",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump official portrait",
-     "bildunterschrift": "Offizielles Porträt von US-Präsident Donald Trump im Weißen Haus.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Latrobe White House cropa2.jpg",
-     "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Latrobe_White_House_cropa2.jpg/1280px-Latrobe_White_House_cropa2.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Latrobe_White_House_cropa2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Latrobe_White_House_cropa2.jpg",
-     "urheber": "Benjamin Henry Latrobe",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "ort",
-     "suchbegriff": "White House Washington DC",
-     "bildunterschrift": "Das Weiße Haus in Washington, D.C., der Amtssitz des US-Präsidenten.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Washington, USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "saetze": [
-    "Mehrere US-amerikanische Medienhäuser haben Klage gegen ein Zutrittsverbot im Weißen Haus eingereicht.",
-    "Betroffen sind die Nachrichtensender CNN und MS NOW sowie das Nachrichtenportal Politico.",
-    "Das Weiße Haus hatte den Journalisten am Samstag den Zugang zum Gelände verwehrt.",
-    "Nach Angaben von US-Präsident Donald Trump haben die Medien Falschnachrichten verbreitet.",
-    "Die betroffenen Medien erklärten in einer Mitteilung, dass das Verbot eine Bedrohung für die Pressefreiheit darstellt.",
-    "Sie haben einen Eilantrag bei einem Gericht eingereicht.",
-    "Als Reaktion auf die Maßnahmen schränken auch andere Sender wie ABC, CBS, Fox News und NBC ihre Berichterstattung vorerst ein.",
-    "Die Pressefreiheit ist im ersten Zusatzartikel der amerikanischen Verfassung verankert.",
-    "Wie lange die Reporter das Gelände nicht betreten dürfen, ist nach Angaben von ZDFheute noch unklar.",
-    "Ein Gericht muss nun über den Eilantrag entscheiden."
-   ]
-  },
-  {
    "id": "duma-wahl-russland-drohnenangriffe",
-   "titel": "Parlamentarische Wahlen in Russland",
+   "titel": "Parlamentswahlen in Russland und vorläufige Ergebnisse",
    "rubrik": "Welt",
    "eil": false,
    "bilder": [
@@ -219,99 +396,71 @@
     "lon": 37.606
    },
    "saetze": [
-    "Die russische Regierungspartei Geeintes Russland hat die Parlamentswahl nach Angaben der Wahlkommission klar gewonnen. Das teilte die Behörde am einundzwanzigsten September mit. Die Partei erhält dreihundertfünfundfünfzig von insgesamt vierhundertfünfzig Sitzen in der Staatsduma. Nach Angaben der Deutschen Welle erreichte die Partei fünfzig sieben Komma acht drei Prozent der Stimmen. Die Wahl dauerte von Freitag bis Sonntag und verzeichnete eine Wahlbeteiligung von mehr als fünfzig Prozent. Die Europäische Union kritisierte die Abstimmung als Scheinwahl und kündigte Sanktionen an. Kritiker und Oppositionelle sprachen zudem von Manipulationen und dem Ausschluss von Kriegsgegnern. Politologen erwarten nach dem Wahlergebnis eine Zunahme von politischen Repressionen in Russland. Die Partei Geeintes Russland kündigte an, nun alle Entscheidungen von Präsident Wladimir Putin umzusetzen."
+    "Die Partei Geeintes Russland hat die Parlamentswahl in Russland klar gewonnen.",
+    "Das gaben die Behörden am einundzwanzigsten September bekannt.",
+    "Die Abstimmung dauerte von Freitag bis Sonntag.",
+    "Nach Angaben der Wahlkommission entfielen auf die Partei von Präsident Wladimir Putin rund siebenundfünfzig Komma acht Prozent der Stimmen.",
+    "Geeintes Russland erhält damit dreihundertfünfundfünfzig von insgesamt vierhundertfünfzig Sitzen in der Staatsduma.",
+    "Die Wahlbeteiligung lag nach Medienberichten bei mehr als sechsundfünfzig Prozent.",
+    "Kritiker und die Europäische Union bezeichneten die Wahl als undemokratisch und schlossen oppositionelle Parteien aus.",
+    "Die Europäische Union kündigte nach Angaben der Deutschen Welle Sanktionen an.",
+    "Beobachter erwarten, dass das Wahlergebnis als Legitimation für den Kreml dienen wird.",
+    "Wie sich die Zusammensetzung des Parlaments auf die Politik auswirkt, bleibt abzuwarten."
    ]
   },
   {
-   "id": "google-strafe-datenschutz",
-   "titel": "Datenschutz-Verstöße: Google muss Millionenstrafe in Irland zahlen",
-   "rubrik": "Wirtschaft",
+   "id": "davis-cup-tennis-finale",
+   "titel": "Deutsches Tennis-Team erreicht Finalrunde im Davis Cup",
+   "rubrik": "Sport",
    "eil": false,
    "bilder": [
     {
-     "titel": "European Commission headquarters, The Berlaymont Building, Brussels, Belgium ( Ank Kumar, Infosys Limited ).jpg",
-     "beschreibung": "European Commission headquarters located in the Berlaymont building in the European quarters in Brussels, Belgium. European Commission is the executive branch of the European Union (EU).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg/1280px-European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/European_Commission_headquarters%2C_The_Berlaymont_Building%2C_Brussels%2C_Belgium_%28_Ank_Kumar%2C_Infosys_Limited_%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:European_Commission_headquarters,_The_Berlaymont_Building,_Brussels,_Belgium_(_Ank_Kumar,_Infosys_Limited_).jpg",
-     "urheber": "Ank Kumar",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "institution",
-     "suchbegriff": "European Commission headquarters Brussels",
-     "bildunterschrift": "Das Gebäude der Europäischen Kommission in Brüssel.",
+     "titel": "Defending Champion Alexander Zverev Beats Rafael Nadal at the Nitto ATP Tour Finals 2019 (49052218372).jpg",
+     "beschreibung": "Photo of tennis player Alexander Zverev as he makes a beautiful backhand volley during his stunning victory over Rafa Nadal in the group stages of the Nitto ATP Finals 2019 hosted at the O2 Arena in L",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg/1280px-Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_(49052218372).jpg",
+     "urheber": "Chris Czermak",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Alexander Zverev tennis player",
+     "bildunterschrift": "Der deutsche Tennisspieler Alexander Zverev war maßgeblich am Erfolg im Davis Cup beteiligt.",
      "hinweis": "Archivfoto"
     },
     {
-     "titel": "Dublin Stephen's Green-44 edit.jpg",
-     "beschreibung": "An aerial view of St Stephen's Green in the centre of Dublin, during Indian summer .",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Dublin_Stephen%27s_Green-44_edit.jpg/1280px-Dublin_Stephen%27s_Green-44_edit.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/Dublin_Stephen%27s_Green-44_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Dublin_Stephen%27s_Green-44_edit.jpg",
-     "urheber": "Dronepicr (edited by King of Hearts ) Edit corrects CA and sharpens image",
-     "lizenz": "CC BY 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "titel": "GerryWeberStadion.JPG",
+     "beschreibung": "Gerry Weber Stadion in Halle.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/GerryWeberStadion.JPG/1280px-GerryWeberStadion.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/GerryWeberStadion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:GerryWeberStadion.JPG",
+     "urheber": "User:Drahreg01",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Heristo-Arena",
+     "sprache": "de",
      "art": "ort",
-     "suchbegriff": "Dublin city center",
-     "bildunterschrift": "Blick auf den St Stephen's Green Park in Dublin.",
+     "suchbegriff": "Halle Westfalen stadion",
+     "bildunterschrift": "Das Stadion in Halle Westfalen als Austragungsort im Tennissport.",
      "hinweis": "Archivfoto"
     }
    ],
    "ort": {
-    "name": "Dublin, Irland",
-    "lat": 53.349,
-    "lon": -6.261
+    "name": "Halle, Deutschland",
+    "lat": 51.482,
+    "lon": 11.971
    },
    "saetze": [
-    "Der Technologiekonzern Google muss wegen Verstößen gegen das Datenschutzrecht eine Geldstrafe von 403 Millionen Euro zahlen.",
-    "Das hat die irische Datenschutzkommission mitgeteilt.",
-    "Die Behörde hat das Bußgeld nach einer Untersuchung verhängt.",
-    "Im Mittelpunkt steht dabei der Umgang mit Standortdaten von Nutzern in der Zeit von Mai 2018 bis Februar 2020.",
-    "Betroffen sind laut den Berichten die Funktionen für Web- und App-Aktivitäten, den Standortverlauf und die Standortgenauigkeit.",
-    "Nach Angaben des stellvertretenden Leiters der Behörde, Graham Doyle, war vielen Nutzern nicht bewusst, wie ihre Daten für Werbung genutzt wurden.",
-    "Ein Sprecher von Google erklärte hingegen, dass sich das Verfahren auf frühere Richtlinien bezieht, die inzwischen durch neue Werkzeuge zur Datenverwaltung ersetzt wurden.",
-    "Die Europäische Datenschutz-Grundverordnung regelt den Schutz von persönlichen Daten in der Europäischen Union.",
-    "Google hat nun eine Frist von sechs Monaten erhalten, um die Datenverarbeitung an die Vorschriften anzupassen.",
-    "Zudem laufen nach Angaben der Behörde weitere Untersuchungen gegen das Unternehmen."
-   ]
-  },
-  {
-   "id": "scheuer-maut-prozess-gericht",
-   "titel": "Prozessbeginn gegen ehemaligen Bundesverkehrsminister Andreas Scheuer in Berlin",
-   "rubrik": "Deutschland",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Scheuer, Andreas-1407.jpg",
-     "beschreibung": "Andreas Scheuer (* 26. September 1974 in Passau) ist ein deutscher Politiker (CSU). Er war im Kabinett Merkel II von 2009 bis 2013 Parlamentarischer Staatssekretär beim Bundesminister für Verkehr, Bau",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Scheuer%2C_Andreas-1407.jpg/1280px-Scheuer%2C_Andreas-1407.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Scheuer%2C_Andreas-1407.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Scheuer,_Andreas-1407.jpg",
-     "urheber": "Foto-AG Gymnasium Melle",
-     "lizenz": "CC BY 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
-     "art": "person",
-     "suchbegriff": "Andreas Scheuer politician",
-     "bildunterschrift": "Der ehemalige Bundesverkehrsminister Andreas Scheuer.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Berlin, Deutschland",
-    "lat": 52.517,
-    "lon": 13.395
-   },
-   "saetze": [
-    "Vor dem Landgericht Berlin hat am Montag der Strafprozess gegen den früheren Bundesverkehrsminister Andreas Scheuer begonnen.",
-    "Der ehemalige Minister und sein früherer Staatssekretär Gerhard Schulz müssen sich vor einer Strafkammer verantworten.",
-    "Die Staatsanwaltschaft wirft den beiden Politikern vor, vor einem parlamentarischen Untersuchungsausschuss bewusst falsch ausgesagt zu haben.",
-    "Dabei geht es um die Affäre um die im Jahr zweitausendundneunzehn vom Europäischen Gerichtshof gestoppte Pkw-Maut.",
-    "Laut der Anklage sollen die Beschuldigten sich bei einer Vernehmung angeblich nicht an ein Verschiebungsangebot von Betreiberfirmen erinnert haben.",
-    "Nach Angaben von Tagesschau und Frankfurter Allgemeine Zeitung wiesen Scheuer und Schulz die Vorwürfe zum Prozessauftakt zurück.",
-    "Scheuer erklärte vor Gericht, er habe sich im Ausschuss so geäußert, wie es seiner Erinnerung entsprach.",
-    "Der Bund musste nach dem Scheitern des Projekts durch Schiedsverfahren und Vergleiche dreihundertundsiebzig Millionen Euro beziehungsweise zweihundertdreiundvierzig Millionen Euro an Schadenersatz zahlen.",
-    "Das Gericht hat für das Verfahren insgesamt zwölf Verhandlungstage angesetzt.",
-    "Ein Urteil könnte demnach am fünfundzwanzigsten November gesprochen werden."
+    "Das deutsche Davis-Cup-Team steht nach einem Sieg über Kroatien in der Finalrunde.",
+    "Die Mannschaft gewann die Partie im westfälischen Halle mit 3:1.",
+    "Nach Angaben von Zeit und Süddeutscher Zeitung sicherte Alexander Zverev mit zwei Einzelsiegen den Erfolg.",
+    "Auch das Doppel Kevin Krawietz und Tim Pütz steuerte nach Angaben der FAZ einen wichtigen Punkt bei.",
+    "Die Begegnung sahen nach Angaben der FAZ rund achttausend Zuschauer vor Ort.",
+    "Die Endrunde des Turniers findet vom vierundzwanzigsten bis zum neunundzwanzigsten November in Italien statt.",
+    "Zverev kritisierte das Format der Endrunde nach Angaben der FAZ und nannte es absoluten Mist.",
+    "Der traditionsreiche Mannschaftswettbewerb wird seit vielen Jahren ausgetragen, wobei Deutschland seit neunzehnachtundneunzig auf einen Titel wartet.",
+    "Ob Zverev im November in Italien spielt, ließ er nach Angaben der FAZ noch offen.",
+    "Zunächst stehen für ihn weitere Turniere an."
    ]
   },
   {
@@ -418,136 +567,6 @@
    },
    "saetze": [
     "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zurück. Das gab die chilenische Politikerin auf der Internetplattform Instagram bekannt. Eine konkrete Begründung nannte die vierundsiebzigjährige Politikerin nicht. Nach Angaben der israelischen UN-Mission war sie bei einer Probeabstimmung im UN-Sicherheitsrat zuvor auf dem vorletzten Platz gelandet. Die Costa-Ricanische Diplomatin Rebeca Grynspan gilt nach mehreren Probeabstimmungen als Favoritin für die Nachfolge. Der amtierende UN-Generalsekretär António Guterres scheidet am einfunddreißigsten Dezember aus dem Amt aus. Kritiker und Befürworter streiten derweil darüber, ob die Nachfolge erstmals an eine Frau gehen soll. Die Entscheidung über den Spitzenposten bei den Vereinten Nationen fällt im September. Bis dahin berät der Sicherheitsrat weiter über die verschiedenen Kandidatinnen und Kandidaten."
-   ]
-  },
-  {
-   "id": "porsche-stellenabbau",
-   "titel": "Berichte über möglichen weiteren Stellenabbau beim Sportwagenbauer Porsche",
-   "rubrik": "Wirtschaft",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Porsche-Museum in Stuttgart-Zuffenhausen 04.jpg",
-     "beschreibung": "Porsche-Museum in Stuttgart-Zuffenhausen",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg/1280px-Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Porsche-Museum_in_Stuttgart-Zuffenhausen_04.jpg",
-     "urheber": "Giftzwerg 88",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Porsche Museum Stuttgart Zuffenhausen",
-     "bildunterschrift": "Das Porsche-Museum in Stuttgart-Zuffenhausen.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Stuttgart, Deutschland",
-    "lat": 48.778,
-    "lon": 9.18
-   },
-   "saetze": [
-    "Beim Sportwagenbauer Porsche könnten Medienberichten zufolge vier Tausend weitere Stellen wegfallen.",
-    "Das berichtete das Handelsblatt unter Berufung auf Unterlagen aus dem Aufsichtsrat von Volkswagen.",
-    "Die Unterlagen stammen aus einer Sitzung des Gremiums von Anfang September.",
-    "Nach Angaben aus den Berichten wächst beim Mutterkonzern Volkswagen die Sorge um die Finanzen.",
-    "Der VW-Konzern rechnet im Jahr zweitausendsechsundzwanzig nur mit einer Umsatzrendite von einem Prozent.",
-    "Allein bei den Gemeinkosten der Markengruppe Sport Luxury fehlen nach den Angaben siebenhundert Millionen Euro.",
-    "Wegen der Eigenständigkeit von Porsche kann der Mutterkonzern Volkswagen solche Sparmaßnahmen nur empfehlen.",
-    "Eine Umsatzrendite beschreibt das Verhältnis von Gewinn zu Umsatz in einem Unternehmen.",
-    "Beide Unternehmen haben sich nach Angaben des Südwestrundfunks bisher nicht zu den Berichten geäußert."
-   ]
-  },
-  {
-   "id": "davis-cup-tennis-finale",
-   "titel": "Tennisteams qualifizieren sich für die Endrunde des Davis Cups",
-   "rubrik": "Sport",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Davis Cup Praha ČRo 2012-11-28 cropped 1.jpg",
-     "beschreibung": "Davis Cup trophy displayed in the Český rozhlas headquarters, Prague-Vinohrady",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg/1280px-Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Davis_Cup_Praha_%C4%8CRo_2012-11-28_cropped_1.jpg",
-     "urheber": "Draceane",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "institution",
-     "suchbegriff": "Davis Cup trophy",
-     "bildunterschrift": "Die Trophäe des Davis Cups.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Halle/Westfalen, Deutschland",
-    "lat": 52.06,
-    "lon": 8.362
-   },
-   "saetze": [
-    "Mehrere Nationalmannschaften haben sich für das Finalturnier des Davis Cups qualifiziert.",
-    "Das deutsche Team gewann am Wochenende seine Begegnung gegen Kroatien mit drei zu eins.",
-    "Nach Angaben von ZDFheute und FAZ sicherte sich die Auswahl damit den Einzug in die Runde der besten Acht.",
-    "Auch die britische Mannschaft erreichte nach einem Sieg gegen Ecuador die Endrunde.",
-    "Die Spiele fanden an verschiedenen Orten wie in Halle in Westfalen und in London statt.",
-    "Die entscheidenden Partien im November werden in der italienischen Stadt Bologna ausgetragen.",
-    "Der deutsche Spieler Alexander Zverev äußerte sich kritisch über das Konzept von Finalturnieren, während Teamkapitän Michael Kohlmann die Leistung lobte.",
-    "Der Davis Cup ist ein internationaler Mannschaftswettbewerb im Herrentennis.",
-    "Die Mannschaften bereiten sich nun auf die kommenden Turniere vor.",
-    "Ob Alexander Zverev an den Finals im November teilnimmt, bleibt nach Angaben von ZDFheute abzuwarten."
-   ]
-  },
-  {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "titel": "Pläne der Bundesregierung zu neuem Tankrabatt und Spritpreisdeckel",
-   "rubrik": "Wirtschaft",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Cancillería Federal, Berlín, Alemania, 2016-04-21, DD 37-39 HDR.JPG",
-     "beschreibung": "Night view of the front of the German Chancellery building (in German Bundeskanzleramt ), located in the heart of Berlin , Germany. The building, of postmodern style with elements of modernist style w",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG/1280px-Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Canciller%C3%ADa_Federal%2C_Berl%C3%ADn%2C_Alemania%2C_2016-04-21%2C_DD_37-39_HDR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Canciller%C3%ADa_Federal,_Berl%C3%ADn,_Alemania,_2016-04-21,_DD_37-39_HDR.JPG",
-     "urheber": "Diego Delso",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "institution",
-     "suchbegriff": "German Federal Chancellery building Berlin",
-     "bildunterschrift": "Das Bundeskanzleramt in Berlin als Sitz der Bundesregierung, die neue Entlastungen bei den Spritpreisen plant.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Fuel limit notice, high-pressure dispenser, MOL (Szántó Kovács János út), Hódmezővásárhely - March 27, 2022.jpg",
-     "beschreibung": "Fuel limit notice on a high-pressure MOL fuel dispenser at Hódmezővásárhely , Hungary . Fuel purchases were limited at 200 liters per heavy vehicle at this station on March 27, 2022. Location: Szántó ",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg/1280px-Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Fuel_limit_notice%2C_high-pressure_dispenser%2C_MOL_%28Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt%29%2C_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Fuel_limit_notice,_high-pressure_dispenser,_MOL_(Sz%C3%A1nt%C3%B3_Kov%C3%A1cs_J%C3%A1nos_%C3%BAt),_H%C3%B3dmez%C5%91v%C3%A1s%C3%A1rhely_-_March_27,_2022.jpg",
-     "urheber": "Xbspiro",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "symbol",
-     "suchbegriff": "Fuel dispenser gas station",
-     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle, an die sich die Pläne zu Spritpreisen und Energiesteuern richten.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ort": {
-    "name": "Berlin, Deutschland",
-    "lat": 52.517,
-    "lon": 13.395
-   },
-   "saetze": [
-    "Die Bundesregierung plant ein neues Entlastungspaket gegen hohe Spritpreise.",
-    "Dazu gehören ein erneuter Tankrabatt und ein Spritpreisdeckel.",
-    "Ab Oktober soll die Energiesteuer auf Benzin und Diesel um vierzehn Cent pro Liter sinken.",
-    "Mit der Umsatzsteuer ergibt das einen Rabatt von siebzehn Cent.",
-    "Spätestens ab dem ersten Januar zweitausend sieben soll ein Preisdeckel folgen.",
-    "Nach Angaben der Bundesregierung sind die Kosten wegen des Krieges im Iran stark gestiegen.",
-    "Zahlreiche Ökonomen und Umweltverbände kritisieren die Pläne als kurzsichtig und klimaschädlich.",
-    "Wirtschaftsministerin Katherina Reiche äußerte sich skeptisch zu dem Preisdeckel.",
-    "Die Energiesteuer ist eine staatliche Verbrauchsteuer auf Energieprodukte wie Benzin.",
-    "Die Maßnahmen sollen bis zum Jahresende beziehungsweise Anfang des nächsten Jahres umgesetzt werden."
    ]
   },
   {

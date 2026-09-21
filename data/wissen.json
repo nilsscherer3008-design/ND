@@ -1,0 +1,134 @@
+{
+ "stand": "2026-09-21T17:09:57.316Z",
+ "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-touchscreen",
+   "zeit": "2026-09-21T17:29:35.430Z",
+   "bereich": "Technik und Erfindungen",
+   "titel": "Wie funktioniert eigentlich ein Touchscreen?",
+   "vorspann": "Ein Touchscreen ist ein kombiniertes Ein- und Ausgabegerät. Man steuert den Programmablauf eines technischen Gerätes direkt durch Berührung.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Touchscreen wird auch Berührbildschirm genannt. Früher sagte man dazu berührungsempfindlicher Bildschirm. Die Befehlseingabe ist für den Nutzer unsichtbar. Dadurch entsteht der Eindruck einer unmittelbaren Steuerung per Fingerzeig. Statt eines Mauszeigers werden der Finger oder ein Zeigestift verwendet.",
+      "Das Bild unter dem Touchscreen kann auf verschiedene Weise erzeugt werden. Es gibt dynamische Monitore, Projektionen oder physische Darstellungen. Manche Systeme verarbeiten mehrere gleichzeitige Berührungen als Befehle. Das nennt man Multi-Touch. Damit kann man Elemente drehen oder skalieren."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Es gibt verschiedene Funktionsprinzipien für die Berührungsempfindlichkeit. Dazu gehören resistive und kapazitive Systeme. Resistive Touchscreens reagieren auf Druck. Sie verbinden zwei elektrisch leitfähige Schichten miteinander. So wird ein elektrischer Widerstand gemessen.",
+      "Oberflächen-kapazitive Touchscreens nutzen eine mit Metalloxid beschichtete Folie. Eine Wechselspannung erzeugt dort ein elektrisches Feld. Bei einer Berührung entsteht ein geringer Ladungstransport. Dieser wird als Strom an den Ecken gemessen. Projiziert-kapazitive Touchscreens nutzen zwei Ebenen mit einem leitfähigen Muster.",
+      "Optische Systeme nutzen Infrarotlicht. Früher gab es ein Lichtschrankengitter vor dem Bildschirm. Die Strahlen liefen zwischen LED und Sensor. Eine Fingerspitze unterbricht diese Strahlen optisch. Neuere Projektoren nutzen eine Infrarotkamera für die Lage des Fingers."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die technische Umsetzung und die verschiedenen Bauformen sind genau dokumentiert. Dazu gehören resistive Systeme mit Four-Wire und Five-Wire. Auch physikalische Messungen von Spannungen und Widerständen sind bekannt. Der digitale Projektor Sony Xperia Touch kam im Jahr 2017 auf den Markt."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Text enthält keine Angaben zu offenen Forschungsfragen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Breite des Touchscreens im Beispiel",
+     "75 Millimeter"
+    ],
+    [
+     "Angelegte Spannung im Beispiel",
+     "5 Volt"
+    ],
+    [
+     "Erste gemessene Spannung U2 im Beispiel",
+     "2 Volt"
+    ],
+    [
+     "Zweite gemessene Spannung U1 im Beispiel",
+     "3 Volt"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Touchscreen",
+     "Ein kombiniertes Ein- und Ausgabegerät zur Steuerung per Berührung."
+    ],
+    [
+     "Multi-Touch",
+     "Die Fähigkeit eines Systems, mehrere gleichzeitige Berührungen zu verarbeiten."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Womit reagieren resistive Touchscreens?",
+     "optionen": [
+      "Mit Druck",
+      "Mit Wasser",
+      "Mit Schallwellen"
+     ],
+     "richtig": 0,
+     "erklaerung": "Resistive Touchscreens reagieren auf Druck, der zwei leitfähige Schichten verbindet."
+    }
+   ],
+   "video": [
+    "Ein Touchscreen ist ein kombiniertes Ein- und Ausgabegerät.",
+    "Man steuert Computer oder Smartphones direkt mit dem Finger.",
+    "Die Befehlseingabe geschieht für den Nutzer unsichtbar.",
+    "Resistive Touchscreens reagieren auf mechanischen Druck.",
+    "Dabei werden zwei leitfähige Schichten miteinander verbunden.",
+    "Kapazitive Systeme nutzen elektrische Felder und Ströme.",
+    "Optische Systeme arbeiten mit Lichtschranken oder Infrarotkameras.",
+    "So wird die genaue Position der Berührung ermittelt."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Touchscreen",
+    "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
+   },
+   "quelle": {
+    "titel": "Touchscreen",
+    "url": "https://de.wikipedia.org/wiki/Touchscreen",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 229,
+   "bildInfos": [
+    {
+     "titel": "IFA 2010 Internationale Funkausstellung Berlin 18.JPG",
+     "beschreibung": "IFA 2010, Berlin",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG/1280px-IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
+     "urheber": "Bin im Garten",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Touchscreen",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
+    }
+   ],
+   "bildInfo": {
+    "titel": "IFA 2010 Internationale Funkausstellung Berlin 18.JPG",
+    "beschreibung": "IFA 2010, Berlin",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG/1280px-IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
+    "urheber": "Bin im Garten",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artikel": "Touchscreen",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
+   }
+  }
+ ]
+}
