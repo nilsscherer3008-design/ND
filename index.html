@@ -731,6 +731,37 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   max-width:70%;line-height:1.3}
 .wetterkarte .w-legende text{fill:#E4EEF8;font-family:var(--head);font-size:12px;font-weight:700;
   paint-order:stroke;stroke:#08192F;stroke-width:3px}
+
+/* ---------- Kurzvideos: hochkant, zum Wischen ---------- */
+.kurzvideo-band{display:flex;align-items:center;gap:14px;margin:14px 0;padding:12px 14px;text-decoration:none;color:inherit;
+  border-radius:14px;background:linear-gradient(120deg,#16407A,#0D2B55 60%,#3B1E5E);border:1px solid var(--line);color:#fff}
+.kv-hoch{position:relative;flex:0 0 54px;height:84px;border-radius:9px;overflow:hidden;background:#0A1F3C;display:block}
+.kv-hoch img{width:100%;height:100%;object-fit:cover;display:block;opacity:.75}
+.kv-play{position:absolute;inset:0;margin:auto;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.92);
+  color:#0D2B55;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-style:normal;padding-left:2px}
+.kv-text{flex:1 1 auto;min-width:0}
+.kv-text b{display:block;font-family:var(--head);font-size:1.15rem}
+.kv-text small{display:block;color:#C7D6E8;font-size:.88rem;line-height:1.3;margin-top:2px}
+.kv-pfeil{flex:0 0 auto;font-size:1.5rem;color:#9FB3CC}
+/* Bühne im Hochformat füllt den Bildschirm */
+#player .pl-buehne.hoch{height:min(calc(100dvh - 92px),calc(96vw*16/9));width:auto;max-width:96vw}
+.pl-buehne.hoch .pl-ut{font-size:clamp(.9rem,3.6vw,1.2rem)}
+.pl-buehne.wisch-hoch{animation:wischHoch .34s cubic-bezier(.2,.8,.2,1)}
+.pl-buehne.wisch-runter{animation:wischRunter .34s cubic-bezier(.2,.8,.2,1)}
+@keyframes wischHoch{from{transform:translateY(22%);opacity:.35}to{transform:none;opacity:1}}
+@keyframes wischRunter{from{transform:translateY(-22%);opacity:.35}to{transform:none;opacity:1}}
+/* Im Hochformat weniger Beiwerk: kein Laufband, keine Chips – das Bild soll wirken */
+.pl-buehne.hoch .pl-laufband{display:none}
+.pl-buehne.hoch .pl-uhr{right:10px;bottom:10px}
+.pl-buehne.hoch .pl-chips{display:none}
+.pl-buehne.hoch .pl-credit{top:38px;font-size:.56rem;max-width:62%}
+.pl-buehne.hoch .pl-bu{top:64px;bottom:auto;left:10px;right:10px;max-width:none;text-align:left}
+.pl-buehne.hoch .pl-inhalt,.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(12% + 96px)}
+.pl-buehne.hoch .pl-wischhinweis{position:absolute;left:0;right:0;bottom:calc(12% + 54px);z-index:5;text-align:center;
+  font-family:var(--head);font-size:.9rem;color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.7);
+  animation:wischTipp 2.6s ease-in-out 3 both;pointer-events:none}
+@keyframes wischTipp{0%,100%{opacity:0;transform:translateY(6px)}30%,60%{opacity:.95;transform:translateY(-6px)}}
+@media (prefers-reduced-motion:reduce){.pl-buehne.wisch-hoch,.pl-buehne.wisch-runter,.pl-wischhinweis{animation:none}}
 </style>
 </head>
 <body>
@@ -1036,7 +1067,7 @@ function startseite(rubrik){
     html += `<a class="eil" href="#/n/${esc(eil.id)}"><div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit))}</div>
       <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
   }
-  if (rubrik === "Alle") html += `<a class="story-start" href="#/story">📱 Schlagzeilen durchwischen (Story-Modus)</a>` + sendungsLeiste() + videoLeiste() + wissenLeiste() + wetterLeiste();
+  if (rubrik === "Alle") html += `<a class="story-start" href="#/story">📱 Schlagzeilen durchwischen (Story-Modus)</a>` + sendungsLeiste() + kurzvideoLeiste() + videoLeiste() + wissenLeiste() + wetterLeiste();
   else if (liste.length >= 2) html += `<section class="videos"><div class="vreihe"><a class="vkarte sendung" href="#/video/rubrik/${slug(rubrik)}">
       <span class="vk-text"><b>▶ ${esc(rubrik)} als Video</b><small>${liste.length} Themen</small></span></a></div></section>`;
   html += liste.length ? `<div class="list">${liste.map(n => karte(n)).join("")}</div>`
@@ -1196,7 +1227,8 @@ function videoSeite(){
     ["haupt","Hauptausgabe","Alle Themen der letzten Stunden, ausführlich"],
     ["einfach","Einfach erklärt","Drei Themen in einfacher Sprache, mit Begriffen"],
     ["kurzmeldungen","Kurzmeldungen","Zehn Schlagzeilen in Kürze"]]
-    .concat(WOCHE ? [["woche","Wochenrückblick","Die wichtigsten Themen der Woche"]] : []);
+    .concat(wocheZeigen() ? [["woche","Wochenrückblick","Die wichtigsten Themen der Woche"]] : [])
+    .concat([["kurzvideo","Kurzvideos","Hochkant zum Wischen, in einfacher Sprache"]]);
   const rubriken = RUBRIKEN.filter(r => r !== "Alle" && NACHRICHTEN.filter(n => n.rubrik === r).length >= 2);
   $app.innerHTML = `<h1 class="seiten-titel">Videos</h1>
     <div class="list">${formate.map(([f,t,u]) => {
@@ -2060,10 +2092,16 @@ const FORMATE = {
   "rubrik":  { name:"Rubrik-Ausgabe", kurz:"Rubrik", quer:true },
   "wetter":  { name:"Das Wetter", kurz:"Wetter", quer:true },
   "wissen":  { name:WISSEN_TITEL, kurz:"Wissen", quer:true, rate:0.88 },
-  "doku":    { name:"Dokumentation", kurz:"Doku", quer:true, rate:0.88 }
+  "doku":    { name:"Dokumentation", kurz:"Doku", quer:true, rate:0.88 },
+  "kurzvideo": { name:"Kurzvideos", kurz:"Kurz", quer:false, hochkant:true, rate:0.9 }
 };
 let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {}, WISSEN = [], DOKU = [];
 const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
+// Der Wochenrückblick läuft nur sonntags – sonst wiederholt er bloß, was ohnehin in der App steht.
+const WOCHE_TAGE = ["Sun"];
+const istWochentagFuerRueckblick = () =>
+  WOCHE_TAGE.includes(new Intl.DateTimeFormat("en-GB", { timeZone:"Europe/Berlin", weekday:"short" }).format(new Date()));
+const wocheZeigen = () => !!WOCHE && istWochentagFuerRueckblick();
 function naechsteAktualisierung(){
   const jetzt = new Date(), h = stundeBerlin(jetzt);
   if (h < 6) return "ab 6:00 Uhr";
@@ -2196,6 +2234,13 @@ function segmenteBauen(format, id){
   } else if (format === "wetter"){
     const ws = wetterSegment();
     return ws ? [ws] : [];
+  } else if (format === "kurzvideo"){
+    // Hochkant zum Wischen: ein Thema pro Bildschirm, in einfacher Sprache
+    const liste = aktuelle().slice(0, 20);
+    s = liste.map(n => thema(n, n.video?.einfach?.length ? n.video.einfach
+      : n.video?.kurz?.length ? n.video.kurz
+      : erste([n.einfach?.vorspann || n.vorspann], 2), { wischen:true }))
+      .filter(x => x.saetze.length);
   } else if (format === "clip"){
     const n = NACHRICHTEN.find(x => x.id === id) || AKTUELLE_DETAIL;
     if (!n) return [];
@@ -2285,6 +2330,7 @@ function playerOeffnen(format, id){
       <div class="pl-uhr"></div>
       <div class="pl-laufband"><div class="pl-lauf-inhalt"></div></div>
       <button class="pl-start" aria-label="Video starten">${SYM.play}</button>
+      ${f.hochkant ? `<div class="pl-wischhinweis">↑ hochwischen für das nächste Thema</div>` : ""}
     </div>
     <div class="pl-steuer">
       <button data-a="zurueck" aria-label="Vorheriges Thema">${SYM.zurueck}</button>
@@ -2314,12 +2360,49 @@ function playerOeffnen(format, id){
   };
   el.addEventListener("keydown", e => {
     if (e.key === " "){ e.preventDefault(); steuern("play"); }
-    if (e.key === "ArrowRight") steuern("weiter");
-    if (e.key === "ArrowLeft") steuern("zurueck");
+    if (e.key === "ArrowRight" || (f.hochkant && e.key === "ArrowDown")) steuern("weiter");
+    if (e.key === "ArrowLeft" || (f.hochkant && e.key === "ArrowUp")) steuern("zurueck");
     if (e.key === "Escape") playerSchliessen();
   });
+  if (f.hochkant) wischenEinrichten(el);
   el.tabIndex = -1; el.focus();
   document.addEventListener("fullscreenchange", vollKnopf);
+}
+// Hoch- und runterwischen wie bei Kurzvideo-Apps
+function wischenEinrichten(el){
+  const buehne = el.querySelector(".pl-buehne");
+  let y0 = null, x0 = null, gewischt = false;
+  buehne.addEventListener("touchstart", e => {
+    const t = e.changedTouches[0]; y0 = t.clientY; x0 = t.clientX; gewischt = false;
+  }, { passive:true });
+  buehne.addEventListener("touchmove", e => {
+    if (y0 === null) return;
+    const t = e.changedTouches[0];
+    if (Math.abs(t.clientY - y0) > Math.abs(t.clientX - x0) + 8) e.preventDefault();
+  }, { passive:false });
+  buehne.addEventListener("touchend", e => {
+    if (y0 === null) return;
+    const t = e.changedTouches[0], dy = t.clientY - y0, dx = t.clientX - x0;
+    if (Math.abs(dy) > 60 && Math.abs(dy) > Math.abs(dx)){
+      gewischt = true;
+      wischAnimation(buehne, dy < 0);
+      steuern(dy < 0 ? "weiter" : "zurueck");
+    }
+    y0 = null;
+    if (!gewischt && Math.abs(dy) < 12 && Math.abs(dx) < 12) steuern("play");   // tippen = Pause
+  }, { passive:true });
+  let radBremse = 0;
+  buehne.addEventListener("wheel", e => {
+    if (Math.abs(e.deltaY) < 24 || Date.now() - radBremse < 550) return;
+    radBremse = Date.now();
+    wischAnimation(buehne, e.deltaY > 0);
+    steuern(e.deltaY > 0 ? "weiter" : "zurueck");
+  }, { passive:true });
+}
+function wischAnimation(buehne, hoch){
+  buehne.classList.remove("wisch-hoch", "wisch-runter");
+  void buehne.offsetWidth;
+  buehne.classList.add(hoch ? "wisch-hoch" : "wisch-runter");
 }
 function playerSchliessen(){
   stopp(); tickerStopp();
@@ -2753,10 +2836,20 @@ function sendungsLeiste(){
     <div class="vreihe">${heutige.map(a => `<a class="vkarte sendung" href="#/video/ausgabe/${esc(a.id)}">
       <span class="vk-text"><b>▶ ${esc(a.name)}</b><small>${esc(berlin(new Date(a.zeit), { hour:"2-digit", minute:"2-digit" }))} Uhr · ${a.anzahl} Themen</small></span></a>`).join("")}</div></section>`;
 }
+function kurzvideoLeiste(){
+  const segs = segmenteBauen("kurzvideo");
+  if (segs.length < 3) return "";
+  const b = segs.find(x => x.bilder?.length)?.bilder[0];
+  return `<a class="kurzvideo-band" href="#/video/kurzvideo">
+    <span class="kv-hoch">${b?.url ? `<img src="${esc(b.url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+      <i class="kv-play">▶</i></span>
+    <span class="kv-text"><b>Kurzvideos</b><small>${segs.length} Themen in einfacher Sprache · hochwischen fürs nächste</small></span>
+    <span class="kv-pfeil">›</span></a>`;
+}
 function videoLeiste(){
   const liste = [
     ["100s", "▶ Heft in 100 Sekunden"], ["haupt", "▶ Hauptausgabe"], ["einfach", "▶ Einfach erklärt"], ["kurzmeldungen", "▶ Kurzmeldungen"]
-  ].concat(WOCHE ? [["woche", "▶ Wochenrückblick"]] : []);
+  ].concat(wocheZeigen() ? [["woche", "▶ Wochenrückblick"]] : []);
   const karten = liste.map(([f, t]) => {
     const segs = segmenteBauen(f);
     if (segs.length < 3) return "";
@@ -2786,7 +2879,7 @@ function route(){
   }
   if ((m = h.match(/^#\/video\/(doku)\/(.+)$/))) { if (!$app.innerHTML.trim()) wissenSeite(); playerOeffnen("doku", m[2]); return; }
   if ((m = h.match(/^#\/video\/(wissen)\/(.+)$/))) { if (!$app.innerHTML.trim()) wissenSeite(); playerOeffnen("wissen", m[2]); return; }
-  if ((m = h.match(/^#\/video\/(100s|haupt|einfach|woche|kurzmeldungen|wetter)$/))) { if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle"); playerOeffnen(m[1]); return; }
+  if ((m = h.match(/^#\/video\/(100s|haupt|einfach|woche|kurzmeldungen|wetter|kurzvideo)$/))) { if (!$app.innerHTML.trim() || $app.querySelector(".laden")) startseite("Alle"); playerOeffnen(m[1]); return; }
   if (document.getElementById("player")) { stopp(); document.getElementById("player").remove(); document.body.style.overflow = ""; }
   if ((m = h.match(/^#\/n\/(.+)$/))) detailSuchen(m[1]);
   else if ((m = h.match(/^#\/r\/(.+)$/))) startseite(RUBRIKEN.find(r => slug(r) === m[1]) || "Alle");

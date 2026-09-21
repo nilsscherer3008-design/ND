@@ -1056,7 +1056,8 @@ async function wochenrueckblick(jetzt, aktive, force) {
   const alt = await leseJson(datei, null);
   const wochentag = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", weekday: "short" }).format(jetzt);
   const alter = alt ? (jetzt - new Date(alt.erstellt)) / 36e5 : Infinity;
-  if (!force && !(alter > 7 * 24 || (wochentag.startsWith("So") && alter > 20))) return;
+  // Der Rückblick entsteht nur sonntags – unter der Woche wiederholt er nur, was ohnehin in der App steht.
+  if (!force && !(wochentag.startsWith("So") && alter > 20)) return;
   const grenze = jetzt - 7 * 864e5;
   const monate = [...new Set([0, 8].map(t => berlinMonat(new Date(jetzt - t * 864e5).toISOString())))];
   let kandidaten = [...aktive];
