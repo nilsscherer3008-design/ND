@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T03:37:46.989Z",
+ "stand": "2026-09-22T03:58:51.999Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -98,7 +98,62 @@
    {
     "ueberschrift": "Das Leben im Ozean",
     "wikipedia": "Meer",
-    "fokus": "Die Ozeane als riesige Speicher und Lebensräume."
+    "fokus": "Die Ozeane als riesige Speicher und Lebensräume.",
+    "absaetze": [
+     "Im Anschluss an den ewigen Kreislauf des Wassers betrachten wir nun das Leben im Ozean als riesigen Speicher und Lebensraum.",
+     "Das Meer bedeckt rund einundsiebzig Prozent der Erdoberfläche und bildet eine zusammenhängende, reich gegliederte Wassermasse.",
+     "Einunddreißig Komma sieben Prozent des Weltmeeres sind viertausend bis fünftausend Meter tief, während die tiefste Stelle im Marianengraben bei etwa elftausend Metern liegt.",
+     "Die Meeresflora produziert ungefähr siebzig Prozent des Sauerstoffs in der Erdatmosphäre.",
+     "Meerwasser hat einen Salzgehalt von durchschnittlich dreieinhalb Prozent, wodurch es nicht direkt als Trinkwasser geeignet ist.",
+     "Die Weltmeere sind von großer wirtschaftlicher Bedeutung für den Welthandel, da weiterhin zweiundneunzig Prozent aller Güter über den Seeweg transportiert werden.",
+     "Die Ökosysteme der Meere stehen durch den Klimawandel und Überfischung unter Druck, bieten aber mit dem Klimaschutz auch die Chance auf Wiederherstellung bis zweitausendfünfzig."
+    ],
+    "fakten": [
+     [
+      "Erdoberfläche bedeckt durch das Meer",
+      "71 %"
+     ],
+     [
+      "Anteil der Tiefe von 4000 bis 5000 Metern",
+      "31,7 %"
+     ],
+     [
+      "Tiefste Stelle im Marianengraben",
+      "11.000 m"
+     ],
+     [
+      "Sauerstoffproduktion der Meeresflora",
+      "70 %"
+     ],
+     [
+      "Salzgehalt von Meerwasser",
+      "3,5 %"
+     ],
+     [
+      "Anteil der Güter im Welthandel auf dem Seeweg",
+      "92 %"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Weltmeer",
+      "Die Gesamtheit aller miteinander verbundenen Ozeane und Meere der Erde."
+     ],
+     [
+      "Marianengraben",
+      "Eine Tiefseerinne im Pazifik, die die tiefste bekannte Stelle der Weltmeere bildet."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Meer",
+     "bildunterschrift": "Das Meer bedeckt den größten Teil der Erdoberfläche und bildet einen riesigen Lebensraum."
+    },
+    "quelle": {
+     "titel": "Meer",
+     "url": "https://de.wikipedia.org/wiki/Meer"
+    },
+    "woerter": 130
    },
    {
     "ueberschrift": "Flüsse formen das Land",

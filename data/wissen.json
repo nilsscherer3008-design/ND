@@ -1,6 +1,124 @@
 {
- "stand": "2026-09-22T03:37:46.989Z",
+ "stand": "2026-09-22T03:58:51.999Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-blindenschrift",
+   "zeit": "2026-09-22T04:07:19.572Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich die Blindenschrift?",
+   "vorspann": "Blinde Menschen können mit den Fingern lesen, weil es spezielle Schriftsysteme mit erhabenen Zeichen gibt. Die bekannteste Methode ist die Brailleschrift, die im Jahr achtzehnfünfundzwanzig entwickelt wurde.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Als Blindenschrift bezeichnet man übergreifend verschiedene Systeme von Schriftzeichen, die von blinden Menschen gelesen werden können. Das Lesen erfolgt dabei mit dem Tastsinn der Finger. Die Finger unterscheiden und identifizieren die erhabenen Strukturen der Zeichen von ihrer planen Umgebung. Zur Abgrenzung verwendet man für die Schrift der Sehenden häufig den Begriff Schwarzschrift.",
+      "Es gibt zwei grundsätzliche Richtungen der Blindenschrift. Bei der Reliefschrift werden normale lateinische Buchstaben oder vereinfachte grafische Muster tastbar gemacht, wie etwa das Moonalphabet. Die Punktschrift bildet Buchstaben in einem Punkte-Raster nach oder übersetzt sie in einen Code. Der Begriff Punktschrift wird heute oft synonym für die normale Brailleschrift benutzt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die klassische Brailleschrift besteht aus sechs möglichen Punkten, die in drei Zeilen und zwei Spalten angeordnet sind. Diese Schrift wurde von Louis Braille entwickelt, der selbst blind war. Neben der klassischen Variante gibt es auch das Computer-Braille, das ein Acht-Punkte-System verwendet, um leichter Großbuchstaben und Sonderzeichen darzustellen. Das System wird vor allem von Braillezeilen genutzt.",
+      "Der Platzbedarf von Punktschriftsystemen ist enorm, weil die Zeichen größer sind als in der Schwarzschrift. Auch das Papier muss viel dicker sein, um dauerhaft geprägt werden zu können. Deshalb umfasst der Duden in Punktschrift achtzehn Bände. Um das Gewicht bei Sendungen auszugleichen, transportiert die Deutsche Post AG Sendungen in Brailleschrift portofrei."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die historische Entwicklung der Blindenschriften ist gut dokumentiert. Die erste Punktschrift mit ertastbaren Punkten und Strichen wurde bereits im Jahr sechzehnsiebenzig von Francesco Lana Terzi entworfen, aber nie verwendet. Charles Barbier entwickelte im Jahr achtzehnhundertfünfzehn eine Nachtschrift für militärische Zwecke, die später in der Pariser Blindenschule angeboten wurde. Im Jahr achtzehnfünfundzwanzig folgte schließlich die Entwicklung der Brailleschrift durch Louis Braille."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Entwicklungsjahr der Brailleschrift",
+     "1825"
+    ],
+    [
+     "Anzahl der Punkte in der klassischen Brailleschrift",
+     "6"
+    ],
+    [
+     "Anzahl der Bände des Dudens in Punktschrift",
+     "18"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Schwarzschrift",
+     "So wird oft die normale Schrift der Sehenden zur Abgrenzung von der Blindenschrift genannt."
+    ],
+    [
+     "Braillezeile",
+     "Ein technisches Gerät, das Computer-Inhalte dynamisch in Punktschrift darstellt."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde die Brailleschrift entwickelt?",
+     "optionen": [
+      "1670",
+      "1815",
+      "1825"
+     ],
+     "richtig": 2,
+     "erklaerung": "Die Brailleschrift wurde im Jahr 1825 von Louis Braille entwickelt."
+    }
+   ],
+   "video": [
+    "Blinde Menschen lesen mit dem Tastsinn ihrer Finger.",
+    "Dafür nutzen sie erhabene Zeichen auf Papier.",
+    "Das bekannteste System ist die Brailleschrift.",
+    "Sie wurde im Jahr achtzehnfünfundzwanzig von Louis Braille erfunden.",
+    "Die klassische Schrift nutzt sechs Punkte.",
+    "Diese Punkte sind in drei Zeilen und zwei Spalten angeordnet.",
+    "Auch Computer nutzen spezielle Punktschriften.",
+    "Die Deutsche Post transportiert Sendungen in Brailleschrift portofrei."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Blindenschrift",
+    "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
+   },
+   "quelle": {
+    "titel": "Blindenschrift",
+    "url": "https://de.wikipedia.org/wiki/Blindenschrift",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 268,
+   "bildInfos": [
+    {
+     "titel": "Blindenschrift-1915.jpg",
+     "beschreibung": "Blindenschrift-1915",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Blindenschrift-1915.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Blindenschrift",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Blindenschrift-1915.jpg",
+    "beschreibung": "Blindenschrift-1915",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Blindenschrift-1915.jpg",
+    "urheber": "unbekannt",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Blindenschrift",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
+   }
+  },
   {
    "id": "was-sind-hieroglyphen",
    "zeit": "2026-09-22T03:45:45.409Z",
