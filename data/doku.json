@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T04:33:54.159Z",
+ "stand": "2026-09-22T04:39:09.772Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -215,7 +215,69 @@
    {
     "ueberschrift": "Durstige Riesen der Natur",
     "wikipedia": "Wald",
-    "fokus": "Wie Pflanzen und Wälder das Wasser weiterleiten."
+    "fokus": "Wie Pflanzen und Wälder das Wasser weiterleiten.",
+    "absaetze": [
+     "Nach Frost und Eis betrachten wir nun die durstigen Riesen der Natur.",
+     "Laut einer Studie der ETH Zürich gibt es weltweit schätzungsweise dreitausendvierzig Milliarden Bäume.",
+     "Wälder sind komplexe Ökosysteme mit optimaler Ressourcenausnutzung.",
+     "Sie stellen global die einzig wirksame Kohlendioxidsenke dar.",
+     "Tropische Regenwälder bilden sich in tropischen Klimaten bei entsprechender Feuchteversorgung.",
+     "Ein hoher Anteil kann aus der Verdunstung des Waldes selbst entstammen."
+    ],
+    "fakten": [
+     [
+      "Bäume weltweit",
+      "dreitausendvierzig Milliarden"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Wald",
+      "Eine von Bäumen bedeckte Fläche mit einer Mindestgröße."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Wald",
+     "bildunterschrift": "Ein Wald bedeckt als pflanzliche Formation große Teile der Erdoberfläche."
+    },
+    "quelle": {
+     "titel": "Wald",
+     "url": "https://de.wikipedia.org/wiki/Wald"
+    },
+    "woerter": 61,
+    "bildInfos": [
+     {
+      "titel": "Herbstwald bei Hülshof Gem. Bad Endbach.jpg",
+      "beschreibung": "Herbstwald bei Hülshof Gem. Bad Endbach",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg/1280px-Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "seite": "https://commons.wikimedia.org/wiki/File:Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg",
+      "urheber": "H2OMy at de.wikipedia",
+      "lizenz": "CC BY-SA 3.0",
+      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artikel": "Wald",
+      "sprache": "de",
+      "art": "symbol",
+      "hinweis": "Bild aus der Wikipedia",
+      "bildunterschrift": "Ein Wald bedeckt als pflanzliche Formation große Teile der Erdoberfläche."
+     }
+    ],
+    "bildInfo": {
+     "titel": "Herbstwald bei Hülshof Gem. Bad Endbach.jpg",
+     "beschreibung": "Herbstwald bei Hülshof Gem. Bad Endbach",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg/1280px-Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Herbstwald_bei_H%C3%BClshof_Gem._Bad_Endbach.jpg",
+     "urheber": "H2OMy at de.wikipedia",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Wald",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Wald bedeckt als pflanzliche Formation große Teile der Erdoberfläche."
+    }
    },
    {
     "ueberschrift": "Die Methoden der Forscher",

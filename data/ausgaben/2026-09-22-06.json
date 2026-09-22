@@ -2,167 +2,8 @@
  "id": "2026-09-22-06",
  "name": "6-Uhr-Ausgabe",
  "stunde": 6,
- "zeit": "2026-09-22T04:33:54.159Z",
+ "zeit": "2026-09-22T04:39:09.772Z",
  "themen": [
-  {
-   "id": "oktoberfest-muenchen-eroeffnung",
-   "titel": "Tödlicher Unfall an Fahrgeschäft auf dem Münchner Oktoberfest",
-   "rubrik": "Deutschland",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "1965 Car Theresienwiese Munich.jpg",
-     "beschreibung": "A car in 1965 at Theresienwiese in Munich, with St. Paul's Church (St. Paul / Paulskirche) in the background.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/1965_Car_Theresienwiese_Munich.jpg/1280px-1965_Car_Theresienwiese_Munich.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/1965_Car_Theresienwiese_Munich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:1965_Car_Theresienwiese_Munich.jpg",
-     "urheber": "Artfókusz",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Theresienwiese Munich",
-     "bildunterschrift": "Die Theresienwiese in München, der Veranstaltungsort des Oktoberfests.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "München, Deutschland",
-    "lat": 48.137,
-    "lon": 11.575
-   },
-   "saetze": [
-    "Ein Mitarbeiter eines Fahrgeschäfts auf dem Münchner Oktoberfest ist nach einem Unfall gestorben.",
-    "Das teilten mehrere Medien übereinstimmend mit.",
-    "Der Unfall ereignete sich am Montagabend an einem Free-Fall-Turm.",
-    "Das Opfer war nach Angaben der Behörden zweiundfünfzig Jahre alt.",
-    "Der Mann hielt sich in einem Bereich auf, in dem er nicht hätte sein sollen.",
-    "Er wurde schwer getroffen und starb später im Krankenhaus an seinen Verletzungen.",
-    "Fahrgäste waren nach Angaben der Polizei zu keiner Zeit in Gefahr.",
-    "Ein Kriseninterventionsteam betreute die Augenzeugen vor Ort.",
-    "Die Polizei hat die Ermittlungen zu dem Betriebsunfall aufgenommen.",
-    "Zeugen wurden gebeten, sich bei den Behörden zu melden."
-   ]
-  },
-  {
-   "id": "wahlen-berlin-mecklenburg-vorpommern",
-   "titel": "Politische Folgen nach Landtagswahlen in Mecklenburg-Vorpommern und Berlin",
-   "rubrik": "Deutschland",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
-     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "urheber": "Arild Vågen",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Berlin Abgeordnetenhaus building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Schwerin-Schloss-gp.jpg",
-     "beschreibung": "front aspect of Schwerin Castle , Germany",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
-     "urheber": "User:Kolossos",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Schwerin Castle",
-     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Election MG 3455.JPG",
-     "beschreibung": "Second round of the French presidential election of 2007.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
-     "urheber": "Rama",
-     "lizenz": "CC BY-SA 2.0 fr",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
-     "art": "symbol",
-     "suchbegriff": "Ballot box election Germany",
-     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "saetze": [
-    "Nach den Landtagswahlen in Berlin und Mecklenburg-Vorpommern gibt es große personelle und politische Veränderungen.",
-    "In Mecklenburg-Vorpommern scheiterte die Partei Christlich Demokratische Union an der Fünf-Prozent-Hürde und fliegt aus dem Parlament.",
-    "Nach Angaben der Tagesschau zog Landeschef Daniel Peters am Tag nach der Wahl die Konsequenzen und trat zurück.",
-    "Auch Generalsekretärin Katy Hoffmeister und Vize-Chefin Ann-Christin von Allwörden gaben ihre Ämter auf.",
-    "Für den Übergang übernahm Philipp Amthor die Parteiführung in Mecklenburg-Vorpommern.",
-    "In Berlin wurde Die Linke mit Spitzenkandidatin Elif Eralp nach Angaben der Deutschen Welle stärkste Kraft.",
-    "Nach Angaben von Bundeskanzler Friedrich Merz ist die Wahl eine tiefe Zäsur für die Christlich Demokratische Union.",
-    "Politiker verschiedener Parteien bewerteten die Ergebnisse und die Folgen für die Regierungsbildung unterschiedlich.",
-    "In Mecklenburg-Vorpommern läuft es nach Angaben der Tagesschau auf eine rot-rot-grüne Koalition unter Führung der SPD-Politikerin Manuela Schwesig hinaus.",
-    "Ob die Koalitionsverhandlungen erfolgreich verlaufen werden, ist nach Angaben der Berichte noch offen."
-   ]
-  },
-  {
-   "id": "us-medienbann-weisses-haus",
-   "titel": "Ausschluss von Medien im Weißen Haus führt zu Klagen und Sendebeschränkungen",
-   "rubrik": "Welt",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump politician",
-     "bildunterschrift": "US-Präsident Donald Trump, der den Ausschluss von Medien vom Gelände des Weißen Hauses veranlasste.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Latrobe White House cropa2.jpg",
-     "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Latrobe_White_House_cropa2.jpg/1280px-Latrobe_White_House_cropa2.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Latrobe_White_House_cropa2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Latrobe_White_House_cropa2.jpg",
-     "urheber": "Benjamin Henry Latrobe",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "institution",
-     "suchbegriff": "White House Washington DC",
-     "bildunterschrift": "Das Weiße Haus in Washington, D.C., Amtssitz des US-Präsidenten.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "First Amendment of the United States Constitution on the facade of the Newseum, Washington, DC, USA - 20130922.jpg",
-     "beschreibung": "The First Amendment of the United States Constitution on the facade of the Newseum in Washington, D.C., USA.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg/1280px-First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum,_Washington,_DC,_USA_-_20130922.jpg",
-     "urheber": "Smuconlaw",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "symbol",
-     "suchbegriff": "First Amendment to the United States Constitution",
-     "bildunterschrift": "Der Text des Ersten Verfassungszusatzes der USA, der die Pressefreiheit schützt.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ort": {
-    "name": "Washington, USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "saetze": [
-    "Mehrere amerikanische Medienhäuser haben nach Angaben der BBC und des Schweizer Radios und Fernsehens Klage bei einem Gericht eingereicht. Sie wehren sich damit gegen ein Hausverbot im Weißen Haus. Der amerikanische Präsident Donald Trump hatte den Sendern CNN und Politico sowie dem Unternehmen MS NOW den Zugang untersagt. Nach Angaben der BBC begründete Trump den Schritt mit angeblichen Falschberichten über sein Team. Als Reaktion auf den Ausschluss schränkten große Fernsehsender wie ABC, CBS und Fox News ihre gemeinsame Berichterstattung über den Präsidenten ein. Die Sender erklärten in einer gemeinsamen Mitteilung, dass die Öffentlichkeit ein Recht auf unabhängige Informationen hat. Das Weiße Haus startete unterdessen einen eigenen Internet-Kanal namens Trump TV. Das Gericht in Washington muss nun zeitnah über den Eilantrag der Medien entscheiden."
-   ]
-  },
   {
    "id": "merzer-enteignungsverbot",
    "titel": "Debatte über Bundesgesetz nach Wahlen in Berlin",
@@ -220,40 +61,259 @@
     "lon": 13.395
    },
    "saetze": [
-    "Nach der Abgeordnetenhauswahl in Berlin gibt es heftigen Streit um die Zukunft großer Wohnungsunternehmen.",
-    "Das teilten Medien am einundzwanzigsten September zweitausendsechsundzwanzig mit.",
-    "Die Partei Die Linke gewann die Wahl in Berlin und will grosse Wohnungskonzerne gegen Entschädigung übernehmen.",
-    "Bundeskanzler Friedrich Merz kündigte nach Angaben der Tagesschau an, ein schnelles Bundesgesetz gegen Enteignungen auf den Weg zu bringen.",
-    "Damit will die Bundesregierung nach Angaben von Merz eine klare Botschaft an internationale Investoren senden.",
-    "Die Linksparten-Spitzenkandidatin Elif Eralp verteidigte das Vorhaben und verwies auf einen Volksentscheid aus dem Jahr zweitausendeinundzwanzig.",
-    "Die Christlich-Soziale Union und Wirtschaftsverbände kritisieren die Pläne scharf und warnen vor hohen Kosten.",
-    "Ob der Bund Enteignungen auf Landesebene rechtlich grundsätzlich verbieten kann, ist unter anderem wegen Bedenken der Bundesjustizministerin Stefanie Hubig unklar.",
-    "Die Diskussion wirkt sich nach Berichten von Medien auf Aktien und Banken aus.",
-    "Politiker und Verbände beraten nun weiter über das Thema."
+    "Nach der Wahl in Berlin fordert die Partei Christlich-Soziale Union ein schnelles Bundesgesetz gegen Enteignungen.",
+    "Das gaben die Medien Deutschlandfunk und Welt bekannt.",
+    "Bundeskanzler Friedrich Merz kündigte am einundzwanzigsten September an, ein Verbot rasch auf den Weg zu bringen.",
+    "Die Linkspartei hatte zuvor die Abgeordnetenhauswahl in Berlin gewonnen.",
+    "Sie plant die Vergesellschaftung großer Wohnungsunternehmen, um rund zweihundertvierzig tausend Wohnungen zu übernehmen.",
+    "Der Bundeskanzler bezeichnete diese Pläne nach Angaben der Tagesschau als schädlich für den Wirtschaftsstandort.",
+    "Die Partei Die Linke verteidigte das Vorhaben mit den hohen Mieten in der Hauptstadt.",
+    "Bankenverbände warnten vor höheren Risiken und teureren Immobilienkrediten.",
+    "Ob ein generelles Verbot durch den Bund rechtlich zulässig ist, wird von Fachleuten unterschiedlich bewertet.",
+    "Die Bundesregierung will in den kommenden Wochen über das Gesetzesvorhaben entscheiden."
+   ]
+  },
+  {
+   "id": "oktoberfest-muenchen-eroeffnung",
+   "titel": "Unfall an Fahrgeschäft auf dem Münchner Oktoberfest",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "1965 Car Theresienwiese Munich.jpg",
+     "beschreibung": "A car in 1965 at Theresienwiese in Munich, with St. Paul's Church (St. Paul / Paulskirche) in the background.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/1965_Car_Theresienwiese_Munich.jpg/1280px-1965_Car_Theresienwiese_Munich.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/1965_Car_Theresienwiese_Munich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:1965_Car_Theresienwiese_Munich.jpg",
+     "urheber": "Artfókusz",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Theresienwiese Munich",
+     "bildunterschrift": "Die Theresienwiese in München, der Veranstaltungsort des Oktoberfests.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "München, Deutschland",
+    "lat": 48.137,
+    "lon": 11.575
+   },
+   "saetze": [
+    "Auf dem Münchner Oktoberfest ist ein Mitarbeiter eines Fahrgeschäfts nach einem Unfall gestorben.",
+    "Das teilten die Polizei und mehrere Medien mit.",
+    "Der Vorfall ereignete sich am Montagabend an einem Free-Fall-Turm auf dem Festgelände.",
+    "Das Opfer war nach Behördenangaben zweiundfünfzig Jahre alt.",
+    "Nach Angaben der Polizei befand sich der Mitarbeiter in einem Bereich, in dem er nicht hätte sein sollen.",
+    "Fahrgäste seien zu keiner Zeit in Gefahr gewesen.",
+    "Der Mann wurde mit lebensgefährlichen Verletzungen in ein Krankenhaus gebracht und verstarb dort.",
+    "Die Polizei hat die Ermittlungen zu den genauen Umständen aufgenommen.",
+    "Augenzeugen wurden von einem Kriseninterventionsteam betreut.",
+    "Das Oktoberfest läuft unterdessen weiter und dauert noch bis zum vierten Oktober."
+   ]
+  },
+  {
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "titel": "Politische Folgen nach Landtagswahlen und personelle Veränderungen in Parteien",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
+     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "urheber": "Arild Vågen",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus building",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Schwerin-Schloss-gp.jpg",
+     "beschreibung": "front aspect of Schwerin Castle , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
+     "urheber": "User:Kolossos",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Election MG 3455.JPG",
+     "beschreibung": "Second round of the French presidential election of 2007.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+     "urheber": "Rama",
+     "lizenz": "CC BY-SA 2.0 fr",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "saetze": [
+    "Nach den Landtagswahlen in den Bundesländern Berlin und Mecklenburg-Vorpommern zieht die CDU personelle Konsequenzen.",
+    "In Mecklenburg-Vorpommern schied die Partei nach Angaben der Welt und der Deutschen Welle aus dem Landtag aus.",
+    "Der Spitzenkandidat Daniel Peters erklärte daraufhin nach Angaben des Deutschlandfunks und der Welt seinen Rücktritt vom Landesvorsitz.",
+    "Auch Generalsekretärin Katy Hoffmeister trat nach Angaben der Welt von ihrem Amt zurück.",
+    "Der Politiker Philipp Amthor soll die Landespartei nach Angaben der Welt vorerst kommissarisch übernehmen.",
+    "Bundeskanzler Friedrich Merz bezeichnete das Wahlergebnis nach Angaben der Deutschen Welle als eine tiefe Zäsur für die CDU.",
+    "Die AfD und die Linke konnten bei den Wahlen in den beiden Städten und Ländern laut der Deutschen Welle deutliche Stimmengewinne verzeichnen.",
+    "Ein Landesparteitag der CDU ist für Anfang des kommenden Jahres geplant.",
+    "Bis dahin bleibt die Landespartei nach Angaben der Welt handlungsfähig.",
+    "Offen ist laut der Welt, ob Amthor auch nach der Übergangszeit für den Vorsitz zur Verfügung steht."
+   ]
+  },
+  {
+   "id": "us-medienbann-weisses-haus",
+   "titel": "Ausschluss von Medien im Weißen Haus führt zu Klagen und Sendebeschränkungen",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump politician",
+     "bildunterschrift": "US-Präsident Donald Trump, der den Ausschluss von Medien vom Gelände des Weißen Hauses veranlasste.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Latrobe White House cropa2.jpg",
+     "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Latrobe_White_House_cropa2.jpg/1280px-Latrobe_White_House_cropa2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Latrobe_White_House_cropa2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Latrobe_White_House_cropa2.jpg",
+     "urheber": "Benjamin Henry Latrobe",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "White House Washington DC",
+     "bildunterschrift": "Das Weiße Haus in Washington, D.C., Amtssitz des US-Präsidenten.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "First Amendment of the United States Constitution on the facade of the Newseum, Washington, DC, USA - 20130922.jpg",
+     "beschreibung": "The First Amendment of the United States Constitution on the facade of the Newseum in Washington, D.C., USA.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg/1280px-First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum%2C_Washington%2C_DC%2C_USA_-_20130922.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:First_Amendment_of_the_United_States_Constitution_on_the_facade_of_the_Newseum,_Washington,_DC,_USA_-_20130922.jpg",
+     "urheber": "Smuconlaw",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "suchbegriff": "First Amendment to the United States Constitution",
+     "bildunterschrift": "Der Text des Ersten Verfassungszusatzes der USA, der die Pressefreiheit schützt.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Washington, USA",
+    "lat": 38.895,
+    "lon": -77.036
+   },
+   "saetze": [
+    "Der amerikanische Präsident Donald Trump hat den Medien CNN, MS NOW und Politico den Zugang zum Weißen Haus verboten. Nach Angaben der Berichte begründete der Präsident dies mit angeblichen Falschmeldungen. Die betroffenen Medien reichten daraufhin am Montag Klage bei einem Bundesgericht in Washington ein. Sie fordern in einem Eilantrag, dass ein Richter das Verbot sofort stoppt. Die Organisationen erklärten, die Maßnahme verletze den Ersten Verfassungszusatz der Verfassung. Aus Solidarität setzten große Fernsehsender wie ABC, CBS, NBC und Fox News ihre gemeinsame Berichterstattung aus dem sogenannten Pool vorerst aus. Nach Angaben der Sender darf keine Regierung eine Nachrichtenorganisation wegen ihrer Berichterstattung einschränken. Das Weiße Haus wies die Vorwürfe zurück und sprach von einer Maßnahme gegen nationale Sicherheitsrisiken. Als Reaktion auf den Ausfall der Berichterstattung startete das Weiße Haus einen eigenen Online-Kanal namens Trump TV. Ein Gericht wird sich in dieser Woche mit dem Eilantrag der Medien befassen."
    ]
   },
   {
    "id": "dieseltrend-hoechststand-spritpreise",
-   "titel": "Bundeskabinett beschließt Gesetzentwurf zum Tankrabatt",
+   "titel": "Bundeskabinett beschließt Gesetzentwurf zum Tankrabatt und plant Energiesteuersenkung",
    "rubrik": "Wirtschaft",
    "eil": false,
-   "bilder": [],
+   "bilder": [
+    {
+     "titel": "Berlin - Bundesministerium der Finanzen (Berlin - Federal Finance Ministry) - geo.hlipp.de - 29981.jpg",
+     "beschreibung": "Berlin - Bundesministerium der Finanzen (Berlin - Federal Finance Ministry)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Berlin_-_Bundesministerium_der_Finanzen_%28Berlin_-_Federal_Finance_Ministry%29_-_geo.hlipp.de_-_29981.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Berlin_-_Bundesministerium_der_Finanzen_%28Berlin_-_Federal_Finance_Ministry%29_-_geo.hlipp.de_-_29981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Berlin_-_Bundesministerium_der_Finanzen_(Berlin_-_Federal_Finance_Ministry)_-_geo.hlipp.de_-_29981.jpg",
+     "urheber": "Colin Smith on geo.hlipp.de",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "institution",
+     "suchbegriff": "Bundesministerium der Finanzen Berlin",
+     "bildunterschrift": "Das Bundesministerium der Finanzen in Berlin, das an dem Gesetzentwurf beteiligt ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
    "ort": {
     "name": "Berlin, Deutschland",
     "lat": 52.517,
     "lon": 13.395
    },
    "saetze": [
-    "Das Bundeskabinett hat einen neuen Gesetzentwurf zur Entlastung bei den Spritpreisen auf den Weg gebracht.",
-    "Die Maßnahme wurde nach Angaben einer Regierungssprecherin im Umlaufverfahren in Berlin beschlossen.",
-    "Vom ersten Oktober an soll die Energiesteuer auf Benzin und Diesel sinken.",
-    "Dadurch ergibt sich an der Zapfsäule nach Regierungsangaben eine Entlastung von bis zu siebzehn Cent pro Liter.",
-    "Der Rabatt gilt bis zum Ende des Dezembers dieses Jahres.",
-    "Die Gesamtkosten von rund zweieinhalb Milliarden Euro werden jeweils zur Hälfte von Bund und Ländern getragen.",
-    "Ökonomen kritisieren den Tankrabatt nach Berichten von Tagesschau und ZDFheute als teuer und ungenau.",
-    "Das Bundesfinanzministerium rechnet fest damit, dass die Entlastung bei den Verbrauchern ankommt.",
-    "Zusätzlich plant die Bundesregierung laut ZDFheute spätestens ab dem ersten Januar einen Spritpreisdeckel.",
-    "Bundestag und Bundesrat sollen das Gesetz noch in dieser Woche beraten."
+    "Das Bundeskabinett hat einen Gesetzentwurf für einen neuen Tankrabatt auf den Weg gebracht. Das teilte eine Regierungssprecherin mit. Vom ersten Oktober bis zum Jahresende sinkt die Energiesteuer auf Benzin und Diesel um rund vierzehn Cent pro Liter. Mit der Mehrwertsteuer ergibt sich nach Angaben der Regierung eine Entlastung von bis zu siebzehn Cent. Bundestag und Bundesrat sollen das Gesetz in dieser Woche beschließen. Die Maßnahme kostet Bund und Länder zusammen rund zweieinhalb Milliarden Euro. Ökonomen kritisieren die Pläne als teuer und ungenau. Die Europäische Kommission sieht derzeit keinen Grund für eine europaweite Übergewinnsteuer, die von der SPD gefordert wird. Spätestens ab dem ersten Januar soll zudem ein Spritpreisdeckel eingeführt werden."
+   ]
+  },
+  {
+   "id": "ig-metall-aktionstag",
+   "titel": "Aktionstag der Gewerkschaft IG Metall in der Autoindustrie",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Wolfsburgskyline2-2.jpg",
+     "beschreibung": "Sicht über Wolfsburg vom Schillercenter",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Wolfsburgskyline2-2.jpg/1280px-Wolfsburgskyline2-2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Wolfsburgskyline2-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburgskyline2-2.jpg",
+     "urheber": "Timmy S. & Cubanito",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Wolfsburg",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Wolfsburg",
+     "bildunterschrift": "Sicht über Wolfsburg, wo sich ein wichtiger Standort der deutschen Autoindustrie befindet.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Wolfsburg, Volkswagenwerk -- 2009 -- 0822.jpg",
+     "beschreibung": "Wolfsburg Nord thermal power station (part of the Volkswagen factory, Wolfsburg, Lower Saxony , Germany)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Wolfsburg%2C_Volkswagenwerk_--_2009_--_0822.jpg/1280px-Wolfsburg%2C_Volkswagenwerk_--_2009_--_0822.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Wolfsburg%2C_Volkswagenwerk_--_2009_--_0822.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburg,_Volkswagenwerk_--_2009_--_0822.jpg",
+     "urheber": "Dietmar Rabich",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Wolfsburg",
+     "bildunterschrift": "Das Volkswagenwerk in Wolfsburg als Beispiel für die betroffene Autoindustrie.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Wolfsburg, Deutschland",
+    "lat": 52.421,
+    "lon": 10.786
+   },
+   "saetze": [
+    "Die Gewerkschaft IG Metall hat zu einem bundesweiten Aktionstag in der Autoindustrie aufgerufen.",
+    "Am Montag fanden in ganz Deutschland Kundgebungen und Aktionen statt.",
+    "Nach Angaben der Gewerkschaft beteiligten sich daran rund 175.000 Beschäftigte.",
+    "Proteste gab es unter anderem in Wolfsburg, Stuttgart, München und Ingolstadt.",
+    "Hintergrund sind wirtschaftliche Probleme und geplante Stellenstreichungen bei den Herstellern.",
+    "Die IG-Metall-Chefin Christiane Benner kritisierte die Unternehmensspitzen scharf.",
+    "Manager hätten Zukunftstrends verschlafen, sagte der Bezirksleiter Jan Otto nach Angaben der Tagesschau.",
+    "Die Automobilbranche leidet aktuell unter Gewinneinbrüchen und reagiert darauf mit Sparprogrammen.",
+    "Am siebten Oktober beginnen die ersten Tarifverhandlungen für die Metall- und Elektroindustrie."
    ]
   },
   {
@@ -509,10 +569,24 @@
   },
   {
    "id": "google-strafe-datenschutz",
-   "titel": "Millionenbuße gegen Google wegen Verstößen gegen Datenschutzrecht",
+   "titel": "Geldbuße gegen Google wegen Verstößen gegen Datenschutzvorschriften",
    "rubrik": "Wirtschaft",
    "eil": false,
    "bilder": [
+    {
+     "titel": "Dublin-panorama-google-office-02.jpg",
+     "beschreibung": "Dublin seen from an office building, showing a stadium and small houses.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dublin-panorama-google-office-02.jpg/1280px-Dublin-panorama-google-office-02.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dublin-panorama-google-office-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dublin-panorama-google-office-02.jpg",
+     "urheber": "Remca",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "Google Dublin office",
+     "bildunterschrift": "Das Bürogebäude von Google in Dublin.",
+     "hinweis": "Archivfoto"
+    },
     {
      "titel": "Dublin - aerial - 2025-07-07 01.jpg",
      "beschreibung": "Dublin aerial photograph",
@@ -526,22 +600,8 @@
      "sprache": "en",
      "art": "ort",
      "suchbegriff": "Dublin cityscape",
-     "bildunterschrift": "Luftaufnahme von Dublin, dem Sitz der irischen Datenschutzkommission.",
+     "bildunterschrift": "Luftaufnahme von Dublin, dem Sitz der irischen Behörden und der Google-Zentrale.",
      "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Privacy of Mobile Devices.jpg",
-     "beschreibung": "Privacy of Mobile Devices",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Privacy_of_Mobile_Devices.jpg/1280px-Privacy_of_Mobile_Devices.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Privacy_of_Mobile_Devices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Privacy_of_Mobile_Devices.jpg",
-     "urheber": "Stefan Nürnberger",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "symbol",
-     "suchbegriff": "Data privacy concept",
-     "bildunterschrift": "Symbolbild zum Thema Datensouveränität und Datenschutz bei mobilen Geräten.",
-     "hinweis": "Symbolbild"
     }
    ],
    "ort": {
@@ -550,55 +610,16 @@
     "lon": -6.261
    },
    "saetze": [
-    "Der Techkonzern Google muss eine Geldstrafe von über vierhundert Millionen Euro zahlen.",
-    "Das teilte die irische Datenschutzkommission mit.",
-    "Grund für die Strafe sind Verstöße gegen die Datenschutz-Grundverordnung beim Umgang mit Standortdaten.",
-    "Die untersuchten Verstöße fanden zwischen Mai 2018 und Februar 2020 statt.",
-    "Nach Angaben der Behörde wussten Nutzer oft nicht, dass ihre Standorte für Werbung genutzt wurden.",
-    "Graham Doyle von der Datenschutzbehörde erklärte, die Daten seien zudem länger als nötig gespeichert worden.",
-    "Ein Sprecher von Google erklärte dazu, dass es sich um frühere Richtlinien handele, die inzwischen aktualisiert wurden.",
-    "Google hat seinen europäischen Hauptsitz in Dublin in Irland.",
-    "Gegen den Konzern laufen in Irland drei weitere Untersuchungen.",
-    "Das Unternehmen hat nun eine Frist von sechs Monaten erhalten, um die Datenverarbeitung anzupassen."
-   ]
-  },
-  {
-   "id": "ig-metall-aktionstag",
-   "titel": "Aktionstag der Gewerkschaft IG Metall in der Automobilindustrie",
-   "rubrik": "Wirtschaft",
-   "eil": false,
-   "bilder": [
-    {
-     "titel": "Wolfsburg VWHochhaus.jpg",
-     "beschreibung": "Wolfsburg, Lower Saxony, headquarters of Volkswagen AG",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Wolfsburg_VWHochhaus.jpg/1280px-Wolfsburg_VWHochhaus.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Wolfsburg_VWHochhaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburg_VWHochhaus.jpg",
-     "urheber": "Vanellus Foto",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "institution",
-     "suchbegriff": "Volkswagen headquarters Wolfsburg",
-     "bildunterschrift": "Die Zentrale von Volkswagen in Wolfsburg als Beispiel für die betroffene Automobilindustrie.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ort": {
-    "name": "Wolfsburg, Deutschland",
-    "lat": 52.421,
-    "lon": 10.786
-   },
-   "saetze": [
-    "Die Gewerkschaft IG Metall hat am einundzwanzigsten September zu einem bundesweiten Aktionstag in der Autoindustrie aufgerufen.",
-    "Proteste fanden an zahlreichen Standorten in ganz Deutschland statt.",
-    "Nach Angaben der Gewerkschaft beteiligten sich etwa einhundertfünfundsiebzigtausend Beschäftigte an den Aktionen.",
-    "Im Mittelpunkt standen Kundgebungen gegen Werksschließungen und den geplanten Personalabbau.",
-    "Die Erste Vorsitzende Christiane Benner kritisierte die Vorstände der Unternehmen am Volkswagen-Stammwerk in Wolfsburg scharf.",
-    "Arbeitgebervertreter erklärten dagegen, dass Kostensenkungen und längere Arbeitszeiten zwingend notwendig seien.",
-    "Die Gewerkschaft fordert von der Politik verlässliche Rahmenbedingungen und finanzielle Hilfen.",
-    "Die Berichte zeigen einen tiefen Konflikt zwischen Arbeitnehmern und Unternehmensleitungen.",
-    "In Kürze beginnen die Tarifverhandlungen für die Metall und Elektroindustrie.",
-    "Beide Seiten werden dort über Arbeitszeiten und Löhne verhandeln."
+    "Die irische Datenschutzbehörde hat eine Geldstrafe von vierhundertdrei Millionen Euro gegen den Techkonzern Google verhängt.",
+    "Das berichten unter anderem die Tagesschau und das Schweizer Radio und Fernsehen.",
+    "Grund für das Bußgeld sind Verstöße gegen europäische Datenschutzregeln bei der Verarbeitung von Standortdaten.",
+    "Der genaue Untersuchungszeitraum liegt zwischen Mai 2018 und Februar 2020.",
+    "Nach Angaben des Behördenvertreters Graham Doyle war Nutzern oft nicht bewusst, dass ihr Standort für Werbung genutzt wurde.",
+    "Außerdem habe Google die Daten länger als nötig gespeichert, so die irische Datenschutzkommission.",
+    "Ein Google-Sprecher erklärte dazu, es gehe um frühere Richtlinien, die inzwischen aktualisiert wurden.",
+    "Google hat seinen europäischen Hauptsitz in Dublin, weshalb die irische Behörde für die Überwachung zuständig ist.",
+    "Google muss seine Datenverarbeitung innerhalb von sechs Monaten an die Vorschriften anpassen.",
+    "Drei weitere Untersuchungen der Behörde gegen das Unternehmen laufen derzeit noch."
    ]
   }
  ]
