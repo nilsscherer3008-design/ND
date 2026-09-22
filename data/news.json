@@ -171,7 +171,19 @@
    "Am wärmsten wird es in Stuttgart mit 22 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 16 und 20 Grad. Die Vorhersage für morgen,",
+   "d": "da7923ac15.mp3",
+   "l": 18.4,
+   "s": [
+    0.25,
+    3.75,
+    7.99,
+    12.1,
+    15.76
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2430,16 +2442,16 @@
     {
      "k": "Das deutsche Bundeskabinett hat die Senkung der Energiesteuer auf Benzin und Die",
      "d": "cbcffd68f2.mp3",
-     "l": 42.03,
+     "l": 41.14,
      "s": [
       0.25,
-      5.72,
-      8.41,
-      13.66,
-      19.49,
-      21.79,
-      26.97,
-      35.39
+      5.63,
+      8.2,
+      13.27,
+      19.12,
+      21.09,
+      26.22,
+      34.69
      ]
     },
     {
@@ -2929,16 +2941,16 @@
     {
      "k": "Auf dem Münchner Oktoberfest ist ein Mitarbeiter eines Fahrgeschäfts tödlich ver",
      "d": "e6117afb67.mp3",
-     "l": 38.22,
+     "l": 38.92,
      "s": [
       0.25,
-      5.7,
-      12.2,
-      16.76,
-      21.56,
-      24.39,
-      28.76,
-      33.16
+      5.43,
+      12.09,
+      16.93,
+      21.9,
+      24.96,
+      29.32,
+      33.9
      ]
     },
     {
@@ -4402,11 +4414,11 @@
     {
      "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
      "d": "cae7875f8a.mp3",
-     "l": 17.4,
+     "l": 17.49,
      "s": [
       0.25,
-      5.59,
-      10.73
+      5.28,
+      10.54
      ]
     },
     {
@@ -7880,7 +7892,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 16.72,
+     "l": 17.15,
      "s": [
       0.25
      ]
@@ -9965,6 +9977,47 @@
       34.88,
       40.9,
       54.32
+     ]
+    },
+    {
+     "k": "Das Weiße Haus ist der Amtssitz und Arbeitsplatz des Präsidenten der Vereinigten",
+     "d": "6efaff3fbd.mp3",
+     "l": 32.71,
+     "s": [
+      0.25,
+      6.33,
+      9.44,
+      10.23,
+      13.84,
+      18.96,
+      25.36
+     ]
+    },
+    {
+     "k": "Der Verband der White-House-Korrespondenten kritisierte das Vorgehen scharf. Ver",
+     "d": "1988bfde65.mp3",
+     "l": 60.02,
+     "s": [
+      0.25,
+      4.76,
+      14.21,
+      18.3,
+      28.34,
+      38.14,
+      44.68,
+      54.81
+     ]
+    },
+    {
+     "k": "Die betroffenen Medienunternehmen kündigten an, juristische Schritte zu prüfen o",
+     "d": "0c2d1f33fe.mp3",
+     "l": 34.89,
+     "s": [
+      0.25,
+      8.84,
+      15.49,
+      22.19,
+      28.34
      ]
     }
    ]
