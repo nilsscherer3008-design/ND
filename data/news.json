@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T14:48:14.627Z",
+ "stand": "2026-09-22T18:49:57.697Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -48,7 +48,7 @@
   "ig-metall-aktionstag"
  ],
  "wetter": {
-  "stand": "2026-09-22T14:48:14.627Z",
+  "stand": "2026-09-22T18:49:57.697Z",
   "morgenTag": "Mittwoch",
   "orte": [
    {
@@ -79,7 +79,7 @@
     },
     "morgen": {
      "code": 3,
-     "max": 19,
+     "max": 20,
      "min": 9
     }
    },
@@ -90,13 +90,13 @@
     "teil": "Osten",
     "heute": {
      "code": 3,
-     "max": 17,
+     "max": 18,
      "min": 10
     },
     "morgen": {
      "code": 3,
      "max": 19,
-     "min": 9
+     "min": 10
     }
    },
    {
@@ -111,7 +111,7 @@
     },
     "morgen": {
      "code": 3,
-     "max": 22,
+     "max": 21,
      "min": 11
     }
    },
@@ -122,12 +122,12 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 19,
+     "max": 20,
      "min": 10
     },
     "morgen": {
      "code": 3,
-     "max": 20,
+     "max": 21,
      "min": 9
     }
    },
@@ -143,7 +143,7 @@
     },
     "morgen": {
      "code": 3,
-     "max": 21,
+     "max": 22,
      "min": 8
     }
    },
@@ -160,7 +160,7 @@
     "morgen": {
      "code": 3,
      "max": 19,
-     "min": 7
+     "min": 6
     }
    }
   ],
@@ -168,7 +168,7 @@
    "Heute liegen die Höchstwerte zwischen 16 und 20 Grad.",
    "Die Vorhersage für morgen, Mittwoch, im ganzen Land: bewölkt.",
    "Die Temperaturen erreichen dann 18 bis 22 Grad.",
-   "Am wärmsten wird es in Köln mit 22 Grad.",
+   "Am wärmsten wird es in Stuttgart mit 22 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "quelle": "Open-Meteo / Deutscher Wetterdienst"
@@ -6474,7 +6474,7 @@
     {
      "k": "Die IG Metall treibt ihre Vorbereitungen für die kommenden tariflichen Auseinand",
      "d": "359598d5c8.mp3",
-     "l": 16.0,
+     "l": 16,
      "s": [
       0.25,
       5.84,
@@ -9465,7 +9465,7 @@
       24.35,
       32.71,
       43.61,
-      53.0,
+      53,
       59.67
      ]
     },
