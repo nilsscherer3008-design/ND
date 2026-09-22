@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T09:53:35.684Z",
+ "stand": "2026-09-22T14:48:14.627Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -33,7 +33,6 @@
   "usa-daenemark-groenland-abkommen",
   "google-gemini-ki-cyberangriffe",
   "oktoberfest-muenchen-eroeffnung",
-  "bayern-muenchen-union-berlin-fussball",
   "wahlen-berlin-mecklenburg-vorpommern",
   "duma-wahl-russland-drohnenangriffe",
   "huthi-angriffe-saudi-arabien",
@@ -49,7 +48,7 @@
   "ig-metall-aktionstag"
  ],
  "wetter": {
-  "stand": "2026-09-22T09:53:35.684Z",
+  "stand": "2026-09-22T14:48:14.627Z",
   "morgenTag": "Mittwoch",
   "orte": [
    {
@@ -59,12 +58,12 @@
     "teil": "Norden",
     "heute": {
      "code": 3,
-     "max": 17,
+     "max": 18,
      "min": 9
     },
     "morgen": {
-     "code": 45,
-     "max": 17,
+     "code": 61,
+     "max": 18,
      "min": 9
     }
    },
@@ -96,8 +95,8 @@
     },
     "morgen": {
      "code": 3,
-     "max": 18,
-     "min": 10
+     "max": 19,
+     "min": 9
     }
    },
    {
@@ -107,7 +106,7 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 18,
+     "max": 20,
      "min": 13
     },
     "morgen": {
@@ -161,14 +160,14 @@
     "morgen": {
      "code": 3,
      "max": 19,
-     "min": 6
+     "min": 7
     }
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 16 und 19 Grad.",
+   "Heute liegen die Höchstwerte zwischen 16 und 20 Grad.",
    "Die Vorhersage für morgen, Mittwoch, im ganzen Land: bewölkt.",
-   "Die Temperaturen erreichen dann 17 bis 22 Grad.",
+   "Die Temperaturen erreichen dann 18 bis 22 Grad.",
    "Am wärmsten wird es in Köln mit 22 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
@@ -892,7 +891,7 @@
      "l": 17.77,
      "s": [
       0.25,
-      8.0,
+      8,
       10.82
      ]
     },
@@ -1360,7 +1359,7 @@
       4.57,
       8.47,
       13.76,
-      19.0,
+      19,
       23.59
      ]
     },
@@ -9530,491 +9529,6 @@
      "s": [
       0.25,
       3.64
-     ]
-    }
-   ]
-  },
-  {
-   "id": "bayern-muenchen-union-berlin-fussball",
-   "rubrik": "Sport",
-   "zeit": "2026-09-19T12:21:48.000Z",
-   "titel": "Fußball-Bundesliga: FC Bayern München gewinnt gegen Union Berlin",
-   "vorspann": "Der FC Bayern München hat ein Bundesliga-Spiel gegen den 1. FC Union Berlin mit 7:0 gewonnen. Dabei stellte Spieler Harry Kane einen neuen Rekord für die Anzahl seiner Tore auf.",
-   "eil": false,
-   "zusammenfassung": [
-    "Der FC Bayern München hat das Bundesliga-Heimspiel gegen den 1. FC Union Berlin mit 7:0 gewonnen.",
-    "Harry Kane erzielte in seinem 98. Spiel sein 100. Bundesligator und stellte damit einen Rekord auf.",
-    "Michael Olise erzielte drei Tore und war an mehreren Treffern direkt beteiligt.",
-    "Die Berliner Gäste agierten über weite Strecken der Partie defensiv."
-   ],
-   "einig": [
-    [
-     "Der FC Bayern München gewann das Bundesligaspiel gegen Union Berlin mit 7:0.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Zeit",
-      "BBC"
-     ]
-    ],
-    [
-     "Harry Kane erzielte sein 100. Bundesligator im 98. Spiel und stellte damit einen Rekord auf.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Zeit",
-      "BBC"
-     ]
-    ],
-    [
-     "Michael Olise erzielte drei Tore in dem Spiel.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Zeit"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob Harry Kane von seinem Geschwindigkeitsrekord wusste: Laut Tagesschau/ARD wirkte er in den Interviews überrascht."
-   ],
-   "positionen": [
-    [
-     "Vincent Kompany (Trainer FC Bayern München)",
-     "Er ist extrem stolz auf die Mannschaft und merkte an, dass Olise die Abschlüsse im Training viel geübt habe.",
-     "Tagesschau/ARD,Zeit"
-    ],
-    [
-     "Harry Kane (Spieler FC Bayern München)",
-     "Er ist stolz auf seine 101 Bundesligatore und hat jede Sekunde davon genossen.",
-     "Tagesschau/ARD,Zeit"
-    ],
-    [
-     "Jamal Musiala (Spieler FC Bayern München)",
-     "Für ein solches Ergebnis ist viel Arbeit nötig, und das gute Gefühl muss mit zur Nationalmannschaft genommen werden.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Christopher Trimmel (Kapitän Union Berlin)",
-     "Es war die stärkste Bayern-Mannschaft, gegen die er je gespielt hat; man muss akzeptieren, dass sie aktuell so gut ist.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stimmen weiterer Spieler von Union Berlin oder des Trainers Mauro Lustrinelli zur Spielanalyse kommen in den Berichten kaum vor.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 22:23",
-     "fokus": "Ausführlicher Spielverlauf und Stimmen",
-     "text": "Der Bericht liefert eine detaillierte chronologische Übersicht des Spiels sowie zahlreiche Zitate von Spielern und dem Trainer.",
-     "url": "https://www.sportschau.de/fussball/bundesliga/ein-grandioser-kane-rekord-und-noch-so-viel-mehr,spielbericht-bayern-muenchen-union-berlin-102.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "18.09.26, 22:40",
-     "fokus": "Kompakte Spielzusammenfassung mit Torschützen",
-     "text": "Der Artikel fasst die wesentlichen Spielszenen, die Tore sowie die Tabellensituation übersichtlich zusammen.",
-     "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-fc-bayern-union-berlin-spieltag-4-2026-27-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 14:21",
-     "fokus": "–",
-     "text": "Bayern München hat das Freitagsspiel in der Fußball-Bundesliga gewonnen.",
-     "url": "https://www.deutschlandfunk.de/bayern-muenchen-schlaegt-union-berlin-mit-7-104.html",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "19.09.26, 00:02",
-     "fokus": "Rekord und Spielerzitate",
-     "text": "Die Wochenzeitung konzentriert sich auf die wichtigsten Meilensteine des Spiels und bindet zentrale Zitate der Beteiligten ein.",
-     "url": "https://www.zeit.de/sport/2026-09/bayern-muenchen-union-berlin-bundesliga-harry-kane-michael-olise",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "19.09.26, 00:34",
-     "fokus": "–",
-     "text": "Harry Kane makes history by becoming the fastest player to reach 100 Bundesliga goals in his 98th game, while Michael Olise nets a hat-trick as Bayern Munich thrash Union Berlin 7-0.",
-     "url": "https://www.bbc.co.uk/sport/football/videos/ck4gle1ep647o?at_medium=RSS&at_campaign=rss",
-     "video": true
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit",
-     "Einige Medien wie Tagesschau/ARD und ZDFheute schildern den genauen Spielverlauf, während andere wie BBC oder Deutschlandfunk nur das Ergebnis und den Rekord nennen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "FC Bayern München und 1. FC Union Berlin",
-    "was": "Ein Fußballspiel in der Bundesliga",
-    "wann": "18.09.2026",
-    "wo": "München, Deutschland",
-    "wie": "Durch einen 7:0-Sieg",
-    "warum": "noch unklar",
-    "quellenlage": "Sportberichterstattung und Spielanalysen von Medien"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Am Vorabend des Beginns des Oktoberfestes hat der FC Bayern München ein Heimspiel in der Fußball-Bundesliga bestritten. Gegner in der Allianz Arena war der 1. FC Union Berlin. Die Partie fand am vierten Spieltag der Saison statt. Vor 75.000 Zuschauerinnen und Zuschauern gewannen die Münchener das Spiel mit 7:0 nach einem 3:0-Halbzeitstand. Durch diesen Sieg rückte der Verein vorübergehend an die Tabellenspitze der Liga vor.",
-      "Das Spiel begann mit einer defensiven Ausrichtung der Gäste. Union Berlin zog sich von Beginn an tief in die eigene Hälfte zurück. Die Mannschaft versuchte dadurch, den Münchenern möglichst wenig Raum auf dem Spielfeld anzubieten. Diese Taktik funktionierte in der Anfangsphase für kurze Zeit. Nach 18 Minuten gelang den Gastgebern jedoch der erste Treffer des Abends durch Jamal Musiala.",
-      "Im Verlauf der ersten Halbzeit bauten die Münchener ihren Vorsprung weiter aus. Harry Kane traf per Elfmeter zum Zwischenstand von 2:0 in der 39. Minute. Kurz vor dem Pausenpfiff erzielte Michael Olise den dritten Treffer für die Heimmannschaft. Nach dem Seitenwechsel blieben die Gäste weitgehend harmlos in der Offensive. Die Münchener nutzten diese Phase für weitere Tore."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Den Torreigen eröffnete Jamal Musiala in der 18. Minute nach Vorarbeit von Alphonso Davies. Nach einer halben Stunde Spielzeit foulte Tom Rothe den Spieler Michael Olise im Strafraum. Den fälligen Elfmeter verwandelte Harry Kane in der 39. Minute zum 2:0. Kurz darauf erhöhte Michael Olise in der 43. Minute nach einer Ablage von Jamal Musiala auf 3:0. Dies waren die Spielstände zur Pause.",
-      "Zu Beginn der zweiten Halbzeit verzeichnete Union Berlin erste offensive Annäherungen. Tim Skarke und Tom Rothe scheiterten jedoch an Torhüter Manuel Neuer. In der 54. Minute traf Harry Kane nach einem langen Pass von Joshua Kimmich und einer Vorlage von Michael Olise zum 4:0. In der 70. Minute erzielte der eingewechselte Ismael Saibari seinen ersten Treffer im Trikot des FC Bayern München.",
-      "Den Endstand des Spiels gestaltete Michael Olise mit zwei weiteren Toren in der Schlussphase. Der Franzose traf in der 73. Minute und in der 76. Minute zum 6:0 und 7:0. Damit erzielte er in diesem Spiel drei Treffer. In der Schlussphase wurde zudem Serge Gnabry nach einer fünfmonatigen Verletzungspause eingewechselt und feierte sein Comeback auf dem Platz."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Das Spiel fand am vierten Spieltag der Fußball-Bundesliga statt. Für den FC Bayern München war es die Partie unmittelbar vor der anstehenden Länderspielpause. Trainer Vincent Kompany verzichtete im Hinblick auf diese Pause auf das Schonen von Spielern und bot seine A-Mannschaft auf. Die Berliner Gäste traten unter ihrem neuen Trainer Mauro Lustrinelli an.",
-      "Harry Kane erreichte mit seinem Treffer zum 2:0 einen historischen Meilenstein in seiner Karriere. Laut Tagesschau/ARD, ZDFheute, Zeit und BBC war es sein 100. Bundesligator im 98. Spiel. Laut Tagesschau/ARD benötigte er dafür 31 Spiele weniger als der bisherige Rekordhalter Dieter Müller. Später erzielte er mit dem Tor zum 4:0 sein 101. Bundesligator. Für Michael Olise war es eine Partie mit mehreren Torbeteiligungen und einem Hattrick.",
-      "Beide Vereine bereiteten sich nach dem Spiel auf unterschiedliche Termine vor. Die Spieler des FC Bayern München planten für das darauffolgende Wochenende einen Besuch des Oktoberfestes im Bierzelt. Im Anschluss an die Länderspielpause steht für die Münchener ein Auswärtsspiel beim FC Augsburg an. Union Berlin empfängt am kommenden Spieltag die SV Elversberg."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die Fußball-Bundesliga ist die höchste Spielklasse im deutschen Männer-Fußball. In dieser Liga spielen Vereine aus ganz Deutschland an mehreren Spieltagen gegeneinander.",
-      "Ein Elfmeter ist eine Strafstoßsituation im Fußball. Sie wird verhängt, wenn ein Spieler innerhalb des eigenen Strafraums ein Foulspiel oder ein Handspiel begeht. Der Schütze schießt dann direkt auf das Tor, wobei nur der gegnerische Torhüter den Ball abwehren darf."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Trainer Vincent Kompany äußerte sich nach dem Spiel gegenüber dem Sender Das Erste zu der Leistung seines Teams. Er erklärte laut Tagesschau/ARD, dass er extrem stolz auf die Mannschaft sei. Zu den Toren von Michael Olise sagte er laut Zeit, dass der Spieler diese Abschlüsse im Training sehr viel geübt habe.",
-      "Spieler Harry Kane äußerte sich ebenfalls zu seiner Leistung und dem Rekord. Laut Zeit sagte er, dass er sehr stolz darauf sei und jede Sekunde davon genossen habe. Laut Tagesschau/ARD bedankte er sich bei seinen Teamkollegen, den Trainern und allen Helfern.",
-      "Spieler Jamal Musiala blickte nach dem Spiel auf die anstehenden Aufgaben voraus. Laut Tagesschau/ARD betonte er, dass man für ein solches Ergebnis sehr viel arbeiten müsse. Man müsse das positive Gefühl nun mit zur Nationalmannschaft nehmen.",
-      "Der Kapitän von Union Berlin, Christopher Trimmel, bewertete die gegnerische Mannschaft. Laut Tagesschau/ARD sagte er im Sender Sportschau, es sei die stärkste Bayern-München-Mannschaft, gegen die er jemals gespielt habe. Man könne eine große Analyse machen oder einfach akzeptieren, dass diese Mannschaft aktuell sehr gut sei."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Für die Spieler der beteiligten Vereine steht zunächst die Länderspielpause an, während der viele Akteure für ihre jeweiligen Nationalmannschaften im Einsatz sein werden. Vor der Abreise zu diesen Länderspielen feiert die Mannschaft des FC Bayern München am Sonntag im Bierzelt auf dem Oktoberfest.",
-      "Nach dem Ende der Länderspielpause wird der Spielbetrieb in der Fußball-Bundesliga fortgesetzt. Der FC Bayern München tritt am Samstagnachmittag auswärts beim FC Augsburg an. Der 1. FC Union Berlin bestreitet sein nächstes Heimspiel ebenfalls am Samstagnachmittag gegen die SV Elversberg."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "18.09.2026",
-     "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben zu null."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Harry Kane football player",
-     "bildunterschrift": "Harry Kane erzielte in der Partie sein 100. Bundesligator."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Allianz Arena Munich stadium",
-     "bildunterschrift": "Die Allianz Arena in München war der Austragungsort des Bundesligaspiels."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Jamal Musiala football player",
-     "bildunterschrift": "Jamal Musiala eröffnete mit seinem Treffer den Torreigen für die Heimmannschaft."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Soccer ball on grass",
-     "bildunterschrift": "Ein Fußball auf dem Rasen steht symbolisch für die Bundesligapartie."
-    }
-   ],
-   "ort": {
-    "name": "München, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "In den Abschnitt Zum Verständnis wurden nur gesicherte Fakten übernommen und Spekulationen entfernt.",
-    "Unbelegte Aussagen zur Warum-Frage in wfragen wurden auf noch unklar gesetzt."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Bundesliga",
-      "Die Bundesliga ist die höchste Spielklasse im deutschen Männer-Fußball, in der Vereine gegeneinander spielen."
-     ],
-     [
-      "Elfmeter",
-      "Ein Elfmeter ist eine Strafstoßsituation, bei der ein Spieler nach einem Foul direkt auf das Tor schießt."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen Spieler wie Michael Olise bei einem so deutlichen Spielergebnis?",
-     "Wie bewerten verschiedene Beteiligte den Verlauf des Spiels in den Berichten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie endete das Bundesligaspiel zwischen dem FC Bayern München und Union Berlin?",
-      "optionen": [
-       "5:0",
-       "7:0",
-       "3:1"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau, ZDF, Zeit und BBC gewannen die Bayern mit 7:0."
-     },
-     {
-      "frage": "Wie viele Spiele brauchte Harry Kane für seine ersten einhundert Tore in der Bundesliga?",
-      "optionen": [
-       "98 Spiele",
-       "105 Spiele",
-       "129 Spiele"
-      ],
-      "richtig": 0,
-      "erklaerung": "In den Berichten steht übereinstimmend, dass Kane für seine 100 Tore nur 98 Spiele benötigte."
-     },
-     {
-      "frage": "Welcher Spieler erzielte in dem Spiel drei Tore für den FC Bayern München?",
-      "optionen": [
-       "Jamal Musiala",
-       "Michael Olise",
-       "Ismael Saibari"
-      ],
-      "richtig": 1,
-      "erklaerung": "Mehrere Berichte bestätigen, dass Michael Olise einen Hattrick beziehungsweise drei Tore erzielte."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der FC Bayern München hat ein Fußballspiel gegen Union Berlin deutlich gewonnen. Das Spiel endete sieben zu null für die Münchener.",
-    "absaetze": [
-     "Das Spiel fand in der Allianz Arena in München statt. Es war der vierte Spieltag der Fußball-Bundesliga. Vor fünfundsiebzigtausend Zuschauern erzielten die Spieler viele Tore. Durch den Sieg steht die Mannschaft vorübergehend auf dem ersten Platz der Tabelle.",
-     "Der Spieler Harry Kane schoss in dem Spiel sein hundertstes Tor in der Bundesliga. Dafür brauchte er nur achtundneunzig Spiele. Das ist ein neuer Rekord. Ein anderer Spieler namens Michael Olise traf ebenfalls mehrfach das Tor.",
-     "Nach dem Spiel steht für die Spieler eine Pause an, in der viele von ihnen für ihre Nationalmannschaften spielen. Die Mannschaft des FC Bayern plant vor der Pause noch einen gemeinsamen Besuch auf dem Oktoberfest."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben zu null.",
-     "Harry Kane stellt mit seinem hundertsten Tor einen neuen Rekord auf.",
-     "Michael Olise erzielt in dem Spiel drei Tore."
-    ],
-    "lang": [
-     "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben zu null.",
-     "Das Spiel findet am achtzehnten September in der Allianz Arena statt.",
-     "Vor fünfundsiebzigtausend Zuschauern schießt Jamal Musiala das erste Tor.",
-     "Harry Kane erzielt im achtundneunzigsten Spiel sein hundertstes Tor in der Bundesliga.",
-     "Das ist ein neuer Rekord in der Liga nach Angaben der Berichte.",
-     "Michael Olise trifft dreimal und bereitet weitere Tore vor.",
-     "Nach Angaben von Trainer Vincent Kompany ist er extrem stolz auf die Mannschaft.",
-     "Das Spiel ist Teil der höchsten deutschen Spielklasse im Männer Fußball.",
-     "Nach der anstehenden Länderspielpause treten die Münchener beim FC Augsburg an."
-    ],
-    "einfach": [
-     "Der FC Bayern München gewinnt ein Fußballspiel gegen Union Berlin.",
-     "Das Endergebnis lautet sieben zu null für die Münchener.",
-     "Der Spieler Harry Kane erzielt dabei ein historisches Tor.",
-     "Er braucht für hundert Tore in der Liga nur achtundneunzig Spiele.",
-     "Nach dem Spiel feiern die Spieler vor der Pause das Oktoberfest."
-    ]
-   },
-   "kurz": [
-    "Der FC Bayern München hat das Bundesligaspiel gegen Union Berlin mit sieben zu null gewonnen.",
-    "Harry Kane erzielte im achtundneunzigsten Spiel sein hundertstes Bundesligator und stellte einen Rekord auf.",
-    "Michael Olise traf dreimal und bereitete weitere Tore vor."
-   ],
-   "fakten": [
-    [
-     "Ergebnis",
-     "7:0"
-    ],
-    [
-     "Tore von Michael Olise",
-     "3"
-    ],
-    [
-     "Spiele für 100 Tore von Harry Kane",
-     "98"
-    ],
-    [
-     "Zuschauerzahl",
-     "75000"
-    ]
-   ],
-   "dossier": {
-    "slug": "bundesliga-saison-2026",
-    "titel": "Fußball-Bundesliga"
-   },
-   "bildInfo": {
-    "titel": "Harry Kane 2023.jpg",
-    "beschreibung": "10/10/2023. London, United Kingdom. The Prime Minister Rishi Sunak visits England's football training centre St George's Park where he announced EURO 28 would be coming to the UK and Ireland and met t",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harry_Kane_2023.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harry_Kane_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Harry_Kane_2023.jpg",
-    "urheber": "Number 10",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "art": "person",
-    "suchbegriff": "Harry Kane football player",
-    "bildunterschrift": "Der Fußballspieler Harry Kane vom FC Bayern München.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Harry Kane 2023.jpg",
-     "beschreibung": "10/10/2023. London, United Kingdom. The Prime Minister Rishi Sunak visits England's football training centre St George's Park where he announced EURO 28 would be coming to the UK and Ireland and met t",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harry_Kane_2023.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Harry_Kane_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Harry_Kane_2023.jpg",
-     "urheber": "Number 10",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "person",
-     "suchbegriff": "Harry Kane football player",
-     "bildunterschrift": "Der Fußballspieler Harry Kane vom FC Bayern München.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Allianz arena daylight Richard Bartz.jpg",
-     "beschreibung": "The Allianz Arena is a football stadium in the north of Munich, Germany. The two professional Munich football clubs FC Bayern München and TSV 1860 München have played their home games at Allianz Arena",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg/1280px-Allianz_arena_daylight_Richard_Bartz.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Allianz_arena_daylight_Richard_Bartz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Allianz_arena_daylight_Richard_Bartz.jpg",
-     "urheber": "Richard Bartz , Munich aka Makro Freak",
-     "lizenz": "CC BY-SA 2.5",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-     "art": "ort",
-     "suchbegriff": "Allianz Arena Munich stadium",
-     "bildunterschrift": "Die Allianz Arena in München, der Ort von Heimspielen des FC Bayern.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Adidas soccer ball on a grass pitch (Unsplash).jpg",
-     "beschreibung": "Adidas soccer ball on a grass pitch.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg/1280px-Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Adidas_soccer_ball_on_a_grass_pitch_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Adidas_soccer_ball_on_a_grass_pitch_(Unsplash).jpg",
-     "urheber": "Peter Glaser baraida",
-     "lizenz": "CC0",
-     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-     "art": "symbol",
-     "suchbegriff": "Soccer ball on grass",
-     "bildunterschrift": "Ein Fußball auf dem Rasen als Symbol für den Fußballsport.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ortInfo": {
-    "name": "München, Deutschland",
-    "lat": 48.137,
-    "lon": 11.575
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
-     "d": "1386ac1ee1.mp3",
-     "l": 12.37,
-     "s": [
-      0.25,
-      5.45,
-      9.26
-     ]
-    },
-    {
-     "k": "Der FC Bayern München gewinnt ein Fußballspiel gegen Union Berlin. Das Endergebn",
-     "d": "460cd0e3a5.mp3",
-     "l": 22.43,
-     "s": [
-      0.25,
-      5.85,
-      10,
-      13.85,
-      18.06
-     ]
-    },
-    {
-     "k": "Ob Harry Kane von seinem Geschwindigkeitsrekord wusste: Laut Tagesschau/ARD wirk",
-     "d": "6acce6ffe4.mp3",
-     "l": 7.64,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Bundesliga? Die Bundesliga ist die höchste Spielklasse i",
-     "d": "51309b3d02.mp3",
-     "l": 10.38,
-     "s": [
-      0.25,
-      3.31
-     ]
-    },
-    {
-     "k": "Am Vorabend des Beginns des Oktoberfestes hat der FC Bayern München ein Heimspie",
-     "d": "fc86431985.mp3",
-     "l": 32.44,
-     "s": [
-      0.25,
-      7.45,
-      10.15,
-      12.15,
-      15.29,
-      16.96,
-      23.76,
-      28.68
-     ]
-    },
-    {
-     "k": "Den Torreigen eröffnete Jamal Musiala in der 18. Minute nach Vorarbeit von Alpho",
-     "d": "f8b8e2014a.mp3",
-     "l": 28.01,
-     "s": [
-      0.25,
-      3.61,
-      6.63,
-      12,
-      16.25,
-      17.9,
-      21.9,
-      25.47
-     ]
-    },
-    {
-     "k": "Das Spiel fand am vierten Spieltag der Fußball-Bundesliga statt. Für den FC Baye",
-     "d": "9187736d9e.mp3",
-     "l": 36.99,
-     "s": [
-      0.25,
-      4.21,
-      9.94,
-      17.2,
-      21.44,
-      27.24,
-      32.72,
-      35.75
      ]
     }
    ]
