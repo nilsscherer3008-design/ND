@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T04:39:09.772Z",
+ "stand": "2026-09-22T09:53:35.684Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -282,7 +282,8 @@
    {
     "ueberschrift": "Die Methoden der Forscher",
     "wikipedia": "Hydrologie",
-    "fokus": "Wie Wissenschaftler den Wasserkreislauf messen und berechnen."
+    "fokus": "Wie Wissenschaftler den Wasserkreislauf messen und berechnen.",
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Knappe Ressourcen für alle",
