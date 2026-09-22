@@ -780,7 +780,108 @@
      "hinweis": "Symbolbild"
     }
    ],
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "In Mecklenburg-Vorpommern und Berlin haben nach den Wahlen die Gespräche zur Reg",
+     "d": "08d0da7bdd.mp3",
+     "l": 16.47,
+     "s": [
+      0.25,
+      6.04,
+      12.63
+     ]
+    },
+    {
+     "k": "In zwei deutschen Bundesländern gab es am Sonntag wichtige Wahlen. In Mecklenbur",
+     "d": "8f8f98f75b.mp3",
+     "l": 27.21,
+     "s": [
+      0.25,
+      4.73,
+      9.25,
+      13.5,
+      17.37,
+      23.0
+     ]
+    },
+    {
+     "k": "Welche Koalitionen in Mecklenburg-Vorpommern und Berlin gebildet werden, da die ",
+     "d": "7fba84d1be.mp3",
+     "l": 6.59,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Koalition? Ein Bündnis aus mehreren Parteien, die gemein",
+     "d": "9e4af53376.mp3",
+     "l": 8.43,
+     "s": [
+      0.25,
+      3.32
+     ]
+    },
+    {
+     "k": "Am zwanzigsten September zweitausendsechsundzwanzig fanden in Mecklenburg-Vorpom",
+     "d": "1b7e6e1d1d.mp3",
+     "l": 54.82,
+     "s": [
+      0.25,
+      6.69,
+      15.14,
+      20.08,
+      26.2,
+      33.25,
+      39.51,
+      50.16
+     ]
+    },
+    {
+     "k": "Nach dem Ausscheiden der CDU aus dem Landtag von Mecklenburg-Vorpommern erklärte",
+     "d": "d28e290853.mp3",
+     "l": 56.1,
+     "s": [
+      0.25,
+      9.92,
+      16.09,
+      24.25,
+      31.26,
+      42.27,
+      47.34,
+      51.3
+     ]
+    },
+    {
+     "k": "Für die Regierungsbildung in Mecklenburg-Vorpommern zeichnet sich ein Bündnis au",
+     "d": "f71b64636e.mp3",
+     "l": 48.95,
+     "s": [
+      0.25,
+      6.73,
+      13.25,
+      17.87,
+      23.43,
+      28.4,
+      36.21,
+      43.07
+     ]
+    },
+    {
+     "k": "Der Politikwissenschaftler Jan Müller bewertete die Ausgangslage in Mecklenburg-",
+     "d": "4b095b2254.mp3",
+     "l": 67.32,
+     "s": [
+      0.25,
+      5.58,
+      16.72,
+      22.11,
+      33.31,
+      43.84,
+      56.59
+     ]
+    }
+   ]
   },
   {
    "id": "merzer-enteignungsverbot",
@@ -1734,7 +1835,156 @@
     "lon": -77.036
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "US-Präsident Donald Trump hat den Medien CNN, MS NOW und Politico den Zugang zum",
+     "d": "e54af95ead.mp3",
+     "l": 58.74,
+     "s": [
+      0.25,
+      7.37,
+      11.22,
+      17.44,
+      23.26,
+      26.95,
+      36.27,
+      43.44,
+      50.08,
+      54.29
+     ]
+    },
+    {
+     "k": "US-Präsident Donald Trump hat drei bekannten Medien den Zugang zum Weißen Haus v",
+     "d": "58ca9f65f7.mp3",
+     "l": 17.12,
+     "s": [
+      0.25,
+      5.54,
+      10.35
+     ]
+    },
+    {
+     "k": "US-Präsident Donald Trump hat drei Medien den Zugang zum Weißen Haus verboten. E",
+     "d": "7b9b050bda.mp3",
+     "l": 33.16,
+     "s": [
+      0.25,
+      6.18,
+      10.39,
+      15.42,
+      21.77,
+      28.2
+     ]
+    },
+    {
+     "k": "Wie lange das Hausverbot für die betroffenen Journalisten bestehen bleibt, ist l",
+     "d": "f76256561c.mp3",
+     "l": 8.32,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Pressefreiheit? Das Recht von Journalisten, frei und ohn",
+     "d": "186d8b8961.mp3",
+     "l": 10.67,
+     "s": [
+      0.25,
+      3.67
+     ]
+    },
+    {
+     "k": "Das Weiße Haus in Washington hat den Nachrichtensendern CNN und MS NOW sowie der",
+     "d": "a0321122cd.mp3",
+     "l": 63.33,
+     "s": [
+      0.25,
+      9.41,
+      18.52,
+      25.71,
+      34.62,
+      40.96,
+      45.18,
+      54.46
+     ]
+    },
+    {
+     "k": "Als Reaktion auf den Ausschluss haben mehrere große US-Sender angekündigt, ihre ",
+     "d": "6fca68c4a3.mp3",
+     "l": 72.21,
+     "s": [
+      0.25,
+      8.8,
+      21.65,
+      31.86,
+      43.08,
+      51.05,
+      58.03,
+      64.12
+     ]
+    },
+    {
+     "k": "Die drei betroffenen Medienhäuser CNN, MS NOW und Politico haben am Montag beim ",
+     "d": "47e628084a.mp3",
+     "l": 68.24,
+     "s": [
+      0.25,
+      9.66,
+      20.5,
+      29.24,
+      33.97,
+      41.26,
+      50.42,
+      59.11
+     ]
+    },
+    {
+     "k": "Der Entzug der Akkreditierungen stellt laut Tagesschau/ARD eine Eskalation der B",
+     "d": "a3a05fb559.mp3",
+     "l": 72.87,
+     "s": [
+      0.25,
+      8.52,
+      19.69,
+      30.95,
+      40.76,
+      50.04,
+      57.66,
+      66.33
+     ]
+    },
+    {
+     "k": "Die Pressefreiheit ist in den Vereinigten Staaten von Amerika durch die Verfassu",
+     "d": "48640176ff.mp3",
+     "l": 67.85,
+     "s": [
+      0.25,
+      5.41,
+      14.8,
+      24.22,
+      30.8,
+      40.7,
+      51.31,
+      58.35
+     ]
+    },
+    {
+     "k": "US-Präsident Donald Trump erklärte auf seiner Plattform Truth Social, dass das W",
+     "d": "c16f692297.mp3",
+     "l": 68.39,
+     "s": [
+      0.25,
+      8.12,
+      15.59,
+      27.21,
+      33.57,
+      44.61,
+      49.87,
+      56.73
+     ]
+    }
+   ]
   },
   {
    "id": "dieseltrend-hoechststand-spritpreise",
@@ -2499,7 +2749,131 @@
     "lat": 48.137,
     "lon": 11.575
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Auf dem Münchner Oktoberfest ist ein Mitarbeiter eines Fahrgeschäfts tödlich ver",
+     "d": "4231dcc1ad.mp3",
+     "l": 38.3,
+     "s": [
+      0.25,
+      5.4,
+      9.07,
+      12.08,
+      17.52,
+      20.41,
+      22.86,
+      26.74,
+      30.72,
+      34.56
+     ]
+    },
+    {
+     "k": "Auf dem Münchner Oktoberfest hat es einen tödlichen Unfall gegeben. Ein zweiundf",
+     "d": "4e31afec00.mp3",
+     "l": 12.34,
+     "s": [
+      0.25,
+      3.96,
+      8.27
+     ]
+    },
+    {
+     "k": "Auf dem Oktoberfest in München gab es einen schweren Unfall. Ein Arbeiter ist an",
+     "d": "9ae885afc2.mp3",
+     "l": 19.25,
+     "s": [
+      0.25,
+      5.05,
+      8.63,
+      11.85,
+      15.58
+     ]
+    },
+    {
+     "k": "Die genauen Umstände des mutmaßlichen Betriebsunfalls und wie sich der Mitarbeit",
+     "d": "03a8e6c45d.mp3",
+     "l": 6.99,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Free-Fall-Turm? Ein Fahrgeschäft, bei dem Fahrgäste aus ",
+     "d": "64e76a47d1.mp3",
+     "l": 8.58,
+     "s": [
+      0.25,
+      3.55
+     ]
+    },
+    {
+     "k": "Ein Mitarbeiter eines Fahrgeschäfts auf dem Münchner Oktoberfest ist nach einem ",
+     "d": "1db285e57c.mp3",
+     "l": 35.51,
+     "s": [
+      0.25,
+      6.99,
+      14.11,
+      18.67,
+      22.6,
+      27.38,
+      30.92
+     ]
+    },
+    {
+     "k": "Fahrgäste seien zu keiner Zeit in Gefahr gewesen, teilte die Polizei mit. Ein Kr",
+     "d": "4adf0c765c.mp3",
+     "l": 29.33,
+     "s": [
+      0.25,
+      4.73,
+      8.76,
+      13.32,
+      17.3,
+      25.09
+     ]
+    },
+    {
+     "k": "Das Oktoberfest gilt als das größte Volksfest der Welt. Für die Sicherheits- und",
+     "d": "cb7482515f.mp3",
+     "l": 20.62,
+     "s": [
+      0.25,
+      4.15,
+      8.81,
+      14.18,
+      17.31
+     ]
+    },
+    {
+     "k": "Ein Kriseninterventionsteam ist eine Gruppe von geschulten Personen, die Augenze",
+     "d": "a4f842cfe9.mp3",
+     "l": 7.86,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Nach Angaben der Polizei laufen die Ermittlungen zu den Umständen des Unfalls. D",
+     "d": "7fc5bec4a0.mp3",
+     "l": 8.98,
+     "s": [
+      0.25,
+      4.79
+     ]
+    },
+    {
+     "k": "Die Polizei ermittelt weiter zu dem Unfall. Zeugen wurden gebeten, sich zu melde",
+     "d": "ecaebed117.mp3",
+     "l": 9.53,
+     "s": [
+      0.25,
+      3.03,
+      5.64
+     ]
+    }
+   ]
   },
   {
    "id": "google-strafe-datenschutz",
@@ -3448,6 +3822,20 @@
       54.34,
       61.4
      ]
+    },
+    {
+     "k": "Franziska Koch zeigte sich nach dem Rennen erfreut über ihre Medaille. Sie sagte",
+     "d": "6f3906fa15.mp3",
+     "l": 51.06,
+     "s": [
+      0.25,
+      4.37,
+      11.09,
+      13.97,
+      20.84,
+      33.53,
+      39.87
+     ]
     }
    ]
   },
@@ -4249,11 +4637,11 @@
     {
      "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
      "d": "cae7875f8a.mp3",
-     "l": 17.2,
+     "l": 17.14,
      "s": [
       0.25,
-      5.37,
-      10.53
+      5.04,
+      10.29
      ]
     },
     {
@@ -5109,7 +5497,59 @@
     "lat": 55.626,
     "lon": 37.606
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "In Russland hat die Partei Geeintes Russland die Parlamentswahl nach Angaben der",
+     "d": "196eb76004.mp3",
+     "l": 51.79,
+     "s": [
+      0.25,
+      5.51,
+      9.9,
+      18.06,
+      22.17,
+      27.84,
+      33.31,
+      39.12,
+      45.43
+     ]
+    },
+    {
+     "k": "Die Kreml-Partei Geeintes Russland hat die Parlamentswahl in Russland gewonnen. ",
+     "d": "806f806b51.mp3",
+     "l": 15.02,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Russland gab es eine Wahl für das Parlament. Die Partei von Präsident Wladimi",
+     "d": "9b2a27651a.mp3",
+     "l": 17.94,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob es zu einer neuen Mobilmachung kommen wird, ist unklar; Spekulationen darüber",
+     "d": "2c5d98a4e1.mp3",
+     "l": 9.57,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Staatsduma? Das ist das Unterhaus des russischen Parlame",
+     "d": "2e1a3f9ffa.mp3",
+     "l": 11.75,
+     "s": [
+      0.25,
+      3.37,
+      7.61
+     ]
+    }
+   ]
   },
   {
    "id": "ig-metall-aktionstag",
@@ -5495,7 +5935,66 @@
     "lon": 10.786
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Gewerkschaft IG Metall hat am einundzwanzigsten September zweitausendsechsun",
+     "d": "3905e93aed.mp3",
+     "l": 52.18,
+     "s": [
+      0.25,
+      7.8,
+      12.54,
+      17.98,
+      23.05,
+      27.52,
+      31.77,
+      35.87,
+      42.1,
+      47.03
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall hat einen bundesweiten Aktionstag in der Autoindustri",
+     "d": "92942a5910.mp3",
+     "l": 15.41,
+     "s": [
+      0.25,
+      5.8,
+      10.31
+     ]
+    },
+    {
+     "k": "Die Autoindustrie in Deutschland hat große Probleme. Viele Arbeitsplätze stehen ",
+     "d": "8a0afb1366.mp3",
+     "l": 18.72,
+     "s": [
+      0.25,
+      4.5,
+      7.76,
+      11.95,
+      14.83
+     ]
+    },
+    {
+     "k": "Die genaue Zahl der Teilnehmenden: Die IG Metall sprach laut Tagesschau/ARD von ",
+     "d": "81fe4e75f5.mp3",
+     "l": 12.35,
+     "s": [
+      0.25,
+      7.55
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Gewerkschaft? Eine Vereinigung von Beschäftigten, die si",
+     "d": "4ca59f25f9.mp3",
+     "l": 9.73,
+     "s": [
+      0.25,
+      3.48
+     ]
+    }
+   ]
   },
   {
    "id": "davis-cup-tennis-finale",
@@ -6809,7 +7308,7 @@
     {
      "k": "Michelle Bachelet zieht ihre Kandidatur für das Amt der UN-Generalsekretärin zur",
      "d": "acbbba6429.mp3",
-     "l": 17.22,
+     "l": 17.01,
      "s": [
       0.25
      ]
@@ -9170,11 +9669,11 @@
     {
      "k": "Der FC Bayern München gewinnt das Bundesligaspiel gegen Union Berlin mit sieben ",
      "d": "1386ac1ee1.mp3",
-     "l": 12.5,
+     "l": 12.65,
      "s": [
       0.25,
-      5.57,
-      9.41
+      5.59,
+      9.5
      ]
     },
     {
