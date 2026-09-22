@@ -1,6 +1,131 @@
 {
- "stand": "2026-09-22T04:21:42.727Z",
+ "stand": "2026-09-22T04:33:54.159Z",
  "stuecke": [
+  {
+   "id": "was-ist-eigentlich-ein-schwarzes-loch",
+   "zeit": "2026-09-22T04:35:02.299Z",
+   "bereich": "Weltall",
+   "titel": "Was ist eigentlich ein Schwarzes Loch?",
+   "vorspann": "Ein Schwarzes Loch ist ein Objekt mit so starker Schwerkraft, dass nicht einmal Licht entkommen kann. Die Grenze dieses Bereichs wird als Ereignishorizont bezeichnet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Schwarzes Loch ist ein Objekt, dessen Masse die Raumzeit extrem stark krümmt. Materie, Licht und jegliche Information bleiben dadurch auf einen bestimmten Bereich beschränkt. Sie können diesen Bereich nicht mehr unmittelbar verlassen. Die Grenze dieses Bereichs nennt man den Ereignishorizont.",
+      "Die Bezeichnung Schwarzes Loch wurde im Jahr 1967 durch John Archibald Wheeler etabliert. Zu dieser Zeit galt die Existenz dieser Objekte zwar als sehr wahrscheinlich, war aber noch nicht durch Beobachtungen bestätigt. Später wurden zahlreiche Auswirkungen im Universum beobachtet. Dazu gehören supermassereiche Schwarze Löcher im Zentrum von Galaxien."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Allgemein hat die Masse eines Körpers immer Gravitationskräfte zur Folge. Wenn eine kritische Dichte überschritten wird, reichen die inneren Gegenkräfte nicht mehr aus. Ein Gravitationskollaps ist die unvermeidliche Folge dieses Prozesses. Die Masse fällt dabei auf ein sehr kleines Volumen zusammen.",
+      "Stellare Schwarze Löcher entstehen, wenn ein gealterter massereicher Stern kollabiert. Der Strahlungsdruck von innen kann dann dem Gasdruck der äußeren Schichten nicht mehr standhalten. Supermassereiche Schwarze Löcher stehen dagegen im Zentrum von Galaxien und besitzen eine millionen- bis milliardenfache Sonnenmasse.",
+      "Außerhalb des Ereignishorizonts kann sich ein inaktives Schwarzes Loch wie ein normaler Massekörper verhalten. Es kann von anderen Himmelskörpern auf stabilen Bahnen umrundet werden. Die Struktur der Raumzeit eines Schwarzen Lochs wird durch die allgemeine Relativitätstheorie beschrieben."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Im Jahr 1916 gab der Astronom Karl Schwarzschild erstmals eine Metrik für das Gravitationsfeld an. In den späten 1920er Jahren zeigte der Astrophysiker Subrahmanyan Chandrasekhar eine gewisse Grenzmasse für solche Objekte. Robert Oppenheimer wies im Jahr 1939 durch Modellrechnungen nach, dass beim Kollaps eines großen Sterns ein Schwarzes Loch entstehen würde.",
+      "Im Jahr 1971 folgte mit der Entdeckung von Cygnus X-1 der erste beobachtbare Kandidat für ein Schwarzes Loch. Im Jahr 2016 wurde die Fusion zweier Schwarzer Löcher über Gravitationswellen beobachtet. Im Jahr 2019 und im Jahr 2022 gelangen radioteleskopische Aufnahmen von supermassereichen Schwarzen Löchern mit dem Event Horizon Telescope."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Wikipedia-Artikel enthält keinen Abschnitt über ungelöste Fragen der Forschung, weshalb hierzu keine Angaben gemacht werden können."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Etablierung des Begriffs",
+     "1967"
+    ],
+    [
+     "Erster beobachtbarer Kandidat",
+     "1971"
+    ],
+    [
+     "Aufnahme von M87*",
+     "2019"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Ereignishorizont",
+     "Die Grenze eines Schwarzen Lochs, von der aus Licht und Materie nicht mehr entkommen können."
+    ],
+    [
+     "Gravitationskollaps",
+     "Der Zusammensturz eines massereichen Körpers unter seiner eigenen Schwerkraft."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer etablierte den Begriff Schwarzes Loch im Jahr 1967?",
+     "optionen": [
+      "John Archibald Wheeler",
+      "Albert Einstein",
+      "Karl Schwarzschild"
+     ],
+     "richtig": 0,
+     "erklaerung": "John Archibald Wheeler hat den Begriff im Jahr 1967 etabliert."
+    }
+   ],
+   "video": [
+    "Ein Schwarzes Loch krümmt die Raumzeit extrem stark.",
+    "Selbst Licht kann diesen Bereich nicht mehr verlassen.",
+    "Die Grenze dieses Bereichs heißt Ereignishorizont.",
+    "John Archibald Wheeler etablierte den Begriff im Jahr neunzehnhundertsiebenundsechzig.",
+    "Stellare Schwarze Löcher entstehen durch den Kollaps von Sternen.",
+    "Supermassereiche Schwarze Löcher befinden sich im Zentrum von Galaxien.",
+    "Im Jahr zweitausendneunzehn gelang ein erstes Bild eines Schwarzen Lochs."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Schwarzes Loch",
+    "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
+   },
+   "quelle": {
+    "titel": "Schwarzes Loch",
+    "url": "https://de.wikipedia.org/wiki/Schwarzes_Loch",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 324,
+   "bildInfos": [
+    {
+     "titel": "Black hole - Messier 87 crop max res.jpg",
+     "beschreibung": "The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole . In coordin",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+     "urheber": "Event Horizon Telescope , uploader cropped and converted TIF to JPG",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "artikel": "Schwarzes Loch",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Black hole - Messier 87 crop max res.jpg",
+    "beschreibung": "The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole . In coordin",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+    "urheber": "Event Horizon Telescope , uploader cropped and converted TIF to JPG",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artikel": "Schwarzes Loch",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-regenbogen",
    "zeit": "2026-09-22T04:29:19.058Z",

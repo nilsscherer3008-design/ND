@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T04:21:42.727Z",
+ "stand": "2026-09-22T04:33:54.159Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -164,7 +164,53 @@
    {
     "ueberschrift": "Frost und Eis",
     "wikipedia": "Gletscher",
-    "fokus": "Die Rolle von Schnee und Eis im weltweiten System."
+    "fokus": "Die Rolle von Schnee und Eis im weltweiten System.",
+    "absaetze": [
+     "Nach dem Leben im Ozean betrachten wir nun das feste Wasser auf den Festländern der Erde. Ein Gletscher ist eine aus Schnee gebildete Eismasse. Diese Masse bewegt sich angetrieben von der Schwerkraft hangabwärts. Wissenschaftler haben kein allgemein anerkanntes Kriterium für die genaue Mindestgröße. Der United States Geological Survey nennt jedoch bestimmte Maße. Eine Dicke von dreißig Komma vier acht Metern ist nötig für die Eigenbewegung. Die Oberfläche muss zudem mindestens null Komma eins Quadratkilometer groß sein.",
+     "Die Entstehung braucht eine langfristig ausreichend niedrige Temperatur. Nur oberhalb der klimatischen Schneegrenze fällt dauerhaft mehr Schnee als abtaut. Die Ansammlung von Schneemassen nennt man Akkumulation. Durch den Druck der oberen Schichten werden die tieferen Schichten zusammengepresst. Dabei wird die eingeschlossene Luft herausgepresst. Zehn Meter Neuschnee erzeugen einen Komma zehn Meter Gletschereis. Das entspricht einer Wassersäule von einem Meter.",
+     "Die Gleichgewichtslinie trennt das Nährgebiet vom Zehrgebiet. Unterhalb dieser Linie ist der Massenverlust größer als der Zuwachs. Gletscher verlieren Masse durch Schmelzwasser und durch Sublimation. Dabei geht Wasser direkt vom festen in den gasförmigen Zustand über. Auch das Abbrechen von Eisstücken an Küsten führt zu Masse Verlust. Dabei können gefährliche Flutwellen entstehen.",
+     "Gletscher bewegen sich auf zwei grundlegende Arten fort. Beim Eisfließen bewegen sich obere Schichten schneller als untere Schichten. Beim basalen Gleiten gleitet das Eis auf einem Film von flüssigem Wasser. Die Fließgeschwindigkeit ist in der Mitte höher als an den Rändern. An der Oberfläche ist sie höher als an der Sohle. Das Relief erzeugt verschiedene Formen an der Oberfläche wie Spalten und Türme.",
+     "Gletscher werden in verschiedene Typen eingeteilt. Auslassgletscher bilden sich am Rand von Eisschilden oder Eiskappen. Eisströme sind Bereiche mit erheblich höherer Fließgeschwindigkeit im Eisschild. Talgletscher können zusammenwachsen und ein Eisstromnetz bilden. Hanggletscher sind vergleichsweise kleine Eisansammlungen an einem Berghang. Das Inlandeis bildet die grössten Gletscherflächen überhaupt auf der Erde.",
+     "Gletscher und Eiskappen speichern derzeit sechzig Komma sieben Prozent des Süßwassers. Sie sind nach den Ozeanen die größten Wasserspeicher auf der Erde. Seit Mitte des neunzehnten Jahrhunderts ist ein deutlicher Rückgang zu beobachten. Früher formten sie gewaltige Täler in den Kaltzeiten des Pleistozäns. Damit prägen sie die Landschaft bis in die heutige Zeit. Diese massiven Eisspeicher haben einen entscheidenden Einfluss auf das weltweite Klima."
+    ],
+    "fakten": [
+     [
+      "Süßwasserspeicher",
+      "sechsundachtzig Komma sieben Prozent"
+     ],
+     [
+      "Dicke nach United States Geological Survey",
+      "dreißig Komma vier acht Meter"
+     ],
+     [
+      "Oberfläche nach United States Geological Survey",
+      "null Komma eins Quadratkilometer"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Gletscher",
+      "Eine aus Schnee gebildete Eismasse, die sich durch die Schwerkraft hangabwärts bewegt."
+     ],
+     [
+      "Akkumulation",
+      "Der Prozess der Ansammlung von Schneemassen in einem Nährgebiet."
+     ],
+     [
+      "Sublimation",
+      "Ein Prozess, bei dem Wasser direkt vom festen in den gasförmigen Aggregatzustand übergeht."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Gletscher",
+     "bildunterschrift": "Ein Gletscher in den Bergen als wichtiger Wasserspeicher der Erde."
+    },
+    "quelle": {
+     "titel": "Gletscher",
+     "url": "https://de.wikipedia.org/wiki/Gletscher"
+    },
+    "woerter": 363
    },
    {
     "ueberschrift": "Durstige Riesen der Natur",
