@@ -1,6 +1,120 @@
 {
- "stand": "2026-09-22T03:58:51.999Z",
+ "stand": "2026-09-22T04:21:42.727Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-regenbogen",
+   "zeit": "2026-09-22T04:29:19.058Z",
+   "bereich": "Erde und Klima",
+   "titel": "Wie entsteht eigentlich ein Regenbogen?",
+   "vorspann": "Ein Regenbogen ist ein farbiges Lichtband am Himmel. Er entsteht, wenn Sonnenlicht auf Regentropfen trifft.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Regenbogen ist ein atmosphärisch-optisches Phänomen. Er erscheint als kreisbogenförmiges farbiges Lichtband in einem von der Sonne beschienenen Regenschauer. Die Erscheinung kommt durch das von Regentropfen gebrochene und zurückgeworfene Sonnenlicht zustande. Der Farbverlauf umfasst die Spektralfarben des mit dem Auge sichtbaren Bereichs des Sonnenspektrums.",
+      "Bei sehr hellem Himmel vor der Regenwolke ist über dem Hauptregenbogen oft ein Nebenregenbogen sichtbar. Dieser stammt aus Regentropfen, in denen das Sonnenlicht zweimal an der Tropfeninnenwand reflektiert wurde. Der Nebenregenbogen ist lichtschwächer als der Hauptregenbogen und hat die umgekehrte Farbfolge."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Sowohl beim Eintritt in als auch beim Austritt aus einem Regentropfen wird das Sonnenlicht gebrochen. Dabei werden die kurzwelligen blauen Anteile stärker abgelenkt als die langwelligen roten Anteile. Zwischen Eintritt und Austritt werden diese Strahlen an der Tropfeninnenwand teilweise reflektiert und zum Beobachter zurückgeworfen.",
+      "Der Hauptregenbogen kommt durch eine einmalige Reflexion im Tropfen zustande. Rotes Licht wird dabei von Tropfen wahrgenommen, die auf einem Kegelmantel mit einem Winkelabstand von rund 42 Grad um den gedachten Sonnengegenpunkt liegen. Das stärkere blaue Licht stammt aus Regentropfen auf einem spitzeren Kegelmantel von rund 40 Grad."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die genaue Entstehung lässt sich durch den Strahlengang im Wassertropfen und physikalische Gesetze wie das Brechungsgesetz beschreiben. Die gesamte Winkeländerung und die maximale Intensität beim Durchgang durch den Tropfen werden mithilfe von mathematischen Formeln und dem Einfallswinkel berechnet."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Winkel für rotes Licht",
+     "rund 42 Grad"
+    ],
+    [
+     "Winkel für blaues Licht",
+     "rund 40 Grad"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Brechung",
+     "Eine Richtungsänderung von Licht, wenn es von einem Medium in ein anderes übergeht."
+    ],
+    [
+     "Reflexion",
+     "Das Zurückwerfen von Licht an einer Oberfläche."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wodurch entsteht der Hauptregenbogen?",
+     "optionen": [
+      "Durch einmalige Reflexion im Wassertropfen",
+      "Durch viermalige Reflexion im Wassertropfen",
+      "Ganz ohne Reflexion"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Hauptregenbogen entsteht laut dem Text durch einmalige Reflexion in den Tropfen."
+    }
+   ],
+   "video": [
+    "Ein Regenbogen ist ein farbiges Lichtband am Himmel.",
+    "Er entsteht bei Sonnenschein während eines Regenschauers.",
+    "Sonnenlicht trifft dabei auf die runden Wassertropfen.",
+    "Beim Eintritt in den Tropfen wird das Licht gebrochen.",
+    "Dabei trennen sich die verschiedenen Farben des Lichts.",
+    "An der Innenseite des Tropfens wird das Licht reflektiert.",
+    "Beim Austritt bricht sich das Licht noch einmal.",
+    "So entsteht für den Beobachter der bunte Bogen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Regenbogen",
+    "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
+   },
+   "quelle": {
+    "titel": "Regenbogen",
+    "url": "https://de.wikipedia.org/wiki/Regenbogen",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 215,
+   "bildInfos": [
+    {
+     "titel": "Double-alaskan-rainbow.jpg",
+     "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
+     "urheber": "Eric Rolph at English Wikipedia",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "artikel": "Regenbogen",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Double-alaskan-rainbow.jpg",
+    "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
+    "urheber": "Eric Rolph at English Wikipedia",
+    "lizenz": "CC BY-SA 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artikel": "Regenbogen",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-blindenschrift",
    "zeit": "2026-09-22T04:07:19.572Z",

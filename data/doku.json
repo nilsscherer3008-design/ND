@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-22T03:58:51.999Z",
+ "stand": "2026-09-22T04:21:42.727Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -158,7 +158,8 @@
    {
     "ueberschrift": "Flüsse formen das Land",
     "wikipedia": "Fluss",
-    "fokus": "Der Weg des Wassers von der Quelle bis ins Meer."
+    "fokus": "Der Weg des Wassers von der Quelle bis ins Meer.",
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Frost und Eis",
