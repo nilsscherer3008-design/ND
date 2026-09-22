@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-21T19:22:01.266Z",
+ "stand": "2026-09-22T03:37:46.989Z",
  "inArbeit": {
   "id": "die-reise-des-wassers",
   "titel": "Die Reise des Wassers",
@@ -22,7 +22,78 @@
    {
     "ueberschrift": "Der ewige Kreislauf",
     "wikipedia": "Wasserkreislauf",
-    "fokus": "Wie Wasser verdunstet, aufsteigt und als Regen zurückkehrt."
+    "fokus": "Wie Wasser verdunstet, aufsteigt und als Regen zurückkehrt.",
+    "absaetze": [
+     "Im vorherigen Kapitel haben wir den Beginn unserer Reise betrachtet und schauen nun auf den ewigen Kreislauf des Wassers.",
+     "Unter dem Begriff Wasserkreislauf versteht man den Transport und die Speicherung von Wasser auf globaler und regionaler Ebene.",
+     "Die Ozeane sind die größten Wasserspeicher der Erde und bedecken den größten Teil der Erdoberfläche.",
+     "Sonnenenergie erwärmt das Wasser und durch Verdunstung entsteht an der Meeresoberfläche und auf dem Festland Luftfeuchtigkeit.",
+     "Der Wind transportiert diese feuchte Luft zum Festland wo sie aufsteigt und sich abkühlt wodurch Wolken und Niederschläge entstehen.",
+     "Das Wasser kehrt als Regen Schnee oder Hagel zur Erde zurück und fließt über Flüsse und Grundwasser wieder in die Ozeane ab.",
+     "Im nächsten Kapitel werden wir sehen wie dieser Kreislauf das Leben auf der Erde beeinflusst."
+    ],
+    "fakten": [
+     [
+      "Größte Wasserspeicher",
+      "Ozeane"
+     ],
+     [
+      "Grundgleichung",
+      "N gleich A plus V"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Wasserkreislauf",
+      "Der Transport und die Speicherung von Wasser auf der Erde."
+     ],
+     [
+      "Verdunstung",
+      "Der Prozess bei dem Wasser zu Luftfeuchtigkeit wird."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Wasserkreislauf",
+     "bildunterschrift": "Der Kreislauf des Wassers verbindet Ozeane, Wolken und das Festland."
+    },
+    "quelle": {
+     "titel": "Wasserkreislauf",
+     "url": "https://de.wikipedia.org/wiki/Wasserkreislauf"
+    },
+    "woerter": 124,
+    "bildInfos": [
+     {
+      "titel": "Watercyclegerman.jpg",
+      "beschreibung": "Water-Cycle Diagram (German)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Watercyclegerman.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Watercyclegerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "seite": "https://commons.wikimedia.org/wiki/File:Watercyclegerman.jpg",
+      "urheber": "USGS Georgia Water Science Center Illustration by John Evans, Howard Perlman, USGS Transla",
+      "lizenz": "Public domain",
+      "lizenzUrl": "",
+      "artikel": "Wasserkreislauf",
+      "sprache": "de",
+      "art": "symbol",
+      "hinweis": "Bild aus der Wikipedia",
+      "bildunterschrift": "Der Kreislauf des Wassers verbindet Ozeane, Wolken und das Festland."
+     }
+    ],
+    "bildInfo": {
+     "titel": "Watercyclegerman.jpg",
+     "beschreibung": "Water-Cycle Diagram (German)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Watercyclegerman.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Watercyclegerman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Watercyclegerman.jpg",
+     "urheber": "USGS Georgia Water Science Center Illustration by John Evans, Howard Perlman, USGS Transla",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Wasserkreislauf",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Der Kreislauf des Wassers verbindet Ozeane, Wolken und das Festland."
+    }
    },
    {
     "ueberschrift": "Das Leben im Ozean",

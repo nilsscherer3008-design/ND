@@ -1,6 +1,124 @@
 {
- "stand": "2026-09-21T19:22:01.266Z",
+ "stand": "2026-09-22T03:37:46.989Z",
  "stuecke": [
+  {
+   "id": "was-sind-hieroglyphen",
+   "zeit": "2026-09-22T03:45:45.409Z",
+   "bereich": "Geschichte",
+   "titel": "Was sind Hieroglyphen?",
+   "vorspann": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter. Der Begriff wird vor allem für die ägyptische Schrift verwendet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Eine Hieroglyphe ist ein Schriftzeichen mit erkennbar bildhaftem Charakter. Als Hieroglyphen oder Hieroglyphenschrift wird ein Schriftsystem bezeichnet, das überwiegend solche Zeichen verwendet. Der Begriff wird auch in speziellerem Sinne als Bezeichnung der ägyptischen Hieroglyphenschrift genutzt.",
+      "Eine Hieroglyphenschrift ist nicht notwendig eine Bilderschrift. Jedes bildhafte Schriftzeichen steht nicht zwingend für die Bezeichnung des Abbildungsgegenstandes als Wort. Sie ist auch nicht notwendig eine ideografische Schrift. Dabei steht ein Zeichen für den Abbildungsgegenstand, eine Idee oder eine Vorstellung."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Tatsächlich kann eine solche Schrift eine logografische Schrift sein. Einzelne Zeichen können auch ohne Bezug zu ihrer Bildgestalt Morpheme, Silben oder Laute darstellen. Einzelne Begriffe können sich erst aus der Kombination mehrerer Zeichen ergeben.",
+      "Umgekehrt ist nicht jede ideografische Schrift eine Hieroglyphenschrift. In der Chinesischen Schrift und ihren Vorläufern sind die Zeichen zwar häufig ikonisch. Sie sind meistens jedoch abstrakte und nicht mehr bildhafte Abwandlungen von möglicherweise zugrundeliegenden bildlichen Zeichen.",
+      "Zu den Beispielen für Hieroglyphenschriften zählen unter anderem die ägyptischen, aztekischen, hethitischen, kretischen und luwischen Hieroglyphen. Auch die Maya-Schrift, die Mi’kmaq-Schrift, Renaissance-Hieroglyphen, urartäische Hieroglyphen sowie das Schreibsystem sitelen pona gehören dazu."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Seit der Renaissance schrieb man in Europa den ägyptischen Hieroglyphen eine geheimnisvolle, verborgene Bedeutung zu. Daraus entwickelte man eine eigene Bildsprache, die Renaissance-Hieroglyphik genannt wird.",
+      "Ab dem Jahr 1822 wurden die ägyptischen Hieroglyphen korrekt entziffert."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Zu dieser Frage enthält der Text keine Angaben."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Entzifferung der ägyptischen Hieroglyphen ab",
+     "1822"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Hieroglyphe",
+     "Ein Schriftzeichen mit einem erkennbar bildhaften Charakter."
+    ],
+    [
+     "Logografische Schrift",
+     "Eine Schrift, in der einzelne Zeichen Morpheme, Silben oder Laute darstellen können."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurden die ägyptischen Hieroglyphen korrekt entziffert?",
+     "optionen": [
+      "Ab 1822",
+      "Ab 1900",
+      "In der Renaissance"
+     ],
+     "richtig": 0,
+     "erklaerung": "Laut dem Text wurden die ägyptischen Hieroglyphen ab 1822 korrekt entziffert."
+    }
+   ],
+   "video": [
+    "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter.",
+    "Der Begriff stammt aus dem Altgriechischen und bedeutet heilig und eingeritzt.",
+    "Man kennt Hieroglyphenschriften aus verschiedenen Kulturen.",
+    "Dazu gehören zum Beispiel die ägyptischen und die aztekischen Hieroglyphen.",
+    "Eine solche Schrift ist nicht zwingend eine einfache Bilderschrift.",
+    "Einzelne Zeichen können auch Laute oder Silben darstellen.",
+    "In Europa schrieb man den ägyptischen Zeichen lange eine geheimnisvolle Bedeutung zu.",
+    "Ab dem Jahr achtzehntausendzweiundzwanzig wurden sie korrekt entziffert."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Hieroglyphen",
+    "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
+   },
+   "quelle": {
+    "titel": "Hieroglyphen",
+    "url": "https://de.wikipedia.org/wiki/Hieroglyphen",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 219,
+   "bildInfos": [
+    {
+     "titel": "Hamath inscription.jpg",
+     "beschreibung": "Hamath inscription",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hamath_inscription.jpg",
+     "urheber": "Wright, William, 1830-1889",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Anatolian hieroglyphs",
+     "sprache": "en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Hamath inscription.jpg",
+    "beschreibung": "Hamath inscription",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Hamath_inscription.jpg",
+    "urheber": "Wright, William, 1830-1889",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Anatolian hieroglyphs",
+    "sprache": "en",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-3d-drucker",
    "zeit": "2026-09-21T19:31:36.686Z",
