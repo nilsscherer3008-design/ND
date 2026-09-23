@@ -1097,6 +1097,78 @@ async function ausgabeSpeichern(jetzt, nachrichten) {
   console.log(`Ausgabe gespeichert: ${name} (${themen.length} Themen)`);
 }
 
+// ---------- Podcast-Feed ----------
+// Die fertigen Folgen liegen schon als MP3 im Ton-Zweig. Diese Datei macht sie
+// in Spotify, Apple Podcasts und jeder anderen Podcast-App abonnierbar.
+const xmlSicher = t => String(t == null ? "" : t)
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;").replace(/\u0000-\u0008\u000b\u000c\u000e-\u001f/g, "");
+const rfc822 = d => {
+  const t = new Date(d);
+  return isNaN(t) ? new Date().toUTCString() : t.toUTCString();
+};
+const hhmmss = sek => {
+  const s = Math.max(0, Math.round(Number(sek) || 0));
+  return [Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60]
+    .map(x => String(x).padStart(2, "0")).join(":");
+};
+
+export function feedBauen(folgen, opt) {
+  const { seite, tonBasis, titel, beschreibung, autor, bild, stand } = opt;
+  const eintraege = (folgen || []).filter(f => f && f.d && f.b).map(f => `  <item>
+    <title>${xmlSicher(f.titel)}</title>
+    <description>${xmlSicher(f.text || f.titel)}</description>
+    <itunes:summary>${xmlSicher(f.text || f.titel)}</itunes:summary>
+    <pubDate>${rfc822(f.zeit)}</pubDate>
+    <guid isPermaLink="false">${xmlSicher(f.id)}</guid>
+    <enclosure url="${xmlSicher(tonBasis + f.d)}" length="${Math.round(f.b)}" type="audio/mpeg"/>
+    <itunes:duration>${hhmmss(f.l)}</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    ${seite ? `<link>${xmlSicher(seite)}</link>` : ""}
+  </item>`).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${xmlSicher(titel)}</title>
+  <description>${xmlSicher(beschreibung)}</description>
+  <language>de-de</language>
+  <lastBuildDate>${rfc822(stand)}</lastBuildDate>
+  <generator>Nachrichten-Heft</generator>
+  ${seite ? `<link>${xmlSicher(seite)}</link>
+  <atom:link href="${xmlSicher(seite + "/feed.xml")}" rel="self" type="application/rss+xml"/>` : ""}
+  <itunes:author>${xmlSicher(autor)}</itunes:author>
+  <itunes:summary>${xmlSicher(beschreibung)}</itunes:summary>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <itunes:category text="News"/>
+  ${bild ? `<itunes:image href="${xmlSicher(bild)}"/>
+  <image><url>${xmlSicher(bild)}</url><title>${xmlSicher(titel)}</title>${seite ? `<link>${xmlSicher(seite)}</link>` : ""}</image>` : ""}
+${eintraege}
+</channel>
+</rss>
+`;
+}
+
+async function feedSchreiben(jetzt) {
+  const daten = await leseJson(new URL("data/podcast.json", ROOT), null);
+  if (!daten?.folgen?.length) { console.log("Podcast: noch keine Folgen."); return; }
+  const repo = process.env.GITHUB_REPOSITORY || "";
+  const seite = (process.env.SITE_URL || "").replace(/\/$/, "");
+  if (!repo) { console.warn("Podcast: GITHUB_REPOSITORY fehlt – kein Feed."); return; }
+  const xml = feedBauen(daten.folgen, {
+    seite, tonBasis: `https://raw.githubusercontent.com/${repo}/ton/`,
+    titel: "Nachrichten-Heft · neutral",
+    beschreibung: "Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. "
+      + "Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. "
+      + "Ein Schulprojekt für Gemeinschaftskunde.",
+    autor: "Nachrichten-Heft",
+    bild: seite ? seite + "/icon-512.png" : "",
+    stand: jetzt.toISOString()
+  });
+  await fs.writeFile(new URL("feed.xml", ROOT), xml);
+  console.log(`Podcast-Feed geschrieben: ${daten.folgen.length} Folgen`);
+}
+
 // ---------- Wochenrückblick ----------
 async function wochenrueckblick(jetzt, aktive, force) {
   const datei = new URL("data/woche.json", ROOT);
@@ -1408,6 +1480,7 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
   const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
   await ausgabeSpeichern(jetzt, nachrichten);
   await wochenrueckblick(jetzt, nachrichten, !!process.env.FORCE_WOCHE);
+  try { await feedSchreiben(jetzt); } catch (e) { console.warn("Podcast-Feed: " + e.message); }
   if (altListe.length) console.log(`Archiviert: ${altListe.length} (Archiv gesamt: ${imArchiv})`);
 
   // 4. Eilmeldungen pushen (nur neue, höchstens 6 Stunden alt)
