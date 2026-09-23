@@ -1,0 +1,109 @@
+name: Podcast-Folge
+
+# Baut einmal am Tag eine Gesprächsfolge aus dem meistbelegten Thema.
+# Läuft unabhängig von den Nachrichten – geht hier etwas schief,
+# bleibt die App davon unberührt.
+
+on:
+  schedule:
+    - cron: "40 16 * * *"      # 18:40 Berliner Zeit im Sommer
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: podcast-folge
+  cancel-in-progress: false
+
+jobs:
+  folge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Stimme zwischenspeichern
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: .stimmen
+          key: piper-stimme-de-mls-medium-v1
+
+      - name: Bisherige Folgen holen
+        continue-on-error: true
+        run: |
+          mkdir -p ton
+          if git fetch --depth=1 origin ton; then
+            git archive FETCH_HEAD | tar -x -C ton
+            echo "Vorhandene Aufnahmen: $(ls ton | wc -l)"
+          fi
+
+      - name: Gespräch schreiben und sprechen
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          fi
+          python3 -m pip install --quiet --upgrade pip
+          python3 -m pip install --quiet piper-tts
+          python3 podcast.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASIS: ${{ vars.OPENAI_BASIS }}
+          OPENAI_MODELL: ${{ vars.OPENAI_MODELL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          PODCAST_SEKUNDEN: "900"
+
+      - name: Folge veröffentlichen
+        run: |
+          if [ -z "$(ls -A ton 2>/dev/null)" ]; then
+            echo "Nichts zu veröffentlichen."
+            exit 0
+          fi
+          rm -rf /tmp/tonzweig && mkdir -p /tmp/tonzweig
+          cp -r ton/. /tmp/tonzweig/
+          cd /tmp/tonzweig
+          git init -q -b ton
+          git config user.name "nachrichten-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Podcast $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ton:ton
+          echo "Veröffentlicht: $(ls *.mp3 2>/dev/null | wc -l) Aufnahmen"
+
+      - name: Folgenliste und Feed speichern
+        if: always()
+        run: |
+          git config user.name "nachrichten-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/podcast.json feed.xml 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Keine Änderung."
+            exit 0
+          fi
+          git commit -m "Podcast-Folge $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          for versuch in 1 2 3 4 5; do
+            if git push; then
+              echo "Gespeichert (Versuch $versuch)."
+              exit 0
+            fi
+            echo "Push abgelehnt – erst die neueren Dateien holen ($versuch)."
+            git pull --rebase --autostash origin main || exit 1
+            sleep 5
+          done
+          exit 1
+
+      - name: Bei einem Fehler Bescheid geben
+        if: failure() && vars.NTFY_TOPIC != ''
+        continue-on-error: true
+        run: |
+          curl -s -X POST "https://ntfy.sh/${{ vars.NTFY_TOPIC }}-fehler" \
+            -H "Title: Podcast-Folge fehlgeschlagen" \
+            -d "Der Podcast-Lauf um $(TZ=Europe/Berlin date '+%H:%M') ist abgebrochen." || true
