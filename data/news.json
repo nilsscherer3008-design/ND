@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-23T13:32:31.569Z",
+ "stand": "2026-09-23T15:11:31.708Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -50,7 +50,7 @@
   "oecd-konjunkturprognose-deutschland"
  ],
  "wetter": {
-  "stand": "2026-09-23T13:32:31.569Z",
+  "stand": "2026-09-23T15:11:31.708Z",
   "morgenTag": "Donnerstag",
   "orte": [
    {
@@ -114,7 +114,7 @@
     "morgen": {
      "code": 3,
      "max": 20,
-     "min": 15
+     "min": 14
     }
    },
    {
@@ -173,6 +173,192 @@
    "Am wärmsten wird es in Köln mit 20 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
+  "modelle": {
+   "tag": "Donnerstag",
+   "orte": [
+    {
+     "name": "Hamburg",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 15,
+       "regen": 2.5
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 15,
+       "regen": 1.7
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 15,
+       "regen": 5.8
+      }
+     ]
+    },
+    {
+     "name": "Berlin",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 15,
+       "regen": 1.1
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 16,
+       "regen": 4.3
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 17,
+       "regen": 2.9
+      }
+     ]
+    },
+    {
+     "name": "Leipzig",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 15,
+       "regen": 0.9
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 15,
+       "regen": 3.4
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 16,
+       "regen": 7.1
+      }
+     ]
+    },
+    {
+     "name": "Köln",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 19,
+       "regen": 0
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 19,
+       "regen": 0.8
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 18,
+       "regen": 0.6
+      }
+     ]
+    },
+    {
+     "name": "Frankfurt",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 20,
+       "regen": 0
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 20,
+       "regen": 0.2
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 19,
+       "regen": 0
+      }
+     ]
+    },
+    {
+     "name": "Stuttgart",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 19,
+       "regen": 0
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 18,
+       "regen": 0.1
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 18,
+       "regen": 0.5
+      }
+     ]
+    },
+    {
+     "name": "München",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 17,
+       "regen": 0.5
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 14,
+       "regen": 2.4
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 15,
+       "regen": 1.7
+      }
+     ]
+    }
+   ],
+   "spanneGrad": 3,
+   "uneinigRegen": {
+    "ort": "Leipzig",
+    "nass": [
+     "GFS",
+     "ECMWF"
+    ],
+    "trocken": [
+     "ICON"
+    ]
+   },
+   "saetze": [
+    "Für München gehen die Modelle am weitesten auseinander: zwischen 14 und 17 Grad.",
+    "Und in Leipzig erwartet GFS und ECMWF Regen, ICON dagegen nicht."
+   ],
+   "dienste": [
+    "ICON (Deutscher Wetterdienst)",
+    "GFS (USA)",
+    "ECMWF (Europa)"
+   ]
+  },
   "quelle": "Open-Meteo / Deutscher Wetterdienst"
  },
  "ton": {
@@ -762,7 +948,7 @@
      "s": [
       0.25,
       7.05,
-      11.0,
+      11,
       15.54,
       22.1,
       27.6,
