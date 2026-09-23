@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-23T15:11:31.708Z",
+ "stand": "2026-09-23T16:51:46.416Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -30,12 +30,10 @@
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
   "dieseltrend-hoechststand-spritpreise",
-  "usa-sanktionen-russland-kongress",
   "usa-daenemark-groenland-abkommen",
   "oktoberfest-muenchen-eroeffnung",
   "wahlen-berlin-mecklenburg-vorpommern",
   "duma-wahl-russland-drohnenangriffe",
-  "huthi-angriffe-saudi-arabien",
   "guterres-nachfolge-bachelet",
   "us-medienbann-weisses-haus",
   "porsche-stellenabbau",
@@ -50,7 +48,7 @@
   "oecd-konjunkturprognose-deutschland"
  ],
  "wetter": {
-  "stand": "2026-09-23T15:11:31.708Z",
+  "stand": "2026-09-23T16:51:46.416Z",
   "morgenTag": "Donnerstag",
   "orte": [
    {
@@ -60,12 +58,12 @@
     "teil": "Norden",
     "heute": {
      "code": 63,
-     "max": 18,
+     "max": 19,
      "min": 10
     },
     "morgen": {
      "code": 80,
-     "max": 15,
+     "max": 16,
      "min": 13
     }
    },
@@ -96,9 +94,9 @@
      "min": 8
     },
     "morgen": {
-     "code": 61,
-     "max": 15,
-     "min": 13
+     "code": 80,
+     "max": 16,
+     "min": 12
     }
    },
    {
@@ -108,13 +106,13 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 21,
+     "max": 22,
      "min": 11
     },
     "morgen": {
      "code": 3,
      "max": 20,
-     "min": 14
+     "min": 15
     }
    },
    {
@@ -145,8 +143,8 @@
     },
     "morgen": {
      "code": 3,
-     "max": 19,
-     "min": 13
+     "max": 18,
+     "min": 12
     }
    },
    {
@@ -156,18 +154,18 @@
     "teil": "Süden",
     "heute": {
      "code": 3,
-     "max": 18,
+     "max": 19,
      "min": 6
     },
     "morgen": {
-     "code": 80,
+     "code": 3,
      "max": 17,
-     "min": 11
+     "min": 10
     }
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 18 und 22 Grad.",
+   "Heute liegen die Höchstwerte zwischen 19 und 22 Grad.",
    "Die Vorhersage für morgen, Donnerstag: im Norden und Osten Regenschauer, im Süden und Westen bewölkt.",
    "Die Temperaturen erreichen dann 15 bis 20 Grad.",
    "Am wärmsten wird es in Köln mit 20 Grad.",
@@ -182,8 +180,8 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 15,
-       "regen": 2.5
+       "grad": 16,
+       "regen": 1.1
       },
       {
        "name": "GFS",
@@ -206,7 +204,7 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 15,
-       "regen": 1.1
+       "regen": 2.6
       },
       {
        "name": "GFS",
@@ -228,8 +226,8 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 15,
-       "regen": 0.9
+       "grad": 16,
+       "regen": 0.5
       },
       {
        "name": "GFS",
@@ -297,7 +295,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 19,
+       "grad": 18,
        "regen": 0
       },
       {
@@ -321,7 +319,7 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 17,
-       "regen": 0.5
+       "regen": 0
       },
       {
        "name": "GFS",
@@ -1565,7 +1563,7 @@
       7.87,
       18.36,
       27.72,
-      34.0,
+      34,
       44.35,
       51.34
      ]
@@ -1953,7 +1951,7 @@
       19.41,
       28.44,
       37.17,
-      44.0,
+      44,
       48.67,
       56.21
      ]
@@ -2463,9 +2461,9 @@
       0.25,
       4.43,
       9.12,
-      15.0,
+      15,
       18.62,
-      23.0,
+      23,
       29.31,
       34.07
      ]
@@ -8297,831 +8295,6 @@
      "s": [
       0.25,
       4.35
-     ]
-    }
-   ]
-  },
-  {
-   "id": "huthi-angriffe-saudi-arabien",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T16:40:59.000Z",
-   "aktualisiert": "aktualisiert um 18:46 Uhr",
-   "titel": "Angriffe auf die saudi-arabische Hauptstadt Riad und Ölanlagen",
-   "vorspann": "Die Huthi-Miliz aus dem Jemen hat nach eigenen Angaben Angriffe mit Raketen und Drohnen auf die saudi-arabische Hauptstadt Riad sowie auf Ölanlagen ausgeführt. Mehrere Quellen berichten über Explosionen und Rauchsäulen in der Nähe des internationalen Flughafens von Riad.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die Huthi-Miliz hat nach eigenen Angaben Angriffe mit Raketen und Drohnen auf Riad und Ölanlagen in Janbu verübt.",
-    "Saudi-arabische Behörden und die Militärkoalition bestätigten das Abfangen einer Rakete über Riad sowie Angriffe auf weitere Städte.",
-    "Das US-Außenministerium hat vor einer Eskalation der Lage gewarnt und von Reisen in die Region abgeraten.",
-    "Ägypten, Jordanien und Kuwait verurteilten den Angriff auf die saudi-arabische Hauptstadt."
-   ],
-   "einig": [
-    [
-     "Die Huthi-Miliz hat Angriffe mit Raketen und Drohnen auf Ziele in Riad und Janbu gemeldet.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Saudi-Arabien bestätigte Angriffe auf Riad und das Abfangen einer Rakete durch die Luftabwehr.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "BBC"
-     ]
-    ],
-    [
-     "Das US-Außenministerium hat vor einer Eskalation der Lage gewarnt.",
-     [
-      "ZDFheute",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Es gibt keine offiziellen Angaben der saudi-arabischen Seite zu möglichen Schäden (Tagesschau/ARD, BBC)."
-   ],
-   "positionen": [
-    [
-     "Huthi-Miliz",
-     "Die Angriffe sind laut einer Mitteilung eine Reaktion auf saudische Luftangriffe im Jemen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "US-Außenministerium",
-     "Die Lage hat das Potenzial, rasch zu eskalieren, und Reisende sollten Reisen in die Region ernsthaft überdenken.",
-     "ZDFheute"
-    ],
-    [
-     "Ägypten, Jordanien und Kuwait",
-     "Verurteilung der Angriffe der Huthi-Miliz auf Riad.",
-     "Deutschlandfunk"
-    ]
-   ],
-   "fehlend": "Stimmen der iranischen Regierung zu den Vorwürfen der Unterstützung sowie direkte Stellungnahmen der jemenitischen Regierung zu den aktuellen Kämpfen.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 01:10",
-     "fokus": "Hintergründe zu Ölrouten",
-     "text": "Der Bericht beleuchtet die Bedeutung der Meerenge Bab al-Mandab für den Schiffsverkehr.",
-     "url": "https://www.tagesschau.de/ausland/asien/riad-angriffe-huthis-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 12:21",
-     "fokus": "Reisewarnung der USA",
-     "text": "Der Artikel hebt die Warnung der USA vor einer Eskalation hervor.",
-     "url": "https://www.zdfheute.de/politik/ausland/huthi-saudi-arabien-neue-angriffe-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 18:40",
-     "fokus": "Reaktionen arabischer Staaten",
-     "text": "Es wird über die Verurteilung durch Ägypten, Jordanien und Kuwait berichtet.",
-     "url": "https://www.deutschlandfunk.de/aegypten-jordanien-und-kuwait-verurteilen-huthi-angriff-auf-riad-us-aussenministerium-warnt-vor-eska-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "19.09.26, 21:09",
-     "fokus": "Ablauf der Angriffe",
-     "text": "Der Text beschreibt Details zu den genutzten Waffen und den Einsatzorten.",
-     "url": "https://www.spiegel.de/ausland/jemen-krieg-rauchsaeule-nahe-flughafen-huthi-miliz-meldet-angriffe-auf-riad-a-4454be6a-b5fc-4de2-b656-db7cb73b5859#ref=rss",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "20.09.26, 01:49",
-     "fokus": "Zahlen und Opferangaben",
-     "text": "Die BBC nennt Berichte über Opferzahlen und Angaben von UN-Organisationen.",
-     "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Opferzahlen und Opferberichte",
-     "Die BBC nennt unbestätigte Angaben über Todesopfer durch Kämpfe, während andere Quellen darauf nicht eingehen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Die Huthi-Miliz aus dem Jemen",
-    "was": "Angriffe mit Raketen und Drohnen auf saudi-arabische Ziele",
-    "wann": "19. September 2026",
-    "wo": "Riad und Janbu, Saudi-Arabien",
-    "wie": "Mithilfe von ballistischen Raketen, Marschflugkörpern und Drohnen",
-    "warum": "Laut Huthi-Sprecher eine Reaktion auf saudische Luftangriffe (Tagesschau/ARD, BBC)",
-    "quellenlage": "Berichte von Augenzeugen, Behörden und offiziellen Sprechern"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Die Huthi-Miliz im Jemen hat Angriffe auf Ziele in Saudi-Arabien für sich reklamiert. Nach Angaben der Gruppe richteten sich die Attacken gegen die Hauptstadt Riad sowie gegen Ölanlagen am Roten Meer. Zuvor hatten Anwohner in Riad von Explosionen und einer Rauchsäule nahe dem internationalen Flughafen berichtet. Die saudische Seite bestätigte Angriffe auf Riad und andere Städte.",
-      "Ein Huthi-Sprecher teilte mit, die Gruppe habe ballistische Raketen und Drohnen gegen Ziele in Riad sowie auf Anlagen des Ölkonzerns Aramco in der Hafenstadt Janbu abgefeuert. Der Sprecher der von Saudi-Arabien angeführten Militärkoalition, Turki al-Malki, erklärte, die Luftabwehr habe eine in Richtung Riad abgefeuerte Rakete abgefangen und zerstört. Auch Angriffe auf Janbu und weitere Städte seien abgewehrt worden.",
-      "In der saudi-arabischen Hauptstadt Riad war nach Luftalarm in der Nähe des Flughafens schwarzer Rauch aufgestiegen. Augenzeugen berichteten von einem Brand eines Treibstofftanks am internationalen Flughafen von Riad, der den Flugverkehr vorübergehend unterbrochen hatte. Die Website Flightradar24 meldete Schwierigkeiten, Flugstreichungen und Verspätungen am Flughafen von Riad. Eine offizielle Stellungnahme zur Ursache des Brandes gab es zunächst nicht.",
-      "Die saudi-arabischen Behörden hatten in der Nacht eine Warnung vor möglichen Angriffen herausgegeben. Die saudische Zivilverteidigung verschickte Telefonwarnungen über Gefahren in Riad und anderen Regionen. Am Samstagmorgen gab es Entwarnung von offizieller Seite. Anwohner berichteten von Detonationen, die nach den Luftalarmen durch die Stadt hallten."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Laut dem Huthi-Militärsprecher Yahya al-Sarea wurden ballistische Raketen, Marschflugkörper und Drohnen eingesetzt. Die Operationen zielten auf Einrichtungen in Riad und auf Aramco-Anlagen in Janbu ab. Die Angriffe seien laut Tagesschau/ARD, ZDFheute, Spiegel und BBC eine Reaktion auf saudische Angriffe im Jemen.",
-      "Laut BBC berichteten unbestätigte Meldungen der Nachrichtenagentur AFP über Kämpfe am Samstag, bei denen Menschen getötet wurden. Regierungsquellen und Huthi-Angaben zufolge starben dabei Kämpfer und Soldaten. Die Internationale Organisation für Migration, eine UN-Organisation, meldete am Freitag, dass die Zahl der Vertriebenen infolge von Kämpfen angestiegen ist.",
-      "Die saudi-arabische Militärkoalition erklärte laut Tagesschau/ARD, ZDFheute und BBC, dass Angriffe auf die Städte Bish, Taif, Farasan und Yanbu ebenfalls abgewehrt wurden. Ein offizieller Sprecher betonte, dass feindliche Versuche zur Bekämpfung von Zivilisten gestoppt worden seien. Saudi-Arabien machte zunächst keine näheren Angaben zu möglichen Schäden durch die Angriffe."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Saudi-Arabien unterstützt die international anerkannte Regierung des Jemen in einem Konflikt gegen die Huthi-Miliz. Nach einer von den Vereinten Nationen vermittelten Waffenruhe im Jahr 2022 waren die Kämpfe weitgehend zum Erliegen gekommen, flammten jedoch kürzlich wieder auf. Die Huthi-Miliz übernahm nach einer Offensive die Kontrolle über große Teile der jemenitischen Küste an der Meerenge Bab al-Mandab.",
-      "Die Meerenge Bab al-Mandab verbindet das Rote Meer mit dem Golf von Aden und dem Indischen Ozean. Sie stellt eine wichtige Route für den internationalen Schiffsverkehr dar, insbesondere für den Export von saudi-arabischem Öl. Seit der Blockade der Straße von Hormus am Persischen Golf hat die Route an Bedeutung gewonnen. Die Huthis hatten im Juli eine Seeblockade gegen Saudi-Arabien verkündet."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Militärkoalition ist ein Bündnis verschiedener Staaten, die ihre Streitkräfte für gemeinsame militärische Operationen zusammenschließen. Im jemenitischen Konflikt führt Saudi-Arabien ein solches Bündnis zur Unterstützung der jemenitischen Regierung an.",
-      "Eine Seeblockade bezeichnet die Abriegelung von Küstengewässern durch militärische Mittel, um Schiffsverkehr des Gegners zu unterbinden. Die Vereinten Nationen sind eine internationale Organisation von Staaten zur Sicherung des Friedens."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Das US-Außenministerium warnte vor einer raschen Eskalation des Konflikts. In einer Reisewarnung wurde auf Angriffe auf zivile Flughäfen verwiesen und US-Staatsangehörige aufgefordert, Reisen in die Region ernsthaft zu überdenken. Zudem wurde zur Wachsamkeit aufgerufen.",
-      "Ägypten, Jordanien und Kuwait verurteilten laut Deutschlandfunk die Angriffe der Huthi-Miliz auf die saudi-arabische Hauptstadt Riad."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die beteiligten Staaten beobachten die Lage an der jemenitischen Küste und im Roten Meer weiter. Das US-Außenministerium riet Reisenden, auf mögliche Flugstreichungen und Reisebehinderungen vorbereitet zu sein. Weitere offizielle Reaktionen der Konfliktparteien stehen aus."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Freitag",
-     "Der UNO-Sicherheitsrat verurteilt Angriffe auf die Handelsschifffahrt."
-    ],
-    [
-     "Samstag",
-     "Die Huthi-Miliz führt Angriffe auf Riad und Janbu aus; saudi-arabische Luftabwehr wehrt Angriffe ab."
-    ],
-    [
-     "Juli",
-     "Die Huthi-Miliz verkündet eine Seeblockade gegen Saudi-Arabien."
-    ],
-    [
-     "Vergangene Woche",
-     "Die Huthis übernehmen die Kontrolle über Teile der jemenitischen Küste an der Bab-al-Mandab-Meerenge."
-    ],
-    [
-     "Freitag",
-     "Die Internationale Organisation für Migration berichtet über steigende Vertriebenzahlen."
-    ],
-    [
-     "Samstag",
-     "Die Huthi-Miliz führt Angriffe auf Riad und Janbu aus; saudi-arabische Luftabwehr wehrt Angriffe nach Behördenangaben ab."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "ort",
-     "suchbegriff": "Riyadh skyline",
-     "bildunterschrift": "Blick auf die saudi-arabische Hauptstadt Riad, wo es zu Explosionen kam."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "US Department of State building",
-     "bildunterschrift": "Das Gebäude des US-Außenministeriums, das vor einer Eskalation der Lage gewarnt hat."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Red Sea coast",
-     "bildunterschrift": "Die Küstenregion des Roten Meeres, in der sich wichtige Ölanlagen befinden."
-    }
-   ],
-   "ort": {
-    "name": "Riad, Saudi-Arabien"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Formulierungen angepasst, um wertende Wörter zu entfernen und Aussagen von Behörden präzise zu kennzeichnen."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Huthi-Miliz",
-      "Eine bewaffnete Gruppe aus dem Jemen, die gegen die dortige Regierung und deren Verbündete kämpft."
-     ],
-     [
-      "Seeblockade",
-      "Die Abriegelung von Meeresgebieten durch Militär, um Schiffe am Ein- oder Ausfahren zu hindern."
-     ],
-     [
-      "Militärkoalition",
-      "Ein Bündnis verschiedener Staaten, die ihre Streitkräfte für gemeinsame militärische Einsätze verbinden."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen internationale Schifffahrtswege wie die Meerenge Bab al-Mandab in diesem Konflikt?",
-     "Warum ist es wichtig, Aussagen von Konfliktparteien und Behörden in Nachrichten als solche zu kennzeichnen?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat nach übereinstimmenden Berichten die Verantwortung für die Angriffe auf Riad übernommen?",
-      "optionen": [
-       "Die Huthi-Miliz",
-       "Die Vereinten Nationen",
-       "Die Regierung von Ägypten"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Huthi-Miliz hat die Angriffe auf Riad nach eigenen Angaben reklamiert."
-     },
-     {
-      "frage": "Was tat die saudi-arabische Luftabwehr nach Angaben der Militärkoalition in Riad?",
-      "optionen": [
-       "Sie rief eine Waffenruhe aus",
-       "Sie fing eine Rakete ab und zerstörte sie",
-       "Sie schloss den Flughafen dauerhaft"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut der saudischen Militärkoalition wurde eine in Richtung Riad abgefeuerte Rakete abgefangen und zerstört."
-     },
-     {
-      "frage": "Welches Land hat laut den Berichten vor einer raschen Eskalation der Lage gewarnt?",
-      "optionen": [
-       "Die Vereinigten Staaten von Amerika",
-       "Kuwait",
-       "Jordanien"
-      ],
-      "richtig": 0,
-      "erklaerung": "Das US-Außenministerium warnte vor einer raschen Eskalation und riet von Reisen ab."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Huthi-Miliz aus dem Jemen hat Angriffe mit Raketen auf Saudi-Arabien gemeldet.",
-    "absaetze": [
-     "Die Huthi-Miliz hat nach eigenen Angaben Ziele in der Stadt Riad und Ölanlagen in Janbu angegriffen.",
-     "In Riad gab es Explosionen und Rauch in der Nähe des Flughafens.",
-     "Die saudische Militärkoalition teilte mit, dass die Luftabwehr eine Rakete zerstört habe.",
-     "Das Außenministerium der Vereinigten Staaten von Amerika hat vor einer Verschärfung des Konflikts gewarnt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Huthi-Miliz hat Angriffe mit Raketen auf saudi-arabische Städte gemeldet.",
-     "Die saudische Luftabwehr fing nach Behördenangaben eine Rakete über Riad ab.",
-     "Das US-Außenministerium warnte vor einer raschen Eskalation."
-    ],
-    "lang": [
-     "Die Huthi-Miliz aus dem Jemen hat Angriffe mit Raketen und Drohnen auf Saudi-Arabien gemeldet.",
-     "Betroffen waren nach Angaben der Miliz die Hauptstadt Riad und Ölanlagen in Janbu.",
-     "In Riad kam es am Samstag zu Explosionen und starker Rauchentwicklung nahe dem internationalen Flughafen.",
-     "Die saudische Luftabwehr hat nach Angaben der Militärkoalition eine Rakete über Riad abgefangen und zerstört.",
-     "Der Flugverkehr am Flughafen von Riad war wegen der Ereignisse vorübergehend unterbrochen.",
-     "Die Huthi-Miliz erklärte, die Angriffe seien eine Reaktion auf saudische Luftangriffe im Jemen.",
-     "Das US-Außenministerium warnte vor einer raschen Eskalation der Lage und riet von Reisen in die Region ab.",
-     "Ägypten, Jordanien und Kuwait verurteilten die Angriffe auf die saudische Hauptstadt.",
-     "Saudi-Arabien unterstützt die international anerkannte Regierung im jemenitischen Bürgerkrieg.",
-     "Die Beteiligten beobachten die Entwicklung an der wichtigen Schifffahrtsstraße im Roten Meer weiter."
-    ],
-    "einfach": [
-     "Die Huthi-Miliz aus dem Jemen hat Riad mit Raketen angegriffen.",
-     "In der saudi-arabischen Hauptstadt gab es Explosionen in Flughafennähe.",
-     "Die saudische Luftabwehr hat nach Behördenangaben eine Rakete zerstört.",
-     "Die Regierung der Vereinigten Staaten von Amerika warnte vor neuen Gefahren.",
-     "Mehrere arabische Staaten verurteilten die Angriffe der Miliz."
-    ]
-   },
-   "kurz": [
-    "Die Huthi-Miliz hat Angriffe mit Raketen und Drohnen auf Riad und Janbu gemeldet.",
-    "Saudi-arabische Behörden bestätigten das Abfangen einer Rakete über der Hauptstadt.",
-    "Das US-Außenministerium hat vor einer Eskalation der Lage gewarnt.",
-    "Ägypten, Jordanien und Kuwait verurteilten die Angriffe auf Riad."
-   ],
-   "fakten": [
-    [
-     "Datum der Angriffe",
-     "19. September 2026"
-    ]
-   ],
-   "dossier": {
-    "slug": "konflikt-jemen-saudi-arabien",
-    "titel": "Konflikt im Jemen und Angriffe auf Saudi-Arabien"
-   },
-   "bildInfo": {
-    "titel": "Riyadh Skyline.jpg",
-    "beschreibung": "Riyadh Skyline is growing. Dated February 2018",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Riyadh_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
-    "urheber": "B.alotaby",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "ort",
-    "suchbegriff": "Riyadh skyline",
-    "bildunterschrift": "Die Skyline der saudi-arabischen Hauptstadt Riad, die Ziel von Angriffen der Huthi-Miliz war.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Riyadh Skyline.jpg",
-     "beschreibung": "Riyadh Skyline is growing. Dated February 2018",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Riyadh_Skyline.jpg/1280px-Riyadh_Skyline.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Riyadh_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
-     "urheber": "B.alotaby",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "ort",
-     "suchbegriff": "Riyadh skyline",
-     "bildunterschrift": "Die Skyline der saudi-arabischen Hauptstadt Riad, die Ziel von Angriffen der Huthi-Miliz war.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Riad, Saudi-Arabien",
-    "lat": 24.639,
-    "lon": 46.716
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die Huthi-Miliz aus dem Jemen hat Angriffe mit Raketen und Drohnen auf Saudi-Ara",
-     "d": "86259bc596.mp3",
-     "l": 57.99,
-     "s": [
-      0.25,
-      6.24,
-      11.56,
-      17.65,
-      24.2,
-      29.66,
-      35.46,
-      41.78,
-      46.95,
-      52.52
-     ]
-    },
-    {
-     "k": "Die Huthi-Miliz hat Angriffe mit Raketen auf saudi-arabische Städte gemeldet. Di",
-     "d": "c71770f0d4.mp3",
-     "l": 13.57,
-     "s": [
-      0.25,
-      4.74,
-      9.24
-     ]
-    },
-    {
-     "k": "Die Huthi-Miliz aus dem Jemen hat Riad mit Raketen angegriffen. In der saudi-ara",
-     "d": "ee79c98105.mp3",
-     "l": 25.28,
-     "s": [
-      0.25,
-      5.27,
-      10.66,
-      15.21,
-      20.76
-     ]
-    },
-    {
-     "k": "Es gibt keine offiziellen Angaben der saudi-arabischen Seite zu möglichen Schäde",
-     "d": "efb183c4fd.mp3",
-     "l": 7.23,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Huthi-Miliz? Eine bewaffnete Gruppe aus dem Jemen, die g",
-     "d": "b4d8b9582b.mp3",
-     "l": 9.95,
-     "s": [
-      0.25,
-      3.47
-     ]
-    }
-   ]
-  },
-  {
-   "id": "usa-sanktionen-russland-kongress",
-   "rubrik": "Welt",
-   "zeit": "2026-09-20T16:40:59.000Z",
-   "aktualisiert": "aktualisiert um 18:46 Uhr",
-   "titel": "US-Präsident Trump setzt neues Sanktionspaket gegen Russland in Kraft",
-   "vorspann": "US-Präsident Donald Trump hat ein vom Kongress verabschiedetes Gesetz mit neuen Sanktionen gegen Russland unterzeichnet. Das Weiße Haus in Washington gab die Unterzeichnung des Gesetzes bekannt.",
-   "eil": false,
-   "zusammenfassung": [
-    "US-Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Russland unterzeichnet.",
-    "Zuvor hatten Senat und Repräsentantenhaus dem Paket mit einer parteiübergreifenden Mehrheit zugestimmt.",
-    "Das Gesetz sieht Einreiseverbote, eingefrorene Vermögen und Strafzölle vor.",
-    "Die Ukraine begrüßte die Maßnahmen, während aus Russland militärische Abschreckung gefordert wurde."
-   ],
-   "einig": [
-    [
-     "US-Präsident Trump hat das Gesetz über neue Sanktionen gegen Russland unterzeichnet.",
-     [
-      "Tagesschau/ARD",
-      "Deutschlandfunk"
-     ]
-    ],
-    [
-     "Senat und Repräsentantenhaus hatten zuvor mit einer parteiübergreifenden Mehrheit für das Paket gestimmt.",
-     [
-      "Tagesschau/ARD",
-      "Deutschlandfunk"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Welche konkreten wirtschaftlichen Gesamtauswirkungen die angedrohten Zölle auf China und Indien haben werden, ist noch unklar."
-   ],
-   "positionen": [
-    [
-     "Wolodymyr Selenskyj (Präsident der Ukraine)",
-     "Dankt US-Präsident Trump für das Sanktionspaket.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Andrij Sybiha (Außenminister der Ukraine)",
-     "Spricht von einem historischen Tag und sieht Putins Hoffnungen auf schwächere Unterstützung zunichtegemacht.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Dmitri Medwedew (Früherer russischer Präsident)",
-     "Fordert eine militärische Abschreckung und erklärt, es werde nur die Sprache der direkten militärischen Abschreckung gehört.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stellungnahmen der Regierungen von China, Indien oder offizielle Reaktionen der russischen Regierung abseits der zitierten Aussagen von Medwedew.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "19.09.26, 16:52",
-     "fokus": "Ausführliche Details und Reaktionen",
-     "text": "Der Bericht schildert die konkreten Inhalte der Sanktionen und zitiert ukrainische sowie russische Stimmen.",
-     "url": "https://www.tagesschau.de/ausland/amerika/usa-trump-russland-sanktionen-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "20.09.26, 18:40",
-     "fokus": "Parlamentarischer Ablauf in den USA",
-     "text": "Der Sender konzentriert sich auf die Unterzeichnung durch Trump und die vorherige Zustimmung von Senat und Repräsentantenhaus.",
-     "url": "https://www.deutschlandfunk.de/usa-verhaengen-neue-sanktionen-gegen-russland-selenskyj-dankt-trump-104.html",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detaillierungsgrad",
-     "Die Tagesschau nennt zahlreiche inhaltliche Details der Sanktionen sowie Zitate aus der Ukraine und Russland, während der Deutschlandfunk sich kürzer fasst und den parlamentarischen Weg betont."
-    ]
-   ],
-   "wfragen": {
-    "wer": "US-Präsident Donald Trump und das Parlament der USA",
-    "was": "Ein neues Sanktionspaket gegen Russland in Kraft gesetzt",
-    "wann": "19. September 2026",
-    "wo": "Washington, USA",
-    "wie": "Durch die Unterzeichnung eines zuvor im Kongress beschlossenen Gesetzes",
-    "warum": "Laut US-Kongress soll der Druck zur Beendigung des Ukraine-Kriegs erhöht werden",
-    "quellenlage": "Mitteilungen des Weißen Hauses und des Parlaments"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das Gesetz und seine Unterzeichnung",
-     "absaetze": [
-      "US-Präsident Donald Trump hat verschärfte Sanktionen gegen Russland mit seiner Unterschrift in Kraft gesetzt. Das teilte das Weiße Haus in Washington mit. Zuvor hatten bereits der Senat und das Repräsentantenhaus mit einer parteiübergreifenden Mehrheit für das Paket gestimmt. Das Gesetz wurde zuvor in langen Verhandlungen vom US-Kongress beschlossen.",
-      "Das Gesetz soll den Druck auf Russland zur Beendigung des Ukraine-Kriegs erhöhen. Zu den beschlossenen Schritten gehören unter anderem Einreiseverbote, Strafzölle und eingefrorene Vermögenswerte. Das Parlament hatte das Paket mit breiter Zustimmung verabschiedet."
-     ]
-    },
-    {
-     "ueberschrift": "Inhaltliche Maßnahmen des Sanktionspakets",
-     "absaetze": [
-      "Das neue Gesetz sieht finanzielle und wirtschaftliche Strafen gegen russische Akteure vor. Unter anderem sind US-Einreiseverbote gegen Kremlchef Wladimir Putin und eine Reihe von Militärvertretern vorgesehen. Zudem wird ihr Vermögen in den USA eingefroren. Letzteres gilt laut den Berichten auch für russische Banken.",
-      "Die USA nehmen außerdem die sogenannte Schattenflotte ins Visier, mit deren Schiffen Moskau internationale Ölsanktionen umgeht. Zudem kann Trump Importe aus Russland in die USA mit Strafzöllen von bis zu 500 Prozent belegen."
-     ]
-    },
-    {
-     "ueberschrift": "Zölle für Drittstaaten und Handelspartner",
-     "absaetze": [
-      "Das Sanktionspaket schließt auch bestimmte Handelspartner ein. Laut den Berichten drohen Zollaufschläge von bis zu 100 Prozent für Produkte aus China oder Indien. Diese Länder gehören zu den fünf größten Importeuren russischen Rohöls oder Erdgases.",
-      "Durch die angedrohten Zölle sollen diese Staaten von bestimmten Handelsaktivitäten abgehalten werden. Die Importe aus den betroffenen Drittländern stehen unter Beobachtung der US-Behörden."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und politischer Kontext",
-     "absaetze": [
-      "Das Sanktionspaket ist das Resultat von Verhandlungen im US-Kongress. Bereits der Senat und das Repräsentantenhaus hatten mit einer parteiübergreifenden Mehrheit für das Paket gestimmt. Das Ziel des Gesetzes ist laut den Angaben, den Druck auf Russland zur Beendigung des Ukraine-Kriegs zu erhöhen.",
-      "Der Konflikt in der Ukraine prägt die internationale Politik. Die Vereinigten Staaten haben in diesem Zusammenhang zahlreiche Wirtschaftssanktionen erlassen. Das nun unterzeichnete Paket verbindet individuelle Strafen mit Handelsbeschränkungen."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen aus der Ukraine und Russland",
-     "absaetze": [
-      "Aus der Ukraine gab es positive Reaktionen auf das neue Sanktionspaket. Der ukrainische Präsident Wolodymyr Selenskyj dankte US-Präsident Trump für das Paket. Der ukrainische Außenminister Andrij Sybiha sprach auf X von einem historischen Tag.",
-      "Aus Moskau folgten dagegen neue Drohungen. Der frühere russische Präsident Dmitri Medwedew forderte eine militärische Abschreckung. Er erklärte im Onlinedienst Telegram, es werde nur die Sprache der direkten militärischen Abschreckung gehört."
-     ]
-    },
-    {
-     "ueberschrift": "Institutionen im politischen Prozess der USA",
-     "absaetze": [
-      "Der US-Kongress besteht aus Senat und Repräsentantenhaus. Beide Kammern haben in langen Verhandlungen über das Gesetz beraten und mit einer parteiübergreifenden Mehrheit für das Paket gestimmt. Nach der Beschlussfassung im Parlament wurde das Gesetz dem US-Präsidenten zur Unterzeichnung vorgelegt.",
-      "Das Weiße Haus in Washington ist der Amtssitz des US-Präsidenten. Von dort aus wurde offiziell mitgeteilt, dass Trump das Gesetz mit seiner Unterschrift in Kraft gesetzt hat."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "August 2026",
-     "Der US-Senat verabschiedet das Sanktionspaket gegen Russland."
-    ],
-    [
-     "11. Juli 2026",
-     "Der US-Senator Lindsey Graham stirbt im Alter."
-    ],
-    [
-     "11. Juli 2026",
-     "Der US-Senator Lindsey Graham stirbt."
-    ],
-    [
-     "19. September 2026",
-     "US-Präsident Trump unterzeichnet das Gesetz über die Russland-Sanktionen."
-    ],
-    [
-     "11. Juli 2026",
-     "Der US-Senator Lindsey Graham stirbt im Alter von 71 Jahren."
-    ],
-    [
-     "September 2026",
-     "Das US-Repräsentantenhaus stimmt dem Sanktionspaket zu."
-    ],
-    [
-     "19. September 2026",
-     "US-Präsident Trump unterzeichnet das Gesetz über die neuen Russland-Sanktionen."
-    ],
-    [
-     "19. September 2026",
-     "US-Präsident Trump unterzeichnet das Gesetz über neue Russland-Sanktionen."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "institution",
-     "suchbegriff": "White House Washington DC facade",
-     "bildunterschrift": "Das Weiße Haus in Washington, wo das Gesetz von US-Präsident Trump unterzeichnet wurde."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Volodymyr Zelenskyy official portrait",
-     "bildunterschrift": "Der ukrainische Präsident Wolodymyr Selenskyj, der sich für das Sanktionspaket bedankte."
-    }
-   ],
-   "ort": {
-    "name": "Washington, USA"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das Datum im Dezember 2026 sowie der falsche Todeszeitpunkt eines Senators und die Nennung des Monats August in der Zeitleiste wurden entfernt, da sie nicht in den Originalquellen standen."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Sanktionen",
-      "Wirtschaftliche Strafen oder Verbote gegen ein Land, um dessen politische Entscheidungen zu beeinflussen."
-     ],
-     [
-      "Strafzölle",
-      "Besonders hohe Steuern auf eingeführte Waren aus anderen Ländern, um deren Handel zu schädigen."
-     ],
-     [
-      "Schattenflotte",
-      "Eine Gruppe von Schiffen, die internationale Vorschriften oder Sanktionen beim Transport von Öl umgehen."
-     ]
-    ],
-    "fragen": [
-     "Welche Ziele verfolgt die Regierung der Vereinigten Staaten mit den neuen Sanktionen?",
-     "Wie bewerten Politiker aus der Ukraine die Maßnahmen im Vergleich zu Politikern aus Russland?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat das Gesetz über die neuen Sanktionen unterzeichnet?",
-      "optionen": [
-       "US-Präsident Donald Trump",
-       "Der ukrainische Präsident Wolodymyr Selenskyj",
-       "Der russische Präsident Wladimir Putin"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut den Berichten von Tagesschau/ARD und Deutschlandfunk hat US-Präsident Trump das Gesetz unterzeichnet."
-     },
-     {
-      "frage": "Wie stimmten Senat und Repräsentantenhaus über das Paket ab?",
-      "optionen": [
-       "Mit einer parteiübergreifenden Mehrheit",
-       "Einstimmig ohne Gegenstimmen",
-       "Mit knappen Ergebnissen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Beide Medien berichten übereinstimmend, dass der Senat und das Repräsentantenhaus mit einer parteiübergreifenden Mehrheit zugestimmt haben."
-     },
-     {
-      "frage": "Welche Maximalhöhe können die Strafzölle auf Importe aus Russland laut Gesetz erreichen?",
-      "optionen": [
-       "Bis zu 100 Prozent",
-       "Bis zu 500 Prozent",
-       "Bis zu 1000 Prozent"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut dem Bericht der Tagesschau/ARD kann Trump Importe aus Russland mit Strafzöllen von bis zu 500 Prozent belegen."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der amerikanische Präsident Donald Trump hat ein neues Gesetz unterschrieben. Damit gelten ab sofort schärfere Strafen gegen Russland.",
-    "absaetze": [
-     "Das Parlament der Vereinigten Staaten hatte das Gesetz zuvor beschlossen. Dazu gehören der Senat und das Repräsentantenhaus.",
-     "Das Gesetz bringt verschiedene Sanktionen. Sanktionen sind wirtschaftliche Strafen, um Druck auszuüben.",
-     "Unter anderem werden Vermögen eingefroren und die Einreise für bestimmte Personen verboten.",
-     "Auch gegen den russischen Präsidenten Wladimir Putin und Banken richten sich die Maßnahmen.",
-     "Die Regierung in der Ukraine freut sich über die Unterstützung. Aus Russland kamen dagegen scharfe Gegenreaktionen."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "US-Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Russland in Kraft gesetzt.",
-     "Zuvor stimmten der Senat und das Repräsentantenhaus mit einer großen Mehrheit für das Paket.",
-     "Das Gesetz sieht unter anderem Einreiseverbote und drastische Strafzölle vor.",
-     "Die Ukraine dankte den USA, während Russland mit neuen Forderungen reagierte."
-    ],
-    "lang": [
-     "Der amerikanische Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Russland unterzeichnet.",
-     "Das Weiße Haus in Washington gab diese Entscheidung offiziell bekannt.",
-     "Zuvor stimmten der Senat und das Repräsentantenhaus mit einer parteiübergreifenden Mehrheit für das Paket.",
-     "Das Gesetz soll den Druck auf Russland zur Beendigung des Krieges in der Ukraine erhöhen.",
-     "Es sieht Einreiseverbote für den Kremlchef Wladimir Putin und Militärvertreter vor.",
-     "Zudem werden Vermögen in den Vereinigten Staaten eingefroren und Strafzölle von bis zu fünfhundert Prozent auf Importe erhoben.",
-     "Nach Angaben der Nachrichtenagenturen dankte der ukrainische Präsident Wolodymyr Selenskyj für die Unterstützung.",
-     "Der frühere russische Präsident Dmitri Medwedew forderte dagegen eine militärische Abschreckung.",
-     "Das Gesetz betrifft auch Handelspartner wie China und Indien mit möglichen Zollaufschlägen von bis zu einhundert Prozent.",
-     "Die wirtschaftlichen Folgen für diese Länder sind zum aktuellen Zeitpunkt noch unklar."
-    ],
-    "einfach": [
-     "Der amerikanische Präsident Donald Trump hat neue Strafen gegen Russland unterschrieben.",
-     "Das Parlament der Vereinigten Staaten hat diesen Schritten vorher zugestimmt.",
-     "Es gibt nun Einreiseverbote und strengere Regeln für den Handel.",
-     "Die Ukraine findet die neuen Maßnahmen sehr gut.",
-     "Aus Russland kam als Reaktion eine Drohung mit militärischer Abschreckung.",
-     "Das Gesetz soll den Krieg in der Ukraine beenden helfen."
-    ]
-   },
-   "kurz": [
-    "US-Präsident Trump hat ein neues Sanktionsgesetz gegen Russland unterzeichnet.",
-    "Das Parlament hatte dem Paket zuvor mit großer Mehrheit zugestimmt.",
-    "Das Gesetz sieht Einreiseverbote, Vermögenseinfrierungen und drastische Strafzölle vor.",
-    "Die Ukraine begrüßte die Schritte, während Russland mit Drohungen reagierte."
-   ],
-   "fakten": [
-    [
-     "Maximale Strafzölle auf Importe aus Russland",
-     "bis zu 500 Prozent"
-    ],
-    [
-     "Mögliche Zollaufschläge für Produkte aus China oder Indien",
-     "bis zu 100 Prozent"
-    ]
-   ],
-   "dossier": {
-    "slug": "sanktionen-gegen-russland",
-    "titel": "Sanktionen gegen Russland"
-   },
-   "bildInfo": {
-    "titel": "South facade of the White House, Washington DC, as seen from the Washington Monument.jpg",
-    "beschreibung": "South facade of the White House, Washington DC, as seen from the Washington Monument. The White House is the official residence and principal workplace of the President of the United States. Located a",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg/1280px-South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_White_House,_Washington_DC,_as_seen_from_the_Washington_Monument.jpg",
-    "urheber": "Ad Meskens",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "art": "institution",
-    "suchbegriff": "White House Washington DC facade",
-    "bildunterschrift": "Die Südseite des Weißen Hauses in Washington, von dem aus die Unterzeichnung des Gesetzes bekannt gegeben wurde.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "South facade of the White House, Washington DC, as seen from the Washington Monument.jpg",
-     "beschreibung": "South facade of the White House, Washington DC, as seen from the Washington Monument. The White House is the official residence and principal workplace of the President of the United States. Located a",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg/1280px-South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1a/South_facade_of_the_White_House%2C_Washington_DC%2C_as_seen_from_the_Washington_Monument.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:South_facade_of_the_White_House,_Washington_DC,_as_seen_from_the_Washington_Monument.jpg",
-     "urheber": "Ad Meskens",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "institution",
-     "suchbegriff": "White House Washington DC facade",
-     "bildunterschrift": "Die Südseite des Weißen Hauses in Washington, von dem aus die Unterzeichnung des Gesetzes bekannt gegeben wurde.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Washington, USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Der amerikanische Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Rus",
-     "d": "118c6ebb57.mp3",
-     "l": 59.62,
-     "s": [
-      0.25,
-      6.34,
-      10.58,
-      16.87,
-      21.81,
-      27.14,
-      34.61,
-      41.11,
-      47.18,
-      54.57
-     ]
-    },
-    {
-     "k": "US-Präsident Donald Trump hat ein neues Sanktionsgesetz gegen Russland in Kraft ",
-     "d": "02a9fa1647.mp3",
-     "l": 20.89,
-     "s": [
-      0.25,
-      5.52,
-      11.07,
-      16.05
-     ]
-    },
-    {
-     "k": "Der amerikanische Präsident Donald Trump hat neue Strafen gegen Russland untersc",
-     "d": "d3385977b2.mp3",
-     "l": 29.26,
-     "s": [
-      0.25,
-      6.15,
-      11.01,
-      16.33,
-      19.83,
-      24.89
-     ]
-    },
-    {
-     "k": "Welche konkreten wirtschaftlichen Gesamtauswirkungen die angedrohten Zölle auf C",
-     "d": "8f025e85b1.mp3",
-     "l": 7.51,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Sanktionen? Wirtschaftliche Strafen oder Verbote gegen e",
-     "d": "3cc4c706bd.mp3",
-     "l": 10.35,
-     "s": [
-      0.25,
-      3.32
      ]
     }
    ]
