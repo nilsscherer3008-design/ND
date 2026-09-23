@@ -1,6 +1,64 @@
 {
- "stand": "2026-09-23T05:55:16.319Z",
- "inArbeit": null,
+ "stand": "2026-09-23T11:28:18.640Z",
+ "inArbeit": {
+  "id": "die-geschichte-unserer-schrift",
+  "titel": "Die Geschichte unserer Schrift",
+  "untertitel": "Wie aus einfachen Zeichen unser modernes Alphabet wurde.",
+  "bereich": "Sprache und Kultur",
+  "begonnen": "2026-09-23T11:35:25.097Z",
+  "kapitel": [
+   {
+    "ueberschrift": "Der Ursprung visueller Kommunikation",
+    "wikipedia": "Höhlenmalerei",
+    "fokus": "Menschen hielten bereits in der Urzeit Erlebnisse mit Bildern fest."
+   },
+   {
+    "ueberschrift": "Von Bildern zu Zeichen",
+    "wikipedia": "Piktogramm",
+    "fokus": "Einfache Symbole bildeten die Grundlage für erste Informationssysteme."
+   },
+   {
+    "ueberschrift": "Die Erfindung der Keilschrift",
+    "wikipedia": "Keilschrift",
+    "fokus": "In Mesopotamien entstand die erste ausgereifte Schrift der Menschheit."
+   },
+   {
+    "ueberschrift": "Die Welt der Hieroglyphen",
+    "wikipedia": "Ägyptische Hieroglyphen",
+    "fokus": "Im alten Ägypten entwickelten sich komplexe Schriftsysteme aus Bildern."
+   },
+   {
+    "ueberschrift": "Der Weg zum Alphabet",
+    "wikipedia": "Phönizisches Alphabet",
+    "fokus": "Phönizische Händler vereinfachten das Schreiben durch die Erfindung von Lautzeichen."
+   },
+   {
+    "ueberschrift": "Die griechische Anpassung",
+    "wikipedia": "Griechisches Alphabet",
+    "fokus": "Die Griechen ergänzten das Alphabet um Vokale und prägten die europäische Schrift."
+   },
+   {
+    "ueberschrift": "Die lateinische Schrift",
+    "wikipedia": "Lateinisches Alphabet",
+    "fokus": "Aus dem griechischen System entstand das heute weltweit meistgenutzte Alphabet."
+   },
+   {
+    "ueberschrift": "Die Entzifferung alter Schriften",
+    "wikipedia": "Rosettastein",
+    "fokus": "Forscher konnten dank historischer Funde längst vergessene Schriften lesen."
+   },
+   {
+    "ueberschrift": "Die Entwicklung des Buchdrucks",
+    "wikipedia": "Buchdruck",
+    "fokus": "Gutenbergs Erfindung machte geschriebenes Wissen für alle Menschen zugänglich."
+   },
+   {
+    "ueberschrift": "Die Zukunft der Schrift",
+    "wikipedia": "Digitale Typografie",
+    "fokus": "Computer und Bildschirme verändern unsere Schriftkultur im digitalen Zeitalter."
+   }
+  ]
+ },
  "fertig": [
   {
    "id": "die-reise-des-wassers",

@@ -1,6 +1,121 @@
 {
- "stand": "2026-09-23T05:55:16.319Z",
+ "stand": "2026-09-23T11:28:18.640Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-gps",
+   "zeit": "2026-09-23T11:35:15.248Z",
+   "bereich": "Technik und Erfindungen",
+   "titel": "Wie funktioniert eigentlich GPS?",
+   "vorspann": "Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Global Positioning System, offiziell NAVSTAR GPS genannt, ist ein globales Navigationssatellitensystem. Es dient der weltweiten Positionsbestimmung und der Navigation. Ursprünglich war das System für den militärischen Bereich vorgesehen. Es wurde seit den 1970er-Jahren vom US-Verteidigungsministerium entwickelt und nahm am 17. Juli 1995 offiziell den Betrieb auf. Mitt Mitte der 1990er-Jahre war es voll funktionsfähig.",
+      "Heute wird das GPS auch im zivilen Bereich durchweg genutzt. Es hilft bei der räumlichen Orientierung in der Seefahrt, in der Luftfahrt und im Straßenverkehr sowie beim Aufenthalt in der Natur. Zudem dient es der Positionsbestimmung im Rettungs- und Feuerwehrdienst, im öffentlichen Personennahverkehr und im Logistikbereich. Auch in Mobiltelefonen kommt es zum Einsatz."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Das System basiert auf Satelliten, die mit codierten Radiosignalen ständig ihre aktuelle Position und die genaue Uhrzeit ausstrahlen. Aus den Signallaufzeiten können spezielle Empfänger ihre eigene Position und Geschwindigkeit berechnen. Theoretisch reichen die Signale von drei Satelliten aus, um die Position und Höhe zu bestimmen. In der Praxis wird jedoch das Signal eines vierten Satelliten benötigt, um die Referenzzeit im Empfänger korrekt zu messen.",
+      "Die Satellitenkreise sind so festgelegt, dass ein Empfänger in der Regel Kontakt zu mindestens vier Satelliten haben kann. Sechs Bahnebenen sind gegen den Äquator geneigt und decken fast die ganze Welt ab. In jeder Bahnebene umkreisen mindestens vier Satelliten die Erde in einer Höhe von 20.200 Kilometern. Das Datensignal wird parallel auf verschiedenen Frequenzen ausgesendet.",
+      "Für zivile Nutzer wurde am 2. Mai 2000 die künstliche Signalverschlechterung abgeschaltet. Seitdem ist eine Genauigkeit von oft besser als zehn Metern möglich. Durch spezielle Differenzmethoden lässt sich dieser Wert noch stark steigern."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Für die Entwicklung des Global Positioning System erhielten Bradford W. Parkinson, Hugo Fruehauf und Richard Schwartz im Jahr 2019 den Queen Elizabeth Prize for Engineering. Technische Details und Funktionsweisen sind in offiziellen Dokumenten und Beschreibungen des Systems festgehalten."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Höhe der Satellitenbahn",
+     "20.200 km"
+    ],
+    [
+     "Inbetriebnahme",
+     "17. Juli 1995"
+    ]
+   ],
+   "begriffe": [
+    [
+     "GPS",
+     "Ein globales Navigationssatellitensystem zur Positionsbestimmung mit Hilfe von Satelliten."
+    ],
+    [
+     "NAVSTAR GPS",
+     "Die offizielle Bezeichnung für das Global Positioning System."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde das GPS offiziell in Betrieb genommen?",
+     "optionen": [
+      "17. Juli 1995",
+      "2. Mai 2000",
+      "1970"
+     ],
+     "richtig": 0,
+     "erklaerung": "Das System wurde laut dem Artikel am 17. Juli 1995 offiziell in Betrieb genommen."
+    }
+   ],
+   "video": [
+    "Das Global Positioning System hilft bei der weltweiten Positionsbestimmung.",
+    "Es wurde vom US-Verteidigungsministerium entwickelt.",
+    "Satelliten strahlen ständig ihre Position und Uhrzeit aus.",
+    "Empfänger messen die Signallaufzeiten von mehreren Satelliten.",
+    "Daraus lassen sich die eigene Position und Geschwindigkeit berechnen.",
+    "Früher gab es eine künstliche Signalverschlechterung.",
+    "Diese wurde im Jahr zweitausend abgeschaltet.",
+    "Seither können auch zivile Nutzer sehr genaue Daten empfangen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Global Positioning System",
+    "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
+   },
+   "quelle": {
+    "titel": "Global Positioning System",
+    "url": "https://de.wikipedia.org/wiki/Global_Positioning_System",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 298,
+   "bildInfos": [
+    {
+     "titel": "DGPS Reference Station.jpg",
+     "beschreibung": "DGPS Reference Station",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DGPS_Reference_Station.jpg",
+     "urheber": "Stefan Kühn",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Differential Global Positioning System",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
+    }
+   ],
+   "bildInfo": {
+    "titel": "DGPS Reference Station.jpg",
+    "beschreibung": "DGPS Reference Station",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:DGPS_Reference_Station.jpg",
+    "urheber": "Stefan Kühn",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Differential Global Positioning System",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
+   }
+  },
   {
    "id": "warum-haben-flamingos-rosa-federn",
    "zeit": "2026-09-23T06:00:24.139Z",

@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-23T05:55:16.319Z",
+ "stand": "2026-09-23T11:28:18.640Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -22,7 +22,9 @@
   "davis-cup-tennis-finale",
   "merzer-enteignungsverbot",
   "mercedes-werkschliessung",
-  "ig-metall-aktionstag"
+  "ig-metall-aktionstag",
+  "ig-metall-forderung-tarifrunde",
+  "oecd-konjunkturprognose-deutschland"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -45,10 +47,12 @@
   "davis-cup-tennis-finale",
   "merzer-enteignungsverbot",
   "mercedes-werkschliessung",
-  "ig-metall-aktionstag"
+  "ig-metall-aktionstag",
+  "ig-metall-forderung-tarifrunde",
+  "oecd-konjunkturprognose-deutschland"
  ],
  "wetter": {
-  "stand": "2026-09-23T05:55:16.319Z",
+  "stand": "2026-09-23T11:28:18.640Z",
   "morgenTag": "Donnerstag",
   "orte": [
    {
@@ -58,13 +62,13 @@
     "teil": "Norden",
     "heute": {
      "code": 61,
-     "max": 17,
+     "max": 18,
      "min": 10
     },
     "morgen": {
      "code": 80,
      "max": 15,
-     "min": 12
+     "min": 13
     }
    },
    {
@@ -74,13 +78,13 @@
     "teil": "Osten",
     "heute": {
      "code": 3,
-     "max": 19,
+     "max": 20,
      "min": 8
     },
     "morgen": {
-     "code": 80,
-     "max": 16,
-     "min": 13
+     "code": 81,
+     "max": 15,
+     "min": 12
     }
    },
    {
@@ -90,13 +94,13 @@
     "teil": "Osten",
     "heute": {
      "code": 3,
-     "max": 18,
+     "max": 19,
      "min": 8
     },
     "morgen": {
-     "code": 61,
-     "max": 16,
-     "min": 11
+     "code": 80,
+     "max": 14,
+     "min": 12
     }
    },
    {
@@ -122,12 +126,12 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 20,
-     "min": 7
+     "max": 21,
+     "min": 8
     },
     "morgen": {
      "code": 3,
-     "max": 20,
+     "max": 19,
      "min": 12
     }
    },
@@ -138,13 +142,13 @@
     "teil": "Süden",
     "heute": {
      "code": 3,
-     "max": 21,
-     "min": 7
+     "max": 22,
+     "min": 8
     },
     "morgen": {
      "code": 3,
-     "max": 20,
-     "min": 12
+     "max": 19,
+     "min": 13
     }
    },
    {
@@ -154,7 +158,7 @@
     "teil": "Süden",
     "heute": {
      "code": 3,
-     "max": 18,
+     "max": 19,
      "min": 6
     },
     "morgen": {
@@ -165,9 +169,9 @@
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 17 und 22 Grad.",
+   "Heute liegen die Höchstwerte zwischen 18 und 22 Grad.",
    "Die Vorhersage für morgen, Donnerstag: im Norden und Osten Regenschauer, im Süden und Westen bewölkt.",
-   "Die Temperaturen erreichen dann 15 bis 20 Grad.",
+   "Die Temperaturen erreichen dann 14 bis 20 Grad.",
    "Am wärmsten wird es in Köln mit 20 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
@@ -349,105 +353,90 @@
  },
  "nachrichten": [
   {
-   "id": "usa-daenemark-groenland-abkommen",
-   "rubrik": "Welt",
-   "zeit": "2026-09-23T05:53:00.000Z",
-   "aktualisiert": "aktualisiert um 07:55 Uhr",
-   "titel": "Sicherheitsabkommen zwischen den USA, Dänemark und Grönland unterzeichnet",
-   "vorspann": "Die USA, Dänemark und Grönland haben am Rande der UN-Vollversammlung in New York ein neues Sicherheitsabkommen unterzeichnet. Die Vereinbarung sieht unter anderem eine Stärkung der US-Militärpräsenz und den Bau von zwei neuen Stützpunkten in Grönland vor.",
+   "id": "ig-metall-forderung-tarifrunde",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-23T11:19:41.000Z",
+   "titel": "Tarifrunde in der Metall- und Elektroindustrie: IG Metall beschließt Forderungen",
+   "vorspann": "Die Gewerkschaft IG Metall fordert in der anstehenden Tarifrunde für die Metall- und Elektroindustrie fünf Prozent mehr Geld. Arbeitgeberverbände weisen diese Forderungen nach Angaben aus Berichten als realitätsfern oder maßlos zurück.",
    "eil": false,
    "zusammenfassung": [
-    "Die USA, Dänemark und Grönland haben am Rande der UN-Vollversammlung in New York ein neues Sicherheitsabkommen unterzeichnet.",
-    "Das Abkommen erlaubt den USA den Bau von zwei neuen Militärstützpunkten in Grönland sowie die Modernisierung des bestehenden Stützpunkts Pituffik.",
-    "Die territoriale Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands werden in der Vereinbarung ausdrücklich anerkannt.",
-    "Dem Abkommen war ein monatelanger Streit vorausgegangen, nachdem US-Präsident Trump zuvor wiederholt Forderungen bezüglich der Arktisinsel geäußert hatte."
+    "Die IG Metall fordert für die 3,7 Millionen Beschäftigten der Metall- und Elektroindustrie fünf Prozent mehr Geld.",
+    "Zusätzlich verlangt die Gewerkschaft nach eigenen Angaben eine Gewinnbeteiligung für erfolgreiche Unternehmen sowie Maßnahmen zur Beschäftigungssicherung.",
+    "Die Arbeitgeberverbände weisen die Forderungen laut Berichten als realitätsfern und maßlos zurück.",
+    "Die Verhandlungen beginnen am 7. Oktober in Nordrhein-Westfalen und Baden-Württemberg; ab dem 1. November sind Warnstreiks möglich."
    ],
    "einig": [
     [
-     "Die USA, Dänemark und Grönland haben ein Sicherheitsabkommen unterzeichnet.",
+     "Die IG Metall fordert fünf Prozent mehr Geld für die Metall- und Elektroindustrie.",
      [
       "Tagesschau/ARD",
+      "ZDFheute",
       "Spiegel",
-      "BBC",
-      "taz",
-      "ORF"
+      "Süddeutsche Zeitung"
      ]
     ],
     [
-     "Die Unterzeichnung fand am Rande der UN-Vollversammlung in New York statt.",
+     "Von der Tarifrunde sind rund 3,7 Millionen Beschäftigte betroffen.",
      [
       "Tagesschau/ARD",
-      "Spiegel",
-      "BBC",
-      "taz",
-      "ORF"
+      "ZDFheute",
+      "Spiegel"
      ]
     ],
     [
-     "Das Abkommen sieht den Bau von zwei neuen Militärbasen in Grönland vor.",
+     "Die Verhandlungen starten in den ersten Bezirken am 7. Oktober.",
      [
-      "Spiegel",
-      "BBC",
-      "taz",
-      "ORF"
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
      ]
     ],
     [
-     "Das Abkommen baut auf einem Verteidigungsabkommen aus dem Jahr 1951 auf.",
+     "Die Friedenspflicht endet am 31. Oktober, danach sind Warnstreiks möglich.",
      [
-      "Spiegel",
-      "BBC",
-      "taz",
-      "ORF"
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Welche konkrete Rolle das geplante Raketenabwehrsystem Golden Dome in dem Abkommen spielt (laut taz direkt enthalten, laut BBC nur einmal ohne konkreten Vorschlag erwähnt)."
+    "Ob es zu einer Einigung vor Ablauf der Friedenspflicht kommt oder ob es ab dem 1. November zu Warnstreiks kommt, ist noch unklar."
    ],
    "positionen": [
     [
-     "Donald Trump (US-Präsident)",
-     "Das Abkommen baut eine langfristige Beziehung auf und bringt eine verstärkte militärische Präsenz.",
-     "Tagesschau/ARD,Spiegel,BBC,taz,ORF"
+     "IG Metall (Vorstand und Vertreter)",
+     "Die Forderung nach fünf Prozent mehr Geld, Gewinnbeteiligung für erfolgreiche Unternehmen und Zukunftssicherung wird als verantwortungsvoll und gerecht bezeichnet.",
+     "Tagesschau/ARD, ZDFheute, Spiegel"
     ],
     [
-     "Mette Frederiksen (Dänische Ministerpräsidentin)",
-     "Das Abkommen ist ein Meilenstein für die Beziehungen, respektiert Dänemarks Souveränität und ist gut für die NATO.",
-     "Tagesschau/ARD,Spiegel,BBC,taz,ORF"
-    ],
-    [
-     "Jens-Frederik Nielsen (Grönländischer Regierungschef)",
-     "Das Abkommen ist eine Win-Win-Win-Situation und eine Vereinbarung, die gemeinsam mit Grönland getroffen wurde.",
-     "Tagesschau/ARD,Spiegel,BBC,taz,ORF"
-    ],
-    [
-     "Antonio Costa (EU-Ratspräsident)",
-     "Das Abkommen ist ein positiver Schritt für die Sicherheit in der Arktis.",
-     "ORF"
-    ],
-    [
-     "Friedrich Merz (Deutscher Bundeskanzler)",
-     "Die Verhandlungen haben zu einer einvernehmlichen Lösung im Einklang mit internationalem Recht geführt.",
-     "ORF"
-    ],
-    [
-     "Mark Rutte (NATO-Generalsekretär)",
-     "Mehr Sicherheit in der Arktis und im Nordatlantik ist für Europa und Nordamerika von entscheidender Bedeutung.",
-     "BBC,ORF"
+     "Arbeitgeberverbände (Südwestmetall, Nordmetall)",
+     "Die Forderungen werden als realitätsfern und maßlos eingestuft; es wird vor einer Gefährdung von Arbeitsplätzen in der Krise gewarnt.",
+     "Tagesschau/ARD, ZDFheute, Spiegel"
     ]
    ],
-   "fehlend": "Stimmen aus der russischen oder chinesischen Regierung zu den getroffenen Sicherheitsmaßnahmen.",
+   "fehlend": "Detaillierte Einzelpositionen einzelner Automobilkonzerne oder betroffener Unternehmen außerhalb der Verbandsvertreter.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "22.09.26, 18:02",
-     "fokus": "Politischer Durchbruch in New York",
-     "text": "Berichtet sachlich über die Unterzeichnung des Sicherheitsabkommens am Rande der UN-Vollversammlung und beleuchtet Trumps vorherige Forderungen.",
-     "url": "https://www.tagesschau.de/ausland/amerika/abkommen-zu-groenland-unterzeichnet-100.html",
+     "datum": "23.09.26, 13:19",
+     "fokus": "Forderungen und Branchenlage",
+     "text": "Berichtet über den Vorstandsbeschluss, die Aussagen von IG-Metall-Chefin Benner und Tarifvorständin Boguslawski.",
+     "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/tarifforderungen-ig-metall-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 12:43",
+     "fokus": "Lohnforderung und Gewinnbeteiligung",
+     "text": "Betont die Reaktionen der Arbeitgeber, die Gewinnbeteiligung und nennt Details zur wirtschaftlichen Situation.",
+     "url": "https://www.zdfheute.de/wirtschaft/ig-metall-beschaeftigte-metall-elektro-industrie-tarifrunde-100.html",
      "video": false
     },
     {
@@ -455,21 +444,1206 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "22.09.26, 17:57",
-     "fokus": "Details zu Stützpunkten und Reaktionen",
-     "text": "Nennt konkrete Standorte der neuen Basen und zitiert ausführlich die Aussagen der beteiligten Regierungschefs.",
-     "url": "https://www.spiegel.de/ausland/groenland-usa-und-daenemark-besiegeln-sicherheitsabkommen-bei-uno-treffen-a-55f0f60c-da5d-4d05-910e-edc636931799#ref=rss",
+     "datum": "22.09.26, 16:25",
+     "fokus": "Vergleich zu Vorjahren",
+     "text": "Ordnet die aktuelle Forderung im Vergleich zu früheren Tarifrunden ein und zitiert Arbeitgeberverbände.",
+     "url": "https://www.spiegel.de/wirtschaft/ig-metall-wird-offenbar-fuenf-prozent-mehr-lohn-fordern-a-cb61bed9-620e-494e-b13c-e9c012003874#ref=rss",
      "video": false
     },
     {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
      "stamm": true,
-     "datum": "22.09.26, 23:36",
-     "fokus": "Hintergründe zu den Basen und dem Text",
-     "text": "Führt genaue Standorte wie Narsarsuaq und Mestersvig auf und analysiert die Verankerung im NATO-Bündnis.",
-     "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+     "datum": "22.09.26, 13:00",
+     "fokus": "Einordnung der reduzierten Forderung",
+     "text": "Beleuchtet die Hintergründe der im Vergleich zu Vorjahren niedrigeren Gehaltsforderung.",
+     "url": "https://www.sueddeutsche.de/wirtschaft/ig-metall-tarifverhandlungen-autoindustrie-inflation-vw-mercedes-bmw-li.3548755",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zahl der Beschäftigten",
+     "Die Süddeutsche Zeitung nennt vier Millionen Beschäftigte, während Tagesschau/ARD, ZDFheute und Spiegel von 3,7 Millionen sprechen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "IG Metall und Arbeitgeberverbände",
+    "was": "Forderung nach fünf Prozent mehr Lohn und Gewinnbeteiligung",
+    "wann": "23.09.2026",
+    "wo": "Deutschland",
+    "wie": "Durch Beschluss des Gewerkschaftsvorstands nach Bezirksberatungen",
+    "warum": "Laut IG Metall zum Ausgleich gestiegener Lebenshaltungskosten",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Spiegel, Süddeutsche Zeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Beschluss zur Tarifrunde",
+     "absaetze": [
+      "Der Vorstand der Industriegewerkschaft IG Metall hat am Mittwoch nach Angaben der Berichte die Forderung nach fünf Prozent mehr Geld für die Beschäftigten in der Metall- und Elektroindustrie beschlossen. Zuvor hatten laut Berichten bereits am Dienstag die sieben Tarifbezirke entsprechende Beschlüsse gefasst. Die Laufzeit soll nach Angaben aus Nordrhein-Westfalen und Baden-Württemberg zwölf Monate betragen. Neben der Lohnerhöhung strebt die Gewerkschaft auch eine Sicherung von Zukunft und Beschäftigung an.",
+      "Die Tarifrunde betrifft laut Tagesschau, ZDF und Spiegel rund 3,7 Millionen Beschäftigte in der Branche. Die IG Metall begründet die Forderung nach Angaben zufolge unter anderem damit, die Lebenshaltungskosten abzufedern. Gewerkschaftsvertreter erklärten nach Berichten, dass wer Aufschwung wolle, auch Kaufkraft benötige. Die Gewerkschaft geht nach eigenen Angaben mit kämpferischem Realismus in die Verhandlungen.",
+      "Zusätzlich fordert die Gewerkschaft nach Angaben der Berichte eine Gewinnbeteiligung für bestimmte Unternehmen. Nach den Worten von IG-Metall-Tarifvorständin Nadine Boguslawski soll wer außergewöhnlichen Erfolg erarbeitet, auch am Gewinn beteiligt werden. Ein weiteres Thema ist nach Berichten die Forderung nach Instrumenten für Beschäftigungssicherung in Krisenunternehmen."
+     ]
+    },
+    {
+     "ueberschrift": "Wirtschaftliche Lage in der Branche",
+     "absaetze": [
+      "Die Tarifverhandlungen werden nach übereinstimmenden Berichten von Krisen in Teilen der Branche überschattet. Laut Erhebungen der Gewerkschaft ist der Auftragsbestand in zwei Dritteln der Unternehmen gut oder sehr gut. Einen Auftragsboom gibt es demnach insbesondere bei Herstellern von Schiffen und Schienenfahrzeugen sowie in der Medizintechnik, der Luft- und Raumfahrt und im Rüstungsbereich. Auch die IT-Industrie wird in Berichten als Bereich genannt, in dem es besser läuft.",
+      "Auf der anderen Seite ist die Auftragslage bei etwa einem Drittel der Unternehmen nach Berichten schlecht. Davon betroffen sind vor allem die Autoindustrie und der Maschinenbau. Die Autoindustrie baut massiv Stellen ab, und es drohen Werksschließungen. Gegen diese Einschnitte hatte die IG Metall nach übereinstimmenden Berichten bereits am Montag bei einem bundesweiten Aktionstag rund 175.000 Beschäftigte mobilisiert.",
+      "Die Gewerkschaft hebt laut Berichten hervor, dass die Beschäftigten in den vergangenen Jahren enorme Belastungen getragen haben. Laut dem Bezirksleiter der IG Metall Nordrhein-Westfalen, Knut Giesler, ist es jetzt an der Zeit, dass die Arbeitnehmer an den wirtschaftlichen Verbesserungen beteiligt werden. Die IG Metall verlangt mit fünf Prozent diesmal eine niedrigere Erhöhung als vor zwei Jahren, als sieben Prozent gefordert wurden."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen der Arbeitgeber",
+     "absaetze": [
+      "Die Arbeitgeberverbände haben die Forderungen der IG Metall nach Berichten umgehend zurückgewiesen. Sie verlangten stattdessen niedrigere Arbeitskosten, um die Krise in weiten Teilen der Branche zu überwinden und den Stellenabbau zu stoppen. Der Südwestmetall-Vorsitzende Peter Sebastian Krause erklärte nach Berichten, es müsse gelingen, dass die Unternehmen wieder wettbewerbsfähig produzieren können.",
+      "Vom Arbeitgeberverband Südwestmetall wurde laut Spiegel zudem die Äußerung getätigt, man sei angesichts der Forderung fassungslos. Der Verband Nordmetall argumentierte nach Berichten, die Forderung sei kein geeignetes Signal, um die Verlagerung von Arbeitsplätzen ins Ausland zu bremsen. Die Arbeitgeber warnen demnach vor der Gefährdung von Arbeitsplätzen.",
+      "Die IG Metall wies Kritik der Arbeitgeber nach Berichten ihrerseits zurück. Verlagerungsdrohungen als Ablenkungsmanöver von Management-Versagen würden demnach nicht akzeptiert."
+     ]
+    },
+    {
+     "ueberschrift": "Zeitplan und weiteres Vorgehen",
+     "absaetze": [
+      "Die regional geführten Tarifverhandlungen für die Metall- und Elektroindustrie beginnen in den Bezirken Nordrhein-Westfalen und Baden-Württemberg nach übereinstimmenden Berichten am 7. Oktober. Die übrigen Tarifgebiete folgen demnach in den Tagen darauf. Bis Ende Oktober könnte es nach Angaben der Beteiligten eine zweite Verhandlungsrunde geben.",
+      "Die Friedenspflicht endet nach übereinstimmenden Berichten mit dem Auslaufen des aktuellen Tarifvertrages am 31. Oktober. Ab dem 1. November sind nach Angaben der Berichte Warnstreiks in der Branche möglich."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Montag",
+     "Bundesweiter Aktionstag der IG Metall mit rund 175.000 Beschäftigten gegen Stellenabbau in der Autoindustrie"
+    ],
+    [
+     "Dienstag",
+     "Beschlüsse der IG-Metall-Bezirke über die Forderungen"
+    ],
+    [
+     "Mittwoch",
+     "Beschluss des IG-Metall-Vorstands über die Forderungen"
+    ],
+    [
+     "7. Oktober",
+     "Beginn der ersten Tarifverhandlungen in den Bezirken Nordrhein-Westfalen und Baden-Württemberg"
+    ],
+    [
+     "31. Oktober",
+     "Ende der Friedenspflicht durch Auslaufen des aktuellen Tarifvertrages"
+    ],
+    [
+     "1. November",
+     "Möglicher Beginn von Warnstreiks"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Christiane Benner trade unionist",
+     "bildunterschrift": "Christiane Benner, Vorsitzende der Industriegewerkschaft IG Metall, vertritt die Interessen der Arbeitnehmer."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "IG Metall headquarters Frankfurt",
+     "bildunterschrift": "Die Zentrale der IG Metall in Frankfurt am Main, wo gewerkschaftliche Beschlüsse gefasst werden."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Automobile manufacturing factory",
+     "bildunterschrift": "Eine Produktionshalle in der Industrie, deren wirtschaftliche Lage die aktuellen Tarifverhandlungen beeinflusst."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Stuttgart city skyline",
+     "bildunterschrift": "Stuttgart in Baden-Württemberg, einer der Bezirke, in denen die Tarifverhandlungen Anfang Oktober starten."
+    }
+   ],
+   "ort": {
+    "name": "Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Formulierung im Vorspann von direkter Zuschreibung auf Berichte angepasst, um Neutralität zu wahren.",
+    "Behauptungen im Artikel durchgehend als Aussagen der jeweiligen Seiten nach den Berichten gekennzeichnet.",
+    "Werte und Daten konsistent zu den mitgelieferten Quellen gehalten."
+   ],
+   "wortwarnung": [
+    "massiv"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Tarifrunde",
+      "Das sind Verhandlungen zwischen Gewerkschaften und Arbeitgebern über Löhne und Arbeitsbedingungen."
+     ],
+     [
+      "Friedenspflicht",
+      "Das ist eine Zeit, in der nicht gestreikt werden darf, weil ein alter Tarifvertrag noch gültig ist."
+     ],
+     [
+      "Gewerkschaft",
+      "Eine Organisation, die die Interessen und Rechte von Arbeitnehmern vertritt."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente bringen die Gewerkschaft und die Arbeitgeber in den Tarifverhandlungen vor?",
+     "Warum spielt die wirtschaftliche Lage einzelner Branchenteile wie der Autoindustrie eine Rolle für die Verhandlungen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viel Prozent mehr Geld fordert die IG Metall in der Tarifrunde?",
+      "optionen": [
+       "Drei Prozent",
+       "Fünf Prozent",
+       "Sieben Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten fordert die IG Metall fünf Prozent mehr Geld."
+     },
+     {
+      "frage": "Wie viele Beschäftigte sind von der Tarifrunde in der Metall- und Elektroindustrie betroffen?",
+      "optionen": [
+       "Rund 3,7 Millionen",
+       "Rund 1,5 Millionen",
+       "Rund 5,0 Millionen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte von Tagesschau, ZDF und Spiegel nennen rund 3,7 Millionen Beschäftigte."
+     },
+     {
+      "frage": "Wann endet die Friedenspflicht in dieser Tarifrunde?",
+      "optionen": [
+       "Am 7. Oktober",
+       "Am 15. Oktober",
+       "Am 31. Oktober"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die Friedenspflicht endet laut den Berichten mit dem Auslaufen des Tarifvertrages am 31. Oktober."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Gewerkschaft IG Metall fordert in der Metall- und Elektroindustrie fünf Prozent mehr Geld für die Beschäftigten.",
+    "absaetze": [
+     "In Deutschland beginnt bald eine wichtige Tarifrunde für rund drei Komma sieben Millionen Beschäftigte.",
+     "Die Gewerkschaft IG Metall will fünf Prozent mehr Geld für die Arbeiterinnen und Arbeiter erreichen.",
+     "Zusätzlich soll es in Betrieben mit besonders vielen Gewinnen eine Beteiligung für die Angestellten geben.",
+     "Die Arbeitgeberverbände finden diese Forderungen viel zu hoch und lehnen sie ab.",
+     "Die Gespräche zwischen Gewerkschaft und Arbeitgebern starten am siebten Oktober."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die IG Metall fordert fünf Prozent mehr Geld für die Beschäftigten.",
+     "Die Arbeitgeberverbände weisen diese Forderungen nach Berichten als realitätsfern zurück.",
+     "Ab dem siebten Oktober beginnen die ersten Verhandlungen in den Bezirken."
+    ],
+    "lang": [
+     "Die Gewerkschaft IG Metall fordert in der anstehenden Tarifrunde fünf Prozent mehr Geld.",
+     "Das hat der Vorstand nach Angaben der Berichte beschlossen.",
+     "Betroffen sind rund drei Komma sieben Millionen Beschäftigte in der Metall- und Elektroindustrie.",
+     "Zusätzlich verlangt die Gewerkschaft nach eigenen Angaben eine Gewinnbeteiligung für erfolgreiche Unternehmen.",
+     "Die Verhandlungen starten am siebten Oktober in Nordrhein-Westfalen und Baden-Württemberg.",
+     "Die Arbeitgeberverbände weisen die Forderungen nach Angaben der Berichte als realitätsfern zurück.",
+     "Die Friedenspflicht endet am einunddreißigsten Oktober nach Angaben der Medien.",
+     "Danach sind ab dem ersten November Warnstreiks möglich."
+    ],
+    "einfach": [
+     "Die IG Metall fordert fünf Prozent mehr Geld für viele Beschäftigte.",
+     "Das betrifft rund drei Komma sieben Millionen Menschen in der Industrie.",
+     "Die Arbeitgeber sagen, dass diese Forderungen viel zu hoch sind.",
+     "Am siebten Oktober beginnen die Gespräche zwischen beiden Seiten.",
+     "Ab dem ersten November kann es auch Streiks geben."
+    ]
+   },
+   "kurz": [
+    "Die IG Metall fordert in der Tarifrunde fünf Prozent mehr Geld.",
+    "Betroffen sind rund 3,7 Millionen Beschäftigte in der Metall- und Elektroindustrie.",
+    "Arbeitgeberverbände weisen die Forderungen als realitätsfern zurück.",
+    "Verhandlungen beginnen am 7. Oktober, Warnstreiks sind ab dem 1. November möglich."
+   ],
+   "fakten": [
+    [
+     "Beschäftigte",
+     "3,7 Millionen"
+    ],
+    [
+     "Geforderte Lohnerhöhung",
+     "fünf Prozent"
+    ],
+    [
+     "Teilnehmer am Aktionstag",
+     "175.000 Beschäftigte"
+    ],
+    [
+     "Beginn der Verhandlungen",
+     "7. Oktober"
+    ],
+    [
+     "Ende der Friedenspflicht",
+     "31. Oktober"
+    ]
+   ],
+   "dossier": {
+    "slug": "tarifrunde-metall-und-elektroindustrie-2026",
+    "titel": "Tarifrunde in der Metall- und Elektroindustrie 2026"
+   },
+   "bildInfo": {
+    "titel": "Frankfurt am Main, Central business district (2024).jpg",
+    "beschreibung": "Frankfurt : Bankenviertel (central business district)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+    "urheber": "Dr. Thomas Liptak",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Liste der Hochhäuser in Frankfurt am Main",
+    "sprache": "de",
+    "art": "institution",
+    "suchbegriff": "IG Metall headquarters Frankfurt",
+    "bildunterschrift": "Das Bankenviertel in Frankfurt am Main, wo sich der Sitz der Gewerkschaft IG Metall befindet.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Frankfurt am Main, Central business district (2024).jpg",
+     "beschreibung": "Frankfurt : Bankenviertel (central business district)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+     "urheber": "Dr. Thomas Liptak",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Liste der Hochhäuser in Frankfurt am Main",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "IG Metall headquarters Frankfurt",
+     "bildunterschrift": "Das Bankenviertel in Frankfurt am Main, wo sich der Sitz der Gewerkschaft IG Metall befindet.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "003 Car dashboard manufacturing process - Opel car factory in Gliwice, Poland.jpg",
+     "beschreibung": "Car dashboard at a factory assembly line. Opel Astra J manufactured in General Motors Manufacturing Poland plant in Gliwice.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg/1280px-003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice,_Poland.jpg",
+     "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "suchbegriff": "Automobile manufacturing factory",
+     "bildunterschrift": "Eine Autoteile-Produktion als Beispiel für die Metall- und Elektroindustrie.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Deutschland",
+    "lat": 51.164,
+    "lon": 10.448
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "dieseltrend-hoechststand-spritpreise",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-23T11:08:58.000Z",
+   "aktualisiert": "aktualisiert um 13:28 Uhr",
+   "titel": "Prüfung eines Exportstopps für Diesel durch die US-Regierung",
+   "vorspann": "Angesichts gestiegener Treibstoffpreise prüft die US-Regierung einen Exportstopp für Diesel. US-Präsident Donald Trump sprach sich am Rande der UN-Generaldebatte für eine solche Maßnahme aus.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die US-Regierung prüft angesichts stark gestiegener Kraftstoffpreise einen Exportstopp für Diesel.",
+    "US-Präsident Donald Trump sprach sich für das Verbot aus, während Finanzminister Scott Bessent die Machbarkeit untersucht.",
+    "Hintergrund sind die durch den Irankrieg verursachten Preissteigerungen und der anstehende Wahlkampf vor den Kongresswahlen.",
+    "Die Pläne stoßen in der Politik und bei Verbänden auf unterschiedliche Reaktionen und könnten auch Folgen für Europa haben."
+   ],
+   "einig": [
+    [
+     "Die USA prüfen einen Exportstopp für Diesel wegen hoher Treibstoffpreise.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "ORF"
+     ]
+    ],
+    [
+     "US-Präsident Donald Trump äußerte sich am Rande der UN-Generaldebatte in New York zu dem Thema.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "ORF"
+     ]
+    ],
+    [
+     "Die USA waren in den vergangenen Jahren Europas wichtigster Lieferant von Diesel nach dem Nahen Osten.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "ORF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob ein vollständiger oder nur ein teilweiser Exportstopp umgesetzt wird, ist laut Finanzminister Scott Bessent noch unklar."
+   ],
+   "positionen": [
+    [
+     "Donald Trump (US-Präsident)",
+     "Befürwortet einen Exportstopp von Diesel zur Senkung der heimischen Preise.",
+     "Tagesschau/ARD,Spiegel,ORF"
+    ],
+    [
+     "Scott Bessent (US-Finanzminister)",
+     "Prüft die Machbarkeit und ob ein vollständiges oder teilweises Verbot funktionieren würde.",
+     "Tagesschau/ARD,Spiegel,ORF"
+    ],
+    [
+     "Ashley Hinson (US-Abgeordnete)",
+     "Befürwortet den Exportstopp zur Entlastung der Verbraucher in landwirtschaftlichen Regionen.",
+     "Spiegel"
+    ],
+    [
+     "Chris Wright (US-Energieminister)",
+     "Äußerte Bedenken und warnte vor den Folgen für verbündete Länder.",
+     "Spiegel"
+    ],
+    [
+     "Verband der US-Treibstoffindustrie",
+     "Warnte vor negativen Folgen für die Raffinerieproduktion und die Benzinpreise.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen aus europäischen Regierungen oder von der Europäischen Union zu den möglichen Folgen für den Dieselimport.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 08:22",
+     "fokus": "Politische und wirtschaftliche Folgen",
+     "text": "Der Bericht beleuchtet die Auswirkung auf US-Landwirte und die historische Parallele zur Ölkrise der 1970er-Jahre.",
+     "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-diskussion-exportstopp-diesel-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 13:08",
+     "fokus": "Kurzmeldung zum Sachverhalt",
+     "text": "Die Meldung beschränkt sich auf die Kerninformation zur Prüfung des Exportstopps.",
+     "url": "https://www.deutschlandfunk.de/usa-pruefen-wegen-hoher-spritpreise-exportstopp-fuer-diesel-massnahme-zuletzt-waehrend-oelkrise-in-d-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "23.09.26, 02:04",
+     "fokus": "Interne US-Debatte und Ministerwarnungen",
+     "text": "Der Artikel nennt konkrete Abgeordnete und zitiert ausführlich die Warnungen von Energieminister Chris Wright und der Industrie.",
+     "url": "https://www.spiegel.de/ausland/usa-donald-trump-will-exportstopp-fuer-diesel-trotz-warnungen-seines-ministers-a-154ac142-90ab-493e-b792-e85e630b00c9#ref=rss",
+     "video": false
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "23.09.26, 06:01",
+     "fokus": "Kompakte Zusammenfassung der Ankündigung",
+     "text": "Der Beitrag fasst die Aussagen von Donald Trump und Finanzminister Scott Bessent kurz und sachlich zusammen.",
+     "url": "https://orf.at/stories/3442959/",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Spiegel liefert zusätzliche Details zu innerparteilichen Konflikten und regionalen Abgeordnetenstimmen, während Deutschlandfunk und ORF eine kurze Zusammenfassung bieten."
+    ]
+   ],
+   "wfragen": {
+    "wer": "US-Präsident Donald Trump und Finanzminister Scott Bessent",
+    "was": "Prüfung eines Exportstopps für Dieselkraftstoff",
+    "wann": "23. September 2026",
+    "wo": "New York, USA",
+    "wie": "durch Prüfung eines vollständigen oder teilweisen Ausfuhrverbots",
+    "warum": "wegen hoher Treibstoffpreise infolge des Irankriegs, laut US-Präsident Donald Trump",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, Spiegel und ORF"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Angesichts gestiegener Treibstoffpreise in den Vereinigten Staaten erwägt die Regierung einen Exportstopp für Diesel. Dies gab US-Präsident Donald Trump am Dienstag am Rande der UN-Generaldebatte in New York bekannt. Nach Angaben des Präsidenten wurde das Thema im Rahmen politischer Beratungen erörtert. Die Maßnahme soll dazu dienen, das Angebot auf dem heimischen Markt zu vergrößern.",
+      "Zuletzt griffen die Vereinigten Staaten während der Ölkrise der 1970er-Jahre zu einem solchen Mittel. Damals wurden die Ausfuhren von Rohöl weitgehend gestoppt, um die Preise im Inland zu senken. Die aktuellen Überlegungen knüpfen an diese historische Vorgehensweise an. Der Kraftstoffpreis steht derzeit im Zentrum der politischen Aufmerksamkeit.",
+      "Finanzminister Scott Bessent bestätigte, dass die Regierung die Maßnahme prüft. Laut Angaben des Finanzministers wird untersucht, ob ein vollständiger oder ein teilweiser Stopp der Ausfuhren infrage kommt. Dabei muss auch die gesamte Raffineriekapazität des Landes berücksichtigt werden. Die Prüfung läuft auf ministerieller Ebene."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Die Spritpreise in den Vereinigten Staaten sind infolge des Iran-Kriegs erheblich gestiegen. Für Benzin zahlen Verbraucher im Schnitt fast 50 Prozent mehr als vor Kriegsbeginn. Der Preis für Diesel erreichte kürzlich ein Rekordhoch, nachdem er sich allein im August um rund 24 Prozent verteuert hatte. In den USA wird Diesel überwiegend in Nutzfahrzeugen wie Traktoren oder Lastwagen eingesetzt.",
+      "US-Präsident Donald Trump erklärte bei einer Begegnung mit dem ukrainischen Präsidenten Wolodymyr Selenskyj, dass das Land viel Diesel produziere. Ein Exportstopp könnte laut seiner Einschätzung auch geringe Auswirkungen auf das normale Benzin für Autos haben. Die weltweiten Ölpreise sind durch den Konflikt deutlich gestiegen, da der Iran die Straße von Hormus blockiert.",
+      "Die möglichen Maßnahmen sind politisch umstritten. Kongressmitglieder aus landwirtschaftlich geprägten Bundesstaaten befürworten einen Ausfuhrstopp, um die wirtschaftliche Belastung zu verringern. Parteivertreter aus ölproduzierenden Staaten sowie Wirtschaftsverbände warnen hingegen vor negativen Folgen. Auch Energieminister Chris Wright äußerte Bedenken hinsichtlich der nationalen Produktion und der Versorgung verbündeter Staaten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der Anstieg der Treibstoffpreise entwickelt sich vor den kommenden Kongresswahlen zu einem zentralen Thema. Den Republikanern droht bei den Zwischenwahlen im November ein politisches Debakel aufgrund der hohen Verbraucherpreise. Viele Landwirte, die bei vergangenen Wahlen für Trump gestimmt hatten, äußern Frustration über die aktuellen Kosten. Steigende Transportkosten wirken sich zudem auf die Endverbraucherpreise vieler Waren aus.",
+      "Die Vereinigten Staaten waren in den vergangenen Jahren neben dem Nahen Osten Europas wichtigster Lieferant von Diesel. Vor Beginn des russischen Angriffskriegs gegen die Ukraine war Russland noch einer der wichtigsten Diesellieferanten der EU-Staaten gewesen. Ein möglicher Exportstopp der USA könnte daher auch in Europa spürbare Folgen haben. Alliierte Staaten sind bislang auf die Versorgung mit US-Diesel angewiesen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine Raffinerie ist ein Industriekomplex, in dem Rohöl durch Destillation und andere Verfahren in verschiedene Produkte wie Benzin, Diesel und Heizöl umgewandelt wird. Die Raffineriekapazität beschreibt die Menge an Rohöl, die eine Anlage in einem bestimmten Zeitraum verarbeiten kann.",
+      "Als Ausfuhrstopp oder Exportstopp bezeichnet man eine staatliche Maßnahme, bei der der Verkauf und Transport von bestimmten Gütern ins Ausland zeitweise oder dauerhaft untersagt wird. Ziel solcher staatlichen Eingriffe ist es meist, die Versorgung des eigenen Landes sicherzustellen und Preissteigerungen auf dem Binnenmarkt zu dämpfen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "US-Präsident Donald Trump erklärte am Rande der UN-Generaldebatte: „Ich habe gesagt, lasst uns den Diesel nicht ausführen.“ Er betonte zudem, dass die Vereinigten Staaten viel Diesel produzieren.",
+      "Finanzminister Scott Bessent erklärte nach Angaben von Spiegel und Tagesschau/ARD, er lasse prüfen, ob ein Exportstopp im Hinblick auf die Raffineriekapazität machbar sei.",
+      "Die Abgeordnete Ashley Hinson aus Iowa erklärte laut Spiegel, die Menschen im Land würden ausgequetscht und sollten nicht für den Krieg in Iran bezahlen müssen.",
+      "Der Verband der US-Treibstoffindustrie warnte laut Spiegel vor den Folgen der Maßnahme und erklärte, der Plan könne nach hinten losgehen.",
+      "Energieminister Chris Wright warnte laut Spiegel vor den Folgen für verbündete Länder, die auf US-Diesel angewiesen sind."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die US-Regierung prüft derzeit die Machbarkeit und die genauen Modalitäten des Exportstopps. Ob ein vollständiger oder ein teilweiser Stopp der Ausfuhren umgesetzt wird, ist noch nicht endgültig entschieden. Die wirtschaftlichen und internationalen Konsequenzen werden in den kommenden Wochen weiter bewertet."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Donnerstag",
+     "Der Dieselpreis kletterte laut ADAC auf einen Höchstwert von durchschnittlich 2,471 Euro."
+    ],
+    [
+     "Donnerstagabend",
+     "Verhandlungen von Bundeskanzler Merz mit den Länderkoordinatoren fanden statt."
+    ],
+    [
+     "18. September",
+     "Bund und Länder erzielten eine Einigung auf Tankrabatt und Spritpreisdeckel."
+    ],
+    [
+     "1. Oktober",
+     "Geplante Wiedereinführung des Tankrabatts."
+    ],
+    [
+     "1. Januar",
+     "Geplante Einführung des Spritpreisdeckels spätestens zu diesem Datum."
+    ],
+    [
+     "Mai und Juni",
+     "Ein erster Tankrabatt in gleicher Größenordnung galt in Deutschland."
+    ],
+    [
+     "21. September 2026",
+     "Das Kabinett beschloss den Gesetzentwurf im Umlaufverfahren."
+    ],
+    [
+     "1. Oktober 2026",
+     "Geplante Einführung des neuen Tankrabatts."
+    ],
+    [
+     "21. September",
+     "Donald Trump äußerte sich am Rande der Generaldebatte in New York zum Exportstopp."
+    ],
+    [
+     "1970er-Jahre",
+     "Die USA stoppten damals während der Ölkrise ihre Ausfuhren von Rohöl weitgehend."
+    ],
+    [
+     "21. September 2026",
+     "Donald Trump äußerte sich am Rande der UN-Generaldebatte in New York zu dem potenziellen Exportstopp."
+    ],
+    [
+     "22. September 2026",
+     "Finanzminister Scott Bessent bestätigte die laufenden Prüfungen im Ministerium."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Donald Trump politician",
+     "bildunterschrift": "US-Präsident Donald Trump äußerte sich in New York zu den Plänen für einen Diesel-Exportstopp."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Scott Bessent politician",
+     "bildunterschrift": "US-Finanzminister Scott Bessent leitet die Prüfung des möglichen Ausfuhrverbots."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters",
+     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, am dessen Rand die Äußerungen getätigt wurden."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Gas pump fuel dispenser",
+     "bildunterschrift": "Eine Zapfsäule an einer Tankstelle symbolisiert die gestiegenen Treibstoffpreise."
+    }
+   ],
+   "ort": {
+    "name": "New York, USA"
+   },
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [
+    "Debakel"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Exportstopp",
+      "Ein Exportstopp ist eine staatliche Maßnahme. Dabei wird verboten, bestimmte Waren in andere Länder zu verkaufen."
+     ],
+     [
+      "Raffinerie",
+      "Eine Raffinerie ist ein Industriekomplex. Dort wird Rohöl in Produkte wie Benzin, Diesel oder Heizöl umgewandelt."
+     ]
+    ],
+    "fragen": [
+     "Welche Vor- und Nachteile könnte ein Exportstopp für Diesel für die Menschen in den USA haben?",
+     "Welche Rolle spielen internationale Konflikte bei der Entwicklung der Treibstoffpreise?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer sprach sich in den USA für einen Diesel-Exportstopp aus?",
+      "optionen": [
+       "Finanzminister Scott Bessent",
+       "US-Präsident Donald Trump",
+       "Energieminister Chris Wright"
+      ],
+      "richtig": 1,
+      "erklaerung": "US-Präsident Donald Trump sprach sich am Rande der UN-Generaldebatte für den Exportstopp aus."
+     },
+     {
+      "frage": "Welcher Kraftstoff verteuerte sich allein im August um rund 24 Prozent?",
+      "optionen": [
+       "Diesel",
+       "Normales Benzin",
+       "Heizöl"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut den Berichten verteuerte sich Diesel im August um rund 24 Prozent."
+     },
+     {
+      "frage": "Welche Region war in den vergangenen Jahren neben dem Nahen Osten Europas wichtigster Lieferant von Diesel?",
+      "optionen": [
+       "Die Vereinigten Staaten",
+       "Südamerika",
+       "Asien"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Vereinigten Staaten waren nach dem Nahen Osten Europas wichtigster Lieferant von Diesel."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In den Vereinigten Staaten sind die Preise für Benzin und Diesel stark gestiegen. Deshalb überlegt die Regierung nun, den Verkauf von Diesel in andere Länder zu verbieten.",
+    "absaetze": [
+     "Wegen des Krieges im Iran kosten Benzin und Diesel in den USA viel mehr als früher. Besonders Landwirte und Lastwagenfahrer haben dadurch große Probleme und hohe Kosten. US-Präsident Donald Trump möchte deshalb, dass kein Diesel mehr aus den USA ins Ausland verkauft wird.",
+     "Finanzminister Scott Bessent prüft zurzeit, ob ein solches Ausfuhrverbot überhaupt möglich ist. Ob die Ausfuhren komplett oder nur teilweise gestoppt werden, ist noch nicht entschieden. Die Maßnahme soll dazu dienen, die Preise im eigenen Land wieder zu senken.",
+     "Ein Exportstopp könnte auch Folgen für Europa haben. Die Vereinigten Staaten sind nach dem Nahen Osten der wichtigste Lieferant für Diesel in Europa. Kritiker in den USA warnen jedoch vor negativen Folgen für die Wirtschaft und verbündete Länder."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Wegen hoher Treibstoffpreise prüfen die USA einen Exportstopp für Diesel.",
+     "Das sagte US-Präsident Donald Trump am Dienstag in New York.",
+     "Finanzminister Scott Bessent untersucht nun die Machbarkeit dieser Maßnahme."
+    ],
+    "lang": [
+     "Die Regierung der Vereinigten Staaten prüft zur Zeit einen Exportstopp für Dieselkraftstoff.",
+     "Das sagte der amerikanische Präsident Donald Trump am Dienstag am Rande der Vereinten Nationen in New York.",
+     "Grund für die Überlegung sind stark gestiegene Spritpreise infolge des Krieges im Iran.",
+     "Im August hat sich Diesel in den USA um rund 24 Prozent verteuert.",
+     "Finanzminister Scott Bessent erklärte nach Angaben von Medien, er lasse die Machbarkeit eines Verbots prüfen.",
+     "Auch der amerikanische Energieminister Chris Wright äußerte Bedenken und warnte vor Folgen für verbündete Länder.",
+     "Der Plan ist in der Politik umstritten, weil auch Wirtschaftsverbände und Vertreter aus ölproduzierenden Bundesstaaten dagegen sind.",
+     "Nach dem Nahen Osten waren die Vereinigten Staaten in den vergangenen Jahren Europas wichtigster Lieferant für Diesel.",
+     "Ob ein vollständiger oder ein teilweiser Stopp kommt, ist nach Angaben des Finanzministers noch unklar."
+    ],
+    "einfach": [
+     "In den USA sind Benzin und Diesel sehr teuer geworden.",
+     "Deshalb prüft die Regierung ein Verbot für den Export von Diesel.",
+     "Das sagte der amerikanische Präsident Donald Trump am Dienstag in New York.",
+     "Finanzminister Scott Bessent untersucht nun, ob dieser Plan funktionieren kann.",
+     "Auch für Europa könnte das wichtig sein, weil Europa viel Diesel aus den USA bekommt."
+    ]
+   },
+   "kurz": [
+    "Wegen stark gestiegener Spritpreise prüfen die USA einen Exportstopp für Diesel.",
+    "US-Präsident Donald Trump sprach sich am Rande der UN-Generaldebatte für das Verbot aus.",
+    "Finanzminister Scott Bessent untersucht derzeit die genaue Machbarkeit der Maßnahme.",
+    "Der Schritt könnte auch Auswirkungen auf Europa haben, das wichtigster Abnehmer ist."
+   ],
+   "fakten": [
+    [
+     "Verteuerung Diesel im August",
+     "rund 24 Prozent"
+    ],
+    [
+     "Benzinpreis-Anstieg",
+     "fast 50 Prozent"
+    ],
+    [
+     "Datum der Erklärung von Trump",
+     "23. September 2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "us-treibstoffpreise-diesel-exportstopp",
+    "titel": "Möglicher Exportstopp für Diesel in den USA"
+   },
+   "bildInfo": {
+    "titel": "Donald Trump official portrait.jpg",
+    "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+    "urheber": "Shealeah Craighead",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "person",
+    "suchbegriff": "Donald Trump politician",
+    "bildunterschrift": "US-Präsident Donald Trump, der sich für einen Exportstopp für Diesel ausgesprochen hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump politician",
+     "bildunterschrift": "US-Präsident Donald Trump, der sich für einen Exportstopp für Diesel ausgesprochen hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+     "beschreibung": "United Nations General Assembly Building, New York City",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+     "urheber": "Jakub Hałun",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "United Nations Headquarters",
+     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, am Rande von deren Generaldebatte die Äußerung fiel.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Shell petrol pump 1952.jpg",
+     "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
+     "urheber": "Palauenc05",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "suchbegriff": "Gas pump fuel dispenser",
+     "bildunterschrift": "Eine Zapfsäule als Symbol für Treibstoff und gestiegene Spritpreise.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "New York, USA",
+    "lat": 40.713,
+    "lon": -74.006
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "oecd-konjunkturprognose-deutschland",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-23T11:08:58.000Z",
+   "titel": "OECD hebt Konjunkturprognose für Deutschland und die Weltwirtschaft an",
+   "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr auf 1,1 Prozent angehoben. Dennoch weist die in Paris ansässige Organisation auf zahlreiche wirtschaftliche Unsicherheiten und notwendige Reformen hin.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft im laufenden Jahr auf 1,1 Prozent angehoben.",
+    "Hauptgründe für den optimistischeren Ausblick sind nach Angaben der OECD überraschend starke Exporte im ersten Halbjahr sowie gestiegene öffentliche Investitionen.",
+    "Gleichzeitig warnt die Organisation vor Risiken durch den Konflikt im Nahen Osten, niedrige Gasspeicherstände und mögliche Lieferengpässe.",
+    "Experten fordern neben den positiven Signalen fortlaufende Strukturreformen in Verwaltung, Steuern und am Arbeitsmarkt."
+   ],
+   "einig": [
+    [
+     "Die OECD hat ihre Wachstumsprognose für Deutschland für dieses Jahr auf 1,1 Prozent angehoben.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Für das Jahr 2027 rechnet die OECD unverändert mit einem Wachstum von 1,1 Prozent in Deutschland.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Im ersten Halbjahr 2026 sind die Exporte laut OECD überraschend stark gestiegen, unter anderem wegen der Nachfrage im Zuge des KI-Booms.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die OECD bewertet den Ausblick wegen des Konflikts im Nahen Osten und möglicher Handelshemmnisse als mit großer Unsicherheit behaftet.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Gasspeicherstände vor dem Winter ausreichen: Die OECD warnt wegen niedriger Stände vor Risiken, während die Bundesnetzagentur laut Tagesschau/ARD meint, dass die Speicher voll genug sind."
+   ],
+   "positionen": [
+    [
+     "Robert Grundke (OECD-Experte)",
+     "Der Aufschwung wird durch starke Exporte, KI-Nachfrage und öffentliche Investitionen gestützt; es braucht jedoch laut seiner Aussage weitere Strukturreformen.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ],
+    [
+     "Isabell Koske (OECD-Expertin)",
+     "Eine Eskalation des Konflikts im Nahen Osten würde nach ihrer Warnung zu höheren Energiepreisen und Belastungen für den Konsum führen.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "Bundesnetzagentur",
+     "Die Gasspeicher in Deutschland sind vor dem Winter nach ihrer Einschätzung voll genug.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von Bundesministern, Vertretern der Bundesregierung oder Oppositionsparteien zu den konkreten OECD-Empfehlungen.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 12:13",
+     "fokus": "Ausführliche Details und Nebenmeldungen",
+     "text": "Der Bericht beleuchtet umfassend die Aussagen der OECD, erwähnt zusätzliche Branchenentwicklungen wie den Rückgang von Stellenangeboten und zitiert die Einschätzung der Bundesnetzagentur zu den Gasspeichern.",
+     "url": "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 11:21",
+     "fokus": "Kompakte Zusammenfassung und Einordnung",
+     "text": "Die Berichterstattung fasst die Kernzahlen der OECD prägnant zusammen und verweist ergänzend auf Korrespondentenberichte sowie Anpassungen anderer Institute.",
+     "url": "https://www.zdfheute.de/wirtschaft/oecd-konjunktur-prognose-aufschwung-100.html",
+     "video": false
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 13:08",
+     "fokus": "Kurze Agenturmeldung",
+     "text": "Der Sender liefert eine fokussierte Kurzmeldung zur Anhebung der Konjunkturprognose durch die in Paris ansässige Organisation.",
+     "url": "https://www.deutschlandfunk.de/konjunkturprognose-fuer-deutsche-wirtschaft-euroraum-und-weltwirtschaft-angehoben-kritik-am-tankraba-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "23.09.26, 11:01",
+     "fokus": "Wirtschaftsanalytischer Blick",
+     "text": "Das Magazin verbindet die OECD-Prognose mit dem Kontext der politischen Lage in Berlin und detaillierten Reformforderungen für den Arbeitsmarkt.",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Erwähnung der Bundesnetzagentur",
+     "Tagesschau/ARD erwähnt als einzige Quelle die Einschätzung der Bundesnetzagentur zu den Gasspeichern."
+    ],
+    [
+     "Ausführlichkeit der Reformforderungen",
+     "Spiegel und Tagesschau/ARD gehen sehr detailliert auf spezifische Steuervorschläge und Handwerksregulierungen ein, während Deutschlandfunk sich auf eine kurze Kernmeldung beschränkt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Die OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung)",
+    "was": "Anhebung der Konjunkturprognose für das laufende Jahr",
+    "wann": "23.09.2026",
+    "wo": "Paris, Frankreich",
+    "wie": "durch einen aktualisierten Wirtschaftsausblick",
+    "warum": "laut OECD wegen überraschend starker Exporte im ersten Halbjahr",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk und Spiegel"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Industriestaatenorganisation OECD hat ihre Konjunkturprognose für die deutsche Wirtschaft in diesem Jahr heraufgesetzt. Laut den Berichten von Tagesschau/ARD, ZDFheute, Deutschlandfunk und Spiegel geht die in Paris ansässige Organisation nun von einem Bruttoinlandsprodukt-Wachstum von 1,1 Prozent aus. Damit liegt die neue Schätzung um 0,4 Prozentpunkte höher als die vorherige Prognose aus dem Juni. Für das Jahr 2027 wurde die Vorhersage für Deutschland unverändert bei ebenfalls 1,1 Prozent belassen. Diese Entwicklung markiert eine leichte Verbesserung der wirtschaftlichen Aussichten für die Bundesrepublik.",
+      "Auch für den Euroraum und die globale Wirtschaft hat die OECD ihre Erwartungen für das laufende Jahr leicht nach oben korrigiert. Demnach wird für den Euroraum ein Zuwachs von 1,0 Prozent und für die Weltwirtschaft ein Plus von 2,9 Prozent prognostiziert. Für das kommende Jahr fällt der Ausblick der Organisation für diese Bereiche mit 1,0 Prozent für den Euroraum und 3,0 Prozent für die Weltwirtschaft jedoch etwas pessimistischer aus als noch im Juni. Die Berichte verdeutlichen damit eine globale Betrachtung der gegenwärtigen Wirtschaftslage.",
+      "Zur Begründung für die Einschätzung verwiesen Vertreter der OECD auf die Entwicklung im ersten Halbjahr. Laut Tagesschau/ARD, ZDFheute und Spiegel sind die Exporte in diesem Zeitraum überraschend stark gestiegen. Als wesentlicher Treiber dafür wurde nach Angaben von OECD-Experte Robert Grundke eine steigende Nachfrage nach elektronischen Produkten und Ausrüstungen genannt, welche im Zuge des sogenannten KI-Booms verzeichnet wurde. Diese hohe Nachfrage dürfte nach Einschätzung der Organisation auch weiterhin anhalten."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Neben den Exporten haben nach Angaben der OECD auch steigende öffentliche Investitionen in den Bereichen Verteidigung und Infrastruktur zur konjunkturellen Erholung beigetragen. Die Organisation hob in diesem Zusammenhang geplante und umgesetzte Reformen hervor. Dazu gehören Maßnahmen im Bereich der öffentlichen Vergabe sowie die Beschleunigung von Planungs- und Genehmigungsverfahren für Infrastrukturprojekte. Laut Tagesschau/ARD, ZDFheute und Spiegel stehen damit die Chancen gut für einen schnelleren Ausbau der öffentlichen Infrastruktur.",
+      "Trotz dieser positiven Indikatoren verwiesen die Experten auf erhebliche Risiken und Unwägbarkeiten. Der weitere wirtschaftliche Ausblick hänge stark davon ab, ob eine dauerhafte Lösung für den Konflikt im Nahen und Mittleren Osten gefunden werde. Laut Tagesschau/ARD, ZDFheute und Spiegel blieb das Wachstum in der ersten Jahreshälfte trotz der negativen Folgen dieses Konflikts zwar robust, da große Ölvorräte, Lieferungen von außerhalb der Golfstaaten und staatliche Unterstützungsmaßnahmen die Folgen abfederten. Dennoch warnten Vertreter der Organisation vor den Konsequenzen einer Eskalation.",
+      "Eine längere Dauer oder eine Verschärfung des Konflikts im Nahen Osten würde laut Warnungen der OECD-Expertin Isabell Koske zu höheren Energiepreisen, einem stärkeren Preisauftrieb und Vertrauensverlusten führen. Dies würde wiederum den privaten Konsum sowie Investitionen belasten. Die Gefahr werde nach Angaben der Expertin dadurch verstärkt, dass die Gasspeicherstände in Deutschland und Europa aktuell unter dem Durchschnitt der letzten beiden Jahre liegen. Zusätzlich nannte die Organisation Zölle, Ausfuhrbegrenzungen sowie wetterbedingte Risiken wie einen starken El Niño als Faktoren für mögliche Lieferengpässe und hohe Lebensmittelkosten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die wirtschaftliche Entwicklung steht laut den Berichten vor dem Hintergrund globaler Krisen und Reformdebatten. Während die Bundesregierung laut Spiegel im Krisenmodus steckt, blicken internationale und nationale Organisationen auf die Kennzahlen der Konjunktur. Die OECD hatte im Juni 2026 noch ein deutlich geringeres Wachstum von 0,7 Prozent für Deutschland prognostiziert, bevor die jüngsten Daten zu Exporteinnahmen und Investitionen vorlagen.",
+      "In den Berichten wird zudem auf strukturelle Herausforderungen der deutschen Volkswirtschaft eingegangen. So wird in den Analysen erwähnt, dass die Zahl der Stellenangebote für Berufseinsteiger in den vergangenen Jahren zurückgegangen ist und Industriejobs im ersten Halbjahr gestrichen wurden. Die OECD fordert daher kontinuierliche Reformen, um das langfristige Wachstumspotenzial zu sichern und dem Fachkräftemangel zu begegnen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die OECD ist eine internationale Organisation mit Sitz in Paris, die im Jahr 1961 gegründet wurde. Sie vereint derzeit 38 Mitgliedstaaten, zu denen insbesondere Industrienationen sowie einige Schwellenländer gehören, die sich zu Demokratie und Marktwirtschaft bekennen. Zu den Aufgaben der Organisation gehört es, die wirtschaftliche Entwicklung zu fördern, den Wissensaustausch anzuregen und regelmäßig Konjunkturprognosen zu erstellen. Weltweit bekannt ist die Organisation zudem für die Durchführung der PISA-Studie im Bildungsbereich.",
+      "Das Bruttoinlandsprodukt, kurz BIP, misst den Gesamtwert aller Waren und Dienstleistungen, die innerhalb eines Jahres innerhalb der Landesgrenzen einer Volkswirtschaft hergestellt werden. Veränderungen dieser Kennzahl dienen als Hauptindikator für die Messung des wirtschaftlichen Wachstums oder einer Rezession. Der Euroraum umfasst jene Staaten der Europäischen Union, die die gemeinsame Währung Euro eingeführt haben."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "OECD-Experte Robert Grundke erklärte gegenüber der Nachrichtenagentur Reuters, dass die gestiegenen Exporte und der KI-Boom maßgeblich für die Aussichten verantwortlich sind. Gleichzeitig betonte er laut Tagesschau/ARD und Spiegel, dass trotz der verbesserten Konjunkturaussichten wichtige Strukturreformen vorangetrieben werden müssen. Dazu zählten der Abbau von Wettbewerbsschranken, die Reduzierung des Verwaltungsaufwands sowie die Überprüfung, Vereinfachung und Harmonisierung bestehender Regulierungen und Verwaltungsverfahren.",
+      "Zur Stärkung des Arbeitsmarktes und der Steigerung des Arbeitsangebots riet Grundke laut Tagesschau/ARD und Spiegel dazu, Anreize im Steuer- und Transfersystem zu verbessern. Konkret nannte er eine Reform des Ehegattensplittings, eine Beschränkung der Minijobs auf Schüler und Studierende sowie die Umsetzung der geplanten Sozialstaatsreform. Eine Senkung der Steuer- und Abgabenbelastung für Arbeitseinkommen könne das Arbeitsangebot erhöhen und den Fachkräftemangel lindern, was über die Streichung von Steuervergünstigungen finanziert werden könne.",
+      "OECD-Expertin Isabell Koske warnte vor den Risiken einer Ausweitung des Konflikts im Nahen Osten und wies auf die unter dem Durchschnitt liegenden Gasspeicherstände hin. Laut ZDFheute merkte die Bundesnetzagentur an, dass die Gasspeicher vor dem Beginn des Winters dennoch voll genug seien. Zudem verwiesen Tagesschau/ARD und ZDFheute darauf, dass auch andere Institutionen wie führende Wirtschaftsforschungsinstitute oder der Bundesverband der Deutschen Industrie ihre Konjunkturprognosen ebenfalls nach oben korrigiert haben."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die OECD kündigte an, die wirtschaftliche Entwicklung und die Risiken weiterhin zu beobachten. Der weitere Verlauf hängt nach Darstellung der Organisation maßgeblich davon ab, ob eine dauerhafte politische Lösung im Nahen Osten erreicht wird und wie sich die Energiemärkte entwickeln. Sollte sich der Energiemarkt rasch normalisieren, könnte dies den Inflationsdruck senken und wirtschaftliche Aktivitäten fördern.",
+      "Zusätzlich wird die Umsetzung der von der Organisation geforderten Reformen im Bereich der Verwaltung, des Steuerwesens und der öffentlichen Vergabe in Deutschland beobachtet werden. Ob sich die getätigten Investitionen in Künstliche Intelligenz wie erwartet auszahlen und ob wetterbedingte Einflüsse ausbleiben, wird laut den Berichten ebenfalls Einfluss auf die kommenden Quartalszahlen haben."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Juni 2026",
+     "Die OECD prognostizierte in einer früheren Schätzung ein Wirtschaftswachstum von 0,7 Prozent für Deutschland."
+    ],
+    [
+     "23.09.2026",
+     "Die OECD veröffentlicht ihren aktuellen Wirtschaftsausblick und hebt die Prognose für Deutschland auf 1,1 Prozent an."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "OECD Headquarters Paris",
+     "bildunterschrift": "Der Hauptsitz der OECD in Paris, wo die Konjunkturprognosen und Wirtschaftsaussichten erarbeitet werden."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Frankfurt skyline economic district",
+     "bildunterschrift": "Die Skyline von Frankfurt am Main steht symbolisch für den Finanz- und Wirtschaftsstandort Deutschland."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Economic growth chart graphic",
+     "bildunterschrift": "Eine grafische Darstellung von Wirtschaftsdaten veranschaulicht konjunkturelle Auf- und Abwärtsbewegungen."
+    }
+   ],
+   "ort": {
+    "name": "Paris, Frankreich"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Bild von Mathias Cormann wurde entfernt, da die Person in den Textquellen namentlich nicht erwähnt wird.",
+    "Formulierungen im Artikel wurden angepasst, um Aussagen von Experten (wie Robert Grundke und Isabell Koske) strikt als Aussagen zu kennzeichnen.",
+    "Wertende und nicht belegte Adjektive außerhalb von Zitaten wurden neutralisiert."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Bruttoinlandsprodukt",
+      "Das Bruttoinlandsprodukt misst den Gesamtwert aller Waren und Dienstleistungen, die innerhalb eines Jahres in einem Land hergestellt werden."
+     ],
+     [
+      "OECD",
+      "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist ein Zusammenschluss von achtunddreißig Staaten, die sich für Marktwirtschaft und wirtschaftliche Entwicklung einsetzen."
+     ],
+     [
+      "Konjunktur",
+      "Die Konjunktur bezeichnet die aktuelle wirtschaftliche Lage und die Entwicklung einer Volkswirtschaft über einen bestimmten Zeitraum."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen internationale Organisationen wie die OECD für die Einschätzung der nationalen Wirtschaft?",
+     "Warum ist es laut den Berichten wichtig, bei positiven Wirtschaftsprognosen gleichzeitig vor Risiken zu warnen?",
+     "Wie bewerten verschiedene Institutionen die wirtschaftliche Lage in Deutschland?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie hoch ist laut OECD das prognostizierte Wirtschaftswachstum für Deutschland im Jahr 2026?",
+      "optionen": [
+       "0,7 Prozent",
+       "1,1 Prozent",
+       "2,9 Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmender Berichte von Tagesschau/ARD, ZDFheute, Deutschlandfunk und Spiegel hat die OECD ihre Prognose für Deutschland auf 1,1 Prozent angehoben."
+     },
+     {
+      "frage": "Welcher Faktor trug laut OECD im ersten Halbjahr besonders zu den gestiegenen Exporten bei?",
+      "optionen": [
+       "Der Boom bei Künstlicher Intelligenz",
+       "Sinkende Energiepreise im Inlandsmarkt",
+       "Neue Gesetze für Minijobs"
+      ],
+      "richtig": 0,
+      "erklaerung": "Tagesschau/ARD, ZDFheute und Spiegel berichten übereinstimmend, dass die Exporte unter anderem wegen der Nachfrage nach elektronischen Produkten im Zuge des KI-Booms stark gestiegen sind."
+     },
+     {
+      "frage": "Wo hat die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ihren Sitz?",
+      "optionen": [
+       "Berlin",
+       "Brüssel",
+       "Paris"
+      ],
+      "richtig": 2,
+      "erklaerung": "ZDFheute, Deutschlandfunk und Spiegel nennen Paris als Sitz der internationalen Organisation."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Vorhersage für die deutsche Wirtschaft verbessert.",
+    "absaetze": [
+     "Die Organisation heißt kurz OECD und hat ihren Sitz in der Stadt Paris. Sie rechnet in diesem Jahr mit einem Wirtschaftswachstum von eins Komma ein Prozent in Deutschland.",
+     "Ein Grund für die bessere Vorhersage sind gestiegene Exporte aus Deutschland im ersten halben Jahr. Deutscher Handel profitierte besonders von elektronischen Geräten und dem Boom um Künstliche Intelligenz.",
+     "Außerdem halfen höhere Ausgaben des Staates für Verteidigung und den Bau von Straßen oder Schienen. Für das nächste Jahr erwartet die OECD ebenfalls ein Wachstum von eins Komma ein Prozent.",
+     "Die Organisation warnt jedoch vor Gefahren. Dazu gehören Konflikte im Nahen Osten, mögliche Probleme beim Einkauf von Energie und schlechtes Wetter.",
+     "Darum fordern Experten von der Politik weitere Reformen bei Steuern und in der Verwaltung, damit die Wirtschaft dauerhaft stabil bleibt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Konjunkturprognose für Deutschland angehoben.",
+     "Für das laufende Jahr rechnet die Behörde mit einem Wirtschaftswachstum von eins Komma ein Prozent.",
+     "Hauptgründe sind gestiegene Exporte und staatliche Investitionen.",
+     "Gleichzeitig warnt die Organisation vor Risiken durch internationale Konflikte."
+    ],
+    "lang": [
+     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Konjunkturprognose für Deutschland heraufgesetzt.",
+     "Das teilte die in Paris ansässige Behörde in ihrem am einundzwanzigsten September veröffentlichten Bericht mit.",
+     "Für das laufende Jahr erwartet die Organisation ein Wirtschaftswachstum von eins Komma ein Prozent.",
+     "Das sind null Komma vier Prozentpunkte mehr als noch im Juni geschätzt.",
+     "Als Grund für den Aufschwung nannte OECD-Experte Robert Grundke überraschend starke Exporte im ersten Halbjahr.",
+     "Auch eine steigende Nachfrage nach elektronischen Produkten im Zuge des Booms um Künstliche Intelligenz trug dazu bei.",
+     "Die Bundesnetzagentur erklärte dagegen abweichend, dass die Gasspeicher in Deutschland vor dem Winter voll genug sind.",
+     "Die OECD ist eine internationale Organisation mit achtunddreißig Mitgliedstaaten und erstellt regelmäßige Berichte zur Wirtschaft.",
+     "Ob der Aufschwung anhält, hängt nach Angaben der Organisation stark von der Entwicklung internationaler Konflikte ab.",
+     "Zudem fordern Experten weiterhin Reformen im Bereich der Steuern und der Verwaltung."
+    ],
+    "einfach": [
+     "Die OECD ist eine internationale Organisation mit Sitz in Paris.",
+     "Sie hat ihre Vorhersage für die deutsche Wirtschaft verbessert.",
+     "In diesem Jahr soll die Wirtschaft um eins Komma ein Prozent wachsen.",
+     "Grund dafür sind höhere Ausfuhren und staatliche Investitionen.",
+     "Experten warnen jedoch vor neuen Risiken durch internationale Konflikte.",
+     "Deshalb fordern sie Reformen für die Zukunft."
+    ]
+   },
+   "kurz": [
+    "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr auf 1,1 Prozent erhöht.",
+    "Höhere Exporte durch den Boom bei Künstlicher Intelligenz stützen den Aufschwung.",
+    "Gleichzeitig warnt die Organisation vor Risiken durch internationale Konflikte und niedrige Gasspeicherstände.",
+    "Experten fordern weiterhin Reformen bei Verwaltung, Steuern und am Arbeitsmarkt."
+   ],
+   "fakten": [
+    [
+     "Wachstumsprognose Deutschland 2026",
+     "1,1 Prozent"
+    ],
+    [
+     "Wachstumsprognose Deutschland 2027",
+     "1,1 Prozent"
+    ],
+    [
+     "Wachstumsprognose Euroraum 2026",
+     "1,0 Prozent"
+    ],
+    [
+     "Wachstumsprognose Weltwirtschaft 2026",
+     "2,9 Prozent"
+    ],
+    [
+     "Anzahl der OECD-Mitgliedstaaten",
+     "38"
+    ]
+   ],
+   "dossier": {
+    "slug": "oecd-konjunkturprognose-2026",
+    "titel": "Wirtschaftswachstum und OECD-Konjunkturprognose"
+   },
+   "bildInfo": {
+    "titel": "Château de la Muette, Paris 20 March 2019 002.jpg",
+    "beschreibung": "Château de la Muette, Paris, France - The courtyard at 2 André Pascal street.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg/1280px-Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_la_Muette,_Paris_20_March_2019_002.jpg",
+    "urheber": "MySociety",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "institution",
+    "suchbegriff": "OECD Headquarters Paris",
+    "bildunterschrift": "Der Hauptsitz der OECD in Paris, die die Wachstumsprognose für Deutschland angehoben hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Château de la Muette, Paris 20 March 2019 002.jpg",
+     "beschreibung": "Château de la Muette, Paris, France - The courtyard at 2 André Pascal street.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg/1280px-Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ch%C3%A2teau_de_la_Muette%2C_Paris_20_March_2019_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_la_Muette,_Paris_20_March_2019_002.jpg",
+     "urheber": "MySociety",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "institution",
+     "suchbegriff": "OECD Headquarters Paris",
+     "bildunterschrift": "Der Hauptsitz der OECD in Paris, die die Wachstumsprognose für Deutschland angehoben hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "ShortIntRGrowthDiff.PNG",
+     "beschreibung": "Graphic, difference short term interest rates vs. growth rates Gross Domestic Product - countries: BRD/FRG, France, USA, Japan",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/ShortIntRGrowthDiff.PNG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b9/ShortIntRGrowthDiff.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:ShortIntRGrowthDiff.PNG",
+     "urheber": "I made this graph as described",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "suchbegriff": "Economic growth chart graphic",
+     "bildunterschrift": "Eine Grafik als Symbol für das Wirtschaftswachstum und Konjunkturprognosen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Paris, Frankreich",
+    "lat": 48.853,
+    "lon": 2.348
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "usa-daenemark-groenland-abkommen",
+   "rubrik": "Welt",
+   "zeit": "2026-09-23T05:57:36.000Z",
+   "aktualisiert": "aktualisiert um 13:28 Uhr",
+   "titel": "Sicherheitsabkommen zwischen den USA, Dänemark und Grönland unterzeichnet",
+   "vorspann": "Die Vereinigten Staaten, Dänemark und die Arktisinsel Grönland haben in New York ein langfristiges Sicherheitsabkommen geschlossen. Das Dokument regelt unter anderem den Ausbau von Militärbasen und beendet die vorherigen diplomatischen Spannungen.",
+   "eil": false,
+   "zusammenfassung": [
+    "Die USA, Dänemark und Grönland haben in New York ein neues, unbefristetes Sicherheitsabkommen unterzeichnet.",
+    "Das Dokument garantiert die Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands und regelt den Ausbau von Militärbasen.",
+    "Investitionen von Staaten außerhalb der NATO und der EU in Grönland werden künftig stark eingeschränkt, um Sicherheitsrisiken zu minimieren.",
+    "Internationale Vertreter begrüßten den Abschluss als Stärkung der transatlantischen Sicherheit."
+   ],
+   "einig": [
+    [
+     "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet.",
+     [
+      "Tagesschau/ARD",
+      "taz",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Das Abkommen garantiert die Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands.",
+     [
+      "Tagesschau/ARD",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Die USA werden bestehende Basen ausbauen und zwei neue Stützpunkte in Grönland errichten.",
+     [
+      "Tagesschau/ARD",
+      "taz",
+      "The Guardian"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob das Abkommen in der praktischen Realität vor Ort zu spürbaren Veränderungen für die Bevölkerung führen wird, wird laut Berichten unterschiedlich eingeschätzt."
+   ],
+   "positionen": [
+    [
+     "Jens-Frederik Nielsen (Grönlands Regierungschef)",
+     "Bezeichnete das Abkommen als Win-win-win-Situation und betonte, dass seine roten Linien nicht überschritten wurden.",
+     "Tagesschau/ARD,taz"
+    ],
+    [
+     "Mette Frederiksen (Dänemarks Ministerpräsidentin)",
+     "Hob die Stärkung der europäischen und transatlantischen Sicherheit sowie die Rolle der USA als Beschützer hervor.",
+     "Tagesschau/ARD,taz"
+    ],
+    [
+     "Donald Trump (US-Präsident)",
+     "Betonte die Zusammenarbeit mit Dänemark und Grönland und bezeichnete den Vertrag als beispielloses Abkommen.",
+     "Tagesschau/ARD,taz,The Guardian"
+    ],
+    [
+     "Ukrainische Regierung (Präsident Selenskyj und Außenminister Sybiha)",
+     "Kritisierte die Streichung von russischen Geschäftsleuten von der EU-Sanktionsliste als beschämend und inakzeptabel.",
+     "The Guardian"
+    ]
+   ],
+   "fehlend": "Stimmen aus Russland oder China zu den getroffenen Investitions- und Sicherheitsbeschränkungen in der Arktis.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 07:57",
+     "fokus": "Reaktionen vor Ort in Grönland",
+     "text": "Der Bericht beleuchtet die Erleichterung und die verbleibende Skepsis der Bevölkerung in Grönland sowie Aussagen ehemaliger Regierungsmitglieder.",
+     "url": "https://www.tagesschau.de/ausland/europa/groenland-abkommen-104.html",
      "video": false
     },
     {
@@ -478,100 +1652,77 @@
      "art": "privates Medium",
      "stamm": false,
      "datum": "23.09.26, 07:53",
-     "fokus": "Einordnung der Historie und des Deals",
-     "text": "Vergleicht das neue Abkommen mit dem Vertrag von 1951 und beleuchtet die Rolle der Arbeitsgruppe.",
+     "fokus": "Ablauf der Unterzeichnung in New York",
+     "text": "Die Zeitung schildert detailliert den Verlauf im UN-Gebäude und ordnet die historischen Bezüge zum Abkommen von 1951 ein.",
      "url": "https://taz.de/Groenland-Abkommen-unterzeichnet/!6215540/",
      "video": false
     },
     {
-     "name": "ORF",
-     "typ": "öffentlich-rechtlich (Österreich)",
-     "art": "öffentlich-rechtlich",
+     "name": "The Guardian",
+     "typ": "Tageszeitung (Großbritannien)",
+     "art": "internationaler Sender",
      "stamm": false,
-     "datum": "22.09.26, 23:00",
-     "fokus": "Internationale Reaktionen in Europa",
-     "text": "Führt Reaktionen von EU-Ratspräsident Costa und Bundeskanzler Merz auf und beschreibt die geopolitischen Hintergründe.",
-     "url": "https://orf.at/stories/3442948/",
+     "datum": "22.09.26, 18:51",
+     "fokus": "Vertragsdetails und EU-Sanktionen",
+     "text": "Das Medium liefert präzise Auszüge aus dem Vertragstext zu militärischen Rechten und berichtet parallel über die EU-Sanktionsbeschlüsse.",
+     "url": "https://www.theguardian.com/world/live/2026/sep/22/eu-trump-russia-putin-sanctions-ukraine-greenland-denmark-zelenskyy-latest-news-updates",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Erwähnung des Golden Dome",
-     "Die taz berichtet, Grönland solle Standort für das System werden; die BBC merkt an, das Projekt werde nur einmal ohne konkrete Vorschläge genannt."
+     "Thematischer Umfang",
+     "The Guardian berichtet neben dem Grönland-Abkommen ausführlich über die Aktualisierung der EU-Sanktionslisten gegen Russland und die Kritik der Ukraine daran, während die anderen Quellen diesen Aspekt nicht erwähnen."
     ]
    ],
    "wfragen": {
     "wer": "USA, Dänemark und Grönland",
-    "was": "Unterzeichnung eines Sicherheitsabkommens",
-    "wann": "2026-09-22",
+    "was": "Unterzeichnung eines neuen Sicherheitsabkommens",
+    "wann": "22. September 2026",
     "wo": "New York, USA",
-    "wie": "Durch Unterzeichnung einer Vereinbarung am Rande der UN-Vollversammlung",
-    "warum": "Laut US-Präsident Donald Trump zur Wahrung gemeinsamer Sicherheitsinteressen in der Arktis",
-    "quellenlage": "Berichte von Tagesschau/ARD, Spiegel, BBC, taz und ORF"
+    "wie": "Durch Gespräche von Regierungsvertretern und Unterzeichnung im UN-Gebäude",
+    "warum": "Stärkung der Sicherheit in der Arktis laut den Regierungen",
+    "quellenlage": "Tagesschau/ARD, taz, The Guardian"
    },
    "artikel": [
     {
-     "ueberschrift": "Das Abkommen in New York",
+     "ueberschrift": "Das Ereignis in New York",
      "absaetze": [
-      "Am Rande der UN-Vollversammlung in New York haben die Regierungen der USA, Dänemarks und der Arktisinsel Grönland eine neue Sicherheitsvereinbarung unterzeichnet. Die Unterzeichnung fand nach monatelangen Verhandlungen und einer zuvor von den Beteiligten verkündeten Einigung statt. Die drei Regierungschefs traten im Hauptquartier der Vereinten Nationen gemeinsam vor die Öffentlichkeit. Laut den Berichten waren an der Zeremonie hochrangige Vertreter der beteiligten Regierungen beteiligt.",
-      "Das Dokument regelt die künftige militärische Zusammenarbeit in der Region zwischen den drei Parteien. Es führt ein bereits seit dem Jahr 1951 bestehendes Verteidigungsabkommen zwischen den beteiligten Staaten weiter und ergänzt dieses um neue Bestimmungen. Die Vereinbarung besitzt laut den vorliegenden Berichten kein festes Ablaufdatum. Sie soll nach Angaben der beteiligten Politiker die Stabilität im Nordatlantik und in der Arktis erhöhen.",
-      "Die Zeremonie wurde von den Beteiligten als formeller Abschluss eines zuvor langwierigen diplomatischen Streits bewertet. Vor der Unterzeichnung hatten die Regierungen nur wenige Einzelheiten zu dem Abkommen bekannt gegeben. Unmittelbar nach dem Treffen wurden jedoch die Details des Textes und die geplanten Maßnahmen veröffentlicht. Die Beteiligten betonten bei dem Treffen die freundliche und kooperative Atmosphäre."
+      "Im Gebäude der Vereinten Nationen in New York haben Vertreter der Vereinigten Staaten, des Königreichs Dänemark und der Arktisinsel Grönland ein neues Sicherheitsabkommen unterzeichnet. Anwesend waren unter anderem der US-Präsident Donald Trump, die dänische Ministerpräsidentin Mette Frederiksen und Grönlands Regierungschef Jens-Frederik Nielsen. Nach Angaben der Beteiligten beendet die Vereinbarung die monatelangen diplomatischen Streitigkeiten um den Status des Territoriums. Laut den Berichten gab es im Vorfeld komplexe Verhandlungen und diplomatische Einsätze, bevor die Einigung erzielt werden konnte. Der Zeitplan für die Unterzeichnung verzögerte sich kurzzeitig, da der US-Präsident zuvor noch eine Rede vor der Vollversammlung der Vereinten Nationen gehalten hatte.",
+      "Das Abkommen baut laut den dänischen Regierungsangaben auf einem früheren Vertrag aus dem Jahr 1951 auf und führt diesen fort. Die beteiligten Politiker hoben die Bedeutung des Dokuments für die gemeinsame Verteidigung hervor. Grönlands Regierungschef Jens-Frederik Nielsen bezeichnete die Einigung als Win-win-win-Situation für alle beteiligten Parteien. Dänemarks Ministerpräsidentin Mette Frederiksen sprach von einem Meilenstein der Beziehungen und betonte die Rolle der USA als Verbündeter. Auch US-Präsident Donald Trump äußerte sich positiv über die zukünftige Zusammenarbeit und bezeichnete das Ergebnis als ein beispielloses Abkommen.",
+      "Die Vereinbarung besitzt laut den Angaben kein Ablaufdatum und kann von keiner Vertragspartei alleine gekündigt werden. Sie gilt somit nach übereinstimmender Darstellung als dauerhaft angelegt. Das Abkommen berücksichtigt zudem mögliche Zukunftsszenarien, wie etwa eine eventuelle Unabhängigkeit Grönlands. In einem solchen Fall müsste ein unabhängiges Grönland den Verbleib in der NATO und die Einhaltung des Vertrages garantieren. Die Bevölkerung auf der Insel reagierte überwiegend erleichtert über den Abschluss, wie Berichte aus der Hauptstadt Nuuk zeigen."
      ]
     },
     {
-     "ueberschrift": "Militärische Maßnahmen und Stützpunkte",
+     "ueberschrift": "Inhalte des neuen Vertrages",
      "absaetze": [
-      "Das Abkommen sieht eine Verstärkung der US-Militärpräsenz in Grönland vor. Nach Angaben der Berichte ist geplant, dass die USA zwei neue Militärstützpunkte auf der Arktisinsel errichten. Diese sollen sich an den Standorten Narsarsuaq im Süden und Mestersvig im Osten befinden. Narsarsuaq ist demnach ein früherer ziviler Flughafen und Stützpunkt aus dem Zweiten Weltkrieg, während es sich bei Mestersvig um einen entlegenen Außenposten handelt.",
-      "Zusätzlich erlaubt das Abkommen den USA, ihre Aktivitäten auf der bereits bestehenden Pituffik Space Base im Nordwesten Grönlands zu modernisieren und auszuweiten. Die dortigen Anlagen wurden laut den Berichten in der Vergangenheit bereits von den USA genutzt. Das Abkommen regelt zudem, dass sämtliche Aufträge im Zusammenhang mit dem Bau der neuen Stützpunkte an grönländische Unternehmen vergeben werden müssen. Die Modalitäten und technischen Details der neuen Stützpunkte müssen laut Vereinbarung von allen Parteien einvernehmlich genehmigt werden.",
-      "Darüber hinaus enthält der Vertrag Bestimmungen zur Stationierung des von den USA geplanten Raketenabwehrsystems mit der Bezeichnung Golden Dome. Laut der Tageszeitung taz soll Grönland ein Standort für dieses System werden. Die BBC berichtet jedoch, dass das Projekt in dem Abkommen nur einmal ohne konkrete Vorschläge erwähnt wird. Keine ausländische Macht außerhalb der NATO darf dem Abkommen zufolge eigene militärische Anlagen in Grönland errichten oder eine dauerhafte militärische Präsenz unterhalten."
-     ]
-    },
-    {
-     "ueberschrift": "Politische Einbindung und Souveränität",
-     "absaetze": [
-      "Das Abkommen erkennt ausdrücklich die territoriale Souveränität des Königreichs Dänemark sowie das Selbstbestimmungsrecht der grönländischen Bevölkerung an. Kein Gebiet der Insel wird an die Vereinigten Staaten abgetreten. Grönlands Regierungschef Jens-Frederik Nielsen betonte, dass es sich um ein Abkommen mit Grönland und nicht nur über Grönland handele. Die Vereinbarung soll zudem garantieren, dass Grönland im Falle einer Unabhängigkeit von Dänemark Mitglied der NATO bleiben wird.",
-      "Die Vereinbarung räumt den US-Streitkräften große Bewegungsfreiheit auf dem Land, dem Wasser und in der Luft ein. Dabei soll laut ORF jedoch der Respekt vor der lokalen Kultur und Gesellschaft, wie etwa der traditionellen Jagd und Fischerei, gewahrt werden. Dänemark verpflichtet sich seinerseits dazu, die eigene militärische Präsenz in der Arktis weiter zu verstärken. Das neue Abkommen muss in den kommenden Schritten noch von den Parlamenten in Dänemark und Grönland genehmigt werden.",
-      "Ein weiterer Schwerpunkt des Abkommens liegt auf der Kontrolle von Auslandsinvestitionen. Laut dem US-Außenminister Marco Rubio beinhaltet der Deal, dass künftige sensible Investitionen aus dem Ausland gemeinsam mit Dänemark vorab überprüft werden können. Damit soll verhindert werden, dass ausländische Firmen aus Nicht-NATO-Staatengruppen die Kontrolle über kritische Infrastrukturen wie Häfen oder Grundstücke auf der Insel erlangen. Die Vereinbarung begrenzt den wirtschaftlichen Einfluss von Staaten, die weder der NATO noch der EU angehören."
+      "Das Dokument enthält konkrete Festlegungen zur militärischen Präsenz der Vereinigten Staaten in der Region. Laut den veröffentlichten Texten werden die USA ihre bestehende Pituffik Space Base modernisieren und ausweitende Aktivitäten durchführen. Zusätzlich ist die Errichtung von zwei weiteren militärischen Stützpunkten in Narsarsuaq und Mestersvig geplant. Die genauen Modalitäten und technischen Einzelheiten dazu sollen von den beteiligten Parteien noch in gegenseitigem Einvernehmen vereinbart werden. Zudem erhalten US-Militärflugzeuge das Recht, in jedem Gebiet Grönlands und in den dazugehörigen territorialen Gewässern zu fliegen und zu landen.",
+      "Das Abkommen regelt auch Fragen zu Investitionen und der Anwesenheit dritter Staaten. Investitionen von Staaten, die weder der NATO noch der Europäischen Union angehören, sind in Grönland künftig nur noch begrenzt zulässig. Laut den Berichten dürfen Investoren aus solchen Ländern keine Kontrolle, keinen signifikanten Einfluss oder Zugang zu sicherheitsrelevanten Informationen erlangen. Damit soll unter anderem verhindert werden, dass Akteure wie China oder Russland sicherheitsrelevante Positionen einnehmen. Ein weiterer Abschnitt des Vertrages sieht die Zusammenarbeit bei der Abwehr von Spionage vor.",
+      "Für Anlagen außerhalb der definierten Verteidigungsbereiche wurde ein beschleunigtes Genehmigungsverfahren für unbemannte militärische Installationen vereinbart. Grundsätzlich schließt das Abkommen aus, dass Staaten außerhalb der NATO eigene bemannte oder unbemannte militärische Anlagen errichten oder dort dauerhaft Streitkräfte stationieren dürfen, sofern keine andere Vereinbarung getroffen wird. Laut den Berichten soll Grönland zudem ein Standort für das geplante US-Verteidigungssystem Golden Dome werden."
      ]
     },
     {
      "ueberschrift": "Vorgeschichte des Streits",
      "absaetze": [
-      "Dem Abkommen ging ein monatelanger diplomatischer Streit voraus. US-Präsident Donald Trump hatte in den vergangenen Monaten wiederholt Forderungen gestellt und mit der Übernahme der Kontrolle über das teilautonome dänische Gebiet gedroht. Als Begründung nannte Trump nationale Sicherheitsbedenken sowie den Einfluss von Staaten wie Russland und China in der Region. Er äußerte die Sorge, dass die Insel gegenüber außenpolitischen Risiken verwundbar sei.",
-      "Die Forderungen und Drohungen des US-Präsidenten hatten international für Spannungen gesorgt. Vertreter aus Europa, Dänemark und Grönland hatten in gemeinsamen Erklärungen kritisiert, dass die Äußerungen die transatlantischen Beziehungen belasten und zu einer Gefährdung der Stabilität führen könnten. Im Januar war daraufhin eine hochrangige Arbeitsgruppe eingerichtet worden, um nach diplomatischen Lösungen für die sicherheitspolitischen Bedenken zu suchen. Über die genauen Verhandlungen hinter den Kulissen drangen über Monate kaum Informationen an die Öffentlichkeit.",
-      "Erst kurz vor der offiziellen Unterzeichnung im September 2026 hatten die beteiligten Regierungen überraschend verkündet, dass ein Durchbruch erzielt worden sei. Die USA unterhalten bereits seit dem Jahr 1951 einen Verteidigungsvertrag mit Dänemark, der die Basis für frühere militärische Aktivitäten auf der Arktisinsel bildete. Während des Kalten Krieges betrieben die USA dort zahlreiche Radarstationen und militärische Anlagen."
+      "Die Beziehungen zwischen den beteiligten Regierungen waren in den vergangenen Monaten durch wiederholte Ansprüche des US-Präsidenten auf Grönland belastet worden. Laut den Berichten hatte Donald Trump mehrfach geäußert, das Territorium kaufen oder mit militärischer Stärke übernehmen zu wollen. Diese Aussagen hatten in Europa und in der Region zu großen Sorgen und diplomatischen Spannungen geführt. Angesichts möglicher Bedrohungen für die Sicherheit im Nordatlantik reisten im Januar der dänische Außenminister und seine damalige grönländische Amtskollegin zu Gesprächen nach Washington.",
+      "Aus diesen Kontakten resultierte die Bildung einer Arbeitsgruppe, die über Monate hinweg verhandelte. Über die Details dieser Beratungen drang nach außen zunächst kaum etwas an die Öffentlichkeit. Erst im September verkündete der US-Präsident überraschend eine Einigung, die kurz darauf von den Regierungen in Dänemark und Grönland bestätigt wurde. Der frühere dänische Verteidigungsminister Troels Lund Poulsen erklärte dazu, dass zu Beginn der Gespräche im Januar niemand den Ausgang der Verhandlungen habe vorhersehen können."
      ]
     },
     {
-     "ueberschrift": "Zum Verständnis",
+     "ueberschrift": "Reaktionen auf internationaler Ebene",
      "absaetze": [
-      "Grönland ist eine große Arktisinsel und ein autonomes Gebiet des europäischen Staates Dänemark. Die Insel liegt geostrategisch bedeutsam im Nordatlantik und im Arktischen Ozean zwischen Nordamerika und Europa. Auf der rohstoffreichen Insel leben rund 56.000 Menschen.",
-      "Die NATO ist ein internationales Bündnis aus europäischen und nordamerikanischen Staaten, das auf kollektive Verteidigung ausgerichtet ist. Sowohl Dänemark als auch die Vereinigten Staaten sind Mitglieder dieser Organisation. Die Arktis gewinnt durch geopolitische Rivalitäten zunehmend an strategischer Bedeutung für die internationale Sicherheit."
+      "Vertreter verschiedener Staaten und Organisationen begrüßten das Abkommen. Der deutsche Kanzler Friedrich Merz äußerte Unterstützung und betonte, das Abkommen stärke die Partnerschaft in der NATO und die Sicherheit im hohen Norden. Dänemarks Außenminister Lars Løkke Rasmussen bezeichnete den Verhandlungsweg als schwierig, zeigte sich jedoch mit dem erreichten Ergebnis sehr zufrieden. Er betonte, dass die Geschichte die beteiligten Länder verbinde und die Zukunft ein gemeinsames Handeln verlange. Die dänische Ministerpräsidentin Mette Frederiksen hob zudem hervor, dass das Abkommen die Souveränität des Königreichs Dänemark und das Selbstbestimmungsrecht der grönländischen Bevölkerung ausdrücklich garantiert."
      ]
     },
     {
-     "ueberschrift": "Reaktionen",
+     "ueberschrift": "Weitere politische Entwicklungen",
      "absaetze": [
-      "US-Präsident Donald Trump erklärte bei der Zeremonie, dass man sofort mit dem Prozess zur Entwicklung einer großen militärischen Präsenz an den entsprechenden Standorten beginnen werde. Er bezeichnete die künftigen Beziehungen als sicher und stark. US-Außenminister Marco Rubio erklärte gegenüber dem Sender Fox News, dass der Deal die Kontrolle über künftige ausländische Investitionen ermögliche.",
-      "Die dänische Ministerpräsidentin Mette Frederiksen bezeichnete das Abkommen als einen Meilenstein für die Beziehungen der beteiligten Länder. Sie erklärte, das Dokument respektiere die Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands, und hob hervor, dass der Deal vorteilhaft für die NATO und Europa sei. Grönlands Regierungschef Jens-Frederik Nielsen nannte die Vereinbarung eine Win-Win-Win-Situation sowie ein historisches Abkommen, das in Abstimmung mit der Bevölkerung getroffen wurde.",
-      "Auch internationale Vertreter äußerten sich zu der Einigung. EU-Ratspräsident Antonio Costa begrüßte das Abkommen laut ORF als positiven Schritt für die Sicherheit in der Arktis. Der deutsche Bundeskanzler Friedrich Merz äußerte sich erfreut über eine einvernehmliche Lösung im Einklang mit internationalem Recht. NATO-Generalsekretär Mark Rutte betonte, das Bündnis heiße das Abkommen willkommen, da es die Sicherheit, Stabilität und Kooperation in der Region stärke."
+      "Parallel zu den Ereignissen in New York befasste sich die Europäische Union mit Sanktionsfragen im Zusammenhang mit dem Krieg in Russland. Die siebundzwanzig Mitgliedstaaten beschlossen laut den Berichten einen Kompromiss zur Verlängerung der Restriktionen gegen Personen und Unternehmen, die die Handlungen gegen die Ukraine unterstützen. Dabei wurden die beiden russischen beziehungsweise usbekisch-stämmigen Geschäftsleute Alischer Usmanow und Michail Fridman von der Sanktionsliste gestrichen. Die Entscheidung erfolgte nach entsprechenden Anträgen einzelner Mitgliedstaaten aus nationalen Sicherheitsgründen.",
+      "Diese Entlastung einzelner Personen sorgte für scharfe Kritik seitens der ukrainischen Führung. Der ukrainische Präsident Wolodymyr Selenskyj und Außenminister Andrii Sybiha nannten den Schritt in Stellungnahmen inakzeptabel und beschämend. Sie argumentierten, dass solche Entscheidungen zu Spaltungen in Europa führen und die Anstrengungen zur Bewältigung des Konflikts schwächen. Die EU-Gremien verteidigten den Schritt als notwendigen Kompromiss zur Sicherung der gesamten Sanktionsverlängerung für die kommenden drei Jahre."
      ]
     }
    ],
    "zeitleiste": [
-    [
-     "Januar 2026",
-     "Kompromissfindung durch NATO-Generalsekretär Mark Rutte und Veröffentlichung einer Umfrage zur Unabhängigkeit Grönlands"
-    ],
-    [
-     "19. September 2026",
-     "Bekanntgabe weiterer Details und geplante Unterzeichnung des Abkommens in der kommenden Woche"
-    ],
-    [
-     "Januar 2026",
-     "Einrichtung einer Arbeitsgruppe zur Beilegung des Streits zwischen den USA, Dänemark und Grönland"
-    ],
     [
      "19. September 2026",
      "Verkündung der Einigung und des geplanten Abkommens durch die Regierungen und US-Präsident Trump"
@@ -607,28 +1758,40 @@
     [
      "2026-09-22",
      "Unterzeichnung des Sicherheitsabkommens in New York"
+    ],
+    [
+     "Januar 2026",
+     "Beginn der komplexen Verhandlungen und Einrichtung einer Arbeitsgruppe im Streit um Grönland"
+    ],
+    [
+     "18. September 2026",
+     "Verkündung einer erzielten Einigung im Grönland-Streit durch Donald Trump, Dänemark und Grönland"
+    ],
+    [
+     "22. September 2026",
+     "Unterzeichnung des neuen Sicherheitsabkommens in New York durch die drei beteiligten Führungspersönlichkeiten"
     ]
    ],
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Donald Trump",
-     "bildunterschrift": "US-Präsident Donald Trump nahm an der Unterzeichnung des Sicherheitsabkommens in New York teil."
+     "suchbegriff": "Mette Frederiksen",
+     "bildunterschrift": "Die dänische Ministerpräsidentin Mette Frederiksen war maßgeblich an den Verhandlungen und der Unterzeichnung des Abkommens beteiligt."
     },
     {
      "art": "person",
-     "suchbegriff": "Mette Frederiksen",
-     "bildunterschrift": "Dänemarks Ministerpräsidentin Mette Frederiksen unterzeichnete das Abkommen am Rande der UN-Vollversammlung."
+     "suchbegriff": "Donald Trump",
+     "bildunterschrift": "US-Präsident Donald Trump unterzeichnete das Abkommen in New York nach monatelangen territorialen Forderungen."
     },
     {
      "art": "ort",
      "suchbegriff": "Nuuk",
-     "bildunterschrift": "Grönland ist eine autonome Insel im Nordatlantik und Teil des dänischen Königreichs."
+     "bildunterschrift": "Die Hauptstadt Nuuk auf Grönland, wo die Einigung bei den Bewohnern große Erleichterung ausgelöst hat."
     },
     {
      "art": "institution",
      "suchbegriff": "United Nations Headquarters",
-     "bildunterschrift": "Das Hauptquartier der Vereinten Nationen in New York war der Ort der Unterzeichnung."
+     "bildunterschrift": "Das UN-Gebäude in New York diente als Ort für die offizielle Vertragsunterzeichnung der beteiligten Staaten."
     }
    ],
    "ort": {
@@ -636,115 +1799,86 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Entfernung von Formulierungen, die nicht durch mindestens zwei Quellen gedeckt waren (u.a. Raketenflugbahn-Details in 'Zum Verständnis')."
+    "Mark Rutte als Zitatgeber entfernt, da im Text nicht belegt."
    ],
-   "wortwarnung": [],
+   "wortwarnung": [
+    "beispielloses"
+   ],
    "lernen": {
     "begriffe": [
      [
       "Souveränität",
-      "Das Recht eines Staates, unabhängig und selbstbestimmt über sein eigenes Gebiet zu bestimmen."
+      "Das Recht eines Staates, völlig selbstständig und ohne Einmischung von außen über seine Gesetze und seine Politik zu entscheiden."
      ],
      [
-      "NATO",
-      "Ein Bündnis aus europäischen und nordamerikanischen Staaten zur gemeinsamen Verteidigung."
+      "Selbstbestimmungsrecht",
+      "Das Recht eines Volkes, frei über seinen politischen Status und seine nationale Zugehörigkeit zu entscheiden."
      ]
     ],
     "fragen": [
-     "Welche Gründe nannten die beteiligten Politiker für das neue Abkommen?",
-     "Wie bewerten verschiedene europäische Länder die Einigung laut den Berichten?"
+     "Welche Rolle spielen Verträge aus der Vergangenheit wie das Abkommen von 1951 für die heutigen Beziehungen zwischen Staaten?",
+     "Wie bewertest du den Einfluss von großen Staaten auf kleinere Regionen wie Grönland anhand der Berichte?"
     ],
     "quiz": [
      {
-      "frage": "Wo fand die Unterzeichnung des Sicherheitsabkommens statt?",
+      "frage": "Wer hat das neue Sicherheitsabkommen neben den USA und Dänemark unterzeichnet?",
       "optionen": [
-       "In Washington",
-       "Am Rande der UN-Vollversammlung in New York",
-       "In Nuuk auf Grönland"
+       "Island",
+       "Grönland",
+       "Norwegen"
       ],
       "richtig": 1,
-      "erklaerung": "Alle Quellen stimmen überein, dass die Unterzeichnung am Rande der UN-Vollversammlung in New York stattfand."
+      "erklaerung": "Laut übereinstimmender Berichte haben die USA, Dänemark und Grönland das Abkommen unterzeichnet."
      },
      {
-      "frage": "Wie viele neue Militärbasen dürfen die USA laut dem Abkommen errichten?",
+      "frage": "Welche Regelung gilt für Investitionen von Nicht-NATO-Staaten in Grönland?",
       "optionen": [
-       "Zwei neue Basen",
-       "Keine neuen Basen",
-       "Fünf neue Basen"
+       "Sie sind völlig verboten",
+       "Sie sind nur noch begrenzt möglich",
+       "Sie sind ohne Einschränkungen erlaubt"
       ],
-      "richtig": 0,
-      "erklaerung": "Laut Spiegel, BBC, taz und ORF sieht das Abkommen den Bau von zwei neuen Militärbasen vor."
+      "richtig": 1,
+      "erklaerung": "Die Berichte der Tagesschau und von The Guardian bestätigen, dass Investitionen von Nicht-NATO- und Nicht-EU-Staaten nur noch begrenzt möglich sind."
      },
      {
-      "frage": "Worauf baut das neue Abkommen laut den Berichten auf?",
+      "frage": "Wie lange ist das neue Sicherheitsabkommen gültig?",
       "optionen": [
-       "Auf einem Vertrag aus dem Jahr 1951",
-       "Auf einem Vertrag aus dem Jahr 2004",
-       "Auf keinem vorherigen Vertrag"
+       "Es gilt für immer und hat kein Ablaufdatum",
+       "Es ist auf zehn Jahre befristet",
+       "Es gilt nur so lange Donald Trump im Amt ist"
       ],
       "richtig": 0,
-      "erklaerung": "Spiegel, BBC, taz und ORF bestätigen übereinstimmend, dass das Abkommen auf einem Verteidigungsabkommen aus dem Jahr 1951 aufbaut."
+      "erklaerung": "In den Berichten wird betont, dass das Abkommen für immer gilt und keine Vertragspartei alleine kündigen kann."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Die USA, Dänemark und Grönland haben ein wichtiges Sicherheitsabkommen geschlossen.",
+    "vorspann": "Die Vereinigten Staaten, Dänemark und Grönland haben ein wichtiges Abkommen geschlossen. Es geht dabei um Sicherheit und Militärbasen in der Arktis.",
     "absaetze": [
-     "Die Unterzeichnung fand am einundzwanzigsten September zweitausendsechsundzwanzig am Rande der Vereinten Nationen in New York statt.",
-     "Das Abkommen erlaubt den Vereinigten Staaten, zwei neue Militärbasen auf der Insel Grönland zu bauen.",
-     "Zudem wird der bereits bestehende Stützpunkt Pituffik modernisiert und ausgebaut.",
-     "Dänemark behält die Kontrolle über das Gebiet, und das Selbstbestimmungsrecht der grönländischen Bevölkerung wird anerkannt.",
-     "Vorangegangen war ein monatelanger Streit, weil der amerikanische Präsident Donald Trump zuvor immer wieder Forderungen gestellt hatte."
+     "Im September zweitausendsechsundzwanzig trafen sich Politiker aus den drei Ländern in New York. Sie unterschrieben einen neuen Vertrag für die Arktis. Das ist die kalte Region am Nordpol. Davor gab es lange Streitigkeiten, weil der amerikanische Präsident Donald Trump die Insel kaufen wollte.",
+     "Das neue Abkommen soll für immer gelten. Es besagt, dass Grönland selbst über seine Zukunft entscheiden darf. Gleichzeitig bauen die Vereinigten Staaten ihre Militärbasis auf der Insel aus. Außerdem entstehen zwei neue Stützpunkte.",
+     "Länder, die nicht zur NATO oder zur Europäischen Union gehören, dürfen in Grönland nur sehr eingeschränkt Geld investieren. Das soll die Sicherheit in der Region verbessern. Auf der Insel sind die Menschen erleichtert, dass der Streit nun vorbei ist."
     ]
    },
    "video": {
     "kurz": [
-     "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet.",
-     "Das Abkommen erlaubt den Bau von zwei neuen US-Militärbasen auf der Arktis-Insel Grönland.",
-     "Dänemark behält die Souveränität über das Gebiet."
+     "Die Vereinigten Staaten, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet. Das Abkommen regelt den Ausbau von Militärbasen in der Arktis. Die beteiligten Politiker betonten die Bedeutung des unbefristeten Vertrages."
     ],
     "lang": [
-     "Die Vereinigten Staaten, Dänemark und Grönland haben am Dienstag ein neues Sicherheitsabkommen unterzeichnet.",
-     "Die Unterzeichnung fand am Rande der Vollversammlung der Vereinten Nationen in New York statt.",
-     "Das Abkommen erlaubt den Vereinigten Staaten den Bau von zwei neuen Militärbasen in Grönland.",
-     "Die neuen Stützpunkte sollen an den Standorten Narsarsuaq und Mestersvig errichtet werden.",
-     "Zudem wird der bereits bestehende Stützpunkt Pituffik Space Base modernisiert.",
-     "Die territoriale Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands bleiben dabei vollständig erhalten.",
-     "Nach Angaben des amerikanischen Präsidenten Donald Trump dient das Abkommen der gemeinsamen Sicherheit in der Arktis.",
-     "Grönlands Regierungschef Jens-Frederik Nielsen bezeichnete die Vereinbarung nach Medienberichten als historische Win-Win-Win-Situation.",
-     "Dem Abkommen war ein monatelanger diplomatischer Streit über den Status der Insel vorausgegangen.",
-     "Das Dokument baut auf einem Verteidigungsabkommen aus dem Jahr neunzehnhunderteinundfünfzig auf."
+     "Die Vereinigten Staaten, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet. Das Abkommen wurde am einundzwanzigsten beziehungsweise zweiundzwanzigsten September zweitausendsechsundzwanzig in New York besiegelt. Nach Angaben der Regierungen beendet der Vertrag die monatelangen diplomatischen Streitigkeiten. Die Vereinbarung garantiert die Souveränität des Königreichs Dänemark und das Selbstbestimmungsrecht Grönlands. Die Vereinigten Staaten werden demnach ihre bestehende Basis modernisieren und zwei weitere Stützpunkte errichten. Investitionen von Staaten außerhalb der NATO und der Europäischen Union werden stark eingeschränkt. Nach Angaben des grönländischen Regierungschefs Jens-Frederik Nielsen wurden seine roten Linien bei den Verhandlungen nicht überschritten. Die Bevölkerung in Grönland reagierte nach Angaben der Berichte überwiegend erleichtert auf den Vertragsabschluss."
     ],
     "einfach": [
-     "Die USA, Dänemark und Grönland haben ein Sicherheitsabkommen geschlossen.",
-     "Das Treffen fand in New York statt.",
-     "Die USA dürfen nun zwei neue Militärbasen auf Grönland bauen.",
-     "Dänemark bleibt weiterhin der Chef über das Gebiet.",
-     "Zuvor gab es einen langen Streit zwischen den Ländern."
+     "Die USA, Dänemark und Grönland haben einen neuen Vertrag unterschrieben. Der Vertrag regelt die Sicherheit und das Militär in der Arktis. Davor gab es lange Streitigkeiten zwischen den Ländern. Jetzt bauen die USA neue Militärbasen auf der Insel. Die Menschen in Grönland sind sehr erleichtert über diese Einigung."
     ]
    },
    "kurz": [
-    "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet.",
-    "Das Abkommen erlaubt den Bau von zwei neuen US-Militärbasen auf Grönland.",
-    "Die Souveränität Dänemarks und das Selbstbestimmungsrecht Grönlands bleiben erhalten."
-   ],
-   "fakten": [
-    [
-     "Bevölkerung Grönlands",
-     "56.000"
-    ],
-    [
-     "Jahr des vorherigen Abkommens",
-     "1951"
-    ],
-    [
-     "Anzahl neuer Militärbasen",
-     "zwei"
-    ]
+    "Die USA, Dänemark und Grönland haben ein neues, unbefristetes Sicherheitsabkommen unterzeichnet.",
+    "Das Abkommen garantiert das Selbstbestimmungsrecht Grönlands und regelt den Ausbau von Militärbasen.",
+    "Investitionen von Staaten außerhalb der NATO und der Europäischen Union werden stark eingeschränkt."
    ],
    "dossier": {
-    "slug": "sicherheitsabkommen-groenland",
-    "titel": "Sicherheitsabkommen zu Grönland"
+    "slug": "sicherheitsabkommen-groenland-2026",
+    "titel": "Sicherheitsabkommen zwischen den USA, Dänemark und Grönland"
    },
    "bildInfo": {
     "titel": "Mette Frederiksen by Christian Ursilva (2026).jpg",
@@ -815,155 +1949,7 @@
     "lat": 40.713,
     "lon": -74.006
    },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die Vereinigten Staaten, Dänemark und Grönland haben am Dienstag ein neues Siche",
-     "d": "b56259814f.mp3",
-     "l": 60.8,
-     "s": [
-      0.25,
-      7.07,
-      12.18,
-      17.63,
-      23.41,
-      27.89,
-      34.65,
-      41.37,
-      49.43,
-      55.11
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben ein neues Sicherheitsabkommen unterzeichnet",
-     "d": "b400c73766.mp3",
-     "l": 14.0,
-     "s": [
-      0.25,
-      5.39,
-      11.01
-     ]
-    },
-    {
-     "k": "Die USA, Dänemark und Grönland haben ein Sicherheitsabkommen geschlossen. Das Tr",
-     "d": "17dad1d150.mp3",
-     "l": 21.73,
-     "s": [
-      0.25,
-      5.97,
-      9.11,
-      14.21,
-      17.74
-     ]
-    },
-    {
-     "k": "Welche konkrete Rolle das geplante Raketenabwehrsystem Golden Dome in dem Abkomm",
-     "d": "e2f6406197.mp3",
-     "l": 10.18,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Souveränität? Das Recht eines Staates, unabhängig und se",
-     "d": "fca0cd2b15.mp3",
-     "l": 9.63,
-     "s": [
-      0.25,
-      3.4
-     ]
-    },
-    {
-     "k": "Am Rande der UN-Vollversammlung in New York haben die Regierungen der USA, Dänem",
-     "d": "a58e58d964.mp3",
-     "l": 54.84,
-     "s": [
-      0.25,
-      9.77,
-      16.28,
-      22.09,
-      27.96,
-      33.96,
-      43.91,
-      48.64
-     ]
-    },
-    {
-     "k": "Das Abkommen sieht eine Verstärkung der US-Militärpräsenz in Grönland vor. Nach ",
-     "d": "3b8c63cebe.mp3",
-     "l": 56.18,
-     "s": [
-      0.25,
-      5.29,
-      11.76,
-      17.13,
-      26.2,
-      35.76,
-      40.78,
-      48.47
-     ]
-    },
-    {
-     "k": "Das Abkommen erkennt ausdrücklich die territoriale Souveränität des Königreichs ",
-     "d": "bdf1c765ee.mp3",
-     "l": 54.73,
-     "s": [
-      0.25,
-      8.93,
-      12.42,
-      19.94,
-      27.12,
-      33.67,
-      41.91,
-      48.0
-     ]
-    },
-    {
-     "k": "Dem Abkommen ging ein monatelanger diplomatischer Streit voraus. US-Präsident Do",
-     "d": "97982c3be1.mp3",
-     "l": 57.93,
-     "s": [
-      0.25,
-      4.06,
-      13.56,
-      20.94,
-      26.26,
-      31.63,
-      43.32,
-      51.51
-     ]
-    },
-    {
-     "k": "Grönland ist eine große Arktisinsel und ein autonomes Gebiet des europäischen St",
-     "d": "a87624a3c3.mp3",
-     "l": 38.55,
-     "s": [
-      0.25,
-      6.1,
-      13.47,
-      16.8,
-      18.57,
-      26.68,
-      31.66
-     ]
-    },
-    {
-     "k": "US-Präsident Donald Trump erklärte bei der Zeremonie, dass man sofort mit dem Pr",
-     "d": "c4eb3d3d67.mp3",
-     "l": 62.36,
-     "s": [
-      0.25,
-      10.24,
-      13.88,
-      23.02,
-      30.31,
-      40.88,
-      50.87,
-      54.84
-     ]
-    }
-   ]
+   "version": 5
   },
   {
    "id": "oktoberfest-muenchen-eroeffnung",
@@ -1374,7 +2360,7 @@
       4.63,
       9.44,
       12.32,
-      17.0,
+      17,
       21.06
      ]
     },
@@ -1453,570 +2439,6 @@
       27.36,
       32.51,
       39.06
-     ]
-    }
-   ]
-  },
-  {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-23T05:38:41.000Z",
-   "aktualisiert": "aktualisiert um 07:55 Uhr",
-   "titel": "Prüfung eines Exportstopps für Diesel durch die US-Regierung",
-   "vorspann": "Angesichts steigender Preise für Treibstoff prüft die US-Regierung einen Exportstopp für Diesel. Die Maßnahme soll nach Angaben von Vertretern zu niedrigeren Kosten für Verbraucher im Inland beitragen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Wegen stark steigender Spritpreise prüfen die USA einen Exportstopp für Diesel.",
-    "US-Präsident Donald Trump und Finanzminister Scott Bessent bestätigten entsprechende Beratungen.",
-    "Die Maßnahme ist politisch umstritten und ruft sowohl Befürworter als auch Kritiker hervor.",
-    "Auch für verbündete Staaten in Europa könnte eine Einschränkung Folgen haben."
-   ],
-   "einig": [
-    [
-     "Die US-Regierung prüft wegen hoher Spritpreise einen Exportstopp für Diesel.",
-     [
-      "Deutschlandfunk",
-      "Spiegel",
-      "Zeit",
-      "BBC",
-      "ORF"
-     ]
-    ],
-    [
-     "Finanzminister Scott Bessent prüft die Machbarkeit eines vollständigen oder teilweisen Verbots.",
-     [
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Die USA waren in den vergangenen Jahren Europas wichtigster Lieferant von Diesel nach dem Nahen Osten.",
-     [
-      "Deutschlandfunk",
-      "Zeit",
-      "ORF"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob ein vollständiger oder nur ein teilweiser Exportstopp umgesetzt wird, ist laut Finanzminister Scott Bessent noch in der Prüfung."
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Spricht sich für einen Stopp der Hinausfuhr von Diesel aus, um heimische Preise zu senken.",
-     "Spiegel, BBC"
-    ],
-    [
-     "Scott Bessent (US-Finanzminister)",
-     "Lässt prüfen, ob ein vollständiges oder teilweises Verbot machbar ist.",
-     "Spiegel, BBC"
-    ],
-    [
-     "Ashley Hinson (US-Abgeordnete)",
-     "Unterstützt den Ausfuhrstopp zur Entlastung der Bürger in landwirtschaftlichen Regionen.",
-     "Spiegel, BBC"
-    ],
-    [
-     "Dan Sullivan (US-Senator)",
-     "Fordert eine temporäre Aussetzung der Diesel-Ausfuhren zum Aufbau von Reserven.",
-     "BBC"
-    ],
-    [
-     "Chris Wright (US-Energieminister)",
-     "Warnt vor den Folgen für verbündete Länder, die auf US-Diesel angewiesen sind.",
-     "Spiegel"
-    ],
-    [
-     "Verband der US-Treibstoffindustrie",
-     "Warnt vor negativen Auswirkungen auf die Raffinerieproduktion und die Benzinpreise.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen aus den betroffenen europäischen Importländern oder der Regierung des Iran kommen in den Berichten nicht zu Wort.",
-   "medien": [
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "23.09.26, 07:35",
-     "fokus": "Kompakte Zusammenfassung der Ankündigung",
-     "text": "Der Deutschlandfunk fasst die Pläne der US-Regierung kurz zusammen und ordnet sie historisch in die Ölkrise der siebziger Jahre ein.",
-     "url": "https://www.deutschlandfunk.de/usa-pruefen-wegen-hoher-spritpreise-exportstopp-fuer-diesel-massnahme-zuletzt-waehrend-oelkrise-in-d-100.html",
-     "video": false
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "23.09.26, 02:04",
-     "fokus": "Hintergründe und Reaktionen im Inland",
-     "text": "Der Spiegel beleuchtet ausführlich den politischen Druck vor den Zwischenwahlen sowie die Argumente von Befürwortern und Kritikern in den USA.",
-     "url": "https://www.spiegel.de/ausland/usa-donald-trump-erwaegt-exportstopp-fuer-diesel-wegen-hoher-spritpreise-a-154ac142-90ab-493e-b792-e85e630b00c9#ref=rss",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "23.09.26, 07:38",
-     "fokus": "–",
-     "text": "Mitten im Wahlkampf steigen die Spritpreise in den USA stark. Die US-Regierung denkt nun über eine Ausfuhrsperre für Diesel nach – mit möglichen Folgen auch für Europa.",
-     "url": "https://www.zeit.de/politik/ausland/2026-09/spritpreise-usa-diesel-exportstopp-donald-trump",
-     "video": false
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "22.09.26, 22:41",
-     "fokus": "Internationale Folgen und Marktpreise",
-     "text": "Die BBC nennt konkrete Durchschnittspreise in den USA und geht detailliert auf die Konsequenzen für westliche Verbündete wie Großbritannien ein.",
-     "url": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o?at_medium=RSS&at_campaign=rss",
-     "video": false
-    },
-    {
-     "name": "ORF",
-     "typ": "öffentlich-rechtlich (Österreich)",
-     "art": "öffentlich-rechtlich",
-     "stamm": false,
-     "datum": "23.09.26, 06:01",
-     "fokus": "–",
-     "text": "",
-     "url": "https://orf.at/stories/3442959/",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit der Zitate",
-     "Der Spiegel und die BBC zitieren konkrete Aussagen von Abgeordneten und Ministern im Wortlaut, während andere Medien diese zusammenfassen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "US-Präsident Donald Trump und die US-Regierung",
-    "was": "Prüfung eines Exportstopps für Diesel",
-    "wann": "21. und 22. September",
-    "wo": "New York und Washington, Vereinigte Staaten von Amerika",
-    "wie": "Durch eine behördliche Prüfung der Machbarkeit und Auswirkung",
-    "warum": "Wegen stark gestiegener Spritpreise nach Angaben von US-Präsident Donald Trump",
-    "quellenlage": "Berichte von Deutschlandfunk, Spiegel, Zeit, BBC und ORF"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Angesichts stark gestiegener Preise für Kraftstoffe prüfen die Vereinigten Staaten einen Exportstopp für Diesel. Dies gaben Regierungsvertreter am Rande der Generalversammlung der Vereinten Nationen bekannt.",
-      "Laut den Berichten soll damit versucht werden, die hohen Kosten für Diesel im eigenen Land zu senken. Die Maßnahme wird in der Politik und bei Verbänden unterschiedlich bewertet.",
-      "Die US-Regierung untersucht derzeit, ob ein vollständiger oder ein teilweiser Ausfuhrstopp technisch und wirtschaftlich umsetzbar ist."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "US-Präsident Donald Trump erklärte am Dienstag am Rande der Generaldebatte in New York, er habe sich für einen Exportstopp ausgesprochen. Er sagte, man produziere viel Diesel im Land.",
-      "Finanzminister Scott Bessent bestätigte, dass die Regierung prüft, ob ein vollständiges oder teilweises Verbot funktionieren kann. Dabei wird laut Ministerium auch die gesamte Raffineriekapazität betrachtet.",
-      "Die nationalen Durchschnittspreise für Diesel überstiegen laut Daten der American Automobile Association am Dienstag einen Wert von sechs US-Dollar und fünfzig Cent pro Gallone. Dies stellt einen neuen Höchstwert dar.",
-      "Die Vereinigten Staaten exportieren nach Angaben der Berichte etwa eine Million dreihunderttausend Barrel Diesel pro Tag. Dies entspricht knapp einem Viertel der gesamten Raffinerieproduktion des Landes."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Vor den anstehenden Kongresswahlen am dritten November beherrschen die hohen Verbraucherpreise den politischen Alltag in den USA. Den Republikanern droht bei den Zwischenwahlen laut den Berichten ein Debakel.",
-      "Die globalen Ölpreise sind durch den von Donald Trump mitausgelösten Krieg im Iran deutlich angestiegen. Zudem blockiert der Iran die für den Welthandel wichtige Straße von Hormus.",
-      "Zusätzliche Belastungen für den Weltmarkt ergeben sich aus ukrainischen Angriffen auf russische Energieanlagen. Diese Angriffe haben laut den Berichten die Raffineriekapazität Russlands stark eingeschränkt.",
-      "Zuletzt hatten die USA während der Ölkrise der siebziger Jahre ihre Ausfuhren von Rohöl weitgehend gestoppt. Damit sollte damals versucht werden, die heimischen Preise zu senken."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Raffinerie ist eine Industrieanlage, in der Rohöl in verschiedene Produkte wie Benzin, Diesel und Heizöl umgewandelt wird.",
-      "Die Vereinten Nationen sind eine internationale Organisation von Staaten zur Sicherung des Weltfriedens und der internationalen Zusammenarbeit."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Kongressmitglieder aus landwirtschaftlich geprägten Bundesstaaten unterstützen den Vorstoß laut Spiegel und BBC. Die Abgeordnete Ashley Hinson aus Iowa erklärte, die Menschen würden ausgequetscht und sollten nicht den Preis für den Krieg an der Zapfsäule bezahlen.",
-      "Senator Dan Sullivan aus Alaska forderte laut BBC eine temporäre Aussetzung der Ausfuhren, um die inländischen Reserven wieder aufzubauen. Landwirte in ländlichen Regionen sind stark auf Dieselfahrzeuge angewiesen.",
-      "Parteivertreter aus ölproduzierenden Bundesstaaten wie Texas oder Alaska sowie der Verband der US-Treibstoffindustrie warnten laut Spiegel vor den Folgen. Sie erklärten, Raffinerien müssten möglicherweise ihre Produktion drosseln.",
-      "Energieminister Chris Wright äußerte sich laut Spiegel ebenfalls kritisch und verwies auf mögliche negative Folgen für verbündete Staaten. Zu diesen Verbündeten zählen Länder wie die Niederlande und Großbritannien, die auf Lieferungen angewiesen sind."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Das Finanzministerium führt derzeit Prüfungen zur Machbarkeit eines vollständigen oder teilweisen Exportverbots durch. Eine offizielle Entscheidung der Regierung steht noch aus.",
-      "Am dritten November finden die Zwischenwahlen zum US-Kongress statt, vor denen die Energiepreise ein zentrales politisches Thema bleiben."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Ende Februar 2026",
-     "Beginn des Iran-Kriegs und Anstieg der Energiepreise."
-    ],
-    [
-     "18. September 2026",
-     "Die Bundesregierung und die Länder erzielten eine grundsätzliche Einigung auf Tankrabatt und Spritpreisdeckel."
-    ],
-    [
-     "Donnerstag",
-     "Der Dieselpreis kletterte laut ADAC auf einen Höchstwert von durchschnittlich 2,471 Euro."
-    ],
-    [
-     "Donnerstagabend",
-     "Verhandlungen von Bundeskanzler Merz mit den Länderkoordinatoren fanden statt."
-    ],
-    [
-     "18. September",
-     "Bund und Länder erzielten eine Einigung auf Tankrabatt und Spritpreisdeckel."
-    ],
-    [
-     "1. Oktober",
-     "Geplante Wiedereinführung des Tankrabatts."
-    ],
-    [
-     "1. Januar",
-     "Geplante Einführung des Spritpreisdeckels spätestens zu diesem Datum."
-    ],
-    [
-     "Mai und Juni",
-     "Ein erster Tankrabatt in gleicher Größenordnung galt in Deutschland."
-    ],
-    [
-     "21. September 2026",
-     "Das Kabinett beschloss den Gesetzentwurf im Umlaufverfahren."
-    ],
-    [
-     "1. Oktober 2026",
-     "Geplante Einführung des neuen Tankrabatts."
-    ],
-    [
-     "21. September",
-     "Donald Trump äußerte sich am Rande der Generaldebatte in New York zum Exportstopp."
-    ],
-    [
-     "22. September",
-     "Finanzminister Scott Bessent bestätigte die laufenden Prüfungen im Ministerium."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Donald Trump",
-     "bildunterschrift": "US-Präsident Donald Trump äußerte sich am Rande der Generaldebatte zu den Treibstoffpreisen."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Scott Bessent",
-     "bildunterschrift": "US-Finanzminister Scott Bessent leitet die behördlichen Prüfungen zum möglichen Ausfuhrverbot."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters",
-     "bildunterschrift": "Das Hauptgrab der Vereinten Nationen in New York, wo die Aussagen getätigt wurden."
-    }
-   ],
-   "ort": {
-    "name": "Washington, D.C., USA"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Entfernung des Jahres 2026 aus der Zeitleiste und den W-Fragen, da es in den Berichten nicht genannt wurde.",
-    "Ersetzung von unbestätigten Hintergrundspekulationen im Abschnitt Zum Verständnis durch rein sachliche Definitionen."
-   ],
-   "wortwarnung": [
-    "Debakel"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Exportstopp",
-      "Ein Exportstopp ist ein Verbot, bestimmte Waren an andere Länder zu verkaufen."
-     ],
-     [
-      "Raffinerie",
-      "Eine Raffinerie ist ein Industriebetrieb, in dem Rohöl zu Kraftstoffen wie Benzin und Diesel verarbeitet wird."
-     ]
-    ],
-    "fragen": [
-     "Welche Argumente bringen Befürworter und Gegner des Exportstopps vor?",
-     "Welche Rolle spielen die bevorstehenden Wahlen für die politische Debatte in den USA?"
-    ],
-    "quiz": [
-     {
-      "frage": "Was prüft die US-Regierung wegen hoher Preise?",
-      "optionen": [
-       "Einen Exportstopp für Diesel",
-       "Ein Verbot von Elektroautos",
-       "Die Abschaffung aller Steuern"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut übereinstimmenden Berichten prüft die US-Regierung einen Exportstopp für Diesel."
-     },
-     {
-      "frage": "Wer leitet die behördliche Prüfung des Verbots?",
-      "optionen": [
-       "Finanzminister Scott Bessent",
-       "Außenminister Antony Blinken",
-       "Energieminister Chris Wright"
-      ],
-      "richtig": 0,
-      "erklaerung": "Finanzminister Scott Bessent bestätigte, dass er die Machbarkeit prüfen lässt."
-     },
-     {
-      "frage": "Wie viel Diesel exportieren die USA nach den Berichten ungefähr pro Tag?",
-      "optionen": [
-       "Eine Million dreihunderttausend Barrel",
-       "Fünfzigtausend Barrel",
-       "Zehn Millionen Barrel"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Berichte geben an, dass die USA etwa 1,3 Millionen Barrel Diesel pro Tag exportieren."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In den Vereinigten Staaten sind die Preise für Benzin und Diesel stark gestiegen.",
-    "absaetze": [
-     "Deshalb denkt die Regierung über einen Exportstopp nach. Ein Exportstopp bedeutet, dass ein bestimmtes Gut nicht mehr in andere Länder verkauft werden darf.",
-     "US-Präsident Donald Trump sagte, dass dadurch die Preise im eigenen Land sinken könnten.",
-     "Die Pläne sind jedoch umstritten.",
-     "Einige Politiker und Verbände warnen vor Problemen für die Wirtschaft und für befreundete Länder in Europa."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Regierung der Vereinigten Staaten prüft einen Exportstopp für Diesel.",
-     "Grund dafür sind stark gestiegene Preise für Kraftstoffe im Land.",
-     "Ob das Verbot kommt, ist nach Angaben von Finanzminister Scott Bessent noch unklar."
-    ],
-    "lang": [
-     "Die Regierung der Vereinigten Staaten prüft einen Exportstopp für Dieselkraftstoff.",
-     "Das gaben Regierungsvertreter am Rande der Vereinten Nationen in New York bekannt.",
-     "Grund für die Überlegung sind sehr hohe Spritpreise im eigenen Land.",
-     "Nach Angaben von US-Präsident Donald Trump soll die Maßnahme die Kosten für Autofahrer senken.",
-     "Finanzminister Scott Bessent erklärte, dass eine Behörde die Machbarkeit eines Verbots prüft.",
-     "Der Durchschnittspreis für Diesel lag zuletzt bei sechs Dollar und fünfzig Cent pro Gallone.",
-     "Die Pläne sind in der Politik umstritten.",
-     "Während einige Abgeordnete den Schritt unterstützen, warnen Verbände und andere Politiker vor negativen Folgen für Verbündete in Europa.",
-     "Die Vereinigten Staaten exportieren täglich etwa eine Million dreihunderttausend Barrel Diesel.",
-     "Eine endgültige Entscheidung der Regierung gibt es bisher noch nicht."
-    ],
-    "einfach": [
-     "In den Vereinigten Staaten sind die Preise für Benzin und Diesel stark gestiegen.",
-     "Deshalb prüft die Regierung einen Exportstopp.",
-     "Das bedeutet, dass kein Diesel mehr an andere Länder verkauft wird.",
-     "US-Präsident Donald Trump sagte, das helfe den Menschen im eigenen Land.",
-     "Andere Politiker warnen jedoch vor Problemen für Europa.",
-     "Eine Entscheidung ist noch nicht gefallen."
-    ]
-   },
-   "kurz": [
-    "Die US-Regierung prüft wegen hoher Preise einen Exportstopp für Diesel.",
-    "Präsident Donald Trump und Finanzminister Scott Bessent bestätigten die Pläne.",
-    "Die Maßnahme ist unter Politikern und in der Industrie stark umstritten."
-   ],
-   "fakten": [
-    [
-     "Durchschnittspreis Diesel",
-     "sechs US-Dollar und fünfzig Cent pro Gallone"
-    ],
-    [
-     "Tägliche Diesel-Exporte der USA",
-     "eine Million dreihunderttausend Barrel"
-    ]
-   ],
-   "dossier": {
-    "slug": "treibstoffpreise-usa",
-    "titel": "Treibstoffpreise und Wahlen in den USA"
-   },
-   "bildInfo": {
-    "titel": "Official Presidential Portrait of President Donald J. Trump (2025).jpg",
-    "beschreibung": "Official Presidential Portrait of President Donald J. Trump in his second term",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
-    "urheber": "Daniel Torok",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "artikel": "Donald Trump",
-    "sprache": "de",
-    "art": "person",
-    "suchbegriff": "Donald Trump",
-    "bildunterschrift": "Das offizielle Portrait von US-Präsident Donald Trump.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Official Presidential Portrait of President Donald J. Trump (2025).jpg",
-     "beschreibung": "Official Presidential Portrait of President Donald J. Trump in his second term",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
-     "urheber": "Daniel Torok",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "artikel": "Donald Trump",
-     "sprache": "de",
-     "art": "person",
-     "suchbegriff": "Donald Trump",
-     "bildunterschrift": "Das offizielle Portrait von US-Präsident Donald Trump.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Official portrait of Treasury Secretary Scott Bessent (borderless).jpg",
-     "beschreibung": "Official portrait of Secretary of the Treasury, Scott Bessent",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29.jpg/1280px-Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/68/Official_portrait_of_Treasury_Secretary_Scott_Bessent_%28borderless%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent_(borderless).jpg",
-     "urheber": "U.S. Department of the Treasury",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "artikel": "Scott Bessent",
-     "sprache": "de",
-     "art": "person",
-     "suchbegriff": "Scott Bessent",
-     "bildunterschrift": "Das offizielle Portrait von US-Finanzminister Scott Bessent.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Washington, D.C., USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die Regierung der Vereinigten Staaten prüft einen Exportstopp für Dieselkraftsto",
-     "d": "7693ebb9bd.mp3",
-     "l": 50.65,
-     "s": [
-      0.25,
-      5.3,
-      9.88,
-      13.9,
-      19.77,
-      25.22,
-      30.39,
-      33.12,
-      41.03,
-      46.6
-     ]
-    },
-    {
-     "k": "Die Regierung der Vereinigten Staaten prüft einen Exportstopp für Diesel. Grund ",
-     "d": "37346b1017.mp3",
-     "l": 13.76,
-     "s": [
-      0.25,
-      4.58,
-      8.58
-     ]
-    },
-    {
-     "k": "In den Vereinigten Staaten sind die Preise für Benzin und Diesel stark gestiegen",
-     "d": "a49674f774.mp3",
-     "l": 26.91,
-     "s": [
-      0.25,
-      5.57,
-      9.15,
-      13.87,
-      19.42,
-      23.85
-     ]
-    },
-    {
-     "k": "Ob ein vollständiger oder nur ein teilweiser Exportstopp umgesetzt wird, ist lau",
-     "d": "63e57d7715.mp3",
-     "l": 8.01,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Exportstopp? Ein Exportstopp ist ein Verbot, bestimmte W",
-     "d": "4da81bf7a9.mp3",
-     "l": 8.9,
-     "s": [
-      0.25,
-      3.5
-     ]
-    },
-    {
-     "k": "Angesichts stark gestiegener Preise für Kraftstoffe prüfen die Vereinigten Staat",
-     "d": "a707494e85.mp3",
-     "l": 30.05,
-     "s": [
-      0.25,
-      7.02,
-      12.25,
-      17.77,
-      22.19
-     ]
-    },
-    {
-     "k": "US-Präsident Donald Trump erklärte am Dienstag am Rande der Generaldebatte in Ne",
-     "d": "623a1d6f36.mp3",
-     "l": 47.67,
-     "s": [
-      0.25,
-      7.82,
-      10.76,
-      18.08,
-      22.93,
-      33.68,
-      35.98,
-      42.79
-     ]
-    },
-    {
-     "k": "Vor den anstehenden Kongresswahlen am dritten November beherrschen die hohen Ver",
-     "d": "484c06f811.mp3",
-     "l": 44.65,
-     "s": [
-      0.25,
-      7.28,
-      11.63,
-      17.76,
-      22.11,
-      28.36,
-      34.19,
-      40.35
-     ]
-    },
-    {
-     "k": "Eine Raffinerie ist eine Industrieanlage, in der Rohöl in verschiedene Produkte ",
-     "d": "164442127c.mp3",
-     "l": 16.12,
-     "s": [
-      0.25,
-      7.86
-     ]
-    },
-    {
-     "k": "Kongressmitglieder aus landwirtschaftlich geprägten Bundesstaaten unterstützen d",
-     "d": "8b35a35919.mp3",
-     "l": 56.67,
-     "s": [
-      0.25,
-      6.81,
-      14.72,
-      23.75,
-      28.28,
-      37.42,
-      42.1,
-      50.11
      ]
     }
    ]
@@ -2848,34 +3270,20 @@
     "titel": "Medienstreit und Ausschluss aus dem Weißen Haus"
    },
    "bildInfo": {
-    "titel": "Donald Trump official portrait.jpg",
-    "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-    "urheber": "Shealeah Craighead",
+    "titel": "Latrobe White House cropa2.jpg",
+    "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Latrobe_White_House_cropa2.jpg/1280px-Latrobe_White_House_cropa2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Latrobe_White_House_cropa2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Latrobe_White_House_cropa2.jpg",
+    "urheber": "Benjamin Henry Latrobe",
     "lizenz": "Public domain",
     "lizenzUrl": "",
-    "art": "person",
-    "suchbegriff": "Donald Trump politician",
-    "bildunterschrift": "US-Präsident Donald Trump, der den Ausschluss von Medien vom Gelände des Weißen Hauses veranlasste.",
+    "art": "institution",
+    "suchbegriff": "White House Washington DC",
+    "bildunterschrift": "Das Weiße Haus in Washington, D.C., Amtssitz des US-Präsidenten.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump politician",
-     "bildunterschrift": "US-Präsident Donald Trump, der den Ausschluss von Medien vom Gelände des Weißen Hauses veranlasste.",
-     "hinweis": "Archivfoto"
-    },
     {
      "titel": "Latrobe White House cropa2.jpg",
      "beschreibung": "The White House, Washington, D.C. Site plan and principal story plan, architectural design.",
@@ -7910,20 +8318,6 @@
      "art": "person",
      "suchbegriff": "Michelle Bachelet politician",
      "bildunterschrift": "Michelle Bachelet, die ihre Kandidatur für das Amt der UN-Generalsekretärin zurückgezogen hat.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
-     "beschreibung": "United Nations General Assembly Building, New York City",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
-     "urheber": "Jakub Hałun",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters New York",
-     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York City.",
      "hinweis": "Archivfoto"
     },
     {
