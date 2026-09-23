@@ -161,7 +161,11 @@ def mp3_schreiben(pcm, rate, ziel):
 def aufnehmen(voice, saetze, art, ziel):
     """Sätze einzeln sprechen, Pausen setzen, als ein MP3 speichern. Gibt Startzeiten zurück."""
     from piper.config import SynthesisConfig
-    conf = SynthesisConfig(length_scale=TEMPO.get(art, 1.04), noise_scale=0.667, noise_w_scale=0.8, normalize_audio=True)
+    # Jedes Modell bringt sein eigenes Grundtempo mit. Unser Wert ist ein Faktor
+    # darauf, keine feste Vorgabe - sonst sprechen fremde Modelle drei Mal zu langsam.
+    grund = getattr(voice.config, "length_scale", 1.0) or 1.0
+    conf = SynthesisConfig(length_scale=grund * TEMPO.get(art, 1.04),
+                           noise_scale=0.667, noise_w_scale=0.8, normalize_audio=True)
     rate = voice.config.sample_rate
     stueck = []
     zeiten = []
