@@ -93,6 +93,7 @@ class Sprecher:
             self.cfg["standard"] = standard
         self.zuordnung = cfg.get("zuordnung") or {"einfach": "einfach", "begriff": "einfach"}
         self.geladen = {}
+        self.geladen_name = {}   # welches Modell wirklich geladen wurde
 
     def schluessel(self, art):
         return self.zuordnung.get(re.sub(r"\d+$", "", art or ""), "standard")
@@ -102,6 +103,14 @@ class Sprecher:
         return eintrag.get("name", "Computerstimme")
 
     def kennung(self, schluessel):
+        # Der Dateiname enthaelt den Modellnamen. Er muss zu der Stimme passen, die
+        # wirklich spricht - sonst behalten alte Aufnahmen faelschlich den neuen Namen.
+        try:
+            self.stimme(schluessel)
+        except Exception:
+            pass
+        if schluessel in self.geladen_name:
+            return self.geladen_name[schluessel]
         eintrag = self.cfg.get(schluessel) or self.cfg["standard"]
         modelle = eintrag.get("modell") or ["de_DE-thorsten-medium"]
         return modelle[0] if isinstance(modelle, list) else str(modelle)
@@ -116,6 +125,7 @@ class Sprecher:
         for m in modelle:
             try:
                 self.geladen[schluessel] = stimme_laden(m)
+                self.geladen_name[schluessel] = m
                 log(f"  Stimme bereit: {eintrag.get('name', m)} ({m})")
                 return self.geladen[schluessel]
             except Exception as e:
@@ -123,6 +133,8 @@ class Sprecher:
         if schluessel != "standard":
             log(f"  {eintrag.get('name', schluessel)} fällt auf die Standardstimme zurück.")
             self.geladen[schluessel] = self.stimme("standard")
+            if "standard" in self.geladen_name:
+                self.geladen_name[schluessel] = self.geladen_name["standard"]
             return self.geladen[schluessel]
         raise RuntimeError("Keine Stimme konnte geladen werden.")
 

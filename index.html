@@ -255,18 +255,41 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-buehne{position:relative;overflow:hidden;border-radius:12px;background:#0D2B55}
 .pl-buehne.quer{width:min(96vw,calc((100vh - 150px)*16/9));aspect-ratio:16/9}
 .pl-buehne.hoch{height:min(calc(100vh - 150px),calc(96vw*16/9));aspect-ratio:9/16}
-.pl-buehne:fullscreen{width:100vw;height:100vh;border-radius:0;aspect-ratio:auto}
-/* Apple erlaubt kein echtes Vollbild für normale Elemente – dieses hier bauen wir selbst.
-   Die Bühne bekommt die ganze Höhe minus Bedienleiste, dann stimmen alle Abstände darin von allein. */
-#player.selbst-voll{padding:0;gap:0;justify-content:space-between}
-#player.selbst-voll .pl-kopf{background:linear-gradient(180deg,rgba(0,0,0,.7),rgba(0,0,0,0));z-index:6;
+/* ---- Vollbild ----
+   Immer selbst gebaut, damit die Bedienknöpfe mitkommen (im echten Vollbild der Bühne
+   waren sie weg) und das Bild sein 16:9-Format behält statt in die Länge gezogen zu werden. */
+#player.voll{padding:0;gap:0;justify-content:center;background:#000}
+#player.voll .pl-drehhinweis{bottom:14px}
+#player.voll .pl-kopf{background:linear-gradient(180deg,rgba(0,0,0,.72),rgba(0,0,0,0));z-index:6;
   padding:max(10px,env(safe-area-inset-top)) 14px 22px}
-#player.selbst-voll .pl-buehne{width:100vw;max-width:none;border-radius:0;aspect-ratio:auto;
-  height:calc(100vh - 78px);height:calc(100dvh - 78px - env(safe-area-inset-bottom))}
-#player.selbst-voll .pl-steuer{width:100%;justify-content:center;background:#05080d;
-  padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
-#player.selbst-voll .pl-marke,#player.selbst-voll .pl-credit{top:calc(46px + env(safe-area-inset-top))}
-#player.selbst-voll .pl-bu{top:calc(72px + env(safe-area-inset-top))}
+/* Die Bedienleiste schwebt jetzt über dem Bild, also darf das Bild die volle Höhe nutzen. */
+#player.voll .pl-buehne{border-radius:0;max-width:none;
+  width:min(100vw, calc((100dvh - 62px) * 16 / 9));
+  height:min(calc(100dvh - 62px), calc(100vw * 9 / 16));
+  aspect-ratio:16/9}
+#player.voll .pl-buehne.hoch{width:min(100vw, calc((100dvh - 62px) * 9 / 16));
+  height:min(calc(100dvh - 62px), calc(100vw * 16 / 9));aspect-ratio:9/16}
+
+/* Bedienleiste unter dem Bild statt darüber – sonst überdeckt sie Untertitel und Laufband.
+   Dafür im Vollbild kompakter, damit dem Bild mehr Höhe bleibt. */
+#player.voll .pl-steuer{width:100%;justify-content:center;background:#05080d;flex:0 0 auto;
+  padding:6px 8px calc(6px + env(safe-area-inset-bottom));gap:6px}
+#player.voll .pl-steuer button{width:40px;height:40px}
+#player.voll .pl-steuer .pl-haupt{width:50px;height:50px}
+#player.voll .pl-steuer .pl-zeit{font-size:.8rem}
+#player.voll .pl-marke,#player.voll .pl-credit{top:calc(46px + env(safe-area-inset-top))}
+#player.voll .pl-bu{top:calc(72px + env(safe-area-inset-top))}
+/* Hochkant gehaltenes Handy, Querformat-Video: den ganzen Spieler drehen,
+   damit das Bild den Bildschirm füllt – Handy einfach quer halten. */
+#player.voll.gedreht{inset:auto;top:50%;left:50%;width:100dvh;height:100dvw;
+  transform:translate(-50%,-50%) rotate(90deg);transform-origin:center center}
+#player.voll.gedreht .pl-buehne{width:min(100dvh, calc((100dvw - 62px) * 16 / 9));
+  height:min(calc(100dvw - 62px), calc(100dvh * 9 / 16))}
+.pl-drehhinweis{position:absolute;left:50%;bottom:92px;transform:translateX(-50%);z-index:7;
+  background:rgba(5,8,13,.82);color:#DCE6F2;font-family:var(--head);font-size:.78rem;font-weight:700;
+  padding:7px 13px;border-radius:999px;white-space:nowrap;pointer-events:none;
+  animation:drehweg .4s ease 4s forwards}
+@keyframes drehweg{to{opacity:0;visibility:hidden}}
 .pl-fortschritt{position:absolute;top:10px;left:10px;right:10px;display:flex;gap:4px;z-index:3}
 .pl-fortschritt i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.28);cursor:pointer;
   transition:background .15s,transform .12s}
@@ -291,8 +314,8 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 .pl-bild.tafel.rot{background:linear-gradient(135deg,#7a1020,#C41E2E)}
 .pl-credit{position:absolute;right:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);background:rgba(0,0,0,.5);padding:2px 8px;border-radius:6px;max-width:70%;text-align:right}
 .pl-inhalt{position:absolute;left:0;right:0;bottom:22%;padding:0 5%;z-index:2;transition:bottom .2s}
-.pl-buehne.mit-ut .pl-inhalt{bottom:calc(12% + 62px)}
-.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(14% + 66px)}
+.pl-buehne.mit-ut .pl-inhalt{bottom:calc(12% + var(--ut-hoehe,62px))}
+.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(14% + var(--ut-hoehe,66px))}
 .hoch .pl-inhalt{bottom:26%}
 .pl-logo{font-family:var(--head);font-weight:800;font-size:clamp(.95rem,2.8vw,1.6rem)}
 .pl-logo span{color:#B9C8DE;font-weight:600}
@@ -2311,7 +2334,7 @@ function tonEintrag(s){
   const k = (s.saetze || []).join(" ").slice(0, 80);
   return k ? (liste.find(e => e && e.k === k) || null) : null;
 }
-const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, format:null, zurueck:"#/", lauf:0, fertig:false };
+const PLAYER = { segs:[], si:0, ti:0, spielt:false, stumm:false, untertitel:true, timer:null, wache:null, format:null, zurueck:"#/", lauf:0, fertig:false };
 
 function deutscheStimmen(){
   return (speechSynthesis?.getVoices?.() || []).filter(v => /^de/i.test(v.lang));
@@ -2450,7 +2473,7 @@ function wischAnimation(buehne, hoch){
 function playerSchliessen(){
   stopp(); tickerStopp();
   document.removeEventListener("fullscreenchange", vollKnopf);
-  document.getElementById("player")?.classList.remove("selbst-voll");
+  document.getElementById("player")?.classList.remove("voll", "gedreht");
   document.getElementById("player")?.remove();
   document.body.style.overflow = "";
   if (document.fullscreenElement) document.exitFullscreen().catch(()=>{});
@@ -2638,7 +2661,16 @@ function untertitel(){
   const ut = el.querySelector(".pl-ut");
   ut.textContent = PLAYER.untertitel ? ((s.saetze || [])[PLAYER.ti] || "") : "";
   ut.hidden = !PLAYER.untertitel || !ut.textContent;
-  el.querySelector(".pl-buehne")?.classList.toggle("mit-ut", !ut.hidden);
+  const buehne = el.querySelector(".pl-buehne");
+  buehne?.classList.toggle("mit-ut", !ut.hidden);
+  // Wie hoch der Untertitel wirklich ist, hängt von der Satzlänge ab. Statt zu raten
+  // messen wir ihn und heben den Inhalt genau so weit an – sonst überlappt beides.
+  if (buehne){
+    requestAnimationFrame(() => {
+      const h = ut.hidden ? 0 : Math.round(ut.getBoundingClientRect().height);
+      buehne.style.setProperty("--ut-hoehe", h ? h + 8 + "px" : "0px");
+    });
+  }
 }
 function zeigenTeil(){ untertitel(); shotZeigen(); }
 function knoepfe(){
@@ -2681,7 +2713,9 @@ function zeitAnzeigen(){
 const gueltig = lauf => PLAYER.spielt && PLAYER.lauf === lauf;
 function stopp(){
   PLAYER.spielt = false; PLAYER.lauf++;
-  clearTimeout(PLAYER.timer); tickerStopp();
+  clearTimeout(PLAYER.timer); clearInterval(PLAYER.wache); tickerStopp();
+  wachHalten(false);
+  try { if ("mediaSession" in navigator) navigator.mediaSession.playbackState = "paused"; } catch {}
   try { speechSynthesis.cancel(); } catch {}
   tonAus();
   knoepfe();
@@ -2691,9 +2725,56 @@ function tonAus(){
   AUDIO.ontimeupdate = null; AUDIO.onended = null; AUDIO.onerror = null;
   try { AUDIO.pause(); } catch {}
 }
+// ---- Sperrbildschirm, Kopfhörer, Auto ----
+// Solange eine echte Aufnahme läuft, zeigt das Handy Titel und Tasten an,
+// auch wenn der Bildschirm aus ist. Ohne das ist die App im Hintergrund blind.
+function medienSitzung(){
+  if (!("mediaSession" in navigator)) return;
+  const s = PLAYER.segs[PLAYER.si]; if (!s) return;
+  const f = FORMATE[PLAYER.format] || {};
+  const bild = (s.bilder || []).find(b => b && b.url);
+  const symbol = new URL("icon-512.png", location.href).href;
+  // Beim Vorspann steht der Sendungsname oben, sonst die Schlagzeile.
+  const istRahmen = s.typ === "intro" || s.typ === "outro";
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: istRahmen ? (f.name || "Nachrichten-Heft") : (s.titel || f.name || "Nachrichten-Heft"),
+      artist: istRahmen ? "Nachrichten-Heft · neutral" : (f.name || "Nachrichten-Heft"),
+      album: "Nachrichten-Heft · neutral",
+      artwork: [
+        ...(bild ? [{ src: bild.url, sizes: "512x512", type: "image/jpeg" }] : []),
+        { src: symbol, sizes: "512x512", type: "image/png" }
+      ]
+    });
+  } catch {}
+  try {
+    navigator.mediaSession.playbackState = PLAYER.spielt ? "playing" : "paused";
+    const setz = (a, fn) => { try { navigator.mediaSession.setActionHandler(a, fn); } catch {} };
+    setz("play",  () => { if (!PLAYER.spielt) abspielen(); });
+    setz("pause", () => { if (PLAYER.spielt) stopp(); });
+    setz("stop",  () => stopp());
+    setz("nexttrack",     () => springen(PLAYER.si + 1));
+    setz("previoustrack", () => springen(PLAYER.si - 1));
+    setz("seekforward",   () => springen(PLAYER.si + 1));
+    setz("seekbackward",  () => springen(PLAYER.si - 1));
+  } catch {}
+}
+// Der Bildschirm soll während einer Sendung nicht einschlafen.
+let WACH = null;
+async function wachHalten(an){
+  try {
+    if (an){
+      if (!WACH && navigator.wakeLock?.request) WACH = await navigator.wakeLock.request("screen");
+    } else if (WACH){ await WACH.release(); WACH = null; }
+  } catch { WACH = null; }
+}
+addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && PLAYER.spielt) wachHalten(true);
+});
 function abspielen(){
   if (!PLAYER.segs.length) return;
   PLAYER.spielt = true;
+  wachHalten(true); medienSitzung();
   if (PLAYER.fertig){ PLAYER.fertig = false; PLAYER.si = 0; PLAYER.ti = 0; PLAYER.melodieGespielt = false; zeigen(); }
   knoepfe();
   if (!PLAYER.stumm) tickerStart();
@@ -2741,39 +2822,68 @@ function losSprechen(){
   if (!PLAYER.spielt) return;
   const lauf = ++PLAYER.lauf;
   const s = PLAYER.segs[PLAYER.si];
-  zeigenTeil(); knoepfe();
+  zeigenTeil(); knoepfe(); medienSitzung();
   if (!(s.saetze || []).length){          // stille Kapiteltafel
     clearTimeout(PLAYER.timer);
     PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) naechstesSegment(); }, (s.standzeit || 2.6) * 1000);
     return;
   }
-  const e = tonEintrag(s);
-  if (e && AUDIO) tonSprechen(s, e, lauf); else geraetSprechen(s, lauf);
+  clearInterval(PLAYER.wache);
+  let e = null;
+  try { e = tonEintrag(s); } catch { e = null; }
+  try {
+    if (e && AUDIO) tonSprechen(s, e, lauf); else geraetSprechen(s, lauf);
+  } catch (err) {
+    // Letzte Sicherung: lieber stumm weiterlaufen als für immer stehen bleiben.
+    console.warn("Abschnitt konnte nicht gesprochen werden:", err && err.message);
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) naechstesSegment(); },
+      Math.max(2500, ((s.saetze || []).join(" ").split(/\s+/).length) * 380));
+  }
 }
 // echte Sprecherstimme: eine Aufnahme je Abschnitt, Untertitel und Bilder laufen mit
 function tonSprechen(s, e, lauf){
-  try { speechSynthesis.cancel(); } catch {}
-  const url = tonBasis() + e.d;
-  const start = (e.s && e.s[PLAYER.ti] != null) ? e.s[PLAYER.ti] : 0;
-  tonAus();
-  if (AUDIO.getAttribute("src") !== url){ AUDIO.setAttribute("src", url); AUDIO.load(); }
-  const anSeineStelle = () => { try { if (Math.abs(AUDIO.currentTime - start) > 0.3) AUDIO.currentTime = start; } catch {} };
-  if (AUDIO.readyState >= 1) anSeineStelle(); else AUDIO.addEventListener("loadedmetadata", anSeineStelle, { once:true });
-  AUDIO.muted = PLAYER.stumm;
-  AUDIO.ontimeupdate = () => {
-    if (!gueltig(lauf) || !e.s) return;
-    let i = 0;
-    while (i + 1 < e.s.length && AUDIO.currentTime >= e.s[i + 1] - 0.06) i++;
-    if (i !== PLAYER.ti){ PLAYER.ti = i; zeigenTeil(); }
-    zeitAnzeigen();
-  };
-  AUDIO.onended = () => { if (gueltig(lauf)) naechstesSegment(); };
-  AUDIO.onerror = () => { if (gueltig(lauf)) geraetSprechen(s, lauf); };
-  const versuch = AUDIO.play();
-  if (versuch && versuch.catch) versuch.catch(() => { if (gueltig(lauf)) geraetSprechen(s, lauf); });
+  const umschalten = () => { if (gueltig(lauf)) geraetSprechen(s, lauf); };
+  // Auch hier gilt: erst die Notbremse stellen, dann erst probieren.
   clearTimeout(PLAYER.timer);
-  PLAYER.timer = setTimeout(() => { if (gueltig(lauf) && AUDIO.paused) geraetSprechen(s, lauf); }, 5000);
-  tonVorladen(PLAYER.si + 1);
+  PLAYER.timer = setTimeout(() => { if (gueltig(lauf) && (!AUDIO || AUDIO.paused)) umschalten(); }, 5000);
+  try {
+    try { speechSynthesis.cancel(); } catch {}
+    const url = tonBasis() + e.d;
+    const start = (e.s && e.s[PLAYER.ti] != null) ? e.s[PLAYER.ti] : 0;
+    tonAus();
+    if (AUDIO.getAttribute("src") !== url){ AUDIO.setAttribute("src", url); AUDIO.load(); }
+    const anSeineStelle = () => { try { if (Math.abs(AUDIO.currentTime - start) > 0.3) AUDIO.currentTime = start; } catch {} };
+    if (AUDIO.readyState >= 1) anSeineStelle(); else AUDIO.addEventListener("loadedmetadata", anSeineStelle, { once:true });
+    AUDIO.muted = PLAYER.stumm;
+    // Wachhund: bleibt der Ton hängen (Funkloch, Datei bricht ab), geht es trotzdem weiter.
+    let zuletzt = -1, steht = 0;
+    clearInterval(PLAYER.wache);
+    PLAYER.wache = setInterval(() => {
+      if (!gueltig(lauf) || !AUDIO){ clearInterval(PLAYER.wache); return; }
+      if (AUDIO.paused){ steht = 0; zuletzt = -1; return; }
+      if (Math.abs(AUDIO.currentTime - zuletzt) < 0.05){
+        if (++steht >= 6){ clearInterval(PLAYER.wache); umschalten(); }
+      } else { steht = 0; }
+      zuletzt = AUDIO.currentTime;
+    }, 1000);
+    AUDIO.ontimeupdate = () => {
+      if (!gueltig(lauf) || !e.s) return;
+      let i = 0;
+      while (i + 1 < e.s.length && AUDIO.currentTime >= e.s[i + 1] - 0.06) i++;
+      if (i !== PLAYER.ti){ PLAYER.ti = i; zeigenTeil(); }
+      zeitAnzeigen();
+    };
+    AUDIO.onended = () => { clearInterval(PLAYER.wache); if (gueltig(lauf)) naechstesSegment(); };
+    AUDIO.onerror = umschalten;
+    AUDIO.onstalled = () => { if (gueltig(lauf) && AUDIO.readyState < 2) umschalten(); };
+    const versuch = AUDIO.play();
+    if (versuch && versuch.catch) versuch.catch(umschalten);
+    tonVorladen(PLAYER.si + 1);
+  } catch (err) {
+    console.warn("Tonaufnahme nicht abspielbar:", err && err.message);
+    umschalten();
+  }
 }
 function tonVorladen(i){
   const s = PLAYER.segs[i]; if (!s) return;
@@ -2793,14 +2903,6 @@ function geraetSprechen(s, lauf){
     zeigenTeil();
     geraetSprechen(s, lauf);
   };
-  if (PLAYER.stumm || !("speechSynthesis" in window)){
-    clearTimeout(PLAYER.timer);
-    PLAYER.timer = setTimeout(weiter, lesezeit + 500);
-    return;
-  }
-  const v = stimmeWaehlen();
-  const grundTempo = FORMATE[PLAYER.format]?.rate || 0.9;
-  const teile = sprechTeile(satz);
   let fertig = false;
   const ende = () => {
     if (fertig || !gueltig(lauf)) return;
@@ -2808,18 +2910,33 @@ function geraetSprechen(s, lauf){
     clearTimeout(PLAYER.timer);
     PLAYER.timer = setTimeout(weiter, 420);
   };
-  speechSynthesis.cancel();
-  teile.forEach((teil, i) => {
-    const u = new SpeechSynthesisUtterance(teil);
-    u.lang = "de-DE"; if (v) u.voice = v;
-    u.rate = grundTempo + (i % 2 ? 0.03 : -0.02) + (PLAYER.ti % 3) * 0.01;
-    u.pitch = 0.94 + (i === teile.length - 1 ? -0.04 : 0.02);
-    u.volume = 1;
-    if (i === teile.length - 1){ u.onend = ende; u.onerror = ev => { if (ev.error !== "interrupted" && ev.error !== "canceled") ende(); } }
-    speechSynthesis.speak(u);
-  });
+  // Die Notbremse wird IMMER zuerst gestellt. Egal was beim Vorlesen schiefgeht –
+  // spätestens danach geht es weiter. Vorher stand das Video hier für immer still.
+  const nurLesen = PLAYER.stumm || !("speechSynthesis" in window) || typeof SpeechSynthesisUtterance !== "function";
   clearTimeout(PLAYER.timer);
-  PLAYER.timer = setTimeout(ende, lesezeit * 2.6 + 3500);
+  PLAYER.timer = setTimeout(nurLesen ? weiter : ende, nurLesen ? lesezeit + 500 : lesezeit * 2.6 + 3500);
+  if (nurLesen) return;
+
+  try {
+    const v = stimmeWaehlen();
+    const grundTempo = FORMATE[PLAYER.format]?.rate || 0.9;
+    const teile = sprechTeile(satz);
+    try { speechSynthesis.cancel(); } catch {}
+    teile.forEach((teil, i) => {
+      const u = new SpeechSynthesisUtterance(teil);
+      u.lang = "de-DE"; if (v) u.voice = v;
+      u.rate = grundTempo + (i % 2 ? 0.03 : -0.02) + (PLAYER.ti % 3) * 0.01;
+      u.pitch = 0.94 + (i === teile.length - 1 ? -0.04 : 0.02);
+      u.volume = 1;
+      if (i === teile.length - 1){ u.onend = ende; u.onerror = ev => { if (ev.error !== "interrupted" && ev.error !== "canceled") ende(); } }
+      speechSynthesis.speak(u);
+    });
+  } catch (e) {
+    // Vorlesen klappt auf diesem Gerät nicht – dann eben still weiterlaufen.
+    console.warn("Vorlesestimme nicht verfügbar:", e && e.message);
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(weiter, lesezeit + 500);
+  }
 }
 function steuern(a){
   const P = PLAYER;
@@ -2845,23 +2962,50 @@ function steuern(a){
 }
 function vollbild(){
   const el = document.getElementById("player"); if (!el) return;
-  const buehne = el.querySelector(".pl-buehne");
-  if (document.fullscreenElement){ document.exitFullscreen().catch(() => {}); return; }
-  if (el.classList.contains("selbst-voll")){ el.classList.remove("selbst-voll"); vollKnopf(); return; }
-  const echt = buehne.requestFullscreen || buehne.webkitRequestFullscreen;
+  if (el.classList.contains("voll")) return vollbildBeenden();
+
+  // Das echte Vollbild gilt dem ganzen Spieler, nicht nur der Bühne – sonst wären
+  // die Bedienknöpfe weg. Klappt es nicht (Apple), reicht unser eigenes völlig.
+  const echt = el.requestFullscreen || el.webkitRequestFullscreen;
   if (echt){
-    try {
-      const p = echt.call(buehne);
-      if (p && p.then){ p.then(vollKnopf).catch(() => { el.classList.add("selbst-voll"); vollKnopf(); }); return; }
-      vollKnopf(); return;
-    } catch { /* Apple: geht nicht, also selbst gebautes Vollbild */ }
+    try { const p = echt.call(el); if (p && p.catch) p.catch(() => {}); } catch {}
   }
-  el.classList.add("selbst-voll");
+  // Auf Android lässt sich der Bildschirm wirklich drehen. Apple ignoriert das still.
+  try { screen.orientation?.lock?.("landscape")?.catch?.(() => {}); } catch {}
+  el.classList.add("voll");
+  drehungPruefen();
+  addEventListener("resize", drehungPruefen);
   vollKnopf();
+}
+function vollbildBeenden(){
+  const el = document.getElementById("player");
+  removeEventListener("resize", drehungPruefen);
+  try { screen.orientation?.unlock?.(); } catch {}
+  if (document.fullscreenElement){ try { document.exitFullscreen().catch(() => {}); } catch {} }
+  if (el){ el.classList.remove("voll", "gedreht"); el.querySelector(".pl-drehhinweis")?.remove(); }
+  vollKnopf();
+}
+// Handy hochkant, Video im Querformat? Dann drehen wir das Bild, statt es zu quetschen.
+function drehungPruefen(){
+  const el = document.getElementById("player"); if (!el || !el.classList.contains("voll")) return;
+  const buehne = el.querySelector(".pl-buehne");
+  const querFormat = buehne && !buehne.classList.contains("hoch");
+  const hochGehalten = innerHeight > innerWidth * 1.08;
+  const drehen = !!(querFormat && hochGehalten);
+  if (drehen === el.classList.contains("gedreht")) return;
+  el.classList.toggle("gedreht", drehen);
+  el.querySelector(".pl-drehhinweis")?.remove();
+  if (drehen){
+    const h = document.createElement("div");
+    h.className = "pl-drehhinweis";
+    h.textContent = "Handy quer halten";
+    buehne.appendChild(h);
+  }
+  shotZeigen(true);
 }
 function vollKnopf(){
   const el = document.getElementById("player"); if (!el) return;
-  const an = !!document.fullscreenElement || el.classList.contains("selbst-voll");
+  const an = el.classList.contains("voll");
   const k = el.querySelector('[data-a="voll"]');
   if (k){
     k.innerHTML = an ? SYM.vollAus : SYM.voll;
