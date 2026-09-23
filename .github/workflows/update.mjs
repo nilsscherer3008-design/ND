@@ -82,7 +82,7 @@ function jsonAusText(text) {
 
 let geminiIndex = 0;
 export const modellZuruecksetzen = () => { geminiIndex = 0; };
-const geminiModelle = () => [].concat(CFG.modelle.gemini);
+const geminiModelle = () => [].concat(CFG?.modelle?.gemini || ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash"]);
 function naechstesGeminiModell() {
   const liste = geminiModelle();
   if (liste.length < 2) return false;
@@ -116,20 +116,61 @@ async function anthropicAnfrage(system, user, maxTokens) {
   const r = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01" },
-    body: JSON.stringify({ model: CFG.modelle.anthropic, max_tokens: maxTokens, system, messages: [{ role: "user", content: user }] })
+    body: JSON.stringify({ model: CFG?.modelle?.anthropic || "claude-sonnet-4-5", max_tokens: maxTokens, system, messages: [{ role: "user", content: user }] })
   });
   if (!r.ok) return { fehler: r.status, text: await r.text() };
   const data = await r.json();
   return { text: data.content.map(c => c.text || "").join("") };
 }
 
+// Zweitdienst: Groq, Mistral, OpenRouter und andere sprechen alle dieselbe Sprache.
+// Ein Schlüssel und eine Adresse genügen, dann springt die App dorthin, wenn Gemini für heute leer ist.
+async function openaiAnfrage(system, user, maxTokens) {
+  const key = process.env.OPENAI_API_KEY;
+  if (!key) throw new Error("OPENAI_API_KEY fehlt (GitHub Secret anlegen).");
+  const basis = (process.env.OPENAI_BASIS || CFG.zweitdienst?.basis || "https://api.groq.com/openai/v1").replace(/\/$/, "");
+  const modell = process.env.OPENAI_MODELL || CFG.zweitdienst?.modell || "llama-3.3-70b-versatile";
+  const r = await fetch(`${basis}/chat/completions`, {
+    method: "POST",
+    headers: { "content-type": "application/json", authorization: "Bearer " + key },
+    body: JSON.stringify({
+      model: modell, temperature: 0.2, max_tokens: maxTokens,
+      response_format: { type: "json_object" },
+      messages: [{ role: "system", content: system }, { role: "user", content: user }]
+    })
+  });
+  if (!r.ok) return { fehler: r.status, text: await r.text() };
+  const data = await r.json();
+  return { text: data.choices?.[0]?.message?.content || "" };
+}
+
+const ANBIETER = {
+  gemini:    { schluessel: "GEMINI_API_KEY",    anfrage: geminiAnfrage,    name: "Gemini" },
+  openai:    { schluessel: "OPENAI_API_KEY",    anfrage: openaiAnfrage,    name: "Zweitdienst" },
+  anthropic: { schluessel: "ANTHROPIC_API_KEY", anfrage: anthropicAnfrage, name: "Claude" }
+};
+let anbieterIndex = 0;
+const anbieterReihe = () => (CFG?.anbieterReihe || ["gemini", "openai", "anthropic"])
+  .filter(a => ANBIETER[a] && process.env[ANBIETER[a].schluessel]);
+
+let kiAnfragen = 0;
+export const kiVerbrauch = () => kiAnfragen;
+export const kiBudgetFrei = () => kiAnfragen < (CFG?.maxKiAnfragenProLauf || 99);
+// Wie viele Anfragen sind in diesem Lauf noch übrig?
+export const kiBudgetRest = () => Math.max(0, (CFG?.maxKiAnfragenProLauf || 99) - kiAnfragen);
+
 let letzteAnfrage = 0;
 async function ki(system, user, maxTokens = 4000) {
-  const gemini = CFG.anbieter !== "anthropic";
-  const anfrage = gemini ? geminiAnfrage : anthropicAnfrage;
+  const reihe = anbieterReihe();
+  if (!reihe.length) throw new Error("Kein KI-Schlüssel hinterlegt – lege GEMINI_API_KEY (oder OPENAI_API_KEY) als GitHub Secret an.");
   const maxVersuche = 8;
+  let limits = 0;
+  kiAnfragen++;
   for (let versuch = 1; versuch <= maxVersuche; versuch++) {
-    const pause = (CFG.pauseZwischenKiAnfragenSekunden || 0) * 1000 - (Date.now() - letzteAnfrage);
+    const aktiv = reihe[Math.min(anbieterIndex, reihe.length - 1)];
+    const gemini = aktiv === "gemini";
+    const anfrage = ANBIETER[aktiv].anfrage;
+    const pause = (CFG?.pauseZwischenKiAnfragenSekunden || 0) * 1000 - (Date.now() - letzteAnfrage);
     if (pause > 0) await warte(pause);
     letzteAnfrage = Date.now();
     let antwort;
@@ -147,7 +188,14 @@ async function ki(system, user, maxTokens = 4000) {
         throw new Error("Modellname nicht gefunden (siehe Meldung oben).");
       }
       if ([429, 500, 503, 529].includes(antwort.fehler)) {
-        if (gemini) naechstesGeminiModell();
+        limits++;
+        if (gemini && limits < 3 && naechstesGeminiModell()) { await warte(4000); continue; }
+        if (anbieterIndex < reihe.length - 1) {
+          anbieterIndex++;
+          console.warn(`Limit erreicht – wechsle auf ${ANBIETER[reihe[anbieterIndex]].name}.`);
+          await warte(3000);
+          continue;
+        }
         const sek = Math.min(20 * versuch, 90);
         console.warn(`Dienst überlastet oder Limit erreicht – warte ${sek} Sekunden …`);
         await warte(sek * 1000);
@@ -170,7 +218,7 @@ Regeln:
 - Überschrift sachlich, ohne Zuspitzung. Wer etwas behauptet, wird genannt.
 - Eilmeldung (eil=true) nur bei wichtigen, überraschenden Ereignissen: Wahlergebnisse, große Unglücke oder Anschläge, Rücktritte von Regierungsmitgliedern, Kriegsereignisse mit großer Tragweite.`;
 
-async function themenFinden(artikel, bestehende) {
+export async function themenFinden(artikel, bestehende) {
   const liste = artikel.map((a, i) => `[${i}] ${a.quelle} | ${a.datum ? a.datum.toISOString().slice(0, 16) : "?"} | ${a.titel} — ${a.teaser.slice(0, 180)}`).join("\n");
   const alt = bestehende.map(n => `${n.id}: ${n.titel}`).join("\n") || "(keine)";
   return ki(REGELN, `Hier sind aktuelle Meldungen verschiedener Medien:
@@ -407,7 +455,9 @@ export function videoPruefen(v) {
 }
 
 // ---------- Fotos von Wikimedia Commons ----------
-const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd)/i;
+// Freie Lizenzen. GFDL und "Attribution" fehlten hier - dadurch fiel ein grosser Teil
+// der aelteren Wikipedia-Bilder stillschweigend durch.
+const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd|gfdl|attribution|fal)/i;
 const ohneAkzente = t => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 // mindestens ein aussagekräftiges Wort des Suchbegriffs muss im Dateititel oder in der Beschreibung stehen
 export function passtZumSuchbegriff(suchbegriff, titel, beschreibung) {
@@ -418,18 +468,28 @@ export function passtZumSuchbegriff(suchbegriff, titel, beschreibung) {
 }
 const WIKI_KOPF = { "User-Agent": "NachrichtenHeft/1.0 (Schulprojekt; GitHub Pages)" };
 // Metadaten einer Commons-Datei holen (Lizenz, Urheber, Vorschaubild)
-async function commonsDatei(dateiTitel) {
+async function commonsDatei(dateiTitel, grund) {
+  // Commons kennt den Dateinamensraum als "File:". Die deutsche Wikipedia liefert
+  // "Datei:" - das wird hier vereinheitlicht, damit nichts ins Leere laeuft.
+  const titel = String(dateiTitel).replace(/^\s*Datei:/i, "File:");
   const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
-    action: "query", format: "json", titles: dateiTitel,
+    action: "query", format: "json", titles: titel,
     prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1280"
   });
-  const r = await fetch(url, { headers: WIKI_KOPF });
-  if (!r.ok) return null;
-  const seite = Object.values((await r.json()).query?.pages || {})[0];
-  const ii = seite?.imageinfo?.[0]; if (!ii) return null;
+  let r, daten;
+  try {
+    r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok){ if (grund) grund.abgelehnt.push(`HTTP ${r.status}`); return null; }
+    daten = await r.json();
+  } catch (e) { if (grund) grund.abgelehnt.push("Abruf: " + e.message); return null; }
+  const seite = Object.values(daten.query?.pages || {})[0];
+  const ii = seite?.imageinfo?.[0];
+  if (!ii){ if (grund) grund.abgelehnt.push("nicht auf Commons"); return null; }
   const m = ii.extmetadata || {};
   const lizenz = decode(m.LicenseShortName?.value || "");
-  if (!/image\/(jpeg|png|webp)/.test(ii.mime) || (ii.width || 0) < 500 || !FREIE_LIZENZ.test(lizenz)) return null;
+  if (!/image\/(jpeg|png|webp)/.test(ii.mime)){ if (grund) grund.abgelehnt.push("Format " + ii.mime); return null; }
+  if ((ii.width || 0) < 400){ if (grund) grund.abgelehnt.push(`zu klein (${ii.width}px)`); return null; }
+  if (!FREIE_LIZENZ.test(lizenz)){ if (grund) grund.abgelehnt.push("Lizenz " + (lizenz || "unbekannt")); return null; }
   return {
     titel: decode(seite.title || "").replace(/^Datei:|^File:/i, ""),
     beschreibung: decode(m.ImageDescription?.value || m.ObjectName?.value || "").slice(0, 200),
@@ -581,6 +641,368 @@ export async function ortSuchen(ort) {
 }
 
 
+
+// Alle frei lizenzierten Bilder eines Wikipedia-Artikels holen – so viele, wie eine Doku braucht.
+const BILD_MUELL = /(commons-logo|wiki(pedia|media|quote|source|books)|logo|icon|disambig|ambox|question_?book|edit-|symbol|flag_of|wappen|coat_of_arms|\.svg$|map_of_the_world|translation)/i;
+export async function wikipediaBilder(artikelTitel, maximal = 8, sprache = "de") {
+  try {
+    const url = `https://${sprache}.wikipedia.org/w/api.php?` + new URLSearchParams({
+      action: "query", format: "json", prop: "images", titles: artikelTitel, imlimit: "40", redirects: "1"
+    });
+    const r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok) return [];
+    const seite = Object.values((await r.json()).query?.pages || {})[0];
+    const alle = (seite?.images || []).map(i => i.title);
+    const namen = alle.filter(t => /\.(jpg|jpeg|png|webp)$/i.test(t) && !BILD_MUELL.test(t));
+    const treffer = [];
+    const grund = { abgelehnt: [] };
+    // Wichtig: jeder Abruf einzeln abgesichert. Vorher hat ein einziger Fehlschlag
+    // die ganze Liste gekippt - deshalb kam nie mehr als das Titelbild an.
+    for (const name of namen.slice(0, maximal * 3)) {
+      if (treffer.length >= maximal) break;
+      try {
+        const d = await commonsDatei(name, grund);
+        if (d && !treffer.some(t => t.url === d.url)) treffer.push({ ...d, art: "symbol", hinweis: "Bild aus der Wikipedia" });
+      } catch (e) { grund.abgelehnt.push("Fehler: " + e.message); }
+      await warte(180);   // Wikimedia mag keine Salve von Anfragen
+    }
+    console.log(`    Bilder zu „${artikelTitel}“: ${alle.length} im Artikel, ${namen.length} nach Filter, ${treffer.length} brauchbar`
+      + (grund.abgelehnt.length ? ` · abgelehnt: ${[...new Set(grund.abgelehnt)].slice(0, 5).join(", ")}` : ""));
+    return treffer;
+  } catch (e) { console.warn(`    Bildersuche zu „${artikelTitel}“ fehlgeschlagen: ${e.message}`); return []; }
+}
+
+// ---------- Wissensbereich: die KI sucht sich ein Thema und schlägt es in der Wikipedia nach ----------
+// Regel wie überall in dieser App: Das Thema darf sie sich ausdenken, die Fakten nicht.
+export async function wikipediaText(titel) {
+  const suchen = async (t) => {
+    const url = "https://de.wikipedia.org/w/api.php?" + new URLSearchParams({
+      action: "query", format: "json", prop: "extracts", explaintext: "1", redirects: "1", titles: t
+    });
+    const r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok) return null;
+    const seite = Object.values((await r.json()).query?.pages || {})[0];
+    if (!seite || seite.missing !== undefined || !seite.extract) return null;
+    return { titel: seite.title, text: seite.extract };
+  };
+  let treffer = await suchen(titel);
+  if (!treffer) {
+    // Titel nicht exakt getroffen: über die Suche den richtigen Artikel finden
+    const url = "https://de.wikipedia.org/w/api.php?" + new URLSearchParams({
+      action: "query", format: "json", list: "search", srsearch: titel, srlimit: "1", srnamespace: "0"
+    });
+    const r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok) return null;
+    const erster = (await r.json()).query?.search?.[0];
+    if (!erster) return null;
+    treffer = await suchen(erster.title);
+  }
+  if (!treffer || treffer.text.length < 1200) return null;
+  return {
+    titel: treffer.titel,
+    text: treffer.text.slice(0, 14000),
+    url: "https://de.wikipedia.org/wiki/" + encodeURIComponent(treffer.titel.replace(/ /g, "_"))
+  };
+}
+
+const WISSEN_BEREICHE = ["Natur und Tiere", "Weltall", "Geschichte", "Technik und Erfindungen",
+  "Körper und Gesundheit", "Erde und Klima", "Gesellschaft und Zusammenleben", "Sprache und Kultur"];
+
+async function wissenThemaFinden(bisherige) {
+  const bereich = WISSEN_BEREICHE[Math.floor(Math.random() * WISSEN_BEREICHE.length)];
+  return ki(REGELN, `Du bist die Redaktion eines Wissensmagazins für Jugendliche ab zwölf Jahren – so wie Terra X im Fernsehen.
+Überlege dir EIN Thema aus dem Bereich "${bereich}", das neugierig macht und das man in fünf Minuten verstehen kann.
+Gute Themen beantworten eine Frage, die man sich wirklich stellt: Wie entsteht ein Gewitter? Warum haben Zebras Streifen?
+Wie kam der Mensch auf den Mond? Was ist eigentlich Inflation?
+
+Diese Themen gab es schon, nimm ein anderes:
+${bisherige.slice(0, 40).map(t => "- " + t).join("\n") || "- (noch keine)"}
+
+Wichtig: Zu dem Thema muss es einen ausführlichen deutschen Wikipedia-Artikel geben, denn daraus werden die Fakten geholt.
+Antworte NUR mit JSON: {"titel": "Die Überschrift als Frage oder Aussage, höchstens 9 Wörter",
+ "wikipedia": "exakter Titel des deutschen Wikipedia-Artikels", "bereich": "${bereich}",
+ "warum": "1 Satz: warum das interessant ist"}`, 700);
+}
+
+async function wissenSchreiben(thema, quelle) {
+  return ki(REGELN, `Hier ist der deutsche Wikipedia-Artikel „${quelle.titel}“:
+
+${quelle.text}
+
+Schreibe daraus ein Wissensstück für Jugendliche ab zwölf Jahren, im Stil einer guten Wissenssendung.
+Titelvorschlag der Redaktion: ${JSON.stringify(thema.titel)}
+
+STRENGE REGEL: Jede Angabe – jede Zahl, jedes Jahr, jeder Name – muss im Artikel oben stehen.
+Nichts aus eigenem Wissen ergänzen. Was dort nicht steht, kommt nicht vor. Im Zweifel weglassen.
+
+Stil: neugierig, aber sachlich. Kurze Sätze. Fachbegriffe beim ersten Mal erklären. Keine Ausrufezeichen,
+keine Übertreibungen, keine Anrede wie "Liebe Leser". Nichts behaupten, was umstritten ist, ohne das zu sagen.
+
+Antworte NUR mit JSON:
+{
+ "titel": "Überschrift, höchstens 9 Wörter",
+ "vorspann": "2 Sätze, die neugierig machen und schon das Wichtigste sagen",
+ "artikel": [
+   {"ueberschrift": "Worum es geht", "absaetze": ["2 Absätze à 4-6 Sätze"]},
+   {"ueberschrift": "So funktioniert es", "absaetze": ["2-3 Absätze à 4-6 Sätze"]},
+   {"ueberschrift": "Woher wir das wissen", "absaetze": ["1-2 Absätze: wie man das herausgefunden hat"]},
+   {"ueberschrift": "Was noch offen ist", "absaetze": ["1 Absatz: was die Forschung noch nicht weiß – nur wenn der Artikel das hergibt"]}
+ ],
+ "fakten": [["Bezeichnung", "Zahl oder Wert"]],
+ "begriffe": [["Begriff", "Erklärung in 1-2 einfachen Sätzen"]],
+ "quiz": [{"frage": "...", "optionen": ["...", "...", "..."], "richtig": 0, "erklaerung": "..."}],
+ "video": ["8 bis 10 Sprechsätze für ein kurzes Erklärvideo, je höchstens 16 Wörter, Zahlen ausgeschrieben"],
+ "bild": {"suchbegriff": "Titel des Wikipedia-Artikels oder ein passendes Motiv", "bildunterschrift": "1 Satz"}
+}`, 9000);
+}
+
+export function wissenPruefen(roh, thema, quelle) {
+  if (!roh || !roh.titel || !Array.isArray(roh.artikel)) return null;
+  const text = t => String(t || "").trim();
+  const artikel = roh.artikel
+    .filter(a => a && a.ueberschrift && Array.isArray(a.absaetze))
+    .map(a => ({ ueberschrift: text(a.ueberschrift), absaetze: a.absaetze.map(text).filter(x => x.length > 40) }))
+    .filter(a => a.absaetze.length);
+  if (!artikel.length) return null;
+  const woerter = artikel.flatMap(a => a.absaetze).join(" ").split(/\s+/).length;
+  if (woerter < 180) return null;
+  return {
+    id: slugId(roh.titel),
+    zeit: new Date().toISOString(),
+    bereich: text(thema.bereich),
+    titel: text(roh.titel).slice(0, 120),
+    vorspann: text(roh.vorspann).slice(0, 400),
+    artikel,
+    fakten: faktenPruefen(roh.fakten) || [],
+    begriffe: (roh.begriffe || []).filter(b => Array.isArray(b) && b[0] && b[1]).map(b => [text(b[0]), text(b[1])]).slice(0, 5),
+    quiz: (lernenPruefen({ quiz: roh.quiz }) || {}).quiz || [],
+    video: ((videoPruefen({ lang: roh.video }) || {}).lang) || [],
+    bild: roh.bild && roh.bild.suchbegriff ? { art: "symbol", suchbegriff: text(roh.bild.suchbegriff), bildunterschrift: text(roh.bild.bildunterschrift) } : null,
+    quelle: { titel: quelle.titel, url: quelle.url, lizenz: "CC BY-SA 4.0" },
+    woerter
+  };
+}
+const slugId = t => String(t).toLowerCase()
+  .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+  .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60);
+
+async function wissenErzeugen(jetzt, cfg) {
+  const datei = new URL("data/wissen.json", ROOT);
+  const alt = await leseJson(datei, { stuecke: [] });
+  const stuecke = alt.stuecke || [];
+  const heute = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Berlin" }).format(jetzt);
+  const proTag = cfg.proTag ?? 1;
+  const heuteSchon = stuecke.filter(x => x.zeit && x.zeit.slice(0, 10) === heute).length;
+  if (heuteSchon >= proTag) return null;
+
+  modellZuruecksetzen();
+  // Mehrere Anläufe: klappt ein Thema nicht (kein Wikipedia-Artikel, zu wenig Text,
+  // schon vorhanden), wird einfach ein anderes genommen statt aufzugeben.
+  const versuche = Math.max(1, cfg.versuche ?? 3);
+  const schonProbiert = [];
+  let thema = null, quelle = null, stueck = null, letzterGrund = "";
+  for (let v = 1; v <= versuche; v++) {
+    // Ein Anlauf braucht zwei Anfragen (Thema + Text). Zusätzlich bleibt eine
+    // Anfrage für die Doku-Vorproduktion übrig, damit die auch vorankommt.
+    if (kiBudgetRest() < (v === 1 ? 2 : 3)) { letzterGrund = letzterGrund || "KI-Budget aufgebraucht"; break; }
+    try {
+      thema = await wissenThemaFinden([...stuecke.map(x => x.titel), ...schonProbiert]);
+      if (!thema?.wikipedia) { letzterGrund = "kein Thema gefunden"; continue; }
+      schonProbiert.push(thema.titel);
+      console.log(`  Wissensthema (Versuch ${v}/${versuche}): ${thema.titel} (Quelle: ${thema.wikipedia})`);
+
+      quelle = await wikipediaText(thema.wikipedia);
+      if (!quelle) { letzterGrund = `kein Wikipedia-Artikel zu „${thema.wikipedia}“`; console.log("  " + letzterGrund); continue; }
+      if (String(quelle.text || "").length < 1200) {
+        letzterGrund = `Wikipedia-Artikel „${quelle.titel}“ ist zu kurz`; console.log("  " + letzterGrund); continue;
+      }
+
+      const roh = wissenPruefen(await wissenSchreiben(thema, quelle), thema, quelle);
+      if (!roh) { letzterGrund = "Text war zu dünn"; console.log("  " + letzterGrund); continue; }
+      if (stuecke.some(x => x.id === roh.id)) { letzterGrund = "Wissensstück gab es schon"; console.log("  " + letzterGrund); continue; }
+
+      stueck = roh;
+      break;
+    } catch (e) {
+      letzterGrund = e.message;
+      console.log(`  Versuch ${v} fehlgeschlagen: ${e.message}`);
+    }
+  }
+  if (!stueck) throw new Error(letzterGrund || "kein Wissensstück zustande gekommen");
+
+  if (cfg.bilder !== false) {
+    try {
+      const titel = await wikipediaBild(quelle.titel);
+      const weitere = await wikipediaBilder(quelle.titel, cfg.bilderProStueck ?? 6);
+      const alle = [titel, ...weitere].filter(Boolean)
+        .filter((b, i, a) => b.url && a.findIndex(x => x.url === b.url) === i);
+      if (alle.length) {
+        stueck.bildInfos = alle.map((b, i) => ({ ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
+          bildunterschrift: i === 0 ? (stueck.bild?.bildunterschrift || b.beschreibung || "") : (b.beschreibung || "") }));
+        stueck.bildInfo = stueck.bildInfos[0];
+        console.log(`  Bilder: ${stueck.bildInfos.length}`);
+      }
+    } catch { /* ohne Bild ist auch gut */ }
+  }
+  const neu = [stueck, ...stuecke].slice(0, cfg.behalten ?? 40);
+  await fs.writeFile(datei, JSON.stringify({ stand: jetzt.toISOString(), stuecke: neu }, null, 1));
+  console.log(`✦ Wissen: ${stueck.titel} (${stueck.woerter} Wörter, Quelle: ${quelle.titel})`);
+  return stueck;
+}
+
+
+// ---------- Lange Doku: wird über mehrere Läufe vorproduziert ----------
+// Ein Lauf macht immer nur EINEN Arbeitsschritt: planen oder ein Kapitel schreiben.
+// Erst wenn alle Kapitel stehen und vertont sind, erscheint die Doku in der App.
+const DOKU_DATEI = () => new URL("data/doku.json", ROOT);
+
+async function dokuPlanen(bisherige, cfg) {
+  const bereich = WISSEN_BEREICHE[Math.floor(Math.random() * WISSEN_BEREICHE.length)];
+  const kapitelZahl = cfg.kapitel ?? 10;
+  const plan = await ki(REGELN, `Du planst eine lange Wissensdokumentation für Jugendliche ab zwölf Jahren – etwa 45 Minuten,
+so wie eine Fernsehdoku. Bereich: "${bereich}".
+
+Wähle EIN großes Thema, das so viel hergibt, dass man ${kapitelZahl} Kapitel darüber füllen kann, und teile es in Kapitel auf,
+die aufeinander aufbauen und eine Geschichte erzählen: erst die Frage, dann die Grundlagen, dann die Einzelheiten,
+dann wie man es herausgefunden hat, am Ende was offen bleibt.
+
+Diese Dokus gab es schon, nimm ein anderes Thema:
+${bisherige.slice(0, 20).map(t => "- " + t).join("\n") || "- (noch keine)"}
+
+WICHTIG: Zu JEDEM Kapitel musst du einen eigenen deutschen Wikipedia-Artikel angeben, aus dem die Fakten kommen.
+Nimm Artikel, die es wirklich gibt und die ausführlich sind. Verschiedene Kapitel sollen verschiedene Artikel nutzen.
+
+Antworte NUR mit JSON:
+{"titel": "Haupttitel, höchstens 8 Wörter", "untertitel": "ein Satz, der neugierig macht", "bereich": "${bereich}",
+ "kapitel": [{"ueberschrift": "Kapiteltitel, höchstens 7 Wörter", "wikipedia": "exakter Titel des deutschen Wikipedia-Artikels",
+              "fokus": "1 Satz: worauf dieses Kapitel hinausläuft"}]}`, 2500);
+  if (!plan?.titel || !Array.isArray(plan.kapitel) || plan.kapitel.length < 4) throw new Error("Plan unbrauchbar");
+  return {
+    id: slugId(plan.titel),
+    titel: String(plan.titel).slice(0, 120),
+    untertitel: String(plan.untertitel || "").slice(0, 300),
+    bereich: String(plan.bereich || bereich),
+    begonnen: new Date().toISOString(),
+    kapitel: plan.kapitel.slice(0, kapitelZahl).map(k => ({
+      ueberschrift: String(k.ueberschrift || "").slice(0, 90),
+      wikipedia: String(k.wikipedia || "").slice(0, 120),
+      fokus: String(k.fokus || "").slice(0, 200)
+    })).filter(k => k.ueberschrift && k.wikipedia)
+  };
+}
+
+async function dokuKapitelSchreiben(doku, kapitel, quelle, nummer, gesamt, cfg) {
+  const woerter = cfg.woerterProKapitel ?? 650;
+  const roh = await ki(REGELN, `Du schreibst Kapitel ${nummer} von ${gesamt} einer Wissensdokumentation.
+
+Titel der Doku: ${JSON.stringify(doku.titel)}
+Kapitel: ${JSON.stringify(kapitel.ueberschrift)}
+Worauf es hinausläuft: ${kapitel.fokus}
+Bereits behandelte Kapitel: ${doku.kapitel.filter(k => k.absaetze?.length).map(k => k.ueberschrift).join(", ") || "(noch keine)"}
+
+Hier ist der deutsche Wikipedia-Artikel „${quelle.titel}“, aus dem die Fakten kommen:
+
+${quelle.text}
+
+STRENGE REGEL: Jede Angabe – jede Zahl, jedes Jahr, jeder Name – muss in diesem Artikel stehen.
+Nichts aus eigenem Wissen ergänzen. Was dort nicht steht, kommt nicht vor.
+
+Schreibe dieses Kapitel als gesprochenen Text für eine Dokumentation: etwa ${woerter} Wörter in 5 bis 7 Absätzen.
+Der Text wird vorgelesen, also: kurze Hauptsätze, höchstens sechzehn Wörter, Zahlen ausgeschrieben, wie man sie spricht,
+keine Klammern, keine Aufzählungszeichen, keine Abkürzungen. Beginne mit einem Satz, der an das vorige Kapitel anknüpft,
+und ende mit einem Satz, der zum nächsten überleitet. Sachlich und neugierig, nie reißerisch.
+
+Antworte NUR mit JSON:
+{"absaetze": ["Absatz 1", "Absatz 2", "..."],
+ "fakten": [["Bezeichnung", "Zahl oder Wert"]],
+ "begriffe": [["Begriff", "Erklärung in 1-2 einfachen Sätzen"]],
+ "bild": {"suchbegriff": "Titel des Wikipedia-Artikels oder ein passendes Motiv", "bildunterschrift": "1 Satz"}}`, 9000);
+  const absaetze = (roh?.absaetze || []).map(t => String(t).trim()).filter(t => t.length > 60);
+  if (absaetze.length < 3) throw new Error("Kapitel zu dünn");
+  return {
+    ...kapitel,
+    absaetze,
+    fakten: faktenPruefen(roh.fakten) || [],
+    begriffe: (roh.begriffe || []).filter(b => Array.isArray(b) && b[0] && b[1]).map(b => [String(b[0]), String(b[1])]).slice(0, 4),
+    bild: roh.bild?.suchbegriff ? { art: "symbol", suchbegriff: String(roh.bild.suchbegriff), bildunterschrift: String(roh.bild.bildunterschrift || "") } : null,
+    quelle: { titel: quelle.titel, url: quelle.url },
+    woerter: absaetze.join(" ").split(/\s+/).length
+  };
+}
+
+// Ein Arbeitsschritt pro Lauf – mehr nicht, damit das KI-Kontingent für die Nachrichten reicht.
+async function dokuArbeiten(jetzt, cfg) {
+  const datei = DOKU_DATEI();
+  const daten = await leseJson(datei, { inArbeit: null, fertig: [] });
+  const fertig = daten.fertig || [];
+  let arbeit = daten.inArbeit;
+  let etwasGetan = false;
+
+  if (!arbeit) {
+    if (fertig.length >= (cfg.behalten ?? 12)) fertig.pop();
+    arbeit = await dokuPlanen(fertig.map(d => d.titel), cfg);
+    console.log(`◆ Doku geplant: ${arbeit.titel} (${arbeit.kapitel.length} Kapitel)`);
+    etwasGetan = true;
+  } else {
+    const offen = arbeit.kapitel.findIndex(k => !k.absaetze?.length && !k.fehlgeschlagen);
+    if (offen >= 0) {
+      const k = arbeit.kapitel[offen];
+      const quelle = await wikipediaText(k.wikipedia);
+      if (!quelle) {
+        k.fehlgeschlagen = true;
+        console.warn(`  Kapitel „${k.ueberschrift}“ übersprungen: kein Artikel zu „${k.wikipedia}“`);
+      } else {
+        arbeit.kapitel[offen] = await dokuKapitelSchreiben(arbeit, k, quelle, offen + 1, arbeit.kapitel.length, cfg);
+        if (cfg.bilder !== false) {
+          try {
+            const titel = await wikipediaBild(quelle.titel);
+            const weitere = await wikipediaBilder(quelle.titel, cfg.bilderProKapitel ?? 7);
+            const alle = [titel, ...weitere].filter(Boolean)
+              .filter((b, i, a) => b.url && a.findIndex(x => x.url === b.url) === i);
+            if (alle.length) {
+              arbeit.kapitel[offen].bildInfos = alle.map((b, i) => ({ ...b, art: "symbol", hinweis: "Bild aus der Wikipedia",
+                bildunterschrift: i === 0 ? (arbeit.kapitel[offen].bild?.bildunterschrift || b.beschreibung || "") : (b.beschreibung || "") }));
+              arbeit.kapitel[offen].bildInfo = arbeit.kapitel[offen].bildInfos[0];
+              console.log(`    Bilder: ${alle.length}`);
+            }
+          } catch { /* ohne Bild */ }
+        }
+        console.log(`  Kapitel ${offen + 1}/${arbeit.kapitel.length}: ${arbeit.kapitel[offen].ueberschrift} (${arbeit.kapitel[offen].woerter} Wörter)`);
+      }
+      etwasGetan = true;
+    }
+  }
+
+  // Alles geschrieben? Dann ist die Doku fertig und kommt in die App.
+  const geschrieben = arbeit.kapitel.filter(k => k.absaetze?.length);
+  if (geschrieben.length && !arbeit.kapitel.some(k => !k.absaetze?.length && !k.fehlgeschlagen)) {
+    const gesehen = new Set();
+    for (const k of geschrieben) {
+      k.bildInfos = (k.bildInfos || []).filter(b => b?.url && !gesehen.has(b.url) && gesehen.add(b.url));
+      k.bildInfo = k.bildInfos[0] || k.bildInfo;
+    }
+    const doku = {
+      id: arbeit.id, titel: arbeit.titel, untertitel: arbeit.untertitel, bereich: arbeit.bereich,
+      zeit: jetzt.toISOString(), kapitel: geschrieben,
+      woerter: geschrieben.reduce((a, k) => a + (k.woerter || 0), 0),
+      bildInfo: geschrieben.find(k => k.bildInfo)?.bildInfo,
+      bilderGesamt: geschrieben.reduce((a, k) => a + (k.bildInfos?.length || 0), 0),
+      quellen: [...new Map(geschrieben.map(k => [k.quelle.url, k.quelle])).values()]
+    };
+    doku.dauerMinuten = Math.round(doku.woerter / 140);
+    console.log(`★ Doku fertig: ${doku.titel} – ${geschrieben.length} Kapitel, ${doku.woerter} Wörter, etwa ${doku.dauerMinuten} Minuten`);
+    await fs.writeFile(datei, JSON.stringify({ stand: jetzt.toISOString(), inArbeit: null,
+      fertig: [doku, ...fertig].slice(0, cfg.behalten ?? 12) }, null, 1));
+    return doku;
+  }
+  if (etwasGetan) {
+    const offen = arbeit.kapitel.filter(k => !k.absaetze?.length && !k.fehlgeschlagen).length;
+    console.log(`  Vorproduktion läuft: noch ${offen} Kapitel offen.`);
+    await fs.writeFile(datei, JSON.stringify({ stand: jetzt.toISOString(), inArbeit: arbeit, fertig }, null, 1));
+  }
+  return null;
+}
+
 // ---------- Wetter (Open-Meteo, Daten vom Deutschen Wetterdienst – kostenlos, ohne Schlüssel) ----------
 // Reine Messdaten: hier rechnet keine KI mit, der Text wird aus den Zahlen gebaut.
 const WETTER_ORTE = [
@@ -681,7 +1103,8 @@ async function wochenrueckblick(jetzt, aktive, force) {
   const alt = await leseJson(datei, null);
   const wochentag = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", weekday: "short" }).format(jetzt);
   const alter = alt ? (jetzt - new Date(alt.erstellt)) / 36e5 : Infinity;
-  if (!force && !(alter > 7 * 24 || (wochentag.startsWith("So") && alter > 20))) return;
+  // Der Rückblick entsteht nur sonntags – unter der Woche wiederholt er nur, was ohnehin in der App steht.
+  if (!force && !(wochentag.startsWith("So") && alter > 20)) return;
   const grenze = jetzt - 7 * 864e5;
   const monate = [...new Set([0, 8].map(t => berlinMonat(new Date(jetzt - t * 864e5).toISOString())))];
   let kandidaten = [...aktive];
@@ -754,20 +1177,25 @@ const rubrikSlug = r => String(r).toLowerCase().replace(/ & /g, "-").replace(/[^
 async function pushSenden(n, nurRubrik = false) {
   const basis = process.env.NTFY_TOPIC;
   if (!basis) return console.log("Kein NTFY_TOPIC gesetzt – keine Push-Nachricht.");
-  const topic = nurRubrik ? `${basis}-${rubrikSlug(n.rubrik)}` : basis;
   const headers = { "content-type": "application/json" };
   if (process.env.NTFY_TOKEN) headers.authorization = "Bearer " + process.env.NTFY_TOKEN;
   const seite = process.env.SITE_URL ? `${process.env.SITE_URL.replace(/\/$/, "")}/#/n/${n.id}` : undefined;
-  const r = await fetch(CFG.ntfyServer, {
-    method: "POST", headers,
-    body: JSON.stringify({ topic, title: (nurRubrik ? n.rubrik + ": " : "EILMELDUNG: ") + n.titel, message: n.vorspann,
-      priority: nurRubrik ? 3 : 5, tags: [nurRubrik ? "newspaper" : "rotating_light"], click: seite })
-  });
-  console.log(r.ok ? `Push (${topic}): ${n.titel}` : `Push fehlgeschlagen (${r.status})`);
+  // Eilmeldungen laufen auf den Hauptkanal UND auf einen reinen Eil-Kanal,
+  // damit man auch nur die wirklich wichtigen Meldungen abonnieren kann.
+  const kanaele = nurRubrik ? [`${basis}-${rubrikSlug(n.rubrik)}`] : [basis, `${basis}-eil`];
+  for (const topic of kanaele) {
+    const r = await fetch(CFG.ntfyServer, {
+      method: "POST", headers,
+      body: JSON.stringify({ topic, title: (nurRubrik ? n.rubrik + ": " : "EILMELDUNG: ") + n.titel, message: n.vorspann,
+        priority: nurRubrik ? 3 : 5, tags: [nurRubrik ? "newspaper" : "rotating_light"], click: seite })
+    });
+    console.log(r.ok ? `Push (${topic}): ${n.titel}` : `Push fehlgeschlagen (${topic}, ${r.status})`);
+  }
 }
 
 // ---------- Hauptprogramm ----------
 let CFG;
+export const konfigSetzen = c => { CFG = c; };   // wird von main gesetzt, für Tests auch von außen
 async function main() {
   CFG = JSON.parse(await fs.readFile(new URL("config.json", ROOT), "utf8"));
   const alt = JSON.parse(await fs.readFile(DATA_FILE, "utf8").catch(() => '{"nachrichten":[],"notified":[]}'));
@@ -804,7 +1232,13 @@ async function main() {
 
   // 2. Themen finden
   const bestehende = alt.nachrichten || [];
-  const { themen = [] } = await themenFinden(artikel, bestehende);
+  let themen = [];
+  try {
+    ({ themen = [] } = await themenFinden(artikel, bestehende));
+  } catch (e) {
+    console.warn(`Themen finden fehlgeschlagen: ${e.message}`);
+    console.warn("Diesmal keine neuen Themen – Wetter, Aufräumen und Speichern laufen trotzdem.");
+  }
   const ergebnis = new Map(bestehende.map(n => [n.id, n]));
   let neuGeschrieben = 0, upgrades = 0;
   const bildWahl = new Map(); // Kandidaten je Thema
@@ -823,6 +1257,12 @@ async function main() {
     if (altesThema && !veraltet && auswahl.every(a => alteLinks.has(a.link))) continue; // nichts Neues
     if (veraltet && auswahl.every(a => alteLinks.has(a.link))) { if (upgrades >= (CFG.maxNeuschreibenProLauf ?? 3)) continue; upgrades++; }
     if (!altesThema && neuGeschrieben >= CFG.maxNeueThemenProLauf) continue;
+    // Ein Teil des Kontingents bleibt für „Warum eigentlich?“ und die Doku reserviert –
+    // sonst fressen die Nachrichten jeden Lauf alles auf und die Doku kommt nie voran.
+    if (kiBudgetRest() <= (CFG.reserveFuerWissenUndDoku ?? 5)) {
+      console.warn(`KI-Budget für die Nachrichten aufgebraucht (${kiVerbrauch()} Anfragen) – der Rest ist für Wissen und Doku reserviert.`);
+      break;
+    }
 
     modellZuruecksetzen(); // für jedes Thema zuerst wieder das beste Modell versuchen
 
@@ -953,6 +1393,15 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
   if (CFG.wetter !== false) {
     try { wetter = await wetterHolen(jetzt); console.log(`Wetter: ${wetter.orte.length} Orte, morgen ${wetter.morgenTag}`); }
     catch (e) { console.warn("Wetter nicht abrufbar: " + e.message); }
+  }
+
+  if (CFG.wissen?.aktiv !== false) {
+    try { await wissenErzeugen(jetzt, CFG.wissen || {}); }
+    catch (e) { console.warn("Wissensstück nicht erstellt: " + e.message); }
+  }
+  if (CFG.doku?.aktiv !== false && kiBudgetFrei()) {
+    try { await dokuArbeiten(jetzt, CFG.doku || {}); }
+    catch (e) { console.warn("Doku-Vorproduktion: " + e.message); }
   }
 
   const { aktiv: nachrichten, alt: altListe } = aufraeumen([...ergebnis.values()], jetzt, CFG);
