@@ -229,26 +229,69 @@ Antworte NUR mit JSON:
     return ki(REGELN, auftrag, 6000)
 
 
+def _zeilen_finden(roh):
+    """Die KI nennt die Liste mal zeilen, mal dialog, mal skript – alle akzeptieren."""
+    if isinstance(roh, list):
+        return roh
+    if not isinstance(roh, dict):
+        return []
+    for k in ("zeilen", "dialog", "gespraech", "gespräch", "skript", "script", "lines", "turns"):
+        if isinstance(roh.get(k), list):
+            return roh[k]
+    for v in roh.values():                      # eine Ebene tiefer suchen
+        if isinstance(v, dict):
+            tiefer = _zeilen_finden(v)
+            if tiefer:
+                return tiefer
+    return []
+
+
+def _wer_finden(z, erlaubt):
+    """Erlaubt 'Thorsten', 'thorsten:', 'Sprecher Thorsten', 'Thorsten (Moderation)'."""
+    for k in ("wer", "sprecher", "name", "speaker", "rolle", "von"):
+        roh = z.get(k)
+        if not roh:
+            continue
+        text = str(roh).strip()
+        for name in erlaubt:
+            if re.search(r"\b" + re.escape(name) + r"\b", text, re.I):
+                return name
+    return None
+
+
 def skript_pruefen(roh, besetzung):
-    """Nur erlaubte Sprecher, sinnvolle Länge, Computerstimmen-Hinweis vorhanden."""
-    if not roh or not isinstance(roh.get("zeilen"), list):
-        return None
+    """Nur erlaubte Sprecher, sinnvolle Länge, Computerstimmen-Hinweis vorhanden.
+    Gibt bei Ablehnung den Grund mit zurück, damit man im Protokoll sieht warum."""
+    liste = _zeilen_finden(roh)
+    if not liste:
+        return None, f"keine Zeilen gefunden (Antwort war: {str(roh)[:120]})"
     erlaubt = {h["name"] for h in besetzung}
-    zeilen = []
-    for z in roh["zeilen"]:
+    zeilen, fremd, kurz = [], set(), 0
+    for z in liste:
+        if isinstance(z, str):                  # "Thorsten: Guten Abend."
+            teil = z.split(":", 1)
+            z = {"wer": teil[0], "text": teil[1]} if len(teil) == 2 else {"text": z}
         if not isinstance(z, dict):
             continue
-        wer = str(z.get("wer", "")).strip().strip(":")
-        text = " ".join(str(z.get("text", "")).split())
-        if wer not in erlaubt or len(text) < 8:
+        wer = _wer_finden(z, erlaubt)
+        text = " ".join(str(z.get("text") or z.get("satz") or z.get("inhalt") or "").split())
+        if not wer:
+            fremd.add(str(z.get("wer") or z.get("sprecher") or "?")[:40])
+            continue
+        if len(text) < 8:
+            kurz += 1
             continue
         zeilen.append({"wer": wer, "text": text[:700]})
         if len(zeilen) >= MAX_ZEILEN:
             break
-    if len(zeilen) < 8:
-        return None
+    if len(zeilen) < 6:
+        return None, (f"nur {len(zeilen)} brauchbare Zeilen"
+                      + (f", fremde Sprecher: {', '.join(list(fremd)[:4])}" if fremd else "")
+                      + (f", {kurz} zu kurz" if kurz else ""))
     if len({z["wer"] for z in zeilen}) < 2:
-        return None
+        return None, "nur ein Sprecher im ganzen Gespräch"
+    if fremd:
+        log(f"  Hinweis: {len(fremd)} fremde Sprecher übersprungen ({', '.join(list(fremd)[:3])})")
 
     # Der Hinweis auf die Computerstimmen ist Pflicht. Fehlt er, setzen wir ihn selbst.
     anfang = " ".join(z["text"] for z in zeilen[:4]).lower()
@@ -257,9 +300,10 @@ def skript_pruefen(roh, besetzung):
                           "text": "Ein Hinweis vorweg: Alle Stimmen in dieser Sendung sind "
                                   "Computerstimmen. Die Personen, die hier sprechen, gibt es nicht."})
     woerter = sum(len(z["text"].split()) for z in zeilen)
-    return {"titel": str(roh.get("titel") or "")[:120],
-            "beschreibung": str(roh.get("beschreibung") or "")[:600],
-            "zeilen": zeilen, "woerter": woerter}
+    kopf = roh if isinstance(roh, dict) else {}
+    return {"titel": str(kopf.get("titel") or kopf.get("title") or "")[:120],
+            "beschreibung": str(kopf.get("beschreibung") or kopf.get("description") or "")[:600],
+            "zeilen": zeilen, "woerter": woerter}, None
 
 
 # ------------------------------------------------------------- Sprechen
@@ -403,16 +447,19 @@ def main():
     besetzung += [h for h in BESETZUNG if h["name"] != MODERATION][:wie_viele - 1]
     log(f"Besetzung: {', '.join(h['name'] for h in besetzung)}")
 
-    skript = None
-    for versuch in (1, 2):
+    skript, grund = None, "kein Versuch gelaufen"
+    for versuch in (1, 2, 3):
         try:
-            skript = skript_pruefen(skript_schreiben(thema, besetzung), besetzung)
+            roh = skript_schreiben(thema, besetzung)
+            skript, grund = skript_pruefen(roh, besetzung)
         except Exception as ex:
-            log(f"  Versuch {versuch}: {ex}")
+            grund = str(ex)
         if skript:
             break
+        log(f"  Versuch {versuch} verworfen: {grund}")
+        time.sleep(3)
     if not skript:
-        log("Kein brauchbares Skript – nächster Lauf versucht es erneut.")
+        log(f"Kein brauchbares Skript ({grund}) – nächster Lauf versucht es erneut.")
         return 1
     log(f"Skript: {len(skript['zeilen'])} Zeilen, {skript['woerter']} Wörter")
 
