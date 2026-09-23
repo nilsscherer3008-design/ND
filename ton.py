@@ -240,6 +240,122 @@ def ansage_saetze(jetzt_iso, sprecher):
     return liste
 
 
+def dauer_von(pfad):
+    """Wie lang ist eine MP3 wirklich? ffprobe weiss es genau."""
+    try:
+        r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                            "-of", "default=nw=1:nk=1", str(pfad)],
+                           capture_output=True, text=True, timeout=30)
+        return round(float(r.stdout.strip()), 2)
+    except Exception:
+        return 0.0
+
+
+def folge_bauen(name, teile, ziel):
+    """Haengt mehrere Aufnahmen zu einer Folge zusammen - ohne neu zu kodieren,
+    das geht in Sekunden statt Minuten."""
+    teile = [t for t in teile if t and t.exists() and t.stat().st_size > 0]
+    if len(teile) < 2:
+        return None
+    liste = ziel.parent / (name + ".txt")
+    liste.write_text("".join(f"file '{t.name}'\n" for t in teile), encoding="utf8")
+    try:
+        r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                            "-i", str(liste), "-c", "copy", str(ziel)],
+                           capture_output=True, text=True, timeout=180, cwd=str(ziel.parent))
+        if r.returncode != 0 or not ziel.exists():
+            log(f"  Folge {name} nicht gebaut: {r.stderr.strip()[:120]}")
+            return None
+        return {"d": ziel.name, "l": dauer_von(ziel), "b": ziel.stat().st_size}
+    except Exception as ex:
+        log(f"  Folge {name} nicht gebaut: {ex}")
+        return None
+    finally:
+        liste.unlink(missing_ok=True)
+
+
+def folgen_sammeln(daten, wissen, doku, gebraucht, behalten_anzahl=6):
+    """Aus den einzelnen Aufnahmen werden ganze Folgen - das, was ein Podcast braucht.
+    Eine Folge pro Tag fuer die Hauptausgabe, dazu jedes Wissensstueck und jede Doku."""
+    datei = ROOT / "data" / "podcast.json"
+    alt = {}
+    if datei.exists():
+        try:
+            alt = {f["id"]: f for f in json.loads(datei.read_text(encoding="utf8")).get("folgen", [])}
+        except Exception:
+            alt = {}
+    folgen = []
+    tag = (daten.get("stand") or "")[:10]
+
+    def pfad(eintrag):
+        return TON / eintrag["d"] if eintrag and eintrag.get("d") else None
+
+    # 1. Die Hauptausgabe des Tages
+    ansage = next((a for a in ((daten.get("ton") or {}).get("ansagen") or [])
+                   if "Hauptausgabe" in (a.get("k") or "")), None)
+    nachrichten = sorted(daten.get("nachrichten", []),
+                         key=lambda n: (0 if n.get("eil") else 1, [-ord(c) for c in n.get("zeit", "")]))[:12]
+    teile, titel = [], []
+    if ansage:
+        teile.append(pfad(ansage))
+    for n in nachrichten:
+        e = next((x for x in (n.get("ton") or []) if x.get("k") ), None)
+        if e:
+            teile.append(pfad(e))
+            titel.append(n.get("titel", ""))
+    if len(teile) >= 3 and tag:
+        id_ = f"hauptausgabe-{tag}"
+        ziel = TON / f"folge-{id_}.mp3"
+        info = alt.get(id_) if ziel.exists() else None
+        if not info:
+            gebaut = folge_bauen(id_, teile, ziel)
+            if gebaut:
+                info = {"id": id_, "art": "nachrichten", "titel": f"Hauptausgabe vom {tag}",
+                        "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. "
+                                + " · ".join(t for t in titel[:5] if t),
+                        "zeit": daten.get("stand"), **gebaut}
+                log(f"  ♫ Folge: {info['titel']} ({info['l']:.0f}s, {info['b']//1024} KB)")
+        if info:
+            folgen.append(info)
+
+    # 2. Wissensstuecke und Dokus - die sind von sich aus schon eine Folge
+    for st in (wissen or {}).get("stuecke", [])[:8]:
+        e = (st.get("ton") or [None])[0]
+        pf = pfad(e)
+        if not pf or not pf.exists():
+            continue
+        folgen.append({"id": "wissen-" + st["id"], "art": "wissen", "titel": st.get("titel", ""),
+                       "text": st.get("vorspann", ""), "zeit": st.get("zeit"),
+                       "d": e["d"], "l": e.get("l", 0), "b": pf.stat().st_size})
+
+    for d in (doku or {}).get("fertig", [])[:4]:
+        teile = [pfad((k.get("ton") or [None])[0]) for k in d.get("kapitel", [])]
+        teile = [t for t in teile if t and t.exists()]
+        if len(teile) < 2:
+            continue
+        id_ = "doku-" + d["id"]
+        ziel = TON / f"folge-{id_}.mp3"
+        info = alt.get(id_) if ziel.exists() else None
+        if not info:
+            gebaut = folge_bauen(id_, teile, ziel)
+            if gebaut:
+                info = {"id": id_, "art": "doku", "titel": d.get("titel", ""),
+                        "text": d.get("untertitel", ""), "zeit": d.get("zeit"), **gebaut}
+                log(f"  ♫ Folge: {info['titel']} ({info['l']:.0f}s)")
+        if info:
+            folgen.append(info)
+
+    folgen.sort(key=lambda f: f.get("zeit") or "", reverse=True)
+    folgen = folgen[:behalten_anzahl]
+    for f in folgen:
+        gebraucht.add(f["d"])
+    datei.parent.mkdir(parents=True, exist_ok=True)
+    datei.write_text(json.dumps({"stand": daten.get("stand"), "folgen": folgen},
+                                ensure_ascii=False, indent=1), encoding="utf8")
+    log(f"  Podcast: {len(folgen)} Folgen")
+    return folgen
+
+
 def main():
     cfg_datei = ROOT / "config.json"
     cfg = json.loads(cfg_datei.read_text(encoding="utf8")).get("ton", {}) if cfg_datei.exists() else {}
@@ -344,6 +460,12 @@ def main():
         except Exception as ex:
             log("Doku nicht vertont: " + str(ex))
             doku = None
+
+    # 2b. Ganze Folgen fuer den Podcast zusammenbauen
+    try:
+        folgen_sammeln(daten, wissen, doku, gebraucht)
+    except Exception as ex:
+        log("Podcast-Folgen nicht gebaut: " + str(ex))
 
     # 3. Aufräumen: nur behalten, was noch gebraucht wird
     behalten = set(gebraucht)
