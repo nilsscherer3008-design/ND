@@ -945,24 +945,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
-   },
-   "ton": [
-    {
-     "k": "Während einer Mondfinsternis wandert der Mond durch den Erdschatten. Dieses Erei",
-     "d": "28ec5470bd.mp3",
-     "l": 28.96,
-     "s": [
-      0.25,
-      4.01,
-      7.21,
-      11.61,
-      15.18,
-      17.99,
-      22.15,
-      24.78
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-touchscreen",
