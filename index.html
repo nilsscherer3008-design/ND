@@ -209,6 +209,20 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
   font-size:clamp(.95rem,4vw,1.3rem);text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .kb-credit{position:absolute;right:6px;bottom:6px;z-index:2;font-family:var(--head);font-size:.58rem;color:#fff;
   background:rgba(0,0,0,.5);padding:2px 6px;border-radius:4px;max-width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* Wettermodelle im Vergleich */
+.modellvgl{border:1px solid var(--line);border-left:4px solid #E0A126;border-radius:14px;
+  padding:13px 15px;margin:10px 0;background:var(--card)}
+.modellvgl.einig{border-left-color:#2E9E63}
+.mv-kopf{font-family:var(--head);font-weight:700;font-size:.98rem;margin-bottom:10px}
+.mv-kopf small{display:block;font-weight:400;color:var(--muted);font-size:.82rem;margin-top:2px}
+.mv-reihe{display:flex;gap:10px;flex-wrap:wrap}
+.mv-modell{flex:1 1 84px;text-align:center;border:1px solid var(--line);border-radius:10px;padding:8px 6px}
+.mv-modell b{display:block;font-family:var(--head);font-size:1.3rem;line-height:1}
+.mv-modell span{display:block;font-family:var(--head);font-size:.7rem;font-weight:700;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.04em;margin-top:3px}
+.mv-modell i{display:block;font-style:normal;font-size:.72rem;color:var(--muted);margin-top:3px}
+.mv-text{margin:10px 0 0;font-size:.9rem;line-height:1.4}
+.mv-quelle{margin:8px 0 0;font-size:.74rem;color:var(--muted)}
 /* Vergleichstafel in der Sendung */
 .tf-vgl-gitter{display:flex;flex-direction:column;gap:.55em;margin-top:.5em}
 .vgl-teil{display:block;padding:.5em .75em;border-radius:.45em;border-left:.28em solid}
@@ -1994,8 +2008,29 @@ function wetterLeiste(){
   return `<section class="videos wetterteil"><h2 class="abschnitt">Das Wetter <small>· ${esc(w.quelle)} · Karte: GeoBasis-DE / BKG (dl-de/by-2-0)</small></h2>
     <div class="wk-box">${wetterKarteSVG(w, "heute")}
       <div class="wk-band"><b>Heute ${esc(spanne("heute"))}</b><span>Morgen (${esc(w.morgenTag)}) ${esc(spanne("morgen"))}</span></div></div>
+    ${modellVergleichHTML(w)}
     <div class="vreihe"><a class="vkarte sendung" href="#/video/wetter">
       <span class="vk-text"><b>▶ Das Wetter als Video</b><small>Karte für heute und morgen</small></span></a></div></section>`;
+}
+// Dieselbe Ehrlichkeit wie bei den Medien: Wettermodelle sind sich oft uneinig.
+// Andere Apps zeigen eine Zahl und tun so, als waere sie sicher.
+function modellVergleichHTML(w){
+  const m = w && w.modelle;
+  if (!m || !(m.orte || []).length) return "";
+  const beispiel = [...m.orte].sort((a, b) => {
+    const s = x => Math.max(...x.je.map(y => y.grad)) - Math.min(...x.je.map(y => y.grad));
+    return s(b) - s(a);
+  })[0];
+  const einig = (m.spanneGrad || 0) <= 1 && !m.uneinigRegen;
+  return `<div class="modellvgl${einig ? " einig" : ""}">
+    <div class="mv-kopf">${einig ? "Die Wettermodelle sind sich einig" : "Hier sind sich die Wettermodelle uneinig"}
+      <small>für morgen in ${esc(beispiel.name)}</small></div>
+    <div class="mv-reihe">${beispiel.je.map(x => `<div class="mv-modell">
+      <b>${esc(x.grad)}°</b><span>${esc(x.name)}</span>
+      ${x.regen != null ? `<i>${x.regen >= 1 ? "Regen" : "trocken"}</i>` : ""}</div>`).join("")}</div>
+    ${m.uneinigRegen ? `<p class="mv-text">In ${esc(m.uneinigRegen.ort)} erwartet ${esc(m.uneinigRegen.nass.join(" und "))}
+      Regen, ${esc(m.uneinigRegen.trocken.join(" und "))} dagegen nicht.</p>` : ""}
+    <p class="mv-quelle">Verglichen: ${esc((m.dienste || []).join(" · "))}</p></div>`;
 }
 function karteSVG(ort, breite = 30, hoehe = 18, ohneName, mx0 = 0.5, my0 = 0.5){
   if (!ort || typeof ort.lat !== "number") return "";

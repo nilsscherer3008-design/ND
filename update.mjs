@@ -455,7 +455,9 @@ export function videoPruefen(v) {
 }
 
 // ---------- Fotos von Wikimedia Commons ----------
-const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd)/i;
+// Freie Lizenzen. GFDL und "Attribution" fehlten hier - dadurch fiel ein grosser Teil
+// der aelteren Wikipedia-Bilder stillschweigend durch.
+const FREIE_LIZENZ = /^(cc0|cc[ -]by([ -]sa)?|public domain|pd|gfdl|attribution|fal)/i;
 const ohneAkzente = t => String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 // mindestens ein aussagekräftiges Wort des Suchbegriffs muss im Dateititel oder in der Beschreibung stehen
 export function passtZumSuchbegriff(suchbegriff, titel, beschreibung) {
@@ -466,18 +468,28 @@ export function passtZumSuchbegriff(suchbegriff, titel, beschreibung) {
 }
 const WIKI_KOPF = { "User-Agent": "NachrichtenHeft/1.0 (Schulprojekt; GitHub Pages)" };
 // Metadaten einer Commons-Datei holen (Lizenz, Urheber, Vorschaubild)
-async function commonsDatei(dateiTitel) {
+async function commonsDatei(dateiTitel, grund) {
+  // Commons kennt den Dateinamensraum als "File:". Die deutsche Wikipedia liefert
+  // "Datei:" - das wird hier vereinheitlicht, damit nichts ins Leere laeuft.
+  const titel = String(dateiTitel).replace(/^\s*Datei:/i, "File:");
   const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({
-    action: "query", format: "json", titles: dateiTitel,
+    action: "query", format: "json", titles: titel,
     prop: "imageinfo", iiprop: "url|extmetadata|mime|size", iiurlwidth: "1280"
   });
-  const r = await fetch(url, { headers: WIKI_KOPF });
-  if (!r.ok) return null;
-  const seite = Object.values((await r.json()).query?.pages || {})[0];
-  const ii = seite?.imageinfo?.[0]; if (!ii) return null;
+  let r, daten;
+  try {
+    r = await fetch(url, { headers: WIKI_KOPF });
+    if (!r.ok){ if (grund) grund.abgelehnt.push(`HTTP ${r.status}`); return null; }
+    daten = await r.json();
+  } catch (e) { if (grund) grund.abgelehnt.push("Abruf: " + e.message); return null; }
+  const seite = Object.values(daten.query?.pages || {})[0];
+  const ii = seite?.imageinfo?.[0];
+  if (!ii){ if (grund) grund.abgelehnt.push("nicht auf Commons"); return null; }
   const m = ii.extmetadata || {};
   const lizenz = decode(m.LicenseShortName?.value || "");
-  if (!/image\/(jpeg|png|webp)/.test(ii.mime) || (ii.width || 0) < 500 || !FREIE_LIZENZ.test(lizenz)) return null;
+  if (!/image\/(jpeg|png|webp)/.test(ii.mime)){ if (grund) grund.abgelehnt.push("Format " + ii.mime); return null; }
+  if ((ii.width || 0) < 400){ if (grund) grund.abgelehnt.push(`zu klein (${ii.width}px)`); return null; }
+  if (!FREIE_LIZENZ.test(lizenz)){ if (grund) grund.abgelehnt.push("Lizenz " + (lizenz || "unbekannt")); return null; }
   return {
     titel: decode(seite.title || "").replace(/^Datei:|^File:/i, ""),
     beschreibung: decode(m.ImageDescription?.value || m.ObjectName?.value || "").slice(0, 200),
@@ -640,16 +652,24 @@ export async function wikipediaBilder(artikelTitel, maximal = 8, sprache = "de")
     const r = await fetch(url, { headers: WIKI_KOPF });
     if (!r.ok) return [];
     const seite = Object.values((await r.json()).query?.pages || {})[0];
-    const namen = (seite?.images || []).map(i => i.title)
-      .filter(t => /\.(jpg|jpeg|png|webp)$/i.test(t) && !BILD_MUELL.test(t));
+    const alle = (seite?.images || []).map(i => i.title);
+    const namen = alle.filter(t => /\.(jpg|jpeg|png|webp)$/i.test(t) && !BILD_MUELL.test(t));
     const treffer = [];
+    const grund = { abgelehnt: [] };
+    // Wichtig: jeder Abruf einzeln abgesichert. Vorher hat ein einziger Fehlschlag
+    // die ganze Liste gekippt - deshalb kam nie mehr als das Titelbild an.
     for (const name of namen.slice(0, maximal * 3)) {
       if (treffer.length >= maximal) break;
-      const d = await commonsDatei(name);
-      if (d && !treffer.some(t => t.url === d.url)) treffer.push({ ...d, art: "symbol", hinweis: "Bild aus der Wikipedia" });
+      try {
+        const d = await commonsDatei(name, grund);
+        if (d && !treffer.some(t => t.url === d.url)) treffer.push({ ...d, art: "symbol", hinweis: "Bild aus der Wikipedia" });
+      } catch (e) { grund.abgelehnt.push("Fehler: " + e.message); }
+      await warte(180);   // Wikimedia mag keine Salve von Anfragen
     }
+    console.log(`    Bilder zu „${artikelTitel}“: ${alle.length} im Artikel, ${namen.length} nach Filter, ${treffer.length} brauchbar`
+      + (grund.abgelehnt.length ? ` · abgelehnt: ${[...new Set(grund.abgelehnt)].slice(0, 5).join(", ")}` : ""));
     return treffer;
-  } catch { return []; }
+  } catch (e) { console.warn(`    Bildersuche zu „${artikelTitel}“ fehlgeschlagen: ${e.message}`); return []; }
 }
 
 // ---------- Wissensbereich: die KI sucht sich ein Thema und schlägt es in der Wikipedia nach ----------
@@ -927,10 +947,22 @@ async function dokuArbeiten(jetzt, cfg) {
     const offen = arbeit.kapitel.findIndex(k => !k.absaetze?.length && !k.fehlgeschlagen);
     if (offen >= 0) {
       const k = arbeit.kapitel[offen];
-      const quelle = await wikipediaText(k.wikipedia);
+      // Findet sich zum vorgesehenen Artikel nichts, wird erst die Kapitelüberschrift
+      // und dann das Doku-Thema als Suchbegriff probiert. Erst danach gilt es als gescheitert.
+      let quelle = await wikipediaText(k.wikipedia);
+      for (const ersatz of [k.ueberschrift, k.fokus, arbeit.titel]) {
+        if (quelle || !ersatz) break;
+        quelle = await wikipediaText(String(ersatz).split(/[:–—,]/)[0].trim());
+        if (quelle) console.log(`    Ersatzquelle gefunden: „${quelle.titel}“`);
+      }
       if (!quelle) {
-        k.fehlgeschlagen = true;
-        console.warn(`  Kapitel „${k.ueberschrift}“ übersprungen: kein Artikel zu „${k.wikipedia}“`);
+        k.versuche = (k.versuche || 0) + 1;
+        if (k.versuche >= 3) {
+          k.fehlgeschlagen = true;
+          console.warn(`  Kapitel „${k.ueberschrift}“ endgültig übersprungen: keine Quelle gefunden`);
+        } else {
+          console.warn(`  Kapitel „${k.ueberschrift}“: keine Quelle (Versuch ${k.versuche} von 3)`);
+        }
       } else {
         arbeit.kapitel[offen] = await dokuKapitelSchreiben(arbeit, k, quelle, offen + 1, arbeit.kapitel.length, cfg);
         if (cfg.bilder !== false) {
@@ -947,7 +979,20 @@ async function dokuArbeiten(jetzt, cfg) {
             }
           } catch { /* ohne Bild */ }
         }
-        console.log(`  Kapitel ${offen + 1}/${arbeit.kapitel.length}: ${arbeit.kapitel[offen].ueberschrift} (${arbeit.kapitel[offen].woerter} Wörter)`);
+        // Ein Kapitel mit 60 Wörtern ist kein Kapitel. Lieber noch einmal schreiben lassen.
+        const mindest = cfg.mindestWoerterProKapitel ?? 380;
+        const w = arbeit.kapitel[offen].woerter || 0;
+        if (w < mindest) {
+          arbeit.kapitel[offen].zuDuenn = (arbeit.kapitel[offen].zuDuenn || 0) + 1;
+          if (arbeit.kapitel[offen].zuDuenn < 3) {
+            console.warn(`  Kapitel ${offen + 1}: nur ${w} Wörter (mindestens ${mindest}) – wird neu geschrieben.`);
+            arbeit.kapitel[offen] = { ...k, zuDuenn: arbeit.kapitel[offen].zuDuenn };  // Text verwerfen
+          } else {
+            console.warn(`  Kapitel ${offen + 1}: bleibt bei ${w} Wörtern, mehr gibt die Quelle nicht her.`);
+          }
+        } else {
+          console.log(`  Kapitel ${offen + 1}/${arbeit.kapitel.length}: ${arbeit.kapitel[offen].ueberschrift} (${w} Wörter)`);
+        }
       }
       etwasGetan = true;
     }
@@ -955,7 +1000,18 @@ async function dokuArbeiten(jetzt, cfg) {
 
   // Alles geschrieben? Dann ist die Doku fertig und kommt in die App.
   const geschrieben = arbeit.kapitel.filter(k => k.absaetze?.length);
-  if (geschrieben.length && !arbeit.kapitel.some(k => !k.absaetze?.length && !k.fehlgeschlagen)) {
+  const nochOffen = arbeit.kapitel.some(k => !k.absaetze?.length && !k.fehlgeschlagen);
+  const anteil = geschrieben.length / Math.max(1, arbeit.kapitel.length);
+  const gesamtWoerter = geschrieben.reduce((a, k) => a + (k.woerter || 0), 0);
+  // Eine Doku erscheint erst, wenn sie wirklich eine ist: mindestens drei Viertel
+  // der geplanten Kapitel und genug Text für eine halbe Stunde.
+  const reichtAus = anteil >= (cfg.mindestAnteil ?? 0.75) && gesamtWoerter >= (cfg.mindestWoerter ?? 2500);
+  if (!nochOffen && geschrieben.length && !reichtAus) {
+    console.warn(`  Doku „${arbeit.titel}“ zu dünn (${geschrieben.length}/${arbeit.kapitel.length} Kapitel, `
+      + `${gesamtWoerter} Wörter) – gescheiterte Kapitel werden noch einmal versucht.`);
+    for (const k of arbeit.kapitel) if (k.fehlgeschlagen && !k.absaetze?.length) { k.fehlgeschlagen = false; k.versuche = 0; }
+  }
+  if (!nochOffen && geschrieben.length && reichtAus) {
     const gesehen = new Set();
     for (const k of geschrieben) {
       k.bildInfos = (k.bildInfos || []).filter(b => b?.url && !gesehen.has(b.url) && gesehen.add(b.url));
@@ -1044,8 +1100,79 @@ async function wetterHolen(jetzt) {
   if (orte.length < 3) throw new Error("zu wenige Messwerte");
   const morgen = new Date(+jetzt + 24 * 36e5);
   const morgenTag = new Intl.DateTimeFormat("de-DE", { timeZone: "Europe/Berlin", weekday: "long" }).format(morgen);
+  let modelle = null;
+  try { modelle = await wetterModelle(morgenTag); } catch (e) { console.warn("  Modellvergleich: " + e.message); }
   return { stand: jetzt.toISOString(), morgenTag, orte, text: wetterText(orte, morgenTag),
-    quelle: "Open-Meteo / Deutscher Wetterdienst" };
+    modelle, quelle: "Open-Meteo / Deutscher Wetterdienst" };
+}
+
+// Verschiedene Wetterdienste rechnen mit verschiedenen Modellen - und sind sich oft
+// uneinig. Normale Wetter-Apps zeigen eine Zahl und tun so, als waere sie sicher.
+// Hier steht daneben, wo die Modelle auseinandergehen. Dieselbe Idee wie beim Medienvergleich.
+const WETTER_MODELLE = [
+  { schluessel: "icon_seamless",  name: "ICON",   heim: "Deutscher Wetterdienst" },
+  { schluessel: "gfs_seamless",   name: "GFS",    heim: "USA" },
+  { schluessel: "ecmwf_ifs025",   name: "ECMWF",  heim: "Europa" }
+];
+async function wetterModelle(morgenTag) {
+  const url = "https://api.open-meteo.com/v1/forecast?" + new URLSearchParams({
+    latitude: WETTER_ORTE.map(o => o.lat).join(","),
+    longitude: WETTER_ORTE.map(o => o.lon).join(","),
+    daily: "temperature_2m_max,precipitation_sum",
+    models: WETTER_MODELLE.map(m => m.schluessel).join(","),
+    timezone: "Europe/Berlin", forecast_days: "2"
+  });
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  const liste = (x => Array.isArray(x) ? x : [x])(await r.json());
+
+  const orte = [];
+  for (let i = 0; i < WETTER_ORTE.length; i++) {
+    const d = liste[i]?.daily; if (!d) continue;
+    // Die Feldnamen selbst aus der Antwort lesen, statt sie zu raten - so bleibt
+    // es heil, falls Open-Meteo die Benennung einmal ändert.
+    const je = Object.keys(d)
+      .filter(k => k.startsWith("temperature_2m_max") && Array.isArray(d[k]) && d[k][1] != null)
+      .map(k => {
+        const kuerzel = k.replace(/^temperature_2m_max_?/, "") || "standard";
+        const bekannt = WETTER_MODELLE.find(m => m.schluessel === kuerzel);
+        const n = d["precipitation_sum_" + kuerzel] || d.precipitation_sum;
+        return { name: bekannt ? bekannt.name : kuerzel.replace(/_seamless|_ifs\d*/g, "").toUpperCase(),
+                 heim: bekannt ? bekannt.heim : "",
+                 grad: Math.round(d[k][1]),
+                 regen: n?.[1] == null ? null : Math.round(n[1] * 10) / 10 };
+      });
+    if (je.length >= 2) orte.push({ name: WETTER_ORTE[i].name, je });
+  }
+  if (!orte.length) throw new Error("keine Modelldaten");
+
+  // Wo gehen sie am weitesten auseinander?
+  let spanneGrad = 0, wo = null, nassUneinig = null;
+  for (const o of orte) {
+    const g = o.je.map(x => x.grad);
+    const spanne = Math.max(...g) - Math.min(...g);
+    if (spanne > spanneGrad) { spanneGrad = spanne; wo = o; }
+    const regen = o.je.filter(x => x.regen != null);
+    if (regen.length >= 2 && !nassUneinig) {
+      const nass = regen.filter(x => x.regen >= 1).map(x => x.name);
+      const trocken = regen.filter(x => x.regen < 1).map(x => x.name);
+      if (nass.length && trocken.length) nassUneinig = { ort: o.name, nass, trocken };
+    }
+  }
+  const saetze = [];
+  if (spanneGrad <= 1) {
+    saetze.push(`Die Wettermodelle sind sich für morgen weitgehend einig: hoechstens ein Grad Unterschied.`);
+  } else if (wo) {
+    const g = wo.je.map(x => x.grad);
+    saetze.push(`Für ${wo.name} gehen die Modelle am weitesten auseinander: zwischen ${Math.min(...g)} und ${Math.max(...g)} Grad.`);
+  }
+  if (nassUneinig) {
+    saetze.push(`Und in ${nassUneinig.ort} erwartet ${nassUneinig.nass.join(" und ")} Regen, `
+      + `${nassUneinig.trocken.join(" und ")} dagegen nicht.`);
+  }
+  console.log(`  Modellvergleich: ${orte.length} Orte, groesste Spanne ${spanneGrad} Grad`);
+  return { tag: morgenTag, orte, spanneGrad, uneinigRegen: nassUneinig, saetze,
+    dienste: WETTER_MODELLE.map(m => `${m.name} (${m.heim})`) };
 }
 
 // ---------- Ausgaben zu festen Zeiten ----------
@@ -1075,6 +1202,78 @@ async function ausgabeSpeichern(jetzt, nachrichten) {
   const neu = [{ id, name, stunde, zeit: jetzt.toISOString(), anzahl: themen.length }, ...alt.filter(a => a.id !== id)].slice(0, 40);
   await fs.writeFile(indexDatei, JSON.stringify(neu, null, 1));
   console.log(`Ausgabe gespeichert: ${name} (${themen.length} Themen)`);
+}
+
+// ---------- Podcast-Feed ----------
+// Die fertigen Folgen liegen schon als MP3 im Ton-Zweig. Diese Datei macht sie
+// in Spotify, Apple Podcasts und jeder anderen Podcast-App abonnierbar.
+const xmlSicher = t => String(t == null ? "" : t)
+  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+  .replace(/"/g, "&quot;").replace(/\u0000-\u0008\u000b\u000c\u000e-\u001f/g, "");
+const rfc822 = d => {
+  const t = new Date(d);
+  return isNaN(t) ? new Date().toUTCString() : t.toUTCString();
+};
+const hhmmss = sek => {
+  const s = Math.max(0, Math.round(Number(sek) || 0));
+  return [Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60]
+    .map(x => String(x).padStart(2, "0")).join(":");
+};
+
+export function feedBauen(folgen, opt) {
+  const { seite, tonBasis, titel, beschreibung, autor, bild, stand } = opt;
+  const eintraege = (folgen || []).filter(f => f && f.d && f.b).map(f => `  <item>
+    <title>${xmlSicher(f.titel)}</title>
+    <description>${xmlSicher(f.text || f.titel)}</description>
+    <itunes:summary>${xmlSicher(f.text || f.titel)}</itunes:summary>
+    <pubDate>${rfc822(f.zeit)}</pubDate>
+    <guid isPermaLink="false">${xmlSicher(f.id)}</guid>
+    <enclosure url="${xmlSicher(tonBasis + f.d)}" length="${Math.round(f.b)}" type="audio/mpeg"/>
+    <itunes:duration>${hhmmss(f.l)}</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    ${seite ? `<link>${xmlSicher(seite)}</link>` : ""}
+  </item>`).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>${xmlSicher(titel)}</title>
+  <description>${xmlSicher(beschreibung)}</description>
+  <language>de-de</language>
+  <lastBuildDate>${rfc822(stand)}</lastBuildDate>
+  <generator>Nachrichten-Heft</generator>
+  ${seite ? `<link>${xmlSicher(seite)}</link>
+  <atom:link href="${xmlSicher(seite + "/feed.xml")}" rel="self" type="application/rss+xml"/>` : ""}
+  <itunes:author>${xmlSicher(autor)}</itunes:author>
+  <itunes:summary>${xmlSicher(beschreibung)}</itunes:summary>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:type>episodic</itunes:type>
+  <itunes:category text="News"/>
+  ${bild ? `<itunes:image href="${xmlSicher(bild)}"/>
+  <image><url>${xmlSicher(bild)}</url><title>${xmlSicher(titel)}</title>${seite ? `<link>${xmlSicher(seite)}</link>` : ""}</image>` : ""}
+${eintraege}
+</channel>
+</rss>
+`;
+}
+
+async function feedSchreiben(jetzt) {
+  const daten = await leseJson(new URL("data/podcast.json", ROOT), null);
+  if (!daten?.folgen?.length) { console.log("Podcast: noch keine Folgen."); return; }
+  const repo = process.env.GITHUB_REPOSITORY || "";
+  const seite = (process.env.SITE_URL || "").replace(/\/$/, "");
+  if (!repo) { console.warn("Podcast: GITHUB_REPOSITORY fehlt – kein Feed."); return; }
+  const xml = feedBauen(daten.folgen, {
+    seite, tonBasis: `https://raw.githubusercontent.com/${repo}/ton/`,
+    titel: "Nachrichten-Heft · neutral",
+    beschreibung: "Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. "
+      + "Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. "
+      + "Ein Schulprojekt für Gemeinschaftskunde.",
+    autor: "Nachrichten-Heft",
+    bild: seite ? seite + "/icon-512.png" : "",
+    stand: jetzt.toISOString()
+  });
+  await fs.writeFile(new URL("feed.xml", ROOT), xml);
+  console.log(`Podcast-Feed geschrieben: ${daten.folgen.length} Folgen`);
 }
 
 // ---------- Wochenrückblick ----------
@@ -1388,6 +1587,7 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
   const imArchiv = await archivieren(altListe, nachrichten, jetzt, CFG);
   await ausgabeSpeichern(jetzt, nachrichten);
   await wochenrueckblick(jetzt, nachrichten, !!process.env.FORCE_WOCHE);
+  try { await feedSchreiben(jetzt); } catch (e) { console.warn("Podcast-Feed: " + e.message); }
   if (altListe.length) console.log(`Archiviert: ${altListe.length} (Archiv gesamt: ${imArchiv})`);
 
   // 4. Eilmeldungen pushen (nur neue, höchstens 6 Stunden alt)

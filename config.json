@@ -303,7 +303,10 @@
     "woerterProKapitel": 650,
     "behalten": 12,
     "bilder": true,
-    "bilderProKapitel": 7
+    "bilderProKapitel": 7,
+    "mindestWoerterProKapitel": 380,
+    "mindestAnteil": 0.75,
+    "mindestWoerter": 2500
   },
   "reserveFuerWissenUndDoku": 6
 }
