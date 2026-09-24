@@ -2228,7 +2228,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 15 und 20 Grad. Die Vorhersage für morgen,",
+   "d": "575f3179d7.mp3",
+   "l": 17.89,
+   "s": [
+    0.25,
+    3.96,
+    8.0,
+    11.93,
+    15.16
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4014,6 +4026,33 @@
       13.96,
       18.71
      ]
+    },
+    {
+     "k": "Premierminister Anthony Albanese äußerte sich besorgt über den Vorfall. Er erklä",
+     "d": "0ddcbb876f.mp3",
+     "l": 54.26,
+     "s": [
+      0.25,
+      4.62,
+      11.17,
+      18.29,
+      22.25,
+      31.51,
+      38.87,
+      45.75
+     ]
+    },
+    {
+     "k": "Eine forensische Untersuchung der nationalen Cybersicherheitsbehörde soll den ge",
+     "d": "9fae1fe38e.mp3",
+     "l": 35.39,
+     "s": [
+      0.25,
+      6.75,
+      14.54,
+      18.53,
+      25.26
+     ]
     }
    ]
   },
@@ -4380,6 +4419,61 @@
      "s": [
       0.25,
       4.04
+     ]
+    },
+    {
+     "k": "Die Hitzewelle des laufenden Sommers hat die europäische Wirtschaftsleistung nac",
+     "d": "0eea78962e.mp3",
+     "l": 61.59,
+     "s": [
+      0.25,
+      10.47,
+      17.22,
+      23.34,
+      30.58,
+      38.92,
+      45.34,
+      52.83
+     ]
+    },
+    {
+     "k": "Für die Untersuchung wurde ein erstmals berechneter Climate Risk Tracker verwend",
+     "d": "5c8d5c504c.mp3",
+     "l": 57.48,
+     "s": [
+      0.25,
+      4.94,
+      11.48,
+      19.54,
+      27.47,
+      35.53,
+      42.17,
+      49.04
+     ]
+    },
+    {
+     "k": "Eine maßgebliche Ursache für die Situation ist laut den Berichten, dass sich Eur",
+     "d": "c431052b5a.mp3",
+     "l": 74.33,
+     "s": [
+      0.25,
+      10.38,
+      23.72,
+      29.37,
+      39.91,
+      51.19,
+      57.44,
+      69.76
+     ]
+    },
+    {
+     "k": "Frank Sommerfeld, Chef der Sachversicherung bei der Allianz, erklärte laut den B",
+     "d": "a1ad0c0882.mp3",
+     "l": 29.84,
+     "s": [
+      0.25,
+      8.94,
+      13.52
      ]
     }
    ]
@@ -5240,7 +5334,7 @@
     {
      "k": "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den V",
      "d": "df24315556.mp3",
-     "l": 17,
+     "l": 16.8,
      "s": [
       0.25
      ]
@@ -10817,11 +10911,11 @@
     {
      "k": "Der Autobauer Porsche hat einen Medienbericht über zusätzlichen Stellenabbau dem",
      "d": "c38e0c9b50.mp3",
-     "l": 17.65,
+     "l": 17.54,
      "s": [
       0.25,
-      5.32,
-      10.54
+      5.26,
+      10.56
      ]
     },
     {

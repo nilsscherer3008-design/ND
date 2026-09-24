@@ -92,7 +92,24 @@
     "url": "https://de.wikipedia.org/wiki/Keilschrift",
     "lizenz": "CC BY-SA 4.0"
    },
-   "woerter": 313
+   "woerter": 313,
+   "ton": [
+    {
+     "k": "Die Keilschrift ist eine der ältesten Schriften der Welt. Sie wurde im vierten J",
+     "d": "71e2edffd3.mp3",
+     "l": 28.45,
+     "s": [
+      0.25,
+      3.54,
+      6.99,
+      10.52,
+      14.17,
+      17.61,
+      21.16,
+      24.59
+     ]
+    }
+   ]
   },
   {
    "id": "wie-die-post-im-mittelalter-funktionierte",
@@ -264,7 +281,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Die Nachrichtenübermittlung hat sich über Jahrhunderte stark verändert."
-   }
+   },
+   "ton": [
+    {
+     "k": "Die Geschichte der Post beschreibt die Entwicklung des Briefverkehrs. Im Mittela",
+     "d": "0d4e2b3519.mp3",
+     "l": 33.54,
+     "s": [
+      0.25,
+      3.91,
+      8.72,
+      12.91,
+      17.6,
+      19.98,
+      24.27,
+      28.35
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-die-gebaerdensprache",
@@ -431,7 +465,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Gebärdensprachen sind visuell wahrnehmbare Sprachen für Menschen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Gebärdensprachen sind eigenständige und vollwertige Sprachen. Sie werden vor all",
+     "d": "d2feab7041.mp3",
+     "l": 26.95,
+     "s": [
+      0.25,
+      3.99,
+      7.11,
+      10.84,
+      13.91,
+      16.55,
+      19.8,
+      23.26
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-gps",
@@ -546,7 +597,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Das Global Positioning System hilft bei der weltweiten Positionsbestimmung. Es w",
+     "d": "bcac208a7f.mp3",
+     "l": 30.27,
+     "s": [
+      0.25,
+      4.95,
+      8.57,
+      12.34,
+      16.36,
+      20.64,
+      23.65,
+      26.44
+     ]
+    }
+   ]
   },
   {
    "id": "warum-haben-flamingos-rosa-federn",
@@ -675,7 +743,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Flamingos haben einen langen Hals, lange Beine und ein rosa Gefieder."
-   }
+   },
+   "ton": [
+    {
+     "k": "Flamingos sind Vögel mit langen Beinen und einem langen Hals. Ihr Gefieder ist m",
+     "d": "a0653fcd45.mp3",
+     "l": 31.16,
+     "s": [
+      0.25,
+      4.33,
+      6.51,
+      10.09,
+      14.37,
+      18.16,
+      22.92,
+      26.07
+     ]
+    }
+   ]
   },
   {
    "id": "was-ist-eigentlich-ein-schwarzes-loch",
@@ -800,7 +885,23 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Schwarzes Loch krümmt die Raumzeit extrem stark. Selbst Licht kann diesen Be",
+     "d": "3692640b5f.mp3",
+     "l": 27.63,
+     "s": [
+      0.25,
+      3.38,
+      6.03,
+      9.62,
+      14.77,
+      18.57,
+      23.08
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-ein-regenbogen",

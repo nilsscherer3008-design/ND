@@ -143,7 +143,23 @@
       "art": "symbol",
       "hinweis": "Bild aus der Wikipedia",
       "bildunterschrift": "Der Kreislauf des Wassers verbindet Ozeane, Wolken und das Festland."
-     }
+     },
+     "ton": [
+      {
+       "k": "Im vorherigen Kapitel haben wir den Beginn unserer Reise betrachtet und schauen ",
+       "d": "c5daabacd2.mp3",
+       "l": 49.29,
+       "s": [
+        0.25,
+        7.19,
+        14.39,
+        20.39,
+        27.97,
+        35.98,
+        43.68
+       ]
+      }
+     ]
     },
     {
      "ueberschrift": "Das Leben im Ozean",
@@ -204,7 +220,23 @@
       "url": "https://de.wikipedia.org/wiki/Meer"
      },
      "woerter": 130,
-     "bildInfos": []
+     "bildInfos": [],
+     "ton": [
+      {
+       "k": "Im Anschluss an den ewigen Kreislauf des Wassers betrachten wir nun das Leben im",
+       "d": "99724496e0.mp3",
+       "l": 57.61,
+       "s": [
+        0.25,
+        7.75,
+        15.5,
+        25.56,
+        31.21,
+        38.55,
+        47.04
+       ]
+      }
+     ]
     },
     {
      "ueberschrift": "Frost und Eis",
@@ -256,7 +288,54 @@
       "url": "https://de.wikipedia.org/wiki/Gletscher"
      },
      "woerter": 363,
-     "bildInfos": []
+     "bildInfos": [],
+     "ton": [
+      {
+       "k": "Nach dem Leben im Ozean betrachten wir nun das feste Wasser auf den Festländern ",
+       "d": "47f7cea7af.mp3",
+       "l": 160.79,
+       "s": [
+        0.25,
+        5.76,
+        9.35,
+        13.45,
+        18.79,
+        23.42,
+        28.2,
+        33.1,
+        37.51,
+        42.78,
+        46.64,
+        50.98,
+        53.76,
+        58.15,
+        61.08,
+        64.6,
+        69.03,
+        73.07,
+        77.6,
+        81.74,
+        84.72,
+        88.39,
+        92.81,
+        97.11,
+        100.97,
+        104.45,
+        109.31,
+        112.58,
+        116.84,
+        121.48,
+        125.52,
+        129.8,
+        134.21,
+        139.26,
+        143.24,
+        147.85,
+        152.34,
+        155.51
+       ]
+      }
+     ]
     },
     {
      "ueberschrift": "Durstige Riesen der Natur",
@@ -323,7 +402,22 @@
       "art": "symbol",
       "hinweis": "Bild aus der Wikipedia",
       "bildunterschrift": "Ein Wald bedeckt als pflanzliche Formation große Teile der Erdoberfläche."
-     }
+     },
+     "ton": [
+      {
+       "k": "Nach Frost und Eis betrachten wir nun die durstigen Riesen der Natur. Laut einer",
+       "d": "7afe9bfca2.mp3",
+       "l": 29.54,
+       "s": [
+        0.25,
+        4.43,
+        11.0,
+        15.56,
+        19.41,
+        25.0
+       ]
+      }
+     ]
     },
     {
      "ueberschrift": "Knappe Ressourcen für alle",
@@ -398,7 +492,22 @@
       "art": "symbol",
       "hinweis": "Bild aus der Wikipedia",
       "bildunterschrift": "Eine moderne Wasserversorgung sichert die Bereitstellung von Trinkwasser für die Bevölkerung."
-     }
+     },
+     "ton": [
+      {
+       "k": "Nach den durstigen Riesen der Natur betrachten wir nun die Wassernutzung durch d",
+       "d": "0ed8ddfdaf.mp3",
+       "l": 42.78,
+       "s": [
+        0.25,
+        5.52,
+        12.95,
+        19.94,
+        25.67,
+        33.83
+       ]
+      }
+     ]
     }
    ],
    "woerter": 772,
@@ -441,7 +550,7 @@
     }
    ],
    "dauerMinuten": 6,
-   "vertont": false
+   "vertont": true
   }
  ]
 }

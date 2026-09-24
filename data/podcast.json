@@ -1,6 +1,26 @@
 {
- "stand": "2026-09-24T09:56:20.705Z",
+ "stand": "2026-09-24T15:00:32.760Z",
  "folgen": [
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-die-keilschrift",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich die Keilschrift?",
+   "text": "Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.",
+   "zeit": "2026-09-24T10:00:53.737Z",
+   "d": "71e2edffd3.mp3",
+   "l": 28.45,
+   "b": 171165
+  },
+  {
+   "id": "wissen-wie-die-post-im-mittelalter-funktionierte",
+   "art": "wissen",
+   "titel": "Wie die Post im Mittelalter funktionierte",
+   "text": "Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.",
+   "zeit": "2026-09-24T04:47:41.090Z",
+   "d": "0d4e2b3519.mp3",
+   "l": 33.54,
+   "b": 201693
+  },
   {
    "id": "hauptausgabe-2026-09-24",
    "art": "nachrichten",
@@ -10,6 +30,36 @@
    "d": "folge-hauptausgabe-2026-09-24.mp3",
    "l": 581.35,
    "b": 3488349
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-die-gebaerdensprache",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich die Gebärdensprache?",
+   "text": "Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.",
+   "zeit": "2026-09-23T20:22:20.250Z",
+   "d": "d2feab7041.mp3",
+   "l": 26.95,
+   "b": 162093
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-gps",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich GPS?",
+   "text": "Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.",
+   "zeit": "2026-09-23T11:35:15.248Z",
+   "d": "bcac208a7f.mp3",
+   "l": 30.27,
+   "b": 182109
+  },
+  {
+   "id": "wissen-warum-haben-flamingos-rosa-federn",
+   "art": "wissen",
+   "titel": "Warum haben Flamingos rosa Federn?",
+   "text": "Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.",
+   "zeit": "2026-09-23T06:00:24.139Z",
+   "d": "a0653fcd45.mp3",
+   "l": 31.16,
+   "b": 187437
   }
  ]
 }
