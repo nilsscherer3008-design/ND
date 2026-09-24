@@ -2,95 +2,96 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Nachrichten-Heft · neutral</title>
-  <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
+  <description>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Thu, 24 Sep 2026 19:05:43 GMT</lastBuildDate>
-  <generator>Nachrichten-Heft</generator>
+  <lastBuildDate>Thu, 24 Sep 2026 20:07:25 +0000</lastBuildDate>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
   <itunes:author>Nachrichten-Heft</itunes:author>
-  <itunes:summary>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
+  <itunes:summary>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
   <itunes:category text="News"/>
-  <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
-  <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <itunes:image href="https://nilsscherer3008-design.github.io/ND/data/icon-512.png"/>
+  <item>
+    <title>Rückzug der Berliner Olympia-Bewerbung</title>
+    <description>Berlin zieht die Bewerbung für die Olympischen und Paralympischen Sommerspiele zurück. Der Deutsche Olympische Sportbund entscheidet nun zwischen München und Köln-Rhein-Ruhr.</description>
+    <itunes:summary>Berlin zieht die Bewerbung für die Olympischen und Paralympischen Sommerspiele zurück. Der Deutsche Olympische Sportbund entscheidet nun zwischen München und Köln-Rhein-Ruhr.</itunes:summary>
+    <pubDate>Thu, 24 Sep 2026 20:07:25 +0000</pubDate>
+    <guid isPermaLink="false">podcast-olympische-spiele-berlin-bewerbung-rueckzug</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-olympische-spiele-berlin-bewerbung-rueckzug.mp3" length="2963757" type="audio/mpeg"/>
+    <itunes:duration>00:06:10</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Wirtschaftsforschungsinstitute erhöhen Wachstumsprognose für das Jahr 2026</title>
     <description>Führende Wirtschaftsforschungsinstitute haben ihre Prognose angehoben. Gleichzeitig weisen Experten auf strukturelle Probleme hin.</description>
     <itunes:summary>Führende Wirtschaftsforschungsinstitute haben ihre Prognose angehoben. Gleichzeitig weisen Experten auf strukturelle Probleme hin.</itunes:summary>
-    <pubDate>Thu, 24 Sep 2026 13:54:52 GMT</pubDate>
+    <pubDate>Thu, 24 Sep 2026 13:54:52 +0000</pubDate>
     <guid isPermaLink="false">podcast-wirtschaftswachstum-prognose-2026</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-wirtschaftswachstum-prognose-2026.mp3" length="1760685" type="audio/mpeg"/>
     <itunes:duration>00:03:40</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich die Keilschrift?</title>
     <description>Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.</description>
     <itunes:summary>Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.</itunes:summary>
-    <pubDate>Thu, 24 Sep 2026 10:00:53 GMT</pubDate>
+    <pubDate>Thu, 24 Sep 2026 10:00:53 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-die-keilschrift</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/71e2edffd3.mp3" length="171165" type="audio/mpeg"/>
     <itunes:duration>00:00:28</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie die Post im Mittelalter funktionierte</title>
     <description>Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.</description>
     <itunes:summary>Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.</itunes:summary>
-    <pubDate>Thu, 24 Sep 2026 04:47:41 GMT</pubDate>
+    <pubDate>Thu, 24 Sep 2026 04:47:41 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-die-post-im-mittelalter-funktionierte</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0d4e2b3519.mp3" length="201693" type="audio/mpeg"/>
     <itunes:duration>00:00:34</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Hauptausgabe vom 2026-09-24</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Debatte im Bundestag über die Berliner Linkspartei und Vorwürfe der Clankriminalität · Staatsbesuch von Chinas Präsident Xi Jinping in den USA begonnen · USA laden Russlands Präsidenten Putin zu G20-Gipfel ein · Forderungen und Reaktionen zur bevorstehenden Tarifrunde in der Metall- und Elektroindustrie · OECD hebt Wachstumsprognose für die deutsche Wirtschaft an</description>
     <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Debatte im Bundestag über die Berliner Linkspartei und Vorwürfe der Clankriminalität · Staatsbesuch von Chinas Präsident Xi Jinping in den USA begonnen · USA laden Russlands Präsidenten Putin zu G20-Gipfel ein · Forderungen und Reaktionen zur bevorstehenden Tarifrunde in der Metall- und Elektroindustrie · OECD hebt Wachstumsprognose für die deutsche Wirtschaft an</itunes:summary>
-    <pubDate>Thu, 24 Sep 2026 04:40:40 GMT</pubDate>
+    <pubDate>Thu, 24 Sep 2026 04:40:40 +0000</pubDate>
     <guid isPermaLink="false">hauptausgabe-2026-09-24</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-09-24.mp3" length="3488349" type="audio/mpeg"/>
     <itunes:duration>00:09:41</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich die Gebärdensprache?</title>
     <description>Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.</description>
     <itunes:summary>Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.</itunes:summary>
-    <pubDate>Wed, 23 Sep 2026 20:22:20 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 20:22:20 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-die-gebaerdensprache</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/d2feab7041.mp3" length="162093" type="audio/mpeg"/>
     <itunes:duration>00:00:27</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich GPS?</title>
     <description>Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.</description>
     <itunes:summary>Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.</itunes:summary>
-    <pubDate>Wed, 23 Sep 2026 11:35:15 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 11:35:15 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-gps</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/bcac208a7f.mp3" length="182109" type="audio/mpeg"/>
     <itunes:duration>00:00:30</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Warum haben Flamingos rosa Federn?</title>
     <description>Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.</description>
     <itunes:summary>Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.</itunes:summary>
-    <pubDate>Wed, 23 Sep 2026 06:00:24 GMT</pubDate>
+    <pubDate>Wed, 23 Sep 2026 06:00:24 +0000</pubDate>
     <guid isPermaLink="false">wissen-warum-haben-flamingos-rosa-federn</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/a0653fcd45.mp3" length="187437" type="audio/mpeg"/>
     <itunes:duration>00:00:31</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
 </channel>
 </rss>
