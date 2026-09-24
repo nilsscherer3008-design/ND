@@ -78,12 +78,12 @@ jobs:
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ton:ton
           echo "Veröffentlicht: $(ls *.mp3 2>/dev/null | wc -l) Aufnahmen"
 
-      - name: Folgenliste und Feed speichern
+      - name: Gespräche und Feed speichern
         if: always()
         run: |
           git config user.name "nachrichten-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/podcast.json feed.xml 2>/dev/null || true
+          git add data
           if git diff --cached --quiet; then
             echo "Keine Änderung."
             exit 0
