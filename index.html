@@ -3639,13 +3639,18 @@ addEventListener("hashchange", route);
 
 function datenUebernehmen(res){
   DATEN = res.d; NACHRICHTEN = res.d.nachrichten || []; ausCache = res.ausCache;
-  document.getElementById("stand").textContent = DATEN.stand ? fmtZeit(DATEN.stand) : "–";
-  document.getElementById("naechste").textContent = "nächste " + naechsteAktualisierung();
+  // In der Podcast-App gibt es die Kopfzeile "Aktualisiert" nicht - dann darf
+  // hier nichts schiefgehen, sonst bricht das ganze Laden ab.
+  const s = document.getElementById("stand"), n = document.getElementById("naechste");
+  if (s) s.textContent = DATEN.stand ? fmtZeit(DATEN.stand) : "–";
+  if (n) n.textContent = "nächste " + naechsteAktualisierung();
   band();
 }
 $app.innerHTML = '<p class="laden">Nachrichten werden geladen …</p>';
-ladeJson("data/news.json").then(res => {
-  datenUebernehmen(res); route(); introZeigen(false);
+
+// Jede App lädt ihre Daten selbst. Früher hing alles an den Nachrichten -
+// ging dort etwas schief, blieb auch der Podcast leer.
+function nachladen(){
   ladeJson("data/woche.json").then(w => { WOCHE = w.d; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});
   ladeJson("data/doku.json").then(d => { DOKU = (d.d?.fertig || []).filter(x => x.kapitel?.length);
     DOKU_ARBEIT = d.d?.inArbeit || null;
@@ -3656,12 +3661,19 @@ ladeJson("data/news.json").then(res => {
     PODCAST_FOLGEN = r.flatMap(x => x.status === "fulfilled" ? (x.value.d?.folgen || []) : [])
       .filter(f => f && f.d)
       .sort((a, b) => String(b.zeit || "").localeCompare(String(a.zeit || "")));
-    if (MODUS === "podcast" || location.hash.startsWith("#/podcast")) route();
+    console.log("Podcast: " + PODCAST_FOLGEN.length + " Folgen geladen");
+    if (MODUS === "podcast" || !location.hash || location.hash === "#/" || location.hash.startsWith("#/podcast")) route();
   });
   ladeJson("data/ausgaben/index.json").then(a => { AUSGABEN = a.d || []; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});
+}
+ladeJson("data/news.json").then(res => {
+  try { datenUebernehmen(res); } catch (e) { console.warn("Kopfzeile:", e); }
+  route(); introZeigen(false);
 }).catch(() => {
-  $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte Internetverbindung prüfen und später erneut versuchen.</div>';
-});
+  // Ohne Nachrichten laufen Wetter, Wissen und Podcast trotzdem weiter.
+  if (MODUS === "heft") $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte Internetverbindung prüfen und später erneut versuchen.</div>';
+  else route();
+}).finally(nachladen);
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState !== "visible") return;
   ladeJson("data/news.json").then(res => {
@@ -3673,7 +3685,24 @@ document.addEventListener("visibilitychange", () => {
 
 /* ---------- Installieren & offline ---------- */
 addEventListener("beforeinstallprompt", e => { e.preventDefault(); installAufforderung = e; if (!location.hash || location.hash === "#/") route(); });
-if ("serviceWorker" in navigator) addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+// Der Offline-Helfer bringt sich selbst auf den neuesten Stand. Ohne das
+// bekommt man tagelang die alte, gespeicherte Fassung zu sehen - und die
+// kennt neue Adressen wie ?app=wetter gar nicht.
+if ("serviceWorker" in navigator) addEventListener("load", async () => {
+  try {
+    const reg = await navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
+    reg.update().catch(() => {});
+    // Kommt ein neuer Helfer, einmal neu laden - aber wirklich nur einmal.
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      try { if (sessionStorage.getItem("heft-frisch")) return; sessionStorage.setItem("heft-frisch", "1"); } catch {}
+      location.reload();
+    });
+    // Beim Zurückkehren zur App noch einmal nachsehen.
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") reg.update().catch(() => {});
+    });
+  } catch {}
+});
 
 /* ---------- Hell/Dunkel ---------- */
 function setTheme(t){

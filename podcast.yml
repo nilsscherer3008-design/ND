@@ -19,7 +19,7 @@ concurrency:
 jobs:
   folge:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -59,7 +59,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           SITE_URL: ${{ vars.SITE_URL }}
-          PODCAST_SEKUNDEN: "900"
+          PODCAST_SEKUNDEN: "1500"
 
       - name: Folge veröffentlichen
         run: |

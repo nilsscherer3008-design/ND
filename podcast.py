@@ -231,8 +231,19 @@ def skript_schreiben(thema, besetzung):
 
 Schreibe daraus ein Podcast-Gespräch von acht bis zwölf Minuten.
 
+LÄNGE – das ist wichtig, zu kurz ist unbrauchbar:
+mindestens 34 und höchstens 55 Zeilen, zusammen 1300 bis 1900 Wörter.
+Jede Wortmeldung drei bis fünf Sätze, keine Einzeiler. Ein Gespräch aus
+vierzehn kurzen Sätzen ist keine Sendung, sondern eine Meldung – geh in
+die Tiefe: Hintergrund, Beispiele, Einwände, Gegeneinwände.
+
 Die Sprecher (nur diese, keine anderen):
 {wer}
+
+VERTEILUNG: Alle sollen ungefähr gleich viel sagen. {MODERATION} führt
+nur durch die Sendung und hat höchstens ein Drittel aller Zeilen – jede
+andere Person mindestens sechs eigene Wortmeldungen. Die anderen reden
+auch direkt miteinander, nicht immer nur zurück zur Moderation.
 
 {MODERATION} eröffnet und schließt die Sendung.
 
@@ -254,7 +265,9 @@ und beim Rückbezug ("wie Nora eben sagte"). NICHT bei jedem Sprecherwechsel.
 Antworte NUR mit JSON:
 {{"titel": "Überschrift der Folge, höchstens zehn Wörter",
   "beschreibung": "zwei Sätze für die Podcast-App",
-  "zeilen": [{{"wer": "einer von: {namen}", "text": "was diese Person sagt, ein bis drei Sätze"}}]}}"""
+  "zeilen": [{{"wer": "einer von: {namen}", "text": "was diese Person sagt, drei bis fünf Sätze"}}]}}
+
+Noch einmal: mindestens 34 Zeilen. Kürzere Antworten werden verworfen."""
     return ki(REGELN, auftrag, 6000)
 
 
@@ -288,9 +301,11 @@ def _wer_finden(z, erlaubt):
     return None
 
 
-def skript_pruefen(roh, besetzung):
+def skript_pruefen(roh, besetzung, streng=True):
     """Nur erlaubte Sprecher, sinnvolle Länge, Computerstimmen-Hinweis vorhanden.
-    Gibt bei Ablehnung den Grund mit zurück, damit man im Protokoll sieht warum."""
+    Gibt bei Ablehnung den Grund mit zurück, damit man im Protokoll sieht warum.
+    streng=True verlangt zusätzlich volle Länge und faire Verteilung; beim
+    letzten Versuch nehmen wir lieber eine kurze Folge als gar keine."""
     liste = _zeilen_finden(roh)
     if not liste:
         return None, f"keine Zeilen gefunden (Antwort war: {str(roh)[:120]})"
@@ -319,6 +334,23 @@ def skript_pruefen(roh, besetzung):
                       + (f", {kurz} zu kurz" if kurz else ""))
     if len({z["wer"] for z in zeilen}) < 2:
         return None, "nur ein Sprecher im ganzen Gespräch"
+
+    # Eine Sendung von vier Minuten ist zu wenig, und einer allein soll nicht
+    # die ganze Zeit reden. Beim letzten Versuch lassen wir beides durchgehen.
+    if streng:
+        worte = sum(len(z["text"].split()) for z in zeilen)
+        if len(zeilen) < 26 or worte < 1000:
+            return None, f"zu kurz: {len(zeilen)} Zeilen, {worte} Wörter (gewünscht 34+/1300+)"
+        wie_oft = {}
+        for z in zeilen:
+            wie_oft[z["wer"]] = wie_oft.get(z["wer"], 0) + 1
+        vielredner, zahl = max(wie_oft.items(), key=lambda x: x[1])
+        if zahl > len(zeilen) * 0.45:
+            return None, f"{vielredner} spricht {zahl} von {len(zeilen)} Zeilen – zu einseitig"
+        leise = [h["name"] for h in besetzung if wie_oft.get(h["name"], 0) < 4]
+        if leise:
+            return None, f"zu wenig Anteil für: {', '.join(leise)}"
+
     if fremd:
         log(f"  Hinweis: {len(fremd)} fremde Sprecher übersprungen ({', '.join(list(fremd)[:3])})")
 
@@ -480,7 +512,8 @@ def main():
     for versuch in (1, 2, 3):
         try:
             roh = skript_schreiben(thema, besetzung)
-            skript, grund = skript_pruefen(roh, besetzung)
+            # Beim letzten Versuch nehmen wir auch eine kürzere Folge.
+            skript, grund = skript_pruefen(roh, besetzung, streng=(versuch < 3))
         except Exception as ex:
             grund = str(ex)
         if skript:
