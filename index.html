@@ -2341,9 +2341,44 @@ function karteSVG(ort, breite = 30, hoehe = 18, ohneName, mx0 = 0.5, my0 = 0.5){
 
 /* ================= Erkennungsmelodie (selbst erzeugt, keine fremde Musik) ================= */
 let TON = null;
+let TON_FREI = false;     // hat das Gerät den Ton schon erlaubt?
 function tonKontext(){
   try { TON = TON || new (window.AudioContext || window.webkitAudioContext)(); if (TON.state === "suspended") TON.resume(); return TON; } catch { return null; }
 }
+// Handys erlauben Ton nur unmittelbar auf eine Berührung hin. Deshalb wird hier
+// beides im selben Augenblick freigeschaltet: der Tonkanal für die Musik UND das
+// Abspielgerät für die Sprecherstimme. Ohne das darf die Stimme nach der Musik
+// nicht mehr loslegen - dann läuft die Melodie und danach kommt nichts.
+function tonFreischalten(){
+  if (TON_FREI) return true;
+  let okKanal = false, okGeraet = false;
+  try {
+    const ctx = tonKontext();
+    if (ctx){
+      const b = ctx.createBuffer(1, 1, 22050);
+      const q = ctx.createBufferSource();
+      q.buffer = b; q.connect(ctx.destination); q.start(0);
+      okKanal = ctx.state === "running";
+    }
+  } catch {}
+  try {
+    if (AUDIO){
+      // Eine Zehntelsekunde Stille abspielen: danach gilt das Gerät als erlaubt
+      // und darf später auch ohne frische Berührung weiterspielen.
+      const vorher = AUDIO.getAttribute("src");
+      if (!vorher) AUDIO.src = STILLE;
+      AUDIO.muted = true;
+      const v = AUDIO.play();
+      if (v && v.then) v.then(() => { AUDIO.pause(); AUDIO.muted = PLAYER.stumm; okGeraet = true; })
+                        .catch(() => { AUDIO.muted = PLAYER.stumm; });
+      else { AUDIO.pause(); AUDIO.muted = PLAYER.stumm; okGeraet = true; }
+    }
+  } catch {}
+  TON_FREI = okKanal || okGeraet;
+  return TON_FREI;
+}
+// Ein Zehntel Sekunde Stille als MP3, damit das Abspielgerät etwas zum Starten hat.
+const STILLE = "data:audio/mpeg;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4LjI5LjEwMAAAAAAAAAAAAAAA//tAwAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAAEAAABIADAwMDAwMDAwMDAwMDAwMDAwMDAwMDA//////////////////////////////////////////8AAAAATGF2YzU4LjU0AAAAAAAAAAAAAAAAJAAAAAAAAAAAASDs90hvAAAAAAAAAAAAAAAAAAAA//sQxAADwAABpAAAACAAADSAAAAETEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVQ==";
 function note(ctx, frequenz, start, dauer, lautstaerke = .22, form = "sine"){
   const o = ctx.createOscillator(), g = ctx.createGain(), o2 = ctx.createOscillator();
   o.type = form; o2.type = "triangle";
@@ -2865,7 +2900,7 @@ function playerOeffnen(format, id){
     el.querySelector(".pl-start").remove();
   } else zeigen();
   el.querySelector(".pl-x").onclick = playerSchliessen;
-  el.querySelector(".pl-start")?.addEventListener("click", () => abspielen());
+  el.querySelector(".pl-start")?.addEventListener("click", () => { tonFreischalten(); abspielen(); });
   el.querySelectorAll(".pl-steuer button").forEach(b => b.onclick = () => steuern(b.dataset.a));
   el.querySelector(".pl-fortschritt").onclick = ev => {
     const i = ev.target?.dataset?.i;
@@ -3238,7 +3273,14 @@ function abspielen(){
   const lauf = ++PLAYER.lauf;
   let warten = 0;
   if (!PLAYER.stumm && PLAYER.ti === 0 && !PLAYER.melodieGespielt && s.typ === "intro"){
-    warten = PLAYER.format === "wissen" ? wissenMelodie() : melodie();
+    // Nur warten, wenn der Tonkanal wirklich läuft. Sonst stünde die Sendung
+    // sieben Sekunden still und niemand wüsste warum.
+    const ctx = tonKontext();
+    if (ctx && ctx.state === "running"){
+      warten = PLAYER.format === "wissen" ? wissenMelodie() : melodie();
+    } else {
+      console.warn("Tonkanal nicht bereit – Melodie übersprungen.");
+    }
     PLAYER.melodieGespielt = true;
   }
   else if (!PLAYER.stumm && PLAYER.ti === 0 && s.eil && s.typ === "thema" && PLAYER.letzteEil !== s.id){ warten = eilSignal(); PLAYER.letzteEil = s.id; }
@@ -3396,7 +3438,7 @@ function geraetSprechen(s, lauf){
 }
 function steuern(a){
   const P = PLAYER;
-  if (a === "play") return P.spielt ? stopp() : abspielen();
+  if (a === "play"){ if (!P.spielt) tonFreischalten(); return P.spielt ? stopp() : abspielen(); }
   if (a === "weiter") return springen(P.si + 1);
   if (a === "zurueck"){
     // wie bei jedem Abspielgerät: erst an den Anfang des Abschnitts, beim zweiten Tippen zurück

@@ -48,6 +48,22 @@ BESETZUNG = [
 ]
 MODERATION = "Thorsten"
 
+# Die Modellnamen stehen in config.json. Vorher hatte podcast.py eigene fest
+# eingebaut - die gab es nicht mehr, deshalb antwortete kein Dienst.
+def _config():
+    d = ROOT / "config.json"
+    try:
+        return json.loads(d.read_text(encoding="utf8"))
+    except Exception:
+        return {}
+CFG = _config()
+GEMINI_MODELLE = (CFG.get("modelle") or {}).get("gemini") or \
+    ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash"]
+if isinstance(GEMINI_MODELLE, str):
+    GEMINI_MODELLE = [GEMINI_MODELLE]
+ANTHROPIC_MODELL = (CFG.get("modelle") or {}).get("anthropic") or "claude-sonnet-4-5"
+ZWEIT = CFG.get("zweitdienst") or {}
+
 BEHALTEN = 8          # so viele Folgen bleiben im Feed
 MAX_ZEILEN = 60
 TITEL = "Nachrichten-Heft · neutral"
@@ -88,22 +104,34 @@ def _anbieter(name, system, user, max_tokens):
         key = os.environ.get("GEMINI_API_KEY")
         if not key:
             return None
-        d = _post("https://generativelanguage.googleapis.com/v1beta/models/"
-                  "gemini-2.0-flash:generateContent",
-                  {"x-goog-api-key": key},
-                  {"systemInstruction": {"parts": [{"text": system}]},
-                   "contents": [{"role": "user", "parts": [{"text": user}]}],
-                   "generationConfig": {"responseMimeType": "application/json",
-                                        "maxOutputTokens": max_tokens * 2, "temperature": 0.35}})
-        teile = d.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        return _json_aus("".join(t.get("text", "") for t in teile))
+        letzter = None
+        for modell in GEMINI_MODELLE:
+            try:
+                d = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{modell}:generateContent",
+                          {"x-goog-api-key": key},
+                          {"systemInstruction": {"parts": [{"text": system}]},
+                           "contents": [{"role": "user", "parts": [{"text": user}]}],
+                           "generationConfig": {"responseMimeType": "application/json",
+                                                "maxOutputTokens": max_tokens * 2, "temperature": 0.35}})
+            except Exception as ex:
+                letzter = f"{modell}: {ex}"
+                continue
+            teile = d.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+            antwort = _json_aus("".join(t.get("text", "") for t in teile))
+            if antwort:
+                log(f"  Modell {modell}")
+                return antwort
+            letzter = f"{modell}: leere Antwort"
+        if letzter:
+            raise RuntimeError(letzter)
+        return None
 
     if name == "openai":
         key = os.environ.get("OPENAI_API_KEY")
         if not key:
             return None
-        basis = (os.environ.get("OPENAI_BASIS") or "https://api.groq.com/openai/v1").rstrip("/")
-        modell = os.environ.get("OPENAI_MODELL") or "llama-3.3-70b-versatile"
+        basis = (os.environ.get("OPENAI_BASIS") or ZWEIT.get("basis") or "https://api.groq.com/openai/v1").rstrip("/")
+        modell = os.environ.get("OPENAI_MODELL") or ZWEIT.get("modell") or "llama-3.3-70b-versatile"
         d = _post(f"{basis}/chat/completions", {"authorization": "Bearer " + key},
                   {"model": modell, "temperature": 0.35, "max_tokens": max_tokens,
                    "response_format": {"type": "json_object"},
@@ -117,7 +145,7 @@ def _anbieter(name, system, user, max_tokens):
             return None
         d = _post("https://api.anthropic.com/v1/messages",
                   {"x-api-key": key, "anthropic-version": "2023-06-01"},
-                  {"model": "claude-sonnet-4-5", "max_tokens": max_tokens, "system": system,
+                  {"model": ANTHROPIC_MODELL, "max_tokens": max_tokens, "system": system,
                    "messages": [{"role": "user", "content": user}]})
         return _json_aus("".join(b.get("text", "") for b in d.get("content", [])))
     return None
