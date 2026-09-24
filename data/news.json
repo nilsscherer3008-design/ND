@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-23T20:17:42.283Z",
+ "stand": "2026-09-24T04:40:40.415Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -25,7 +25,8 @@
   "ig-metall-aktionstag",
   "ig-metall-forderung-tarifrunde",
   "oecd-konjunkturprognose-deutschland",
-  "g20-einladung-putin-usa"
+  "g20-einladung-putin-usa",
+  "xi-besuch-usa-zollpause"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -46,11 +47,12 @@
   "ig-metall-aktionstag",
   "ig-metall-forderung-tarifrunde",
   "oecd-konjunkturprognose-deutschland",
-  "g20-einladung-putin-usa"
+  "g20-einladung-putin-usa",
+  "xi-besuch-usa-zollpause"
  ],
  "wetter": {
-  "stand": "2026-09-23T20:17:42.283Z",
-  "morgenTag": "Donnerstag",
+  "stand": "2026-09-24T04:40:40.415Z",
+  "morgenTag": "Freitag",
   "orte": [
    {
     "name": "Hamburg",
@@ -58,14 +60,14 @@
     "lon": 9.99,
     "teil": "Norden",
     "heute": {
-     "code": 63,
-     "max": 19,
-     "min": 10
-    },
-    "morgen": {
      "code": 80,
      "max": 15,
      "min": 13
+    },
+    "morgen": {
+     "code": 3,
+     "max": 17,
+     "min": 10
     }
    },
    {
@@ -74,14 +76,14 @@
     "lon": 13.4,
     "teil": "Osten",
     "heute": {
-     "code": 3,
-     "max": 20,
-     "min": 8
+     "code": 80,
+     "max": 17,
+     "min": 13
     },
     "morgen": {
-     "code": 80,
-     "max": 15,
-     "min": 13
+     "code": 3,
+     "max": 16,
+     "min": 12
     }
    },
    {
@@ -90,14 +92,14 @@
     "lon": 12.37,
     "teil": "Osten",
     "heute": {
-     "code": 3,
-     "max": 19,
-     "min": 8
-    },
-    "morgen": {
      "code": 80,
      "max": 16,
      "min": 13
+    },
+    "morgen": {
+     "code": 61,
+     "max": 17,
+     "min": 11
     }
    },
    {
@@ -107,13 +109,13 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 22,
-     "min": 11
+     "max": 20,
+     "min": 15
     },
     "morgen": {
      "code": 3,
-     "max": 20,
-     "min": 14
+     "max": 23,
+     "min": 11
     }
    },
    {
@@ -123,13 +125,13 @@
     "teil": "Westen",
     "heute": {
      "code": 3,
-     "max": 21,
-     "min": 8
-    },
-    "morgen": {
-     "code": 3,
      "max": 20,
      "min": 13
+    },
+    "morgen": {
+     "code": 2,
+     "max": 21,
+     "min": 7
     }
    },
    {
@@ -139,13 +141,13 @@
     "teil": "Süden",
     "heute": {
      "code": 3,
-     "max": 22,
-     "min": 8
+     "max": 18,
+     "min": 12
     },
     "morgen": {
      "code": 3,
-     "max": 18,
-     "min": 12
+     "max": 22,
+     "min": 7
     }
    },
    {
@@ -154,26 +156,26 @@
     "lon": 11.58,
     "teil": "Süden",
     "heute": {
-     "code": 3,
-     "max": 19,
-     "min": 6
+     "code": 80,
+     "max": 17,
+     "min": 10
     },
     "morgen": {
      "code": 3,
-     "max": 16,
-     "min": 9
+     "max": 18,
+     "min": 5
     }
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 19 und 22 Grad.",
-   "Die Vorhersage für morgen, Donnerstag: im Norden und Osten Regenschauer, im Süden und Westen bewölkt.",
-   "Die Temperaturen erreichen dann 15 bis 20 Grad.",
-   "Am wärmsten wird es in Köln mit 20 Grad.",
+   "Heute liegen die Höchstwerte zwischen 15 und 20 Grad.",
+   "Die Vorhersage für morgen, Freitag, im ganzen Land: bewölkt.",
+   "Die Temperaturen erreichen dann 16 bis 23 Grad.",
+   "Am wärmsten wird es in Köln mit 23 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
-   "tag": "Donnerstag",
+   "tag": "Freitag",
    "orte": [
     {
      "name": "Hamburg",
@@ -181,20 +183,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 15,
-       "regen": 0.3
+       "grad": 17,
+       "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 16,
-       "regen": 1.3
+       "grad": 18,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 15,
-       "regen": 4.8
+       "grad": 17,
+       "regen": 0
       }
      ]
     },
@@ -204,20 +206,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 15,
-       "regen": 1.5
+       "grad": 16,
+       "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 16,
-       "regen": 4.6
+       "grad": 18,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 16,
-       "regen": 5.8
+       "regen": 0.4
       }
      ]
     },
@@ -227,20 +229,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 16,
-       "regen": 0.6
+       "grad": 17,
+       "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 15,
-       "regen": 4.4
+       "grad": 18,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 15,
-       "regen": 8.1
+       "grad": 17,
+       "regen": 0.1
       }
      ]
     },
@@ -250,20 +252,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 19,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 19,
-       "regen": 0.6
+       "grad": 23,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 18,
-       "regen": 0.8
+       "grad": 20,
+       "regen": 0
       }
      ]
     },
@@ -273,19 +275,19 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 20,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 19,
-       "regen": 0.1
+       "grad": 22,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 19,
+       "grad": 20,
        "regen": 0
       }
      ]
@@ -296,20 +298,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 18,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 18,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 19,
-       "regen": 0.3
+       "grad": 20,
+       "regen": 0
       }
      ]
     },
@@ -319,38 +321,28 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 16,
+       "grad": 18,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 15,
-       "regen": 2
+       "grad": 19,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 15,
-       "regen": 0.8
+       "grad": 17,
+       "regen": 0
       }
      ]
     }
    ],
-   "spanneGrad": 1,
-   "uneinigRegen": {
-    "ort": "Hamburg",
-    "nass": [
-     "GFS",
-     "ECMWF"
-    ],
-    "trocken": [
-     "ICON"
-    ]
-   },
+   "spanneGrad": 3,
+   "uneinigRegen": null,
    "saetze": [
-    "Die Wettermodelle sind sich für morgen weitgehend einig: hoechstens ein Grad Unterschied.",
-    "Und in Hamburg erwartet GFS und ECMWF Regen, ICON dagegen nicht."
+    "Für Köln gehen die Modelle am weitesten auseinander: zwischen 20 und 23 Grad."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -535,6 +527,746 @@
   ]
  },
  "nachrichten": [
+  {
+   "id": "wahlen-berlin-mecklenburg-vorpommern",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-24T04:15:22.000Z",
+   "aktualisiert": "aktualisiert um 06:40 Uhr",
+   "titel": "Debatte im Bundestag über die Berliner Linkspartei und Vorwürfe der Clankriminalität",
+   "vorspann": "Nach der Landtagswahl in Berlin steht die dortige Linkspartei wegen Kontakten in das Clan-Milieu und Antisemitismus-Vorwürfen im Fokus einer Bundestagsdebatte. Die Abgeordneten diskutieren über mögliche Konsequenzen für eine Regierungsbeteiligung und eine Beobachtung durch den Verfassungsschutz.",
+   "eil": false,
+   "zusammenfassung": [
+    "Nach der Landtagswahl in Berlin gerät die siegreiche Linkspartei wegen Kontakten ins Clan-Milieu und Antisemitismus-Vorwürfen in die Defensive.",
+    "Im Bundestag debattierten die Fraktionen in einer Aktuellen Stunde über die Vorgänge und warnten vor einer Unterwanderung durch Organisierte Kriminalität.",
+    "Die CDU brachte eine mögliche Beobachtung des Berliner Landesverbands durch den Verfassungsschutz ins Gespräch.",
+    "Gregor Gysi verteidigte seine Partei im Bundestag, räumte Fehler bei einem Abgeordneten ein und warf der CDU Machtdünkel vor."
+   ],
+   "einig": [
+    [
+     "Die Linkspartei hat die Wahl in Berlin gewonnen und steht nun wegen Clankontakten und Antisemitismus-Vorwürfen in der Kritik.",
+     [
+      "ZDFheute",
+      "Spiegel",
+      "Welt"
+     ]
+    ],
+    [
+     "Alexander Throm (CDU) brachte eine erneute Beobachtung der Berliner Linkspartei durch den Verfassungsschutz ins Spiel.",
+     [
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Gregor Gysi trat als einziger Redner für die Linksfraktion in der Bundestagsdebatte auf.",
+     [
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Berliner Linkspartei tatsächlich vom Verfassungsschutz beobachtet wird, muss laut Alexander Throm erst geprüft werden.",
+    "Wie sich die SPD und die Grünen bezüglich einer Regierungsbildung in Berlin positionieren, ist laut den Berichten noch umstritten."
+   ],
+   "positionen": [
+    [
+     "Alexander Throm (CDU)",
+     "Prüfung einer Beobachtung des Berliner Landesverbands der Linken durch den Verfassungsschutz gefordert.",
+     "ZDFheute, Spiegel"
+    ],
+    [
+     "Sebastian Fiedler (SPD)",
+     "Aufgeworfen, warum Akteure aus solchen Milieus Anschluss an das politische Umfeld der Berliner Linken finden.",
+     "ZDFheute, Spiegel"
+    ],
+    [
+     "Irene Mihalic (Grüne)",
+     "Forderung an die Linksfraktion, sich konsequent von dem Abgeordneten Kocak/Koçak zu trennen.",
+     "ZDFheute, Spiegel"
+    ],
+    [
+     "Gottfried Curio (AfD)",
+     "Vorwurf, die Linke wolle Kriminellen und Islamisten in Berlin eine Interessenvertretung verschaffen.",
+     "ZDFheute, Spiegel"
+    ],
+    [
+     "Gregor Gysi (Die Linke)",
+     "Kritik als Manöver zur Verhinderung einer Regierungsübernahme bezeichnet und Antisemitismus-Vorwürfe zurückgewiesen.",
+     "ZDFheute, Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen aus der Berliner SPD oder von den Grünen direkt in Berlin zur Regierungsbildung (außer Aussagen auf Bundesebene/Experten).",
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "23.09.26, 19:36",
+     "fokus": "Bundestagsdebatte und Reaktionen",
+     "text": "Berichtet ausführlich über die Aktuelle Stunde im Bundestag, die Vorwürfe der verschiedenen Parteien und die Aussagen von Gregor Gysi sowie Sigmar Gabriel.",
+     "url": "https://www.zdfheute.de/politik/deutschland/linke-berlin-bundestag-gysi-aktuelle-stunde-antisemitismus-remmo-clan-100.html",
+     "video": false
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "23.09.26, 18:55",
+     "fokus": "Parlamentsdebatte und Details",
+     "text": "Beleuchtet die Debatte im Bundestag, die Positionen von Throm, Fiedler, Mihalic und Gysi sowie die Rolle des Innenausschusses.",
+     "url": "https://www.spiegel.de/politik/berliner-linke-gysi-warnt-vor-cdu-koalition-throm-will-beobachtung-durch-verfassungsschutz-pruefen-a-0737ae36-0123-436f-8daa-be23c76ee555#ref=rss",
+     "video": false
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "24.09.26, 06:15",
+     "fokus": "Kritik und Regierungsfähigkeit",
+     "text": "Fasst kurz zusammen, dass die Berliner Linke nach ihrem Wahlsieg massiv in der Kritik steht und Zweifel an ihrer Regierungsfähigkeit wachsen.",
+     "url": "https://www.welt.de/politik/deutschland/video6ab4a247a15a9fecb669358c/nach-wahlsieg-druck-auf-berliner-linke-steigt.html",
+     "video": true
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "ZDFheute und Spiegel liefern umfangreiche Zitate und Details aus der Bundestagsdebatte, während die Welt das Thema sehr kurz zusammenfasst."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Abgeordnete des Bundestages und Politiker verschiedener Parteien",
+    "was": "Aktuelle Stunde zu Vorwürfen gegen die Berliner Linkspartei",
+    "wann": "noch unklar",
+    "wo": "Berlin, Deutschland",
+    "wie": "In einer Aktuellen Stunde im Bundestag auf Antrag der AfD",
+    "warum": "Wegen Clankontakten und Antisemitismus-Vorwürfen nach der Wahl",
+    "quellenlage": "ZDFheute, Spiegel und Welt"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Ausgangslage nach der Wahl",
+     "absaetze": [
+      "Wenige Tage nach dem Wahlsieg der Linkspartei in Berlin ist die Partei in politische Bedrängnis geraten. Nach Angaben von ZDFheute und Spiegel überschatten Antisemitismus-Vorwürfe und Kontakte in das Clan-Milieu den Wahlerfolg. Die Linkspartei hat bei der Wahl die CDU hinter sich gelassen und eine Koalition mit SPD und Grünen ist möglich. Die Partei selbst wertet die Kritik laut ZDFheute und Spiegel als Manöver, um sie nach dem Wahlsieg von der Übernahme der Landesregierung abzuhalten. Die Welt berichtet ergänzend, dass die Zweifel an der Regierungsfähigkeit der Berliner Linken massiv wachsen.",
+      "Noch am Abend der Wahl in Berlin war laut ZDFheute bekannt geworden, dass der Clanchef Issa Remmo bei der Wahlparty des Linken-Bezirksverbands in Neukölln aufgetaucht war. Der Linken-Bundestagsabgeordnete Ferat Kocak, beziehungsweise Koçak genannt, aus Berlin-Neukölln räumte Kontakte zum Berliner Remmo-Clan ein. Laut ZDFheute lässt er nach Angaben der Fraktionsspitze seine Parlamentsfunktionen vorerst ruhen. Die Berliner Linke steht vor einer schwierigen Debatte, wobei sich Spitzenkandidatin Elif Eralp ausdrücklich zum Schutz jüdischen Lebens in der Hauptstadt bekannt hat."
+     ]
+    },
+    {
+     "ueberschrift": "Die Aktuelle Stunde im Bundestag",
+     "absaetze": [
+      "Auf Antrag der AfD-Fraktion fand im Bundestag eine Aktuelle Stunde zu den Vorgängen statt. Dabei erhoben Abgeordnete aller anderen Fraktionen laut ZDFheute schwere Vorwürfe gegen die Linkspartei. Die Vorwürfe umfassen mangelnde Abgrenzung zu Antisemiten und eine Unterwanderung durch die Organisierte Kriminalität. Der Spiegel führt aus, dass Abgeordnete der Fraktionen von Union, SPD, Grünen und AfD der Linken eine mangelnde Abgrenzung vorwarfen.",
+      "Die CDU brachte eine Beobachtung des Berliner Landesverbands der Linken durch den Verfassungsschutz ins Spiel. Wegen Clankontakten von Linken-Politikern und antisemitischer Vorfälle müsse ernsthaft geprüft werden, ob zumindest die Berliner Linkspartei wieder Anlass zur Beobachtung gebe, sagte der Innenexperte der Unionsfraktion, Alexander Throm (CDU). Laut Spiegel hat der Innenausschuss des Parlaments bereits über diese Frage beraten."
+     ]
+    },
+    {
+     "ueberschrift": "Äußerungen der Fraktionen",
+     "absaetze": [
+      "Der SPD-Innenexperte Sebastian Fiedler warf die Frage auf, warum Akteure aus solchen Milieus immer wieder Anschluss an das politische Umfeld der Berliner Linken finden. Die Organisierte Kriminalität suche gezielt Einfluss auf die Politik, da Kontakte Türen öffnen, Informationen einen Wert haben und Reputation erzeugen können. Die Gefahr bestehe, dass aus Kontakt ein Zugang und daraus schließlich Einfluss und Abhängigkeit werden können. Der frühere SPD-Chef Sigmar Gabriel warnt laut ZDFheute bei Maybrit Illner seine Parteifreunde und die Grünen vor einem Regierungsbündnis mit der Linkspartei.",
+      "Die Grünen-Abgeordnete Irene Mihalic rief die Linksfraktion laut ZDFheute und Spiegel auf, sich konsequent von dem Abgeordneten Kocak beziehungsweise Koçak zu trennen und gegen Antisemiten in den eigenen Reihen vorzugehen. Lippenbekenntnisse und nachträgliche Distanzierungen reichen demnach nicht aus. Der AfD-Innenexperte Gottfried Curio richtete ebenfalls schwere Vorwürfe gegen die Linke und erklärte laut den Berichten, dass kriminelle Judenfeinde und Islamisten in Berlin eine Interessenvertretung wollen und die Linke liefern wolle."
+     ]
+    },
+    {
+     "ueberschrift": "Erwiderung der Linkspartei",
+     "absaetze": [
+      "Die Linksfraktion schickte den früheren Vorsitzenden Gregor Gysi als einzigen Redner in die Debatte. Gysi räumte ein, dass der Abgeordnete einen Fehler begangen habe und die Partei dies untersuche. Er argumentierte jedoch, dass es in Wirklichkeit darum gehe, dass die CDU in Berlin wieder den Regierenden Bürgermeister stellen wolle. Die CDU wolle, dass Berlin so schlecht weiterregiert werde wie bisher, angetrieben durch kleinbürgerlichen Machtdünkel.",
+      "Gysi warnte davor, die bei der Wahl siegreiche Berliner Linke zu umgehen und in eine Koalition unter CDU-Führung einzutreten. Er äußerte, dass die SPD bei mangelndem Mut zu einem Linksbündnis weiter verdorren werde. Den Vorwurf des Antisemitismus gegen seine Partei wies Gysi zurück und forderte die politischen Konkurrenten auf, mit der Instrumentalisierung von Antisemitismus gegen die Linke aufzuhören."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-20",
+     "Landtagswahlen in Berlin und Mecklenburg-Vorpommern finden statt."
+    ],
+    [
+     "2026-09-21",
+     "Der CDU-Landesvorsitzende in Mecklenburg-Vorpommern, Daniel Peters, erklärt nach einer Vorstandssitzung seinen Rücktritt."
+    ],
+    [
+     "2026-09-20",
+     "Durchführung der Landtagswahl in Mecklenburg-Vorpommern und Erreichen von vier Komma neun Prozent durch die CDU"
+    ],
+    [
+     "2026-09-21",
+     "Sitzung des CDU-Landesvorstands in Schwerin und Rücktritt des Landesvorsitzenden Daniel Peters"
+    ],
+    [
+     "2026-09-21",
+     "Rücktritte von Generalsekretärin Katy Hoffmeister und Vize-Parteichefin Ann-Christin von Allwörden werden bekannt"
+    ],
+    [
+     "2026-09-21",
+     "Philipp Amthor übernimmt kommissarisch die Parteiführung der CDU in Mecklenburg-Vorpommern"
+    ],
+    [
+     "2026-09-20",
+     "Durchführung der Landtagswahlen in Berlin und Mecklenburg-Vorpommern."
+    ],
+    [
+     "2026-09-21",
+     "Der CDU-Landesvorstand in Schwerin beschließt die kommissarische Nachfolge durch Philipp Amthor nach dem Rücktritt von Daniel Peters."
+    ],
+    [
+     "2026-09-22",
+     "Raed Saleh gibt bekannt, nicht erneut für den Fraktionsvorsitz der Berliner SPD zu kandidieren."
+    ],
+    [
+     "2026-09-23",
+     "Die Unionsfraktion im Bundestag sichert Bundeskanzler Friedrich Merz ihre Unterstützung zu."
+    ],
+    [
+     "2026-09-20",
+     "Landtagswahlen in Berlin finden statt."
+    ],
+    [
+     "2026-09-23",
+     "Aktuelle Stunde im Bundestag zur Linkspartei in Berlin."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Gregor Gysi politician",
+     "bildunterschrift": "Gregor Gysi war der einzige Redner der Linksfraktion in der Bundestagsdebatte."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Bundestag building Berlin",
+     "bildunterschrift": "Der Bundestag in Berlin war der Schauplatz der Aktuellen Stunde."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Alexander Throm politician",
+     "bildunterschrift": "Alexander Throm brachte eine Beobachtung durch den Verfassungsschutz ins Spiel."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Rotes Rathaus Berlin",
+     "bildunterschrift": "Das Rote Rathaus ist der Sitz des Regierenden Bürgermeisters von Berlin."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Datum im wfragen von 2026-09-23 auf 'noch unklar' geändert, da die Berichte kein konkretes Datum für den Tag der Bundestagsdebatte nennen."
+   ],
+   "wortwarnung": [
+    "massiv"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Aktuelle Stunde",
+      "Eine Debatte im Deutschen Bundestag zu einem aktuellen und dringenden Thema, die auf Antrag einer Fraktion stattfindet."
+     ],
+     [
+      "Verfassungsschutz",
+      "Eine staatliche Behörde, die Organisationen und Personen beobachtet, die gegen die demokratische Grundordnung arbeiten."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Kontakte von Politikern zu Kriminellen für das Vertrauen in eine Regierung?",
+     "Warum ist es für Parteien wichtig, sich von extremistischen Tendenzen abzugrenzen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Partei beantragte die Aktuelle Stunde im Bundestag?",
+      "optionen": [
+       "Die Linke",
+       "Die AfD",
+       "Die SPD"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut ZDFheute und Spiegel fand die Aktuelle Stunde im Bundestag auf Antrag der AfD statt."
+     },
+     {
+      "frage": "Wer trat als einziger Redner für die Linksfraktion in der Debatte auf?",
+      "optionen": [
+       "Gregor Gysi",
+       "Elif Eralp",
+       "Ferat Kocak"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut ZDFheute und Spiegel schickte die Linksfraktion den früheren Vorsitzenden Gregor Gysi als einzigen Redner in die Debatte."
+     },
+     {
+      "frage": "Welche Maßnahme brachte Alexander Throm (CDU) ins Spiel?",
+      "optionen": [
+       "Den Ausschluss der Linken aus dem Bundestag",
+       "Eine Beobachtung der Berliner Linkspartei durch den Verfassungsschutz",
+       "Einen Untersuchungsausschuss des Landes Berlin"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut ZDFheute und Spiegel brachte Alexander Throm eine Beobachtung des Berliner Landesverbands der Linken durch den Verfassungsschutz ins Spiel."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Nach der Wahl in Berlin steht die Partei Die Linke stark in der Kritik. Grund dafür sind Vorwürfe wegen Kontakten in das Clan-Milieu und Antisemitismus.",
+    "absaetze": [
+     "Die Linkspartei hat die Wahl in Berlin zwar gewonnen. Doch kurz nach dem Sieg gibt es große Aufregung um Kontakte von Politikern zu kriminellen Clans.",
+     "Im Deutschen Bundestag sprachen die Abgeordneten aller anderen Parteien in einer sogenannten Aktuellen Stunde über diese Vorwürfe.",
+     "Die CDU forderte, dass geprüft werden soll, ob der Verfassungsschutz die Berliner Linkspartei wieder beobachten muss.",
+     "Der Politiker Gregor Gysi verteidigte seine Partei im Bundestag und wies die Vorwürfe zurück.",
+     "Ob die Partei am Ende in Berlin mitregieren kann, ist nach den heftigen Diskussionen noch unklar."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Berliner Linkspartei hat die Wahl gewonnen, steht aber stark in der Kritik.",
+     "Grund dafür sind Kontakte ins Clan-Milieu und Antisemitismus-Vorwürfe nach Angaben von Medien.",
+     "Im Bundestag debattierten die Parteien darüber in einer Aktuellen Stunde."
+    ],
+    "lang": [
+     "Nach ihrer gewonnenen Wahl in Berlin steht die Linkspartei massiv in der Kritik.",
+     "Ausgelöst wurde dies durch Vorwürfe wegen Clankontakten und Antisemitismus.",
+     "Nach Angaben von ZDFheute und Spiegel fand dazu eine Aktuelle Stunde im Deutschen Bundestag statt.",
+     "Dort warfen Abgeordnete der Partei mangelnde Abgrenzung und Unterwanderung vor.",
+     "Der CDU-Innenexperte Alexander Throm forderte, eine Beobachtung durch den Verfassungsschutz zu prüfen.",
+     "Nach Angaben von ZDFheute und Spiegel wies der Linken-Politiker Gregor Gysi die Kritik als politisches Manöver zurück.",
+     "Er erklärte, dass sein Abgeordneter Ferat Kocak einen Fehler gemacht habe, den die Partei untersuche.",
+     "Wie es bei der Regierungsbildung in Berlin weitergeht, ist nach Angaben der Berichte noch unklar."
+    ],
+    "einfach": [
+     "Die Linkspartei hat die Wahl in Berlin gewonnen.",
+     "Danach gab es großen Streit wegen Kontakten zu kriminellen Gruppen.",
+     "Deshalb gab es eine besondere Debatte im Deutschen Bundestag.",
+     "Die CDU forderte eine Untersuchung durch den Verfassungsschutz.",
+     "Der Politiker Gregor Gysi verteidigte seine Partei und wies die Kritik zurück."
+    ]
+   },
+   "kurz": [
+    "Die Berliner Linkspartei hat die Wahl gewonnen, steht aber wegen Clankontakten in der Kritik.",
+    "Im Bundestag gab es eine Aktuelle Stunde auf Antrag der AfD zu den Vorwürfen.",
+    "Die CDU brachte eine mögliche Beobachtung durch den Verfassungsschutz ins Spiel.",
+    "Gregor Gysi wies die Anschuldigungen zurück und verteidigte seine Partei."
+   ],
+   "dossier": {
+    "slug": "berlin-wahl-linkspartei",
+    "titel": "Debatte um die Berliner Linkspartei nach der Wahl"
+   },
+   "bildInfo": {
+    "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
+    "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+    "urheber": "Arild Vågen",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "art": "ort",
+    "suchbegriff": "Berlin Abgeordnetenhaus building",
+    "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
+     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
+     "urheber": "Arild Vågen",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Berlin Abgeordnetenhaus building",
+     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Schwerin-Schloss-gp.jpg",
+     "beschreibung": "front aspect of Schwerin Castle , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
+     "urheber": "User:Kolossos",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Election MG 3455.JPG",
+     "beschreibung": "Second round of the French presidential election of 2007.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
+     "urheber": "Rama",
+     "lizenz": "CC BY-SA 2.0 fr",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Ballot box election Germany",
+     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 5
+  },
+  {
+   "id": "xi-besuch-usa-zollpause",
+   "rubrik": "Welt",
+   "zeit": "2026-09-24T03:17:51.000Z",
+   "titel": "Staatsbesuch von Chinas Präsident Xi Jinping in den USA begonnen",
+   "vorspann": "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den USA eingetroffen. Zum Auftakt verlängerten beide Staaten eine bestehende Zollpause.",
+   "eil": false,
+   "zusammenfassung": [
+    "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den USA eingetroffen. Er wurde von US-Präsident Donald Trump auf dem Militärstützpunkt Joint Base Andrews empfangen.",
+    "Zum Auftakt der Reise verlängerten die USA eine bestehende Zollpause. Die zusätzlichen Zölle auf Importe aus China wurden laut US-Finanzminister Scott Bessent um zwei Monate bis zum zehnter Januar aufgeschoben.",
+    "Im Mittelpunkt der Gespräche stehen neben Handelsfragen auch Exportkontrollen für Halbleiter und seltene Erden sowie der Umgang mit Künstlicher Intelligenz.",
+    "Beide Seiten beraten zudem über globale Konflikte wie den Iran-Krieg und den russischen Angriffskrieg gegen die Ukraine."
+   ],
+   "einig": [
+    [
+     "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den USA eingetroffen und wurde von US-Präsident Donald Trump empfangen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Die USA verlängern die zusätzlichen Zölle auf Importe aus China um zwei Monate.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Die USA verhängen Exportkontrollen auf Halbleiter und Chips, während China Exportkontrollen auf seltene Erden verhängt hat.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die chinesische Seite äußerte sich nach Angaben von ZDFheute nicht unmittelbar zu dem von den USA angekündigten Aufschub der Zölle."
+   ],
+   "positionen": [
+    [
+     "Chinas Staatspräsident Xi Jinping",
+     "Die USA und China sollten Partner und keine Rivalen sein und stabile Beziehungen mit Kooperation und moderatem Wettbewerb fördern.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "US-Finanzminister Scott Bessent",
+     "Der Aufschub der Zölle verschafft mehr Zeit, um wirtschaftliche Schritte zu prüfen.",
+     "Tagesschau/ARD,ZDFheute"
+    ]
+   ],
+   "fehlend": "Es fehlen direkte Stellungnahmen des chinesischen Handelsministeriums oder weiterer Regierungsmitglieder zu den aktuellen Verhandlungen.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "24.09.26, 05:17",
+     "fokus": "Ablauf und Xi-Ansprache",
+     "text": "Berichtet ausführlich über den Empfang auf dem Militärstützpunkt sowie über die schriftliche Ansprache von Xi Jinping über die Partnerschaft beider Länder.",
+     "url": "https://www.tagesschau.de/ausland/amerika/xi-staatsbesuch-usa-100.html",
+     "video": false
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "24.09.26, 03:26",
+     "fokus": "Hintergrund des Busan-Abkommens",
+     "text": "Erwähnt Details zum Busan-Abkommen aus dem Vorjahr und nennt den Sender Fox News als Quelle für die Aussagen von US-Finanzminister Scott Bessent.",
+     "url": "https://www.zdfheute.de/wirtschaft/usa-zoelle-china-aufschub-bessent-100.html",
+     "video": false
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "24.09.26, 04:50",
+     "fokus": "Kurzmeldung zur Ankunft",
+     "text": "Fasst in einem Newsblog die Ankunft von Xi und seiner Frau am Flughafen durch US-Präsident Trump und Melania Trump zusammen.",
+     "url": "https://www.sueddeutsche.de/politik/usa-news-liveblog-xi-jinping-chine-staatsbesuch-washington-li.3530667",
+     "video": false
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zusatzdetails",
+     "ZDFheute nennt den Sender Fox News für die Aussagen von Finanzminister Bessent und verweist auf das Busan-Abkommen, während Tagesschau/ARD zusätzlich Zitate aus Xis Ansprache über Xinhua anführt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Chinas Präsident Xi Jinping und US-Präsident Donald Trump",
+    "was": "Staatsbesuch und Verlängerung einer Zollpause",
+    "wann": "24.09.2026",
+    "wo": "Washington und Maryland, USA",
+    "wie": "Durch Gespräche und Verhandlungen von Regierungsvertretern",
+    "warum": "Zur Prüfung wirtschaftlicher Schritte laut US-Finanzminister Scott Bessent",
+    "quellenlage": "Öffentlich-rechtliche und gedruckte Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der chinesische Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den USA eingetroffen. Er landete auf dem Militärstützpunkt Joint Base Andrews im US-Bundesstaat Maryland. Dort wurde er von US-Präsident Donald Trump und seiner Ehefrau Melania empfangen. Für Xi ist es die erste Reise in die USA seit rund drei Jahren. Im Anschluss an die Ankunft standen militärische Ehren und ein Empfang im Weißen Haus auf dem Programm.",
+      "Zu Beginn des Besuchs gab die US-Regierung eine Einigung zur Verlängerung einer Zollpause bekannt. Die zusätzlichen Zölle auf Importe aus China bleiben länger ausgesetzt als ursprünglich geplant. Laut Angaben von US-Finanzminister Scott Bessent wird der Aufschub um zwei Monate verlängert. Damit gilt die Aussetzung nun bis zum zehnten Januar anstelle des zehnten November.",
+      "Die Vereinbarung stützt sich laut US-Finanzminister Scott Bessent auf das sogenannte Busan-Abkommen. Dieses hatten Donald Trump und Xi Jinping im vergangenen Oktober im südkoreanischen Busan geschlossen. Damals wurde das Aussetzen hoher zusätzlicher Zölle für China vereinbart. Dem jetzigen Aufschub gingen nach Angaben von Scott Bessent mehrere Treffen mit Chinas Vizepremier He Lifeng voraus."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Neben der Zollpause stehen zahlreiche weitere Themen auf der Agenda der politischen Gespräche. Dazu gehören Handelsfragen, der Zugang zu Rohstoffen, der Iran-Krieg sowie der russische Angriffskrieg gegen die Ukraine. Auch die Sicherheit im Umgang mit Künstlicher Intelligenz und der weltweite Wettbewerb in diesem Bereich sind Gegenstand der Beratungen. Zu dem am Abend geplanten Staatsbankett im Weißen Haus werden führende Köpfe der Tech-Branche erwartet. Unter den geladenen Gästen befinden sich laut den Berichten Tesla-Chef Elon Musk, Amazon-Gründer Jeff Bezos sowie Google- und Alphabet-Chef Sundar Pichai.",
+      "Die wirtschaftlichen Auseinandersetzungen zwischen den beiden größten Volkswirtschaften der Welt umfassen verschiedene Bereiche. Peking kritisiert US-Exportkontrollen auf Halbleiter und Chips, die für die Entwicklung von Künstlicher Intelligenz benötigt werden. Washington wirft China demgegenüber vor, bestimmte strategische Rohstoffe gezielt zurückzuhalten. Für die Ausfuhr seltener Erden benötigen ausländische Unternehmen derzeit behördliche Genehmigungen, die das chinesische Handelsministerium erteilt.",
+      "Wäre die bisherige Einigung ausgelaufen, hätte China nach übereinstimmenden Berichten seine Exportkontrollen auf seltene Erden ausgeweitet. Diese Kontrollen betreffen seit ihrer Einführung im April 2025 auch Unternehmen in Europa. Durch den nun beschlossenen Aufschub gewinnen beide Regierungen nach Darstellung von US-Finanzminister Scott Bessent mehr Zeit zur Prüfung wirtschaftlicher Maßnahmen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Nach dem Amtsantritt von US-Präsident Donald Trump hatte sich der Handelsstreit im Frühjahr 2025 deutlich verschärft. Die USA erhöhten ihre Einfuhrzölle auf chinesische Waren schrittweise auf bis zu einhundertfünfundvierzig Prozent. China reagierte auf diese Maßnahmen mit eigenen Gegenzöllen von bis zu einhundertfünfundzwanzig Prozent und verhängte Exportkontrollen auf wichtige Rohstoffe.",
+      "Im Mai 2025 einigten sich beide Seiten bei einem Treffen in Genf auf eine zunächst neunzigttägige Aussetzung der jeweiligen Zölle. Diese Zollpause wurde bei weiteren Vergleichen und Treffen wiederholt verlängert. Die chinesische Seite äußerte sich nach Angaben der Berichte nicht unmittelbar zu dem von US-Finanzminister Scott Bessent verkündeten neuen Aufschub."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Zölle sind Steuern, die auf importierte Waren erhoben werden. Sie verteuern ausländische Produkte auf dem heimischen Markt, um die eigene Wirtschaft zu schützen.",
+      "Exportkontrollen sind staatliche Vorschriften, die den Verkauf bestimmter Güter ins Ausland einschränken oder von Sondergenehmigungen abhängig machen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Laut einer von Chinas amtlicher Nachrichtenagentur Xinhua verbreiteten schriftlichen Ansprache erklärte Chinas Staatspräsident Xi Jinping, die USA und China sollten Partner und keine Rivalen sein. Es handle sich um ein entscheidendes Jahr für die Beziehungen beider Länder. Die Staaten sollten stabile Beziehungen mit Kooperation, moderatem Wettbewerb, überwindbaren Differenzen und der Aussicht auf Frieden fördern.",
+      "US-Finanzminister Scott Bessent begründete den Aufschub der Zölle damit, dass dadurch mehr Zeit zur Prüfung wirtschaftlicher Handlungsoptionen geschaffen werde. Er bestätigte die Verlängerung des Busan-Abkommens gegenüber dem Sender Fox News."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Der Staatsbesuch des chinesischen Präsidenten in den USA ist auf drei Tage angelegt. In diesem Zeitraum finden weitere Gespräche zwischen den Delegationen beider Länder statt.",
+      "Die ausgesetzten Zusatzzölle sollen nach dem neuen Zeitplan bis zum zehnten Januar gültig bleiben, sofern keine weiteren Änderungen beschlossen werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Frühjahr 2025",
+     "Der Zollstreit zwischen den USA und China verschärft sich mit gegenseitigen Erhöhungen der Zölle."
+    ],
+    [
+     "Mai 2025",
+     "Beide Staaten einigen sich in Genf auf eine erste zeitlich begrenzte Aussetzung der Zölle."
+    ],
+    [
+     "Oktober 2025",
+     "Trump und Xi vereinbaren beim Treffen im südkoreanischen Busan das Aussetzen hoher Zusatzzölle."
+    ],
+    [
+     "24.09.2026",
+     "Xi Jinping trifft zum dreitägigen Staatsbesuch in Washington ein, die Zollpause wird bis Januar verlängert."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Xi Jinping politician",
+     "bildunterschrift": "Chinas Staatspräsident Xi Jinping reiste für einen dreitägigen Staatsbesuch in die Vereinigten Staaten."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump empfand den chinesischen Staatschef in Washington."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Joint Base Andrews",
+     "bildunterschrift": "Auf dem Militärstützpunkt Joint Base Andrews landete das Flugzeug des chinesischen Staatspräsidenten."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "The White House Washington",
+     "bildunterschrift": "Im Weißen Haus finden die politischen Gespräche zwischen den Regierungsvertreterinnen und Regierungsvertretern statt."
+    }
+   ],
+   "ort": {
+    "name": "Washington, USA"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Daten in Text und Zeitleiste als Wörter ausgeschrieben, um den Sprechregeln zu entsprechen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Zoll",
+      "Eine Steuer, die auf Waren erhoben wird, die aus einem anderen Land importiert werden."
+     ],
+     [
+      "Exportkontrolle",
+      "Eine staatliche Vorschrift, die den Verkauf bestimmter Waren ins Ausland einschränkt."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nennen die Regierungen für die Verlängerung der Zollpause?",
+     "Wie bewertest du die Bedeutung von Exportkontrollen für seltene Erden im globalen Handel?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer empfing Chinas Staatspräsidenten Xi Jinping auf dem Militärstützpunkt in den USA?",
+      "optionen": [
+       "US-Präsident Donald Trump",
+       "US-Finanzminister Scott Bessent",
+       "Handelsminister He Lifeng"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD und ZDFheute wurde Xi Jinping von US-Präsident Donald Trump empfangen."
+     },
+     {
+      "frage": "Bis zu welchem Datum wurde die Zollpause nach Angaben von US-Finanzminister Scott Bessent verlängert?",
+      "optionen": [
+       "zehnter November",
+       "zehnter Dezember",
+       "zehnter Januar"
+      ],
+      "richtig": 2,
+      "erklaerung": "Finanzminister Scott Bessent gab an, dass der Aufschub bis zum zehnten Januar gilt."
+     },
+     {
+      "frage": "Welche Art von Kontrollen hat China auf strategisch wichtige Rohstoffe verhängt?",
+      "optionen": [
+       "Importquoten",
+       "Exportkontrollen",
+       "Preisbindungen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte von Tagesschau/ARD und ZDFheute bestätigen übereinstimmend, dass China Exportkontrollen auf seltene Erden verhängt hat."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Chinas Staatspräsident Xi Jinping ist zu Besuch in den USA. Zum Start gab es eine Einigung beim Streit um Zölle.",
+    "absaetze": [
+     "Xi Jinping reiste für drei Tage in die Vereinigten Staaten. Der US-Präsident Donald Trump empfing ihn auf einem Militärflughafen in Maryland.",
+     "Beide Länder verlängerten eine Zollpause um zwei Monate. Zusätzliche Zölle auf Waren aus China bleiben nun bis zum zehnten Januar ausgesetzt.",
+     "Das teilte der US-Finanzminister Scott Bessent mit. Die chinesische Regierung äußerte sich dazu zunächst nicht.",
+     "Bei den Treffen sprechen die Politiker auch über wichtige Rohstoffe, Computerchips und den Umgang mit Künstlicher Intelligenz."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den Vereinigten Staaten eingetroffen. Der US-Präsident Donald Trump empfing ihn auf einem Militärflughafen. Zum Auftakt verlängerten beide Staaten eine Zollpause um zwei Monate bis zum zehnten Januar."
+    ],
+    "lang": [
+     "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den Vereinigten Staaten eingetroffen. Der US-Präsident Donald Trump empfing den chinesischen Staatschef auf dem Militärstützpunkt Joint Base Andrews. Zum Auftakt der Reise verlängerten die USA eine bestehende Zollpause. Die zusätzlichen Zölle auf Importe aus China wurden nach Angaben des US-Finanzministers Scott Bessent um zwei Monate bis zum zehnten Januar aufgeschoben. Diese Entscheidung stützt sich auf das im vergangenen Jahr geschlossene Busan-Abkommen. Im Mittelpunkt der politischen Gespräche stehen neben Handelsfragen auch Exportkontrollen für Halbleiter und seltene Erden. Die chinesische Seite äußerte sich nach Angaben des Senders ZDFheute zunächst nicht unmittelbar zu dem Aufschub. Beide Regierungen wollen während des Besuchs zudem über globale Konflikte wie den Iran-Krieg beraten. Der Staatsbesuch des chinesischen Präsidenten dauert insgesamt drei Tage an."
+    ],
+    "einfach": [
+     "Chinas Präsident Xi Jinping ist zu Besuch in den Vereinigten Staaten. Der US-Präsident Donald Trump empfing ihn auf einem Flugplatz. Beide Länder verlängerten eine Zollpause um zwei Monate. Das bedeutet, dass bestimmte Steuern auf importierte Waren vorerst ausgesetzt bleiben. Der US-Finanzminister Scott Bessent gab diese Einigung bekannt. Die Politiker sprechen bei dem Treffen auch über wichtige Computerchips und Rohstoffe."
+    ]
+   },
+   "kurz": [
+    "Chinas Präsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den USA eingetroffen.",
+    "Die USA und China verlängern eine bestehende Zollpause um zwei Monate bis zum zehnten Januar.",
+    "Im Zentrum der Gespräche stehen Handel, Exportkontrollen für Rohstoffe und Künstliche Intelligenz."
+   ],
+   "fakten": [
+    [
+     "Dauer des Staatsbesuchs",
+     "drei Tage"
+    ],
+    [
+     "Verlängerung der Zollpause",
+     "zwei Monate bis zum zehnten Januar"
+    ]
+   ],
+   "dossier": {
+    "slug": "china-usa-handelsstreit",
+    "titel": "Beziehungen zwischen den USA und China"
+   },
+   "bildInfo": {
+    "titel": "Bongbong Marcos and Xi Jinping 3.jpg",
+    "beschreibung": "Philippine president Bongbong Marcos and Chinese leader Xi Jinping meet on the sidelines of the APEC Economic Leaders' Meeting in Bangkok, Thailand, on November 17, 2022.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg/1280px-Bongbong_Marcos_and_Xi_Jinping_3.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bongbong_Marcos_and_Xi_Jinping_3.jpg",
+    "urheber": "𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "person",
+    "suchbegriff": "Xi Jinping politician",
+    "bildunterschrift": "Der chinesische Staatsführer Xi Jinping bei einem Treffen am Rande eines Gipfels.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Bongbong Marcos and Xi Jinping 3.jpg",
+     "beschreibung": "Philippine president Bongbong Marcos and Chinese leader Xi Jinping meet on the sidelines of the APEC Economic Leaders' Meeting in Bangkok, Thailand, on November 17, 2022.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg/1280px-Bongbong_Marcos_and_Xi_Jinping_3.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bongbong_Marcos_and_Xi_Jinping_3.jpg",
+     "urheber": "𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Xi Jinping politician",
+     "bildunterschrift": "Der chinesische Staatsführer Xi Jinping bei einem Treffen am Rande eines Gipfels.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "Das offizielle Portrait von US-Präsident Donald Trump.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Air Force District of Washington.png",
+     "beschreibung": "Emblem of the Air Force District of Washington of the United States Air Force",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Air_Force_District_of_Washington.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Air_Force_District_of_Washington.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Air_Force_District_of_Washington.png",
+     "urheber": "United States Air Force ( User:Pmsyyz converted JPEG to PNG, added transparency, resized t",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Joint Base Andrews Naval Air Facility",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Joint Base Andrews",
+     "bildunterschrift": "Das Emblem der Air Force District of Washington der United States Air Force.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Washington, USA",
+    "lat": 38.895,
+    "lon": -77.036
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
   {
    "id": "g20-einladung-putin-usa",
    "rubrik": "Welt",
@@ -1079,558 +1811,68 @@
    ]
   },
   {
-   "id": "wahlen-berlin-mecklenburg-vorpommern",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-23T16:55:00.000Z",
-   "aktualisiert": "aktualisiert um 22:17 Uhr",
-   "titel": "Politische Debatte über Antisemitismus und Clankontakte nach Wahlen",
-   "vorspann": "Nach Wahlen in Berlin gerät die Linkspartei wegen Antisemitismusvorwürfen und Kontakten in das Clan-Milieu in die Defensive. Mögliche Koalitionspartner und andere Parteien fordern deutliche Abgrenzungen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Nach der Abgeordnetenhauswahl in Berlin gibt es Kritik an der Linkspartei wegen Antisemitismusvorwürfen und Clankontakten.",
-    "Mögliche Koalitionspartner wie SPD und Grüne sowie die CDU fordern von der Linken eine klare Abgrenzung und Konsequenzen.",
-    "Die Linkspartei weist die Vorwürfe zurück und spricht von einem politischen Manöver.",
-    "Zusätzlich verzeichnete die CDU bei den Landtagswahlen in Mecklenburg-Vorpommern und Berlin Verluste."
-   ],
-   "einig": [
-    [
-     "Die Linkspartei erzielte bei der Abgeordnetenhauswahl in Berlin einen Wahlerfolg.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Der Linken-Abgeordnete Ferat Koçak geriet wegen Kontakten in das Clan-Milieu in die Kritik.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob Koalitionsgespräche zwischen SPD, Grünen und der Linken in Berlin erfolgreich sein werden oder scheitern, ist laut Felix Banaszak unklar."
-   ],
-   "positionen": [
-    [
-     "SPD-Bundesspitze",
-     "Die Linke muss sich messen lassen und darf Antisemitismus keinen Platz lassen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Felix Banaszak (Grüne)",
-     "Gespräche können scheitern; er erwartet Klarheit und Sanktionen gegen antisemitische Mitglieder.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Karin Prien (CDU)",
-     "Jüdische Bürger seien in Berlin nicht sicher bei einer Bürgermeisterin Eralp; wirft SPD und Grünen Doppelmoral vor.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Josef Schuster (Zentralrat der Juden)",
-     "In der Linken gibt es ein tiefes strukturelles Problem; das Ebnen des Weges in die Regierung gefährdet jüdisches Leben.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Gregor Gysi (Linke)",
-     "Koçak hat einen Fehler gemacht, aber die CDU will Berlin regieren und instrumentalisiert Antisemitismus.",
-     "Spiegel"
-    ],
-    [
-     "Alexander Throm (CDU)",
-     "Es muss ernsthaft geprüft werden, ob die Berliner Linkspartei vom Verfassungsschutz beobachtet wird.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen aus der Berliner Linkspartei direkt zu den Koalitionsbedingungen fehlen im Detail.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "23.09.26, 11:08",
-     "fokus": "–",
-     "text": "Nach dem Berliner Wahlerfolg nimmt die Linke Kurs aufs Rote Rathaus. Die möglichen Koalitionspartner äußern Bedenken - wegen antisemitischer Tendenzen in der Partei. Andere warnen vor den Folgen für Juden in der Hauptstadt.",
-     "url": "https://www.tagesschau.de/inland/linke-berlin-antisemitismus-100.html",
-     "video": false
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "22.09.26, 21:00",
-     "fokus": "–",
-     "text": "Die CDU erlebt einen historischen Absturz: In Mecklenburg-Vorpommern scheitert die Partei erstmals bei einer Landtagswahl an der Fünf-Prozent-Hürde, auch in Berlin verliert sie deutlich.",
-     "url": "https://www.zdfheute.de/video/frontal/cdu-pleite-wie-sich-parteibasis-von-merz-distanziert-100.html",
-     "video": true
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "23.09.26, 18:55",
-     "fokus": "–",
-     "text": "Auf Initiative der AfD kamen Abgeordnete aller Fraktionen zu einer Aussprache im Bundestag zusammen. Thema: der Antisemitismusverdacht in der Berliner Linken. Von allen Seiten hagelte es Kritik.",
-     "url": "https://www.spiegel.de/politik/berliner-linke-gysi-warnt-vor-cdu-koalition-throm-will-beobachtung-durch-verfassungsschutz-pruefen-a-0737ae36-0123-436f-8daa-be23c76ee555#ref=rss",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Schwerpunkt des Beitrags",
-     "ZDFheute konzentriert sich auf die Situation der CDU, während Tagesschau/ARD und Spiegel die Antisemitismus- und Clankontakte-Vorwürfe gegen die Linke beleuchten."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Die Linkspartei, mögliche Koalitionspartner und weitere politische Parteien",
-    "was": "Diskussion über Antisemitismus und Clankontakte nach der Wahl",
-    "wann": "September 2026",
-    "wo": "Berlin, Deutschland",
-    "wie": "Durch öffentliche Warnungen, Bundestagsdebatten und Forderungen nach Distanzierung",
-    "warum": "Wegen Vorwürfen mangelnder Abgrenzung zu Extremismus laut Tagesschau/ARD und Spiegel",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Spiegel"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Ausgangslage nach der Wahl",
-     "absaetze": [
-      "Nach dem Wahlerfolg bei der Berliner Abgeordnetenhauswahl nimmt die Linkspartei laut Tagesschau/ARD Kurs auf das Rote Rathaus. Die möglichen Koalitionspartner äußern Bedenken wegen antisemitischer Tendenzen in der Partei. Schon länger wird in der Linkspartei über Antisemitismus gestritten, vor allem im Landesverband Berlin.",
-      "Vor einem Monat rief laut Tagesschau/ARD bei einer Wahlkampfveranstaltung ein Rapper zur Gewalt gegen Israel und die israelische Armee auf. Jetzt wird das Thema zu einem großen Problem und könnte den Einzug von Spitzenkandidatin Elif Eralp ins Rote Rathaus gefährden. Aus den Reihen von SPD und Grünen werden die Warnungen lauter."
-     ]
-    },
-    {
-     "ueberschrift": "Debatte im Bundestag und Vorwürfe",
-     "absaetze": [
-      "Wenige Tage nach ihrem Wahlsieg in Berlin ist die Linkspartei wegen Clankontakten und Antisemitismusvorwürfen laut Spiegel in die Defensive geraten. Die AfD hatte eine Aktuelle Stunde im Bundestag verlangt. Dabei warfen Abgeordnete der Fraktionen von Union, SPD, Grünen und AfD der Linken eine mangelnde Abgrenzung zu Antisemiten vor.",
-      "Die Linke wertete die Kritik laut Spiegel als Manöver, sie nach dem Wahlsieg von der Übernahme der Landesregierung abzuhalten. Die CDU brachte eine Beobachtung des Berliner Landesverbands durch den Verfassungsschutz ins Spiel, sagte der Innenexperte Alexander Throm laut Spiegel."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund zu Kontakten und Veranstaltungen",
-     "absaetze": [
-      "Die Wahlparty des Linke-Kreisverbands Neukölln verursachte laut Tagesschau/ARD großen Wirbel. Anwesend war neben einer Clan-Größe auch ein israelsfeindlicher Aktivist, der der Volksfront für die Befreiung Palästinas nahestehen soll. Zudem geriet der Linke-Bundestagsabgeordnete Ferat Koçak unter Druck, weil er per Chat Kontakt mit einem Sohn einer Großfamilie aus dem Clan-Milieu stand.",
-      "Mehrere Mitglieder dieser Familie wurden laut Tagesschau/ARD wegen Straftaten verurteilt. Der SPD-Innenexperte Sebastian Fiedler warf laut Spiegel die Frage auf, warum Akteure aus solchen Milieus immer wieder Anschluss an das politische Umfeld der Linken finden."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen der Parteispitzen und Politiker",
-     "absaetze": [
-      "Die SPD-Bundesspitze nahm die Linke laut Tagesschau/ARD in die Pflicht. Antisemitische Parolen hätten in Gesellschaft und Politik keinen Platz, erklärten Lars Klingbeil, Bärbel Bas und Tim Klüssendorf. Grünen-Co-Chef Felix Banaszak warnte laut Tagesschau/ARD, dass beginnende Gespräche auch scheitern könnten.",
-      "Bundesbildungsministerin Karin Prien von der CDU warnte laut Tagesschau/ARD vor Folgen für die Sicherheit jüdischer Bürger. Der Linken-Politiker Gregor Gysi verteidigte seine Partei im Bundestag und sprach laut Spiegel von einem Fehler des Abgeordneten Koçak."
-     ]
-    },
-    {
-     "ueberschrift": "Position des Zentralrats der Juden",
-     "absaetze": [
-      "Nach Worten des Präsidenten des Zentralrats der Juden in Deutschland, Josef Schuster, gibt es in der Linken ein tiefes strukturelles Problem mit dem Demokratieverständnis. Es sei kein Versehen, dass kriminelle Clan-Größen und Terror-Unterstützer geduldet wurden, erklärte er laut Tagesschau/ARD.",
-      "Nachträgliche Distanzierungen seien völlig unbegründet, so Schuster. Wer der Linken in Berlin den Weg in eine Landesregierung ebne, gefährde den gesellschaftlichen Zusammenhalt und das jüdische Leben in der Hauptstadt."
-     ]
-    },
-    {
-     "ueberschrift": "Entwicklungen in anderen Bundesländern",
-     "absaetze": [
-      "Neben den Ereignissen in Berlin erlebt die CDU laut ZDFheute einen historischen Absturz in Mecklenburg-Vorpommern. Dort scheitert die Partei erstmals bei einer Landtagswahl an der Fünf-Prozent-Hürde. Auch in Berlin verliert die CDU deutlich an Stimmen. Bundeskanzler und CDU-Parteichef Friedrich Merz sprach laut ZDFheute von einem Desaster."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026",
-     "Durchführung der Landtagswahlen in Mecklenburg-Vorpommern und Berlin."
-    ],
-    [
-     "2026",
-     "Sitzung des CDU-Landesvorstands in Schwerin und Rücktritt des Landesvorsitzenden Daniel Peters."
-    ],
-    [
-     "2026-09-20",
-     "Landtagswahlen in Berlin und Mecklenburg-Vorpommern finden statt."
-    ],
-    [
-     "2026-09-21",
-     "Der CDU-Landesvorsitzende in Mecklenburg-Vorpommern, Daniel Peters, erklärt nach einer Vorstandssitzung seinen Rücktritt."
-    ],
-    [
-     "2026-09-20",
-     "Durchführung der Landtagswahl in Mecklenburg-Vorpommern und Erreichen von vier Komma neun Prozent durch die CDU"
-    ],
-    [
-     "2026-09-21",
-     "Sitzung des CDU-Landesvorstands in Schwerin und Rücktritt des Landesvorsitzenden Daniel Peters"
-    ],
-    [
-     "2026-09-21",
-     "Rücktritte von Generalsekretärin Katy Hoffmeister und Vize-Parteichefin Ann-Christin von Allwörden werden bekannt"
-    ],
-    [
-     "2026-09-21",
-     "Philipp Amthor übernimmt kommissarisch die Parteiführung der CDU in Mecklenburg-Vorpommern"
-    ],
-    [
-     "2026-09-20",
-     "Durchführung der Landtagswahlen in Berlin und Mecklenburg-Vorpommern."
-    ],
-    [
-     "2026-09-21",
-     "Der CDU-Landesvorstand in Schwerin beschließt die kommissarische Nachfolge durch Philipp Amthor nach dem Rücktritt von Daniel Peters."
-    ],
-    [
-     "2026-09-22",
-     "Raed Saleh gibt bekannt, nicht erneut für den Fraktionsvorsitz der Berliner SPD zu kandidieren."
-    ],
-    [
-     "2026-09-23",
-     "Die Unionsfraktion im Bundestag sichert Bundeskanzler Friedrich Merz ihre Unterstützung zu."
-    ]
-   ],
-   "bilder": [],
-   "geprueft": true,
-   "korrekturen": [
-    "Die Angabe von Gregor Gysis Alter wurde entfernt, da sie nicht in allen Berichten verifiziert wurde."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Antisemitismus",
-      "Antisemitismus bezeichnet Feindschaft, Vorurteile oder Hass gegen Jüdinnen und Juden."
-     ],
-     [
-      "Clan-Milieu",
-      "Ein Clan-Milieu bezeichnet kriminelle Gruppen, die oft aus Familienverbänden bestehen und denen zahlreiche Straftaten vorgeworfen werden."
-     ],
-     [
-      "Verfassungsschutz",
-      "Der Verfassungsschutz ist eine staatliche Behörde, die Organisationen beobachtet, welche die demokratische Grundordnung gefährden könnten."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen Vorwürfe über Kontakte zu kriminellen Gruppen bei Koalitionsverhandlungen?",
-     "Wie bewerten verschiedene Parteien die Vorwürfe gegen die Linkspartei in den vorliegenden Berichten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welche Partei erzielte laut den Berichten einen Wahlerfolg in Berlin?",
-      "optionen": [
-       "Die Linkspartei",
-       "Die AfD",
-       "Die FDP"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und Spiegel hat die Linkspartei bei der Abgeordnetenhauswahl in Berlin einen Wahlerfolg erzielt."
-     },
-     {
-      "frage": "Welcher Politiker geriet wegen Kontakten in das Clan-Milieu in die Kritik?",
-      "optionen": [
-       "Gregor Gysi",
-       "Ferat Koçak",
-       "Lars Klingbeil"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau/ARD und Spiegel geriet der Linke-Bundestagsabgeordnete Ferat Koçak wegen Chats mit einem Mitglied einer Großfamilie in die Kritik."
-     },
-     {
-      "frage": "Was passierte laut ZDFheute mit der CDU in Mecklenburg-Vorpommern?",
-      "optionen": [
-       "Sie gewann die Wahl klar.",
-       "Sie bildete eine neue Regierung.",
-       "Sie scheiterte an der Fünf-Prozent-Hürde."
-      ],
-      "richtig": 2,
-      "erklaerung": "Laut ZDFheute scheiterte die CDU in Mecklenburg-Vorpommern erstmals bei einer Landtagswahl an der Fünf-Prozent-Hürde."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Nach der Wahl in Berlin gibt es viel Streit um die Linkspartei.",
-    "absaetze": [
-     "Die Linkspartei hat bei der Wahl in Berlin viele Stimmen bekommen. Nun wird darüber diskutiert, ob sie mit anderen Parteien zusammen regieren kann.",
-     "Es gibt große Kritik an der Linkspartei. Nach Angaben von Medien und Politikern wird der Partei vorgeworfen, sich nicht klar genug von Antisemitismus abzugrenzen. Antisemitismus bedeutet Feindschaft oder Hass gegen Jüdinnen und Juden.",
-     "Zudem gab es Berichte über Kontakte von Parteimitgliedern in kriminelle Clan-Milieus. Das sind Gruppen von Kriminellen, die oft familiär miteinander verbunden sind.",
-     "Mögliche Partner wie die SPD und die Grünen fordern deshalb strenge Regeln und klare Entschlüsse von der Linkspartei. Die Linkspartei weist die Kritik zurück."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Linkspartei steht nach der Wahl in Berlin stark in der Kritik. Grund dafür sind Vorwürfe zu Antisemitismus und Kontakten in das Clan-Milieu. Mögliche Koalitionspartner fordern nun klare Konsequenzen von der Partei."
-    ],
-    "lang": [
-     "Nach der Wahl in Berlin steht die Linkspartei wegen Antisemitismus und Clankontakten in der Kritik. Das berichteten mehrere Medien am Mittwoch. Nach Angaben der Tagesschau und des Spiegels gab es bei einer Wahlparty der Partei Kontakte zu umstrittenen Personen. Der Abgeordnete Ferat Koçak geriet wegen Chats mit Mitgliedern einer Großfamilie unter Druck. SPD und Grünen fordern von der Linkspartei eine deutliche Abgrenzung und Konsequenzen. Der Zentralrat der Juden warnte vor einer Regierungsbeteiligung der Linkspartei. Die Linkspartei wies die Kritik zurück und sprach von einem politischen Manöver. Die CDU erlitt währenddessen bei Landtagswahlen schwere Verluste, wie das ZDF berichtete. Ob Koalitionsgespräche in Berlin erfolgreich sind, bleibt vorerst unklar."
-    ],
-    "einfach": [
-     "In Berlin hat die Linkspartei bei einer Wahl gewonnen. Nun gibt es großen Streit um die Partei. Nach Berichten von Medien gibt es dort Vorwürfe von Antisemitismus. Das ist Hass auf jüdische Menschen. Auch Kontakte zu Kriminellen sorgen für Ärger. Andere Parteien fordern nun strenge Regeln von der Linkspartei. Ob es zu einer gemeinsamen Regierung kommt, ist noch unklar."
-    ]
-   },
-   "kurz": [
-    "Nach der Wahl in Berlin gerät die Linkspartei wegen Antisemitismus und Clankontakten in die Kritik.",
-    "Mögliche Koalitionspartner fordern von der Linken eine klare Abgrenzung und Konsequenzen.",
-    "Die Linkspartei weist die Vorwürfe als politisches Manöver zurück.",
-    "Die CDU verzeichnete bei Landtagswahlen in Mecklenburg-Vorpommern und Berlin schwere Verluste."
-   ],
-   "fakten": [
-    [
-     "Monatliche Bezüge von Ferat Koçak laut Tagesschau/ARD",
-     "11.833 Euro"
-    ]
-   ],
-   "dossier": {
-    "slug": "wahlen-berlin-2026",
-    "titel": "Wahlen in Berlin und politische Folgen"
-   },
-   "bildInfo": {
-    "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
-    "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-    "urheber": "Arild Vågen",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "art": "ort",
-    "suchbegriff": "Berlin Abgeordnetenhaus building",
-    "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Abgeordnetenhaus von Berlin November 2013.jpg",
-     "beschreibung": "Preußischer Landtag building in Berlin. Today home to the Abgeordnetenhaus of Berlin, the state parliament (Landtag).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg/1280px-Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Abgeordnetenhaus_von_Berlin_November_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus_von_Berlin_November_2013.jpg",
-     "urheber": "Arild Vågen",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Berlin Abgeordnetenhaus building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin in der Niederkirchnerstraße, in dem das Landesparlament tagt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Schwerin-Schloss-gp.jpg",
-     "beschreibung": "front aspect of Schwerin Castle , Germany",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Schwerin-Schloss-gp.jpg/1280px-Schwerin-Schloss-gp.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Schwerin-Schloss-gp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Schwerin-Schloss-gp.jpg",
-     "urheber": "User:Kolossos",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Schwerin Castle",
-     "bildunterschrift": "Das Schweriner Schloss in Mecklenburg-Vorpommern, dem Sitz des dortigen Landtages.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Election MG 3455.JPG",
-     "beschreibung": "Second round of the French presidential election of 2007.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Election_MG_3455.JPG/1280px-Election_MG_3455.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Election_MG_3455.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Election_MG_3455.JPG",
-     "urheber": "Rama",
-     "lizenz": "CC BY-SA 2.0 fr",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
-     "art": "symbol",
-     "suchbegriff": "Ballot box election Germany",
-     "bildunterschrift": "Eine Wahlurne als Symbol für die Stimmabgabe bei Wahlen.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "version": 5,
-   "ton": [
-    {
-     "k": "Nach der Wahl in Berlin steht die Linkspartei wegen Antisemitismus und Clankonta",
-     "d": "5570f6d948.mp3",
-     "l": 45.89,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Linkspartei steht nach der Wahl in Berlin stark in der Kritik. Grund dafür s",
-     "d": "3dfdec3215.mp3",
-     "l": 12.99,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "In Berlin hat die Linkspartei bei einer Wahl gewonnen. Nun gibt es großen Streit",
-     "d": "670d72356e.mp3",
-     "l": 25.66,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Ob Koalitionsgespräche zwischen SPD, Grünen und der Linken in Berlin erfolgreich",
-     "d": "44807e5271.mp3",
-     "l": 9.1,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Antisemitismus? Antisemitismus bezeichnet Feindschaft, V",
-     "d": "a26c0ef4c7.mp3",
-     "l": 10.3,
-     "s": [
-      0.25,
-      3.91
-     ]
-    },
-    {
-     "k": "Nach dem Wahlerfolg bei der Berliner Abgeordnetenhauswahl nimmt die Linkspartei ",
-     "d": "01bdebc52e.mp3",
-     "l": 39.5,
-     "s": [
-      0.25,
-      8.18,
-      13.79,
-      19.68,
-      28.0,
-      35.24
-     ]
-    },
-    {
-     "k": "Wenige Tage nach ihrem Wahlsieg in Berlin ist die Linkspartei wegen Clankontakte",
-     "d": "6291d1df0f.mp3",
-     "l": 36.99,
-     "s": [
-      0.25,
-      8.81,
-      12.3,
-      20.84,
-      28.12
-     ]
-    },
-    {
-     "k": "Die Wahlparty des Linke-Kreisverbands Neukölln verursachte laut Tagesschau/ARD g",
-     "d": "6bb54d0a99.mp3",
-     "l": 39.67,
-     "s": [
-      0.25,
-      6.04,
-      14.12,
-      23.31,
-      29.23
-     ]
-    },
-    {
-     "k": "Die SPD-Bundesspitze nahm die Linke laut Tagesschau/ARD in die Pflicht. Antisemi",
-     "d": "22518d39d7.mp3",
-     "l": 35.57,
-     "s": [
-      0.25,
-      4.99,
-      13.11,
-      20.23,
-      27.65
-     ]
-    },
-    {
-     "k": "Nach Worten des Präsidenten des Zentralrats der Juden in Deutschland, Josef Schu",
-     "d": "e3e116484f.mp3",
-     "l": 29.66,
-     "s": [
-      0.25,
-      9.85,
-      17.02,
-      21.31
-     ]
-    },
-    {
-     "k": "Neben den Ereignissen in Berlin erlebt die CDU laut ZDFheute einen historischen ",
-     "d": "7a062dcc83.mp3",
-     "l": 21.93,
-     "s": [
-      0.25,
-      7.42,
-      12.1,
-      15.54
-     ]
-    }
-   ]
-  },
-  {
    "id": "ig-metall-forderung-tarifrunde",
    "rubrik": "Wirtschaft",
-   "zeit": "2026-09-23T13:04:23.000Z",
-   "aktualisiert": "aktualisiert um 15:32 Uhr",
-   "titel": "Forderungen und Reaktionen zur anstehenden Tarifrunde in der Metall- und Elektroindustrie",
-   "vorspann": "Die IG Metall fordert in der anstehenden Tarifrunde fünf Prozent mehr Geld für die Beschäftigten. Die Arbeitgeberverbände weisen diese Forderungen als unrealistisch zurück.",
+   "zeit": "2026-09-23T18:25:15.000Z",
+   "aktualisiert": "aktualisiert um 06:40 Uhr",
+   "titel": "Forderungen und Reaktionen zur bevorstehenden Tarifrunde in der Metall- und Elektroindustrie",
+   "vorspann": "Die Industriegewerkschaft IG Metall fordert für die Beschäftigten der Metall- und Elektroindustrie fünf Prozent mehr Geld sowie eine tarifliche Gewinnbeteiligung. Arbeitgeberverbände weisen diese Forderungen zurück.",
    "eil": false,
    "zusammenfassung": [
-    "Die IG Metall fordert in der anstehenden Tarifrunde für die Metall- und Elektroindustrie fünf Prozent mehr Geld.",
-    "Zusätzlich wird eine tarifliche Gewinnbeteiligung für Boom-Unternehmen und eine Sicherung von Beschäftigung verlangt.",
-    "Die Arbeitgeberverbände lehnen die Forderungen ab und fordern niedrigere Arbeitskosten.",
-    "Die Tarifverhandlungen starten am 7. Oktober, ab dem 1. November sind Warnstreiks möglich."
+    "Die IG Metall fordert für rund 3,7 Millionen Beschäftigte der Metall- und Elektroindustrie fünf Prozent mehr Geld.",
+    "Zusätzlich verlangt die Gewerkschaft eine tarifliche Gewinnbeteiligung für Boom-Unternehmen und Maßnahmen zur Beschäftigungssicherung.",
+    "Die Arbeitgeberverbände lehnen die Forderungen ab und fordern niedrigere Arbeitskosten zur Sicherung der Wettbewerbsfähigkeit.",
+    "Die Tarifverhandlungen beginnen im Oktober, während die Friedenspflicht am 31. Oktober endet."
    ],
    "einig": [
     [
-     "Die IG Metall fordert fünf Prozent mehr Geld in der anstehenden Tarifrunde.",
+     "Die IG Metall fordert in der anstehenden Tarifrunde fünf Prozent mehr Geld für rund 3,7 Millionen Beschäftigte in der Metall- und Elektroindustrie.",
      [
       "Tagesschau/ARD",
       "ZDFheute",
-      "Deutschlandfunk"
+      "FAZ"
      ]
     ],
     [
-     "Die Forderung richtet sich an die Metall- und Elektroindustrie für rund 3,7 Millionen Beschäftigte.",
+     "Der Vorstand der IG Metall hat diesen Beschluss am Mittwoch gefasst, nachdem die Tarifbezirke und Tarifkommissionen am Dienstag entsprechende Beschlüsse gefasst hatten.",
      [
       "Tagesschau/ARD",
       "ZDFheute",
-      "Deutschlandfunk"
+      "FAZ"
      ]
     ],
     [
-     "Der Vorstand der Gewerkschaft hat die Forderung beschlossen.",
+     "Die Verhandlungen beginnen im Oktober in den Bezirken Nordrhein-Westfalen und Baden-Württemberg.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
+      "FAZ"
      ]
     ],
     [
-     "Es wird eine tarifliche Gewinnbeteiligung für Boom-Unternehmen gefordert.",
+     "Die Friedenspflicht endet am 31. Oktober, und Warnstreiks sind danach ab dem 1. November möglich.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Die Verhandlungen in Nordrhein-Westfalen und Baden-Württemberg beginnen am 7. Oktober.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Die Friedenspflicht endet am 31. Oktober und ab dem 1. November sind Warnstreiks möglich.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
+      "ZDFheute",
+      "FAZ"
      ]
     ]
    ],
    "unklar": [
-    "Keine inhaltlichen Widersprüche in den Berichten bezüglich der zentralen Fakten."
+    "Ob die bestehenden Differenzierungsinstrumente in den Tarifverträgen zur Krisenbewältigung ausreichen, wird von der Gewerkschaft nach Angaben von Nadine Boguslawski geprüft."
    ],
    "positionen": [
     [
      "IG Metall (Christiane Benner und Nadine Boguslawski)",
-     "Forderung nach fünf Prozent mehr Geld, Gewinnbeteiligung für Boom-Unternehmen und Beschäftigungssicherung zur Stützung der Kaufkraft und Bewältigung wirtschaftlicher Unterschiede.",
-     "Tagesschau/ARD, ZDFheute"
+     "Forderung nach fünf Prozent mehr Geld, einer tariflichen Gewinnbeteiligung für Boom-Unternehmen und einer Sicherung von Zukunft und Beschäftigung; Ablehnung von Verzicht und Krisenrhetorik.",
+     "Tagesschau/ARD, ZDFheute, FAZ"
     ],
     [
-     "Arbeitgeberverbände (Peter Sebastian Krause / Südwestmetall)",
-     "Ablehnung der Forderungen; Notwendigkeit von Kostensenkungen zur Sicherung der Wettbewerbsfähigkeit und des Erhalts von Arbeitsplätzen.",
-     "Tagesschau/ARD, ZDFheute"
+     "Arbeitgeberverbände (Peter Sebastian Krause, Arnd G. Kirchhoff, Udo Dinglreiter)",
+     "Ablehnung der Forderungen als zu hoch, unrealistisch oder realitätsfern; Notwendigkeit von Kostensenkungen zur Erhaltung der Wettbewerbsfähigkeit und Vermeidung von Stellenabbau.",
+     "Tagesschau/ARD, ZDFheute, FAZ"
     ]
    ],
-   "fehlend": "Keine wesentlichen Parteien fehlen; Arbeitgeber und Gewerkschaft sind vertreten.",
+   "fehlend": "Stimmen von unabhängigen Arbeitsmarktexperten außerhalb der Verbände und Gewerkschaften.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -1638,8 +1880,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "23.09.26, 13:19",
-     "fokus": "Forderungen und Branchenlage",
-     "text": "Berichtet über die Beschlüsse der IG Metall, die wirtschaftliche Lage in verschiedenen Industriezweigen und die Reaktionen der Arbeitgeberverbände.",
+     "fokus": "Wirtschaftliche Differenzierung und Branchen",
+     "text": "Die Tagesschau beleuchtet die Teilbranchen der Metall- und Elektroindustrie.",
      "url": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/tarifforderungen-ig-metall-100.html",
      "video": false
     },
@@ -1649,82 +1891,66 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "23.09.26, 12:43",
-     "fokus": "Tarifdetails und Zitate",
-     "text": "Beleuchtet die Argumente der Gewerkschaftsspitze zur Gewinnbeteiligung und führt Zitate zur Begründung der Kaufkraftsteigerung an.",
+     "fokus": "Gewerkschaftliche Argumente und Binnenkonjunktur",
+     "text": "ZDFheute legt einen Schwerpunkt auf die Begründung der Lohnforderung zur Stärkung der Kaufkraft.",
      "url": "https://www.zdfheute.de/wirtschaft/ig-metall-beschaeftigte-metall-elektro-industrie-tarifrunde-100.html",
      "video": false
     },
     {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
      "stamm": true,
-     "datum": "23.09.26, 15:04",
-     "fokus": "Kurzmeldung der Kernforderung",
-     "text": "Fasst die zentrale Forderung nach fünf Prozent mehr Geld für die Beschäftigten kurz zusammen.",
-     "url": "https://www.deutschlandfunk.de/ig-metall-verlangt-fuenf-prozent-mehr-geld-104.html",
+     "datum": "23.09.26, 20:25",
+     "fokus": "Kritik der Arbeitgeber",
+     "text": "Die FAZ betont besonders die Aussagen der Arbeitgeberverbände zur Krise.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ig-metall-fordert-5-prozent-mehr-lohn-in-der-tarifrunde-201255949.html",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Ausführlichkeit",
-     "Tagesschau/ARD und ZDFheute liefern umfassende Hintergrundinformationen und Zitate, während Deutschlandfunk die Kernforderung in einer Kurzmeldung darstellt."
+     "Schwerpunktsetzung",
+     "Während die FAZ ausführlicher auf die Kritik der Arbeitgeberverbände eingeht, betonen Tagesschau und ZDFheute stärker die internen Umfragen der Gewerkschaft zur Auftragslage."
     ]
    ],
    "wfragen": {
     "wer": "IG Metall und Arbeitgeberverbände",
-    "was": "Forderungen nach Lohnplus und Gewinnbeteiligung",
+    "was": "Forderungen und Reaktionen für die anstehende Tarifrunde beschlossen",
     "wann": "23. September 2026",
     "wo": "Deutschland",
-    "wie": "Durch Beschlüsse des Gewerkschaftsvorstands und Mitteilungen der Arbeitgeber",
-    "warum": "Zum Ausgleich gestiegener Preise und zur Sicherung von Arbeitsplätzen, laut IG Metall",
-    "quellenlage": "Mitteilungen der Gewerkschaft und der Arbeitgeberverbände"
+    "wie": "Durch Beschlüsse des Gewerkschaftsvorstands nach regionalen Voten",
+    "warum": "Ausgleich für gestiegene Preise und gerechter Anteil an Gewinnen laut IG Metall; Notwendigkeit zur Kostensenkung und Wettbewerbsfähigkeit laut Arbeitgebern",
+    "quellenlage": "Mitteilungen von IG Metall und Arbeitgeberverbänden"
    },
    "artikel": [
     {
-     "ueberschrift": "Das ist passiert",
+     "ueberschrift": "Beschluss des Gewerkschaftsvorstands",
      "absaetze": [
-      "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroindustrie fordert die IG Metall fünf Prozent mehr Geld. Laut den Berichten von Tagesschau/ARD, ZDFheute und Deutschlandfunk betrifft dies rund 3,7 Millionen Beschäftigte. Der Vorstand der Industriegewerkschaft hat diesen Beschluss nach entsprechenden Beschlüssen in den sieben Tarifbezirken gefasst.",
-      "Zusätzlich zu der Lohnforderung soll es eine tarifliche Gewinnbeteiligung für Unternehmen geben, die als Boom-Unternehmen bezeichnet werden. Nach Angaben von Tagesschau/ARD und ZDFheute ist dies ein neues Element in der tariflichen Ausgestaltung. Die Gewerkschaft verbindet dies mit der Forderung nach einer tariflichen Sicherung von Zukunft und Beschäftigung.",
-      "Die Tarifverhandlungen werden in den Bezirken Nordrhein-Westfalen und Baden-Württemberg am 7. Oktober beginnen. Die übrigen Tarifgebiete folgen nach Angaben von Tagesschau/ARD in den darauffolgenden Tagen. Bis Ende Oktober könnte laut diesen Berichten eine zweite Verhandlungsrunde stattfinden."
+      "Der Vorstand der Industriegewerkschaft IG Metall hat am Mittwoch die Forderung nach fünf Prozent mehr Geld beschlossen. Dieser Beschluss folgte auf entsprechende Voten in den sieben Tarifbezirken am Tag zuvor. Betroffen sind rund 3,7 Millionen Beschäftigte in der Metall- und Elektroindustrie. Neben der Lohnerhöhung fordert die Gewerkschaft eine tarifliche Gewinnbeteiligung für sogenannte Boom-Unternehmen. Zudem soll es eine tarifliche Sicherung von Zukunft und Beschäftigung geben.",
+      "Die Tarifverhandlungen beginnen ab dem 7. Oktober in den Bezirken Nordrhein-Westfalen und Baden-Württemberg, während andere Tarifgebiete in den Tagen darauf folgen. Die Friedenspflicht endet mit dem Ablauf des aktuellen Tarifvertrages am 31. Oktober. Ab dem 1. November sind nach Angaben der Gewerkschaft Warnstreiks möglich.",
+      "Das Forderungspaket der Gewerkschaft zielt laut IG Metall darauf ab, steigende Lebenshaltungskosten auszugleichen und die Binnenkonjunktur zu stützen. Gewerkschaftschefin Christiane Benner erklärte, man gehe mit kämpferischem Realismus in die Verhandlungen. Statt Krisenrhetorik erwarteten die Beschäftigten sichere Jobs und einen gerechten Anteil an den Gewinnen."
      ]
     },
     {
-     "ueberschrift": "Die Einzelheiten",
+     "ueberschrift": "Wirtschaftliche Lage und Branchenunterschiede",
      "absaetze": [
-      "Die Friedenspflicht endet mit dem Auslaufen des aktuellen Tarifvertrages am 31. Oktober. Ab dem 1. November sind nach Angaben von Tagesschau/ARD und ZDFheute Warnstreiks möglich. Die IG Metall begründet das Paket als verantwortungsvoll und passgenau für unterschiedliche wirtschaftliche Situationen.",
-      "Die Gewerkschaft stützt sich auf Erhebungen, wonach der Auftragsbestand in zwei Dritteln der Unternehmen gut oder sehr gut sei. Laut Tagesschau/ARD und ZDFheute betrifft dies insbesondere Hersteller von Schiffen und Schienenfahrzeugen sowie die Medizintechnik, die Luft- und Raumfahrt und den Rüstungsbereich. Bei einem Drittel der Unternehmen, vor allem in der Autoindustrie oder im Maschinenbau, sei die Auftragslage hingegen schlecht bis sehr schlecht.",
-      "Vor den Tarifverhandlungen hatte ein bundesweiter Aktionstag der IG Metall stattgefunden. Dabei demonstrierten laut Tagesschau/ARD und ZDFheute rund 175.000 Beschäftigte gegen den Stellenabbau und drohende Werksschließungen in der Autoindustrie."
+      "Die wirtschaftliche Situation in der Branche stellt sich nach Angaben der IG Metall unterschiedlich dar. Die Gewerkschaft stützt sich auf Erhebungen, wonach der Auftragsbestand in zwei Dritteln der Unternehmen gut oder sehr gut ist. Einen Auftragsboom gibt es demnach insbesondere bei Herstellern von Schiffen und Schienenfahrzeugen sowie in der Medizintechnik, in der Luft- und Raumfahrt und im Rüstungsbereich.",
+      "Andererseits steht ein Drittel der Unternehmen laut Gewerkschaft unter Druck, vor allem in der Autoindustrie und im Maschinenbau. In der Automobilbranche kommt es zu massivem Stellenabbau und drohenden Werksschließungen. Dagegen hatten laut den Berichten rund 175.000 Beschäftigte auf einem bundesweiten Aktionstag der IG Metall protestiert. Die Gesamtzahl der Beschäftigten in der Metall- und Elektroindustrie ist nach FAZ-Angaben seit 2019 um 350.000 gesunken.",
+      "Die IG-Metall-Tarifvorständin Nadine Boguslawski erklärte, dass bestehende Differenzierungsinstrumente geprüft werden sollen, um Krisenunternehmen zu entlasten. Die Gewerkschaft wies zudem Vorwürfe zurück, die gesamte Branche befinde sich in einer tiefen Krise."
      ]
     },
     {
-     "ueberschrift": "Hintergrund",
+     "ueberschrift": "Reaktionen der Arbeitgeberseite",
      "absaetze": [
-      "Die Tarifrunde für die Industriebranche steht im Zeichen wirtschaftlicher Herausforderungen in Teilbereichen. Während einige Segmente einen Auftragsboom verzeichnen, kämpfen andere Branchenteile mit Krisen und Stellenabbau. Laut Tagesschau/ARD hat die OECD ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr heraufgesetzt.",
-      "Die Arbeitgeberverbände betonen die Notwendigkeit niedrigerer Arbeitskosten zur Krisenbewältigung. Das Ziel müsse sein, die Wettbewerbsfähigkeit der Unternehmen zu sichern und Arbeitsplätze zu erhalten. Die IG Metall verweist demgegenüber auf die Notwendigkeit von Kaufkraft zur Stützung der Binnenkonjunktur."
+      "Die Arbeitgeberverbände haben die Forderungen der IG Metall zurückgewiesen. Der Südwestmetall-Vorsitzende Peter Sebastian Krause erklärte, es müsse gelingen, dass Unternehmen hier wieder wettbewerbsfähig produzieren und Arbeitsplätze erhalten bleiben. Die Arbeitgeber drängen auf niedrigere Arbeitskosten.",
+      "Der Präsident des Arbeitgeber-Dachverbands Gesamtmetall, Udo Dinglreiter, forderte laut FAZ passende Antworten auf die tatsächliche Lage und warnte, man habe nicht den Luxus, über die Verteilung von Zuwächsen zu verhandeln. Der Präsident der Metall-Arbeitgeber in Nordrhein-Westfalen, Arnd G. Kirchhoff, kritisierte die Forderung als eindeutig zu hoch und völlig unrealistisch. Arbeitgebervertreter hatten die Positionen bereits am Dienstag als realitätsfern bezeichnet und auf die tiefe Strukturkrise in Teilen der Industrie verwiesen."
      ]
     },
     {
      "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Ein Flächentarifvertrag ist ein Vertrag zwischen einer Gewerkschaft und Arbeitgeberverbänden für eine gesamte Branche. Er legt Mindeststandards für Löhne und Arbeitsbedingungen fest, die nicht unterschritten werden dürfen.",
-      "Die Friedenspflicht beschreibt einen Zeitraum während der Laufzeit eines bestehenden Tarifvertrages, in dem Arbeitskämpfe wie Streiks nicht erlaubt sind."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die IG-Metall-Chefin Christiane Benner erklärte laut Tagesschau/ARD und ZDFheute, dass die Gewerkschaft mit kämpferischem Realismus in die Verhandlungen gehe. Statt Krisenrhetorik und Schwarzmalerei erwarteten die Beschäftigten sichere Jobs und einen gerechten Anteil an den Gewinnen.",
-      "IG-Metall-Tarifvorständin Nadine Boguslawski bezeichnete das Forderungspaket laut Tagesschau/ARD und ZDFheute als verantwortungsvoll und passgenau. Wer Aufschwung wolle, brauche Kaufkraft, und wer Erfolg erarbeite, solle daran beteiligt werden.",
-      "Der Südwestmetall-Vorsitzende Peter Sebastian Krause wies die Forderungen der Gewerkschaft zurück. Laut Tagesschau/ARD und ZDFheute argumentierte er, dass niedrigere Arbeitskosten nötig seien, um wettbewerbsfähig zu produzieren und Arbeitsplätze zu erhalten."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die ersten Verhandlungen in den Bezirken Nordrhein-Westfalen und Baden-Württemberg finden am 7. Oktober statt. Die weiteren Tarifgebiete folgen in den Tagen darauf. Bis Ende Oktober ist eine zweite Verhandlungsrunde möglich.",
-      "Mit dem Ablauf des aktuellen Tarifvertrages am 31. Oktober endet die Friedenspflicht. Ab dem 1. November können nach Angaben von Tagesschau/ARD und ZDFheute Warnstreiks der Gewerkschaft stattfinden."
+      "Eine Gewerkschaft ist eine Interessenvertretung von Arbeitnehmern, die sich für bessere Arbeitsbedingungen und höhere Löhne einsetzt. Arbeitgeberverbände vertreten die wirtschaftlichen und tarifpolitischen Interessen der Unternehmen."
      ]
     }
    ],
@@ -1738,12 +1964,20 @@
      "Beschlüsse der IG-Metall-Bezirke über die Forderungen"
     ],
     [
+     "7. Oktober",
+     "Beginn der ersten Tarifverhandlungen in den Bezirken Nordrhein-Westfalen und Baden-Württemberg"
+    ],
+    [
+     "Dienstag",
+     "Beschlüsse der regionalen IG-Metall-Bezirke über die Forderungen"
+    ],
+    [
      "Mittwoch",
      "Beschluss des IG-Metall-Vorstands über die Forderungen"
     ],
     [
      "7. Oktober",
-     "Beginn der ersten Tarifverhandlungen in den Bezirken Nordrhein-Westfalen und Baden-Württemberg"
+     "Beginn der Tarifverhandlungen in Nordrhein-Westfalen und Baden-Württemberg"
     ],
     [
      "31. Oktober",
@@ -1757,127 +1991,122 @@
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Christiane Benner politician",
-     "bildunterschrift": "Christiane Benner ist die Vorsitzende der Gewerkschaft IG Metall."
+     "suchbegriff": "Christiane Benner trade unionist",
+     "bildunterschrift": "Christiane Benner, die Vorsitzende der IG Metall."
     },
     {
      "art": "institution",
      "suchbegriff": "IG Metall headquarters Frankfurt",
-     "bildunterschrift": "Die Zentrale der IG Metall in Frankfurt am Main ist der Ort gewerkschaftlicher Beschlüsse."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Baden-Württemberg industrial area",
-     "bildunterschrift": "In Bundesländern wie Baden-Württemberg starten die ersten Tarifverhandlungen."
+     "bildunterschrift": "Die Zentrale der IG Metall in Frankfurt am Main."
     },
     {
      "art": "symbol",
-     "suchbegriff": "Factory production line Germany",
-     "bildunterschrift": "Die Metall- und Elektroindustrie umfasst zahlreiche Produktionsbetriebe im Land."
+     "suchbegriff": "Metallurgy industry factory production",
+     "bildunterschrift": "Arbeiter in einer Produktionshalle der Metall- und Elektroindustrie."
     }
    ],
    "ort": {
-    "name": "Deutschland"
+    "name": "Frankfurt am Main, Deutschland"
    },
    "geprueft": true,
    "korrekturen": [
-    "Begriffe wie 'Industriekorporation' und Tippfehler wurden korrigiert.",
-    "Wertende Ausdrücke im Text wurden neutralisiert.",
-    "Der Abschnitt 'Zum Verständnis' wurde auf wesentliche und gesicherte Grundregeln gekürzt."
+    "Entfernung nicht belegter Prognosen und Statistiken von dritter Seite (OECD, Chemieindustrie, Wetter) aus dem Entwurf, da diese nicht Gegenstand des Hauptthemas im einig-Teil der konsolidierten Berichte waren."
    ],
-   "wortwarnung": [],
+   "wortwarnung": [
+    "massivem"
+   ],
    "lernen": {
     "begriffe": [
      [
+      "Gewerkschaft",
+      "Eine Organisation, die die Interessen und Rechte von Arbeitnehmern vertritt und sich für höhere Löhne einsetzt."
+     ],
+     [
       "Tarifrunde",
-      "Regelmäßige Verhandlungen zwischen Gewerkschaften und Arbeitgebern über Löhne und Arbeitsbedingungen."
+      "Verhandlungen zwischen Gewerkschaften und Arbeitgebern über Löhne, Arbeitszeiten und Arbeitsbedingungen."
      ],
      [
       "Friedenspflicht",
-      "Eine gesetzlich geregelte Zeit, in der Gewerkschaften während eines laufenden Vertrages nicht streiken dürfen."
-     ],
-     [
-      "Flächentarifvertrag",
-      "Ein Vertrag, der für eine ganze Branche in einer Region oder bundesweit gilt."
+      "Ein Zeitraum in Tarifkonflikten, in dem Gewerkschaften nicht streiken dürfen."
      ]
     ],
     "fragen": [
-     "Welche Argumente nutzen Gewerkschaften und Arbeitgeber in den Tarifverhandlungen?",
-     "Warum spielt die wirtschaftliche Lage einzelner Betriebe eine Rolle bei den Verhandlungen?"
+     "Warum bewerten die IG Metall und die Arbeitgeber die wirtschaftliche Lage in der Industrie so unterschiedlich?",
+     "Welche Rolle spielen Warnstreiks als Druckmittel in Tarifverhandlungen?"
     ],
     "quiz": [
      {
-      "frage": "Wie viel Prozent mehr Geld fordert die IG Metall?",
+      "frage": "Wie viel Prozent mehr Geld fordert die IG Metall für die Beschäftigten?",
       "optionen": [
        "Drei Prozent",
        "Fünf Prozent",
        "Zehn Prozent"
       ],
       "richtig": 1,
-      "erklaerung": "Die IG Metall fordert in der anstehenden Tarifrunde fünf Prozent mehr Geld."
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau, ZDFheute und FAZ fordert die IG Metall fünf Prozent mehr Geld."
      },
      {
-      "frage": "Wann endet die Friedenspflicht laut den Berichten?",
+      "frage": "Wann endet die Friedenspflicht in der aktuellen Tarifrunde?",
       "optionen": [
-       "Am 30. September",
        "Am 31. Oktober",
+       "Am 7. Oktober",
        "Am 1. November"
       ],
-      "richtig": 1,
+      "richtig": 0,
       "erklaerung": "Die Friedenspflicht endet mit dem Auslaufen des aktuellen Tarifvertrages am 31. Oktober."
      },
      {
-      "frage": "Wie reagierten die Arbeitgeberverbände auf die Forderungen?",
+      "frage": "Wie reagierten die Arbeitgeberverbände auf die Forderungen der IG Metall?",
       "optionen": [
-       "Sie nahmen sie sofort an.",
-       "Sie forderten stattdessen zehn Prozent.",
-       "Sie wiesen die Forderungen zurück."
+       "Sie nahmen die Forderungen sofort an.",
+       "Sie machten ein Gegenangebot über vier Prozent.",
+       "Sie wiesen die Forderungen als unrealistisch zurück."
       ],
       "richtig": 2,
-      "erklaerung": "Die Arbeitgeberverbände wiesen die Forderung nach den Berichten zurück."
+      "erklaerung": "Die Arbeitgeberverbände wiesen die Forderungen der Gewerkschaft als zu hoch, unrealistisch oder realitätsfern zurück."
      }
     ]
    },
    "einfach": {
-    "vorspann": "In Deutschland beginnt bald eine wichtige Tarifrunde für viele Beschäftigte.",
+    "vorspann": "In der Metall- und Elektroindustrie gibt es bald Tarifverhandlungen. Die Gewerkschaft fordert mehr Geld.",
     "absaetze": [
-     "Die Gewerkschaft IG Metall fordert fünf Prozent mehr Geld für die Arbeiter.",
-     "Das betrifft etwa drei Komma sieben Millionen Menschen in der Metall- und Elektroindustrie.",
-     "Außerdem soll es eine Gewinnbeteiligung für besonders erfolgreiche Unternehmen geben.",
-     "Die Arbeitgeberverbände finden diese Forderungen nicht realistisch und lehnen sie ab.",
-     "Im Oktober beginnen die Verhandlungen, und ab November kann es zu Streiks kommen."
+     "Die Gewerkschaft IG Metall vertritt rund drei Komma sieben Millionen Beschäftigte in Deutschland. Nun hat der Vorstand beschlossen, dass die Arbeitnehmer fünf Prozent mehr Geld bekommen sollen.",
+     "Außerdem fordert die Gewerkschaft eine Beteiligung am Gewinn für besonders erfolgreiche Betriebe. Die Beschäftigten sollen damit einen gerechten Anteil erhalten.",
+     "Die Arbeitgeberverbände finden diese Forderungen jedoch viel zu hoch und realitätsfern. Sie sagen, dass die Unternehmen Kosten senken müssen, um wettbewerbsfähig zu bleiben.",
+     "Die Verhandlungen zwischen Gewerkschaft und Arbeitgebern starten am siebten Oktober. Ab dem ersten November kann es auch Warnstreiks geben, wenn die Friedenspflicht abgelaufen ist."
     ]
    },
    "video": {
     "kurz": [
-     "Die IG Metall fordert fünf Prozent mehr Geld für Beschäftigte.",
-     "Arbeitgeberverbände weisen diese Forderungen der Gewerkschaft als unrealistisch zurück.",
-     "Die Tarifverhandlungen beginnen am siebten Oktober in ersten Bundesländern."
+     "Die IG Metall fordert fünf Prozent mehr Geld für die Beschäftigten in der Metall- und Elektroindustrie.",
+     "Arbeitgeberverbände lehnen die Forderung ab und verlangen niedrigere Kosten.",
+     "Die Gespräche beginnen im Oktober, ab November sind Warnstreiks möglich."
     ],
     "lang": [
-     "Die Gewerkschaft IG Metall fordert fünf Prozent mehr Geld für die Beschäftigten in der Metall- und Elektroindustrie.",
-     "Das betrifft rund drei Komma sieben Millionen Menschen in ganz Deutschland.",
-     "Der Vorstand beschloss die Forderungen am Mittwoch nach Beratungen in den Bezirken.",
-     "Dazu gehören auch eine tarifliche Gewinnbeteiligung für Boom-Unternehmen und Maßnahmen zur Beschäftigungssicherung.",
-     "Nach Angaben der Gewerkschaft haben zwei Drittel der Unternehmen einen guten Auftragsbestand.",
-     "Die Arbeitgeberverbände lehnen das Paket nach Medienberichten ab und fordern niedrigere Arbeitskosten.",
-     "Der Südwestmetall-Vorsitzende Peter Sebastian Krause erklärte dazu, die Unternehmen müssten wettbewerbsfähig bleiben.",
-     "Die Verhandlungen starten am siebten Oktober in Nordrhein-Westfalen und Baden-Württemberg.",
-     "Die Friedenspflicht endet am einunddreißigsten Oktober, danach sind Warnstreiks möglich."
+     "Die Gewerkschaft IG Metall fordert für rund drei Komma sieben Millionen Beschäftigte fünf Prozent mehr Geld.",
+     "Das hat der Vorstand der Industriegewerkschaft am Mittwoch beschlossen.",
+     "Zusätzlich verlangt die Gewerkschaft eine tarifliche Gewinnbeteiligung für besonders erfolgreiche Unternehmen.",
+     "Die Verhandlungen für die Metall- und Elektroindustrie beginnen am siebten Oktober in Nordrhein-Westfalen und Baden-Württemberg.",
+     "Die Friedenspflicht läuft am einunddreißigsten Oktober aus.",
+     "Ab dem ersten November kann die Gewerkschaft den Druck mit Warnstreiks erhöhen.",
+     "Die Arbeitgeberverbände weisen die Forderungen nach Angaben von Vertretern wie Peter Sebastian Krause als realitätsfern zurück.",
+     "Arbeitgeber betonen, dass die Unternehmen Kosten senken müssen, um Arbeitsplätze zu erhalten.",
+     "Während die Gewerkschaft auf eine gute Auftragslage in vielen Betrieben verweist, stecken andere Bereiche wie die Autoindustrie in einer Krise.",
+     "Wie die Tarifrunde ausgeht, ist noch offen."
     ],
     "einfach": [
-     "Die Gewerkschaft IG Metall fordert mehr Geld für Beschäftigte.",
-     "Drei Komma sieben Millionen Menschen arbeiten in dieser Branche.",
-     "Die Gewerkschaft will fünf Prozent mehr Lohn erreichen.",
-     "Arbeitgeber finden diese Forderung viel zu hoch.",
-     "Im Oktober starten dazu die Verhandlungen zwischen den Seiten."
+     "Die Gewerkschaft IG Metall fordert fünf Prozent mehr Geld.",
+     "Das betrifft drei Komma sieben Millionen Menschen in der Metallindustrie.",
+     "Es soll auch eine Beteiligung am Gewinn für gute Betriebe geben.",
+     "Die Arbeitgeber finden diese Forderungen aber viel zu hoch.",
+     "Im Oktober starten die Gespräche zwischen beiden Seiten."
     ]
    },
    "kurz": [
-    "Die IG Metall fordert in der neuen Tarifrunde fünf Prozent mehr Geld.",
-    "Die Forderung betrifft etwa drei Komma sieben Millionen Beschäftigte.",
-    "Arbeitgeberverbände lehnen die Forderungen ab und fordern niedrigere Kosten.",
-    "Ab dem ersten November sind Warnstreiks nach dem Ende der Friedenspflicht möglich."
+    "Die IG Metall fordert fünf Prozent mehr Geld für rund 3,7 Millionen Beschäftigte.",
+    "Zudem verlangt die Gewerkschaft eine Gewinnbeteiligung für erfolgreiche Unternehmen.",
+    "Arbeitgeberverbände weisen die Forderungen als unrealistisch zurück und fordern Kostensenkungen.",
+    "Die Verhandlungen beginnen im Oktober, Warnstreiks sind ab November möglich."
    ],
    "fakten": [
     [
@@ -1885,15 +2114,15 @@
      "3,7 Millionen"
     ],
     [
-     "Geforderte Lohnsteigerung",
-     "5 Prozent"
+     "Geforderte Lohnerhöhung",
+     "Fünf Prozent"
     ],
     [
-     "Teilnehmende am Aktionstag der Gewerkschaft",
-     "rund 175.000"
+     "Beschäftigte beim Aktionstag",
+     "Rund 175.000"
     ],
     [
-     "Beginn der Verhandlungen in Nordrhein-Westfalen und Baden-Württemberg",
+     "Beginn der Verhandlungen",
      "7. Oktober"
     ],
     [
@@ -1902,26 +2131,56 @@
     ]
    ],
    "dossier": {
-    "slug": "metall-tarifrunde-2026",
+    "slug": "tarifrunde-metall-und-elektroindustrie-2026",
     "titel": "Tarifrunde in der Metall- und Elektroindustrie"
    },
    "bildInfo": {
-    "titel": "Frankfurt am Main, Central business district (2024).jpg",
-    "beschreibung": "Frankfurt : Bankenviertel (central business district)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
-    "urheber": "Dr. Thomas Liptak",
+    "titel": "Jörg Hofmann.jpg",
+    "beschreibung": "Jörg Hofmann im Gespräch mit Beschäftigten bei FORD in Köln, Mai 2015",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/J%C3%B6rg_Hofmann.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/J%C3%B6rg_Hofmann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:J%C3%B6rg_Hofmann.jpg",
+    "urheber": "Jochen Faber",
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artikel": "Liste der Hochhäuser in Frankfurt am Main",
-    "sprache": "de",
-    "art": "institution",
-    "suchbegriff": "IG Metall headquarters Frankfurt",
-    "bildunterschrift": "Das Bankenviertel in Frankfurt am Main, wo sich der Sitz der Gewerkschaft IG Metall befindet.",
+    "artikel": "Jörg Hofmann (trade unionist)",
+    "sprache": "en",
+    "art": "person",
+    "suchbegriff": "Christiane Benner trade unionist",
+    "bildunterschrift": "Jörg Hofmann im Gespräch mit Beschäftigten bei Ford in Köln im Mai 2015.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
+    {
+     "titel": "Jörg Hofmann.jpg",
+     "beschreibung": "Jörg Hofmann im Gespräch mit Beschäftigten bei FORD in Köln, Mai 2015",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/J%C3%B6rg_Hofmann.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/J%C3%B6rg_Hofmann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:J%C3%B6rg_Hofmann.jpg",
+     "urheber": "Jochen Faber",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Jörg Hofmann (trade unionist)",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Christiane Benner trade unionist",
+     "bildunterschrift": "Jörg Hofmann im Gespräch mit Beschäftigten bei Ford in Köln im Mai 2015.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "-rpTEN - Tag 2 (26697103592) (cropped).jpg",
+     "beschreibung": "Christiane Benner, Sarah T. Roberts, Max Hoppenstedt, Steven Hill mit „Crowdworking behind the screen - Clickworking & Labor Rights“ am 03.05.2016 auf der re:publica in Berlin. Foto: re:publica/Gregor",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/-rpTEN_-_Tag_2_%2826697103592%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:-rpTEN_-_Tag_2_(26697103592)_(cropped).jpg",
+     "urheber": "re:publica from Germany",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "person",
+     "suchbegriff": "Christiane Benner trade unionist",
+     "bildunterschrift": "Christiane Benner bei einer Veranstaltung.",
+     "hinweis": "Archivfoto"
+    },
     {
      "titel": "Frankfurt am Main, Central business district (2024).jpg",
      "beschreibung": "Frankfurt : Bankenviertel (central business district)",
@@ -1935,207 +2194,64 @@
      "sprache": "de",
      "art": "institution",
      "suchbegriff": "IG Metall headquarters Frankfurt",
-     "bildunterschrift": "Das Bankenviertel in Frankfurt am Main, wo sich der Sitz der Gewerkschaft IG Metall befindet.",
+     "bildunterschrift": "Das Bankenviertel in Frankfurt am Main.",
      "hinweis": "Archivfoto"
     },
     {
-     "titel": "003 Car dashboard manufacturing process - Opel car factory in Gliwice, Poland.jpg",
-     "beschreibung": "Car dashboard at a factory assembly line. Opel Astra J manufactured in General Motors Manufacturing Poland plant in Gliwice.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg/1280px-003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice,_Poland.jpg",
-     "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
-     "lizenz": "CC BY 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "titel": "Russia, Irkutsk - Powder Metallurgy Ltd. (Shelekhov) WMID2057317.jpg",
+     "beschreibung": "Powder Metallurgy Ltd. (Shelekhov) Location: Russia, Irkutsk Coordinates: 52.18206, 104.0723115 Wikimapia Description: The ‘Powder Metallurgy’ facility is a modern Russian producer of powders, pigment",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Russia%2C_Irkutsk_-_Powder_Metallurgy_Ltd._%28Shelekhov%29_WMID2057317.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Russia%2C_Irkutsk_-_Powder_Metallurgy_Ltd._%28Shelekhov%29_WMID2057317.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Russia,_Irkutsk_-_Powder_Metallurgy_Ltd._(Shelekhov)_WMID2057317.jpg",
+     "urheber": "Ident",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
      "art": "symbol",
-     "suchbegriff": "Automobile manufacturing factory",
-     "bildunterschrift": "Eine Autoteile-Produktion als Beispiel für die Metall- und Elektroindustrie.",
+     "suchbegriff": "Metallurgy industry factory production",
+     "bildunterschrift": "Eine Fabrik für Pulvermetallurgie in Russland als Symbol für die Industrie.",
      "hinweis": "Symbolbild"
     }
    ],
    "ortInfo": {
-    "name": "Deutschland",
-    "lat": 51.164,
-    "lon": 10.448
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
    },
    "version": 5,
-   "ton": [
-    {
-     "k": "Die Gewerkschaft IG Metall fordert fünf Prozent mehr Geld für die Beschäftigten ",
-     "d": "db98b5be5f.mp3",
-     "l": 51.99,
-     "s": [
-      0.25,
-      7.05,
-      11,
-      15.54,
-      22.1,
-      27.6,
-      33.99,
-      41.34,
-      46.54
-     ]
-    },
-    {
-     "k": "Die IG Metall fordert fünf Prozent mehr Geld für Beschäftigte. Arbeitgeberverbän",
-     "d": "ec70a4675d.mp3",
-     "l": 13.47,
-     "s": [
-      0.25,
-      3.74,
-      8.68
-     ]
-    },
-    {
-     "k": "Die Gewerkschaft IG Metall fordert mehr Geld für Beschäftigte. Drei Komma sieben",
-     "d": "ac39d74e91.mp3",
-     "l": 21.38,
-     "s": [
-      0.25,
-      5.14,
-      9.36,
-      13.31,
-      17.02
-     ]
-    },
-    {
-     "k": "Keine inhaltlichen Widersprüche in den Berichten bezüglich der zentralen Fakten.",
-     "d": "03db86fa27.mp3",
-     "l": 4.89,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Tarifrunde? Regelmäßige Verhandlungen zwischen Gewerksch",
-     "d": "719ef36cf6.mp3",
-     "l": 10.56,
-     "s": [
-      0.25,
-      3.39
-     ]
-    },
-    {
-     "k": "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroin",
-     "d": "7bc8b3d999.mp3",
-     "l": 51.08,
-     "s": [
-      0.25,
-      7.93,
-      16.07,
-      23.1,
-      30.12,
-      37.62,
-      43.97,
-      49.58
-     ]
-    },
-    {
-     "k": "Die Friedenspflicht endet mit dem Auslaufen des aktuellen Tarifvertrages am 31. ",
-     "d": "d7da795025.mp3",
-     "l": 47.41,
-     "s": [
-      0.25,
-      5.78,
-      6.85,
-      8.13,
-      13.81,
-      20.62,
-      28.09,
-      39.41
-     ]
-    },
-    {
-     "k": "Die Tarifrunde für die Industriebranche steht im Zeichen wirtschaftlicher Heraus",
-     "d": "672999ab5f.mp3",
-     "l": 38.17,
-     "s": [
-      0.25,
-      6.7,
-      13.55,
-      20.52,
-      26.08,
-      31.93
-     ]
-    },
-    {
-     "k": "Ein Flächentarifvertrag ist ein Vertrag zwischen einer Gewerkschaft und Arbeitge",
-     "d": "986c83e946.mp3",
-     "l": 21.45,
-     "s": [
-      0.25,
-      6.75,
-      12.78
-     ]
-    },
-    {
-     "k": "Die IG-Metall-Chefin Christiane Benner erklärte laut Tagesschau/ARD und ZDFheute",
-     "d": "8cbb4f0ee7.mp3",
-     "l": 49.94,
-     "s": [
-      0.25,
-      10.02,
-      17.32,
-      27.4,
-      33.42,
-      39.33
-     ]
-    },
-    {
-     "k": "Die ersten Verhandlungen in den Bezirken Nordrhein-Westfalen und Baden-Württembe",
-     "d": "cad76e0637.mp3",
-     "l": 28.69,
-     "s": [
-      0.25,
-      5.62,
-      6.94,
-      10.19,
-      14.11,
-      18.39,
-      20.54,
-      21.75
-     ]
-    }
-   ]
+   "bildVersucht": true
   },
   {
    "id": "oecd-konjunkturprognose-deutschland",
    "rubrik": "Wirtschaft",
-   "zeit": "2026-09-23T10:13:52.000Z",
-   "aktualisiert": "aktualisiert um 22:17 Uhr",
-   "titel": "OECD hebt Konjunkturprognose für deutsche Wirtschaft an",
-   "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Wachstumserwartungen für Deutschland im laufenden Jahr nach oben korrigiert. Laut den Berichten zeigen sich positive Entwicklungen bei den Exporten sowie bei öffentlichen Investitionen.",
+   "zeit": "2026-09-23T11:46:51.000Z",
+   "aktualisiert": "aktualisiert um 06:40 Uhr",
+   "titel": "OECD hebt Wachstumsprognose für die deutsche Wirtschaft an",
+   "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr auf 1,1 Prozent angehoben. Der Ausblick bleibt laut der Organisation jedoch mit Unsicherheiten verbunden.",
    "eil": false,
    "zusammenfassung": [
-    "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft für das Jahr 2026 von 0,7 auf 1,1 Prozent angehoben.",
-    "Als Gründe werden steigende Exporte durch den KI-Boom sowie erhöhte öffentliche Investitionen in Verteidigung und Infrastruktur genannt.",
-    "Die Organisation warnt jedoch vor Risiken wie dem Konflikt im Nahen Osten, unzureichenden Gasspeichern und globalen Handelsbeschränkungen.",
-    "Zudem fordert die OECD von der Politik dringende Strukturreformen, darunter Änderungen im Steuer- und Abgabensystem sowie den Abbau von Verwaltungslasten."
+    "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft für das laufende Jahr von 0,7 auf 1,1 Prozent angehoben.",
+    "Als Gründe für die positive Anpassung nennt die Organisation gestiegene Exporte im Zuge des KI-Booms sowie höhere öffentliche Investitionen.",
+    "Die OECD verweist auf notwendige Strukturreformen, darunter den Bürokratieabbau, Steueränderungen und Maßnahmen gegen den Fachkräftemangel.",
+    "Risiken für die Konjunkturentwicklung sehen die Experten im Nahostkonflikt, niedrigen Gasspeicherständen und möglichen globalen Lieferengpässen."
    ],
    "einig": [
     [
-     "Die OECD hat ihre Wachstumsprognose für Deutschland in diesem Jahr auf 1,1 Prozent angehoben.",
+     "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr auf 1,1 Prozent angehoben.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Zeit"
+     ]
+    ],
+    [
+     "Für das Jahr 2027 prognostiziert die OECD ein unverändertes Wachstum von 1,1 Prozent für Deutschland.",
      [
       "Tagesschau/ARD",
       "Spiegel"
      ]
     ],
     [
-     "Im ersten Halbjahr 2026 sind die Exporte dank der Nachfrage nach elektronischen Produkten und dem KI-Boom überraschend stark gestiegen.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Öffentliche Investitionen in Verteidigung und Infrastruktur haben zur konjunkturellen Erholung beigetragen.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Die OECD empfiehlt Reformen wie eine Reduzierung des Verwaltungsaufwands, Anpassungen beim Ehegattensplittings und eine Begrenzung von Minijobs.",
+     "Im ersten Halbjahr sind die Exporte laut OECD überraschend stark gestiegen, unter anderem wegen der Nachfrage nach elektronischen Produkten durch den KI-Boom.",
      [
       "Tagesschau/ARD",
       "Spiegel"
@@ -2143,26 +2259,31 @@
     ]
    ],
    "unklar": [
-    "Ob sich Investitionen in Künstliche Intelligenz wie erwartet auszahlen, bleibt laut OECD eine Unwägbarkeit."
+    "Die Bundesnetzagentur bewertet die Gasspeicher als ausreichend vor dem Winter, während die OECD auf Gasspeicherstände unter dem Durchschnitt der letzten beiden Jahre verweist."
    ],
    "positionen": [
     [
      "Robert Grundke (OECD-Experte)",
-     "Die Exporte stiegen im ersten Halbjahr unerwartet stark, und auch öffentliche Investitionen halfen der Konjunktur.",
+     "Die Exporte stiegen im ersten Halbjahr überraschend stark, angetrieben vom KI-Boom und öffentlichen Investitionen in Verteidigung und Infrastruktur. Es braucht jedoch weitere Strukturreformen.",
      "Tagesschau/ARD,Spiegel"
     ],
     [
      "Isabell Koske (OECD-Expertin)",
-     "Eine Eskalation im Nahen Osten und niedrige Gasspeicherstände gefährden den Konsum und die Investitionen.",
+     "Eine Eskalation des Konflikts im Nahen Osten würde zu höheren Energiepreisen und Vertrauensverlusten führen, was den Konsum und Investitionen belasten würde.",
      "Tagesschau/ARD,Spiegel"
     ],
     [
-     "Stefano Scarpetta (OECD-Chefökonom)",
-     "Die Organisation hat eine deutliche Aufwärtsrevision für Deutschland vorgenommen und sieht den Tankrabatt kritisch.",
-     "Süddeutsche Zeitung"
+     "Führende Wirtschaftsforschungsinstitute",
+     "Erhöhten ihre Wachstumsprognose für das Bruttoinlandsprodukt in diesem Jahr auf 1,3 Prozent.",
+     "Spiegel"
+    ],
+    [
+     "Bundesnetzagentur",
+     "Meint, dass die Gasspeicher vor dem Winter voll genug sind.",
+     "Tagesschau/ARD"
     ]
    ],
-   "fehlend": "Stimmen oder offizielle Stellungnahmen der Bundesregierung oder deutscher Parteien zu den neuen Prognosen und Forderungen.",
+   "fehlend": "Stimmen von Vertretern der Bundesregierung, Arbeitgeberverbänden oder Gewerkschaften zu den OECD-Vorschlägen.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
@@ -2170,8 +2291,8 @@
      "art": "öffentlich-rechtlich",
      "stamm": true,
      "datum": "23.09.26, 12:13",
-     "fokus": "Wirtschaftsausblick und Details zu Energie",
-     "text": "Berichtet ausführlich über die OECD-Prognosen, Zitate von Experten und thematisiert ergänzend die Gasspeicherstände sowie die Bundesnetzagentur.",
+     "fokus": "Wirtschaftsausblick und Details",
+     "text": "Berichtet ausführlich über die OECD-Prognose, die Gründe wie den KI-Boom sowie geforderte Reformen. Erwähnt zudem die Einschätzung der Bundesnetzagentur zu den Gasspeichern.",
      "url": "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
      "video": false
     },
@@ -2181,95 +2302,76 @@
      "art": "privates Medium",
      "stamm": true,
      "datum": "23.09.26, 11:01",
-     "fokus": "Konjunktur und OECD-Mitglieder",
-     "text": "Beleuchtet die Wachstumsprognosen, die Prognosen anderer Institute sowie die Hintergründe und die Zusammensetzung der OECD.",
+     "fokus": "Konjunktur und Reformforderungen",
+     "text": "Beleuchtet den Ausblick der OECD, nennt zusätzlich die Prognosen der führenden Wirtschaftsforschungsinstitute und führt detaillierte Reformvorschläge der OECD auf.",
      "url": "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
      "video": false
     },
     {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "23.09.26, 10:00",
-     "fokus": "Aussagen von Chefökonom Scarpetta",
-     "text": "Konzentriert sich auf die Äußerungen von Chefökonom Stefano Scarpetta und dessen Kritik am Tankrabatt.",
-     "url": "https://www.sueddeutsche.de/wirtschaft/deutschland-wirtschaftswachstum-oecd-prognose-li.3552119",
+     "datum": "23.09.26, 13:46",
+     "fokus": "Kurzmeldung zur Prognose",
+     "text": "Hält fest, dass sich die deutsche Wirtschaft laut OECD besser entwickeln könnte als zuletzt geschätzt, weist jedoch auf die hohe Unsicherheit hin.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/oecd-prognose-wirtschaftswachstum-deutschland-europa-iran-gxe",
      "video": false
     }
    ],
    "unterschiede": [
     [
-     "Zusätzliche Institutionen",
-     "Der Spiegel erwähnt zusätzlich die Prognosen führender Wirtschaftsforschungsinstitute (1,3 Prozent), während die Süddeutsche Zeitung exklusiv über Aussagen von Chefökonom Stefano Scarpetta zum Tankrabatt berichtet."
+     "Zusätzliche Institute",
+     "Der Spiegel erwähnt zusätzlich die Prognosen der führenden Wirtschaftsforschungsinstitute (1,3 Prozent BIP-Wachstum), die in den anderen Berichten nicht genannt werden."
+    ],
+    [
+     "Bundesnetzagentur",
+     "Die Tagesschau erwähnt als einzige Quelle die Einschätzung der Bundesnetzagentur zu den Gasspeichern."
     ]
    ],
    "wfragen": {
-    "wer": "Die OECD",
-    "was": "Wachstumsprognose angehoben",
-    "wann": "23. September 2026",
-    "wo": "Deutschland und Paris",
-    "wie": "Durch Anpassung des Wirtschaftsausblicks",
-    "warum": "Wegen gestiegener Exporte und Investitionen, laut OECD",
-    "quellenlage": "Tagesschau/ARD, Spiegel, Süddeutsche Zeitung"
+    "wer": "OECD (Organisation für wirtschaftliche Zusammenarbeit und Entwicklung)",
+    "was": "Anhebung der Wachstumsprognose für Deutschland auf 1,1 Prozent",
+    "wann": "23.09.2026",
+    "wo": "Paris, Frankreich (Sitz der OECD)",
+    "wie": "Durch Heraufsetzung der BIP-Wachstumsprognose für das laufende Jahr",
+    "warum": "Überraschend stark gestiegene Exporte und öffentliche Investitionen laut OECD",
+    "quellenlage": "Meldungen von Tagesschau/ARD, Spiegel und Zeit"
    },
    "artikel": [
     {
-     "ueberschrift": "Das ist passiert",
+     "ueberschrift": "Aktuelle Prognose für die deutsche Wirtschaft",
      "absaetze": [
-      "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Prognose für das Bruttoinlandsprodukt der deutschen Wirtschaft für das Jahr 2026 angehoben. Nach Angaben der Berichte rechnet die in Paris ansässige Einrichtung nun mit einem Wachstum von 1,1 Prozent. In einer vorherigen Schätzung aus dem Juni war lediglich ein Plus von 0,7 Prozent in Aussicht gestellt worden. Für das kommende Jahr wurde die Vorhersage bei ebenfalls 1,1 Prozent belassen. Laut Spiegel blicken Ökonomen damit wieder optimistischer nach vorn, während die Bundesregierung laut dem Bericht im Krisenmodus agiere.",
-      "Die OECD begründet den optimistischeren Ausblick für das laufende Jahr vor allem mit einer unerwartet starken Entwicklung im ersten Halbjahr. Laut Tagesschau/ARD und Spiegel sind die Exporte in dieser Zeit kräftig gestiegen. Als ein wesentlicher Treiber wird dabei die steigende Nachfrage nach elektronischen Produkten und Ausrüstungen genannt, die im Zuge des sogenannten KI-Booms verzeichnet wurde. Zudem hätten steigende öffentliche Investitionen in die Bereiche Verteidigung und Infrastruktur zur konjunkturellen Erholung beigetragen.",
-      "Neben Deutschland hat die OECD auch für den Euroraum und die Weltwirtschaft leichte Anpassungen vorgenommen. Für den Euroraum wird in diesem Jahr mit einem Zuwachs von 1,0 Prozent gerechnet, für die Weltwirtschaft mit 2,9 Prozent. Im kommenden Jahr soll das Wachstum in diesen Regionen bei 1,0 Prozent beziehungsweise 3,0 Prozent liegen. Allerdings bewertet die Organisation den Ausblick für das kommende Jahr im Vergleich zu den Juni-Schätzungen als etwas pessimistischer."
+      "Die Industriestaatenorganisation OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr heraufgesetzt. Das Bruttoinlandsprodukt werde um 1,1 Prozent wachsen, wie laut Tagesschau/ARD und Spiegel mitgeteilt wurde. Im Juni war von der Organisation noch ein Plus von 0,7 Prozent erwartet worden. Für das Jahr 2027 wurde die Vorhersage laut Tagesschau/ARD und Spiegel bei ebenfalls 1,1 Prozent belassen. Die Wochenzeitung Zeit berichtete ebenfalls über die Veröffentlichung des aktuellen Wirtschaftsausblicks.",
+      "Nach Angaben von OECD-Experte Robert Grundke sind die Exporte im ersten Halbjahr überraschend stark gestiegen. Dies liege unter anderem an der steigenden Nachfrage nach elektronischen Produkten und Ausrüstungen im Zuge des KI-Booms. Diese Nachfrage dürfte laut der Einschätzung weiterhin hoch bleiben. Auch die steigenden öffentlichen Investitionen in Verteidigung und Infrastruktur haben zur konjunkturellen Erholung beigetragen. Die OECD verwies in diesem Zusammenhang auf Reformen im Bereich der öffentlichen Vergabe und der Beschleunigung von Planungs- und Genehmigungsverfahren für Infrastrukturprojekte.",
+      "Trotz dieser positiven Entwicklungen betonte Robert Grundke laut Tagesschau/ARD und Spiegel, dass weiterhin viel zu tun sei. Um das langfristige Wachstumspotenzial der deutschen Volkswirtschaft zu verbessern, sei es wichtig, notwendige Strukturreformen voranzubringen. So sollten bestehende Regulierungen und Verwaltungsverfahren überprüft, vereinfacht und harmonisiert werden. Im Spiegel wurde ergänzt, dass Wettbewerbsschranken abgebaut und der administrative Aufwand weiter reduziert werden sollten, um den Markteintritt von neuen Unternehmen zu erleichtern."
      ]
     },
     {
-     "ueberschrift": "Die Einzelheiten",
+     "ueberschrift": "Empfehlungen und Reformbedarf",
      "absaetze": [
-      "Trotz der nach oben korrigierten Prognosen weist die OECD darauf hin, dass der Wirtschaftsausblick mit großen Unsicherheiten behaftet ist. Laut Tagesschau/ARD und Spiegel hängen die weiteren Aussichten stark davon ab, ob eine dauerhafte Lösung für den Konflikt im Nahen und Mittleren Osten gefunden werden kann. Eine Verlängerung oder Eskalation dieses Konflikts könnte zu höheren Energiepreisen, einem stärkeren Preisauftrieb sowie zu Vertrauensverlusten führen, was den privaten Konsum und die Investitionen belasten würde. Die Organisation weist in diesem Zusammenhang darauf hin, dass die Gasspeicherstände in Deutschland und Europa aktuell unter dem Durchschnitt der vergangenen zwei Jahre liegen.",
-      "Zudem nennt die OECD weitere Unwägbarkeiten für die wirtschaftliche Entwicklung. Dazu gehören Zölle und Ausfuhrbegrenzungen sowie wetterbedingte Risiken wie ein starkes El-Niño-Phänomen. Letzteres könnte laut den Berichten mit Lieferengpässen und hohen Lebensmittelkosten einhergehen. Auch eine mögliche Dämpfung des Wachstums durch ausbleibende Erfolge bei Investitionen in Künstliche Intelligenz wird als Risiko genannt. Auf nationaler Ebene verweist die Tagesschau/ARD darauf, dass im ersten Halbjahr Zehntausende Industriejobs gestrichen wurden und die Zahl der Stellenangebote für Berufseinsteiger in den vergangenen Jahren stark zurückgegangen ist.",
-      "Die Bundesrepublik profitiert nach Angaben der Organisation von robusten Strukturen in der ersten Jahreshälfte. Große Ölvorräte, Lieferungen von außerhalb der Golfstaaten und staatliche Unterstützungsmaßnahmen hätten negative Einflüsse abgefedert. Unabhängig davon blicken auch die führenden Wirtschaftsforschungsinstitute laut dem Spiegel-Bericht zuversichtlicher auf die deutsche Wirtschaft und erhöhten ihre BIP-Prognose für dieses Jahr auf 1,3 Prozent, nachdem im Frühjahr noch 0,6 Prozent veranschlagt worden waren."
+      "Die OECD rät laut den Berichten von Tagesschau/ARD und Spiegel dazu, Anreize im Steuer- und Transfersystem zu verbessern. Dazu gehören eine Reform des Ehegattensplittings, eine Beschränkung der Minijobs auf Studenten und Schüler sowie die Umsetzung der geplanten Sozialstaatsreform. Eine Senkung der Steuer- und Abgabenbelastung für Arbeitseinkommen wäre aus Sicht der OECD eine weitere wichtige Maßnahme, um das Arbeitsangebot zu erhöhen und den Fachkräftemangel zu lindern. Laut Spiegel sollten zudem Beschränkungen wie die Meisterpflicht in Handwerksberufen abgebaut und die Digitalisierung der Verwaltung beschleunigt werden.",
+      "Finanziert werden könnte eine Senkung der Abgabenlast laut den Angaben über eine Streichung von Steuervergünstigungen und -ausnahmen. Die OECD merkte zudem an, dass die Zahl der Stellenangebote für Berufseinsteiger in den vergangenen Jahren zurückgegangen ist. Gleichzeitig wurden im ersten Halbjahr zehntausende Industriejobs gestrichen, wie von Tagesschau/ARD berichtet wurde. Die Organisation bekräftigte, dass der Ausblick mit Unsicherheit behaftet sei.",
+      "Nicht nur für Deutschland, sondern auch für den Euroraum und die Weltwirtschaft hat die OECD ihre Prognosen für dieses Jahr leicht angehoben. Sie geht von einem Zuwachs von 1,0 Prozent für den Euroraum und 2,9 Prozent für die Weltwirtschaft aus. Für das kommende Jahr ist der Ausblick mit 1,0 Prozent für den Euroraum und 3,0 Prozent für die Weltwirtschaft laut den Berichten etwas pessimistischer als noch im Juni."
      ]
     },
     {
-     "ueberschrift": "Hintergrund",
+     "ueberschrift": "Risiken und globale Faktoren",
      "absaetze": [
-      "Die OECD betont in ihren Ausführungen die Notwendigkeit von Strukturreformen zur Steigerung des langfristigen Wachstumspotenzials. Laut Tagesschau/ARD und Spiegel mahnt OECD-Experte Robert Grundke an, dass trotz der verbesserten Konjunkturaussichten Reformen unumgänglich sind. Dazu gehöre unter anderem der Abbau von Wettbewerbsschranken und die Reduzierung des hohen Verwaltungsaufwands. Bestehende Regulierungen und Verwaltungsverfahren müssten überprüft, vereinfacht und harmonisiert werden, um den Markteintritt für neue Unternehmen zu erleichtern.",
-      "In Bezug auf den Arbeitsmarkt und das Steuersystem schlägt die OECD konkrete Schritte vor. Laut den Berichten wird empfohlen, Anreize im Steuer- und Transfersystem zu verbessern. Dies umfasst eine Reform des Ehegattensplittings, eine Beschränkung von Minijobs auf Schülerinnen, Schüler und Studierende sowie die Umsetzung der geplanten Sozialstaatsreform. Eine Senkung der Steuer- und Abgabenbelastung für Arbeitseinkommen könne das Arbeitsangebot erhöhen und den Fachkräftemangel lindern. Finanziert werden soll dies laut den Angaben durch die Streichung von Steuervergünstigungen und -ausnahmen.",
-      "Die Süddeutsche Zeitung berichtet zudem über eine Aussage von Chefökonom Stefano Scarpetta, der die Lage in Deutschland nach Angaben der Zeitung deutlich positiver einschätzt als vor den Sommermonaten. Gleichzeitig äußert Scarpetta laut der Süddeutschen Zeitung Kritik an staatlichen Maßnahmen wie dem Tankrabatt und mahnt die Bundesregierung ebenfalls zu Reformen."
+      "Das Wachstum blieb in der ersten Jahreshälfte trotz der Folgen durch den Konflikt im Mittleren Osten in vielen Ländern robust, wie die OECD mitteilte. Große Ölvorräte, Lieferungen von außerhalb der Golfstaaten und staatliche Unterstützungsmaßnahmen federten die Folgen demnach ab. Der Ausblick hänge jedoch stark davon ab, ob eine dauerhafte Lösung des Konflikts gefunden werde. Zölle und Ausfuhrbegrenzungen stellen zusätzliche Unwägbarkeiten dar.",
+      "OECD-Expertin Isabell Koske warnte laut Tagesschau/ARD und Spiegel vor einer längeren Dauer oder einer weiteren Eskalation des Konflikts im Nahen Osten. Dies würde zu höheren Energiepreisen, einem stärkeren Preisauftrieb sowie Vertrauensverlusten führen, was den privaten Konsum und Investitionen belasten würde. Dies gelte umso mehr, als die Gasspeicherstände in Deutschland und Europa unter dem Durchschnitt der letzten beiden Jahre liegen.",
+      "In diesem Zusammenhang verwies Tagesschau/ARD darauf, dass die Bundesnetzagentur der Ansicht ist, dass die Gasspeicher vor dem Winter voll genug sind. Neben den Risiken durch den Konflikt nannte die OECD wetterbedingte Risiken wie einen starken El Niño, die mit Lieferengpässen und hohen Lebensmittelkosten einhergehen könnten. Zudem könnte das Wachstum gebremst werden, sollten sich Investitionen in Künstliche Intelligenz nicht wie erwartet auszahlen."
      ]
     },
     {
-     "ueberschrift": "Zum Verständnis",
+     "ueberschrift": "Einordnung und Vergleich",
      "absaetze": [
-      "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist ein Zusammenschluss von derzeit 38 Staaten. Gegründet in Paris, gehören ihr Industrienationen und Schwellenländer an. Die Fachleute der Organisation erstellen Konjunkturprognosen für die globale Wirtschaft.",
-      "Das Bruttoinlandsprodukt misst den Gesamtwert aller Waren und Dienstleistungen, die innerhalb eines Landes in einem bestimmten Zeitraum hergestellt werden. Es gilt als Indikator für die wirtschaftliche Leistungsfähigkeit."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "OECD-Experte Robert Grundke erklärte laut Tagesschau/ARD und Spiegel, dass die Exporte im ersten Halbjahr überraschend stark gestiegen seien. Dies führt er auf die Nachfrage im Zuge des KI-Booms zurück, die voraussichtlich hoch bleiben werde. Zudem betonte Grundke laut beiden Medien, dass auch steigende öffentliche Investitionen in Verteidigung und Infrastruktur zur konjunkturellen Erholung beigetragen hätten.",
-      "OECD-Expertin Isabell Koske warnte laut Tagesschau/ARD und Spiegel vor den Folgen einer Verlängerung oder Eskalation des Konflikts im Nahen Osten. Dies würde zu höheren Energiepreisen und Vertrauensverlusten führen, was den privaten Konsum und die Investitionen belasten könne. Koske betonte, dass diese Gefahr besonders wegen der unter dem Durchschnitt liegenden Gasspeicherstände in Deutschland und Europa bestehe.",
-      "Stefano Scarpetta, Chefökonom der OECD, sagte laut der Süddeutschen Zeitung, dass die Organisation eine deutliche Aufwärtsrevision für Deutschland vorgenommen habe. Gleichzeitig äußerte er sich nach Angaben der Zeitung kritisch über den Tankrabatt und forderte die Bundesregierung zu strukturellen Schritten auf."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die OECD empfiehlt der Bundesregierung, die angekündigten Reformen im Bereich der öffentlichen Vergabe sowie die Beschleunigung von Planungs- und Genehmigungsverfahren für Infrastrukturprojekte zügig voranzubringen. Damit sollen die Chancen für einen schnelleren Ausbau der Infrastruktur und eine dauerhafte Unterstützung des Wachstums gewahrt werden.",
-      "Darüber hinaus wird die Umsetzung weiterer Maßnahmen wie der geplanten Sozialstaatsreform und Anpassungen im Steuer- und Transfersystem von der Organisation als notwendig erachtet, um das langfristige wirtschaftliche Potenzial des Landes zu sichern."
+      "Laut dem Bericht des Magazins Spiegel sind auch die führenden Wirtschaftsforschungsinstitute zuversichtlicher für die deutsche Wirtschaft als zuvor. Sie erhöhten demnach ihre Wachstumsprognose für das Bruttoinlandsprodukt auf 1,3 Prozent in diesem Jahr. Im Frühjahr waren diese Institute noch von 0,6 Prozent Wachstum ausgegangen. Die Bundesregierung steckt laut Spiegel derweil im Krisenmodus.",
+      "Die OECD ist eine internationale Organisation, die in Paris ansässig ist. Sie vereint 38 Mitgliedsländer, die sich zu Demokratie und Marktwirtschaft bekennen, darunter neben großen Volkswirtschaften wie Deutschland, den USA und Japan auch Schwellenländer wie Mexiko und Chile. Zu den Aufgaben der Fachleute gehört unter anderem das Erarbeiten regelmäßiger Konjunkturprognosen."
      ]
     }
    ],
    "zeitleiste": [
-    [
-     "Juni 2026",
-     "Die OECD prognostizierte in einer früheren Schätzung ein Wirtschaftswachstum von 0,7 Prozent für Deutschland."
-    ],
-    [
-     "23.09.2026",
-     "Die OECD veröffentlicht ihren aktuellen Wirtschaftsausblick und hebt die Prognose für Deutschland auf 1,1 Prozent an."
-    ],
     [
      "Juni 2026",
      "Die OECD prognostizierte in einer früheren Schätzung ein Wirtschaftachstum von 0,7 Prozent für Deutschland."
@@ -2277,28 +2379,31 @@
     [
      "23. September 2026",
      "Die OECD veröffentlicht ihren Wirtschaftsausblick und hebt die Prognose für Deutschland auf 1,1 Prozent an."
+    ],
+    [
+     "Juni 2026",
+     "Die OECD prognostizierte in einer früheren Schätzung ein Wirtschaftswachstum von 0,7 Prozent für Deutschland."
+    ],
+    [
+     "23.09.2026",
+     "Die OECD veröffentlicht ihren aktuellen Wirtschaftsausblick und hebt die Prognose für Deutschland auf 1,1 Prozent an."
     ]
    ],
    "bilder": [
     {
      "art": "institution",
      "suchbegriff": "OECD headquarters Paris",
-     "bildunterschrift": "Das Gebäude der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung in Paris, wo die Konjunkturberichte erstellt werden."
+     "bildunterschrift": "Das Hauptquartier der OECD in Paris, wo die Konjunkturprognosen erarbeitet werden."
     },
     {
      "art": "symbol",
-     "suchbegriff": "Container ship port logistics",
-     "bildunterschrift": "Schifffahrtscontainer in einem Hafen symbolisieren die Exportwirtschaft und internationale Handelsströme."
+     "suchbegriff": "Economic growth chart",
+     "bildunterschrift": "Ein Diagramm symbolisiert die wirtschaftliche Entwicklung und Konjunkturprognosen."
     },
     {
      "art": "ort",
-     "suchbegriff": "Frankfurt skyline financial district",
-     "bildunterschrift": "Die Skyline von Frankfurt am Main steht für den Finanz- und Wirtschaftsstandort Deutschland."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Natural gas storage facility",
-     "bildunterschrift": "Eine Gasspeicheranlage, deren Füllstände laut OECD für die wirtschaftliche Entwicklung von Bedeutung sind."
+     "suchbegriff": "Frankfurt stock exchange",
+     "bildunterschrift": "Die Frankfurter Wertpapierbörse steht exemplarisch für die deutsche Wirtschaft und den Aktienmarkt."
     }
    ],
    "ort": {
@@ -2306,120 +2411,118 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Im Abschnitt Zum Verständnis wurden nicht belegte Zahlen und strittige Details entfernt, um den Regeln für gesichertes Grundwissen zu entsprechen."
+    "Daten aus dem Entwurf wurden direkt gegen die Originalquellen abgeglichen und Belege für die Einigkeit überprüft."
    ],
    "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
       "OECD",
-      "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist ein Zusammenschluss von Ländern, die sich zu Demokratie und Marktwirtschaft bekennen."
+      "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist ein Zusammenschluss von 38 Staaten, die sich für Marktwirtschaft und Demokratie einsetzen."
      ],
      [
       "Bruttoinlandsprodukt",
-      "Das Bruttoinlandsprodukt misst den Gesamtwert aller Waren und Dienstleistungen, die in einem Land hergestellt werden."
-     ],
-     [
-      "Inflation",
-      "Inflation bezeichnet den Anstieg von Preisen, wodurch Geld an Wert verliert."
+      "Das Bruttoinlandsprodukt misst den Gesamtwert aller Waren und Dienstleistungen, die in einem Jahr innerhalb eines Landes produziert werden."
      ]
     ],
     "fragen": [
-     "Welche Rolle spielen internationale Konflikte für die wirtschaftliche Entwicklung in Deutschland laut den Berichten?",
-     "Warum fordert die OECD neben positiven Konjunkturprognosen gleichzeitig Strukturreformen?"
+     "Welche Rolle spielen internationale Konflikte für die Vorhersagen von Wirtschaftsorganisationen?",
+     "Warum fordern Organisationen wie die OECD oft strukturelle Reformen in Ländern wie Deutschland?"
     ],
     "quiz": [
      {
-      "frage": "Wie hoch ist die neue Wachstumsprognose der OECD für die deutsche Wirtschaft im Jahr 2026?",
+      "frage": "Wie hoch ist laut OECD das prognostizierte Wirtschaftswachstum für Deutschland in diesem Jahr?",
       "optionen": [
        "0,7 Prozent",
        "1,1 Prozent",
        "1,3 Prozent"
       ],
       "richtig": 1,
-      "erklaerung": "Die OECD hat ihre Prognose von zuvor 0,7 auf 1,1 Prozent angehoben, wie Tagesschau und Spiegel übereinstimmend berichten."
+      "erklaerung": "Die OECD hat ihre Prognose für das Jahr 2026 laut übereinstimmenden Berichten von Tagesschau, Spiegel und Zeit auf 1,1 Prozent angehoben."
      },
      {
-      "frage": "Welcher Faktor trug laut OECD im ersten Halbjahr besonders zu den gestiegenen Exporten bei?",
+      "frage": "Welcher Bereich wird als ein Treiber für die gestiegenen Exporte genannt?",
       "optionen": [
-       "Der Boom bei Künstlicher Intelligenz",
-       "Der Abbau von Minijobs",
-       "Geringere Energiekosten"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und Spiegel sorgte unter anderem die steigende Nachfrage nach elektronischen Produkten im Zuge des KI-Booms für stärkere Exporte."
-     },
-     {
-      "frage": "Wie viele Staaten gehören der OECD an?",
-      "optionen": [
-       "28 Staaten",
-       "38 Staaten",
-       "48 Staaten"
+       "Der Automobilsektor",
+       "Der KI-Boom",
+       "Die Landwirtschaft"
       ],
       "richtig": 1,
-      "erklaerung": "Der Spiegel-Bericht nennt die Zahl von insgesamt 38 Mitgliedsstaaten der OECD."
+      "erklaerung": "Laut OECD-Experte Robert Grundke sind die Exporte unter anderem wegen der Nachfrage nach elektronischen Produkten im Zuge des KI-Booms gestiegen."
+     },
+     {
+      "frage": "Wo hat die OECD ihren Hauptsitz?",
+      "optionen": [
+       "Berlin",
+       "Brüssel",
+       "Paris"
+      ],
+      "richtig": 2,
+      "erklaerung": "Die OECD ist eine in Paris ansässige internationale Organisation."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat gute Nachrichten für die deutsche Wirtschaft.",
+    "vorspann": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat eine bessere Vorhersage für die deutsche Wirtschaft gemacht.",
     "absaetze": [
-     "Die Organisation schätzt das wirtschaftliche Wachstum für dieses Jahr besser ein als noch im Juni. Statt null Komma sieben Prozent wird nun mit einem Wachstum von einem Komma ein Prozent gerechnet. Grund für die bessere Laune sind vor allem gestiegene Exporte ins Ausland. Auch der sogenannte Boom bei Künstlicher Intelligenz hilft dabei. Zudem investiert der Staat mehr Geld in Verteidigung und neue Straßen oder Gebäude. Ganz ohne Sorgen ist die Lage aber nicht. Die OECD warnt vor Risiken wie dem Konflikt im Nahen Osten und fordert von der Politik Reformen, zum Beispiel beim Steuersystem."
+     "Die Organisation erwartet für das laufende Jahr ein Wirtschaftswachstum von eins Komma ein Prozent. Im Sommer war man noch von weniger ausgegangen. Ein Grund dafür sind gestiegene Verkäufe ins Ausland, besonders im Bereich der elektronischen Geräte. Auch der Bereich der Künstlichen Intelligenz hilft dabei. Dazu kommen höhere staatliche Ausgaben für den Bau und die Verteidigung. Dennoch gibt es Sorgen vor Risiken wie dem Konflikt im Nahen Osten und möglichen Problemen mit der Energieversorgung. Die Organisation rät deshalb zu Reformen, zum Beispiel beim Abbau von Regeln und bei Steuern."
     ]
    },
    "video": {
     "kurz": [
-     "Die OECD rechnet in diesem Jahr mit einem Wirtschaftswachstum von einem Komma ein Prozent für Deutschland.",
-     "Steigende Exporte und öffentliche Investitionen sorgen laut dem Bericht für den Aufschwung.",
-     "Dennoch warnen Experten vor Risiken wie dem Konflikt im Nahen Osten und fordern Reformen."
+     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Prognose für die deutsche Wirtschaft erhöht.",
+     "Für dieses Jahr wird ein Wachstum von eins Komma ein Prozent erwartet.",
+     "Experten weisen allerdings auf Risiken wie den Konflikt im Nahen Osten hin."
     ],
     "lang": [
-     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Konjunkturprognose für Deutschland angehoben.",
-     "Das Bruttoinlandsprodukt soll in diesem Jahr um ein Komma ein Prozent wachsen.",
-     "Das teilte die in Paris ansässige Organisation am dreiundzwanzigsten September zweiundzwanzigsechsundzwanzig mit.",
-     "Im Juni hatte die Prognose noch bei null Komma sieben Prozent gelegen.",
-     "Als Gründe für den Aufschwung nennt die OECD gestiegene Exporte und höhere öffentliche Investitionen.",
-     "Der Experte Robert Grundke erklärte dazu, dass vor allem die Nachfrage nach elektronischen Produkten geholfen habe.",
-     "Gleichzeitig warnte die Expertin Isabell Koske vor Risiken durch den Konflikt im Nahen Osten und niedrige Gasspeicherstände.",
-     "Die Organisation empfiehlt der Bundesregierung dringend Reformen bei Steuern und Verwaltung.",
-     "Die führenden Wirtschaftsforschungsinstitute rechnen sogar mit einem Wachstum von einem Komma drei Prozent.",
-     "Ob sich diese Vorhersagen erfüllen, hängt stark von der weiteren globalen Entwicklung ab."
+     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Wachstumsprognose für Deutschland angehoben.",
+     "Das Bruttoinlandsprodukt soll in diesem Jahr um eins Komma ein Prozent wachsen.",
+     "Das teilte die Organisation in Paris mit.",
+     "Grund für die bessere Einschätzung sind gestiegene Exporte und höhere öffentliche Investitionen.",
+     "Nach Angaben von OECD-Experte Robert Grundke treibt besonders die Nachfrage im Bereich der Künstlichen Intelligenz das Wachstum an.",
+     "Die Organisation warnt jedoch vor Unsicherheiten wie dem Konflikt im Nahen Osten und niedrigen Gasspeichern.",
+     "Wirtschaftsinstitute rechnen sogar mit einem Wachstum von eins Komma drei Prozent.",
+     "Die Organisation empfiehlt der Politik dringend weitere Reformen bei Steuern und Verwaltung.",
+     "Ob sich der Aufschwung dauerhaft fortsetzt hängt stark von der internationalen Lage ab."
     ],
     "einfach": [
-     "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Prognose für Deutschland verbessert.",
-     "Die Wirtschaft soll in diesem Jahr um ein Komma ein Prozent wachsen.",
-     "Das ist mehr als noch im Juni gedacht.",
-     "Grund dafür sind gestiegene Verkäufe ins Ausland und staatliche Investitionen.",
-     "Experten warnen jedoch vor Risiken wie dem Konflikt im Nahen Osten.",
-     "Zudem fordert die Organisation verschiedene Reformen von der Bundesregierung."
+     "Die Wirtschaft in Deutschland wächst in diesem Jahr voraussichtlich etwas stärker.",
+     "Das hat die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung mitgeteilt.",
+     "Das Wachstum liegt demnach bei eins Komma ein Prozent.",
+     "Grund dafür sind mehr Verkäufe ins Ausland und staatliche Investitionen.",
+     "Experten fordern aber Reformen und warnen vor neuen Krisen."
     ]
    },
    "kurz": [
-    "Die OECD hat ihre Wachstumsprognose für Deutschland für das Jahr 2026 auf 1,1 Prozent angehoben.",
-    "Steigende Exporte und Investitionen in Verteidigung und Infrastruktur tragen zum Aufschwung bei.",
-    "Die Organisation warnt vor Risiken durch den Nahostkonflikt und fordert Strukturreformen."
+    "Die OECD hat ihre Prognose für das deutsche Wirtschaftswachstum in diesem Jahr auf eins Komma ein Prozent erhöht.",
+    "Höhere Exporte durch den Boom bei Künstlicher Intelligenz und staatliche Investitionen stützen die Erholung.",
+    "Experten warnen jedoch vor Risiken wie dem Nahostkonflikt und fordern weitere Reformen beim Bürokratieabbau."
    ],
    "fakten": [
     [
-     "Wachstumsprognose Deutschland 2026 alt",
-     "0,7 Prozent"
-    ],
-    [
-     "Wachstumsprognose Deutschland 2026 neu",
+     "Wachstumsprognose Deutschland 2026",
      "1,1 Prozent"
     ],
     [
-     "Anzahl der OECD-Mitgliedsstaaten",
-     "38"
+     "Wachstumsprognose Deutschland 2027",
+     "1,1 Prozent"
     ],
     [
-     "Weltwirtschaftswachstum 2026 Prognose",
+     "Wachstumsprognose Euroraum 2026",
+     "1,0 Prozent"
+    ],
+    [
+     "Wachstumsprognose Weltwirtschaft 2026",
      "2,9 Prozent"
+    ],
+    [
+     "Mitgliedsstaaten der OECD",
+     "38 Staaten"
     ]
    ],
    "dossier": {
     "slug": "oecd-wirtschaftsprognose-2026",
-    "titel": "OECD-Wirtschaftsprognose für Deutschland"
+    "titel": "Wirtschaftsprognose der OECD für Deutschland"
    },
    "bildInfo": {
     "titel": "Chateau de La Muette.jpg",
@@ -2488,136 +2591,7 @@
     "lat": 48.853,
     "lon": 2.348
    },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Kon",
-     "d": "39d17cdc6a.mp3",
-     "l": 58.65,
-     "s": [
-      0.25,
-      6.93,
-      11.59,
-      18.52,
-      22.8,
-      28.57,
-      35.05,
-      42.63,
-      47.91,
-      53.81
-     ]
-    },
-    {
-     "k": "Die OECD rechnet in diesem Jahr mit einem Wirtschaftswachstum von einem Komma ei",
-     "d": "93e4a171d4.mp3",
-     "l": 15.66,
-     "s": [
-      0.25,
-      5.15,
-      10.1
-     ]
-    },
-    {
-     "k": "Ob sich Investitionen in Künstliche Intelligenz wie erwartet auszahlen, bleibt l",
-     "d": "0f1f631a4e.mp3",
-     "l": 6.7,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich OECD? Die Organisation für wirtschaftliche Zusammenarbei",
-     "d": "34376d2705.mp3",
-     "l": 12.94,
-     "s": [
-      0.25,
-      3.1
-     ]
-    },
-    {
-     "k": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung hat ihre Pro",
-     "d": "20c9f8ba06.mp3",
-     "l": 59.72,
-     "s": [
-      0.25,
-      10.74,
-      17.54,
-      24.43,
-      29.47,
-      36.76,
-      44.32,
-      49.82
-     ]
-    },
-    {
-     "k": "Trotz der nach oben korrigierten Prognosen weist die OECD darauf hin, dass der W",
-     "d": "635f9814f7.mp3",
-     "l": 63.66,
-     "s": [
-      0.25,
-      7.6,
-      17.61,
-      29.37,
-      38.9,
-      43.12,
-      49.48,
-      55.54
-     ]
-    },
-    {
-     "k": "Die OECD betont in ihren Ausführungen die Notwendigkeit von Strukturreformen zur",
-     "d": "5889d35836.mp3",
-     "l": 59.05,
-     "s": [
-      0.25,
-      7.75,
-      16.74,
-      23.19,
-      31.76,
-      36.64,
-      41.85,
-      51.21
-     ]
-    },
-    {
-     "k": "Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung ist ein Zusa",
-     "d": "70c47f81f7.mp3",
-     "l": 28.97,
-     "s": [
-      0.25,
-      7.46,
-      12.11,
-      17.31,
-      25.09
-     ]
-    },
-    {
-     "k": "OECD-Experte Robert Grundke erklärte laut Tagesschau/ARD und Spiegel, dass die E",
-     "d": "19ae205f29.mp3",
-     "l": 65.9,
-     "s": [
-      0.25,
-      8.91,
-      14.37,
-      23.85,
-      33.18,
-      40.77,
-      48.16,
-      57.6
-     ]
-    },
-    {
-     "k": "Die OECD empfiehlt der Bundesregierung, die angekündigten Reformen im Bereich de",
-     "d": "59a9c178eb.mp3",
-     "l": 32.42,
-     "s": [
-      0.25,
-      11.39,
-      19.26
-     ]
-    }
-   ]
+   "version": 5
   },
   {
    "id": "dieseltrend-hoechststand-spritpreise",
@@ -2876,34 +2850,20 @@
     "titel": "Möglicher Exportstopp für Diesel in den USA"
    },
    "bildInfo": {
-    "titel": "Donald Trump official portrait.jpg",
-    "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-    "urheber": "Shealeah Craighead",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "art": "person",
-    "suchbegriff": "Donald Trump politician",
-    "bildunterschrift": "US-Präsident Donald Trump, der sich für einen Exportstopp für Diesel ausgesprochen hat.",
+    "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+    "beschreibung": "United Nations General Assembly Building, New York City",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+    "urheber": "Jakub Hałun",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "art": "institution",
+    "suchbegriff": "United Nations Headquarters",
+    "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, am Rande von deren Generaldebatte die Äußerung fiel.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump politician",
-     "bildunterschrift": "US-Präsident Donald Trump, der sich für einen Exportstopp für Diesel ausgesprochen hat.",
-     "hinweis": "Archivfoto"
-    },
     {
      "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
      "beschreibung": "United Nations General Assembly Building, New York City",
@@ -8100,7 +8060,7 @@
       0.25,
       7.03,
       13.35,
-      21.0,
+      21,
       29.2,
       34.07
      ]

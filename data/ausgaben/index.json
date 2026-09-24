@@ -1,5 +1,12 @@
 [
  {
+  "id": "2026-09-24-06",
+  "name": "6-Uhr-Ausgabe",
+  "stunde": 6,
+  "zeit": "2026-09-24T04:40:40.415Z",
+  "anzahl": 12
+ },
+ {
   "id": "2026-09-23-21",
   "name": "21-Uhr-Ausgabe",
   "stunde": 21,

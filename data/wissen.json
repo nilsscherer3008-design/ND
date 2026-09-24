@@ -1,6 +1,178 @@
 {
- "stand": "2026-09-23T20:17:42.283Z",
+ "stand": "2026-09-24T04:40:40.415Z",
  "stuecke": [
+  {
+   "id": "wie-die-post-im-mittelalter-funktionierte",
+   "zeit": "2026-09-24T04:47:41.090Z",
+   "bereich": "Geschichte",
+   "titel": "Wie die Post im Mittelalter funktionierte",
+   "vorspann": "Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Die Geschichte der Post beschreibt die Entwicklung eines der Allgemeinheit zugänglichen Briefverkehrs. Im Mittelalter war die Nachrichtenübermittlung in Europa nach dem Untergang des Weströmischen Reiches stark reduziert. Die Schriftlichkeit ging zurück, und es gab keine reichsweite Bürokratie mehr. Im Hochmittelalter wurde die Nachrichtenübermittlung von der katholischen Kirche, den Herrschern und dem europäischen Fernhandel dominiert.",
+      "Die zentrale Lenkung der Kirche in Rom erzwang einen ständigen Schriftverkehr mit den Bistümern und Klöstern. Auch die Könige benötigten eine zentrale Kommunikation in ihren Ländern und setzten meist Fußboten ein. Im späten Mittelalter bildete sich ein Fernhandel mit länderübergreifender Kaufmannspost heraus. Private Briefe gab es kaum, weil Pergament sehr teuer war."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Herrscher und die Kirche setzten auf Boten für ihre Nachrichten. Die Boten nutzten oft Leihpferde von Herbergen oder Schiffe auf Flüssen. In vielen Regionen Deutschlands übernahmen Metzger den Austausch von Briefen. Auch Universitäten unterhielten eigene Botendienste.",
+      "Bedeutend wurden städtische Botenanstalten im Heiligen Römischen Reich. Sie beförderten gegen Bezahlung private Briefe und die Kaufmannspost. Diese Dienste waren untereinander vernetzt und beherrschten im sechzehnten Jahrhundert den größten Teil des Briefverkehrs. Erst nach dem Dreißigjährigen Krieg erfolgte ihr Niedergang."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Informationen über diese Zeit stammen aus historischen Überlieferungen und Schriften. So gibt es Aufzeichnungen über die Botendienste der Klöster, der Städte und der Universitäten. Auch über den Fernhandel und die Handelshäuser sind Dokumente erhalten geblieben. Historiker werten diese Quellen aus, um die Geschichte des Postwesens zu rekonstruieren."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Für manche Behauptungen gibt es laut den Berichten keine Beweise. So fand sich beispielsweise kein Beweis für die oft genannte Behauptung, dass bereits Karl der Große über Pferdestafetten verfügte."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Zeitraum der Inka-Blütezeit",
+     "13. bis 16. Jahrhundert"
+    ],
+    [
+     "Entfernung der Relaisstationen bei den Inka",
+     "3 bis 5 km"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Pergament",
+     "Ein Schreibmaterial aus Tierhaut, das im Mittelalter sehr teuer war."
+    ],
+    [
+     "Fernhandel",
+     "Ein Handel über große Distanzen hinweg, der im späten Mittelalter einen regen Schriftverkehr auslöste."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer dominierte im Hochmittelalter die Nachrichtenübermittlung in Europa?",
+     "optionen": [
+      "Nur private Händler",
+      "Die katholische Kirche, die Herrscher und der Fernhandel",
+      "Ausschließlich die Universitäten"
+     ],
+     "richtig": 1,
+     "erklaerung": "Laut dem Text wurde die Nachrichtenübermittlung im Hochmittelalter von der katholischen Kirche, den Herrschern und dem europäischen Fernhandel dominiert."
+    }
+   ],
+   "video": [
+    "Die Geschichte der Post beschreibt die Entwicklung des Briefverkehrs.",
+    "Im Mittelalter gab es in Europa eine stark reduzierte Nachrichtenübermittlung.",
+    "Die Schriftlichkeit ging nach dem Untergang des Weströmischen Reiches zurück.",
+    "Die katholische Kirche und die Herrscher benötigten einen ständigen Schriftverkehr.",
+    "Dafür setzten sie oft Fußboten ein.",
+    "Im späten Mittelalter entstand ein großer Fernhandel mit Kaufmannspost.",
+    "Private Briefe waren wegen des teuren Pergaments zunächst selten.",
+    "Später übernahmen städtische Botenanstalten und Metzger den Briefverkehr gegen Bezahlung."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Geschichte der Post",
+    "bildunterschrift": "Die Nachrichtenübermittlung hat sich über Jahrhunderte stark verändert."
+   },
+   "quelle": {
+    "titel": "Geschichte der Post",
+    "url": "https://de.wikipedia.org/wiki/Geschichte_der_Post",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 259,
+   "bildInfos": [
+    {
+     "titel": "Post Ilmenau.JPG",
+     "beschreibung": "Postgebäude von Ilmenau (Thüringen). Sitz der Ilmenauer Post zwischen 1880er-Jahren und 2003.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Post_Ilmenau.JPG/1280px-Post_Ilmenau.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Post_Ilmenau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Post_Ilmenau.JPG",
+     "urheber": "Michael Sander",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Post",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Die Nachrichtenübermittlung hat sich über Jahrhunderte stark verändert."
+    },
+    {
+     "titel": "Amarna Akkadian letter.png",
+     "beschreibung": "Amarna Akkadian letter",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Amarna_Akkadian_letter.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Amarna_Akkadian_letter.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Amarna_Akkadian_letter.png",
+     "urheber": "unbekannt",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Amarna Akkadian letter"
+    },
+    {
+     "titel": "DD Blasewitz Post Hermes 5200RP.jpg",
+     "beschreibung": "Darstellung, dass die Post kein Selbstzweck ist. Foto Juni 2025",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/DD_Blasewitz_Post_Hermes_5200RP.jpg/1280px-DD_Blasewitz_Post_Hermes_5200RP.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a8/DD_Blasewitz_Post_Hermes_5200RP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DD_Blasewitz_Post_Hermes_5200RP.jpg",
+     "urheber": "ErichanderElbe",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Darstellung, dass die Post kein Selbstzweck ist. Foto Juni 2025"
+    },
+    {
+     "titel": "DD Blasewitz Post Lokomotive 5189.P.jpg",
+     "beschreibung": "Die Bahn befördert die Post",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/DD_Blasewitz_Post_Lokomotive_5189.P.jpg/1280px-DD_Blasewitz_Post_Lokomotive_5189.P.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e4/DD_Blasewitz_Post_Lokomotive_5189.P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DD_Blasewitz_Post_Lokomotive_5189.P.jpg",
+     "urheber": "ErichanderElbe",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Die Bahn befördert die Post"
+    },
+    {
+     "titel": "DD Blasewitz Post Telefon 5188.P.jpg",
+     "beschreibung": "Die Telefonie als Teil neueren Postwesens",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/DD_Blasewitz_Post_Telefon_5188.P.jpg/1280px-DD_Blasewitz_Post_Telefon_5188.P.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d7/DD_Blasewitz_Post_Telefon_5188.P.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DD_Blasewitz_Post_Telefon_5188.P.jpg",
+     "urheber": "ErichanderElbe",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Die Telefonie als Teil neueren Postwesens"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Post Ilmenau.JPG",
+    "beschreibung": "Postgebäude von Ilmenau (Thüringen). Sitz der Ilmenauer Post zwischen 1880er-Jahren und 2003.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Post_Ilmenau.JPG/1280px-Post_Ilmenau.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Post_Ilmenau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Post_Ilmenau.JPG",
+    "urheber": "Michael Sander",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Post",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Die Nachrichtenübermittlung hat sich über Jahrhunderte stark verändert."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-gebaerdensprache",
    "zeit": "2026-09-23T20:22:20.250Z",
