@@ -1,6 +1,99 @@
 {
- "stand": "2026-09-24T04:40:40.415Z",
+ "stand": "2026-09-24T09:56:20.705Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-keilschrift",
+   "zeit": "2026-09-24T10:00:53.737Z",
+   "bereich": "Sprache und Kultur",
+   "titel": "Wie funktioniert eigentlich die Keilschrift?",
+   "vorspann": "Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Die Bezeichnung Keilschrift beruht auf den Grundelementen der Schrift: waagrechten, senkrechten und schrägen Keilen. Typische Textträger waren Tontafeln, die durch das Eindrücken eines Schreibgriffels in den weichen Ton beschrieben wurden. Die Sumerer erfanden die Keilschrift im alten Orient. Später wurde sie von zahlreichen anderen Völkern verwendet, darunter den Medern, Akkadern, Babyloniern, Assyrern, Hethitern und Persern.",
+      "Anfänglich war die Keilschrift eine Bilderschrift mit etwa 900 Piktogrammen und Ideogrammen. Sie entwickelte sich im Laufe der Zeit zu einer Silbenschrift und zu einer phonetischen Konsonantenschrift weiter. Schließlich wurde sie von anderen Schriftformen wie der phönizischen Schrift verdrängt und geriet in Vergessenheit. Die letzten Keilschrifttexte wurden in seleukidischer und parthischer Zeit verfasst."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die frühe sumerische Schriftkultur stand zunächst nur der Tempeladministration für das Steuerwesen und die Verwaltung zur Verfügung. In Kisch wurden Kalksteintäfelchen mit sehr alten Zeichen gefunden. Viele Wörter entstanden durch das Zusammenschreiben verschiedener Piktogramme. Ein Stern stand beispielsweise als Piktogramm für Stern und als Ideogramm für Himmel oder Gott.",
+      "Um das Jahr 2700 vor Christus erhielt die Schrift ihre typische Form mit Keilen, weil die Tempelbürokratie in Uruk, Ur und Lagaš mehr Schriftstücke produzierte. Später verwendeten die Menschen die Zeichen immer mehr für Lautwerte statt nur für Bilder. Die babylonische Keilschrift verfügte im Wesentlichen über Logogramme, Phonogramme und Determinative."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Italiener Pietro della Valle kopierte 1621 erstmals Keilschriftzeichen von einem Ziegel aus Persepolis. Der deutsche Arzt Engelbert Kaempfer prägte im Jahr 1685 die Bezeichnung Keilschrift. Der deutsche Philologe Georg Friedrich Grotefend entschlüsselte im Sommer 1802 einen großen Teil der persischen Keilschriftzeichen ohne parallele Textfassungen.",
+      "Weitere Fortschritte brachten die Behistun-Inschrift und die Arbeit von Forschern wie Henry Creswicke Rawlinson. Im Jahr 1857 prüfte eine Kommission Übersetzungen von vier Gelehrten, wodurch die akkadische Keilschrift als entziffert galt. Anfang des zwanzigsten Jahrhunderts entzifferte Bedřich Hrozný zudem die Schriftsprache der Hethiter."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Wikipedia-Artikel enthält keine Informationen darüber, welche Fragen zur Keilschrift in der heutigen Forschung noch völlig ungeklärt sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erfindung der Keilschrift",
+     "Etwa um 3300 v. Chr."
+    ],
+    [
+     "Entschlüsselung durch Georg Friedrich Grotefend",
+     "Sommer 1802"
+    ],
+    [
+     "Zeichen der persischen Keilschrift",
+     "34 Zeichen"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Keilschrift",
+     "Ein altes Schriftsystem aus dem Vorderen Orient, bei dem Keile in Ton gedrückt wurden."
+    ],
+    [
+     "Piktogramm",
+     "Ein Bildzeichen, das einen konkreten Gegenstand oder ein Wesen darstellt."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer hat die Keilschrift erfunden?",
+     "optionen": [
+      "Die Sumerer",
+      "Die Römer",
+      "Die Griechen"
+     ],
+     "richtig": 0,
+     "erklaerung": "Laut dem Wikipedia-Artikel wurde die Keilschrift von den Sumerern erfunden."
+    }
+   ],
+   "video": [
+    "Die Keilschrift ist eine der ältesten Schriften der Welt.",
+    "Sie wurde im vierten Jahrtausend vor Christus erfunden.",
+    "Menschen drückten dafür Keile mit einem Griffel in weichen Ton.",
+    "Anfangs bestand die Schrift aus vielen verschiedenen Bildern.",
+    "Später entwickelten sich daraus Silben und Lautzeichen.",
+    "Völker wie die Babylonier und Hethiter nutzten diese Schrift.",
+    "Im Laufe der Zeit wurde sie durch andere Schriften verdrängt.",
+    "Forscher brauchten lange, um die Zeichen wieder zu entziffern."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Keilschrift Tontafel",
+    "bildunterschrift": "Eine Tontafel mit eingedrückter Keilschrift aus dem Alten Orient."
+   },
+   "quelle": {
+    "titel": "Keilschrift",
+    "url": "https://de.wikipedia.org/wiki/Keilschrift",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 313
+  },
   {
    "id": "wie-die-post-im-mittelalter-funktionierte",
    "zeit": "2026-09-24T04:47:41.090Z",
