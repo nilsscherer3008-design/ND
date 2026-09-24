@@ -1,0 +1,26 @@
+{
+  "id": "/ND/?app=podcast",
+  "name": "Streitfrage · der Podcast",
+  "short_name": "Streitfrage",
+  "description": "Ein Thema, mehrere Stimmen: worin die Medien einig sind und wo nicht.",
+  "lang": "de",
+  "start_url": "./?app=podcast",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#4A2A6B",
+  "theme_color": "#4A2A6B",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

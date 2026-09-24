@@ -1,0 +1,26 @@
+{
+  "id": "/ND/?app=wetter",
+  "name": "Wetter · Nachrichten-Heft",
+  "short_name": "Wetter",
+  "description": "Sieben Tage – und wie sicher die Vorhersage wirklich ist.",
+  "lang": "de",
+  "start_url": "./?app=wetter",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0E4F6E",
+  "theme_color": "#0E4F6E",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

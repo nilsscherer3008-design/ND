@@ -1084,8 +1084,9 @@ async function wetterHolen(jetzt) {
   const url = "https://api.open-meteo.com/v1/forecast?" + new URLSearchParams({
     latitude: WETTER_ORTE.map(o => o.lat).join(","),
     longitude: WETTER_ORTE.map(o => o.lon).join(","),
-    daily: "weather_code,temperature_2m_max,temperature_2m_min",
-    timezone: "Europe/Berlin", forecast_days: "2"
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,sunrise,sunset",
+    current: "temperature_2m,weather_code,wind_speed_10m,relative_humidity_2m",
+    timezone: "Europe/Berlin", forecast_days: "7"
   });
   const r = await fetch(url, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error("Wetterdienst antwortet nicht (" + r.status + ")");
@@ -1094,8 +1095,20 @@ async function wetterHolen(jetzt) {
   const orte = WETTER_ORTE.map((o, i) => {
     const d = liste[i]?.daily;
     if (!d || !d.temperature_2m_max) return null;
-    const tag = k => ({ code: d.weather_code[k], max: Math.round(d.temperature_2m_max[k]), min: Math.round(d.temperature_2m_min[k]) });
-    return { ...o, heute: tag(0), morgen: tag(1) };
+    const tag = k => ({
+      datum: d.time?.[k],
+      code: d.weather_code[k],
+      max: Math.round(d.temperature_2m_max[k]),
+      min: Math.round(d.temperature_2m_min[k]),
+      regen: d.precipitation_probability_max?.[k] == null ? null : Math.round(d.precipitation_probability_max[k]),
+      wind: d.wind_speed_10m_max?.[k] == null ? null : Math.round(d.wind_speed_10m_max[k]),
+      auf: (d.sunrise?.[k] || "").slice(11, 16), unter: (d.sunset?.[k] || "").slice(11, 16)
+    });
+    const c = liste[i]?.current;
+    const jetztWert = c ? { grad: Math.round(c.temperature_2m), code: c.weather_code,
+      wind: Math.round(c.wind_speed_10m || 0), feuchte: Math.round(c.relative_humidity_2m || 0) } : null;
+    const tage = d.time ? d.time.map((_, k) => tag(k)) : [tag(0), tag(1)];
+    return { ...o, jetzt: jetztWert, heute: tag(0), morgen: tag(1), tage };
   }).filter(Boolean);
   if (orte.length < 3) throw new Error("zu wenige Messwerte");
   const morgen = new Date(+jetzt + 24 * 36e5);

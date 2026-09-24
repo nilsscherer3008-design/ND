@@ -209,6 +209,90 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
   font-size:clamp(.95rem,4vw,1.3rem);text-shadow:0 2px 10px rgba(0,0,0,.6)}
 .kb-credit{position:absolute;right:6px;bottom:6px;z-index:2;font-family:var(--head);font-size:.58rem;color:#fff;
   background:rgba(0,0,0,.5);padding:2px 6px;border-radius:4px;max-width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* ---- Vier Apps, vier Farben ---- */
+html[data-app="wissen"]{--bar:#12512F;--bar-2:#1D7A4C;--link:#14603C}
+html[data-app="wetter"]{--bar:#0E4F6E;--bar-2:#1C7CA6;--link:#0E5B7E}
+html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
+/* Schwester-Apps im Heft */
+.schwestern{display:flex;flex-direction:column;gap:9px}
+.schwester{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit;
+  border:1px solid var(--line);border-left:4px solid var(--sf);border-radius:14px;padding:13px 15px;background:var(--card)}
+.sw-sym{font-size:1.5rem;line-height:1}
+.sw-text{flex:1;min-width:0}
+.sw-text b{display:block;font-family:var(--head);font-size:1rem}
+.sw-text small{display:block;color:var(--muted);font-size:.84rem;margin-top:2px;line-height:1.35}
+.sw-pfeil{color:var(--muted);font-size:1.3rem}
+/* ---- Wetter-App ---- */
+.w-sym{display:inline-block;vertical-align:middle;overflow:visible}
+.wetter-jetzt{border-radius:18px;padding:20px 18px;margin:12px 0 4px;color:#fff;
+  background:linear-gradient(160deg,var(--wf) 0%,color-mix(in srgb,var(--wf) 70%,#000) 100%)}
+.wj-ort{font-family:var(--head);font-weight:800;font-size:1.3rem}
+.wj-ort small{display:block;font-weight:400;font-size:.84rem;opacity:.75;margin-top:1px}
+.wj-zahl{display:flex;align-items:center;gap:8px;margin:6px 0 0}
+.wj-zahl b{font-family:var(--head);font-size:4rem;line-height:1;font-weight:800;letter-spacing:-.03em}
+/* Die Symbolfarben galten bisher nur innerhalb der Wetterkarte - überall sonst
+   blieben die Formen schwarz. Hier gelten sie für jedes .w-sym. */
+.w-sym .w-sonne{fill:#F5B93C}
+.w-sym .w-strahl{stroke:#F5B93C;stroke-width:2.2;stroke-linecap:round}
+.w-sym .w-wolke{fill:#9DB4CC}
+.w-sym .w-wolke2,.w-sym .w-nebel{stroke:#9DB4CC;stroke-width:2;stroke-linecap:round;fill:none}
+.w-sym .w-nebel{opacity:.75}
+.w-sym .w-regen{stroke:#3E9BD6;stroke-width:2.4;stroke-linecap:round;fill:none}
+.w-sym .w-flocke path{stroke:#6FB6E8;stroke-width:1.6;stroke-linecap:round;fill:none}
+.w-sym .w-blitz{fill:#E8A317}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .w-sym .w-wolke{fill:#C3D3E4}
+  :root:not([data-theme="light"]) .w-sym .w-wolke2,
+  :root:not([data-theme="light"]) .w-sym .w-nebel{stroke:#C3D3E4}
+}
+/* Im großen Kasten oben steht alles auf Farbe, da darf es heller sein. */
+.wj-symbol .w-sym .w-sonne{fill:#FFD466}
+.wj-symbol .w-sym .w-strahl{stroke:#FFD466}
+.wj-symbol .w-sym .w-wolke{fill:#EAF1F8}
+.wj-symbol .w-sym .w-wolke2,.wj-symbol .w-sym .w-nebel{stroke:#EAF1F8}
+.wj-symbol .w-sym .w-regen{stroke:#9CD8FF}
+.wj-symbol .w-sym .w-flocke path{stroke:#DCEEFF}
+.wj-text{font-size:1rem;opacity:.9;margin-top:2px}
+.wj-zeile{display:flex;flex-wrap:wrap;gap:14px 20px;margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.25)}
+.wj-zeile div b{display:block;font-family:var(--head);font-size:1.05rem;font-weight:700}
+.wj-zeile div span{display:block;font-size:.74rem;opacity:.75;margin-top:1px}
+.wt-liste{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
+.wt-tag{display:flex;align-items:center;gap:8px;padding:9px 13px;border-top:1px solid var(--line)}
+.wt-tag:first-child{border-top:0}
+.wt-wann{flex:0 0 62px;font-family:var(--head);font-weight:700;font-size:.9rem}
+.wt-wann small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+.wt-sym{flex:0 0 36px;display:flex;justify-content:center}
+.wt-regen{flex:0 0 34px;font-size:.74rem;color:var(--bar-2);font-family:var(--head);font-weight:700}
+.wt-min,.wt-max{flex:0 0 32px;font-family:var(--head);font-weight:700;text-align:right}
+.wt-min{color:var(--muted)}
+.wt-spur{flex:1;height:6px;border-radius:3px;background:var(--line);position:relative;margin:0 6px}
+.wt-spur i{position:absolute;top:0;bottom:0;border-radius:3px;
+  background:linear-gradient(90deg,#4FA3D1,#E0A126)}
+.wo-liste{display:flex;flex-direction:column;gap:8px}
+.wo-ort{display:flex;align-items:center;gap:12px;width:100%;text-align:left;cursor:pointer;
+  border:1px solid var(--line);border-radius:14px;padding:11px 14px;background:var(--card);color:inherit;font:inherit}
+.wo-ort.an{border-color:var(--bar-2);border-width:2px}
+.wo-name{flex:1;font-family:var(--head);font-weight:700}
+.wo-name small{display:block;font-weight:400;color:var(--muted);font-size:.8rem}
+.wo-grad{font-family:var(--head);font-weight:800;font-size:1.2rem}
+.wo-grad small{font-weight:400;color:var(--muted);font-size:.85rem;margin-left:5px}
+.mv-ort{border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:8px;background:var(--card)}
+.mv-ort > b{font-family:var(--head)}
+.mv-spanne{float:right;font-family:var(--head);font-size:.74rem;font-weight:700;color:var(--muted)}
+.mv-spanne.weit{color:#B07A12}
+.w-fuss{font-size:.74rem;color:var(--muted);margin:14px 0 0}
+/* ---- Podcast-App ---- */
+.folge{border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:11px;background:var(--card)}
+.fo-kopf{display:flex;gap:9px;flex-wrap:wrap;align-items:center;font-family:var(--head);font-size:.74rem;
+  color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:7px}
+.fo-art{background:var(--bar-2);color:#fff;padding:2px 8px;border-radius:999px;letter-spacing:.04em}
+.folge h3{font-family:var(--head);font-size:1.1rem;margin:0 0 6px;line-height:1.25}
+.folge p{margin:0 0 8px;font-size:.93rem;line-height:1.45}
+.fo-wer{color:var(--muted);font-size:.82rem}
+.folge audio{width:100%;margin-top:6px}
+.abo-feld{display:flex;gap:9px;align-items:center;flex-wrap:wrap;border:1px solid var(--line);
+  border-radius:14px;padding:13px 15px;background:var(--card);margin:10px 0}
+.abo-feld code{flex:1;min-width:0;word-break:break-all;font-size:.84rem}
 /* Wettermodelle im Vergleich */
 .modellvgl{border:1px solid var(--line);border-left:4px solid #E0A126;border-radius:14px;
   padding:13px 15px;margin:10px 0;background:var(--card)}
@@ -893,6 +977,46 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 <footer class="wrap">Zusammenfassungen von einer KI in eigenen Worten, keine Übernahme von Originaltexten. Für alle Einzelheiten gilt der verlinkte Originalbericht.</footer>
 
 <script>
+// ---------- Vier Apps aus einer Datei ----------
+// Dieselbe Seite, vier Gesichter. Welches gilt, steht in der Adresse (?app=wetter).
+// Jede Betriebsart hat eigenen Namen, eigene Farbe, eigene Leiste unten und ein
+// eigenes Manifest - dadurch installieren sie sich als vier getrennte Apps.
+const APPS = {
+  heft: {
+    name: "Nachrichten-Heft", zusatz: "· neutral", farbe: "#0D2B55", symbol: "📰",
+    start: "#/", manifest: "manifest.webmanifest",
+    leiste: [["#/", "heft", "📰", "Heft"], ["#/videos", "videos", "▶", "Videos"],
+             ["#/archiv", "archiv", "🔍", "Suche"], ["#/merkliste", "merkliste", "★", "Merkliste"],
+             ["#/mehr", "mehr", "☰", "Mehr"]]
+  },
+  wissen: {
+    name: "Warum eigentlich?", zusatz: "", farbe: "#12512F", symbol: "💡",
+    start: "#/wissen", manifest: "manifest-wissen.webmanifest",
+    leiste: [["#/wissen", "wissen", "💡", "Stücke"], ["#/doku", "doku", "🎬", "Dokus"],
+             ["#/merkliste", "merkliste", "★", "Merkliste"], ["#/mehr", "mehr", "☰", "Mehr"]]
+  },
+  wetter: {
+    name: "Wetter", zusatz: "· Nachrichten-Heft", farbe: "#0E4F6E", symbol: "🌦",
+    start: "#/wetter", manifest: "manifest-wetter.webmanifest",
+    leiste: [["#/wetter", "wetter", "🌦", "Wetter"], ["#/wetter-orte", "orte", "📍", "Orte"],
+             ["#/wetter-modelle", "modelle", "⚖", "Vergleich"], ["#/mehr", "mehr", "☰", "Mehr"]]
+  },
+  podcast: {
+    name: "Streitfrage", zusatz: "· der Podcast", farbe: "#4A2A6B", symbol: "🎙",
+    start: "#/podcast", manifest: "manifest-podcast.webmanifest",
+    leiste: [["#/podcast", "podcast", "🎙", "Folgen"], ["#/abo", "abo", "＋", "Abonnieren"],
+             ["#/mehr", "mehr", "☰", "Mehr"]]
+  }
+};
+const MODUS = (() => {
+  const p = new URLSearchParams(location.search).get("app");
+  if (p && APPS[p]) { try { localStorage.setItem("heft-app", p); } catch {} return p; }
+  try { const g = localStorage.getItem("heft-app"); if (g && APPS[g]) return g; } catch {}
+  return "heft";
+})();
+const APP = APPS[MODUS];
+const istHeft = MODUS === "heft";
+
 const RUBRIKEN = ["Alle","Deutschland","Welt","Wirtschaft","Wissen & Klima","Sport","Region"];
 let NACHRICHTEN = [];
 let DATEN = { stand:null, ntfyTopic:"" };
@@ -958,7 +1082,10 @@ function band(){
   else if (DATEN.stand){
     const std = (Date.now() - new Date(DATEN.stand)) / 36e5;
     const h = stundeBerlin(new Date());
-    if (std > 3 && h >= 7 && h <= 22) text = `Hinweis: Die letzte Aktualisierung ist ${Math.floor(std)} Stunden her. Neue Nachrichten fehlen möglicherweise.`;
+    // Der Hinweis gilt den Nachrichten. In den anderen Apps wäre er nur verwirrend.
+    const was = MODUS === "wetter" ? "Wetterdaten" : MODUS === "wissen" ? "Stücke" : MODUS === "podcast" ? "Folgen" : "Nachrichten";
+    if (std > 3 && h >= 7 && h <= 22 && MODUS !== "podcast")
+      text = `Hinweis: Die letzte Aktualisierung ist ${Math.floor(std)} Stunden her. Neue ${was} fehlen möglicherweise.`;
   }
   t.textContent = text; el.hidden = !text;
 }
@@ -1156,6 +1283,157 @@ function uneinigSeite(){
          Das kommt vor – schau später noch einmal vorbei.</div>`}`;
   window.scrollTo(0, 0);
 }
+// ================= Die Wetter-App =================
+const WTAG = d => { try { return new Intl.DateTimeFormat("de-DE", { weekday:"short" }).format(new Date(d)); } catch { return ""; } };
+const WDATUM = d => { try { return new Intl.DateTimeFormat("de-DE", { day:"2-digit", month:"2-digit" }).format(new Date(d)); } catch { return ""; } };
+
+function wetterOrt(){
+  try { const g = localStorage.getItem("heft-ort"); if (g) return g; } catch {}
+  return (DATEN.wetter?.orte?.[0]?.name) || "";
+}
+function wetterOrtSetzen(n){ try { localStorage.setItem("heft-ort", n); } catch {} wetterSeite(); window.scrollTo(0,0); }
+
+function wetterSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const w = DATEN.wetter;
+  if (!w?.orte?.length){
+    $app.innerHTML = `<div class="empty"><strong>Noch keine Wetterdaten.</strong><br>Beim nächsten Lauf sind sie da.</div>`;
+    return;
+  }
+  const name = wetterOrt();
+  const o = w.orte.find(x => x.name === name) || w.orte[0];
+  const jetzt = o.jetzt || { grad: o.heute.max, code: o.heute.code };
+  const tage = (o.tage && o.tage.length > 2) ? o.tage : [o.heute, o.morgen];
+  const alleMax = tage.map(t => t.max), alleMin = tage.map(t => t.min);
+  const hoch = Math.max(...alleMax), tief = Math.min(...alleMin);
+  const balken = t => {
+    const a = ((t.min - tief) / Math.max(1, hoch - tief)) * 100;
+    const b = ((t.max - t.min) / Math.max(1, hoch - tief)) * 100;
+    return `<span class="wt-spur"><i style="left:${a.toFixed(0)}%;width:${Math.max(6, b).toFixed(0)}%"></i></span>`;
+  };
+  $app.innerHTML = `
+    <section class="wetter-jetzt" style="--wf:${APP.farbe}">
+      <div class="wj-ort">${esc(o.name)}<small>${esc(o.teil || "")}</small></div>
+      <div class="wj-zahl"><span class="wj-symbol">${wetterBild(jetzt.code, 92)}</span><b>${esc(jetzt.grad)}°</b></div>
+      <div class="wj-text">${esc(wetterWort(jetzt.code))}</div>
+      <div class="wj-zeile">
+        <div><b>${esc(o.heute.max)}°</b><span>höchste</span></div>
+        <div><b>${esc(o.heute.min)}°</b><span>tiefste</span></div>
+        ${o.heute.regen != null ? `<div><b>${esc(o.heute.regen)}%</b><span>Regen</span></div>` : ""}
+        ${jetzt.wind != null ? `<div><b>${esc(jetzt.wind)}</b><span>km/h Wind</span></div>` : ""}
+        ${o.heute.auf ? `<div><b>${esc(o.heute.auf)}</b><span>Sonnenaufgang</span></div>` : ""}
+        ${o.heute.unter ? `<div><b>${esc(o.heute.unter)}</b><span>Sonnenuntergang</span></div>` : ""}
+      </div>
+    </section>
+
+    <h2 class="abschnitt">Die nächsten Tage</h2>
+    <div class="wt-liste">${tage.map((t, i) => `<div class="wt-tag">
+      <span class="wt-wann">${i === 0 ? "Heute" : esc(WTAG(t.datum) || "morgen")}<small>${esc(WDATUM(t.datum))}</small></span>
+      <span class="wt-sym">${wetterBild(t.code, 34)}</span>
+      <span class="wt-regen">${t.regen != null && t.regen >= 20 ? esc(t.regen) + "%" : ""}</span>
+      <span class="wt-min">${esc(t.min)}°</span>${balken(t)}<span class="wt-max">${esc(t.max)}°</span>
+    </div>`).join("")}</div>
+
+    <h2 class="abschnitt">Deutschland im Überblick</h2>
+    <div class="wk-box">${wetterKarteSVG(w, "heute")}
+      <div class="wk-band"><b>Heute</b><span>Morgen (${esc(w.morgenTag)})</span></div></div>
+
+    ${modellVergleichHTML(w)}
+    <p class="w-fuss">${esc(w.quelle)} · Karte: GeoBasis-DE / BKG (dl-de/by-2-0)</p>`;
+  window.scrollTo(0, 0);
+}
+
+function wetterOrteSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const w = DATEN.wetter;
+  if (!w?.orte?.length){ $app.innerHTML = `<div class="empty"><strong>Noch keine Wetterdaten.</strong></div>`; return; }
+  const aktiv = wetterOrt();
+  $app.innerHTML = `<h1 class="seiten-titel">Orte</h1>
+    <p class="seiten-text">Tipp einen Ort an, dann steht er oben in der Wetter-App.</p>
+    <div class="wo-liste">${w.orte.map(o => `<button class="wo-ort${o.name === aktiv ? " an" : ""}" data-o="${esc(o.name)}">
+      <span class="wo-name">${esc(o.name)}<small>${esc(o.teil || "")}</small></span>
+      <span class="wo-sym">${wetterBild(o.heute.code, 32)}</span>
+      <span class="wo-grad">${esc(o.heute.max)}°<small>${esc(o.heute.min)}°</small></span></button>`).join("")}</div>`;
+  $app.querySelectorAll(".wo-ort").forEach(b => b.onclick = () => { wetterOrtSetzen(b.dataset.o); location.hash = "#/wetter"; });
+}
+
+function wetterModelleSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const w = DATEN.wetter, m = w && w.modelle;
+  $app.innerHTML = `<h1 class="seiten-titel">Wie sicher ist die Vorhersage?</h1>
+    <p class="seiten-text">Wetterdienste rechnen mit verschiedenen Modellen, und die sind sich oft uneinig.
+      Die meisten Apps zeigen eine Zahl und tun so, als wäre sie sicher. Hier steht, wo sie auseinandergehen.</p>
+    ${!m || !(m.orte || []).length ? `<div class="empty"><strong>Der Vergleich kommt beim nächsten Lauf.</strong></div>`
+      : `${modellVergleichHTML(w)}
+         <h2 class="abschnitt">Alle Orte</h2>
+         <div class="wo-liste">${m.orte.map(o => {
+           const g = o.je.map(x => x.grad), spanne = Math.max(...g) - Math.min(...g);
+           return `<div class="mv-ort"><b>${esc(o.name)}</b>
+             <span class="mv-spanne${spanne >= 3 ? " weit" : ""}">${spanne === 0 ? "einig" : "±" + esc(spanne) + " Grad"}</span>
+             <div class="mv-reihe">${o.je.map(x => `<div class="mv-modell"><b>${esc(x.grad)}°</b><span>${esc(x.name)}</span></div>`).join("")}</div></div>`;
+         }).join("")}</div>`}`;
+  window.scrollTo(0, 0);
+}
+
+// ================= Die Podcast-App =================
+function podcastSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const f = PODCAST_FOLGEN;
+  $app.innerHTML = `<h1 class="seiten-titel">${esc(APP.name)}</h1>
+    <p class="seiten-text">Ein Thema, mehrere Stimmen: worin sich die Medien einig sind und wo sie auseinandergehen.
+      Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten.</p>
+    ${f.length ? f.map(folgenKarte).join("")
+      : `<div class="empty"><strong>Noch keine Folge.</strong><br>Jeden Abend kommt eine dazu.</div>`}
+    <p class="mehr-zeile"><a href="#/abo">In einer Podcast-App abonnieren ›</a></p>`;
+  $app.querySelectorAll("audio").forEach(a => a.onplay = () => {
+    $app.querySelectorAll("audio").forEach(b => { if (b !== a) b.pause(); });
+  });
+  window.scrollTo(0, 0);
+}
+const minuten = sek => `${Math.max(1, Math.round((sek || 0) / 60))} Min.`;
+function folgenKarte(f){
+  return `<article class="folge">
+    <div class="fo-kopf"><span class="fo-art">${f.art === "podcast" ? "Gespräch" : "Sendung"}</span>
+      <span>${esc(fmtZeit(f.zeit))}</span><span>${esc(minuten(f.l))}</span></div>
+    <h3>${esc(f.titel)}</h3>
+    ${f.text ? `<p>${esc(f.text)}</p>` : ""}
+    ${(f.besetzung || []).length ? `<p class="fo-wer">Mit ${esc(f.besetzung.join(", "))}</p>` : ""}
+    <audio controls preload="none" src="${esc(tonBasis() + f.d)}"></audio>
+  </article>`;
+}
+function aboSeite(){
+  document.getElementById("rubNav").hidden = true;
+  const url = (location.origin + location.pathname).replace(/\/[^/]*$/, "/") + "data/feed.xml";
+  $app.innerHTML = `<h1 class="seiten-titel">Abonnieren</h1>
+    <p class="seiten-text">Trag diese Adresse in deiner Podcast-App ein – dann kommen neue Folgen von selbst.</p>
+    <div class="abo-feld"><code id="abourl">${esc(url)}</code>
+      <button class="btn" id="aboKopie">Kopieren</button></div>
+    <p class="seiten-text">In Spotify, Apple Podcasts, AntennaPod oder Pocket Casts gibt es dafür
+      „Podcast per Adresse hinzufügen" oder „RSS-Feed hinzufügen".</p>`;
+  document.getElementById("aboKopie").onclick = async () => {
+    try { await navigator.clipboard.writeText(url); document.getElementById("aboKopie").textContent = "Kopiert"; }
+    catch { const r = document.createRange(); r.selectNode(document.getElementById("abourl"));
+      getSelection().removeAllRanges(); getSelection().addRange(r); }
+  };
+}
+
+// Im Heft stehen Wissen, Wetter und Podcast nicht mehr drin - sie sind eigene Apps.
+// Dieses Band führt hin, damit man sie überhaupt findet.
+function schwesterBand(){
+  const andere = Object.entries(APPS).filter(([k]) => k !== MODUS);
+  return `<section class="videos"><h2 class="abschnitt">Auch vom Nachrichten-Heft</h2>
+    <div class="schwestern">${andere.map(([k, a]) => `<a class="schwester" href="?app=${k}" style="--sf:${a.farbe}">
+      <span class="sw-sym">${a.symbol}</span>
+      <span class="sw-text"><b>${esc(a.name)}</b><small>${esc(SCHWESTER_TEXT[k] || "")}</small></span>
+      <span class="sw-pfeil" aria-hidden="true">›</span></a>`).join("")}</div>
+    <p class="mehr-zeile">Jede lässt sich einzeln aufs Handy legen.</p></section>`;
+}
+const SCHWESTER_TEXT = {
+  heft: "Nachrichten aus mehreren Quellen verglichen",
+  wissen: "Wie etwas funktioniert – erklärt statt gemeldet",
+  wetter: "Sieben Tage, und wie sicher die Vorhersage ist",
+  podcast: "Ein Thema, mehrere Stimmen, jeden Abend"
+};
 function wissenLeiste(){
   if (!WISSEN.length && !DOKU.length) return "";
   return `<section class="videos"><h2 class="abschnitt">${esc(WISSEN_TITEL)} <small>· erklärt statt gemeldet</small></h2>
@@ -1252,7 +1530,9 @@ function startseite(rubrik){
     html += `<a class="eil" href="#/n/${esc(eil.id)}"><div class="eil-label"><i aria-hidden="true"></i>EILMELDUNG · ${esc(fmtZeit(eil.zeit))}</div>
       <h2>${esc(eil.titel)}</h2><p>${esc(eil.vorspann)}</p></a>`;
   }
-  if (rubrik === "Alle") html += uneinigBand() + `<a class="story-start" href="#/story">📱 Schlagzeilen durchwischen (Story-Modus)</a>` + sendungsLeiste() + kurzvideoLeiste() + videoLeiste() + wissenLeiste() + wetterLeiste();
+  if (rubrik === "Alle") html += uneinigBand() + `<a class="story-start" href="#/story">📱 Schlagzeilen durchwischen (Story-Modus)</a>`
+    + sendungsLeiste() + kurzvideoLeiste() + videoLeiste()
+    + (istHeft ? schwesterBand() : wissenLeiste() + wetterLeiste());
   else if (liste.length >= 2) html += `<section class="videos"><div class="vreihe"><a class="vkarte sendung" href="#/video/rubrik/${slug(rubrik)}">
       <span class="vk-text"><b>▶ ${esc(rubrik)} als Video</b><small>${liste.length} Themen</small></span></a></div></section>`;
   html += liste.length ? `<div class="list">${liste.map(n => karte(n)).join("")}</div>`
@@ -1904,6 +2184,14 @@ const WETTER_ART = { 0:"sonne", 1:"heiter", 2:"wolkig", 3:"bedeckt", 45:"nebel",
   71:"schnee", 73:"schnee", 75:"schnee", 77:"schnee",
   80:"schauer", 81:"schauer", 82:"starkregen", 85:"schnee", 86:"schnee",
   95:"gewitter", 96:"gewitter", 99:"gewitter" };
+const WETTER_WORT = { sonne:"klar und sonnig", heiter:"heiter", wolkig:"wechselnd bewölkt", bedeckt:"bedeckt",
+  nebel:"neblig", niesel:"Nieselregen", leichtregen:"leichter Regen", regen:"Regen", starkregen:"kräftiger Regen",
+  schauer:"Schauer", schnee:"Schnee", gewitter:"Gewitter" };
+const wetterWort = code => WETTER_WORT[WETTER_ART[code] || "wolkig"] || "wechselnd bewölkt";
+// wetterSymbol liefert nur den Inhalt. Fürs Einsetzen in normalen Text braucht es eine Hülle.
+const wetterBild = (code, groesse = 44) =>
+  `<svg class="w-sym" viewBox="-24 -20 48 40" width="${groesse}" height="${Math.round(groesse * 40 / 48)}"
+     aria-hidden="true">${wetterSymbol(code)}</svg>`;
 const WOLKE = '<path d="M-13 5c-4 0-7-3-7-6.5S-17-8-13-8c1-4 5-7 9-7 5 0 9 3.5 10 8 3.5.3 6 3 6 6s-3 6-6.5 6z" class="w-wolke"/>';
 const TROPFEN = n => Array.from({ length:n }, (_, i) => `<path d="M${-7 + i * 7} 8l-2 6" class="w-regen"/>`).join("");
 function wetterSymbol(code){
@@ -2302,6 +2590,7 @@ const FORMATE = {
   "kurzvideo": { name:"Kurzvideos", kurz:"Kurz", quer:false, hochkant:true, rate:0.9 }
 };
 let WOCHE = null, AUSGABEN = [], AUSGABE_DATEN = {}, WISSEN = [], DOKU = [], DOKU_ARBEIT = null;
+let PODCAST_FOLGEN = [];
 const SENDEZEITEN = [6, 9, 12, 15, 18, 21];
 // Der Wochenrückblick läuft nur sonntags – sonst wiederholt er bloß, was ohnehin in der App steht.
 const WOCHE_TAGE = ["Sun"];
@@ -3249,21 +3538,57 @@ function route(){
   else if (h.startsWith("#/merkliste")) merklisteSeite();
   else if (h.startsWith("#/story")) storySeite();
   else if (h.startsWith("#/videos")) videoSeite();
+  else if (h.startsWith("#/wetter-orte")) wetterOrteSeite();
+  else if (h.startsWith("#/wetter-modelle")) wetterModelleSeite();
+  else if (h.startsWith("#/wetter")) wetterSeite();
+  else if (h.startsWith("#/podcast")) podcastSeite();
+  else if (h.startsWith("#/abo")) aboSeite();
   else if (h.startsWith("#/uneinig")) uneinigSeite();
   else if (h.startsWith("#/mehr")) mehrSeite();
+  else if (MODUS === "wetter") wetterSeite();
+  else if (MODUS === "podcast") podcastSeite();
+  else if (MODUS === "wissen") wissenSeite();
   else startseite("Alle");
   window.scrollTo(0,0);
   tabsMarkieren();
 }
 function tabsMarkieren(){
   const h = location.hash || "#/";
-  const wo = h.startsWith("#/videos") || h.startsWith("#/video/") ? "videos"
+  const wo = h.startsWith("#/wetter-orte") ? "orte"
+    : h.startsWith("#/wetter-modelle") ? "modelle"
+    : h.startsWith("#/wetter") ? "wetter"
+    : h.startsWith("#/abo") ? "abo"
+    : h.startsWith("#/podcast") ? "podcast"
+    : h.startsWith("#/doku") ? (MODUS === "wissen" ? "doku" : "wissen")
+    : h.startsWith("#/videos") || h.startsWith("#/video/") ? "videos"
     : h.startsWith("#/archiv") ? "archiv"
     : h.startsWith("#/merkliste") ? "merkliste"
-    : h.startsWith("#/wissen") || h.startsWith("#/doku") ? "wissen"
-    : h.startsWith("#/mehr") || h.startsWith("#/eil") || h.startsWith("#/medien") ? "mehr" : "heft";
+    : h.startsWith("#/wissen") ? "wissen"
+    : h.startsWith("#/mehr") || h.startsWith("#/eil") || h.startsWith("#/medien") ? "mehr"
+    : MODUS === "heft" ? "heft" : APP.leiste[0][1];
   document.querySelectorAll(".tableiste a").forEach(a => a.setAttribute("aria-current", a.dataset.t === wo ? "page" : "false"));
 }
+// Kopfzeile, Leiste und Farbe richten sich nach der Betriebsart.
+function appEinrichten(){
+  document.documentElement.dataset.app = MODUS;
+  const marke = document.querySelector(".brand");
+  if (marke){ marke.innerHTML = esc(APP.name) + (APP.zusatz ? ` <span>${esc(APP.zusatz)}</span>` : "");
+    marke.setAttribute("href", APP.start); }
+  document.title = APP.name + (APP.zusatz ? " " + APP.zusatz : "");
+  const leiste = document.querySelector(".tableiste");
+  if (leiste) leiste.innerHTML = APP.leiste
+    .map(([ziel, k, sym, txt]) => `<a href="${ziel}" data-t="${k}"><span>${sym}</span>${txt}</a>`).join("");
+  const mf = document.querySelector('link[rel="manifest"]');
+  if (mf) mf.setAttribute("href", APP.manifest);
+  document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.setAttribute("content", APP.farbe));
+  // Die Suche oben gehört nur ins Heft.
+  const lupe = document.querySelector('.icon-btn[href="#/archiv"]');
+  if (lupe && !istHeft) lupe.remove();
+  // Der Stand oben gilt nur dort, wo es Nachrichten gibt.
+  const stand = document.querySelector(".stand");
+  if (stand && MODUS === "podcast") stand.remove();
+}
+appEinrichten();
 addEventListener("hashchange", route);
 
 function datenUebernehmen(res){
@@ -3280,6 +3605,13 @@ ladeJson("data/news.json").then(res => {
     DOKU_ARBEIT = d.d?.inArbeit || null;
     if (!location.hash || location.hash === "#/" || location.hash.startsWith("#/wissen") || location.hash.startsWith("#/doku") || location.hash.startsWith("#/video/doku")) route(); }).catch(() => {});
   ladeJson("data/wissen.json").then(w => { WISSEN = w.d?.stuecke || []; if (!location.hash || location.hash === "#/" || location.hash.startsWith("#/wissen") || location.hash.startsWith("#/video/wissen")) route(); }).catch(() => {});
+  // Zwei Quellen: Folgen aus den Sendungen und die Gespräche.
+  Promise.allSettled([ladeJson("data/podcast.json"), ladeJson("data/gespraeche.json")]).then(r => {
+    PODCAST_FOLGEN = r.flatMap(x => x.status === "fulfilled" ? (x.value.d?.folgen || []) : [])
+      .filter(f => f && f.d)
+      .sort((a, b) => String(b.zeit || "").localeCompare(String(a.zeit || "")));
+    if (MODUS === "podcast" || location.hash.startsWith("#/podcast")) route();
+  });
   ladeJson("data/ausgaben/index.json").then(a => { AUSGABEN = a.d || []; if (!location.hash || location.hash === "#/") route(); }).catch(() => {});
 }).catch(() => {
   $app.innerHTML = '<div class="empty"><strong>Die Nachrichten konnten nicht geladen werden.</strong><br>Bitte Internetverbindung prüfen und später erneut versuchen.</div>';
