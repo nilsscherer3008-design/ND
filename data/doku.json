@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-24T09:56:20.705Z",
+ "stand": "2026-09-24T19:05:43.592Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -12,7 +12,8 @@
     "wikipedia": "Höhlenmalerei",
     "fokus": "Menschen hielten bereits in der Urzeit Erlebnisse mit Bildern fest.",
     "zuDuenn": 1,
-    "versuche": 2
+    "versuche": 3,
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Von Bildern zu Zeichen",
@@ -411,10 +412,10 @@
        "s": [
         0.25,
         4.43,
-        11.0,
+        11,
         15.56,
         19.41,
-        25.0
+        25
        ]
       }
      ]

@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Thu, 24 Sep 2026 15:00:32 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 19:05:43 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -27,6 +27,28 @@
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
+    <title>Wie funktioniert eigentlich die Keilschrift?</title>
+    <description>Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.</description>
+    <itunes:summary>Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.</itunes:summary>
+    <pubDate>Thu, 24 Sep 2026 10:00:53 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-die-keilschrift</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/71e2edffd3.mp3" length="171165" type="audio/mpeg"/>
+    <itunes:duration>00:00:28</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Wie die Post im Mittelalter funktionierte</title>
+    <description>Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.</description>
+    <itunes:summary>Die Nachrichtenübermittlung hat eine lange Geschichte hinter sich. Im Mittelalter gab es in Europa ganz unterschiedliche Wege, um Briefe zu transportieren.</itunes:summary>
+    <pubDate>Thu, 24 Sep 2026 04:47:41 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-die-post-im-mittelalter-funktionierte</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0d4e2b3519.mp3" length="201693" type="audio/mpeg"/>
+    <itunes:duration>00:00:34</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
     <title>Hauptausgabe vom 2026-09-24</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Debatte im Bundestag über die Berliner Linkspartei und Vorwürfe der Clankriminalität · Staatsbesuch von Chinas Präsident Xi Jinping in den USA begonnen · USA laden Russlands Präsidenten Putin zu G20-Gipfel ein · Forderungen und Reaktionen zur bevorstehenden Tarifrunde in der Metall- und Elektroindustrie · OECD hebt Wachstumsprognose für die deutsche Wirtschaft an</description>
     <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Debatte im Bundestag über die Berliner Linkspartei und Vorwürfe der Clankriminalität · Staatsbesuch von Chinas Präsident Xi Jinping in den USA begonnen · USA laden Russlands Präsidenten Putin zu G20-Gipfel ein · Forderungen und Reaktionen zur bevorstehenden Tarifrunde in der Metall- und Elektroindustrie · OECD hebt Wachstumsprognose für die deutsche Wirtschaft an</itunes:summary>
@@ -34,6 +56,39 @@
     <guid isPermaLink="false">hauptausgabe-2026-09-24</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-09-24.mp3" length="3488349" type="audio/mpeg"/>
     <itunes:duration>00:09:41</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Wie funktioniert eigentlich die Gebärdensprache?</title>
+    <description>Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.</description>
+    <itunes:summary>Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.</itunes:summary>
+    <pubDate>Wed, 23 Sep 2026 20:22:20 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-die-gebaerdensprache</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/d2feab7041.mp3" length="162093" type="audio/mpeg"/>
+    <itunes:duration>00:00:27</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Wie funktioniert eigentlich GPS?</title>
+    <description>Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.</description>
+    <itunes:summary>Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.</itunes:summary>
+    <pubDate>Wed, 23 Sep 2026 11:35:15 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-gps</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/bcac208a7f.mp3" length="182109" type="audio/mpeg"/>
+    <itunes:duration>00:00:30</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Warum haben Flamingos rosa Federn?</title>
+    <description>Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.</description>
+    <itunes:summary>Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.</itunes:summary>
+    <pubDate>Wed, 23 Sep 2026 06:00:24 GMT</pubDate>
+    <guid isPermaLink="false">wissen-warum-haben-flamingos-rosa-federn</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/a0653fcd45.mp3" length="187437" type="audio/mpeg"/>
+    <itunes:duration>00:00:31</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>

@@ -1,6 +1,166 @@
 {
- "stand": "2026-09-24T09:56:20.705Z",
+ "stand": "2026-09-24T19:05:43.592Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-pantomime",
+   "zeit": "2026-09-24T19:13:52.881Z",
+   "bereich": "Sprache und Kultur",
+   "titel": "Wie funktioniert eigentlich die Pantomime?",
+   "vorspann": "Die Pantomime ist eine Form der darstellenden Kunst ohne Worte. Dabei nutzen Künstler ihren körperlichen Ausdruck durch Mimik und Gestik.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Nach modernem Verständnis handelt es sich um körperlichen Ausdruck ohne Worte. Ein Künstler, der diese Form praktiziert, wird ebenfalls Pantomime genannt. Im Lauf der Geschichte werden recht unterschiedliche Kunstformen unter diesem Namen verstanden. Der antike Pantomimus war eine Art Tanz. Die erhaltenen Quellen erlauben es jedoch nicht, ihn exakt zu rekonstruieren.",
+      "Die in der Neuzeit als Pantomime bezeichneten Arten der Darstellung haben damit zu tun, dass das Drama bis zum zwanzigsten Jahrhundert als höchste Gattung galt. Darstellungsformen wie Tanz, Artistik oder Musik bemühten sich um die Darstellung von Handlungen. Daraus entstanden zahlreiche Mischformen von Künsten, die nicht auf dem Wort beruhen. Diese waren daher auch nicht der Theaterzensur unterworfen wie die literarischen Dramen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Im Theater der römischen Antike war der Pantomimus ein virtuoser Solotänzer. Die römische Pantomime war weit verbreitet, bis das Christentum alle Formen öffentlicher Aufführungen verbot. Besonders im Byzantinischen Reich blieb diese Form von der Spätantike bis zum Ende des Mittelalters verbreitet. Seit dem sechzehnten Jahrhundert entstand mit der Commedia dell’arte eine neuzeitliche Form der Pantomime.",
+      "Im achtzehnten Jahrhundert wurde im Pariser Jahrmarktstheater die stumme Pantomime geboren. Die offiziellen Theater hatten ein Textverbot für diese Spielstätten durchgesetzt. Im neunzehnten Jahrhundert galt Jean-Gaspard Deburau als Erfinder der modernen Pariser Pantomime. Er schuf die Figur des poetischen, melancholischen Pierrot, die nicht sprechen durfte.",
+      "Im zwanzigsten Jahrhundert ging die Pantomime unter anderem auf Étienne Decroux zurück. Er begründete den sogenannten mime pur als reine Form der Pantomime. Dabei sollte der Körper als bloßes Material von der Last der Erzählung und Rollenpsychologie befreit werden. Der Körper sollte das alleinige Instrument der szenischen Gestaltung sein."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Historische Quellen und Schriften aus verschiedenen Jahrhunderten überliefern die Entwicklung der Pantomime. Dazu gehören Traktate wie die History of the Mimes and Pantomimes von John Weaver aus dem Jahr achtzehnundzwanzig. Auch theoretische Werke von Jean-Baptiste Dubos, Denis Diderot und Johann Georg Sulzer aus dem achtzehnten Jahrhundert geben Aufschluss darüber. Johann Jakob Engel fasste im Jahr siebzehnhundertsechsundachtzig manche Tendenzen in seinen Ideen zu einer Mimik zusammen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Die erhaltenen Quellen aus der römischen Antike erlauben es laut dem Text nicht, den dortigen Pantomimus exakt zu rekonstruieren."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Jahr des Traktats von John Weaver",
+     "1728"
+    ],
+    [
+     "Jahr der Ideen zu einer Mimik von Johann Jakob Engel",
+     "1786"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Pantomime",
+     "Eine Form der darstellenden Kunst, bei der Handlungen ohne Worte durch Mimik und Gestik ausgedrückt werden."
+    ],
+    [
+     "Commedia dell’arte",
+     "Ein italienisches Stegreiftheater aus der Renaissance, das starken Einfluss auf die Pantomime hatte."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Was bedeutet Pantomime nach modernem Verständnis?",
+     "optionen": [
+      "Ein Sprechtheater mit Musik",
+      "Körperlicher Ausdruck ohne Worte durch Mimik und Gestik",
+      "Eine reine Tanzform aus der Antike"
+     ],
+     "richtig": 1,
+     "erklaerung": "Nach modernem Verständnis handelt es sich bei der Pantomime um körperlichen Ausdruck ohne Worte."
+    }
+   ],
+   "video": [
+    "Die Pantomime ist eine alte Form der darstellenden Kunst.",
+    "Dabei drücken Künstler Geschichten ohne Worte aus.",
+    "Sie nutzen dafür ihren Körper mit Mimik und Gestik.",
+    "In der Antike war der Pantomimus eine Art Tanz.",
+    "Später im achtzehnten Jahrhundert entstand die stumme Pantomime.",
+    "Das geschah auf den Jahrmärkten in Paris.",
+    "Im zwanzigsten Jahrhundert prägte Etienne Decroux die moderne Pantomime.",
+    "Er wollte den Körper als reines Instrument nutzen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Pantomime",
+    "bildunterschrift": "Pantomime ist eine darstellende Kunst ohne Worte."
+   },
+   "quelle": {
+    "titel": "Pantomime",
+    "url": "https://de.wikipedia.org/wiki/Pantomime",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 346,
+   "bildInfos": [
+    {
+     "titel": "Pantomime.jpg",
+     "beschreibung": "mime",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Pantomime.jpg/1280px-Pantomime.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pantomime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Pantomime.jpg",
+     "urheber": "Wladyslaw",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Pantomime",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Pantomime ist eine darstellende Kunst ohne Worte."
+    },
+    {
+     "titel": "Jean + Brigitte Soubeyran Im Zirkus.JPG",
+     "beschreibung": "Mime artists Jean and Brigitte Soubeyran in the play \"In the Circus\"",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Jean_%2B_Brigitte_Soubeyran_Im_Zirkus.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Jean_%2B_Brigitte_Soubeyran_Im_Zirkus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Jean_%2B_Brigitte_Soubeyran_Im_Zirkus.JPG",
+     "urheber": "Ronald",
+     "lizenz": "CC BY-SA 1.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Mime artists Jean and Brigitte Soubeyran in the play \"In the Circus\""
+    },
+    {
+     "titel": "Jean Soubeyran als Harlekin 1.JPG",
+     "beschreibung": "Mime artist Jean Soubeyran (right) as \"Harlequin\"",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jean_Soubeyran_als_Harlekin_1.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jean_Soubeyran_als_Harlekin_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Jean_Soubeyran_als_Harlekin_1.JPG",
+     "urheber": "Ronald",
+     "lizenz": "CC BY-SA 1.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Mime artist Jean Soubeyran (right) as \"Harlequin\""
+    },
+    {
+     "titel": "Pantomime 1803.jpg",
+     "beschreibung": "Playbill of an English circus and pantomime performance, 1803",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pantomime_1803.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/Pantomime_1803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Pantomime_1803.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Playbill of an English circus and pantomime performance, 1803"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Pantomime.jpg",
+    "beschreibung": "mime",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Pantomime.jpg/1280px-Pantomime.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pantomime.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Pantomime.jpg",
+    "urheber": "Wladyslaw",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Pantomime",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Pantomime ist eine darstellende Kunst ohne Worte."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-keilschrift",
    "zeit": "2026-09-24T10:00:53.737Z",
