@@ -2,6 +2,16 @@
  "stand": "2026-09-24T19:05:43.592Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktioniert-eigentlich-die-pantomime",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich die Pantomime?",
+   "text": "Die Pantomime ist eine Form der darstellenden Kunst ohne Worte. Dabei nutzen Künstler ihren körperlichen Ausdruck durch Mimik und Gestik.",
+   "zeit": "2026-09-24T19:13:52.881Z",
+   "d": "09c823f1e4.mp3",
+   "l": 27.91,
+   "b": 167853
+  },
+  {
    "id": "wissen-wie-funktioniert-eigentlich-die-keilschrift",
    "art": "wissen",
    "titel": "Wie funktioniert eigentlich die Keilschrift?",
@@ -50,16 +60,6 @@
    "d": "bcac208a7f.mp3",
    "l": 30.27,
    "b": 182109
-  },
-  {
-   "id": "wissen-warum-haben-flamingos-rosa-federn",
-   "art": "wissen",
-   "titel": "Warum haben Flamingos rosa Federn?",
-   "text": "Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.",
-   "zeit": "2026-09-23T06:00:24.139Z",
-   "d": "a0653fcd45.mp3",
-   "l": 31.16,
-   "b": 187437
   }
  ]
 }

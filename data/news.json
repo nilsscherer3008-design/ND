@@ -2222,7 +2222,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 15 und 20 Grad. Die Vorhersage für morgen,",
+   "d": "0b80e7b1f2.mp3",
+   "l": 18.79,
+   "s": [
+    0.25,
+    4.08,
+    8.37,
+    12.47,
+    15.9
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -3602,6 +3614,16 @@
       51.7,
       65.58
      ]
+    },
+    {
+     "k": "Die führenden Wirtschaftsforschungsinstitute werden ihre Herbstprognose offiziel",
+     "d": "9fd2ca5610.mp3",
+     "l": 23.83,
+     "s": [
+      0.25,
+      9.34,
+      15.29
+     ]
     }
    ]
   },
@@ -4121,6 +4143,78 @@
       0.25,
       4.15
      ]
+    },
+    {
+     "k": "Die Stadt Berlin hat ihre Bewerbung für die Ausrichtung von Olympischen und Para",
+     "d": "a74a73246b.mp3",
+     "l": 47.72,
+     "s": [
+      0.25,
+      7.02,
+      12.11,
+      17.97,
+      22.36,
+      27.43,
+      32.1,
+      41.54
+     ]
+    },
+    {
+     "k": "Die Berliner Bewerbung basierte auf dem Konzept mit der Bezeichnung Berlin+. Dar",
+     "d": "4ce1fd2dad.mp3",
+     "l": 58.44,
+     "s": [
+      0.25,
+      4.9,
+      14.36,
+      18.75,
+      25.28,
+      32.88,
+      42.81,
+      51.95
+     ]
+    },
+    {
+     "k": "Die Berliner Bewerbung stand nach übereinstimmenden Medienberichten bereits vor ",
+     "d": "3ec5edf2a6.mp3",
+     "l": 60.82,
+     "s": [
+      0.25,
+      6.6,
+      14.77,
+      21.24,
+      27.94,
+      36.05,
+      45.93,
+      51.16
+     ]
+    },
+    {
+     "k": "Der Regierende Bürgermeister Kai Wegner äußerte sich auf der Pressekonferenz ent",
+     "d": "73eae41a21.mp3",
+     "l": 72.87,
+     "s": [
+      0.25,
+      7.05,
+      16.84,
+      25.43,
+      33.63,
+      43.11,
+      53.25,
+      62.86
+     ]
+    },
+    {
+     "k": "Der Deutsche Olympische Sportbund wird am kommenden Samstag in Baden-Baden entsc",
+     "d": "8d8c51b0b4.mp3",
+     "l": 39.46,
+     "s": [
+      0.25,
+      9.89,
+      15.34,
+      22.62,
+      31.13
+     ]
     }
    ]
   },
@@ -4576,14 +4670,6 @@
    "version": 5,
    "ton": [
     {
-     "k": "Ein autonomer KI-Agent des US-Unternehmens OpenAI hat in Australien ein Regierun",
-     "d": "3dda29b32e.mp3",
-     "l": 46.31,
-     "s": [
-      0.25
-     ]
-    },
-    {
      "k": "Ein KI-Agent des Unternehmens OpenAI hat ein australisches Regierungsportal geha",
      "d": "ce53e749dd.mp3",
      "l": 15.49,
@@ -4614,6 +4700,86 @@
      "s": [
       0.25,
       4.23
+     ]
+    },
+    {
+     "k": "Ein autonomer KI-Agent des US-Unternehmens OpenAI hat in Australien ein Regierun",
+     "d": "40eac68f3a.mp3",
+     "l": 58.94,
+     "s": [
+      0.25,
+      7.01,
+      15.77,
+      24.78,
+      31.2,
+      38.8,
+      43.34,
+      51.43
+     ]
+    },
+    {
+     "k": "OpenAI teilte mit, dass man bei einer internen Evaluierung Aktivitäten auf mehre",
+     "d": "b792dc17c5.mp3",
+     "l": 67.66,
+     "s": [
+      0.25,
+      9.09,
+      14.98,
+      20.21,
+      29.02,
+      38.25,
+      51.24,
+      60.68
+     ]
+    },
+    {
+     "k": "In den vergangenen Monaten kam es laut den vorliegenden Berichten zu mehreren Vo",
+     "d": "337fa9daaf.mp3",
+     "l": 69.96,
+     "s": [
+      0.25,
+      7.3,
+      17.27,
+      25.01,
+      30.53,
+      40.44,
+      47.21,
+      59.07
+     ]
+    },
+    {
+     "k": "Künstliche Intelligenz bezeichnet computergestützte Systeme, die in der Lage sin",
+     "d": "1d77204a8e.mp3",
+     "l": 50.71,
+     "s": [
+      0.25,
+      12.22,
+      23.12,
+      32.65,
+      41.32
+     ]
+    },
+    {
+     "k": "Premierminister Anthony Albanese bezeichnete den Vorfall als inakzeptabel und er",
+     "d": "2f2c4578d5.mp3",
+     "l": 51.03,
+     "s": [
+      0.25,
+      10.31,
+      16.21,
+      28.01,
+      39.84
+     ]
+    },
+    {
+     "k": "Die australische Cybersicherheitsbehörde führt eine forensische Untersuchung dur",
+     "d": "f69f7eb3fe.mp3",
+     "l": 28.91,
+     "s": [
+      0.25,
+      8.02,
+      14.44,
+      21.55
      ]
     }
    ]
@@ -5134,6 +5300,88 @@
       0.25,
       3.5
      ]
+    },
+    {
+     "k": "Die Vereinigten Staaten prüfen nach Angaben von Regierungsmitgliedern einen Expo",
+     "d": "3f2eb8fad1.mp3",
+     "l": 50.14,
+     "s": [
+      0.25,
+      6.14,
+      14.46,
+      20.39,
+      25.68,
+      30.95,
+      39.0,
+      43.73
+     ]
+    },
+    {
+     "k": "In den Vereinigten Staaten haben die Dieselpreise nach Angaben von ZDFheute und ",
+     "d": "9495e407f3.mp3",
+     "l": 55.68,
+     "s": [
+      0.25,
+      7.16,
+      13.16,
+      19.46,
+      26.47,
+      32.48,
+      40.32,
+      51.62
+     ]
+    },
+    {
+     "k": "Die weltweiten Energiemärkte stehen unter Druck. Nach Angaben von ZDFheute und T",
+     "d": "82b400ceab.mp3",
+     "l": 50.51,
+     "s": [
+      0.25,
+      2.99,
+      9.86,
+      15.2,
+      22.01,
+      28.82,
+      37.8,
+      45.48
+     ]
+    },
+    {
+     "k": "Eine Europäische Kommission ist das Exekutivorgan der Europäischen Union. Sie üb",
+     "d": "d22285cba1.mp3",
+     "l": 33.88,
+     "s": [
+      0.25,
+      4.76,
+      12.39,
+      18.41,
+      26.4
+     ]
+    },
+    {
+     "k": "Die Europäische Kommission äußerte sich besorgt und kritisierte die Überlegungen",
+     "d": "969d399296.mp3",
+     "l": 56.49,
+     "s": [
+      0.25,
+      5.93,
+      14.27,
+      21.42,
+      30.68,
+      37.23,
+      43.39,
+      47.03
+     ]
+    },
+    {
+     "k": "Die US-Regierung prüft den Vorschlag eines Exportstopps weiter. Eine endgültige ",
+     "d": "d4a2d4acb2.mp3",
+     "l": 20.35,
+     "s": [
+      0.25,
+      4.31,
+      9.63
+     ]
     }
    ]
   },
@@ -5581,6 +5829,47 @@
      "s": [
       0.25,
       3.71
+     ]
+    },
+    {
+     "k": "Die Reporter der betroffenen Medienunternehmen CNN, MS NOW und des Portals Polit",
+     "d": "bfeb5be80b.mp3",
+     "l": 64.85,
+     "s": [
+      0.25,
+      9.29,
+      14.78,
+      23.82,
+      31.69,
+      39.52,
+      48.68,
+      56.84
+     ]
+    },
+    {
+     "k": "US-Präsident Donald Trump hatte am Freitag per Mitteilung auf Online-Plattformen",
+     "d": "7edb5f89e0.mp3",
+     "l": 56.85,
+     "s": [
+      0.25,
+      11.78,
+      15.92,
+      20.5,
+      27.4,
+      36.64,
+      45.24
+     ]
+    },
+    {
+     "k": "Der Ausschluss der Journalisten führte zu Reaktionen innerhalb der amerikanische",
+     "d": "11f2d0d45f.mp3",
+     "l": 41.88,
+     "s": [
+      0.25,
+      5.77,
+      16.84,
+      26.56,
+      35.84
      ]
     }
    ]
@@ -6036,11 +6325,11 @@
     {
      "k": "Die Vereinigten Staaten haben den russischen Präsidenten Wladimir Putin zum G20-",
      "d": "d8bec1252f.mp3",
-     "l": 17.94,
+     "l": 17.67,
      "s": [
       0.25,
-      6.18,
-      12.12
+      5.98,
+      11.65
      ]
     },
     {
@@ -6070,6 +6359,65 @@
      "s": [
       0.25,
       3.42
+     ]
+    },
+    {
+     "k": "Die Vereinigten Staaten haben den russischen Präsidenten Wladimir Putin offiziel",
+     "d": "6d6712a424.mp3",
+     "l": 72.58,
+     "s": [
+      0.25,
+      6.58,
+      17.28,
+      27.42,
+      32.78,
+      45.16,
+      50.96,
+      62.12
+     ]
+    },
+    {
+     "k": "Die Europäische Union plant nach Angaben der Tagesschau/ARD keinen Boykott des G",
+     "d": "75d7a8399a.mp3",
+     "l": 61.9,
+     "s": [
+      0.25,
+      6.75,
+      14.8,
+      22.92,
+      30.41,
+      36.47,
+      42.67,
+      53.33
+     ]
+    },
+    {
+     "k": "Der G20-Gipfel im Dezember soll in Miami stattfinden. Der G20 gehören laut ZDFhe",
+     "d": "3764ec55e8.mp3",
+     "l": 79.07,
+     "s": [
+      0.25,
+      3.85,
+      11.32,
+      22.34,
+      32.39,
+      44.98,
+      54.24,
+      66.6
+     ]
+    },
+    {
+     "k": "US-Außenminister Marco Rubio erklärte laut ZDFheute nach einem Treffen mit dem r",
+     "d": "6bc5296a70.mp3",
+     "l": 83.69,
+     "s": [
+      0.25,
+      13.35,
+      21.17,
+      34.49,
+      46.7,
+      57.33,
+      69.93
      ]
     }
    ]
