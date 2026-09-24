@@ -1,0 +1,116 @@
+{
+ "stand": "2026-09-24T13:54:52.389866Z",
+ "besetzung": [
+  {
+   "name": "Thorsten",
+   "nr": 162,
+   "rolle": "führt durch die Sendung, fasst zusammen, übergibt"
+  },
+  {
+   "name": "Sigrid",
+   "nr": 153,
+   "rolle": "ordnet ein, stellt die Gegenfrage"
+  },
+  {
+   "name": "Malte",
+   "nr": 171,
+   "rolle": "bringt Zahlen und Belege, nennt die Quellen"
+  },
+  {
+   "name": "Nora",
+   "nr": 36,
+   "rolle": "fragt kritisch nach, benennt was offen ist"
+  }
+ ],
+ "folgen": [
+  {
+   "id": "podcast-wirtschaftswachstum-prognose-2026",
+   "themaId": "wirtschaftswachstum-prognose-2026",
+   "art": "podcast",
+   "titel": "Wirtschaftsforschungsinstitute erhöhen Wachstumsprognose für das Jahr 2026",
+   "text": "Führende Wirtschaftsforschungsinstitute haben ihre Prognose angehoben. Gleichzeitig weisen Experten auf strukturelle Probleme hin.",
+   "zeit": "2026-09-24T13:54:52.389866Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-wirtschaftswachstum-prognose-2026.mp3",
+   "l": 220.02,
+   "b": 1760685,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Willkommen zum Podcast. Unser Thema heute sind die neuen Konjunkturprognosen der führenden deutschen Wirtschaftsforschungsinstitute. Alle Stimmen dieser Sendung sind Computerstimmen."
+    },
+    {
+     "s": 18.94,
+     "wer": "Thorsten",
+     "text": "Ich begrüße meine Kolleginnen und Kollegen im Studio: Sigrid, Malte und Nora."
+    },
+    {
+     "s": 27.28,
+     "wer": "Thorsten",
+     "text": "Worum geht es konkret? Die führenden deutschen Wirtschaftsforschungsinstitute haben ihre Prognose für das Bruttoinlandsprodukt im Jahr 2026 auf 1,3 Prozent angehoben. Sigrid, wie siehst du das?"
+    },
+    {
+     "s": 52.42,
+     "wer": "Sigrid",
+     "text": "Im Frühjahr lag die Prognose der Institute für das Jahr 2026 ja noch bei 0,6 Prozent. Das ist also eine deutliche Nachbesserung nach oben. Für das Jahr 2027 wird ein Wachstum des Bruttoinlandsprodukts von 1,1 Prozent prognostiziert."
+    },
+    {
+     "s": 71.92,
+     "wer": "Thorsten",
+     "text": "Damit zu Malte, welche Zahlen und Belege gibt es dazu?"
+    },
+    {
+     "s": 78.04,
+     "wer": "Malte",
+     "text": "Laut Tagesschau, ARD und ZDFheute werden vor allem Exporte, Künstliche Intelligenz sowie staatliche Ausgaben als Gründe genannt. Auch die Unternehmensstimmung hat sich im September laut Ifo-Institut spürbar aufgehellt. Der Ifo-Geschäftsklimaindex stieg im September auf 89,9 Punkte an, nach 88,8 Punkten im August."
+    },
+    {
+     "s": 102.52,
+     "wer": "Thorsten",
+     "text": "Nora, du hast dir die verschiedenen Positionen der Experten angeschaut."
+    },
+    {
+     "s": 110.4,
+     "wer": "Nora",
+     "text": "Genau. Clemens Fuest als Ifo-Präsident sagt, dass die deutsche Wirtschaft ihren Erholungskurs fortsetzt. Und Jörg Krämer, der Commerzbank-Chefvolkswirt, meint, die deutsche Wirtschaft sei widerstandswiderstandsfähiger als gedacht."
+    },
+    {
+     "s": 128.82,
+     "wer": "Thorsten",
+     "text": "Sigrid, wie passt das zu den Stimmen, die vor Risiken warnen?"
+    },
+    {
+     "s": 134.59,
+     "wer": "Sigrid",
+     "text": "Da haben wir zum Beispiel Oliver Holtemöller, den Konjunkturchef des IWH. Er sagt, der Aufschwung steht auf einem schmalen Fundament, da hohe Energiepreise und Strukturprobleme belasten."
+    },
+    {
+     "s": 147.96,
+     "wer": "Nora",
+     "text": "Trotz der verbesserten Zahlen warnen Experten eben genau vor diesen anhaltenden Strukturproblemen, hohen Energiepreisen und politischen Unsicherheiten. Und die OECD-Prognose für Deutschland liegt für 2026 bei 1,1 Prozent, während die Institute jetzt bei 1,3 Prozent sind."
+    },
+    {
+     "s": 169.45,
+     "wer": "Malte",
+     "text": "Für das Jahr 2028 prognostizieren die Institute übrigens ein Wachstum von 0,4 Prozent. Die Einigkeit der Institute bezieht sich klar auf das Jahr 2026 mit 1,3 Prozent und 2027 mit 1,1 Prozent."
+    },
+    {
+     "s": 189.27,
+     "wer": "Nora",
+     "text": "Wie Nora eben sagte, bleiben aber Fragen offen. Zum Beispiel, ob sich die politischen Unsicherheiten nach den Wahlen direkt auf die Reformagenda auswirken. Das bleibt laut Oliver Holtemöller und der Tagesschau beziehungsweise ARD eben offen."
+    },
+    {
+     "s": 207.74,
+     "wer": "Thorsten",
+     "text": "Damit sind wir am Ende unserer heutigen Sendung. Danke an Sigrid, Malte und Nora für die Einschätzungen."
+    }
+   ]
+  }
+ ]
+}
