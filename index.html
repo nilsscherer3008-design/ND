@@ -115,6 +115,31 @@ ul.facts li::before{content:"✓";position:absolute;left:4px;top:10px;color:var(
 .fokus b{color:var(--muted);font-weight:600}
 .src p{margin:0 0 10px;font-size:.98rem}
 .src a.orig{font-family:var(--head);font-weight:700;font-size:.95rem;display:inline-block;padding:6px 0;min-height:40px}
+/* Träger und Finanzierung: nachprüfbare Angaben, keine Einschätzung */
+.traeger{margin:0 0 10px;padding:9px 12px;border-radius:9px;background:var(--bg2,rgba(127,127,127,.07));
+  border:1px solid var(--line);font-size:.86rem;line-height:1.5}
+.tr-zeile{margin:1px 0;color:var(--grau)}
+.tr-zeile b{color:var(--text);font-family:var(--head)}
+.tr-klein{font-size:.8rem;opacity:.85}
+.tr-wort{display:block;font-style:italic}
+/* Lesbarkeit: wie schwer sich ein Text liest - keine Wertung der Qualität */
+.les-erklaerung{font-size:.88rem;line-height:1.5;color:var(--grau);background:var(--card);border:1px solid var(--line);
+  border-radius:10px;padding:10px 12px;margin:0 0 14px}
+.les{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px;margin:0 0 10px;padding:8px 11px;
+  border-radius:9px;border-left:4px solid var(--lf);background:color-mix(in srgb,var(--lf) 9%,transparent)}
+.les-stufe{font-family:var(--head);font-weight:700;font-size:.9rem;color:var(--lf)}
+.les-zahlen{font-size:.84rem;color:var(--grau);font-variant-numeric:tabular-nums}
+.les-wen{flex-basis:100%;font-size:.84rem;color:var(--grau);line-height:1.45}
+.les-punkt{font-family:var(--head);font-weight:700;font-size:.82rem;padding:2px 9px;border-radius:999px;
+  color:var(--lf);border:1px solid color-mix(in srgb,var(--lf) 45%,transparent);
+  background:color-mix(in srgb,var(--lf) 11%,transparent)}
+.les-leicht{--lf:#1B7A46}.les-mittel{--lf:#1A5C99}.les-schwer{--lf:#9A5A0B}.les-sehrschwer{--lf:#A33326}
+[data-theme=dark] .les-leicht{--lf:#5FD295}[data-theme=dark] .les-mittel{--lf:#6FB6F0}
+[data-theme=dark] .les-schwer{--lf:#E5A65C}[data-theme=dark] .les-sehrschwer{--lf:#F0877A}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .les-leicht{--lf:#5FD295}
+  :root:not([data-theme=light]) .les-mittel{--lf:#6FB6F0}
+  :root:not([data-theme=light]) .les-schwer{--lf:#E5A65C}
+  :root:not([data-theme=light]) .les-sehrschwer{--lf:#F0877A}}
 .aussen{font-family:var(--head);font-size:.78rem;color:var(--muted);font-style:normal}
 .diff{margin:0;padding:0;list-style:none}
 .diff li{padding:12px 0;border-bottom:1px solid var(--line)}
@@ -224,12 +249,48 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .sw-pfeil{color:var(--muted);font-size:1.3rem}
 /* ---- Wetter-App ---- */
 .w-sym{display:inline-block;vertical-align:middle;overflow:visible}
-.wetter-jetzt{border-radius:18px;padding:20px 18px;margin:12px 0 4px;color:#fff;
-  background:linear-gradient(160deg,var(--wf) 0%,color-mix(in srgb,var(--wf) 70%,#000) 100%)}
-.wj-ort{font-family:var(--head);font-weight:800;font-size:1.3rem}
-.wj-ort small{display:block;font-weight:400;font-size:.84rem;opacity:.75;margin-top:1px}
-.wj-zahl{display:flex;align-items:center;gap:8px;margin:6px 0 0}
-.wj-zahl b{font-family:var(--head);font-size:4rem;line-height:1;font-weight:800;letter-spacing:-.03em}
+/* Der Himmel richtet sich nach Wetterlage und Tageszeit - wie bei einer
+   richtigen Wetter-App. Die Verläufe sind von Hand gesetzt, keine Bilder. */
+.wetter-jetzt{border-radius:20px;padding:22px 18px 18px;margin:12px 0 4px;color:#fff;
+  text-align:center;background:linear-gradient(165deg,#2C6FA8,#12395C)}
+.himmel-klar    {background:linear-gradient(165deg,#3E9BE0 0%,#1A6BB0 55%,#0E4C86 100%)}
+.himmel-wolkig  {background:linear-gradient(165deg,#5E8FB8 0%,#3D6789 55%,#2A4A66 100%)}
+.himmel-regen   {background:linear-gradient(165deg,#4A6E8C 0%,#33506A 55%,#22394E 100%)}
+.himmel-gewitter{background:linear-gradient(165deg,#41425C 0%,#2C2D42 55%,#1B1C2B 100%)}
+.himmel-schnee  {background:linear-gradient(165deg,#7D97B0 0%,#5A7490 55%,#3D5368 100%)}
+.himmel-nebel   {background:linear-gradient(165deg,#6E7D8A 0%,#515E6B 55%,#38424D 100%)}
+.himmel-nacht   {background:linear-gradient(165deg,#1E3355 0%,#141F38 55%,#0A0F1C 100%)}
+.wj-ort{font-family:var(--head);font-weight:800;font-size:1.45rem}
+.wj-ort small{display:block;font-weight:400;font-size:.85rem;opacity:.75;margin-top:1px}
+.wj-zahl{display:flex;align-items:center;justify-content:center;gap:6px;margin:8px 0 0}
+.wj-zahl b{font-family:var(--head);font-size:4.4rem;line-height:1;font-weight:300;letter-spacing:-.04em}
+.wj-hoch{font-family:var(--head);font-weight:700;font-size:1rem;opacity:.92;margin-top:8px}
+
+/* Die nächsten 24 Stunden zum Durchwischen */
+.wstunden{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:10px 0 4px;overflow:hidden}
+.ws-kopf{padding:11px 14px;font-size:.88rem;line-height:1.45;color:var(--grau);border-bottom:1px solid var(--line)}
+.ws-rolle{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.ws-rolle::-webkit-scrollbar{display:none}
+.ws-bahn{display:flex;padding:12px 4px 14px}
+.ws-stunde{flex:0 0 58px;width:58px;display:flex;flex-direction:column;align-items:center;gap:5px}
+.ws-zeit{font-size:.78rem;color:var(--grau);font-variant-numeric:tabular-nums}
+.ws-sym{line-height:0;height:28px;display:flex;align-items:center}
+.ws-regen{font-size:.74rem;color:#3E9BD6;height:14px;font-variant-numeric:tabular-nums}
+.ws-grad{font-family:var(--head);font-weight:700;font-size:1.05rem;font-variant-numeric:tabular-nums}
+.ws-sonne{display:flex;gap:16px;flex-wrap:wrap;padding:9px 14px;border-top:1px solid var(--line);
+  font-size:.83rem;color:var(--grau)}
+.ws-sonne i{font-style:normal;margin-right:5px}
+.ws-sonne b{font-family:var(--head);color:var(--text)}
+
+/* Kacheln mit den Einzelheiten */
+.wkacheln{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:4px 0 6px}
+.wkachel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 13px;min-height:92px;
+  display:flex;flex-direction:column;justify-content:flex-start}
+.wka-titel{font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;color:var(--grau);
+  display:flex;align-items:center;gap:5px}
+.wka-titel i{font-style:normal;font-size:.95rem}
+.wka-wert{font-family:var(--head);font-size:1.7rem;font-weight:700;line-height:1.15;margin-top:6px}
+.wka-klein{font-size:.82rem;color:var(--grau);margin-top:2px;line-height:1.35}
 /* Die Symbolfarben galten bisher nur innerhalb der Wetterkarte - überall sonst
    blieben die Formen schwarz. Hier gelten sie für jedes .w-sym. */
 .w-sym .w-sonne{fill:#F5B93C}
@@ -391,7 +452,7 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .zeitleiste li{position:relative;padding:4px 0 12px 12px}
 .zeitleiste li::before{content:"";position:absolute;left:-26px;top:10px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--bar-2)}
 .zeitleiste b{font-family:var(--head);display:block;font-size:.9rem;color:var(--muted)}
-#player{position:fixed;inset:0;z-index:100;background:#05080d;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:10px;outline:none}
+#player{position:fixed;inset:0;z-index:100;background:#05080d;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:10px;padding:56px 10px 10px;outline:none;overflow:hidden}
 .pl-kopf{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:10px 14px;font-family:var(--head);font-weight:700}
 .pl-x{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);color:#fff;border:0;
   border-radius:999px;width:42px;height:42px;padding:0;cursor:pointer}
@@ -459,8 +520,10 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .pl-bild.tafel.rot{background:linear-gradient(135deg,#7a1020,#C41E2E)}
 .pl-credit{position:absolute;right:10px;top:22px;z-index:2;font-family:var(--head);font-size:clamp(.55rem,1.4vw,.72rem);background:rgba(0,0,0,.5);padding:2px 8px;border-radius:6px;max-width:70%;text-align:right}
 .pl-inhalt{position:absolute;left:0;right:0;bottom:22%;padding:0 5%;z-index:2;transition:bottom .2s}
-.pl-buehne.mit-ut .pl-inhalt{bottom:calc(12% + var(--ut-hoehe,62px))}
-.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(14% + var(--ut-hoehe,66px))}
+/* 38px ist die Zeile mit Laufband und Uhr, dazu die gemessene Untertitelhöhe
+   und ein Finger breit Abstand - sonst schiebt sich der Text darunter. */
+.pl-buehne.mit-ut .pl-inhalt{bottom:calc(46px + var(--ut-hoehe,62px))}
+.pl-buehne.hoch.mit-ut .pl-inhalt{bottom:calc(46px + var(--ut-hoehe,66px))}
 .hoch .pl-inhalt{bottom:26%}
 .pl-logo{font-family:var(--head);font-weight:800;font-size:clamp(.95rem,2.8vw,1.6rem)}
 .pl-logo span{color:#B9C8DE;font-weight:600}
@@ -505,7 +568,45 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .pl-start svg{width:38px;height:38px;fill:currentColor;margin-left:3px}
 .pl-start:hover{transform:scale(1.06)}
 .pl-start[hidden]{display:none}
-.pl-steuer{display:flex;gap:8px;align-items:center;width:min(96vw,760px);padding:0 4px}
+/* Ortssuche in der Wetter-App */
+.wo-suche{display:flex;gap:8px;margin:2px 0 8px}
+.wo-suche input{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:11px;
+  padding:12px 14px;font-size:1rem;font-family:var(--body);color:var(--text)}
+.wo-suche input:focus{outline:2px solid var(--akzent);outline-offset:1px}
+.wo-suche button{flex:0 0 auto;background:var(--akzent);color:#fff;border:0;border-radius:11px;
+  padding:0 18px;font-family:var(--head);font-weight:700;font-size:.95rem;cursor:pointer;min-height:46px}
+.wo-standort{width:100%;background:var(--card);border:1px solid var(--line);border-radius:11px;
+  padding:12px 14px;font-family:var(--head);font-weight:700;font-size:.95rem;color:var(--akzent);
+  cursor:pointer;margin-bottom:6px;text-align:left}
+.wo-standort:hover{background:var(--line)}
+.wo-zeile{display:flex;align-items:stretch;gap:6px}
+.wo-zeile .wo-ort{flex:1;min-width:0}
+.wo-weg{flex:0 0 44px;background:var(--card);border:1px solid var(--line);border-radius:11px;
+  color:var(--grau);font-size:1rem;cursor:pointer}
+.wo-weg:hover{color:var(--red);border-color:var(--red)}
+
+/* Themenliste unter dem Bild - füllt hochkant den Platz, der sonst schwarz bliebe */
+.pl-themen{width:min(96vw,760px);margin-top:4px;overflow-y:auto;flex:0 1 auto;min-height:0}
+.plt-kopf{font-family:var(--head);font-weight:700;font-size:.76rem;text-transform:uppercase;
+  letter-spacing:.06em;color:#8FA6C0;padding:4px 6px 7px}
+.plt-liste{display:flex;flex-direction:column;gap:2px}
+.plt-zeile{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:rgba(255,255,255,.05);
+  border:0;border-radius:9px;padding:9px 11px;color:#DCE6F2;font-family:var(--body);font-size:.9rem;
+  line-height:1.35;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.plt-zeile:hover{background:rgba(255,255,255,.11)}
+.plt-zeile.jetzt{background:rgba(127,179,232,.18);color:#fff}
+.plt-nr{flex:0 0 20px;font-family:var(--head);font-weight:700;font-size:.8rem;color:#7FB3E8;text-align:center}
+.plt-titel{flex:1;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.plt-marke{flex:0 0 auto;font-family:var(--head);font-weight:700;font-size:.68rem;text-transform:uppercase;
+  letter-spacing:.05em;background:#7FB3E8;color:#0D2B55;border-radius:999px;padding:2px 7px}
+/* Im Vollbild und im Querformat ist kein Platz dafür. */
+#player.voll .pl-themen{display:none}
+@media (orientation:landscape){.pl-themen{display:none}}
+
+/* Auf schmalen Handys passten sieben Knöpfe nicht in eine Zeile - der letzte
+   war abgeschnitten. Jetzt dürfen sie umbrechen und schrumpfen mit. */
+.pl-steuer{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;
+  width:min(96vw,760px);padding:0 4px}
 .pl-steuer button{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.12);color:#fff;
   border:0;border-radius:999px;width:48px;height:48px;padding:0;cursor:pointer;flex:0 0 auto;
   transition:background .15s,transform .1s,opacity .15s;-webkit-tap-highlight-color:transparent}
@@ -521,12 +622,24 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .pl-zeit{font-family:var(--head);font-weight:700;font-size:.92rem;color:#D7E2F0;font-variant-numeric:tabular-nums;
   margin-left:6px;white-space:nowrap}
 .pl-luecke{flex:1 1 auto}
+/* Sieben Knöpfe plus Zeitanzeige müssen in eine Zeile passen - vorher war der
+   Vollbild-Knopf auf schmalen Handys abgeschnitten. */
 @media (max-width:430px){
-  .pl-steuer{gap:5px}
-  .pl-steuer button{width:44px;height:44px}
-  .pl-steuer .pl-haupt{width:56px;height:56px}
-  .pl-steuer button svg{width:22px;height:22px}
-  .pl-zeit{font-size:.8rem;margin-left:2px}
+  .pl-steuer{gap:4px;flex-wrap:nowrap;width:calc(100vw - 14px)}
+  .pl-steuer button{width:42px;height:42px}
+  .pl-steuer .pl-haupt{width:52px;height:52px}
+  .pl-steuer button svg{width:21px;height:21px}
+  .pl-steuer .pl-haupt svg{width:25px;height:25px}
+  .pl-zeit{font-size:.78rem;margin-left:2px;white-space:nowrap;min-width:0}
+  .pl-luecke{flex:1 1 0;min-width:0}
+}
+@media (max-width:380px){          /* iPhone SE und ähnlich schmale Geräte */
+  .pl-steuer{gap:3px}
+  .pl-steuer button{width:37px;height:37px}
+  .pl-steuer .pl-haupt{width:46px;height:46px}
+  .pl-steuer button svg{width:18px;height:18px}
+  .pl-steuer .pl-haupt svg{width:22px;height:22px}
+  .pl-zeit{font-size:.71rem}
 }
 /* ===== Artikelseite (neu) ===== */
 .bar .wrap{min-height:56px}
@@ -659,13 +772,20 @@ code{background:var(--surface);padding:3px 8px;border-radius:6px;user-select:all
 .pl-titel{border-left:5px solid var(--akzent);padding-left:12px}
 .pl-bild.wechsel{animation:blende .5s ease-out both}
 @keyframes blende{from{opacity:.3}to{opacity:1}}
-.pl-uhr{position:absolute;right:0;bottom:0;height:8%;min-height:26px;display:flex;align-items:center;padding:0 10px;background:var(--akzent);color:#fff;z-index:4;font-family:var(--head);font-weight:700;font-size:clamp(.62rem,1.5vw,.85rem);background:rgba(0,0,0,.45);padding:2px 8px;border-radius:5px}
-.pl-laufband{position:absolute;left:0;right:76px;bottom:0;height:8%;min-height:26px;z-index:3;background:rgba(5,15,30,.85);border-top:2px solid var(--akzent);overflow:hidden;display:flex;align-items:center}
+/* Uhr und Laufband teilen sich eine Zeile fester Höhe. Vorher war beides in
+   Prozent bemessen und die Uhr breiter als ihr Platz - der Lauftext verschwand
+   dahinter. Jetzt hat die Uhr eine feste Breite, und das Laufband hört davor auf. */
+.pl-uhr{position:absolute;right:0;bottom:0;width:94px;height:28px;display:flex;align-items:center;
+  justify-content:center;background:rgba(5,15,30,.95);border-top:2px solid var(--akzent);color:#fff;z-index:4;
+  font-family:var(--head);font-weight:700;font-size:.8rem;font-variant-numeric:tabular-nums}
+.pl-laufband{position:absolute;left:0;right:94px;bottom:0;height:28px;z-index:3;background:rgba(5,15,30,.85);
+  border-top:2px solid var(--akzent);overflow:hidden;display:flex;align-items:center}
 .pl-lauf-inhalt{display:flex;gap:44px;white-space:nowrap;padding-left:100%;animation:lauf 40s linear infinite;font-family:var(--head);font-size:clamp(.6rem,1.5vw,.82rem);color:#d7e2f0}
 .pl-lauf-inhalt span::before{content:"•";color:var(--akzent);margin-right:12px}
 @keyframes lauf{to{transform:translateX(-50%)}}
-.pl-ut{bottom:12%}
-.hoch .pl-ut{bottom:14%}
+/* Der Untertitel sitzt immer über dem Laufband, egal wie hoch die Bühne ist. */
+.pl-ut{bottom:38px}
+.hoch .pl-ut{bottom:38px}
 @media (prefers-reduced-motion:reduce){.pl-lauf-inhalt,.pl-inhalt.einblenden *{animation:none}}
 .kurzliste{margin:0;padding-left:22px}
 .kurzliste li{font-size:1.07rem;line-height:1.6;margin-bottom:12px}
@@ -1011,12 +1131,45 @@ const APPS = {
 // Die Betriebsart steht NUR in der Adresse und wird nicht gemerkt. Sonst käme man,
 // einmal in der Wetter-App gewesen, nie wieder zum Heft zurück. Die installierten
 // Apps tragen ihr ?app=… im Startlink, dort bleibt es also erhalten.
-const MODUS = (() => {
+// Die Betriebsart darf sich im Betrieb ändern: tippt man im Heft auf "Wetter",
+// wird das Gesicht sofort gewechselt, ohne die Seite neu zu laden. Damit kann
+// kein alter Zwischenspeicher mehr dazwischenfunken.
+let MODUS = (() => {
   const p = new URLSearchParams(location.search).get("app");
   return (p && APPS[p]) ? p : "heft";
 })();
-const APP = APPS[MODUS];
-const istHeft = MODUS === "heft";
+let APP = APPS[MODUS];
+let istHeft = MODUS === "heft";
+
+function appWechseln(ziel){
+  if (!APPS[ziel] || ziel === MODUS) return false;
+  MODUS = ziel; APP = APPS[ziel]; istHeft = ziel === "heft";
+  // Adresse mitführen, damit Neuladen und Teilen weiter stimmen.
+  try {
+    const u = new URL(location.href);
+    if (ziel === "heft") u.searchParams.delete("app"); else u.searchParams.set("app", ziel);
+    u.hash = APP.start;
+    history.pushState({ app: ziel }, "", u.toString());
+  } catch {}
+  appEinrichten();
+  route();
+  window.scrollTo(0, 0);
+  return true;
+}
+// Vor und Zurück im Browser sollen den Wechsel ebenfalls mitmachen.
+addEventListener("popstate", () => {
+  const p = new URLSearchParams(location.search).get("app");
+  const ziel = (p && APPS[p]) ? p : "heft";
+  if (ziel !== MODUS){ MODUS = ziel; APP = APPS[ziel]; istHeft = ziel === "heft"; appEinrichten(); }
+  route();
+});
+// Jeder Klick auf eine Schwester-App wird abgefangen und ohne Neuladen erledigt.
+addEventListener("click", e => {
+  const a = e.target.closest?.('a[href^="?app="]');
+  if (!a || e.metaKey || e.ctrlKey || e.shiftKey || a.target === "_blank") return;
+  const ziel = new URLSearchParams(a.getAttribute("href").slice(1)).get("app");
+  if (APPS[ziel] && appWechseln(ziel)) e.preventDefault();
+});
 
 const RUBRIKEN = ["Alle","Deutschland","Welt","Wirtschaft","Wissen & Klima","Sport","Region"];
 let NACHRICHTEN = [];
@@ -1136,6 +1289,43 @@ function kartenErsatz(id){
 const RUBRIK_FARBE = { "Deutschland":"#C41E2E", "Welt":"#1F7A9E", "Wirtschaft":"#B07A00", "Wissen & Klima":"#1D7A4C", "Sport":"#6A3FA0", "Region":"#1F5F8B" };
 // Das Siegel ist der Grund, warum es diese App gibt: wie viele unabhaengige
 // Medien den Bericht bestaetigen - und ob etwas davon noch offen ist.
+/* ---------- Wie schwer liest sich ein Text? ----------
+   Gemessen auf dem Server mit der Wiener Sachtextformel. Hier wird nur
+   angezeigt. Das bewertet ausdrücklich NICHT die Qualität eines Berichts -
+   nur, wie anstrengend er zu lesen ist. */
+const stufeKlasse = s => ({ "leicht":"leicht", "mittel":"mittel", "schwer":"schwer", "sehr schwer":"sehrschwer" }[s] || "mittel");
+function lesbarBand(l){
+  if (!l) return "";
+  return `<div class="les les-${stufeKlasse(l.stufe)}">
+    <span class="les-stufe">${esc(l.stufe)} zu lesen</span>
+    <span class="les-zahlen">${l.minuten} Min. · Ø ${l.satzlaenge} Wörter je Satz</span>
+    <span class="les-wen">${esc(l.fuerWen)}</span></div>`;
+}
+
+/* ---------- Wer steht hinter der Quelle? ----------
+   Träger und Finanzierung sind nachprüfbare Angaben aus der config.json.
+   Die politische Einordnung ist eine GEMESSENE Zahl aus einer Umfrage - und
+   sie wird nie allein gezeigt, sondern immer neben dem Durchschnitt der
+   Bevölkerung. Sonst macht man aus einem Zehntelpunkt ein Etikett. */
+function traegerBand(m){
+  if (!m.traeger && !m.finanzierung && m.publikumWert == null) return "";
+  const p = DATEN?.publikum;
+  let einordnung = "";
+  if (m.publikumWert != null && p){
+    const d = m.publikumWert - p.durchschnitt;
+    const wort = Math.abs(d) < 0.15 ? "so gut wie genau im Bevölkerungsdurchschnitt"
+      : d < 0 ? `${Math.abs(d).toFixed(2).replace(".", ",")} Punkte links vom Durchschnitt`
+              : `${d.toFixed(2).replace(".", ",")} Punkte rechts vom Durchschnitt`;
+    einordnung = `<div class="tr-zeile"><b>Publikum:</b> ${m.publikumWert.toFixed(2).replace(".", ",")}
+      <span class="tr-klein">(Bevölkerung: ${String(p.durchschnitt).replace(".", ",")} · ${esc(p.skala)})</span>
+      <span class="tr-wort">${esc(wort)}</span></div>`;
+  }
+  return `<div class="traeger">
+    ${m.traeger ? `<div class="tr-zeile"><b>Dahinter steht:</b> ${esc(m.traeger)}</div>` : ""}
+    ${m.finanzierung ? `<div class="tr-zeile"><b>Finanziert durch:</b> ${esc(m.finanzierung)}</div>` : ""}
+    ${einordnung}</div>`;
+}
+
 function medienSiegel(n){
   const zahl = (n.medien || []).length;
   if (!zahl) return "";
@@ -1294,6 +1484,99 @@ function wetterOrt(){
 }
 function wetterOrtSetzen(n){ try { localStorage.setItem("heft-ort", n); } catch {} wetterSeite(); window.scrollTo(0,0); }
 
+/* ---------- Eigener Wohnort ----------
+   Die sieben festen Städte holt der Server einmal je Stunde. Einen selbst
+   gewählten Ort fragt die App direkt bei Open-Meteo an - derselbe Dienst,
+   dieselben Felder, nur eben für diese Koordinaten. Die Antwort wird eine
+   halbe Stunde behalten, damit nicht bei jedem Blick neu geladen wird. */
+const EIGENE_CACHE = {};
+function eigeneOrte(){
+  try { const r = JSON.parse(localStorage.getItem("heft-eigene-orte") || "[]");
+    return Array.isArray(r) ? r.filter(o => o && o.name && Number.isFinite(o.lat) && Number.isFinite(o.lon)) : []; }
+  catch { return []; }
+}
+function eigeneOrteSetzen(liste){
+  try { localStorage.setItem("heft-eigene-orte", JSON.stringify(liste.slice(0, 8))); } catch {}
+}
+function ortMerken(o){
+  const liste = eigeneOrte().filter(x => x.name !== o.name);
+  liste.unshift({ name: o.name, teil: o.teil || "", lat: +o.lat.toFixed(4), lon: +o.lon.toFixed(4) });
+  eigeneOrteSetzen(liste);
+}
+
+async function ortSuchen(text){
+  const url = "https://geocoding-api.open-meteo.com/v1/search?"
+    + new URLSearchParams({ name: text, count: "6", language: "de", format: "json" });
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("Die Ortssuche antwortet nicht.");
+  const d = await r.json();
+  return (d.results || []).map(x => ({
+    name: x.name,
+    teil: [x.admin1, x.country_code !== "DE" ? x.country : ""].filter(Boolean).join(" · "),
+    lat: x.latitude, lon: x.longitude
+  }));
+}
+
+// Baut aus der Open-Meteo-Antwort genau die Form, die die Wetterseite erwartet -
+// dieselben Felder, die der Server für die festen Städte schreibt.
+function wetterFormen(d, o){
+  const t = d.daily || {};
+  if (!t.temperature_2m_max) throw new Error("keine Vorhersage erhalten");
+  const zahl = (a, k) => a?.[k] == null ? null : Math.round(a[k]);
+  const tag = k => ({
+    datum: t.time?.[k], code: t.weather_code?.[k] ?? 0,
+    max: zahl(t.temperature_2m_max, k), min: zahl(t.temperature_2m_min, k),
+    regen: zahl(t.precipitation_probability_max, k),
+    menge: t.precipitation_sum?.[k] == null ? null : Math.round(t.precipitation_sum[k] * 10) / 10,
+    wind: zahl(t.wind_speed_10m_max, k), windAus: zahl(t.wind_direction_10m_dominant, k),
+    uv: t.uv_index_max?.[k] == null ? null : Math.round(t.uv_index_max[k] * 10) / 10,
+    auf: (t.sunrise?.[k] || "").slice(11, 16), unter: (t.sunset?.[k] || "").slice(11, 16)
+  });
+  const c = d.current || null;
+  const h = d.hourly || {};
+  let stunden = [];
+  if (h.time?.length){
+    const jetztBerlin = new Intl.DateTimeFormat("sv-SE", { timeZone:"Europe/Berlin", year:"numeric",
+      month:"2-digit", day:"2-digit", hour:"2-digit", hourCycle:"h23" }).format(new Date()).replace(" ", "T").slice(0, 13);
+    let start = h.time.findIndex(x => String(x).slice(0, 13) >= jetztBerlin);
+    if (start < 0) start = 0;
+    stunden = h.time.slice(start, start + 24).map((x, k) => ({
+      zeit: String(x).slice(11, 16), grad: zahl(h.temperature_2m, start + k),
+      code: h.weather_code?.[start + k] ?? 0, regen: zahl(h.precipitation_probability, start + k)
+    })).filter(x => Number.isFinite(x.grad));
+  }
+  return { name:o.name, teil:o.teil || "", lat:o.lat, lon:o.lon, eigen:true,
+    jetzt: c ? { grad: Math.round(c.temperature_2m), code: c.weather_code,
+      gefuehlt: c.apparent_temperature == null ? null : Math.round(c.apparent_temperature),
+      wind: Math.round(c.wind_speed_10m || 0),
+      windAus: c.wind_direction_10m == null ? null : Math.round(c.wind_direction_10m),
+      feuchte: Math.round(c.relative_humidity_2m || 0),
+      druck: c.surface_pressure == null ? null : Math.round(c.surface_pressure),
+      tag: c.is_day == null ? 1 : (c.is_day ? 1 : 0) } : null,
+    heute: tag(0), morgen: tag(1),
+    tage: t.time ? t.time.map((_, k) => tag(k)) : [tag(0), tag(1)], stunden };
+}
+
+async function eigenesWetter(o){
+  const schluessel = o.lat + "," + o.lon;
+  const alt = EIGENE_CACHE[schluessel];
+  if (alt && Date.now() - alt.zeit < 30 * 60000) return alt.daten;
+  const url = "https://api.open-meteo.com/v1/forecast?" + new URLSearchParams({
+    latitude: o.lat, longitude: o.lon,
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum," +
+           "wind_speed_10m_max,wind_direction_10m_dominant,uv_index_max,sunrise,sunset",
+    current: "temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m," +
+             "relative_humidity_2m,surface_pressure,is_day",
+    hourly: "temperature_2m,weather_code,precipitation_probability",
+    timezone: "Europe/Berlin", forecast_days: "7"
+  });
+  const r = await fetch(url);
+  if (!r.ok) throw new Error("Der Wetterdienst antwortet nicht (" + r.status + ").");
+  const daten = wetterFormen(await r.json(), o);
+  EIGENE_CACHE[schluessel] = { zeit: Date.now(), daten };
+  return daten;
+}
+
 function wetterSeite(){
   document.getElementById("rubNav").hidden = true;
   const w = DATEN.wetter;
@@ -1302,38 +1585,57 @@ function wetterSeite(){
     return;
   }
   const name = wetterOrt();
-  const o = w.orte.find(x => x.name === name) || w.orte[0];
+  // Ein selbst gewählter Ort wird live geladen; bis dahin steht hier ein Hinweis.
+  const eigen = eigeneOrte().find(x => x.name === name);
+  let o = w.orte.find(x => x.name === name);
+  if (!o && eigen){
+    const fertig = EIGENE_CACHE[eigen.lat + "," + eigen.lon];
+    if (fertig && Date.now() - fertig.zeit < 30 * 60000) o = fertig.daten;
+    else {
+      $app.innerHTML = `<p class="laden">Wetter für ${esc(eigen.name)} wird geladen …</p>`;
+      eigenesWetter(eigen).then(() => { if (wetterOrt() === name) wetterSeite(); })
+        .catch(e => { $app.innerHTML = `<div class="empty"><strong>${esc(eigen.name)} konnte nicht geladen werden.</strong><br>
+          ${esc(e.message)}<br><a href="#/wetter-orte">Anderen Ort wählen</a></div>${schwesterBand()}`; });
+      return;
+    }
+  }
+  if (!o) o = w.orte[0];
   const jetzt = o.jetzt || { grad: o.heute.max, code: o.heute.code };
   const tage = (o.tage && o.tage.length > 2) ? o.tage : [o.heute, o.morgen];
-  const alleMax = tage.map(t => t.max), alleMin = tage.map(t => t.min);
-  const hoch = Math.max(...alleMax), tief = Math.min(...alleMin);
+  const istTag = jetzt.tag == null ? tagsueber(o) : !!jetzt.tag;
+
+  // Der Balken zeigt, wo der Tag in der Spanne der ganzen Woche liegt - so
+  // sieht man auf einen Blick, welcher Tag der kälteste und welcher der
+  // wärmste ist, ohne Zahlen vergleichen zu müssen.
+  const hoch = Math.max(...tage.map(t => t.max)), tief = Math.min(...tage.map(t => t.min));
+  const spanne = Math.max(1, hoch - tief);
   const balken = t => {
-    const a = ((t.min - tief) / Math.max(1, hoch - tief)) * 100;
-    const b = ((t.max - t.min) / Math.max(1, hoch - tief)) * 100;
+    const a = ((t.min - tief) / spanne) * 100;
+    const b = ((t.max - t.min) / spanne) * 100;
     return `<span class="wt-spur"><i style="left:${a.toFixed(0)}%;width:${Math.max(6, b).toFixed(0)}%"></i></span>`;
   };
+
   $app.innerHTML = `
-    <section class="wetter-jetzt" style="--wf:${APP.farbe}">
+    <section class="wetter-jetzt ${himmelKlasse(jetzt.code, istTag)}">
       <div class="wj-ort">${esc(o.name)}<small>${esc(o.teil || "")}</small></div>
-      <div class="wj-zahl"><span class="wj-symbol">${wetterBild(jetzt.code, 92)}</span><b>${esc(jetzt.grad)}°</b></div>
+      <div class="wj-zahl"><span class="wj-symbol">${wetterBild(jetzt.code, 96)}</span><b>${esc(jetzt.grad)}°</b></div>
       <div class="wj-text">${esc(wetterWort(jetzt.code))}</div>
-      <div class="wj-zeile">
-        <div><b>${esc(o.heute.max)}°</b><span>höchste</span></div>
-        <div><b>${esc(o.heute.min)}°</b><span>tiefste</span></div>
-        ${o.heute.regen != null ? `<div><b>${esc(o.heute.regen)}%</b><span>Regen</span></div>` : ""}
-        ${jetzt.wind != null ? `<div><b>${esc(jetzt.wind)}</b><span>km/h Wind</span></div>` : ""}
-        ${o.heute.auf ? `<div><b>${esc(o.heute.auf)}</b><span>Sonnenaufgang</span></div>` : ""}
-        ${o.heute.unter ? `<div><b>${esc(o.heute.unter)}</b><span>Sonnenuntergang</span></div>` : ""}
-      </div>
+      <div class="wj-hoch">H ${esc(o.heute.max)}°　T ${esc(o.heute.min)}°${
+        jetzt.gefuehlt != null && Math.abs(jetzt.gefuehlt - jetzt.grad) >= 2
+          ? `　·　gefühlt ${esc(jetzt.gefuehlt)}°` : ""}</div>
     </section>
 
-    <h2 class="abschnitt">Die nächsten Tage</h2>
+    ${stundenLeiste(o, jetzt)}
+
+    <h2 class="abschnitt">${tage.length} Tage</h2>
     <div class="wt-liste">${tage.map((t, i) => `<div class="wt-tag">
       <span class="wt-wann">${i === 0 ? "Heute" : esc(WTAG(t.datum) || "morgen")}<small>${esc(WDATUM(t.datum))}</small></span>
       <span class="wt-sym">${wetterBild(t.code, 34)}</span>
       <span class="wt-regen">${t.regen != null && t.regen >= 20 ? esc(t.regen) + "%" : ""}</span>
       <span class="wt-min">${esc(t.min)}°</span>${balken(t)}<span class="wt-max">${esc(t.max)}°</span>
     </div>`).join("")}</div>
+
+    ${wetterKacheln(o, jetzt)}
 
     <h2 class="abschnitt">Deutschland im Überblick</h2>
     <div class="wk-box">${wetterKarteSVG(w, "heute")}
@@ -1345,18 +1647,165 @@ function wetterSeite(){
   window.scrollTo(0, 0);
 }
 
+/* ---------- Bausteine der Wetter-App ---------- */
+
+// Ohne Messwert: aus Sonnenauf- und -untergang schließen, ob gerade Tag ist.
+function tagsueber(o){
+  const auf = o.heute?.auf, unter = o.heute?.unter;
+  if (!auf || !unter) return true;
+  const jetzt = new Intl.DateTimeFormat("de-DE", { timeZone:"Europe/Berlin", hour:"2-digit", minute:"2-digit", hourCycle:"h23" }).format(new Date());
+  return jetzt >= auf && jetzt <= unter;
+}
+
+// Der Himmel über dem Kopfbereich richtet sich nach Wetterlage und Tageszeit.
+function himmelKlasse(code, istTag){
+  const c = Number(code) || 0;
+  if (!istTag) return "himmel-nacht";
+  if (c >= 95) return "himmel-gewitter";
+  if (c >= 71 && c <= 77) return "himmel-schnee";
+  if (c >= 51) return "himmel-regen";
+  if (c >= 45 && c <= 48) return "himmel-nebel";
+  if (c >= 2) return "himmel-wolkig";
+  return "himmel-klar";
+}
+
+// Die nächsten 24 Stunden zum Durchwischen. Der Temperaturverlauf wird als
+// Linie darübergelegt, damit man den Tagesgang sieht und nicht nur Zahlen.
+function stundenLeiste(o, jetzt){
+  const st = o.stunden || [];
+  if (st.length < 4) return "";
+  const sonne = [];
+  if (o.heute?.auf) sonne.push(["Sonnenaufgang", o.heute.auf, "↑"]);
+  if (o.heute?.unter) sonne.push(["Sonnenuntergang", o.heute.unter, "↓"]);
+  return `<section class="wstunden">
+    <div class="ws-kopf">${esc(wetterWort(jetzt.code))} – ${st[0].regen != null && st[0].regen >= 30
+      ? `${esc(st[0].regen)} % Regenwahrscheinlichkeit in der nächsten Stunde.`
+      : "in den nächsten Stunden kein nennenswerter Regen."}</div>
+    <div class="ws-rolle">
+      <div class="ws-bahn">
+        ${st.map((s, i) => `<div class="ws-stunde">
+          <span class="ws-zeit">${i === 0 ? "Jetzt" : esc(s.zeit)}</span>
+          <span class="ws-sym">${wetterBild(s.code, 28)}</span>
+          <span class="ws-regen">${s.regen != null && s.regen >= 20 ? esc(s.regen) + "%" : ""}</span>
+          <span class="ws-grad">${esc(s.grad)}°</span>
+        </div>`).join("")}
+      </div>
+    </div>
+    ${sonne.length ? `<div class="ws-sonne">${sonne.map(([t, z, s]) =>
+      `<span><i aria-hidden="true">${s}</i>${esc(t)} <b>${esc(z)}</b></span>`).join("")}</div>` : ""}
+  </section>`;
+}
+
+const HIMMELSRICHTUNG = ["Nord","Nordost","Ost","Südost","Süd","Südwest","West","Nordwest"];
+const windWort = g => g == null ? "" : HIMMELSRICHTUNG[Math.round(((g % 360) / 45)) % 8];
+function uvWort(u){
+  if (u == null) return "";
+  return u < 3 ? "niedrig" : u < 6 ? "mäßig" : u < 8 ? "hoch" : u < 11 ? "sehr hoch" : "extrem";
+}
+
+// Die Kacheln darunter - was eine gute Wetter-App sonst noch zeigt.
+function wetterKacheln(o, jetzt){
+  const h = o.heute || {};
+  const k = [];
+  if (h.auf && h.unter) k.push(["Sonnenaufgang", h.auf, `Untergang ${h.unter}`]);
+  if (h.uv != null) k.push(["UV-Index", String(h.uv).replace(".", ","), uvWort(h.uv)]);
+  if (jetzt.wind != null) k.push(["Wind", `${jetzt.wind} km/h`,
+    jetzt.windAus != null ? `aus ${windWort(jetzt.windAus)}` : ""]);
+  if (jetzt.feuchte) k.push(["Luftfeuchte", `${jetzt.feuchte} %`,
+    jetzt.gefuehlt != null ? `gefühlt ${jetzt.gefuehlt}°` : ""]);
+  if (h.menge != null) k.push(["Regen heute", `${String(h.menge).replace(".", ",")} mm`,
+    h.regen != null ? `${h.regen} % Wahrscheinlichkeit` : ""]);
+  if (jetzt.druck != null) k.push(["Luftdruck", `${jetzt.druck} hPa`,
+    jetzt.druck > 1020 ? "Hochdruck" : jetzt.druck < 1000 ? "Tiefdruck" : "normal"]);
+  if (!k.length) return "";
+  return `<h2 class="abschnitt">Heute im Einzelnen</h2>
+    <div class="wkacheln">${k.map(([t, gross, klein]) => `<div class="wkachel">
+      <span class="wka-titel">${esc(t)}</span>
+      <b class="wka-wert">${esc(gross)}</b>
+      ${klein ? `<span class="wka-klein">${esc(klein)}</span>` : ""}</div>`).join("")}</div>`;
+}
+
 function wetterOrteSeite(){
   document.getElementById("rubNav").hidden = true;
   const w = DATEN.wetter;
   if (!w?.orte?.length){ $app.innerHTML = `<div class="empty"><strong>Noch keine Wetterdaten.</strong></div>`; return; }
   const aktiv = wetterOrt();
+  const meine = eigeneOrte();
   $app.innerHTML = `<h1 class="seiten-titel">Orte</h1>
     <p class="seiten-text">Tipp einen Ort an, dann steht er oben in der Wetter-App.</p>
+
+    <form class="wo-suche" id="woSuche" autocomplete="off">
+      <input type="search" id="woFeld" placeholder="Wohnort suchen, z. B. Freiburg" aria-label="Wohnort suchen">
+      <button type="submit">Suchen</button>
+    </form>
+    <button class="wo-standort" id="woStandort">◎ Meinen Standort verwenden</button>
+    <div id="woErgebnis"></div>
+
+    ${meine.length ? `<h2 class="abschnitt">Meine Orte</h2>
+      <div class="wo-liste">${meine.map(o => `<div class="wo-zeile">
+        <button class="wo-ort eigen${o.name === aktiv ? " an" : ""}" data-o="${esc(o.name)}">
+          <span class="wo-name">${esc(o.name)}<small>${esc(o.teil || "eigener Ort")}</small></span>
+          <span class="wo-grad">›</span></button>
+        <button class="wo-weg" data-weg="${esc(o.name)}" aria-label="${esc(o.name)} entfernen">✕</button>
+      </div>`).join("")}</div>` : ""}
+
+    <h2 class="abschnitt">Städte im Überblick</h2>
     <div class="wo-liste">${w.orte.map(o => `<button class="wo-ort${o.name === aktiv ? " an" : ""}" data-o="${esc(o.name)}">
       <span class="wo-name">${esc(o.name)}<small>${esc(o.teil || "")}</small></span>
       <span class="wo-sym">${wetterBild(o.heute.code, 32)}</span>
-      <span class="wo-grad">${esc(o.heute.max)}°<small>${esc(o.heute.min)}°</small></span></button>`).join("")}</div>`;
-  $app.querySelectorAll(".wo-ort").forEach(b => b.onclick = () => { wetterOrtSetzen(b.dataset.o); location.hash = "#/wetter"; });
+      <span class="wo-grad">${esc(o.heute.max)}°<small>${esc(o.heute.min)}°</small></span></button>`).join("")}</div>
+    <p class="w-fuss">Eigene Orte werden direkt bei Open-Meteo abgefragt und nur auf diesem Gerät gespeichert.</p>`;
+
+  const waehlen = n => { wetterOrtSetzen(n); location.hash = "#/wetter"; };
+  const binden = () => {
+    $app.querySelectorAll(".wo-ort").forEach(b => b.onclick = () => waehlen(b.dataset.o));
+    $app.querySelectorAll(".wo-weg").forEach(b => b.onclick = () => {
+      eigeneOrteSetzen(eigeneOrte().filter(x => x.name !== b.dataset.weg));
+      if (wetterOrt() === b.dataset.weg) wetterOrtSetzen(w.orte[0].name);
+      wetterOrteSeite();
+    });
+  };
+  binden();
+
+  const kasten = $app.querySelector("#woErgebnis");
+  const zeigen = (html) => { kasten.innerHTML = html; binden(); };
+  const uebernehmen = o => { ortMerken(o); waehlen(o.name); };
+
+  $app.querySelector("#woSuche").onsubmit = async e => {
+    e.preventDefault();
+    const text = $app.querySelector("#woFeld").value.trim();
+    if (text.length < 2) return;
+    zeigen(`<p class="laden">wird gesucht …</p>`);
+    try {
+      const treffer = await ortSuchen(text);
+      if (!treffer.length) return zeigen(`<div class="empty">Kein Ort mit diesem Namen gefunden.</div>`);
+      zeigen(`<div class="wo-liste">${treffer.map((t, i) => `<button class="wo-ort" data-neu="${i}">
+        <span class="wo-name">${esc(t.name)}<small>${esc(t.teil)}</small></span>
+        <span class="wo-grad">+</span></button>`).join("")}</div>`);
+      kasten.querySelectorAll("[data-neu]").forEach(b =>
+        b.onclick = () => uebernehmen(treffer[+b.dataset.neu]));
+    } catch (err) { zeigen(`<div class="empty">${esc(err.message)}</div>`); }
+  };
+
+  $app.querySelector("#woStandort").onclick = () => {
+    if (!navigator.geolocation) return zeigen(`<div class="empty">Dieses Gerät gibt den Standort nicht heraus.</div>`);
+    zeigen(`<p class="laden">Standort wird bestimmt …</p>`);
+    navigator.geolocation.getCurrentPosition(async pos => {
+      const { latitude: lat, longitude: lon } = pos.coords;
+      let name = "Mein Standort", teil = "";
+      // Für den Namen fragen wir die Ortssuche rückwärts - klappt das nicht,
+      // heißt der Ort eben "Mein Standort".
+      try {
+        const r = await fetch("https://geocoding-api.open-meteo.com/v1/search?"
+          + new URLSearchParams({ latitude: lat, longitude: lon, count: "1", language: "de", format: "json" }));
+        const d = await r.json();
+        if (d.results?.[0]){ name = d.results[0].name; teil = d.results[0].admin1 || ""; }
+      } catch {}
+      uebernehmen({ name, teil, lat, lon });
+    }, err => zeigen(`<div class="empty">Der Standort ist nicht verfügbar.${
+      err.code === 1 ? " Die Erlaubnis wurde abgelehnt – du kannst deinen Ort oben auch suchen." : ""}</div>`),
+      { timeout: 10000, maximumAge: 300000 });
+  };
 }
 
 function wetterModelleSeite(){
@@ -2072,11 +2521,14 @@ function detail(n, archiv){
       ${n.unklar?.length ? `<h3 class="ein-h">Noch unklar oder umstritten</h3><div class="unklar"><ul>${n.unklar.map(f => `<li>${esc(f)}</li>`).join("")}</ul></div>` : ""}`,
     stimmen: `${(n.positionen || []).map(([w,a,q]) => `<div class="pos"><div class="pos-wer">${esc(w)}</div><p>${esc(a)}</p>${q ? `<div class="pos-q">berichtet von: ${esc(q)}</div>` : ""}</div>`).join("")}
       ${n.fehlend ? `<p class="fehlend"><b>Wer nicht zu Wort kommt:</b> ${esc(n.fehlend)}</p>` : ""}`,
-    medien: `${n.medien.map(m => `<article class="src">
+    medien: `${n.medien.some(m => m.lesbar || m.traeger) ? `<p class="les-erklaerung">Zu jedem Originalbericht steht, <b>wer dahintersteht</b> und <b>wie schwer er sich liest</b> – Letzteres gemessen an Satz- und Wortlänge mit der Wiener Sachtextformel. Beides sagt nichts darüber aus, ob ein Bericht gut, richtig oder wichtig ist.${n.medien.some(m => m.publikumWert != null) && DATEN?.publikum ? `<br><br><b>Zur Zahl „Publikum":</b> ${esc(DATEN.publikum.hinweis)} Quelle: ${DATEN.publikum.quelleUrl ? `<a href="${esc(DATEN.publikum.quelleUrl)}" target="_blank" rel="noopener">${esc(DATEN.publikum.quelle)}</a>` : esc(DATEN.publikum.quelle)}. Für die meisten Zeitungen gibt es keine solche Messung – dort steht deshalb auch keine.` : ""}</p>` : ""}
+      ${n.medien.map(m => `<article class="src">
         <div class="src-head"><span class="src-name">${esc(m.name)}</span><span class="typ">${esc(m.typ)}</span></div>
         <div class="src-date">${esc(m.datum)}${m.stamm ? "" : ' · <em class="aussen">außerhalb der Stammliste</em>'}</div>
         <div class="fokus"><b>Schwerpunkt:</b> ${esc(m.fokus)}</div>
         <p>${esc(m.text)}</p>
+        ${traegerBand(m)}
+        ${lesbarBand(m.lesbar)}
         <a class="orig" href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${m.video ? "▶ Video ansehen ↗" : "Originalbericht lesen ↗"}</a>
       </article>`).join("")}
       ${n.unterschiede?.length ? `<h3 class="ein-h">Unterschiede zwischen den Berichten</h3><ul class="diff">${n.unterschiede.map(([t,x]) => `<li><b>${esc(t)}</b>${esc(x)}</li>`).join("")}</ul>` : ""}`,
@@ -2102,6 +2554,7 @@ function detail(n, archiv){
         ${n.aktualisiert ? `<span>${esc(n.aktualisiert)}</span>` : ""}
         <span class="check">✓ ${n.medien.length} Medien verglichen</span>
         ${n.geprueft ? `<span class="check">✓ geprüft</span>` : ""}
+        ${n.verstaendlich ? `<span class="les-punkt les-${stufeKlasse(n.verstaendlich.stufe)}" title="${esc(n.verstaendlich.fuerWen)}">${esc(n.verstaendlich.stufe)} zu lesen</span>` : ""}
         <span class="detail-aktionen">
           <button class="mini" id="merkBtn">${merkliste.hat(n.id) ? "★ Gemerkt" : "☆ Merken"}</button>
           <button class="mini" id="teilBtn">↗ Teilen</button>
@@ -2353,6 +2806,20 @@ function tonKontext(){
 // beides im selben Augenblick freigeschaltet: der Tonkanal für die Musik UND das
 // Abspielgerät für die Sprecherstimme. Ohne das darf die Stimme nach der Musik
 // nicht mehr loslegen - dann läuft die Melodie und danach kommt nichts.
+// Wartet, bis der Tonkanal wirklich wach ist. resume() ist ein Versprechen -
+// direkt danach steht dort noch "suspended", auch wenn gleich alles läuft.
+function tonBereit(){
+  const ctx = tonKontext();
+  if (!ctx) return Promise.resolve(null);
+  if (ctx.state === "running") return Promise.resolve(ctx);
+  let fertig;
+  try { fertig = ctx.resume(); } catch { return Promise.resolve(null); }
+  const warten = (fertig && fertig.then) ? fertig : Promise.resolve();
+  // Höchstens anderthalb Sekunden warten, sonst geht es ohne Melodie weiter.
+  return Promise.race([warten, new Promise(r => setTimeout(r, 1500))])
+    .then(() => ctx.state === "running" ? ctx : null)
+    .catch(() => null);
+}
 function tonFreischalten(){
   if (TON_FREI) return true;
   let okKanal = false, okGeraet = false;
@@ -2362,7 +2829,8 @@ function tonFreischalten(){
       const b = ctx.createBuffer(1, 1, 22050);
       const q = ctx.createBufferSource();
       q.buffer = b; q.connect(ctx.destination); q.start(0);
-      okKanal = ctx.state === "running";
+      // Nicht sofort nachsehen - das Aufwachen läuft noch.
+      okKanal = true;
     }
   } catch {}
   try {
@@ -2893,7 +3361,8 @@ function playerOeffnen(format, id){
       <button data-a="ton" aria-label="Ton aus">${SYM.ton}</button>
       <button data-a="ut" aria-label="Untertitel aus" class="an">${SYM.ut}</button>
       <button data-a="voll" aria-label="Vollbild">${SYM.voll}</button>
-    </div>`;
+    </div>
+    <div class="pl-themen" hidden></div>`;
   document.body.appendChild(el);
   document.body.style.overflow = "hidden";
   const start = Math.min(Math.max(0, PLAYER.startSegment || 0), Math.max(0, segs.length - 1));
@@ -2966,6 +3435,22 @@ function playerSchliessen(){
   const ziel = PLAYER.zurueck || "#/"; PLAYER.zurueck = null;
   if (location.hash.startsWith("#/video")) location.hash = ziel;
 }
+// Hochkant bleibt unter dem 16:9-Bild viel Platz leer. Dort steht jetzt, was
+// in dieser Sendung noch kommt - antippbar, um direkt hinzuspringen.
+function themenlisteFuellen(){
+  const el = document.getElementById("player"); if (!el) return;
+  const box = el.querySelector(".pl-themen"); if (!box) return;
+  const themen = PLAYER.segs.map((s, i) => [i, s]).filter(([, s]) => s.typ === "thema" && s.titel);
+  if (themen.length < 2){ box.hidden = true; return; }
+  box.hidden = false;
+  box.innerHTML = `<div class="plt-kopf">In dieser Sendung</div>
+    <div class="plt-liste">${themen.map(([i, s]) => `<button class="plt-zeile${i === PLAYER.si ? " jetzt" : ""}" data-i="${i}">
+      <span class="plt-nr">${themen.findIndex(x => x[0] === i) + 1}</span>
+      <span class="plt-titel">${esc(s.titel)}</span>
+      ${i === PLAYER.si ? `<span class="plt-marke">läuft</span>` : ""}</button>`).join("")}</div>`;
+  box.querySelectorAll(".plt-zeile").forEach(b => b.onclick = () => springen(+b.dataset.i));
+}
+
 function laufbandFuellen(){
   const el = document.getElementById("player"); if (!el) return;
   const box = el.querySelector(".pl-lauf-inhalt"); if (!box) return;
@@ -3002,7 +3487,7 @@ function zeigen(){
     ${s.chips?.length && s.typ === "thema" ? `<div class="pl-chips">${s.chips.map(([k,v]) => `<span><b>${k}:</b> ${esc(v.length > 60 ? v.slice(0,57) + "…" : v)}</span>`).join("")}</div>` : ""}
     ${s.id && PLAYER.format !== "clip" ? `<a class="pl-link" href="#/n/${esc(s.id)}">Ganzen Artikel lesen →</a>` : ""}`;
   el.querySelector(".pl-inhalt .pl-link")?.addEventListener("click", () => { stopp(); document.getElementById("player")?.remove(); document.body.style.overflow = ""; PLAYER.zurueck = null; });
-  untertitel(); laufbandFuellen();
+  untertitel(); laufbandFuellen(); themenlisteFuellen();
 }
 /* ---------- Regie: zu jedem Satz die passende Bildtafel ---------- */
 function tafelnBauen(s){
@@ -3277,15 +3762,22 @@ function abspielen(){
   const lauf = ++PLAYER.lauf;
   let warten = 0;
   if (!PLAYER.stumm && PLAYER.ti === 0 && !PLAYER.melodieGespielt && s.typ === "intro"){
-    // Nur warten, wenn der Tonkanal wirklich läuft. Sonst stünde die Sendung
-    // sieben Sekunden still und niemand wüsste warum.
-    const ctx = tonKontext();
-    if (ctx && ctx.state === "running"){
-      warten = PLAYER.format === "wissen" ? wissenMelodie() : melodie();
-    } else {
-      console.warn("Tonkanal nicht bereit – Melodie übersprungen.");
-    }
+    // Der Tonkanal wacht erst nach einer Berührung auf, und das dauert einen
+    // Augenblick. Früher haben wir sofort nachgesehen, ob er schon läuft - er
+    // lief nie, und die Melodie fiel jedes Mal aus. Jetzt warten wir darauf.
     PLAYER.melodieGespielt = true;
+    clearTimeout(PLAYER.timer);
+    PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) losSprechen(); }, 9000);   // Notbremse
+    tonBereit().then(ctx => {
+      if (!gueltig(lauf)) return;
+      let w = 0;
+      if (ctx) { try { w = PLAYER.format === "wissen" ? wissenMelodie() : melodie(); } catch (e){ console.warn("Melodie:", e); } }
+      else console.warn("Tonkanal wacht nicht auf – Melodie übersprungen.");
+      clearTimeout(PLAYER.timer);
+      if (w > 0) PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) losSprechen(); }, w * 1000);
+      else losSprechen();
+    });
+    return;
   }
   else if (!PLAYER.stumm && PLAYER.ti === 0 && s.eil && s.typ === "thema" && PLAYER.letzteEil !== s.id){ warten = eilSignal(); PLAYER.letzteEil = s.id; }
   if (warten > 0){
@@ -3627,12 +4119,12 @@ function appEinrichten(){
   const mf = document.querySelector('link[rel="manifest"]');
   if (mf) mf.setAttribute("href", APP.manifest);
   document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.setAttribute("content", APP.farbe));
-  // Die Suche oben gehört nur ins Heft.
+  // Ausblenden statt entfernen: die Betriebsart kann im Betrieb wechseln, und
+  // was einmal entfernt ist, kommt beim Zurückwechseln nicht wieder.
   const lupe = document.querySelector('.icon-btn[href="#/archiv"]');
-  if (lupe && !istHeft) lupe.remove();
-  // Der Stand oben gilt nur dort, wo es Nachrichten gibt.
+  if (lupe) lupe.hidden = !istHeft;                       // Suche gehört nur ins Heft
   const stand = document.querySelector(".stand");
-  if (stand && MODUS === "podcast") stand.remove();
+  if (stand) stand.hidden = MODUS === "podcast";          // kein Nachrichtenstand im Podcast
 }
 appEinrichten();
 addEventListener("hashchange", route);

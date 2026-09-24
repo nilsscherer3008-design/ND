@@ -388,6 +388,75 @@ export async function archivieren(alteNachrichten, aktive, jetzt, cfg, root = RO
   return neu.length;
 }
 
+// ---------- Wie schwer ist ein Text zu lesen? ----------
+//
+// Grundlage ist die Wiener Sachtextformel (Bamberger/Vanecek), die eigens für
+// deutsche Sachtexte gemacht wurde. Sie rechnet aus vier Größen eine Zahl aus,
+// die ungefähr der Schulklasse entspricht, ab der man den Text gut versteht:
+//   MS = Anteil Wörter mit drei und mehr Silben
+//   SL = durchschnittliche Satzlänge in Wörtern
+//   IW = Anteil Wörter mit mehr als sechs Buchstaben
+//   ES = Anteil Wörter mit nur einer Silbe
+//
+// WICHTIG: Das misst NUR, wie schwer ein Text zu lesen ist - nicht, ob er gut,
+// richtig oder wichtig ist. Ein Heft, das die Medien neutral vergleicht, darf
+// sie nicht in gut und schlecht einteilen. Das muss auch in der App dastehen.
+
+const VOKALE = "aeiouäöüyAEIOUÄÖÜY";
+
+// Silben zählen: Vokalgruppen. Doppellaute wie "ei" oder "au" sind eine Gruppe
+// und zählen damit von selbst als eine Silbe.
+export function silben(wort) {
+  const w = String(wort).toLowerCase().replace(/[^a-zäöüß]/g, "");
+  if (!w) return 0;
+  let zahl = 0, drin = false;
+  for (let i = 0; i < w.length; i++) {
+    const istVokal = VOKALE.includes(w[i]);
+    if (istVokal && !drin) { zahl++; drin = true; }
+    else if (!istVokal) drin = false;
+  }
+  return Math.max(1, zahl);
+}
+
+export function lesbarkeit(roh) {
+  const text = String(roh || "").replace(/\s+/g, " ").trim();
+  if (text.length < 180) return null;                    // zu wenig zum Messen
+
+  const saetze = text.split(/(?<![A-ZÄÖÜ][a-zäöü]?)[.!?]+(?=\s|$)/)
+    .map(s => s.trim()).filter(s => s.split(/\s+/).length >= 3);
+  const woerter = text.split(/\s+/)
+    .map(w => w.replace(/^[^\wäöüÄÖÜß]+|[^\wäöüÄÖÜß]+$/g, ""))
+    .filter(w => /[a-zäöüA-ZÄÖÜß]/.test(w));
+  if (saetze.length < 4 || woerter.length < 50) return null;
+
+  const silbenzahl = woerter.map(silben);
+  const n = woerter.length;
+  const MS = silbenzahl.filter(s => s >= 3).length / n * 100;
+  const ES = silbenzahl.filter(s => s === 1).length / n * 100;
+  const IW = woerter.filter(w => w.length > 6).length / n * 100;
+  const SL = n / saetze.length;
+
+  let punkte = 0.1935 * MS + 0.1672 * SL + 0.1297 * IW - 0.0327 * ES - 0.875;
+  punkte = Math.max(4, Math.min(16, punkte));
+
+  const stufe = punkte < 8 ? "leicht" : punkte < 12 ? "mittel" : punkte < 14 ? "schwer" : "sehr schwer";
+  const fuerWen = {
+    "leicht":      "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
+    "mittel":      "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+    "schwer":      "lange Sätze und viele Fachwörter – Vorwissen hilft",
+    "sehr schwer": "Fachsprache – ohne Vorwissen mühsam"
+  }[stufe];
+
+  return {
+    stufe, fuerWen,
+    klasse: Math.round(punkte),                          // Schuljahr laut Formel
+    minuten: Math.max(1, Math.round(n / 200)),           // 200 Wörter je Minute
+    woerter: n,
+    satzlaenge: Math.round(SL),
+    langeWoerter: Math.round(IW)
+  };
+}
+
 // ---------- Prüfen & zusammenführen ----------
 export function pruefen(entwurf, quellenTexte) {
   const namen = new Set(quellenTexte.map(q => q.name));
@@ -396,14 +465,29 @@ export function pruefen(entwurf, quellenTexte) {
     .filter(([, q]) => q.length >= 2);
   const medien = quellenTexte.map(q => {
     const m = (entwurf.medien || []).find(x => x.name === q.name) || {};
+    // Wer hinter der Quelle steht, steht in der config.json - nachprüfbare
+    // Angaben, keine Einschätzung von uns.
+    const cq = (CFG.quellen || []).find(x => x.name === q.name) || {};
     return { name: q.name, typ: q.typ, art: q.art, stamm: q.stamm, datum: q.datumText,
-      fokus: String(m.fokus || "–"), text: String(m.text || q.teaser), url: q.link, video: istVideo(q.link) };
+      fokus: String(m.fokus || "–"), text: String(m.text || q.teaser), url: q.link, video: istVideo(q.link),
+      // Am Originalbericht gemessen, nicht an unserer Zusammenfassung.
+      lesbar: lesbarkeit(q.text || q.teaser),
+      traeger: cq.traeger || "", finanzierung: cq.finanzierung || "",
+      publikumWert: typeof cq.publikumWert === "number" ? cq.publikumWert : null };
   });
   const arr = x => Array.isArray(x) ? x.map(String) : [];
+
+  // Unser eigener Text, gemessen wie die Originale - aber hier zeigen wir nur
+  // die Stufe. Wie lang er ist, sieht man ja selbst.
+  const eigenerText = [entwurf.vorspann, ...arr(entwurf.zusammenfassung),
+    ...(entwurf.artikel || []).flatMap(a => a?.absaetze || [])].filter(Boolean).join(" ");
+  const eigen = lesbarkeit(eigenerText);
+
   return {
     titel: String(entwurf.titel || "").trim(),
     vorspann: String(entwurf.vorspann || "").trim(),
     eil: !!entwurf.eil,
+    verstaendlich: eigen ? { stufe: eigen.stufe, fuerWen: eigen.fuerWen } : null,
     zusammenfassung: arr(entwurf.zusammenfassung).slice(0, 6),
     einig,
     unklar: arr(entwurf.unklar),
@@ -1084,8 +1168,11 @@ async function wetterHolen(jetzt) {
   const url = "https://api.open-meteo.com/v1/forecast?" + new URLSearchParams({
     latitude: WETTER_ORTE.map(o => o.lat).join(","),
     longitude: WETTER_ORTE.map(o => o.lon).join(","),
-    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,sunrise,sunset",
-    current: "temperature_2m,weather_code,wind_speed_10m,relative_humidity_2m",
+    daily: "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum," +
+           "wind_speed_10m_max,wind_direction_10m_dominant,uv_index_max,sunrise,sunset",
+    current: "temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m," +
+             "relative_humidity_2m,surface_pressure,precipitation,is_day",
+    hourly: "temperature_2m,weather_code,precipitation_probability",
     timezone: "Europe/Berlin", forecast_days: "7"
   });
   const r = await fetch(url, { headers: { "User-Agent": UA } });
@@ -1101,14 +1188,41 @@ async function wetterHolen(jetzt) {
       max: Math.round(d.temperature_2m_max[k]),
       min: Math.round(d.temperature_2m_min[k]),
       regen: d.precipitation_probability_max?.[k] == null ? null : Math.round(d.precipitation_probability_max[k]),
+      menge: d.precipitation_sum?.[k] == null ? null : Math.round(d.precipitation_sum[k] * 10) / 10,
       wind: d.wind_speed_10m_max?.[k] == null ? null : Math.round(d.wind_speed_10m_max[k]),
+      windAus: d.wind_direction_10m_dominant?.[k] == null ? null : Math.round(d.wind_direction_10m_dominant[k]),
+      uv: d.uv_index_max?.[k] == null ? null : Math.round(d.uv_index_max[k] * 10) / 10,
       auf: (d.sunrise?.[k] || "").slice(11, 16), unter: (d.sunset?.[k] || "").slice(11, 16)
     });
     const c = liste[i]?.current;
     const jetztWert = c ? { grad: Math.round(c.temperature_2m), code: c.weather_code,
-      wind: Math.round(c.wind_speed_10m || 0), feuchte: Math.round(c.relative_humidity_2m || 0) } : null;
+      gefuehlt: c.apparent_temperature == null ? null : Math.round(c.apparent_temperature),
+      wind: Math.round(c.wind_speed_10m || 0),
+      windAus: c.wind_direction_10m == null ? null : Math.round(c.wind_direction_10m),
+      feuchte: Math.round(c.relative_humidity_2m || 0),
+      druck: c.surface_pressure == null ? null : Math.round(c.surface_pressure),
+      niederschlag: c.precipitation == null ? null : Math.round(c.precipitation * 10) / 10,
+      tag: c.is_day == null ? 1 : (c.is_day ? 1 : 0) } : null;
     const tage = d.time ? d.time.map((_, k) => tag(k)) : [tag(0), tag(1)];
-    return { ...o, jetzt: jetztWert, heute: tag(0), morgen: tag(1), tage };
+
+    // Die nächsten 24 Stunden. Open-Meteo liefert alle Stunden der Vorhersage -
+    // wir suchen die laufende Stunde und schneiden ab dort einen Tag heraus.
+    const h = liste[i]?.hourly;
+    let stunden = [];
+    if (h?.time?.length){
+      const berlin = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Berlin",
+        year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23" })
+        .format(jetzt).replace(" ", "T").slice(0, 13);
+      let start = h.time.findIndex(t => String(t).slice(0, 13) >= berlin);
+      if (start < 0) start = 0;
+      stunden = h.time.slice(start, start + 24).map((t, k) => ({
+        zeit: String(t).slice(11, 16),
+        grad: Math.round(h.temperature_2m[start + k]),
+        code: h.weather_code?.[start + k] ?? 0,
+        regen: h.precipitation_probability?.[start + k] == null ? null : Math.round(h.precipitation_probability[start + k])
+      })).filter(x => Number.isFinite(x.grad));
+    }
+    return { ...o, jetzt: jetztWert, heute: tag(0), morgen: tag(1), tage, stunden };
   }).filter(Boolean);
   if (orte.length < 3) throw new Error("zu wenige Messwerte");
   const morgen = new Date(+jetzt + 24 * 36e5);
@@ -1641,6 +1755,7 @@ Antworte NUR mit JSON: {"bilder": [{"id": "...", "art": "person | ort | institut
     notified: [...notified].filter(id => nachrichten.some(n => n.id === id)),
     wetter,
     ton: alt.ton,
+    publikum: CFG.publikum || null,     // Skala, Durchschnitt und Quelle für die Einordnung
     nachrichten
   }, null, 1));
   console.log(`Fertig: ${nachrichten.length} Nachrichten, ${neuGeschrieben} neu/aktualisiert.`);

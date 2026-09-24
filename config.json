@@ -1,312 +1,355 @@
 {
-  "anbieter": "gemini",
-  "modelle": {
-    "gemini": [
-      "gemini-flash-latest",
-      "gemini-flash-lite-latest",
-      "gemini-2.5-flash"
+ "anbieter": "gemini",
+ "modelle": {
+  "gemini": [
+   "gemini-flash-latest",
+   "gemini-flash-lite-latest",
+   "gemini-2.5-flash"
+  ],
+  "anthropic": "claude-sonnet-5"
+ },
+ "pauseZwischenKiAnfragenSekunden": 12,
+ "maxNeueThemenProLauf": 4,
+ "maxArtikelProThema": 5,
+ "nachrichtenBehaltenStunden": 72,
+ "maxNachrichten": 100,
+ "zeitfenster": {
+  "vonUhr": 6,
+  "bisUhr": 22,
+  "mindestAbstandStunden": 0.75
+ },
+ "ntfyServer": "https://ntfy.sh",
+ "rubriken": [
+  "Deutschland",
+  "Welt",
+  "Wirtschaft",
+  "Wissen & Klima",
+  "Sport",
+  "Region"
+ ],
+ "quellen": [
+  {
+   "name": "Tagesschau/ARD",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.tagesschau.de/index~rss2.xml",
+    "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
+    "https://www.tagesschau.de/wissen/index~rss2.xml",
+    "https://www.tagesschau.de/ausland/index~rss2.xml"
+   ],
+   "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+   "finanzierung": "Rundfunkbeitrag",
+   "publikumWert": 3.73
+  },
+  {
+   "name": "ZDFheute",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.zdf.de/rss/zdf/nachrichten"
+   ],
+   "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+   "finanzierung": "Rundfunkbeitrag",
+   "publikumWert": 3.66
+  },
+  {
+   "name": "Deutschlandfunk",
+   "typ": "öffentlich-rechtlich",
+   "art": "öffentlich-rechtlich",
+   "stamm": true,
+   "feeds": [
+    "https://www.deutschlandfunk.de/nachrichten-100.rss"
+   ],
+   "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+   "finanzierung": "Rundfunkbeitrag"
+  },
+  {
+   "name": "Spiegel",
+   "typ": "Nachrichtenmagazin",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://www.spiegel.de/schlagzeilen/index.rss",
+    "https://www.spiegel.de/wirtschaft/index.rss",
+    "https://www.spiegel.de/sport/index.rss",
+    "https://www.spiegel.de/wissenschaft/index.rss",
+    "https://www.spiegel.de/ausland/index.rss"
+   ],
+   "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "Zeit",
+   "typ": "Wochenzeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://newsfeed.zeit.de/index",
+    "https://newsfeed.zeit.de/wirtschaft/index",
+    "https://newsfeed.zeit.de/sport/index",
+    "https://newsfeed.zeit.de/wissen/index"
+   ],
+   "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "Süddeutsche Zeitung",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://rss.sueddeutsche.de/rss/Topthemen",
+    "https://rss.sueddeutsche.de/rss/Wirtschaft",
+    "https://rss.sueddeutsche.de/rss/Sport",
+    "https://rss.sueddeutsche.de/rss/Wissen"
+   ],
+   "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "FAZ",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": true,
+   "feeds": [
+    "https://www.faz.net/rss/aktuell/",
+    "https://www.faz.net/rss/aktuell/wirtschaft/",
+    "https://www.faz.net/rss/aktuell/sport/",
+    "https://www.faz.net/rss/aktuell/wissen/"
+   ],
+   "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "Deutsche Welle",
+   "typ": "Auslandssender (öffentlich finanziert)",
+   "art": "internationaler Sender",
+   "stamm": true,
+   "feeds": [
+    "https://rss.dw.com/rdf/rss-de-all"
+   ],
+   "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
+   "finanzierung": "Steuermittel des Bundes"
+  },
+  {
+   "name": "BBC",
+   "typ": "öffentlich-rechtlich (Großbritannien)",
+   "art": "internationaler Sender",
+   "stamm": true,
+   "feeds": [
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+    "https://feeds.bbci.co.uk/sport/rss.xml"
+   ],
+   "traeger": "British Broadcasting Corporation, Großbritannien",
+   "finanzierung": "Rundfunkgebühr (Licence Fee)"
+  },
+  {
+   "name": "NZZ",
+   "typ": "Tageszeitung (Schweiz)",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://www.nzz.ch/recent.rss"
+   ],
+   "traeger": "Neue Zürcher Zeitung AG, Schweiz",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "Welt",
+   "typ": "Tageszeitung",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://www.welt.de/feeds/latest.rss"
+   ],
+   "traeger": "WeltN24 GmbH, gehört zur Axel Springer SE",
+   "finanzierung": "Abos und Werbung"
+  },
+  {
+   "name": "taz",
+   "typ": "Tageszeitung (Genossenschaft)",
+   "art": "privates Medium",
+   "stamm": false,
+   "feeds": [
+    "https://taz.de/!p4608;rss/"
+   ],
+   "traeger": "taz Verlags- und Vertriebs GmbH, getragen von der Genossenschaft taz eG (rund 23.000 Mitglieder)",
+   "finanzierung": "Genossenschaft, Abos, freiwillige Zahlungen"
+  },
+  {
+   "name": "ORF",
+   "typ": "öffentlich-rechtlich (Österreich)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "feeds": [
+    "https://rss.orf.at/news.xml"
+   ],
+   "traeger": "Österreichischer Rundfunk, Stiftung öffentlichen Rechts",
+   "finanzierung": "Haushaltsabgabe"
+  },
+  {
+   "name": "SRF",
+   "typ": "öffentlich-rechtlich (Schweiz)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "feeds": [
+    "https://www.srf.ch/news/bnf/rss/1646"
+   ],
+   "traeger": "Schweizer Radio und Fernsehen, Teil der SRG SSR",
+   "finanzierung": "Rundfunkabgabe"
+  },
+  {
+   "name": "The Guardian",
+   "typ": "Tageszeitung (Großbritannien)",
+   "art": "internationaler Sender",
+   "stamm": false,
+   "feeds": [
+    "https://www.theguardian.com/world/rss"
+   ],
+   "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
+   "finanzierung": "Leserbeiträge und Werbung"
+  },
+  {
+   "name": "SWR Baden-Württemberg",
+   "typ": "öffentlich-rechtlich (Region)",
+   "art": "öffentlich-rechtlich",
+   "stamm": false,
+   "regional": true,
+   "feeds": [
+    "https://www.swr.de/~rss/swraktuell/baden-wuerttemberg/index.xml"
+   ],
+   "traeger": "Südwestrundfunk, ARD-Anstalt für Baden-Württemberg und Rheinland-Pfalz",
+   "finanzierung": "Rundfunkbeitrag"
+  },
+  {
+   "name": "Badische Zeitung",
+   "typ": "Regionalzeitung",
+   "art": "privates Medium",
+   "stamm": false,
+   "regional": true,
+   "feeds": [
+    "https://www.badische-zeitung.de/rss/bz-suedwest.rss"
+   ],
+   "traeger": "Badischer Verlag GmbH & Co. KG, Freiburg",
+   "finanzierung": "Abos und Werbung"
+  }
+ ],
+ "archivMonate": 13,
+ "wertendeWoerter": [
+  "Chaos",
+  "Debakel",
+  "Fiasko",
+  "Hammer",
+  "Horror",
+  "Klatsche",
+  "Skandal",
+  "Wahnsinn",
+  "absurd",
+  "alarmierend",
+  "bedenklich",
+  "bedrohlich",
+  "beispiellos",
+  "besorgniserregend",
+  "brisant",
+  "desaströs",
+  "dramatisch",
+  "empörend",
+  "endlich",
+  "erschreckend",
+  "gigantisch",
+  "grandios",
+  "heftig",
+  "katastrophal",
+  "krachend",
+  "leider",
+  "massiv",
+  "peinlich",
+  "schockierend",
+  "sensationell",
+  "skandalös",
+  "spektakulär",
+  "unfassbar",
+  "unglaublich",
+  "verheerend",
+  "zum Glück"
+ ],
+ "maxMeldungenProQuelle": 80,
+ "bilder": true,
+ "maxNeuschreibenProLauf": 2,
+ "ton": {
+  "aktiv": true,
+  "stimmen": {
+   "standard": {
+    "modell": [
+     "de_DE-thorsten-high",
+     "de_DE-thorsten-medium"
     ],
-    "anthropic": "claude-sonnet-5"
+    "name": "Thorsten"
+   },
+   "einfach": {
+    "modell": [
+     "de_DE-kerstin-low",
+     "de_DE-eva_k-x_low",
+     "de_DE-thorsten-high",
+     "de_DE-thorsten-medium"
+    ],
+    "name": "Kerstin"
+   }
   },
-  "pauseZwischenKiAnfragenSekunden": 12,
-  "maxNeueThemenProLauf": 4,
-  "maxArtikelProThema": 5,
-  "nachrichtenBehaltenStunden": 72,
-  "maxNachrichten": 100,
-  "zeitfenster": {
-    "vonUhr": 6,
-    "bisUhr": 22,
-    "mindestAbstandStunden": 0.75
+  "zuordnung": {
+   "einfach": "einfach",
+   "begriff": "einfach"
   },
-  "ntfyServer": "https://ntfy.sh",
-  "rubriken": [
-    "Deutschland",
-    "Welt",
-    "Wirtschaft",
-    "Wissen & Klima",
-    "Sport",
-    "Region"
+  "formate": [
+   "lang",
+   "kurz",
+   "einfach"
   ],
-  "quellen": [
-    {
-      "name": "Tagesschau/ARD",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.tagesschau.de/index~rss2.xml",
-        "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
-        "https://www.tagesschau.de/wissen/index~rss2.xml",
-        "https://www.tagesschau.de/ausland/index~rss2.xml"
-      ]
-    },
-    {
-      "name": "ZDFheute",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.zdf.de/rss/zdf/nachrichten"
-      ]
-    },
-    {
-      "name": "Deutschlandfunk",
-      "typ": "öffentlich-rechtlich",
-      "art": "öffentlich-rechtlich",
-      "stamm": true,
-      "feeds": [
-        "https://www.deutschlandfunk.de/nachrichten-100.rss"
-      ]
-    },
-    {
-      "name": "Spiegel",
-      "typ": "Nachrichtenmagazin",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://www.spiegel.de/schlagzeilen/index.rss",
-        "https://www.spiegel.de/wirtschaft/index.rss",
-        "https://www.spiegel.de/sport/index.rss",
-        "https://www.spiegel.de/wissenschaft/index.rss",
-        "https://www.spiegel.de/ausland/index.rss"
-      ]
-    },
-    {
-      "name": "Zeit",
-      "typ": "Wochenzeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://newsfeed.zeit.de/index",
-        "https://newsfeed.zeit.de/wirtschaft/index",
-        "https://newsfeed.zeit.de/sport/index",
-        "https://newsfeed.zeit.de/wissen/index"
-      ]
-    },
-    {
-      "name": "Süddeutsche Zeitung",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://rss.sueddeutsche.de/rss/Topthemen",
-        "https://rss.sueddeutsche.de/rss/Wirtschaft",
-        "https://rss.sueddeutsche.de/rss/Sport",
-        "https://rss.sueddeutsche.de/rss/Wissen"
-      ]
-    },
-    {
-      "name": "FAZ",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": true,
-      "feeds": [
-        "https://www.faz.net/rss/aktuell/",
-        "https://www.faz.net/rss/aktuell/wirtschaft/",
-        "https://www.faz.net/rss/aktuell/sport/",
-        "https://www.faz.net/rss/aktuell/wissen/"
-      ]
-    },
-    {
-      "name": "Deutsche Welle",
-      "typ": "Auslandssender (öffentlich finanziert)",
-      "art": "internationaler Sender",
-      "stamm": true,
-      "feeds": [
-        "https://rss.dw.com/rdf/rss-de-all"
-      ]
-    },
-    {
-      "name": "BBC",
-      "typ": "öffentlich-rechtlich (Großbritannien)",
-      "art": "internationaler Sender",
-      "stamm": true,
-      "feeds": [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-        "https://feeds.bbci.co.uk/sport/rss.xml"
-      ]
-    },
-    {
-      "name": "NZZ",
-      "typ": "Tageszeitung (Schweiz)",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://www.nzz.ch/recent.rss"
-      ]
-    },
-    {
-      "name": "Welt",
-      "typ": "Tageszeitung",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://www.welt.de/feeds/latest.rss"
-      ]
-    },
-    {
-      "name": "taz",
-      "typ": "Tageszeitung (Genossenschaft)",
-      "art": "privates Medium",
-      "stamm": false,
-      "feeds": [
-        "https://taz.de/!p4608;rss/"
-      ]
-    },
-    {
-      "name": "ORF",
-      "typ": "öffentlich-rechtlich (Österreich)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "feeds": [
-        "https://rss.orf.at/news.xml"
-      ]
-    },
-    {
-      "name": "SRF",
-      "typ": "öffentlich-rechtlich (Schweiz)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "feeds": [
-        "https://www.srf.ch/news/bnf/rss/1646"
-      ]
-    },
-    {
-      "name": "The Guardian",
-      "typ": "Tageszeitung (Großbritannien)",
-      "art": "internationaler Sender",
-      "stamm": false,
-      "feeds": [
-        "https://www.theguardian.com/world/rss"
-      ]
-    },
-    {
-      "name": "SWR Baden-Württemberg",
-      "typ": "öffentlich-rechtlich (Region)",
-      "art": "öffentlich-rechtlich",
-      "stamm": false,
-      "regional": true,
-      "feeds": [
-        "https://www.swr.de/~rss/swraktuell/baden-wuerttemberg/index.xml"
-      ]
-    },
-    {
-      "name": "Badische Zeitung",
-      "typ": "Regionalzeitung",
-      "art": "privates Medium",
-      "stamm": false,
-      "regional": true,
-      "feeds": [
-        "https://www.badische-zeitung.de/rss/bz-suedwest.rss"
-      ]
-    }
-  ],
-  "archivMonate": 13,
-  "wertendeWoerter": [
-    "Chaos",
-    "Debakel",
-    "Fiasko",
-    "Hammer",
-    "Horror",
-    "Klatsche",
-    "Skandal",
-    "Wahnsinn",
-    "absurd",
-    "alarmierend",
-    "bedenklich",
-    "bedrohlich",
-    "beispiellos",
-    "besorgniserregend",
-    "brisant",
-    "desaströs",
-    "dramatisch",
-    "empörend",
-    "endlich",
-    "erschreckend",
-    "gigantisch",
-    "grandios",
-    "heftig",
-    "katastrophal",
-    "krachend",
-    "leider",
-    "massiv",
-    "peinlich",
-    "schockierend",
-    "sensationell",
-    "skandalös",
-    "spektakulär",
-    "unfassbar",
-    "unglaublich",
-    "verheerend",
-    "zum Glück"
-  ],
-  "maxMeldungenProQuelle": 80,
+  "tief": true,
+  "budgetSekunden": 1500,
+  "maxLaufzeitSekunden": 660
+ },
+ "wetter": true,
+ "wissen": {
+  "aktiv": true,
+  "proTag": 4,
+  "behalten": 40,
   "bilder": true,
-  "maxNeuschreibenProLauf": 2,
-  "ton": {
-    "aktiv": true,
-    "stimmen": {
-      "standard": {
-        "modell": [
-          "de_DE-thorsten-high",
-          "de_DE-thorsten-medium"
-        ],
-        "name": "Thorsten"
-      },
-      "einfach": {
-        "modell": [
-          "de_DE-kerstin-low",
-          "de_DE-eva_k-x_low",
-          "de_DE-thorsten-high",
-          "de_DE-thorsten-medium"
-        ],
-        "name": "Kerstin"
-      }
-    },
-    "zuordnung": {
-      "einfach": "einfach",
-      "begriff": "einfach"
-    },
-    "formate": [
-      "lang",
-      "kurz",
-      "einfach"
-    ],
-    "tief": true,
-    "budgetSekunden": 1500,
-    "maxLaufzeitSekunden": 660
-  },
-  "wetter": true,
-  "wissen": {
-    "aktiv": true,
-    "proTag": 4,
-    "behalten": 40,
-    "bilder": true,
-    "bilderProStueck": 6,
-    "versuche": 3
-  },
-  "anbieterReihe": [
-    "gemini",
-    "openai",
-    "anthropic"
-  ],
-  "zweitdienst": {
-    "basis": "https://api.groq.com/openai/v1",
-    "modell": "llama-3.3-70b-versatile"
-  },
-  "maxKiAnfragenProLauf": 22,
-  "doku": {
-    "aktiv": true,
-    "kapitel": 10,
-    "woerterProKapitel": 650,
-    "behalten": 12,
-    "bilder": true,
-    "bilderProKapitel": 7,
-    "mindestWoerterProKapitel": 380,
-    "mindestAnteil": 0.75,
-    "mindestWoerter": 2500
-  },
-  "reserveFuerWissenUndDoku": 6
+  "bilderProStueck": 6,
+  "versuche": 3
+ },
+ "anbieterReihe": [
+  "gemini",
+  "openai",
+  "anthropic"
+ ],
+ "zweitdienst": {
+  "basis": "https://api.groq.com/openai/v1",
+  "modell": "llama-3.3-70b-versatile"
+ },
+ "maxKiAnfragenProLauf": 22,
+ "doku": {
+  "aktiv": true,
+  "kapitel": 10,
+  "woerterProKapitel": 650,
+  "behalten": 12,
+  "bilder": true,
+  "bilderProKapitel": 7,
+  "mindestWoerterProKapitel": 380,
+  "mindestAnteil": 0.75,
+  "mindestWoerter": 2500
+ },
+ "reserveFuerWissenUndDoku": 6,
+ "publikum": {
+  "skala": "1 = ganz links, 7 = ganz rechts",
+  "durchschnitt": 3.79,
+  "quelle": "Reuters Institute Digital News Report, rund 2.000 befragte Internetnutzer in Deutschland",
+  "quelleUrl": "https://leibniz-hbi.de/hbi-projects/reuters-institute-digital-news-report/",
+  "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
+ }
 }
