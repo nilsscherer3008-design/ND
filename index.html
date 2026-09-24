@@ -1008,11 +1008,12 @@ const APPS = {
              ["#/mehr", "mehr", "☰", "Mehr"]]
   }
 };
+// Die Betriebsart steht NUR in der Adresse und wird nicht gemerkt. Sonst käme man,
+// einmal in der Wetter-App gewesen, nie wieder zum Heft zurück. Die installierten
+// Apps tragen ihr ?app=… im Startlink, dort bleibt es also erhalten.
 const MODUS = (() => {
   const p = new URLSearchParams(location.search).get("app");
-  if (p && APPS[p]) { try { localStorage.setItem("heft-app", p); } catch {} return p; }
-  try { const g = localStorage.getItem("heft-app"); if (g && APPS[g]) return g; } catch {}
-  return "heft";
+  return (p && APPS[p]) ? p : "heft";
 })();
 const APP = APPS[MODUS];
 const istHeft = MODUS === "heft";
@@ -1339,7 +1340,8 @@ function wetterSeite(){
       <div class="wk-band"><b>Heute</b><span>Morgen (${esc(w.morgenTag)})</span></div></div>
 
     ${modellVergleichHTML(w)}
-    <p class="w-fuss">${esc(w.quelle)} · Karte: GeoBasis-DE / BKG (dl-de/by-2-0)</p>`;
+    <p class="w-fuss">${esc(w.quelle)} · Karte: GeoBasis-DE / BKG (dl-de/by-2-0)</p>
+    ${schwesterBand()}`;
   window.scrollTo(0, 0);
 }
 
@@ -1384,7 +1386,8 @@ function podcastSeite(){
       Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten.</p>
     ${f.length ? f.map(folgenKarte).join("")
       : `<div class="empty"><strong>Noch keine Folge.</strong><br>Jeden Abend kommt eine dazu.</div>`}
-    <p class="mehr-zeile"><a href="#/abo">In einer Podcast-App abonnieren ›</a></p>`;
+    <p class="mehr-zeile"><a href="#/abo">In einer Podcast-App abonnieren ›</a></p>
+    ${schwesterBand()}`;
   $app.querySelectorAll("audio").forEach(a => a.onplay = () => {
     $app.querySelectorAll("audio").forEach(b => { if (b !== a) b.pause(); });
   });
@@ -1421,7 +1424,7 @@ function aboSeite(){
 // Dieses Band führt hin, damit man sie überhaupt findet.
 function schwesterBand(){
   const andere = Object.entries(APPS).filter(([k]) => k !== MODUS);
-  return `<section class="videos"><h2 class="abschnitt">Auch vom Nachrichten-Heft</h2>
+  return `<section class="videos"><h2 class="abschnitt">${istHeft ? "Auch vom Nachrichten-Heft" : "Die anderen Apps"}</h2>
     <div class="schwestern">${andere.map(([k, a]) => `<a class="schwester" href="?app=${k}" style="--sf:${a.farbe}">
       <span class="sw-sym">${a.symbol}</span>
       <span class="sw-text"><b>${esc(a.name)}</b><small>${esc(SCHWESTER_TEXT[k] || "")}</small></span>
@@ -1478,7 +1481,8 @@ function wissenSeite(){
       ${dokus.length ? `<div class="list">${dokus.map(dokuKarte).join("")}</div>` : ""}
       ${DOKU_ARBEIT && !WISSEN_FILTER ? dokuInArbeitHTML(DOKU_ARBEIT) : ""}` : ""}
     ${stuecke.length ? `<h2 class="abschnitt">Kurz erklärt</h2><div class="list">${stuecke.map(wissenKarte).join("")}</div>` : ""}
-    ${!dokus.length && !stuecke.length && !(DOKU_ARBEIT && !WISSEN_FILTER) ? `<div class="empty"><strong>${WISSEN_FILTER ? "In diesem Bereich ist noch nichts da." : "Noch nichts da."}</strong><br>${WISSEN_FILTER ? `<a href="#" onclick="WISSEN_FILTER='';wissenSeite();return false">Alle Bereiche zeigen</a>` : "Jeden Tag kommt ein Stück dazu, und an einer langen Doku wird im Hintergrund gearbeitet."}</div>` : ""}`;
+    ${!dokus.length && !stuecke.length && !(DOKU_ARBEIT && !WISSEN_FILTER) ? `<div class="empty"><strong>${WISSEN_FILTER ? "In diesem Bereich ist noch nichts da." : "Noch nichts da."}</strong><br>${WISSEN_FILTER ? `<a href="#" onclick="WISSEN_FILTER='';wissenSeite();return false">Alle Bereiche zeigen</a>` : "Jeden Tag kommt ein Stück dazu, und an einer langen Doku wird im Hintergrund gearbeitet."}</div>` : ""}
+    ${istHeft ? "" : schwesterBand()}`;
   $app.querySelectorAll(".bereich-nav button").forEach(b => b.onclick = () => { WISSEN_FILTER = b.dataset.b; wissenSeite(); window.scrollTo(0, 0); });
 }
 function wissenDetail(id){

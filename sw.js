@@ -1,6 +1,8 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v9";
-const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
+const VERSION = "heft-v11";
+const SHELL = ["./", "./index.html", "./manifest.webmanifest",
+  "./manifest-wissen.webmanifest", "./manifest-wetter.webmanifest", "./manifest-podcast.webmanifest",
+  "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -48,10 +50,25 @@ async function speicherUndAktualisieren(req) {
   return hit || netz;
 }
 
+// Die Seite selbst kommt zuerst aus dem Netz. Sonst bekommt man tagelang die
+// gespeicherte alte Fassung zu sehen, auch wenn längst eine neue da ist -
+// und Adressen wie ?app=wetter werden von der alten gar nicht verstanden.
+async function seiteHolen(req) {
+  const cache = await caches.open(VERSION);
+  try {
+    const res = await fetch(req);
+    if (res && res.ok) { cache.put("./index.html", res.clone()); return res; }
+  } catch { /* offline */ }
+  return (await cache.match(req, { ignoreSearch: true }))
+      || (await cache.match("./index.html"))
+      || Response.error();
+}
+
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
+  if (req.mode === "navigate") return e.respondWith(seiteHolen(req));
   if (url.pathname.endsWith(".json")) return e.respondWith(netzZuerst(req));
   // Tonaufnahmen tragen den Inhalt im Namen und ändern sich nie: einmal laden, dann aus dem Speicher
   if (url.pathname.endsWith(".mp3")) return e.respondWith(speicherZuerst(req));
