@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-24T09:56:20.705Z",
+ "stand": "2026-09-24T15:00:32.760Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -45,10 +45,8 @@
   "scheuer-maut-prozess-gericht",
   "rad-wm-zeitfahren-montreal",
   "google-strafe-datenschutz",
-  "davis-cup-tennis-finale",
   "merzer-enteignungsverbot",
   "mercedes-werkschliessung",
-  "ig-metall-aktionstag",
   "ig-metall-forderung-tarifrunde",
   "oecd-konjunkturprognose-deutschland",
   "g20-einladung-putin-usa",
@@ -59,7 +57,7 @@
   "hitze-schwaecht-europaeische-wirtschaft"
  ],
  "wetter": {
-  "stand": "2026-09-24T09:56:20.705Z",
+  "stand": "2026-09-24T15:00:32.760Z",
   "morgenTag": "Freitag",
   "orte": [
    {
@@ -67,118 +65,1980 @@
     "lat": 53.55,
     "lon": 9.99,
     "teil": "Norden",
+    "jetzt": {
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 13,
+     "wind": 17,
+     "windAus": 300,
+     "feuchte": 73,
+     "druck": 1019,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 80,
-     "max": 14,
-     "min": 13
+     "max": 15,
+     "min": 13,
+     "regen": 98,
+     "menge": 1.6,
+     "wind": 19,
+     "windAus": 294,
+     "uv": 1.4,
+     "auf": "07:09",
+     "unter": "19:14"
     },
     "morgen": {
+     "datum": "2026-09-25",
      "code": 3,
      "max": 18,
-     "min": 10
-    }
+     "min": 10,
+     "regen": 0,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 254,
+     "uv": 3.8,
+     "auf": "07:10",
+     "unter": "19:11"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 80,
+      "max": 15,
+      "min": 13,
+      "regen": 98,
+      "menge": 1.6,
+      "wind": 19,
+      "windAus": 294,
+      "uv": 1.4,
+      "auf": "07:09",
+      "unter": "19:14"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 18,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 254,
+      "uv": 3.8,
+      "auf": "07:10",
+      "unter": "19:11"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 61,
+      "max": 18,
+      "min": 9,
+      "regen": 13,
+      "menge": 0.4,
+      "wind": 7,
+      "windAus": 241,
+      "uv": 3.5,
+      "auf": "07:12",
+      "unter": "19:09"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 20,
+      "min": 11,
+      "regen": 5,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 103,
+      "uv": 3.3,
+      "auf": "07:14",
+      "unter": "19:06"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 26,
+      "min": 11,
+      "regen": 14,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 140,
+      "uv": 3.6,
+      "auf": "07:16",
+      "unter": "19:04"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 3,
+      "max": 26,
+      "min": 15,
+      "regen": 15,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 101,
+      "uv": 3.1,
+      "auf": "07:17",
+      "unter": "19:01"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 1,
+      "max": 27,
+      "min": 15,
+      "regen": 6,
+      "menge": 0,
+      "wind": 14,
+      "windAus": 116,
+      "uv": 3.3,
+      "auf": "07:19",
+      "unter": "18:59"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 12,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 11,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "Berlin",
     "lat": 52.52,
     "lon": 13.4,
     "teil": "Osten",
+    "jetzt": {
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 12,
+     "wind": 14,
+     "windAus": 298,
+     "feuchte": 65,
+     "druck": 1015,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 80,
-     "max": 16,
-     "min": 13
+     "max": 15,
+     "min": 13,
+     "regen": 98,
+     "menge": 1.3,
+     "wind": 18,
+     "windAus": 284,
+     "uv": 3,
+     "auf": "06:55",
+     "unter": "19:00"
     },
     "morgen": {
+     "datum": "2026-09-25",
      "code": 3,
-     "max": 17,
-     "min": 12
-    }
+     "max": 16,
+     "min": 12,
+     "regen": 0,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 271,
+     "uv": 3.3,
+     "auf": "06:57",
+     "unter": "18:58"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 80,
+      "max": 15,
+      "min": 13,
+      "regen": 98,
+      "menge": 1.3,
+      "wind": 18,
+      "windAus": 284,
+      "uv": 3,
+      "auf": "06:55",
+      "unter": "19:00"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 16,
+      "min": 12,
+      "regen": 0,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 271,
+      "uv": 3.3,
+      "auf": "06:57",
+      "unter": "18:58"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 22,
+      "min": 9,
+      "regen": 5,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 207,
+      "uv": 3.9,
+      "auf": "06:58",
+      "unter": "18:55"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 21,
+      "min": 11,
+      "regen": 5,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 105,
+      "uv": 3.6,
+      "auf": "07:00",
+      "unter": "18:53"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 25,
+      "min": 13,
+      "regen": 4,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 145,
+      "uv": 3.7,
+      "auf": "07:02",
+      "unter": "18:50"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 3,
+      "max": 26,
+      "min": 15,
+      "regen": 9,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 111,
+      "uv": 3.6,
+      "auf": "07:03",
+      "unter": "18:48"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 1,
+      "max": 26,
+      "min": 15,
+      "regen": 4,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 107,
+      "uv": 3.5,
+      "auf": "07:05",
+      "unter": "18:46"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "18:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "Leipzig",
     "lat": 51.34,
     "lon": 12.37,
     "teil": "Osten",
+    "jetzt": {
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 13,
+     "wind": 12,
+     "windAus": 305,
+     "feuchte": 67,
+     "druck": 1008,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 80,
-     "max": 17,
-     "min": 13
+     "max": 16,
+     "min": 13,
+     "regen": 98,
+     "menge": 2,
+     "wind": 18,
+     "windAus": 282,
+     "uv": 4,
+     "auf": "06:59",
+     "unter": "19:04"
     },
     "morgen": {
-     "code": 61,
+     "datum": "2026-09-25",
+     "code": 3,
      "max": 17,
-     "min": 11
-    }
+     "min": 11,
+     "regen": 10,
+     "menge": 0,
+     "wind": 8,
+     "windAus": 249,
+     "uv": 4.1,
+     "auf": "07:01",
+     "unter": "19:02"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 80,
+      "max": 16,
+      "min": 13,
+      "regen": 98,
+      "menge": 2,
+      "wind": 18,
+      "windAus": 282,
+      "uv": 4,
+      "auf": "06:59",
+      "unter": "19:04"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 17,
+      "min": 11,
+      "regen": 10,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 249,
+      "uv": 4.1,
+      "auf": "07:01",
+      "unter": "19:02"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 23,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 201,
+      "uv": 4.1,
+      "auf": "07:02",
+      "unter": "18:59"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 23,
+      "min": 13,
+      "regen": 3,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 105,
+      "uv": 3.6,
+      "auf": "07:04",
+      "unter": "18:57"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 27,
+      "min": 13,
+      "regen": 3,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 167,
+      "uv": 3.9,
+      "auf": "07:06",
+      "unter": "18:55"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 2,
+      "max": 28,
+      "min": 15,
+      "regen": 8,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 130,
+      "uv": 3.8,
+      "auf": "07:07",
+      "unter": "18:52"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 0,
+      "max": 27,
+      "min": 13,
+      "regen": 0,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 101,
+      "uv": 3.7,
+      "auf": "07:09",
+      "unter": "18:50"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 15
+     },
+     {
+      "zeit": "18:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "19:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 13
+     },
+     {
+      "zeit": "20:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "21:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "22:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "23:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 28
+     },
+     {
+      "zeit": "00:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "01:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "02:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "03:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "05:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "08:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "Köln",
     "lat": 50.94,
     "lon": 6.96,
     "teil": "Westen",
+    "jetzt": {
+     "grad": 19,
+     "code": 1,
+     "gefuehlt": 17,
+     "wind": 10,
+     "windAus": 333,
+     "feuchte": 42,
+     "druck": 1017,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 3,
      "max": 19,
-     "min": 15
+     "min": 15,
+     "regen": 90,
+     "menge": 0,
+     "wind": 16,
+     "windAus": 315,
+     "uv": 3.4,
+     "auf": "07:21",
+     "unter": "19:26"
     },
     "morgen": {
+     "datum": "2026-09-25",
      "code": 3,
      "max": 23,
-     "min": 11
-    }
+     "min": 11,
+     "regen": 0,
+     "menge": 0,
+     "wind": 9,
+     "windAus": 129,
+     "uv": 4.3,
+     "auf": "07:22",
+     "unter": "19:23"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 3,
+      "max": 19,
+      "min": 15,
+      "regen": 90,
+      "menge": 0,
+      "wind": 16,
+      "windAus": 315,
+      "uv": 3.4,
+      "auf": "07:21",
+      "unter": "19:26"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 23,
+      "min": 11,
+      "regen": 0,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 129,
+      "uv": 4.3,
+      "auf": "07:22",
+      "unter": "19:23"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 26,
+      "min": 13,
+      "regen": 0,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 121,
+      "uv": 3.7,
+      "auf": "07:24",
+      "unter": "19:21"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 25,
+      "min": 11,
+      "regen": 0,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 121,
+      "uv": 3.8,
+      "auf": "07:26",
+      "unter": "19:19"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 27,
+      "min": 15,
+      "regen": 17,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 114,
+      "uv": 3.8,
+      "auf": "07:27",
+      "unter": "19:17"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 3,
+      "max": 28,
+      "min": 18,
+      "regen": 4,
+      "menge": 0,
+      "wind": 16,
+      "windAus": 125,
+      "uv": 3.8,
+      "auf": "07:29",
+      "unter": "19:14"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 3,
+      "max": 25,
+      "min": 17,
+      "regen": 4,
+      "menge": 0,
+      "wind": 18,
+      "windAus": 129,
+      "uv": 3.5,
+      "auf": "07:30",
+      "unter": "19:12"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 22,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "Frankfurt",
     "lat": 50.11,
     "lon": 8.68,
     "teil": "Westen",
+    "jetzt": {
+     "grad": 19,
+     "code": 0,
+     "gefuehlt": 16,
+     "wind": 10,
+     "windAus": 333,
+     "feuchte": 37,
+     "druck": 1011,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 3,
-     "max": 19,
-     "min": 13
+     "max": 20,
+     "min": 13,
+     "regen": 8,
+     "menge": 0,
+     "wind": 12,
+     "windAus": 300,
+     "uv": 3.8,
+     "auf": "07:14",
+     "unter": "19:19"
     },
     "morgen": {
+     "datum": "2026-09-25",
      "code": 3,
      "max": 21,
-     "min": 7
-    }
+     "min": 8,
+     "regen": 0,
+     "menge": 0,
+     "wind": 4,
+     "windAus": 81,
+     "uv": 4.4,
+     "auf": "07:15",
+     "unter": "19:17"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 3,
+      "max": 20,
+      "min": 13,
+      "regen": 8,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 300,
+      "uv": 3.8,
+      "auf": "07:14",
+      "unter": "19:19"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 21,
+      "min": 8,
+      "regen": 0,
+      "menge": 0,
+      "wind": 4,
+      "windAus": 81,
+      "uv": 4.4,
+      "auf": "07:15",
+      "unter": "19:17"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 24,
+      "min": 9,
+      "regen": 0,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 78,
+      "uv": 4.3,
+      "auf": "07:17",
+      "unter": "19:14"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 27,
+      "min": 11,
+      "regen": 3,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 73,
+      "uv": 4.3,
+      "auf": "07:19",
+      "unter": "19:12"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 30,
+      "min": 13,
+      "regen": 13,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 103,
+      "uv": 3.8,
+      "auf": "07:20",
+      "unter": "19:10"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 3,
+      "max": 30,
+      "min": 14,
+      "regen": 15,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 62,
+      "uv": 3.7,
+      "auf": "07:22",
+      "unter": "19:08"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 3,
+      "max": 30,
+      "min": 12,
+      "regen": 2,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 64,
+      "uv": 2.4,
+      "auf": "07:23",
+      "unter": "19:05"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 12,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 10,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 10,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 9,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 9,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "Stuttgart",
     "lat": 48.78,
     "lon": 9.18,
     "teil": "Süden",
+    "jetzt": {
+     "grad": 17,
+     "code": 2,
+     "gefuehlt": 15,
+     "wind": 9,
+     "windAus": 342,
+     "feuchte": 53,
+     "druck": 993,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 3,
      "max": 18,
-     "min": 12
+     "min": 12,
+     "regen": 18,
+     "menge": 0,
+     "wind": 12,
+     "windAus": 272,
+     "uv": 3.5,
+     "auf": "07:12",
+     "unter": "19:17"
     },
     "morgen": {
+     "datum": "2026-09-25",
      "code": 3,
-     "max": 22,
-     "min": 7
-    }
+     "max": 21,
+     "min": 8,
+     "regen": 0,
+     "menge": 0,
+     "wind": 5,
+     "windAus": 154,
+     "uv": 4.4,
+     "auf": "07:13",
+     "unter": "19:15"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 3,
+      "max": 18,
+      "min": 12,
+      "regen": 18,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 272,
+      "uv": 3.5,
+      "auf": "07:12",
+      "unter": "19:17"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 3,
+      "max": 21,
+      "min": 8,
+      "regen": 0,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 154,
+      "uv": 4.4,
+      "auf": "07:13",
+      "unter": "19:15"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 26,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 161,
+      "uv": 4.4,
+      "auf": "07:15",
+      "unter": "19:13"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 3,
+      "max": 29,
+      "min": 13,
+      "regen": 0,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 160,
+      "uv": 4.3,
+      "auf": "07:16",
+      "unter": "19:10"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 31,
+      "min": 15,
+      "regen": 3,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 140,
+      "uv": 3.8,
+      "auf": "07:18",
+      "unter": "19:08"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 1,
+      "max": 30,
+      "min": 13,
+      "regen": 3,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 131,
+      "uv": 3.4,
+      "auf": "07:19",
+      "unter": "19:06"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 45,
+      "max": 29,
+      "min": 11,
+      "regen": 2,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 121,
+      "uv": 2.6,
+      "auf": "07:21",
+      "unter": "19:04"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 11,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 9,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 8,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 21,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 21,
+      "code": 1,
+      "regen": 0
+     }
+    ]
    },
    {
     "name": "München",
     "lat": 48.14,
     "lon": 11.58,
     "teil": "Süden",
+    "jetzt": {
+     "grad": 15,
+     "code": 2,
+     "gefuehlt": 13,
+     "wind": 14,
+     "windAus": 312,
+     "feuchte": 64,
+     "druck": 961,
+     "niederschlag": 0,
+     "tag": 1
+    },
     "heute": {
+     "datum": "2026-09-24",
      "code": 61,
-     "max": 17,
-     "min": 10
+     "max": 16,
+     "min": 10,
+     "regen": 88,
+     "menge": 0.2,
+     "wind": 15,
+     "windAus": 278,
+     "uv": 1.6,
+     "auf": "07:02",
+     "unter": "19:07"
     },
     "morgen": {
-     "code": 2,
+     "datum": "2026-09-25",
+     "code": 45,
      "max": 18,
-     "min": 6
-    }
+     "min": 5,
+     "regen": 0,
+     "menge": 0,
+     "wind": 5,
+     "windAus": 130,
+     "uv": 4.5,
+     "auf": "07:04",
+     "unter": "19:05"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-24",
+      "code": 61,
+      "max": 16,
+      "min": 10,
+      "regen": 88,
+      "menge": 0.2,
+      "wind": 15,
+      "windAus": 278,
+      "uv": 1.6,
+      "auf": "07:02",
+      "unter": "19:07"
+     },
+     {
+      "datum": "2026-09-25",
+      "code": 45,
+      "max": 18,
+      "min": 5,
+      "regen": 0,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 130,
+      "uv": 4.5,
+      "auf": "07:04",
+      "unter": "19:05"
+     },
+     {
+      "datum": "2026-09-26",
+      "code": 3,
+      "max": 24,
+      "min": 7,
+      "regen": 0,
+      "menge": 0,
+      "wind": 4,
+      "windAus": 171,
+      "uv": 4.4,
+      "auf": "07:05",
+      "unter": "19:03"
+     },
+     {
+      "datum": "2026-09-27",
+      "code": 2,
+      "max": 25,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 110,
+      "uv": 4.4,
+      "auf": "07:07",
+      "unter": "19:01"
+     },
+     {
+      "datum": "2026-09-28",
+      "code": 45,
+      "max": 26,
+      "min": 9,
+      "regen": 0,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 98,
+      "uv": 4.3,
+      "auf": "07:08",
+      "unter": "18:59"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 45,
+      "max": 25,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 91,
+      "uv": 3.9,
+      "auf": "07:09",
+      "unter": "18:57"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 45,
+      "max": 25,
+      "min": 10,
+      "regen": 0,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 101,
+      "uv": 3.6,
+      "auf": "07:11",
+      "unter": "18:55"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 65
+     },
+     {
+      "zeit": "18:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 5
+     },
+     {
+      "zeit": "19:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 9,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 9,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 8,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 8,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 7,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 5,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 6,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 6,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 6,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 8,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     }
+    ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 14 und 19 Grad.",
+   "Heute liegen die Höchstwerte zwischen 15 und 20 Grad.",
    "Die Vorhersage für morgen, Freitag, im ganzen Land: bewölkt.",
-   "Die Temperaturen erreichen dann 17 bis 23 Grad.",
+   "Die Temperaturen erreichen dann 16 bis 23 Grad.",
    "Am wärmsten wird es in Köln mit 23 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
@@ -214,7 +2074,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 17,
+       "grad": 16,
        "regen": 0
       },
       {
@@ -227,7 +2087,7 @@
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 16,
-       "regen": 0.7
+       "regen": 1.5
       }
      ]
     },
@@ -243,7 +2103,7 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 18,
+       "grad": 19,
        "regen": 0
       },
       {
@@ -289,7 +2149,7 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
@@ -306,13 +2166,13 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
@@ -348,9 +2208,19 @@
     }
    ],
    "spanneGrad": 2,
-   "uneinigRegen": null,
+   "uneinigRegen": {
+    "ort": "Berlin",
+    "nass": [
+     "ECMWF"
+    ],
+    "trocken": [
+     "ICON",
+     "GFS"
+    ]
+   },
    "saetze": [
-    "Für Berlin gehen die Modelle am weitesten auseinander: zwischen 16 und 18 Grad."
+    "Für Berlin gehen die Modelle am weitesten auseinander: zwischen 16 und 18 Grad.",
+    "Und in Berlin erwartet ECMWF Regen, ICON und GFS dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -533,6 +2403,13 @@
     ]
    }
   ]
+ },
+ "publikum": {
+  "skala": "1 = ganz links, 7 = ganz rechts",
+  "durchschnitt": 3.79,
+  "quelle": "Reuters Institute Digital News Report, rund 2.000 befragte Internetnutzer in Deutschland",
+  "quelleUrl": "https://leibniz-hbi.de/hbi-projects/reuters-institute-digital-news-report/",
+  "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
   {
@@ -3363,7 +5240,7 @@
     {
      "k": "Chinas Staatspräsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den V",
      "d": "df24315556.mp3",
-     "l": 17.0,
+     "l": 17,
      "s": [
       0.25
      ]
@@ -10538,914 +12415,6 @@
       0.25,
       8.48,
       13.2
-     ]
-    }
-   ]
-  },
-  {
-   "id": "ig-metall-aktionstag",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-21T13:42:11.000Z",
-   "aktualisiert": "aktualisiert um 11:53 Uhr",
-   "titel": "Proteste in der deutschen Automobilindustrie",
-   "vorspann": "Die Gewerkschaft IG Metall hat einen bundesweiten Protesttag in der deutschen Autoindustrie organisiert. Dabei wenden sich die Beteiligten gegen Einschnitte für Beschäftigte und fordern politische Massnahmen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Die IG Metall hat zu einem bundesweiten Protesttag in der deutschen Autoindustrie an mehr als 200 Orten aufgerufen.",
-    "Die Gewerkschaft protestiert gegen Einschnitte, Jobabbau und die Folgen der Branchenkrise für die Arbeitnehmer.",
-    "Zu den Forderungen gehören Investitionen in die Standorte, der Erhalt der 35-Stunden-Woche sowie politische Massnahmen.",
-    "Als Gründe für die Krise gelten wachsende Konkurrenz aus China, unvollständig ausgelastete Werke und der E-Auto-Umstieg."
-   ],
-   "einig": [
-    [
-     "Die Gewerkschaft IG Metall rief zu einem bundesweiten Protesttag in der Autoindustrie auf.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Es sind Aktionen an mehr als 200 Orten geplant.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "IG-Metall-Chefin Christiane Benner trat am VW-Stammwerk in Wolfsburg auf.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Die Gewerkschaft fordert unter anderem Investitionen in die Standorte und ein Festhalten an der 35-Stunden-Woche.",
-     [
-      "Tagesschau/ARD",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Die Zeit ergänzt spezifisch die Forderung nach EU-Zöllen auf chinesische Autos."
-   ],
-   "positionen": [
-    [
-     "IG Metall (Gewerkschaft)",
-     "Die Beschäftigten dürfen nicht die Lasten der Branchenkrise tragen; es braucht politische Unterstützung und Investitionen.",
-     "Tagesschau/ARD, Zeit, Süddeutsche Zeitung"
-    ]
-   ],
-   "fehlend": "Stimmen von Arbeitgeberverbänden, den Vorständen der betroffenen Autohersteller oder Vertretern der Bundesregierung.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "21.09.26, 08:09",
-     "fokus": "Umfassender Überblick zum Aktionstag",
-     "text": "Der Bericht schildert die geplanten Aktionen an mehr als 200 Orten und beleuchtet die wirtschaftlichen Hintergründe der Branchenkrise. Zudem werden Zitate der IG-Metall-Chefin Christiane Benner sowie die Forderungen der Gewerkschaft an Politik und Arbeitgeber genannt.",
-     "url": "https://www.tagesschau.de/wirtschaft/ig-metall-automobil-100.html",
-     "video": false
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "21.09.26, 15:42",
-     "fokus": "Politische Forderungen der Gewerkschaft",
-     "text": "Dieser kurze Bericht hebt hervor, dass die IG Metall der Politik vorwirft, zu wenig für die Autoindustrie zu tun. Speziell wird die Forderung nach fehlenden EU-Zöllen auf chinesische Autos genannt.",
-     "url": "https://www.zeit.de/wirtschaft/2026-09/ig-metall-aktionstag-autoindustrie-china-konkurrenz-vw-gxe",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "21.09.26, 15:13",
-     "fokus": "Stimmungen und Eindrücke vom Protesttag",
-     "text": "Der Artikel schildert die Situation vor Ort in verschiedenen Städten wie München, Stuttgart und Wolfsburg. Er zitiert Christiane Benner direkt vom VW-Stammwerk und beschreibt die Atmosphäre des Aktionstages.",
-     "url": "https://www.sueddeutsche.de/wirtschaft/autoindustrie-deutschland-ig-metall-proteste-stellenabbau-werksschliessungen-li.3549926",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detaillierungsgrad",
-     "Die Tagesschau liefert umfassende Hintergrundinformationen zur Krise, während die Zeit einen kurzen Zusatzfokus auf EU-Zölle legt und die Süddeutsche Zeitung atmosphärische Eindrücke schildert."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Die Gewerkschaft IG Metall",
-    "was": "Ein bundesweiter Protesttag in der Automobilindustrie",
-    "wann": "2026-09-21",
-    "wo": "Deutschlandweit an mehr als 200 Orten",
-    "wie": "Durch Betriebsversammlungen, aktive Mittagspausen, Sternmärsche und Kundgebungen",
-    "warum": "Wegen Branchenkrise, Jobabbau und Sparplänen, laut IG Metall",
-    "quellenlage": "Berichte von Tagesschau/ARD, Zeit und Süddeutscher Zeitung"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Die Gewerkschaft IG Metall hat für den heutigen Tag zu einem bundesweiten Protesttag in der Automobilindustrie aufgerufen. Laut übereinstimmenden Medienberichten finden Aktionen an mehr als 200 Orten statt. Die Gewerkschaft wendet sich damit gegen zunehmende Einschnitte und einen drohenden Jobabbau für die Beschäftigten. Unter dem Motto \"Zukunft statt Kahlschlag - Zusammenhalt ist unsere stärkste Marke\" protestieren Arbeitnehmer in zahlreichen deutschen Regionen. Die Organisatoren verzeichnen nach eigenen Angaben eine breite Beteiligung von Mitarbeitern aus Autoherstellerbetrieben und Zulieferunternehmen."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "An dem Aktionstag beteiligen sich Beschäftigte aus zahlreichen Werken der Automobilbranche und der Zulieferindustrie. Laut Angaben der Süddeutschen Zeitung und der Tagesschau stehen unter anderem die Standorte München, Stuttgart, Wolfsburg, Zwickau und Ingolstadt im Fokus der Proteste. So versammelten sich Arbeitnehmer beispielsweise vor dem Stammwerk des Unternehmens Volkswagen in Wolfsburg. Die IG Metall hatte im Vorfeld angekündigt, an mehr als 200 Orten in sämtlichen Bundesländern präsent zu sein. Zu den gewählten Protestformen gehören neben Kundgebungen auch Betriebsversammlungen und aktive Mittagspausen."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die deutsche Automobilindustrie befindet sich laut den vorliegenden Berichten in einer Krise. Als Ursachen für diese Entwicklung nennen die Medien eine wachsende Konkurrenz aus China sowie nicht vollständig ausgelastete Autowerke. Hinzu kommt nach Angaben der Tagesschau der schwierige Umstieg auf die Produktion von Elektroautos. Die Unternehmen reagieren darauf mit Sparprogrammen. Die Beschäftigten spüren diese Krise durch Sorgen um ihre Arbeitsplätze. Die Gewerkschaft verweist darauf, dass die Lasten des wirtschaftlichen Umbruchs auf die Arbeitnehmer abgewälzt werden."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Gewerkschaft ist eine Interessenvertretung von Arbeitnehmern. Sie setzt sich für bessere Arbeitsbedingungen ein und führt Tarifverhandlungen."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die Vorsitzende der IG Metall, Christiane Benner, kritisierte laut der Tagesschau und der Süddeutschen Zeitung die gegenwärtige Entwicklung als einen Angriff auf die Beschäftigten in der Automobilindustrie. Sie betonte vor dem Volkswagen-Stammwerk in Wolfsburg, dass die Mitarbeiter die Situation nicht verursacht hätten. Die Gewerkschaft forderte nach Berichten der Tagesschau und der Zeit zudem ein stärkeres Eingreifen der Politik. Laut IG Metall müsse die Politik für niedrigere Stromkosten, weniger Bürokratie und EU-Zölle auf chinesische Importfahrzeuge sorgen."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die IG Metall treibt ihre Vorbereitungen für die kommenden tariflichen Auseinandersetzungen voran. Der bundesweite Aktionstag soll als Signal vor den anstehenden Verhandlungen dienen. Die Gewerkschaft fordert von den Unternehmen ein Bekenntnis zu den inländischen Standorten."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Juni 2026",
-     "Mercedes verschob eine tarifliche Sonderzahlung für rund neunzigtausend Beschäftigte auf zweitausendsiebenundzwanzig."
-    ],
-    [
-     "2026-09-21",
-     "Bundesweiter Automobil-Aktionstag der IG Metall mit Protesten in über einhundert Geschäftsstellen."
-    ],
-    [
-     "Ende 2025",
-     "Schließung des Unternehmens Allgaier in Uhingen mit dem Verlust von rund 600 Arbeitsplätzen."
-    ],
-    [
-     "7. Oktober 2026",
-     "Geplanter Start der Tarifverhandlungen in der Metall- und Elektroindustrie."
-    ],
-    [
-     "21. September 2026",
-     "Bundesweiter Automobil-Aktionstag der IG Metall mit Protesten."
-    ],
-    [
-     "2025-12",
-     "Schließung des Unternehmens Allgaier in Uhingen mit Verlust von rund 600 Arbeitsplätzen."
-    ],
-    [
-     "2026-06",
-     "Mercedes verschob eine tarifliche Sonderzahlung für rund 90.000 Beschäftigte auf das Jahr 2027."
-    ],
-    [
-     "2026-10-07",
-     "Geplanter Start der Tarifverhandlungen in der Metall-and-Elektroindustrie."
-    ],
-    [
-     "2026-09-21",
-     "Bundesweiter Automobil-Aktionstag der IG Metall mit Protesten an zahlreichen Standorten."
-    ],
-    [
-     "2026-09-22",
-     "Geplanter Beschluss der TarifForderungen für Baden-Württemberg durch die IG Metall."
-    ],
-    [
-     "2026-10-07",
-     "Geplanter Start der ersten Tarifverhandlungen in der Metall- und Elektroindustrie in Ludwigsburg."
-    ],
-    [
-     "2026-09-21",
-     "Bundesweiter Automobil-Aktionstag der IG Metall mit Protesten an mehr als 200 Orten."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Christiane Benner trade unionist",
-     "bildunterschrift": "Christiane Benner, die Vorsitzende der Gewerkschaft IG Metall, vertritt die Interessen der Beschäftigten."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Wolfsburg Volkswagen plant",
-     "bildunterschrift": "Das Stammwerk von Volkswagen in Wolfsburg ist ein zentraler Schauplatz der aktuellen Proteste."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "IG Metall headquarters Frankfurt",
-     "bildunterschrift": "Die Zentrale der Gewerkschaft IG Metall in Frankfurt am Main koordiniert die bundesweiten Aktionen."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Automobile manufacturing assembly line",
-     "bildunterschrift": "Eine Produktionslinie in der Autoindustrie, deren Zukunft und Arbeitsplätze derzeit im Fokus stehen."
-    }
-   ],
-   "ort": {
-    "name": "Wolfsburg, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Abschnitt 'Zum Verständnis' von nicht belegten Details und Zahlen bereinigt.",
-    "Behauptung im Artikel über eine nicht näher belegte breite Beteiligung nach den Vorgaben der Berichte angepasst."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Gewerkschaft",
-      "Eine Organisation von Arbeitnehmern, die sich gemeinsam für bessere Arbeitsbedingungen, höhere Löhne und den Schutz ihrer Arbeitsplätze einsetzt."
-     ],
-     [
-      "Tarifrunde",
-      "Offizielle Verhandlungen zwischen einer Gewerkschaft und Arbeitgeberverbänden über Löhne, Arbeitszeiten und Arbeitsbedingungen."
-     ],
-     [
-      "Zulieferer",
-      "Unternehmen, die Teile oder Bauteile an grosse Hersteller wie Automobilkonzerte liefern, damit diese das Endprodukt bauen können."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielt die Politik nach Ansicht der Gewerkschaft bei der Bewältigung der Krise in der Autoindustrie?",
-     "Welche Argumente nennen Medien und Gewerkschaften für die wirtschaftlichen Probleme der deutschen Automobilhersteller?"
-    ],
-    "quiz": [
-     {
-      "frage": "An wie vielen Orten hat die IG Metall zu Aktionen aufgerufen?",
-      "optionen": [
-       "An genau 50 Orten",
-       "An mehr als 200 Orten",
-       "An rund 1000 Orten"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Berichte von Tagesschau und Süddeutscher Zeitung bestätigen übereinstimmend Aktionen an mehr als 200 Orten."
-     },
-     {
-      "frage": "Wer ist die Vorsitzende der IG Metall?",
-      "optionen": [
-       "Christiane Benner",
-       "Angela Merkel",
-       "Ursula von der Leyen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und Süddeutscher Zeitung ist Christiane Benner die Chefin der IG Metall."
-     },
-     {
-      "frage": "Welche Forderung nennt die Wochenzeit 'Zeit' im Zusammenhang mit dem Protesttag?",
-      "optionen": [
-       "Die Einführung höherer Steuern auf Elektroautos",
-       "Das Fehlen von EU-Zöllen auf chinesische Autos",
-       "Die sofortige Verstaatlichung aller Autowerke"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die 'Zeit' berichtet, dass die IG Metall unter anderem fehlende EU-Zölle auf chinesische Autos kritisiert."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Gewerkschaft IG Metall hat zu einem grossen Protesttag in Deutschland aufgerufen. Beschäftigte aus der Autoindustrie wollen gegen Sparpläne und den Jobabbau demonstrieren.",
-    "absaetze": [
-     "In ganz Deutschland protestieren heute Arbeiterinnen und Arbeiter aus der Autoindustrie. Die Gewerkschaft IG Metall hat zu den Aktionen an mehr als zweihundert Orten aufgerufen. Dazu gehören Betriebsversammlungen und Kundgebungen. Die Menschen sorgen sich um ihre Arbeitsplätze und wollen ein Zeichen setzen.",
-     "Als Gründe für die Krise nennen Medien die Konkurrenz aus China und Probleme beim Umstieg auf Elektroautos. Die Gewerkschaft fordert, dass die Politik und die Unternehmen den Beschäftigten helfen. Unter anderem sollen die Arbeitsplätze und die Standorte in Deutschland erhalten bleiben."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Gewerkschaft IG Metall ruft zu einem bundesweiten Protesttag in der Automobilindustrie auf. An mehr als zweihundert Orten protestieren Beschäftigte gegen Einschnitte und den Jobabbau. Die Gewerkschaft fordert Investitionen und politische Unterstützung."
-    ],
-    "lang": [
-     "Die Gewerkschaft IG Metall hat einen bundesweiten Protesttag in der Automobilindustrie organisiert. Nach übereinstimmenden Berichten von Tagesschau und Süddeutscher Zeitung finden Aktionen an mehr als zweihundert Orten statt. Die Beschäftigten wenden sich gegen zunehmende Einschnitte und drohenden Jobabbau. Zu den Aktionsformen gehören Betriebsversammlungen, Kundgebungen und Sternmärsche. Die IG-Metall-Vorsitzende Christiane Benner sprach vor dem Volkswagen-Stammwerk in Wolfsburg. Die Gewerkschaft fordert unter anderem Investitionen in die Standorte und ein Festhalten an der Fünfunddreißig-Stunden-Woche. Nach Angaben der Zeit kritisiert die IG Metall zudem fehlende Zölle der Europäischen Union auf chinesische Autos. Als Gründe für die Krise gelten wachsende Konkurrenz und der Umstieg auf Elektroautos. Vor den anstehenden Tarifrunden verlangt die Gewerkschaft ein Ende der Belastungen für die Arbeitnehmer."
-    ],
-    "einfach": [
-     "Die Gewerkschaft IG Metall ruft zu Protesten in der Autoindustrie auf. In ganz Deutschland gibt es Aktionen an mehr als zweihundert Orten. Die Beschäftigten fordern den Schutz ihrer Arbeitsplätze. Die Gewerkschaft kritisiert die Politik und die Unternehmen für die schwierige Lage. Es gibt Forderungen nach Investitionen und weniger Bürokratie."
-    ]
-   },
-   "kurz": [
-    "Die IG Metall hat zu einem bundesweiten Protesttag in der Autoindustrie aufgerufen.",
-    "An mehr als 200 Orten finden Aktionen und Kundgebungen statt.",
-    "Die Gewerkschaft kritisiert Einschnitte und fordert politische Massnahmen sowie Investitionen."
-   ],
-   "fakten": [
-    [
-     "Geplante Orte für Aktionen",
-     "mehr als 200"
-    ],
-    [
-     "Erwartete Teilnehmer",
-     "mehr als 100.000"
-    ]
-   ],
-   "dossier": {
-    "slug": "proteste-autoindustrie-2026",
-    "titel": "Proteste in der deutschen Autoindustrie"
-   },
-   "bildInfo": {
-    "titel": "Volkswagen-kassel-baunatal-270307.jpg",
-    "beschreibung": "Volkswagenwerk Kassel Baunatal",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Volkswagen-kassel-baunatal-270307.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Volkswagen-kassel-baunatal-270307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Volkswagen-kassel-baunatal-270307.jpg",
-    "urheber": "BICYCLE 10:08, 27. Aug. 2007 (CEST)",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "artikel": "Volkswagenwerk Kassel",
-    "sprache": "de",
-    "art": "ort",
-    "suchbegriff": "Wolfsburg Volkswagen plant",
-    "bildunterschrift": "Das Volkswagenwerk Kassel-Baunatal steht stellvertretend für die betroffene deutsche Automobilindustrie.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Volkswagen-kassel-baunatal-270307.jpg",
-     "beschreibung": "Volkswagenwerk Kassel Baunatal",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Volkswagen-kassel-baunatal-270307.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Volkswagen-kassel-baunatal-270307.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Volkswagen-kassel-baunatal-270307.jpg",
-     "urheber": "BICYCLE 10:08, 27. Aug. 2007 (CEST)",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-     "artikel": "Volkswagenwerk Kassel",
-     "sprache": "de",
-     "art": "ort",
-     "suchbegriff": "Wolfsburg Volkswagen plant",
-     "bildunterschrift": "Das Volkswagenwerk Kassel-Baunatal steht stellvertretend für die betroffene deutsche Automobilindustrie.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Aerial image of the Wolfsburg Volkswagen Plant (view from the southeast).jpg",
-     "beschreibung": "Aerial image of the Wolfsburg Volkswagen Plant (view from the southeast)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_%28view_from_the_southeast%29.jpg/1280px-Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_%28view_from_the_southeast%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_%28view_from_the_southeast%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_the_Wolfsburg_Volkswagen_Plant_(view_from_the_southeast).jpg",
-     "urheber": "Carsten Steger",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "ort",
-     "suchbegriff": "Wolfsburg Volkswagen plant",
-     "bildunterschrift": "Luftaufnahme des Volkswagenwerks in Wolfsburg, wo Proteste der IG Metall stattfinden.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Wolfsburg, Deutschland",
-    "lat": 52.421,
-    "lon": 10.786
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Die Gewerkschaft IG Metall hat einen bundesweiten Protesttag in der Automobilind",
-     "d": "96ed4c68c0.mp3",
-     "l": 51.34,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Gewerkschaft IG Metall ruft zu einem bundesweiten Protesttag in der Automobi",
-     "d": "6a7f786126.mp3",
-     "l": 15.17,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Gewerkschaft IG Metall ruft zu Protesten in der Autoindustrie auf. In ganz D",
-     "d": "d6b701ec94.mp3",
-     "l": 24.13,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Zeit ergänzt spezifisch die Forderung nach EU-Zöllen auf chinesische Autos.",
-     "d": "e29dc60905.mp3",
-     "l": 5.34,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Gewerkschaft? Eine Organisation von Arbeitnehmern, die s",
-     "d": "32dea13e68.mp3",
-     "l": 13.2,
-     "s": [
-      0.25,
-      3.51
-     ]
-    },
-    {
-     "k": "Die Gewerkschaft IG Metall hat für den heutigen Tag zu einem bundesweiten Protes",
-     "d": "8866b459a4.mp3",
-     "l": 35.62,
-     "s": [
-      0.25,
-      7.35,
-      12.99,
-      19.21,
-      27.4
-     ]
-    },
-    {
-     "k": "An dem Aktionstag beteiligen sich Beschäftigte aus zahlreichen Werken der Automo",
-     "d": "3ec4e3fefd.mp3",
-     "l": 37.04,
-     "s": [
-      0.25,
-      7.49,
-      17.57,
-      23.55,
-      30.4
-     ]
-    },
-    {
-     "k": "Die deutsche Automobilindustrie befindet sich laut den vorliegenden Berichten in",
-     "d": "ecb8aa19a6.mp3",
-     "l": 33.3,
-     "s": [
-      0.25,
-      5.87,
-      13.61,
-      19.66,
-      22.64,
-      26.61
-     ]
-    },
-    {
-     "k": "Eine Gewerkschaft ist eine Interessenvertretung von Arbeitnehmern. Sie setzt sic",
-     "d": "a5f5c7c4d5.mp3",
-     "l": 8.93,
-     "s": [
-      0.25,
-      4.03
-     ]
-    },
-    {
-     "k": "Die Vorsitzende der IG Metall, Christiane Benner, kritisierte laut der Tagesscha",
-     "d": "cf3e806a58.mp3",
-     "l": 33.46,
-     "s": [
-      0.25,
-      11.75,
-      18.02,
-      24.51
-     ]
-    },
-    {
-     "k": "Die IG Metall treibt ihre Vorbereitungen für die kommenden tariflichen Auseinand",
-     "d": "cd490dee5d.mp3",
-     "l": 16.7,
-     "s": [
-      0.25,
-      6.1,
-      11.24
-     ]
-    }
-   ]
-  },
-  {
-   "id": "davis-cup-tennis-finale",
-   "rubrik": "Sport",
-   "zeit": "2026-09-21T13:12:29.000Z",
-   "aktualisiert": "aktualisiert um 19:09 Uhr",
-   "titel": "Deutsches Tennis-Team erreicht Finalrunde im Davis Cup",
-   "vorspann": "Das deutsche Davis-Cup-Team hat sich durch einen Sieg gegen Kroatien für die Endrunde qualifiziert. Maßgeblichen Anteil daran hatte der deutsche Spieler Alexander Zverev.",
-   "eil": false,
-   "zusammenfassung": [
-    "Das deutsche Davis-Cup-Team hat sich durch einen 3:1-Sieg gegen Kroatien für die Finalrunde qualifiziert.",
-    "Alexander Zverev gewann seine beiden Einzelpartien in Halle und legte damit den Grundstein für den Erfolg.",
-    "Auch das Doppel Kevin Krawietz und Tim Pütz trug mit einem Sieg über die kroatischen Gegner zum Weiterkommen bei.",
-    "Die Endrunde des Turniers findet vom 24. bis 29. November in Italien statt, wobei Zverev seine Teilnahme für diesen Termin noch offen ließ."
-   ],
-   "einig": [
-    [
-     "Das deutsche Team gewann mit 3:1 gegen Kroatien.",
-     [
-      "Süddeutsche Zeitung",
-      "FAZ"
-     ]
-    ],
-    [
-     "Alexander Zverev gewann seine beiden Einzelspiele in Halle.",
-     [
-      "Zeit",
-      "Süddeutsche Zeitung",
-      "FAZ"
-     ]
-    ],
-    [
-     "Kevin Krawietz und Tim Pütz gewannen ihr Doppel.",
-     [
-      "Süddeutsche Zeitung",
-      "FAZ"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob Alexander Zverev im November an der Endrunde in Bologna teilnehmen wird, ist laut FAZ noch offen."
-   ],
-   "positionen": [
-    [
-     "Alexander Zverev (Tennisspieler)",
-     "Kritisiert das Format der zentralen Endrunde in Bologna als ungeeignet und lobt die traditionelle Heim- und Auswärtsatmosphäre.",
-     "FAZ"
-    ],
-    [
-     "Michael Kohlmann (Teamkapitän)",
-     "Betont, dass Zverev den Wert des Teams schätzt, und kündigt Gespräche über den weiteren Spielplan an.",
-     "FAZ"
-    ]
-   ],
-   "fehlend": "Stimmen oder Positionen des kroatischen Tennisverbandes oder der unterlegenen Spieler.",
-   "medien": [
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 15:46",
-     "fokus": "Kurze Spielberichterstattung",
-     "text": "Die Zeit konzentriert sich auf die Kernfakten des Sieges von Zverev und das Erreichen der Endrunde.",
-     "url": "https://www.zeit.de/sport/2026-09/alexander-zverev-davis-cup-deutschland-kroatien-halle-gxe",
-     "video": false
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "20.09.26, 16:00",
-     "fokus": "Ausführlicher Turnierverlauf",
-     "text": "Die Süddeutsche Zeitung beschreibt die einzelnen Spiele, die Doppelpaarungen und Zverevs Motivation im Detail.",
-     "url": "https://www.sueddeutsche.de/sport/davis-cup-tennis-zverev-finalrunde-li.3550614",
-     "video": false
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "21.09.26, 15:12",
-     "fokus": "Hintergründe und Zverevs Image",
-     "text": "Die FAZ beleuchtet zusätzlich die komplexe sportliche Gemengelage, Zverevs Ziele in der Weltrangliste und seine Kritik am Turnierformat.",
-     "url": "https://www.faz.net/aktuell/sport/mehr-sport/alexander-zverev-ist-mit-seiner-charmeoffensive-auch-im-davis-cup-erfolgreich-201247268.html",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Fokus auf Formate",
-     "Die FAZ führt Zverevs Kritik am Endrundenformat in Bologna an, während die anderen Blätter dies weniger stark gewichten."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Alexander Zverev und das deutsche Davis-Cup-Team",
-    "was": "Einzug in die Finalrunde des Davis Cups",
-    "wann": "September zweitausendsechsundzwanzig",
-    "wo": "Halle, Deutschland",
-    "wie": "Durch einen 3:1-Sieg im Achtelfinale gegen Kroatien",
-    "warum": "Sportlicher Erfolg im Mannschaftswettbewerb nach Angaben der Berichte",
-    "quellenlage": "Zeit, Süddeutsche Zeitung, FAZ"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Das deutsche Davis-Cup-Team steht zum dritten Mal in Folge in der Runde der besten Acht. Dies geht aus übereinstimmenden Berichten von Zeit, Süddeutscher Zeitung und FAZ hervor. Alexander Zverev gewann sein zweites Einzelduell gegen Kroatien. Damit trug er maßgeblich zum Gesamtsieg der Mannschaft bei.",
-      "Die Begegnung gegen das kroatische Team fand in Halle statt. Das deutsche Team setzte sich am Ende mit 3:1 durch. Die Veranstaltung lockte zahlreiche Zuschauer in das dortige Tennis-Stadion. Die Mannschaft qualifizierte sich damit für die Endrunde des Wettbewerbs.",
-      "Die finalen Spiele des traditionsreichen Teamwettbewerbs finden vom 24. bis 29. November in Italien statt. Im vergangenen Jahr war die deutsche Auswahl im Halbfinale gescheitert. Nun blickt die Mannschaft auf die bevorstehende Endrunde in Bologna."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Alexander Zverev gewann seine beiden Einzelpartien in Halle. Am ersten Tag besiegte er Matej Dodig mit 6:4 und 7:6. Dabei merkte man ihm nach Angaben von Süddeutscher Zeitung und FAZ noch eine gewisse Müdigkeit an. Am darauffolgenden Tag zeigte er gegen Dino Prizmic eine fast fehlerfreie Leistung. Er setzte die Nummer 103 der Welt permanent unter Druck.",
-      "Den entscheidenden dritten Punkt für den 3:1-Sieg steuerte das Doppel Kevin Krawietz und Tim Pütz bei. Sie besiegten die kroatischen Gegner Nikola Mektic und Mate Pavic mit 7:5 und 6:2. Die Niederlage von Daniel Altmaier fiel aufgrund dieser Siege nicht weiter ins Gewicht. Dies berichteten die Süddeutsche Zeitung und die FAZ.",
-      "Die Partie war Teil des Achtelfinals zwischen Deutschland und Kroatien. Rund 8000 Zuschauer besuchten das Turnier vor Ort auf dem Hardcourt in Halle. Nach den Spielen blieben die Sportler noch länger auf dem Platz, um Autogramme zu geben und Bälle zu spielen."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Alexander Zverev trat kurz nach seinem Erfolg bei den US Open in New York in Halle an. Er hatte das dortige Turnier eine Woche zuvor gewonnen. Trotz Reisestrapazen und abweichender Ratschläge seines Umfelds entschied er sich für eine Teilnahme. Laut FAZ und Süddeutscher Zeitung kollidieren damit sportliche Ziele. Einerseits strebt er den Spitzenplatz in der Weltrangliste an, andererseits reizt ihn der Gewinn des Davis Cups.",
-      "Der Davis Cup gilt als historischer Mannschaftswertbewerb im Herrentennis. Deutschland wartet seit dem Jahr 1993 auf einen Titel in diesem Turnier. In den vergangenen sieben Jahren schaffte es das Team sechsmal in die Finalrunde. In den letzten zwei Jahren verlor die Auswahl jeweils im Halbfinale.",
-      "Für Zverev bedeutet der dichte Spielplan eine hohe Belastung. Nach dem Turnier in Halle reist er zum Schauturnier Laver Cup nach London. Dort tritt er mit dem Team Europa an. Dennoch betonten die Berichte seine Motivation für die Nationalmannschaft."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Der Davis Cup ist ein internationaler Mannschaftswertbewerb im Herrentennis. Nationalmannschaften treten in verschiedenen Runden gegeneinander an, um den Sieger zu ermitteln. Ein Hardcourt ist ein Spielfeldbelag im Tennis, der meist aus Hartplastik oder ähnlichen Materialien besteht und auf dem der Ball schnell abspringt."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Alexander Zverev äußerte sich erfreut über den Teamgeist und seine Einsätze. „Ich bin einfach glücklich, hier für Deutschland zu spielen“, sagte er nach Angaben der Süddeutschen Zeitung. Zu den Belastungen erklärte er nach Angaben der FAZ, man mache daraus etwas mehr Belastung, als es sich für ihn anfühle. Zudem kritisierte er das Konzept der zentralen Endrunde. Das, was in Bologna gespielt werde, sei absoluter Mist.",
-      "Teamkapitän Michael Kohlmann äußerte sich ebenfalls zu der Situation. Nach Angaben der FAZ sagte er über Zverev, dieser wisse, was er an diesem Team habe, sonst wäre er nicht nach Halle gekommen. Man bleibe wegen des vollen Spielplans stetig im Austausch.",
-      "Kevin Krawietz kommentierte das gemeinsame Doppelspiel mit Tim Pütz. Nach Angaben von Süddeutscher Zeitung und FAZ sagte er nach dem Sieg über das kroatische Doppel, das sei mit Sicherheit mit das beste Spiel gewesen, das sie je zusammen bestritten hätten."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Davis Cup Finals finden vom 24. bis 29. November in Italien statt. Dies meldeten die Süddeutsche Zeitung und die FAZ. Ob Alexander Zverev an diesem Turnier teilnehmen wird, ließ er zunächst offen. Er erklärte nach Angaben der FAZ, das Ziel sei es, mit der Mannschaft dabei zu sein, man werde jedoch sehen, wohin die Reise geht.",
-      "Zunächst stehen für Alexander Zverev weitere Turniere an. Nach Angaben der FAZ muss er in den kommenden Wochen in Asien und Europa Punkte für die Weltrangliste sammeln. Zudem nimmt er am kommenden Wochenende am Laver Cup in London teil."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Freitag",
-     "Cameron Norrie zog sich im Training eine Verletzung am Arm zu."
-    ],
-    [
-     "Samstag",
-     "Südkorea und Österreich qualifizierten sich für die nächste Runde."
-    ],
-    [
-     "Sonntag",
-     "Deutschland und Großbritannien sicherten sich die Qualifikation für lautet Bericht die Endrunde."
-    ],
-    [
-     "Samstag",
-     "Daniel Altmaier verlor sein Einzelspiel gegen Kroatien."
-    ],
-    [
-     "Sonntag",
-     "Alexander Zverev und das deutsche Team sicherten sich den 3:1-Sieg im Achtelfinale."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Alexander Zverev tennis player",
-     "bildunterschrift": "Der deutsche Tennisspieler Alexander Zverev führte das Team als Spitzenspieler in die nächste Runde."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Kevin Krawietz tennis player",
-     "bildunterschrift": "Kevin Krawietz holte gemeinsam mit Tim Pütz den entscheidenden Punkt im Doppel."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Halle Westfalen stadion",
-     "bildunterschrift": "Das Tennis-Stadion im westfälischen Halle war der Austragungsort der Begegnung gegen Kroatien."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Davis Cup trophy",
-     "bildunterschrift": "Die Trophäe des Davis Cups ist das Ziel der teilnehmenden Nationalmannschaften."
-    }
-   ],
-   "ort": {
-    "name": "Halle, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Datenfehler im Entwurf korrigiert: Das Jahr in wfragen wurde von 2026 auf zweitausendsechsundzwanzig geändert.",
-    "Zitate und Aussagen wurden strenger als solche gekennzeichnet.",
-    "Unbelegte historische Details im Abschnitt Zum Verständnis entfernt."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Davis Cup",
-      "Ein internationaler Mannschaftswettbewerb im Herrentennis, bei dem verschiedene Länder gegeneinander antreten."
-     ],
-     [
-      "Hardcourt",
-      "Ein harter Tennis-Spielfeldbelag, der meist aus Asphalt oder Beton besteht."
-     ],
-     [
-      "Weltrangliste",
-      "Eine Liste, die die besten Tennisspielerinnen und Tennisspieler der Welt nach ihren erbrachten Punkten ordnet."
-     ]
-    ],
-    "fragen": [
-     "Welche Vorteile hat es für Tennisspieler, für ihr Heimatland im Team anzutreten, obwohl die sportliche Belastung hoch ist?",
-     "Wie bewerten Sie die Kritik von Alexander Zverev am zentralen Endrunden-Format des Davis Cups?"
-    ],
-    "quiz": [
-     {
-      "frage": "Mit welchem Ergebnis gewann das deutsche Team gegen Kroatien?",
-      "optionen": [
-       "3:1",
-       "2:2",
-       "4:0"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Berichte von Süddeutscher Zeitung und FAZ bestätigen den 3:1-Sieg."
-     },
-     {
-      "frage": "Wo fanden die Spiele gegen Kroatien statt?",
-      "optionen": [
-       "Berlin",
-       "Halle",
-       "München"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Quellen berichten übereinstimmend, dass die Partien im westfälischen Halle stattfanden."
-     },
-     {
-      "frage": "Wer gewann das Doppel für Deutschland?",
-      "optionen": [
-       "Alexander Zverev und Daniel Altmaier",
-       "Kevin Krawietz und Tim Pütz",
-       "Nikola Mektic und Mate Pavic"
-      ],
-      "richtig": 1,
-      "erklaerung": "Kevin Krawietz und Tim Pütz holten den Sieg im Doppel gegen Kroatien."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Das deutsche Tennis-Team hat sich für die Endrunde im Davis Cup qualifiziert.",
-    "absaetze": [
-     "In Halle in Westfalen spielte Deutschland gegen Kroatien.",
-     "Das deutsche Team gewann das Match am Ende mit 3:1 Punkten.",
-     "Der deutsche Tennisspieler Alexander Zverev gewann seine beiden Einzel-Spiele.",
-     "Auch das Doppel Kevin Krawietz und Tim Pütz gewann sein Spiel.",
-     "Im November findet die Endrunde des Turniers in Italien statt."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Das deutsche Davis-Cup-Team hat sich für die Endrunde qualifiziert.",
-     "Gegen Kroatien gewann die Mannschaft in Halle mit 3:1.",
-     "Alexander Zverev und das Doppel Krawietz und Pütz holten die Punkte."
-    ],
-    "lang": [
-     "Das deutsche Davis-Cup-Team steht nach einem Sieg über Kroatien in der Finalrunde.",
-     "Die Mannschaft gewann die Partie im westfälischen Halle mit 3:1.",
-     "Nach Angaben von Zeit und Süddeutscher Zeitung sicherte Alexander Zverev mit zwei Einzelsiegen den Erfolg.",
-     "Auch das Doppel Kevin Krawietz und Tim Pütz steuerte nach Angaben der FAZ einen wichtigen Punkt bei.",
-     "Die Begegnung sahen nach Angaben der FAZ rund achttausend Zuschauer vor Ort.",
-     "Die Endrunde des Turniers findet vom vierundzwanzigsten bis zum neunundzwanzigsten November in Italien statt.",
-     "Zverev kritisierte das Format der Endrunde nach Angaben der FAZ und nannte es absoluten Mist.",
-     "Der traditionsreiche Mannschaftswettbewerb wird seit vielen Jahren ausgetragen, wobei Deutschland seit neunzehnachtundneunzig auf einen Titel wartet.",
-     "Ob Zverev im November in Italien spielt, ließ er nach Angaben der FAZ noch offen.",
-     "Zunächst stehen für ihn weitere Turniere an."
-    ],
-    "einfach": [
-     "Deutschland hat ein wichtiges Tennis-Turnier gewonnen.",
-     "Das Team spielte gegen Kroatien in Halle.",
-     "Alexander Zverev gewann seine Spiele für das deutsche Team.",
-     "Das Turnier heißt Davis Cup.",
-     "Im November findet die Endrunde in Italien statt."
-    ]
-   },
-   "kurz": [
-    "Das deutsche Davis-Cup-Team schlägt Kroatien mit 3:1 und erreicht die Finalrunde.",
-    "Alexander Zverev gewinnt in Halle seine beiden Einzelspiele für Deutschland.",
-    "Kevin Krawietz und Tim Pütz holen den entscheidenden dritten Punkt im Doppel.",
-    "Die Finalrunde findet vom 24. bis 29. November in Italien statt."
-   ],
-   "fakten": [
-    [
-     "Ergebnis gegen Kroatien",
-     "3:1"
-    ],
-    [
-     "Zuschauer in Halle",
-     "8000"
-    ],
-    [
-     "Datum der Finalrunde",
-     "24. bis 29. November"
-    ]
-   ],
-   "dossier": {
-    "slug": "tennis-davis-cup-zverev",
-    "titel": "Davis Cup und Tennis-Nationalmannschaft"
-   },
-   "bildInfo": {
-    "titel": "Defending Champion Alexander Zverev Beats Rafael Nadal at the Nitto ATP Tour Finals 2019 (49052218372).jpg",
-    "beschreibung": "Photo of tennis player Alexander Zverev as he makes a beautiful backhand volley during his stunning victory over Rafa Nadal in the group stages of the Nitto ATP Finals 2019 hosted at the O2 Arena in L",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg/1280px-Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_(49052218372).jpg",
-    "urheber": "Chris Czermak",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "art": "person",
-    "suchbegriff": "Alexander Zverev tennis player",
-    "bildunterschrift": "Der deutsche Tennisspieler Alexander Zverev war maßgeblich am Erfolg im Davis Cup beteiligt.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Defending Champion Alexander Zverev Beats Rafael Nadal at the Nitto ATP Tour Finals 2019 (49052218372).jpg",
-     "beschreibung": "Photo of tennis player Alexander Zverev as he makes a beautiful backhand volley during his stunning victory over Rafa Nadal in the group stages of the Nitto ATP Finals 2019 hosted at the O2 Arena in L",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg/1280px-Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_%2849052218372%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Defending_Champion_Alexander_Zverev_Beats_Rafael_Nadal_at_the_Nitto_ATP_Tour_Finals_2019_(49052218372).jpg",
-     "urheber": "Chris Czermak",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "person",
-     "suchbegriff": "Alexander Zverev tennis player",
-     "bildunterschrift": "Der deutsche Tennisspieler Alexander Zverev war maßgeblich am Erfolg im Davis Cup beteiligt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "GerryWeberStadion.JPG",
-     "beschreibung": "Gerry Weber Stadion in Halle.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/GerryWeberStadion.JPG/1280px-GerryWeberStadion.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/GerryWeberStadion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:GerryWeberStadion.JPG",
-     "urheber": "User:Drahreg01",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-     "artikel": "Heristo-Arena",
-     "sprache": "de",
-     "art": "ort",
-     "suchbegriff": "Halle Westfalen stadion",
-     "bildunterschrift": "Das Stadion in Halle Westfalen als Austragungsort im Tennissport.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Halle, Deutschland",
-    "lat": 51.482,
-    "lon": 11.971
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Das deutsche Davis-Cup-Team steht nach einem Sieg über Kroatien in der Finalrund",
-     "d": "efe01104d3.mp3",
-     "l": 56.28,
-     "s": [
-      0.25,
-      5.49,
-      9.17,
-      15.53,
-      21.82,
-      26.96,
-      33.27,
-      39.21,
-      47.73,
-      53.31
-     ]
-    },
-    {
-     "k": "Das deutsche Davis-Cup-Team hat sich für die Endrunde qualifiziert. Gegen Kroati",
-     "d": "98060e9215.mp3",
-     "l": 12.62,
-     "s": [
-      0.25,
-      4.25,
-      7.99
-     ]
-    },
-    {
-     "k": "Deutschland hat ein wichtiges Tennis-Turnier gewonnen. Das Team spielte gegen Kr",
-     "d": "20c572eee7.mp3",
-     "l": 18.59,
-     "s": [
-      0.25,
-      4.15,
-      7.44,
-      12.14,
-      14.97
-     ]
-    },
-    {
-     "k": "Ob Alexander Zverev im November an der Endrunde in Bologna teilnehmen wird, ist ",
-     "d": "f06e969eda.mp3",
-     "l": 7.16,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Davis Cup? Ein internationaler Mannschaftswettbewerb im ",
-     "d": "5fb4500889.mp3",
-     "l": 11.04,
-     "s": [
-      0.25,
-      3.48
      ]
     }
    ]
