@@ -1257,13 +1257,21 @@ ${eintraege}
 }
 
 async function feedSchreiben(jetzt) {
-  const daten = await leseJson(new URL("data/podcast.json", ROOT), null);
-  if (!daten?.folgen?.length) { console.log("Podcast: noch keine Folgen."); return; }
+  // Zwei Quellen: die aus den Sendungen zusammengebauten Folgen (ton.py)
+  // und die Gespräche (podcast.py). Beide landen im selben Feed.
+  const a = await leseJson(new URL("data/podcast.json", ROOT), null);
+  const b = await leseJson(new URL("data/gespraeche.json", ROOT), null);
+  const alle = [...(a?.folgen || []), ...(b?.folgen || [])]
+    .filter(f => f && f.d && f.b)
+    .sort((x, y) => String(y.zeit || "").localeCompare(String(x.zeit || "")))
+    .slice(0, 12);
+  const daten = { folgen: alle };
+  if (!daten.folgen.length) { console.log("Podcast: noch keine Folgen."); return; }
   const repo = process.env.GITHUB_REPOSITORY || "";
   const seite = (process.env.SITE_URL || "").replace(/\/$/, "");
   if (!repo) { console.warn("Podcast: GITHUB_REPOSITORY fehlt – kein Feed."); return; }
   const xml = feedBauen(daten.folgen, {
-    seite, tonBasis: `https://raw.githubusercontent.com/${repo}/ton/`,
+    seite: seite ? seite + "/data" : "", tonBasis: `https://raw.githubusercontent.com/${repo}/ton/`,
     titel: "Nachrichten-Heft · neutral",
     beschreibung: "Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. "
       + "Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. "
@@ -1272,7 +1280,7 @@ async function feedSchreiben(jetzt) {
     bild: seite ? seite + "/icon-512.png" : "",
     stand: jetzt.toISOString()
   });
-  await fs.writeFile(new URL("feed.xml", ROOT), xml);
+  await fs.writeFile(new URL("data/feed.xml", ROOT), xml);
   console.log(`Podcast-Feed geschrieben: ${daten.folgen.length} Folgen`);
 }
 

@@ -13,8 +13,8 @@ Feste Regeln, die hier im Code stehen und nicht verhandelbar sind:
 
 Ergebnis:
   ton/folge-podcast-<id>.mp3   die Folge
-  data/podcast.json            Liste der Folgen
-  feed.xml                     zum Abonnieren in Spotify, Apple Podcasts …
+  data/gespraeche.json         Liste der Gespräche
+  data/feed.xml                zum Abonnieren
 """
 
 import json
@@ -31,7 +31,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DATEN = ROOT / "data" / "news.json"
-PODCAST = ROOT / "data" / "podcast.json"
+PODCAST = ROOT / "data" / "gespraeche.json"     # eigene Datei, ton.py hat podcast.json
+SENDUNGEN = ROOT / "data" / "podcast.json"    # die aus den Sendungen gebauten Folgen
 TON = ROOT / "ton"
 STIMMEN = ROOT / ".stimmen"
 MODELL = "de_DE-mls-medium"
@@ -403,7 +404,7 @@ def feed_schreiben(folgen, seite, ton_basis):
                     "auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen "
                     "aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.")
     bild = f"{seite}/icon-512.png" if seite else ""
-    (ROOT / "feed.xml").write_text(f"""<?xml version="1.0" encoding="UTF-8"?>
+    (ROOT / "data" / "feed.xml").write_text(f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>{xml_sicher(TITEL)}</title>
@@ -494,7 +495,16 @@ def main():
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     seite = (os.environ.get("SITE_URL") or "").rstrip("/")
-    feed_schreiben(folgen, seite, f"https://raw.githubusercontent.com/{repo}/ton/" if repo else "")
+    andere = []
+    if SENDUNGEN.exists():
+        try:
+            andere = json.loads(SENDUNGEN.read_text(encoding="utf8")).get("folgen") or []
+        except Exception:
+            andere = []
+    zusammen = sorted([f for f in folgen + andere if f.get("d") and f.get("b")],
+                      key=lambda f: str(f.get("zeit") or ""), reverse=True)[:12]
+    feed_schreiben(zusammen, seite + "/data" if seite else "",
+                   f"https://raw.githubusercontent.com/{repo}/ton/" if repo else "")
     return 0
 
 
