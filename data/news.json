@@ -2823,7 +2823,95 @@
     "lon": 13.395
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Deutsche Bundestag und der Bundesrat haben eine erneute Steuersenkung für Be",
+     "d": "ed1637a423.mp3",
+     "l": 47.31,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der Bundestag und der Bundesrat beschlossen einen neuen Tankrabatt für Autofahre",
+     "d": "072c088325.mp3",
+     "l": 12.08,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der Bundestag beschloss eine Steuersenkung für Benzin und Diesel. Autofahrer bek",
+     "d": "fc1d545636.mp3",
+     "l": 20.37,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob die Mineralölkonzerne die Steuersenkung diesmal vollständig an die Verbrauche",
+     "d": "5422b1adea.mp3",
+     "l": 11.06,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Energiesteuer? Eine Steuer auf Energieprodukte wie Benzi",
+     "d": "3d5167af8c.mp3",
+     "l": 9.84,
+     "s": [
+      0.25,
+      3.63
+     ]
+    },
+    {
+     "k": "Der Deutsche Bundestag hat in Berlin einen erneuten sogenannten Tankrabatt besch",
+     "d": "99592f4486.mp3",
+     "l": 40.46,
+     "s": [
+      0.25,
+      5.71,
+      10.38,
+      14.91,
+      22.42,
+      27.24,
+      32.45,
+      36.72
+     ]
+    },
+    {
+     "k": "Mit dem Gesetz der schwarz-roten Koalition wird die Energiesteuer auf Diesel und",
+     "d": "403e415f1a.mp3",
+     "l": 50.42,
+     "s": [
+      0.25,
+      7.7,
+      17.0,
+      23.86,
+      28.55,
+      34.64,
+      38.46,
+      43.44
+     ]
+    },
+    {
+     "k": "Die Maßnahme knüpft an einen früheren Tankrabatt an. Dieser war im Frühjahr eing",
+     "d": "45a28f3404.mp3",
+     "l": 52.31,
+     "s": [
+      0.25,
+      3.64,
+      14.87,
+      19.49,
+      26.54,
+      30.19,
+      36.17,
+      47.87
+     ]
+    }
+   ]
   },
   {
    "id": "vw-audi-seat-rueckruf-lenkung",
@@ -3240,7 +3328,142 @@
     "lon": 9.433
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Volkswagen, Audi und Seat müssen in Deutschland zahlreiche Autos in die Werkstät",
+     "d": "fe348e43bc.mp3",
+     "l": 49.38,
+     "s": [
+      0.25,
+      6.08,
+      9.05,
+      13.0,
+      16.27,
+      22.1,
+      28.93,
+      33.87,
+      39.27,
+      43.72
+     ]
+    },
+    {
+     "k": "Volkswagen, Audi und Seat rufen in Deutschland zahlreiche Autos in die Werkstätt",
+     "d": "a55030f661.mp3",
+     "l": 13.95,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Mehrere Automarken rufen in Deutschland fast eine Million Autos zurück. Das Kraf",
+     "d": "0c03e57781.mp3",
+     "l": 23.42,
+     "s": [
+      0.25,
+      5.09,
+      9.11,
+      12.38,
+      15.34,
+      19.21
+     ]
+    },
+    {
+     "k": "Die genaue weltweite Gesamtzahl der betroffenen Autos unterscheidet sich in den ",
+     "d": "ce0937dcde.mp3",
+     "l": 5.85,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Kraftfahrt-Bundesamt? Eine deutsche Behörde, die den Ver",
+     "d": "0ba168da0e.mp3",
+     "l": 11.34,
+     "s": [
+      0.25,
+      4.17
+     ]
+    },
+    {
+     "k": "Das Kraftfahrt-Bundesamt hat einen Rückruf für Fahrzeuge des Volkswagen-Konzerns",
+     "d": "0bc319d900.mp3",
+     "l": 44.96,
+     "s": [
+      0.25,
+      5.88,
+      12.89,
+      19.35,
+      23.53,
+      27.2,
+      36.13,
+      41.51
+     ]
+    },
+    {
+     "k": "Laut dem SPIEGEL und weiteren Berichten sind bei der Marke Seat die Modelle Atec",
+     "d": "497f0bb52f.mp3",
+     "l": 46.76,
+     "s": [
+      0.25,
+      11.18,
+      14.42,
+      21.59,
+      24.6,
+      28.85,
+      32.71,
+      41.69
+     ]
+    },
+    {
+     "k": "Das Kraftfahrt-Bundesamt ist die zentrale deutsche Verkehrsbehörde, die unter an",
+     "d": "ce26ba7551.mp3",
+     "l": 40.05,
+     "s": [
+      0.25,
+      8.09,
+      12.89,
+      18.82,
+      22.52,
+      32.75
+     ]
+    },
+    {
+     "k": "Ein behördlich überwachter Fahrzeugrückruf ist ein Verfahren in der Automobilind",
+     "d": "6ebc9cb3ef.mp3",
+     "l": 19.38,
+     "s": [
+      0.25,
+      5.37,
+      11.46
+     ]
+    },
+    {
+     "k": "Ein Sprecher von Volkswagen erklärte laut ZDFheute, dass betroffene Kundinnen un",
+     "d": "5420568542.mp3",
+     "l": 45.85,
+     "s": [
+      0.25,
+      9.27,
+      13.33,
+      21.46,
+      31.24,
+      37.46
+     ]
+    },
+    {
+     "k": "Volkswagen und Audi haben spezielle Kontaktnummern und Rückruf-Codes für betroff",
+     "d": "b80c44e2b3.mp3",
+     "l": 40.93,
+     "s": [
+      0.25,
+      7.18,
+      18.61,
+      28.37,
+      36.42
+     ]
+    }
+   ]
   },
   {
    "id": "heidenau-stolpersteine-verbot",
@@ -3711,7 +3934,152 @@
     "lon": 13.875
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Stadtrat von Heidenau hat am Donnerstagabend mehrheitlich beschlossen, dass ",
+     "d": "14e7679027.mp3",
+     "l": 70.58,
+     "s": [
+      0.25,
+      7.89,
+      16.16,
+      20.46,
+      27.8,
+      34.91,
+      41.11,
+      48.52,
+      56.28,
+      63.25
+     ]
+    },
+    {
+     "k": "Der Stadtrat von Heidenau hat neue Stolpersteine im öffentlichen Raum verboten. ",
+     "d": "c519bbfddb.mp3",
+     "l": 16.03,
+     "s": [
+      0.25,
+      4.81,
+      10.64
+     ]
+    },
+    {
+     "k": "In der Stadt Heidenau gibt es künftig keine neuen Stolpersteine mehr auf Straßen",
+     "d": "c5029fbbb8.mp3",
+     "l": 32.76,
+     "s": [
+      0.25,
+      5.03,
+      9.51,
+      16.64,
+      22.59,
+      27.13
+     ]
+    },
+    {
+     "k": "Wie die einzelnen Abgeordneten der Parteien im Detail abgestimmt haben, da die A",
+     "d": "0d0556e8b9.mp3",
+     "l": 8.76,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Stolpersteine? Kleine Gedenksteine aus Messing im Boden,",
+     "d": "f192292ea9.mp3",
+     "l": 10.78,
+     "s": [
+      0.25,
+      3.55
+     ]
+    },
+    {
+     "k": "In der sächsischen Stadt Heidenau sollen künftig keine weiteren Stolpersteine zu",
+     "d": "99a6cdb75a.mp3",
+     "l": 53.47,
+     "s": [
+      0.25,
+      10.13,
+      16.39,
+      21.33,
+      25.64,
+      30.01,
+      38.19,
+      43.45
+     ]
+    },
+    {
+     "k": "Bereits im Dezember hatten fünf Stadträte der AfD, zwei der CDU sowie Stadträte ",
+     "d": "7989a78b91.mp3",
+     "l": 56.81,
+     "s": [
+      0.25,
+      9.43,
+      23.17,
+      29.85,
+      40.64,
+      50.26
+     ]
+    },
+    {
+     "k": "Die Stadtverwaltung von Heidenau hatte sich im Vorfeld gegen den Antrag ausgespr",
+     "d": "1878882419.mp3",
+     "l": 46.69,
+     "s": [
+      0.25,
+      6.66,
+      17.63,
+      24.59,
+      32.02,
+      43.69
+     ]
+    },
+    {
+     "k": "Der Beschluss löste ein breites Echo und heftige Kritik aus. Der Vizepräsident d",
+     "d": "e319c0c599.mp3",
+     "l": 67.14,
+     "s": [
+      0.25,
+      4.25,
+      16.91,
+      22.02,
+      30.61,
+      38.65,
+      44.9,
+      58.88
+     ]
+    },
+    {
+     "k": "Aus dem Sächsischen Landtag kam Kritik von SPD und Linken. Der SPD-Landtagsabgeo",
+     "d": "7ae618b623.mp3",
+     "l": 67.68,
+     "s": [
+      0.25,
+      4.55,
+      17.33,
+      22.98,
+      35.2,
+      44.5,
+      49.35,
+      60.75
+     ]
+    },
+    {
+     "k": "Die Stiftung des Stolperstein-Initiators Gunter Demnig reagierte nach Angaben vo",
+     "d": "ca3664ca82.mp3",
+     "l": 54.72,
+     "s": [
+      0.25,
+      8.31,
+      11.75,
+      17.19,
+      21.22,
+      26.24,
+      36.31,
+      45.44
+     ]
+    }
+   ]
   },
   {
    "id": "schulstreik-gegen-wehrpflicht",
@@ -4119,7 +4487,137 @@
     "lon": 13.395
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Zehntausende Schülerinnen und Schüler haben in mehreren deutschen Städten gegen ",
+     "d": "d0e2800e6d.mp3",
+     "l": 59.39,
+     "s": [
+      0.25,
+      6.82,
+      12.6,
+      21.01,
+      27.37,
+      34.06,
+      40.99,
+      47.61,
+      52.43
+     ]
+    },
+    {
+     "k": "Zehntausende Schülerinnen und Schüler haben bundesweit gegen eine mögliche Wehrp",
+     "d": "963c1aa655.mp3",
+     "l": 21.77,
+     "s": [
+      0.25,
+      6.09,
+      10.85,
+      16.64
+     ]
+    },
+    {
+     "k": "Viele Schülerinnen und Schüler haben in Deutschland gegen die Wehrpflicht demons",
+     "d": "738d8705bc.mp3",
+     "l": 28.18,
+     "s": [
+      0.25,
+      5.65,
+      10.74,
+      15.77,
+      21.87
+     ]
+    },
+    {
+     "k": "Die genaue Gesamtzahl der Demonstranten ist unklar, da die Initiative \"Schulstre",
+     "d": "56633c179c.mp3",
+     "l": 13.45,
+     "s": [
+      0.25,
+      7.9
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Wehrpflicht? Die Verpflichtung für Bürger, einen militär",
+     "d": "a9b7380451.mp3",
+     "l": 8.9,
+     "s": [
+      0.25,
+      3.32
+     ]
+    },
+    {
+     "k": "Bundesweit sind nach Angaben der Initiative \"Schulstreik gegen Wehrpflicht\" mehr",
+     "d": "119522b663.mp3",
+     "l": 54.79,
+     "s": [
+      0.25,
+      6.04,
+      10.78,
+      17.73,
+      26.82,
+      35.22,
+      41.43,
+      49.48
+     ]
+    },
+    {
+     "k": "Die Polizei veröffentlichte nach Angaben von ZDFheute regionale Zahlen zu den Ve",
+     "d": "6c6ee63fdd.mp3",
+     "l": 58.48,
+     "s": [
+      0.25,
+      7.53,
+      10.58,
+      16.63,
+      23.11,
+      31.39,
+      41.01,
+      44.96
+     ]
+    },
+    {
+     "k": "Das Gesetz über den neuen Wehrdienst trat im Januar in Kraft und sieht als Kern ",
+     "d": "126ee3dfb7.mp3",
+     "l": 53.57,
+     "s": [
+      0.25,
+      8.95,
+      16.79,
+      18.71,
+      23.83,
+      30.5,
+      34.97,
+      42.27
+     ]
+    },
+    {
+     "k": "Der Bundestag ist das Parlament der Bundesrepublik Deutschland und entscheidet ü",
+     "d": "05f0fd81ce.mp3",
+     "l": 19.92,
+     "s": [
+      0.25,
+      5.81,
+      10.96,
+      15.26
+     ]
+    },
+    {
+     "k": "Demonstranten und Schüler äußerten in den Berichten deutliche Kritik an der Vert",
+     "d": "640bb5923b.mp3",
+     "l": 67.41,
+     "s": [
+      0.25,
+      6.19,
+      15.79,
+      22.4,
+      30.05,
+      36.91,
+      47.77,
+      58.83
+     ]
+    }
+   ]
   },
   {
    "id": "xi-besuch-usa-zollpause",
@@ -7323,11 +7821,11 @@
     {
      "k": "Die Vereinigten Staaten haben den russischen Präsidenten Wladimir Putin zum G20-",
      "d": "d8bec1252f.mp3",
-     "l": 17.44,
+     "l": 17.46,
      "s": [
       0.25,
-      5.96,
-      11.64
+      6.1,
+      11.59
      ]
     },
     {
