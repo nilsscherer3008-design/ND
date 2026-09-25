@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-25T07:42:50.980Z",
+ "stand": "2026-09-25T13:41:39.636Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -30,7 +30,11 @@
   "wirtschaftswachstum-prognose-2026",
   "olympische-spiele-berlin-bewerbung-rueckzug",
   "ki-agent-hackt-australisches-regierungsportal",
-  "hitze-schwaecht-europaeische-wirtschaft"
+  "hitze-schwaecht-europaeische-wirtschaft",
+  "tankrabatt-oktober-dezember-2026",
+  "vw-audi-seat-rueckruf-lenkung",
+  "heidenau-stolpersteine-verbot",
+  "schulstreik-gegen-wehrpflicht"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -40,7 +44,6 @@
   "oktoberfest-muenchen-eroeffnung",
   "wahlen-berlin-mecklenburg-vorpommern",
   "us-medienbann-weisses-haus",
-  "merzer-enteignungsverbot",
   "ig-metall-forderung-tarifrunde",
   "oecd-konjunkturprognose-deutschland",
   "g20-einladung-putin-usa",
@@ -48,10 +51,14 @@
   "wirtschaftswachstum-prognose-2026",
   "olympische-spiele-berlin-bewerbung-rueckzug",
   "ki-agent-hackt-australisches-regierungsportal",
-  "hitze-schwaecht-europaeische-wirtschaft"
+  "hitze-schwaecht-europaeische-wirtschaft",
+  "tankrabatt-oktober-dezember-2026",
+  "vw-audi-seat-rueckruf-lenkung",
+  "heidenau-stolpersteine-verbot",
+  "schulstreik-gegen-wehrpflicht"
  ],
  "wetter": {
-  "stand": "2026-09-25T07:42:50.980Z",
+  "stand": "2026-09-25T13:41:39.636Z",
   "morgenTag": "Samstag",
   "orte": [
    {
@@ -60,13 +67,13 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 12,
-     "code": 2,
-     "gefuehlt": 10,
-     "wind": 8,
-     "windAus": 249,
-     "feuchte": 75,
-     "druck": 1021,
+     "grad": 17,
+     "code": 1,
+     "gefuehlt": 16,
+     "wind": 9,
+     "windAus": 242,
+     "feuchte": 55,
+     "druck": 1019,
      "niederschlag": 0,
      "tag": 1
     },
@@ -77,22 +84,22 @@
      "min": 11,
      "regen": 0,
      "menge": 0,
-     "wind": 11,
-     "windAus": 251,
-     "uv": 3.7,
+     "wind": 10,
+     "windAus": 249,
+     "uv": 3.6,
      "auf": "07:10",
      "unter": "19:11"
     },
     "morgen": {
      "datum": "2026-09-26",
-     "code": 80,
+     "code": 3,
      "max": 19,
      "min": 10,
-     "regen": 23,
+     "regen": 20,
      "menge": 0,
      "wind": 8,
-     "windAus": 297,
-     "uv": 3.4,
+     "windAus": 213,
+     "uv": 3.1,
      "auf": "07:12",
      "unter": "19:09"
     },
@@ -104,61 +111,61 @@
       "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 11,
-      "windAus": 251,
-      "uv": 3.7,
+      "wind": 10,
+      "windAus": 249,
+      "uv": 3.6,
       "auf": "07:10",
       "unter": "19:11"
      },
      {
       "datum": "2026-09-26",
-      "code": 80,
+      "code": 3,
       "max": 19,
       "min": 10,
-      "regen": 23,
+      "regen": 20,
       "menge": 0,
       "wind": 8,
-      "windAus": 297,
-      "uv": 3.4,
+      "windAus": 213,
+      "uv": 3.1,
       "auf": "07:12",
       "unter": "19:09"
      },
      {
       "datum": "2026-09-27",
       "code": 3,
-      "max": 20,
-      "min": 11,
+      "max": 22,
+      "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 14,
-      "windAus": 105,
-      "uv": 3.1,
+      "wind": 15,
+      "windAus": 110,
+      "uv": 3.6,
       "auf": "07:14",
       "unter": "19:06"
      },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 24,
+      "max": 25,
       "min": 13,
-      "regen": 5,
+      "regen": 4,
       "menge": 0,
-      "wind": 9,
-      "windAus": 140,
-      "uv": 3.4,
+      "wind": 11,
+      "windAus": 148,
+      "uv": 3.1,
       "auf": "07:16",
       "unter": "19:04"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 27,
-      "min": 15,
-      "regen": 20,
+      "max": 24,
+      "min": 16,
+      "regen": 8,
       "menge": 0,
-      "wind": 10,
-      "windAus": 87,
-      "uv": 3.2,
+      "wind": 11,
+      "windAus": 104,
+      "uv": 3.5,
       "auf": "07:17",
       "unter": "19:01"
      },
@@ -166,12 +173,12 @@
       "datum": "2026-09-30",
       "code": 3,
       "max": 24,
-      "min": 15,
-      "regen": 2,
+      "min": 14,
+      "regen": 0,
       "menge": 0,
       "wind": 17,
-      "windAus": 119,
-      "uv": 3,
+      "windAus": 120,
+      "uv": 2.8,
       "auf": "07:19",
       "unter": "18:59"
      },
@@ -184,52 +191,16 @@
       "menge": 0,
       "wind": 17,
       "windAus": 126,
-      "uv": 2.8,
+      "uv": 0.5,
       "auf": "07:21",
       "unter": "18:56"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 12,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -247,7 +218,7 @@
      {
       "zeit": "18:00",
       "grad": 17,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
@@ -289,36 +260,36 @@
      {
       "zeit": "01:00",
       "grad": 11,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 10,
       "code": 3,
       "regen": 0
      },
      {
-      "zeit": "04:00",
+      "zeit": "03:00",
       "grad": 11,
       "code": 2,
       "regen": 0
      },
      {
-      "zeit": "05:00",
+      "zeit": "04:00",
       "grad": 11,
       "code": 3,
       "regen": 0
      },
      {
+      "zeit": "05:00",
+      "grad": 10,
+      "code": 3,
+      "regen": 0
+     },
+     {
       "zeit": "06:00",
-      "grad": 12,
+      "grad": 11,
       "code": 3,
       "regen": 0
      },
@@ -332,7 +303,43 @@
       "zeit": "08:00",
       "grad": 12,
       "code": 3,
-      "regen": 0
+      "regen": 3
+     },
+     {
+      "zeit": "09:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "10:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "11:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 13
+     },
+     {
+      "zeit": "12:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 20
+     },
+     {
+      "zeit": "13:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 20
+     },
+     {
+      "zeit": "14:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 15
      }
     ]
    },
@@ -342,13 +349,13 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
+     "grad": 15,
      "code": 3,
-     "gefuehlt": 11,
+     "gefuehlt": 13,
      "wind": 10,
-     "windAus": 270,
-     "feuchte": 85,
-     "druck": 1018,
+     "windAus": 264,
+     "feuchte": 64,
+     "druck": 1017,
      "niederschlag": 0,
      "tag": 1
     },
@@ -357,24 +364,24 @@
      "code": 3,
      "max": 15,
      "min": 12,
-     "regen": 5,
+     "regen": 10,
      "menge": 0,
      "wind": 12,
-     "windAus": 266,
-     "uv": 3,
+     "windAus": 269,
+     "uv": 2.5,
      "auf": "06:57",
      "unter": "18:58"
     },
     "morgen": {
      "datum": "2026-09-26",
      "code": 3,
-     "max": 20,
-     "min": 8,
-     "regen": 3,
+     "max": 21,
+     "min": 9,
+     "regen": 5,
      "menge": 0,
      "wind": 6,
-     "windAus": 212,
-     "uv": 3.6,
+     "windAus": 179,
+     "uv": 3.8,
      "auf": "06:58",
      "unter": "18:55"
     },
@@ -384,24 +391,24 @@
       "code": 3,
       "max": 15,
       "min": 12,
-      "regen": 5,
+      "regen": 10,
       "menge": 0,
       "wind": 12,
-      "windAus": 266,
-      "uv": 3,
+      "windAus": 269,
+      "uv": 2.5,
       "auf": "06:57",
       "unter": "18:58"
      },
      {
       "datum": "2026-09-26",
       "code": 3,
-      "max": 20,
-      "min": 8,
-      "regen": 3,
+      "max": 21,
+      "min": 9,
+      "regen": 5,
       "menge": 0,
       "wind": 6,
-      "windAus": 212,
-      "uv": 3.6,
+      "windAus": 179,
+      "uv": 3.8,
       "auf": "06:58",
       "unter": "18:55"
      },
@@ -409,24 +416,24 @@
       "datum": "2026-09-27",
       "code": 3,
       "max": 22,
-      "min": 13,
-      "regen": 0,
+      "min": 14,
+      "regen": 5,
       "menge": 0,
-      "wind": 13,
-      "windAus": 102,
-      "uv": 3.4,
+      "wind": 12,
+      "windAus": 109,
+      "uv": 3.5,
       "auf": "07:00",
       "unter": "18:53"
      },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 24,
+      "max": 22,
       "min": 13,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
-      "wind": 11,
-      "windAus": 134,
+      "wind": 12,
+      "windAus": 129,
       "uv": 3.8,
       "auf": "07:02",
       "unter": "18:50"
@@ -434,13 +441,13 @@
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 24,
-      "min": 14,
-      "regen": 0,
+      "max": 23,
+      "min": 13,
+      "regen": 3,
       "menge": 0,
-      "wind": 10,
+      "wind": 11,
       "windAus": 117,
-      "uv": 3.6,
+      "uv": 3.7,
       "auf": "07:03",
       "unter": "18:48"
      },
@@ -448,11 +455,11 @@
       "datum": "2026-09-30",
       "code": 3,
       "max": 21,
-      "min": 13,
+      "min": 12,
       "regen": 0,
       "menge": 0,
       "wind": 13,
-      "windAus": 113,
+      "windAus": 112,
       "uv": 3.5,
       "auf": "07:05",
       "unter": "18:46"
@@ -466,65 +473,29 @@
       "menge": 0,
       "wind": 15,
       "windAus": 119,
-      "uv": 3.5,
+      "uv": 2.8,
       "auf": "07:07",
       "unter": "18:43"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 15,
       "code": 3,
-      "regen": 0
+      "regen": 10
      },
      {
       "zeit": "16:00",
       "grad": 15,
       "code": 3,
-      "regen": 5
+      "regen": 8
      },
      {
       "zeit": "17:00",
       "grad": 15,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "18:00",
@@ -534,8 +505,8 @@
      },
      {
       "zeit": "19:00",
-      "grad": 14,
-      "code": 3,
+      "grad": 15,
+      "code": 2,
       "regen": 0
      },
      {
@@ -552,8 +523,8 @@
      },
      {
       "zeit": "22:00",
-      "grad": 13,
-      "code": 2,
+      "grad": 12,
+      "code": 1,
       "regen": 0
      },
      {
@@ -577,43 +548,79 @@
      {
       "zeit": "02:00",
       "grad": 10,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "03:00",
       "grad": 10,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 9,
-      "code": 0,
+      "grad": 10,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
       "grad": 9,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
       "grad": 9,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 8,
-      "code": 0,
+      "grad": 9,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "08:00",
-      "grad": 8,
+      "grad": 9,
       "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 10,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 20,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -624,39 +631,39 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 10,
+     "grad": 17,
      "code": 1,
-     "gefuehlt": 9,
-     "wind": 6,
-     "windAus": 230,
-     "feuchte": 80,
-     "druck": 1010,
+     "gefuehlt": 15,
+     "wind": 7,
+     "windAus": 267,
+     "feuchte": 48,
+     "druck": 1008,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-25",
      "code": 3,
-     "max": 17,
+     "max": 18,
      "min": 8,
      "regen": 8,
      "menge": 0,
-     "wind": 7,
-     "windAus": 245,
-     "uv": 4,
+     "wind": 8,
+     "windAus": 247,
+     "uv": 3.9,
      "auf": "07:01",
      "unter": "19:02"
     },
     "morgen": {
      "datum": "2026-09-26",
      "code": 3,
-     "max": 22,
+     "max": 23,
      "min": 10,
      "regen": 0,
      "menge": 0,
-     "wind": 7,
-     "windAus": 190,
-     "uv": 3.8,
+     "wind": 6,
+     "windAus": 185,
+     "uv": 4.1,
      "auf": "07:02",
      "unter": "18:59"
     },
@@ -664,26 +671,26 @@
      {
       "datum": "2026-09-25",
       "code": 3,
-      "max": 17,
+      "max": 18,
       "min": 8,
       "regen": 8,
       "menge": 0,
-      "wind": 7,
-      "windAus": 245,
-      "uv": 4,
+      "wind": 8,
+      "windAus": 247,
+      "uv": 3.9,
       "auf": "07:01",
       "unter": "19:02"
      },
      {
       "datum": "2026-09-26",
       "code": 3,
-      "max": 22,
+      "max": 23,
       "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 190,
-      "uv": 3.8,
+      "wind": 6,
+      "windAus": 185,
+      "uv": 4.1,
       "auf": "07:02",
       "unter": "18:59"
      },
@@ -692,36 +699,36 @@
       "code": 3,
       "max": 24,
       "min": 13,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
-      "wind": 10,
-      "windAus": 111,
-      "uv": 3.5,
+      "wind": 11,
+      "windAus": 120,
+      "uv": 4,
       "auf": "07:04",
       "unter": "18:57"
      },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 27,
-      "min": 13,
-      "regen": 0,
+      "max": 25,
+      "min": 12,
+      "regen": 2,
       "menge": 0,
-      "wind": 9,
-      "windAus": 159,
-      "uv": 4,
+      "wind": 8,
+      "windAus": 142,
+      "uv": 3.6,
       "auf": "07:06",
       "unter": "18:55"
      },
      {
       "datum": "2026-09-29",
       "code": 2,
-      "max": 27,
-      "min": 15,
+      "max": 25,
+      "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 125,
+      "wind": 9,
+      "windAus": 117,
       "uv": 3.9,
       "auf": "07:07",
       "unter": "18:52"
@@ -734,7 +741,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 14,
-      "windAus": 115,
+      "windAus": 113,
       "uv": 3.7,
       "auf": "07:09",
       "unter": "18:50"
@@ -748,112 +755,76 @@
       "menge": 0,
       "wind": 13,
       "windAus": 115,
-      "uv": 3.6,
+      "uv": 3.1,
       "auf": "07:10",
       "unter": "18:48"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 9,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
-      "grad": 16,
+      "grad": 17,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 17,
-      "code": 3,
-      "regen": 0
+      "code": 1,
+      "regen": 3
      },
      {
       "zeit": "17:00",
-      "grad": 17,
-      "code": 3,
+      "grad": 18,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 16,
+      "grad": 17,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 16,
+      "grad": 17,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 15,
-      "code": 3,
+      "grad": 16,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 14,
-      "code": 2,
+      "grad": 15,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 14,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 13,
-      "code": 2,
+      "grad": 14,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 13,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "01:00",
       "grad": 12,
-      "code": 2,
+      "code": 0,
       "regen": 0
      },
      {
@@ -882,7 +853,7 @@
      },
      {
       "zeit": "06:00",
-      "grad": 10,
+      "grad": 11,
       "code": 0,
       "regen": 0
      },
@@ -894,8 +865,44 @@
      },
      {
       "zeit": "08:00",
-      "grad": 10,
+      "grad": 11,
       "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 1,
       "regen": 0
      }
     ]
@@ -906,25 +913,25 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 12,
-     "code": 3,
-     "gefuehlt": 10,
-     "wind": 10,
-     "windAus": 134,
-     "feuchte": 63,
-     "druck": 1015,
+     "grad": 22,
+     "code": 2,
+     "gefuehlt": 20,
+     "wind": 3,
+     "windAus": 130,
+     "feuchte": 27,
+     "druck": 1013,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-25",
      "code": 3,
-     "max": 23,
+     "max": 22,
      "min": 10,
      "regen": 0,
      "menge": 0,
      "wind": 10,
-     "windAus": 130,
+     "windAus": 121,
      "uv": 4.3,
      "auf": "07:22",
      "unter": "19:23"
@@ -932,13 +939,13 @@
     "morgen": {
      "datum": "2026-09-26",
      "code": 3,
-     "max": 21,
+     "max": 23,
      "min": 13,
      "regen": 0,
      "menge": 0,
-     "wind": 12,
-     "windAus": 73,
-     "uv": 4,
+     "wind": 11,
+     "windAus": 106,
+     "uv": 3.9,
      "auf": "07:24",
      "unter": "19:21"
     },
@@ -946,12 +953,12 @@
      {
       "datum": "2026-09-25",
       "code": 3,
-      "max": 23,
+      "max": 22,
       "min": 10,
       "regen": 0,
       "menge": 0,
       "wind": 10,
-      "windAus": 130,
+      "windAus": 121,
       "uv": 4.3,
       "auf": "07:22",
       "unter": "19:23"
@@ -959,13 +966,13 @@
      {
       "datum": "2026-09-26",
       "code": 3,
-      "max": 21,
+      "max": 23,
       "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 12,
-      "windAus": 73,
-      "uv": 4,
+      "wind": 11,
+      "windAus": 106,
+      "uv": 3.9,
       "auf": "07:24",
       "unter": "19:21"
      },
@@ -976,8 +983,8 @@
       "min": 16,
       "regen": 0,
       "menge": 0,
-      "wind": 14,
-      "windAus": 149,
+      "wind": 18,
+      "windAus": 139,
       "uv": 4.1,
       "auf": "07:26",
       "unter": "19:19"
@@ -986,25 +993,25 @@
       "datum": "2026-09-28",
       "code": 3,
       "max": 27,
-      "min": 16,
+      "min": 15,
       "regen": 16,
       "menge": 0,
-      "wind": 10,
+      "wind": 11,
       "windAus": 110,
-      "uv": 3.1,
+      "uv": 3.4,
       "auf": "07:27",
       "unter": "19:17"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 28,
+      "max": 27,
       "min": 15,
       "regen": 16,
       "menge": 0,
-      "wind": 15,
-      "windAus": 125,
-      "uv": 3.2,
+      "wind": 14,
+      "windAus": 122,
+      "uv": 3.5,
       "auf": "07:29",
       "unter": "19:14"
      },
@@ -1012,12 +1019,12 @@
       "datum": "2026-09-30",
       "code": 3,
       "max": 27,
-      "min": 17,
+      "min": 18,
       "regen": 11,
       "menge": 0,
-      "wind": 17,
-      "windAus": 129,
-      "uv": 3.4,
+      "wind": 16,
+      "windAus": 126,
+      "uv": 2.2,
       "auf": "07:30",
       "unter": "19:12"
      },
@@ -1027,9 +1034,9 @@
       "max": 20,
       "min": 15,
       "regen": 43,
-      "menge": 10.5,
-      "wind": 14,
-      "windAus": 132,
+      "menge": 9.9,
+      "wind": 13,
+      "windAus": 130,
       "uv": 0.4,
       "auf": "07:32",
       "unter": "19:10"
@@ -1037,45 +1044,9 @@
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 19,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 21,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 21,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1086,13 +1057,13 @@
      },
      {
       "zeit": "17:00",
-      "grad": 23,
-      "code": 2,
+      "grad": 22,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
@@ -1128,7 +1099,7 @@
      },
      {
       "zeit": "00:00",
-      "grad": 16,
+      "grad": 15,
       "code": 0,
       "regen": 0
      },
@@ -1165,7 +1136,7 @@
      {
       "zeit": "06:00",
       "grad": 14,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1179,6 +1150,42 @@
       "grad": 14,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 19,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
      }
     ]
    },
@@ -1188,13 +1195,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 9,
-     "code": 1,
-     "gefuehlt": 8,
-     "wind": 2,
-     "windAus": 37,
-     "feuchte": 76,
-     "druck": 1012,
+     "grad": 21,
+     "code": 0,
+     "gefuehlt": 19,
+     "wind": 5,
+     "windAus": 225,
+     "feuchte": 32,
+     "druck": 1009,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1206,20 +1213,20 @@
      "regen": 0,
      "menge": 0,
      "wind": 5,
-     "windAus": 128,
+     "windAus": 137,
      "uv": 4.4,
      "auf": "07:15",
      "unter": "19:17"
     },
     "morgen": {
      "datum": "2026-09-26",
-     "code": 3,
-     "max": 24,
+     "code": 2,
+     "max": 25,
      "min": 8,
      "regen": 0,
      "menge": 0,
      "wind": 5,
-     "windAus": 88,
+     "windAus": 96,
      "uv": 4,
      "auf": "07:17",
      "unter": "19:14"
@@ -1233,20 +1240,20 @@
       "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 128,
+      "windAus": 137,
       "uv": 4.4,
       "auf": "07:15",
       "unter": "19:17"
      },
      {
       "datum": "2026-09-26",
-      "code": 3,
-      "max": 24,
+      "code": 2,
+      "max": 25,
       "min": 8,
       "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 88,
+      "windAus": 96,
       "uv": 4,
       "auf": "07:17",
       "unter": "19:14"
@@ -1254,12 +1261,12 @@
      {
       "datum": "2026-09-27",
       "code": 3,
-      "max": 27,
-      "min": 13,
+      "max": 28,
+      "min": 14,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 79,
+      "windAus": 91,
       "uv": 4.3,
       "auf": "07:19",
       "unter": "19:12"
@@ -1268,24 +1275,24 @@
       "datum": "2026-09-28",
       "code": 3,
       "max": 29,
-      "min": 16,
-      "regen": 2,
+      "min": 15,
+      "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 95,
-      "uv": 4.2,
+      "windAus": 80,
+      "uv": 4,
       "auf": "07:20",
       "unter": "19:10"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 30,
-      "min": 14,
-      "regen": 3,
+      "max": 28,
+      "min": 15,
+      "regen": 0,
       "menge": 0,
       "wind": 11,
-      "windAus": 71,
+      "windAus": 70,
       "uv": 4.1,
       "auf": "07:22",
       "unter": "19:08"
@@ -1294,12 +1301,12 @@
       "datum": "2026-09-30",
       "code": 3,
       "max": 27,
-      "min": 13,
+      "min": 14,
       "regen": 0,
       "menge": 0,
       "wind": 9,
-      "windAus": 76,
-      "uv": 3.8,
+      "windAus": 75,
+      "uv": 3.3,
       "auf": "07:23",
       "unter": "19:05"
      },
@@ -1312,57 +1319,21 @@
       "menge": 0,
       "wind": 8,
       "windAus": 75,
-      "uv": 3.3,
+      "uv": 2.1,
       "auf": "07:25",
       "unter": "19:03"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 8,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 10,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 12,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 19,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 20,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 20,
+      "grad": 21,
       "code": 0,
       "regen": 0
      },
@@ -1374,13 +1345,13 @@
      },
      {
       "zeit": "18:00",
-      "grad": 20,
-      "code": 0,
+      "grad": 21,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 19,
+      "grad": 20,
       "code": 1,
       "regen": 0
      },
@@ -1392,19 +1363,19 @@
      },
      {
       "zeit": "21:00",
-      "grad": 16,
+      "grad": 17,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 15,
+      "grad": 16,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 14,
+      "grad": 15,
       "code": 0,
       "regen": 0
      },
@@ -1461,6 +1432,42 @@
       "grad": 8,
       "code": 0,
       "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 9,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 22,
+      "code": 1,
+      "regen": 0
      }
     ]
    },
@@ -1470,13 +1477,13 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 11,
-     "code": 0,
-     "gefuehlt": 9,
+     "grad": 21,
+     "code": 1,
+     "gefuehlt": 19,
      "wind": 3,
-     "windAus": 146,
-     "feuchte": 71,
-     "druck": 994,
+     "windAus": 50,
+     "feuchte": 23,
+     "druck": 991,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1487,22 +1494,22 @@
      "min": 6,
      "regen": 0,
      "menge": 0,
-     "wind": 6,
-     "windAus": 164,
+     "wind": 7,
+     "windAus": 168,
      "uv": 4.4,
      "auf": "07:13",
      "unter": "19:15"
     },
     "morgen": {
      "datum": "2026-09-26",
-     "code": 2,
+     "code": 1,
      "max": 25,
      "min": 9,
      "regen": 0,
      "menge": 0,
      "wind": 7,
-     "windAus": 166,
-     "uv": 4.3,
+     "windAus": 167,
+     "uv": 4.4,
      "auf": "07:15",
      "unter": "19:13"
     },
@@ -1514,34 +1521,34 @@
       "min": 6,
       "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 164,
+      "wind": 7,
+      "windAus": 168,
       "uv": 4.4,
       "auf": "07:13",
       "unter": "19:15"
      },
      {
       "datum": "2026-09-26",
-      "code": 2,
+      "code": 1,
       "max": 25,
       "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 166,
-      "uv": 4.3,
+      "windAus": 167,
+      "uv": 4.4,
       "auf": "07:15",
       "unter": "19:13"
      },
      {
       "datum": "2026-09-27",
       "code": 3,
-      "max": 29,
-      "min": 13,
+      "max": 28,
+      "min": 12,
       "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 167,
+      "windAus": 164,
       "uv": 4.3,
       "auf": "07:16",
       "unter": "19:10"
@@ -1550,25 +1557,25 @@
       "datum": "2026-09-28",
       "code": 3,
       "max": 30,
-      "min": 17,
+      "min": 16,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 133,
-      "uv": 4.3,
+      "wind": 7,
+      "windAus": 132,
+      "uv": 4.2,
       "auf": "07:18",
       "unter": "19:08"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 29,
-      "min": 14,
+      "max": 28,
+      "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 11,
-      "windAus": 118,
-      "uv": 4.2,
+      "wind": 10,
+      "windAus": 122,
+      "uv": 4.1,
       "auf": "07:19",
       "unter": "19:06"
      },
@@ -1576,12 +1583,12 @@
       "datum": "2026-09-30",
       "code": 3,
       "max": 26,
-      "min": 11,
+      "min": 12,
       "regen": 0,
       "menge": 0,
       "wind": 9,
-      "windAus": 112,
-      "uv": 3.8,
+      "windAus": 119,
+      "uv": 3.5,
       "auf": "07:21",
       "unter": "19:04"
      },
@@ -1594,88 +1601,52 @@
       "menge": 0,
       "wind": 8,
       "windAus": 109,
-      "uv": 3.6,
+      "uv": 2.9,
       "auf": "07:22",
       "unter": "19:02"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 9,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 16,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 20,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
-      "grad": 20,
-      "code": 0,
+      "grad": 21,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 21,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 21,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 20,
+      "grad": 21,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 19,
-      "code": 0,
+      "grad": 20,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 18,
+      "grad": 19,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 17,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1687,18 +1658,18 @@
      {
       "zeit": "23:00",
       "grad": 14,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 13,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 13,
+      "grad": 12,
       "code": 0,
       "regen": 0
      },
@@ -1743,6 +1714,42 @@
       "grad": 9,
       "code": 0,
       "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 21,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 23,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 24,
+      "code": 0,
+      "regen": 0
      }
     ]
    },
@@ -1752,38 +1759,38 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 9,
+     "grad": 19,
      "code": 0,
-     "gefuehlt": 8,
-     "wind": 1,
-     "windAus": 90,
-     "feuchte": 80,
-     "druck": 962,
+     "gefuehlt": 17,
+     "wind": 2,
+     "windAus": 79,
+     "feuchte": 32,
+     "druck": 960,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-25",
      "code": 45,
-     "max": 18,
+     "max": 19,
      "min": 5,
-     "regen": 0,
+     "regen": 3,
      "menge": 0,
      "wind": 5,
-     "windAus": 157,
-     "uv": 4.4,
+     "windAus": 142,
+     "uv": 4.5,
      "auf": "07:04",
      "unter": "19:05"
     },
     "morgen": {
      "datum": "2026-09-26",
-     "code": 45,
+     "code": 3,
      "max": 23,
      "min": 7,
      "regen": 0,
      "menge": 0,
      "wind": 5,
-     "windAus": 159,
+     "windAus": 154,
      "uv": 4.4,
      "auf": "07:05",
      "unter": "19:03"
@@ -1792,25 +1799,25 @@
      {
       "datum": "2026-09-25",
       "code": 45,
-      "max": 18,
+      "max": 19,
       "min": 5,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
       "wind": 5,
-      "windAus": 157,
-      "uv": 4.4,
+      "windAus": 142,
+      "uv": 4.5,
       "auf": "07:04",
       "unter": "19:05"
      },
      {
       "datum": "2026-09-26",
-      "code": 45,
+      "code": 3,
       "max": 23,
       "min": 7,
       "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 159,
+      "windAus": 154,
       "uv": 4.4,
       "auf": "07:05",
       "unter": "19:03"
@@ -1822,8 +1829,8 @@
       "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 109,
+      "wind": 8,
+      "windAus": 104,
       "uv": 4.4,
       "auf": "07:07",
       "unter": "19:01"
@@ -1831,25 +1838,25 @@
      {
       "datum": "2026-09-28",
       "code": 45,
-      "max": 25,
-      "min": 10,
+      "max": 24,
+      "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 97,
-      "uv": 4.2,
+      "wind": 8,
+      "windAus": 93,
+      "uv": 4.3,
       "auf": "07:08",
       "unter": "18:59"
      },
      {
       "datum": "2026-09-29",
-      "code": 1,
-      "max": 24,
-      "min": 10,
+      "code": 45,
+      "max": 23,
+      "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 12,
-      "windAus": 78,
+      "wind": 10,
+      "windAus": 83,
       "uv": 4.3,
       "auf": "07:09",
       "unter": "18:57"
@@ -1862,7 +1869,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 11,
-      "windAus": 85,
+      "windAus": 87,
       "uv": 4,
       "auf": "07:11",
       "unter": "18:55"
@@ -1876,88 +1883,52 @@
       "menge": 0,
       "wind": 11,
       "windAus": 103,
-      "uv": 3.6,
+      "uv": 3.5,
       "auf": "07:12",
       "unter": "18:53"
      }
     ],
     "stunden": [
      {
-      "zeit": "09:00",
-      "grad": 6,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 18,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 18,
-      "code": 1,
+      "grad": 19,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 18,
-      "code": 1,
+      "grad": 19,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "18:00",
       "grad": 18,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 15,
-      "code": 2,
-      "regen": 0
+      "code": 1,
+      "regen": 3
      },
      {
       "zeit": "21:00",
       "grad": 13,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1969,19 +1940,19 @@
      {
       "zeit": "23:00",
       "grad": 11,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 10,
-      "code": 2,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "01:00",
       "grad": 9,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1993,7 +1964,7 @@
      {
       "zeit": "03:00",
       "grad": 8,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -2005,7 +1976,7 @@
      {
       "zeit": "05:00",
       "grad": 8,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -2016,24 +1987,60 @@
      },
      {
       "zeit": "07:00",
-      "grad": 8,
-      "code": 45,
+      "grad": 7,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "08:00",
       "grad": 8,
-      "code": 45,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 10,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 22,
+      "code": 0,
       "regen": 0
      }
     ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 15 und 23 Grad.",
+   "Heute liegen die Höchstwerte zwischen 15 und 22 Grad.",
    "Die Vorhersage für morgen, Samstag, im ganzen Land: bewölkt.",
    "Die Temperaturen erreichen dann 19 bis 25 Grad.",
-   "Am wärmsten wird es in Stuttgart mit 25 Grad.",
+   "Am wärmsten wird es in Frankfurt mit 25 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
@@ -2058,7 +2065,7 @@
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 18,
-       "regen": 1.5
+       "regen": 1.4
       }
      ]
     },
@@ -2068,7 +2075,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 20,
+       "grad": 21,
        "regen": 0
       },
       {
@@ -2081,7 +2088,7 @@
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 20,
-       "regen": 0.2
+       "regen": 0
       }
      ]
     },
@@ -2091,7 +2098,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       },
       {
@@ -2103,7 +2110,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       }
      ]
@@ -2114,7 +2121,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       },
       {
@@ -2137,7 +2144,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 24,
+       "grad": 25,
        "regen": 0
       },
       {
@@ -2149,7 +2156,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       }
      ]
@@ -2172,7 +2179,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       }
      ]
@@ -2364,7 +2371,7 @@
    {
     "k": "Nachrichten-Heft. Wissen und Klima vom Freitag, 25. September. Es liest die Comp",
     "d": "7a525e081c.mp3",
-    "l": 8.0,
+    "l": 8,
     "s": [
      0.25,
      5.45
@@ -2406,6 +2413,1714 @@
   "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
+  {
+   "id": "tankrabatt-oktober-dezember-2026",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-25T13:37:46.000Z",
+   "titel": "Bundestag und Bundesrat beschließen erneute Steuersenkung auf Kraftstoffe",
+   "vorspann": "Der Bundestag und der Bundesrat haben eine erneute Steuersenkung auf Diesel und Benzin beschlossen. Die Maßnahme soll von Oktober bis Dezember gelten und die Kosten für Kraftstoffe senken.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Bundestag und Bundesrat haben einen neuen Tankrabatt für die Monate Oktober bis Dezember beschlossen.",
+    "Die Energiesteuer auf Benzin und Diesel wird gesenkt, was mit Mehrwertsteuer eine Entlastung von rund 17 Cent ergibt.",
+    "Die Kosten von rund 2,5 Milliarden Euro werden hälftig von Bund und Ländern getragen.",
+    "Die Opposition sowie Verbände kritisieren die Maßnahme als teuer und nicht zielgenau."
+   ],
+   "einig": [
+    [
+     "Der Bundestag und der Bundesrat haben einen neuen Tankrabatt beschlossen.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit",
+      "Welt"
+     ]
+    ],
+    [
+     "Der Tankrabatt gilt von Oktober bis Ende Dezember.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Zeit",
+      "Welt"
+     ]
+    ],
+    [
+     "Die Entlastung beträgt rund 17 Cent pro Liter.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Welt"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Mineralölkonzerne die Steuersenkung diesmal vollständig an die Verbraucher weitergeben, ist ungewiss; die Regierung erwartet dies jedoch laut Tagesschau, Deutschlandfunk und Welt."
+   ],
+   "positionen": [
+    [
+     "Stefan Korbach (CDU-Finanzpolitiker)",
+     "Der Tankrabatt ist das beste schnell verfügbare Instrument, das ohne Anträge wirkt und Betriebe sowie Haushalte entlastet.",
+     "Tagesschau/ARD,Spiegel,Welt"
+    ],
+    [
+     "Armand Zorn (SPD-Fraktionsvize)",
+     "Die Entscheidung zeigt angesichts gestiegener Preise sofortige Entlastungswirkung im Alltag und hilft Menschen, die auf das Auto angewiesen sind.",
+     "Tagesschau/ARD,Welt"
+    ],
+    [
+     "Katharina Dröge (Grünen-Fraktionschefin)",
+     "Der Tankrabatt ist eine Schwachsinnslösung, die so viel kostet wie die Kürzungen bei Familienleistungen im Bundeshaushalt.",
+     "Tagesschau/ARD,Spiegel,Welt"
+    ],
+    [
+     "Katherina Reiche (Bundeswirtschaftsministerin, CDU)",
+     "Der Tankrabatt ist zwar keine ideale Lösung, aber angesichts des Drucks auf Autofahrer und Betriebe notwendig; zudem beteiligen sich nun auch die Länder.",
+     "Welt"
+    ],
+    [
+     "Claudia Kemfert (Wirtschaftsexpertin, DIW)",
+     "Die Maßnahme ist eine falsche Antwort auf hohe Energiepreise, nicht zielgenau, teuer und bietet keine Anreize zum Spritsparen.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen der betroffenen Mineralölkonzerne oder Automobilverbände direkt zur aktuellen Entscheidung.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:30",
+     "fokus": "Ausführliche Reaktionen und Hintergründe",
+     "text": "Die Tagesschau liefert detaillierte Abstimmungsergebnisse aus dem Bundestag sowie zahlreiche Zitate von Politikern und Verbänden.",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/tankrabatt-bundestag-beschluss-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 387,
+      "satzlaenge": 15,
+      "langeWoerter": 35
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:37",
+     "fokus": "Kurze Zusammenfassung des Beschlusses",
+     "text": "Der Deutschlandfunk konzentriert sich auf die Kernfakten des parlamentarischen Verfahrens und die Erwartung an die Mineralölkonzerne.",
+     "url": "https://www.deutschlandfunk.de/bundesrat-und-bundestag-fuer-tankrabatt-regelung-kommt-zum-1-oktober-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 15:22",
+     "fokus": "Technische Details und Steuerberechnung",
+     "text": "Der Spiegel erklärt genau die steuerlichen Hintergründe bezüglich der EU-Vorgaben für Diesel und die hälftige Kostenaufteilung.",
+     "url": "https://www.spiegel.de/politik/deutschland/bundestag-beschliesst-im-eilverfahren-neuen-tankrabatt-a-fa1fd7d4-7f5e-438e-9e5a-15f2feb2ffd3#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 2,
+      "woerter": 333,
+      "satzlaenge": 13,
+      "langeWoerter": 32
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 14:10",
+     "fokus": "Kompakte Kurzmeldung",
+     "text": "Die Zeit beschränkt sich auf die wesentliche Nachricht über die Beschlussfassung der Energiesteuersenkung.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/bundestag-beschliesst-neuen-tankrabatt-gxe",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "25.09.26, 15:12",
+     "fokus": "Eilverfahren und künftige Schritte",
+     "text": "Die Welt hebt das Eilverfahren hervor und nennt geplante Zusatzmaßnahmen wie einen Spritpreisdeckel für das Jahr 2027.",
+     "url": "https://www.welt.de/wirtschaft/article6ab65b6fa8b3f6fdb1edb139/hohe-spritpreise-neuer-tankrabatt-kommt-bundestag-und-bundesrat-stimmen-im-eilverfahren-zu.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 443,
+      "satzlaenge": 16,
+      "langeWoerter": 33
+     },
+     "traeger": "WeltN24 GmbH, gehört zur Axel Springer SE",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Präzision der Cent-Beträge",
+     "Der Spiegel nennt exakt 14,04 Cent Energiesteuersenkung und 16,7 Cent Gesamtreduzierung, während andere Quellen meist gerundet von 14 und 17 Cent sprechen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundestag, Bundesrat und Bundesregierung",
+    "was": "Beschluss einer Steuersenkung für Benzin und Diesel",
+    "wann": "2026-09-25",
+    "wo": "Berlin, Deutschland",
+    "wie": "Durch Senkung der Energiesteuer und Mehrwertsteuer um rund 17 Cent",
+    "warum": "Laut Bundesregierung zur schnellen Entlastung wegen hoher Spritpreise",
+    "quellenlage": "Meldungen von fünf Nachrichtenorganisationen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Gesetzgebungsverfahren",
+     "absaetze": [
+      "Der Deutsche Bundestag hat in Berlin einen erneuten sogenannten Tankrabatt beschlossen. Die Regelung sieht eine zeitlich begrenzte Entlastung bei den Spritpreisen vor. Das Parlament stimmte am Freitagmittag über den entsprechenden Gesetzentwurf ab. In einer namentlichen Abstimmung votierten 434 von 562 Abgeordneten für die Vorlage. Demgegenüber stimmten 128 Abgeordnete gegen das Gesetz.",
+      "Nach dem Beschluss im Parlament ging das Gesetz im Eilverfahren in den Bundesrat. Laut der Tageszeitung Welt wurde der Vermittlungsausschuss nicht angerufen. Am Nachmittag stimmte auch der Bundesrat dem Gesetz zu. Damit ist der Weg für das Inkrafttreten der Maßnahme zum ersten Oktober frei.",
+      "Die Koalition aus Union und SPD hatte sich zuvor auf dieses Entlastungspaket verständigt. Der Entwurf war im Parlament von einer Diskussion begleitet worden. Die Bundesregierung hatte das Ziel ausgegeben, die Entlastung noch zum ersten Oktober zu verwirklichen. Die Regelung soll bis zum Ende des Monats Dezember Gültigkeit behalten."
+     ]
+    },
+    {
+     "ueberschrift": "Ausgestaltung und finanzielle Folgen",
+     "absaetze": [
+      "Mit dem Gesetz der schwarz-roten Koalition wird die Energiesteuer auf Diesel und Benzin von Oktober bis Ende Dezember gesenkt. Laut der Tagesschau und dem Magazin Spiegel sinkt die Energiesteuer auf Diesel und Benzin um 14 beziehungsweise 14,04 Cent je Liter. Der Spiegel führt aus, dass für Diesel keine stärkere Steuersenkung vonseiten der Europäischen Union zugelassen wird. Um alle Autofahrer gleichzubehandeln, wird dieser Wert auch für Benzin angewendet.",
+      "Durch den Wegfall der Energiesteuer entfällt nach Angaben des Spiegels auch die Mehrwertsteuer auf diesen Betrag. Dies führt zu einer zusätzlichen Reduzierung um knapp drei Cent. Insgesamt ergibt sich dadurch eine Steuerreduzierung um rund 17 Cent pro Liter. Nach Angaben der Tagesschau und der Welt betragen die Gesamtkosten für den Staat rund 2,5 Milliarden Euro. Der Spiegel nennt eine Summe von 2,485 Milliarden Euro an Mindereinnahmen für die Staatskasse.",
+      "Im Gegensatz zum ersten Tankrabatt im Frühjahr, bei dem der Bund die Kosten vollständig trug, werden die Steuerausfälle diesmal zu gleichen Teilen von Bund und Ländern getragen. Die Welt und die Tagesschau bestätigen diese hälftige Aufteilung der Lasten zwischen Bund und Ländern. Die Bundesregierung hat die Erwartung geäußert, dass die Mineralölkonzerne die Preissenkung an die Autofahrer weitergeben. Das Kartellamt hatte beim ersten Tankrabatt im Mai und Juni eine Weitergabe von etwa 80 Prozent festgestellt."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und politische Reaktionen",
+     "absaetze": [
+      "Die Maßnahme knüpft an einen früheren Tankrabatt an. Dieser war im Frühjahr eingeführt worden, um stark gestiegene Preise an den Zapfsäulen infolge des Iran-Kriegs beziehungsweise des Nahost-Krieges abzufedern, wie die Tagesschau und die Welt berichten. Die Bundesregierung begründet das Vorgehen nun damit, schnell helfen zu wollen. Insbesondere sollen auch Menschen auf dem Land erreicht werden, wo es laut der Welt keine guten Alternativen zum Auto gibt.",
+      "Die Koalition hat zudem einen Spritpreisdeckel verabredet. Dieser soll nach Angaben der Tagesschau den Spielraum der Mineralölkonzerne für Preiserhöhungen begrenzen. Laut der Welt soll das Wirtschaftsministerium einen entsprechenden Gesetzentwurf nach dem Vorbild von Luxemburg oder Belgien ausarbeiten, der ab spätestens Anfang 2027 greifen soll. Auch Direktüberweisungen für das kommende Jahr wurden in Aussicht gestellt.",
+      "Aus der Opposition und von Verbänden gab es scharfe Kritik an der Steuersenkung. Die Grünen-Fraktionschefin Katharina Dröge nannte die Maßnahme laut Tagesschau und Spiegel eine Schwachsinnslösung. Sie kritisierte, dass der Betrag von 2,5 Milliarden Euro genau der Summe entspreche, um die die Familienleistungen im Bundeshaushalt gekürzt worden seien. Die Wirtschaftsexpertin Claudia Kemfert vom Deutschen Institut für Wirtschaftsforschung bezeichnete die Maßnahme laut Tagesschau als falsche Antwort, da sie nicht zielgenau sei und fossile Abhängigkeiten subventioniere."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Vergangene Woche",
+     "Die Koalition aus Union und SPD verständigte sich auf das Entlastungspaket."
+    ],
+    [
+     "Freitagmittag",
+     "Der Bundestag beschloss die Steuersenkung mit 434 zu 128 Stimmen in namentlicher Abstimmung."
+    ],
+    [
+     "Freitagabend",
+     "Der Bundesrat stimmte dem Gesetz im Eilverfahren zu."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Katherina Reiche politician",
+     "bildunterschrift": "Bundeswirtschaftsministerin Katherina Reiche äußerte sich zu der Entlastungsmaßnahme."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Deutscher Bundestag building Berlin",
+     "bildunterschrift": "Im Deutschen Bundestag fand die namentliche Abstimmung über den Tankrabatt statt."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Bundesrat Germany building",
+     "bildunterschrift": "Auch der Bundesrat stimmte dem Gesetz am Nachmittag zu."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Gas station price sign Germany",
+     "bildunterschrift": "Kraftstoffpreise an Tankstellen waren der Auslöser für die politische Entscheidung."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Energiesteuer",
+      "Eine Steuer auf Energieprodukte wie Benzin, Diesel oder Heizöl, die der Staat erhebt."
+     ],
+     [
+      "Bundesrat",
+      "Das Organ, durch das die sechzehn Bundesländer an der Gesetzgebung des Bundes mitwirken."
+     ],
+     [
+      "Opposition",
+      "Die Parteien im Parlament, die nicht zur Regierung gehören und diese kontrollieren."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente sprechen aus Sicht der Regierung für und aus Sicht der Opposition gegen den Tankrabatt?",
+     "Warum kritisieren Wirtschaftsexpertinnen wie Claudia Kemfert solche Maßnahmen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie hoch ist die Entlastung pro Liter Kraftstoff ungefähr?",
+      "optionen": [
+       "7 Cent",
+       "17 Cent",
+       "27 Cent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut den Berichten ergibt sich durch die Senkung von Energiesteuer und Mehrwertsteuer eine Entlastung von rund 17 Cent pro Liter."
+     },
+     {
+      "frage": "Wer trägt die Kosten für den neuen Tankrabatt?",
+      "optionen": [
+       "Nur der Bund",
+       "Bund und Länder hälftig",
+       "Die Mineralölkonzerne vollständig"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Gesamtkosten von rund 2,5 Milliarden Euro werden jeweils zur Hälfte von Bund und Ländern getragen."
+     },
+     {
+      "frage": "In welchem Zeitraum gilt der beschlossene Tankrabatt?",
+      "optionen": [
+       "Von Juli bis September",
+       "Von Oktober bis Dezember",
+       "Das ganze Jahr 2027"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Gesetz sieht vor, dass die Maßnahme von Oktober bis Ende Dezember gilt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der Bundestag und der Bundesrat haben eine Steuersenkung für Benzin und Diesel beschlossen. Autofahrer sollen von Oktober bis Dezember entlastet werden.",
+    "absaetze": [
+     "Die Energiesteuer auf Diesel und Benzin wird gesenkt. Mit der Mehrwertsteuer ergibt das eine Ersparnis von rund siebzehn Cent pro Liter.",
+     "Das Gesetz gilt vom ersten Oktober bis zum Ende des Monats Dezember. Der Bund und die Länder teilen sich die Kosten von zweieinhalb Milliarden Euro.",
+     "Die Koalition aus Union und SPD begründet die Maßnahme mit den hohen Preisen. Kritik kommt dagegen von der Opposition und von Verbänden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der Bundestag und der Bundesrat beschlossen einen neuen Tankrabatt für Autofahrer. Von Oktober bis Dezember sinken die Steuern auf Benzin und Diesel. Die Entlastung liegt bei rund siebzehn Cent pro Liter."
+    ],
+    "lang": [
+     "Der Deutsche Bundestag und der Bundesrat haben eine erneute Steuersenkung für Benzin und Diesel beschlossen. Die Maßnahme gilt von Oktober bis zum Ende des Monats Dezember. In einer namentlichen Abstimmung stimmten vierhundertvierunddreißig Abgeordnete für die Vorlage. Einhundertachtundzwanzig Abgeordnete stimmten gegen das Gesetz. Die Entlastung beträgt nach Angaben von Medien rund siebzehn Cent pro Liter Kraftstoff. Die Gesamtkosten für den Staat belaufen sich auf rund zweieinhalb Milliarden Euro. Bund und Länder tragen diese Kosten jeweils zur Hälfte. Die Regierung erwartet, dass die Mineralölkonzerne die Senkung an die Verbraucher weitergeben. Die Opposition kritisierte die Maßnahme scharf und nannte sie eine falsche Lösung. Die Bundesregierung hält den Schritt dagegen für notwendig, um die Bürger schnell zu entlasten."
+    ],
+    "einfach": [
+     "Der Bundestag beschloss eine Steuersenkung für Benzin und Diesel. Autofahrer bekommen von Oktober bis Dezember Geld zurück. Die Steuer auf Kraftstoff sinkt um rund siebzehn Cent. Bund und Länder bezahlen gemeinsam zweieinhalb Milliarden Euro. Die Opposition kritisiert diese Maßnahme als teuer."
+    ]
+   },
+   "kurz": [
+    "Bundestag und Bundesrat beschließen erneuten Tankrabatt von Oktober bis Dezember.",
+    "Die Energiesteuer auf Benzin und Diesel wird gesenkt.",
+    "Die Entlastung beträgt rund siebzehn Cent pro Liter.",
+    "Die Kosten von zweieinhalb Milliarden Euro tragen Bund und Länder hälftig."
+   ],
+   "fakten": [
+    [
+     "Abstimmung im Bundestag",
+     "434 zu 128 Stimmen"
+    ],
+    [
+     "Entlastung pro Liter",
+     "rund 17 Cent"
+    ],
+    [
+     "Gesamtkosten",
+     "rund 2,5 Milliarden Euro"
+    ],
+    [
+     "Gültigkeit",
+     "Oktober bis Dezember"
+    ]
+   ],
+   "dossier": {
+    "slug": "tankrabatt-steuersenkung-spritpreise",
+    "titel": "Steuersenkung auf Kraftstoffe und Tankrabatt"
+   },
+   "bildInfo": {
+    "titel": "20220811 Bundesrat building 01.jpg",
+    "beschreibung": "The Bundesrat building in Berlin.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/20220811_Bundesrat_building_01.jpg/1280px-20220811_Bundesrat_building_01.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/20220811_Bundesrat_building_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:20220811_Bundesrat_building_01.jpg",
+    "urheber": "Flocci Nivis",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "art": "institution",
+    "suchbegriff": "Bundesrat Germany building",
+    "bildunterschrift": "Das Bundesrat-Gebäude in Berlin zeigt den Ort, an dem die Steuersenkung mitbeschlossen wurde.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "20220811 Bundesrat building 01.jpg",
+     "beschreibung": "The Bundesrat building in Berlin.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/20220811_Bundesrat_building_01.jpg/1280px-20220811_Bundesrat_building_01.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/20220811_Bundesrat_building_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:20220811_Bundesrat_building_01.jpg",
+     "urheber": "Flocci Nivis",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "institution",
+     "suchbegriff": "Bundesrat Germany building",
+     "bildunterschrift": "Das Bundesrat-Gebäude in Berlin zeigt den Ort, an dem die Steuersenkung mitbeschlossen wurde.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Dorothea Lange, Gas station price analysis, Santa Fe, New Mexico, 1938.jpg",
+     "beschreibung": "Santa Fe, New Mexico. Gas station price analysis. Washing, greasing, motor steam cleaned, fishing worms. Gasoline ... 5¢ State ... 5¢ Uncle Sam ... 1¢ City ... 1¢ R.R. ... 2 ¾¢ Agent ... 1 ¼¢ Me ... 4",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg/1280px-Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Dorothea_Lange%2C_Gas_station_price_analysis%2C_Santa_Fe%2C_New_Mexico%2C_1938.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange,_Gas_station_price_analysis,_Santa_Fe,_New_Mexico,_1938.jpg",
+     "urheber": "Dorothea Lange",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Gas station price sign Germany",
+     "bildunterschrift": "Eine Zapfsäule symbolisiert die Kraftstoffpreise, die durch die Maßnahme gesenkt werden sollen.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "vw-audi-seat-rueckruf-lenkung",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-25T13:37:46.000Z",
+   "titel": "Rückruf von Fahrzeugen wegen möglicher Lenkungsprobleme",
+   "vorspann": "Volkswagen, Audi und Seat rufen in Deutschland zahlreiche Fahrzeuge in die Werkstätten zurück. Grund dafür sind mögliche Mängel an der Lenkung, die zum Ausfall führen können.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Volkswagen, Audi und Seat rufen in Deutschland zahlreiche Fahrzeuge zurück.",
+    "Grund für die Maßnahme ist ein möglicher Schraubenabriss an der Lenkung, der zu einem Ausfall führen kann.",
+    "Das Kraftfahrt-Bundesamt stuft den Mangel als sicherheitsrelevant ein, meldet jedoch bisher keine Schadensfälle.",
+    "Betroffene Kundinnen und Kunden werden schriftlich benachrichtigt und sollen einen Werkstatttermin vereinbaren."
+   ],
+   "einig": [
+    [
+     "Volkswagen, Audi und Seat müssen in Deutschland Autos zurückrufen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit"
+     ]
+    ],
+    [
+     "Grund für den Rückruf ist ein möglicher Schraubenabriss an der Lenkung, der zu einem Ausfall der Lenkung führen kann.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Das Kraftfahrt-Bundesamt hat Daten und Referenznummern für die Rückrufe veröffentlicht.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Zur Lösung des Problems muss die Lenkungsverschraubung durch eine korrosionsresistentere Schraube ersetzt werden.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue weltweite Gesamtzahl der betroffenen Autos unterscheidet sich in den Berichten."
+   ],
+   "positionen": [
+    [
+     "Kraftfahrt-Bundesamt",
+     "Ein Schraubenabriss kann zum Ausfall der Lenkung führen; die Verschraubung muss durch korrosionsresistentere Schrauben ersetzt werden.",
+     "Tagesschau/ARD, ZDFheute, Spiegel"
+    ],
+    [
+     "VW-Sprecher",
+     "Bis zum Werkstatttermin kann man weiterfahren; Kunden werden per Anschreiben informiert.",
+     "ZDFheute"
+    ],
+    [
+     "Konzernkreise",
+     "Weltweit sind mehr als vier Millionen Fahrzeuge aus dem gesamten Konzern betroffen.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen von betroffenen Autofahrerinnen und Autofahrern.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 13:55",
+     "fokus": "Zahlen für Deutschland und Welt",
+     "text": "Die Tagesschau liefert genaue Modelllisten sowie die weltweiten und nationalen Zahlen für VW, Audi und Seat.",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-lenkungsausfall-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 184,
+      "satzlaenge": 13,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 11:32",
+     "fokus": "Ablauf und Sprecher-Zitate",
+     "text": "ZDFheute betont die Aussagen eines VW-Sprechers zur Weiterfahrt und erklärt die Hintergründe der Halteranschreiben.",
+     "url": "https://www.zdfheute.de/wirtschaft/unternehmen/volkswagen-audi-rueckruf-auto-lenkung-kraftfahrt-bundesamt-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 8,
+      "minuten": 1,
+      "woerter": 267,
+      "satzlaenge": 13,
+      "langeWoerter": 32
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:37",
+     "fokus": "–",
+     "text": "Volkswagen muss zahlreiche Fahrzeuge wegen eines möglichen Defekts an der Lenkung zurückrufen.",
+     "url": "https://www.deutschlandfunk.de/vw-und-audi-rufen-ueber-900-000-fahrzeuge-zurueck-ausfall-der-lenkung-droht-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 10:31",
+     "fokus": "Technische Details und Konzernzahlen",
+     "text": "Der SPIEGEL nennt erweiterte Zahlen inklusive Škoda sowie technische Details zum genauen Schaden an der Lenkung.",
+     "url": "https://www.spiegel.de/mobilitaet/auto/vw-golf-tiguan-touran-rueckruf-wegen-lenkung-a-b1272e7c-56b0-4726-b908-1a8a650e0a86#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 377,
+      "satzlaenge": 13,
+      "langeWoerter": 37
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 12:38",
+     "fokus": "–",
+     "text": "Ein Schraubenfehler bei einigen VW- und Audi-Modellen kann laut Kraftfahrt-Bundesamt zum Ausfall der Lenkung führen.",
+     "url": "https://www.zeit.de/wirtschaft/2026-09/vw-audi-rueckruf-lenkung-ausfall-schraubenabriss-gxe",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Weltweite Gesamtzahlen",
+     "Während Tagesschau und ZDFheute primär die Zahlen des Kraftfahrt-Bundesamtes für VW und Audi nennen, führt der SPIEGEL zusätzliche Schätzungen und Zahlen für Škoda und Seat aus Konzernkreisen an."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Kraftfahrt-Bundesamt, Volkswagen, Audi, Seat und Škoda",
+    "was": "Rückruf von Fahrzeugen wegen möglicher Lenkungsprobleme",
+    "wann": "25.09.2026",
+    "wo": "Deutschland und weltweit",
+    "wie": "Austausch der Lenkungsverschraubung durch korrosionsresistentere Schrauben",
+    "warum": "Schraubenabriss droht durch eindringende Feuchtigkeit, nach Angaben des Kraftfahrt-Bundesamtes",
+    "quellenlage": "Kraftfahrt-Bundesamt und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Das Kraftfahrt-Bundesamt hat einen Rückruf für Fahrzeuge des Volkswagen-Konzerns angekündigt. Betroffen sind in Deutschland nach Angaben der Behörde rund eine Million Autos der Marken Volkswagen und Audi. Grund für die Maßnahme ist ein potenzieller Defekt an der Lenkung, der durch einen Schraubenabriss verursacht werden kann. Zur Behebung des Mangels muss die Lenkungsverschraubung ausgetauscht werden. Dabei soll eine korrosionsresistentere Schraube eingesetzt werden.",
+      "Laut den Berichten der Tagesschau und des SPIEGEL sind bei Volkswagen in Deutschland die Modelle Tiguan, Touran, Golf Variant, Caddy und Golf betroffen. Diese Fahrzeuge wurden nach Angaben des Kraftfahrt-Bundesamts zwischen dem 24. September 2013 und dem 1. Juli 2024 produziert. Die offizielle Referenznummer dieser Rückrufaktion bei der Behörde lautet 17016R. Weltweit handele es sich bei diesen Volkswagen-Modellen um fast 2,16 Millionen Fahrzeuge, wie der SPIEGEL berichtet.",
+      "Zusätzlich ist das Modell Audi Q3 von dem Rückruf betroffen, wie ZDFheute und die Tagesschau mitteilen. Der Produktionszeitraum für diesen Typ liegt demnach zwischen dem 31. Oktober 2017 und dem 23. Mai 2024. In Deutschland sind davon 58.555 Fahrzeuge potenziell betroffen, während es weltweit fast 700.000 Autos sind. Die Audi-spezifische Referenznummer beim Kraftfahrt-Bundesamt lautet 17014R. Bei der tschechischen Konzernmarke Škoda sind nach Unternehmensangaben, die dem SPIEGEL vorliegen, schätzungsweise 1,2 bis 1,5 Millionen Autos betroffen, wovon 370.000 in Deutschland zugelassen sein sollen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut dem SPIEGEL und weiteren Berichten sind bei der Marke Seat die Modelle Ateca und Tarraco im Zeitraum von April 2016 bis September 2024 betroffen. Weltweit werden hierbei 224.000 Fahrzeuge genannt, während die Tagesschau und ZDFheute spezifische Zahlen für Deutschland und die Welt nennen. Demnach sind bei Seat weltweit 66.224 Fahrzeuge und davon 43.574 in Deutschland potenziell betroffen. Insgesamt geht es laut Informationen aus Konzernkreisen, die dem SPIEGEL vorliegen, weltweit um mehr als vier Millionen Fahrzeuge des gesamten Konzerns.",
+      "Der technische Hintergrund des Defekts wird in den Berichten ebenfalls beschrieben. Demnach kann eindringende Feuchtigkeit dazu führen, dass die Schraube rostet, welche das Lenkgetriebe befestigt. Wenn der Schraubenkopf abbricht, ist das Lenkgetriebe laut Angaben von Fachmedien nur noch an einem weiteren Punkt mit dem Vorderachsträger verbunden. Unter hoher Belastung kann das Gehäuse des Lenkgetriebes dadurch beschädigt werden, was im schlimmsten Fall zum Ausfall der Lenkung führt.",
+      "Die Behörden und der Hersteller betonen jedoch, dass bislang keine Vorfälle mit Sach- oder Personenschäden bekannt sind. Der Hersteller geht nach Angaben des SPIEGEL davon aus, dass nur ein kleiner Teil der betroffenen Baureihen tatsächliche Mängel aufweist. Dennoch wurde der Mangel offiziell als sicherheitsrelevant eingestuft. Betroffene Kundinnen und Kunden werden von den Marken schriftlich über die notwendigen Schritte informiert."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Das Kraftfahrt-Bundesamt ist die zentrale deutsche Verkehrsbehörde, die unter anderem für die Überwachung von Kraftfahrzeugen zuständig ist. Zu ihren Aufgaben gehört es auch, Rückrufaktionen anzuordnen oder zu überwachen. Die Behörde führt hierzu eine Rückrufdatenbank, in der die betroffenen Modelle und Referenznummern erfasst werden.",
+      "Medien hatten über die Ausmaße der weltweiten Rückrufe berichtet. Laut Angaben von ZDFheute und der Tagesschau wurden die Zulassungsdaten des Kraftfahrt-Bundesamtes genutzt, um die Halterinnen und Halter der betroffenen Fahrzeuge zu ermitteln. Die Abwicklung der Schreiben und die Koordination der Werkstatttermine erfolgt in Abstimmung mit den Marken des Volkswagen-Konzerns."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein behördlich überwachter Fahrzeugrückruf ist ein Verfahren in der Automobilindustrie. Wenn an Fahrzeugen sicherheitsrelevante Bauteile Mängel aufweisen, informieren die Hersteller die Halter. Das Kraftfahrt-Bundesamt prüft in solchen Fällen die technischen Pläne und gibt vor, welche Abhilfemaßnahmen ergriffen werden müssen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Ein Sprecher von Volkswagen erklärte laut ZDFheute, dass betroffene Kundinnen und Kunden bis zu ihrem Werkstatttermin weiterhin mit ihren Autos fahren können. Die Besitzer würden in den kommenden Tagen und Wochen schriftlich benachrichtigt. Zudem äußerte der Sprecher die Vermutung, dass das Problem vor allem in Regionen auftritt, in denen im Winter vermehrt Salz auf die Straßen gestreut wird.",
+      "Das Kraftfahrt-Bundesamt erklärte laut übereinstimmenden Berichten von Tagesschau, ZDFheute und SPIEGEL, dass ein Schraubenabriss zu einem Lenkungsausfall führen kann. Deshalb sei der Austausch der Lenkungsverschraubung durch eine korrosionsresistentere Schraube zwingend erforderlich. Der SPIEGEL verwies zudem auf Angaben aus Konzernkreisen, wonach insgesamt mehr als vier Millionen Autos weltweit in die Werkstätten gerufen werden."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Volkswagen und Audi haben spezielle Kontaktnummern und Rückruf-Codes für betroffene Kundinnen und Kunden eingerichtet. Volkswagen ist unter der Telefonnummer 08008655792436 mit dem Rückrufcode 48VS erreichbar, wie der SPIEGEL berichtet. Die entsprechende Nummer für Audi lautet 080028347378423 mit dem Rückrufcode 48LG.",
+      "Nach Erhalt des Anschreibens sollen sich die Fahrzeughalter direkt an ihre Vertragspartner oder Werkstätten wenden, um einen Termin zu vereinbaren. Dort wird die Lenkungsverschraubung im Rahmen der Rückrufaktion ausgetauscht."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "25.09.2026",
+     "Das Kraftfahrt-Bundesamt und Medien veröffentlichen Details zum Auto-Rückruf von VW, Audi und Seat."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "Kraftfahrt-Bundesamt",
+     "bildunterschrift": "Das Gebäude des Kraftfahrt-Bundesamtes in Flensburg, welches die Rückrufaktionen überwacht."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Car steering wheel",
+     "bildunterschrift": "Ein Autolenkrad als Symbol für die von dem technischen Mangel betroffene Lenkung der Fahrzeuge."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Volkswagen Arena Wolfsburg",
+     "bildunterschrift": "Das Werksgelände von Volkswagen, wo viele der betroffenen Modelle entwickelt und produziert wurden."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Car repair shop",
+     "bildunterschrift": "Eine Werkstatt, in der die betroffenen Fahrzeuge für den Austausch der Schrauben vorgestellt werden müssen."
+    }
+   ],
+   "ort": {
+    "name": "Flensburg, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung von spekulativen oder unbelegten Details und Kürzung des Abschnitts Zum Verständnis auf reines Grundwissen gemäß den Regeln."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Kraftfahrt-Bundesamt",
+      "Eine deutsche Behörde, die den Verkehr auf den Straßen überwacht und zum Beispiel Auto-Rückrufe anordnet."
+     ],
+     [
+      "Rückrufaktion",
+      "Eine Maßnung von Herstellern, bei der Autos wegen Fehlern in eine Werkstatt gebracht werden müssen."
+     ],
+     [
+      "Lenkgetriebe",
+      "Ein Bauteil im Auto, das die Bewegung des Lenkrads auf die Räder überträgt."
+     ]
+    ],
+    "fragen": [
+     "Warum ist es wichtig, dass eine Behörde wie das Kraftfahrt-Bundesamt solche technischen Mängel öffentlich macht?",
+     "Welche Rolle spielen die Angaben von Unternehmenskreisen im Vergleich zu offiziellen Behördenzahlen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Behörde hat die Daten für den Rückruf veröffentlicht?",
+      "optionen": [
+       "Kraftfahrt-Bundesamt",
+       "Polizei",
+       "Umweltbundesamt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut den übereinstimmenden Berichten hat das Kraftfahrt-Bundesamt die Daten und Referenznummern für die Rückrufe veröffentlicht."
+     },
+     {
+      "frage": "Was muss an den betroffenen Autos ausgetauscht werden?",
+      "optionen": [
+       "Die Reifen",
+       "Die Lenkungsverschraubung",
+       "Die Bremsen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut den Berichten muss die Lenkungsverschraubung durch eine korrosionsresistentere Schraube ersetzt werden."
+     },
+     {
+      "frage": "Wie erfahren die betroffenen Halter von dem Rückruf?",
+      "optionen": [
+       "Durch einen Kinospot",
+       "Durch einen Brief per Post",
+       "Durch einen Anruf der Polizei"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ein VW-Sprecher und Medienberichte kündigten an, dass die Besitzerinnen und Besitzer nun schriftlich benachrichtigt werden."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Volkswagen, Audi und Seat rufen in Deutschland viele Autos in die Werkstätten zurück.",
+    "absaetze": [
+     "Grund für den Rückruf ist ein mögliches Problem an der Lenkung. Eine Schraube kann brechen und die Lenkung beschädigen. Das Kraftfahrt-Bundesamt hat diesen Fehler als wichtig für die Sicherheit eingestuft. Bisher sind keine Unfälle oder Schäden durch diesen Fehler bekannt. Halterinnen und Halter der betroffenen Autos bekommen in den nächsten Tagen oder Wochen einen Brief. Mit diesem Brief sollen sie einen Termin in einer Werkstatt machen. Dort wird eine neue und stärkere Schraube eingebaut."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Volkswagen, Audi und Seat rufen in Deutschland zahlreiche Autos in die Werkstätten zurück. Grund dafür ist ein mögliches Problem an der Lenkung. Betroffene Halterinnen und Halter erhalten in den nächsten Wochen einen Brief für einen Werkstatttermin."
+    ],
+    "lang": [
+     "Volkswagen, Audi und Seat müssen in Deutschland zahlreiche Autos in die Werkstätten zurückrufen.",
+     "Das teilte das Kraftfahrt-Bundesamt mit.",
+     "Grund für die Aktion ist ein möglicher Schraubenabriss an der Lenkung.",
+     "Im schlimmsten Fall kann dadurch die Lenkung ausfallen.",
+     "Betroffen sind laut den Behörden verschiedene Modelle der Marken Volkswagen, Audi und Seat.",
+     "Das Kraftfahrt-Bundesamt stuft den Mangel als sicherheitsrelevant ein, bisher gibt es jedoch keine Meldungen über Schäden.",
+     "Ein Sprecher von Volkswagen erklärte, dass man bis zum Werkstatttermin weiterfahren kann.",
+     "Die betroffenen Besitzerinnen und Besitzer werden in den nächsten Wochen schriftlich benachrichtigt.",
+     "In der Werkstatt wird die Lenkungsverschraubung durch eine neue Schraube ersetzt.",
+     "Genauere Zahlen zu den weltweiten Gesamtzahlen unterscheiden sich in den Berichten der Medien."
+    ],
+    "einfach": [
+     "Mehrere Automarken rufen in Deutschland fast eine Million Autos zurück.",
+     "Das Kraftfahrt-Bundesamt hat das Problem entdeckt.",
+     "Eine Schraube an der Lenkung kann brechen.",
+     "Dadurch kann die Lenkung ausfallen.",
+     "Das ist gefährlich für die Sicherheit im Straßenverkehr.",
+     "Betroffene Besitzer bekommen bald einen Brief nach Hause."
+    ]
+   },
+   "kurz": [
+    "Volkswagen, Audi und Seat rufen zahlreiche Autos in Deutschland zurück.",
+    "Ein möglicher Schraubenabriss an der Lenkung kann zum Ausfall führen.",
+    "Das Kraftfahrt-Bundesamt stuft den Mangel als sicherheitsrelevant ein.",
+    "Betroffene Halter werden schriftlich benachrichtigt und sollen Werkstätten aufsuchen."
+   ],
+   "fakten": [
+    [
+     "Betroffene Fahrzeuge VW in Deutschland (Modelle Tiguan, Touran, Golf, Golf Variant, Caddy)",
+     "895.832"
+    ],
+    [
+     "Betroffene Audi Q3 in Deutschland",
+     "58.555"
+    ],
+    [
+     "Betroffene Seat Ateca und Tarraco in Deutschland",
+     "43.574"
+    ]
+   ],
+   "dossier": {
+    "slug": "vw-rueckruf-lenkung",
+    "titel": "Rückruf von Fahrzeugen wegen Lenkungsproblemen"
+   },
+   "bildInfo": {
+    "titel": "KBA Kraftfahrt-Bundesamt in Flensburg.jpg",
+    "beschreibung": "JENOPTIK DIGITAL CAMERA",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg/1280px-KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg",
+    "urheber": "Fleno.de",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "institution",
+    "suchbegriff": "Kraftfahrt-Bundesamt",
+    "bildunterschrift": "Das Kraftfahrt-Bundesamt in Flensburg ist an Rückrufen von Fahrzeugen beteiligt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "KBA Kraftfahrt-Bundesamt in Flensburg.jpg",
+     "beschreibung": "JENOPTIK DIGITAL CAMERA",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg/1280px-KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:KBA_Kraftfahrt-Bundesamt_in_Flensburg.jpg",
+     "urheber": "Fleno.de",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "Kraftfahrt-Bundesamt",
+     "bildunterschrift": "Das Kraftfahrt-Bundesamt in Flensburg ist an Rückrufen von Fahrzeugen beteiligt.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Flensburg, Deutschland",
+    "lat": 54.783,
+    "lon": 9.433
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "heidenau-stolpersteine-verbot",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-25T13:37:46.000Z",
+   "titel": "Stadtrat von Heidenau beschließt Verbot neuer Stolpersteine im öffentlichen Raum",
+   "vorspann": "Der Stadtrat von Heidenau hat am Donnerstagabend mehrheitlich beschlossen, dass künftig keine neuen Stolpersteine zur Erinnerung an Opfer des Nationalsozialismus auf öffentlichen Straßen und Gehwegen verlegt werden dürfen. Der interfraktionelle Antrag von AfD, CDU und der Bürgerinitiative Oberelbe stößt bei Politikern, Verbänden und Opfervertretern auf Kritik.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Der Heidenauer Stadtrat hat beschlossen, künftig keine neuen Stolpersteine mehr auf öffentlichen Flächen zu verlegen.",
+    "Der Antrag wurde von AfD, CDU und einem Bürgerbündnis eingebracht und mit 13 zu 6 Stimmen angenommen.",
+    "Kritiker aus Politik, Verbänden und jüdischen Organisationen verurteilten die Entscheidung als Verdrängung der Erinnerung aus dem Alltag.",
+    "Die CDU-Landesleitung in Sachsen distanzierte sich von dem Vorgehen, während die Stadtverwaltung zuvor für den Erhalt im Stadtbild plädiert hatte."
+   ],
+   "einig": [
+    [
+     "Der Stadtrat von Heidenau hat am Donnerstagabend einen Antrag zur Ablehnung weiterer Stolpersteine beschlossen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Der Antrag wurde gemeinsam von AfD, CDU und einem Bürgerbündnis eingebracht.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Bei der Abstimmung stimmten 13 Abgeordnete mit Ja und sechs mit Nein, bei einer Enthaltung.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "FAZ"
+     ]
+    ],
+    [
+     "Das Gedenken soll stattdessen vorzugsweise auf dem Nordfriedhof der Stadt stattfinden.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Wie die einzelnen Abgeordneten der Parteien im Detail abgestimmt haben, da die Abstimmung auf Antrag der AfD geheim stattfand (laut FAZ)."
+   ],
+   "positionen": [
+    [
+     "Antragsteller (AfD, CDU, Bürgerbündnis)",
+     "Stolpersteine im Gehwegbereich seien keine angemessene Form des Gedenkens, da sie betreten werden können; das Gedenken soll auf den Friedhof verlagert werden.",
+     "Tagesschau/ARD,ZDFheute,Spiegel,FAZ"
+    ],
+    [
+     "Stadtverwaltung Heidenau",
+     "Das Gedenken an Opfer des NS-Regimes solle öffentlich sichtbar und im Alltag der Einwohner verankert bleiben.",
+     "Tagesschau/ARD,ZDFheute,FAZ"
+    ],
+    [
+     "Christoph Heubner (Internationales Auschwitz Komitee)",
+     "Der Beschluss sei ein schäbiger Versuch, Opfer aus der Stadt zu drängen; die Kooperation von CDU und AfD sei ein Skandal.",
+     "Tagesschau/ARD,ZDFheute,FAZ"
+    ],
+    [
+     "Charlotte Knobloch (Israelitische Kultusgemeinde München und Oberbayern)",
+     "Es sei der falsche Weg, Orte der Erinnerung aus dem Stadtbild zu entfernen; die Unterstützung der AfD durch eine demokratische Partei sei entsetzlich.",
+     "Tagesschau/ARD,Spiegel,FAZ"
+    ],
+    [
+     "CDU-Landesverband Sachsen (Tom Unger)",
+     "Die CDU unterstütze Stolpersteine als legitime Form des Gedenkens und nehme Abstand von dem generellen Ausschluss.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "AKuBiZ (Alternatives Kultur- und Bildungszentrum)",
+     "Der Verein zeige sich entsetzt und wütend über die Entscheidung und prüfe rechtliche Schritte sowie alternative Formen des Erinnerns.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen der direkten Befürworter oder Fraktionsmitglieder aus Heidenau selbst, die den genauen Abstimmungsverlauf in den Parteien erklären könnten (abgesehen von Berichten über Aussagen der CDU-Fraktionsvorsitzenden).",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:26",
+     "fokus": "Umfassende Reaktionen und Einordnung",
+     "text": "Der Bericht beleuchtet ausführlich die Reaktionen von Verbänden, jüdischen Vertretern, der CDU-Landespartei sowie der Stiftung von Gunter Demnig.",
+     "url": "https://www.tagesschau.de/inland/regional/sachsen/afd-cdu-antrag-beschlossen,stolpersteine-heidenau-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 5,
+      "woerter": 1021,
+      "satzlaenge": 18,
+      "langeWoerter": 39
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 08:11",
+     "fokus": "Kompakte Darstellung mit Zitaten",
+     "text": "ZDFheute fasst den Beschluss kurz zusammen und zitiert unter anderem das Auschwitz-Komitee sowie Statistiken zu antisemitischen Vorfällen.",
+     "url": "https://www.zdfheute.de/politik/deutschland/stolpersteine-heidenau-cdu-afd-ablehnung-plan-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 503,
+      "satzlaenge": 19,
+      "langeWoerter": 38
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:37",
+     "fokus": "–",
+     "text": "Die Stadt Heidenau in Sachsen wird keine weiteren so genannten Stolpersteine zur Erinnerung an Opfer des Nationalsozialismus verlegen.",
+     "url": "https://www.deutschlandfunk.de/antrag-von-afd-und-cdu-fuehrt-zu-stolpersteinverbot-in-heidenau-in-sachsen-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 14:27",
+     "fokus": "Politische Reaktionen aus dem Landtag",
+     "text": "Das Magazin legt einen Schwerpunkt auf die Kritik der SPD- und Linksfraktion im Sächsischen Landtag sowie auf die Position von Charlotte Knobloch.",
+     "url": "https://www.spiegel.de/panorama/gesellschaft/stolperstein-verbot-in-heidenau-loest-kritik-aus-a-afbc6f6a-0eee-4063-be15-125f914dab6c#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 379,
+      "satzlaenge": 20,
+      "langeWoerter": 37
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 13:40",
+     "fokus": "Hintergründe zum Verfahren",
+     "text": "Die FAZ liefert detaillierte Informationen über den Verlauf im Stadtrat, die geheime Abstimmung und frühere Anträge aus dem Dezember.",
+     "url": "https://www.faz.net/aktuell/politik/inland/stolpersteine-in-heidenau-afd-und-cdu-stimmen-dagegen-accg-201262443.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 556,
+      "satzlaenge": 16,
+      "langeWoerter": 40
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zur Abstimmung",
+     "Die FAZ erwähnt als einzige Quelle, dass die Abstimmung auf Antrag der AfD geheim stattfand und nennt Details aus Medienberichten über Aussagen der CDU-Fraktionsvorsitzenden."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Der Stadtrat von Heidenau in Sachsen",
+    "was": "Ein Verbot für die Verlegung neuer Stolpersteine",
+    "wann": "Am Donnerstagabend",
+    "wo": "Heidenau, Sachsen",
+    "wie": "Durch einen mehrheitlichen Beschluss in geheimer Abstimmung mit 13 zu 6 Stimmen und einer Enthaltung",
+    "warum": "Laut Antragstellern wegen der Platzierung im Gehweg; laut Stadtverwaltung Form des Gedenkens",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Beschluss im Stadtrat",
+     "absaetze": [
+      "In der sächsischen Stadt Heidenau sollen künftig keine weiteren Stolpersteine zur Erinnerung an Opfer des Nationalsozialismus im öffentlichen Straßen- und Gehwegbereich mehr verlegt werden. Dies geht aus Berichten von Tagesschau/ARD, ZDFheute, Spiegel und FAZ hervor. Der Stadtrat hat am Donnerstagabend einen entsprechenden Antrag mehrheitlich angenommen.",
+      "Für den gemeinsamen Antrag stimmten laut den Berichten 13 Abgeordnete. Sechs Abgeordnete votierten mit Nein, zudem gab es eine Enthaltung. Laut FAZ wurde der Antrag von Vertretern der AfD, der CDU sowie des Bündnisses Oberelbe für mehr Demokratie gestellt.",
+      "Laut FAZ fand die Abstimmung geheim statt, nachdem die AfD dies beantragt hatte. In dem Beschluss heißt es wörtlich laut Tagesschau/ARD: Eine Verlegung von sogenannten Stolpersteinen im öffentlichen Straßen- und Gehwegbereich wird künftig abgelehnt."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Argumente der Antragsteller",
+     "absaetze": [
+      "Bereits im Dezember hatten fünf Stadträte der AfD, zwei der CDU sowie Stadträte des Bürgerbündnisses den Antrag eingebracht, wie die FAZ berichtet. Zur Begründung ihres Antrags führten die Antragsteller an, dass viele Bürger, Angehörige und Initiativen Stolpersteine im Gehwegbereich als keine angemessene Form des Erinnerns empfinden, da die Namen der Verfolgten in den Boden eingelassen werden und dort betreten werden können.",
+      "Stattdessen soll das Gedenken nach dem Willen der Mehrheit vorzugsweise auf dem Nordfriedhof der Stadt stattfinden. Dort soll eine zentrale Gedenkfläche für Opfer von Krieg, Terror, Diktaturen, Vertreibung und insbesondere des Nationalsozialismus geschaffen oder in eine bestehende Anlage integriert werden.",
+      "Laut Tagesschau/ARD steht der genaue Standort auf dem Nordfriedhof allerdings noch nicht fest, da zunächst die Zustimmung der Kirche eingeholt werden muss, da der Friedhof nicht der Stadt gehört. Bereits verlegte Stolpersteine sollen nach Angaben der Bürgermeisterin Conny Oertel im Stadtbild verbleiben."
+     ]
+    },
+    {
+     "ueberschrift": "Position der Stadtverwaltung",
+     "absaetze": [
+      "Die Stadtverwaltung von Heidenau hatte sich im Vorfeld gegen den Antrag ausgesprochen und eine Ablehnung empfohlen. In ihrer Beschlussvorlage argumentierte die Verwaltung laut Tagesschau/ARD, dass das Gedenken an die Opfer des Nationalsozialismus weiterhin sichtbar und wahrnehmbar im öffentlichen Raum stattfinden solle.",
+      "Die Präsenz im Stadtbild ermögliche eine breite Wahrnehmung und die unmittelbare Auseinandersetzung mit der Geschichte. Ein zentraler Erinnerungsort auf dem Nordfriedhof könne bestehende Formen des Gedenkens zwar ergänzen, sie jedoch nicht ersetzen.",
+      "Die parteilose Bürgermeisterin Conny Oertel betonte laut Tagesschau/ARD gegenüber dem Sender MDR Sachsen, es sei in der Debatte nicht um das Ob des Gedenkens, sondern um dessen Form gegangen. Jeder Mensch wolle auf andere Weise gedenken."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen aus Politik und Organisationen",
+     "absaetze": [
+      "Der Beschluss löste ein breites Echo und heftige Kritik aus. Der Vizepräsident des Internationalen Auschwitz Komitees, Christoph Heubner, sprach laut Tagesschau/ARD und ZDFheute von einem schäbigen Versuch, Heidenauer Opfer der Nazis erneut aus der Stadt hinauszuwerfen. Dass CDU-Abgeordnete der AfD dabei die Hand reichten, sei ein Skandal.",
+      "Die Präsidentin der Israelitischen Kultusgemeinde München und Oberbayern, Charlotte Knobloch, kritisierte das Verbot ebenfalls scharf. Es sei der völlig falsche Weg, Orte der Erinnerung aus dem Stadtbild zu entfernen, erklärte sie laut Tagesschau/ARD und Spiegel. Sie äußerte sich entsetzt darüber, dass eine demokratische Partei ein durchsichtiges Manöver der AfD unterstützt.",
+      "Das Alternative Kultur- und Bildungszentrum Sächsische Schweiz (AKuBiZ) in Pirna, das zuvor die Verlegung von zwölf weiteren Stolpersteinen für sieben jüdische Familien beantragt hatte, reagierte laut Tagesschau/ARD entsetzt und wütend. Der Verein befürchtet, dass die Erinnerung an Einzelne weniger sichtbar wird, und prüft nun alternative Formen des Erinnerns sowie rechtliche Schritte."
+     ]
+    },
+    {
+     "ueberschrift": "Stimmen aus den Landtagen und Parteien",
+     "absaetze": [
+      "Aus dem Sächsischen Landtag kam Kritik von SPD und Linken. Der SPD-Landtagsabgeordnete Albrecht Pallas erklärte laut Spiegel, es sei falsch, Stolpersteine aus dem Alltag und der Gedenkkultur an den Stadtrand zu verbannen, und warf der AfD vor, den Nationalsozialismus relativieren zu wollen. Die SPD-Fraktion bot an, Patenschaften und Kosten für drei Stolpersteine zu übernehmen.",
+      "Die Linken-Landtagsabgeordnete Luise Neuhaus-Wartenberg sprach laut Tagesschau/ARD und Spiegel von einem fatalen Signal und erklärte, wer das Gedenken ernst nehme, dürfe Namen nicht aus dem Alltag verdrängen. Der Dresdner Grünen-Bundestagsabgeordnete Kassem Taher Saleh bezeichnete es laut Spiegel als unerträglich, dass sich die CDU in dieser Frage mit der AfD zusammentut.",
+      "Der CDU-Landesverband Sachsen distanzierte sich hingegen von dem Beschluss vor Ort. Generalsekretär Tom Unger erklärte laut Tagesschau/ARD, die Sächsische Union stehe fest an der Seite der Jüdinnen und Juden und unterstütze Stolpersteine grundsätzlich als legitime Form des Gedenkens. Zwar müsse vor Ort diskutiert werden, eine Form des Gedenkens aber grundsätzlich auszuschließen, sei der falsche Weg."
+     ]
+    },
+    {
+     "ueberschrift": "Einordnung und Vergleich mit München",
+     "absaetze": [
+      "Die Stiftung des Stolperstein-Initiators Gunter Demnig reagierte nach Angaben von Tagesschau/ARD und FAZ ebenfalls empört. Laut der Stiftung arbeitet man europaweit mit rund 3.200 Kommunen zusammen, wobei sich lediglich fünf gegen Stolpersteine entschieden hätten. Bislang wurden laut Stiftung mehr als 128.000 Stolpersteine in 31 europäischen Ländern verlegt.",
+      "In den Berichten wird zudem auf die Stadt München verwiesen, wo nach einem Stadtratsbeschluss aus dem Jahr 2015 ebenfalls keine Stolpersteine auf städtischem Grund verlegt werden dürfen. Dort gab es laut FAZ und ZDFheute andere Hintergründe, unter anderem weil auch Vertreter der jüdischen Gemeinde diese Form der Erinnerung kritisch sahen.",
+      "In München wird stattdessen mit Gedenktafeln, Stelen und Erinnerungszeichen auf privatem Grund oder auf Grundstücken des Freistaats Bayern an NS-Opfer erinnert. Die Geschäftsführerin der Stolperstein-Stiftung, Katja Demnig, bezeichnete die Situation in Heidenau laut FAZ dennoch als einen einzigartigen Vorgang."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Dezember",
+     "Einbringung des Antrags durch AfD, CDU und Bürgerbündnis im Stadtrat"
+    ],
+    [
+     "Donnerstagabend",
+     "Mehrheitlicher Beschluss des Stadtrats für das Stolperstein-Verbot"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Charlotte Knobloch",
+     "bildunterschrift": "Charlotte Knobloch, Präsidentin der Israelitischen Kultusgemeinde München und Oberbayern, kritisierte das Verbot der Stolpersteine scharf."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Stolpersteine",
+     "bildunterschrift": "Stolpersteine im Straßenpflaster erinnern dezentral an Opfer des Nationalsozialismus."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Heidenau Saxony",
+     "bildunterschrift": "Die sächsische Stadt Heidenau ist Schauplatz der Debatte um die kommunale Erinnerungskultur."
+    }
+   ],
+   "ort": {
+    "name": "Heidenau, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das exakte Datum aus dem Vorspann ('24. September 2026') wurde entfernt, da es in den Berichten nicht als genaues Datum genannt wird."
+   ],
+   "wortwarnung": [
+    "Skandal",
+    "heftige"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Stolpersteine",
+      "Kleine Gedenksteine aus Messing im Boden, die an Menschen erinnern, die von den Nationalsozialisten verfolgt wurden."
+     ],
+     [
+      "Erinnerungskultur",
+      "Die Art und Weise, wie eine Gesellschaft an historische Ereignisse und Opfer von Unrecht erinnert."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nannten die Befürworter des Antrags für das Verbot von Stolpersteinen im öffentlichen Raum?",
+     "Wie begründeten Kritiker aus Politik und Verbänden ihre Ablehnung des Beschlusses?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat den Antrag zum Verbot neuer Stolpersteine im Heidenauer Stadtrat eingebracht?",
+      "optionen": [
+       "Nur die Stadtverwaltung",
+       "AfD, CDU und ein Bürgerbündnis",
+       "Die SPD-Landtagsfraktion"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut den Berichten wurde der Antrag von AfD, CDU und dem Bündnis Oberelbe für mehr Demokratie eingebracht."
+     },
+     {
+      "frage": "Wie viele Abgeordnete stimmten bei der Abstimmung im Stadtrat mit Ja?",
+      "optionen": [
+       "6",
+       "13",
+       "3.200"
+      ],
+      "richtig": 1,
+      "erklaerung": "Für den Antrag stimmten laut Stadtverwaltung 13 Abgeordnete."
+     },
+     {
+      "frage": "Wo soll das Gedenken an die Opfer stattdessen künftig vorzugsweise stattfinden?",
+      "optionen": [
+       "Auf dem Nordfriedhof",
+       "Vor dem Rathaus",
+       "Auf einem zentralen Marktplatz"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Antrag sah vor, das Gedenken vorzugsweise auf dem Nordfriedhof der Stadt stattfinden zu lassen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In der sächsischen Stadt Heidenau dürfen keine neuen Gedenksteine für Opfer der Nationalsozialisten mehr auf Straßen verlegt werden.",
+    "absaetze": [
+     "Der Stadtrat stimmte am Donnerstagabend für diesen Antrag von AfD, CDU und einem Bürgerbündnis. Dreizehn Abgeordnete stimmten dafür, sechs dagegen und einer enthielt sich. Die kleinen Steine aus Messing erinnern an Menschen, die von den Nationalsozialisten verfolgt wurden. Sie liegen meistens im Gehweg vor den letzten Wohnungen der Opfer. Die Antragsteller erklärten, dass diese Form des Gedenkens nicht angemessen sei, weil man auf den Steinen laufen kann. Stattdessen soll es ein zentrales Gedenken auf einem Friedhof geben. Zahlreiche Politiker, jüdische Vertreter und Vereine kritisierten die Entscheidung scharf und sprachen von einem Fehler."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der Stadtrat von Heidenau hat neue Stolpersteine im öffentlichen Raum verboten.",
+     "Für den Antrag von AfD, CDU und einem Bürgerbündnis stimmten dreizehn Abgeordnete.",
+     "Kritiker aus Politik und Verbänden verurteilten die Entscheidung als Verdrängung der Erinnerung."
+    ],
+    "lang": [
+     "Der Stadtrat von Heidenau hat am Donnerstagabend mehrheitlich beschlossen, dass keine neuen Stolpersteine im öffentlichen Raum verlegt werden.",
+     "Für den gemeinsamen Antrag von AfD, CDU und einem Bürgerbündnis stimmten nach Angaben der Stadtverwaltung dreizehn Abgeordnete.",
+     "Sechs Abgeordnete stimmten mit Nein, und es gab eine Enthaltung.",
+     "Die Antragsteller begründeten den Schritt damit, dass die Steine im Gehweg betreten werden und manche Menschen dies nicht als angemessen empfinden.",
+     "Stattdessen soll das Gedenken an die Opfer des Nationalsozialismus künftig vorzugsweise auf dem Nordfriedhof stattfinden.",
+     "Die Stadtverwaltung hatte sich zuvor gegen den Antrag ausgesprochen, weil das Gedenken im Alltag sichtbar bleiben soll.",
+     "Kritiker wie das Internationale Auschwitz Komitee und die Israelitische Kultusgemeinde München verurteilten den Beschluss scharf.",
+     "Der sächsische CDU Landesverband erklärte, dass er Stolpersteine grundsätzlich unterstütze und von einem generellen Ausschluss Abstand nehme.",
+     "Bislang wurden nach Angaben der Stolperstein-Stiftung mehr als einhundertachtundzwanzigtausend Steine in Europa verlegt.",
+     "Ob die Gemeinde den neuen zentralen Gedenkort auf dem Friedhof einrichten kann, hängt unter anderem von der Zustimmung der Kirche ab."
+    ],
+    "einfach": [
+     "In der Stadt Heidenau gibt es künftig keine neuen Stolpersteine mehr auf Straßen.",
+     "Das hat der Stadtrat am Donnerstagabend mehrheitlich so beschlossen.",
+     "Stolpersteine sind kleine Messingplatten im Boden zum Gedenken an Opfer der Nationalsozialisten.",
+     "Die Befürworter des Verbots sagen, dass man auf den Steinen im Weg herumläft.",
+     "Darum soll das Gedenken stattdessen auf einem Friedhof stattfinden.",
+     "Viele Menschen kritisieren diese Entscheidung als Fehler und Verlust der Erinnerung."
+    ]
+   },
+   "kurz": [
+    "Der Stadtrat von Heidenau hat neue Stolpersteine im öffentlichen Raum mehrheitlich verboten.",
+    "Der Antrag stammte von AfD, CDU und einem Bürgerbündnis.",
+    "Kritiker werfen den Beteiligten vor, das Gedenken an NS-Opfer aus dem Alltag zu drängen.",
+    "Die sächsische CDU-Landespartei distanzierte sich von der Entscheidung vor Ort."
+   ],
+   "fakten": [
+    [
+     "Stimmen im Stadtrat für den Antrag",
+     "13"
+    ],
+    [
+     "Stimmen im Stadtrat gegen den Antrag",
+     "6"
+    ],
+    [
+     "Enthaltungen",
+     "1"
+    ],
+    [
+     "Verlegte Stolpersteine in Europa nach Angaben der Stiftung",
+     "mehr als 128.000"
+    ],
+    [
+     "Beteiligte Kommunen der Stolperstein-Stiftung",
+     "rund 3.200"
+    ]
+   ],
+   "dossier": {
+    "slug": "stolpersteine-heidenau",
+    "titel": "Verbot von Stolpersteinen in Heidenau"
+   },
+   "bildInfo": {
+    "titel": "Rathaus Heidenau.jpg",
+    "beschreibung": "Town hall Heidenau(Saxony); Rathaus Heidenau (Sachsen)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Rathaus_Heidenau.jpg/1280px-Rathaus_Heidenau.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rathaus_Heidenau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Rathaus_Heidenau.jpg",
+    "urheber": "Anaximander",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artikel": "Heidenau",
+    "sprache": "en",
+    "art": "ort",
+    "suchbegriff": "Heidenau Saxony",
+    "bildunterschrift": "Das Rathaus in Heidenau, wo der Stadtrat über das Verbot neuer Stolpersteine entschieden hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Rathaus Heidenau.jpg",
+     "beschreibung": "Town hall Heidenau(Saxony); Rathaus Heidenau (Sachsen)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Rathaus_Heidenau.jpg/1280px-Rathaus_Heidenau.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rathaus_Heidenau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Rathaus_Heidenau.jpg",
+     "urheber": "Anaximander",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "artikel": "Heidenau",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Heidenau Saxony",
+     "bildunterschrift": "Das Rathaus in Heidenau, wo der Stadtrat über das Verbot neuer Stolpersteine entschieden hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Stolpersteine, Oberursel (LRM 20240128 132124).jpg",
+     "beschreibung": "Stolpersteine at Altkönigstraße, Oberursel (Taunus)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Stolpersteine%2C_Oberursel_%28LRM_20240128_132124%29.jpg/1280px-Stolpersteine%2C_Oberursel_%28LRM_20240128_132124%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/94/Stolpersteine%2C_Oberursel_%28LRM_20240128_132124%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Stolpersteine,_Oberursel_(LRM_20240128_132124).jpg",
+     "urheber": "Matti Blume",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+     "art": "symbol",
+     "suchbegriff": "Stolpersteine",
+     "bildunterschrift": "Stolpersteine im öffentlichen Raum erinnern an Opfer des Nationalsozialismus.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Heidenau, Deutschland",
+    "lat": 50.974,
+    "lon": 13.875
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "schulstreik-gegen-wehrpflicht",
+   "rubrik": "Deutschland",
+   "zeit": "2026-09-25T13:37:46.000Z",
+   "titel": "Schüler demonstrieren bundesweit gegen mögliche Wehrpflicht",
+   "vorspann": "Zehntausende Schüler haben in mehreren deutschen Städten gegen eine mögliche Wehrpflicht protestiert. Anlass ist eine Reform des Wehrdienstes und die geplante verpflichtende Musterung.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Zehntausende Schüler haben bundesweit gegen eine mögliche Wehrpflicht und den neuen Wehrdienst demonstriert.",
+    "Die Initiative \"Schulstreik gegen Wehrpflicht\" sprach von mehr als 45.000 Teilnehmern in rund 100 Städten.",
+    "Hintergrund des Protests ist ein im Januar in Kraft getretenes Gesetz zur verpflichtenden Musterung junger Männer.",
+    "Kritiker bemängeln die Prioritätensetzung der Regierung zwischen Bildungsausgaben und militärischer Aufrüstung."
+   ],
+   "einig": [
+    [
+     "Zehntausende Schüler haben bundesweit gegen eine mögliche Wehrpflicht demonstriert.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Das Gesetz über den neuen Wehrdienst trat im Januar in Kraft und sieht verpflichtende Musterungen für junge Männer ab dem Jahrgang 2008 vor.",
+     [
+      "ZDFheute",
+      "SWR Baden-Württemberg"
+     ]
+    ],
+    [
+     "Die Wehrpflicht war in Deutschland im Jahr 2011 ausgesetzt worden.",
+     [
+      "ZDFheute",
+      "SWR Baden-Württemberg"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Gesamtzahl der Demonstranten ist unklar, da die Initiative \"Schulstreik gegen Wehrpflicht\" von über 45.000 Teilnehmern spricht, während die Polizei lediglich regionale Einzelzahlen nennt."
+   ],
+   "positionen": [
+    [
+     "Schulstreik gegen Wehrpflicht (Pressesprecher Bela Breitner)",
+     "Die Bundesregierung meint es ernst mit der schrittweisen Einführung der Wehrpflicht durch vorgezogene Zwangsmusterungen.",
+     "ZDFheute"
+    ],
+    [
+     "Sabine Hebbelmann (Friedensbündnis Heidelberg)",
+     "Die aktuelle Situation durch Russlands Aggression ist gefährlich, aber die Aufrüstungspläne der Bundesregierung sind der falsche Weg.",
+     "SWR Baden-Württemberg"
+    ],
+    [
+     "Teilnehmende Schüler",
+     "Die Politik setzt falsche Prioritäten, kürzt im Sozial- und Bildungsbereich und vernachlässigt die Jugend.",
+     "FAZ, SWR Baden-Württemberg"
+    ]
+   ],
+   "fehlend": "Stellungnahmen der Bundesregierung, des Bundesverteidigungsministeriums oder von Befürwortern der Wehrpflicht und des neuen Wehrdienstes kommen in den Berichten nicht zu Wort.",
+   "medien": [
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 14:56",
+     "fokus": "Zahlen und offizielle Angaben",
+     "text": "Der Bericht nennt konkrete Angaben der Initiative zu Teilnehmerzahlen und führt polizeiliche Regionaldaten an.",
+     "url": "https://www.zdfheute.de/politik/deutschland/wehrpflicht-schueler-protest-demo-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 223,
+      "satzlaenge": 12,
+      "langeWoerter": 43
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "25.09.26, 15:37",
+     "fokus": "–",
+     "text": "Bundesweit sind zehntausende Schülerinnen und Schüler auf die Straße gegangen, um gegen eine mögliche Wehrpflicht zu demonstrieren.",
+     "url": "https://www.deutschlandfunk.de/zehntausende-schueler-demonstrieren-gegen-geplanten-neuen-wehrdienst-102.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 15:14",
+     "fokus": "–",
+     "text": "In der Debatte um eine Wiedereinführung der Wehrpflicht haben sich Schülerinnen und Schüler zu Wort gemeldet. Deutschlandweit gingen sie auf die Straßen.",
+     "url": "https://www.zeit.de/politik/deutschland/2026-09/schulstreik-wehrpflicht-proteste-schueler-musterung-wehrdienstgesetz",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "25.09.26, 15:28",
+     "fokus": "Ausführliche Reportage vor Ort",
+     "text": "Die Zeitung beschreibt detailliert die Stimmung, Schilder und Gespräche mit einzelnen Jugendlichen und Teilnehmern in Frankfurt.",
+     "url": "https://www.faz.net/aktuell/rhein-main/frankfurt/lieber-unfreiheit-statt-tod-warum-frankfurter-schueler-die-wehrpflicht-ablehnen-201263016.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "leicht",
+      "fuerWen": "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
+      "klasse": 7,
+      "minuten": 3,
+      "woerter": 525,
+      "satzlaenge": 15,
+      "langeWoerter": 26
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "SWR Baden-Württemberg",
+     "typ": "öffentlich-rechtlich (Region)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "25.09.26, 15:16",
+     "fokus": "Regionale Proteste und Aussagen",
+     "text": "Der Sender beleuchtet Demonstrationen in verschiedenen süddeutschen Städten und zitiert Initiativen sowie Teilnehmer.",
+     "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/freiburg/schulstreik-gegen-wehrpflicht-in-baden-wuerttemberg-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 3,
+      "woerter": 599,
+      "satzlaenge": 15,
+      "langeWoerter": 32
+     },
+     "traeger": "Südwestrundfunk, ARD-Anstalt für Baden-Württemberg und Rheinland-Pfalz",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Berichterstattungstiefe",
+     "Während Deutschlandfunk und Zeit nur kurz über die bundesweiten Schülerproteste berichten, liefern ZDFheute, FAZ und SWR ausführliche Hintergründe, Zitate und regionale Details."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Zehntausende Schülerinnen und Schüler",
+    "was": "Protest gegen eine mögliche Wehrpflicht und geplante Musterungen",
+    "wann": "noch unklar",
+    "wo": "Deutschlandweit in rund 100 Städten",
+    "wie": "Durch Demonstrationen, Kundgebungen und Schulstreiks",
+    "warum": "Ablehnung des neuen Wehrdienstes und Kritik an Prioritäten der Regierung, laut Schulstreik-Initiative",
+    "quellenlage": "ZDFheute, Deutschlandfunk, Zeit, FAZ, SWR Baden-Württemberg"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Proteste in zahlreichen Städten",
+     "absaetze": [
+      "Bundesweit sind nach Angaben der Initiative \"Schulstreik gegen Wehrpflicht\" mehr als 45.000 Schülerinnen und Schüler in rund 100 Städten auf die Straße gegangen. Die beteiligten Personen protestierten gegen eine mögliche Wehrpflicht und den im Januar in Kraft getretenen neuen Wehrdienst. Zu den Kundgebungen hatten verschiedene Bündnisse und Organisationen aufgerufen, wobei sich neben Jugendlichen auch ältere Menschen an den Protesten beteiligten.",
+      "Laut dem SWR und der FAZ fanden Demonstrationen unter anderem in Frankfurt, Stuttgart, Freiburg, Tübingen und Heidelberg statt. Vor Ort versammelten sich je nach Stadt hunderte Teilnehmer, um ihren Unmut über die politischen Beschlüsse kundzutun. Dabei wurden Transparente getragen und Sprechchöre skandiert, die sich gegen eine Beteiligung an Kriegen und gegen die Aufrüstung der Bundeswehr richteten.",
+      "In Frankfurt versammelten sich laut FAZ etwa 200 Schüler vor der Alten Oper. Neben Fahnen verschiedener politischer Gruppierungen und Organisationen waren dort auch Schilder mit Botschaften gegen den Krieg zu sehen. In Freiburg zogen laut SWR rund 250 Menschen durch die Innenstadt, während in Stuttgart die Polizei etwa 200 Teilnehmer zählte."
+     ]
+    },
+    {
+     "ueberschrift": "Regionale Polizeidaten und Ablauf",
+     "absaetze": [
+      "Die Polizei veröffentlichte nach Angaben von ZDFheute regionale Zahlen zu den Versammlungen statt einer bundesweiten Gesamtsumme. Demnach protestierten in Berlin-Wedding 2.400 Menschen, in Frankfurt 180 Personen und in Stuttgart 200 Menschen. Für Nürnberg wurden 400 Teilnehmer und für München 700 Teilnehmer von der Polizei verzeichnet.",
+      "Einige Schüler besorgten sich für den Schulstreik eine Entschuldigung von den Eltern, während andere unentschuldigte Fehlstunde auf dem Zeugnis in Kauf nahmen. Laut dem SWR fehlen Schüler bei diesen Aktionen einmalig im Unterricht und müssen dafür Geld zahlen, obwohl das Kultusministerium mildere Maßnahmen empfiehlt.",
+      "Die Versammlungen wurden von unterschiedlichen Organisationen unterstützt. In Stuttgart waren laut SWR neben dem Schulstreik-Komitee unter anderem die Deutsche Friedensgesellschaft – Vereinigte KriegsdienstgegnerInnen, die IG Metall, die Sozialistische Deutsche Arbeiterjugend und der Arbeitskreis Frieden von Verdi beteiligt."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund des neuen Wehrdienstes",
+     "absaetze": [
+      "Das Gesetz über den neuen Wehrdienst trat im Januar in Kraft und sieht als Kern eine verpflichtende Musterung für junge Männer ab dem Jahrgang 2008 vor. Damit sollen Freiwillige rekrutiert werden, um die Truppenstärke der Bundeswehr bis Mitte der 2030er-Jahre auf etwa 460.000 zu erhöhen. Dies geht aus übereinstimmenden Berichten von ZDFheute und SWR hervor.",
+      "Sollten die Zielkorridore für Freiwillige verfehlt werden, kann der Bundestag laut den Berichten über eine Wehrpflicht entscheiden. Die Wehrpflicht war in Deutschland im Jahr 2011 ausgesetzt worden. Die Bundesregierung treibt die Umsetzung laut den Berichten schrittweise voran, was den Auslöser für den aktuellen Protest darstellt.",
+      "Bela Breitner als Pressesprecher der Initiative \"Schulstreik gegen Wehrpflicht\" erklärte gegenüber der Deutschen Presse-Agentur, dass die Bundesregierung es ernst meine, die Wehrpflicht schrittweise einzuführen. Er verwies dabei auf angekündigte Zwangsmusterungen, die laut Planung eigentlich erst im Juli 2027 beginnen sollten, nun aber vorgezogen wurden."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Bundestag ist das Parlament der Bundesrepublik Deutschland und entscheidet über Bundesgesetze. Zu seinen Aufgaben gehört es unter anderem, über Gesetze zu beraten und zu beschließen.",
+      "Die Bundeswehr ist die Streitkräftebasis der Bundesrepublik Deutschland. Sie unterliegt als Parlamentsarmee den Entscheidungen des Deutschen Bundestages."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und Positionen der Beteiligten",
+     "absaetze": [
+      "Demonstranten und Schüler äußerten in den Berichten deutliche Kritik an der Verteilung der staatlichen Gelder. Ein Jugendlicher kritisierte laut FAZ, dass die Regierung die falschen Prioritäten setze und Bildungsausgaben ins Verhältnis zu den Investitionen in die Bundeswehr setze. Zwei Schülerinnen aus Offenbach erklärten gegenüber der FAZ, sie wollten nicht für ein Land kämpfen, das gegen sie sei.",
+      "Weitere Teilnehmer bemängelten laut SWR und FAZ, dass Gelder in die Rüstung fließen, während der Sozialstaat gekürzt werde. Ein achtzehnjähriger Schüler namens Bijan äußerte laut FAZ, er würde lieber in Unfreiheit leben, als zu sterben. Sabine Hebbelmann vom Friedensbündnis Heidelberg betonte laut SWR hingegen die gefährliche Situation durch die Aggression Russlands, hielt aber die Aufrüstungspläne der Bundesregierung für falsch.",
+      "Eine zweiundsiebzigjährige Teilnehmerin namens Barbara Lautermilch erklärte laut FAZ, die Friedensfrage sei zentral und man könne nicht Sozialabbau betreiben und gleichzeitig die Rüstung steigern. Eine Mutter erinnerte zudem an das Grundgesetz und äußerte Bedenken, dass junge Männer im Ernstfall trotz Gewissensbedenken eingezogen werden könnten."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Januar 2026",
+     "Das Gesetz über den neuen Wehrdienst tritt in Kraft."
+    ],
+    [
+     "Sommer 2027",
+     "Zwangsmusterungen sollten laut ursprünglicher Planung eigentlich erst zu diesem Zeitpunkt beginnen."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Bela Breitner",
+     "bildunterschrift": "Bela Breitner ist Pressesprecher der Initiative Schulstreik gegen Wehrpflicht."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Alte Oper Frankfurt",
+     "bildunterschrift": "Die Alte Oper in Frankfurt war einer der Versammlungsorte für die demonstrierenden Schüler."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Reichstag building Berlin",
+     "bildunterschrift": "Im Deutschen Bundestag kann im Ernstfall über die Wiedereinführung der Wehrpflicht entschieden werden."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Peace symbols",
+     "bildunterschrift": "Friedenssymbole und Transparente wurden bei den bundesweiten Schülerprotesten von den Teilnehmern genutzt."
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Datum in der W-Frage auf \"noch unklar\" gesetzt, da keine exakte Datumsangabe für den Protesttag in den Berichten steht.",
+    "Zahlen bei Alter und Geburtsjahr im Fließtext als Wort ausgeschrieben, um den Sprechregeln zu entsprechen.",
+    "In der Zeitleiste das Jahr 2027 als Sommer 2027 für die geplanten Zwangsmusterungen präzisiert."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Wehrpflicht",
+      "Die Verpflichtung für Bürger, einen militärischen Dienst für den Staat zu leisten."
+     ],
+     [
+      "Musterung",
+      "Die Untersuchung von jungen Menschen durch den Staat, um ihre Eignung für den Militärdienst festzustellen."
+     ],
+     [
+      "Bundeswehr",
+      "Die Streitkräfte der Bundesrepublik Deutschland, bestehend aus Heer, Luftwaffe und Marine."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente bringen Schülerinnen und Schüler gegen die Wehrpflicht vor?",
+     "Wie unterscheidet sich die Angabe der Teilnehmerzahlen zwischen der Initiative und der Polizei?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wann wurde die alte Wehrpflicht in Deutschland ausgesetzt?",
+      "optionen": [
+       "Im Jahr 2011",
+       "Im Jahr 2020",
+       "Im Januar"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von ZDFheute und SWR Baden-Württemberg war die Wehrpflicht im Jahr 2011 ausgesetzt worden."
+     },
+     {
+      "frage": "Wer sprach von mehr als 45.000 Teilnehmern bei den Protesten?",
+      "optionen": [
+       "Die Bundesregierung",
+       "Die Initiative Schulstreik gegen Wehrpflicht",
+       "Die Polizei"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut ZDFheute teilte die Initiative Schulstreik gegen Wehrpflicht mit, dass über 45.000 Schülerinnen und Schüler auf der Straße waren."
+     },
+     {
+      "frage": "Für welchen Jahrgang ist die verpflichtende Musterung im neuen Wehrdienstgesetz als Kern vorgesehen?",
+      "optionen": [
+       "Ab dem Jahrgang 2000",
+       "Ab dem Jahrgang 2005",
+       "Ab dem Jahrgang 2008"
+      ],
+      "richtig": 2,
+      "erklaerung": "ZDFheute und SWR Baden-Württemberg berichten übereinstimmend, dass die verpflichtende Musterung für junge Männer ab dem Jahrgang 2008 gilt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Zehntausende Schüler in Deutschland haben gegen eine mögliche Wehrpflicht demonstriert.",
+    "absaetze": [
+     "Ein neues Gesetz zum Wehrdienst gilt seit Januar.",
+     "Das Gesetz bringt verpflichtende Musterungen für junge Männer.",
+     "Eine Initiative sprach von mehr als fünfundvierzigtausend Teilnehmern bei den Protesten.",
+     "Kritiker werfen der Regierung vor, zu viel Geld in das Militär zu stecken und bei der Bildung zu sparen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Zehntausende Schülerinnen und Schüler haben bundesweit gegen eine mögliche Wehrpflicht protestiert.",
+     "Hintergrund ist ein im Januar in Kraft getretenes Gesetz zur verpflichtenden Musterung.",
+     "Die Initiative Schulstreik gegen Wehrpflicht sprach von mehr als fünfundvierzigtausend Teilnehmern.",
+     "Kritiker bemängeln die Prioritätensetzung der Regierung bei Ausgaben für das Militär."
+    ],
+    "lang": [
+     "Zehntausende Schülerinnen und Schüler haben in mehreren deutschen Städten gegen eine mögliche Wehrpflicht demonstriert.",
+     "Anlass für die Proteste ist eine Reform des Wehrdienstes und eine geplante verpflichtende Musterung.",
+     "Nach Angaben der Initiative Schulstreik gegen Wehrpflicht waren mehr als fünfundvierzigtausend Jugendliche in rund einhundert Städten auf der Straße.",
+     "Das Gesetz über den neuen Wehrdienst trat im Januar in Kraft und sieht verpflichtende Musterungen für junge Männer vor.",
+     "Die Polizei veröffentlichte laut ZDFheute regionale Zahlen wie zweitausendvierhundert Teilnehmer in Berlin Wedding.",
+     "Der Pressesprecher Bela Breitner erklärte, die Bundesregierung meine es ernst mit der schrittweisen Einführung der Wehrpflicht.",
+     "Kritikerinnen und Kritiker äußerten auf den Kundgebungen Sorge und Unmut über die Verteilung von staatlichen Geldern.",
+     "Die Wehrpflicht war in Deutschland im Jahr zweitausendelf ausgesetzt worden.",
+     "Ob die Zahl der Freiwilligen ausreicht oder der Bundestag über eine Wehrpflicht entscheidet, ist Teil der aktuellen Debatte."
+    ],
+    "einfach": [
+     "Viele Schülerinnen und Schüler haben in Deutschland gegen die Wehrpflicht demonstriert.",
+     "Dabei bedeutet Wehrpflicht, dass junge Menschen im Militär dienen müssen.",
+     "Ein neues Gesetz sorgt seit Januar für verpflichtende Musterungen junger Männer.",
+     "Eine Initiative sprach von mehr als fünfundvierzigtausend protestierenden Jugendlichen.",
+     "Kritiker finden, dass die Regierung lieber für Schulen statt für Soldaten Geld ausgeben soll."
+    ]
+   },
+   "kurz": [
+    "Zehntausende Schüler haben bundesweit gegen eine mögliche Wehrpflicht demonstriert.",
+    "Auslöser ist ein neues Gesetz für verpflichtende Musterungen seit Januar.",
+    "Die Initiative Schulstreik gegen Wehrpflicht sprach von mehr als 45.000 Teilnehmern."
+   ],
+   "fakten": [
+    [
+     "Ziel für Truppenstärke der Bundeswehr bis Mitte der 2030er-Jahre",
+     "460.000"
+    ],
+    [
+     "Jahr des Aussetzens der alten Wehrpflicht",
+     "2011"
+    ]
+   ],
+   "dossier": {
+    "slug": "wehrdienst-und-musterung",
+    "titel": "Neuer Wehrdienst und mögliche Wehrpflicht"
+   },
+   "bildInfo": {
+    "titel": "Reichstagsgebäude von Westen.jpg",
+    "beschreibung": "Reichstag building, seen from west",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Reichstagsgeb%C3%A4ude_von_Westen.jpg/1280px-Reichstagsgeb%C3%A4ude_von_Westen.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Reichstagsgeb%C3%A4ude_von_Westen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_von_Westen.jpg",
+    "urheber": "Jörg Braukmann",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Reichstagsgebäude",
+    "sprache": "de",
+    "art": "institution",
+    "suchbegriff": "Reichstag building Berlin",
+    "bildunterschrift": "Das Reichstagsgebäude in Berlin als Sitz des Parlaments, das über die Wehrdienst-Reform berät.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Reichstagsgebäude von Westen.jpg",
+     "beschreibung": "Reichstag building, seen from west",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Reichstagsgeb%C3%A4ude_von_Westen.jpg/1280px-Reichstagsgeb%C3%A4ude_von_Westen.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Reichstagsgeb%C3%A4ude_von_Westen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Reichstagsgeb%C3%A4ude_von_Westen.jpg",
+     "urheber": "Jörg Braukmann",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Reichstagsgebäude",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Reichstag building Berlin",
+     "bildunterschrift": "Das Reichstagsgebäude in Berlin als Sitz des Parlaments, das über die Wehrdienst-Reform berät.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
   {
    "id": "xi-besuch-usa-zollpause",
    "rubrik": "Welt",
@@ -2895,7 +4610,7 @@
      "l": 16.75,
      "s": [
       0.25,
-      7.0
+      7
      ]
     },
     {
@@ -9165,579 +10880,6 @@
       27.53,
       32.6,
       39.03
-     ]
-    }
-   ]
-  },
-  {
-   "id": "merzer-enteignungsverbot",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-22T09:46:06.000Z",
-   "aktualisiert": "aktualisiert um 11:53 Uhr",
-   "titel": "Debatte über Bundesgesetz nach der Wahl in Berlin und Enteignungsplänen",
-   "vorspann": "Nach der Wahl in Berlin fordert die CSU ein schnelles Bundesgesetz gegen die Vergesellschaftung von Wohnraum. Bundeskanzler Merz kündigte entsprechende Schritte an, während Banken und Wirtschaft vor den Folgen warnen.",
-   "eil": false,
-   "zusammenfassung": [
-    "Nach dem Wahlsieg der Linkspartei bei der Berliner Abgeordnetenhauswahl fordert die CSU ein schnelles Bundesgesetz gegen Enteignungen von Wohnraum.",
-    "Bundeskanzler Merz kündigte ebenfalls an, ein Gesetz zur Verhinderung von Vergesellschaftungen auf den Weg zu bringen, um Investoren zu schützen.",
-    "Bankenverbände und die CSU kritisieren die Pläne der Linken als Gefahr für den Wohnungsmarkt und die Kreditvergabe.",
-    "Die Linkspartei verteidigt das Vorhaben und verweist auf einen erfolgreichen Volksentscheid aus dem Jahr 2021."
-   ],
-   "einig": [
-    [
-     "Bundeskanzler Friedrich Merz kündigte an, ein Gesetz gegen die Enteignung großer Wohnungsunternehmen auf den Weg zu bringen.",
-     [
-      "Tagesschau/ARD",
-      "taz"
-     ]
-    ],
-    [
-     "Die Linkspartei setzte im Wahlkampf in Berlin auf die Vergesellschaftung großer Wohnungsbestände.",
-     [
-      "Tagesschau/ARD",
-      "taz"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob der Bund Enteignungen auf Landesebene verfassungsrechtlich grundsätzlich untersagen kann, ist laut Tagesschau/ARD unter Verfassungsrechtlern umstritten."
-   ],
-   "positionen": [
-    [
-     "Friedrich Merz (CDU, Bundeskanzler)",
-     "Die Enteignungspläne haben verheerende Wirkungen im In- und Ausland; ein Bundesgesetz soll dies untersagen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Martin Huber (CSU, Generalsekretär)",
-     "Die Pläne der Linken treiben den Wohnungsmarkt in den Ruin und sind ein sozialistisches Himmelfahrtskommando; der Koalitionsbeschluss muss umgesetzt werden.",
-     "taz"
-    ],
-    [
-     "Ines Schwerdtner (Linke, Co-Chefin)",
-     "Die Debatte über die Rückführung von Wohnen in die öffentliche Hand ist angesichts hoher Mieten nicht radikal.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Elif Eralp (Linke, Spitzenkandidatin Berlin)",
-     "Die Berliner haben sich für die Vergesellschaftung entschieden, man werde aber auch Kompromisse eingehen.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Deutsche Kreditwirtschaft (Banken-Dachverband)",
-     "Vergesellschaftungen schaffen keinen neuen Wohnraum, belasten die öffentliche Hand und verteuern Immobilienkredite.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Stefanie Hubig (SPD, Bundesjustizministerin)",
-     "Äußerte Bedenken gegen ein pauschales Enteignungsverbot durch den Bund.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stellungnahmen der SPD- und Grünen-Bundeszentralen sowie genaue Aussagen von Immobilienkonzernen wie Vonovia selbst.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "21.09.26, 19:11",
-     "fokus": "Umfassende Berichterstattung mit Reaktionen von Banken und Politik",
-     "text": "Der Bericht beleuchtet sowohl die Pläne der Linkspartei als auch die wirtschaftlichen und rechtlichen Bedenken von Banken und Ministerien.",
-     "url": "https://www.tagesschau.de/inland/innenpolitik/enteignung-vergesellschaftung-wohnungen-berlin-100.html",
-     "video": false
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "22.09.26, 11:46",
-     "fokus": "Kompakte Meldung zur CSU-Forderung",
-     "text": "Die Meldung konzentriert sich auf die Forderung der CSU nach einer schnellen Verabschiedung des Bundesgesetzes nach dem Berliner Wahlergebnis.",
-     "url": "https://www.deutschlandfunk.de/csu-fordert-gesetz-gegen-enteignungen-von-wohnraum-100.html",
-     "video": false
-    },
-    {
-     "name": "taz",
-     "typ": "Tageszeitung (Genossenschaft)",
-     "art": "privates Medium",
-     "stamm": false,
-     "datum": "22.09.26, 09:21",
-     "fokus": "Hintergrund zur Berliner Wahl und CSU-Reaktionen",
-     "text": "Die Tageszeitung beleuchtet die CSU-Reaktion auf ein mögliches Linksbündnis und ordnet die politischen Mehrheitsverhältnisse in Berlin ein.",
-     "url": "https://taz.de/Reaktion-auf-moegliches-Linksbuendnis/!6215229/",
-     "video": false
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit",
-     "Die Tagesschau/ARD liefert sehr detaillierte Hintergrundinformationen zu Zahlen und Bankenreaktionen, während der Deutschlandfunk und die taz andere Schwerpunkte setzen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "CDU, CSU, SPD, Linkspartei und Bankenverbände",
-    "was": "Debatte um ein Bundesgesetz gegen Wohnungsenteignungen",
-    "wann": "21. und 22. September 2026",
-    "wo": "Berlin und Deutschland",
-    "wie": "Durch politische Forderungen, Gesetzesankündigungen und Verbandsmitteilungen",
-    "warum": "Wegen des Wahlergebnisses der Linken in Berlin und geplanten Vergesellschaftungen",
-    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, taz"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Nach der Abgeordnetenhauswahl in Berlin am 20. September 2026 fordert die CSU laut übereinstimmenden Berichten eine schnelle Verabschiedung eines Bundesgesetzes. Das Gesetz soll die Vergesellschaftung von Wohnbeständen durch die Länder untersagen.",
-      "Die bayerische Schwesterpartei der CDU reagiert damit auf den Wahlerfolg der Linkspartei in Berlin. Die Linkspartei hatte die Enteignung großer Wohnungsunternehmen zu ihrem zentralen Wahlkampfversprechen gemacht. Die CSU drängt nun darauf, die im Juli im Koalitionsausschuss getroffenen Vereinbarungen zügig umzusetzen. Ein entsprechender Gesetzentwurf liegt bisher jedoch noch nicht vor.",
-      "Bundeskanzler Friedrich Merz hatte zuvor ebenfalls angekündigt, ein Gesetz gegen die Enteignung großer Wohnungsunternehmen auf den Weg zu bringen. Ziel der Bundesregierung sei es, internationalen Investoren zu signalisieren, dass privates Eigentum geschützt ist. Erste Entwürfe werden laut Tagesschau/ARD bereits zwischen dem Justiz- und dem Innenministerium abgestimmt.",
-      "Die Pläne der Berliner Linkspartei sehen vor, große Immobilienkonzerne gegen Entschädigung in den Besitz des Landes zu überführen. Davon wären nach Schätzungen rund 240.000 Wohnungen betroffen. Die Linkspartei stützt sich dabei auf einen erfolgreichen Volksentscheid aus dem Jahr 2021. Damals stimmte eine Mehrheit der Berlinerinnen und Berliner für die Vergesellschaftung großer Wohnungskonzerne."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Die Linkspartei hat bei der Abgeordnetenhauswahl in Berlin nach Angaben der Tagesschau/ARD auf das Thema Wohnen gesetzt. Spitzenkandidatin Elif Eralp strebt das Amt der Regierenden Bürgermeisterin an. Sie wäre die erste Regierungschefin der Linkspartei in Berlin. Möglich wäre eine Regierungsübernahme durch ein Linksbündnis mit Grünen und SPD.",
-      "Die Berliner Linkspartei plant, allen Wohnungsbesitzern die Bestände zu nehmen, die über eine Grenze von 3.000 Wohnungen hinausgehen. Im Fokus steht dabei vor allem der Immobilienkonzern Vonovia als größter Marktakteur in Berlin. Zu diesem Konzern gehört auch das Unternehmen Deutsche Wohnen, das Namensgeber für die Volksinitiative war. Das Land Berlin würde durch die Maßnahme die Kontrolle über zahlreiche weitere Wohnungen erlangen.",
-      "Die Bankenbranche und Wirtschaftsverbände üben heftige Kritik an den Plänen der Linkspartei. Der Dachverband Deutsche Kreditwirtschaft erklärte laut Tagesschau/ARD, dass eine Vergesellschaftung mit Entschädigungen unter Marktwert keinen zusätzlichen Wohnraum schafft. Zudem warnt der Verband vor erheblichen finanziellen Risiken für die öffentliche Hand und steigenden Immobilienkrediten.",
-      "Auch die Aktien deutscher Wohnungsbauunternehmen stehen nach dem Wahlergebnis in Berlin laut Tagesschau/ARD unter Druck. Die Diskussion um mögliche Enteignungen schrecke Investoren ab und gefährde privates Kapital für Neubau und Modernisierung. Die CSU bezeichnete die Vorhaben der Linkspartei laut taz als sozialistisches Himmelfahrtskommando, das den Wohnungsmarkt in den Ruin treibe."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Debatte stützt sich auf einen Volksentscheid aus dem Jahr 2021 in Berlin. Damals stimmte eine Mehrheit der Wahlberechtigten für die Vergesellschaftung großer Wohnungsunternehmen. Die Initiative 'Deutsche Wohnen & Co enteignen' hatte diesen Volksentscheid erfolgreich auf den Weg gebracht.",
-      "Bereits im Juli 2026 hatten sich die Koalitionsspitzen von Union und SPD auf Bundesebene darauf verständigt, ein Bundesgesetz gegen solche Verstaatlichungen zu prüfen. Der Koalitionsausschuss gab einen entsprechenden Auftrag an die Bundesregierung. Bundeskanzler Friedrich Merz kündigte an, das Vorhaben nun zu beschleunigen.",
-      "Die Linkspartei in Berlin verteidigt die Pläne als notwendigen Schritt gegen hohe Mieten. Co-Chefin Ines Schwerdtner verwies darauf, dass Wohnen wieder in die öffentliche Hand gehören müsse. Auch SPD- und Grünen-Parteitage hatten sich in der Vergangenheit für Vergesellschaftungen ausgesprochen.",
-      "Die Berliner Spitzenkandidatin Elif Eralp betonte, dass man trotz des klaren Wählerauftrags auch Kompromisse eingehen müsse. Neben dem möglichen Linksbündnis besteht in Berlin auch die Option einer Kenia-Koalition unter Führung der CDU, die bei der Wahl den zweiten Platz erreichte."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Vergesellschaftung ist ein rechtlicher Prozess, bei dem Eigentum von privater Hand in öffentlich-rechtliches Eigentum überführt wird. Dies geschieht in der Regel gegen eine Entschädigung.",
-      "Ein Bundesgesetz ist eine Rechtsnorm, die vom Bundestag und Bundesrat für das gesamte Bundesgebiet beschlossen wird."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Bundeskanzler Friedrich Merz erklärte laut Tagesschau/ARD, die Pläne der Linken hätten im In- und Ausland eine verheerende Wirkung und müssten per Gesetz unterbunden werden.",
-      "CSU-Generalsekretär Martin Huber forderte laut taz, den Beschluss im Koalitionsausschuss schnellstmöglich umzusetzen, und nannte die Pläne ein sozialistisches Himmelfahrtskommando.",
-      "Linken-Co-Chefin Ines Schwerdtner verteidigte die Pläne laut Tagesschau/ARD und betonte, eine solche Debatte sei angesichts hoher Mieten nicht radikal.",
-      "Die Berliner Linken-Spitzenkandidatin Elif Eralp erklärte laut Tagesschau/ARD, die Berlinerinnen und Berliner hätten sich für die Vergesellschaftung entschieden, man werde aber auch Kompromisse eingehen.",
-      "Bundesjustizministerin Stefanie Hubig äußerte laut Tagesschau/ARD Bedenken gegen ein pauschales Verbot von Enteignungen durch den Bund.",
-      "Der Banken-Dachverband Deutsche Kreditwirtschaft warnte laut Tagesschau/ARD vor höheren Risiken und teureren Immobilienkrediten."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Bundesregierung will nach Angaben von Bundeskanzler Merz zügig zu einer Entscheidung über das geplante Bundesgesetz kommen. Die Entwürfe dazu werden derzeit zwischen den Ministerien abgestimmt.",
-      "Die Linkspartei in Berlin plant ungeachtet des angekündigten Bundesgesetzes, das Thema weiter zu verfolgen. In Berlin laufen zudem mögliche Koalitionsverhandlungen nach der Abgeordnetenhauswahl."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2021",
-     "Mehrheit der Berliner stimmt bei Volksentscheid für die Vergesellschaftung großer Wohnungskonzerne."
-    ],
-    [
-     "Juli",
-     "Koalitionsspitzen von Union und SPD verständigen sich auf ein mögliches Bundesgesetz gegen Enteignungen."
-    ],
-    [
-     "21. September 2026",
-     "Bundeskanzler Merz kündigt schnelles Bundesgesetz gegen Enteignungen an."
-    ],
-    [
-     "20. September 2026",
-     "Abgeordnetenhauswahl in Berlin und Landtagswahl in Mecklenburg-Vorpommern."
-    ],
-    [
-     "Juli",
-     "Die Koalitionsspitzen von Union und SPD verständigen sich auf ein mögliches Bundesgesetz gegen Enteignungen."
-    ],
-    [
-     "21. September 2026",
-     "Bundeskanzler Merz kündigt ein Bundesgesetz gegen Enteignungen an."
-    ],
-    [
-     "2021",
-     "Eine Mehrheit der Berliner stimmt bei einem Volksentscheid für die Vergesellschaftung großer Wohnungskonzerne."
-    ],
-    [
-     "Juli 2026",
-     "Die Koalitionsspitzen von Union und SPD verständigen sich im Bund auf ein mögliches Gesetz gegen Enteignungen."
-    ],
-    [
-     "20. September 2026",
-     "Abgeordnetenhauswahl in Berlin."
-    ],
-    [
-     "21. September 2026",
-     "Bundeskanzler Merz kündigt ein schnelles Bundesgesetz gegen Enteignungen an."
-    ],
-    [
-     "22. September 2026",
-     "Die CSU fordert nach der Wahl in Berlin eine schnelle Verabschiedung des Bundesgesetzes."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Friedrich Merz politician",
-     "bildunterschrift": "Bundeskanzler Friedrich Merz kündigte ein Bundesgesetz gegen Enteignungen an."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Bodo Ramelow politician",
-     "bildunterschrift": "Die Linkspartei führt mit Politikern wie Bodo Ramelow bereits Regierungsverantwortung in Thüringen."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Abgeordnetenhaus Berlin building",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin ist der Ort der Landespolitik und der Koalitionsfragen."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "German Bundestag building Berlin",
-     "bildunterschrift": "Im Deutschen Bundestag wird über mögliche Bundesgesetze zur Einschränkung von Landeskompetenzen debattiert."
-    }
-   ],
-   "ort": {
-    "name": "Berlin, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Die Überschneidungen im 'einig'-Bereich wurden streng nach der Regel angepasst, dass jeder Punkt in mindestens zwei genannten Quellen stehen muss."
-   ],
-   "wortwarnung": [
-    "heftige",
-    "verheerende"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Vergesellschaftung",
-      "Unter Vergesellschaftung versteht man die Überführung von Privateigentum in öffentliches Eigentum, zum Beispiel an das Bundesland."
-     ],
-     [
-      "Volksentscheid",
-      "Bei einem Volksentscheid stimmen die Bürgerinnen und Bürger direkt über ein bestimmtes politisches Thema ab."
-     ],
-     [
-      "Koalitionsausschuss",
-      "Ein Koalitionsausschuss ist ein Treffen der Führungspolitiker von Regierungsparteien, um gemeinsame Pläne abzusprechen."
-     ]
-    ],
-    "fragen": [
-     "Welche Argumente bringen Befürworter und Gegner einer Vergesellschaftung von Wohnungen vor?",
-     "Warum ist ein geplantes Bundesverbot von Enteignungen unter Verfassungsrechtlern umstritten?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat nach den Berichten die Wahl in Berlin gewonnen?",
-      "optionen": [
-       "Die Linkspartei",
-       "Die FDP",
-       "Die AfD"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und taz hat die Linkspartei die Wahl in Berlin gewonnen."
-     },
-     {
-      "frage": "Was fordert die CSU nach der Wahl in Berlin?",
-      "optionen": [
-       "Eine sofortige Erhöhung der Mieten",
-       "Ein schnelles Bundesgesetz gegen Enteignungen",
-       "Den Austritt aus der Koalition"
-      ],
-      "richtig": 1,
-      "erklaerung": "Der Deutschlandfunk und die taz berichten übereinstimmend, dass die CSU ein schnelles Bundesgesetz gegen Enteignungen fordert."
-     },
-     {
-      "frage": "Auf welchen Volksentscheid verweist die Linkspartei in Berlin?",
-      "optionen": [
-       "Einen Volksentscheid aus dem Jahr 2015",
-       "Einen Volksentscheid aus dem Jahr 2021",
-       "Einen Volksentscheid aus dem Jahr 2024"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Tagesschau/ARD und die taz nennen den Volksentscheid aus dem Jahr 2021 als Grundlage für die Pläne."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Berlin hat die Linkspartei die Wahl gewonnen. Sie möchte große Wohnungsfirmen enteignen, damit die Mieten sinken.",
-    "absaetze": [
-     "Bei der Enteignung kauft oder übernimmt das Land Wohnungen von privaten Firmen. Die Firmen erhalten dafür eine Entschädigung.",
-     "Die Partei CSU und Bundeskanzler Friedrich Merz sind gegen diese Pläne. Sie fordern ein neues Bundesgesetz, um Enteignungen in ganz Deutschland zu verbieten.",
-     "Auch Banken warnen vor dem Plan. Sie glauben, dass Immobilienkredite dadurch teurer werden und Investoren Geld abziehen.",
-     "Die Linkspartei verteidigt ihre Pläne. Sie verweist auf einen Volksentscheid aus dem Jahr zweitausendhunderteinundzwanzig, bei dem viele Berliner für die Enteignungen gestimmt hatten."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Nach der Wahl in Berlin fordert die CSU ein Bundesgesetz gegen Enteignungen.",
-     "Bundeskanzler Friedrich Merz kündigte ebenfalls ein solches Verbot an.",
-     "Die Linkspartei verteidigt dagegen ihre Pläne zur Vergesellschaftung von Wohnungen."
-    ],
-    "lang": [
-     "Nach der Wahl in Berlin fordert die CSU ein schnelles Bundesgesetz gegen Enteignungen von Wohnraum.",
-     "Die bayerische Partei reagiert damit auf den Erfolg der Linkspartei bei der Abgeordnetenhauswahl.",
-     "Bundeskanzler Friedrich Merz kündigte ebenfalls an, ein Gesetz zur Verhinderung von Vergesellschaftungen zu erlassen.",
-     "Ziel der Bundesregierung ist es nach Angaben der Tagesschau, internationalen Investoren den Schutz von Eigentum zu signalisieren.",
-     "Die Linkspartei in Berlin plant, große Immobilienkonzerne mit mehr als dreitausend Wohnungen zu vergesellschaften.",
-     "Davon wären nach Schätzungen rund zweihundertvierzigtausend Wohnungen in der Hauptstadt betroffen.",
-     "Die Bankenbranche und die CSU kritisieren das Vorhaben scharf als Gefahr für den Wohnungsmarkt.",
-     "Die Linkspartei verteidigt die Pläne dagegen und verweist auf einen erfolgreichen Volksentscheid aus dem Jahr zweitausendhunderteinundzwanzig.",
-     "Ob der Bund Enteignungen auf Landesebene verbieten darf, ist unter Verfassungsrechtlern umstritten.",
-     "Die Bundesregierung will nun zeitnah über das geplante Gesetz entscheiden."
-    ],
-    "einfach": [
-     "In Berlin hat die Linkspartei die Wahl gewonnen.",
-     "Die Partei will große Wohnungsfirmen enteignen.",
-     "Das bedeutet, dass das Land die Wohnungen übernimmt.",
-     "Bundeskanzler Friedrich Merz will das mit einem neuen Gesetz verbieten.",
-     "Auch Banken warnen vor großen Problemen für den Wohnungsmarkt.",
-     "Die Linkspartei findet den Plan richtig und verweist auf frühere Wählerstimmen."
-    ]
-   },
-   "kurz": [
-    "Die CSU fordert nach der Wahl in Berlin ein schnelles Bundesgesetz gegen Enteignungen.",
-    "Bundeskanzler Merz kündigte ebenfalls an, ein Gesetz gegen die Vergesellschaftung zu erlassen.",
-    "Banken und CSU kritisieren die Pläne der Linkspartei als Gefahr für den Wohnungsmarkt."
-   ],
-   "fakten": [
-    [
-     "Datum der Wahl",
-     "20. September 2026"
-    ],
-    [
-     "Wohnungsbestand in öffentlicher Hand aktuell",
-     "rund 20 Prozent"
-    ],
-    [
-     "Wohnungsbestand nach Vergesellschaftung",
-     "mehr als 30 Prozent"
-    ],
-    [
-     "Betroffene Wohnungen bei Umsetzung",
-     "rund 240.000"
-    ],
-    [
-     "Wohnungen von Vonovia in Berlin",
-     "130.000"
-    ]
-   ],
-   "dossier": {
-    "slug": "berlin-wahl-enteignung-2026",
-    "titel": "Wahl in Berlin und Debatte um Enteignungen"
-   },
-   "bildInfo": {
-    "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
-    "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-    "urheber": "Steffen Prößdorf",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "person",
-    "suchbegriff": "Friedrich Merz politician",
-    "bildunterschrift": "Friedrich Merz als Parteivorsitzender der CDU.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
-     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-     "urheber": "Steffen Prößdorf",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "person",
-     "suchbegriff": "Friedrich Merz politician",
-     "bildunterschrift": "Friedrich Merz als Parteivorsitzender der CDU.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Abgeordnetenhaus.jpg",
-     "beschreibung": "Abgeordnetenhaus von Berlin - Hausansicht des Berliner Landesparlaments in der Niederkirchnerstraße, Berlin Mitte. Seit 1993 tagt das Berliner Abgeordntenehaus im Gebäude des ehemaligen Preußischen La",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Abgeordnetenhaus.jpg/1280px-Abgeordnetenhaus.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Abgeordnetenhaus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Abgeordnetenhaus.jpg",
-     "urheber": "Abghs",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Abgeordnetenhaus von Berlin",
-     "sprache": "de",
-     "art": "ort",
-     "suchbegriff": "Berlin Abgeordnetenhaus",
-     "bildunterschrift": "Das Abgeordnetenhaus von Berlin als Landesparlament.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Berlin, Mitte, Mohrenstrasse 37, Bundesministerium der Justiz.jpg",
-     "beschreibung": "The German Federal Ministry of Justice at Mohrenstraße No. 37 in Berlin-Mitte. The building was constructed from 1912 to 1913 as commercial building \"Prausenhof\" to a design by Ludwig Otte. In front o",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg/1280px-Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Berlin%2C_Mitte%2C_Mohrenstrasse_37%2C_Bundesministerium_der_Justiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Berlin,_Mitte,_Mohrenstrasse_37,_Bundesministerium_der_Justiz.jpg",
-     "urheber": "Jörg Zägel",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "institution",
-     "suchbegriff": "German Federal Ministry of Justice Berlin",
-     "bildunterschrift": "Das Bundesministerium der Justiz in Berlin.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Berlin, Deutschland",
-    "lat": 52.517,
-    "lon": 13.395
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Nach der Wahl in Berlin fordert die CSU ein schnelles Bundesgesetz gegen Enteign",
-     "d": "0de70a76cc.mp3",
-     "l": 62.65,
-     "s": [
-      0.25,
-      6.13,
-      12.24,
-      19.16,
-      26.51,
-      33.61,
-      39.01,
-      44.54,
-      52.15,
-      58.19
-     ]
-    },
-    {
-     "k": "Nach der Wahl in Berlin fordert die CSU ein Bundesgesetz gegen Enteignungen. Bun",
-     "d": "90a0f96768.mp3",
-     "l": 14.38,
-     "s": [
-      0.25,
-      4.83,
-      9.33
-     ]
-    },
-    {
-     "k": "In Berlin hat die Linkspartei die Wahl gewonnen. Die Partei will große Wohnungsf",
-     "d": "d48f281a50.mp3",
-     "l": 25.76,
-     "s": [
-      0.25,
-      3.65,
-      7.19,
-      10.81,
-      15.98,
-      20.41
-     ]
-    },
-    {
-     "k": "Ob der Bund Enteignungen auf Landesebene verfassungsrechtlich grundsätzlich unte",
-     "d": "6f32e7f506.mp3",
-     "l": 8.93,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Vergesellschaftung? Unter Vergesellschaftung versteht ma",
-     "d": "cfb213217e.mp3",
-     "l": 12.27,
-     "s": [
-      0.25,
-      3.66
-     ]
-    },
-    {
-     "k": "Nach der Abgeordnetenhauswahl in Berlin am 20. September 2026 fordert die CSU la",
-     "d": "284a4ddf62.mp3",
-     "l": 47.69,
-     "s": [
-      0.25,
-      3.89,
-      12.13,
-      17.01,
-      23.37,
-      29.34,
-      35.7,
-      39.45
-     ]
-    },
-    {
-     "k": "Die Linkspartei hat bei der Abgeordnetenhauswahl in Berlin nach Angaben der Tage",
-     "d": "3fd9765882.mp3",
-     "l": 42.68,
-     "s": [
-      0.25,
-      7.66,
-      12.75,
-      16.93,
-      21.88,
-      28.07,
-      30.53,
-      36.43
-     ]
-    },
-    {
-     "k": "Die Debatte stützt sich auf einen Volksentscheid aus dem Jahr 2021 in Berlin. Da",
-     "d": "f5dd7b0f8a.mp3",
-     "l": 47.84,
-     "s": [
-      0.25,
-      6,
-      11.4,
-      17.49,
-      28.29,
-      32.86,
-      37.56,
-      42.29
-     ]
-    },
-    {
-     "k": "Eine Vergesellschaftung ist ein rechtlicher Prozess, bei dem Eigentum von privat",
-     "d": "41c7c0b7de.mp3",
-     "l": 17.22,
-     "s": [
-      0.25,
-      7.46,
-      10.42
-     ]
-    },
-    {
-     "k": "Bundeskanzler Friedrich Merz erklärte laut Tagesschau/ARD, die Pläne der Linken ",
-     "d": "b63f5de4e7.mp3",
-     "l": 56.74,
-     "s": [
-      0.25,
-      9.96,
-      20.53,
-      29.38,
-      40.21,
-      48.56
-     ]
-    },
-    {
-     "k": "Die Bundesregierung will nach Angaben von Bundeskanzler Merz zügig zu einer Ents",
-     "d": "c7c80c803c.mp3",
-     "l": 24.33,
-     "s": [
-      0.25,
-      7.46,
-      11.88,
-      18.43
      ]
     }
    ]
