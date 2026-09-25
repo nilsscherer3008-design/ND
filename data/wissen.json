@@ -1,6 +1,178 @@
 {
- "stand": "2026-09-24T19:05:43.592Z",
+ "stand": "2026-09-25T07:42:50.980Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-tsunami",
+   "zeit": "2026-09-25T07:50:16.267Z",
+   "bereich": "Erde und Klima",
+   "titel": "Wie entsteht eigentlich ein Tsunami?",
+   "vorspann": "Ein Tsunami ist eine Abfolge besonders langer Wasserwellen. Sie können große Entfernungen zurücklegen und an Küsten schwere Schäden verursachen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Wort Tsunami kommt aus dem Japanischen und bedeutet Hafenwelle. Früher sagten die Menschen dazu auch Erdbebenwoge oder Erdbebenflut. Wenn das Meer flacher wird, staut sich das Wasser an den Küsten auf. Dabei entstehen hohe Flutwellen, die weit über das Ufer hinausreichen. Das Wasser fließt danach wieder zurück und spült mitgerissenes Material auf den Ozean hinaus.",
+      "Tsunamis entstehen meistens durch eine plötzliche Verdrängung von Wasser. Das passiert oft bei Seebeben, bei denen sich der Ozeanboden hebt oder senkt. Aber auch Vulkanausbrüche, unterseeische Erdrutsche oder heftige Winde können solche Wellen auslösen. Sehr selten sind Meteoreinschläge oder künstliche Explosionen die Ursache. Nicht nur in den Weltmeeren, sondern auch auf Binnenseen können sich Binnentsunamis bilden."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Etwa neunzig Prozent aller Tsunamis entstehen durch starke Erdbeben unter dem Ozeanboden. Die Wellen treten am häufigsten im Pazifik auf, und zwar zu etwa achtzig Prozent. Am Rand des Stillen Ozeans schieben sich tektonische Platten übereinander. Dabei verhaken sich die Platten, und es entstehen Spannungen. Wenn diese Spannungen sich schlagartig entladen, wird der Meeresboden verschoben.",
+      "Ein Erdbeben muss drei Bedingungen erfüllen, damit ein Tsunami entsteht. Das Beben muss eine Magnitude von sieben oder mehr erreichen. Das Hypozentrum muss nahe der Erdoberfläche am Meeresgrund liegen. Zudem muss es eine vertikale Verschiebung des Meeresbodens verursachen, die das darüberliegende Wasser in Bewegung setzt.",
+      "Im offenen Ozean hat ein Tsunami eine sehr große Wellenlänge und bewegt die gesamte Wassersäule. Deshalb ist er auch in großer Wassertiefe eine Flachwasserwelle. In einer Meerestiefe von fünftausend Metern beträgt die Geschwindigkeit etwa achtzigit Kilometer in der Stunde. In Küstennähe verlangsamt sich die Welle, während die Wellenhöhe ansteigt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die früheste wissenschaftliche Beschreibung dieses Naturereignisses stammt von dem österreichischen Geowissenschaftler Ferdinand von Hochstetter. In den Jahren 1868 und 1869 veröffentlichte er Analysen zu einem Erdbeben in Peru vom dreizehnten August 1868. Er stellte einen Zusammenhang mit Tsunamiwellen an der Küste von Neuseeland und Australien fest. Aus den Zeiten der Beobachtungsstationen berechnete er die Wellengeschwindigkeit."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Häufigkeit im Pazifik",
+     "80 Prozent"
+    ],
+    [
+     "Anteil durch Seebeben",
+     "90 Prozent"
+    ],
+    [
+     "Wellenlänge",
+     "100 km bis 500 km"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Tsunami",
+     "Eine Abfolge besonders langer Wasserwellen, die durch plötzliche Wasserverdrängung entstehen."
+    ],
+    [
+     "Tektonische Platten",
+     "Große Platten der Erdkruste, deren Bewegungen Erdbeben auslösen können."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wodurch entstehen die meisten Tsunamis?",
+     "optionen": [
+      "Starke Erdbeben unter dem Ozeanboden",
+      "Heftige Stürme auf dem offenen Meer",
+      "Vulkanausbrüche an Land"
+     ],
+     "richtig": 0,
+     "erklaerung": "Etwa neunzig Prozent aller Tsunamis werden durch starke Seebeben angeregt."
+    }
+   ],
+   "video": [
+    "Ein Tsunami ist eine Abfolge von sehr langen Wasserwellen.",
+    "Das Wort kommt aus dem Japanischen und bedeutet Hafenwelle.",
+    "Die meisten dieser Wellen entstehen durch Seebeben.",
+    "Dabei verschiebt sich der Meeresboden plötzlich und bewegt das Wasser.",
+    "Im tiefen Ozean bewegt sich die Welle sehr schnell vorwärts.",
+    "Die Geschwindigkeit kann achthundert Kilometer in der Stunde erreichen.",
+    "In flachem Wasser an der Küste wird die Welle langsamer.",
+    "Dort türmt sie sich zu einer hohen Flutwelle auf.",
+    "Ferdinand von Hochstetter beschrieb das Phänomen im neunzehnten Jahrhundert wissenschaftlich."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Tsunami",
+    "bildunterschrift": "Tsunamis sind lange Wasserwellen, die durch plötzliche Wasserverdrängung im Ozean entstehen."
+   },
+   "quelle": {
+    "titel": "Tsunami",
+    "url": "https://de.wikipedia.org/wiki/Tsunami",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 316,
+   "bildInfos": [
+    {
+     "titel": "2004-tsunami.jpg",
+     "beschreibung": "A photograph of the 2004 tsunami in Ao Nang , Krabi Province , Thailand .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/2004-tsunami.jpg/1280px-2004-tsunami.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/2004-tsunami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2004-tsunami.jpg",
+     "urheber": "David Rydevik (email: david.rydevik gmail.com ), Stockholm, Sweden.",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Tsunami",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Tsunamis sind lange Wasserwellen, die durch plötzliche Wasserverdrängung im Ozean entstehen."
+    },
+    {
+     "titel": "1 Tsunamiwarnsystem in Dili.jpg",
+     "beschreibung": "Tsunamiwarnsystem in Madohi, Dili",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/1_Tsunamiwarnsystem_in_Dili.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/72/1_Tsunamiwarnsystem_in_Dili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:1_Tsunamiwarnsystem_in_Dili.jpg",
+     "urheber": "Gabinete Ministra da Solidariedade Sosial e Inclusão",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Tsunamiwarnsystem in Madohi, Dili"
+    },
+    {
+     "titel": "New Zealand - Russell - Tsunami Hazard Zone.jpg",
+     "beschreibung": "New_Zealand_-_Russel_-_Tsunami_Hazard_Zone",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/New_Zealand_-_Russell_-_Tsunami_Hazard_Zone.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/New_Zealand_-_Russell_-_Tsunami_Hazard_Zone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:New_Zealand_-_Russell_-_Tsunami_Hazard_Zone.jpg",
+     "urheber": "Genet ( Diskussion )",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "New_Zealand_-_Russel_-_Tsunami_Hazard_Zone"
+    },
+    {
+     "titel": "Relationship between Run-up height inundation height and immersion depth in Japanese usage terms explained by FDMA and JWA.jpg",
+     "beschreibung": "Relationship between \"immersion depth\", \"inundation height\", \"run-up height\", and \"ground\" according to tsunami impacts in Japanese language usage. As explained by FDMA (総務省消防庁 = Fire and Disaster Man",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Relationship_between_Run-up_height_inundation_height_and_immersion_depth_in_Japanese_usage_terms_explained_by_FDMA_and_JWA.jpg/1280px-Relationship_between_Run-up_height_inundation_height_and_immersion_depth_in_Japanese_usage_terms_explained_by_FDMA_and_JWA.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Relationship_between_Run-up_height_inundation_height_and_immersion_depth_in_Japanese_usage_terms_explained_by_FDMA_and_JWA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Relationship_between_Run-up_height_inundation_height_and_immersion_depth_in_Japanese_usage_terms_explained_by_FDMA_and_JWA.jpg",
+     "urheber": "Anglo-Araneophilus~commonswiki (Modifikation, Interpretation, Translation), Urheber: 一般財団法",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Relationship between \"immersion depth\", \"inundation height\", \"run-up height\", and \"ground\" according to tsunami impacts in Japanese language usage. As explained by FDMA (総務省消防庁 = Fire and Disaster Man"
+    },
+    {
+     "titel": "SH-60B helicopter flies over Sendai.jpg",
+     "beschreibung": "An SH-60F helicopter assigned to the Chargers of Helicopter Antisubmarine Squadron (HS) 14 from Naval Air Facility Atsugi flies over the port of Sendai to deliver more than 1,500 pounds of food to sur",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/SH-60B_helicopter_flies_over_Sendai.jpg/1280px-SH-60B_helicopter_flies_over_Sendai.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/SH-60B_helicopter_flies_over_Sendai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:SH-60B_helicopter_flies_over_Sendai.jpg",
+     "urheber": "U.S. Navy photo",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "An SH-60F helicopter assigned to the Chargers of Helicopter Antisubmarine Squadron (HS) 14 from Naval Air Facility Atsugi flies over the port of Sendai to deliver more than 1,500 pounds of food to sur"
+    }
+   ],
+   "bildInfo": {
+    "titel": "2004-tsunami.jpg",
+    "beschreibung": "A photograph of the 2004 tsunami in Ao Nang , Krabi Province , Thailand .",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/2004-tsunami.jpg/1280px-2004-tsunami.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/2004-tsunami.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2004-tsunami.jpg",
+    "urheber": "David Rydevik (email: david.rydevik gmail.com ), Stockholm, Sweden.",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Tsunami",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Tsunamis sind lange Wasserwellen, die durch plötzliche Wasserverdrängung im Ozean entstehen."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-pantomime",
    "zeit": "2026-09-24T19:13:52.881Z",
