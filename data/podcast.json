@@ -2,6 +2,26 @@
  "stand": "2026-09-25T18:32:24.569Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktioniert-eigentlich-das-ampel-system",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich das Ampel-System?",
+   "text": "Ampeln regeln den Verkehr und sorgen für Sicherheit an Straßen. Schon im neunzehnten Jahrhundert gab es erste Versuche mit solchen Lichtsignalanlagen.",
+   "zeit": "2026-09-25T13:46:19.605Z",
+   "d": "2c98476e01.mp3",
+   "l": 25.36,
+   "b": 152589
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-ein-tsunami",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich ein Tsunami?",
+   "text": "Ein Tsunami ist eine Abfolge besonders langer Wasserwellen. Sie können große Entfernungen zurücklegen und an Küsten schwere Schäden verursachen.",
+   "zeit": "2026-09-25T07:50:16.267Z",
+   "d": "4455fd8b28.mp3",
+   "l": 34.77,
+   "b": 209037
+  },
+  {
    "id": "hauptausgabe-2026-09-25",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-09-25",
@@ -40,26 +60,6 @@
    "d": "0d4e2b3519.mp3",
    "l": 33.54,
    "b": 201693
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-die-gebaerdensprache",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich die Gebärdensprache?",
-   "text": "Gebärdensprachen sind vollwertige und eigenständige Sprachen. Sie nutzen Gestik, Mimik und den Körper statt gesprochener Laute.",
-   "zeit": "2026-09-23T20:22:20.250Z",
-   "d": "d2feab7041.mp3",
-   "l": 26.95,
-   "b": 162093
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-gps",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich GPS?",
-   "text": "Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.",
-   "zeit": "2026-09-23T11:35:15.248Z",
-   "d": "bcac208a7f.mp3",
-   "l": 30.27,
-   "b": 182109
   }
  ]
 }

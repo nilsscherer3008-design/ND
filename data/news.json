@@ -2231,7 +2231,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 16 und 22 Grad. Die Vorhersage für morgen,",
+   "d": "2a8b601597.mp3",
+   "l": 19.03,
+   "s": [
+    0.25,
+    4.61,
+    8.7,
+    12.78,
+    16.45
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4572,6 +4584,36 @@
       30.89,
       37.19
      ]
+    },
+    {
+     "k": "Das Gesetz über den neuen Wehrdienst trat im Januar in Kraft. Kern dieser Regelu",
+     "d": "52d8396fdd.mp3",
+     "l": 42.93,
+     "s": [
+      0.25,
+      3.93,
+      10.03,
+      14.25,
+      21.37,
+      26.23,
+      31.92,
+      37.33
+     ]
+    },
+    {
+     "k": "Vertreter der Initiative \"Schulstreik gegen Wehrpflicht\" kritisierten das Vorgeh",
+     "d": "f32a21d6ab.mp3",
+     "l": 61.51,
+     "s": [
+      0.25,
+      6.56,
+      13.7,
+      22.38,
+      28.38,
+      36.06,
+      44.89,
+      56.23
+     ]
     }
    ]
   },
@@ -5015,6 +5057,66 @@
      "s": [
       0.25,
       3.24
+     ]
+    },
+    {
+     "k": "Die Berliner Linkspartei hat am Freitagabend auf einem Parteitag den Weg für Son",
+     "d": "a1fedabd49.mp3",
+     "l": 49.88,
+     "s": [
+      0.25,
+      8.37,
+      15.37,
+      22.03,
+      27.09,
+      32.95,
+      40.27,
+      44.52
+     ]
+    },
+    {
+     "k": "Bei der Wahl des Berliner Abgeordnetenhauses am vergangenen Sonntag wurde die Li",
+     "d": "dd1ff8bf4a.mp3",
+     "l": 59.64,
+     "s": [
+      0.25,
+      11.16,
+      22.52,
+      26.49,
+      33.07,
+      40.48,
+      44.84,
+      52.48
+     ]
+    },
+    {
+     "k": "Überschattet wurde der Parteitag der Linken laut übereinstimmenden Berichten von",
+     "d": "e9c8eefbce.mp3",
+     "l": 58.58,
+     "s": [
+      0.25,
+      8.21,
+      17.17,
+      22.12,
+      28.05,
+      34.75,
+      40.8,
+      48.34
+     ]
+    },
+    {
+     "k": "Die Grünen haben nach Angaben der Tagesschau/ARD bereits ihr Sondierungsteam ben",
+     "d": "f4089aa159.mp3",
+     "l": 56.46,
+     "s": [
+      0.25,
+      5.35,
+      13.57,
+      19.92,
+      29.47,
+      34.38,
+      41.6,
+      48.62
      ]
     }
    ]
@@ -7767,6 +7869,43 @@
       53.26,
       60.15
      ]
+    },
+    {
+     "k": "Eine Künstliche Intelligenz oder KI ist ein Teilgebiet der Informatik, das sich ",
+     "d": "6ec6e0ff71.mp3",
+     "l": 34.58,
+     "s": [
+      0.25,
+      8.57,
+      18.98,
+      26.48
+     ]
+    },
+    {
+     "k": "Premierminister Anthony Albanese äußerte sich in New York besorgt über den Vorfa",
+     "d": "425a9e88ae.mp3",
+     "l": 59.25,
+     "s": [
+      0.25,
+      7.65,
+      15.38,
+      20.59,
+      31.7,
+      38.96,
+      48.99
+     ]
+    },
+    {
+     "k": "Eine von der australischen Cybersicherheitsbehörde angeführte forensische Unters",
+     "d": "1a1481801a.mp3",
+     "l": 37.54,
+     "s": [
+      0.25,
+      11.25,
+      16.82,
+      21.09,
+      28.22
+     ]
     }
    ]
   },
@@ -8221,11 +8360,11 @@
     {
      "k": "Die Vereinigten Staaten haben den russischen Präsidenten Wladimir Putin zum G20-",
      "d": "d8bec1252f.mp3",
-     "l": 17.5,
+     "l": 17.78,
      "s": [
       0.25,
-      5.9,
-      11.61
+      6.11,
+      11.91
      ]
     },
     {
@@ -8847,6 +8986,89 @@
      "s": [
       0.25,
       4.17
+     ]
+    },
+    {
+     "k": "Die führenden deutschen Wirtschaftsforschungsinstitute haben ihre gemeinsame Her",
+     "d": "cb4a5efd9f.mp3",
+     "l": 65.14,
+     "s": [
+      0.25,
+      8.48,
+      19.77,
+      25.42,
+      30.68,
+      44.09,
+      50.62,
+      55.19
+     ]
+    },
+    {
+     "k": "Für die kommenden Jahre prognostizieren die Institute laut den Berichten ein unt",
+     "d": "ec718b1718.mp3",
+     "l": 58.52,
+     "s": [
+      0.25,
+      6.04,
+      19.29,
+      26.41,
+      30.99,
+      38.9,
+      44.25,
+      49.39
+     ]
+    },
+    {
+     "k": "Die wirtschaftliche Entwicklung wurde in den vergangenen Monaten stark durch int",
+     "d": "a21b0c1aa8.mp3",
+     "l": 55.33,
+     "s": [
+      0.25,
+      6.49,
+      15.66,
+      22.93,
+      30.61,
+      37.55,
+      43.16,
+      50.22
+     ]
+    },
+    {
+     "k": "Das Bruttoinlandsprodukt misst den Gesamtwert aller Waren und Dienstleistungen, ",
+     "d": "8b9a9b49ec.mp3",
+     "l": 27.11,
+     "s": [
+      0.25,
+      7.81,
+      11.74,
+      14.85,
+      22.35
+     ]
+    },
+    {
+     "k": "Wirtschaftsforscher warnen trotz der verbesserten Zahlen vor anhaltenden Risiken",
+     "d": "870fb3438e.mp3",
+     "l": 59.44,
+     "s": [
+      0.25,
+      4.93,
+      17.99,
+      24.48,
+      32.68,
+      38.39,
+      47.21,
+      51.39
+     ]
+    },
+    {
+     "k": "Die Wirtschaftsforscher erwarten für die kommenden Jahre eine Verlangsamung der ",
+     "d": "af8b3a952d.mp3",
+     "l": 30.42,
+     "s": [
+      0.25,
+      5.04,
+      18.01,
+      27.02
      ]
     }
    ]
