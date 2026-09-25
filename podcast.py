@@ -542,7 +542,16 @@ def main():
            "zeit": jetzt, "besetzung": [h["name"] for h in besetzung],
            "d": ton["d"], "l": ton["l"], "b": ton["b"], "marken": ton["marken"]}
     folgen = [neu] + [f for f in folgen if f.get("id") != neu["id"]]
-    folgen = folgen[:BEHALTEN]
+    # Eine Folge ohne Tondatei ist keine Folge. Steht sie trotzdem in der Liste,
+    # tippt man in der App darauf und nichts passiert. Solche Einträge fliegen
+    # hier raus - so heilt sich die Liste von selbst.
+    lebendig = []
+    for f in folgen:
+        if f is neu or (f.get("d") and (TON / f["d"]).exists()):
+            lebendig.append(f)
+        else:
+            log(f"  Folge ohne Aufnahme entfernt: {str(f.get('titel'))[:50]}")
+    folgen = lebendig[:BEHALTEN]
 
     # Aufnahmen, die keine Folge mehr sind, verschwinden.
     gebraucht = {f["d"] for f in folgen if f.get("d")}

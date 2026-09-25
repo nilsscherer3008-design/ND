@@ -493,11 +493,19 @@ def main():
                     kap.pop("ton", None)
             d["vertont"] = all(k.get("ton") for k in (d.get("kapitel") or []))
         doku_datei.write_text(json.dumps(doku, ensure_ascii=False, indent=1), encoding="utf8")
-    weg = 0
+    # Aufräumen, aber nur die eigenen Aufnahmen. Die Podcast-Folgen liegen im
+    # selben Ordner und werden von einem anderen Lauf erzeugt - wer sie hier
+    # mitlöscht, nimmt der Podcast-App den Ton weg. Genau das ist passiert.
+    weg, fremd = 0, 0
     for p in TON.glob("*.mp3"):
+        if p.name.startswith("folge-podcast-"):
+            fremd += 1
+            continue
         if p.name not in behalten:
             p.unlink()
             weg += 1
+    if fremd:
+        log(f"  {fremd} Podcast-Folgen unangetastet gelassen.")
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
     daten["ton"] = {
