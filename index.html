@@ -1105,6 +1105,7 @@ const APPS = {
   heft: {
     name: "Nachrichten-Heft", zusatz: "· neutral", farbe: "#0D2B55", symbol: "📰",
     start: "#/", manifest: "manifest.webmanifest",
+    kurz: "Nachrichten-Heft", symbolDatei: "apple-touch-icon.png",
     leiste: [["#/", "heft", "📰", "Heft"], ["#/videos", "videos", "▶", "Videos"],
              ["#/archiv", "archiv", "🔍", "Suche"], ["#/merkliste", "merkliste", "★", "Merkliste"],
              ["#/mehr", "mehr", "☰", "Mehr"]]
@@ -1112,18 +1113,21 @@ const APPS = {
   wissen: {
     name: "Warum eigentlich?", zusatz: "", farbe: "#12512F", symbol: "💡",
     start: "#/wissen", manifest: "manifest-wissen.webmanifest",
+    kurz: "Warum eigentlich?", symbolDatei: "apple-touch-wissen.png",
     leiste: [["#/wissen", "wissen", "💡", "Stücke"], ["#/doku", "doku", "🎬", "Dokus"],
              ["#/merkliste", "merkliste", "★", "Merkliste"], ["#/mehr", "mehr", "☰", "Mehr"]]
   },
   wetter: {
     name: "Wetter", zusatz: "· Nachrichten-Heft", farbe: "#0E4F6E", symbol: "🌦",
     start: "#/wetter", manifest: "manifest-wetter.webmanifest",
+    kurz: "Wetter", symbolDatei: "apple-touch-wetter.png",
     leiste: [["#/wetter", "wetter", "🌦", "Wetter"], ["#/wetter-orte", "orte", "📍", "Orte"],
              ["#/wetter-modelle", "modelle", "⚖", "Vergleich"], ["#/mehr", "mehr", "☰", "Mehr"]]
   },
   podcast: {
     name: "Streitfrage", zusatz: "· der Podcast", farbe: "#4A2A6B", symbol: "🎙",
     start: "#/podcast", manifest: "manifest-podcast.webmanifest",
+    kurz: "Streitfrage", symbolDatei: "apple-touch-podcast.png",
     leiste: [["#/podcast", "podcast", "🎙", "Folgen"], ["#/abo", "abo", "＋", "Abonnieren"],
              ["#/mehr", "mehr", "☰", "Mehr"]]
   }
@@ -2806,6 +2810,18 @@ function tonKontext(){
 // beides im selben Augenblick freigeschaltet: der Tonkanal für die Musik UND das
 // Abspielgerät für die Sprecherstimme. Ohne das darf die Stimme nach der Musik
 // nicht mehr loslegen - dann läuft die Melodie und danach kommt nichts.
+// Startet die Eröffnungsanimation neu, damit sie zur Musik passt. Ein kurzer
+// Griff: Animation aus, Größe abfragen (das erzwingt das Neuzeichnen), Animation
+// wieder an - dann fängt sie von vorne an.
+function openerNeustart(){
+  const op = document.querySelector("#player .opener");
+  if (!op) return;
+  const teile = [op, ...op.querySelectorAll("*")];
+  teile.forEach(e => { e.style.animation = "none"; });
+  void op.offsetWidth;
+  teile.forEach(e => { e.style.animation = ""; });
+}
+
 // Wartet, bis der Tonkanal wirklich wach ist. resume() ist ein Versprechen -
 // direkt danach steht dort noch "suspended", auch wenn gleich alles läuft.
 function tonBereit(){
@@ -3026,7 +3042,7 @@ function schlussKlang(){
   streicher(ctx, [110, 164.81, 220], t + 1.24, 2.8, .16);
   note(ctx, 55, t + 1.24, 2.6, .22);
   becken(ctx, t + 1.24, .14);
-  return 0;
+  return 4.3;                 // so lange klingt der Schluss nach - so lange bleibt das Bild
 }
 // Wissens-Intro: staunen statt Eilmeldung – weiter Klangraum, aufsteigende Figur, helle Glocke
 function zupf(ctx, frequenz, start, lautstaerke = .13){
@@ -3145,7 +3161,12 @@ function wetterSegment(){
     tonListe: w.ton ? [w.ton] : [], saetze: w.text };
 }
 function segmenteBauen(format, id){
-  const datum = berlin(new Date(), { weekday:"long", day:"numeric", month:"long" });
+  // Das Datum in der Ansage muss zu den aufgenommenen Tondateien passen, und
+  // die stammen aus dem letzten Lauf. Nähme man hier die Uhr, hieße es nach
+  // Mitternacht "Freitag", während die Aufnahme "Donnerstag" sagt - die App
+  // fände dann keine Tondatei und stünde stumm da.
+  const datum = berlin(DATEN.stand ? new Date(DATEN.stand) : new Date(),
+    { weekday:"long", day:"numeric", month:"long" });
   const gesprochen = { "Heft in 100 Sekunden":"Heft in hundert Sekunden", "Wissen & Klima":"Wissen und Klima", "Wochenrückblick":"Der Wochenrückblick" };
   const sprecherin = stimmeName(format);
   const ansage = titel => {
@@ -3771,7 +3792,15 @@ function abspielen(){
     tonBereit().then(ctx => {
       if (!gueltig(lauf)) return;
       let w = 0;
-      if (ctx) { try { w = PLAYER.format === "wissen" ? wissenMelodie() : melodie(); } catch (e){ console.warn("Melodie:", e); } }
+      if (ctx) {
+        try {
+          // Bild und Musik im selben Augenblick: die Eröffnung läuft schon,
+          // seit der Spieler aufging - hier wird sie neu gestartet, genau
+          // wenn der erste Ton kommt. Sonst laufen beide aneinander vorbei.
+          openerNeustart();
+          w = PLAYER.format === "wissen" ? wissenMelodie() : melodie();
+        } catch (e){ console.warn("Melodie:", e); }
+      }
       else console.warn("Tonkanal wacht nicht auf – Melodie übersprungen.");
       clearTimeout(PLAYER.timer);
       if (w > 0) PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) losSprechen(); }, w * 1000);
@@ -3801,13 +3830,22 @@ function naechstesSegment(){
   if (PLAYER.si >= PLAYER.segs.length){
     PLAYER.si = PLAYER.segs.length - 1;
     PLAYER.ti = Math.max(0, (PLAYER.segs[PLAYER.si].saetze || []).length - 1);
+    // Erst ist die Stimme fertig, dann kommt die Schlussmusik - und die darf
+    // ausklingen, bevor das Video endet. Vorher lief beides übereinander und
+    // die Musik wurde nie fertig.
     PLAYER.fertig = true;
-    stopp();
+    const laenge = PLAYER.stumm ? 0 : schlussKlang();
+    if (laenge > 0){
+      const lauf = ++PLAYER.lauf;
+      clearTimeout(PLAYER.timer);
+      PLAYER.timer = setTimeout(() => { if (gueltig(lauf)) stopp(); }, laenge * 1000);
+      knoepfe();
+    } else stopp();
     return;
   }
   const n = PLAYER.segs[PLAYER.si];
   if (!PLAYER.stumm && n.eil && n.typ === "thema" && PLAYER.letzteEil !== n.id){ PLAYER.letzteEil = n.id; eilSignal(); }
-  if (!PLAYER.stumm && n.typ === "outro") schlussKlang(); else uebergang();
+  uebergang();
   const lauf = ++PLAYER.lauf;
   clearTimeout(PLAYER.timer);
   PLAYER.timer = setTimeout(() => { if (!gueltig(lauf)) return; zeigen(); losSprechen(); }, 820);
@@ -3897,7 +3935,7 @@ function geraetSprechen(s, lauf){
     zeigenTeil();
     geraetSprechen(s, lauf);
   };
-  let fertig = false;
+  let fertig = false, spricht = false;
   const ende = () => {
     if (fertig || !gueltig(lauf)) return;
     fertig = true;
@@ -3922,9 +3960,20 @@ function geraetSprechen(s, lauf){
       u.rate = grundTempo + (i % 2 ? 0.03 : -0.02) + (PLAYER.ti % 3) * 0.01;
       u.pitch = 0.94 + (i === teile.length - 1 ? -0.04 : 0.02);
       u.volume = 1;
+      if (i === 0) u.onstart = () => { spricht = true; };
       if (i === teile.length - 1){ u.onend = ende; u.onerror = ev => { if (ev.error !== "interrupted" && ev.error !== "canceled") ende(); } }
       speechSynthesis.speak(u);
     });
+    // Auf dem iPhone gibt es speechSynthesis zwar, aber in einer installierten
+    // App sagt sie oft nichts und meldet auch nichts zurück. Dann hing die
+    // Sendung 13 Sekunden lang stumm fest. Sagt nach einer halben Sekunde
+    // niemand etwas, lesen wir den Satz einfach im Lesetempo weiter.
+    setTimeout(() => {
+      if (fertig || spricht || !gueltig(lauf)) return;
+      console.warn("Vorlesestimme bleibt stumm – weiter im Lesetempo.");
+      clearTimeout(PLAYER.timer);
+      PLAYER.timer = setTimeout(weiter, lesezeit);
+    }, 600);
   } catch (e) {
     // Vorlesen klappt auf diesem Gerät nicht – dann eben still weiterlaufen.
     console.warn("Vorlesestimme nicht verfügbar:", e && e.message);
@@ -4119,6 +4168,13 @@ function appEinrichten(){
   const mf = document.querySelector('link[rel="manifest"]');
   if (mf) mf.setAttribute("href", APP.manifest);
   document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.setAttribute("content", APP.farbe));
+  // Damit sich jede App einzeln mit eigenem Namen und eigenem Symbol auf den
+  // Startbildschirm legen lässt. iPhones lesen diese beiden Angaben genau in
+  // dem Moment, in dem man "Zum Home-Bildschirm" antippt.
+  const iosName = document.querySelector('meta[name="apple-mobile-web-app-title"]');
+  if (iosName) iosName.setAttribute("content", APP.kurz || APP.name);
+  const iosBild = document.querySelector('link[rel="apple-touch-icon"]');
+  if (iosBild) iosBild.setAttribute("href", APP.symbolDatei || "apple-touch-icon.png");
   // Ausblenden statt entfernen: die Betriebsart kann im Betrieb wechseln, und
   // was einmal entfernt ist, kommt beim Zurückwechseln nicht wieder.
   const lupe = document.querySelector('.icon-btn[href="#/archiv"]');
