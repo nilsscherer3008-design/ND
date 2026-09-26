@@ -1,23 +1,37 @@
-name: Stimmen anhören
+name: Stimmen prüfen
 
-# Läuft nur von Hand. Erzeugt Hörproben verschiedener Sprecher, damit man
-# die Besetzung für den Podcast aussuchen kann.
+# Lässt jeden Sprecher dieselben drei Sätze lesen, hört mit einer
+# Spracherkennung zu und misst, wie viele Wörter falsch verstanden werden.
+# Danach steht unter /proben/ eine Seite zum Anhören, sortiert nach
+# Verständlichkeit. Läuft nur von Hand.
 
 on:
   workflow_dispatch:
     inputs:
+      anzahl:
+        description: "Wie viele Sprecher prüfen (von 236)"
+        required: false
+        default: "40"
       sprecher:
-        description: "Sprechernummern, durch Komma getrennt (leer = 24 gut verteilte)"
+        description: "Bestimmte Nummern, z. B. 36 153 162 171 (leer = gleichmäßig verteilt)"
         required: false
         default: ""
+      hoerer:
+        description: "Spracherkennung: tiny, base, small oder medium"
+        required: false
+        default: "small"
 
 permissions:
   contents: write
 
+concurrency:
+  group: stimmprobe
+  cancel-in-progress: true
+
 jobs:
   proben:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -32,30 +46,37 @@ jobs:
           path: .stimmen
           key: piper-stimme-de-mls-medium-v1
 
-      - name: Proben sprechen
+      - name: Bisherige Aufnahmen holen
+        continue-on-error: true
+        run: |
+          mkdir -p ton
+          if git fetch --depth=1 origin ton; then
+            git archive FETCH_HEAD | tar -x -C ton
+            echo "Vorhandene Dateien: $(ls ton | wc -l)"
+          fi
+
+      - name: Sprechen und zuhören
         run: |
           if ! command -v ffmpeg >/dev/null; then
             sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           fi
           python3 -m pip install --quiet --upgrade pip
-          python3 -m pip install --quiet piper-tts
+          python3 -m pip install --quiet piper-tts faster-whisper
           python3 stimmprobe.py
         env:
-          GITHUB_REPOSITORY: ${{ github.repository }}
+          PROBE_ANZAHL: ${{ github.event.inputs.anzahl }}
           PROBE_SPRECHER: ${{ github.event.inputs.sprecher }}
+          PROBE_HOERER: ${{ github.event.inputs.hoerer }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
-      - name: Proben in den Ton-Zweig legen
+      - name: Proben veröffentlichen
         run: |
-          if [ -z "$(ls -A ton/proben 2>/dev/null)" ]; then
-            echo "Keine Proben erzeugt."
-            exit 1
+          if [ -z "$(ls -A ton 2>/dev/null)" ]; then
+            echo "Nichts zu veröffentlichen."
+            exit 0
           fi
           rm -rf /tmp/tonzweig && mkdir -p /tmp/tonzweig
-          if git fetch --depth=1 origin ton; then
-            git archive FETCH_HEAD | tar -x -C /tmp/tonzweig
-          fi
-          mkdir -p /tmp/tonzweig/proben
-          cp ton/proben/*.mp3 /tmp/tonzweig/proben/
+          cp -r ton/. /tmp/tonzweig/
           cd /tmp/tonzweig
           git init -q -b ton
           git config user.name "nachrichten-bot"
@@ -63,9 +84,10 @@ jobs:
           git add -A
           git commit -qm "Stimmproben $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ton:ton
-          echo "Veröffentlicht: $(ls proben | wc -l) Proben"
+          echo "Aufnahmen auf dem ton-Zweig: $(ls *.mp3 2>/dev/null | wc -l) + proben/$(ls proben/*.mp3 2>/dev/null | wc -l)"
 
-      - name: Anhörseite speichern
+      - name: Seite speichern
+        if: always()
         run: |
           git config user.name "nachrichten-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -74,18 +96,14 @@ jobs:
             echo "Keine Änderung."
             exit 0
           fi
-          git commit -m "Stimmproben zum Anhören $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
+          git commit -m "Stimmproben $(TZ=Europe/Berlin date '+%d.%m.%Y %H:%M')"
           for versuch in 1 2 3 4 5; do
             if git push; then
               echo "Gespeichert (Versuch $versuch)."
               exit 0
             fi
+            echo "Push abgelehnt – erst die neueren Dateien holen ($versuch)."
             git pull --rebase --autostash origin main || exit 1
             sleep 5
           done
           exit 1
-
-      - name: Wo man es findet
-        run: |
-          echo "Öffne: https://${{ github.repository_owner }}.github.io/$(basename ${{ github.repository }})/proben/"
-          
