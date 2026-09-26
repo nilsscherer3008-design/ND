@@ -1,6 +1,164 @@
 {
- "stand": "2026-09-26T13:01:20.916Z",
+ "stand": "2026-09-26T17:06:50.294Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-briefmarke",
+   "zeit": "2026-09-26T17:14:23.718Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich die Briefmarke?",
+   "vorspann": "Eine Briefmarke zeigt, dass die Gebühr für den Brief bezahlt wurde. Sie wird auf den Umschlag geklebt und mit einem Stempel entwertet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Eine Briefmarke ist laut dem Wikipedia-Artikel eine Bestätigung eines postalischen Beförderungsunternehmens. Sie zeigt an, dass der aufgedruckte Betrag für die Leistung bezahlt wurde. Meistens wird sie auf Papier gedruckt und ist rechteckig. Auf der Rückseite hat sie eine Gummierung oder ist selbstklebend.",
+      "Durch das Trennen aus einem perforierten Bogen entsteht die typische Zähnung an den Rändern. Heute nutzt man Briefmarken fast nur noch für privat versendete Poststücke. Bei gewerblicher Post wurden sie meistens von Frankiermaschinen oder Daten-Verarbeitung-Freimachung verdrängt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Grundidee der Erfindung war laut dem Wikipedia-Artikel, dass der Absender das Briefporto bezahlt und nicht mehr der Empfänger. Das war das erste Prepaid-System mit Vorauszahlung. Die erste aufklebbare Briefmarke wurde ab dem ersten Mai 1840 im Vereinigten Königreich herausgegeben.",
+      "In Deutschland werden Briefmarken nach Angaben aus dem Artikel von der Deutschen Post AG vertrieben. Die heutigen Briefmarken werden nach Weisung des Bundesministeriums der Finanzen hergestellt und an die Deutsche Post AG ausgeliefert. Der BGH hat in einem Urteil entschieden, dass Briefmarken kleine Inhaberpapiere im Sinne des Paragraphen 807 BGB sind.",
+      "Die Post will die Beförderungsleistung gegenüber jedem erbringen, der gültige Briefmarken in Höhe des vorgesehenen Entgelts auf die Sendung klebt. Danach dient die Briefmarke nur noch der Kontrolle, ob das Geld im Voraus gezahlt wurde. Der Besitz der Briefmarke ist zur Geltendmachung des Beförderungsanspruchs erforderlich."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Wikipedia-Artikel berichtet über die Geschichte der Briefmarke vor und nach der offiziellen Einführung im Jahr 1840. Zudem nennt er historische Dokumente, Gesetze und Verordnungen wie das Reichs-Strafgesetzbuch von 1871 und das Postgesetz. Auch Gerichtsurteile, wie das des BGH vom elften Oktober 2005, liefern genaue Informationen zur rechtlichen Funktion."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Einführung der ersten Briefmarke",
+     "1840"
+    ],
+    [
+     "Erste deutsche Briefmarke (Schwarzer Einser)",
+     "1849"
+    ],
+    [
+     "Privatisierung der Deutschen Bundespost",
+     "1995"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Briefmarke",
+     "Eine Bestätigung über die Zahlung des Portos für ein Poststück."
+    ],
+    [
+     "Perforation",
+     "Eine Lochung in Papier, die das Trennen von Briefmarken erleichtert."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde die erste aufklebbare Briefmarke im Vereinigten Königreich herausgegeben?",
+     "optionen": [
+      "1840",
+      "1849",
+      "1995"
+     ],
+     "richtig": 0,
+     "erklaerung": "Laut dem Artikel wurde die erste aufklebbare Briefmarke ab dem ersten Mai 1840 im Vereinigten Königreich herausgegeben."
+    }
+   ],
+   "video": [
+    "Eine Briefmarke bestätigt die Zahlung für die Beförderung eines Briefes.",
+    "Früher zahlte oft der Empfänger das Porto für einen Brief.",
+    "Mit der Briefmarke wurde ein System der Vorauszahlung geschaffen.",
+    "Sir Rowland Hill gilt als Urheber der Briefmarke im Vereinigten Königreich.",
+    "Im Jahr 1840 erschien dort die erste aufklebbare Briefmarke der Welt.",
+    "Die erste deutsche Briefschraube oder Briefmarke war der Schwarze Einser im Jahr 1849.",
+    "Heute werden Briefmarken nach Weisung des Bundesministeriums der Finanzen hergestellt.",
+    "Gerichte stufen Briefmarken als kleine Inhaberpapiere ein."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Briefmarke",
+    "bildunterschrift": "Eine Briefmarke weist die Bezahlung des Portos nach."
+   },
+   "quelle": {
+    "titel": "Briefmarke",
+    "url": "https://de.wikipedia.org/wiki/Briefmarke",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 263,
+   "bildInfos": [
+    {
+     "titel": "Briefumschlag Mobile Briefmarke Deutsche Post 2020.jpg",
+     "beschreibung": "Briefumschlag, frankiert mit der mobilen Briefmarke, ein Produkt der Deutschen Post",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg/1280px-Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg",
+     "urheber": "Raimond Spekking",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Mobile Briefmarke",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Briefmarke weist die Bezahlung des Portos nach."
+    },
+    {
+     "titel": "80c Gewitter Matrixmarke.jpg",
+     "beschreibung": "Datamatrix-Briefmarke der Deutschen Post",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/80c_Gewitter_Matrixmarke.jpg/1280px-80c_Gewitter_Matrixmarke.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/80c_Gewitter_Matrixmarke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:80c_Gewitter_Matrixmarke.jpg",
+     "urheber": "Sarang",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Datamatrix-Briefmarke der Deutschen Post"
+    },
+    {
+     "titel": "Austrian KK 1 heller Porto Stamp Portrait of Emperor Charles VI Nachmarke.jpg",
+     "beschreibung": "Austria-Hungary Porto Stamp",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Austrian_KK_1_heller_Porto_Stamp_Portrait_of_Emperor_Charles_VI_Nachmarke.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Austrian_KK_1_heller_Porto_Stamp_Portrait_of_Emperor_Charles_VI_Nachmarke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Austrian_KK_1_heller_Porto_Stamp_Portrait_of_Emperor_Charles_VI_Nachmarke.jpg",
+     "urheber": "Österreich-Ungarn",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Austria-Hungary Porto Stamp"
+    },
+    {
+     "titel": "Briefmarkenpapier.jpg",
+     "beschreibung": "Unterschied zwischen Kreide- und Normalpapier Quelle: selbst fotografiert",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Briefmarkenpapier.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Briefmarkenpapier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Briefmarkenpapier.jpg",
+     "urheber": "Peterwuttke at German Wikipedia",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Unterschied zwischen Kreide- und Normalpapier Quelle: selbst fotografiert"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Briefumschlag Mobile Briefmarke Deutsche Post 2020.jpg",
+    "beschreibung": "Briefumschlag, frankiert mit der mobilen Briefmarke, ein Produkt der Deutschen Post",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg/1280px-Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Briefumschlag_Mobile_Briefmarke_Deutsche_Post_2020.jpg",
+    "urheber": "Raimond Spekking",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Mobile Briefmarke",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Briefmarke weist die Bezahlung des Portos nach."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-streik",
    "zeit": "2026-09-26T13:08:11.042Z",
