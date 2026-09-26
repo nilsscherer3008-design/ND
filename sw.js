@@ -1,5 +1,5 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v12";
+const VERSION = "heft-v13";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest",
   "./manifest-wissen.webmanifest", "./manifest-wetter.webmanifest", "./manifest-podcast.webmanifest",
   "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
@@ -42,12 +42,24 @@ async function speicherZuerst(req) {
   return res;
 }
 
-// App-Dateien: sofort aus dem Speicher, im Hintergrund aktualisieren
-async function speicherUndAktualisieren(req) {
+// App-Dateien: erst das Netz fragen, der Speicher ist nur fürs Offline-Sein.
+//
+// Vorher kam hier zuerst die gespeicherte Fassung und erst im Hintergrund die
+// neue. Das hieß: Änderungen wurden frühestens beim übernächsten Öffnen sichtbar
+// - und an den Manifesten nie, weil die schon beim Einrichten abgelegt werden
+// und erst bei einer neuen Speicher-Nummer wieder geholt wurden. Tagelang lief
+// so die alte App weiter, obwohl auf dem Server längst die neue lag.
+async function netzDannSpeicher(req) {
   const cache = await caches.open(VERSION);
-  const hit = await cache.match(req, { ignoreSearch: true });
-  const netz = fetch(req).then(res => { if (res.ok) cache.put(req, res.clone()); return res; }).catch(() => hit);
-  return hit || netz;
+  try {
+    const res = await fetch(req);
+    if (res && res.ok) { cache.put(req, res.clone()); return res; }
+    const alt = await cache.match(req, { ignoreSearch: true });
+    return alt || res;
+  } catch {
+    const alt = await cache.match(req, { ignoreSearch: true });
+    return alt || Response.error();
+  }
 }
 
 // Die Seite selbst kommt zuerst aus dem Netz. Sonst bekommt man tagelang die
@@ -73,7 +85,7 @@ self.addEventListener("fetch", e => {
   // Tonaufnahmen tragen den Inhalt im Namen und ändern sich nie: einmal laden, dann aus dem Speicher
   if (url.pathname.endsWith(".mp3")) return e.respondWith(speicherZuerst(req));
   if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com") || url.hostname.endsWith("wikimedia.org")) return e.respondWith(speicherZuerst(req));
-  if (url.origin === self.location.origin) return e.respondWith(speicherUndAktualisieren(req));
+  if (url.origin === self.location.origin) return e.respondWith(netzDannSpeicher(req));
 });
 
 // ---------- Handy-Mitteilungen ----------
