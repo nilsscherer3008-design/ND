@@ -1,5 +1,5 @@
 // Offline-Unterstützung für das Nachrichten-Heft
-const VERSION = "heft-v13";
+const VERSION = "heft-v14";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest",
   "./manifest-wissen.webmanifest", "./manifest-wetter.webmanifest", "./manifest-podcast.webmanifest",
   "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
@@ -80,10 +80,20 @@ self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
   const url = new URL(req.url);
+
+  // Ton läuft am Offline-Helfer VORBEI - er fasst ihn gar nicht erst an.
+  //
+  // Safari holt Tondateien nicht am Stück, sondern in Teilstücken ("Range").
+  // Die Antwort darauf ist eine Teilantwort, und die lässt sich nicht
+  // zwischenspeichern - der Versuch scheitert, und auf dem iPhone bleibt
+  // die Wiedergabe dann einfach stumm stehen. Am Rechner fällt das nicht
+  // auf, weil Chrome darüber hinwegsieht. Deshalb ging der Podcast auf dem
+  // Laptop und auf dem Handy nicht.
+  if (req.headers.has("range") || req.destination === "audio" || req.destination === "video"
+      || url.pathname.endsWith(".mp3")) return;
+
   if (req.mode === "navigate") return e.respondWith(seiteHolen(req));
   if (url.pathname.endsWith(".json")) return e.respondWith(netzZuerst(req));
-  // Tonaufnahmen tragen den Inhalt im Namen und ändern sich nie: einmal laden, dann aus dem Speicher
-  if (url.pathname.endsWith(".mp3")) return e.respondWith(speicherZuerst(req));
   if (url.hostname.includes("fonts.googleapis.com") || url.hostname.includes("fonts.gstatic.com") || url.hostname.endsWith("wikimedia.org")) return e.respondWith(speicherZuerst(req));
   if (url.origin === self.location.origin) return e.respondWith(netzDannSpeicher(req));
 });
