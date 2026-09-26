@@ -1,6 +1,208 @@
 {
- "stand": "2026-09-25T13:41:39.636Z",
+ "stand": "2026-09-26T07:35:59.236Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-polarlicht",
+   "zeit": "2026-09-26T07:41:57.905Z",
+   "bereich": "Erde und Klima",
+   "titel": "Wie entsteht eigentlich ein Polarlicht?",
+   "vorspann": "Polarlichter sind farbige Leuchterscheinungen am Nachthimmel in der Nähe der Magnetpole. Sie entstehen, wenn geladene Teilchen der Sonne auf die Erdatmosphäre treffen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Polarlicht wird wissenschaftlich Aurora borealis als Nordlicht auf der Nordhalbkugel und Aurora australis als Südlicht auf der Südhalbkugel genannt. Es handelt sich um ein Elektrometeor, das durch angeregte Stickstoff- und Sauerstoffatome in der Hochatmosphäre entsteht. Meistens sind Polarlichter in etwa drei bis sechs Breitengrade umfassenden Bändern in der Nähe der Magnetpole zu sehen. Die geladenen Teilchen, die das Leuchten auslösen, wechselwirken mit dem Erdmagnetfeld. Wenn sie in den Polarregionen auf die Erdatmosphäre treffen, leuchtet der Himmel.",
+      "Besonders häufig treten Polarlichter in Alaska, Kanada, Finnland, Island und Norwegen auf. Auch auf anderen Planeten wie dem Mars oder dem Jupiter wurden solche Erscheinungen beobachtet. Zudem kommen Polarlichter in seltenen Fällen in Mitteleuropa vor, was besonders vom elfjährigen Sonnenfleckenzyklus abhängt. Im Mittel können während der Phase des solaren Maximums im deutschsprachigen Raum etwa zehn bis zwanzig dieser Leuchterscheinungen pro Jahr beobachtet werden. Früher galten sie in vielen Sagen als Zeichen von Göttern oder als Vorboten für schlimme Zeiten."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Sonne ist unstet und kann bei heftigen Sonneneruptionen einen koronalen Massenauswurf hervorbringen. Dieser erreicht nach etwa zwei Tagen die Erde und stört die Magnetosphäre, was als geomagnetischer Sturm bezeichnet wird. Durch elektromagnetische Induktion entsteht auf der Nachtseite der Erde Elektrizität, wodurch Elektronen beschleunigt werden. Diese bewegen sich in weltumspannenden Strömen um die Erde und werden spiralförmig zu den Fußpunkten geleitet. Dort treffen sie auf Sauerstoff- und Stickstoffatome und regen diese an.",
+      "Beim Rückfall in den Grundzustand senden die Atome Licht aus. Sauerstoffatome erzeugen meist grünes oder rotes Phosphoreszenzlicht, während Stickstoffatome Blau und Violett erzeugen. Das rote Licht entsteht in etwa zweihundertfünfzig Kilometer Höhe und das grüne Licht in etwa einhundertzwanzig Kilometer Höhe. Die Farben dienen dabei als Indikator für den Luftdruck in der jeweiligen Höhe. Es gibt vier verschiedene Arten von Polarlichtern, die von den Sonnenwinden abhängen: Corona, Vorhänge, ruhige Bögen und Bänder."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die Höhe der Polarlichter wurde schon im achtzehnten Jahrhundert durch Triangulation bestimmt. Dabei wird ein charakteristisches Merkmal von zwei Beobachtern in möglichst großen Abständen angepeilt. John Dalton und Henry Cavendish gelang so in den Jahren 1789 und 1790 eine Höhenbestimmung von achtzig bis einhundertsechzig Kilometern. Im zwanzigsten Jahrhundert erhielt Carl Störmer durch zahlreiche Bildauswertungen mittlere Höhen für das grüne Licht von einhundertzehn Kilometern. Zudem nutzen Forschende heute Daten von Weltraummissionen der Agenturen ESA und NASA zur Erforschung der Sonne."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Die statistische Ableitung zur Häufigkeit von Polarlichtern im Herbst und Frühjahr ist laut dem Artikel nicht absolut gesichert, da hier noch genaue Nachweise für den Einfluss der Erdachsenneigung fehlen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Geschwindigkeit des Sonnenwindes",
+     "ca. 1000 km/s"
+    ],
+    [
+     "Höhe des roten Lichts",
+     "~250 km"
+    ],
+    [
+     "Höhe des grünen Lichts",
+     "~120 km"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Aurora",
+     "Der wissenschaftliche Begriff für das Polarlicht, der sich von lateinischen Wörtern für Morgenröte und Himmelsrichtungen ableitet."
+    ],
+    [
+     "Geomagnetischer Sturm",
+     "Eine Störung der Magnetosphäre der Erde, die durch Sonneneruptionen ausgelöst wird."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wo treten Polarlichter besonders häufig auf?",
+     "optionen": [
+      "In Alaska, Kanada, Finnland, Island und Norwegen",
+      "In Mitteleuropa und im Mittelmeerraum",
+      "In den Tropen und Äquatorregionen"
+     ],
+     "richtig": 0,
+     "erklaerung": "Polarlichter treten hauptsächlich in den Polarregionen auf, wo die Feldlinien die Atmosphäre durchdringen."
+    }
+   ],
+   "video": [
+    "Polarlichter sind faszinierende Leuchterscheinungen am Nachthimmel der Polarregionen.",
+    "Sie werden wissenschaftlich als Aurora borealis oder Aurora australis bezeichnet.",
+    "Ausgelöst werden sie durch hochenergetische Teilchen der Sonne.",
+    "Diese Teilchen treffen auf das Magnetfeld der Erde.",
+    "In der Erdatmosphäre regen sie Sauerstoff- und Stickstoffatome an.",
+    "Beim Rückfall in den Grundzustand senden diese Atome farbiges Licht aus.",
+    "Rotes Licht entsteht in etwa zweihundertfünfzig Kilometern Höhe.",
+    "Grünes Licht leuchtet in etwa einhundertzwanzig Kilometern Höhe."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Polarlicht",
+    "bildunterschrift": "Ein farbiges Polarlicht leuchtet am Nachthimmel über einer Winterlandschaft."
+   },
+   "quelle": {
+    "titel": "Polarlicht",
+    "url": "https://de.wikipedia.org/wiki/Polarlicht",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 408,
+   "bildInfos": [
+    {
+     "titel": "Leuchtturm Akranes Iceland 2015 7001.jpg",
+     "beschreibung": "Leuchtturm Akranes Iceland",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leuchtturm_Akranes_Iceland_2015_7001.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leuchtturm_Akranes_Iceland_2015_7001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Leuchtturm_Akranes_Iceland_2015_7001.jpg",
+     "urheber": "Theo Schacht",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Polarlicht",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein farbiges Polarlicht leuchtet am Nachthimmel über einer Winterlandschaft."
+    },
+    {
+     "titel": "Amundsen-Scott marsstation ray h edit.jpg",
+     "beschreibung": "A full moon and 25 second exposure allowed sufficient light into this photo taken at Amundsen-Scott South Pole Station during the long Antarctic night . The new station can be seen at far left, power ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Amundsen-Scott_marsstation_ray_h_edit.jpg/1280px-Amundsen-Scott_marsstation_ray_h_edit.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Amundsen-Scott_marsstation_ray_h_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Amundsen-Scott_marsstation_ray_h_edit.jpg",
+     "urheber": "Photo by Chris Danals, National Science Foundation",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "A full moon and 25 second exposure allowed sufficient light into this photo taken at Amundsen-Scott South Pole Station during the long Antarctic night . The new station can be seen at far left, power "
+    },
+    {
+     "titel": "Aurora2.jpg",
+     "beschreibung": "Purple polar aurora seen from Alaska",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Aurora2.jpg/1280px-Aurora2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/12/Aurora2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aurora2.jpg",
+     "urheber": "Jan Curtis of the Geophysical Institute at the University of Alaska, ACRC",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Purple polar aurora seen from Alaska"
+    },
+    {
+     "titel": "Aurora Australis From Melbourne.jpg",
+     "beschreibung": "Photographed from Southern Melbourne (38° S)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aurora_Australis_From_Melbourne.jpg/1280px-Aurora_Australis_From_Melbourne.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aurora_Australis_From_Melbourne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aurora_Australis_From_Melbourne.jpg",
+     "urheber": "Yash Soorma",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Photographed from Southern Melbourne (38° S)"
+    },
+    {
+     "titel": "Aurora Saturn.jpg",
+     "beschreibung": "Saturn with ultraviolet Aurorae, photographed in October 1997 by the Hubble Space Telescope's Space Telescope Imaging Spectrograph (STIS) from a distance of 810 million miles (1.3 billion kilometers) ",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aurora_Saturn.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aurora_Saturn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aurora_Saturn.jpg",
+     "urheber": "J.T. Trauger (Jet Propulsion Laboratory) and NASA/ESA",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Saturn with ultraviolet Aurorae, photographed in October 1997 by the Hubble Space Telescope's Space Telescope Imaging Spectrograph (STIS) from a distance of 810 million miles (1.3 billion kilometers) "
+    },
+    {
+     "titel": "Aurora Seen From Space by NASA.jpg",
+     "beschreibung": "An image from the International Space Station shows a bright green and red aurora over our planet. The red coloring is reportedly caused by nitrogen in the Earth's atmosphere being bombarded with radi",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Aurora_Seen_From_Space_by_NASA.jpg/1280px-Aurora_Seen_From_Space_by_NASA.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Aurora_Seen_From_Space_by_NASA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aurora_Seen_From_Space_by_NASA.jpg",
+     "urheber": "NASA -- US government agency",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "An image from the International Space Station shows a bright green and red aurora over our planet. The red coloring is reportedly caused by nitrogen in the Earth's atmosphere being bombarded with radi"
+    },
+    {
+     "titel": "Aurora shapes.jpg",
+     "beschreibung": "Polar aurora, Iceland Feb. 2014. Canon EOS 400D, 17mm-f2,8- Iso 1600. First row exposure time 30-20sec, with the naked eye slightly visible. Second row exposure time 4sec., clearly visible.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Aurora_shapes.jpg/1280px-Aurora_shapes.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/29/Aurora_shapes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aurora_shapes.jpg",
+     "urheber": "Schnuffel2002",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Polar aurora, Iceland Feb. 2014. Canon EOS 400D, 17mm-f2,8- Iso 1600. First row exposure time 30-20sec, with the naked eye slightly visible. Second row exposure time 4sec., clearly visible."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Leuchtturm Akranes Iceland 2015 7001.jpg",
+    "beschreibung": "Leuchtturm Akranes Iceland",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leuchtturm_Akranes_Iceland_2015_7001.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Leuchtturm_Akranes_Iceland_2015_7001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Leuchtturm_Akranes_Iceland_2015_7001.jpg",
+    "urheber": "Theo Schacht",
+    "lizenz": "CC BY-SA 3.0 de",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "artikel": "Polarlicht",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein farbiges Polarlicht leuchtet am Nachthimmel über einer Winterlandschaft."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-das-ampel-system",
    "zeit": "2026-09-25T13:46:19.605Z",
