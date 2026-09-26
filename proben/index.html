@@ -4,139 +4,303 @@
 <title>Stimmen anhören</title>
 <style>
   :root{color-scheme:light dark}
-  body{font-family:system-ui,sans-serif;margin:0;padding:18px;max-width:640px;margin-inline:auto;line-height:1.5}
+  body{font-family:system-ui,sans-serif;margin:0;padding:18px;max-width:660px;margin-inline:auto;line-height:1.5}
   h1{font-size:1.4rem;margin:0 0 6px}
   p.hin{color:#667;margin:0 0 18px}
-  .p{border:1px solid #8884;border-radius:12px;padding:12px 14px;margin-bottom:10px}
-  .p b{display:block;margin-bottom:8px}
+  .p{border:1px solid #8884;border-left-width:5px;border-radius:12px;padding:12px 14px;margin-bottom:10px}
+  .p.gut{border-left-color:#1B7A46} .p.mittel{border-left-color:#9A5A0B}
+  .p.schlecht{border-left-color:#A33326;opacity:.72} .p.ohne{border-left-color:#8888}
+  .p b{display:block}
+  .urteil{display:block;font-size:.85rem;color:#667;margin:2px 0 8px}
   audio{width:100%}
+  .d{float:right;font-weight:400;color:#889;font-size:.85rem}
+  .gehoert{font-size:.82rem;color:#778;margin:8px 0 0;font-style:italic}
   label{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-size:.9rem;color:#667}
   #raus{position:sticky;bottom:10px;width:100%;padding:14px;font-size:1rem;font-weight:700;
-    border:0;border-radius:12px;background:#16407A;color:#fff;margin-top:16px}
+    border:0;border-radius:12px;background:#4A2A6B;color:#fff;margin-top:16px}
   #liste{margin-top:10px;font-family:ui-monospace,monospace;font-size:1.1rem;text-align:center}
 </style></head><body>
 <h1>Welche Stimmen sollen den Podcast sprechen?</h1>
-<p class="hin">Hör dir die Proben an und hak die an, die dir gefallen. Unten kommt dann
-eine Liste mit Nummern heraus – die schickst du mir, und ich setze die Besetzung zusammen.</p>
-  <div class="p">
-    <b>Sprecher 0</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-000.mp3"></audio>
+<p class="hin">Eine Spracherkennung hat jeder Stimme zugehört und mitgeschrieben. Der Prozentwert sagt, wie viele Wörter sie falsch verstanden hat – je niedriger, desto verständlicher. Oben stehen die besten.</p>
+  <div class="p schlecht">
+    <b>Sprecher 0 <span class="d">32 % falsch · 30.7s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-000.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Hier ist das Nachrichten Heft.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angewogen.  Vorhin sind sich die Berichte eigentlich einig und wo gehen sie auseinander?"</p>
     <label><input type="checkbox" data-n="0"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 9</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-009.mp3"></audio>
-    <label><input type="checkbox" data-n="9"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 195 <span class="d">35 % falsch · 19.3s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-195.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „– Utena, Rente, hier ist was, Nachrichten. Die Institute haben ihre Prognose von 0,6 auf 1,3  trotzdem angefroken. Worin sind sich die Berichte eigentlich einig? Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="195"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 18</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-018.mp3"></audio>
-    <label><input type="checkbox" data-n="18"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 50 <span class="d">41 % falsch · 18.0s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-050.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die ist das Nachrichtenhefter.  Die Institute haben ihre Prognose von 0,6 auf 1,3 Prozent an Drohnen.  Worin sind sich die Berichte eigentlich einige und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="50"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 27</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-027.mp3"></audio>
-    <label><input type="checkbox" data-n="27"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 80 <span class="d">41 % falsch · 19.5s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-080.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Und da finden wir, dir ist das Nachrichten.  Heft, die Institute, haben ihre Prognose von 0,6 auf 1,3 Prozent angerufen.  Wo sind sich die Berichte?  Eigentlich einige, und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="80"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 36</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-036.mp3"></audio>
-    <label><input type="checkbox" data-n="36"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 190 <span class="d">41 % falsch · 18.1s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-190.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „«Wut, wenn...»  «Abend hier ist das Nachrichten, Riffa.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Proben, wenn sich die Berichte, eigentlich einige, und wo dehn sie auseinander.»"</p>
+    <label><input type="checkbox" data-n="190"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 45</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-045.mp3"></audio>
-    <label><input type="checkbox" data-n="45"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 20 <span class="d">44 % falsch · 20.6s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-020.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute haben ihre Prognose von 0,6 auch 1,3 Prozent angehoben. Worin sind sich die Berichte? Eigentlich einige, und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="20"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 54</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-054.mp3"></audio>
-    <label><input type="checkbox" data-n="54"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 25 <span class="d">44 % falsch · 18.9s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-025.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Befugtenarfen, die jetzt das Nachrichten häfst da.  Die Institute haben ihr Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Böchte eigentlich einig, und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="25"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 63</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-063.mp3"></audio>
-    <label><input type="checkbox" data-n="63"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 55 <span class="d">44 % falsch · 26.8s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-055.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Berichte eigentlich einiggen und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="55"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 72</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-072.mp3"></audio>
-    <label><input type="checkbox" data-n="72"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 125 <span class="d">44 % falsch · 19.3s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-125.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Upenbar...  ... und die ist das Nachrichten Lefter.  Die Institute haben ihre Prognose von 0,6 aufhenspommer 3% angehoben.  Wohin sind sich die Bewichte eigentlich einige und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="125"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 81</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-081.mp3"></audio>
-    <label><input type="checkbox" data-n="81"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 15 <span class="d">47 % falsch · 15.9s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-015.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die ist das Nachrichtenhef.  Die Institute hat mir eine Prognose von 0,6 auf 1,5% angerufen.  Worin sind sich die Berichte eigentlich einig?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="15"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 90</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-090.mp3"></audio>
+  <div class="p schlecht">
+    <b>Sprecher 30 <span class="d">47 % falsch · 19.6s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-030.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Bei gutem Nachwärts...  Hier ist das Nachwicht in Hörff.  Die Institute haben ihre Prognose von Null,  Kommara 6 auf 1,3 Prozent anderer.  Wo wenn sind sich die Bewächter eigentlich einigge?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="30"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 90 <span class="d">47 % falsch · 25.7s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-090.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Luther anw alleged,  dir ist das Nachrichten Vegetar."  Dinstitute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Woran sind sich die Berichte eigentlich reinigen  und wo gehen sie auseinander?"</p>
     <label><input type="checkbox" data-n="90"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 99</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-099.mp3"></audio>
-    <label><input type="checkbox" data-n="99"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 95 <span class="d">47 % falsch · 17.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-095.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten Abend. Hier ist das Nachrichtenf.  Ja, die Institute daten ihre Pognose von 0,6 auf 1,3% angeruhen.  Wohnen sich die Berichte eigentlich einig, und wo gehen sie aus, heinander?"</p>
+    <label><input type="checkbox" data-n="95"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 108</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-108.mp3"></audio>
-    <label><input type="checkbox" data-n="108"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 115 <span class="d">47 % falsch · 15.9s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-115.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Udenatemt, die ist das Nachrichtenhefter. Die Institute haben ihre Prognose von 0,6 auf 1,3% an Behov.  Woran sind sich die Wirklichte eigentlich einige und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="115"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 117</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-117.mp3"></audio>
-    <label><input type="checkbox" data-n="117"> merken</label>
-  </div>
-  <div class="p">
-    <b>Sprecher 126</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-126.mp3"></audio>
-    <label><input type="checkbox" data-n="126"> merken</label>
-  </div>
-  <div class="p">
-    <b>Sprecher 135</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-135.mp3"></audio>
+  <div class="p schlecht">
+    <b>Sprecher 135 <span class="d">47 % falsch · 22.8s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-135.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Gut, dann den Namen ab.  Hier ist das Nachrichten.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angeroben.  Worin sind sich die Berichte eigentlich einig hier und wo sehen sie auseinander?"</p>
     <label><input type="checkbox" data-n="135"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 144</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-144.mp3"></audio>
-    <label><input type="checkbox" data-n="144"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 170 <span class="d">47 % falsch · 21.4s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-170.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „U-Dindra, was man hier? Ist das Nachrichtenheftelme. Die Institute haben ihre Prognose von 0,6 auf 1,3% angeroben.  Ohren sind sich die Berichte eigentlich einigre und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="170"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 153</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-153.mp3"></audio>
-    <label><input type="checkbox" data-n="153"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 175 <span class="d">47 % falsch · 15.5s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-175.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Uten, ein A-Lobbenträger ist das Nachrichten, ist ...  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Wo sind sich die Bewohner eigentlich einig, und probieren sie auseinander?"</p>
+    <label><input type="checkbox" data-n="175"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 162</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-162.mp3"></audio>
-    <label><input type="checkbox" data-n="162"> merken</label>
-  </div>
-  <div class="p">
-    <b>Sprecher 171</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-171.mp3"></audio>
-    <label><input type="checkbox" data-n="171"> merken</label>
-  </div>
-  <div class="p">
-    <b>Sprecher 180</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-180.mp3"></audio>
+  <div class="p schlecht">
+    <b>Sprecher 180 <span class="d">47 % falsch · 23.1s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-180.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute haben ihre Prognose von 0,6 auf 1,3% anberufen.  Vorhin sind sich die Berichte eigentlich einig.  Und wo gehen sie auseinander?"</p>
     <label><input type="checkbox" data-n="180"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 189</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-189.mp3"></audio>
-    <label><input type="checkbox" data-n="189"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 40 <span class="d">50 % falsch · 18.6s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-040.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Wusste es gut, wenn der war Panzerlöhrer? Hier ist das Nachrichtengelf.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Berichte eigentlich feinig? Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="40"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 198</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-198.mp3"></audio>
-    <label><input type="checkbox" data-n="198"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 70 <span class="d">50 % falsch · 17.7s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-070.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten, a-f-n-b, t-s, das Nachrichtenwesb.  Die Institute haben ihre Prognose von 0,6 auf 1,2 Prozent an Wobeln.  Worin sind sich die Berichte eigentlich einiger und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="70"> merken</label>
   </div>
-  <div class="p">
-    <b>Sprecher 207</b>
-    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-207.mp3"></audio>
-    <label><input type="checkbox" data-n="207"> merken</label>
+  <div class="p schlecht">
+    <b>Sprecher 75 <span class="d">50 % falsch · 16.0s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-075.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Du, Tim, abends, erhör, dir ist das Nachrichten hefter.  Die Institute haben ihre Prognose von 0,6 auf 1,5 Prozent an Dorotenbar.  Wo wenn sind sich die Gewichte eigentlich einnäckel?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="75"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 150 <span class="d">50 % falsch · 18.3s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-150.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Gute Narben!  Dir! ist sein was Nachrichten, PFTOL.  Die Institute haben ihre Prognose von 0,6 auf 1,3% androhen.  Wohin sind sich die Bewichte?  Eigentlich einige und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="150"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 5 <span class="d">53 % falsch · 16.6s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-005.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Und um bitte ...  ... abend weg.  Wir ist das Nachrichtenhefter.  Die Institut haben ihre Bruchnurwe von 0,6 auf 1,3 Prozent angehoben.  Wollen sind sich die Brüchte eigentlich einigere und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="5"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 35 <span class="d">53 % falsch · 20.5s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-035.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Gute Trenne, bei Abend.  Bier.  Ich hittes Nachrichtenpäfte.  Die Institute haben ihr Prognose von 0,6 auf 1,3% angehoben.  Wohin sind sich die Berichte eigentlich einige?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="35"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 65 <span class="d">53 % falsch · 19.0s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-065.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute hatten ihre Propose von 0,6 auf 1,3% angehoben.  Worin sind sich die Bewichte eigentlich weiniger?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="65"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 110 <span class="d">53 % falsch · 17.8s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-110.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten, beim Lacken dir ist das nachfügt im Heft sein.  Die Institute hat ihre Prognose von 0,6 auf 1,5 % angerufen.  Wo wenn sich die Berichte eigentlich einnägel?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="110"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 140 <span class="d">53 % falsch · 20.4s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-140.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute haben ihre Prognose von 0,6 auf 1,3% an Euro.  Worin sind sich die Bewichter eigentlich ein Nickel und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="140"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 165 <span class="d">53 % falsch · 19.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-165.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Und entwarten, die in ihr ins Gefährtes Nachrichten.  F-Zone, die Institute, haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Bewichte eigentlich weinige?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="165"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 185 <span class="d">53 % falsch · 16.9s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-185.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Wo sind die Arten? Hier ist die Nachricht in Hester.  Die Institute haben ihre Prognose von 0,6 auf 1,3 Prozent an oben.  Worin sind sich die Berichte? Eigen sich einig und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="185"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 100 <span class="d">56 % falsch · 18.4s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-100.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten Nacht, Herr Dürre.  Dir ist das Nachrichten...  ...häfff...  ...da.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angerufen.  Wohin sind die Berichte eigentlich einigelt?  Und wo gehen sie raus einander?"</p>
+    <label><input type="checkbox" data-n="100"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 105 <span class="d">56 % falsch · 17.9s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-105.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Schwerde, Runden, Rehab und Wien, ist das Nachrichten.  F.  Na, die Institute haben eine Gruppnose von 0,631,3% angehoben.  Worin sind die Berichte eigentlich Einige?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="105"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 120 <span class="d">56 % falsch · 18.5s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-120.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Und, ah, fragen wir, ist das Nachricht, Ren-Petra?  Die Institut der Aronäre-Prognose von 0,6 auf 1,3 Prozent anderer Ruhm  buntend sich die Berichte eigentlich einig. Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="120"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 130 <span class="d">56 % falsch · 20.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-130.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institute haben ihre Prognose von 0,61,3% angehoren.  Worin sind sich?  Die Berichte eidentwie einigeln.  Und wo geben sie auseinander?"</p>
+    <label><input type="checkbox" data-n="130"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 145 <span class="d">56 % falsch · 20.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-145.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Uuuh, ähm, ah, äh, sadend.  Ihr helst das Nachrichtenlester.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angerufen.  Worin sind sich die Bewächte eigentlich reiniger und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="145"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 85 <span class="d">59 % falsch · 15.7s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-085.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten Tag, Herr Vierheber.  Das Nachrichtenbeft, die Institute, haben ihre Prognose von Neuberma 6 auf 1,3 Prozelt an Ruhen.  Wurden sie sich die Börchenei in Dich Heinecke, und wo wehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="85"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 155 <span class="d">59 % falsch · 19.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-155.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Die Institut hat ihre Prognose von 0,6 auf 1,3 Prozent angehoben.  Wo bin ich, sind sich die Bewichte eigentlich einigel, und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="155"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 160 <span class="d">59 % falsch · 19.5s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-160.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Warum? Zum Ende.  Herr Arndard, wenn Sie jetzt nicht das Nachrichten, hefter.  Die Institute haben Ihre Probeose von 0,6 auf 1,3% angehoben.  Worin sind sich die Verbichte eigentlich einigke?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="160"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 45 <span class="d">62 % falsch · 22.7s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-045.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten, ja, ja, ja, ja, ja, was sag ich da?  Häft.  Die Institute haben ihre Prognose, vor allem 0,6 auf 1,38 Prozent, androh.  Woher sind sich die Bewüchte eigentlich einige?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="45"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 10 <span class="d">68 % falsch · 19.4s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-010.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Guten Tag, Herr Rund.  Wie geht es Ihnen?  Die Nachrichten kämpfen.  Die Institute hat ihre Prognose von 0,6 auf 1,3 % angehoben.  Woin liegt sich die Bewichte eigentlich ein, Herr Köhler?  Und wo gehen Sie auseinander?"</p>
+    <label><input type="checkbox" data-n="10"> merken</label>
+  </div>
+  <div class="p schlecht">
+    <b>Sprecher 60 <span class="d">68 % falsch · 20.2s</span></b>
+    <span class="urteil">schwer verständlich</span>
+    <audio controls preload="none" src="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/proben/probe-060.mp3?v=1790418186"></audio>
+    <p class="gehoert">Verstanden wurde: „Der U-Zwirlmärm, warte schon zu.  Hier ist Tosnafricht in der Fra.  Die Institute haben ihre Probenose von 0,6 auf 1,3% angeoben.  Worin sind sich die Bewächte weil nämlich einigte?  Und wo gehen sie auseinander?"</p>
+    <label><input type="checkbox" data-n="60"> merken</label>
   </div>
 <button id="raus">Ausgewählte anzeigen</button>
 <div id="liste"></div>

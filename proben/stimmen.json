@@ -1,29 +1,292 @@
 {
  "modell": "de_DE-mls-medium",
+ "grundtempo": 1,
+ "texte": [
+  "Guten Abend, hier ist das Nachrichten-Heft.",
+  "Die Institute haben ihre Prognose von null Komma sechs auf eins Komma drei Prozent angehoben.",
+  "Worin sind sich die Berichte eigentlich einig, und wo gehen sie auseinander?"
+ ],
+ "gemessen": true,
  "sprecher": [
-  0,
-  9,
-  18,
-  27,
-  36,
-  45,
-  54,
-  63,
-  72,
-  81,
-  90,
-  99,
-  108,
-  117,
-  126,
-  135,
-  144,
-  153,
-  162,
-  171,
-  180,
-  189,
-  198,
-  207
+  {
+   "nr": 0,
+   "sekunden": 30.7,
+   "kb": 239,
+   "fehlerrate": 0.324,
+   "gehoert": "Hier ist das Nachrichten Heft.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angewogen.  Vorhin sind sich die Berichte eigentlich einig und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 195,
+   "sekunden": 19.3,
+   "kb": 150,
+   "fehlerrate": 0.353,
+   "gehoert": "– Utena, Rente, hier ist was, Nachrichten. Die Institute haben ihre Prognose von 0,6 auf 1,3  trotzdem angefroken. Worin sind sich die Berichte eigentlich einig? Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 50,
+   "sekunden": 18.0,
+   "kb": 140,
+   "fehlerrate": 0.412,
+   "gehoert": "Die ist das Nachrichtenhefter.  Die Institute haben ihre Prognose von 0,6 auf 1,3 Prozent an Drohnen.  Worin sind sich die Berichte eigentlich einige und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 80,
+   "sekunden": 19.5,
+   "kb": 152,
+   "fehlerrate": 0.412,
+   "gehoert": "Und da finden wir, dir ist das Nachrichten.  Heft, die Institute, haben ihre Prognose von 0,6 auf 1,3 Prozent angerufen.  Wo sind sich die Berichte?  Eigentlich einige, und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 190,
+   "sekunden": 18.1,
+   "kb": 141,
+   "fehlerrate": 0.412,
+   "gehoert": "«Wut, wenn...»  «Abend hier ist das Nachrichten, Riffa.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Proben, wenn sich die Berichte, eigentlich einige, und wo dehn sie auseinander.»"
+  },
+  {
+   "nr": 20,
+   "sekunden": 20.6,
+   "kb": 160,
+   "fehlerrate": 0.441,
+   "gehoert": "Die Institute haben ihre Prognose von 0,6 auch 1,3 Prozent angehoben. Worin sind sich die Berichte? Eigentlich einige, und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 25,
+   "sekunden": 18.9,
+   "kb": 147,
+   "fehlerrate": 0.441,
+   "gehoert": "Befugtenarfen, die jetzt das Nachrichten häfst da.  Die Institute haben ihr Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Böchte eigentlich einig, und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 55,
+   "sekunden": 26.8,
+   "kb": 209,
+   "fehlerrate": 0.441,
+   "gehoert": "Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Berichte eigentlich einiggen und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 125,
+   "sekunden": 19.3,
+   "kb": 150,
+   "fehlerrate": 0.441,
+   "gehoert": "Upenbar...  ... und die ist das Nachrichten Lefter.  Die Institute haben ihre Prognose von 0,6 aufhenspommer 3% angehoben.  Wohin sind sich die Bewichte eigentlich einige und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 15,
+   "sekunden": 15.9,
+   "kb": 124,
+   "fehlerrate": 0.471,
+   "gehoert": "Die ist das Nachrichtenhef.  Die Institute hat mir eine Prognose von 0,6 auf 1,5% angerufen.  Worin sind sich die Berichte eigentlich einig?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 30,
+   "sekunden": 19.6,
+   "kb": 153,
+   "fehlerrate": 0.471,
+   "gehoert": "Bei gutem Nachwärts...  Hier ist das Nachwicht in Hörff.  Die Institute haben ihre Prognose von Null,  Kommara 6 auf 1,3 Prozent anderer.  Wo wenn sind sich die Bewächter eigentlich einigge?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 90,
+   "sekunden": 25.7,
+   "kb": 200,
+   "fehlerrate": 0.471,
+   "gehoert": "Luther anw alleged,  dir ist das Nachrichten Vegetar.\"  Dinstitute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Woran sind sich die Berichte eigentlich reinigen  und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 95,
+   "sekunden": 17.2,
+   "kb": 134,
+   "fehlerrate": 0.471,
+   "gehoert": "Guten Abend. Hier ist das Nachrichtenf.  Ja, die Institute daten ihre Pognose von 0,6 auf 1,3% angeruhen.  Wohnen sich die Berichte eigentlich einig, und wo gehen sie aus, heinander?"
+  },
+  {
+   "nr": 115,
+   "sekunden": 15.9,
+   "kb": 124,
+   "fehlerrate": 0.471,
+   "gehoert": "Udenatemt, die ist das Nachrichtenhefter. Die Institute haben ihre Prognose von 0,6 auf 1,3% an Behov.  Woran sind sich die Wirklichte eigentlich einige und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 135,
+   "sekunden": 22.8,
+   "kb": 178,
+   "fehlerrate": 0.471,
+   "gehoert": "Gut, dann den Namen ab.  Hier ist das Nachrichten.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angeroben.  Worin sind sich die Berichte eigentlich einig hier und wo sehen sie auseinander?"
+  },
+  {
+   "nr": 170,
+   "sekunden": 21.4,
+   "kb": 167,
+   "fehlerrate": 0.471,
+   "gehoert": "U-Dindra, was man hier? Ist das Nachrichtenheftelme. Die Institute haben ihre Prognose von 0,6 auf 1,3% angeroben.  Ohren sind sich die Berichte eigentlich einigre und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 175,
+   "sekunden": 15.5,
+   "kb": 121,
+   "fehlerrate": 0.471,
+   "gehoert": "Uten, ein A-Lobbenträger ist das Nachrichten, ist ...  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Wo sind sich die Bewohner eigentlich einig, und probieren sie auseinander?"
+  },
+  {
+   "nr": 180,
+   "sekunden": 23.1,
+   "kb": 180,
+   "fehlerrate": 0.471,
+   "gehoert": "Die Institute haben ihre Prognose von 0,6 auf 1,3% anberufen.  Vorhin sind sich die Berichte eigentlich einig.  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 40,
+   "sekunden": 18.6,
+   "kb": 145,
+   "fehlerrate": 0.5,
+   "gehoert": "Wusste es gut, wenn der war Panzerlöhrer? Hier ist das Nachrichtengelf.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Berichte eigentlich feinig? Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 70,
+   "sekunden": 17.7,
+   "kb": 138,
+   "fehlerrate": 0.5,
+   "gehoert": "Guten, a-f-n-b, t-s, das Nachrichtenwesb.  Die Institute haben ihre Prognose von 0,6 auf 1,2 Prozent an Wobeln.  Worin sind sich die Berichte eigentlich einiger und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 75,
+   "sekunden": 16.0,
+   "kb": 125,
+   "fehlerrate": 0.5,
+   "gehoert": "Du, Tim, abends, erhör, dir ist das Nachrichten hefter.  Die Institute haben ihre Prognose von 0,6 auf 1,5 Prozent an Dorotenbar.  Wo wenn sind sich die Gewichte eigentlich einnäckel?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 150,
+   "sekunden": 18.3,
+   "kb": 143,
+   "fehlerrate": 0.5,
+   "gehoert": "Gute Narben!  Dir! ist sein was Nachrichten, PFTOL.  Die Institute haben ihre Prognose von 0,6 auf 1,3% androhen.  Wohin sind sich die Bewichte?  Eigentlich einige und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 5,
+   "sekunden": 16.6,
+   "kb": 130,
+   "fehlerrate": 0.529,
+   "gehoert": "Und um bitte ...  ... abend weg.  Wir ist das Nachrichtenhefter.  Die Institut haben ihre Bruchnurwe von 0,6 auf 1,3 Prozent angehoben.  Wollen sind sich die Brüchte eigentlich einigere und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 35,
+   "sekunden": 20.5,
+   "kb": 160,
+   "fehlerrate": 0.529,
+   "gehoert": "Gute Trenne, bei Abend.  Bier.  Ich hittes Nachrichtenpäfte.  Die Institute haben ihr Prognose von 0,6 auf 1,3% angehoben.  Wohin sind sich die Berichte eigentlich einige?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 65,
+   "sekunden": 19.0,
+   "kb": 149,
+   "fehlerrate": 0.529,
+   "gehoert": "Die Institute hatten ihre Propose von 0,6 auf 1,3% angehoben.  Worin sind sich die Bewichte eigentlich weiniger?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 110,
+   "sekunden": 17.8,
+   "kb": 139,
+   "fehlerrate": 0.529,
+   "gehoert": "Guten, beim Lacken dir ist das nachfügt im Heft sein.  Die Institute hat ihre Prognose von 0,6 auf 1,5 % angerufen.  Wo wenn sich die Berichte eigentlich einnägel?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 140,
+   "sekunden": 20.4,
+   "kb": 159,
+   "fehlerrate": 0.529,
+   "gehoert": "Die Institute haben ihre Prognose von 0,6 auf 1,3% an Euro.  Worin sind sich die Bewichter eigentlich ein Nickel und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 165,
+   "sekunden": 19.2,
+   "kb": 150,
+   "fehlerrate": 0.529,
+   "gehoert": "Und entwarten, die in ihr ins Gefährtes Nachrichten.  F-Zone, die Institute, haben ihre Prognose von 0,6 auf 1,3% angehoben.  Worin sind sich die Bewichte eigentlich weinige?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 185,
+   "sekunden": 16.9,
+   "kb": 132,
+   "fehlerrate": 0.529,
+   "gehoert": "Wo sind die Arten? Hier ist die Nachricht in Hester.  Die Institute haben ihre Prognose von 0,6 auf 1,3 Prozent an oben.  Worin sind sich die Berichte? Eigen sich einig und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 100,
+   "sekunden": 18.4,
+   "kb": 144,
+   "fehlerrate": 0.559,
+   "gehoert": "Guten Nacht, Herr Dürre.  Dir ist das Nachrichten...  ...häfff...  ...da.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angerufen.  Wohin sind die Berichte eigentlich einigelt?  Und wo gehen sie raus einander?"
+  },
+  {
+   "nr": 105,
+   "sekunden": 17.9,
+   "kb": 140,
+   "fehlerrate": 0.559,
+   "gehoert": "Schwerde, Runden, Rehab und Wien, ist das Nachrichten.  F.  Na, die Institute haben eine Gruppnose von 0,631,3% angehoben.  Worin sind die Berichte eigentlich Einige?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 120,
+   "sekunden": 18.5,
+   "kb": 145,
+   "fehlerrate": 0.559,
+   "gehoert": "Und, ah, fragen wir, ist das Nachricht, Ren-Petra?  Die Institut der Aronäre-Prognose von 0,6 auf 1,3 Prozent anderer Ruhm  buntend sich die Berichte eigentlich einig. Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 130,
+   "sekunden": 20.2,
+   "kb": 157,
+   "fehlerrate": 0.559,
+   "gehoert": "Die Institute haben ihre Prognose von 0,61,3% angehoren.  Worin sind sich?  Die Berichte eidentwie einigeln.  Und wo geben sie auseinander?"
+  },
+  {
+   "nr": 145,
+   "sekunden": 20.2,
+   "kb": 158,
+   "fehlerrate": 0.559,
+   "gehoert": "Uuuh, ähm, ah, äh, sadend.  Ihr helst das Nachrichtenlester.  Die Institute haben ihre Prognose von 0,6 auf 1,3% angerufen.  Worin sind sich die Bewächte eigentlich reiniger und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 85,
+   "sekunden": 15.7,
+   "kb": 123,
+   "fehlerrate": 0.588,
+   "gehoert": "Guten Tag, Herr Vierheber.  Das Nachrichtenbeft, die Institute, haben ihre Prognose von Neuberma 6 auf 1,3 Prozelt an Ruhen.  Wurden sie sich die Börchenei in Dich Heinecke, und wo wehen sie auseinander?"
+  },
+  {
+   "nr": 155,
+   "sekunden": 19.2,
+   "kb": 150,
+   "fehlerrate": 0.588,
+   "gehoert": "Die Institut hat ihre Prognose von 0,6 auf 1,3 Prozent angehoben.  Wo bin ich, sind sich die Bewichte eigentlich einigel, und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 160,
+   "sekunden": 19.5,
+   "kb": 152,
+   "fehlerrate": 0.588,
+   "gehoert": "Warum? Zum Ende.  Herr Arndard, wenn Sie jetzt nicht das Nachrichten, hefter.  Die Institute haben Ihre Probeose von 0,6 auf 1,3% angehoben.  Worin sind sich die Verbichte eigentlich einigke?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 45,
+   "sekunden": 22.7,
+   "kb": 177,
+   "fehlerrate": 0.618,
+   "gehoert": "Guten, ja, ja, ja, ja, ja, was sag ich da?  Häft.  Die Institute haben ihre Prognose, vor allem 0,6 auf 1,38 Prozent, androh.  Woher sind sich die Bewüchte eigentlich einige?  Und wo gehen sie auseinander?"
+  },
+  {
+   "nr": 10,
+   "sekunden": 19.4,
+   "kb": 152,
+   "fehlerrate": 0.676,
+   "gehoert": "Guten Tag, Herr Rund.  Wie geht es Ihnen?  Die Nachrichten kämpfen.  Die Institute hat ihre Prognose von 0,6 auf 1,3 % angehoben.  Woin liegt sich die Bewichte eigentlich ein, Herr Köhler?  Und wo gehen Sie auseinander?"
+  },
+  {
+   "nr": 60,
+   "sekunden": 20.2,
+   "kb": 158,
+   "fehlerrate": 0.676,
+   "gehoert": "Der U-Zwirlmärm, warte schon zu.  Hier ist Tosnafricht in der Fra.  Die Institute haben ihre Probenose von 0,6 auf 1,3% angeoben.  Worin sind sich die Bewächte weil nämlich einigte?  Und wo gehen sie auseinander?"
+  }
  ]
 }
