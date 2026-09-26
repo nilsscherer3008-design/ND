@@ -156,7 +156,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Das Herz ist ein muskuläres Hohlorgan, das den Blutkreislauf antreibt."
-   }
+   },
+   "ton": [
+    {
+     "k": "Das Herz ist ein muskuläres Hohlorgan im Körper. Es pumpt Blut durch den Kreisla",
+     "d": "2528bd1fdc.mp3",
+     "l": 29.51,
+     "s": [
+      0.25,
+      3.54,
+      7.2,
+      10.81,
+      13.87,
+      18.97,
+      23.08,
+      26.47
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-die-briefmarke",
@@ -314,7 +331,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Briefmarke weist die Bezahlung des Portos nach."
-   }
+   },
+   "ton": [
+    {
+     "k": "Eine Briefmarke bestätigt die Zahlung für die Beförderung eines Briefes. Früher ",
+     "d": "c6ff1441fa.mp3",
+     "l": 39.0,
+     "s": [
+      0.25,
+      4.54,
+      7.95,
+      11.7,
+      16.43,
+      22.16,
+      29.31,
+      34.68
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-streik",
@@ -494,7 +528,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Streik ist eine Arbeitsniederlegung zur Durchsetzung gemeinsamer Ziele."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Streik ist eine vorübergehende Niederlegung der Arbeit durch viele Arbeitneh",
+     "d": "4c147781c6.mp3",
+     "l": 33.55,
+     "s": [
+      0.25,
+      5.24,
+      9.37,
+      12.49,
+      15.68,
+      19.63,
+      24.8,
+      29.06
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-ein-polarlicht",
@@ -696,7 +747,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein farbiges Polarlicht leuchtet am Nachthimmel über einer Winterlandschaft."
-   }
+   },
+   "ton": [
+    {
+     "k": "Polarlichter sind faszinierende Leuchterscheinungen am Nachthimmel der Polarregi",
+     "d": "b065ae72c8.mp3",
+     "l": 34.76,
+     "s": [
+      0.25,
+      5.36,
+      10.64,
+      14.27,
+      17.52,
+      21.77,
+      26.37,
+      30.43
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-das-ampel-system",
@@ -1266,24 +1334,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Pantomime ist eine darstellende Kunst ohne Worte."
-   },
-   "ton": [
-    {
-     "k": "Die Pantomime ist eine alte Form der darstellenden Kunst. Dabei drücken Künstler",
-     "d": "09c823f1e4.mp3",
-     "l": 27.91,
-     "s": [
-      0.25,
-      4.03,
-      7.31,
-      10.67,
-      13.7,
-      17.31,
-      19.69,
-      24.46
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-die-keilschrift",
@@ -1376,24 +1427,7 @@
     "url": "https://de.wikipedia.org/wiki/Keilschrift",
     "lizenz": "CC BY-SA 4.0"
    },
-   "woerter": 313,
-   "ton": [
-    {
-     "k": "Die Keilschrift ist eine der ältesten Schriften der Welt. Sie wurde im vierten J",
-     "d": "71e2edffd3.mp3",
-     "l": 28.45,
-     "s": [
-      0.25,
-      3.54,
-      6.99,
-      10.52,
-      14.17,
-      17.61,
-      21.16,
-      24.59
-     ]
-    }
-   ]
+   "woerter": 313
   },
   {
    "id": "wie-die-post-im-mittelalter-funktionierte",

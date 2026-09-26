@@ -2,6 +2,46 @@
  "stand": "2026-09-26T19:52:04.540Z",
  "folgen": [
   {
+   "id": "wissen-wie-schlaegt-eigentlich-unser-herz",
+   "art": "wissen",
+   "titel": "Wie schlägt eigentlich unser Herz?",
+   "text": "Das Herz ist ein muskuläres Organ, das Blut durch den Körper pumpt. Es sichert so die Versorgung aller Organe.",
+   "zeit": "2026-09-26T20:07:42.206Z",
+   "d": "2528bd1fdc.mp3",
+   "l": 29.51,
+   "b": 177501
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-die-briefmarke",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich die Briefmarke?",
+   "text": "Eine Briefmarke zeigt, dass die Gebühr für den Brief bezahlt wurde. Sie wird auf den Umschlag geklebt und mit einem Stempel entwertet.",
+   "zeit": "2026-09-26T17:14:23.718Z",
+   "d": "c6ff1441fa.mp3",
+   "l": 39.0,
+   "b": 234381
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-ein-streik",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich ein Streik?",
+   "text": "Ein Streik ist die vorübergehende Niederlegung der Arbeit durch viele Arbeitnehmer. Damit wollen sie gemeinsam bestimmte Ziele erreichen.",
+   "zeit": "2026-09-26T13:08:11.042Z",
+   "d": "4c147781c6.mp3",
+   "l": 33.55,
+   "b": 201837
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-ein-polarlicht",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich ein Polarlicht?",
+   "text": "Polarlichter sind farbige Leuchterscheinungen am Nachthimmel in der Nähe der Magnetpole. Sie entstehen, wenn geladene Teilchen der Sonne auf die Erdatmosphäre treffen.",
+   "zeit": "2026-09-26T07:41:57.905Z",
+   "d": "b065ae72c8.mp3",
+   "l": 34.76,
+   "b": 209037
+  },
+  {
    "id": "hauptausgabe-2026-09-26",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-09-26",
@@ -20,46 +60,6 @@
    "d": "2c98476e01.mp3",
    "l": 25.36,
    "b": 152589
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-ein-tsunami",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich ein Tsunami?",
-   "text": "Ein Tsunami ist eine Abfolge besonders langer Wasserwellen. Sie können große Entfernungen zurücklegen und an Küsten schwere Schäden verursachen.",
-   "zeit": "2026-09-25T07:50:16.267Z",
-   "d": "4455fd8b28.mp3",
-   "l": 34.77,
-   "b": 209037
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-die-pantomime",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich die Pantomime?",
-   "text": "Die Pantomime ist eine Form der darstellenden Kunst ohne Worte. Dabei nutzen Künstler ihren körperlichen Ausdruck durch Mimik und Gestik.",
-   "zeit": "2026-09-24T19:13:52.881Z",
-   "d": "09c823f1e4.mp3",
-   "l": 27.91,
-   "b": 167853
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-die-keilschrift",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich die Keilschrift?",
-   "text": "Die Keilschrift ist eines der ältesten bekannten Schriftsysteme der Menschheit. Sie wurde vom vierten Jahrtausend vor Christus bis mindestens in das erste Jahrhundert nach Christus im Vorderen Orient genutzt.",
-   "zeit": "2026-09-24T10:00:53.737Z",
-   "d": "71e2edffd3.mp3",
-   "l": 28.45,
-   "b": 171165
-  },
-  {
-   "id": "doku-die-reise-des-wassers",
-   "art": "doku",
-   "titel": "Die Reise des Wassers",
-   "text": "Wie ein einziger Tropfen unseren gesamten Planeten verbindet und Leben ermöglicht.",
-   "zeit": "2026-09-23T05:55:16.319Z",
-   "d": "folge-doku-die-reise-des-wassers.mp3",
-   "l": 340.18,
-   "b": 2041293
   }
  ]
 }
