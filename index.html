@@ -12,6 +12,31 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Nachrichten-Heft">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script>
+/* Welche der vier Apps das hier ist, muss SOFORT feststehen - vor allem anderen.
+   Steht es erst am Ende des Programms, baut sich die Seite erst als Nachrichten-
+   Heft auf und wechselt dann sichtbar das Gesicht. Auf dem Handy sah man beim
+   Öffnen der Wetter-App zuerst kurz die Nachrichten. Diese paar Zeilen setzen
+   Name, Farbe und Manifest, bevor überhaupt etwas gezeichnet wird. */
+(function () {
+  var apps = {
+    wissen:  { name: "Warum eigentlich?",         kurz: "Warum eigentlich?", farbe: "#12512F" },
+    wetter:  { name: "Wetter · Nachrichten-Heft", kurz: "Wetter",            farbe: "#0E4F6E" },
+    podcast: { name: "Streitfrage · der Podcast", kurz: "Streitfrage",       farbe: "#4A2A6B" }
+  };
+  var p; try { p = new URLSearchParams(location.search).get("app"); } catch (e) { p = null; }
+  var a = p && apps[p];
+  document.documentElement.setAttribute("data-app", a ? p : "heft");
+  if (!a) return;
+  document.title = a.name;
+  var setz = function (wahl, was, wert) {
+    var el = document.querySelector(wahl); if (el) el.setAttribute(was, wert);
+  };
+  setz('meta[name="theme-color"]', "content", a.farbe);
+  setz('link[rel="manifest"]', "href", "manifest-" + p + ".webmanifest");
+  setz('meta[name="apple-mobile-web-app-title"]', "content", a.kurz);
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -238,6 +263,13 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 html[data-app="wissen"]{--bar:#12512F;--bar-2:#1D7A4C;--link:#14603C}
 html[data-app="wetter"]{--bar:#0E4F6E;--bar-2:#1C7CA6;--link:#0E5B7E}
 html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
+/* Der Name oben, solange das Programm ihn noch nicht gesetzt hat. Greift schon
+   beim ersten Zeichnen; sobald appEinrichten() ihn einträgt, ist .brand nicht
+   mehr leer und diese Regeln gelten nicht mehr. */
+.brand:empty::before{content:"Nachrichten-Heft"}
+html[data-app="wissen"] .brand:empty::before{content:"Warum eigentlich?"}
+html[data-app="wetter"] .brand:empty::before{content:"Wetter"}
+html[data-app="podcast"] .brand:empty::before{content:"Streitfrage"}
 /* Schwester-Apps im Heft */
 .schwestern{display:flex;flex-direction:column;gap:9px}
 .schwester{display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit;
@@ -1088,7 +1120,9 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 <body>
 <header class="bar">
   <div class="wrap">
-    <a class="brand" href="#/">Nachrichten-Heft <span>· neutral</span></a>
+    <!-- Bleibt leer: den Namen setzt appEinrichten() je nach App. Stünde hier
+         fest "Nachrichten-Heft", blitzte er in den anderen drei Apps kurz auf. -->
+    <a class="brand" href="#/"></a>
     <div style="display:flex;align-items:center;gap:10px">
       <div class="stand">Aktualisiert<b id="stand">–</b><i id="naechste"></i></div>
       <a class="icon-btn" href="#/archiv" aria-label="Suche und Archiv">🔍</a>
