@@ -1,6 +1,186 @@
 {
- "stand": "2026-09-26T07:35:59.236Z",
+ "stand": "2026-09-26T13:01:20.916Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-streik",
+   "zeit": "2026-09-26T13:08:11.042Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich ein Streik?",
+   "vorspann": "Ein Streik ist die vorübergehende Niederlegung der Arbeit durch viele Arbeitnehmer. Damit wollen sie gemeinsam bestimmte Ziele erreichen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Streik im Arbeitskampf bedeutet, dass eine verhältnismäßig große Anzahl von Arbeitnehmern vorübergehend die Arbeit niederlegt. Sie wollen damit ein gemeinsames Ziel im Rahmen ihrer Arbeits- und Beschäftigungsverhältnisse erreichen. Nach dem Arbeitsrecht der Bundesrepublik Deutschland verletzt diese kollektive Arbeitsniederlegung nicht die Arbeitspflicht. Für die Dauer des Strecks gilt das Beschäftigungsverhältnis als suspendiert.",
+      "Der Streik kann sehr verschiedenartige Ziele und Adressaten haben. Im Rahmen der grundgesetzlich garantierten Tarifautonomie soll ein Streik die Arbeitgeber dazu bewegen, den Forderungen der Gewerkschaften nachzukommen. Dafür muss die Friedenspflicht abgelaufen sein. Als wilder Streik wird eine nicht von einer Gewerkschaft autorisierte Arbeitsniederlegung von Arbeitnehmern bezeichnet."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Politische Streiks haben das Ziel, Parlament und Regierung unter Druck zu setzen. Dabei sollen die Interessen der Streikenden bei Entscheidungen berücksichtigt werden. In politisch zugespitzten Situationen können sie zu Generalstreiks auswachsen und die Wirtschaft eines ganzen Landes lahmlegen.",
+      "Im 19. Jahrhundert etablierte sich der Streik als eine der wichtigsten Methoden zur Interessenvertretung insbesondere der Industriearbeiter und Bergleute. Die Arbeitsniederlegungen waren zunächst spontane Vorgänge. Später wurden sie von den Gewerkschaften institutionalisiert. Die Streiks folgten im Wesentlichen dem Konjunkturverlauf."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Über den ersten bekannten Streik der Geschichte berichtet ein Papyrus des Schreibers Amun-Nechet. Es handelt sich um den Streik von Deir el-Medineh im Alten Ägypten. Die Arbeiter legten am vierten November im Jahr elfhundertneunundfünfzig vor Christus die Arbeit nieder.",
+      "Zahlreiche weitere Streiks sind aus der klassischen Antike sowie aus dem mittelalterlichen Deutschland überliefert. Der erste berichtete Streik im Heiligen Römischen Reich ist durch ein Dokument aus dem Jahr eintausenddreihundertneunundzwanzig verbürgt. Damals streikten in Breslau die Gürtlergesellen ein Jahr lang."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Jahr des ersten bekannten Streiks",
+     "1159 v. Chr."
+    ],
+    [
+     "Streikende Bergleute im Ruhrgebiet 1889",
+     "90.000"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Streik",
+     "Eine vorübergehende Niederlegung der Arbeit durch viele Arbeitnehmer für gemeinsame Ziele."
+    ],
+    [
+     "Wilder Streik",
+     "Eine Arbeitsniederlegung, die nicht von einer Gewerkschaft autorisiert wurde."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann fand laut dem Text der erste bekannte Streik der Geschichte statt?",
+     "optionen": [
+      "1159 v. Chr.",
+      "1329 n. Chr.",
+      "1810 n. Chr."
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Papyrus des Schreibers Amun-Nechet berichtet über den Streik im Jahr 1159 vor Christus."
+    }
+   ],
+   "video": [
+    "Ein Streik ist eine vorübergehende Niederlegung der Arbeit durch viele Arbeitnehmer.",
+    "Damit verfolgen sie gemeinsame Ziele in ihren Arbeitsverhältnissen.",
+    "Nach deutschem Recht verletzt das nicht die Arbeitspflicht.",
+    "Der Begriff leitet sich von dem englischen Wort strike ab.",
+    "Bereits im Alten Ägypten gab es den ersten bekannten Streik.",
+    "Im neunzehnten Jahrhundert wurde der Streik eine wichtige Methode zur Interessenvertretung.",
+    "Gewerkschaften nutzen Streiks, um Tarifverträge durchzusetzen.",
+    "Politische Streiks sollen Parlament und Regierung unter Druck setzen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Streik",
+    "bildunterschrift": "Ein Streik ist eine Arbeitsniederlegung zur Durchsetzung gemeinsamer Ziele."
+   },
+   "quelle": {
+    "titel": "Streik",
+    "url": "https://de.wikipedia.org/wiki/Streik",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 255,
+   "bildInfos": [
+    {
+     "titel": "Streik Crimmitschau postkarten12 gross.jpg",
+     "beschreibung": "Solidaritätspostkarte zum Streik in Crimmitschau (1903/04)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Streik_Crimmitschau_postkarten12_gross.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Streik_Crimmitschau_postkarten12_gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Streik_Crimmitschau_postkarten12_gross.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Crimmitschauer Streik",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Streik ist eine Arbeitsniederlegung zur Durchsetzung gemeinsamer Ziele."
+    },
+    {
+     "titel": "\"Der Streik\" von Robert Koehler.jpg",
+     "beschreibung": "The Strike label QS:Len,\"The Strike\" label QS:Lfr,\"La grève\" label QS:Lde,\"Der Streik\"",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/%22Der_Streik%22_von_Robert_Koehler.jpg/1280px-%22Der_Streik%22_von_Robert_Koehler.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/17/%22Der_Streik%22_von_Robert_Koehler.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:%22Der_Streik%22_von_Robert_Koehler.jpg",
+     "urheber": "Robert Koehler",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The Strike label QS:Len,\"The Strike\" label QS:Lfr,\"La grève\" label QS:Lde,\"Der Streik\""
+    },
+    {
+     "titel": "AEG-Streikplakat.jpg",
+     "beschreibung": "Streikplakat am AEG-Werk Nürnberg",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/AEG-Streikplakat.jpg/1280px-AEG-Streikplakat.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/99/AEG-Streikplakat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:AEG-Streikplakat.jpg",
+     "urheber": "Klaus Kettner",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Streikplakat am AEG-Werk Nürnberg"
+    },
+    {
+     "titel": "Battle strike 1934.jpg",
+     "beschreibung": "Open battle between striking teamsters armed with pipes and the police in the streets of Minneapolis, June 1934.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Battle_strike_1934.jpg/1280px-Battle_strike_1934.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Battle_strike_1934.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Battle_strike_1934.jpg",
+     "urheber": "Photographer not credited",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Open battle between striking teamsters armed with pipes and the police in the streets of Minneapolis, June 1934."
+    },
+    {
+     "titel": "Druckerstreik.jpg",
+     "beschreibung": "Organized Strike in Germany 1973, Cologne",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Druckerstreik.jpg/1280px-Druckerstreik.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Druckerstreik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Druckerstreik.jpg",
+     "urheber": "Monster4711",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Organized Strike in Germany 1973, Cologne"
+    },
+    {
+     "titel": "Druckerstreik 1976 Notausgabe.jpg",
+     "beschreibung": "Gemeinsame Notausgabe der beiden größten Kölner Tageszeitungen anlässlich des Druckerstreiks 1976 (erster Abschnitt der Titelseite). Veröffentlichung dieses eigenen Scans gemäß Urheberrechtsgesetz §50",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Druckerstreik_1976_Notausgabe.jpg/1280px-Druckerstreik_1976_Notausgabe.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Druckerstreik_1976_Notausgabe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Druckerstreik_1976_Notausgabe.jpg",
+     "urheber": "Mabit1",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Gemeinsame Notausgabe der beiden größten Kölner Tageszeitungen anlässlich des Druckerstreiks 1976 (erster Abschnitt der Titelseite). Veröffentlichung dieses eigenen Scans gemäß Urheberrechtsgesetz §50"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Streik Crimmitschau postkarten12 gross.jpg",
+    "beschreibung": "Solidaritätspostkarte zum Streik in Crimmitschau (1903/04)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Streik_Crimmitschau_postkarten12_gross.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Streik_Crimmitschau_postkarten12_gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Streik_Crimmitschau_postkarten12_gross.jpg",
+    "urheber": "Unknown author Unknown author",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Crimmitschauer Streik",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Streik ist eine Arbeitsniederlegung zur Durchsetzung gemeinsamer Ziele."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-polarlicht",
    "zeit": "2026-09-26T07:41:57.905Z",

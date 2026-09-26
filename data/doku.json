@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-26T07:35:59.236Z",
+ "stand": "2026-09-26T13:01:20.916Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -26,7 +26,8 @@
    {
     "ueberschrift": "Die Erfindung der Keilschrift",
     "wikipedia": "Keilschrift",
-    "fokus": "In Mesopotamien entstand die erste ausgereifte Schrift der Menschheit."
+    "fokus": "In Mesopotamien entstand die erste ausgereifte Schrift der Menschheit.",
+    "versuche": 1
    },
    {
     "ueberschrift": "Die Welt der Hieroglyphen",
