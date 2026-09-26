@@ -568,6 +568,21 @@ html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
 .pl-start svg{width:38px;height:38px;fill:currentColor;margin-left:3px}
 .pl-start:hover{transform:scale(1.06)}
 .pl-start[hidden]{display:none}
+/* Installieren-Hinweis: in jeder App in ihrer eigenen Farbe */
+.push.install{border:1px solid color-mix(in srgb,var(--af) 38%,transparent);
+  border-left:5px solid var(--af);
+  background:color-mix(in srgb,var(--af) 8%,var(--card));border-radius:14px;padding:14px 16px;margin:16px 0}
+.push.install b{display:block;font-family:var(--head);font-size:1.03rem;color:var(--af);margin-bottom:5px}
+.push.install p{margin:0;font-size:.92rem;line-height:1.5;color:var(--grau)}
+.push.install .btn{margin-top:11px;background:var(--af);color:#fff;border:0;border-radius:10px;
+  padding:11px 18px;font-family:var(--head);font-weight:700;font-size:.95rem;cursor:pointer}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]) .push.install b{color:#fff}
+  :root:not([data-theme="light"]) .push.install{background:color-mix(in srgb,var(--af) 22%,var(--card))}
+}
+[data-theme=dark] .push.install b{color:#fff}
+[data-theme=dark] .push.install{background:color-mix(in srgb,var(--af) 22%,var(--card))}
+
 /* Ortssuche in der Wetter-App */
 .wo-suche{display:flex;gap:8px;margin:2px 0 8px}
 .wo-suche input{flex:1;min-width:0;background:var(--card);border:1px solid var(--line);border-radius:11px;
@@ -1656,6 +1671,7 @@ function wetterSeite(){
 
     ${modellVergleichHTML(w)}
     <p class="w-fuss">${esc(w.quelle)} · Karte: GeoBasis-DE / BKG (dl-de/by-2-0)</p>
+    ${installBand()}
     ${schwesterBand()}`;
   window.scrollTo(0, 0);
 }
@@ -1849,6 +1865,7 @@ function podcastSeite(){
     ${f.length ? f.map(folgenKarte).join("")
       : `<div class="empty"><strong>Noch keine Folge.</strong><br>Jeden Abend kommt eine dazu.</div>`}
     <p class="mehr-zeile"><a href="#/abo">In einer Podcast-App abonnieren ›</a></p>
+    ${installBand()}
     ${schwesterBand()}`;
   $app.querySelectorAll("audio").forEach(a => a.onplay = () => {
     $app.querySelectorAll("audio").forEach(b => { if (b !== a) b.pause(); });
@@ -1880,6 +1897,27 @@ function aboSeite(){
     catch { const r = document.createRange(); r.selectNode(document.getElementById("abourl"));
       getSelection().removeAllRanges(); getSelection().addRange(r); }
   };
+}
+
+// Der Hinweis zum Installieren - für jede der vier Apps, nicht nur fürs Heft.
+//
+// Android fragt von selbst, ob man die App ablegen will. Das iPhone fragt NIE,
+// bei keiner App - dort muss man über "Teilen" gehen, und das weiß kaum jemand.
+// Deshalb steht es hier, mit dem Namen der App, in der man gerade ist.
+function installBand(){
+  if (istInstalliert) return "";
+  if (!installAufforderung && !istIOS) return "";
+  const wie = {
+    heft:    "Nachrichten aus mehreren Quellen, auch ohne Internet lesbar",
+    wissen:  "Die Stücke und Dokus liegen dann auf dem Startbildschirm",
+    wetter:  "Dein Wetter mit einem Tipp, ohne den Umweg über den Browser",
+    podcast: "Neue Folgen direkt vom Startbildschirm hören"
+  }[MODUS] || "";
+  return `<div class="push install" style="--af:${APP.farbe}"><b>${APP.symbol} „${esc(APP.kurz || APP.name)}" als eigene App</b>
+    ${installAufforderung
+      ? `<p>${esc(wie)}</p><button class="btn" id="installBtn">Jetzt installieren</button>`
+      : `<p>${esc(wie)}.<br>Auf dem iPhone fragt Safari nicht von selbst: unten auf <b>Teilen</b> tippen
+         (das Kästchen mit dem Pfeil nach oben), dann <b>„Zum Home-Bildschirm"</b>.</p>`}</div>`;
 }
 
 // Im Heft stehen Wissen, Wetter und Podcast nicht mehr drin - sie sind eigene Apps.
@@ -1944,7 +1982,7 @@ function wissenSeite(){
       ${DOKU_ARBEIT && !WISSEN_FILTER ? dokuInArbeitHTML(DOKU_ARBEIT) : ""}` : ""}
     ${stuecke.length ? `<h2 class="abschnitt">Kurz erklärt</h2><div class="list">${stuecke.map(wissenKarte).join("")}</div>` : ""}
     ${!dokus.length && !stuecke.length && !(DOKU_ARBEIT && !WISSEN_FILTER) ? `<div class="empty"><strong>${WISSEN_FILTER ? "In diesem Bereich ist noch nichts da." : "Noch nichts da."}</strong><br>${WISSEN_FILTER ? `<a href="#" onclick="WISSEN_FILTER='';wissenSeite();return false">Alle Bereiche zeigen</a>` : "Jeden Tag kommt ein Stück dazu, und an einer langen Doku wird im Hintergrund gearbeitet."}</div>` : ""}
-    ${istHeft ? "" : schwesterBand()}`;
+    ${istHeft ? "" : installBand() + schwesterBand()}`;
   $app.querySelectorAll(".bereich-nav button").forEach(b => b.onclick = () => { WISSEN_FILTER = b.dataset.b; wissenSeite(); window.scrollTo(0, 0); });
 }
 function wissenDetail(id){
@@ -2007,11 +2045,7 @@ function startseite(rubrik){
     if (DATEN.ntfyTopic && !merker.hat("heft-eil")){
       html += `<a class="push-knopf" href="#/eil"><span class="pk-icon">🔔</span><span><b>Nachrichten aufs Handy</b><small>Ein Tipp auf „Erlauben“ – ohne zusätzliche App</small></span><span class="pk-pfeil">›</span></a>`;
     }
-    if (!istInstalliert && (installAufforderung || istIOS)){
-      html += `<div class="push"><b>📲 Als App installieren</b>
-        ${installAufforderung ? `<p>Das Nachrichten-Heft bekommt ein eigenes Symbol und funktioniert auch ohne Internet.</p><button class="btn" id="installBtn">Jetzt installieren</button>`
-          : `<p>Auf dem iPhone: unten auf <b>Teilen</b> tippen, dann <b>„Zum Home-Bildschirm“</b>. Danach funktioniert die App auch ohne Internet.</p>`}</div>`;
-    }
+    html += installBand();
   }
   html += `<details class="about"><summary>So entsteht dieses Heft</summary>
     <p>Jede Stunde zwischen 6 und 22 Uhr werden die Nachrichten-Feeds von Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Zeit, Süddeutscher Zeitung, FAZ, Deutscher Welle und BBC gelesen. Ein Thema erscheint nur, wenn mindestens zwei Medien darüber berichten.</p>
@@ -2041,9 +2075,14 @@ function startseite(rubrik){
   if (intro) intro.onclick = () => introZeigen(true);
   const eb = document.getElementById("eilBtn");
   if (eb) eb.onclick = () => { merker.weg("heft-eil"); location.hash = "#/eil"; };
-  const ib = document.getElementById("installBtn");
-  if (ib) ib.onclick = async () => { installAufforderung.prompt(); await installAufforderung.userChoice; installAufforderung = null; route(); };
 }
+// Der Installieren-Knopf steht jetzt in allen vier Apps, also wird er auch
+// überall abgefangen - einmal zentral statt auf jeder Seite einzeln.
+addEventListener("click", async e => {
+  if (!e.target.closest?.("#installBtn") || !installAufforderung) return;
+  try { installAufforderung.prompt(); await installAufforderung.userChoice; } catch {}
+  installAufforderung = null; route();
+});
 
 /* ---------- Begrüßung beim ersten Öffnen ---------- */
 const merker = {
