@@ -263,6 +263,18 @@ footer{font-family:var(--head);font-size:.8rem;color:var(--muted);padding:0 0 32
 html[data-app="wissen"]{--bar:#12512F;--bar-2:#1D7A4C;--link:#14603C}
 html[data-app="wetter"]{--bar:#0E4F6E;--bar-2:#1C7CA6;--link:#0E5B7E}
 html[data-app="podcast"]{--bar:#4A2A6B;--bar-2:#6D3FA8;--link:#54308C}
+/* Im Dunkelmodus gelten sonst die dunklen Regeln weiter oben - die wiegen
+   schwerer als die App-Regeln und färbten alle vier Apps gleich dunkelblau.
+   Diese Regeln hier wiegen eine Spur mehr und geben jeder App ihre Farbe
+   zurück, nur gedämpft, damit sie im Dunkeln nicht blendet. */
+@media (prefers-color-scheme: dark){
+  html[data-app="wissen"]:not([data-theme="light"]) {--bar:#0C3B22;--bar-2:#17623C;--link:#6FD3A0}
+  html[data-app="wetter"]:not([data-theme="light"]) {--bar:#0A3B54;--bar-2:#16607F;--link:#7CC4E8}
+  html[data-app="podcast"]:not([data-theme="light"]){--bar:#361E50;--bar-2:#553080;--link:#BFA0EC}
+}
+html[data-theme="dark"][data-app="wissen"] {--bar:#0C3B22;--bar-2:#17623C;--link:#6FD3A0}
+html[data-theme="dark"][data-app="wetter"] {--bar:#0A3B54;--bar-2:#16607F;--link:#7CC4E8}
+html[data-theme="dark"][data-app="podcast"]{--bar:#361E50;--bar-2:#553080;--link:#BFA0EC}
 /* Der Name oben, solange das Programm ihn noch nicht gesetzt hat. Greift schon
    beim ersten Zeichnen; sobald appEinrichten() ihn einträgt, ist .brand nicht
    mehr leer und diese Regeln gelten nicht mehr. */
