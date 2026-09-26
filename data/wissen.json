@@ -1,6 +1,163 @@
 {
- "stand": "2026-09-26T17:06:50.294Z",
+ "stand": "2026-09-26T19:52:04.540Z",
  "stuecke": [
+  {
+   "id": "wie-schlaegt-eigentlich-unser-herz",
+   "zeit": "2026-09-26T20:07:42.206Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie schlägt eigentlich unser Herz?",
+   "vorspann": "Das Herz ist ein muskuläres Organ, das Blut durch den Körper pumpt. Es sichert so die Versorgung aller Organe.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Herz ist ein muskuläres Hohlorgan bei verschiedenen Tiergruppen. Es sorgt dafür, dass Blut oder Hämolymphe in den Kreislauf strömt. Höherentwickelte Herzen arbeiten wie eine Verdrängerpumpe. Dabei wird Flüssigkeit ventilgesteuert aus Blutgefäßen angesaugt.",
+      "Die Lehre von Struktur, Funktion und Erkrankungen des Herzens nennt man Kardiologie. Ein Leben ohne Herz ist für höhere Tiere und den Menschen nicht möglich. Künstliche Herzen können den Verlust der natürlichen Funktionen jedoch in gewissen Grenzen ausgleichen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Herzen von Mensch und Säugetier haben vier Herzhöhlen. Dazu gehören zwei Vorhöfe und zwei Kammern. Bei myogenen Herzen wird der elektrische Impuls spontan und rhythmisch in Schrittmacherzellen ausgelöst. Bei neurogenen Herzen erfolgt der Impuls durch Nervenzellen.",
+      "Die Herzfrequenz großer Arten ist innerhalb einer Tiergruppe im Allgemeinen niedriger als bei kleineren Arten. Bei Säugern liegen die Werte zwischen sechs Schlägen pro Minute beim Blauwal und eintausend Schlägen pro Minute bei der Etruskerspitzmaus. Eine Ausnahme ist die Giraffe mit einhundertsiebzig Schlägen pro Minute."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Denker der Antike wie Empedokles und Aristoteles sahen das Herz als Zentralorgan des Körpers an. Der arabische Arzt Ibn an-Nafīs beschrieb das Herz im dreizehnten Jahrhundert als Erster anatomisch richtig. Der englische Arzt William Harvey zeigte später, dass die Kontraktionen des Herzens die Bewegung des Bluts durch den Kreislauf antreiben."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Herzfrequenz Blauwal",
+     "6 Schläge pro Minute"
+    ],
+    [
+     "Herzfrequenz Etruskerspitzmaus",
+     "1000 Schläge pro Minute"
+    ],
+    [
+     "Herzfrequenz Giraffe",
+     "170 Schläge pro Minute"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Kardiologie",
+     "Die Lehre von Struktur, Funktion und Erkrankungen des Herzens."
+    ],
+    [
+     "Herzhöhlen",
+     "Die Innenräume des Herzens, unterteilt in Vorhöfe und Kammern."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Welches Tier hat laut Text eine Herzfrequenz von eintausend Schlägen pro Minute?",
+     "optionen": [
+      "Blauwal",
+      "Etruskerspitzmaus",
+      "Giraffe"
+     ],
+     "richtig": 1,
+     "erklaerung": "Die Etruskerspitzmaus hat im ausgewachsenen Zustand in Ruhe eine Herzfrequenz von eintausend Schlägen pro Minute."
+    }
+   ],
+   "video": [
+    "Das Herz ist ein muskuläres Hohlorgan im Körper.",
+    "Es pumpt Blut durch den Kreislauf und versorgt alle Organe.",
+    "Menschen und Säugetiere haben ein Herz mit vier Herzhöhlen.",
+    "Dazu gehören zwei Vorhöfe und zwei Kammern.",
+    "Der arabische Arzt Ibn an-Nafīs beschrieb das Herz als Erster anatomisch richtig.",
+    "William Harvey zeigte die Wirkung des Herzens auf den Blutkreislauf.",
+    "Die Herzfrequenz unterscheidet sich je nach Tierart stark.",
+    "Ein Blauwal hat sechs Schläge pro Minute."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Herz",
+    "bildunterschrift": "Das Herz ist ein muskuläres Hohlorgan, das den Blutkreislauf antreibt."
+   },
+   "quelle": {
+    "titel": "Herz",
+    "url": "https://de.wikipedia.org/wiki/Herz",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 203,
+   "bildInfos": [
+    {
+     "titel": "Dog heart 2.jpg",
+     "beschreibung": "Dog heart from left. 1 left ventricle, 2 paraconal interventricular groove, 3 right ventricle, 4 arterial cone, 5 pulmonal trunc, 6 arterial ligament, 7 aortic arch, 8 brachiocephalic trunc, 9 left su",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Dog_heart_2.jpg/1280px-Dog_heart_2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Dog_heart_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dog_heart_2.jpg",
+     "urheber": "User:Uwe Gille",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "artikel": "Herz",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Das Herz ist ein muskuläres Hohlorgan, das den Blutkreislauf antreibt."
+    },
+    {
+     "titel": "07 Hegasy Herzzyklus Wiki DE CCBYSA.png",
+     "beschreibung": "Der Herzzyklus: Blutfluss, Klappenstellung und EKG",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/07_Hegasy_Herzzyklus_Wiki_DE_CCBYSA.png/1280px-07_Hegasy_Herzzyklus_Wiki_DE_CCBYSA.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/07_Hegasy_Herzzyklus_Wiki_DE_CCBYSA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:07_Hegasy_Herzzyklus_Wiki_DE_CCBYSA.png",
+     "urheber": "Guido4",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Der Herzzyklus: Blutfluss, Klappenstellung und EKG"
+    },
+    {
+     "titel": "Anatomy Heart Latin Tiesworks.jpg",
+     "beschreibung": "Anatomy of the Human Heart",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Anatomy_Heart_Latin_Tiesworks.jpg/1280px-Anatomy_Heart_Latin_Tiesworks.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Anatomy_Heart_Latin_Tiesworks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Anatomy_Heart_Latin_Tiesworks.jpg",
+     "urheber": "Tvanbr",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Anatomy of the Human Heart"
+    },
+    {
+     "titel": "Bourgery Angiologie.jpg",
+     "beschreibung": "Herzklappen und Bindegewebe",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Bourgery_Angiologie.jpg/1280px-Bourgery_Angiologie.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bourgery_Angiologie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bourgery_Angiologie.jpg",
+     "urheber": "Nicolas Henri Jacob",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Herzklappen und Bindegewebe"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Dog heart 2.jpg",
+    "beschreibung": "Dog heart from left. 1 left ventricle, 2 paraconal interventricular groove, 3 right ventricle, 4 arterial cone, 5 pulmonal trunc, 6 arterial ligament, 7 aortic arch, 8 brachiocephalic trunc, 9 left su",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Dog_heart_2.jpg/1280px-Dog_heart_2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Dog_heart_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Dog_heart_2.jpg",
+    "urheber": "User:Uwe Gille",
+    "lizenz": "CC BY 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+    "artikel": "Herz",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Das Herz ist ein muskuläres Hohlorgan, das den Blutkreislauf antreibt."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-briefmarke",
    "zeit": "2026-09-26T17:14:23.718Z",
