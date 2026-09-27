@@ -1,6 +1,181 @@
 {
- "stand": "2026-09-27T08:03:44.513Z",
+ "stand": "2026-09-27T13:54:41.783Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-geheimsprache",
+   "zeit": "2026-09-27T14:00:58.012Z",
+   "bereich": "Sprache und Kultur",
+   "titel": "Wie funktioniert eigentlich die Geheimsprache?",
+   "vorspann": "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen. Heute sorgt sie dafür, dass Daten im Internet sicher sind.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Begriff Kryptographie bedeutet Geheimschrift. Früher ging es vor allem darum, Nachrichten so zu verändern, dass andere sie nicht lesen konnten. Heute befasst sich die Kryptographie allgemein mit dem Thema Informationssicherheit. Das Ziel ist es, Informationssysteme vor Manipulation und unbefugtem Lesen zu schützen.",
+      "Die moderne Kryptographie verfolgt vier Hauptziele. Dazu gehören Vertraulichkeit, Integrität, Authentizität und Verbindlichkeit. Vertraulichkeit bedeutet, dass nur berechtigte Personen Daten lesen dürfen. Integrität stellt sicher, dass Daten unverändert bleiben. Authentizität sorgt dafür, dass der Absender erkennbar ist. Verbindlichkeit bedeutet, dass der Absender seine Urheberschaft nicht abstreiten kann."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Früher wurden bei klassischen Verfahren vollständige Buchstaben oder Buchstabengruppen ersetzt. Bei der Transposition werden die Buchstaben anders angeordnet. Bei der Substitution werden Buchstaben durch andere Symbole ersetzt. Bekannte Beispiele dafür sind die Caesar-Verschlüsselung und die Vigenère-Verschlüsselung.",
+      "Moderne Verfahren arbeiten mit den einzelnen Bits von Daten. Symmetrische Verfahren verwenden einen geheimen Schlüssel für alle Operationen. Asymmetrische Verfahren nutzen ein Paar aus einem privaten und einem öffentlichen Schlüssel. Ein Beispiel für ein modernes asymmetrisches Verfahren ist die Public-Key-Kryptographie.",
+      "Die Sicherheit der meisten asymmetrischen Systeme beruht auf mathematischen Problemen wie der Primfaktorzerlegung. Es ist sehr leicht, zwei große Primzahlen zu multiplizieren. Umgekehrt ist es extrem schwierig, aus dem Produkt wieder die ursprünglichen Primfaktoren zu berechnen."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der früheste belegbare Einsatz von Kryptographie findet sich im dritten Jahrtausend vor Christus in der altägyptischen Kryptographie des Alten Reiches. Im Mittelalter nutzten hebräische Gelehrte Zeichentausch-Algorithmen. Auch für den diplomatischen Briefwechsel und für heilkundliche Texte gab es damals Geheimschriften.",
+      "Im Zweiten Weltkrieg wurden mechanische Schlüsselmaschinen wie die Enigma eingesetzt. Diese Maschine wurde durch polnische und britische Codeknacker gebrochen. Im Jahr 1949 veröffentlichte Claude Shannon einen wichtigen Artikel zur mathematischen Basis der Kryptographie. Später folgten weitere Entwicklungen wie der Data Encryption Standard und asymmetrische Verfahren."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Wikipedia-Artikel nennt keine offenen Forschungsfragen, bei denen die Wissenschaft noch ratlos ist."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Einsatz von Kryptographie im Alten Reich",
+     "drittes Jahrtausend v. Chr."
+    ],
+    [
+     "Veröffentlichung von Claude Shannon",
+     "1949"
+    ],
+    [
+     "Veröffentlichung des Artikels von Whitfield Diffie und Martin Hellman",
+     "1976"
+    ],
+    [
+     "Veröffentlichung des britischen GCHQ-Dokuments",
+     "17. Dezember 1997"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Kryptographie",
+     "Die Wissenschaft der Verschlüsselung von Informationen und der Informationssicherheit."
+    ],
+    [
+     "Kryptoanalyse",
+     "Die Erforschung von Methoden, um kryptographische Verfahren zu knacken und zu entschlüsseln."
+    ],
+    [
+     "Steganographie",
+     "Verfahren, die den Kanal verbergen, über den kommuniziert wird, um die Vertraulichkeit zu schützen."
+    ],
+    [
+     "Symmetrische Verfahren",
+     "Verfahren, die einen geheimen Schlüssel für die Ver- und Entschlüsselung verwenden."
+    ],
+    [
+     "Asymmetrische Verfahren",
+     "Verfahren, die ein Paar aus einem privaten und einem öffentlichen Schlüssel nutzen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Was bedeutet der Begriff Kryptographie ursprünglich?",
+     "optionen": [
+      "Geheimschrift",
+      "Bilderrätsel",
+      "Zahlenlehre"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Begriff Kryptographie bedeutet laut dem Artikel Geheimschrift."
+    },
+    {
+     "frage": "Wer entwickelte den DES-Algorithmus?",
+     "optionen": [
+      "IBM und die National Security Agency",
+      "Whitfield Diffie und Martin Hellman",
+      "Claude Shannon"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der DES-Algorithmus wurde von IBM und der National Security Agency entwickelt."
+    },
+    {
+     "frage": "Worauf beruht die Sicherheit der meisten asymmetrischen Kryptosysteme?",
+     "optionen": [
+      "Auf der Schwierigkeit mathematischer Probleme wie der Primfaktorzerlegung",
+      "Auf der Verwendung von geheimen Papierbriefen",
+      "Auf der Geheimhaltung des genutzten Alphabets"
+     ],
+     "richtig": 0,
+     "erklaerung": "Die Sicherheit beruht auf der Schwierigkeit von Problemen wie der Primfaktorzerlegung und diskreten Logarithmen."
+    }
+   ],
+   "video": [
+    "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen.",
+    "Schon im dritten Jahrtausend vor Christus nutzten Menschen Geheimschriften.",
+    "Früher wurden ganze Buchstaben durch Substitution oder Transposition ersetzt.",
+    "Moderne Verfahren arbeiten mit Computern und einzelnen Bits von Daten.",
+    "Symmetrische Verfahren verwenden einen einzigen geheimen Schlüssel für alles.",
+    "Asymmetrische Verfahren nutzen einen privaten und einen öffentlichen Schlüssel.",
+    "Die Sicherheit basiert oft auf der schwierigen Zerlegung großer Zahlen.",
+    "So schützt die Kryptographie unsere heutigen Daten und Nachrichten."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Kryptographie",
+    "bildunterschrift": "Kryptographie befasst sich mit der sicheren Verschlüsselung und Übertragung von Informationen."
+   },
+   "quelle": {
+    "titel": "Kryptographie",
+    "url": "https://de.wikipedia.org/wiki/Kryptographie",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 299,
+   "bildInfos": [
+    {
+     "titel": "2008-09 Kaiserschloss Kryptologen.JPG",
+     "beschreibung": "Poznań monument (center) to Polish cryptologists whose breaking of Germany's Enigma machine ciphers",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/2008-09_Kaiserschloss_Kryptologen.JPG/1280px-2008-09_Kaiserschloss_Kryptologen.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2008-09_Kaiserschloss_Kryptologen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2008-09_Kaiserschloss_Kryptologen.JPG",
+     "urheber": "Ziko",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Kryptologie",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Kryptographie befasst sich mit der sicheren Verschlüsselung und Übertragung von Informationen."
+    },
+    {
+     "titel": "Feistel.png",
+     "beschreibung": "Figure of Feistel Structure of Block Ciphers",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Feistel.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Feistel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Feistel.png",
+     "urheber": "Yoshitaka Ikeda",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Figure of Feistel Structure of Block Ciphers"
+    }
+   ],
+   "bildInfo": {
+    "titel": "2008-09 Kaiserschloss Kryptologen.JPG",
+    "beschreibung": "Poznań monument (center) to Polish cryptologists whose breaking of Germany's Enigma machine ciphers",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/2008-09_Kaiserschloss_Kryptologen.JPG/1280px-2008-09_Kaiserschloss_Kryptologen.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/2008-09_Kaiserschloss_Kryptologen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2008-09_Kaiserschloss_Kryptologen.JPG",
+    "urheber": "Ziko",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artikel": "Kryptologie",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Kryptographie befasst sich mit der sicheren Verschlüsselung und Übertragung von Informationen."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-blitz",
    "zeit": "2026-09-27T08:10:21.010Z",
