@@ -1,6 +1,193 @@
 {
- "stand": "2026-09-26T19:52:04.540Z",
+ "stand": "2026-09-27T08:03:44.513Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-blitz",
+   "zeit": "2026-09-27T08:10:21.010Z",
+   "bereich": "Natur und Tiere",
+   "titel": "Wie entsteht eigentlich ein Blitz?",
+   "vorspann": "Ein Gewitter ist eine komplexe Erscheinung mit Blitzen und Donnern. Forscher fanden heraus, dass sich die Intensität der Gewitter erhöht hat.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Gewitter ist eine mit luftelektrischen Entladungen verbundene meteorologische Erscheinung. Dazu gehören Blitze und Donner. Gewitter werden in der Regel von wolkenbruchartigen Regen- oder Hagelschauern begleitet. Vor einer Gewitterfront wehen oft böige Winde bis zur Sturmstärke. Seltene Begleiterscheinungen sind Tornados und Downbursts.",
+      "Sommergewitter treten wesentlich häufiger auf als Wintergewitter. Wintergewitter können auch mit kräftigen Schneeschauern verbunden sein. Durch aufsteigende feuchtwarme Luftmassen baut sich eine große Gewitterwolke auf. Starke Gewitter können zudem als Unwetter bezeichnet werden."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Für die Entstehung von Gewittern werden drei Faktoren benötigt. Dazu gehören eine labile Schichtung der Troposphäre, Luftfeuchtigkeit in der bodennahen Schicht und ein Auslösemechanismus. Durch aufsteigende Luftmassen baut sich die Gewitterwolke bis in die kältere Troposphäre auf.",
+      "Der Blitz entsteht aufgrund hoher Vertikalwindgeschwindigkeiten in Gewitterwolken. Eine weitere Bedingung für Blitze sind Eiskristalle innerhalb der Wolke. Diese Kristalle transportieren unterschiedliche Ladungen und führen zu einer Ladungstrennung. Die Blitzentladung sorgt für einen Abbau der elektrischen Spannung."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Laut Angaben aus dem Wikipedia-Artikel haben Forscher der Universität Karlsruhe etwas herausgefunden. Im langjährigen Durchschnitt hat sich demnach die Intensität der Gewitter erhöht, aber nicht deren Häufigkeit. Ablesbar ist das vor allem an der Zunahme der Hagelunwetter."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Text enthält keine Informationen darüber, welche Fragen in der Forschung aktuell noch offen sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Gewitter gleichzeitig auf der Erde im Durchschnitt",
+     "1600"
+    ],
+    [
+     "Erdanteil mit gleichzeitigen Gewittern in Prozent",
+     "0,3"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Gewitter",
+     "Eine komplexe meteorologische Erscheinung, die mit Blitzen, Donnern und oft Regen oder Hagel verbunden ist."
+    ],
+    [
+     "Troposphäre",
+     "Die unterste Schicht der Atmosphäre der Erde, in der sich das Wetter abspielt."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Welche Jahreszeit weist laut Text wesentlich häufiger Gewitter auf?",
+     "optionen": [
+      "Wintergewitter",
+      "Sommergewitter",
+      "Frühlingsgewitter"
+     ],
+     "richtig": 1,
+     "erklaerung": "Laut Wikipedia-Artikel treten Sommergewitter wesentlich häufiger auf als Wintergewitter."
+    }
+   ],
+   "video": [
+    "Ein Gewitter verbindet Blitze und Donner.",
+    "Dazu gibt es oft starken Regen oder Hagel.",
+    "Vor der Front wehen oft böige Winde.",
+    "Für Gewitter braucht es feuchtwarme Luftmassen.",
+    "Diese steigen nach oben und bilden Gewitterwolken.",
+    "Dort entstehen Eiskristalle durch starke Aufwinde.",
+    "Eiskristalle transportieren unterschiedliche elektrische Ladungen.",
+    "Dadurch kommt es zur Ladungstrennung.",
+    "Der Blitz baut diese elektrische Spannung ab.",
+    "Forscher der Universität Karlsruhe untersuchten die Intensität."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Gewitter",
+    "bildunterschrift": "Ein Gewitter zeigt sich oft durch dunkle Wolken und Blitze."
+   },
+   "quelle": {
+    "titel": "Gewitter",
+    "url": "https://de.wikipedia.org/wiki/Gewitter",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 201,
+   "bildInfos": [
+    {
+     "titel": "Lightning Pritzerbe 01 (MK).jpg",
+     "beschreibung": "Thunderstorm near Pritzerbe (Germany)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Lightning_Pritzerbe_01_%28MK%29.jpg/1280px-Lightning_Pritzerbe_01_%28MK%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Lightning_Pritzerbe_01_%28MK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lightning_Pritzerbe_01_(MK).jpg",
+     "urheber": "Mathias Krumbholz",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Gewitter",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Gewitter zeigt sich oft durch dunkle Wolken und Blitze."
+    },
+    {
+     "titel": "Chaparral Supercell 2.JPG",
+     "beschreibung": "During the late afternoon and early evening of April 3, 2004, this supercell thunderstorm dropped 2 inch-diameter hail over Chaparral, N.M. causing widespread damage.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Chaparral_Supercell_2.JPG/1280px-Chaparral_Supercell_2.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/Chaparral_Supercell_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Chaparral_Supercell_2.JPG",
+     "urheber": "Greg Lundeen ( NWS El Paso staff member at the time )",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "During the late afternoon and early evening of April 3, 2004, this supercell thunderstorm dropped 2 inch-diameter hail over Chaparral, N.M. causing widespread damage."
+    },
+    {
+     "titel": "Formare Cumulonimbus.jpg",
+     "beschreibung": "Formare Cumulonimbus",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Formare_Cumulonimbus.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Formare_Cumulonimbus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Formare_Cumulonimbus.jpg",
+     "urheber": "Silenzio76",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Formare Cumulonimbus"
+    },
+    {
+     "titel": "Global Lightning Frequency.png",
+     "beschreibung": "Data from space-based sensors reveal the uneven distribution of worldwide lightning strikes. Units: flashes/km 2 /yr. Data obtained from April 1995 to February 2003 from NASA's Optical Transient Detec",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Global_Lightning_Frequency.png/1280px-Global_Lightning_Frequency.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/Global_Lightning_Frequency.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Global_Lightning_Frequency.png",
+     "urheber": "NASA/GHRC/NSSTC Lightning Team",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Data from space-based sensors reveal the uneven distribution of worldwide lightning strikes. Units: flashes/km 2 /yr. Data obtained from April 1995 to February 2003 from NASA's Optical Transient Detec"
+    },
+    {
+     "titel": "Lightning NOAA.jpg",
+     "beschreibung": "Multiple cloud-to-ground and cloud-to-cloud lightning strokes during night-time. Observed during night-time thunderstorm.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Lightning_NOAA.jpg/1280px-Lightning_NOAA.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Lightning_NOAA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lightning_NOAA.jpg",
+     "urheber": "C. Clark",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Multiple cloud-to-ground and cloud-to-cloud lightning strokes during night-time. Observed during night-time thunderstorm."
+    },
+    {
+     "titel": "Lightning cloud to cloud (aka).jpg",
+     "beschreibung": "This image shows a cloud to cloud lightning in a very stormy and rainy night in Zwickau, Germany.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lightning_cloud_to_cloud_%28aka%29.jpg/1280px-Lightning_cloud_to_cloud_%28aka%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/17/Lightning_cloud_to_cloud_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lightning_cloud_to_cloud_(aka).jpg",
+     "urheber": "André Karwath aka Aka",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "This image shows a cloud to cloud lightning in a very stormy and rainy night in Zwickau, Germany."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Lightning Pritzerbe 01 (MK).jpg",
+    "beschreibung": "Thunderstorm near Pritzerbe (Germany)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Lightning_Pritzerbe_01_%28MK%29.jpg/1280px-Lightning_Pritzerbe_01_%28MK%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Lightning_Pritzerbe_01_%28MK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Lightning_Pritzerbe_01_(MK).jpg",
+    "urheber": "Mathias Krumbholz",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artikel": "Gewitter",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Gewitter zeigt sich oft durch dunkle Wolken und Blitze."
+   }
+  },
   {
    "id": "wie-schlaegt-eigentlich-unser-herz",
    "zeit": "2026-09-26T20:07:42.206Z",
@@ -336,7 +523,7 @@
     {
      "k": "Eine Briefmarke bestätigt die Zahlung für die Beförderung eines Briefes. Früher ",
      "d": "c6ff1441fa.mp3",
-     "l": 39.0,
+     "l": 39,
      "s": [
       0.25,
       4.54,
