@@ -1,6 +1,217 @@
 {
- "stand": "2026-09-27T13:54:41.783Z",
+ "stand": "2026-09-27T18:19:21.922Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-eigentlich-die-geheimschrift-enigma",
+   "zeit": "2026-09-27T18:27:17.340Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte eigentlich die Geheimschrift Enigma?",
+   "vorspann": "Die Enigma ist eine bekannte Verschlüsselungsmaschine aus dem zwanzigsten Jahrhundert. Im Zweiten Weltkrieg wurde sie von den Achsenmächten zur geheimen Nachrichtenübertragung verwendet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Die Enigma ist eine Sammelbezeichnung für eine Reihe von Rotor-Chiffriermaschinen. Sie wurden seit den neunziger Jahren beziehungsweise den 1920er-Jahren zur Verschlüsselung von Nachrichten eingesetzt. Erfinder der Enigma ist Arthur Scherbius, dessen erstes Patent vom 23. Februar 1918 stammt. Nach dem Ersten Weltkrieg wollten Investoren die Maschine für zivile Anwendungen vermarkten. Dazu wurde am 9. Juli 1923 die Chiffriermaschinen-Aktiengesellschaft in Berlin gegründet.",
+      "Das erste in größeren Stückzahlen gefertigte Modell war 1923 eine schreibende Enigma genannt die Handelsmaschine. Die kommerziellen Modelle erwiesen sich als wenig zuverlässig und wurden kein kommerzieller Erfolg. Im Jahr 1926 wurde ein anderes Enigma-Modell mit Glühlämpchen von der Reichsmarine eingesetzt und später auch vom Heer. Am 1. Juni 1930 wurde dieses Modell unter dem Namen Enigma I von der Reichswehr offiziell in Dienst gestellt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Alle Enigma-Glühlampenchiffriermaschinen bestehen im Wesentlichen aus einer Tastatur zur Buchstabeneingabe, einem Walzensatz zur Verschlüsselung und einem Glühlampenfeld zur Anzeige. Bei der Enigma I sind es drei Walzen, die nebeneinander unabhängig drehbar angeordnet sind und ausgetauscht werden können. Zum Austausch standen zunächst drei und ab 1938 insgesamt fünf Walzen zur Verfügung. Drückt man eine Buchstabentaste, fließt elektrischer Strom durch den Walzensatz und lässt eine Anzeigelampe aufleuchten.",
+      "Da sich bei jedem Tastendruck die Walzen weiterdrehen, ändert sich das geheime Schlüsselalphabet nach jedem Buchstaben. Als zusätzliche kryptographische Komplikation ist an der Gerätefront ein Steckerbrett mit doppelpoligen Steckbuchsen für jeden der 26 Buchstaben angebracht. Die Umkehrwalze dient als Reflektor und verbindet Buchstaben paarweise. Nach dem Durchlaufen des Walzensatzes und der Umkehrwalze leuchtet schließlich die Anzeigelampe für den verschlüsselten Buchstaben auf."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Wikipedia-Artikel stützt sich auf historische Überlieferungen und Dokumente zu den Patenten und der Entwicklung der Maschinen. Laut dem Artikel gelang es den Alliierten, die mit der Enigma verschlüsselten Funksprüche nahezu kontinuierlich zu entziffern. Diese Tatsache wurde bis 1974 geheim gehalten."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text enthält keine Informationen darüber, welche Fragen in der Forschung zur Enigma noch offen sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erstes Patent von Arthur Scherbius",
+     "23. Februar 1918"
+    ],
+    [
+     "Gründung der ChiMaAG",
+     "9. Juli 1923"
+    ],
+    [
+     "Indienststellung der Enigma I",
+     "1. Juni 1930"
+    ],
+    [
+     "Anzahl hergestellter Enigma-Maschinen",
+     "etwa 40.000"
+    ],
+    [
+     "Gewicht der Enigma I mit Gehäuse",
+     "rund 12 kg"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Enigma",
+     "Eine Reihe von Rotor-Chiffriermaschinen, die zur Verschlüsselung von Nachrichten verwendet wurden."
+    ],
+    [
+     "Umkehrwalze",
+     "Eine Walze als Reflektor in der Enigma, die den Strom zurückleitet und Buchstaben paarweise verbindet."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer erfand die Enigma?",
+     "optionen": [
+      "Arthur Scherbius",
+      "Willi Korn",
+      "Rudolf Heimsoeth"
+     ],
+     "richtig": 0,
+     "erklaerung": "Arthur Scherbius ist der Erfinder der Enigma, dessen erstes Patent vom 23. Februar 1918 stammt."
+    }
+   ],
+   "video": [
+    "Die Enigma ist eine bekannte Maschine zur Verschlüsselung von Nachrichten.",
+    "Erfunden wurde sie von Arthur Scherbius im Jahr 1918.",
+    "Im Zweiten Weltkrieg nutzte vor allem die Wehrmacht diese Maschinen.",
+    "Im Inneren der Maschine befindet sich ein Satz aus mehreren Walzen.",
+    "Beim Drücken einer Taste fließt elektrischer Strom durch diese Walzen.",
+    "Dadurch leuchtet auf einem Glühlampenfeld ein anderer Buchstabe auf.",
+    "Nach jedem Tastendruck dreht sich eine Walze automatisch weiter.",
+    "So verändert sich die Verschlüsselung bei jedem Buchstaben komplett.",
+    "Den Alliierten gelang damals die Entzifferung dieser Funksprüche."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Enigma (Maschine)",
+    "bildunterschrift": "Eine historische Enigma-Maschine mit Tastatur und Lampenfeld."
+   },
+   "quelle": {
+    "titel": "Enigma (Maschine)",
+    "url": "https://de.wikipedia.org/wiki/Enigma_(Maschine)",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 310,
+   "bildInfos": [
+    {
+     "titel": "Enigma (20967055154).jpg",
+     "beschreibung": "Bletchley Park , Bletchley, Milton Keynes, Buckinghamshire, England.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Enigma_%2820967055154%29.jpg/1280px-Enigma_%2820967055154%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Enigma_%2820967055154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Enigma_(20967055154).jpg",
+     "urheber": "William Warby from London, England",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Enigma (Maschine)",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine historische Enigma-Maschine mit Tastatur und Lampenfeld."
+    },
+    {
+     "titel": "Alan Turing az 1930-as években.jpg",
+     "beschreibung": "Alan Turing az 1930-as években.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Alan_Turing_az_1930-as_%C3%A9vekben.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/79/Alan_Turing_az_1930-as_%C3%A9vekben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Alan_Turing_az_1930-as_%C3%A9vekben.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Alan Turing az 1930-as években."
+    },
+    {
+     "titel": "Bletchley Park Mansion.jpg",
+     "beschreibung": "Bletchley Park Mansion. This house was the headquarters for British codebreakers during World War II. The mansion is a Grade II Listed Building in England.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bletchley_Park_Mansion.jpg/1280px-Bletchley_Park_Mansion.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bletchley_Park_Mansion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bletchley_Park_Mansion.jpg",
+     "urheber": "DeFacto",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Bletchley Park Mansion. This house was the headquarters for British codebreakers during World War II. The mansion is a Grade II Listed Building in England."
+    },
+    {
+     "titel": "Bundesarchiv Bild 101I-769-0229-10A, Frankreich, Guderian, \"Enigma\" cropped.jpg",
+     "beschreibung": "SdKfz.251/3 ausf. A armoured command vehicle",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bundesarchiv_Bild_101I-769-0229-10A%2C_Frankreich%2C_Guderian%2C_%22Enigma%22_cropped.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bundesarchiv_Bild_101I-769-0229-10A%2C_Frankreich%2C_Guderian%2C_%22Enigma%22_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101I-769-0229-10A,_Frankreich,_Guderian,_%22Enigma%22_cropped.jpg",
+     "urheber": "Bundesarchiv_Bild_101I-769-0229-10A,_Frankreich,_Guderian,_\"Enigma\".jpg : Borchert, Erich ",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "SdKfz.251/3 ausf. A armoured command vehicle"
+    },
+    {
+     "titel": "Bundesarchiv Bild 101II-MW-4222-02A, \"Enigma\" auf U-Boot U-124.jpg",
+     "beschreibung": "\"Enigma\" auf U-Boot U-124",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bundesarchiv_Bild_101II-MW-4222-02A%2C_%22Enigma%22_auf_U-Boot_U-124.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Bundesarchiv_Bild_101II-MW-4222-02A%2C_%22Enigma%22_auf_U-Boot_U-124.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_101II-MW-4222-02A,_%22Enigma%22_auf_U-Boot_U-124.jpg",
+     "urheber": "Dietrich",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "\"Enigma\" auf U-Boot U-124"
+    },
+    {
+     "titel": "DDayMuseumEnigmaMach.jpg",
+     "beschreibung": "ENIGMA machine on display in National World War II Museum, New Orleans .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/DDayMuseumEnigmaMach.jpg/1280px-DDayMuseumEnigmaMach.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/DDayMuseumEnigmaMach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DDayMuseumEnigmaMach.jpg",
+     "urheber": "Infrogmation of New Orleans",
+     "lizenz": "GFDL",
+     "lizenzUrl": "http://www.gnu.org/copyleft/fdl.html",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "ENIGMA machine on display in National World War II Museum, New Orleans ."
+    },
+    {
+     "titel": "Der Schlüssel M - Verfahren M Allgemein (MDvNr 32-1) booklet.jpg",
+     "beschreibung": "Nazi German secret instruction order M.Dv.Nr. 31/1 - Key M - 1940. Cover page. Instructions for Enigma encryption within the German navy.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Der_Schl%C3%BCssel_M_-_Verfahren_M_Allgemein_%28MDvNr_32-1%29_booklet.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Der_Schl%C3%BCssel_M_-_Verfahren_M_Allgemein_%28MDvNr_32-1%29_booklet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Der_Schl%C3%BCssel_M_-_Verfahren_M_Allgemein_(MDvNr_32-1)_booklet.jpg",
+     "urheber": "Deutsche Kriegsmarine",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Nazi German secret instruction order M.Dv.Nr. 31/1 - Key M - 1940. Cover page. Instructions for Enigma encryption within the German navy."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Enigma (20967055154).jpg",
+    "beschreibung": "Bletchley Park , Bletchley, Milton Keynes, Buckinghamshire, England.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Enigma_%2820967055154%29.jpg/1280px-Enigma_%2820967055154%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Enigma_%2820967055154%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Enigma_(20967055154).jpg",
+    "urheber": "William Warby from London, England",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Enigma (Maschine)",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine historische Enigma-Maschine mit Tastatur und Lampenfeld."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-geheimsprache",
    "zeit": "2026-09-27T14:00:58.012Z",
