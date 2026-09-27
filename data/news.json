@@ -2236,7 +2236,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
+   "d": "152e0a2493.mp3",
+   "l": 18.96,
+   "s": [
+    0.25,
+    5.33,
+    9.32,
+    13.25,
+    16.32
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -3535,11 +3547,11 @@
     {
      "k": "Nahe dem britischen Militärstützpunkt Fairford hat die Polizei fünf Männer festg",
      "d": "3fb568e733.mp3",
-     "l": 14.14,
+     "l": 14.4,
      "s": [
       0.25,
-      5.21,
-      9.15
+      5.22,
+      9.24
      ]
     },
     {
@@ -4787,6 +4799,34 @@
       42.16,
       46.27
      ]
+    },
+    {
+     "k": "Die Diskussion über die Regulierung und die Risiken von Künstlicher Intelligenz ",
+     "d": "a3343e4eba.mp3",
+     "l": 51.91,
+     "s": [
+      0.25,
+      6.19,
+      16.06,
+      19.0,
+      27.16,
+      34.47,
+      36.54,
+      42.95
+     ]
+    },
+    {
+     "k": "Der Chef von OpenAI, Sam Altman, absolvierte in den Tagen vor den Ankündigungen ",
+     "d": "23c6a962f0.mp3",
+     "l": 39.22,
+     "s": [
+      0.25,
+      6.48,
+      12.63,
+      20.57,
+      24.89,
+      31.61
+     ]
     }
    ]
   },
@@ -5283,6 +5323,75 @@
      "s": [
       0.25,
       3.35
+     ]
+    },
+    {
+     "k": "In der spanischen Hauptstadt Madrid sind Zehntausende Menschen auf die Straße ge",
+     "d": "0620c373db.mp3",
+     "l": 53.24,
+     "s": [
+      0.25,
+      8.52,
+      17.09,
+      23.11,
+      29.52,
+      35.63,
+      41.06,
+      47.91
+     ]
+    },
+    {
+     "k": "Die 87-jährige Maricarmen Abascal lebte seit 1956 in ihrer Wohnung im Madrider S",
+     "d": "def6418883.mp3",
+     "l": 43.12,
+     "s": [
+      0.25,
+      9.41,
+      14.8,
+      22.84,
+      26.59,
+      29.5,
+      33.15,
+      35.54
+     ]
+    },
+    {
+     "k": "In Spanien sorgen Wohnungsknappheit und steigende Mieten bereits seit längerer Z",
+     "d": "6368291797.mp3",
+     "l": 54.03,
+     "s": [
+      0.25,
+      6.51,
+      12.7,
+      14.26,
+      23.15,
+      30.93,
+      40.71,
+      45.81
+     ]
+    },
+    {
+     "k": "Die Demonstrierenden machen laut Berichten sowohl die linke Zentralregierung von",
+     "d": "199ddd1812.mp3",
+     "l": 64.01,
+     "s": [
+      0.25,
+      12.92,
+      20.84,
+      30.02,
+      39.59,
+      48.59,
+      57.75
+     ]
+    },
+    {
+     "k": "Das von der Regierung vorbereitete Dekret soll nach der Verabschiedung im Kabine",
+     "d": "7c3261a168.mp3",
+     "l": 21.9,
+     "s": [
+      0.25,
+      6.79,
+      12.97
      ]
     }
    ]
@@ -7254,6 +7363,88 @@
       0.25,
       3.29
      ]
+    },
+    {
+     "k": "Ein schwerer Herbststurm hat den Nordosten der Vereinigten Staaten erfasst und z",
+     "d": "0f7bf7d1c2.mp3",
+     "l": 54.32,
+     "s": [
+      0.25,
+      7.64,
+      14.85,
+      21.0,
+      29.81,
+      36.16,
+      43.3,
+      48.59
+     ]
+    },
+    {
+     "k": "Das Ausmaß der Stromausfälle betraf weite Teile der nordöstlichen Region. Nach B",
+     "d": "6582065945.mp3",
+     "l": 41.66,
+     "s": [
+      0.25,
+      4.84,
+      10.86,
+      15.43,
+      22.3,
+      31.53,
+      33.32,
+      37.56
+     ]
+    },
+    {
+     "k": "Meteorologen bezeichnen diese Art von Unwetter an der nordamerikanischen Ostküst",
+     "d": "ec4e7eb446.mp3",
+     "l": 46.83,
+     "s": [
+      0.25,
+      6.74,
+      13.55,
+      19.65,
+      22.95,
+      28.48,
+      32.67,
+      40.48
+     ]
+    },
+    {
+     "k": "Der Nationale Wetterdienst der USA, abgekürzt NWS, ist eine staatliche Behörde f",
+     "d": "a76f16fd89.mp3",
+     "l": 36.13,
+     "s": [
+      0.25,
+      8.1,
+      13.96,
+      19.51,
+      25.19,
+      29.9
+     ]
+    },
+    {
+     "k": "Die Gouverneurin des Bundesstaates New York, Kathy Hochul, warnte die Bevölkerun",
+     "d": "5fbd1f44ba.mp3",
+     "l": 40.48,
+     "s": [
+      0.25,
+      6.87,
+      12.75,
+      24.34,
+      30.07,
+      35.03
+     ]
+    },
+    {
+     "k": "Nach den Prognosen des US-Wetterdienstes NWS sollte sich das Sturmtief in Richtu",
+     "d": "c25b32292b.mp3",
+     "l": 30.35,
+     "s": [
+      0.25,
+      7.64,
+      13.58,
+      21.82
+     ]
     }
    ]
   },
@@ -8317,6 +8508,87 @@
       4.14,
       7.92
      ]
+    },
+    {
+     "k": "Der US-Sender CNN darf den US-Präsidenten Donald Trump nicht auf einer Reise in ",
+     "d": "68926b11f4.mp3",
+     "l": 43.72,
+     "s": [
+      0.25,
+      7.7,
+      13.81,
+      19.88,
+      23.22,
+      27.65,
+      33.92,
+      38.92
+     ]
+    },
+    {
+     "k": "Der sogenannte TV-Pool ist eine Einrichtung in den Vereinigten Staaten. In diese",
+     "d": "dee3b897f8.mp3",
+     "l": 60.68,
+     "s": [
+      0.25,
+      4.8,
+      13.19,
+      19.68,
+      26.59,
+      31.92,
+      40.87,
+      49.56
+     ]
+    },
+    {
+     "k": "Der Ausschluss von der Reise steht im Kontext einer umfassenderen Auseinanderset",
+     "d": "5dd8fe018d.mp3",
+     "l": 58.93,
+     "s": [
+      0.25,
+      7.63,
+      14.32,
+      21.52,
+      25.99,
+      33.87,
+      41.06,
+      46.76
+     ]
+    },
+    {
+     "k": "Eine einstweilige Verfügung ist eine gerichtliche Entscheidung in einem Eilverfa",
+     "d": "3d6a39a45c.mp3",
+     "l": 24.11,
+     "s": [
+      0.25,
+      4.89,
+      12.87,
+      16.75
+     ]
+    },
+    {
+     "k": "Der Rechtsexperte Elie Honig äußerte sich bei CNN zu der richterlichen Anordnung",
+     "d": "21c854628b.mp3",
+     "l": 61.47,
+     "s": [
+      0.25,
+      5.59,
+      15.86,
+      24.3,
+      34.27,
+      40.89,
+      47.06,
+      59.0
+     ]
+    },
+    {
+     "k": "Rechtsexperten gehen davon aus, dass die juristische Auseinandersetzung weiterge",
+     "d": "46e82a002d.mp3",
+     "l": 16.97,
+     "s": [
+      0.25,
+      5.64,
+      12.88
+     ]
     }
    ]
   },
@@ -8731,6 +9003,87 @@
      "s": [
       0.25,
       4.23
+     ]
+    },
+    {
+     "k": "Am Samstag haben zehntausende Menschen in insgesamt 15 deutschen Großstädten an ",
+     "d": "3c944fa3b9.mp3",
+     "l": 33.13,
+     "s": [
+      0.25,
+      7.78,
+      13.16,
+      16.41,
+      17.59,
+      18.94,
+      20.37,
+      26.64
+     ]
+    },
+    {
+     "k": "Der Deutsche Gewerkschaftsbund und die beteiligten Einzelgewerkschaften kritisie",
+     "d": "40e5e0bdb5.mp3",
+     "l": 60.08,
+     "s": [
+      0.25,
+      8.91,
+      14.42,
+      18.92,
+      25.57,
+      34.21,
+      45.4,
+      53.63
+     ]
+    },
+    {
+     "k": "Die Reformpläne der Bundesregierung stossen nicht nur bei den Gewerkschaften, so",
+     "d": "4c84966ce5.mp3",
+     "l": 65.4,
+     "s": [
+      0.25,
+      8.21,
+      17.74,
+      26.49,
+      36.2,
+      41.95,
+      51.81,
+      59.37
+     ]
+    },
+    {
+     "k": "Der Deutsche Gewerkschaftsbund ist ein Dachverband von deutschen Einzelgewerksch",
+     "d": "7aac0bc921.mp3",
+     "l": 32.77,
+     "s": [
+      0.25,
+      5.16,
+      10.01,
+      15.72,
+      21.63,
+      28.2
+     ]
+    },
+    {
+     "k": "Yasmin Fahimi betonte laut Tagesschau und taz, dass eine starke Wirtschaft durch",
+     "d": "68745372dd.mp3",
+     "l": 47.89,
+     "s": [
+      0.25,
+      10.48,
+      12.23,
+      17.08,
+      26.06,
+      37.78
+     ]
+    },
+    {
+     "k": "Nach dem bundesweiten Aktionstag und den Beratungen zwischen Koalitionsspitzen, ",
+     "d": "ca62998726.mp3",
+     "l": 23.61,
+     "s": [
+      0.25,
+      10.05,
+      16.79
      ]
     }
    ]
@@ -10993,6 +11346,93 @@
       0.25,
       2.99,
       6.7
+     ]
+    },
+    {
+     "k": "Der Weltschachverband Fide hat eine neue Führung gewählt. Auf der Generalversamm",
+     "d": "05aee8f95c.mp3",
+     "l": 46.6,
+     "s": [
+      0.25,
+      3.35,
+      11.27,
+      19.04,
+      23.92,
+      28.49,
+      35.13,
+      41.66
+     ]
+    },
+    {
+     "k": "Der Wahlkampf um das Spitzenamt war von inhaltlichen Debatten über die Finanzen ",
+     "d": "3a7b9db215.mp3",
+     "l": 50.89,
+     "s": [
+      0.25,
+      6.2,
+      13.17,
+      19.97,
+      27.81,
+      34.5,
+      41.37,
+      46.16
+     ]
+    },
+    {
+     "k": "Der bisherige Präsident Dworkowitsch hatte sein Amt vor zwei Monaten ruhen lasse",
+     "d": "d868e8022c.mp3",
+     "l": 54.74,
+     "s": [
+      0.25,
+      9.11,
+      17.63,
+      23.31,
+      29.31,
+      34.78,
+      39.34,
+      45.46
+     ]
+    },
+    {
+     "k": "Die Fédération Internationale des Échecs, kurz Fide, ist der weltweite Dachverba",
+     "d": "a0c97d6278.mp3",
+     "l": 53.09,
+     "s": [
+      0.25,
+      6.62,
+      11.99,
+      21.04,
+      25.62,
+      30.48,
+      36.1,
+      45.18
+     ]
+    },
+    {
+     "k": "Die Reaktionen auf den Ausgang der Wahl fielen in den beteiligten nationalen Ver",
+     "d": "593ba11dc6.mp3",
+     "l": 56.98,
+     "s": [
+      0.25,
+      6.41,
+      12.9,
+      20.94,
+      28.52,
+      35.77,
+      42.43,
+      50.85
+     ]
+    },
+    {
+     "k": "Nach der Bestätigung durch die Delegierten übernimmt Timur Turlov nun offiziell ",
+     "d": "89229f3aa8.mp3",
+     "l": 36.75,
+     "s": [
+      0.25,
+      7.14,
+      16.05,
+      23.2,
+      31.08
      ]
     }
    ]

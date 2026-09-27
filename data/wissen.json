@@ -210,7 +210,25 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine historische Enigma-Maschine mit Tastatur und Lampenfeld."
-   }
+   },
+   "ton": [
+    {
+     "k": "Die Enigma ist eine bekannte Maschine zur Verschlüsselung von Nachrichten. Erfun",
+     "d": "4965014c29.mp3",
+     "l": 37.39,
+     "s": [
+      0.25,
+      4.35,
+      9.18,
+      13.33,
+      17.5,
+      21.63,
+      25.73,
+      29.83,
+      33.6
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-die-geheimsprache",
@@ -1540,24 +1558,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ampeln steuern den Straßenverkehr an Kreuzungen und Fußgängerüberwegen."
-   },
-   "ton": [
-    {
-     "k": "Ampeln regeln den Verkehr auf unseren Straßen. Das Wort stammt von einem lateini",
-     "d": "2c98476e01.mp3",
-     "l": 25.36,
-     "s": [
-      0.25,
-      3.39,
-      6.5,
-      9.31,
-      12.06,
-      15.13,
-      18.72,
-      21.51
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-entsteht-eigentlich-ein-tsunami",

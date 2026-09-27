@@ -2,6 +2,16 @@
  "stand": "2026-09-27T18:19:21.922Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktionierte-eigentlich-die-geheimschrift-enigma",
+   "art": "wissen",
+   "titel": "Wie funktionierte eigentlich die Geheimschrift Enigma?",
+   "text": "Die Enigma ist eine bekannte Verschlüsselungsmaschine aus dem zwanzigsten Jahrhundert. Im Zweiten Weltkrieg wurde sie von den Achsenmächten zur geheimen Nachrichtenübertragung verwendet.",
+   "zeit": "2026-09-27T18:27:17.340Z",
+   "d": "4965014c29.mp3",
+   "l": 37.39,
+   "b": 224733
+  },
+  {
    "id": "hauptausgabe-2026-09-27",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-09-27",
@@ -50,16 +60,6 @@
    "d": "b065ae72c8.mp3",
    "l": 34.76,
    "b": 209037
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-das-ampel-system",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich das Ampel-System?",
-   "text": "Ampeln regeln den Verkehr und sorgen für Sicherheit an Straßen. Schon im neunzehnten Jahrhundert gab es erste Versuche mit solchen Lichtsignalanlagen.",
-   "zeit": "2026-09-25T13:46:19.605Z",
-   "d": "2c98476e01.mp3",
-   "l": 25.36,
-   "b": 152589
   }
  ]
 }
