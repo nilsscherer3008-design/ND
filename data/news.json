@@ -2233,7 +2233,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
+   "d": "16b492d6be.mp3",
+   "l": 20.23,
+   "s": [
+    0.25,
+    5.09,
+    9.21,
+    13.74,
+    17.26
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -3532,11 +3544,11 @@
     {
      "k": "Nahe dem britischen Militärstützpunkt Fairford hat die Polizei fünf Männer festg",
      "d": "3fb568e733.mp3",
-     "l": 14.32,
+     "l": 14.48,
      "s": [
       0.25,
-      5.15,
-      9.1
+      5.16,
+      9.23
      ]
     },
     {
