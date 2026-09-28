@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-27T18:19:21.922Z",
+ "stand": "2026-09-28T06:47:33.078Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -52,10 +52,8 @@
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
-  "dieseltrend-hoechststand-spritpreise",
   "us-medienbann-weisses-haus",
   "xi-besuch-usa-zollpause",
-  "olympische-spiele-berlin-bewerbung-rueckzug",
   "tankrabatt-oktober-dezember-2026",
   "vw-audi-seat-rueckruf-lenkung",
   "heidenau-stolpersteine-verbot",
@@ -75,8 +73,8 @@
   "proteste-zwangsraeumung-madrid-maricarmen"
  ],
  "wetter": {
-  "stand": "2026-09-27T18:19:21.922Z",
-  "morgenTag": "Montag",
+  "stand": "2026-09-28T06:47:33.078Z",
+  "morgenTag": "Dienstag",
   "orte": [
    {
     "name": "Hamburg",
@@ -84,118 +82,105 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 20,
-     "code": 1,
-     "gefuehlt": 18,
-     "wind": 14,
-     "windAus": 127,
-     "feuchte": 42,
-     "druck": 1016,
+     "grad": 14,
+     "code": 2,
+     "gefuehlt": 13,
+     "wind": 5,
+     "windAus": 151,
+     "feuchte": 74,
+     "druck": 1017,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 3,
-     "max": 24,
-     "min": 11,
-     "regen": 0,
-     "menge": 0,
-     "wind": 16,
-     "windAus": 118,
-     "uv": 3.6,
-     "auf": "07:14",
-     "unter": "19:06"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 3,
-     "max": 25,
-     "min": 13,
-     "regen": 10,
+     "max": 24,
+     "min": 14,
+     "regen": 40,
      "menge": 0,
-     "wind": 13,
-     "windAus": 142,
-     "uv": 3,
+     "wind": 12,
+     "windAus": 143,
+     "uv": 3.1,
      "auf": "07:16",
      "unter": "19:04"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 23,
+     "min": 17,
+     "regen": 30,
+     "menge": 0,
+     "wind": 12,
+     "windAus": 90,
+     "uv": 2.2,
+     "auf": "07:17",
+     "unter": "19:01"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 24,
-      "min": 11,
-      "regen": 0,
-      "menge": 0,
-      "wind": 16,
-      "windAus": 118,
-      "uv": 3.6,
-      "auf": "07:14",
-      "unter": "19:06"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 25,
-      "min": 13,
-      "regen": 10,
+      "max": 24,
+      "min": 14,
+      "regen": 40,
       "menge": 0,
-      "wind": 13,
-      "windAus": 142,
-      "uv": 3,
+      "wind": 12,
+      "windAus": 143,
+      "uv": 3.1,
       "auf": "07:16",
       "unter": "19:04"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 22,
-      "min": 16,
-      "regen": 5,
+      "max": 23,
+      "min": 17,
+      "regen": 30,
       "menge": 0,
-      "wind": 11,
-      "windAus": 99,
-      "uv": 2.4,
+      "wind": 12,
+      "windAus": 90,
+      "uv": 2.2,
       "auf": "07:17",
       "unter": "19:01"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 24,
-      "min": 13,
+      "max": 23,
+      "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 14,
+      "wind": 16,
       "windAus": 119,
-      "uv": 3.2,
+      "uv": 3,
       "auf": "07:19",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-01",
-      "code": 61,
+      "code": 63,
       "max": 18,
-      "min": 14,
-      "regen": 73,
-      "menge": 13.8,
+      "min": 12,
+      "regen": 58,
+      "menge": 12,
       "wind": 10,
-      "windAus": 156,
-      "uv": 0.7,
+      "windAus": 142,
+      "uv": 3.4,
       "auf": "07:21",
       "unter": "18:56"
      },
      {
       "datum": "2026-10-02",
-      "code": 45,
+      "code": 3,
       "max": 20,
       "min": 12,
-      "regen": 60,
+      "regen": 48,
       "menge": 0,
-      "wind": 6,
-      "windAus": 257,
-      "uv": 3,
+      "wind": 9,
+      "windAus": 249,
+      "uv": 2.6,
       "auf": "07:23",
       "unter": "18:54"
      },
@@ -203,99 +188,40 @@
       "datum": "2026-10-03",
       "code": 45,
       "max": 20,
-      "min": 10,
+      "min": 8,
       "regen": 9,
       "menge": 0,
-      "wind": 8,
-      "windAus": 100,
-      "uv": 3.2,
+      "wind": 11,
+      "windAus": 243,
+      "uv": 3.1,
       "auf": "07:25",
       "unter": "18:51"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 61,
+      "max": 17,
+      "min": 11,
+      "regen": 13,
+      "menge": 2.4,
+      "wind": 16,
+      "windAus": 240,
+      "uv": 2.8,
+      "auf": "07:26",
+      "unter": "18:49"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 19,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
+      "grad": 14,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "09:00",
       "grad": 14,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -312,49 +238,121 @@
      },
      {
       "zeit": "12:00",
-      "grad": 21,
+      "grad": 20,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 22,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 24,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 25,
+      "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 25,
+      "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "18:00",
-      "grad": 24,
+      "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 23,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "20:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "21:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 15
+     },
+     {
+      "zeit": "22:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 40
+     },
+     {
+      "zeit": "23:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 35
+     },
+     {
+      "zeit": "00:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 30
+     },
+     {
+      "zeit": "01:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 23
+     },
+     {
+      "zeit": "02:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "03:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 17,
       "code": 3,
       "regen": 0
      }
@@ -366,66 +364,53 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 19,
-     "code": 0,
-     "gefuehlt": 16,
-     "wind": 13,
-     "windAus": 114,
-     "feuchte": 46,
-     "druck": 1019,
+     "grad": 13,
+     "code": 3,
+     "gefuehlt": 12,
+     "wind": 11,
+     "windAus": 136,
+     "feuchte": 78,
+     "druck": 1018,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
+     "datum": "2026-09-28",
      "code": 3,
-     "max": 24,
+     "max": 25,
      "min": 13,
      "regen": 0,
      "menge": 0,
-     "wind": 15,
-     "windAus": 114,
-     "uv": 3.8,
-     "auf": "07:00",
-     "unter": "18:53"
-    },
-    "morgen": {
-     "datum": "2026-09-28",
-     "code": 3,
-     "max": 24,
-     "min": 12,
-     "regen": 0,
-     "menge": 0,
-     "wind": 11,
-     "windAus": 135,
-     "uv": 3.8,
+     "wind": 12,
+     "windAus": 137,
+     "uv": 3.7,
      "auf": "07:02",
      "unter": "18:50"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 25,
+     "min": 13,
+     "regen": 0,
+     "menge": 0,
+     "wind": 14,
+     "windAus": 126,
+     "uv": 3.8,
+     "auf": "07:03",
+     "unter": "18:48"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 24,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 15,
-      "windAus": 114,
-      "uv": 3.8,
-      "auf": "07:00",
-      "unter": "18:53"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 24,
-      "min": 12,
+      "max": 25,
+      "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 11,
-      "windAus": 135,
-      "uv": 3.8,
+      "wind": 12,
+      "windAus": 137,
+      "uv": 3.7,
       "auf": "07:02",
       "unter": "18:50"
      },
@@ -437,171 +422,112 @@
       "regen": 0,
       "menge": 0,
       "wind": 14,
-      "windAus": 123,
-      "uv": 3.7,
+      "windAus": 126,
+      "uv": 3.8,
       "auf": "07:03",
       "unter": "18:48"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 23,
+      "max": 24,
       "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 17,
-      "windAus": 121,
-      "uv": 3.4,
+      "wind": 16,
+      "windAus": 114,
+      "uv": 2.6,
       "auf": "07:05",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-01",
       "code": 3,
-      "max": 22,
+      "max": 23,
       "min": 12,
-      "regen": 10,
+      "regen": 8,
       "menge": 0,
       "wind": 10,
-      "windAus": 132,
-      "uv": 3.1,
+      "windAus": 131,
+      "uv": 3.3,
       "auf": "07:07",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-02",
-      "code": 3,
-      "max": 18,
-      "min": 15,
-      "regen": 23,
-      "menge": 0.3,
-      "wind": 7,
-      "windAus": 348,
-      "uv": 2,
+      "code": 61,
+      "max": 20,
+      "min": 16,
+      "regen": 13,
+      "menge": 1.2,
+      "wind": 9,
+      "windAus": 303,
+      "uv": 1.3,
       "auf": "07:09",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
-      "max": 21,
-      "min": 13,
-      "regen": 5,
+      "code": 3,
+      "max": 22,
+      "min": 14,
+      "regen": 8,
       "menge": 0,
-      "wind": 7,
-      "windAus": 69,
-      "uv": 3.4,
+      "wind": 6,
+      "windAus": 264,
+      "uv": 3.3,
       "auf": "07:10",
       "unter": "18:39"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 3,
+      "max": 19,
+      "min": 12,
+      "regen": 10,
+      "menge": 0.3,
+      "wind": 14,
+      "windAus": 263,
+      "uv": 3.2,
+      "auf": "07:12",
+      "unter": "18:36"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 16,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
+      "zeit": "08:00",
       "grad": 13,
       "code": 3,
       "regen": 0
      },
      {
-      "zeit": "05:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 12,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 12,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 12,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
-      "grad": 13,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 15,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 18,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 19,
+      "grad": 20,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 21,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -613,31 +539,103 @@
      {
       "zeit": "15:00",
       "grad": 24,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 24,
-      "code": 3,
+      "grad": 25,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 24,
+      "grad": 25,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
       "grad": 24,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 23,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 20,
       "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 14,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -648,56 +646,43 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 20,
-     "code": 1,
-     "gefuehlt": 17,
-     "wind": 11,
-     "windAus": 128,
-     "feuchte": 43,
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 13,
+     "wind": 7,
+     "windAus": 174,
+     "feuchte": 68,
      "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 3,
-     "max": 25,
-     "min": 13,
-     "regen": 0,
-     "menge": 0,
-     "wind": 13,
-     "windAus": 125,
-     "uv": 4,
-     "auf": "07:04",
-     "unter": "18:57"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 3,
      "max": 26,
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 8,
-     "windAus": 148,
-     "uv": 4,
+     "wind": 9,
+     "windAus": 146,
+     "uv": 3.8,
      "auf": "07:06",
      "unter": "18:55"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 26,
+     "min": 14,
+     "regen": 0,
+     "menge": 0,
+     "wind": 13,
+     "windAus": 118,
+     "uv": 3.9,
+     "auf": "07:07",
+     "unter": "18:52"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 25,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 13,
-      "windAus": 125,
-      "uv": 4,
-      "auf": "07:04",
-      "unter": "18:57"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
@@ -705,9 +690,9 @@
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 148,
-      "uv": 4,
+      "wind": 9,
+      "windAus": 146,
+      "uv": 3.8,
       "auf": "07:06",
       "unter": "18:55"
      },
@@ -718,138 +703,79 @@
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 11,
-      "windAus": 117,
-      "uv": 4,
+      "wind": 13,
+      "windAus": 118,
+      "uv": 3.9,
       "auf": "07:07",
       "unter": "18:52"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 23,
-      "min": 10,
+      "max": 24,
+      "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 9,
-      "windAus": 119,
-      "uv": 3.2,
+      "wind": 10,
+      "windAus": 118,
+      "uv": 3.4,
       "auf": "07:09",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-01",
-      "code": 3,
+      "code": 61,
       "max": 24,
-      "min": 12,
-      "regen": 26,
-      "menge": 0,
+      "min": 11,
+      "regen": 13,
+      "menge": 0.6,
       "wind": 10,
       "windAus": 194,
-      "uv": 3.4,
+      "uv": 3.8,
       "auf": "07:10",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-02",
-      "code": 3,
+      "code": 61,
       "max": 19,
       "min": 15,
-      "regen": 45,
+      "regen": 16,
       "menge": 0.3,
-      "wind": 9,
-      "windAus": 0,
-      "uv": 3.7,
+      "wind": 7,
+      "windAus": 334,
+      "uv": 1.6,
       "auf": "07:12",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 21,
+      "max": 22,
       "min": 13,
-      "regen": 10,
+      "regen": 6,
       "menge": 0,
-      "wind": 10,
-      "windAus": 78,
-      "uv": 3.5,
+      "wind": 3,
+      "windAus": 94,
+      "uv": 1.8,
       "auf": "07:14",
       "unter": "18:43"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 3,
+      "max": 20,
+      "min": 12,
+      "regen": 13,
+      "menge": 0,
+      "wind": 14,
+      "windAus": 263,
+      "uv": 3.4,
+      "auf": "07:15",
+      "unter": "18:41"
      }
     ],
     "stunden": [
-     {
-      "zeit": "20:00",
-      "grad": 20,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "08:00",
       "grad": 14,
@@ -865,7 +791,7 @@
      {
       "zeit": "10:00",
       "grad": 17,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -888,26 +814,26 @@
      },
      {
       "zeit": "14:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 26,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 26,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -919,6 +845,78 @@
      {
       "zeit": "19:00",
       "grad": 24,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 22,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 20,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 14,
       "code": 1,
       "regen": 0
      }
@@ -930,229 +928,157 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 24,
+     "grad": 18,
      "code": 3,
-     "gefuehlt": 23,
-     "wind": 6,
-     "windAus": 137,
-     "feuchte": 40,
-     "druck": 1009,
+     "gefuehlt": 18,
+     "wind": 5,
+     "windAus": 162,
+     "feuchte": 64,
+     "druck": 1012,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 3,
-     "max": 28,
-     "min": 16,
-     "regen": 0,
-     "menge": 0,
-     "wind": 13,
-     "windAus": 144,
-     "uv": 3.8,
-     "auf": "07:26",
-     "unter": "19:19"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 3,
-     "max": 27,
-     "min": 19,
-     "regen": 8,
+     "max": 26,
+     "min": 17,
+     "regen": 2,
      "menge": 0,
-     "wind": 13,
-     "windAus": 74,
-     "uv": 3.8,
+     "wind": 11,
+     "windAus": 104,
+     "uv": 3.2,
      "auf": "07:27",
      "unter": "19:17"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 28,
+     "min": 20,
+     "regen": 0,
+     "menge": 0,
+     "wind": 16,
+     "windAus": 127,
+     "uv": 3.5,
+     "auf": "07:29",
+     "unter": "19:14"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 28,
-      "min": 16,
-      "regen": 0,
-      "menge": 0,
-      "wind": 13,
-      "windAus": 144,
-      "uv": 3.8,
-      "auf": "07:26",
-      "unter": "19:19"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 27,
-      "min": 19,
-      "regen": 8,
+      "max": 26,
+      "min": 17,
+      "regen": 2,
       "menge": 0,
-      "wind": 13,
-      "windAus": 74,
-      "uv": 3.8,
+      "wind": 11,
+      "windAus": 104,
+      "uv": 3.2,
       "auf": "07:27",
       "unter": "19:17"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 29,
-      "min": 21,
-      "regen": 1,
+      "max": 28,
+      "min": 20,
+      "regen": 0,
       "menge": 0,
-      "wind": 15,
-      "windAus": 123,
-      "uv": 3.7,
+      "wind": 16,
+      "windAus": 127,
+      "uv": 3.5,
       "auf": "07:29",
       "unter": "19:14"
      },
      {
       "datum": "2026-09-30",
-      "code": 55,
-      "max": 26,
-      "min": 16,
-      "regen": 24,
-      "menge": 2.2,
+      "code": 3,
+      "max": 28,
+      "min": 19,
+      "regen": 14,
+      "menge": 0.1,
       "wind": 15,
-      "windAus": 128,
-      "uv": 3.8,
+      "windAus": 135,
+      "uv": 4,
       "auf": "07:30",
       "unter": "19:12"
      },
      {
       "datum": "2026-10-01",
       "code": 55,
-      "max": 23,
-      "min": 15,
-      "regen": 76,
-      "menge": 5.4,
-      "wind": 15,
-      "windAus": 202,
-      "uv": 3.4,
+      "max": 22,
+      "min": 16,
+      "regen": 78,
+      "menge": 6.5,
+      "wind": 11,
+      "windAus": 227,
+      "uv": 2.7,
       "auf": "07:32",
       "unter": "19:10"
      },
      {
       "datum": "2026-10-02",
       "code": 3,
-      "max": 20,
+      "max": 21,
       "min": 13,
-      "regen": 46,
+      "regen": 26,
       "menge": 0,
       "wind": 6,
-      "windAus": 310,
-      "uv": 3.5,
+      "windAus": 331,
+      "uv": 3,
       "auf": "07:34",
       "unter": "19:07"
      },
      {
       "datum": "2026-10-03",
-      "code": 2,
-      "max": 20,
-      "min": 11,
-      "regen": 16,
-      "menge": 0,
-      "wind": 11,
-      "windAus": 358,
+      "code": 51,
+      "max": 19,
+      "min": 13,
+      "regen": 17,
+      "menge": 0.3,
+      "wind": 10,
+      "windAus": 308,
       "uv": 3.6,
       "auf": "07:35",
       "unter": "19:05"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 80,
+      "max": 17,
+      "min": 14,
+      "regen": 21,
+      "menge": 16.2,
+      "wind": 10,
+      "windAus": 318,
+      "uv": 3.4,
+      "auf": "07:37",
+      "unter": "19:03"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 25,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "07:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 6
-     },
-     {
       "zeit": "08:00",
-      "grad": 19,
+      "grad": 18,
       "code": 3,
-      "regen": 8
+      "regen": 0
      },
      {
       "zeit": "09:00",
-      "grad": 20,
+      "grad": 19,
       "code": 3,
-      "regen": 6
+      "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 21,
+      "grad": 20,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 22,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
@@ -1164,13 +1090,13 @@
      },
      {
       "zeit": "13:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
       "regen": 0
      },
@@ -1182,7 +1108,7 @@
      },
      {
       "zeit": "16:00",
-      "grad": 27,
+      "grad": 26,
       "code": 3,
       "regen": 0
      },
@@ -1202,7 +1128,79 @@
       "zeit": "19:00",
       "grad": 25,
       "code": 3,
+      "regen": 2
+     },
+     {
+      "zeit": "20:00",
+      "grad": 25,
+      "code": 3,
+      "regen": 2
+     },
+     {
+      "zeit": "21:00",
+      "grad": 24,
+      "code": 3,
+      "regen": 2
+     },
+     {
+      "zeit": "22:00",
+      "grad": 24,
+      "code": 3,
       "regen": 1
+     },
+     {
+      "zeit": "23:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 20,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
      }
     ]
    },
@@ -1212,105 +1210,92 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 23,
-     "code": 1,
-     "gefuehlt": 23,
-     "wind": 4,
-     "windAus": 85,
-     "feuchte": 45,
-     "druck": 1005,
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 14,
+     "wind": 3,
+     "windAus": 50,
+     "feuchte": 65,
+     "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 3,
-     "max": 28,
-     "min": 13,
-     "regen": 0,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 96,
-     "uv": 4.3,
-     "auf": "07:19",
-     "unter": "19:12"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 3,
-     "max": 28,
-     "min": 15,
-     "regen": 3,
+     "max": 27,
+     "min": 14,
+     "regen": 5,
      "menge": 0,
-     "wind": 6,
-     "windAus": 61,
-     "uv": 3.8,
+     "wind": 5,
+     "windAus": 52,
+     "uv": 4,
      "auf": "07:20",
      "unter": "19:10"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 28,
+     "min": 16,
+     "regen": 0,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 73,
+     "uv": 4,
+     "auf": "07:22",
+     "unter": "19:08"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 28,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 96,
-      "uv": 4.3,
-      "auf": "07:19",
-      "unter": "19:12"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 28,
-      "min": 15,
-      "regen": 3,
+      "max": 27,
+      "min": 14,
+      "regen": 5,
       "menge": 0,
-      "wind": 6,
-      "windAus": 61,
-      "uv": 3.8,
+      "wind": 5,
+      "windAus": 52,
+      "uv": 4,
       "auf": "07:20",
       "unter": "19:10"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 27,
-      "min": 17,
+      "max": 28,
+      "min": 16,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 80,
-      "uv": 4.1,
+      "wind": 10,
+      "windAus": 73,
+      "uv": 4,
       "auf": "07:22",
       "unter": "19:08"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 27,
+      "max": 26,
       "min": 13,
-      "regen": 5,
+      "regen": 3,
       "menge": 0,
-      "wind": 8,
-      "windAus": 89,
+      "wind": 6,
+      "windAus": 102,
       "uv": 4.1,
       "auf": "07:23",
       "unter": "19:05"
      },
      {
       "datum": "2026-10-01",
-      "code": 63,
-      "max": 19,
-      "min": 15,
-      "regen": 80,
-      "menge": 14.1,
+      "code": 61,
+      "max": 20,
+      "min": 16,
+      "regen": 65,
+      "menge": 11.1,
       "wind": 7,
-      "windAus": 238,
-      "uv": 2.7,
+      "windAus": 225,
+      "uv": 2.4,
       "auf": "07:25",
       "unter": "19:03"
      },
@@ -1318,106 +1303,47 @@
       "datum": "2026-10-02",
       "code": 3,
       "max": 21,
-      "min": 13,
-      "regen": 49,
+      "min": 10,
+      "regen": 40,
       "menge": 0,
-      "wind": 8,
-      "windAus": 21,
-      "uv": 1.7,
+      "wind": 7,
+      "windAus": 28,
+      "uv": 3.6,
       "auf": "07:26",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-03",
-      "code": 80,
-      "max": 21,
-      "min": 13,
-      "regen": 5,
-      "menge": 1.5,
-      "wind": 8,
-      "windAus": 42,
-      "uv": 3.7,
+      "code": 3,
+      "max": 22,
+      "min": 14,
+      "regen": 13,
+      "menge": 0,
+      "wind": 4,
+      "windAus": 2,
+      "uv": 1.7,
       "auf": "07:28",
       "unter": "18:59"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 45,
+      "max": 22,
+      "min": 8,
+      "regen": 19,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 278,
+      "uv": 3.5,
+      "auf": "07:29",
+      "unter": "18:57"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 24,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 21,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 3
-     },
-     {
       "zeit": "08:00",
-      "grad": 15,
-      "code": 3,
+      "grad": 14,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1440,25 +1366,25 @@
      },
      {
       "zeit": "12:00",
-      "grad": 23,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 25,
+      "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 27,
+      "grad": 26,
       "code": 3,
       "regen": 0
      },
@@ -1470,7 +1396,7 @@
      },
      {
       "zeit": "17:00",
-      "grad": 28,
+      "grad": 27,
       "code": 3,
       "regen": 0
      },
@@ -1478,11 +1404,83 @@
       "zeit": "18:00",
       "grad": 27,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 26,
+      "grad": 25,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "20:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "21:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 16,
       "code": 3,
       "regen": 0
      }
@@ -1494,65 +1492,52 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 24,
+     "grad": 17,
      "code": 2,
-     "gefuehlt": 22,
-     "wind": 9,
-     "windAus": 169,
-     "feuchte": 29,
-     "druck": 989,
+     "gefuehlt": 17,
+     "wind": 3,
+     "windAus": 180,
+     "feuchte": 61,
+     "druck": 990,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 3,
-     "max": 29,
-     "min": 11,
-     "regen": 0,
-     "menge": 0,
-     "wind": 10,
-     "windAus": 169,
-     "uv": 4.3,
-     "auf": "07:16",
-     "unter": "19:10"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 3,
-     "max": 30,
-     "min": 14,
-     "regen": 0,
+     "max": 29,
+     "min": 16,
+     "regen": 5,
      "menge": 0,
-     "wind": 7,
-     "windAus": 164,
+     "wind": 9,
+     "windAus": 139,
      "uv": 4.2,
      "auf": "07:18",
      "unter": "19:08"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 29,
+     "min": 15,
+     "regen": 0,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 140,
+     "uv": 4.1,
+     "auf": "07:19",
+     "unter": "19:06"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 3,
-      "max": 29,
-      "min": 11,
-      "regen": 0,
-      "menge": 0,
-      "wind": 10,
-      "windAus": 169,
-      "uv": 4.3,
-      "auf": "07:16",
-      "unter": "19:10"
-     },
      {
       "datum": "2026-09-28",
       "code": 3,
-      "max": 30,
-      "min": 14,
-      "regen": 0,
+      "max": 29,
+      "min": 16,
+      "regen": 5,
       "menge": 0,
-      "wind": 7,
-      "windAus": 164,
+      "wind": 9,
+      "windAus": 139,
       "uv": 4.2,
       "auf": "07:18",
       "unter": "19:08"
@@ -1560,85 +1545,170 @@
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 27,
-      "min": 14,
+      "max": 29,
+      "min": 15,
       "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 141,
-      "uv": 3.7,
+      "wind": 10,
+      "windAus": 140,
+      "uv": 4.1,
       "auf": "07:19",
       "unter": "19:06"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 28,
-      "min": 13,
-      "regen": 4,
+      "max": 27,
+      "min": 14,
+      "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 163,
-      "uv": 3.8,
+      "wind": 9,
+      "windAus": 249,
+      "uv": 4.1,
       "auf": "07:21",
       "unter": "19:04"
      },
      {
       "datum": "2026-10-01",
       "code": 61,
-      "max": 22,
-      "min": 17,
+      "max": 20,
+      "min": 16,
       "regen": 73,
-      "menge": 4.8,
-      "wind": 9,
-      "windAus": 301,
-      "uv": 2.6,
+      "menge": 4.7,
+      "wind": 13,
+      "windAus": 269,
+      "uv": 1.9,
       "auf": "07:22",
       "unter": "19:02"
      },
      {
       "datum": "2026-10-02",
-      "code": 61,
-      "max": 18,
-      "min": 14,
-      "regen": 56,
-      "menge": 0.6,
+      "code": 3,
+      "max": 21,
+      "min": 15,
+      "regen": 55,
+      "menge": 0,
       "wind": 8,
-      "windAus": 351,
-      "uv": 1.6,
+      "windAus": 20,
+      "uv": 3.9,
       "auf": "07:24",
       "unter": "19:00"
      },
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 21,
-      "min": 12,
-      "regen": 12,
+      "max": 23,
+      "min": 14,
+      "regen": 6,
       "menge": 0,
-      "wind": 7,
-      "windAus": 92,
-      "uv": 3.5,
+      "wind": 8,
+      "windAus": 302,
+      "uv": 3.2,
       "auf": "07:25",
       "unter": "18:58"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 45,
+      "max": 23,
+      "min": 12,
+      "regen": 21,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 270,
+      "uv": 3,
+      "auf": "07:26",
+      "unter": "18:56"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 24,
+      "zeit": "08:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "10:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 3
+     },
+     {
+      "zeit": "11:00",
+      "grad": 23,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "21:00",
-      "grad": 24,
+      "zeit": "12:00",
+      "grad": 25,
       "code": 2,
       "regen": 0
      },
      {
-      "zeit": "22:00",
+      "zeit": "13:00",
+      "grad": 26,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 28,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 29,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 29,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 29,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 29,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 28,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 26,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
       "grad": 23,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 22,
       "code": 1,
       "regen": 0
      },
@@ -1651,7 +1721,7 @@
      {
       "zeit": "00:00",
       "grad": 20,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1663,108 +1733,36 @@
      {
       "zeit": "02:00",
       "grad": 18,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "03:00",
       "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 16,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 22,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 25,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 27,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 28,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 29,
       "code": 3,
       "regen": 0
      },
      {
-      "zeit": "16:00",
-      "grad": 30,
-      "code": 2,
+      "zeit": "04:00",
+      "grad": 17,
+      "code": 3,
       "regen": 0
      },
      {
-      "zeit": "17:00",
-      "grad": 29,
-      "code": 2,
+      "zeit": "05:00",
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
-      "zeit": "18:00",
-      "grad": 29,
-      "code": 2,
+      "zeit": "06:00",
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
-      "zeit": "19:00",
-      "grad": 28,
+      "zeit": "07:00",
+      "grad": 15,
       "code": 3,
       "regen": 0
      }
@@ -1776,56 +1774,43 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 19,
-     "code": 2,
-     "gefuehlt": 18,
-     "wind": 5,
-     "windAus": 120,
-     "feuchte": 59,
-     "druck": 960,
+     "grad": 11,
+     "code": 1,
+     "gefuehlt": 10,
+     "wind": 2,
+     "windAus": 141,
+     "feuchte": 80,
+     "druck": 961,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-27",
-     "code": 2,
-     "max": 25,
-     "min": 8,
-     "regen": 0,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 105,
-     "uv": 4.4,
-     "auf": "07:07",
-     "unter": "19:01"
-    },
-    "morgen": {
      "datum": "2026-09-28",
      "code": 2,
      "max": 27,
      "min": 9,
      "regen": 0,
      "menge": 0,
-     "wind": 13,
-     "windAus": 86,
+     "wind": 11,
+     "windAus": 99,
      "uv": 4.3,
      "auf": "07:08",
      "unter": "18:59"
     },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 25,
+     "min": 11,
+     "regen": 0,
+     "menge": 0,
+     "wind": 11,
+     "windAus": 83,
+     "uv": 4.3,
+     "auf": "07:09",
+     "unter": "18:57"
+    },
     "tage": [
-     {
-      "datum": "2026-09-27",
-      "code": 2,
-      "max": 25,
-      "min": 8,
-      "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 105,
-      "uv": 4.4,
-      "auf": "07:07",
-      "unter": "19:01"
-     },
      {
       "datum": "2026-09-28",
       "code": 2,
@@ -1833,8 +1818,8 @@
       "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 13,
-      "windAus": 86,
+      "wind": 11,
+      "windAus": 99,
       "uv": 4.3,
       "auf": "07:08",
       "unter": "18:59"
@@ -1843,11 +1828,11 @@
       "datum": "2026-09-29",
       "code": 3,
       "max": 25,
-      "min": 10,
+      "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 9,
-      "windAus": 80,
+      "wind": 11,
+      "windAus": 83,
       "uv": 4.3,
       "auf": "07:09",
       "unter": "18:57"
@@ -1856,128 +1841,69 @@
       "datum": "2026-09-30",
       "code": 45,
       "max": 25,
-      "min": 10,
+      "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 82,
-      "uv": 4.1,
+      "windAus": 75,
+      "uv": 4,
       "auf": "07:11",
       "unter": "18:55"
      },
      {
       "datum": "2026-10-01",
-      "code": 45,
-      "max": 23,
-      "min": 10,
-      "regen": 9,
-      "menge": 0,
-      "wind": 7,
-      "windAus": 308,
+      "code": 61,
+      "max": 24,
+      "min": 11,
+      "regen": 17,
+      "menge": 0.9,
+      "wind": 9,
+      "windAus": 259,
       "uv": 4.1,
       "auf": "07:12",
       "unter": "18:53"
      },
      {
       "datum": "2026-10-02",
-      "code": 3,
+      "code": 61,
       "max": 20,
-      "min": 13,
-      "regen": 25,
-      "menge": 0,
-      "wind": 8,
-      "windAus": 20,
-      "uv": 3.1,
+      "min": 15,
+      "regen": 23,
+      "menge": 4.2,
+      "wind": 7,
+      "windAus": 324,
+      "uv": 2.3,
       "auf": "07:14",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-03",
-      "code": 2,
-      "max": 21,
-      "min": 8,
+      "code": 45,
+      "max": 22,
+      "min": 13,
       "regen": 7,
       "menge": 0,
-      "wind": 10,
-      "windAus": 90,
-      "uv": 3.8,
+      "wind": 5,
+      "windAus": 218,
+      "uv": 3.3,
       "auf": "07:15",
       "unter": "18:48"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 45,
+      "max": 22,
+      "min": 12,
+      "regen": 22,
+      "menge": 0,
+      "wind": 14,
+      "windAus": 267,
+      "uv": 2.3,
+      "auf": "07:16",
+      "unter": "18:46"
      }
     ],
     "stunden": [
-     {
-      "zeit": "20:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 12,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 9,
-      "code": 0,
-      "regen": 0
-     },
      {
       "zeit": "08:00",
       "grad": 9,
@@ -1986,56 +1912,56 @@
      },
      {
       "zeit": "09:00",
-      "grad": 12,
-      "code": 0,
+      "grad": 11,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 16,
+      "grad": 15,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "11:00",
       "grad": 19,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "12:00",
       "grad": 22,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 24,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 26,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 27,
+      "grad": 26,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 26,
-      "code": 1,
+      "grad": 27,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 26,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
@@ -2049,19 +1975,91 @@
       "grad": 23,
       "code": 1,
       "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 21,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
      }
     ]
    }
   ],
   "text": [
    "Heute liegen die Höchstwerte zwischen 24 und 29 Grad.",
-   "Die Vorhersage für morgen, Montag, im ganzen Land: bewölkt.",
-   "Die Temperaturen erreichen dann 24 bis 30 Grad.",
-   "Am wärmsten wird es in Stuttgart mit 30 Grad.",
+   "Die Vorhersage für morgen, Dienstag, im ganzen Land: bewölkt.",
+   "Die Temperaturen erreichen dann 23 bis 29 Grad.",
+   "Am wärmsten wird es in Stuttgart mit 29 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
-   "tag": "Montag",
+   "tag": "Dienstag",
    "orte": [
     {
      "name": "Hamburg",
@@ -2069,20 +2067,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 25,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 23,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
-       "regen": 0
+       "grad": 20,
+       "regen": 0.1
       }
      ]
     },
@@ -2092,7 +2090,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 24,
+       "grad": 25,
        "regen": 0
       },
       {
@@ -2104,7 +2102,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
+       "grad": 24,
        "regen": 0
       }
      ]
@@ -2121,13 +2119,13 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 26,
+       "grad": 25,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       }
      ]
@@ -2138,20 +2136,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 27,
+       "grad": 28,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 27,
-       "regen": 0.2
+       "grad": 28,
+       "regen": 0.7
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 26,
-       "regen": 0.5
+       "grad": 27,
+       "regen": 0
       }
      ]
     },
@@ -2168,12 +2166,12 @@
        "name": "GFS",
        "heim": "USA",
        "grad": 27,
-       "regen": 0.4
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 25,
+       "grad": 27,
        "regen": 0
       }
      ]
@@ -2184,13 +2182,13 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 30,
+       "grad": 29,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 29,
+       "grad": 28,
        "regen": 0
       },
       {
@@ -2207,7 +2205,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 27,
+       "grad": 25,
        "regen": 0
       },
       {
@@ -2219,16 +2217,16 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       }
      ]
     }
    ],
-   "spanneGrad": 5,
+   "spanneGrad": 3,
    "uneinigRegen": null,
    "saetze": [
-    "Für München gehen die Modelle am weitesten auseinander: zwischen 22 und 27 Grad."
+    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 20 und 23 Grad."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2236,19 +2234,7 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst",
-  "ton": {
-   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
-   "d": "152e0a2493.mp3",
-   "l": 18.96,
-   "s": [
-    0.25,
-    5.33,
-    9.32,
-    13.25,
-    16.32
-   ]
-  }
+  "quelle": "Open-Meteo / Deutscher Wetterdienst"
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4808,7 +4794,7 @@
       0.25,
       6.19,
       16.06,
-      19.0,
+      19,
       27.16,
       34.47,
       36.54,
@@ -7372,7 +7358,7 @@
       0.25,
       7.64,
       14.85,
-      21.0,
+      21,
       29.81,
       36.16,
       43.3,
@@ -8577,7 +8563,7 @@
       34.27,
       40.89,
       47.06,
-      59.0
+      59
      ]
     },
     {
@@ -13006,1148 +12992,6 @@
       34.31,
       40.8,
       50.24
-     ]
-    }
-   ]
-  },
-  {
-   "id": "olympische-spiele-berlin-bewerbung-rueckzug",
-   "rubrik": "Deutschland",
-   "zeit": "2026-09-25T06:39:17.000Z",
-   "aktualisiert": "aktualisiert um 09:42 Uhr",
-   "titel": "Rückzug der Berliner Bewerbung für Olympische und Paralympische Sommerspiele",
-   "vorspann": "Die amtierende Berliner Landesregierung hat ihre Bewerbung für Olympische und Paralympische Spiele offiziell zurückgezogen. Damit verbleiben nur noch München und die Region Köln/Rhein-Ruhr als deutsche Bewerber.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Berlin hat seine Bewerbung für die Olympischen und Paralympischen Spiele offiziell zurückgezogen.",
-    "Als Gründe werden der Regierungswechsel in Berlin, die Ablehnung durch die Wahlsiegerin Elif Eralp und Bewertungen durch den DOSB genannt.",
-    "Mit dem Rückzug bleiben nur München und Köln/Rhein-Ruhr als deutsche Kandidaten für die Spiele im Jahr 2036, 2040 oder 2044.",
-    "Der Deutsche Olympische Sportbund entscheidet am kommenden Samstag in Baden-Baden über den offiziellen nationalen Bewerber."
-   ],
-   "einig": [
-    [
-     "Berlin zieht seine offizielle Bewerbung für die Olympischen Spiele zurück.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Zeit",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "Kai Wegner macht den Wahlerfolg der Linkspartei und die Position von Elif Eralp für den Rückzug verantwortlich.",
-     [
-      "Tagesschau/ARD",
-      "Zeit",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "München und Köln/Rhein-Ruhr verbleiben als verbleibende deutsche Kandidaten für die Entscheidung des DOSB.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutsche Welle"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Welche konkreten Auswirkungen der Berliner Rückzug auf die Punktevergabe des DOSB hat, bleibt offen."
-   ],
-   "positionen": [
-    [
-     "Kai Wegner (Regierender Bürgermeister, CDU)",
-     "Bedauert den Rückzug und macht die Position der Wahlsiegerin Elif Eralp dafür verantwortlich.",
-     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
-    ],
-    [
-     "Elif Eralp (Spitzenkandidatin, Die Linke)",
-     "Lehnt die Olympia-Pläne ab und sieht das Projekt nach der Wahl als erledigt an.",
-     "Tagesschau/ARD,ZDFheute,Deutsche Welle"
-    ],
-    [
-     "Kaweh Niroomand (Olympia-Beauftragter)",
-     "Kritisiert die Aussagen von Elif Eralp als Ursache für den Vertrauensverlust der Verbände.",
-     "Tagesschau/ARD,Deutsche Welle"
-    ],
-    [
-     "Thomas Weikert (DOSB-Präsident)",
-     "Zollt den Berliner Verantwortlichen Respekt für den Entschluss.",
-     "ZDFheute,Deutsche Welle"
-    ]
-   ],
-   "fehlend": "Stimmen aus der Bevölkerung oder von Sportlern der beteiligten Regionen Brandenburg, Sachsen und Mecklenburg-Vorpommern.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "25.09.26, 08:39",
-     "fokus": "Politische Hintergründe in Berlin",
-     "text": "Berichtet ausführlich über die Pressekonferenz im Roten Rathaus und die Aussagen der beteiligten Berliner Politiker.",
-     "url": "https://www.sportschau.de/regional/rbb/rbb-livestream-berliner-verantwortliche-zu-olympia-aus-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 2,
-      "woerter": 486,
-      "satzlaenge": 17,
-      "langeWoerter": 37
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "24.09.26, 14:16",
-     "fokus": "Historischer Rückblick und Evaluierung",
-     "text": "Beleuchtet neben dem aktuellen Rückzug auch historische Vergleiche zu früheren Berliner Bewerbungen sowie den DOSB-Bericht.",
-     "url": "https://www.zdfheute.de/panorama/olympia-absage-berlin-dritter-versuch-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 9,
-      "minuten": 4,
-      "woerter": 761,
-      "satzlaenge": 19,
-      "langeWoerter": 33
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "24.09.26, 11:15",
-     "fokus": "–",
-     "text": "Berlin nimmt sich selbst aus dem Rennen um die Olympia-Bewerbung. Bürgermeister Kai Wegner macht den Sieg der Linkspartei für den Rückzug verantwortlich.",
-     "url": "https://www.zeit.de/sport/2026-09/berlin-olympia-bewerbung-rueckzug-kai-wegner-muenchen-koeln-rhein-ruhr-gxe",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "24.09.26, 15:26",
-     "fokus": "–",
-     "text": "Im Rennen für eine Bewerbung sind damit noch München sowie Köln-Rhein-Ruhr. Am Samstag entscheidet der Deutsche Olympische Sportbund in Baden-Baden nun über den finalen Kandidaten aus Deutschland.",
-     "url": "https://www.faz.net/video/berlin-zieht-olympia-bewerbung-zurueck-201259569.html",
-     "video": true,
-     "lesbar": {
-      "stufe": "schwer",
-      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
-      "klasse": 13,
-      "minuten": 1,
-      "woerter": 70,
-      "satzlaenge": 12,
-      "langeWoerter": 47
-     },
-     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "24.09.26, 12:29",
-     "fokus": "Konzept und internationale Perspektive",
-     "text": "Erklärt das Konzept Berlin+ im Detail und geht auf die Argumente der verschiedenen Parteien ein.",
-     "url": "https://www.dw.com/de/berlin-zieht-seine-olympia-bewerbung-vorzeitig-zurück/a-79410356?maca=de-rss-de-all-1119-rdf",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 3,
-      "woerter": 541,
-      "satzlaenge": 17,
-      "langeWoerter": 38
-     },
-     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
-     "finanzierung": "Steuermittel des Bundes",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit der Geschichte",
-     "ZDFheute nennt im Gegensatz zu den anderen Quellen historische Details über die Bewerbung für die Spiele im Jahr 2000."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Die Berliner Landesregierung mit Regierendem Bürgermeister Kai Wegner",
-    "was": "Rückzug der Olympia-Bewerbung bis mindestens 2048",
-    "wann": "2026-09-24",
-    "wo": "Berlin, Deutschland",
-    "wie": "Auf einer offiziellen Pressekonferenz im Roten Rathaus",
-    "warum": "Fehlende Unterstützung nach politischem Wechsel, laut Kai Wegner",
-    "quellenlage": "Öffentlich-rechtliche und gedruckte Medienberichte"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Rückzug der Bewerbung",
-     "absaetze": [
-      "Die amtierende Landesregierung von Berlin hat ihre Bewerbung für die Ausrichtung von Olympischen und Paralympischen Spielen offiziell zurückgezogen. Dies gaben der Regierende Bürgermeister Kai Wegner, die Sportsenatorin Iris Spranger und der Olympia-Beauftragte Kaweh Niroomand auf einer Pressekonferenz bekannt. Der Rückzug erfolgt wenige Tage vor der Entscheidung des Deutschen Olympischen Sportbundes über den nationalen Kandidaten. Damit steht fest, dass Berlin bis mindestens 2048 keine Spiele ausrichten wird. Die Verantwortlichen erklärten den Schritt am Vormittag im Roten Rathaus in Berlin.",
-      "Bereits am Tag zuvor hatte sich der Ausstieg der Hauptstadt abgezeichnet. Der rbb hatte über ein entsprechendes Treffen des Olympia-Beauftragten Kaweh Niroomand mit dem Regierenden Bürgermeister Kai Wegner und Sportsenatorin Iris Spranger berichtet. Kai Wegner äußerte bei der Pressekonferenz, dass er noch nie so ungerne vor die Medien getreten sei. Er bezeichnete den Tag als traurigen Tag für Berlin und betonte die entgangene Chance für die Stadt, Ostdeutschland und kommende Generationen. Die Veranstaltung wurde von den beteiligten Politikern und Verantwortlichen mit großem Bedauern begleitet.",
-      "Mit dem Rückzug der Hauptstadt verbleiben laut den Berichten nur noch München und die Region Köln/Rhein-Ruhr im nationalen Bewerbungsprozess. Der Deutsche Olympischer Sportbund plant, am kommenden Samstag im Kurhaus von Baden-Baden über den offiziellen deutschen Kandidaten zu entscheiden. An dieser Entscheidung sind 42 olympische Sportverbände sowie das Präsidium und persönliche Mitglieder des DOSB beteiligt. Der ausgewählte deutsche Bewerber wird anschließend in das internationale Verfahren beim Internationalen Olympischen Komitee geschickt."
-     ]
-    },
-    {
-     "ueberschrift": "Gründe für den Abbruch",
-     "absaetze": [
-      "Für den Rückzug der Bewerbung wurden von den Verantwortlichen mehrere wesentliche Ursachen genannt. Als ausschlaggebend gilt das Ergebnis der Wahl zum Abgeordnetenhaus von Berlin, bei der die bisherige schwarz-rote Koalition abgewählt wurde. Die Partei Die Linke ging als Wahlsiegerin hervor und wird voraussichtlich die Regierung anführen. Die Spitzenkandidatin und potenzielle Regierende Bürgermeisterin Elif Eralp ist eine entschiedene Gegnerin der Olympia-Pläne. Sie hatte das Vorhaben und die damit verbundenen Kosten im Wahlkampf kritisiert.",
-      "Unmittelbar nach dem Wahlerfolg erklärte Elif Eralp öffentlich, dass sich die Sache damit erledigt habe. Laut Angaben von Kai Wegner führte diese politische Veränderung dazu, dass große Sportverbände ihre bisherige Unterstützung für das Konzept entzogen. Der Olympia-Beauftragte Kaweh Niroomand warf Elif Eralp vor, die Bewerbung innerhalb kürzester Zeit zunichte gemacht zu haben. Durch diese Äußerungen sei eine Verunsicherung unter den Verbänden entstanden, die die Erfolgsaussichten gemindert habe. Auch die Grünen, die voraussichtlich an einer neuen Regierung beteiligt sein werden, lehnen die Pläne ab.",
-      "Ein weiterer Faktor war die Bewertung durch den Deutschen Olympischen Sportbund. Eine Evaluierungskommission des DOSB hatte die Bewerbungskonzepte bereits zu Wochenbeginn bewertet und Berlin deutlich hinter den Mitbewerbern platziert. Während München und Köln/Rhein-Ruhr in der Kategorie sehr gut landeten, erreichte Berlin lediglich 74,6 Punkte. Zudem verfügte Berlin im Gegensatz zu München und Nordrhein-Westfalen über kein erfolgreiches Bürgerreferendum. Stattdessen hatte sich in der Hauptstadt eine kritische NOlympia-Bewegung formiert."
-     ]
-    },
-    {
-     "ueberschrift": "Das Konzept und die Reaktionen",
-     "absaetze": [
-      "Das von der bisherigen Landesregierung verfolgte Konzept trug den Namen Berlin+. Es sah vor, die Spiele nicht nur in der Hauptstadt auszutragen, sondern ganz Ostdeutschland einzubeziehen. Zu den Partnern sollten die Bundesländer Brandenburg, Sachsen und Mecklenburg-Vorpommern gehören, wobei konkrete Standorte wie Leipzig und Warnemünde genannt wurden. Kai Wegner betonte, dass dieses Konzept einen Investitionsbooster für den Osten hätte darstellen können. Vertreter aus Wirtschaft, Kultur und Sozialverbänden hatten die Planungen unterstützt.",
-      "Nach der Bekanntgabe des Rückzugs äußerten sich verschiedene Funktionäre zu dem Schritt. Der Präsident des Deutschen Olympischen Sportbundes, Thomas Weikert, zollte den Verantwortlichen Respekt und sprach von einem Zeichen der Fairness. Er betonte, dass es den Beteiligten vor allem darum gehe, die Spiele nach Deutschland zu holen. Kai Wegner kündigte an, dass Berlin den künftigen deutschen Kandidaten unterstützen wolle. Man werde gemeinsam nach Baden-Baden reisen, um die internationale Strahlkraft Berlins in den verbleibenden Prozess einzubringen.",
-      "Die Mitbewerber München und Köln/Rhein-Ruhr reagierten laut ZDFheute auf die Ankündigung des Berliner Rückzugs. In den Berichten wird zudem darauf verwiesen, dass Berlin bereits in der Vergangenheit bei Bewerbungen für Sommerspiele gescheitert ist. So ging die deutsche Hauptstadt bei der Vergabe für das Jahr 2000 leer aus, als das Internationale Olympische Komitee die Spiele nach Sydney vergab. Auch bei späteren nationalen Ausscheidungsverfahren konnte sich Berlin nicht durchsetzen. Die erneute Absage bedeutet das vorläufige Ende aller Pläne für die kommenden Jahrzehnte."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-09-22",
-     "Evaluierungskommission des Deutschen Olympischen Sportbundes bewertet die Bewerbungskonzepte der Städte."
-    ],
-    [
-     "2026-09-23",
-     "Berichte kündigen den Rückzug der Berliner Olympia-Bewerbung an."
-    ],
-    [
-     "2026-09-24",
-     "Offizielle Pressekonferenz der Berliner Landesregierung zum Rückzug der Bewerbung."
-    ],
-    [
-     "2026-09-26",
-     "Entscheidung des Deutschen Olympischen Sportbundes über den deutschen Olympia-Kandidaten in Baden-Baden."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Kai Wegner politician",
-     "bildunterschrift": "Kai Wegner, der Regierende Bürgermeister von Berlin, begründete den Rückzug der Olympia-Bewerbung."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Rotes Rathaus Berlin",
-     "bildunterschrift": "Das Rotes Rathaus in Berlin war der Ort der Pressekonferenz zum Olympia-Aus."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Olympiastadion Berlin",
-     "bildunterschrift": "Das Berliner Olympiastadion hätte nach 1936 erneut als Austragungsort dienen können."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Thomas Weikert sports official",
-     "bildunterschrift": "DOSB-Präsident Thomas Weikert äußerte Respekt für die Entscheidung der Berliner Landesregierung."
-    }
-   ],
-   "ort": {
-    "name": "Berlin, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Behauptung über die Sperre bis 2048 korrigiert, da in den Berichten steht, dass Berlin bis mindestens 2048 keine Spiele ausrichtet, laut Wegner jedoch die Bewerbung zurückgezogen wurde."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "DOSB",
-      "Der Deutsche Olympische Sportbund ist die Organisation für den Leistungssport in Deutschland."
-     ],
-     [
-      "Evaluierungskommission",
-      "Eine Gruppe von Fachleuten, die Bewerbungen und Konzepte genau prüft und bewertet."
-     ],
-     [
-      "Bürgerreferendum",
-      "Eine Abstimmung, bei der die Bevölkerung direkt über ein bestimmtes politisches Thema entscheidet."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen politische Veränderungen bei Großprojekten wie den Olympischen Spielen?",
-     "Warum ist ein Bürgerentscheid bei solchen Bewerbungen für die beteiligten Städte wichtig?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer machte den Wahlerfolg der Linkspartei maßgeblich für den Rückzug verantwortlich?",
-      "optionen": [
-       "Kai Wegner",
-       "Thomas Weikert",
-       "Kaweh Niroomand"
-      ],
-      "richtig": 0,
-      "erklaerung": "Kai Wegner nannte den Wahlsieg der Linkspartei und die Position von Elif Eralp als Hauptgrund für den Rückzug."
-     },
-     {
-      "frage": "Welche Städte bleiben nach Berlins Rückzug als deutsche Kandidaten übrig?",
-      "optionen": [
-       "Hamburg und Leipzig",
-       "München und Köln/Rhein-Ruhr",
-       "Frankfurt und Stuttgart"
-      ],
-      "richtig": 1,
-      "erklaerung": "Nach dem Rückzug Berlins verbleiben laut den Berichten nur noch München und die Region Köln/Rhein-Ruhr."
-     },
-     {
-      "frage": "Wie viele Punkte erreichte Berlin im Bericht der DOSB-Evaluierungskommission?",
-      "optionen": [
-       "74,6 Punkte",
-       "85 Punkte",
-       "87 Punkte"
-      ],
-      "richtig": 0,
-      "erklaerung": "Berlin erreichte im Evaluierungsbericht 74,6 Punkte, während München und Köln besser bewertet wurden."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Berlin bewirbt sich nicht mehr für die Olympischen Spiele.",
-    "absaetze": [
-     "Die Landesregierung von Berlin hat die Bewerbung am Donnerstag offiziell zurückgezogen.",
-     "Ein Grund dafür ist die Wahl in Berlin.",
-     "Die Partei Die Linke hat gewonnen und ist gegen das teure Sportfest.",
-     "Nun kämpfen nur noch München und die Region Köln/Rhein-Ruhr darum, der deutsche Bewerber zu werden.",
-     "Am kommenden Samstag entscheidet der Deutsche Olympische Sportbund in Baden-Baden darüber."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Berlin hat seine Bewerbung für die Olympischen und Paralympischen Spiele am Donnerstag offiziell zurückgezogen.",
-     "Als Grund nennen die Politiker den Regierungswechsel und die Ablehnung durch die Wahlsiegerin Elif Eralp.",
-     "Damit bleiben nur noch München und Köln/Rhein-Ruhr im Rennen um die deutsche Bewerbung.",
-     "Am Samstag entscheidet der Deutsche Olympische Sportbund in Baden-Baden über den Kandidaten."
-    ],
-    "lang": [
-     "Berlin zieht seine offizielle Bewerbung für die Olympischen und Paralympischen Spiele zurück.",
-     "Das gaben der Regierende Bürgermeister Kai Wegner und weitere Verantwortliche am Donnerstag auf einer Pressekonferenz bekannt.",
-     "Als Grund für den Rückzug nennt Wegner den Ausgang der Wahl in Berlin.",
-     "Die Wahlsiegerin Elif Eralp von der Partei Die Linke lehnt die Pläne für Olympia ab.",
-     "Auch eine Prüfung des Deutschen Olympischen Sportbundes hatte Berlin schlechtere Noten gegeben als den Mitbewerbern.",
-     "Der Präsident des Deutschen Olympischen Sportbundes, Thomas Weikert, nannte den Schritt der Berliner ein Zeichen von Fairness.",
-     "Nach Angaben der Politiker bedauern sie den Schritt, wollen aber den verbleibenden deutschen Bewerber unterstützen.",
-     "Mit dem Rückzug der Hauptstadt sind nur noch München und die Region Köln/Rhein-Ruhr im nationalen Wettbewerb.",
-     "Am kommenden Samstag entscheidet eine Versammlung in Baden-Baden über den offiziellen deutschen Kandidaten für die Spiele im Jahr 2036."
-    ],
-    "einfach": [
-     "Berlin bewirbt sich nicht mehr um die Olympischen Spiele.",
-     "Das teilte der Regierende Bürgermeister Kai Wegner am Donnerstag mit.",
-     "Die bisherige Regierung wurde bei einer Wahl abgewählt.",
-     "Die neue Wahlsiegerin Elif Eralp ist gegen die Sportspiele.",
-     "Deshalb ziehen die Verantwortlichen die Bewerbung der Stadt zurück.",
-     "Nun entscheiden andere Städte über die deutsche Bewerbung."
-    ]
-   },
-   "kurz": [
-    "Berlin hat seine Bewerbung für die Olympischen Spiele offiziell zurückgezogen.",
-    "Als Grund wird vor allem der politische Wechsel und die Ablehnung durch die Wahlsiegerin Elif Eralp genannt.",
-    "Im nationalen Rennen sind nur noch München und Köln/Rhein-Ruhr.",
-    "Der Deutsche Olympische Sportbund entscheidet am Samstag in Baden-Baden über den Kandidaten."
-   ],
-   "fakten": [
-    [
-     "DOSB-Punkte Berlin",
-     "74,6"
-    ],
-    [
-     "DOSB-Punkte München",
-     "87"
-    ],
-    [
-     "DOSB-Punkte Köln",
-     "85"
-    ],
-    [
-     "Entscheidungsdatum",
-     "26. September 2026"
-    ]
-   ],
-   "dossier": {
-    "slug": "olympia-bewerbung-deutschland-2036",
-    "titel": "Deutsche Bewerbung für Olympische Spiele"
-   },
-   "bildInfo": {
-    "titel": "2014-09-09 - Kai Wegner MdB - 7002.jpg",
-    "beschreibung": "Kai Wegner * 15. September 1972 in Berlin-Spandau ) ist ein deutscher Politiker ( CDU ).",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg/1280px-2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg",
-    "urheber": "Sven Teschke",
-    "lizenz": "CC BY-SA 3.0 de",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "art": "person",
-    "suchbegriff": "Kai Wegner politician",
-    "bildunterschrift": "Der Berliner Politiker Kai Wegner.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "2014-09-09 - Kai Wegner MdB - 7002.jpg",
-     "beschreibung": "Kai Wegner * 15. September 1972 in Berlin-Spandau ) ist ein deutscher Politiker ( CDU ).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg/1280px-2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2014-09-09_-_Kai_Wegner_MdB_-_7002.jpg",
-     "urheber": "Sven Teschke",
-     "lizenz": "CC BY-SA 3.0 de",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-     "art": "person",
-     "suchbegriff": "Kai Wegner politician",
-     "bildunterschrift": "Der Berliner Politiker Kai Wegner.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "DOSB 01.JPG",
-     "beschreibung": "Zentrale: Deutsche Olympische Sportbund in Frankfurt/Main, Otto-Fleck-Schneise 12",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/DOSB_01.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/DOSB_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:DOSB_01.JPG",
-     "urheber": "Olaf Kosinsky",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "institution",
-     "suchbegriff": "Deutscher Olympischer Sportbund",
-     "bildunterschrift": "Die Zentrale des Deutschen Olympischen Sportbundes.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Berlin, Deutschland",
-    "lat": 52.517,
-    "lon": 13.395
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Berlin zieht seine offizielle Bewerbung für die Olympischen und Paralympischen S",
-     "d": "5614ad6414.mp3",
-     "l": 55.18,
-     "s": [
-      0.25,
-      5.76,
-      12.81,
-      16.72,
-      21.57,
-      28.13,
-      34.94,
-      40.84,
-      46.9
-     ]
-    },
-    {
-     "k": "Berlin hat seine Bewerbung für die Olympischen und Paralympischen Spiele am Donn",
-     "d": "78640d0f44.mp3",
-     "l": 21.8,
-     "s": [
-      0.25,
-      6.06,
-      11.73,
-      16.14
-     ]
-    },
-    {
-     "k": "Berlin bewirbt sich nicht mehr um die Olympischen Spiele. Das teilte der Regiere",
-     "d": "33969d4e9c.mp3",
-     "l": 25.69,
-     "s": [
-      0.25,
-      3.97,
-      9.01,
-      13.29,
-      17.72,
-      21.8
-     ]
-    },
-    {
-     "k": "Welche konkreten Auswirkungen der Berliner Rückzug auf die Punktevergabe des DOS",
-     "d": "5999ba35f0.mp3",
-     "l": 6.07,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich DOSB? Der Deutsche Olympische Sportbund ist die Organisa",
-     "d": "0276880c3a.mp3",
-     "l": 8.91,
-     "s": [
-      0.25,
-      3.02
-     ]
-    },
-    {
-     "k": "Die amtierende Landesregierung von Berlin hat ihre Bewerbung für die Ausrichtung",
-     "d": "6512cffc78.mp3",
-     "l": 56.49,
-     "s": [
-      0.25,
-      8.62,
-      17.81,
-      24.58,
-      30.96,
-      35.84,
-      40.41,
-      50.52
-     ]
-    },
-    {
-     "k": "Für den Rückzug der Bewerbung wurden von den Verantwortlichen mehrere wesentlich",
-     "d": "d43e6b43af.mp3",
-     "l": 54.47,
-     "s": [
-      0.25,
-      5.84,
-      14.7,
-      20.04,
-      27.38,
-      32.32,
-      38.28,
-      46.85
-     ]
-    },
-    {
-     "k": "Das von der bisherigen Landesregierung verfolgte Konzept trug den Namen Berlin+.",
-     "d": "50175ec3fa.mp3",
-     "l": 51.12,
-     "s": [
-      0.25,
-      5.61,
-      11.84,
-      21.67,
-      27.64,
-      32.88,
-      37.79,
-      45.56
-     ]
-    }
-   ]
-  },
-  {
-   "id": "dieseltrend-hoechststand-spritpreise",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-09-24T18:22:41.000Z",
-   "aktualisiert": "aktualisiert um 21:05 Uhr",
-   "titel": "Möglicher US-Exportstopp für Diesel: Reaktionen und Hintergründe",
-   "vorspann": "Die US-Regierung prüft einen möglichen Exportstopp für Diesel, um die heimischen Treibstoffpreise zu senken. Die Europäische Kommission und Fachleute warnen vor erheblichen wirtschaftlichen Folgen für den europäischen Markt.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Die US-Regierung erwägt einen Exportstopp für Diesel, um die heimischen Kraftstoffpreise zu senken.",
-    "Die Europäische Kommission warnt vor den negativen Auswirkungen eines solchen Schrittes auf beide Seiten.",
-    "Wirtschafts- und Energieexperten prognostizieren bei einem Ausfuhrverbot drastische Preissteigerungen für Diesel in Europa.",
-    "Die EU und die USA stehen in Kontakt, während die Prüfung in Washington andauert."
-   ],
-   "einig": [
-    [
-     "Die US-Regierung prüft einen möglichen Exportstopp für Diesel.",
-     [
-      "ZDFheute",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Die EU-Kommission hat vor negativen Konsequenzen für beide Seiten gewarnt.",
-     [
-      "ZDFheute",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Die USA liefern einen großen Teil der europäischen Dieselimporte.",
-     [
-      "ZDFheute",
-      "The Guardian"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die US-Regierung tatsächlich ein vollständiges oder teilweises Exportverbot verhängen wird, ist offen, während die Regierung die Prüfung fortsetzt."
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Hat die Idee für einen Exportstopp ins Spiel gebracht, um US-Verbraucher zu entlasten.",
-     "ZDFheute,The Guardian"
-    ],
-    [
-     "Europäische Kommission (Kommissionssprecher)",
-     "Warnt vor negativen Konsequenzen für beide Seiten und fordert Abstimmung unter Partnern.",
-     "ZDFheute,The Guardian"
-    ],
-    [
-     "Chris Wright (US-Energiesekretär)",
-     "Warnt, dass ein Exportverbot ein stumpfes Werkzeug ist, das langfristig schaden kann.",
-     "The Guardian"
-    ]
-   ],
-   "fehlend": "Stellungnahmen von Vertretern der US-Ölindustrie oder weiteren europäischen Regierungen außerhalb Deutschlands und Großbritanniens.",
-   "medien": [
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "24.09.26, 17:17",
-     "fokus": "Politische Reaktionen und Marktfolgen",
-     "text": "ZDFheute berichtet über die Warnung der EU-Kommission, die Prüfung durch das US-Finanzministerium und Einschätzungen der Commerzbank.",
-     "url": "https://www.zdfheute.de/politik/ausland/eu-usa-diesel-exportstopp-schlechte-idee-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 9,
-      "minuten": 2,
-      "woerter": 387,
-      "satzlaenge": 13,
-      "langeWoerter": 35
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "24.09.26, 20:22",
-     "fokus": "–",
-     "text": "Die EU-Kommission will den von US-Präsident Trump ins Spiel gebrachten Exportstopp von Diesel aus den Vereinigten Staaten abwenden.",
-     "url": "https://www.deutschlandfunk.de/eu-kommission-warnt-vor-moeglichen-us-exportstopp-fuer-diesel-100.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "24.09.26, 11:56",
-     "fokus": "–",
-     "text": "Würden die USA keinen Diesel mehr exportieren, könnte der Kraftstoff teurer werden.",
-     "url": "https://www.spiegel.de/wirtschaft/donald-trump-moeglicher-us-exportstopp-fuer-diesel-koennte-sprit-in-deutschland-verteuern-a-1072a668-caf8-4bee-808e-c56cdcd3ecd1#ref=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 9,
-      "minuten": 1,
-      "woerter": 128,
-      "satzlaenge": 14,
-      "langeWoerter": 31
-     },
-     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "24.09.26, 17:03",
-     "fokus": "–",
-     "text": "Donald Trump droht mit einem Exportstopp für Diesel – und würde so die globalen Märkte erschüttern.",
-     "url": "https://www.zeit.de/wirtschaft/2026-09/export-stopp-diesel-usa-donald-trump-knappheit-weltmarkt",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "The Guardian",
-     "typ": "Tageszeitung (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": false,
-     "datum": "24.09.26, 16:46",
-     "fokus": "Internationale Marktauswirkungen und Expertenstimmen",
-     "text": "The Guardian beleuchtet die Details des möglichen Verbotssystems, europäische Importabhängigkeiten und Reaktionen britischer Energieexperten.",
-     "url": "https://www.theguardian.com/business/2026/sep/24/eu-trump-diesel-export-ban-fuel-prices-europe",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 8,
-      "minuten": 4,
-      "woerter": 796,
-      "satzlaenge": 27,
-      "langeWoerter": 25
-     },
-     "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
-     "finanzierung": "Leserbeiträge und Werbung",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Dauer des Verbots",
-     "The Guardian nennt den Zeitraum von 90 Tagen für einen möglichen Exportstopp, während ZDFheute allgemein von einer Prüfung eines vollständigen oder teilweisen Verbots spricht."
-    ]
-   ],
-   "wfragen": {
-    "wer": "US-Präsident Donald Trump und die US-Regierung",
-    "was": "Prüfung eines Exportstopps für Diesel",
-    "wann": "noch unklar",
-    "wo": "Washington, USA",
-    "wie": "Durch ein mögliches vollständiges oder teilweises Ausfuhrverbot nach Angaben von Finanzminister Scott Bessent",
-    "warum": "Senkung hoher Treibstoffpreise vor Kongresswahlen laut ZDFheute",
-    "quellenlage": "Berichte von Nachrichtenagenturen und Medien wie ZDFheute und The Guardian"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Die Vereinigten Staaten prüfen nach Angaben von Regierungsmitgliedern einen Exportstopp für Diesel. US-Präsident Donald Trump brachte ein solches Verbot ins Gespräch, um auf die stark gestiegenen Treibstoffpreise im Inland zu reagieren. Die US-Regierung untersucht derzeit, ob ein vollständiges oder teilweises Verbot umsetzbar ist. Das bestätigte Finanzminister Scott Bessent laut dem Bericht von ZDFheute.",
-      "Die Europäische Kommission reagierte darauf mit Kritik und sprach von einer schlechten Idee. Laut ZDFheute und The Guardian erklärte ein Kommissionssprecher, dass ein solcher Schritt negative Konsequenzen für beide Seiten haben würde. Die EU stehe in dieser Frage im diplomatischen Austausch mit der US-Regierung. Die Behörde betonte, dass enge Partner sich vor Maßnahmen abstimmen sollten, die gemeinsame Märkte betreffen.",
-      "Die potenziellen Auswirkungen eines solchen Exportverbots betreffen vor allem Europa. Die USA waren zuletzt ein bedeutender Lieferant für den europäischen Markt. Laut ZDFheute kam rund die Hälfte der europäischen Dieselimporte aus den Vereinigten Staaten. The Guardian nennt den Anteil der US-Importe ebenfalls hoch, da Lieferungen aus kriegsbeschädigten Raffinerien im Nahen Osten und in Russland stark zurückgegangen sind."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "In den Vereinigten Staaten haben die Dieselpreise nach Angaben von ZDFheute und The Guardian Rekordwerte erreicht. Im August verzeichnete der Dieselpreis in den USA einen Anstieg von rund 24 Prozent. The Guardian nennt einen Rekorddurchschnittspreis von sechs Kommandofünfundsechzig US-Dollar pro Gallone. Trump erklärte dazu laut The Guardian, dass zu viel Diesel exportiert werde und er eine Maßnahme im eigenen Land anstrebe.",
-      "Die US-Regierung erwägt laut The Guardian eine zeitlich befristete Ausfuhrsperre von neunzig Tagen. Dies soll den US-Haushalten vor den bevorstehenden Kongresswahlen am dritten November eine kurzfristige Entlastung bei den Kraftstoffkosten verschaffen. US-Energiesekretär Chris Wright warnte jedoch laut The Guardian davor, dass ein Exportverbot ein unpräzises Werkzeug sei, das die Brennstoffversorgung der USA langfristig schädigen könnte.",
-      "In Europa sind die Spritpreise ebenfalls stark gestiegen. In Deutschland, den Niederlanden und Großbritannien verzeichnen Tankstellen hohe Kosten. Laut The Guardian kletterte der durchschnittliche Dieselpreis in Großbritannien auf fast 198 Pence pro Liter. In Malawi kostet ein Liter Diesel laut ZDFheute knapp drei Euro und bildet damit den höchsten Wert in Afrika."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die weltweiten Energiemärkte stehen unter Druck. Nach Angaben von ZDFheute und The Guardian haben die globalen Ölpreise durch den Krieg deutlich zugelegt. Der Iran blockiert demnach die wichtige Straße von Hormus, was den Welthandel beeinträchtigt. Zudem hatten die Raffinerien im Nahen Osten und in Russland schwere Schäden erlitten oder Ausfuhren eingeschränkt.",
-      "Russland hatte im Juli seine Dieselausfuhren verboten, was laut ZDFheute zu weltweiten Preissteigerungen führte. Der Chefvolkswirt der Commerzbank, Jörg Krämer, erklärte gegenüber dem Spiegel, dass sich Diesel bei einem US-Exportverbot diesmal stärker verteuern würde. Ein Grund dafür ist auch die bevorstehende Heizsaison, in der die Nachfrage nach Heizöl steigt, das chemische Ähnlichkeiten mit Diesel aufweist.",
-      "Die politische Situation in den USA ist von den bevorstehenden Kongresswahlen geprägt. Trumps Republikaner suchen laut ZDFheute nach Mitteln zur Senkung der hohen Treibstoffpreise. Ökonomen wie Jörg Krämer weisen darauf hin, dass ein Exportverbot die Gewinne der US-Ölindustrie dämpfen würde."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Europäische Kommission ist das Exekutivorgan der Europäischen Union. Sie überwacht die Einhaltung der Verträge, schlägt neue Gesetze vor und vertritt die Interessen der Gemeinschaft in internationalen Fragen. Ein Exportstopp bezeichnet das staatlich verordnete Verbot, bestimmte Waren in das Ausland zu verkaufen.",
-      "Raffinerien sind Industrieanlagen, in denen Rohöl durch verschiedene Verfahren in Produkte wie Benzin, Diesel und Heizöl umgewandelt wird. Der Begriff Midterms bezeichnet die Kongresswahlen in den Vereinigten Staaten, die in der Mitte einer Präsidentschaftsperiode stattfinden."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die Europäische Kommission äußerte sich besorgt und kritisierte die Überlegungen der US-Regierung. Ein Kommissionssprecher betonte laut ZDFheute und The Guardian, dass eine Unterbrechung der Lieferketten negative Folgen für beide Seiten habe. Der Sprecher Olof Gill erklärte laut The Guardian zudem, dass die EU erwarte, dass enge Partner sich vor solchen Schritten beraten.",
-      "US-Finanzminister Scott Bessent bestätigte laut ZDFheute, dass die Regierung die Möglichkeit eines teilweisen oder vollständigen Verbots prüft. US-Präsident Donald Trump erklärte laut The Guardian, er habe die Maßnahme innerhalb seines Teams angeregt. US-Energiesekretär Chris Wright bezeichnete das Verbot laut The Guardian als ein stumpfes Werkzeug.",
-      "Wirtschaftsexperten warnten vor den Folgen für die Märkte. Jörg Krämer, Chefvolkswirt der Commerzbank, sagte laut ZDFheute, dass sich Diesel bei einem Verbot um zwanzig bis fünfundzwanzig Prozent verteuern könnte. Josh Michalowski von Argus Media bezeichnete einen Stopp laut The Guardian als verheerend für die Versorgung in Europa. Thomas Pugh von RSM UK erklärte laut The Guardian, dass der Mangel an US-Importen die britische Wirtschaft belasten würde."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die US-Regierung prüft den Vorschlag eines Exportstopps weiter. Eine endgültige Entscheidung über ein vollständiges oder teilweises Verbot steht noch aus.",
-      "Die Europäische Union führt nach Angaben der Kommission hochrangige Gespräche mit der US-Regierung, um die Pläne zu besprechen und die Versorgungssicherheit auf den Märkten zu gewährleisten."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "1. Oktober 2026",
-     "Geplante Einführung des neuen Tankrabatts."
-    ],
-    [
-     "21. September",
-     "Donald Trump äußerte sich am Rande der Generaldebatte in New York zum Exportstopp."
-    ],
-    [
-     "22. September 2026",
-     "Finanzminister Scott Bessent bestätigte die laufenden Prüfungen im Ministerium."
-    ],
-    [
-     "1970er-Jahre",
-     "Die USA stoppten damals während der Ölkrise ihre Ausfuhren von Rohöl weitgehend."
-    ],
-    [
-     "Dienstag",
-     "Donald Trump äußerte sich am Rande der UN-Generaldebatte in New York zu dem potenziellen Exportstopp."
-    ],
-    [
-     "Dienstag",
-     "Finanzminister Scott Bessent bestätigte laufende Prüfungen im Ministerium."
-    ],
-    [
-     "3. November",
-     "Geplante Kongresswahlen in den USA."
-    ],
-    [
-     "Juli",
-     "Russland verbot seine Dieselausfuhren, was zu Preissteigerungen am Weltmarkt führte."
-    ],
-    [
-     "August",
-     "Die Dieselpreise in den USA stiegen um rund vierundzwanzig Prozent."
-    ],
-    [
-     "Dienstag",
-     "US-Präsident Donald Trump äußerte sich zu dem potenziellen Exportstopp."
-    ],
-    [
-     "Mittwoch",
-     "Finanzminister Scott Bessent bestätigte die laufenden Prüfungen im Ministerium, und die EU-Kommission reagierte mit Warnungen."
-    ],
-    [
-     "Dritter November",
-     "Geplante Kongresswahlen in den Vereinigten Staaten."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Donald Trump",
-     "bildunterschrift": "US-Präsident Donald Trump brachte den möglichen Exportstopp für Diesel ins Gespräch."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "European Commission",
-     "bildunterschrift": "Die EU-Kommission in Brüssel warnte vor negativen Konsequenzen des Exportstopps."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Diesel fuel",
-     "bildunterschrift": "Dieselpreise erreichten in den USA und Europa zuletzt Rekordwerte."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Strait of Hormuz",
-     "bildunterschrift": "Die Straße von Hormus ist eine wichtige Handelsroute für den globalen Ölmarkt."
-    }
-   ],
-   "ort": {
-    "name": "Washington, USA"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Jahreszahlen ohne Beleg im Text ('2026') durch 'noch unklar' beziehungsweise neutrale Formulierungen ersetzt.",
-    "Zahlen und Prozentzeichen in Text und Zeitleiste in geschriebene Wörter umgewandelt gemäß den Sprechregeln.",
-    "Wertende Begriffe wie 'krachend' oder 'dramatisch' entfernt, da sie nicht in den Quellen standen."
-   ],
-   "wortwarnung": [
-    "verheerend"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Exportstopp",
-      "Ein Exportstopp ist das staatlich verordnete Verbot, bestimmte Waren in andere Länder zu verkaufen."
-     ],
-     [
-      "Raffinerie",
-      "Eine Raffinerie ist eine Industrieanlagen, in der Rohöl in Produkte wie Benzin, Diesel und Heizöl umgewandelt wird."
-     ]
-    ],
-    "fragen": [
-     "Welche Gründe nennen Politiker für einen möglichen Exportstopp von Diesel?",
-     "Welche Folgen könnte ein US-Exportverbot für europäische Verbraucherinnen und Verbraucher haben?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat die Idee für einen Exportstopp von Diesel ins Spiel gebracht?",
-      "optionen": [
-       "Der britische Premierminister",
-       "US-Präsident Donald Trump",
-       "Die Europäische Kommission"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut den Berichten von ZDFheute und The Guardian sprach sich US-Präsident Donald Trump für einen Exportstopp aus."
-     },
-     {
-      "frage": "Wie begründet die US-Regierung den möglichen Schritt?",
-      "optionen": [
-       "Um die heimischen Treibstoffpreise zu senken",
-       "Um den Welthandel zu fördern",
-       "Um die europäischen Partner zu unterstützen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Trumps Republikaner suchen nach Mitteln zur Senkung der hohen Treibstoffpreise vor den Kongresswahlen."
-     },
-     {
-      "frage": "Wie reagierte die Europäische Kommission auf die Pläne?",
-      "optionen": [
-       "Sie forderte ein sofortiges weltweites Verbot",
-       "Sie warnte vor negativen Konsequenzen für beide Seiten",
-       "Sie kündigte eigene Zölle an"
-      ],
-      "richtig": 1,
-      "erklaerung": "Ein Sprecher der Europäischen Kommission erklärte, ein solcher Schritt sei eine sehr schlechte Idee und habe negative Konsequenzen für beide Seiten."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Vereinigten Staaten denken über ein Verbot nach, um Diesel im eigenen Land zu behalten.",
-    "absaetze": [
-     "US-Präsident Donald Trump möchte die hohen Preise für Kraftstoff senken. Deshalb prüfen Fachleute in der US-Regierung einen Exportstopp für Diesel.",
-     "Die Europäische Kommission warnt vor diesem Schritt. Sie erklärt, dass ein Exportverbot für die Europäische Union und für die Vereinigten Staaten große Nachteile bringt.",
-     "In Europa kommt ein sehr großer Teil des Diesels aus den Vereinigten Staaten. Wenn dieser Diesel fehlt, könnten die Preise für Treibstoff und Heizöl stark steigen.",
-     "Die Europäische Union führt deshalb Gespräche mit der US-Regierung, um die Versorgung abzusichern."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die US-Regierung prüft einen Exportstopp für Diesel, um die heimischen Preise zu senken. Die Europäische Kommission warnt vor negativen Folgen für Europa und die Vereinigten Staaten. Wirtschaftsexperten befürchten stark steigende Preise für Kraftstoffe."
-    ],
-    "lang": [
-     "Die Vereinigten Staaten prüfen nach Angaben von Regierungsmitgliedern einen möglichen Exportstopp für Diesel.",
-     "US-Präsident Donald Trump brachte die Maßnahme ins Gespräch, um die hohen Treibstoffpreise im Inland zu senken.",
-     "Nach Angaben von ZDFheute und The Guardian untersucht die US-Regierung derzeit ein mögliches vollständiges oder teilweises Verbot.",
-     "Die Europäische Kommission warnte vor negativen Konsequenzen für beide Seiten des Atlantiks.",
-     "Etwa die Hälfte der europäischen Dieselimporte stammt aus den Vereinigten Staaten.",
-     "Wirtschaftsexperten wie der Commerzbank-Chefvolkswirt Jörg Krämer prognostizieren bei einem Verbot Preissteigerungen von bis zu fünfundzwanzig Prozent in Europa.",
-     "Nach Angaben von The Guardian erwägt die US-Regierung eine zeitlich befristete Ausfuhrsperre von neunzig Tagen vor den anstehenden Kongresswahlen.",
-     "Die EU und die Vereinigten Staaten stehen nach Angaben der Kommission in engem diplomatischen Austausch.",
-     "Ob das Exportverbot tatsächlich kommt, ist derzeit noch offen."
-    ],
-    "einfach": [
-     "Die Vereinigten Staaten prüfen ein Verbot für den Export von Diesel.",
-     "US-Präsident Trump möchte damit die Kraftstoffpreise in Amerika senken.",
-     "Die Europäische Kommission warnt vor großen Problemen für Europa.",
-     "In Europa kommt viel Diesel aus den Vereinigten Staaten.",
-     "Deshalb sprechen die Politiker miteinander, um eine Lösung zu finden."
-    ]
-   },
-   "kurz": [
-    "Die US-Regierung prüft nach Angaben von Ministern einen möglichen Exportstopp für Diesel, um die Preise im Inland zu senken.",
-    "Die Europäische Kommission warnt vor negativen Folgen für beide Seiten und fordert eine Abstimmung unter Partnern.",
-    "Wirtschaftsexperten warnen vor stark steigenden Preisen für Diesel und Heizöl in Europa."
-   ],
-   "fakten": [
-    [
-     "Anstieg der US-Dieselpreise im August",
-     "rund vierundzwanzig Prozent"
-    ],
-    [
-     "Möglicher Preisanstieg in Europa laut Commerzbank",
-     "zwanzig bis fünfundzwanzig Prozent"
-    ],
-    [
-     "Anteil der US-Importe am europäischen Diesel",
-     "etwa die Hälfte"
-    ]
-   ],
-   "dossier": {
-    "slug": "us-diesel-exportstopp",
-    "titel": "Möglicher US-Exportstopp für Diesel und globale Folgen"
-   },
-   "bildInfo": {
-    "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
-    "beschreibung": "United Nations General Assembly Building, New York City",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
-    "urheber": "Jakub Hałun",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-    "art": "institution",
-    "suchbegriff": "United Nations Headquarters",
-    "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, am Rande von deren Generaldebatte die Äußerung fiel.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
-     "beschreibung": "United Nations General Assembly Building, New York City",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
-     "urheber": "Jakub Hałun",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "institution",
-     "suchbegriff": "United Nations Headquarters",
-     "bildunterschrift": "Das Gebäude der Vereinten Nationen in New York, am Rande von deren Generaldebatte die Äußerung fiel.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Shell petrol pump 1952.jpg",
-     "beschreibung": "Vintage Shell petrol pump, built 1952, seen at Classic Remise Berlin",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Shell_petrol_pump_1952.jpg/1280px-Shell_petrol_pump_1952.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Shell_petrol_pump_1952.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Shell_petrol_pump_1952.jpg",
-     "urheber": "Palauenc05",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "symbol",
-     "suchbegriff": "Gas pump fuel dispenser",
-     "bildunterschrift": "Eine Zapfsäule als Symbol für Treibstoff und gestiegene Spritpreise.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ortInfo": {
-    "name": "Washington, USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Die Vereinigten Staaten prüfen nach Angaben von Regierungsmitgliedern einen mögl",
-     "d": "5e1e9269a6.mp3",
-     "l": 60.46,
-     "s": [
-      0.25,
-      6.55,
-      13.07,
-      21.46,
-      27.34,
-      32.22,
-      41.49,
-      49.98,
-      56.31
-     ]
-    },
-    {
-     "k": "Die US-Regierung prüft einen Exportstopp für Diesel, um die heimischen Preise zu",
-     "d": "4dec28e8ca.mp3",
-     "l": 15.01,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Die Vereinigten Staaten prüfen ein Verbot für den Export von Diesel. US-Präsiden",
-     "d": "050423fa3d.mp3",
-     "l": 24.93,
-     "s": [
-      0.25,
-      5.27,
-      10.95,
-      16,
-      19.9
-     ]
-    },
-    {
-     "k": "Ob die US-Regierung tatsächlich ein vollständiges oder teilweises Exportverbot v",
-     "d": "a4e5d19f63.mp3",
-     "l": 9.59,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Exportstopp? Ein Exportstopp ist das staatlich verordnet",
-     "d": "4f77f3c32f.mp3",
-     "l": 10.29,
-     "s": [
-      0.25,
-      3.5
-     ]
-    },
-    {
-     "k": "Die Vereinigten Staaten prüfen nach Angaben von Regierungsmitgliedern einen Expo",
-     "d": "3f2eb8fad1.mp3",
-     "l": 50.14,
-     "s": [
-      0.25,
-      6.14,
-      14.46,
-      20.39,
-      25.68,
-      30.95,
-      39,
-      43.73
-     ]
-    },
-    {
-     "k": "In den Vereinigten Staaten haben die Dieselpreise nach Angaben von ZDFheute und ",
-     "d": "9495e407f3.mp3",
-     "l": 55.68,
-     "s": [
-      0.25,
-      7.16,
-      13.16,
-      19.46,
-      26.47,
-      32.48,
-      40.32,
-      51.62
-     ]
-    },
-    {
-     "k": "Die weltweiten Energiemärkte stehen unter Druck. Nach Angaben von ZDFheute und T",
-     "d": "82b400ceab.mp3",
-     "l": 50.51,
-     "s": [
-      0.25,
-      2.99,
-      9.86,
-      15.2,
-      22.01,
-      28.82,
-      37.8,
-      45.48
-     ]
-    },
-    {
-     "k": "Eine Europäische Kommission ist das Exekutivorgan der Europäischen Union. Sie üb",
-     "d": "d22285cba1.mp3",
-     "l": 33.88,
-     "s": [
-      0.25,
-      4.76,
-      12.39,
-      18.41,
-      26.4
-     ]
-    },
-    {
-     "k": "Die Europäische Kommission äußerte sich besorgt und kritisierte die Überlegungen",
-     "d": "969d399296.mp3",
-     "l": 56.49,
-     "s": [
-      0.25,
-      5.93,
-      14.27,
-      21.42,
-      30.68,
-      37.23,
-      43.39,
-      47.03
-     ]
-    },
-    {
-     "k": "Die US-Regierung prüft den Vorschlag eines Exportstopps weiter. Eine endgültige ",
-     "d": "d4a2d4acb2.mp3",
-     "l": 20.35,
-     "s": [
-      0.25,
-      4.31,
-      9.63
      ]
     }
    ]
