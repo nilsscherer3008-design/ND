@@ -1,6 +1,16 @@
 {
- "stand": "2026-09-27T18:19:21.922Z",
+ "stand": "2026-09-28T06:47:33.078Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-09-28",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-09-28",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Koalitionsstreit über Pflegereform: Gesundheitsminister Linnemann weist Forderungen der SPD zurück · Festnahmen nach Hinweisen auf Sprengstoff und Terrorverdacht nahe britischer Militärbasis · Volksabstimmung in der Schweiz: Ablehnung einer strengeren Neutralität · OpenAI setzt Training leistungsstarker KI-Modelle nach Sicherheitsvorfällen aus · Proteste in Spanien nach Zwangsräumung einer 87-Jährigen",
+   "zeit": "2026-09-28T06:47:33.078Z",
+   "d": "folge-hauptausgabe-2026-09-28.mp3",
+   "l": 629.21,
+   "b": 3775485
+  },
   {
    "id": "wissen-wie-funktionierte-eigentlich-die-geheimschrift-enigma",
    "art": "wissen",
@@ -30,16 +40,6 @@
    "d": "e7982ee792.mp3",
    "l": 30.71,
    "b": 184701
-  },
-  {
-   "id": "hauptausgabe-2026-09-27",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-09-27",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Sondierungen für Regierungsbildung in Berlin nach Abgeordnetenhauswahl · OpenAI setzt Training leistungsstarker KI-Modelle nach Vorfällen mit Agenten aus · München wird deutscher Bewerber für die Olympischen Sommerspiele · Rückruf von Fahrzeugen im Volkswagen-Konzern wegen möglicher Lenkungsprobleme · Ausschluss des Senders CNN von Präsidentschaftsreise",
-   "zeit": "2026-09-27T08:03:44.513Z",
-   "d": "folge-hauptausgabe-2026-09-27.mp3",
-   "l": 702.1,
-   "b": 4212813
   },
   {
    "id": "wissen-wie-schlaegt-eigentlich-unser-herz",

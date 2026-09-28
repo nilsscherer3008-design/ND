@@ -2234,7 +2234,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
+   "d": "37680d2e2f.mp3",
+   "l": 20.25,
+   "s": [
+    0.25,
+    5.08,
+    9.17,
+    13.53,
+    17.46
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2248,156 +2260,156 @@
   },
   "ansagen": [
    {
-    "k": "Nachrichten-Heft. Die Hauptausgabe vom Sonntag, 27. September. Es liest die Comp",
-    "d": "9176292b55.mp3",
-    "l": 7.72,
+    "k": "Nachrichten-Heft. Die Hauptausgabe vom Montag, 28. September. Es liest die Compu",
+    "d": "68a46dc3f0.mp3",
+    "l": 7.86,
     "s": [
      0.25,
-     5.22
+     5.18
     ]
    },
    {
-    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Sonntag, 27. September. Es liest ",
-    "d": "41bd6f0703.mp3",
-    "l": 8.36,
+    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Montag, 28. September. Es liest d",
+    "d": "cf0984c20f.mp3",
+    "l": 8.43,
     "s": [
      0.25,
-     5.62
+     5.93
     ]
    },
    {
-    "k": "Nachrichten-Heft. Einfach erklärt vom Sonntag, 27. September. Es liest die Compu",
-    "d": "14a7bb5e9e.mp3",
-    "l": 9.27,
-    "s": [
-     0.25,
-     6.16
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Kurzmeldungen vom Sonntag, 27. September. Es liest die Compute",
-    "d": "b072c5635b.mp3",
-    "l": 7.93,
-    "s": [
-     0.25,
-     5.28
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Der Wochenrückblick vom Sonntag, 27. September. Es liest die C",
-    "d": "32e2512b4e.mp3",
-    "l": 7.82,
-    "s": [
-     0.25,
-     5.39
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Sonntag, 27. September. Es liest ",
-    "d": "ee34e05e2a.mp3",
-    "l": 8.94,
-    "s": [
-     0.25,
-     6.16
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Sonntag, 27. September. Es liest d",
-    "d": "39b562d510.mp3",
-    "l": 8.36,
-    "s": [
-     0.25,
-     5.84
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Sonntag, 27. September. Es liest ",
-    "d": "ee57b920d4.mp3",
-    "l": 8.65,
+    "k": "Nachrichten-Heft. Einfach erklärt vom Montag, 28. September. Es liest die Comput",
+    "d": "eeb76edb39.mp3",
+    "l": 8.92,
     "s": [
      0.25,
      5.98
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Sonntag, 27. September. Es lie",
-    "d": "06e4c77fb6.mp3",
-    "l": 8.27,
+    "k": "Nachrichten-Heft. Kurzmeldungen vom Montag, 28. September. Es liest die Computer",
+    "d": "877dc72a9f.mp3",
+    "l": 8.18,
     "s": [
      0.25,
-     5.76
+     5.44
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Sonntag, 27. September. Es lie",
-    "d": "4f21142bec.mp3",
-    "l": 8.69,
+    "k": "Nachrichten-Heft. Der Wochenrückblick vom Montag, 28. September. Es liest die Co",
+    "d": "49333036a2.mp3",
+    "l": 8.05,
     "s": [
      0.25,
-     6.02
+     5.4
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Sonntag, 27. September. E",
-    "d": "b502bc4305.mp3",
-    "l": 9.04,
+    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Montag, 28. September. Es liest d",
+    "d": "c40c37739b.mp3",
+    "l": 8.33,
     "s": [
      0.25,
-     6.34
+     5.83
     ]
    },
    {
-    "k": "Nachrichten-Heft. Deutschland vom Sonntag, 27. September. Es liest die Computers",
-    "d": "b30166786d.mp3",
-    "l": 7.58,
+    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Montag, 28. September. Es liest di",
+    "d": "8eb78abd42.mp3",
+    "l": 8.5,
     "s": [
      0.25,
-     5.09
+     5.81
     ]
    },
    {
-    "k": "Nachrichten-Heft. Welt vom Sonntag, 27. September. Es liest die Computerstimme T",
-    "d": "94b0d6d898.mp3",
-    "l": 7.59,
-    "s": [
-     0.25,
-     5.1
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Wirtschaft vom Sonntag, 27. September. Es liest die Computerst",
-    "d": "e3be1b15a1.mp3",
-    "l": 7.52,
-    "s": [
-     0.25,
-     5.01
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Wissen und Klima vom Sonntag, 27. September. Es liest die Comp",
-    "d": "877098dafb.mp3",
+    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Montag, 28. September. Es liest d",
+    "d": "3d4343cb69.mp3",
     "l": 8.44,
     "s": [
      0.25,
-     5.73
+     5.91
     ]
    },
    {
-    "k": "Nachrichten-Heft. Sport vom Sonntag, 27. September. Es liest die Computerstimme ",
-    "d": "834b0e7739.mp3",
-    "l": 7.42,
+    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Montag, 28. September. Es lies",
+    "d": "01ecdb5e52.mp3",
+    "l": 8.33,
     "s": [
      0.25,
-     4.9
+     5.96
     ]
    },
    {
-    "k": "Nachrichten-Heft. Region vom Sonntag, 27. September. Es liest die Computerstimme",
-    "d": "99e1264360.mp3",
-    "l": 8.14,
+    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Montag, 28. September. Es lies",
+    "d": "beab3f04fd.mp3",
+    "l": 8.69,
     "s": [
      0.25,
-     5.22
+     6.03
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Montag, 28. September. Es",
+    "d": "3c46428436.mp3",
+    "l": 8.72,
+    "s": [
+     0.25,
+     6.35
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Deutschland vom Montag, 28. September. Es liest die Computerst",
+    "d": "ed3c8d861f.mp3",
+    "l": 7.6,
+    "s": [
+     0.25,
+     5.19
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Welt vom Montag, 28. September. Es liest die Computerstimme Th",
+    "d": "093df5accd.mp3",
+    "l": 7.61,
+    "s": [
+     0.25,
+     4.87
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Wirtschaft vom Montag, 28. September. Es liest die Computersti",
+    "d": "faf4210ac8.mp3",
+    "l": 7.64,
+    "s": [
+     0.25,
+     5.11
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Wissen und Klima vom Montag, 28. September. Es liest die Compu",
+    "d": "6c58eaa2eb.mp3",
+    "l": 7.95,
+    "s": [
+     0.25,
+     5.41
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Sport vom Montag, 28. September. Es liest die Computerstimme T",
+    "d": "bb9ae6666f.mp3",
+    "l": 7.44,
+    "s": [
+     0.25,
+     5.05
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Region vom Montag, 28. September. Es liest die Computerstimme ",
+    "d": "428b02263b.mp3",
+    "l": 7.51,
+    "s": [
+     0.25,
+     5.16
     ]
    },
    {
@@ -3533,11 +3545,11 @@
     {
      "k": "Nahe dem britischen Militärstützpunkt Fairford hat die Polizei fünf Männer festg",
      "d": "3fb568e733.mp3",
-     "l": 14.44,
+     "l": 14.32,
      "s": [
       0.25,
-      5.18,
-      9.21
+      5.15,
+      9.1
      ]
     },
     {
