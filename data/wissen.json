@@ -403,7 +403,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Kryptographie befasst sich mit der sicheren Verschlüsselung und Übertragung von Informationen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen. Schon ",
+     "d": "251315d738.mp3",
+     "l": 35.4,
+     "s": [
+      0.25,
+      4.42,
+      8.41,
+      13.33,
+      17.77,
+      22.27,
+      26.61,
+      30.94
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-ein-blitz",
@@ -590,7 +607,26 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Gewitter zeigt sich oft durch dunkle Wolken und Blitze."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Gewitter verbindet Blitze und Donner. Dazu gibt es oft starken Regen oder Ha",
+     "d": "e7982ee792.mp3",
+     "l": 30.71,
+     "s": [
+      0.25,
+      2.74,
+      5.8,
+      8.07,
+      10.96,
+      14.42,
+      17.52,
+      21.48,
+      23.66,
+      26.47
+     ]
+    }
+   ]
   },
   {
    "id": "wie-schlaegt-eigentlich-unser-herz",
@@ -1338,24 +1374,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein farbiges Polarlicht leuchtet am Nachthimmel über einer Winterlandschaft."
-   },
-   "ton": [
-    {
-     "k": "Polarlichter sind faszinierende Leuchterscheinungen am Nachthimmel der Polarregi",
-     "d": "b065ae72c8.mp3",
-     "l": 34.76,
-     "s": [
-      0.25,
-      5.36,
-      10.64,
-      14.27,
-      17.52,
-      21.77,
-      26.37,
-      30.43
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-das-ampel-system",
