@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-28T06:47:33.078Z",
+ "stand": "2026-09-28T15:21:58.875Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -53,7 +53,6 @@
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
   "us-medienbann-weisses-haus",
-  "xi-besuch-usa-zollpause",
   "tankrabatt-oktober-dezember-2026",
   "vw-audi-seat-rueckruf-lenkung",
   "heidenau-stolpersteine-verbot",
@@ -73,7 +72,7 @@
   "proteste-zwangsraeumung-madrid-maricarmen"
  ],
  "wetter": {
-  "stand": "2026-09-28T06:47:33.078Z",
+  "stand": "2026-09-28T15:21:58.875Z",
   "morgenTag": "Dienstag",
   "orte": [
    {
@@ -82,13 +81,13 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 14,
-     "code": 2,
-     "gefuehlt": 13,
-     "wind": 5,
-     "windAus": 151,
-     "feuchte": 74,
-     "druck": 1017,
+     "grad": 24,
+     "code": 3,
+     "gefuehlt": 25,
+     "wind": 2,
+     "windAus": 153,
+     "feuchte": 57,
+     "druck": 1019,
      "niederschlag": 0,
      "tag": 1
     },
@@ -96,25 +95,25 @@
      "datum": "2026-09-28",
      "code": 3,
      "max": 24,
-     "min": 14,
-     "regen": 40,
+     "min": 13,
+     "regen": 33,
      "menge": 0,
      "wind": 12,
-     "windAus": 143,
-     "uv": 3.1,
+     "windAus": 141,
+     "uv": 3.2,
      "auf": "07:16",
      "unter": "19:04"
     },
     "morgen": {
      "datum": "2026-09-29",
      "code": 3,
-     "max": 23,
-     "min": 17,
-     "regen": 30,
+     "max": 22,
+     "min": 16,
+     "regen": 25,
      "menge": 0,
-     "wind": 12,
-     "windAus": 90,
-     "uv": 2.2,
+     "wind": 13,
+     "windAus": 97,
+     "uv": 2.1,
      "auf": "07:17",
      "unter": "19:01"
     },
@@ -123,25 +122,25 @@
       "datum": "2026-09-28",
       "code": 3,
       "max": 24,
-      "min": 14,
-      "regen": 40,
+      "min": 13,
+      "regen": 33,
       "menge": 0,
       "wind": 12,
-      "windAus": 143,
-      "uv": 3.1,
+      "windAus": 141,
+      "uv": 3.2,
       "auf": "07:16",
       "unter": "19:04"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 23,
-      "min": 17,
-      "regen": 30,
+      "max": 22,
+      "min": 16,
+      "regen": 25,
       "menge": 0,
-      "wind": 12,
-      "windAus": 90,
-      "uv": 2.2,
+      "wind": 13,
+      "windAus": 97,
+      "uv": 2.1,
       "auf": "07:17",
       "unter": "19:01"
      },
@@ -152,22 +151,22 @@
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 16,
-      "windAus": 119,
-      "uv": 3,
+      "wind": 14,
+      "windAus": 121,
+      "uv": 3.5,
       "auf": "07:19",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-01",
-      "code": 63,
+      "code": 61,
       "max": 18,
-      "min": 12,
-      "regen": 58,
-      "menge": 12,
+      "min": 13,
+      "regen": 65,
+      "menge": 11.5,
       "wind": 10,
-      "windAus": 142,
-      "uv": 3.4,
+      "windAus": 150,
+      "uv": 2.7,
       "auf": "07:21",
       "unter": "18:56"
      },
@@ -175,12 +174,12 @@
       "datum": "2026-10-02",
       "code": 3,
       "max": 20,
-      "min": 12,
-      "regen": 48,
+      "min": 13,
+      "regen": 55,
       "menge": 0,
-      "wind": 9,
-      "windAus": 249,
-      "uv": 2.6,
+      "wind": 8,
+      "windAus": 259,
+      "uv": 3.4,
       "auf": "07:23",
       "unter": "18:54"
      },
@@ -189,11 +188,11 @@
       "code": 45,
       "max": 20,
       "min": 8,
-      "regen": 9,
+      "regen": 5,
       "menge": 0,
       "wind": 11,
-      "windAus": 243,
-      "uv": 3.1,
+      "windAus": 240,
+      "uv": 2.7,
       "auf": "07:25",
       "unter": "18:51"
      },
@@ -206,71 +205,17 @@
       "menge": 2.4,
       "wind": 16,
       "windAus": 240,
-      "uv": 2.8,
+      "uv": 3.1,
       "auf": "07:26",
       "unter": "18:49"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 24,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "18:00",
@@ -280,51 +225,51 @@
      },
      {
       "zeit": "19:00",
-      "grad": 23,
+      "grad": 22,
       "code": 3,
-      "regen": 5
+      "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 22,
+      "grad": 21,
       "code": 3,
       "regen": 3
      },
      {
       "zeit": "21:00",
-      "grad": 21,
+      "grad": 20,
       "code": 3,
-      "regen": 15
+      "regen": 5
      },
      {
       "zeit": "22:00",
       "grad": 20,
       "code": 3,
-      "regen": 40
+      "regen": 20
      },
      {
       "zeit": "23:00",
       "grad": 19,
       "code": 3,
-      "regen": 35
+      "regen": 33
      },
      {
       "zeit": "00:00",
       "grad": 19,
       "code": 3,
-      "regen": 30
+      "regen": 25
      },
      {
       "zeit": "01:00",
       "grad": 18,
       "code": 3,
-      "regen": 23
+      "regen": 8
      },
      {
       "zeit": "02:00",
       "grad": 18,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "03:00",
@@ -346,15 +291,69 @@
      },
      {
       "zeit": "06:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
       "grad": 17,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 3
      }
     ]
    },
@@ -364,12 +363,12 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
+     "grad": 25,
      "code": 3,
-     "gefuehlt": 12,
+     "gefuehlt": 23,
      "wind": 11,
-     "windAus": 136,
-     "feuchte": 78,
+     "windAus": 147,
+     "feuchte": 40,
      "druck": 1018,
      "niederschlag": 0,
      "tag": 1
@@ -382,8 +381,8 @@
      "regen": 0,
      "menge": 0,
      "wind": 12,
-     "windAus": 137,
-     "uv": 3.7,
+     "windAus": 136,
+     "uv": 3.5,
      "auf": "07:02",
      "unter": "18:50"
     },
@@ -391,12 +390,12 @@
      "datum": "2026-09-29",
      "code": 3,
      "max": 25,
-     "min": 13,
+     "min": 14,
      "regen": 0,
      "menge": 0,
      "wind": 14,
-     "windAus": 126,
-     "uv": 3.8,
+     "windAus": 127,
+     "uv": 3.7,
      "auf": "07:03",
      "unter": "18:48"
     },
@@ -409,8 +408,8 @@
       "regen": 0,
       "menge": 0,
       "wind": 12,
-      "windAus": 137,
-      "uv": 3.7,
+      "windAus": 136,
+      "uv": 3.5,
       "auf": "07:02",
       "unter": "18:50"
      },
@@ -418,37 +417,37 @@
       "datum": "2026-09-29",
       "code": 3,
       "max": 25,
-      "min": 13,
+      "min": 14,
       "regen": 0,
       "menge": 0,
       "wind": 14,
-      "windAus": 126,
-      "uv": 3.8,
+      "windAus": 127,
+      "uv": 3.7,
       "auf": "07:03",
       "unter": "18:48"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 24,
-      "min": 12,
+      "max": 23,
+      "min": 13,
       "regen": 0,
       "menge": 0,
       "wind": 16,
-      "windAus": 114,
-      "uv": 2.6,
+      "windAus": 118,
+      "uv": 3.4,
       "auf": "07:05",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-01",
       "code": 3,
-      "max": 23,
+      "max": 22,
       "min": 12,
-      "regen": 8,
+      "regen": 6,
       "menge": 0,
-      "wind": 10,
-      "windAus": 131,
+      "wind": 9,
+      "windAus": 127,
       "uv": 3.3,
       "auf": "07:07",
       "unter": "18:43"
@@ -457,12 +456,12 @@
       "datum": "2026-10-02",
       "code": 61,
       "max": 20,
-      "min": 16,
-      "regen": 13,
-      "menge": 1.2,
-      "wind": 9,
-      "windAus": 303,
-      "uv": 1.3,
+      "min": 15,
+      "regen": 10,
+      "menge": 2.7,
+      "wind": 8,
+      "windAus": 321,
+      "uv": 3.1,
       "auf": "07:09",
       "unter": "18:41"
      },
@@ -470,12 +469,12 @@
       "datum": "2026-10-03",
       "code": 3,
       "max": 22,
-      "min": 14,
+      "min": 15,
       "regen": 8,
       "menge": 0,
       "wind": 6,
-      "windAus": 264,
-      "uv": 3.3,
+      "windAus": 266,
+      "uv": 2.3,
       "auf": "07:10",
       "unter": "18:39"
      },
@@ -488,106 +487,52 @@
       "menge": 0.3,
       "wind": 14,
       "windAus": 263,
-      "uv": 3.2,
+      "uv": 2.8,
       "auf": "07:12",
       "unter": "18:36"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 24,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 25,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 25,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "18:00",
       "grad": 24,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 23,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 21,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 20,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 19,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "23:00",
       "grad": 18,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -599,7 +544,7 @@
      {
       "zeit": "01:00",
       "grad": 16,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -611,7 +556,7 @@
      {
       "zeit": "03:00",
       "grad": 15,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -623,7 +568,7 @@
      {
       "zeit": "05:00",
       "grad": 14,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -637,6 +582,60 @@
       "grad": 14,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 23,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 24,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 25,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 25,
+      "code": 0,
+      "regen": 0
      }
     ]
    },
@@ -646,12 +645,12 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 15,
+     "grad": 26,
      "code": 3,
-     "gefuehlt": 13,
+     "gefuehlt": 26,
      "wind": 7,
-     "windAus": 174,
-     "feuchte": 68,
+     "windAus": 135,
+     "feuchte": 37,
      "druck": 1008,
      "niederschlag": 0,
      "tag": 1
@@ -661,11 +660,11 @@
      "code": 3,
      "max": 26,
      "min": 14,
-     "regen": 0,
+     "regen": 3,
      "menge": 0,
-     "wind": 9,
+     "wind": 8,
      "windAus": 146,
-     "uv": 3.8,
+     "uv": 3.6,
      "auf": "07:06",
      "unter": "18:55"
     },
@@ -676,8 +675,8 @@
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 13,
-     "windAus": 118,
+     "wind": 12,
+     "windAus": 119,
      "uv": 3.9,
      "auf": "07:07",
      "unter": "18:52"
@@ -688,11 +687,11 @@
       "code": 3,
       "max": 26,
       "min": 14,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
-      "wind": 9,
+      "wind": 8,
       "windAus": 146,
-      "uv": 3.8,
+      "uv": 3.6,
       "auf": "07:06",
       "unter": "18:55"
      },
@@ -703,8 +702,8 @@
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 13,
-      "windAus": 118,
+      "wind": 12,
+      "windAus": 119,
       "uv": 3.9,
       "auf": "07:07",
       "unter": "18:52"
@@ -712,52 +711,52 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 24,
-      "min": 11,
+      "max": 23,
+      "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 10,
-      "windAus": 118,
-      "uv": 3.4,
+      "wind": 9,
+      "windAus": 120,
+      "uv": 3.5,
       "auf": "07:09",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-01",
-      "code": 61,
+      "code": 3,
       "max": 24,
-      "min": 11,
-      "regen": 13,
-      "menge": 0.6,
-      "wind": 10,
+      "min": 12,
+      "regen": 17,
+      "menge": 0,
+      "wind": 5,
       "windAus": 194,
-      "uv": 3.8,
+      "uv": 3.2,
       "auf": "07:10",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-02",
       "code": 61,
-      "max": 19,
-      "min": 15,
-      "regen": 16,
-      "menge": 0.3,
-      "wind": 7,
-      "windAus": 334,
-      "uv": 1.6,
+      "max": 18,
+      "min": 16,
+      "regen": 40,
+      "menge": 3.3,
+      "wind": 8,
+      "windAus": 343,
+      "uv": 2.2,
       "auf": "07:12",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
+      "code": 3,
       "max": 22,
-      "min": 13,
-      "regen": 6,
+      "min": 14,
+      "regen": 8,
       "menge": 0,
-      "wind": 3,
-      "windAus": 94,
-      "uv": 1.8,
+      "wind": 4,
+      "windAus": 85,
+      "uv": 3,
       "auf": "07:14",
       "unter": "18:43"
      },
@@ -770,76 +769,22 @@
       "menge": 0,
       "wind": 14,
       "windAus": 263,
-      "uv": 3.4,
+      "uv": 1.2,
       "auf": "07:15",
       "unter": "18:41"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 24,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 25,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 26,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 26,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "18:00",
       "grad": 26,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -857,31 +802,31 @@
      {
       "zeit": "21:00",
       "grad": 20,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 19,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "23:00",
       "grad": 18,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 17,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
       "grad": 17,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -892,32 +837,86 @@
      },
      {
       "zeit": "03:00",
-      "grad": 16,
-      "code": 2,
+      "grad": 15,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "04:00",
       "grad": 15,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
       "grad": 15,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "06:00",
       "grad": 14,
-      "code": 2,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "07:00",
       "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
       "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 22,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 24,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 25,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 26,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 26,
+      "code": 0,
       "regen": 0
      }
     ]
@@ -928,12 +927,12 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 18,
+     "grad": 26,
      "code": 3,
-     "gefuehlt": 18,
-     "wind": 5,
-     "windAus": 162,
-     "feuchte": 64,
+     "gefuehlt": 26,
+     "wind": 8,
+     "windAus": 41,
+     "feuchte": 48,
      "druck": 1012,
      "niederschlag": 0,
      "tag": 1
@@ -942,23 +941,23 @@
      "datum": "2026-09-28",
      "code": 3,
      "max": 26,
-     "min": 17,
-     "regen": 2,
+     "min": 18,
+     "regen": 8,
      "menge": 0,
-     "wind": 11,
-     "windAus": 104,
-     "uv": 3.2,
+     "wind": 10,
+     "windAus": 96,
+     "uv": 3.4,
      "auf": "07:27",
      "unter": "19:17"
     },
     "morgen": {
      "datum": "2026-09-29",
      "code": 3,
-     "max": 28,
-     "min": 20,
+     "max": 29,
+     "min": 21,
      "regen": 0,
      "menge": 0,
-     "wind": 16,
+     "wind": 15,
      "windAus": 127,
      "uv": 3.5,
      "auf": "07:29",
@@ -969,23 +968,23 @@
       "datum": "2026-09-28",
       "code": 3,
       "max": 26,
-      "min": 17,
-      "regen": 2,
+      "min": 18,
+      "regen": 8,
       "menge": 0,
-      "wind": 11,
-      "windAus": 104,
-      "uv": 3.2,
+      "wind": 10,
+      "windAus": 96,
+      "uv": 3.4,
       "auf": "07:27",
       "unter": "19:17"
      },
      {
       "datum": "2026-09-29",
       "code": 3,
-      "max": 28,
-      "min": 20,
+      "max": 29,
+      "min": 21,
       "regen": 0,
       "menge": 0,
-      "wind": 16,
+      "wind": 15,
       "windAus": 127,
       "uv": 3.5,
       "auf": "07:29",
@@ -994,124 +993,70 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 28,
-      "min": 19,
-      "regen": 14,
-      "menge": 0.1,
-      "wind": 15,
-      "windAus": 135,
+      "max": 30,
+      "min": 20,
+      "regen": 10,
+      "menge": 0,
+      "wind": 14,
+      "windAus": 139,
       "uv": 4,
       "auf": "07:30",
       "unter": "19:12"
      },
      {
       "datum": "2026-10-01",
-      "code": 55,
-      "max": 22,
-      "min": 16,
-      "regen": 78,
-      "menge": 6.5,
-      "wind": 11,
-      "windAus": 227,
-      "uv": 2.7,
+      "code": 80,
+      "max": 23,
+      "min": 15,
+      "regen": 86,
+      "menge": 6.8,
+      "wind": 10,
+      "windAus": 252,
+      "uv": 2,
       "auf": "07:32",
       "unter": "19:10"
      },
      {
       "datum": "2026-10-02",
       "code": 3,
-      "max": 21,
-      "min": 13,
-      "regen": 26,
+      "max": 19,
+      "min": 12,
+      "regen": 20,
       "menge": 0,
-      "wind": 6,
-      "windAus": 331,
-      "uv": 3,
+      "wind": 7,
+      "windAus": 335,
+      "uv": 3.4,
       "auf": "07:34",
       "unter": "19:07"
      },
      {
       "datum": "2026-10-03",
-      "code": 51,
-      "max": 19,
-      "min": 13,
-      "regen": 17,
-      "menge": 0.3,
-      "wind": 10,
-      "windAus": 308,
-      "uv": 3.6,
+      "code": 3,
+      "max": 20,
+      "min": 10,
+      "regen": 18,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 348,
+      "uv": 2.3,
       "auf": "07:35",
       "unter": "19:05"
      },
      {
       "datum": "2026-10-04",
-      "code": 80,
-      "max": 17,
-      "min": 14,
-      "regen": 21,
-      "menge": 16.2,
-      "wind": 10,
-      "windAus": 318,
-      "uv": 3.4,
+      "code": 3,
+      "max": 18,
+      "min": 10,
+      "regen": 16,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 335,
+      "uv": 3.1,
       "auf": "07:37",
       "unter": "19:03"
      }
     ],
     "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 24,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 25,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "17:00",
       "grad": 26,
@@ -1120,43 +1065,43 @@
      },
      {
       "zeit": "18:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
-      "regen": 1
+      "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 25,
       "code": 3,
-      "regen": 2
+      "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
-      "regen": 2
+      "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 24,
-      "code": 3,
-      "regen": 2
-     },
-     {
-      "zeit": "22:00",
-      "grad": 24,
-      "code": 3,
-      "regen": 1
-     },
-     {
-      "zeit": "23:00",
       "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
-      "zeit": "00:00",
+      "zeit": "22:00",
       "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
@@ -1168,7 +1113,7 @@
      },
      {
       "zeit": "02:00",
-      "grad": 21,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
@@ -1180,25 +1125,79 @@
      },
      {
       "zeit": "04:00",
-      "grad": 20,
-      "code": 1,
+      "grad": 21,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 20,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
-      "grad": 20,
-      "code": 2,
+      "grad": 21,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 20,
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 24,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 26,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 27,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 28,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 29,
       "code": 3,
       "regen": 0
      }
@@ -1210,13 +1209,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 15,
+     "grad": 27,
      "code": 3,
-     "gefuehlt": 14,
-     "wind": 3,
-     "windAus": 50,
-     "feuchte": 65,
-     "druck": 1008,
+     "gefuehlt": 26,
+     "wind": 4,
+     "windAus": 38,
+     "feuchte": 36,
+     "druck": 1007,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1227,9 +1226,9 @@
      "min": 14,
      "regen": 5,
      "menge": 0,
-     "wind": 5,
-     "windAus": 52,
-     "uv": 4,
+     "wind": 6,
+     "windAus": 50,
+     "uv": 3.8,
      "auf": "07:20",
      "unter": "19:10"
     },
@@ -1237,12 +1236,12 @@
      "datum": "2026-09-29",
      "code": 3,
      "max": 28,
-     "min": 16,
+     "min": 15,
      "regen": 0,
      "menge": 0,
-     "wind": 10,
-     "windAus": 73,
-     "uv": 4,
+     "wind": 9,
+     "windAus": 78,
+     "uv": 3.9,
      "auf": "07:22",
      "unter": "19:08"
     },
@@ -1254,9 +1253,9 @@
       "min": 14,
       "regen": 5,
       "menge": 0,
-      "wind": 5,
-      "windAus": 52,
-      "uv": 4,
+      "wind": 6,
+      "windAus": 50,
+      "uv": 3.8,
       "auf": "07:20",
       "unter": "19:10"
      },
@@ -1264,24 +1263,24 @@
       "datum": "2026-09-29",
       "code": 3,
       "max": 28,
-      "min": 16,
+      "min": 15,
       "regen": 0,
       "menge": 0,
-      "wind": 10,
-      "windAus": 73,
-      "uv": 4,
+      "wind": 9,
+      "windAus": 78,
+      "uv": 3.9,
       "auf": "07:22",
       "unter": "19:08"
      },
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 26,
+      "max": 27,
       "min": 13,
-      "regen": 3,
+      "regen": 5,
       "menge": 0,
-      "wind": 6,
-      "windAus": 102,
+      "wind": 7,
+      "windAus": 107,
       "uv": 4.1,
       "auf": "07:23",
       "unter": "19:05"
@@ -1289,13 +1288,13 @@
      {
       "datum": "2026-10-01",
       "code": 61,
-      "max": 20,
-      "min": 16,
-      "regen": 65,
-      "menge": 11.1,
+      "max": 19,
+      "min": 17,
+      "regen": 73,
+      "menge": 7.8,
       "wind": 7,
-      "windAus": 225,
-      "uv": 2.4,
+      "windAus": 217,
+      "uv": 2.1,
       "auf": "07:25",
       "unter": "19:03"
      },
@@ -1303,11 +1302,11 @@
       "datum": "2026-10-02",
       "code": 3,
       "max": 21,
-      "min": 10,
-      "regen": 40,
+      "min": 11,
+      "regen": 42,
       "menge": 0,
-      "wind": 7,
-      "windAus": 28,
+      "wind": 8,
+      "windAus": 16,
       "uv": 3.6,
       "auf": "07:26",
       "unter": "19:01"
@@ -1319,9 +1318,9 @@
       "min": 14,
       "regen": 13,
       "menge": 0,
-      "wind": 4,
-      "windAus": 2,
-      "uv": 1.7,
+      "wind": 6,
+      "windAus": 18,
+      "uv": 2.4,
       "auf": "07:28",
       "unter": "18:59"
      },
@@ -1341,60 +1340,6 @@
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 25,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 27,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 27,
       "code": 3,
@@ -1402,7 +1347,7 @@
      },
      {
       "zeit": "18:00",
-      "grad": 27,
+      "grad": 26,
       "code": 3,
       "regen": 0
      },
@@ -1410,25 +1355,25 @@
       "zeit": "19:00",
       "grad": 25,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 23,
       "code": 3,
-      "regen": 5
+      "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 22,
       "code": 3,
-      "regen": 0
+      "regen": 5
      },
      {
       "zeit": "22:00",
       "grad": 21,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "23:00",
@@ -1438,13 +1383,13 @@
      },
      {
       "zeit": "00:00",
-      "grad": 20,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 19,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
@@ -1469,288 +1414,6 @@
      {
       "zeit": "05:00",
       "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     }
-    ]
-   },
-   {
-    "name": "Stuttgart",
-    "lat": 48.78,
-    "lon": 9.18,
-    "teil": "Süden",
-    "jetzt": {
-     "grad": 17,
-     "code": 2,
-     "gefuehlt": 17,
-     "wind": 3,
-     "windAus": 180,
-     "feuchte": 61,
-     "druck": 990,
-     "niederschlag": 0,
-     "tag": 1
-    },
-    "heute": {
-     "datum": "2026-09-28",
-     "code": 3,
-     "max": 29,
-     "min": 16,
-     "regen": 5,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 139,
-     "uv": 4.2,
-     "auf": "07:18",
-     "unter": "19:08"
-    },
-    "morgen": {
-     "datum": "2026-09-29",
-     "code": 3,
-     "max": 29,
-     "min": 15,
-     "regen": 0,
-     "menge": 0,
-     "wind": 10,
-     "windAus": 140,
-     "uv": 4.1,
-     "auf": "07:19",
-     "unter": "19:06"
-    },
-    "tage": [
-     {
-      "datum": "2026-09-28",
-      "code": 3,
-      "max": 29,
-      "min": 16,
-      "regen": 5,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 139,
-      "uv": 4.2,
-      "auf": "07:18",
-      "unter": "19:08"
-     },
-     {
-      "datum": "2026-09-29",
-      "code": 3,
-      "max": 29,
-      "min": 15,
-      "regen": 0,
-      "menge": 0,
-      "wind": 10,
-      "windAus": 140,
-      "uv": 4.1,
-      "auf": "07:19",
-      "unter": "19:06"
-     },
-     {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 27,
-      "min": 14,
-      "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 249,
-      "uv": 4.1,
-      "auf": "07:21",
-      "unter": "19:04"
-     },
-     {
-      "datum": "2026-10-01",
-      "code": 61,
-      "max": 20,
-      "min": 16,
-      "regen": 73,
-      "menge": 4.7,
-      "wind": 13,
-      "windAus": 269,
-      "uv": 1.9,
-      "auf": "07:22",
-      "unter": "19:02"
-     },
-     {
-      "datum": "2026-10-02",
-      "code": 3,
-      "max": 21,
-      "min": 15,
-      "regen": 55,
-      "menge": 0,
-      "wind": 8,
-      "windAus": 20,
-      "uv": 3.9,
-      "auf": "07:24",
-      "unter": "19:00"
-     },
-     {
-      "datum": "2026-10-03",
-      "code": 45,
-      "max": 23,
-      "min": 14,
-      "regen": 6,
-      "menge": 0,
-      "wind": 8,
-      "windAus": 302,
-      "uv": 3.2,
-      "auf": "07:25",
-      "unter": "18:58"
-     },
-     {
-      "datum": "2026-10-04",
-      "code": 45,
-      "max": 23,
-      "min": 12,
-      "regen": 21,
-      "menge": 0,
-      "wind": 11,
-      "windAus": 270,
-      "uv": 3,
-      "auf": "07:26",
-      "unter": "18:56"
-     }
-    ],
-    "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 5
-     },
-     {
-      "zeit": "10:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 3
-     },
-     {
-      "zeit": "11:00",
-      "grad": 23,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 25,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 26,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 28,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 29,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 29,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 29,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 29,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "19:00",
-      "grad": 28,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "20:00",
-      "grad": 26,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 23,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 22,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 21,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 19,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -1765,6 +1428,342 @@
       "grad": 15,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 24,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 25,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 27,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 28,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 28,
+      "code": 3,
+      "regen": 0
+     }
+    ]
+   },
+   {
+    "name": "Stuttgart",
+    "lat": 48.78,
+    "lon": 9.18,
+    "teil": "Süden",
+    "jetzt": {
+     "grad": 29,
+     "code": 2,
+     "gefuehlt": 28,
+     "wind": 8,
+     "windAus": 19,
+     "feuchte": 30,
+     "druck": 989,
+     "niederschlag": 0,
+     "tag": 1
+    },
+    "heute": {
+     "datum": "2026-09-28",
+     "code": 3,
+     "max": 29,
+     "min": 16,
+     "regen": 3,
+     "menge": 0,
+     "wind": 9,
+     "windAus": 147,
+     "uv": 4.2,
+     "auf": "07:18",
+     "unter": "19:08"
+    },
+    "morgen": {
+     "datum": "2026-09-29",
+     "code": 3,
+     "max": 28,
+     "min": 15,
+     "regen": 0,
+     "menge": 0,
+     "wind": 8,
+     "windAus": 146,
+     "uv": 4.1,
+     "auf": "07:19",
+     "unter": "19:06"
+    },
+    "tage": [
+     {
+      "datum": "2026-09-28",
+      "code": 3,
+      "max": 29,
+      "min": 16,
+      "regen": 3,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 147,
+      "uv": 4.2,
+      "auf": "07:18",
+      "unter": "19:08"
+     },
+     {
+      "datum": "2026-09-29",
+      "code": 3,
+      "max": 28,
+      "min": 15,
+      "regen": 0,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 146,
+      "uv": 4.1,
+      "auf": "07:19",
+      "unter": "19:06"
+     },
+     {
+      "datum": "2026-09-30",
+      "code": 3,
+      "max": 28,
+      "min": 14,
+      "regen": 0,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 279,
+      "uv": 4.1,
+      "auf": "07:21",
+      "unter": "19:04"
+     },
+     {
+      "datum": "2026-10-01",
+      "code": 80,
+      "max": 20,
+      "min": 17,
+      "regen": 75,
+      "menge": 6.6,
+      "wind": 10,
+      "windAus": 250,
+      "uv": 2.7,
+      "auf": "07:22",
+      "unter": "19:02"
+     },
+     {
+      "datum": "2026-10-02",
+      "code": 3,
+      "max": 21,
+      "min": 15,
+      "regen": 54,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 347,
+      "uv": 2.4,
+      "auf": "07:24",
+      "unter": "19:00"
+     },
+     {
+      "datum": "2026-10-03",
+      "code": 3,
+      "max": 23,
+      "min": 15,
+      "regen": 5,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 317,
+      "uv": 2.8,
+      "auf": "07:25",
+      "unter": "18:58"
+     },
+     {
+      "datum": "2026-10-04",
+      "code": 45,
+      "max": 23,
+      "min": 12,
+      "regen": 21,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 270,
+      "uv": 3.2,
+      "auf": "07:26",
+      "unter": "18:56"
+     }
+    ],
+    "stunden": [
+     {
+      "zeit": "17:00",
+      "grad": 29,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 29,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 28,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 25,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 23,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 20,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 21,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 25,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 27,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 28,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 28,
+      "code": 3,
+      "regen": 0
      }
     ]
    },
@@ -1774,12 +1773,12 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 11,
+     "grad": 26,
      "code": 1,
-     "gefuehlt": 10,
-     "wind": 2,
-     "windAus": 141,
-     "feuchte": 80,
+     "gefuehlt": 23,
+     "wind": 11,
+     "windAus": 88,
+     "feuchte": 29,
      "druck": 961,
      "niederschlag": 0,
      "tag": 1
@@ -1787,24 +1786,24 @@
     "heute": {
      "datum": "2026-09-28",
      "code": 2,
-     "max": 27,
+     "max": 26,
      "min": 9,
      "regen": 0,
      "menge": 0,
      "wind": 11,
-     "windAus": 99,
+     "windAus": 102,
      "uv": 4.3,
      "auf": "07:08",
      "unter": "18:59"
     },
     "morgen": {
      "datum": "2026-09-29",
-     "code": 3,
+     "code": 1,
      "max": 25,
-     "min": 11,
+     "min": 10,
      "regen": 0,
      "menge": 0,
-     "wind": 11,
+     "wind": 12,
      "windAus": 83,
      "uv": 4.3,
      "auf": "07:09",
@@ -1814,24 +1813,24 @@
      {
       "datum": "2026-09-28",
       "code": 2,
-      "max": 27,
+      "max": 26,
       "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 11,
-      "windAus": 99,
+      "windAus": 102,
       "uv": 4.3,
       "auf": "07:08",
       "unter": "18:59"
      },
      {
       "datum": "2026-09-29",
-      "code": 3,
+      "code": 1,
       "max": 25,
-      "min": 11,
+      "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 11,
+      "wind": 12,
       "windAus": 83,
       "uv": 4.3,
       "auf": "07:09",
@@ -1841,25 +1840,25 @@
       "datum": "2026-09-30",
       "code": 45,
       "max": 25,
-      "min": 9,
+      "min": 10,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 75,
-      "uv": 4,
+      "windAus": 97,
+      "uv": 4.2,
       "auf": "07:11",
       "unter": "18:55"
      },
      {
       "datum": "2026-10-01",
       "code": 61,
-      "max": 24,
-      "min": 11,
-      "regen": 17,
-      "menge": 0.9,
+      "max": 22,
+      "min": 12,
+      "regen": 24,
+      "menge": 1.5,
       "wind": 9,
-      "windAus": 259,
-      "uv": 4.1,
+      "windAus": 254,
+      "uv": 3.9,
       "auf": "07:12",
       "unter": "18:53"
      },
@@ -1868,11 +1867,11 @@
       "code": 61,
       "max": 20,
       "min": 15,
-      "regen": 23,
-      "menge": 4.2,
+      "regen": 35,
+      "menge": 9.6,
       "wind": 7,
-      "windAus": 324,
-      "uv": 2.3,
+      "windAus": 7,
+      "uv": 2.6,
       "auf": "07:14",
       "unter": "18:51"
      },
@@ -1884,7 +1883,7 @@
       "regen": 7,
       "menge": 0,
       "wind": 5,
-      "windAus": 218,
+      "windAus": 229,
       "uv": 3.3,
       "auf": "07:15",
       "unter": "18:48"
@@ -1898,70 +1897,16 @@
       "menge": 0,
       "wind": 14,
       "windAus": 267,
-      "uv": 2.3,
+      "uv": 2.5,
       "auf": "07:16",
       "unter": "18:46"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 9,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 19,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 22,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 24,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 26,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 26,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 27,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 26,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1978,13 +1923,13 @@
      },
      {
       "zeit": "20:00",
-      "grad": 21,
+      "grad": 20,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 19,
+      "grad": 18,
       "code": 0,
       "regen": 0
      },
@@ -2047,6 +1992,60 @@
       "grad": 11,
       "code": 1,
       "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 10,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 23,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 24,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 25,
+      "code": 0,
+      "regen": 0
      }
     ]
    }
@@ -2054,8 +2053,8 @@
   "text": [
    "Heute liegen die Höchstwerte zwischen 24 und 29 Grad.",
    "Die Vorhersage für morgen, Dienstag, im ganzen Land: bewölkt.",
-   "Die Temperaturen erreichen dann 23 bis 29 Grad.",
-   "Am wärmsten wird es in Stuttgart mit 29 Grad.",
+   "Die Temperaturen erreichen dann 22 bis 29 Grad.",
+   "Am wärmsten wird es in Köln mit 29 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
@@ -2067,20 +2066,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 23,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 20,
-       "regen": 0.1
+       "grad": 21,
+       "regen": 0
       }
      ]
     },
@@ -2096,13 +2095,13 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 25,
+       "grad": 26,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       }
      ]
@@ -2136,19 +2135,19 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 28,
+       "grad": 26,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 28,
-       "regen": 0.7
+       "grad": 29,
+       "regen": 0.2
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 27,
+       "grad": 26,
        "regen": 0
       }
      ]
@@ -2171,7 +2170,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 27,
+       "grad": 26,
        "regen": 0
       }
      ]
@@ -2182,19 +2181,19 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 29,
+       "grad": 28,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 28,
+       "grad": 27,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 28,
+       "grad": 27,
        "regen": 0
       }
      ]
@@ -2211,13 +2210,13 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
+       "grad": 22,
        "regen": 0
       }
      ]
@@ -2226,7 +2225,7 @@
    "spanneGrad": 3,
    "uneinigRegen": null,
    "saetze": [
-    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 20 und 23 Grad."
+    "Für Berlin gehen die Modelle am weitesten auseinander: zwischen 23 und 26 Grad."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2234,19 +2233,7 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst",
-  "ton": {
-   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
-   "d": "37680d2e2f.mp3",
-   "l": 20.25,
-   "s": [
-    0.25,
-    5.08,
-    9.17,
-    13.53,
-    17.46
-   ]
-  }
+  "quelle": "Open-Meteo / Deutscher Wetterdienst"
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -12456,554 +12443,6 @@
       35.94,
       45.58,
       57.41
-     ]
-    }
-   ]
-  },
-  {
-   "id": "xi-besuch-usa-zollpause",
-   "rubrik": "Welt",
-   "zeit": "2026-09-25T07:32:52.000Z",
-   "aktualisiert": "aktualisiert um 09:42 Uhr",
-   "titel": "Staatsbesuch von Chinas Präsident Xi in Washington",
-   "vorspann": "Chinas Präsident Xi Jinping ist zu einem dreitägigen Staatsbesuch in den Vereinigten Staaten eingetroffen. US-Präsident Donald Trump empfing seinen Gast in Washington mit militärischen Ehren und einem Staatsbankett.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Chinas Präsident Xi Jinping ist zu einem mehrtägigen Staatsbesuch in den USA eingetroffen. US-Präsident Donald Trump empfing ihn in Washington mit militärischen Ehren und einem Staatsbankett.",
-    "Beide Staatschefs sprachen über ihre Beziehungen und eine Verlängerung der Zollpause bis zum 10. Januar. Zu den Gesprächsthemen zählten zudem Künstliche Intelligenz, der Welthandel und internationale Konflikte.",
-    "In den USA gab es Kritik an dem pompösen Empfang des chinesischen Präsidenten. Kritiker verwiesen unter anderem auf ungelöste Konflikte und Vorwürfe bezüglich der Beziehungen zu Iran und Russland."
-   ],
-   "einig": [
-    [
-     "Chinas Präsident Xi Jinping wird von US-Präsident Donald Trump zu einem mehrtägigen Staatsbesuch in Washington empfangen.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Deutsche Welle",
-      "BBC"
-     ]
-    ],
-    [
-     "Beide Seiten vereinbaren eine Verlängerung der Aussetzung von Strafzöllen und Handelsbeschränkungen bis zum 10. Januar.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Zu den Hauptthemen der Gespräche gehören der Handel, Künstliche Intelligenz sowie internationale Konflikte wie Taiwan, der Iran und der Ukraine-Krieg.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die Gespräche konkrete Ergebnisse abseits der vereinbarten Zollpause bringen, wird unterschiedlich bewertet. Während Xi Jinping laut Deutscher Welle von vielen neuen Einigungen sprach, kritisierten Beobachter laut Tagesschau und BBC das Fehlen greifbarer Resultate."
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Betont die persönliche Freundschaft zu Xi Jinping sowie die Chancen für Frieden und Wohlstand.",
-     "Tagesschau/ARD,ZDFheute,Deutsche Welle,BBC"
-    ],
-    [
-     "Xi Jinping (Chinas Staatschef)",
-     "Betont die Notwendigkeit von aufrichtiger Zusammenarbeit, strategischer Stabilität und der Lösung von Sachfragen bei Wirtschaft und Handel.",
-     "Tagesschau/ARD,Deutsche Welle,BBC"
-    ],
-    [
-     "Roger Wicker (Republikanischer Senator)",
-     "Kritisierte den pompösen Empfang für Xi Jinping im Weißen Haus.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Marco Rubio (US-Aussenminister)",
-     "Betonte den Wert davon, die Gesprächskanäle zum Konkurrenten China offenzuhalten.",
-     "Tagesschau/ARD"
-    ]
-   ],
-   "fehlend": "Stimmen der Regierung der Volksrepublik China abseits der offiziellen Aussagen von Xi Jinping sowie offizielle Reaktionen aus Taiwan oder Russland zu den Gesprächen.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "25.09.26, 06:41",
-     "fokus": "Kritik und mangelnde Ergebnisse",
-     "text": "Der Bericht beleuchtet den Pomp des Empfangs, kritische Stimmen aus der US-Politik und das Fehlen konkreter Resultate bei Streitthemen.",
-     "url": "https://www.tagesschau.de/ausland/amerika/xi-staatsbesuch-usa-104.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 2,
-      "woerter": 421,
-      "satzlaenge": 23,
-      "langeWoerter": 35
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "24.09.26, 22:36",
-     "fokus": "Globale Krisen und politische Risiken",
-     "text": "Der Artikel betont die ungelösten Konflikte bei Zöllen und Technologie sowie die politischen Risiken für Trump.",
-     "url": "https://www.zdfheute.de/politik/ausland/china-usa-xi-trump-treffen-washington-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 2,
-      "woerter": 496,
-      "satzlaenge": 14,
-      "langeWoerter": 36
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "25.09.26, 09:32",
-     "fokus": "Zusammenfassung",
-     "text": "US-Präsident Trump hat den chinesischen Staatschef Xi zu einem Bankett im Weißen Haus empfangen.",
-     "url": "https://www.deutschlandfunk.de/trump-gibt-staatsbankett-fuer-xi-im-weissen-haus-100.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "25.09.26, 09:00",
-     "fokus": "Ablauf und Medienstreit",
-     "text": "Der US-Präsident empfängt seinen chinesischen Kollegen bei einem Staatsbankett.",
-     "url": "https://www.dw.com/de/trump-beschwört-harmonie-bei-xis-staatsbesuch-news-kompakt-das-wichtigste-kurz-gefasst/a-79422183?maca=de-rss-de-all-1119-rdf",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 3,
-      "woerter": 692,
-      "satzlaenge": 16,
-      "langeWoerter": 35
-     },
-     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
-     "finanzierung": "Steuermittel des Bundes",
-     "publikumWert": null
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "25.09.26, 08:40",
-     "fokus": "Gäste und protokollarischer Ablauf",
-     "text": "Die Berichterstattung konzentriert sich auf die Gästeliste mit Tech-Milliardären und den Ablauf des Banketts.",
-     "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "leicht",
-      "fuerWen": "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
-      "klasse": 8,
-      "minuten": 5,
-      "woerter": 958,
-      "satzlaenge": 22,
-      "langeWoerter": 25
-     },
-     "traeger": "British Broadcasting Corporation, Großbritannien",
-     "finanzierung": "Rundfunkgebühr (Licence Fee)",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Schwerpunkte der Berichterstattung",
-     "Während die Tagesschau und ZDFheute auf offene Konflikte und politische Kritik eingehen, legt die BBC einen Schwerpunkt auf die Gästeliste aus der Tech-Branche und den feierlichen Rahmen des Banketts."
-    ]
-   ],
-   "wfragen": {
-    "wer": "US-Präsident Donald Trump und Chinas Präsident Xi Jinping",
-    "was": "Ein offizieller Staatsbesuch mit politischen Gesprächen und einem Bankett",
-    "wann": "2026-09-24 bis 2026-09-25",
-    "wo": "Washington, D.C., USA",
-    "wie": "Mit militärischem Spalier, Reden und einem Staatsbankett",
-    "warum": "Zur Beratung über globale Krisen, Handelsfragen und Technologien laut Tagesschau und ZDFheute",
-    "quellenlage": "Meldungen von Tagesschau, ZDFheute, Deutschlandfunk, Deutsche Welle und BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Ablauf und Empfang",
-     "absaetze": [
-      "Chinas Staatschef Xi Jinping befindet sich zu einem mehrtägigen Staatsbesuch in den Vereinigten Staaten von Amerika. US-Präsident Donald Trump empfing den Gast persönlich am Rollfeld des Flughafens. Am Mittwoch und Donnerstag fanden offizielle Zeremonien im Weißen Haus statt. Dazu gehörten Fanfaren, eine Truppenparade, ein militärisches Spalier sowie ein gemeinsames Treffen.",
-      "Als Höhepunkt des ersten Tages gab US-Präsident Trump ein feierliches Staatsbankett für Chinas Präsidenten. Auf den Tischen lagen rote Tischdecken, die in der chinesischen Kultur als Symbol für Glück gelten. Das servierte Menü konzentrierte sich nach offiziellen Angaben des Weißen Hauses auf amerikanische Zutaten mit einer dezenten chinesischen Note. Der Hauptgang bestand aus Wolfsbarsch mit Sesamkruste, geschmorten Baby-Pak-Choi und gerösteter Aubergine.",
-      "Zu den geladenen Gästen des Banketts gehörten Mitglieder der US-Regierung sowie zahlreiche Führungskräfte aus der Wirtschaft und Technologiebranche. Unter den anwesenden Unternehmenschefs waren Tim Cook von Apple, Sam Altman von OpenAI, Sundar Pichai von Google, Jeff Bezos von Amazon und Jensen Huang von Nvidia. Auch Elon Musk und Mark Zuckerberg nahmen an dem Abendessen teil. Vor dem Gebäude versammelten sich laut BBC zudem Demonstranten.",
-      "Zum Abschluss des Besuchs stehen eine Teezeremonie im Weißen Haus sowie ein Rundgang durch das US-Nationalarchiv auf dem Programm. Das Nationalarchiv beherbergt wichtige historische Dokumente zur Gründung der Vereinigten Staaten. Danach reist der chinesische Präsident nach Angaben der Tagesschau wieder nach Peking ab."
-     ]
-    },
-    {
-     "ueberschrift": "Inhalte der Gespräche",
-     "absaetze": [
-      "Im Zentrum der Gespräche im Weißen Haus standen nach übereinstimmenden Medienberichten globale Krisen sowie die bilateralen Handelsbeziehungen. Beide Seiten äußerten sich in öffentlichen Erklärungen betont kooperativ. US-Präsident Trump sprach von einer persönlichen Freundschaft zu Xi Jinping. Chinas Staatschef betonte laut Tagesschau, dass beide Staaten aufrichtig zusammenarbeiten müssten.",
-      "Ein zentrales Thema der Verhandlungen bildeten die wirtschaftlichen Beziehungen und der Zollstreit zwischen den beiden großen Volkswirtschaften. Nach Angaben aller Berichte vereinbarten die Regierungen eine Verlängerung einer Waffenruhe in Zoll- und Handelsfragen. Hohe Strafzölle und Exportbeschränkungen sollen demnach bis zum 10. Januar ausgesetzt bleiben. China und die USA ringen zudem um technologische Vorherrschaft, Computerchips und Rohstoffe.",
-      "Ein weiteres Streitthema war das Gebiet der Künstlichen Intelligenz. Chinas Präsident forderte laut Tagesschau, dass die Entwicklung unter Kontrolle bleiben und dem Wohl der Menschen dienen müsse. US-Präsident Trump sprach in diesem Zusammenhang von Superintelligenz und verwies auf Chancen für Frieden und Wohlstand. Auch Themen wie der Status von Taiwan, Chinas Einfluss im Iran und die Beziehungen zu Russland wurden in den Berichten genannt.",
-      "Als Zeichen der Annäherung kündigte Chinas Staatschef an, die Vereinigten Staaten erneut mit Großen Pandas zu versorgen. Diese Tiere werden in China traditionell als symbolische Botschafter der Freundschaft eingesetzt. Zudem sollen nach Angaben des ZDF in den kommenden Jahren junge Amerikaner zu Austauschprogrammen nach China eingeladen werden. Zum Abschied überreichte Trump seinem Gast eine massive Weißkopfadlerstatue als Wappentier der USA."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Kritik",
-     "absaetze": [
-      "Der pompöse Empfang im Weißen Haus stieß in den Vereinigten Staaten teilweise auf Kritik. Der republikanische Senator Roger Wicker erklärte laut Tagesschau, er hätte dem Präsidenten einen solchen Empfang nicht empfohlen. Der demokratische Senator Chris van Hollen äußerte sich nach denselben Angaben kritisch über die Inszenierung.",
-      "Zudem steht China in Washington unter dem Verdacht, das Land Iran beim Aufbau militärischer Fähigkeiten zu unterstützen. Laut ZDFheute berichtete das Wall Street Journal über Lieferungen elektronischer Bauteile für iranische Raketen und Satellitendaten. Kritiker stellen vor diesem Hintergrund die Frage, weshalb ein solcher Partner wie ein enger Verbündeter empfangen werde.",
-      "Die Deutsche Welle berichtete darüber hinaus, dass der Staatsbesuch von Auseinandersetzungen zwischen US-Präsident Trump und mehreren Medienhäusern überschattet wurde. Demnach ging es um den Zugang von Journalisten zum Weißen Haus. Große US-Sender berichteten nach Angaben der Deutschen Welle in ihren Programmen weniger über den Washingtoner Gipfel als bei solchen Anlässen sonst üblich."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Frühjahr 2025",
-     "Der Zollstreit zwischen den USA und China verschärft sich mit gegenseitigen Erhöhungen der Zölle."
-    ],
-    [
-     "Mai 2025",
-     "Beide Staaten einigen sich in Genf auf eine erste zeitlich begrenzte Aussetzung der Zölle."
-    ],
-    [
-     "Oktober 2025",
-     "Trump und Xi vereinbaren beim Treffen im südkoreanischen Busan das Aussetzen hoher Zusatzzölle."
-    ],
-    [
-     "24.08.2026",
-     "Xi Jinping trifft zum dreitägigen Staatsbesuch in Washington ein, die Zollpause wird bis Januar verlängert."
-    ],
-    [
-     "24.09.2026 bis 25.09.2026",
-     "Xi Jinping absolviert einen dreitägigen Staatsbesuch in Washington."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Xi Jinping politician",
-     "bildunterschrift": "Chinas Staatspräsident Xi Jinping nahm an dem dreitägigen Staatsbesuch in den Vereinigten Staaten teil."
-    },
-    {
-     "art": "gebaeude",
-     "suchbegriff": "White House Washington D.C.",
-     "bildunterschrift": "Das Weiße Haus in Washington war der Schauplatz für den Empfang und das offizielle Staatsbankett."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Bald eagle symbol",
-     "bildunterschrift": "Ein Weißkopfseeadler als Wappentier der USA diente als Geschenk für den chinesischen Gast."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "US National Archives building",
-     "bildunterschrift": "Das US-Nationalarchiv stand neben dem Weißen Haus ebenfalls auf dem Besuchsprogramm."
-    }
-   ],
-   "ort": {
-    "name": "Washington, D.C., USA"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das Datum in der Zeitleiste wurde an die Berichte angepasst, da die historischen Einträge aus dem Jahr 2025 nicht in den aktuellen Textquellen standen.",
-    "Formulierungen wie 'krachend' oder übertriebene Adjektive wurden durch neutrale Ausdrücke ersetzt."
-   ],
-   "wortwarnung": [
-    "massive"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Staatsbankett",
-      "Ein sehr feierliches Essen, das ein Staatspräsident für einen wichtigen ausländischen Gast ausrichtet."
-     ],
-     [
-      "Strafzölle",
-      "Steuern, die auf Waren aus anderen Ländern erhoben werden, um den eigenen Markt zu schützen."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen wirtschaftliche Interessen bei Treffen zwischen den USA und China?",
-     "Warum wird ein pompöser Empfang für ausländische Gäste in der Politik unterschiedlich bewertet?"
-    ],
-    "quiz": [
-     {
-      "frage": "Bis zu welchem Datum wurde die Aussetzung der Strafzölle vereinbart?",
-      "optionen": [
-       "10. Januar",
-       "31. Dezember",
-       "1. März"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und ZDFheute wurde die Aussetzung von Strafzöllen und Handelsbeschränkungen bis zum 10. Januar verlängert."
-     },
-     {
-      "frage": "Von wem wurde Chinas Präsident Xi Jinping in Washington empfangen?",
-      "optionen": [
-       "Vom US-Aussenminister Marco Rubio",
-       "Vom US-Präsidenten Donald Trump",
-       "Vom Kongress der Vereinigten Staaten"
-      ],
-      "richtig": 1,
-      "erklaerung": "In allen Berichten wird übereinstimmend genannt, dass US-Präsident Donald Trump den chinesischen Präsidenten empfangen hat."
-     },
-     {
-      "frage": "Welches Tier überreichte Donald Trump als Geschenk an Xi Jinping?",
-      "optionen": [
-       "Einen großen Panda",
-       "Einen Weißkopfadler als Statue",
-       "Einen bronzenen Bären"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau und BBC überreichte Trump dem Gast eine massive Statue eines Weißkopfseeadlers."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Chinas Präsident Xi Jinping besucht die Vereinigten Staaten. US-Präsident Donald Trump hat ihn in Washington mit einem großen Fest empfangen.",
-    "absaetze": [
-     "Die beiden Politiker sprachen im Weißen Haus über Handel, Computer und den Weltfrieden.",
-     "Sie einigten sich darauf, hohe Strafzölle vorerst bis zum zehnten Januar nicht zu erheben.",
-     "Zu dem Treffen gab es auch Kritik in den Vereinigten Staaten, weil viele Probleme ungelöst bleiben.",
-     "Neben Politikern nahmen auch viele Chefs großer Technik-Firmen an dem Empfang teil."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Chinas Präsident Xi Jinping besucht die Vereinigten Staaten.",
-     "US-Präsident Donald Trump empfing ihn in Washington mit einem Staatsbankett.",
-     "Beide Seiten verlängerten eine Zollpause bis zum zehnten Januar."
-    ],
-    "lang": [
-     "Chinas Präsident Xi Jinping ist zu einem Staatsbesuch in den Vereinigten Staaten eingetroffen.",
-     "US-Präsident Donald Trump empfing seinen Gast in Washington mit militärischen Ehren.",
-     "Am Mittwoch und Donnerstag fanden offizielle Gespräche im Weißen Haus statt.",
-     "Beide Staatschefs vereinbarten eine Verlängerung der Zollpause bis zum zehnten Januar.",
-     "Zu den weiteren Gesprächsthemen zählten Künstliche Intelligenz und der Welthandel.",
-     "Bei dem Empfang waren auch zahlreiche Führungskräfte aus der Technologiebranche anwesend.",
-     "Kritiker bemängelten nach Angaben der Medien das Fehlen konkreter Ergebnisse bei internationalen Konflikten.",
-     "Der Besuch soll die wirtschaftlichen und diplomatischen Beziehungen der beiden Großmächte beeinflussen.",
-     "Am Ende des Besuchs reist der chinesische Präsident wieder nach Peking ab."
-    ],
-    "einfach": [
-     "Chinas Präsident Xi Jinping besucht die Vereinigten Staaten von Amerika.",
-     "US-Präsident Donald Trump hat ihn in Washington feierlich empfangen.",
-     "Die Politiker sprachen über den Handel zwischen den beiden Ländern.",
-     "Sie verlängerten eine Pause für Zölle bis zum zehnten Januar.",
-     "Einige Kritiker fanden den großen Empfang allerdings nicht gut."
-    ]
-   },
-   "kurz": [
-    "Chinas Präsident Xi Jinping ist zu einem Staatsbesuch in den USA eingetroffen.",
-    "US-Präsident Donald Trump empfing ihn in Washington mit einem feierlichen Bankett.",
-    "Beide Staaten verlängerten die Aussetzung von Strafzöllen bis zum zehnten Januar.",
-    "Kritiker bemängelten jedoch das Fehlen konkreter Ergebnisse bei internationalen Konflikten."
-   ],
-   "fakten": [
-    [
-     "Dauer des Staatsbesuchs",
-     "drei Tage"
-    ],
-    [
-     "Frist für die Zollpause",
-     "zehnter Januar"
-    ]
-   ],
-   "dossier": {
-    "slug": "usa-china-beziehungen",
-    "titel": "Beziehungen zwischen den USA und China"
-   },
-   "bildInfo": {
-    "titel": "Bongbong Marcos and Xi Jinping 3.jpg",
-    "beschreibung": "Philippine president Bongbong Marcos and Chinese leader Xi Jinping meet on the sidelines of the APEC Economic Leaders' Meeting in Bangkok, Thailand, on November 17, 2022.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg/1280px-Bongbong_Marcos_and_Xi_Jinping_3.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Bongbong_Marcos_and_Xi_Jinping_3.jpg",
-    "urheber": "𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "art": "person",
-    "suchbegriff": "Xi Jinping politician",
-    "bildunterschrift": "Der chinesische Staatsführer Xi Jinping bei einem Treffen am Rande eines Gipfels.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Bongbong Marcos and Xi Jinping 3.jpg",
-     "beschreibung": "Philippine president Bongbong Marcos and Chinese leader Xi Jinping meet on the sidelines of the APEC Economic Leaders' Meeting in Bangkok, Thailand, on November 17, 2022.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg/1280px-Bongbong_Marcos_and_Xi_Jinping_3.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bongbong_Marcos_and_Xi_Jinping_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Bongbong_Marcos_and_Xi_Jinping_3.jpg",
-     "urheber": "𝗢𝗣𝗦-𝗢𝗜𝗖 𝗨𝗻𝗱𝗲𝗿𝘀𝗲𝗰𝗿𝗲𝘁𝗮𝗿𝘆 𝗖𝗵𝗲𝗹𝗼𝘆 𝗩𝗲𝗹𝗶𝗰𝗮𝗿𝗶𝗮-𝗚𝗮𝗿𝗮𝗳𝗶𝗹",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Xi Jinping politician",
-     "bildunterschrift": "Der chinesische Staatsführer Xi Jinping bei einem Treffen am Rande eines Gipfels.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Donald Trump official portrait.jpg",
-     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
-     "urheber": "Shealeah Craighead",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Donald Trump official portrait",
-     "bildunterschrift": "Das offizielle Portrait von US-Präsident Donald Trump.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Air Force District of Washington.png",
-     "beschreibung": "Emblem of the Air Force District of Washington of the United States Air Force",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Air_Force_District_of_Washington.png",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Air_Force_District_of_Washington.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Air_Force_District_of_Washington.png",
-     "urheber": "United States Air Force ( User:Pmsyyz converted JPEG to PNG, added transparency, resized t",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "artikel": "Joint Base Andrews Naval Air Facility",
-     "sprache": "de",
-     "art": "ort",
-     "suchbegriff": "Joint Base Andrews",
-     "bildunterschrift": "Das Emblem der Air Force District of Washington der United States Air Force.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Washington, D.C., USA",
-    "lat": 38.895,
-    "lon": -77.036
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Chinas Präsident Xi Jinping ist zu einem Staatsbesuch in den Vereinigten Staaten",
-     "d": "e48b69cf61.mp3",
-     "l": 47.48,
-     "s": [
-      0.25,
-      5.94,
-      11.16,
-      15.63,
-      20.53,
-      25.47,
-      30.68,
-      36.82,
-      42.69
-     ]
-    },
-    {
-     "k": "Chinas Präsident Xi Jinping besucht die Vereinigten Staaten. US-Präsident Donald",
-     "d": "7d8e0366ea.mp3",
-     "l": 13.27,
-     "s": [
-      0.25,
-      4.29,
-      8.98
-     ]
-    },
-    {
-     "k": "Chinas Präsident Xi Jinping besucht die Vereinigten Staaten von Amerika. US-Präs",
-     "d": "5839505cd8.mp3",
-     "l": 24.77,
-     "s": [
-      0.25,
-      6.23,
-      11.3,
-      15.81,
-      20.51
-     ]
-    },
-    {
-     "k": "Ob die Gespräche konkrete Ergebnisse abseits der vereinbarten Zollpause bringen,",
-     "d": "79fa28bf95.mp3",
-     "l": 16.75,
-     "s": [
-      0.25,
-      7
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Staatsbankett? Ein sehr feierliches Essen, das ein Staat",
-     "d": "8da5b4c792.mp3",
-     "l": 10.62,
-     "s": [
-      0.25,
-      3.63
-     ]
-    },
-    {
-     "k": "Chinas Staatschef Xi Jinping befindet sich zu einem mehrtägigen Staatsbesuch in ",
-     "d": "8960f846b0.mp3",
-     "l": 51.71,
-     "s": [
-      0.25,
-      7.52,
-      13.03,
-      17.69,
-      23.83,
-      30.63,
-      36.27,
-      44.67
-     ]
-    },
-    {
-     "k": "Im Zentrum der Gespräche im Weißen Haus standen nach übereinstimmenden Medienber",
-     "d": "9f31102c8a.mp3",
-     "l": 44.44,
-     "s": [
-      0.25,
-      8.73,
-      13.03,
-      17.57,
-      23.62,
-      31.24,
-      37.62,
-      42.21
-     ]
-    },
-    {
-     "k": "Der pompöse Empfang im Weißen Haus stieß in den Vereinigten Staaten teilweise au",
-     "d": "7f219f9797.mp3",
-     "l": 54.01,
-     "s": [
-      0.25,
-      5.55,
-      12.48,
-      18.74,
-      25.75,
-      34.31,
-      40.8,
-      50.24
      ]
     }
    ]
