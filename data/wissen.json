@@ -1,6 +1,136 @@
 {
- "stand": "2026-09-29T08:23:41.726Z",
+ "stand": "2026-09-29T15:44:33.891Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-muskelkater",
+   "zeit": "2026-09-29T15:51:49.119Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie entsteht eigentlich Muskelkater?",
+   "vorspann": "Nach einer anstrengenden körperlichen Belastung spüren viele Menschen oft erst nach Stunden einen Schmerz im Körper. Dieser Zustand wird als Muskelkater bezeichnet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Als Muskelkater bezeichnet man einen Schmerz nach körperlicher Anstrengung. Besonders hohe Belastungen von Muskelpartien führen dazu. Meistens macht sich dieser Schmerz erst Stunden nach der jeweiligen Tätigkeit bemerkbar. Die Symptome lindern sich in der Regel innerhalb von vier Tagen. Dennoch ist angeraten, die betroffenen Muskelpartien etwa zehn Tage lang zu schonen.",
+      "Eine wirksame medikamentöse Behandlung ist nicht bekannt. Gute Behandlungserfolge erzielt man dagegen mit sanften Massagen. Auch Wärmebehandlungen sowie warme Bäder lindern den Schmerz. Eiweißhaltige Nahrung ist ebenfalls empfehlenswert. Eine Übersäuerung durch Milchsäure galt früher als Ursache, ist aber längst widerlegt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Überlastungen führen zu kleinen Rissen in den Z-Scheiben im Muskelgewebe. Diese Risse nennt man Mikrotraumata. Durch diese Risse entstehen Entzündungen im Muskel. Dabei dringt Wasser ein und es bilden sich Ödeme. Das führt zum Anschwellen des Muskels.",
+      "Ein sofortiger Schmerz stellt sich nicht ein. Innerhalb der Muskelfaser befinden sich keine Schmerzrezeptoren. Nach etwa zwölf bis vierundzwanzig Stunden beginnt der Körper jedoch, die Entzündungsstoffe auszuspülen. Dadurch kommen sie in Kontakt mit Nervenzellen außerhalb des Muskels.",
+      "Die Risse entstehen beim Bremsen von Bewegungen deutlich schneller als beim Beschleunigen. Beispiele dafür sind das Bergabgehen oder das Abfedern eines Sprungs. Gründliches Aufwärmen erhöht die muskuläre Leistungsfähigkeit und verringert so das Risiko der Überbeanspruchung."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Früher wurde eine Übersäuerung des Muskels durch Milchsäure angenommen. Diese Hypothese ist jedoch durch Fakten widerlegt worden. Laut der Laktathypothese müsste Muskelkater bei Sportarten mit sehr hohen Laktatwerten entstehen, wie dem Vierhundertmeterlauf. Die Praxis zeigt aber, dass er häufiger nach Krafttraining auftritt.",
+      "Zudem hat Laktat eine Halbwertszeit von etwa zwanzig Minuten. Ein Muskelkater tritt jedoch erst Stunden später auf, nachdem sich der Laktatspiegel längst normalisiert hat. Zu Dehnungsübungen gibt es eine australische Veröffentlichung, wonach diese einen Muskelkater nur in vernachlässigbar geringem Umfang verringern."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Die genauen Ursachen des Muskelkaters sind laut dem Artikel noch nicht abschließend geklärt."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Dauer der Laktat-Halbwertszeit",
+     "20 Minuten"
+    ],
+    [
+     "Dauer bis zum Beginn der Schmerzausspülung",
+     "12 bis 24 Stunden"
+    ],
+    [
+     "Regelfall für die Linderung der Symptome",
+     "4 Tage"
+    ],
+    [
+     "Empfohlene Dauer für die Schonung der Muskeln",
+     "10 Tage"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Muskelkater",
+     "Ein Schmerz nach körperlicher Anstrengung, der sich meist erst nach Stunden bemerkbar macht."
+    ],
+    [
+     "Mikrotraumata",
+     "Kleine Risse im Muskelgewebe, die durch Überlastung entstehen können."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann spürt man einen Muskelkater meistens?",
+     "optionen": [
+      "Sofort während des Trainings",
+      "Erst Stunden nach der Tätigkeit",
+      "Genau nach einer Minute"
+     ],
+     "richtig": 1,
+     "erklaerung": "Der Schmerz tritt meistens erst Stunden nach der jeweiligen Tätigkeit auf."
+    }
+   ],
+   "video": [
+    "Muskelkater ist ein Schmerz nach körperlicher Anstrengung.",
+    "Er tritt besonders bei hohen Belastungen auf.",
+    "Früher dachte man an eine Übersäuerung durch Milchsäure.",
+    "Diese Annahme wurde durch Messungen und Fakten widerlegt.",
+    "Heute geht man von kleinen Rissen im Gewebe aus.",
+    "Diese Risse nennt die Wissenschaft Mikrotraumata.",
+    "Nach zwölf bis vierundzwanzig Stunden spürt man den Schmerz.",
+    "Sanfte Massagen und Wärme helfen bei der Heilung."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Muskelkater",
+    "bildunterschrift": "Muskelkater entsteht oft nach ungewohnten oder sehr hohen körperlichen Belastungen."
+   },
+   "quelle": {
+    "titel": "Muskelkater",
+    "url": "https://de.wikipedia.org/wiki/Muskelkater",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 296,
+   "bildInfos": [
+    {
+     "titel": "Max Foidl 2024 MSA.jpg",
+     "beschreibung": "Max Foidl competes at the 2024 UCI Cross Country MTB World Cup in Mont-Sainte-Anne, Quebec",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Max_Foidl_2024_MSA.jpg/1280px-Max_Foidl_2024_MSA.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Max_Foidl_2024_MSA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Max_Foidl_2024_MSA.jpg",
+     "urheber": "Stephen LaBonte",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Max Foidl",
+     "sprache": "en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Muskelkater entsteht oft nach ungewohnten oder sehr hohen körperlichen Belastungen."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Max Foidl 2024 MSA.jpg",
+    "beschreibung": "Max Foidl competes at the 2024 UCI Cross Country MTB World Cup in Mont-Sainte-Anne, Quebec",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Max_Foidl_2024_MSA.jpg/1280px-Max_Foidl_2024_MSA.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Max_Foidl_2024_MSA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Max_Foidl_2024_MSA.jpg",
+    "urheber": "Stephen LaBonte",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Max Foidl",
+    "sprache": "en",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Muskelkater entsteht oft nach ungewohnten oder sehr hohen körperlichen Belastungen."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-pass",
    "zeit": "2026-09-29T08:31:39.949Z",
