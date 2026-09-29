@@ -1,6 +1,196 @@
 {
- "stand": "2026-09-29T15:44:33.891Z",
+ "stand": "2026-09-29T20:43:12.562Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-eigentlich-der-limes",
+   "zeit": "2026-09-29T20:47:34.385Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte eigentlich der Limes?",
+   "vorspann": "Der Limes war ein römisches Grenzsicherungssystem und prägte viele Landschaften. Heute betrachten Fachleute ihn vor allem als wirtschaftspolitische Steuerungs- und Kontrolllinie.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Begriff Limes bezeichnet vom Römischen Reich angelegte Grenzwälle oder militärische Grenzsicherungssysteme. Diese wurden vom ersten bis zum sechsten Jahrhundert nach Christus in Europa, Vorderasien und Nordafrika errichtet. Ursprünglich verstanden die Römer darunter einen Querweg, eine Schneise oder einen Grenzweg. Später wurde der Ausdruck allgemein für die Grenze verwendet. Zu den bekanntesten Limites gehören der Obergermanisch-Raetische Limes in Deutschland, der norische Limes in Österreich und der Hadrianswall in Großbritannien.",
+      "Bei der Anlage ihrer Grenzen verfolgten die Römer keine reichsweite Gesamtstrategie. So entstand im Laufe der Jahrhunderte ein vielgestaltiges Konglomerat aus festen und offenen Grenzen. Die Grenzanlagen wurden von römischen Truppen überwacht. In Nordafrika und im Osten bildeten lockere Ketten von Kastellen und Wachtürmen den Limes. An Rhein, Donau, Euphrat und Tigris markierten Wasserläufe die Grenze."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die römischen Grenzanlagen waren nicht primär zur Abwehr von Angriffen gedacht. Viele bekannte Grenzabschnitte waren gegen groß angelegte Plünderungszüge nicht zu verteidigen. Die Römer wandten stattdessen die Invasionsverteidigung an. Dies bedeutete die Präsenz großer Einheiten an strategischen Punkten, um Eindringlinge mit rasch zusammengezogenen Interventionstruppen zu bekämpfen.",
+      "Heute wird der Limes von den meisten Fachleuten primär als bevölkerungs- und wirtschaftspolitische Steuerungs- und Kontrolllinie angesehen. Die Verwaltung konnte mit den Sperranlagen Handels- und Bevölkerungsströme lenken. Das ermöglichte es dem Imperium, den Handel zu erfassen und Zölle zu erheben. Der Limes war eher eine Membran für einen osmotischen Austausch von Menschen, Waren und Ideen.",
+      "Im zehnten Jahrhundert beziehungsweise in der Antike änderte sich der Charakter der Limites im dritten Jahrhundert. Kaiser Konstantin I. brachte hauptsächlich die von ihm neu gebildeten Teilstreitkräfte, die Limitanei und die Ripenses, mit dem Limes in Verbindung. Die Grenzübergänge dienten als Marktplätze für den Außenhandel mit dem Barbaricum. Wer die Grenze überschreiten wollte, musste dies an den Kontrollposten tun."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die systematische und wissenschaftliche Limeserforschung begann in Deutschland im Jahr 1892 mit den Arbeiten der Reichs-Limeskommission am Obergermanisch-Rätischen Limes. Auch britische Archäologen führten vor einhundert Jahren Ausgrabungen am Hadrianswall durch. Lange Zeit wurden die Anlagen als Befestigung für einen Stellungskrieg interpretiert. Heute müssen manche früheren Schlussfolgerungen aufgrund neuer wissenschaftlicher Erkenntnisse kritisch hinterfragt werden."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Wie die Verläufe von Palisaden, Gräben und Wällen von den Römern selbst genannt wurden, ist laut dem Text unbekannt."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Länge Obergermanisch-Raetischer Limes",
+     "550 km"
+    ],
+    [
+     "Zeitraum der Limites",
+     "1. bis 6. Jahrhundert n. Chr."
+    ],
+    [
+     "Beginn der Forschung in Deutschland",
+     "1892"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Limes",
+     "Grenzwälle oder militärische Grenzsicherungssysteme des Römischen Reiches."
+    ],
+    [
+     "Barbaricum",
+     "Die Bezeichnung der Römer für die Gebiete außerhalb ihrer Reichsgrenzen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Was war der Limes laut heutigen Fachleuten primär?",
+     "optionen": [
+      "Eine undurchlässige Wand",
+      "Eine wirtschaftspolitische Steuerungs- und Kontrolllinie",
+      "Eine reine Straße ohne militärische Funktion"
+     ],
+     "richtig": 1,
+     "erklaerung": "Fachleute sehen den Limes heute vor allem als wirtschaftspolitische Steuerungs- und Kontrolllinie sowie als Handelsweg."
+    }
+   ],
+   "video": [
+    "Der Limes war die Grenze des Römischen Reiches.",
+    "Er wurde vom ersten bis zum sechsten Jahrhundert angelegt.",
+    "Die Römer bauten Wälle, Mauern und Kastelle.",
+    "Entlang der Grenze gab es Flüsse oder Steinmauern.",
+    "Der Limes war keine undurchlässige Wand.",
+    "Er diente vor allem der Kontrolle von Handel und Personen.",
+    "Menschen tauschten Waren und Ideen aus.",
+    "Im Jahr 1892 begann die wissenschaftliche Erforschung in Deutschland."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Limes (Römisches Reich)",
+    "bildunterschrift": "Der Limes sicherte die Grenzen des Römischen Reiches."
+   },
+   "quelle": {
+    "titel": "Limes (Römisches Reich)",
+    "url": "https://de.wikipedia.org/wiki/Limes_(R%C3%B6misches_Reich)",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 357,
+   "bildInfos": [
+    {
+     "titel": "A Római Birodalom.jpg",
+     "beschreibung": "A Római Birodalom határai és provinciái",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/A_R%C3%B3mai_Birodalom.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/A_R%C3%B3mai_Birodalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:A_R%C3%B3mai_Birodalom.jpg",
+     "urheber": "Hnumhotep",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Limes (Römisches Reich)",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Der Limes sicherte die Grenzen des Römischen Reiches."
+    },
+    {
+     "titel": "10 2023 - Palazzo Altemps, Roma, Lazio, 00186, Italia - Sarcofago Grande Ludovisi (Grande Ludovisi sarcophagus) - Arte Romana - Photo Paolo Villa FO232047 ombre gimp bis.jpg",
+     "beschreibung": "Ludovisi Battle sarcophagus - Photo Paolo Villa FO232047 ombre gimp bis - The Ludovisi Battle sarcophagus or \"Great\" Ludovisi sarcophagus is an ancient Roman sarcophagus dating to around AD 250–260",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/10_2023_-_Palazzo_Altemps%2C_Roma%2C_Lazio%2C_00186%2C_Italia_-_Sarcofago_Grande_Ludovisi_%28Grande_Ludovisi_sarcophagus%29_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg/1280px-thumbnail.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/10_2023_-_Palazzo_Altemps%2C_Roma%2C_Lazio%2C_00186%2C_Italia_-_Sarcofago_Grande_Ludovisi_%28Grande_Ludovisi_sarcophagus%29_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:10_2023_-_Palazzo_Altemps,_Roma,_Lazio,_00186,_Italia_-_Sarcofago_Grande_Ludovisi_(Grande_Ludovisi_sarcophagus)_-_Arte_Romana_-_Photo_Paolo_Villa_FO232047_ombre_gimp_bis.jpg",
+     "urheber": "(Anonymous)",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ludovisi Battle sarcophagus - Photo Paolo Villa FO232047 ombre gimp bis - The Ludovisi Battle sarcophagus or \"Great\" Ludovisi sarcophagus is an ancient Roman sarcophagus dating to around AD 250–260"
+    },
+    {
+     "titel": "Aegyptus.jpg",
+     "beschreibung": "The Atlas of Ancient and Classical Geography by Samuel Butler",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Aegyptus.jpg/1280px-Aegyptus.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aegyptus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aegyptus.jpg",
+     "urheber": "Samuel Butler (1774-1839)",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The Atlas of Ancient and Classical Geography by Samuel Butler"
+    },
+    {
+     "titel": "Aesica Westtor 4. Jahrhundert n.Chr..png",
+     "beschreibung": "Artist's impression of the west gate of Aesica, state in the 4th century AD., View from northwest.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aesica_Westtor_4._Jahrhundert_n.Chr..png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aesica_Westtor_4._Jahrhundert_n.Chr..png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aesica_Westtor_4._Jahrhundert_n.Chr..png",
+     "urheber": "Veleius",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Artist's impression of the west gate of Aesica, state in the 4th century AD., View from northwest."
+    },
+    {
+     "titel": "Anastasiusmauer Verlauf.jpg",
+     "beschreibung": "Verlauf der Anastasiusmauer in BG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Anastasiusmauer_Verlauf.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Anastasiusmauer_Verlauf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Anastasiusmauer_Verlauf.jpg",
+     "urheber": "Veleius at de.wikipedia",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Verlauf der Anastasiusmauer in BG"
+    },
+    {
+     "titel": "Augsburger Weihestein r.jpg",
+     "beschreibung": "Roman memorial stone from Augsburg, Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Augsburger_Weihestein_r.jpg/1280px-Augsburger_Weihestein_r.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Augsburger_Weihestein_r.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Augsburger_Weihestein_r.jpg",
+     "urheber": "Photographed by User:Bullenwächter",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Roman memorial stone from Augsburg, Germany"
+    }
+   ],
+   "bildInfo": {
+    "titel": "A Római Birodalom.jpg",
+    "beschreibung": "A Római Birodalom határai és provinciái",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/A_R%C3%B3mai_Birodalom.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/49/A_R%C3%B3mai_Birodalom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:A_R%C3%B3mai_Birodalom.jpg",
+    "urheber": "Hnumhotep",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Limes (Römisches Reich)",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Der Limes sicherte die Grenzen des Römischen Reiches."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-muskelkater",
    "zeit": "2026-09-29T15:51:49.119Z",
