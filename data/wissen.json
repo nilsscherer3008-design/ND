@@ -1,6 +1,192 @@
 {
- "stand": "2026-09-27T18:19:21.922Z",
+ "stand": "2026-09-29T08:23:41.726Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-pass",
+   "zeit": "2026-09-29T08:31:39.949Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich ein Pass?",
+   "vorspann": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seit vielen Jahrhunderten nutzen Staaten verschiedene Dokumente zur Kontrolle.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Reisepass wird von einem Staat herausgegeben, dessen Staatsangehörigkeit der Inhaber besitzt. Er berechtigt zum grenzüberschreitenden Reisen und zur Rückkehr in das eigene Land. Der Pass bleibt das Eigentum des jeweiligen Staates. Er dient der Identifizierung und Legitimation gegenüber Behörden und anderen Personen.",
+      "Die meisten Reisepässe enthalten Angaben zur Person und leere Seiten für Vermerke wie Visa. Seit Beginn der zweitausender Jahre gibt es zunehmend biometrische Reisepässe. Dabei werden Personendaten in elektronischer Form im Pass abgelegt. Für Reisen von Repräsentanten gibt es spezielle Pässe wie den Dienstpass oder den Diplomatenpass."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Das Wort Pass leitet sich von dem lateinischen Wort für durchgehen ab. Schon im Altertum gab es Dokumente für Reisen. In der westlichen Han-Dynastie waren Pässe ein wichtiger Teil der Verwaltung. Sie erforderten Angaben zum Alter und zu Körpermerkmalen.",
+      "Im Mittelalter ordnete der König Ratchis Passvorschriften an. Ab dem fünfzehnten Jahrhundert wurden besondere Kennzeichen zur Identifizierung in Dokumente aufgenommen. Mit der französischen Revolution wurde das Passwesen weiter vorangetrieben. Nach dem Ausbruch des Ersten Weltkrieges wurden Passkontrollen in Europa wieder eingeführt.",
+      "Im Jahr neunzehnhundertachtundsechzig wurde ein einheitliches Passgesetz für den Bund erlassen. Nach dem Ersten Weltkrieg wurde der Nansen-Pass für staatenlose Flüchtlinge eingeführt. Im Jahr neunzehnhundert einundachtzig glichen die EG-Mitgliedsstaaten die Gestaltung der Reisepässe an."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die Geschichte der Pässe ist in historischen Texten und Dokumenten überliefert. Dazu gehören der Tanach, Gesetze aus verschiedenen Jahrhunderten und alte Urkunden. Der älteste erhaltene Reisepass aus dem Jahr vierzehnhundertdreiunddreißig befindet sich im Hessischen Staatsarchiv Marburg."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text enthält keine Angaben darüber, welche Fragen in der Forschung noch unbeantwortet sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Jahr des ältesten erhaltenen Reisepasses im Staatsarchiv Marburg",
+     "1433"
+    ],
+    [
+     "Einführung des Nansen-Passes für staatenlose Flüchtlinge",
+     "1922"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Biometrischer Reisepass",
+     "Ein Pass, bei dem Personendaten in elektronischer Form abgelegt sind."
+    ],
+    [
+     "Nansen-Pass",
+     "Ein Reisedokument, das im Jahr neunzehnhundertundzweiundzwanzig für staatenlose russische Flüchtlinge eingeführt wurde."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wem gehört ein Reisepass laut dem Text?",
+     "optionen": [
+      "Dem jeweiligen Staat",
+      "Dem Inhaber des Passes",
+      "Der Europäischen Union"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Pass bleibt laut dem Artikel Eigentum des jeweiligen Staates."
+    }
+   ],
+   "video": [
+    "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder.",
+    "Er wird von dem Staat herausgegeben, dessen Staatsangehörigkeit man besitzt.",
+    "Der Pass bleibt immer das Eigentum des jeweiligen Staates.",
+    "Schon im Altertum gab es in China Pässe mit Körpermerkmalen.",
+    "Im Mittelalter wurden Dokumente für Reisende und Pilger immer wichtiger.",
+    "Nach der französischen Revolution wurden die Vorschriften mehrfach verändert.",
+    "Seit den zweitausender Jahren gibt es elektronische biometrische Pässe.",
+    "Frühere Dokumente enthielten oft Stempel oder Siegel zur Identifizierung."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Reisepass",
+    "bildunterschrift": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen über Grenzen hinweg."
+   },
+   "quelle": {
+    "titel": "Reisepass",
+    "url": "https://de.wikipedia.org/wiki/Reisepass",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 255,
+   "bildInfos": [
+    {
+     "titel": "Reisepass Bundesrepublik Deutschland – Einband Vorderseite 2017.jpg",
+     "beschreibung": "Deutscher Reisepass (Muster 2017), Einband.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg",
+     "urheber": "Bundesrepublik Deutschland, Bundesministerium des Innern",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Deutscher Reisepass",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen über Grenzen hinweg."
+    },
+    {
+     "titel": "Afghan Passport.jpg",
+     "beschreibung": "New eletronic readable passports issued by Afghan Ministry of Interior",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Afghan_Passport.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Afghan_Passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Afghan_Passport.jpg",
+     "urheber": "Afghan Freelancer",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "New eletronic readable passports issued by Afghan Ministry of Interior"
+    },
+    {
+     "titel": "Albanian biometric passport (crop).jpg",
+     "beschreibung": "Albanian biometric passport",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Albanian_biometric_passport_%28crop%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Albanian_biometric_passport_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Albanian_biometric_passport_(crop).jpg",
+     "urheber": "Government of Albania",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Albanian biometric passport"
+    },
+    {
+     "titel": "Belgian Passport 2008 cover.jpg",
+     "beschreibung": "Image of cover of Belgian passport issued since 2008.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Belgian_Passport_2008_cover.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Belgian_Passport_2008_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Belgian_Passport_2008_cover.jpg",
+     "urheber": "Eurokid238",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Image of cover of Belgian passport issued since 2008."
+    },
+    {
+     "titel": "Cover of East Timorese Passport.jpg",
+     "beschreibung": "Front cover of an East Timorese passport",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cover_of_East_Timorese_Passport.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cover_of_East_Timorese_Passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Cover_of_East_Timorese_Passport.jpg",
+     "urheber": "Noble",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Front cover of an East Timorese passport"
+    },
+    {
+     "titel": "Czech passport 2007 cover.jpg",
+     "beschreibung": "Biometric Passport of the Czech Republic issued in 2007",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Czech_passport_2007_cover.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Czech_passport_2007_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Czech_passport_2007_cover.jpg",
+     "urheber": "Krokodyl",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Biometric Passport of the Czech Republic issued in 2007"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Reisepass Bundesrepublik Deutschland – Einband Vorderseite 2017.jpg",
+    "beschreibung": "Deutscher Reisepass (Muster 2017), Einband.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Reisepass_Bundesrepublik_Deutschland_%E2%80%93_Einband_Vorderseite_2017.jpg",
+    "urheber": "Bundesrepublik Deutschland, Bundesministerium des Innern",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Deutscher Reisepass",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen über Grenzen hinweg."
+   }
+  },
   {
    "id": "wie-funktionierte-eigentlich-die-geheimschrift-enigma",
    "zeit": "2026-09-27T18:27:17.340Z",
