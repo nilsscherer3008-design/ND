@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Wed, 30 Sep 2026 06:39:04 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 13:38:12 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,17 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Hauptausgabe vom 2026-09-30</title>
+    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Verfahren gegen Manchester City wegen Verstößen gegen Finanzregeln · Regierungsbildung in Marokko nach Parlamentswahl · Verhandlungen über die Pflegereform vor Kabinettsberatungen · OpenAI verschiebt Veröffentlichung von neuem KI-Modell und stellt Assistenten vor · US-Importverbote für bestimmte Waren aus Kanada in Kraft getreten</description>
+    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Verfahren gegen Manchester City wegen Verstößen gegen Finanzregeln · Regierungsbildung in Marokko nach Parlamentswahl · Verhandlungen über die Pflegereform vor Kabinettsberatungen · OpenAI verschiebt Veröffentlichung von neuem KI-Modell und stellt Assistenten vor · US-Importverbote für bestimmte Waren aus Kanada in Kraft getreten</itunes:summary>
+    <pubDate>Wed, 30 Sep 2026 06:39:04 GMT</pubDate>
+    <guid isPermaLink="false">hauptausgabe-2026-09-30</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-09-30.mp3" length="3981837" type="audio/mpeg"/>
+    <itunes:duration>00:11:04</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Volksabstimmung in der Schweiz zur Neutralität</title>
     <description>In einer Volksabstimmung haben die Schweizer Stimmberechtigten eine strengere Auslegung der Neutralität abgelehnt. Wir besprechen die Hintergründe, Positionen und Reaktionen aus Wirtschaft und Politik.</description>
@@ -56,17 +67,6 @@
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-pass</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/b256aa3bbd.mp3" length="207165" type="audio/mpeg"/>
     <itunes:duration>00:00:34</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Hauptausgabe vom 2026-09-29</title>
-    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Koalition ringt vor geplantem Kabinettsbeschluss um Pflegereform · Verschiebung eines neuen OpenAI-Modells nach Sicherheitsbedenken · Einigung nach Zwangsräumung einer Mieterin in Madrid · US-Importverbote für bestimmte Waren aus Kanada treten in Kraft · Festnahmen nach Hinweisen auf Sprengstoff und Terrorverdacht nahe britischer Militärbasis</description>
-    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Koalition ringt vor geplantem Kabinettsbeschluss um Pflegereform · Verschiebung eines neuen OpenAI-Modells nach Sicherheitsbedenken · Einigung nach Zwangsräumung einer Mieterin in Madrid · US-Importverbote für bestimmte Waren aus Kanada treten in Kraft · Festnahmen nach Hinweisen auf Sprengstoff und Terrorverdacht nahe britischer Militärbasis</itunes:summary>
-    <pubDate>Tue, 29 Sep 2026 08:23:41 GMT</pubDate>
-    <guid isPermaLink="false">hauptausgabe-2026-09-29</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-09-29.mp3" length="3635949" type="audio/mpeg"/>
-    <itunes:duration>00:10:06</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>

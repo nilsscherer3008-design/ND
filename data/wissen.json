@@ -1,6 +1,154 @@
 {
- "stand": "2026-09-30T06:39:04.882Z",
+ "stand": "2026-09-30T13:38:12.194Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",
+   "zeit": "2026-09-30T13:45:23.860Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie funktioniert eigentlich das menschliche Gedächtnis?",
+   "vorspann": "Das Gedächtnis speichert Informationen im Gehirn von Lebewesen. Es hilft dabei, Erlebnisse und Fakten dauerhaft zu behalten.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Gedächtnis ist die Fähigkeit von Nervensystemen, Informationen aufzunehmen, umzuwandeln, zu speichern und wieder abzurufen. Gespeicherte Informationen sind das Ergebnis von bewussten oder unbewussten Lernprozessen. Die Bildung wird durch die neuronale Plastizität ermöglicht. Auch primitive Nervensysteme sind zu einfachen Lernprozessen befähigt.",
+      "Eine einzelne gespeicherte und abrufbare Information wird Engramm genannt. Die Gesamtheit aller Engramme bildet das Gedächtnis. Im übertragenen Sinne wird das Wort auch für andere biologische und technische Systeme genutzt. Im Laufe der Evolution haben Komplexität und Umfang zugenommen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Das Gedächtnis wird nach der Dauer der Speicherung in verschiedene Systeme eingeteilt. Das sensorische Gedächtnis hält Informationen für Millisekunden bis Sekunden fest. Das Arbeits- oder Kurzzeitgedächtnis speichert Informationen für etwa zwanzig bis fünfundvierzig Sekunden. Das Langzeitgedächtnis speichert Informationen über Jahre oder sogar ein Leben lang.",
+      "Im Langzeitgedächtnis wird zwischen dem deklarativen und dem prozeduralen Gedächtnis unterschieden. Das deklarative Gedächtnis speichert bewusst zugängliche Fakten und Ereignisse. Das prozedurale Gedächtnis umfasst automatisierte Handlungsabläufe und Fertigkeiten wie Fahrradfahren oder Schwimmen. Über Begrenzungen der Kapazität des Langzeitgedächtnisses ist nichts bekannt.",
+      "Auf physiologischer Ebene beruht das Gedächtnis auf den Verbindungen der Nervenzellen, den Synapsen. Zwischen den ungefähr einhundert Milliarden Nervenzellen bestehen schätzungsweise einhundert bis fünfhundert Billionen Synapsen. Viele Synapsen sind anpassungsfähig und verändern die Effizienz der Übertragung zwischen den Neuronen."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Wissenschaftler haben verschiedene Methoden entwickelt, um das Gedächtnis zu erforschen. George Sperling entwickelte im Jahr neunzehnhundertsechzig die Teilbericht-Methode, um das sensorische Gedächtnis zu untersuchen. Peterson und Peterson untersuchten im Jahr neunzehnhundertneunundfünfzig das schnelle Vergessen im Kurzzeitgedächtnis. Murdock bestätigte diese Ergebnisse im Jahr neunzehnhunderteinundsechzig.",
+      "Donald O. Hebb schlug im Jahr neunzehnhundertneunundvierzig vor, dass Synapsen die Stärke ihrer Signalfähigkeit durch anatomischen Umbau ändern. Diese Hypothese wurde in Experimenten bestätigt. Delos Wickens zeigte im Jahr neunzehnhundertsiebzig, dass sich die vorwärts gerichtete Hemmung durch einen Kategorienwechsel aufheben lässt."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Über die genaue Kapazität des menschlichen Gedächtnisses gibt es verschiedene Schätzungen, aber die genauen Grenzen sind schwer zu bestimmen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Anzahl Nervenzellen",
+     "Ungefähr 100 Milliarden"
+    ],
+    [
+     "Anzahl Synapsen",
+     "100 bis 500 Billionen"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Engramm",
+     "Eine einzelne gespeicherte und abrufbare Information im Gedächtnis."
+    ],
+    [
+     "Synapsen",
+     "Die Verbindungen zwischen den Nervenzellen im Gehirn."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie lange speichert das Kurzzeitgedächtnis Informationen etwa?",
+     "optionen": [
+      "20 bis 45 Sekunden",
+      "Genau 5 Minuten",
+      "Mehrere Jahre"
+     ],
+     "richtig": 0,
+     "erklaerung": "Das Kurzzeitgedächtnis speichert Informationen etwa zwanzig bis fünfundvierzig Sekunden."
+    }
+   ],
+   "video": [
+    "Das Gedächtnis ist die Fähigkeit von Nervensystemen.",
+    "Es speichert aufgenommene Informationen im Gehirn.",
+    "Wir unterscheiden verschiedene Gedächtnisarten.",
+    "Das sensorische Gedächtnis speichert für Sekunden.",
+    "Das Kurzzeitgedächtnis hält Informationen für kurze Zeit bereit.",
+    "Das Langzeitgedächtnis speichert Daten über Jahre.",
+    "Dort gibt es das deklarative und prozedurale Gedächtnis.",
+    "Informationen sind in den Synapsen der Nervenzellen niedergelegt."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Gedächtnis Gehirn",
+    "bildunterschrift": "Das Gedächtnis basiert auf Verbindungen im Gehirn."
+   },
+   "quelle": {
+    "titel": "Gedächtnis",
+    "url": "https://de.wikipedia.org/wiki/Ged%C3%A4chtnis",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 308,
+   "bildInfos": [
+    {
+     "titel": "Tallrik - Ystad-2018.jpg",
+     "beschreibung": "A stack of plain white plates. (At a restaurant in Ystad , Sweden in 2018.)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tallrik_-_Ystad-2018.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tallrik_-_Ystad-2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tallrik_-_Ystad-2018.jpg",
+     "urheber": "Foto: Jonn Leffmann",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "artikel": "Stack (abstract data type)",
+     "sprache": "en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Das Gedächtnis basiert auf Verbindungen im Gehirn."
+    },
+    {
+     "titel": "Aplysia californica.jpg",
+     "beschreibung": "Aplysia californica emitting ink cloud",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aplysia_californica.jpg",
+     "urheber": "Genny Anderson",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Aplysia californica emitting ink cloud"
+    },
+    {
+     "titel": "Memory Sports.jpg",
+     "beschreibung": "self taken",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Memory_Sports.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Memory_Sports.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Memory_Sports.jpg",
+     "urheber": "No machine-readable author provided. Mahatma~commonswiki assumed (based on copyright claim",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "self taken"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Tallrik - Ystad-2018.jpg",
+    "beschreibung": "A stack of plain white plates. (At a restaurant in Ystad , Sweden in 2018.)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tallrik_-_Ystad-2018.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tallrik_-_Ystad-2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Tallrik_-_Ystad-2018.jpg",
+    "urheber": "Foto: Jonn Leffmann",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "artikel": "Stack (abstract data type)",
+    "sprache": "en",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Das Gedächtnis basiert auf Verbindungen im Gehirn."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-eine-ampel",
    "zeit": "2026-09-30T06:45:19.266Z",

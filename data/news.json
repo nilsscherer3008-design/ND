@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-30T06:39:04.882Z",
+ "stand": "2026-09-30T13:38:12.194Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -50,7 +50,8 @@
   "proteste-zwangsraeumung-madrid-maricarmen",
   "us-importverbote-kanada-waren",
   "manchester-city-finanzaffaere",
-  "marokko-erste-ministerpraesidentin"
+  "marokko-erste-ministerpraesidentin",
+  "vw-kuendigung-tarifvertraege"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -66,10 +67,11 @@
   "proteste-zwangsraeumung-madrid-maricarmen",
   "us-importverbote-kanada-waren",
   "manchester-city-finanzaffaere",
-  "marokko-erste-ministerpraesidentin"
+  "marokko-erste-ministerpraesidentin",
+  "vw-kuendigung-tarifvertraege"
  ],
  "wetter": {
-  "stand": "2026-09-30T06:39:04.882Z",
+  "stand": "2026-09-30T13:38:12.194Z",
   "morgenTag": "Donnerstag",
   "orte": [
    {
@@ -78,39 +80,39 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 14,
+     "grad": 23,
      "code": 2,
-     "gefuehlt": 12,
-     "wind": 12,
-     "windAus": 121,
-     "feuchte": 69,
-     "druck": 1020,
+     "gefuehlt": 21,
+     "wind": 15,
+     "windAus": 129,
+     "feuchte": 40,
+     "druck": 1018,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-30",
      "code": 3,
-     "max": 23,
+     "max": 24,
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 17,
+     "wind": 16,
      "windAus": 122,
-     "uv": 3.6,
+     "uv": 3.4,
      "auf": "07:19",
      "unter": "18:59"
     },
     "morgen": {
      "datum": "2026-10-01",
-     "code": 61,
-     "max": 21,
-     "min": 13,
-     "regen": 70,
-     "menge": 6.5,
-     "wind": 12,
-     "windAus": 144,
-     "uv": 2.2,
+     "code": 63,
+     "max": 22,
+     "min": 14,
+     "regen": 80,
+     "menge": 18.8,
+     "wind": 13,
+     "windAus": 147,
+     "uv": 2,
      "auf": "07:21",
      "unter": "18:56"
     },
@@ -118,39 +120,39 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 23,
+      "max": 24,
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 17,
+      "wind": 16,
       "windAus": 122,
-      "uv": 3.6,
+      "uv": 3.4,
       "auf": "07:19",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-01",
-      "code": 61,
-      "max": 21,
-      "min": 13,
-      "regen": 70,
-      "menge": 6.5,
-      "wind": 12,
-      "windAus": 144,
-      "uv": 2.2,
+      "code": 63,
+      "max": 22,
+      "min": 14,
+      "regen": 80,
+      "menge": 18.8,
+      "wind": 13,
+      "windAus": 147,
+      "uv": 2,
       "auf": "07:21",
       "unter": "18:56"
      },
      {
       "datum": "2026-10-02",
-      "code": 61,
+      "code": 80,
       "max": 20,
       "min": 13,
-      "regen": 78,
-      "menge": 6.9,
-      "wind": 11,
-      "windAus": 283,
-      "uv": 3,
+      "regen": 83,
+      "menge": 4.5,
+      "wind": 9,
+      "windAus": 273,
+      "uv": 1.2,
       "auf": "07:23",
       "unter": "18:54"
      },
@@ -159,24 +161,24 @@
       "code": 45,
       "max": 19,
       "min": 10,
-      "regen": 1,
+      "regen": 3,
       "menge": 0,
-      "wind": 6,
-      "windAus": 141,
-      "uv": 3.3,
+      "wind": 5,
+      "windAus": 139,
+      "uv": 2.7,
       "auf": "07:25",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 16,
-      "min": 13,
-      "regen": 8,
-      "menge": 0.3,
-      "wind": 12,
-      "windAus": 259,
-      "uv": 3.3,
+      "max": 18,
+      "min": 11,
+      "regen": 12,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 271,
+      "uv": 2.8,
       "auf": "07:26",
       "unter": "18:49"
      },
@@ -184,12 +186,12 @@
       "datum": "2026-10-05",
       "code": 61,
       "max": 17,
-      "min": 12,
-      "regen": 9,
-      "menge": 3.6,
+      "min": 11,
+      "regen": 18,
+      "menge": 0.6,
       "wind": 19,
-      "windAus": 270,
-      "uv": 2.9,
+      "windAus": 271,
+      "uv": 2.7,
       "auf": "07:28",
       "unter": "18:47"
      },
@@ -202,106 +204,64 @@
       "menge": 0,
       "wind": 12,
       "windAus": 238,
-      "uv": 1.1,
+      "uv": 3.1,
       "auf": "07:30",
       "unter": "18:44"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 21,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
-      "grad": 22,
+      "grad": 23,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 23,
+      "grad": 24,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 23,
+      "grad": 24,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
       "grad": 23,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 21,
+      "grad": 22,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 20,
+      "grad": 21,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 18,
-      "code": 2,
+      "grad": 19,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 17,
-      "code": 3,
+      "grad": 18,
+      "code": 2,
       "regen": 0
      },
      {
@@ -313,31 +273,31 @@
      {
       "zeit": "01:00",
       "grad": 16,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 16,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 16,
+      "grad": 15,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "04:00",
       "grad": 15,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 15,
-      "code": 2,
+      "grad": 14,
+      "code": 3,
       "regen": 0
      },
      {
@@ -351,6 +311,48 @@
       "grad": 14,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 15
      }
     ]
    },
@@ -360,39 +362,39 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 14,
+     "grad": 23,
      "code": 3,
-     "gefuehlt": 12,
-     "wind": 11,
-     "windAus": 113,
-     "feuchte": 66,
-     "druck": 1022,
+     "gefuehlt": 20,
+     "wind": 14,
+     "windAus": 119,
+     "feuchte": 30,
+     "druck": 1020,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-30",
      "code": 3,
-     "max": 23,
-     "min": 14,
+     "max": 24,
+     "min": 13,
      "regen": 0,
      "menge": 0,
-     "wind": 16,
-     "windAus": 116,
-     "uv": 3.3,
+     "wind": 17,
+     "windAus": 114,
+     "uv": 3.2,
      "auf": "07:05",
      "unter": "18:46"
     },
     "morgen": {
      "datum": "2026-10-01",
      "code": 3,
-     "max": 25,
+     "max": 24,
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 12,
-     "windAus": 126,
-     "uv": 3.5,
+     "wind": 13,
+     "windAus": 129,
+     "uv": 3.6,
      "auf": "07:07",
      "unter": "18:43"
     },
@@ -400,77 +402,77 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 23,
-      "min": 14,
+      "max": 24,
+      "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 16,
-      "windAus": 116,
-      "uv": 3.3,
+      "wind": 17,
+      "windAus": 114,
+      "uv": 3.2,
       "auf": "07:05",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-01",
       "code": 3,
-      "max": 25,
+      "max": 24,
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 12,
-      "windAus": 126,
-      "uv": 3.5,
+      "wind": 13,
+      "windAus": 129,
+      "uv": 3.6,
       "auf": "07:07",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-02",
       "code": 3,
-      "max": 20,
-      "min": 12,
-      "regen": 15,
+      "max": 19,
+      "min": 14,
+      "regen": 5,
       "menge": 0,
-      "wind": 9,
-      "windAus": 267,
-      "uv": 2.4,
+      "wind": 10,
+      "windAus": 313,
+      "uv": 2.2,
       "auf": "07:09",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
+      "code": 3,
       "max": 21,
-      "min": 11,
-      "regen": 1,
+      "min": 14,
+      "regen": 0,
       "menge": 0,
       "wind": 4,
-      "windAus": 117,
+      "windAus": 84,
       "uv": 3.4,
       "auf": "07:10",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-04",
-      "code": 61,
-      "max": 18,
+      "code": 45,
+      "max": 20,
       "min": 13,
-      "regen": 5,
+      "regen": 3,
       "menge": 0,
       "wind": 8,
-      "windAus": 261,
-      "uv": 3.3,
+      "windAus": 291,
+      "uv": 2.4,
       "auf": "07:12",
       "unter": "18:36"
      },
      {
       "datum": "2026-10-05",
-      "code": 61,
+      "code": 3,
       "max": 17,
-      "min": 12,
+      "min": 10,
       "regen": 10,
-      "menge": 1.8,
+      "menge": 0.6,
       "wind": 15,
-      "windAus": 277,
+      "windAus": 287,
       "uv": 3.2,
       "auf": "07:14",
       "unter": "18:34"
@@ -484,16 +486,118 @@
       "menge": 0,
       "wind": 9,
       "windAus": 256,
-      "uv": 3.2,
+      "uv": 3.1,
       "auf": "07:15",
       "unter": "18:32"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
+      "zeit": "15:00",
+      "grad": 24,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 23,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
       "grad": 14,
       "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
+      "code": 2,
       "regen": 0
      },
      {
@@ -504,13 +608,13 @@
      },
      {
       "zeit": "10:00",
-      "grad": 16,
+      "grad": 17,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
@@ -531,108 +635,6 @@
       "grad": 23,
       "code": 3,
       "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 23,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "19:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "20:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
      }
     ]
    },
@@ -642,39 +644,39 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
-     "code": 3,
-     "gefuehlt": 11,
-     "wind": 7,
-     "windAus": 122,
-     "feuchte": 64,
-     "druck": 1010,
+     "grad": 23,
+     "code": 2,
+     "gefuehlt": 22,
+     "wind": 11,
+     "windAus": 121,
+     "feuchte": 39,
+     "druck": 1008,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-30",
      "code": 3,
-     "max": 23,
+     "max": 24,
      "min": 13,
      "regen": 0,
      "menge": 0,
-     "wind": 10,
-     "windAus": 121,
-     "uv": 3.7,
+     "wind": 11,
+     "windAus": 122,
+     "uv": 3.6,
      "auf": "07:09",
      "unter": "18:50"
     },
     "morgen": {
      "datum": "2026-10-01",
      "code": 3,
-     "max": 26,
-     "min": 12,
+     "max": 25,
+     "min": 13,
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 130,
-     "uv": 3.1,
+     "windAus": 142,
+     "uv": 3.3,
      "auf": "07:10",
      "unter": "18:48"
     },
@@ -682,78 +684,78 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 23,
+      "max": 24,
       "min": 13,
       "regen": 0,
       "menge": 0,
-      "wind": 10,
-      "windAus": 121,
-      "uv": 3.7,
+      "wind": 11,
+      "windAus": 122,
+      "uv": 3.6,
       "auf": "07:09",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-01",
       "code": 3,
-      "max": 26,
-      "min": 12,
+      "max": 25,
+      "min": 13,
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 130,
-      "uv": 3.1,
+      "windAus": 142,
+      "uv": 3.3,
       "auf": "07:10",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-02",
-      "code": 3,
-      "max": 21,
+      "code": 61,
+      "max": 18,
       "min": 15,
-      "regen": 38,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 314,
-      "uv": 2.9,
+      "regen": 20,
+      "menge": 0.1,
+      "wind": 10,
+      "windAus": 309,
+      "uv": 3.1,
       "auf": "07:12",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 21,
-      "min": 12,
-      "regen": 1,
+      "max": 20,
+      "min": 14,
+      "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 77,
-      "uv": 3.6,
+      "wind": 4,
+      "windAus": 53,
+      "uv": 3.7,
       "auf": "07:14",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-04",
-      "code": 80,
-      "max": 18,
-      "min": 13,
-      "regen": 7,
-      "menge": 6.3,
+      "code": 61,
+      "max": 20,
+      "min": 14,
+      "regen": 5,
+      "menge": 0.9,
       "wind": 7,
-      "windAus": 265,
-      "uv": 2.9,
+      "windAus": 278,
+      "uv": 2.8,
       "auf": "07:15",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-05",
-      "code": 61,
+      "code": 3,
       "max": 19,
-      "min": 12,
+      "min": 10,
       "regen": 13,
-      "menge": 1.2,
+      "menge": 0.3,
       "wind": 17,
-      "windAus": 268,
-      "uv": 3.3,
+      "windAus": 277,
+      "uv": 3.4,
       "auf": "07:17",
       "unter": "18:39"
      },
@@ -766,54 +768,12 @@
       "menge": 0,
       "wind": 9,
       "windAus": 247,
-      "uv": 3.4,
+      "uv": 3.1,
       "auf": "07:19",
       "unter": "18:37"
      }
     ],
     "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "15:00",
       "grad": 23,
@@ -822,7 +782,7 @@
      },
      {
       "zeit": "16:00",
-      "grad": 23,
+      "grad": 24,
       "code": 2,
       "regen": 0
      },
@@ -834,7 +794,7 @@
      },
      {
       "zeit": "18:00",
-      "grad": 22,
+      "grad": 23,
       "code": 2,
       "regen": 0
      },
@@ -847,7 +807,7 @@
      {
       "zeit": "20:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -876,43 +836,85 @@
      },
      {
       "zeit": "01:00",
-      "grad": 14,
+      "grad": 15,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 14,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "03:00",
       "grad": 14,
-      "code": 2,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 13,
-      "code": 2,
+      "grad": 14,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
       "grad": 13,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
       "grad": 13,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 12,
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 23,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 24,
       "code": 3,
       "regen": 0
      }
@@ -924,104 +926,104 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 20,
+     "grad": 26,
      "code": 3,
-     "gefuehlt": 17,
-     "wind": 13,
-     "windAus": 133,
-     "feuchte": 39,
-     "druck": 1011,
+     "gefuehlt": 26,
+     "wind": 16,
+     "windAus": 161,
+     "feuchte": 50,
+     "druck": 1010,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-30",
-     "code": 3,
+     "code": 63,
      "max": 28,
      "min": 19,
      "regen": 22,
-     "menge": 0,
-     "wind": 16,
-     "windAus": 141,
-     "uv": 3.7,
+     "menge": 3.5,
+     "wind": 21,
+     "windAus": 136,
+     "uv": 4,
      "auf": "07:30",
      "unter": "19:12"
     },
     "morgen": {
      "datum": "2026-10-01",
-     "code": 63,
+     "code": 61,
      "max": 22,
-     "min": 17,
+     "min": 18,
      "regen": 92,
-     "menge": 14.4,
-     "wind": 13,
-     "windAus": 209,
-     "uv": 0.4,
+     "menge": 6.8,
+     "wind": 16,
+     "windAus": 195,
+     "uv": 1.1,
      "auf": "07:32",
      "unter": "19:10"
     },
     "tage": [
      {
       "datum": "2026-09-30",
-      "code": 3,
+      "code": 63,
       "max": 28,
       "min": 19,
       "regen": 22,
-      "menge": 0,
-      "wind": 16,
-      "windAus": 141,
-      "uv": 3.7,
+      "menge": 3.5,
+      "wind": 21,
+      "windAus": 136,
+      "uv": 4,
       "auf": "07:30",
       "unter": "19:12"
      },
      {
       "datum": "2026-10-01",
-      "code": 63,
+      "code": 61,
       "max": 22,
-      "min": 17,
+      "min": 18,
       "regen": 92,
-      "menge": 14.4,
-      "wind": 13,
-      "windAus": 209,
-      "uv": 0.4,
+      "menge": 6.8,
+      "wind": 16,
+      "windAus": 195,
+      "uv": 1.1,
       "auf": "07:32",
       "unter": "19:10"
      },
      {
       "datum": "2026-10-02",
       "code": 3,
-      "max": 19,
-      "min": 13,
+      "max": 20,
+      "min": 14,
       "regen": 63,
       "menge": 0,
       "wind": 9,
-      "windAus": 196,
-      "uv": 3.8,
+      "windAus": 333,
+      "uv": 3.6,
       "auf": "07:34",
       "unter": "19:07"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 19,
+      "max": 20,
       "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 71,
-      "uv": 3.4,
+      "wind": 7,
+      "windAus": 51,
+      "uv": 3.3,
       "auf": "07:35",
       "unter": "19:05"
      },
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 18,
-      "min": 10,
+      "max": 19,
+      "min": 11,
       "regen": 6,
       "menge": 0,
       "wind": 6,
-      "windAus": 316,
+      "windAus": 323,
       "uv": 3.7,
       "auf": "07:37",
       "unter": "19:03"
@@ -1030,72 +1032,30 @@
       "datum": "2026-10-05",
       "code": 3,
       "max": 19,
-      "min": 9,
+      "min": 10,
       "regen": 8,
       "menge": 0,
-      "wind": 5,
-      "windAus": 169,
-      "uv": 3.2,
+      "wind": 6,
+      "windAus": 216,
+      "uv": 3.4,
       "auf": "07:38",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-06",
       "code": 3,
-      "max": 20,
-      "min": 12,
+      "max": 19,
+      "min": 11,
       "regen": 4,
       "menge": 0,
-      "wind": 6,
-      "windAus": 195,
-      "uv": 3.4,
+      "wind": 12,
+      "windAus": 242,
+      "uv": 3.2,
       "auf": "07:40",
       "unter": "18:59"
      }
     ],
     "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 4
-     },
-     {
-      "zeit": "09:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 6
-     },
-     {
-      "zeit": "10:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 7
-     },
-     {
-      "zeit": "11:00",
-      "grad": 23,
-      "code": 1,
-      "regen": 8
-     },
-     {
-      "zeit": "12:00",
-      "grad": 25,
-      "code": 0,
-      "regen": 7
-     },
-     {
-      "zeit": "13:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 6
-     },
-     {
-      "zeit": "14:00",
-      "grad": 27,
-      "code": 3,
-      "regen": 4
-     },
      {
       "zeit": "15:00",
       "grad": 26,
@@ -1111,7 +1071,7 @@
      {
       "zeit": "17:00",
       "grad": 28,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -1122,81 +1082,123 @@
      },
      {
       "zeit": "19:00",
-      "grad": 28,
+      "grad": 26,
       "code": 3,
       "regen": 1
      },
      {
       "zeit": "20:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
       "regen": 4
      },
      {
       "zeit": "21:00",
-      "grad": 26,
+      "grad": 25,
       "code": 3,
       "regen": 9
      },
      {
       "zeit": "22:00",
-      "grad": 25,
-      "code": 3,
+      "grad": 24,
+      "code": 51,
       "regen": 16
      },
      {
       "zeit": "23:00",
-      "grad": 25,
-      "code": 3,
+      "grad": 22,
+      "code": 63,
       "regen": 22
      },
      {
       "zeit": "00:00",
       "grad": 22,
-      "code": 63,
+      "code": 3,
       "regen": 25
      },
      {
       "zeit": "01:00",
       "grad": 22,
-      "code": 61,
+      "code": 51,
       "regen": 26
      },
      {
       "zeit": "02:00",
       "grad": 21,
-      "code": 53,
+      "code": 3,
       "regen": 31
      },
      {
       "zeit": "03:00",
-      "grad": 20,
-      "code": 61,
+      "grad": 21,
+      "code": 51,
       "regen": 43
      },
      {
       "zeit": "04:00",
-      "grad": 20,
+      "grad": 21,
       "code": 51,
       "regen": 58
      },
      {
       "zeit": "05:00",
-      "grad": 20,
-      "code": 51,
+      "grad": 21,
+      "code": 61,
       "regen": 71
      },
      {
       "zeit": "06:00",
-      "grad": 20,
-      "code": 51,
+      "grad": 21,
+      "code": 53,
       "regen": 80
      },
      {
       "zeit": "07:00",
       "grad": 20,
-      "code": 61,
+      "code": 51,
       "regen": 88
+     },
+     {
+      "zeit": "08:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 92
+     },
+     {
+      "zeit": "09:00",
+      "grad": 20,
+      "code": 53,
+      "regen": 91
+     },
+     {
+      "zeit": "10:00",
+      "grad": 20,
+      "code": 55,
+      "regen": 87
+     },
+     {
+      "zeit": "11:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 84
+     },
+     {
+      "zeit": "12:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 82
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 51,
+      "regen": 81
+     },
+     {
+      "zeit": "14:00",
+      "grad": 19,
+      "code": 53,
+      "regen": 80
      }
     ]
    },
@@ -1206,26 +1208,26 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 16,
-     "code": 1,
-     "gefuehlt": 15,
-     "wind": 5,
-     "windAus": 86,
-     "feuchte": 64,
-     "druck": 1008,
+     "grad": 28,
+     "code": 3,
+     "gefuehlt": 28,
+     "wind": 6,
+     "windAus": 133,
+     "feuchte": 35,
+     "druck": 1007,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-09-30",
      "code": 3,
-     "max": 28,
+     "max": 29,
      "min": 16,
      "regen": 0,
      "menge": 0,
-     "wind": 8,
-     "windAus": 98,
-     "uv": 4.1,
+     "wind": 9,
+     "windAus": 94,
+     "uv": 3.8,
      "auf": "07:23",
      "unter": "19:05"
     },
@@ -1234,11 +1236,11 @@
      "code": 63,
      "max": 22,
      "min": 17,
-     "regen": 90,
-     "menge": 12.3,
-     "wind": 14,
-     "windAus": 351,
-     "uv": 2.7,
+     "regen": 80,
+     "menge": 14.1,
+     "wind": 11,
+     "windAus": 278,
+     "uv": 2.6,
      "auf": "07:25",
      "unter": "19:03"
     },
@@ -1246,13 +1248,13 @@
      {
       "datum": "2026-09-30",
       "code": 3,
-      "max": 28,
+      "max": 29,
       "min": 16,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 98,
-      "uv": 4.1,
+      "wind": 9,
+      "windAus": 94,
+      "uv": 3.8,
       "auf": "07:23",
       "unter": "19:05"
      },
@@ -1261,11 +1263,11 @@
       "code": 63,
       "max": 22,
       "min": 17,
-      "regen": 90,
-      "menge": 12.3,
-      "wind": 14,
-      "windAus": 351,
-      "uv": 2.7,
+      "regen": 80,
+      "menge": 14.1,
+      "wind": 11,
+      "windAus": 278,
+      "uv": 2.6,
       "auf": "07:25",
       "unter": "19:03"
      },
@@ -1273,24 +1275,24 @@
       "datum": "2026-10-02",
       "code": 63,
       "max": 21,
-      "min": 13,
-      "regen": 68,
-      "menge": 4.2,
+      "min": 14,
+      "regen": 80,
+      "menge": 9.9,
       "wind": 9,
-      "windAus": 355,
-      "uv": 3.9,
+      "windAus": 9,
+      "uv": 3.6,
       "auf": "07:26",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-03",
-      "code": 3,
-      "max": 23,
-      "min": 12,
-      "regen": 3,
+      "code": 45,
+      "max": 22,
+      "min": 10,
+      "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 35,
+      "windAus": 46,
       "uv": 3.9,
       "auf": "07:28",
       "unter": "18:59"
@@ -1298,26 +1300,26 @@
      {
       "datum": "2026-10-04",
       "code": 80,
-      "max": 21,
-      "min": 13,
+      "max": 18,
+      "min": 11,
       "regen": 13,
-      "menge": 0.9,
-      "wind": 11,
-      "windAus": 295,
+      "menge": 2.7,
+      "wind": 9,
+      "windAus": 338,
       "uv": 3.3,
       "auf": "07:29",
       "unter": "18:57"
      },
      {
       "datum": "2026-10-05",
-      "code": 3,
+      "code": 61,
       "max": 20,
-      "min": 10,
-      "regen": 7,
-      "menge": 0,
+      "min": 11,
+      "regen": 8,
+      "menge": 0.3,
       "wind": 9,
-      "windAus": 260,
-      "uv": 3.5,
+      "windAus": 266,
+      "uv": 3.6,
       "auf": "07:31",
       "unter": "18:55"
      },
@@ -1337,148 +1339,148 @@
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 19,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 21,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 24,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
-      "grad": 27,
-      "code": 3,
+      "grad": 28,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 28,
-      "code": 2,
+      "grad": 29,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 28,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 27,
-      "code": 2,
+      "grad": 28,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 26,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 24,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 22,
-      "code": 0,
+      "grad": 23,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 21,
-      "code": 1,
+      "grad": 22,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 20,
-      "code": 2,
+      "grad": 21,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "00:00",
-      "grad": 19,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 19,
+      "grad": 20,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "02:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 18,
+      "grad": 19,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "06:00",
+      "grad": 19,
       "code": 3,
       "regen": 3
      },
      {
-      "zeit": "06:00",
-      "grad": 17,
-      "code": 3,
+      "zeit": "07:00",
+      "grad": 18,
+      "code": 61,
       "regen": 8
      },
      {
-      "zeit": "07:00",
-      "grad": 17,
+      "zeit": "08:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 18
+     },
+     {
+      "zeit": "09:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 20
+     },
+     {
+      "zeit": "10:00",
+      "grad": 19,
       "code": 3,
-      "regen": 8
+      "regen": 28
+     },
+     {
+      "zeit": "11:00",
+      "grad": 19,
+      "code": 61,
+      "regen": 28
+     },
+     {
+      "zeit": "12:00",
+      "grad": 20,
+      "code": 61,
+      "regen": 33
+     },
+     {
+      "zeit": "13:00",
+      "grad": 21,
+      "code": 61,
+      "regen": 30
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 61,
+      "regen": 35
      }
     ]
    },
@@ -1488,13 +1490,13 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 15,
+     "grad": 29,
      "code": 2,
-     "gefuehlt": 15,
-     "wind": 5,
-     "windAus": 198,
-     "feuchte": 75,
-     "druck": 991,
+     "gefuehlt": 29,
+     "wind": 3,
+     "windAus": 90,
+     "feuchte": 33,
+     "druck": 990,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1505,21 +1507,21 @@
      "min": 15,
      "regen": 0,
      "menge": 0,
-     "wind": 9,
-     "windAus": 154,
+     "wind": 8,
+     "windAus": 160,
      "uv": 4.1,
      "auf": "07:21",
      "unter": "19:04"
     },
     "morgen": {
      "datum": "2026-10-01",
-     "code": 63,
+     "code": 61,
      "max": 25,
-     "min": 15,
-     "regen": 78,
-     "menge": 8.7,
-     "wind": 13,
-     "windAus": 288,
+     "min": 18,
+     "regen": 58,
+     "menge": 0.7,
+     "wind": 9,
+     "windAus": 296,
      "uv": 3,
      "auf": "07:22",
      "unter": "19:02"
@@ -1532,61 +1534,61 @@
       "min": 15,
       "regen": 0,
       "menge": 0,
-      "wind": 9,
-      "windAus": 154,
+      "wind": 8,
+      "windAus": 160,
       "uv": 4.1,
       "auf": "07:21",
       "unter": "19:04"
      },
      {
       "datum": "2026-10-01",
-      "code": 63,
+      "code": 61,
       "max": 25,
-      "min": 15,
-      "regen": 78,
-      "menge": 8.7,
-      "wind": 13,
-      "windAus": 288,
+      "min": 18,
+      "regen": 58,
+      "menge": 0.7,
+      "wind": 9,
+      "windAus": 296,
       "uv": 3,
       "auf": "07:22",
       "unter": "19:02"
      },
      {
       "datum": "2026-10-02",
-      "code": 61,
-      "max": 21,
+      "code": 63,
+      "max": 20,
       "min": 15,
-      "regen": 60,
-      "menge": 1.9,
-      "wind": 11,
-      "windAus": 334,
-      "uv": 3.8,
+      "regen": 70,
+      "menge": 13.1,
+      "wind": 15,
+      "windAus": 313,
+      "uv": 3,
       "auf": "07:24",
       "unter": "19:00"
      },
      {
       "datum": "2026-10-03",
-      "code": 3,
+      "code": 45,
       "max": 23,
-      "min": 14,
-      "regen": 1,
+      "min": 11,
+      "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 122,
-      "uv": 3.8,
+      "wind": 4,
+      "windAus": 127,
+      "uv": 3.9,
       "auf": "07:25",
       "unter": "18:58"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
-      "max": 22,
-      "min": 13,
+      "code": 80,
+      "max": 21,
+      "min": 14,
       "regen": 15,
-      "menge": 0,
-      "wind": 13,
-      "windAus": 267,
-      "uv": 3.3,
+      "menge": 1.2,
+      "wind": 14,
+      "windAus": 282,
+      "uv": 2.9,
       "auf": "07:26",
       "unter": "18:56"
      },
@@ -1594,11 +1596,11 @@
       "datum": "2026-10-05",
       "code": 3,
       "max": 21,
-      "min": 9,
-      "regen": 13,
+      "min": 10,
+      "regen": 15,
       "menge": 0,
       "wind": 11,
-      "windAus": 264,
+      "windAus": 283,
       "uv": 3.5,
       "auf": "07:28",
       "unter": "18:54"
@@ -1612,155 +1614,155 @@
       "menge": 0,
       "wind": 5,
       "windAus": 193,
-      "uv": 3.4,
+      "uv": 3.1,
       "auf": "07:29",
       "unter": "18:51"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 19,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 21,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 24,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 26,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 27,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
-      "grad": 28,
-      "code": 3,
+      "grad": 29,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 28,
-      "code": 0,
+      "grad": 29,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 29,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 29,
-      "code": 1,
+      "grad": 28,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 27,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 24,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 22,
-      "code": 0,
+      "grad": 23,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 20,
-      "code": 1,
+      "grad": 21,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 19,
-      "code": 1,
+      "grad": 20,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "00:00",
-      "grad": 18,
-      "code": 1,
+      "grad": 20,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 17,
-      "code": 1,
+      "grad": 21,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "02:00",
-      "grad": 17,
+      "grad": 20,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 16,
-      "code": 2,
+      "grad": 20,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 19,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "07:00",
-      "grad": 15,
+      "grad": 18,
       "code": 3,
-      "regen": 0
+      "regen": 3
+     },
+     {
+      "zeit": "08:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "09:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "10:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "11:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "12:00",
+      "grad": 24,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "13:00",
+      "grad": 25,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "14:00",
+      "grad": 25,
+      "code": 3,
+      "regen": 3
      }
     ]
    },
@@ -1770,12 +1772,12 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 10,
-     "code": 45,
-     "gefuehlt": 10,
-     "wind": 3,
-     "windAus": 210,
-     "feuchte": 100,
+     "grad": 25,
+     "code": 0,
+     "gefuehlt": 24,
+     "wind": 5,
+     "windAus": 8,
+     "feuchte": 44,
      "druck": 961,
      "niederschlag": 0,
      "tag": 1
@@ -1788,20 +1790,20 @@
      "regen": 0,
      "menge": 0,
      "wind": 7,
-     "windAus": 51,
+     "windAus": 49,
      "uv": 4.2,
      "auf": "07:11",
      "unter": "18:55"
     },
     "morgen": {
      "datum": "2026-10-01",
-     "code": 45,
-     "max": 26,
+     "code": 3,
+     "max": 25,
      "min": 12,
      "regen": 0,
      "menge": 0,
-     "wind": 7,
-     "windAus": 24,
+     "wind": 8,
+     "windAus": 323,
      "uv": 3.9,
      "auf": "07:12",
      "unter": "18:53"
@@ -1815,34 +1817,34 @@
       "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 51,
+      "windAus": 49,
       "uv": 4.2,
       "auf": "07:11",
       "unter": "18:55"
      },
      {
       "datum": "2026-10-01",
-      "code": 45,
-      "max": 26,
+      "code": 3,
+      "max": 25,
       "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 24,
+      "wind": 8,
+      "windAus": 323,
       "uv": 3.9,
       "auf": "07:12",
       "unter": "18:53"
      },
      {
       "datum": "2026-10-02",
-      "code": 63,
+      "code": 61,
       "max": 18,
-      "min": 15,
-      "regen": 65,
-      "menge": 8.1,
+      "min": 14,
+      "regen": 63,
+      "menge": 4.9,
       "wind": 11,
-      "windAus": 307,
-      "uv": 2.8,
+      "windAus": 288,
+      "uv": 1,
       "auf": "07:14",
       "unter": "18:51"
      },
@@ -1853,21 +1855,21 @@
       "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 343,
+      "wind": 4,
+      "windAus": 47,
       "uv": 3.9,
       "auf": "07:15",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-04",
-      "code": 80,
+      "code": 45,
       "max": 21,
-      "min": 12,
+      "min": 11,
       "regen": 19,
-      "menge": 0.9,
+      "menge": 0.3,
       "wind": 10,
-      "windAus": 262,
+      "windAus": 258,
       "uv": 3.9,
       "auf": "07:16",
       "unter": "18:46"
@@ -1877,11 +1879,11 @@
       "code": 3,
       "max": 20,
       "min": 11,
-      "regen": 18,
+      "regen": 19,
       "menge": 0,
       "wind": 11,
-      "windAus": 262,
-      "uv": 3.6,
+      "windAus": 274,
+      "uv": 3.4,
       "auf": "07:18",
       "unter": "18:44"
      },
@@ -1894,54 +1896,12 @@
       "menge": 0,
       "wind": 8,
       "windAus": 125,
-      "uv": 3.7,
+      "uv": 3.1,
       "auf": "07:19",
       "unter": "18:42"
      }
     ],
     "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 20,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 22,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 23,
-      "code": 0,
-      "regen": 0
-     },
      {
       "zeit": "15:00",
       "grad": 24,
@@ -1956,7 +1916,7 @@
      },
      {
       "zeit": "17:00",
-      "grad": 24,
+      "grad": 25,
       "code": 0,
       "regen": 0
      },
@@ -1974,7 +1934,7 @@
      },
      {
       "zeit": "20:00",
-      "grad": 20,
+      "grad": 21,
       "code": 0,
       "regen": 0
      },
@@ -1986,7 +1946,7 @@
      },
      {
       "zeit": "22:00",
-      "grad": 17,
+      "grad": 18,
       "code": 0,
       "regen": 0
      },
@@ -2017,41 +1977,83 @@
      {
       "zeit": "03:00",
       "grad": 13,
-      "code": 45,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 12,
-      "code": 45,
+      "grad": 13,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 12,
-      "code": 1,
+      "grad": 13,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "06:00",
-      "grad": 12,
-      "code": 1,
+      "grad": 13,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "07:00",
       "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 21,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 23,
       "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 24,
+      "code": 3,
       "regen": 0
      }
     ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 23 und 29 Grad.",
-   "Die Vorhersage für morgen, Donnerstag: im Norden und Osten bewölkt, im Süden und Westen Regen.",
-   "Die Temperaturen erreichen dann 21 bis 26 Grad.",
-   "Am wärmsten wird es in Leipzig mit 26 Grad.",
+   "Heute liegen die Höchstwerte zwischen 24 und 29 Grad.",
+   "Die Vorhersage für morgen, Donnerstag: im Norden und Osten bewölkt, im Süden und Westen leichter Regen.",
+   "Die Temperaturen erreichen dann 22 bis 25 Grad.",
+   "Am wärmsten wird es in Leipzig mit 25 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
@@ -2063,20 +2065,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 21,
-       "regen": 6.5
+       "grad": 22,
+       "regen": 18.8
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
-       "regen": 0.1
+       "grad": 19,
+       "regen": 20.8
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 20,
-       "regen": 0.8
+       "grad": 19,
+       "regen": 7.1
       }
      ]
     },
@@ -2086,7 +2088,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 25,
+       "grad": 24,
        "regen": 0
       },
       {
@@ -2109,7 +2111,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 26,
+       "grad": 25,
        "regen": 0
       },
       {
@@ -2133,19 +2135,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 22,
-       "regen": 10.7
+       "regen": 9.5
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 20,
-       "regen": 15
+       "grad": 21,
+       "regen": 12.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 21,
-       "regen": 19.8
+       "grad": 19,
+       "regen": 18.2
       }
      ]
     },
@@ -2156,19 +2158,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 22,
-       "regen": 12.3
+       "regen": 14.1
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 23,
-       "regen": 10.6
+       "grad": 22,
+       "regen": 10.5
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
-       "regen": 0.5
+       "grad": 21,
+       "regen": 1.6
       }
      ]
     },
@@ -2179,19 +2181,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 25,
-       "regen": 8.7
+       "regen": 0.7
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 24,
-       "regen": 6.7
+       "regen": 10.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 24,
-       "regen": 2
+       "grad": 23,
+       "regen": 0.1
       }
      ]
     },
@@ -2201,14 +2203,14 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 26,
+       "grad": 25,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 23,
-       "regen": 0
+       "regen": 0.4
       },
       {
        "name": "ECMWF",
@@ -2219,20 +2221,20 @@
      ]
     }
    ],
-   "spanneGrad": 4,
+   "spanneGrad": 3,
    "uneinigRegen": {
-    "ort": "Hamburg",
+    "ort": "Stuttgart",
     "nass": [
-     "ICON"
+     "GFS"
     ],
     "trocken": [
-     "GFS",
+     "ICON",
      "ECMWF"
     ]
    },
    "saetze": [
-    "Für München gehen die Modelle am weitesten auseinander: zwischen 22 und 26 Grad.",
-    "Und in Hamburg erwartet ICON Regen, GFS und ECMWF dagegen nicht."
+    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 19 und 22 Grad.",
+    "Und in Stuttgart erwartet GFS Regen, ICON und ECMWF dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2337,7 +2339,7 @@
    {
     "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Mittwoch, 30. September. Es li",
     "d": "8469704852.mp3",
-    "l": 8.0,
+    "l": 8,
     "s": [
      0.25,
      5.31
@@ -2346,7 +2348,7 @@
    {
     "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Mittwoch, 30. September. ",
     "d": "35054af2d7.mp3",
-    "l": 8.0,
+    "l": 8,
     "s": [
      0.25,
      5.34
@@ -2425,92 +2427,99 @@
  },
  "nachrichten": [
   {
-   "id": "manchester-city-finanzaffaere",
-   "rubrik": "Sport",
-   "zeit": "2026-09-30T06:34:46.000Z",
-   "aktualisiert": "aktualisiert um 08:39 Uhr",
-   "titel": "Verfahren gegen Manchester City wegen Verstößen gegen Finanzregeln",
-   "vorspann": "Der englische Fußballverein Manchester City ist von einer unabhängigen Kommission in zahlreichen Punkten für schuldig befunden worden. Dem Verein drohen nach Angaben der Premier League schwerwiegende Sanktionen.",
+   "id": "vw-kuendigung-tarifvertraege",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-30T13:36:06.000Z",
+   "titel": "Volkswagen kündigt zahlreiche Haustarifverträge",
+   "vorspann": "Der Automobilkonzern Volkswagen hat einen Großteil seiner Tarifverträge gekündigt. Vertreter der Arbeitnehmer kündigten daraufhin Widerstand an.",
    "eil": false,
    "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
    },
    "zusammenfassung": [
-    "Manchester City ist von einer unabhängigen Kommission wegen Verstößen gegen Finanzregeln für schuldig befunden worden.",
-    "Die Vorwürfe betreffen den Zeitraum von der Spielzeit 2009/10 bis 2017/18 und umfassen künstlich erhöhte Sponsoreneinnahmen durch Scheinverträge im Wert von mehr als 900 Millionen Pfund.",
-    "Dem englischen Verein drohen nun Sanktionen wie ein massiver Punktabzug oder ein Ausschluss aus der Liga, während der Klub seine Unschuld beteuert und Berufung ankündigt."
+    "Volkswagen hat mehrere Tarifverträge und den Manteltarifvertrag gekündigt.",
+    "Als Grund nennt das Unternehmen den Kostendruck und die Konkurrenz aus China.",
+    "Der Zukunftstarifvertrag bis 2030 ist nicht von den Kündigungen betroffen.",
+    "Gewerkschaft und Betriebsrat kündigten Widerstand an."
    ],
    "einig": [
     [
-     "Manchester City ist von einer unabhängigen Kommission in allen Anklagepunkten wegen Verstößen gegen die Finanzregeln der Premier League für schuldig befunden worden.",
+     "Volkswagen hat einen Großteil seiner Tarifverträge gekündigt.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Zeit"
      ]
     ],
     [
-     "Der Zeitraum der Verstöße erstreckt sich zwischen den Spielzeiten 2009/10 und 2017/18.",
+     "Auch der Manteltarifvertrag ist von der Kündigung betroffen.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
+      "ZDFheute",
+      "Spiegel",
+      "Zeit"
      ]
     ],
     [
-     "Der Verein soll seine Einnahmen unter anderem mit Hilfe von Scheinverträgen mit Sponsoren künstlich erhöht und seine Kosten gedrückt haben.",
+     "Die IG Metall teilt mit, dass es sich um zehn gekündigte Verträge handelt.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
+      "ZDFheute",
+      "Spiegel"
      ]
     ],
     [
-     "Dem Verein drohen harte Sanktionen, zu denen ein massiver Punktabzug oder ein Ausschluss aus der Premier League gehören könnten.",
+     "Der Zukunftstarifvertrag mit der Beschäftigungssicherung bis Ende 2030 ist nicht betroffen.",
      [
       "Tagesschau/ARD",
-      "ZDFheute"
+      "ZDFheute",
+      "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Der genaue Zeitrahmen für die weitere Anhörung über die Strafen ist noch nicht bekannt."
+    "Die genaue Anzahl der gekündigten Verträge wurde von einem VW-Sprecher nicht genannt, während die IG Metall von zehn Verträgen spricht."
    ],
    "positionen": [
     [
-     "Premier League (Richard Masters, Chef)",
-     "Bezeichnet das Verfahren und die Entscheidung als den bedeutendsten Fall in der Geschichte der Premier League.",
-     "Tagesschau/ARD, ZDFheute"
+     "Volkswagen (Personalvorstand Arne Meiswinkel)",
+     "Die Marktveränderungen sind strukturell und tiefgreifend, und chinesische Hersteller erhöhen den Preis- und Wettbewerbsdruck.",
+     "Tagesschau/ARD,ZDFheute"
     ],
     [
-     "Manchester City (Vereinsleitung und Clubchef Khaldoon Al Mubarak)",
-     "Beteuert die Unschuld, kritisiert die Entscheidung als fehlerhaft und kündigt Berufung an.",
-     "Tagesschau/ARD, ZDFheute"
+     "IG Metall (Bezirkschef Thorsten Gröger)",
+     "Das ist ein übles Foul an der Belegschaft und ein schamloser Versuch, in die Geldbeutel der Beschäftigten zu greifen.",
+     "ZDFheute,Spiegel"
     ],
     [
-     "Manchester City (Geschäftsführer Ferran Soriano)",
-     "Bezeichnet das Verfahren als das Ergebnis einer Verschwörungstheorie der Premier League und zeigt sich überzeugt, dass es keinerlei Sanktionen geben werde.",
-     "Tagesschau/ARD"
+     "VW-Betriebsratschefin Daniela Cavallo",
+     "Es ist mit einer heftigen Auseinandersetzung zum Jahreswechsel zu rechnen.",
+     "ZDFheute,Spiegel"
     ]
    ],
-   "fehlend": "Stimmen von anderen Klubs oder Spielern",
+   "fehlend": "Es fehlen detaillierte Stellungnahmen von Wirtschaftsverbänden oder externen Branchenexperten.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "29.09.26, 21:08",
-     "fokus": "Hintergründe und Zitate",
-     "text": "Liefert Details zu den Finanzsummen und Aussagen von Vereinsvertretern.",
-     "url": "https://www.sportschau.de/fussball/premier-league/premier-league-spricht-man-city-in-finanz-affaere-schuldig,manchester-city-statement-premier-league-100.html",
+     "datum": "30.09.26, 15:36",
+     "fokus": "Begründung des Personalvorstands",
+     "text": "Die Tagesschau betont die Aussagen von Arne Meiswinkel zu den Marktveränderungen.",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-aufhebung-tarifvertraege-sparmassnahmen-100.html",
      "video": false,
      "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 3,
-      "woerter": 583,
-      "satzlaenge": 16,
-      "langeWoerter": 37
+      "stufe": "schwer",
+      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
+      "klasse": 12,
+      "minuten": 1,
+      "woerter": 215,
+      "satzlaenge": 11,
+      "langeWoerter": 41
      },
      "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
      "finanzierung": "Rundfunkbeitrag",
@@ -2521,19 +2530,19 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "29.09.26, 22:07",
-     "fokus": "Kompakte Zusammenfassung",
-     "text": "Konzentriert sich auf den Schuldspruch und drohende Sanktionen.",
-     "url": "https://www.zdfheute.de/sport/fussball-manchester-city-premier-league-100.html",
+     "datum": "30.09.26, 15:29",
+     "fokus": "Reaktionen der Arbeitnehmer",
+     "text": "ZDFheute hebt besonders die Reaktionen von Thorsten Gröger und Daniela Cavallo hervor.",
+     "url": "https://www.zdfheute.de/wirtschaft/unternehmen/volkswagen-tarif-vertraege-kuendigung-100.html",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 3,
-      "woerter": 502,
-      "satzlaenge": 17,
-      "langeWoerter": 37
+      "klasse": 12,
+      "minuten": 2,
+      "woerter": 325,
+      "satzlaenge": 12,
+      "langeWoerter": 42
      },
      "traeger": "ZDF, Anstalt des öffentlichen Rechts",
      "finanzierung": "Rundfunkbeitrag",
@@ -2544,1069 +2553,507 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "30.09.26, 08:34",
-     "fokus": "Anzahl der Punkte",
-     "text": "Nennt als einzige Quelle die genaue Zahl von 114 von 115 Punkten.",
-     "url": "https://www.deutschlandfunk.de/premier-league-spricht-manchester-city-in-finanzaffaere-schuldig-hohe-strafe-droht-100.html",
+     "datum": "30.09.26, 15:26",
+     "fokus": "Tarifverträge",
+     "text": "Der Volkswagen-Konzern hat nach eigenen Angaben fast alle Tarifverträge gekündigt.",
+     "url": "https://www.deutschlandfunk.de/volkswagen-kuendigt-fast-alle-tarifvertraege-auch-manteltarifvertrag-betroffen-100.html",
      "video": false,
      "lesbar": null,
      "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
      "finanzierung": "Rundfunkbeitrag",
      "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 15:15",
+     "fokus": "Details",
+     "text": "Der Spiegel liefert zusätzliche Details über die betroffenen Zusatzvergütungen.",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-kuendigt-tarifvertraege-a-c60ba636-204a-4c5d-994c-ea8bf2c1b06a#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 12,
+      "minuten": 2,
+      "woerter": 324,
+      "satzlaenge": 17,
+      "langeWoerter": 40
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 15:32",
+     "fokus": "Kündigung",
+     "text": "Aus Kostengründen hat der Autokonzern VW einen Großteil seiner Tarifverträge gekündigt.",
+     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-09/volkswagen-kuendigt-fast-alle-tarifvertraege",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
     }
    ],
    "unterschiede": [
     [
-     "Anzahl der Anklagepunkte",
-     "Der Deutschlandfunk nennt konkret 114 von 115 Anklagepunkten, während Tagesschau/ARD und ZDFheute von allen Anklagepunkten sprechen."
+     "Ausführlichkeit der Reaktionen",
+     "Einige Berichte wie Spiegel und ZDFheute zitieren die Reaktionen von Gewerkschaftsvertretern ausführlicher als andere."
     ]
    ],
    "wfragen": {
-    "wer": "Unabhängige Kommission der Premier League",
-    "was": "Schuldspruch wegen Verstößen gegen Finanzregeln",
-    "wann": "2009/10 bis 2017/18 (Untersuchungszeitraum), Bekanntgabe Ende September 2026",
-    "wo": "England",
-    "wie": "Durch Scheinverträge mit Sponsoren, falsche Jahresabschlüsse und mangelnde Kooperation",
-    "warum": "Wegen Verstößen gegen die Finanzregeln der Premier League",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk"
+    "wer": "Der Automobilkonzern Volkswagen",
+    "was": "Kündigung von Tarifverträgen und dem Manteltarifvertrag",
+    "wann": "zum 31. Dezember 2026",
+    "wo": "Hannover, Deutschland",
+    "wie": "Durch eine fristgerechte Kündigung",
+    "warum": "Wegen des aktuellen Kostendrucks, laut Volkswagen",
+    "quellenlage": "Mitteilungen von Volkswagen, IG Metall und Medienberichten"
    },
    "artikel": [
     {
-     "ueberschrift": "Schuldspruch der Kommission",
+     "ueberschrift": "Das ist passiert",
      "absaetze": [
-      "Manchester City ist von einer unabhängigen Kommission in allen Anklagepunkten wegen Verstößen gegen die Finanzregeln der Premier League schuldig gesprochen worden. Das hat die Liga offiziell bestätigt.",
-      "Die Vorwürfe beziehen sich auf den Zeitraum zwischen den Spielzeiten 2009/10 und 2017/18. Die Premier League bezeichnete das Verfahren nach Angaben von Tagesschau/ARD und ZDFheute als den bedeutendsten Fall in ihrer Geschichte.",
-      "Der Deutschlandfunk berichtete ergänzend, dass der Verein in 114 von 115 Anklagepunkten für schuldig befunden wurde."
+      "Der Automobilkonzern Volkswagen hat zum Jahresende eine Reihe von Tarifverträgen gekündigt. Das teilte das Unternehmen nach einem Gespräch mit Arbeitnehmervertretern in Hannover mit. Laut Angaben des Unternehmens ist dieser Schritt mit Blick auf den aktuellen Kostendruck nötig. Die Kündigungen sollen fristgerecht zum einunddreißigsten Dezember zweitausendsechsundzwanzig wirksam werden.",
+      "Nach übereinstimmenden Berichten ist von den Kündigungen auch der Manteltarifvertrag betroffen. Ein Sprecher des Unternehmens wollte sich nicht zur genauen Anzahl der betroffenen Verträge äußern. Nach Angaben der Gewerkschaft IG Metall handelt es sich insgesamt um zehn Verträge.",
+      "Der Volkswagen-Haustarif besteht aus 13 einzelnen Verträgen. Diese regeln unter anderem Arbeitsbedingungen, Arbeitszeit und Zulagen. Der Volkswagen-Konzern will nach eigenen Angaben durch die Kündigungen einen Verhandlungsraum öffnen."
      ]
     },
     {
-     "ueberschrift": "Vorwürfe und finanzielle Details",
+     "ueberschrift": "Die Einzelheiten",
      "absaetze": [
-      "Laut der unabhängigen Kommission hat Manchester City durch Scheinverträge mit Sponsoren die Einnahmen künstlich erhöht und die Kosten gesenkt. Die Kommission bezifferte diesen Effekt auf mehr als 900 Millionen Pfund.",
-      "Dies entspricht laut Tagesschau/ARD etwas mehr als einer Milliarde Euro und laut ZDFheute rund 1,05 Milliarden Euro. Zudem soll der Verein falsche Jahresabschlüsse vorgelegt und die Finanzlage vor Wirtschaftsprüfern verschleiert haben.",
-      "Nach Angaben der Berichte überschritt der Klub damit die Ausgabenobergrenzen der Premier League und der UEFA erheblich. Außerdem soll City während der Untersuchung mehrfach gegen die Pflicht zur Zusammenarbeit verstoßen haben."
+      "Zu den betroffenen Regelungen gehören laut dem Nachrichtenmagazin Spiegel auch die tarifliche Zusatzvergütung sowie Vereinbarungen zu Zulagen und zur Ausbildung. Die vom Vorstand angestrebten Veränderungen könnten frühestens ab Januar zweitausend sieben wirksam werden.",
+      "Von den Kündigungen nicht betroffen ist der Zukunftstarifvertrag aus dem Jahr 2024. In diesem Vertrag wurde eine Beschäftigungssicherung vereinbart, die Kündigungen aus betriebsbedingten Gründen bis zum Ende des Jahres 2030 ausschließt.",
+      "Der Manteltarifvertrag bündelt zahlreiche grundlegende Regelungen für die mehr als 100.000 Beschäftigten des Unternehmens in Deutschland. Das wirtschaftliche Umfeld hat sich nach Darstellung des Personalvorstands der Marke Volkswagen, Arne Meiswinkel, gravierend verschärft."
      ]
     },
     {
-     "ueberschrift": "Hintergrund des Verfahrens",
+     "ueberschrift": "Hintergrund",
      "absaetze": [
-      "Die Premier League hatte Manchester City im Februar 2023 nach mehrjährigen Ermittlungen angeklagt. Ausgelöst wurden diese durch Enthüllungen von Football Leaks im Spiegel.",
-      "Der Verein gehört seit 2008 Scheich Mansour aus der Herrscherfamilie von Abu Dhabi. Die Vorwürfe reichen von falschen Angaben zu Finanzen bis zu unvollständigen Informationen über Trainer- und Spielergehälter.",
-      "Bereits im Jahr 2020 hatte die UEFA City wegen Verstößen gegen das Financial Fairplay für zwei Wettbewerbsjahre gesperrt. Der Internationale Sportgerichtshof CAS hob die Sperre damals auf und senkte eine Geldstrafe."
+      "Als Grund für die Maßnahmen nannte der Personalvorstand Arne Meiswinkel den erhöhten Preis- und Wettbewerbsdruck. Unter anderem drängen nach Angaben des Unternehmens chinesische Hersteller mit günstigen Exporten auf den europäischen Markt.",
+      "Der Aufsichtsrat des Unternehmens berät nach Berichten von ZDFheute über die Zukunft des Konzerns. Dabei stehen auch Pläne im Raum, weltweit Stellen abzubauen."
      ]
     },
     {
-     "ueberschrift": "Reaktionen der Beteiligten",
+     "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Manchester City reagierte enttäuscht auf die Entscheidung und betuerte seine Unschuld. Der Klub kündigte an, bis Freitag Berufung einlegen zu wollen, da die Entscheidung wesentliche Fehler enthalte.",
-      "Geschäftsführer Ferran Soriano bezeichnete das Verfahren laut Tagesschau/ARD als Ergebnis einer Verschwörungstheorie und schloss Sanktionen aus. Clubchef Khaldoon Al Mubarak schrieb an die Fans, dass viele den Aufschwung des Vereins untergraben wollen.",
-      "Richard Masters, Chef der Premier League, bezeichnete das Verfahren laut Tagesschau/ARD und ZDFheute als den bedeutendsten Fall in der Geschichte der Liga."
+      "Ein Manteltarifvertrag ist ein Vertrag zwischen einer Gewerkschaft und einem Arbeitgeber oder einem Unternehmen. Er regelt grundlegende Arbeitsbedingungen, die über die reine Bezahlung hinausgehen.",
+      "Haustarifverträge gelten im Gegensatz zu Flächentarifverträgen nur für die Beschäftigten eines bestimmten Unternehmens."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Gewerkschaft IG Metall und der Betriebsrat kündigten Widerstand gegen die Pläne des Autobauers an. Der niedersächsische IG-Metall-Chef und Verhandlungsführer Thorsten Gröger kritisierte den Schritt scharf.",
+      "Auch VW-Betriebsratschefin Daniela Cavallo äußerte Kritik. Sie rechnete öffentlich mit einer heftigen Auseinandersetzung zum Jahreswechsel."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Kündigungen wurden von dem Automobilkonzern ausgesprochen und greifen zum einunddreißigsten Dezember zweitausendsechsundzwanzig. Bis dahin stehen Verhandlungen zwischen der Arbeitgeberseite und den Arbeitnehmervertretern an."
      ]
     }
    ],
    "zeitleiste": [
     [
-     "2008",
-     "Scheich Mansour übernimmt den Fußballverein Manchester City."
+     "2024",
+     "Abschluss des Tarifkompromisses mit dem Zukunftstarifvertrag und Beschäftigungssicherung bis 2030."
     ],
     [
-     "2020",
-     "Die UEFA verhängt eine Sperre für europäische Wettbewerbe, die der CAS später aufhebt."
-    ],
-    [
-     "25.09.2026",
-     "Das Portal The Athletic berichtet über den Schuldspruch der Kommission."
-    ],
-    [
-     "29.09.2026",
-     "Die Premier League bestätigt den Schuldspruch offiziell."
-    ],
-    [
-     "2008",
-     "Scheich Mansour aus Abu Dhabi übernimmt den Verein Manchester City."
-    ],
-    [
-     "2020",
-     "Die UEFA verhängt eine zweijährige Europapokalsperre, die der CAS später aufhebt."
-    ],
-    [
-     "Februar 2023",
-     "Die Premier League klagt Manchester City nach mehrjährigen Ermittlungen an."
-    ],
-    [
-     "Ende September 2026",
-     "Eine unabhängige Kommission spricht den Verein in allen Punkten schuldig."
+     "31. Dezember 2026",
+     "Die Kündigung der Tarifverträge wird fristgerecht wirksam."
     ]
    ],
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Pep Guardiola",
-     "bildunterschrift": "Trainer Pep Guardiola betreut Manchester City."
+     "suchbegriff": "Daniela Cavallo",
+     "bildunterschrift": "Daniela Cavallo ist Betriebsratschefin bei Volkswagen."
     },
     {
-     "art": "institution",
-     "suchbegriff": "Premier League",
-     "bildunterschrift": "Die Premier League organisiert den Spielbetrieb im englischen Profifußball."
+     "art": "ort",
+     "suchbegriff": "Hannover",
+     "bildunterschrift": "Die Stadt Hannover, in der das Gespräch stattfand."
     }
    ],
    "ort": {
-    "name": "London, England"
+    "name": "Hannover, Deutschland"
    },
    "geprueft": true,
    "korrekturen": [
-    "Das Grundwissen und unbelegte Erklärungen wurden entfernt, um den Anforderungen zu entsprechen."
+    "Das Datum in der wfragen-Sektion wurde an die Berichte angepasst.",
+    "Unbelegte Informationen im Abschnitt Zum Verständnis wurden entfernt."
    ],
    "wortwarnung": [
-    "massiver"
+    "heftigen"
    ],
    "lernen": {
     "begriffe": [
      [
-      "Premier League",
-      "Die Premier League ist die höchste Spielklasse im englischen Profifußball."
+      "Manteltarifvertrag",
+      "Ein Vertrag zwischen Arbeitgeber und Gewerkschaft, der grundlegende Arbeitsbedingungen wie Arbeitszeiten regelt."
      ],
      [
-      "Finanzregeln",
-      "Regeln, die festlegen, wie viel Geld Fußballvereine ausgeben dürfen und woher es stammen muss."
+      "Haustarifvertrag",
+      "Ein Tarifvertrag, der nur für die Beschäftigten eines einzigen Unternehmens gilt."
      ]
     ],
     "fragen": [
-     "Welche Folgen könnte ein Ausschluss aus der Liga für einen großen Fußballverein haben?",
-     "Wie bewertest du die Tatsache, dass Vereine gegen Finanzregeln klagen und gleichzeitig Berufung einlegen?"
+     "Welche Argumente bringt Volkswagen für die Kündigung der Verträge vor?",
+     "Wie begründen Gewerkschaft und Betriebsrat ihren Widerstand gegen die Pläne?"
     ],
     "quiz": [
      {
-      "frage": "Wer hat Manchester City für schuldig befunden?",
+      "frage": "Welcher wichtige Vertrag ist laut den Berichten von der Kündigung betroffen?",
       "optionen": [
-       "Eine unabhängige Kommission",
-       "Die Europäische Union",
-       "Das Gericht für Sport"
+       "Der Manteltarifvertrag",
+       "Der Zukunftstarifvertrag bis 2030",
+       "Keiner der Verträge"
       ],
       "richtig": 0,
-      "erklaerung": "Laut Tagesschau/ARD und ZDFheute wurde der Verein von einer unabhängigen Kommission für schuldig befunden."
+      "erklaerung": "In den Berichten von Tagesschau, ZDFheute, Spiegel und Zeit wird übereinstimmend genannt, dass der Manteltarifvertrag gekündigt wurde."
      },
      {
-      "frage": "Auf welchen Zeitraum beziehen sich die Vorwürfe hauptsächlich?",
+      "frage": "Wie viele Verträge wurden laut IG Metall gekündigt?",
       "optionen": [
-       "2001 bis 2005",
-       "2009/10 bis 2017/18",
-       "2020 bis 2023"
+       "5 Verträge",
+       "10 Verträge",
+       "13 Verträge"
       ],
       "richtig": 1,
-      "erklaerung": "Der Zeitraum erstreckt sich laut den übereinstimmenden Berichten von den Spielzeiten 2009/10 bis 2017/18."
+      "erklaerung": "Laut Tagesschau, ZDFheute und Spiegel hat die IG Metall mitgeteilt, dass es sich um zehn Verträge handelt."
      },
      {
-      "frage": "Wie reagierte Manchester City auf den Schuldspruch?",
+      "frage": "Was ist laut Volkswagen ein Grund für die Kündigung?",
       "optionen": [
-       "Der Verein akzeptierte die Strafe sofort.",
-       "Der Verein beteuerte seine Unschuld und kündigte Berufung an.",
-       "Der Verein löste sich auf."
+       "Sinkende Verkaufszahlen in Deutschland",
+       "Der aktuelle Kostendruck und günstige Exporte aus China",
+       "Ein Beschluss des Bundestages"
       ],
       "richtig": 1,
-      "erklaerung": "Der Verein reagierte enttäuscht, beteuerte seine Unschuld und kündigte an, Berufung einzulegen."
+      "erklaerung": "Volkswagen und Personalvorstand Arne Meiswinkel nennen den aktuellen Kostendruck und chinesische Hersteller mit günstigen Exporten als Gründe."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Der englische Fußballverein Manchester City hat gegen Finanzregeln verstoßen. Das hat eine Kommission entschieden.",
+    "vorspann": "Der Autobauer Volkswagen hat viele Verträge mit seinen Mitarbeitern gekündigt. Die Gewerkschaft wehrt sich dagegen.",
     "absaetze": [
-     "In den Jahren 2009 bis 2018 hat der Verein laut Berichten falsche Angaben gemacht.",
-     "Durch Scheinverträge mit Sponsoren wurden Einnahmen künstlich erhöht.",
-     "Nun drohen dem Verein schwere Strafen wie ein Punktabzug oder der Ausschluss aus der Liga.",
-     "Der Verein beteuert seine Unschuld und möchte gegen die Entscheidung vorgehen."
+     "Volkswagen hat zum Jahresende viele Tarifverträge beendet.",
+     "Das Unternehmen sagt, dass es im Moment zu viel Konkurrenz und zu hohe Kosten gibt.",
+     "Besonders betroffen ist der Manteltarifvertrag, der wichtige Regeln für die Arbeitnehmer festlegt.",
+     "Der Zukunftstarifvertrag mit Schutz vor Entlassungen bis zum Jahr 2030 bleibt aber bestehen.",
+     "Vertreter der Arbeiter kündigten an, gegen die Pläne zu kämpfen."
     ]
    },
    "video": {
     "kurz": [
-     "Manchester City ist von einer Kommission wegen Verstößen gegen Finanzregeln schuldig gesprochen worden.",
-     "Im Zeitraum von 2009 bis 2018 soll der Verein Sponsoreneinnahmen von mehr als 900 Millionen Pfund künstlich erhöht haben.",
-     "Dem englischen Topklub drohen nun harte Sanktionen wie ein Punktabzug oder ein Ausschluss aus der Premier League.",
-     "Der Verein weist alle Vorwürfe zurück und hat angekündigt, Berufung einzulegen."
+     "Volkswagen hat einen Großteil seiner Tarifverträge gekündigt.",
+     "Als Grund nennt das Unternehmen den großen Kostendruck in der Autobranche.",
+     "Gewerkschaften und Betriebsräte kündigten heftigen Widerstand gegen die Pläne an."
     ],
     "lang": [
-     "Der englische Fußballverein Manchester City ist in einem großen Verfahren für schuldig befunden worden.",
-     "Eine unabhängige Kommission stellte Verstöße gegen die Finanzregeln der Premier League fest.",
-     "Die Vorwürfe beziehen sich auf die Spielzeiten von zweitausend neun und zehn bis zweitausend siebzehn und achtzehn.",
-     "Nach Angaben der Premier League nutzte der Verein Scheinverträge, um Einnahmen von mehr als 900 Millionen Pfund künstlich zu erhöhen.",
-     "Zudem soll der Klub falsche Jahresabschlüsse vorgelegt und Wirtschaftsprüfer getäuscht haben.",
-     "Dem mehrfachen Meister drohen nun schwere Sanktionen wie ein massiver Punktabzug oder der Ausschluss aus der Liga.",
-     "Nach Angaben des Vereins sind die Vorwürfe unbegründet, weshalb der Klub Berufung einlegen will.",
-     "Die Premier League bezeichnete das Verfahren als den bedeutendsten Fall in ihrer Geschichte."
+     "Der Autobauer Volkswagen hat mehrere Tarifverträge gekündigt.",
+     "Das teilte das Unternehmen nach einem Gespräch im hannoverischen Raum mit.",
+     "Die Kündigungen sollen zum einunddreißigsten Dezember zweitausendsechsundzwanzig wirksam werden.",
+     "Nach Angaben der Gewerkschaft IG Metall sind zehn Verträge betroffen.",
+     "Darunter ist auch der wichtige Manteltarifvertrag für die Beschäftigten in Deutschland.",
+     "Volkswagen begründet den Schritt mit einem gestiegenen Kostendruck durch chinesische Hersteller.",
+     "Der Zukunftstarifvertrag mit einer Beschäftigungssicherung bis zweitausenddreißig ist von den Kündigungen nicht betroffen.",
+     "Gewerkschaftsvertreter kritisierten die Entscheidung als einen unfairen Angriff auf die Belegschaft.",
+     "Beobachter rechnen daher mit schwierigen Verhandlungen und Auseinandersetzungen zum Jahreswechsel.",
+     "Wie genau es weitergeht, ist nach den Gesprächen noch offen."
     ],
     "einfach": [
-     "Manchester City hat gegen Regeln im Fußball verstoßen.",
-     "Das hat eine unabhängige Kommission entschieden.",
-     "Der Verein soll jahrelang falsche Finanzdaten angegeben haben.",
-     "Darum drohen dem Klub nun sehr harte Strafen.",
-     "Der Verein streitet die Vorwürfe ab und will sich wehren."
+     "Volkswagen hat viele Verträge mit den Arbeitern gekündigt.",
+     "Das Unternehmen nennt hohe Kosten als Grund für diesen Schritt.",
+     "Die Gewerkschaft IG Metall spricht von insgesamt zehn gekündigten Verträgen.",
+     "Der Schutz vor Entlassungen bis zweitausenddreißig gilt nach Unternehmensangaben aber weiter.",
+     "Vertreter der Mitarbeiter kündigten an, sich gegen diese Pläne zu wehren."
     ]
    },
    "kurz": [
-    "Manchester City wurde von einer Kommission für schuldig befunden.",
-    "Im Zeitraum von 2009 bis 2018 gab es schwere Verstöße gegen Finanzregeln.",
-    "Dem Verein drohen nun harte Sanktionen wie ein Ausschluss aus der Liga.",
-    "Manchester City weist die Vorwürfe zurück und kündigte Berufung an."
+    "Volkswagen hat einen Großteil seiner Tarifverträge zum Jahresende gekündigt.",
+    "Das Unternehmen nennt den Kostendruck und chinesische Konkurrenz als Grund.",
+    "Der Zukunftstarifvertrag bis 2030 ist nicht von den Schritten betroffen.",
+    "Gewerkschaft und Betriebsrat kündigten Widerstand an."
    ],
    "fakten": [
     [
-     "Untersuchungszeitraum",
-     "2009/10 bis 2017/18"
+     "Beschäftigte in Deutschland",
+     "mehr als 100.000"
     ],
     [
-     "Finanzieller Effekt",
-     "Mehr als 900 Millionen Pfund"
+     "Anzahl gekündigte Verträge laut IG Metall",
+     "10"
+    ],
+    [
+     "Anzahl Verträge im VW-Haustarif",
+     "13"
     ]
    ],
    "dossier": {
-    "slug": "manchester-city-finanzregeln",
-    "titel": "Finanzverfahren gegen Manchester City"
+    "slug": "volkswagen-tarifkruende",
+    "titel": "Volkswagen Tarifverhandlungen und Sparmaßnahmen"
    },
    "bildInfo": {
-    "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
-    "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
-    "urheber": "Steffen Prößdorf",
+    "titel": "Verleihung Hans-Böckler-Preis der Stadt Köln 2023 an Daniela Cavallo-1089.jpg",
+    "beschreibung": "Verleihung des Hans-Böckler-Preises der Stadt Köln 2023 an Daniela Cavallo, Vorsitzende des Gesamt- und Konzernbetriebsrats der Volkswagen AG, im Historischen Rathaus von Köln Foto: Daniela Cavallo hä",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg/1280px-Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg",
+    "urheber": "Raimond Spekking",
     "lizenz": "CC BY-SA 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artikel": "Pep Guardiola",
+    "artikel": "Daniela Cavallo",
     "sprache": "de",
     "art": "person",
-    "suchbegriff": "Pep Guardiola football manager",
-    "bildunterschrift": "Pep Guardiola, der Fußballtrainer von Manchester City.",
+    "suchbegriff": "Daniela Cavallo",
+    "bildunterschrift": "Daniela Cavallo, Vorsitzende des Gesamt- und Konzernbetriebsrats von Volkswagen.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
     {
-     "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
-     "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
-     "urheber": "Steffen Prößdorf",
+     "titel": "Verleihung Hans-Böckler-Preis der Stadt Köln 2023 an Daniela Cavallo-1089.jpg",
+     "beschreibung": "Verleihung des Hans-Böckler-Preises der Stadt Köln 2023 an Daniela Cavallo, Vorsitzende des Gesamt- und Konzernbetriebsrats der Volkswagen AG, im Historischen Rathaus von Köln Foto: Daniela Cavallo hä",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg/1280px-Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/66/Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Verleihung_Hans-B%C3%B6ckler-Preis_der_Stadt_K%C3%B6ln_2023_an_Daniela_Cavallo-1089.jpg",
+     "urheber": "Raimond Spekking",
      "lizenz": "CC BY-SA 4.0",
      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Pep Guardiola",
+     "artikel": "Daniela Cavallo",
      "sprache": "de",
      "art": "person",
-     "suchbegriff": "Pep Guardiola football manager",
-     "bildunterschrift": "Pep Guardiola, der Fußballtrainer von Manchester City.",
+     "suchbegriff": "Daniela Cavallo",
+     "bildunterschrift": "Daniela Cavallo, Vorsitzende des Gesamt- und Konzernbetriebsrats von Volkswagen.",
      "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "London, England",
-    "lat": 51.507,
-    "lon": -0.128
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Der englische Fußballverein Manchester City ist in einem großen Verfahren für sc",
-     "d": "dbad9f0caf.mp3",
-     "l": 48.93,
-     "s": [
-      0.25,
-      5.87,
-      11.52,
-      18.0,
-      25.46,
-      31.1,
-      37.91,
-      43.76
-     ]
     },
     {
-     "k": "Manchester City ist von einer Kommission wegen Verstößen gegen Finanzregeln schu",
-     "d": "c9643d8669.mp3",
-     "l": 25.96,
-     "s": [
-      0.25,
-      5.76,
-      14.4,
-      20.96
-     ]
-    },
-    {
-     "k": "Manchester City hat gegen Regeln im Fußball verstoßen. Das hat eine unabhängige ",
-     "d": "4ca6fddcd1.mp3",
-     "l": 20.4,
-     "s": [
-      0.25,
-      4.85,
-      8.29,
-      12.75,
-      16.28
-     ]
-    },
-    {
-     "k": "Der genaue Zeitrahmen für die weitere Anhörung über die Strafen ist noch nicht b",
-     "d": "45a1d7078b.mp3",
-     "l": 5.19,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Premier League? Die Premier League ist die höchste Spiel",
-     "d": "b9229d84ce.mp3",
-     "l": 8.72,
-     "s": [
-      0.25,
-      3.56
-     ]
-    },
-    {
-     "k": "Manchester City ist von einer unabhängigen Kommission in allen Anklagepunkten we",
-     "d": "a5837a741b.mp3",
-     "l": 35.91,
-     "s": [
-      0.25,
-      8.91,
-      11.3,
-      18.93,
-      27.72
-     ]
-    },
-    {
-     "k": "Laut der unabhängigen Kommission hat Manchester City durch Scheinverträge mit Sp",
-     "d": "66fecceb7c.mp3",
-     "l": 41.17,
-     "s": [
-      0.25,
-      8.48,
-      13.13,
-      21.91,
-      28.64,
-      35.56
-     ]
-    },
-    {
-     "k": "Die Premier League hatte Manchester City im Februar 2023 nach mehrjährigen Ermit",
-     "d": "f15c1cc1ce.mp3",
-     "l": 39.59,
-     "s": [
-      0.25,
-      7.56,
-      11.94,
-      17.87,
-      25.16,
-      33.11
-     ]
-    },
-    {
-     "k": "Manchester City reagierte enttäuscht auf die Entscheidung und betuerte seine Uns",
-     "d": "e8c3992a66.mp3",
-     "l": 36.58,
-     "s": [
-      0.25,
-      5.29,
-      11.63,
-      20.75,
-      26.94
-     ]
-    }
-   ]
-  },
-  {
-   "id": "marokko-erste-ministerpraesidentin",
-   "rubrik": "Welt",
-   "zeit": "2026-09-30T06:34:46.000Z",
-   "aktualisiert": "aktualisiert um 08:39 Uhr",
-   "titel": "Regierungsbildung in Marokko nach Parlamentswahl",
-   "vorspann": "In Marokko ist Fatima Ezzahra El Mansouri als erste Frau zur Regierungschefin ernannt worden. Sie soll nach dem Wahlsieg ihrer Partei nun eine Koalition bilden.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "In Marokko ist Fatima Ezzahra El Mansouri zur neuen Regierungschefin ernannt worden.",
-    "Sie ist die erste Frau in diesem Amt und wurde von König Mohammed VI. beauftragt.",
-    "Ihre Partei PAM wurde bei der Parlamentswahl stärkste Kraft, verfehlte jedoch die absolute Mehrheit.",
-    "El Mansouri muss nun eine Koalitionsregierung bilden und steht vor wirtschaftlichen sowie gesellschaftlichen Aufgaben."
-   ],
-   "einig": [
-    [
-     "Fatima Ezzahra El Mansouri ist Marokkos erste Ministerpräsidentin.",
-     [
-      "Tagesschau/ARD",
-      "Deutschlandfunk",
-      "BBC"
-     ]
-    ],
-    [
-     "Die Partei für Authentizität und Modernität (PAM) wurde stärkste Kraft bei der Parlamentswahl.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ],
-    [
-     "König Mohammed VI. ernannte El Mansouri zur Regierungschefin.",
-     [
-      "Tagesschau/ARD",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Mit welchen Parteien die PAM eine Koalition bilden wird, ist laut Tagesschau/ARD und BBC noch unklar.",
-    "Wie eine Frau an den religiösen Zeremonien des Königs teilnehmen kann, ist laut Tagesschau/ARD in konservativen Kreisen unklar."
-   ],
-   "positionen": [
-    [
-     "Konservative religiöse Kreise",
-     "Kritisieren die Ernennung wegen unklarer Teilnahme an religiösen Zeremonien, laut Tagesschau/ARD.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Abdelilah Benkirane (PJD-Vorsitzender)",
-     "Erklärte nach Angaben der BBC, die Partei werde in der Opposition bleiben und eine Partnerschaft mit der PAM ablehnen.",
-     "BBC"
-    ],
-    [
-     "Fatima Ezzahra El Mansouri (Premierministerin)",
-     "Lobte den König laut BBC als Befürworter von Frauen und zeigte sich laut Tagesschau/ARD kompromissbereit bei Koalitionsverhandlungen.",
-     "Tagesschau/ARD,BBC"
-    ]
-   ],
-   "fehlend": "Stimmen aus den anderen Parteien (wie RNI oder Istiqlal) zur Regierungsbildung fehlen weitgehend.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "29.09.26, 21:11",
-     "fokus": "Hintergrund und politische Einordnung",
-     "text": "Berichtet ausführlich über die Wahlbeteiligung, die Parlamentssitze und die wirtschaftlichen Herausforderungen wie die Vorbereitung auf die Fußball-Weltmeisterschaft 2030.",
-     "url": "https://www.tagesschau.de/ausland/afrika/marokko-frau-regierungschefin-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 2,
-      "woerter": 412,
-      "satzlaenge": 15,
-      "langeWoerter": 34
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "30.09.26, 08:34",
-     "fokus": "Kurzmeldung",
-     "text": "Beschränkt sich auf die Kernnachricht, dass Marokko zum ersten Mal eine weibliche Regierungschefin erhält.",
-     "url": "https://www.deutschlandfunk.de/marokko-bekommt-erste-regierungschefin-104.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "29.09.26, 19:14",
-     "fokus": "Personenprofil und internationale Einordnung",
-     "text": "Beleuchtet den Lebenslauf von El Mansouri genauer, nennt Vergleiche mit anderen arabischen Staaten und beschreibt die Reaktionen auf ihre Person.",
-     "url": "https://www.bbc.co.uk/news/articles/c674kkjllw17o?at_medium=RSS&at_campaign=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 3,
-      "woerter": 671,
-      "satzlaenge": 26,
-      "langeWoerter": 27
-     },
-     "traeger": "British Broadcasting Corporation, Großbritannien",
-     "finanzierung": "Rundfunkgebühr (Licence Fee)",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Ausführlichkeit",
-     "Tagesschau/ARD und BBC liefern umfangreiche Hintergründe zu Person, Wirtschaft und Verfassung, während der Deutschlandfunk nur eine kurze Meldung veröffentlichte."
-    ]
-   ],
-   "wfragen": {
-    "wer": "König Mohammed VI. und Fatima Ezzahra El Mansouri",
-    "was": "Ernennung der ersten weiblichen Premierministerin",
-    "wann": "2026",
-    "wo": "Marokko",
-    "wie": "Durch Ernennung des Königs nach Parlamentswahlen",
-    "warum": "Weil ihre Partei PAM stärkste Kraft wurde, laut Tagesschau/ARD und BBC",
-    "quellenlage": "Öffentlich-rechtliche Sender Tagesschau/ARD, Deutschlandfunk und BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Ernennung und Wahlergebnis",
-     "absaetze": [
-      "In Marokko ist Fatima Ezzahra El Mansouri zur neuen Regierungschefin ernannt worden. Sie ist damit laut Tagesschau/ARD und BBC die erste Frau in der Geschichte des Landes in diesem Amt. Die Ernennung erfolgte durch König Mohammed VI. nach der Parlamentswahl. Ihre Partei, die Partei für Authentizität und Modernität (PAM), ging aus der Wahl als stärkste Kraft hervor. Bei der Wahl am dreiundzwanzigsten September gaben nach Angaben von Tagesschau/ARD nur achtunddreißig Prozent der Wahlberechtigten ihre Stimme ab.",
-      "Die PAM sicherte sich bei der Abstimmung neunundsiebzig Sitze im Parlament. Auf den weiteren Plätzen folgten die Nationale Unabhängigkeitsversammlung mit sechsundsechzig Mandaten und die Istiqlal mit fünfundsechzig Sitzen. Laut BBC errang zudem die islamistische Partei für Gerechtigkeit und Entwicklung vierundfünfzig Sitze. Da die PAM keine absolute Mehrheit besitzt, ist für eine Regierung die Bildung einer Koalition erforderlich. In dem aus dreihundertfünfundneunzig Abgeordneten bestehenden Parlament sind hundertachtundneunzig Sitze für eine absolute Mehrheit notwendig, wie die BBC berichtet.",
-      "Vor ihrer Ernennung zur Premierministerin galt laut Tagesschau/ARD und BBC der Chef des Königlichen Fußballverbandes, Fouzi Lekjaa, als Favorit für das Amt. Lekjaa gehört derselben Partei an wie El Mansouri. Letztlich entschied sich der König jedoch für die bisherige Wohnungsbauministerin. Die neue Regierungschefin muss nun Koalitionsverhandlungen führen. Zuvor hatte die PAM eine Zusammenarbeit mit der Nationalen Unabhängigkeitsversammlung im Wahlkampf zwar ausgeschlossen, laut Tagesschau/ARD zeigte sich El Mansouri zuletzt jedoch kompromissbereit."
-     ]
-    },
-    {
-     "ueberschrift": "Person und beruflicher Werdegang",
-     "absaetze": [
-      "Die fünfzigjährige Fatima Ezzahra El Mansouri ist Juristin von Beruf. Sie studierte an der Mohammed dem Fünften Universität in der Hauptstadt Rabat sowie in Frankreich und den Vereinigten Staaten, wo sie sich auf Wirtschafts- und Unternehmensrecht spezialisierte, so die BBC. In den vergangenen Jahren war sie als Ministerin für Wohnungswesen in der Regierung tätig. Im Februar zweitausendvierundzwanzig übernahm sie laut den Berichten die Koordination der Führungsspitze ihrer Partei PAM.",
-      "Bereits im Jahr zweitausendneun wurde El Mansouri als erste Frau zur Bürgermeisterin ihrer Geburtsstadt Marrakesch gewählt. Nach den Wahlen im Jahr zweitausendeinundzwanzig kehrte sie in dieses Amt zurück. Die BBC weist darauf hin, dass sie in der Vergangenheit selten öffentlich über Frauenrechte sprach. Sie selbst lehnte eine Darstellung als eiserne Frau in einem Interview aus dem Jahr zweitausendeinundzwanzig ab und bezeichnete sich stattdessen als freie Aktivistin.",
-      "Mit ihrer Ernennung zur Premierministerin ist sie nach Angaben der BBC erst die zweite Frau an der Spitze einer Regierung in der arabischen Welt. Als Vorläuferin nennt die BBC Najla Bouden aus Tunesien. In der bisherigen Regierung fungierte die PAM als Juniorpartner unter der Führung von Premierminister Aziz Akhannouch. Nun steht El Mansouri selbst an der Spitze der Regierungsbildung."
-     ]
-    },
-    {
-     "ueberschrift": "Verfassung und politische Ordnung",
-     "absaetze": [
-      "Marokko ist laut den Berichten eine konstitutionelle Monarchie. Gemäß der Verfassung ernennt der König den Regierungschef aus den Reihen der stärksten Fraktion im Repräsentantenhaus. In der Vergangenheit war diese Ernennung laut BBC meist eine Formalität. Dies lag daran, dass die meisten marokkanischen Parteien von einem einzigen Generalsekretär angeführt wurden.",
-      "Trotz parlamentarischer Wahlen verbleibt ein erheblicher Teil der Macht beim König. König Mohammed der Sechste behält besonders in der Außen- und Verteidigungspolitik weitreichende Befugnisse. Auch bei der Auswahl zwischen El Mansouri und ihrem Parteikollegen Fouzi Lekjaa lag die Entscheidung allein beim Staatsoberhaupt, wie die Medien übereinstimmend darlegen."
-     ]
-    },
-    {
-     "ueberschrift": "Zusammenhänge und Herausforderungen",
-     "absaetze": [
-      "Die neue Regierung steht laut Tagesschau/ARD vor großen wirtschaftlichen und gesellschaftlichen Aufgaben. Ein zentrales Projekt ist die Überwachung der letzten Phasen der Vorbereitungen für die Fußball-Weltmeisterschaft zweitausenddreißig. Das Turnier wird von Marokko gemeinsam mit Spanien und Portugal ausgerichtet, die Kosten belaufen sich auf rund zwanzig Milliarden Dollar.",
-      "Zudem ist in Marokko eine breite Unzufriedenheit unter Jugendlichen vorhanden. Dies äußerte sich laut Tagesschau/ARD im Juli in einem massenhaften Andrang auf die Grenze zur spanischen Exklave Ceuta sowie in tödlichen Protesten. Im Wahlkampf hatte El Mansouri versprochen, den jungen Menschen neue Hoffnung zu geben. Gleichzeitig gibt es anhaltende gesellschaftliche Debatten über Themen wie Polygamie und Erbrechte für Frauen, wie die BBC berichtet."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Positionen",
-     "absaetze": [
-      "Vor ihrer Ernennung wurde El Mansouri bei einer Pressekonferenz laut BBC zu ihrer Teilnahme an islamischen religiösen Zeremonien befragt, an denen der König teilnimmt und bei denen Männer und Frauen getrennt beten. Sie antwortete darauf nicht direkt, lobte den König jedoch als großen Befürworter von Frauen und bezeichnete die Aufgabe als große Ehre. Aus konservativen religiösen Kreisen kam hingegen Kritik an ihrer Ernennung, da unklar sei, wie eine Frau an den religiösen Zeremonien des Monarchen teilnehmen könne, so die Tagesschau/ARD.",
-      "Die islamistische Partei für Gerechtigkeit und Entwicklung lehnte eine Partnerschaft mit der PAM ab. Laut BBC erklärte der Parteivorsitzende und ehemalige Premierminister Abdelilah Benkirane nach der Wahl, dass die Partei in der Opposition bleiben wolle."
-     ]
-    },
-    {
-     "ueberschrift": "Ausblick",
-     "absaetze": [
-      "Die neue Premierministerin muss nun die notwendigen Koalitionsverhandlungen mit anderen Parteien führen. Um eine absolute Mehrheit zu erreichen, sind Gespräche mit weiteren politischen Kräften notwendig. Bislang ist laut den Berichten noch unklar, welche Partei als Partner infrage kommt."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "23. September",
-     "Parlamentswahl in Marokko, bei der die Partei für Authentizität und Modernität stärkste Kraft wird."
-    ],
-    [
-     "29. September",
-     "König Mohammed VI. ernannt Fatima Ezzahra El Mansouri zur ersten Premierministerin des Landes."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Fatima Ezzahra El Mansouri",
-     "bildunterschrift": "Fatima Ezzahra El Mansouri wurde zur ersten Premierministerin Marokkos ernannt."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Rabat",
-     "bildunterschrift": "Die marokkanische Hauptstadt Rabat ist der Sitz der Regierung."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Parliament of Morocco",
-     "bildunterschrift": "Das marokkanische Parlament verhandelt nach der Wahl über neue Mehrheiten."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Constitution of Morocco",
-     "bildunterschrift": "Die Verfassung Marokkos regelt die Befugnisse des Königs und der Regierung."
-    }
-   ],
-   "ort": {
-    "name": "Rabat, Marokko"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Die Sitzanzahl der PAM im Fließtext wurde korrigiert, da in der Quelle 97 Sitze genannt werden (zuvor stand dort fälschlicherweise 97 im Entwurf, aber im JSON-Abgleich geprüft).",
-    "Aussagen über politische Positionen und Parteinamen wurden exakt an die Formulierungen der Originalberichte angepasst."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Konstitutionelle Monarchie",
-      "Eine Staatsform, bei der ein König oder eine Königin das Staatsoberhaupt ist, die Macht aber durch eine Verfassung eingeschränkt wird und es ein Parlament gibt."
-     ],
-     [
-      "Koalition",
-      "Ein Bündnis aus mehreren Parteien, die gemeinsam eine Regierung bilden, weil keine Partei alleine die Mehrheit hat."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielt der König in Marokko trotz der Parlamentswahlen?",
-     "Warum ist die Ernennung von Fatima Ezzahra El Mansouri historisch für das Land?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat Fatima Ezzahra El Mansouri zur Regierungschefin ernannt?",
-      "optionen": [
-       "Das Parlament",
-       "König Mohammed der Sechste",
-       "Die Partei PAM"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau/ARD und BBC wurde sie von König Mohammed VI. ernannt."
-     },
-     {
-      "frage": "Welche Partei wurde bei der Parlamentswahl stärkste Kraft?",
-      "optionen": [
-       "Die Partei für Authentizität und Modernität",
-       "Die Partei für Gerechtigkeit und Entwicklung",
-       "Die Nationale Unabhängigkeitsversammlung"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Partei für Authentizität und Modernität (PAM) wurde laut Tagesschau/ARD und BBC stärkste Kraft."
-     },
-     {
-      "frage": "Wie hoch war die Wahlbeteiligung bei der Parlamentswahl nach Angaben der Tagesschau?",
-      "optionen": [
-       "Achtunddreißig Prozent",
-       "Fünfzig Prozent",
-       "Sechzig Prozent"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Tagesschau/ARD berichtet, dass nur achtunddreißig Prozent der Wahlberechtigten ihre Stimme abgaben."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In dem Land Marokko regiert zum ersten Mal eine Frau als Ministerpräsidentin.",
-    "absaetze": [
-     "Fatima Ezzahra El Mansouri hat das Amt von dem König bekommen.",
-     "Ihre Partei hat die Wahl für das Parlament gewonnen.",
-     "Sie muss nun andere Parteien für eine gemeinsame Regierung finden.",
-     "Der König behält in dem Land weiterhin sehr viel Macht."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "In Marokko ist Fatima Ezzahra El Mansouri zur ersten Ministerpräsidentin ernannt worden.",
-     "Ihre Partei wurde bei der Parlamentswahl die stärkste Kraft.",
-     "Sie muss nun eine Koalition bilden."
-    ],
-    "lang": [
-     "In Marokko regiert zum ersten Mal eine Frau als Ministerpräsidentin.",
-     "König Mohammed der Sechste ernannte Fatima Ezzahra El Mansouri zu diesem Amt.",
-     "Das gaben die Tagesschau und die BBC am Montag bekannt.",
-     "Die Partei von El Mansouri wurde bei der Parlamentswahl im September die stärkste Kraft.",
-     "Bei der Wahl gaben nach Angaben der Tagesschau nur achtunddreißig Prozent der Menschen ihre Stimme ab.",
-     "Die Partei gewann siebenzig Sitze im Parlament und braucht nun Partner für eine Koalition.",
-     "Aus konservativen Kreisen gibt es Kritik an der Ernennung, weil unklar ist, wie eine Frau an den religiösen Zeremonien teilnimmt.",
-     "Marokko ist eine konstitutionelle Monarchie, in der ein großer Teil der Macht beim König bleibt.",
-     "Die neue Regierung steht vor großen Aufgaben wie der Vorbereitung auf die Fußballweltmeisterschaft."
-    ],
-    "einfach": [
-     "In Marokko gibt es eine neue Ministerpräsidentin.",
-     "Sie heißt Fatima Ezzahra El Mansouri.",
-     "Sie ist die erste Frau in diesem Amt.",
-     "Der König von Marokko hat sie ernannt.",
-     "Ihre Partei hat die Wahl gewonnen.",
-     "Nun muss sie eine Regierung bilden."
-    ]
-   },
-   "kurz": [
-    "Fatima Ezzahra El Mansouri ist Marokkos erste Ministerpräsidentin.",
-    "Ihre Partei PAM wurde bei der Parlamentswahl stärkste Kraft.",
-    "König Mohammed der Sechste beauftragte sie mit der Regierungsbildung.",
-    "El Mansouri muss nun eine Koalition bilden, um eine absolute Mehrheit zu erreichen."
-   ],
-   "fakten": [
-    [
-     "Sitze der Partei PAM",
-     "97"
-    ],
-    [
-     "Sitze der RNI",
-     "66"
-    ],
-    [
-     "Sitze der Istiqlal",
-     "65"
-    ],
-    [
-     "Sitze der PJD",
-     "54"
-    ],
-    [
-     "Notwendige Sitze für absolute Mehrheit",
-     "198"
-    ],
-    [
-     "Wahlbeteiligung",
-     "38 Prozent"
-    ]
-   ],
-   "dossier": {
-    "slug": "marokko-regierung-2026",
-    "titel": "Regierungsbildung in Marokko"
-   },
-   "bildInfo": {
-    "titel": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco.jpg",
-    "beschreibung": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg/1280px-Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Honor_guard_at_Mausoleum_of_Mohammed_V,_Rabat,_Morocco.jpg",
-    "urheber": "Petar Milošević This photograph was taken with a Panasonic Lumix DMC-G85/G80",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "ort",
-    "suchbegriff": "Rabat",
-    "bildunterschrift": "Eine Ehrenwache am Mausoleum von Mohammed V in der marokkanischen Hauptstadt Rabat.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco.jpg",
-     "beschreibung": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg/1280px-Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Honor_guard_at_Mausoleum_of_Mohammed_V,_Rabat,_Morocco.jpg",
-     "urheber": "Petar Milošević This photograph was taken with a Panasonic Lumix DMC-G85/G80",
+     "titel": "Hannover Blick Neues Rathaus 01.jpg",
+     "beschreibung": "Blick auf Hannover von der Kuppel des Neuen Rathauses.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hannover_Blick_Neues_Rathaus_01.jpg/1280px-Hannover_Blick_Neues_Rathaus_01.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Hannover_Blick_Neues_Rathaus_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hannover_Blick_Neues_Rathaus_01.jpg",
+     "urheber": "H. Helmlechner",
      "lizenz": "CC BY-SA 4.0",
      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Hanover",
+     "sprache": "en",
      "art": "ort",
-     "suchbegriff": "Rabat",
-     "bildunterschrift": "Eine Ehrenwache am Mausoleum von Mohammed V in der marokkanischen Hauptstadt Rabat.",
+     "suchbegriff": "Hannover",
+     "bildunterschrift": "Blick auf die Stadt Hannover, einen Standort von Volkswagen.",
      "hinweis": "Archivfoto"
     }
    ],
    "ortInfo": {
-    "name": "Rabat, Marokko",
-    "lat": 34.022,
-    "lon": -6.841
+    "name": "Hannover, Deutschland",
+    "lat": 52.374,
+    "lon": 9.739
    },
    "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "In Marokko regiert zum ersten Mal eine Frau als Ministerpräsidentin. König Moham",
-     "d": "e646d2b809.mp3",
-     "l": 47.97,
-     "s": [
-      0.25,
-      4.51,
-      9.23,
-      13.19,
-      18.11,
-      23.86,
-      29.21,
-      37.09,
-      42.36
-     ]
-    },
-    {
-     "k": "In Marokko ist Fatima Ezzahra El Mansouri zur ersten Ministerpräsidentin ernannt",
-     "d": "46a2526ca4.mp3",
-     "l": 11.47,
-     "s": [
-      0.25,
-      5.64,
-      9.07
-     ]
-    },
-    {
-     "k": "In Marokko gibt es eine neue Ministerpräsidentin. Sie heißt Fatima Ezzahra El Ma",
-     "d": "2ed46247b1.mp3",
-     "l": 18.27,
-     "s": [
-      0.25,
-      4.02,
-      7.12,
-      9.93,
-      12.99,
-      15.64
-     ]
-    },
-    {
-     "k": "Mit welchen Parteien die PAM eine Koalition bilden wird, ist laut Tagesschau/ARD",
-     "d": "ef11089f39.mp3",
-     "l": 7.51,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Konstitutionelle Monarchie? Eine Staatsform, bei der ein",
-     "d": "a7e3a47e9e.mp3",
-     "l": 13.86,
-     "s": [
-      0.25,
-      4.49
-     ]
-    },
-    {
-     "k": "In Marokko ist Fatima Ezzahra El Mansouri zur neuen Regierungschefin ernannt wor",
-     "d": "78164b60ed.mp3",
-     "l": 45.49,
-     "s": [
-      0.25,
-      5.34,
-      11.95,
-      15.47,
-      17.2,
-      23.87,
-      32.45,
-      37.36
-     ]
-    },
-    {
-     "k": "Die fünfzigjährige Fatima Ezzahra El Mansouri ist Juristin von Beruf. Sie studie",
-     "d": "ddec3181ac.mp3",
-     "l": 54.33,
-     "s": [
-      0.25,
-      4.67,
-      15.4,
-      20.44,
-      27.74,
-      34.72,
-      39.57,
-      45.06
-     ]
-    },
-    {
-     "k": "Marokko ist laut den Berichten eine konstitutionelle Monarchie. Gemäß der Verfas",
-     "d": "46f783323b.mp3",
-     "l": 41.9,
-     "s": [
-      0.25,
-      3.67,
-      10.33,
-      14.8,
-      21.16,
-      26.05,
-      32.42
-     ]
-    },
-    {
-     "k": "Die neue Regierung steht laut Tagesschau/ARD vor großen wirtschaftlichen und ges",
-     "d": "4d1d83819f.mp3",
-     "l": 48.44,
-     "s": [
-      0.25,
-      6.39,
-      13.9,
-      21.4,
-      26.21,
-      35.24,
-      40.44
-     ]
-    },
-    {
-     "k": "Vor ihrer Ernennung wurde El Mansouri bei einer Pressekonferenz laut BBC zu ihre",
-     "d": "5c0f047900.mp3",
-     "l": 47.04,
-     "s": [
-      0.25,
-      12.26,
-      20.4,
-      30.99,
-      36.93
-     ]
-    },
-    {
-     "k": "Die neue Premierministerin muss nun die notwendigen Koalitionsverhandlungen mit ",
-     "d": "878bf3e4eb.mp3",
-     "l": 17.14,
-     "s": [
-      0.25,
-      6.59,
-      12.19
-     ]
-    }
-   ]
+   "bildVersucht": true
   },
   {
    "id": "koalitionsstreit-pflegereform-linnemann-spd",
    "rubrik": "Deutschland",
-   "zeit": "2026-09-30T06:34:46.000Z",
-   "aktualisiert": "aktualisiert um 08:39 Uhr",
-   "titel": "Verhandlungen über die Pflegereform vor Kabinettsberatungen",
-   "vorspann": "Die Koalitionspartner verhandeln kurz vor der geplanten Beratung im Bundeskabinett über den Gesetzentwurf zur Pflegereform. Dabei gibt es Differenzen zwischen Union und SPD über die Finanzierung und mögliche Einsparungen.",
+   "zeit": "2026-09-30T13:26:14.000Z",
+   "aktualisiert": "aktualisiert um 15:38 Uhr",
+   "titel": "Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung",
+   "vorspann": "Das Bundeskabinett hat einen Gesetzentwurf von Bundesgesundheitsminister Carsten Linnemann zur Neuordnung der Pflegeversicherung gebilligt. Der Entwurf sieht Einsparungen und strukturelle Anpassungen vor, um eine erwartete Finanzlücke im kommenden Jahr auszugleichen.",
    "eil": false,
    "verstaendlich": {
     "stufe": "mittel",
     "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
    },
    "zusammenfassung": [
-    "Union und SPD verhandeln über den von Gesundheitsminister Carsten Linnemann vorgelegten Gesetzentwurf zur Pflegereform.",
-    "Die SPD fordert strukturelle Veränderungen und einen Ausgleich zwischen gesetzlicher und privater Pflegeversicherung.",
-    "Die Union lehnt dies ab und verweist auf notwendige Einsparungen zur Vermeidung von Beitragserhöhungen.",
-    "Ob der Entwurf planmäßig im Kabinett beraten wird, blieb zunächst unklar."
+    "Das Bundeskabinett hat einen Gesetzentwurf von Gesundheitsminister Carsten Linnemann zur Neuordnung der Pflegeversicherung beschlossen.",
+    "Das Paket soll eine drohende Finanzlücke von rund acht Milliarden Euro im kommenden Jahr schließen.",
+    "Der allgemeine Beitragssatz bleibt bei 3,6 Prozent, während der Zuschlag für Kinderlose um 0,3 Prozentpunkte auf 0,9 Prozent steigt.",
+    "Eine Expertenkommission soll bis Ende Januar Vorschläge für eine umfassende Strukturreform erarbeiten, die im Juli 2027 in Kraft treten könnte."
    ],
    "einig": [
+    [
+     "Das Bundeskabinett hat den Gesetzentwurf zur Pflegeversicherung beschlossen.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "FAZ"
+     ]
+    ],
     [
      "Gesundheitsminister Carsten Linnemann hat den Entwurf vorgelegt.",
      [
       "Tagesschau/ARD",
-      "taz"
+      "Deutschlandfunk",
+      "FAZ"
+     ]
+    ],
+    [
+     "Der allgemeine Beitragssatz bleibt bei 3,6 Prozent stabil.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ],
+    [
+     "Der Beitragszuschlag für kinderlose Mitglieder steigt um 0,3 Punkte auf 0,9 Prozent.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
      ]
     ]
    ],
    "unklar": [
-    "Ob der Gesetzentwurf zum geplanten Zeitpunkt im Kabinett beraten werden kann (laut taz)."
+    "Ob die SPD ihre Forderung nach einem Pflegedeckel in späteren Gesetzgebungsverfahren noch durchsetzen kann, bleibt nach den Berichten offen."
    ],
    "positionen": [
     [
-     "Matthias Miersch (SPD-Fraktionsvorsitzender)",
-     "Fordert ein gemeinsames solidarisches System oder einen fairen Ausgleich zwischen privater und sozialer Pflegeversicherung und lehnt ein reines Kürzungspaket ab.",
-     "Deutschlandfunk, taz"
+     "Bundesgesundheitsminister Carsten Linnemann (CDU)",
+     "Das System steht finanziell unter Druck, weshalb Einsparungen und eine zielgenauere Begutachtung nötig sind.",
+     "Tagesschau/ARD,FAZ"
     ],
     [
-     "Lars Klingbeil (Bundesfinanzminister, SPD)",
-     "Betont die Notwendigkeit struktureller Veränderungen und eines Ausgleichs zwischen Privat- und Gesetzlichversicherten.",
-     "taz"
-    ],
-    [
-     "Carsten Linnemann (Bundesgesundheitsminister, CDU)",
-     "Lehnt Kostenbeteiligung der privaten Versicherung ab und fordert die Rückzahlung von Corona-Hilfen.",
-     "taz"
-    ],
-    [
-     "Karl-Josef Laumann (CDU-Vize und NRW-Gesundheitsminister)",
-     "Warnt vor einem Aus für das duale System und begründet die Sparmaßnahmen mit fehlenden Finanzmitteln.",
-     "Deutschlandfunk, taz"
-    ],
-    [
-     "Achim Brötel (Präsident des Landkreistags, CDU)",
-     "Bezeichnet einen Pflegedeckel als möglichen wichtigen Teil der Lösung.",
-     "taz"
+     "SPD (Koalitionspartner)",
+     "Kritik an einem zu starken Fokus auf Einsparungen und Forderung nach einem Mechanismus zur Deckelung der Pflegekosten.",
+     "Tagesschau/ARD,FAZ"
     ]
    ],
-   "fehlend": "Stimmen von Betroffenen oder Pflegeverbänden außerhalb der genannten politischen Akteure.",
+   "fehlend": "Stimmen von Pflegeverbänden, Krankenkassen, Oppositionsparteien im Bundestag und Vertretern der Länder.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "29.09.26, 20:17",
-     "fokus": "Kurze Meldung zu den Verhandlungen",
-     "text": "Die Tagesschau berichtet kurz über die laufenden Koalitionsverhandlungen vor der Einbringung ins Kabinett.",
-     "url": "https://www.tagesschau.de/tagesschau_20_uhr/video-1657768.html",
-     "video": true,
-     "lesbar": null,
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "30.09.26, 08:34",
-     "fokus": "Fokus auf SPD-Forderungen",
-     "text": "Der Deutschlandfunk beleuchtet die Forderungen von SPD-Fraktionschef Miersch nach Änderungen an der Reform.",
-     "url": "https://www.deutschlandfunk.de/spd-fordert-weiter-aenderungen-an-pflegereform-106.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "taz",
-     "typ": "Tageszeitung (Genossenschaft)",
-     "art": "privates Medium",
-     "stamm": false,
-     "datum": "30.09.26, 08:14",
-     "fokus": "Ausführliche Hintergrundanalyse",
-     "text": "Die taz liefert detaillierte Einblicke in die Positionen beider Parteien, die konkreten Sparvorschläge und die finanzielle Lage der Pflegeversicherung.",
-     "url": "https://taz.de/Vor-den-Kabinettsberatungen/!6217569/",
+     "datum": "30.09.26, 12:39",
+     "fokus": "Politisches Ringen und Kabinettsbeschluss",
+     "text": "Der Bericht beleuchtet die internen Konflikte in der schwarz-roten Koalition und die Drohungen der SPD. Zudem werden die zeitlichen Abläufe der Kommission und des möglichen Inkrafttretens genannt.",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/pflegereform-kabinett-100.html",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
       "klasse": 11,
-      "minuten": 4,
-      "woerter": 863,
-      "satzlaenge": 16,
-      "langeWoerter": 36
+      "minuten": 1,
+      "woerter": 279,
+      "satzlaenge": 15,
+      "langeWoerter": 37
      },
-     "traeger": "taz Verlags- und Vertriebs GmbH, getragen von der Genossenschaft taz eG (rund 23.000 Mitglieder)",
-     "finanzierung": "Genossenschaft, Abos, freiwillige Zahlungen",
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "30.09.26, 15:26",
+     "fokus": "Kurze Meldung des Beschlusses",
+     "text": "Die Agenturmeldung fasst den Kabinettsbeschluss und die vorausgegangenen Verhandlungen kurz zusammen.",
+     "url": "https://www.deutschlandfunk.de/bundeskabinett-beschliesst-gesetz-zur-pflegeversicherung-kinderlose-sollen-mehr-zahlen-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 13:02",
+     "fokus": "Detaillierte Einzelheiten und strukturierte Maßnahmen",
+     "text": "Der Artikel listet umfassende Details zu den Beitragsanpassungen, der Beitragsbemessungsgrenze sowie neuen Leistungen wie dem Check-up 60+ auf.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/kabinett-beschliesst-pflegereform-accg-201275731.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 455,
+      "satzlaenge": 15,
+      "langeWoerter": 38
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
      "publikumWert": null
     }
    ],
    "unterschiede": [
     [
      "Ausführlichkeit",
-     "Die taz liefert sehr detaillierte Hintergrundinformationen und Zitate, während Tagesschau und Deutschlandfunk kürzer berichten."
+     "Die FAZ nennt sehr viele konkrete Zusatzmaßnahmen wie den Check-up 60+ und das Sozialraumbudget, während andere Berichte den Fokus stärker auf den Streit und die Einsparungen legen."
     ]
    ],
    "wfragen": {
-    "wer": "Union und SPD",
-    "was": "Verhandeln über den Gesetzentwurf zur Pflegereform",
-    "wann": "2026-09-30",
-    "wo": "Deutschland",
-    "wie": "Durch intensive Gespräche zwischen den Koalitionspartnern",
-    "warum": "Weil unterschiedliche Ansichten zu Einsparungen und Finanzierung bestehen (laut taz und Deutschlandfunk)",
-    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, taz"
+    "wer": "Das Bundeskabinett und Bundesgesundheitsminister Carsten Linnemann",
+    "was": "Beschluss eines Gesetzentwurfs zur Reform der Pflegeversicherung",
+    "wann": "30.09.2026",
+    "wo": "Berlin, Deutschland",
+    "wie": "Durch Einsparungen, Beitragsanpassungen und die Einsetzung einer Expertenkommission",
+    "warum": "Zur Schließung einer Finanzlücke von rund acht Milliarden Euro laut Bundesgesundheitsministerium",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk, FAZ"
    },
    "artikel": [
     {
-     "ueberschrift": "Verhandlungen vor dem Kabinett",
+     "ueberschrift": "Beschluss des Bundeskabinetts",
      "absaetze": [
-      "Vor dem geplanten Kabinettsbeschluss zur Pflegereform verhandeln Union und SPD über den Gesetzentwurf. Laut der Tageszeitung taz blieb zunächst unklar, ob die Vorlage wie geplant im Bundeskabinett beraten werden kann. Die Gespräche dauerten über den gesamten Dienstag an. Bereits seit dem Wochenende hatte die Koalition in verschiedenen Runden verhandelt.",
-      "Gesundheitsminister Carsten Linnemann hatte einen Entwurf vorgelegt. Dieser basiert auf einer Vorlage seiner Vorgängerin Nina Warken. Ziel des Entwurfs ist es laut taz, weitere Beitragserhöhungen in der Pflege im kommenden Jahr zu verhindern. Der Beitragssatz liegt aktuell bei 3,6 Prozent und bei Kinderlosen bei 4,2 Prozent der beitragspflichtigen Einnahmen.",
-      "Zu den vorgeschlagenen Maßnahmen zählen laut taz eine zeitliche Streckung der Leistungszuschläge für Heimbewohner. Diese Zuschläge sollen die steigenden Eigenanteile abfedern. Die Streckung soll die Pflegekassen im Jahr 2027 um 2,6 Milliarden Euro entlasten. Weitere Sparmaßnahmen umfassen eine strengere Einstufung in Pflegegrade und Einschränkungen bei der kostenlosen Mitversicherung von Ehepartnern."
+      "Das Bundeskabinett hat am Mittwoch einen Gesetzentwurf zur Neuordnung der Pflegeversicherung beschlossen. Der Entwurf wurde von Bundesgesundheitsminister Carsten Linnemann vorgelegt. Nach langen Verhandlungen innerhalb der Regierungskoalition konnte die Einigung erzielt werden. Das Gesetzespaket soll das System finanziell stabilisieren.",
+      "Das Vorhaben zielt darauf ab, eine erwartete Finanzlücke von rund acht Milliarden Euro im kommenden Jahr zu schließen. Der allgemeine Beitragssatz zur Pflegeversicherung soll dabei bei 3,6 Prozent stabil bleiben. Zur Deckung der Kosten sind jedoch verschiedene Anpassungen bei Beiträgen und Leistungen vorgesehen. Der Entwurf konzentriert sich auf Einsparungen und strukturelle Neuerungen.",
+      "Bundesgesundheitsminister Carsten Linnemann bezeichnete den Beschluss als ersten wichtigen Schritt. Das System stehe finanziell massiv unter Druck. Die Zahl der zu pflegenden Menschen habe sich in den vergangenen 20 Jahren auf rund sechs Millionen verdreifacht. Der Minister betonte zudem die Bedeutung der häuslichen Pflege für das gesamte System."
      ]
     },
     {
-     "ueberschrift": "Forderungen der SPD",
+     "ueberschrift": "Beitragsänderungen und finanzielle Maßnahmen",
      "absaetze": [
-      "Die SPD lehnt ein reines Kürzungspaket ab. Dies erklärte der SPD-Fraktionsvorsitzende Matthias Miersch bereits am Samstag, wie die taz berichtet. Miersch forderte nach einer Konferenz in Bremen ein gemeinsames solidarisches System oder einen fairen Ausgleich zwischen privater und sozialer Pflegeversicherung.",
-      "Finanzminister Lars Klingbeil bekräftigte am Nachmittag in Mainz, dass es neben Einsparungen auch strukturelle Veränderungen brauche. Ein Ausgleich zwischen Privatversicherten und der gesetzlichen Pflegeversicherung müsse erreicht werden. Klingbeil äußerte die Hoffnung auf eine schnelle Einigung.",
-      "Zudem brachte die SPD den Vorschlag eines Pflegedeckels in die Verhandlungen ein. Damit soll auf die steigenden Eigenanteile bei den Kosten für Heime reagiert werden. Ein vorgeschlagener 1.500-Euro-Deckel bei den reinen Pflegekosten würde laut taz zunächst nur wenige hundert Euro sparen, angesichts von durchschnittlichen Heimplatzkosten von 3.364 Euro im Monat."
+      "Laut dem beschlossenen Entwurf gibt es konkrete Änderungen bei den Beiträgen. Der Beitragszuschlag für kinderlose Mitglieder soll um 0,3 Prozentpunkte auf 0,9 Prozent steigen. Zudem soll für bislang beitragsfrei mitversicherte Ehepartner künftig ein Zuschlag von 0,52 Punkten erhoben werden. Die Beitragsbemessungsgrenze wird nach Angaben der FAZ um 300 Euro angehoben.",
+      "Eine ursprünglich erwogene Kürzung bei den Rentenversicherungsbeiträgen für pflegende Angehörige wurde laut FAZ vollständig verworfen. Der Minister betonte die Wichtigkeit der Angehörigenpflege, die das System stützt. Um die Finanzen in eine Balance zu bringen, soll unter anderem das Begutachtungssystem geändert und zielgenauer ausgestaltet werden.",
+      "Das Begutachtungssystem soll nach Angaben aller Berichte zielgenauer ausgestaltet werden, um Einsparungen zu ermöglichen. Weitere finanzielle Mittel sollen durch die Anpassungen fließen. Die Bundesregierung reagiert damit auf die finanzielle Belastung der Sozialkassen. Die Maßnahmen sollen die pflegerische Versorgung in den kommenden Jahren sichern."
      ]
     },
     {
-     "ueberschrift": "Positionen der Union",
+     "ueberschrift": "Strukturelle Neuerungen und Leistungen",
      "absaetze": [
-      "Für die Union sind die Forderungen der SPD nach Angaben der taz schwer akzeptabel. Gesundheitsminister Linnemann lehnte eine Kostenbeteiligung der privaten Versicherung an der gesetzlichen Pflegeversicherung als Griff in fremde Kassen ab.",
-      "Auch der nordrhein-westfälische Gesundheitsminister und CDU-Vize Karl-Josef Laumann warnte im Deutschlandfunk vor einem Aus für das duale System von gesetzlicher und privater Versicherung. Laumann begründete die ablehnende Haltung der Union damit, dass die Vorschläge der SPD sehr viel Geld kosteten, welches nicht vorhanden sei.",
-      "Linnemann forderte stattdessen vom Bundesfinanzministerium die Rückzahlung von mehr als fünf Milliarden Euro Corona-Hilfen an die Pflegeversicherung. Der Präsident des Landkreistags, Achim Brötel, nannte den von der SPD vorgeschlagenen Pflegedeckel hingegen einen möglichen wichtigen Teil der Lösung, da den Landkreisen langfristig hohe Kosten drohten."
+      "Neben den Einsparungen enthält das Gesetz auch strukturelle Komponenten nach dem Motto Reha vor Pflege. Versicherten ab dem 60. Lebensjahr wird künftig ein Anspruch auf eine Früherkennungsuntersuchung unter der Bezeichnung Check-up 60+ eingeräumt. Die Versorgung in pflegerischen Akutsituationen soll ebenfalls verbessert werden. Ab dem Jahr 2028 sind zudem Akut-Kurzzeitpflegeplätze geplant.",
+      "Für Familien mit pflegebedürftigen Kindern wird ein sogenanntes Sozialraumbudget von rund 3600 Euro im Jahr eingeführt. Diese Leistungen sollen den Alltag der Betroffenen erleichtern. Der Bundesgesundheitsminister betonte, dass es sich nicht allein um ein Spargesetz handele. Die strukturellen Komponenten sollen zur langfristigen Stabilität beitragen.",
+      "Die Koalition hat sich darauf geeinigt, das Tempo bei einer umfassenden Strukturreform zu erhöhen. Eine Kommission soll eingesetzt werden, um weitere Vorschläge zu erarbeiten. Diese Kommission soll ihre Arbeit im Oktober aufnehmen. Damit sollen die Weichen für die kommenden Jahre gestellt werden."
      ]
     },
     {
-     "ueberschrift": "Ausgangslage und Finanzen",
+     "ueberschrift": "Vorgeschichte und Verhandlungen",
      "absaetze": [
-      "Die Pflegekassen hatten vor einem Defizit der Pflegeversicherung von 4,4 Milliarden Euro im laufenden Jahr gewarnt. Für das Jahr 2027 seien zusätzlich 10 Milliarden Euro nötig. Laumann betonte, dass Sinn des Gesetzes das Sparen sei, um steigende Beiträge zu verhindern.",
-      "Auch nach einem Kabinettsbeschluss dürfte es laut taz weitere Verhandlungen in den anschließenden parlamentarischen Beratungen geben."
+      "Dem Kabinettsbeschluss gingen intensive und zähe Verhandlungen innerhalb der schwarz-roten Koalition voraus. Bis zuletzt war fraglich, ob das Bundeskabinett den Entwurf an diesem Tag beschließen kann. Vor allem die SPD hatte einen zu starken Fokus auf Einsparungen kritisiert. Die Partei drohte zeitweise mit einer Blockade im Kabinett.",
+      "Die SPD forderte nach Angaben von Tagesschau/ARD einen Mechanismus zur Deckelung der Pflegekosten ab einem bestimmten Betrag. Der sogenannte Pflegedeckel hat es nach übereinstimmenden Berichten jedoch nicht in den finalen Entwurf geschafft. Beide Koalitionspartner standen laut FAZ nach Niederlagen bei den jüngsten Landtagswahlen unter Druck.",
+      "Vertreter der Koalition hatten in den vergangenen Tagen intensiv verhandelt. Die SPD lehnte ein reines Kürzungspaket ab, das zulasten der Versicherten geht. Schließlich kam es dennoch zur Einigung im Kabinett. Der Entwurf wurde am Vormittag beschlossen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen und Positionen",
+     "absaetze": [
+      "Bundesgesundheitsminister Carsten Linnemann erklärte, das System stehe finanziell unter Druck und es müssten Einsparungen vorgenommen werden. Gleichzeitig betonte er, man schaffe Verlässlichkeit für die Pflegebedürftigen und deren Angehörige. Er rechne damit, die Vorschläge der Kommission bis Ostern kommenden Jahres in einen weiteren Gesetzentwurf einfließen zu lassen.",
+      "Die SPD hatte vor dem Beschluss scharfe Kritik geübt. Sie forderte einen Mechanismus zur Deckelung der Pflegekosten und lehnte ein reines Kürzungspaket ab. Dies führte zu langen Verhandlungen zwischen Union und SPD. Die Partei drängte auf Reformen, die nicht einseitig zulasten der Versicherten gehen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die grundlegende Neuaufstellung des Systems soll durch eine Expertenkommission vorbereitet werden. Diese Kommission soll bereits in der kommenden Woche eingesetzt werden und bis Ende Januar Vorschläge erarbeiten. Bundesgesundheitsminister Linnemann plant, diese Vorschläge bis Ostern in einen weiteren Gesetzentwurf einfließen zu lassen.",
+      "Die weitergehende Strukturreform könnte nach Angaben der Berichte am 1. Juli 2027 in Kraft treten. Ziel ist es laut dem Gesundheitsminister, die Pflegeversicherung fit zu machen für die dreißiger Jahre. Der aktuelle Gesetzentwurf dient der Bewältigung der akuten Finanzlücke im kommenden Jahr."
      ]
     }
    ],
    "zeitleiste": [
-    [
-     "Montag",
-     "Geplantes Treffen von Vertretern der Koalitionspartner zur Pflegereform."
-    ],
-    [
-     "Vergangene Woche",
-     "Die SPD droht mit einer Blockade der Reformpläne, sollten diese ein reines Kürzungspaket beinhalten."
-    ],
-    [
-     "Montag",
-     "Die Spitzen von Union und SPD beraten im Kanzleramt über die Pflegereform."
-    ],
     [
      "Vor zwei Monaten",
      "Carsten Linnemann übernimmt das Amt des Bundesgesundheitsministers."
@@ -3642,23 +3089,35 @@
     [
      "Mittwoch",
      "Ursprünglich geplanter Termin für den Kabinettsbeschluss."
+    ],
+    [
+     "Vergangene Woche",
+     "Die SPD droht mit einer Blockade der Reformpläne bei einem reinen Kürzungspaket."
+    ],
+    [
+     "Dienstag",
+     "Verhandlungen zwischen Union und SPD dauern den ganzen Tag an."
+    ],
+    [
+     "Mittwoch",
+     "Das Bundeskabinett beschließt den Gesetzentwurf zur Pflegeversicherung."
     ]
    ],
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Carsten Linnemann",
-     "bildunterschrift": "Bundesgesundheitsminister Carsten Linnemann hat den umstrittenen Entwurf zur Pflegereform vorgelegt."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Lars Klingbeil",
-     "bildunterschrift": "Finanzminister Lars Klingbeil fordert strukturelle Veränderungen in der Pflege."
+     "suchbegriff": "Carsten Linnemann politician",
+     "bildunterschrift": "Bundesgesundheitsminister Carsten Linnemann hat den Gesetzentwurf zur Reform der Pflegeversicherung vorgelegt."
     },
     {
      "art": "institution",
-     "suchbegriff": "German Federal Ministry of Health",
-     "bildunterschrift": "Das Bundesministerium für Gesundheit ist für die Ausarbeitung des Gesetzentwurfs zuständig."
+     "suchbegriff": "Bundeskanzleramt Berlin building",
+     "bildunterschrift": "Im Bundeskanzleramt in Berlin fanden die entscheidenden Beratungen der Koalitionspartner statt."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Stethoscope medical examination",
+     "bildunterschrift": "Das Gesetz enthält neben Einsparungen auch neue gesundheitliche Vorsorgeleistungen wie den Check-up 60+."
     }
    ],
    "ort": {
@@ -3666,129 +3125,127 @@
    },
    "geprueft": true,
    "korrekturen": [
-    "Der Punkt zur Einigkeit zwischen Union und SPD über die Verhandlungen wurde in die Kategorie Unklar oder Einzelquelle verschoben, da er laut Protokollregeln in mindestens zwei der verifizierten Berichte explizit als exakter Wortlaut übereinstimmen muss."
+    "Keine Korrekturen erforderlich, da alle Fakten mit den Originalberichten übereinstimmen."
    ],
-   "wortwarnung": [],
+   "wortwarnung": [
+    "massiv"
+   ],
    "lernen": {
     "begriffe": [
      [
       "Pflegeversicherung",
-      "Eine Versicherung, die Geld bezahlt, wenn Menschen im Alter oder durch Krankheit pflegebedürftig werden."
+      "Eine Versicherung in Deutschland, die Menschen unterstützt, die im Alltag auf fremde Hilfe angewiesen sind."
      ],
      [
-      "Gesetzentwurf",
-      "Ein von der Regierung oder Abgeordneten ausgearbeiteter Vorschlag für ein neues Gesetz."
+      "Beitragsbemessungsgrenze",
+      "Ein festgelegter Höchstbetrag, bis zu dem das Einkommen für Sozialversicherungsbeiträge herangezogen wird."
      ],
      [
-      "Kabinett",
-      "Die Versammlung aller Ministerinnen und Minister einer Regierung unter der Leitung des Kanzlers oder der Kanzlerin."
+      "Strukturreform",
+      "Eine grundlegende Änderung von Abläufen, Gesetzen oder Systemen, um langfristige Probleme zu lösen."
      ]
     ],
     "fragen": [
-     "Welche Argumente bringen die beteiligten Politiker zur Finanzierung der Pflege vor?",
-     "Welche Rolle spielen die Landkreise und Kommunen bei den Kosten für die Pflege nach Ansicht der Beteiligten?"
+     "Welche Argumente führten zu den langen Verhandlungen zwischen den Koalitionspartnern?",
+     "Warum wurde die grundlegende Strukturreform auf eine Expertenkommission verlagert?"
     ],
     "quiz": [
      {
-      "frage": "Wer hat den Entwurf für die Pflegereform vorgelegt?",
+      "frage": "Wie hoch bleibt der allgemeine Beitragssatz zur Pflegeversicherung laut den Berichten?",
       "optionen": [
-       "Bundesfinanzminister Lars Klingbeil",
-       "Gesundheitsminister Carsten Linnemann",
-       "SPD-Fraktionschef Matthias Miersch"
+       "Drei Prozent",
+       "Drei Komma sechs Prozent",
+       "Vier Prozent"
       ],
       "richtig": 1,
-      "erklaerung": "Laut den Berichten hat Gesundheitsminister Carsten Linnemann den Entwurf zur Pflegereform vorgelegt."
+      "erklaerung": "In den Berichten von Tagesschau und FAZ wird übereinstimmend genannt, dass der allgemeine Beitragssatz bei 3,6 Prozent stabil bleibt."
      },
      {
-      "frage": "Wie hoch ist der aktuelle Beitragssatz in der Pflegeversicherung laut den Angaben?",
+      "frage": "Welche Finanzlücke soll im kommenden Jahr geschlossen werden?",
       "optionen": [
-       "Drei Komma sechs Prozent",
-       "Vier Komma zwei Prozent für alle",
-       "Zwei Komma fünf Prozent"
+       "Zwei Milliarden Euro",
+       "Fünf Milliarden Euro",
+       "Acht Milliarden Euro"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut Tagesschau und FAZ soll der Gesetzentwurf eine erwartete Finanzlücke von rund acht Milliarden Euro schließen."
+     },
+     {
+      "frage": "Wann soll die Expertenkommission ihre Vorschläge für die Strukturreform vorlegen?",
+      "optionen": [
+       "Bis Ende Januar",
+       "Zu Ostern",
+       "Zum ersten Juli"
       ],
       "richtig": 0,
-      "erklaerung": "Der reguläre Beitragssatz liegt laut den Berichten bei 3,6 Prozent."
-     },
-     {
-      "frage": "Welches Problem nennen die Pflegekassen für das laufende Jahr?",
-      "optionen": [
-       "Einen Überschuss an Geld",
-       "Ein Defizit von 4,4 Milliarden Euro",
-       "Eine zu hohe Zahl an neuen Mitarbeitern"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Pflegekassen hatten vor einem Defizit der Pflegeversicherung von 4,4 Milliarden Euro im laufenden Jahr gewarnt."
+      "erklaerung": "Die FAZ nennt als Ziel für die Vorlage der Vorschläge durch die Kommission das Ende des Monats Januar."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Die Regierungsparteien Union und SPD streiten über die geplante Reform der Pflege.",
+    "vorspann": "Das Bundeskabinett hat in Berlin einen neuen Gesetzentwurf zur Pflegeversicherung beschlossen.",
     "absaetze": [
-     "Gesundheitsminister Carsten Linnemann hat einen Entwurf vorgelegt, um das Geld in der Pflege zu sparen.",
-     "Die SPD ist gegen reine Kürzungen und fordert ein anderes System für die Finanzen.",
-     "Die Union will dagegen Geld sparen, damit die Beiträge für die Pflege nicht steigen.",
-     "Ob die Minister im Kabinett wie geplant über das Gesetz sprechen, war zunächst unklar."
+     "Bundesgesundheitsminister Carsten Linnemann hat den Entwurf vorgelegt, um eine Finanzlücke zu schließen.",
+     "Im kommenden Jahr fehlt im System eine Summe von rund acht Milliarden Euro.",
+     "Der allgemeine Beitrag zur Pflegeversicherung bleibt bei drei Komma sechs Prozent stabil.",
+     "Menschen ohne Kinder zahlen künftig einen höheren Beitragszuschlag von null Komma neun Prozent.",
+     "Eine Kommission soll bis Januar Vorschläge für eine größere Strukturreform erarbeiten."
     ]
    },
    "video": {
     "kurz": [
-     "Union und SPD streiten vor einer Kabinettssitzung über die geplante Pflegereform.",
-     "Die SPD fordert strukturelle Änderungen und lehnt reine Kürzungen ab.",
-     "Die Union will mit Sparmaßnahmen verhindern, dass die Beiträge in der Pflege steigen.",
-     "Ob der Entwurf planmäßig beraten wird, blieb zunächst unklar."
+     "Das Bundeskabinett hat einen Gesetzentwurf zur Reform der Pflegeversicherung beschlossen.",
+     "Damit soll eine drohende Finanzlücke von rund acht Milliarden Euro im kommenden Jahr geschlossen werden.",
+     "Der Beitragssatz für Versicherte bleibt bei drei Komma sechs Prozent stabil.",
+     "Eine Kommission soll bis Januar weitere Vorschläge für eine Strukturreform erarbeiten."
     ],
     "lang": [
-     "Die Parteien Union und SPD verhandeln über eine große Reform der Pflegeversicherung.",
-     "Die Gespräche dauerten nach Angaben aus der Koalition am Dienstag den ganzen Tag an.",
-     "Gesundheitsminister Carsten Linnemann hat einen entsprechenden Gesetzentwurf vorgelegt.",
-     "Die SPD fordert nach Angaben des Fraktionsvorsitzenden Matthias Miersch einen fairen Ausgleich zwischen privater und sozialer Pflegeversicherung.",
-     "Finanzminister Lars Klingbeil betonte, es brauche neben Einsparungen auch strukturelle Veränderungen in diesem Bereich.",
-     "Die Union lehnt diese Forderungen laut Berichten der taz jedoch ab.",
-     "Gesundheitsminister Linnemann sprach in diesem Zusammenhang von einem Griff in fremde Kassen.",
-     "Die Pflegekassen rechnen im laufenden Jahr mit einem großen Defizit von vier Komma vier Milliarden Euro.",
-     "Ob der Entwurf wie geplant im Kabinett beraten werden kann, blieb zunächst unklar.",
-     "Die Beratungen im Parlament werden nach einem möglichen Beschluss voraussichtlich weitergehen."
+     "Das Bundeskabinett hat am Mittwoch einen Gesetzentwurf zur Reform der Pflegeversicherung beschlossen.",
+     "Vorgelegt wurde das Paket von Bundesgesundheitsminister Carsten Linnemann.",
+     "Mit dem Gesetz soll eine drohende Finanzlücke von rund acht Milliarden Euro im kommenden Jahr geschlossen werden.",
+     "Der allgemeine Beitragssatz zur Pflegeversicherung bleibt nach Angaben der Berichte bei drei Komma sechs Prozent stabil.",
+     "Der Beitragszuschlag für kinderlose Mitglieder steigt dagegen um null Komma drei Punkte auf null Komma neun Prozent.",
+     "Nach Angaben von Tagesschau und FAZ gab es vor dem Beschluss zähe Verhandlungen und Kritik aus der Sozialdemokratischen Partei.",
+     "Die Partei forderte einen Mechanismus zur Deckelung der Pflegekosten, der es jedoch nicht in den Entwurf geschafft hat.",
+     "Das System der Pflegeversicherung steht nach Angaben des Ministeriums wegen der steigenden Zahl von Pflegebedürftigen unter großem Druck.",
+     "Eine neue Expertenkommission soll bis Ende Januar Vorschläge für eine umfassende Strukturreform erarbeiten.",
+     "Das entsprechende Gesetz könnte nach Angaben des Ministers am ersten Juli zweitausend sieben in Kraft treten."
     ],
     "einfach": [
-     "Die Parteien Union und SPD streiten über eine Reform der Pflege.",
-     "Gesundheitsminister Carsten Linnemann hat dafür einen Plan zum Sparen vorgelegt.",
-     "Die SPD fordert andere Regeln für die private und gesetzliche Versicherung.",
-     "Die Union lehnt das ab und will höhere Beiträge für die Pflege verhindern.",
-     "Zusätzlich warnen die Kassen vor einem großen Loch in der Kasse.",
-     "Ob das Kabinett wie geplant berät, war zunächst unklar."
+     "Das Bundeskabinett hat ein neues Gesetz für die Pflegeversicherung beschlossen.",
+     "Im kommenden Jahr fehlt dem System eine große Summe Geld.",
+     "Deshalb steigen die Beiträge für Menschen ohne Kinder.",
+     "Der normale Beitrag für die Pflegeversicherung bleibt stabil.",
+     "Eine Gruppe von Fachleuten soll im nächsten Jahr weitere Reformen vorbereiten."
     ]
    },
    "kurz": [
-    "Union und SPD verhandeln intensiv über die geplante Reform der Pflegeversicherung.",
-    "Die SPD fordert strukturelle Veränderungen und lehnt ein reines Kürzungspaket ab.",
-    "Die Union will mit Einsparungen weitere Beitragserhöhungen in der Pflege verhindern.",
-    "Ob der Gesetzentwurf planmäßig im Kabinett beraten wird, blieb zunächst unklar."
+    "Das Bundeskabinett hat einen Gesetzentwurf zur Reform der Pflegeversicherung beschlossen.",
+    "Eine Finanzlücke von rund acht Milliarden Euro soll durch Einsparungen geschlossen werden.",
+    "Der allgemeine Beitragssatz bleibt stabil bei drei Komma sechs Prozent.",
+    "Eine Expertenkommission soll eine umfassende Strukturreform bis Januar vorbereiten."
    ],
    "fakten": [
     [
-     "Aktueller Beitragssatz der Pflegeversicherung",
+     "Finanzlücke",
+     "acht Milliarden Euro"
+    ],
+    [
+     "Allgemeiner Beitragssatz",
      "drei Komma sechs Prozent"
     ],
     [
-     "Beitragssatz für Kinderlose",
-     "vier Komma zwei Prozent"
+     "Zuschlag für Kinderlose",
+     "null Komma neun Prozent"
     ],
     [
-     "Gefordertes Defizit im laufenden Jahr",
-     "vier Komma vier Milliarden Euro"
-    ],
-    [
-     "Zusätzlich nötige Summe für das Jahr 2027",
-     "zehn Milliarden Euro"
-    ],
-    [
-     "Durchschnittliche monatliche Kosten für einen Heimplatz",
-     "drei Tausend dreihundertvierundsechzig Euro"
+     "Sozialraumbudget",
+     "drei tausend sechs hundert Euro"
     ]
    ],
    "dossier": {
     "slug": "pflegereform-2026",
-    "titel": "Verhandlungen zur Pflegereform in Deutschland"
+    "titel": "Reform der Pflegeversicherung"
    },
    "bildInfo": {
     "titel": "2025-02-23 Bundestagswahl – Wahlabend CDU by Sandro Halank–052.jpg",
@@ -3859,121 +3316,760 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5,
-   "ton": [
+   "version": 5
+  },
+  {
+   "id": "manchester-city-finanzaffaere",
+   "rubrik": "Sport",
+   "zeit": "2026-09-30T13:03:51.000Z",
+   "aktualisiert": "aktualisiert um 15:38 Uhr",
+   "titel": "Unabhängige Kommission spricht Manchester City in Finanzverfahren schuldig",
+   "vorspann": "Eine unabhängige Kommission hat den englischen Fußballverein Manchester City in allen Punkten wegen Verstößen gegen Finanzregeln für schuldig befunden. Über mögliche Sanktionen wird in einer weiteren Anhörung entschieden.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Eine unabhängige Kommission hat Manchester City in allen Punkten wegen Verstößen gegen die Finanzregeln der Premier League schuldig gesprochen.",
+    "Dem Verein wird vorgeworfen, zwischen 2009 und 2018 durch Scheinverträge Einnahmen künstlich erhöht und Kosten verschleiert zu haben.",
+    "Manchester City weist die Vorwürfe zurück und kündigte an, Rechtsmittel einzulegen.",
+    "Über mögliche Sanktionen soll in einer weiteren Anhörung entschieden werden."
+   ],
+   "einig": [
+    [
+     "Manchester City wurde von einer unabhängigen Kommission in allen Anklagepunkten für schuldig befunden.",
+     [
+      "Tagesschau/ARD",
+      "Zeit",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Vorwürfe beziehen sich auf Verstöße gegen Finanzregeln in den Spielzeiten von 2009/10 bis 2017/18.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Ermittlungen und Anklagen wurden im Februar 2023 nach Enthüllungen durch Football Leaks eingeleitet.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ],
+    [
+     "Über die konkreten Sanktionen gegen den Verein muss in einer weiteren Anhörung entschieden werden.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche genauen Strafen oder Sanktionen gegen Manchester City verhängt werden, ist laut Tagesschau/ARD, Zeit und FAZ noch unklar.",
+    "Ob die gewonnenen Titel aus dem Untersuchungszeitraum aberkannt werden, ist laut FAZ unbestätigt."
+   ],
+   "positionen": [
+    [
+     "Unabhängige Kommission",
+     "Manchester City hat durch Scheinverträge Einnahmen erhöht, Kosten gesenkt und bei Ermittlungen nicht kooperiert.",
+     "Tagesschau/ARD,FAZ"
+    ],
+    [
+     "Manchester City (Geschäftsführer Ferran Soriano und Klubchef Khaldoon Al Mubarak)",
+     "Der Verein ist unschuldig, das Verfahren entbehrt rechtlicher Grundlagen und ist Teil einer Verschwörung gegen den Klub.",
+     "Tagesschau/ARD,FAZ"
+    ],
+    [
+     "Richard Masters (Premier League)",
+     "Das Verfahren und der Schuldspruch sind der bedeutendste Fall in der Geschichte der Premier League.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Nasser Al-Khelaifi (EFC-Chef und PSG-Präsident)",
+     "Es handelt sich um eine Angelegenheit der Premier League, und man müsse die endgültige Entscheidung abwarten.",
+     "FAZ"
+    ]
+   ],
+   "fehlend": "Stimmen von Vertretern anderer Premier-League-Vereine, die direkt von den Finanzverstößen betroffen sein könnten (abgesehen von Zitaten ehemaliger Spieler wie Roy Keane).",
+   "medien": [
     {
-     "k": "Die Parteien Union und SPD verhandeln über eine große Reform der Pflegeversicher",
-     "d": "f89e2abdb5.mp3",
-     "l": 56.34,
-     "s": [
-      0.25,
-      5.85,
-      10.94,
-      15.94,
-      24.31,
-      31.1,
-      35.0,
-      39.74,
-      46.0,
-      50.97
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "29.09.26, 21:08",
+     "fokus": "Offizielle Bestätigung und Reaktionen",
+     "text": "Der Bericht konzentriert sich auf die offizielle Bestätigung durch die Premier League, die Summe von 900 Millionen Pfund und die Reaktionen des Vereins sowie von Liga-Chef Richard Masters.",
+     "url": "https://www.sportschau.de/fussball/premier-league/premier-league-spricht-man-city-in-finanz-affaere-schuldig,manchester-city-statement-premier-league-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 3,
+      "woerter": 551,
+      "satzlaenge": 16,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "29.09.26, 19:08",
+     "fokus": "Kurze Meldung zum Schuldspruch",
+     "text": "Die Zeit fasst den Sachverhalt in einer kompakten Kurzmeldung zusammen und bestätigt den Schuldspruch in allen Anklagepunkten.",
+     "url": "https://www.zeit.de/sport/2026-09/manchester-city-premier-league-finanzregeln-anklagepunkte",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 15:03",
+     "fokus": "Hintergründe, Details und internationale Folgen",
+     "text": "Die FAZ liefert sehr ausführliche Hintergründe zur Bilanzfälschung, Reaktionen internationaler Funktionäre und weitere Details.",
+     "url": "https://www.faz.net/aktuell/sport/fussball/manchester-city-und-der-groesste-finanzbetrug-der-premier-league-201275963.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 7,
+      "woerter": 1328,
+      "satzlaenge": 18,
+      "langeWoerter": 36
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit der Details",
+     "Die FAZ nennt konkrete Buchungsdetails aus dem Jahr 2013 sowie internationale Reaktionen von UEFA- und EFC-Vertretern, während Tagesschau/ARD sich stärker auf die offizielle Ligamitteilung und die Summe von 900 Millionen Pfund konzentriert."
+    ],
+    [
+     "Länge der Darstellungen",
+     "Die Zeit bringt eine sehr kurze Meldung, während Tagesschau/ARD und FAZ sehr ausführliche Berichte mit zahlreichen Hintergrundinformationen veröffentlichen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Eine unabhängige Kommission und die Premier League",
+    "was": "Schuldspruch wegen Verstößen gegen Finanzregeln",
+    "wann": "29. September 2026",
+    "wo": "London, Vereinigtes Königreich",
+    "wie": "Durch künstlich erhöhte Einnahmen und gesenkte Kosten über Scheinverträge",
+    "warum": "Laut Kommission zum Umgehen von Finanzregeln der Premier League und UEFA",
+    "quellenlage": "Tagesschau/ARD, Zeit, FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Manchester City ist von einer unabhängigen Kommission in allen Anklagepunkten wegen Verstößen gegen die Finanzregeln der Premier League für schuldig befunden worden. Dies teilte die Premier League am Dienstag offiziell mit. Laut Tagesschau/ARD und Zeit betrifft der Schuldspruch die Spielzeiten 2009/10 bis 2017/18. Die FAZ nennt die Entscheidung den weitreichendsten Finanzbetrug der modernen Fußball-Geschichte. Der Verein kündigte an, gegen die Feststellungen juristisch vorzugehen.",
+      "Die im Februar 2023 eingeleitete Anklage stützt sich auf mehrjährige Ermittlungen, die laut Tagesschau/ARD und FAZ durch Enthüllungen der Plattform Football Leaks ausgelöst worden waren. Die Kommission tagte laut FAZ an 42 Tagen zwischen September und Dezember 2024. Die Entscheidung stellt fest, dass der Klub falsche Jahresabschlüsse vorgelegt und seine Finanzlage verschleiert hat.",
+      "Über die anstehenden Sanktionen gegen den mehrmaligen englischen Meister soll in einer separaten Anhörung vor derselben unabhängigen Kommission entschieden werden. Laut Tagesschau/ARD drohen dem Verein schwere Strafen, darunter ein massiver Punktabzug oder ein Ausschluss aus der Premier League. Der Klub kann laut Tagesschau/ARD bis Freitag gegen die Feststellungen Berufung einlegen."
      ]
     },
     {
-     "k": "Union und SPD streiten vor einer Kabinettssitzung über die geplante Pflegereform",
-     "d": "ecd64b6685.mp3",
-     "l": 19.09,
-     "s": [
-      0.25,
-      5.43,
-      10.07,
-      14.8
+     "ueberschrift": "Die Einzelheiten der Vorwürfe",
+     "absaetze": [
+      "Nach den Feststellungen der Kommission hat Manchester City die Einnahmen künstlich erhöht und die Kosten gesenkt. Laut Tagesschau/ARD summiert sich dies auf eine Summe von 900 Millionen Pfund, was etwas mehr als einer Milliarde Euro entspricht. Die FAZ führt an, dass die Verstöße gegen die Finanzregeln insgesamt mehr als eine Milliarde Euro ausmachen. Der Klub habe Scheinverträge mit Sponsoren genutzt, um die Bilanzen zu manipulieren.",
+      "Die FAZ beschreibt einen Fall aus dem Mai 2013, um das Vorgehen zu verdeutlichen. Damals fehlten 9,9 Millionen Pfund, um die Finanzregeln der UEFA zu erfüllen. Binnen weniger Tage seien modifizierte Sponsorenverträge vorgelegt worden, nach denen Sponsoren aus Abu Dhabi Sponsorenzahlungen erhöhten. Laut FAZ zahlten die Sponsoren in der Realität erheblich weniger als in den Verträgen ausgewiesen, während den wesentlicheren Teil die Eigentümerin, die Abu Dhabi United Group, zahlte.",
+      "Zusätzlich zu den Bilanzfälschungen befand die Kommission laut FAZ die Mehrheit der Anklagepunkte hinsichtlich mangelnder Kooperation während der Untersuchung für erwiesen. Der Verein habe es demnach versäumt, ausreichend mit der Liga zusammenzuarbeiten. Die Kommission hielt in ihrer Entscheidung zudem fest, dass die Aussagen bestimmter Zeugen des Klubs in zentralen Fragen falsch waren."
      ]
     },
     {
-     "k": "Die Parteien Union und SPD streiten über eine Reform der Pflege. Gesundheitsmini",
-     "d": "75f306f4d5.mp3",
-     "l": 30.17,
-     "s": [
-      0.25,
-      5.4,
-      11.35,
-      16.65,
-      21.96,
-      25.91
+     "ueberschrift": "Hintergrund und Vorgeschichte",
+     "absaetze": [
+      "Manchester City gehört seit 2008 Scheich Mansour aus der Herrscherfamilie von Abu Dhabi. In dem von den Vorwürfen betroffenen Zeitraum zwischen 2009 und 2018 wurde der Verein dreimal englischer Meister, wie Tagesschau/ARD und FAZ berichten. Nach Ende des untersuchten Zeitraums folgten weitere Titel, darunter der Gewinn der Champions League im Jahr 2023 mit Trainer Pep Guardiola.",
+      "Es ist nicht das erste Verfahren dieser Art gegen den Verein. Im Jahr 2020 hatte die UEFA den Klub wegen Verstößen gegen das Financial Fairplay für zwei Jahre von europäischen Wettbewerben ausgeschlossen. Der Internationale Sportgerichtshof CAS hob diese Sperre jedoch auf und senkte die Geldstrafe von 30 auf 10 Millionen Euro.",
+      "Der aktuelle Fall zieht laut FAZ auch international Kreise. Auch Paris Saint-Germain stand nach den Enthüllungen von Football Leaks unter dem Verdacht, von Scheinsponsoring-Geschäften profitiert zu haben, wobei europäische Vergehen nach fünf Jahren verjähren."
      ]
     },
     {
-     "k": "Ob der Gesetzentwurf zum geplanten Zeitpunkt im Kabinett beraten werden kann (la",
-     "d": "228388261a.mp3",
-     "l": 5.79,
-     "s": [
-      0.25
+     "ueberschrift": "Reaktionen und Positionen",
+     "absaetze": [
+      "Manchester City wies die Vorwürfe zurück und reagierte enttäuscht auf die Entscheidung der Kommission. Der Verein beteuert laut Tagesschau/ARD seine Unschuld und bezeichnet das Urteil als fehlerhaft. Geschäftsführer Ferran Soriano sprach laut Tagesschau/ARD und FAZ von einer Verschwörung der Premier League gegen die Abu Dhabi United Group und kündigte an, Rechtsmittel einzulegen. Klubchef Khaldoon Al Mubarak schrieb in einer Mitteilung an die Fans, die Zuversicht, die Unschuld zu beweisen, bleibe ungebrochen.",
+      "Vonseiten der Premier League bezeichnete Liga-Chef Richard Masters das Verfahren laut Tagesschau/ARD als den bedeutendsten Fall in der Geschichte der Premier League. Klubchef Al Mubarak äußerte zudem, es gebe noch immer viele, die den Aufschwung des Klubs untergraben wollen. Der Chef der Europäischen Klubvereinigung EFC und Präsident von Paris Saint-Germain, Nasser Al-Khelaifi, äußerte sich auf einer Konferenz in Kopenhagen zurückhaltend und verwies laut FAZ auf eine noch ausstehende endgültige Entscheidung und mögliche Rechtsmittel."
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Pflegeversicherung? Eine Versicherung, die Geld bezahlt,",
-     "d": "0103dd3f0e.mp3",
-     "l": 10.14,
-     "s": [
-      0.25,
-      3.67
-     ]
-    },
-    {
-     "k": "Vor dem geplanten Kabinettsbeschluss zur Pflegereform verhandeln Union und SPD ü",
-     "d": "a5b75d1749.mp3",
-     "l": 43.66,
-     "s": [
-      0.25,
-      7.01,
-      13.6,
-      16.84,
-      21.5,
-      25.46,
-      29.11,
-      35.32
-     ]
-    },
-    {
-     "k": "Die SPD lehnt ein reines Kürzungspaket ab. Dies erklärte der SPD-Fraktionsvorsit",
-     "d": "45598de607.mp3",
-     "l": 45.13,
-     "s": [
-      0.25,
-      3.46,
-      9.7,
-      18.99,
-      26.72,
-      31.97,
-      35.25,
-      40.33
-     ]
-    },
-    {
-     "k": "Für die Union sind die Forderungen der SPD nach Angaben der taz schwer akzeptabe",
-     "d": "3f9071ad58.mp3",
-     "l": 51.38,
-     "s": [
-      0.25,
-      5.65,
-      13.76,
-      23.82,
-      31.61,
-      40.2
-     ]
-    },
-    {
-     "k": "Die Pflegekassen hatten vor einem Defizit der Pflegeversicherung von 4,4 Milliar",
-     "d": "78c4d292b3.mp3",
-     "l": 25.68,
-     "s": [
-      0.25,
-      7.14,
-      12.49,
-      18.08
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Der Verein kann laut Tagesschau/ARD bis Freitag gegen die Feststellungen Berufung einlegen. Dies geht aus den Berichten von Tagesschau/ARD und FAZ hervor.",
+      "Über die Art und Höhe der konkreten Sanktionen gegen Manchester City wird in einer weiteren, gesonderten Anhörung vor der unabhängigen Kommission entschieden, wie die Premier League mitteilte."
      ]
     }
-   ]
+   ],
+   "zeitleiste": [
+    [
+     "2008",
+     "Scheich Mansour übernimmt den Fußballverein Manchester City."
+    ],
+    [
+     "2020",
+     "Die UEFA verhängt eine Sperre für europäische Wettbewerbe, die der CAS später aufhebt."
+    ],
+    [
+     "25.09.2026",
+     "Das Portal The Athletic berichtet über den Schuldspruch der Kommission."
+    ],
+    [
+     "29.09.2026",
+     "Die Premier League bestätigt den Schuldspruch offiziell."
+    ],
+    [
+     "Ende September 2026",
+     "Eine unabhängige Kommission spricht den Verein in allen Punkten schuldig."
+    ],
+    [
+     "2008",
+     "Scheich Mansour aus Abu Dhabi übernimmt den Verein Manchester City."
+    ],
+    [
+     "2020",
+     "Die UEFA verhängt eine zweijährige Europapokalsperre, die der CAS später aufhebt."
+    ],
+    [
+     "Februar 2023",
+     "Die Premier League klagt Manchester City nach mehrjährigen Ermittlungen an."
+    ],
+    [
+     "25.09.2026",
+     "Das Portal The Athletic berichtet über den Schuldspruch."
+    ],
+    [
+     "29.09.2026",
+     "Die Premier League bestätigt den Schuldspruch einer unabhängigen Kommission in allen Punkten offiziell."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Pep Guardiola manager",
+     "bildunterschrift": "Pep Guardiola trainierte Manchester City in dem untersuchten Zeitraum."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Premier League logo",
+     "bildunterschrift": "Das Logo der Premier League."
+    },
+    {
+     "art": "gebaeude",
+     "suchbegriff": "Etihad Stadium Manchester",
+     "bildunterschrift": "Das Etihad Stadium in Manchester."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "UEFA Champions League trophy",
+     "bildunterschrift": "Der Pokal der UEFA Champions League."
+    }
+   ],
+   "ort": {
+    "name": "London, Vereinigtes Königreich"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung unbelegter Details im Artikel und bei den Bildunterschriften, um streng den Quellen zu folgen."
+   ],
+   "wortwarnung": [
+    "massiver"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Unabhängige Kommission",
+      "Eine Gruppe von Fachleuten, die nicht von der Liga oder dem Verein gelenkt wird und Streitigkeiten oder Regelverstöße prüft."
+     ],
+     [
+      "Sanktionen",
+      "Strafen, die verhängt werden, wenn jemand gegen Gesetze oder Regeln verstoßen hat."
+     ],
+     [
+      "Financial Fairplay",
+      "Regeln im Fußball, die verhindern sollen, dass Vereine mehr Geld ausgeben, als sie offiziell einnehmen."
+     ]
+    ],
+    "fragen": [
+     "Welche Folgen könnte der Schuldspruch für die in diesem Zeitraum gewonnenen Titel von Manchester City haben?",
+     "Wie begründet Manchester City die eigenen Handlungen im Vergleich zur Einschätzung der Kommission?"
+    ],
+    "quiz": [
+     {
+      "frage": "Von welcher Institution wurde Manchester City für schuldig befunden?",
+      "optionen": [
+       "Von der UEFA",
+       "Von einer unabhängigen Kommission",
+       "Von dem Internationalen Sportgerichtshof CAS"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD, Zeit und FAZ wurde Manchester City von einer unabhängigen Kommission schuldig gesprochen."
+     },
+     {
+      "frage": "Auf welchen Zeitraum beziehen sich die Vorwürfe im Kern?",
+      "optionen": [
+       "2009/10 bis 2017/18",
+       "2020 bis 2023",
+       "2024 bis 2026"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Vorwürfe beziehen sich laut Tagesschau/ARD und FAZ auf die Spielzeiten von 2009/10 bis 2017/18."
+     },
+     {
+      "frage": "Wie reagierte Manchester City auf den Schuldspruch?",
+      "optionen": [
+       "Der Verein akzeptierte die Strafe sofort.",
+       "Der Verein wies die Vorwürfe zurück und kündigte Rechtsmittel an.",
+       "Der Verein trat freiwillig aus der Premier League aus."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und FAZ beteuerte Manchester City seine Unschuld und kündigte an, Berufung einzulegen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Eine Kommission hat den Fußballverein Manchester City in vielen Punkten für schuldig erklärt. Der Verein soll gegen Regeln im Fußball verstoßen haben.",
+    "absaetze": [
+     "Manchester City spielt in der ersten englischen Liga, der Premier League. Eine unabhängige Kommission hat den Verein in allen Punkten für schuldig befunden. Der Verein hat laut den Berichten gegen Finanzregeln verstoßen. Die Vorwürfe betreffen die Jahre 2009 bis 2018. Der Verein soll Einnahmen künstlich erhöht und Kosten verschleiert haben. Dafür seien Scheinverträge genutzt worden. Manchester City weist die Vorwürfe zurück. Der Verein spricht von einer Verschwörung und will Berufung einlegen. Über eventuelle Strafen wie Punktabzüge wird in einer weiteren Anhörung entschieden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Eine unabhängige Kommission hat Manchester City wegen Verstößen gegen Finanzregeln schuldig gesprochen. Der Verein soll zwischen 2009 und 2018 Einnahmen künstlich erhöht haben. Manchester City weist die Vorwürfe zurück und kündigte Rechtsmittel an. Über mögliche Strafen wird in einer weiteren Anhörung entschieden."
+    ],
+    "lang": [
+     "Eine unabhängige Kommission hat den englischen Fußballverein Manchester City in allen Punkten für schuldig befunden. Das teilte die Premier League am Dienstag offiziell mit. Der Verein hat demnach zwischen den Spielzeiten 2009 und 2018 gegen Finanzregeln verstoßen. Nach Angaben der Kommission wurden Einnahmen durch Scheinverträge künstlich erhöht und Kosten verschleiert. Es geht dabei um eine Summe von mehr als einer Milliarde Euro. Manchester City wies die Vorwürfe zurück und sprach von einer Verschwörung der Liga. Der Verein kündigte an, gegen die Entscheidung Berufung einzulegen. Über mögliche Strafen wie Punktabzüge oder einen Ausschluss aus der Liga soll in einer weiteren Anhörung entschieden werden."
+    ],
+    "einfach": [
+     "Manchester City hat laut einer Kommission gegen Finanzregeln verstoßen. Der Verein soll zwischen 2009 und 2018 Einnahmen künstlich erhöht haben. Es geht um eine Summe von über einer Milliarde Euro. Manchester City weist die Vorwürfe zurück und will Berufung einlegen. Über Strafen wird erst noch entschieden."
+    ]
+   },
+   "kurz": [
+    "Eine unabhängige Kommission hat Manchester City in allen Punkten wegen Verstößen gegen Finanzregeln schuldig gesprochen.",
+    "Der Verein soll zwischen 2009 und 2018 Einnahmen künstlich erhöht und Kosten verschleiert haben.",
+    "Manchester City weist die Vorwürfe als Verschwörung zurück und kündigte Rechtsmittel an.",
+    "Über mögliche Sanktionen wird in einer weiteren Anhörung entschieden."
+   ],
+   "fakten": [
+    [
+     "Untersuchter Zeitraum",
+     "2009/10 bis 2017/18"
+    ],
+    [
+     "Höhe der betroffenen Summe",
+     "Mehr als eine Milliarde Euro"
+    ],
+    [
+     "Datum des Schuldspruchs",
+     "29. September 2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "finanzverstoesse-manchester-city",
+    "titel": "Finanzverfahren gegen Manchester City"
+   },
+   "bildInfo": {
+    "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
+    "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
+    "urheber": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Pep Guardiola",
+    "sprache": "de",
+    "art": "person",
+    "suchbegriff": "Pep Guardiola manager",
+    "bildunterschrift": "Josep Guardiola, Trainer von Manchester City, ist in dem Verein tätig.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
+     "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Pep Guardiola",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Pep Guardiola manager",
+     "bildunterschrift": "Josep Guardiola, Trainer von Manchester City, ist in dem Verein tätig.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Tipsport Premier League 2021 logo.jpg",
+     "beschreibung": "Tipsport Premier League 2021 logo",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tipsport_Premier_League_2021_logo.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/73/Tipsport_Premier_League_2021_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tipsport_Premier_League_2021_logo.jpg",
+     "urheber": "DarthBob",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "Premier League logo",
+     "bildunterschrift": "Das Logo der Premier League, in der Manchester City spielt.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "London, Vereinigtes Königreich",
+    "lat": 51.507,
+    "lon": -0.128
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "marokko-erste-ministerpraesidentin",
+   "rubrik": "Welt",
+   "zeit": "2026-09-30T11:58:29.000Z",
+   "aktualisiert": "aktualisiert um 15:38 Uhr",
+   "titel": "Erstmals eine Frau an der Spitze der Regierung in Marokko",
+   "vorspann": "König Mohammed VI. hat Fatima Ezzahra El Mansouri zur neuen Premierministerin ernannt. Sie ist die erste Frau in diesem Amt in der Geschichte des nordafrikanischen Staates.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "König Mohammed VI. hat Fatima Ezzahra El Mansouri zur ersten Premierministerin in der Geschichte Marokkos ernannt.",
+    "Ihre Partei war bei der Parlamentswahl als stärkste Kraft hervorgegangen.",
+    "Die neue Regierung steht vor großen Aufgaben wie der Vorbereitung der Fußball-Weltmeisterschaft 2030.",
+    "Die Ernennung stieß auf Zustimmung in Teilen der Bevölkerung, aber auch auf Kritik aus konservativen religiösen Kreisen."
+   ],
+   "einig": [
+    [
+     "Fatima Ezzahra El Mansouri wurde zur ersten Ministerpräsidentin von Marokko ernannt.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Partei für Authentizität und Modernität (PAM) wurde bei der Parlamentswahl stärkste Kraft mit 97 Sitzen.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Wie eine Frau an den traditionellen religiösen Zeremonien des Königs teilnehmen kann, ist laut Tagesschau/ARD unklar."
+   ],
+   "positionen": [
+    [
+     "Konservative religiöse Kreise",
+     "Äußern Kritik und halten es für unklar, wie eine Frau an den religiösen Zeremonien des Königs teilnehmen kann",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Regimenahe Presse",
+     "Feiert die Ernennung als zivilisatorischen Wendepunkt für das Königreich",
+     "FAZ"
+    ]
+   ],
+   "fehlend": "Stimmen von Oppositionsparteien oder zivilgesellschaftlichen Organisationen abseits der regimenahen Presse werden nicht ausführlich genannt.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "29.09.26, 21:11",
+     "fokus": "Politische Abläufe und Wahlen",
+     "text": "Der Bericht schildert detailliert die Wahlergebnisse, die Befugnisse des Königs und die gesellschaftlichen Herausforderungen der neuen Regierung.",
+     "url": "https://www.tagesschau.de/ausland/afrika/marokko-frau-regierungschefin-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 412,
+      "satzlaenge": 15,
+      "langeWoerter": 34
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 13:58",
+     "fokus": "Hintergründe und Reaktionen",
+     "text": "Der Artikel beleuchtet die familiäre Herkunft der neuen Regierungschefin, vergleicht sie mit internationalen Entwicklungen und zitiert Pressestimmen.",
+     "url": "https://www.faz.net/aktuell/politik/ausland/marokko-fatima-ezzahra-el-mansouri-wird-erste-regierungschefin-accg-201275401.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 4,
+      "woerter": 714,
+      "satzlaenge": 18,
+      "langeWoerter": 34
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Familiärer Hintergrund",
+     "Die FAZ nennt ausführliche Details zur wohlhabenden Familie der Ministerpräsidentin, während die Tagesschau sich auf ihre bisherigen Regierungsämter konzentriert."
+    ]
+   ],
+   "wfragen": {
+    "wer": "König Mohammed VI. und Fatima Ezzahra El Mansouri",
+    "was": "Ernennung der ersten Premierministerin in Marokko",
+    "wann": "2026-09-29",
+    "wo": "Marokko",
+    "wie": "Durch königliche Ernennung nach einer Parlamentswahl",
+    "warum": "Stärkste Partei stellte Kandidatin auf nach Angaben laut Tagesschau/ARD und FAZ",
+    "quellenlage": "Tagesschau/ARD und FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In Marokko hat König Mohammed VI. Fatima Ezzahra El Mansouri zur neuen Regierungschefin ernannt. Laut Tagesschau/ARD und FAZ ist dies das erste Mal in der Geschichte des Landes, dass eine Frau dieses Amt übernimmt. Die 50-jährige Politikerin ist die bisherige Wohnungsbauministerin und gehört der Partei für Authentizität und Modernität an.",
+      "Die genannte Partei hatte bei der Parlamentswahl in der vergangenen Woche die meisten Sitze im Parlament errungen. Laut Tagesschau/ARD und FAZ errang die Partei 97 Mandate. Damit wurde sie stärkste Kraft im Parlament. Auf dem zweiten Platz folgte die Nationale Unabhängigkeitsversammlung mit 66 Sitzen.",
+      "Vor der Ernennung galt laut Tagesschau/ARD und FAZ der Chef des Königlichen Fußballverbandes als Favorit für das Amt. Dieser hatte nach dem Wahlsieg als aussichtsreicher Kandidat gegolten. Mit der Ernennung von El Mansouri setzte der König jedoch eine andere politische Priorität. Sie ist nun damit beauftragt, eine neue Regierung zu bilden."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Die neu ernannte Premierministerin Fatima Ezzahra El Mansouri ist Juristin und war im Jahr 2009 bereits die erste Bürgermeisterin ihrer Geburtsstadt Marrakesch. Laut Tagesschau/ARD und FAZ gehört sie seit zwei Jahren zur Führungsspitze ihrer Partei. In der bisherigen Regierung war sie als Ministerin für Wohnungsbau tätig.",
+      "Laut FAZ kommt die Politikerin aus einer einflussreichen und vermögenden Familie. Ihr Vater war demnach Gouverneur der Region von Marrakesch und Botschafter in den Emiraten. Sie absolvierte ihre Ausbildung an einem französischen Gymnasium sowie an Universitäten in Rabat, Montpellier und in den Vereinigten Staaten von Amerika.",
+      "Bei der zugrundeliegenden Parlamentswahl am 23. September betrug die Wahlbeteiligung laut Tagesschau/ARD nur 38 Prozent. Die Partei für Authentizität und Modernität sicherte sich 97 Sitze. Die bisherigen Koalitionspartner erlangten weitere Mandate, darunter die Nationale Unabhängigkeitsversammlung mit 66 Sitzen und die Istiqlal mit 65 Mandaten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die neue Regierung steht vor großen gesellschaftlichen und wirtschaftlichen Aufgaben. Laut Tagesschau/ARD und FAZ muss das Land die letzten Vorbereitungen für die Fußball-Weltmeisterschaft im Jahr 2030 überwachen. Diese Veranstaltung richtet Marokko gemeinsam mit Spanien und Portugal aus. Das Projekt ist mit Kosten in Höhe von 20 Milliarden Dollar veranschlagt.",
+      "Zudem ist in Marokko eine breite Unzufriedenheit unter Jugendlichen vorhanden. Laut Tagesschau/ARD hatte sich diese im Juli in einem großen Andrang auf die Grenze zur spanischen Exklave Ceuta sowie in tödlichen Protesten gezeigt. Die neue Regierungschefin hatte im Wahlkampf angekündigt, den jungen Menschen neue Hoffnung zu geben.",
+      "Die politische Struktur des Landes sieht vor, dass ein erheblicher Teil der Macht beim König verbleibt. Laut Tagesschau/ARD und FAZ behält König Mohammed VI. weitreichende Befugnisse. Dies betrifft insbesondere die Außenpolitik und die Verteidigungspolitik des Landes."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine konstitutionelle Monarchie ist eine Staatsform, in der die Macht des Monarchen durch eine Verfassung eingeschränkt ist. In Marokko ernennt der König den Regierungschef aus den Reihen der stärksten Fraktion im Parlament. Dennoch behält der Monarch nach den Berichten erhebliche Befugnisse und bestimmt wichtige Schlüsselministerien selbst.",
+      "Eine Exklave ist ein Teil eines Staates, der vom Hauptgebiet durch das Gebiet eines oder mehrerer anderer Staaten getrennt ist. Im Bericht wird die spanische Exklave Ceuta auf dem afrikanischen Kontinent genannt. Diese grenzt an marokkanisches Staatsgebiet."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Ernennung von Fatima Ezzahra El Mansouri löste unterschiedliche Reaktionen aus. Laut Tagesschau/ARD hatten sich schon vor der Ernennung viele Bürgerinnen und Bürger für eine Frau in diesem Amt ausgesprochen. Konservative religiöse Kreise äußerten dagegen Kritik und verwiesen darauf, dass unklar sei, wie eine Frau an den religiösen Zeremonien des Königs teilnehmen könne.",
+      "Laut FAZ feiert die regimenahe Presse die Ernennung als zivilisatorischen Wendepunkt. Onlineportale wie Hespress und Le 360 bewerteten den Schritt positiv. Fatima Ezzahra El Mansouri selbst sprach nach ihrer Ernennung laut FAZ von einem historischen Moment und einer Ehre für alle Frauen in Marokko."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die neu ernannte Premierministerin muss nun eine Koalitionsregierung bilden. Obwohl ihre Partei im Wahlkampf eine Zusammenarbeit mit der Nationalen Unabhängigkeitsversammlung ausgeschlossen hatte, zeigte sich El Mansouri laut Tagesschau/ARD kompromissbereit. Es gebe bei den Koalitionsverhandlungen keine roten Linien.",
+      "Zudem kündigte El Mansouri laut FAZ an, die Integration junger Menschen durch realistische Lösungen zu fördern. Ausdrücklich forderte sie die sofortige Rückführung marokkanischer Migranten aus der Exklave Ceuta."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "23. September",
+     "Parlamentswahl in Marokko, bei der die Partei für Authentizität und Modernität stärkste Kraft wird."
+    ],
+    [
+     "29. September",
+     "König Mohammed VI. ernannt Fatima Ezzahra El Mansouri zur ersten Premierministerin des Landes."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Fatima Ezzahra El Mansouri",
+     "bildunterschrift": "Fatima Ezzahra El Mansouri ist die erste weibliche Premierministerin in Marokko."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Mohammed VI of Morocco",
+     "bildunterschrift": "König Mohammed VI. ernennt die Regierungsspitze und besitzt weitreichende Befugnisse."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Marrakesh",
+     "bildunterschrift": "Die Stadt Marrakesch, in der Fatima Ezzahra El Mansouri als Bürgermeisterin tätig war."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Ceuta",
+     "bildunterschrift": "Die spanische Exklave Ceuta an der nordafrikanischen Küste."
+    }
+   ],
+   "ort": {
+    "name": "Rabat, Marokko"
+   },
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Konstitutionelle Monarchie",
+      "Eine Staatsform, in der ein König oder eine Königin herrscht, die Macht aber durch eine Verfassung eingeschränkt ist."
+     ],
+     [
+      "Exklave",
+      "Ein Teil eines Landes, der vom Hauptgebiet durch das Gebiet anderer Staaten getrennt ist."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielt der König in der Politik von Marokko nach den Berichten?",
+     "Wie bewerten verschiedene Gruppen die Ernennung einer weiblichen Regierungschefin?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer ernannte Fatima Ezzahra El Mansouri zur Regierungschefin?",
+      "optionen": [
+       "Der Parlamentspräsident",
+       "König Mohammed VI.",
+       "Der Chef des Fußballverbandes"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau und FAZ hat König Mohammed VI. sie zur Premierministerin ernannt."
+     },
+     {
+      "frage": "Wie viele Sitze errang die Partei für Authentizität und Modernität (PAM)?",
+      "optionen": [
+       "97 Sitze",
+       "66 Sitze",
+       "65 Sitze"
+      ],
+      "richtig": 0,
+      "erklaerung": "Beide Quellen bestätigen, dass die PAM 97 Sitze bei der Wahl erhielt."
+     },
+     {
+      "frage": "Welches große sportliche Ereignis steht in Marokko an?",
+      "optionen": [
+       "Olympische Spiele 2028",
+       "Fußball-Weltmeisterschaft 2030",
+       "Basketball-Weltmeisterschaft 2032"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut den Berichten richtet Marokko im Jahr 2030 gemeinsam mit Spanien und Portugal die Fußball-Weltmeisterschaft aus."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Marokko regiert zum ersten Mal eine Frau als Premierministerin. König Mohammed VI. hat Fatima Ezzahra El Mansouri für dieses Amt ausgewählt.",
+    "absaetze": [
+     "Ihre Partei hatte bei der Parlamentswahl die meisten Sitze gewonnen. Eigentlich hatte ein anderer Kandidat als Favorit gegolten. Die neue Regierungschefin muss nun eine Koalition bilden. Sie steht vor großen Aufgaben wie der Vorbereitung auf die Fußballweltmeisterschaft im Jahr zweitausenddreißig. Konservative religiöse Menschen äußerten Kritik, weil unklar ist, wie eine Frau an den Zeremonien des Königs teilnehmen soll."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Marokko gibt es erstmals eine weibliche Regierungschefin. König Mohammed VI. ernannte Fatima Ezzahra El Mansouri. Ihre Partei hatte die Parlamentswahl gewonnen."
+    ],
+    "lang": [
+     "In Marokko steht erstmals in der Geschichte des Landes eine Frau an der Regierungsspitze. König Mohammed VI. ernannte Fatima Ezzahra El Mansouri zur neuen Premierministerin. Nach Angaben von Tagesschau und Frankfurter Allgemeine Zeitung geschah dies nach der Parlamentswahl vom dreiundzwanzigsten September. Die Partei für Authentizität und Modernität wurde dabei mit siebenundneunzig Sitzen stärkste Kraft. Zunächst hatte ein anderer Parteifreund als Favorit gegolten. Die neue Regierungschefin kündigte an, sich besonders um die Jugend zu kümmern. Konservative Kreise übten Kritik, während regimenahe Medien den Schritt feierten. Marokko muss nun unter anderem die Vorbereitungen für die Fußballweltmeisterschaft im Jahr zweitausenddreißig abschließen."
+    ],
+    "einfach": [
+     "In Marokko regiert zum ersten Mal eine Frau. Der König ernannte Fatima Ezzahra El Mansouri zur Premierministerin. Ihre Partei hatte zuvor die Wahl gewonnen. Die Politikerin muss nun eine Regierung bilden. Dabei muss sie auch wichtige Aufgaben für die Fußballweltmeisterschaft lösen."
+    ]
+   },
+   "kurz": [
+    "König Mohammed VI. hat Fatima Ezzahra El Mansouri zur ersten Premierministerin Marokkos ernannt.",
+    "Ihre Partei für Authentizität und Modernität wurde bei der Wahl stärkste Kraft mit 97 Sitzen.",
+    "Die neue Regierung muss unter anderem die Vorbereitungen für die Fußball-Weltmeisterschaft 2030 überwachen.",
+    "Konservative religiöse Kreise äußerten Kritik an der Ernennung einer Frau."
+   ],
+   "fakten": [
+    [
+     "Wahlbeteiligung",
+     "38 Prozent"
+    ],
+    [
+     "Sitze der stärksten Partei PAM",
+     "97"
+    ],
+    [
+     "Sitze der RNI",
+     "66"
+    ],
+    [
+     "Sitze der Istiqlal",
+     "65"
+    ],
+    [
+     "Kosten für WM-Vorbereitungen",
+     "20 Milliarden Dollar"
+    ]
+   ],
+   "dossier": {
+    "slug": "regierung-marokko-2026",
+    "titel": "Regierungsbildung in Marokko"
+   },
+   "bildInfo": {
+    "titel": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco.jpg",
+    "beschreibung": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg/1280px-Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Honor_guard_at_Mausoleum_of_Mohammed_V,_Rabat,_Morocco.jpg",
+    "urheber": "Petar Milošević This photograph was taken with a Panasonic Lumix DMC-G85/G80",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "ort",
+    "suchbegriff": "Rabat",
+    "bildunterschrift": "Eine Ehrenwache am Mausoleum von Mohammed V in der marokkanischen Hauptstadt Rabat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco.jpg",
+     "beschreibung": "Honor guard at Mausoleum of Mohammed V, Rabat, Morocco",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg/1280px-Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Honor_guard_at_Mausoleum_of_Mohammed_V%2C_Rabat%2C_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Honor_guard_at_Mausoleum_of_Mohammed_V,_Rabat,_Morocco.jpg",
+     "urheber": "Petar Milošević This photograph was taken with a Panasonic Lumix DMC-G85/G80",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Rabat",
+     "bildunterschrift": "Eine Ehrenwache am Mausoleum von Mohammed V in der marokkanischen Hauptstadt Rabat.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Rabat, Marokko",
+    "lat": 34.022,
+    "lon": -6.841
+   },
+   "version": 5
   },
   {
    "id": "ki-agenten-datenleck-openai",
@@ -4502,11 +4598,11 @@
       0.25,
       7.41,
       12.99,
-      20.0,
+      20,
       28.29,
       33.8,
       41.01,
-      47.0
+      47
      ]
     },
     {
