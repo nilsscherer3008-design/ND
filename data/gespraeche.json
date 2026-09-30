@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-29T21:01:12.949354Z",
+ "stand": "2026-09-30T20:59:38.265282Z",
  "besetzung": [
   {
    "name": "Thorsten",
@@ -23,6 +23,135 @@
   }
  ],
  "folgen": [
+  {
+   "id": "podcast-vw-kuendigung-tarifvertraege",
+   "themaId": "vw-kuendigung-tarifvertraege",
+   "art": "podcast",
+   "titel": "Volkswagen kündigt Haustarifverträge im Rahmen von Sparmaßnahmen",
+   "text": "Der Automobilkonzern Volkswagen hat zahlreiche Haustarifverträge fristgerecht gekündigt. Arbeitnehmervertreter und Gewerkschaften kündigten umgehend Widerstand gegen diesen Schritt an.",
+   "zeit": "2026-09-30T20:59:38.265282Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-vw-kuendigung-tarifvertraege.mp3",
+   "l": 410.03,
+   "b": 3280749,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Herzlich willkommen zu unserem Podcast. Wir sprechen heute über die jüngsten Ereignisse beim Automobilkonzern Volkswagen, der zahlreiche Haustarifverträge fristgerecht zum Jahresende gekündigt hat. Alle Stimmen dieser Sendung sind Computerstimmen. Für die Einordnung und Details begrüße ich hier im Studio meine Kolleginnen und Kollegen Sigrid, Malte und Nora."
+    },
+    {
+     "s": 32.62,
+     "wer": "Sigrid",
+     "text": "Danke, Thorsten. Die Lage beim größten deutschen Autobauer spitzt sich damit weiter zu. Das Unternehmen will offenbar massiv sparen und greift dabei zu harten Mitteln. Es geht um Verträge, die das Fundament für die Arbeitnehmer in Deutschland bilden."
+    },
+    {
+     "s": 48.29,
+     "wer": "Malte",
+     "text": "Um das mit Zahlen zu belegen, blicken wir auf die Berichte von Tagesschau, Deutschlandfunk, Spiegel, Zeit und Süddeutscher Zeitung. Betroffen sind laut Berichten zehn Verträge, die für rund einhunderttausend Beschäftigte in Deutschland gelten. Die Kündigungen werden fristgerecht zum Ende des Jahres zweitausendsechsundzwanzig wirksam."
+    },
+    {
+     "s": 69.26,
+     "wer": "Nora",
+     "text": "Guten Tag auch von meiner Seite. Wichtig ist dabei, was wir schon als gesichert ansehen können. Volkswagen hat diesen Großteil seiner Haustarifverträge tatsächlich gekündigt, und dazu gehört eben auch der wichtige Manteltarifvertrag. Die IG Metall und der Betriebsrat haben daraufhin sofort Widerstand angekündigt."
+    },
+    {
+     "s": 96.23,
+     "wer": "Thorsten",
+     "text": "Sigrid, wie schätzt du die Reaktionen und Positionen der Beteiligten ein? Wie begründet das Unternehmen diesen Schritt."
+    },
+    {
+     "s": 108.99,
+     "wer": "Sigrid",
+     "text": "Das Volkswagen-Management, vertreten durch Personalvorstand Arne Meiswinkel, argumentiert mit einem enormen Kostendruck. Die Verträge müssten wegen verschärfter Marktbedingungen und der starken internationalen Konkurrenz dringend angepasst werden. Man sieht sich offenbar zu diesem harten Schritt gezwungen, um die Wettbewerbsfähigkeit des Konzerns langfristig zu sichern."
+    },
+    {
+     "s": 131.28,
+     "wer": "Nora",
+     "text": "Malte, wie stellt sich dagegen die Seite der Arbeitnehmer dar? Was sagt die IG Metall zu diesen Vorwürfen und dem Vorgehen."
+    },
+    {
+     "s": 141.2,
+     "wer": "Malte",
+     "text": "Hier hören wir völlig andere Töne. Der IG-Metall-Verhandlungsführer Thorsten Gröger hat die Kündigungen als ein übles Foul an der Belegschaft bezeichnet. Er sieht darin den klaren Versuch, direkt in den Geldbeutel der Mitarbeiter zu greifen. Die Gewerkschaft lässt sich das nicht kampflos gefallen."
+    },
+    {
+     "s": 160.93,
+     "wer": "Sigrid",
+     "text": "Und VW-Betriebsratschefin Daniela Cavallo legt sogar noch nach, wie wir aus den Berichten wissen. Sie nennt den Schritt eine Erpressung und kündigt eine heftige Auseinandersetzung zum Jahreswechsel an. Die Fronten zwischen Vorstand und Belegschaft sind also extrem verhärtet."
+    },
+    {
+     "s": 177.9,
+     "wer": "Nora",
+     "text": "Malte, wir haben hier verschiedene Angaben zu den Fakten. Lass uns genauer hinschauen, was in den Berichten eigentlich offen bleibt."
+    },
+    {
+     "s": 187.51,
+     "wer": "Malte",
+     "text": "Das betrifft vor allem die genaue Anzahl der gekündigten Verträge, Nora. Ein VW-Sprecher wollte sich dazu bislang nicht äußern. Die IG Metall und die Süddeutsche Zeitung sprechen übereinstimmend von zehn Verträgen, aber offizielle Bestätigungen dazu gibt es in Gänze noch nicht."
+    },
+    {
+     "s": 205.24,
+     "wer": "Sigrid",
+     "text": "Es gibt ja auch eine interessante Vorgeschichte dazu in der Zeitleiste. Erst im Jahr zweitausendundvier gab es den großen Tarifkompromiss mit dem Zukunftstarifvertrag und der Beschäftigungssicherung bis zum Jahr zweitausenddreißig."
+    },
+    {
+     "s": 220.28,
+     "wer": "Nora",
+     "text": "Genau, Sigrid, und das macht die Situation jetzt so brisant. Anfang September zweitausendsechsundzwanzig hat der Aufsichtsrat diesen Zukunftsplan mit einem Mandat zum Konzernumbau beschlossen. Nur wenig später, am dreißigsten September zweitausendsechsundzwanzig, folgten dann das erste Überprüfungsgespräch und die Kündigungen."
+    },
+    {
+     "s": 246.06,
+     "wer": "Thorsten",
+     "text": "Das zeigt, wie schnell sich die Dynamik verändert hat. Malte, wie bewertest du den Zeitplan im Hinblick auf das Ende des Jahres."
+    },
+    {
+     "s": 261.69,
+     "wer": "Malte",
+     "text": "Der Zeitplan ist extrem straff, Thorsten. Die Kündigung der Tarifverträge wird am einunddreißigsten Dezember zweitausendsechsundzwanzig fristgerecht wirksam. Bis dahin bleibt den Parteien nur sehr wenig Zeit für Verhandlungen, und die angekündigte heftige Auseinandersetzung rückt näher."
+    },
+    {
+     "s": 283.36,
+     "wer": "Sigrid",
+     "text": "Nora hat es eben schon angesprochen, dass die genaue Zahl der Verträge umstritten bleibt. Glaubst du, dass VW hier bald für Transparenz sorgt."
+    },
+    {
+     "s": 294.84,
+     "wer": "Nora",
+     "text": "Das ist reine Spekulation, Sigrid. Bisher hüllt sich das Management in dieser Frage in Schweigen. Die IG Metall stützt sich auf ihre eigenen Quellen und Berichte, aber ob VW alle Details offenlegt, bleibt abzuwarten."
+    },
+    {
+     "s": 314.61,
+     "wer": "Thorsten",
+     "text": "Malte, lass uns noch einmal auf die Beschäftigten schauen. Wie viele Menschen sind von diesem massiven Einschnitt genau betroffen."
+    },
+    {
+     "s": 324.79,
+     "wer": "Malte",
+     "text": "Laut den vorliegenden Zahlen sind das rund einhunderttausend Beschäftigte in Deutschland, die von diesen Haustarifverträgen und insbesondere dem Manteltarifvertrag direkt oder indirekt betroffen sind. Das ist eine massive Basis, die nun in Sorge um ihre Arbeitsbedingungen ist."
+    },
+    {
+     "s": 343.46,
+     "wer": "Sigrid",
+     "text": "Und das führt uns wieder zu den harten Worten von Daniela Cavallo, die von Erpressung sprach. Die Belegschaft sieht ihre Errungenschaften aus dem Zukunftstarifvertrag von zweitausendundvier in Gefahr. Die Vereinbarung lief eigentlich bis zweitausenddreißig."
+    },
+    {
+     "s": 358.88,
+     "wer": "Nora",
+     "text": "Sigrid, da sprichst du einen zentralen Punkt an. Der Aufsichtsrat hat im September zweitausendsechsundzwanzig ein Mandat zum Konzernumbau erteilt, und das hat die Lage komplett gedreht. Die Zusagen von damals scheinen unter dem neuen Kostendruck nicht mehr zu gelten."
+    },
+    {
+     "s": 377.96,
+     "wer": "Thorsten",
+     "text": "Wir fassen zusammen: Volkswagen kündigt zahlreiche Haustarifverträge unter Berufung auf den enormen Kostendruck und internationale Konkurrenz. Gewerkschaften und Betriebsrat werfen dem Management Erpressung vor und kündigen harten Widerstand an. Offen ist vor allem die exakte Zahl der betroffenen Verträge. Wir begleiten dieses Thema für Sie weiter in unserem Podcast."
+    }
+   ]
+  },
   {
    "id": "podcast-schweiz-neutralitaetsinitiative-volksabstimmung",
    "themaId": "schweiz-neutralitaetsinitiative-volksabstimmung",
