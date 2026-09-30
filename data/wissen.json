@@ -189,7 +189,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Der Limes sicherte die Grenzen des Römischen Reiches."
-   }
+   },
+   "ton": [
+    {
+     "k": "Der Limes war die Grenze des Römischen Reiches. Er wurde vom ersten bis zum sech",
+     "d": "2cdb3dc113.mp3",
+     "l": 28.34,
+     "s": [
+      0.25,
+      3.47,
+      6.7,
+      10.06,
+      13.61,
+      16.16,
+      19.95,
+      22.55
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-muskelkater",
@@ -319,7 +336,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Muskelkater entsteht oft nach ungewohnten oder sehr hohen körperlichen Belastungen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Muskelkater ist ein Schmerz nach körperlicher Anstrengung. Er tritt besonders be",
+     "d": "6d4e55c385.mp3",
+     "l": 27.13,
+     "s": [
+      0.25,
+      3.97,
+      6.75,
+      10.01,
+      13.51,
+      16.36,
+      19.32,
+      23.38
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-pass",
@@ -505,7 +539,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen über Grenzen hinweg."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Er wird",
+     "d": "b256aa3bbd.mp3",
+     "l": 34.46,
+     "s": [
+      0.25,
+      4.62,
+      8.89,
+      12.32,
+      16.0,
+      20.28,
+      24.76,
+      29.4
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-eigentlich-die-geheimschrift-enigma",
@@ -1289,24 +1340,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Das Herz ist ein muskuläres Hohlorgan, das den Blutkreislauf antreibt."
-   },
-   "ton": [
-    {
-     "k": "Das Herz ist ein muskuläres Hohlorgan im Körper. Es pumpt Blut durch den Kreisla",
-     "d": "2528bd1fdc.mp3",
-     "l": 29.51,
-     "s": [
-      0.25,
-      3.54,
-      7.2,
-      10.81,
-      13.87,
-      18.97,
-      23.08,
-      26.47
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-die-briefmarke",
@@ -1464,24 +1498,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Briefmarke weist die Bezahlung des Portos nach."
-   },
-   "ton": [
-    {
-     "k": "Eine Briefmarke bestätigt die Zahlung für die Beförderung eines Briefes. Früher ",
-     "d": "c6ff1441fa.mp3",
-     "l": 39,
-     "s": [
-      0.25,
-      4.54,
-      7.95,
-      11.7,
-      16.43,
-      22.16,
-      29.31,
-      34.68
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-streik",

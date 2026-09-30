@@ -2230,7 +2230,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 22 und 28 Grad. Die Vorhersage für morgen,",
+   "d": "a62feff5bf.mp3",
+   "l": 20.1,
+   "s": [
+    0.25,
+    5.09,
+    9.22,
+    13.81,
+    17.3
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -6577,6 +6589,88 @@
      "s": [
       0.25,
       3.4
+     ]
+    },
+    {
+     "k": "In Südafrika ist es an einem Wochenende durch Schusswaffenangriffe zum Tod von m",
+     "d": "1ab2a5b550.mp3",
+     "l": 60.75,
+     "s": [
+      0.25,
+      7.76,
+      16.77,
+      24.66,
+      31.44,
+      43.56,
+      48.9,
+      55.51
+     ]
+    },
+    {
+     "k": "Zu den Abläufen der Schusswaffenangriffe liegen Berichte von Augenzeugen vor. Ei",
+     "d": "2821ada381.mp3",
+     "l": 54.09,
+     "s": [
+      0.25,
+      4.9,
+      12.45,
+      17.28,
+      26.23,
+      31.64,
+      36.47,
+      46.89
+     ]
+    },
+    {
+     "k": "Südafrika weist laut Tagesschau/ARD und BBC eine der höchsten Mordraten weltweit",
+     "d": "3acdbe25db.mp3",
+     "l": 61.57,
+     "s": [
+      0.25,
+      6.62,
+      14.26,
+      20.01,
+      28.84,
+      37.7,
+      45.36,
+      50.88
+     ]
+    },
+    {
+     "k": "Südafrika ist ein Staat an der Südspitze des afrikanischen Kontinents. Pretoria ",
+     "d": "310ee2e477.mp3",
+     "l": 18.48,
+     "s": [
+      0.25,
+      4.99,
+      11.23
+     ]
+    },
+    {
+     "k": "Präsident Cyril Ramaphosa zeigte sich über die jüngsten Gewalttaten erschüttert.",
+     "d": "70b7ed01df.mp3",
+     "l": 60.17,
+     "s": [
+      0.25,
+      4.75,
+      14.35,
+      21.73,
+      29.64,
+      36.23,
+      48.63,
+      56.34
+     ]
+    },
+    {
+     "k": "Die südafrikanische Polizei führt die Ermittlungen zu den Schusswaffenangriffen ",
+     "d": "00280bf200.mp3",
+     "l": 30.09,
+     "s": [
+      0.25,
+      6.86,
+      11.29,
+      17.43,
+      22.55
      ]
     }
    ]
