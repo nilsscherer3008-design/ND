@@ -1,6 +1,16 @@
 {
- "stand": "2026-09-29T20:43:12.562Z",
+ "stand": "2026-09-30T06:39:04.882Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-09-30",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-09-30",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Verfahren gegen Manchester City wegen Verstößen gegen Finanzregeln · Regierungsbildung in Marokko nach Parlamentswahl · Verhandlungen über die Pflegereform vor Kabinettsberatungen · OpenAI verschiebt Veröffentlichung von neuem KI-Modell und stellt Assistenten vor · US-Importverbote für bestimmte Waren aus Kanada in Kraft getreten",
+   "zeit": "2026-09-30T06:39:04.882Z",
+   "d": "folge-hauptausgabe-2026-09-30.mp3",
+   "l": 663.6,
+   "b": 3981837
+  },
   {
    "id": "wissen-wie-funktionierte-eigentlich-der-limes",
    "art": "wissen",
@@ -30,16 +40,6 @@
    "d": "b256aa3bbd.mp3",
    "l": 34.46,
    "b": 207165
-  },
-  {
-   "id": "hauptausgabe-2026-09-29",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-09-29",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Koalition ringt vor geplantem Kabinettsbeschluss um Pflegereform · Verschiebung eines neuen OpenAI-Modells nach Sicherheitsbedenken · Einigung nach Zwangsräumung einer Mieterin in Madrid · US-Importverbote für bestimmte Waren aus Kanada treten in Kraft · Festnahmen nach Hinweisen auf Sprengstoff und Terrorverdacht nahe britischer Militärbasis",
-   "zeit": "2026-09-29T08:23:41.726Z",
-   "d": "folge-hauptausgabe-2026-09-29.mp3",
-   "l": 605.95,
-   "b": 3635949
   },
   {
    "id": "wissen-wie-funktionierte-eigentlich-die-geheimschrift-enigma",
