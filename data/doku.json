@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-30T13:38:12.194Z",
+ "stand": "2026-09-30T19:13:41.642Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -49,7 +49,8 @@
    {
     "ueberschrift": "Die griechische Anpassung",
     "wikipedia": "Griechisches Alphabet",
-    "fokus": "Die Griechen ergänzten das Alphabet um Vokale und prägten die europäische Schrift."
+    "fokus": "Die Griechen ergänzten das Alphabet um Vokale und prägten die europäische Schrift.",
+    "versuche": 1
    },
    {
     "ueberschrift": "Die lateinische Schrift",
