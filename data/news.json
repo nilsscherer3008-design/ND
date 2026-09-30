@@ -2238,7 +2238,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
+   "d": "f5720d87bd.mp3",
+   "l": 22.12,
+   "s": [
+    0.25,
+    5.18,
+    11.67,
+    15.96,
+    19.41
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2893,7 +2905,148 @@
     "lon": 9.739
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Autohersteller Volkswagen hat einen Großteil seiner Haustarifverträge gekünd",
+     "d": "9c675589c5.mp3",
+     "l": 61.53,
+     "s": [
+      0.25,
+      5.22,
+      9.41,
+      18.78,
+      24.26,
+      31.66,
+      36.5,
+      42.16,
+      48.59,
+      55.53
+     ]
+    },
+    {
+     "k": "Der Autohersteller Volkswagen hat fast alle seine Haustarifverträge gekündigt. D",
+     "d": "577f593333.mp3",
+     "l": 15.49,
+     "s": [
+      0.25,
+      4.88,
+      9.74
+     ]
+    },
+    {
+     "k": "Volkswagen hat viele wichtige Verträge mit seinen Arbeitnehmern gekündigt. Das U",
+     "d": "28775950ad.mp3",
+     "l": 25.79,
+     "s": [
+      0.25,
+      5.37,
+      10.53,
+      14.78,
+      20.99
+     ]
+    },
+    {
+     "k": "Die genaue Anzahl der gekündigten Verträge: Ein VW-Sprecher wollte sich nicht äu",
+     "d": "8eebfd3241.mp3",
+     "l": 8.76,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Haustarifvertrag? Ein Vertrag zwischen einem einzelnen U",
+     "d": "b24fd76774.mp3",
+     "l": 13.71,
+     "s": [
+      0.25,
+      3.79
+     ]
+    },
+    {
+     "k": "Der Automobilkonzern Volkswagen hat einen Großteil seiner bestehenden Haustarifv",
+     "d": "477124fd6a.mp3",
+     "l": 43.35,
+     "s": [
+      0.25,
+      6.36,
+      11.85,
+      14.82,
+      19.34,
+      27.42,
+      32.17,
+      35.92
+     ]
+    },
+    {
+     "k": "Von der Kündigung betroffen ist nach übereinstimmenden Berichten der Manteltarif",
+     "d": "c8a1fd80b9.mp3",
+     "l": 51.78,
+     "s": [
+      0.25,
+      8.08,
+      11.26,
+      14.59,
+      22.39,
+      27.22,
+      38.4,
+      44.33
+     ]
+    },
+    {
+     "k": "Das wirtschaftliche Umfeld hat sich für die Autoindustrie und Volkswagen nach An",
+     "d": "a0bd2572f9.mp3",
+     "l": 54.17,
+     "s": [
+      0.25,
+      9.48,
+      12.8,
+      20.25,
+      30.32,
+      34.48,
+      40.03,
+      47.05
+     ]
+    },
+    {
+     "k": "Ein Manteltarifvertrag ist ein Kollektivvertrag zwischen einer Gewerkschaft und ",
+     "d": "ec1174441d.mp3",
+     "l": 36.19,
+     "s": [
+      0.25,
+      7.18,
+      17.99,
+      26.8
+     ]
+    },
+    {
+     "k": "Die Gewerkschaft IG Metall und der Betriebsrat kündigten umgehend Widerstand geg",
+     "d": "50a27f2990.mp3",
+     "l": 58.99,
+     "s": [
+      0.25,
+      7.02,
+      14.35,
+      24.91,
+      32.81,
+      37.1,
+      42.19,
+      49.73
+     ]
+    },
+    {
+     "k": "Die ausgesprochenen Kündigungen der Tarifverträge werden zum 31. Dezember 2026 f",
+     "d": "78cab57428.mp3",
+     "l": 29.35,
+     "s": [
+      0.25,
+      4.89,
+      8.72,
+      14.58,
+      22.59
+     ]
+    }
+   ]
   },
   {
    "id": "koalitionsstreit-pflegereform-linnemann-spd",
@@ -3336,7 +3489,124 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Das Bundeskabinett hat einen Gesetzentwurf zur Reform der Pflegeversicherung auf",
+     "d": "fe4886fe6b.mp3",
+     "l": 51.58,
+     "s": [
+      0.25,
+      5.56,
+      10.69,
+      15.76,
+      24.25,
+      28.23,
+      32.81,
+      38.68,
+      43.9,
+      47.5
+     ]
+    },
+    {
+     "k": "Das Bundeskabinett hat einen neuen Gesetzentwurf zur Pflegeversicherung auf den ",
+     "d": "4f7fe45846.mp3",
+     "l": 13.56,
+     "s": [
+      0.25,
+      5.4,
+      10.29
+     ]
+    },
+    {
+     "k": "Die Regierung hat eine Reform für die Pflege beschlossen. Das Kabinett hat sich ",
+     "d": "9a311a9846.mp3",
+     "l": 18.74,
+     "s": [
+      0.25,
+      4.23,
+      8.07,
+      12.21,
+      14.91
+     ]
+    },
+    {
+     "k": "Ob die von der SPD geforderten Maßnahmen und ein Ausgleich zwischen gesetzlicher",
+     "d": "32c1966c32.mp3",
+     "l": 9.36,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Bundeskabinett? Das Bundeskabinett besteht aus dem Bunde",
+     "d": "40571abe53.mp3",
+     "l": 8.53,
+     "s": [
+      0.25,
+      3.59
+     ]
+    },
+    {
+     "k": "Das Bundeskabinett hat in Berlin einen Gesetzentwurf zur Reform der Pflegeversic",
+     "d": "241158853d.mp3",
+     "l": 24.22,
+     "s": [
+      0.25,
+      6.28,
+      12.53,
+      17.73
+     ]
+    },
+    {
+     "k": "Ein zentrales Element des vom Kabinett verabschiedeten Entwurfs ist die Erhöhung",
+     "d": "46839531cf.mp3",
+     "l": 27.94,
+     "s": [
+      0.25,
+      7.23,
+      14.04,
+      21.05
+     ]
+    },
+    {
+     "k": "Der Weg zum Kabinettsbeschluss war von Verhandlungen geprägt. Die Süddeutsche Ze",
+     "d": "ccbfb37a8a.mp3",
+     "l": 14.14,
+     "s": [
+      0.25,
+      4.13
+     ]
+    },
+    {
+     "k": "Die Pflegeversicherung ist ein Zweig der sozialen Sicherheit in Deutschland und ",
+     "d": "0ed0bff7b0.mp3",
+     "l": 16.49,
+     "s": [
+      0.25,
+      7.56,
+      12.02
+     ]
+    },
+    {
+     "k": "Bundesgesundheitsminister Carsten Linnemann äußerte sich im ZDF zu den Beschlüss",
+     "d": "13a54cc4a4.mp3",
+     "l": 14.5,
+     "s": [
+      0.25,
+      5.09
+     ]
+    },
+    {
+     "k": "Die im Gesetzentwurf enthaltene Erhöhung des Beitragszuschlags für Kinderlose tr",
+     "d": "2c6164b799.mp3",
+     "l": 14.78,
+     "s": [
+      0.25,
+      8.43
+     ]
+    }
+   ]
   },
   {
    "id": "marokko-erste-ministerpraesidentin",
@@ -3725,7 +3995,109 @@
     "lon": -6.841
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Marokko hat der König Fatima Ezzahra El Mansouri zur ersten Regierungschefin ",
+     "d": "db147e8878.mp3",
+     "l": 38.8,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "König Mohammed VI. hat Fatima Ezzahra El Mansouri zur ersten Premierministerin M",
+     "d": "f56f174870.mp3",
+     "l": 15.42,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "In Marokko regiert zum ersten Mal eine Frau. Ihr Name ist Fatima Ezzahra El Mans",
+     "d": "d0742ff399.mp3",
+     "l": 22.21,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Die genaue Höhe der Wahlbeteiligung: Tagesschau/ARD und Spiegel nennen rund 38 P",
+     "d": "0c4f82d040.mp3",
+     "l": 11.03,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Premierministerin? Eine Premierministerin ist die Regier",
+     "d": "aab88ca06c.mp3",
+     "l": 10.18,
+     "s": [
+      0.25,
+      3.66
+     ]
+    },
+    {
+     "k": "In Marokko ist Fatima Ezzahra El Mansouri zur Regierungschefin ernannt worden. A",
+     "d": "456eb55010.mp3",
+     "l": 41.73,
+     "s": [
+      0.25,
+      4.91,
+      10.23,
+      13.33,
+      17.54,
+      20.91,
+      26.16,
+      31.6
+     ]
+    },
+    {
+     "k": "Der Ernennung ging eine Parlamentswahl am 23. September voraus. Dabei sank die W",
+     "d": "6f6b46dfc4.mp3",
+     "l": 46.47,
+     "s": [
+      0.25,
+      4.18,
+      5.75,
+      13.07,
+      18.07,
+      27.21,
+      35.05,
+      42.41
+     ]
+    },
+    {
+     "k": "Gemäß der marokkanischen Verfassung ernennt der Monarch den Regierungschef aus d",
+     "d": "749e57658d.mp3",
+     "l": 56.7,
+     "s": [
+      0.25,
+      7.56,
+      15.19,
+      22.08,
+      27.43,
+      32.65,
+      42.32,
+      46.56
+     ]
+    },
+    {
+     "k": "Fatima Ezzahra El Mansouri erklärte laut der Süddeutschen Zeitung, dass ihre Ern",
+     "d": "2d90878888.mp3",
+     "l": 47.36,
+     "s": [
+      0.25,
+      8.19,
+      13.81,
+      19.16,
+      24.46,
+      30.51,
+      42.1
+     ]
+    }
+   ]
   },
   {
    "id": "manchester-city-finanzaffaere",
@@ -4198,7 +4570,148 @@
     }
    ],
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Ein englisches Fußballteam ist verurteilt worden. Manchester City hat nach Angab",
+     "d": "af68b01e97.mp3",
+     "l": 41.53,
+     "s": [
+      0.25,
+      3.27,
+      7.86,
+      12.67,
+      17.2,
+      20.65,
+      27.55,
+      31.75,
+      37.47
+     ]
+    },
+    {
+     "k": "Manchester City ist von einer Kommission wegen Verstößen gegen Finanzregeln schu",
+     "d": "8856476b49.mp3",
+     "l": 21.04,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Manchester City hat gegen Regeln im Fußball verstoßen. Das hat eine Kommission a",
+     "d": "06bc12dab3.mp3",
+     "l": 22.74,
+     "s": [
+      0.25,
+      4.81,
+      11.17,
+      15.65,
+      19.77
+     ]
+    },
+    {
+     "k": "Ob der Verein tatsächlich mit einem Zwangsabstieg oder dem Entzug von Titeln bes",
+     "d": "4e02e1f1fd.mp3",
+     "l": 8.81,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Financial Fairplay? Ein System von Regeln im Fußball, da",
+     "d": "4180b0bd2b.mp3",
+     "l": 12.05,
+     "s": [
+      0.25,
+      4.09
+     ]
+    },
+    {
+     "k": "Der englische Spitzenclub Manchester City ist von einer unabhängigen Kommission ",
+     "d": "acb8529e3a.mp3",
+     "l": 54.93,
+     "s": [
+      0.25,
+      10.57,
+      17.45,
+      21.66,
+      31.73,
+      36.34,
+      45.87,
+      48.94
+     ]
+    },
+    {
+     "k": "Laut Angaben der unabhängigen Kommission hat Manchester City in dem untersuchten",
+     "d": "8395d1ea77.mp3",
+     "l": 53.85,
+     "s": [
+      0.25,
+      7.29,
+      11.44,
+      20.23,
+      24.57,
+      34.21,
+      41.71,
+      47.78
+     ]
+    },
+    {
+     "k": "Es ist nicht das erste Mal, dass Manchester City mit Vorwürfen und Sanktionen we",
+     "d": "8f7bfb43cf.mp3",
+     "l": 61.57,
+     "s": [
+      0.25,
+      7.83,
+      16.89,
+      27.11,
+      31.83,
+      40.29,
+      49.98
+     ]
+    },
+    {
+     "k": "Die Premier League ist die höchste Spielklasse im englischen Profifußball. Die z",
+     "d": "61ef7b93c7.mp3",
+     "l": 49.98,
+     "s": [
+      0.25,
+      4.77,
+      12.55,
+      17.2,
+      25.68,
+      32.32,
+      39.42
+     ]
+    },
+    {
+     "k": "Manchester City reagierte enttäuscht und überrascht auf die Entscheidung der Kom",
+     "d": "4c786d01ba.mp3",
+     "l": 73.71,
+     "s": [
+      0.25,
+      6.65,
+      15.18,
+      27.98,
+      35.41,
+      44.37,
+      53.51,
+      65.65
+     ]
+    },
+    {
+     "k": "Der Verein hat bis Freitag, den 02. 10. 2026, Zeit, um gegen die Feststellungen ",
+     "d": "38dbe6863b.mp3",
+     "l": 29.69,
+     "s": [
+      0.25,
+      3.14,
+      4.0,
+      10.96,
+      16.56,
+      20.36
+     ]
+    }
+   ]
   },
   {
    "id": "ki-agenten-datenleck-openai",
@@ -5882,6 +6395,36 @@
       34.02,
       41.1,
       52.36
+     ]
+    },
+    {
+     "k": "Die Wohnungsnot in Spanien verschärft sich nach Angaben aller drei Berichte von ",
+     "d": "72ef2e6118.mp3",
+     "l": 61.14,
+     "s": [
+      0.25,
+      5.25,
+      10.74,
+      19.1,
+      28.42,
+      35.32,
+      37.19,
+      48.21
+     ]
+    },
+    {
+     "k": "Spaniens Wohnungsministerin Isabel Rodríguez erklärte laut Tagesschau/ARD und BB",
+     "d": "5a86fa5bf1.mp3",
+     "l": 79.47,
+     "s": [
+      0.25,
+      11.22,
+      21.53,
+      33.53,
+      45.19,
+      54.32,
+      58.98,
+      68.24
      ]
     }
    ]

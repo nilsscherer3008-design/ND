@@ -147,7 +147,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Das Gedächtnis basiert auf Verbindungen im Gehirn."
-   }
+   },
+   "ton": [
+    {
+     "k": "Das Gedächtnis ist die Fähigkeit von Nervensystemen. Es speichert aufgenommene I",
+     "d": "7541058a12.mp3",
+     "l": 27.77,
+     "s": [
+      0.25,
+      3.63,
+      6.74,
+      9.54,
+      12.69,
+      16.7,
+      19.88,
+      23.46
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-eine-ampel",
@@ -1302,24 +1319,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Kryptographie befasst sich mit der sicheren Verschlüsselung und Übertragung von Informationen."
-   },
-   "ton": [
-    {
-     "k": "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen. Schon ",
-     "d": "251315d738.mp3",
-     "l": 35.4,
-     "s": [
-      0.25,
-      4.42,
-      8.41,
-      13.33,
-      17.77,
-      22.27,
-      26.61,
-      30.94
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-entsteht-eigentlich-ein-blitz",

@@ -1,6 +1,16 @@
 {
- "stand": "2026-09-30T13:38:12.194Z",
+ "stand": "2026-09-30T19:13:41.642Z",
  "folgen": [
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich das menschliche Gedächtnis?",
+   "text": "Das Gedächtnis speichert Informationen im Gehirn von Lebewesen. Es hilft dabei, Erlebnisse und Fakten dauerhaft zu behalten.",
+   "zeit": "2026-09-30T13:45:23.860Z",
+   "d": "7541058a12.mp3",
+   "l": 27.77,
+   "b": 167133
+  },
   {
    "id": "hauptausgabe-2026-09-30",
    "art": "nachrichten",
@@ -50,16 +60,6 @@
    "d": "4965014c29.mp3",
    "l": 37.39,
    "b": 224733
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-die-geheimsprache",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich die Geheimsprache?",
-   "text": "Kryptographie ist die Wissenschaft der Verschlüsselung von Informationen. Heute sorgt sie dafür, dass Daten im Internet sicher sind.",
-   "zeit": "2026-09-27T14:00:58.012Z",
-   "d": "251315d738.mp3",
-   "l": 35.4,
-   "b": 212781
   }
  ]
 }
