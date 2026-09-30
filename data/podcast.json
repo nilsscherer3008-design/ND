@@ -12,6 +12,16 @@
    "b": 167133
   },
   {
+   "id": "wissen-wie-funktioniert-eigentlich-eine-ampel",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich eine Ampel?",
+   "text": "Ampeln steuern den Straßen- und Schienenverkehr auf der ganzen Welt. Sie haben eine lange Geschichte und nutzen heute verschiedene Signale.",
+   "zeit": "2026-09-30T06:45:19.266Z",
+   "d": "572dccb84d.mp3",
+   "l": 32.66,
+   "b": 196365
+  },
+  {
    "id": "hauptausgabe-2026-09-30",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-09-30",
@@ -50,16 +60,6 @@
    "d": "b256aa3bbd.mp3",
    "l": 34.46,
    "b": 207165
-  },
-  {
-   "id": "wissen-wie-funktionierte-eigentlich-die-geheimschrift-enigma",
-   "art": "wissen",
-   "titel": "Wie funktionierte eigentlich die Geheimschrift Enigma?",
-   "text": "Die Enigma ist eine bekannte Verschlüsselungsmaschine aus dem zwanzigsten Jahrhundert. Im Zweiten Weltkrieg wurde sie von den Achsenmächten zur geheimen Nachrichtenübertragung verwendet.",
-   "zeit": "2026-09-27T18:27:17.340Z",
-   "d": "4965014c29.mp3",
-   "l": 37.39,
-   "b": 224733
   }
  ]
 }

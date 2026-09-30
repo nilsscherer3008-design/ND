@@ -358,7 +358,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Ampel steuert den Verkehr an Kreuzungen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ampeln regeln den Verkehr auf der Welt. Sie zeigen an, wer fahren oder gehen dar",
+     "d": "572dccb84d.mp3",
+     "l": 32.66,
+     "s": [
+      0.25,
+      2.84,
+      6.14,
+      11.14,
+      13.52,
+      17.06,
+      22.44,
+      28.35
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-eigentlich-der-limes",
