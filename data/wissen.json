@@ -1,6 +1,200 @@
 {
- "stand": "2026-09-29T20:43:12.562Z",
+ "stand": "2026-09-30T06:39:04.882Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-eine-ampel",
+   "zeit": "2026-09-30T06:45:19.266Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich eine Ampel?",
+   "vorspann": "Ampeln steuern den Straßen- und Schienenverkehr auf der ganzen Welt. Sie haben eine lange Geschichte und nutzen heute verschiedene Signale.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ampeln sind Signalgeber von Lichtsignalanlagen. Sie ordnen Verkehrsteilnehmern ein bestimmtes Verhalten an. Die Bezeichnungen in den deutschsprachigen Ländern sind unterschiedlich. In Deutschland spricht man laut Straßenverkehrsordnung von Lichtzeichenanlagen. In Österreich und der Schweiz wird die Bezeichnung Lichtsignalanlage verwendet.",
+      "Der Begriff Ampel geht auf frühere Hängeleuchten zurück. Die ersten Signalgeber hingen an Drahtseilen über Kreuzungen. Das Wort stammt vom lateinischen Wort ampulla für kleine Flasche ab. Später wurde der Begriff für Verkehrsampeln übernommen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Ampelanlagen werden aus verschiedenen Gründen eingesetzt. Sie regeln den Verkehrsfluss und verbessern die Verkehrssicherheit an gefährlichen Kreuzungen. Bei hohem Verkehrsaufkommen helfen sie, den Durchsatz zu kontrollieren. Auch für Fußgänger und den Radverkehr gibt es spezielle Signalanlagen.",
+      "Fußgängersignalanlagen werden oft per Knopfdruck betrieben. Die erste solche Anlage in Deutschland wurde im Jahr 1937 im Berliner Tiergarten installiert. Für Linienbusse und Straßenbahnen gibt es in manchen Ländern eigene Ampeln. Diese dienen vor allem der Bevorrechtigung im öffentlichen Nahverkehr."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die erste Lichtsignalanlage der Welt wurde am 10. Dezember 1868 in London aufgestellt. Sie wurde mit Gaslicht betrieben und explodierte nach kurzer Zeit. Die erste elektrische Verkehrsampel folgte am 5. August 1914 in Cleveland in den USA. Die erste deutsche Lichtzeichenanlage ging am 15. Dezember 1924 am Potsdamer Platz in Berlin in Betrieb."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Für eine an einigen Stellen erwähnte Aussage, dass die erste Ampel Deutschlands bereits 1922 am Hamburger Stephansplatz aufgestellt wurde, gibt es laut dem Text keinen nachprüfbaren und plausiblen Beleg."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erste Lichtsignalanlage der Welt",
+     "10. Dezember 1868"
+    ],
+    [
+     "Erste elektrische Verkehrsampel",
+     "5. August 1914"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Lichtsignalanlage",
+     "Der offizielle technische Begriff für eine Ampel."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde die erste elektrische Verkehrsampel in den USA aufgestellt?",
+     "optionen": [
+      "5. August 1914",
+      "15. Dezember 1924",
+      "10. Dezember 1868"
+     ],
+     "richtig": 0,
+     "erklaerung": "Die erste elektrische Verkehrsampel wurde am 5. August 1914 in Cleveland installiert."
+    }
+   ],
+   "video": [
+    "Ampeln regeln den Verkehr auf der Welt.",
+    "Sie zeigen an, wer fahren oder gehen darf.",
+    "Die allererste Ampel stand im Jahr 1868 in London.",
+    "Damals wurde sie noch mit Gas betrieben.",
+    "Kurze Zeit später explodierte diese erste Anlage.",
+    "Die erste elektrische Ampel kam im Jahr 1914 in die USA.",
+    "In Deutschland ging die erste Anlage 1924 in Berlin in Betrieb.",
+    "Heute helfen Ampeln dabei, Unfälle an Kreuzungen zu verhindern."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Ampel",
+    "bildunterschrift": "Eine Ampel steuert den Verkehr an Kreuzungen."
+   },
+   "quelle": {
+    "titel": "Ampel",
+    "url": "https://de.wikipedia.org/wiki/Ampel",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 230,
+   "bildInfos": [
+    {
+     "titel": "Led traffic lights.jpg",
+     "beschreibung": "LED traffic lights in Örnsköldsvik, Sweden.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Led_traffic_lights.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Led_traffic_lights.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Led_traffic_lights.jpg",
+     "urheber": "Petey21",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Ampel",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Ampel steuert den Verkehr an Kreuzungen."
+    },
+    {
+     "titel": "2009-05-30-polska-by-RalfR-71.jpg",
+     "beschreibung": "Szczecin",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/2009-05-30-polska-by-RalfR-71.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/04/2009-05-30-polska-by-RalfR-71.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2009-05-30-polska-by-RalfR-71.jpg",
+     "urheber": "Ralf Roletschek",
+     "lizenz": "GFDL 1.2",
+     "lizenzUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Szczecin"
+    },
+    {
+     "titel": "2009-05-30-polska-by-RalfR-72.jpg",
+     "beschreibung": "Szczecin",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/2009-05-30-polska-by-RalfR-72.jpg/1280px-2009-05-30-polska-by-RalfR-72.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/2009-05-30-polska-by-RalfR-72.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2009-05-30-polska-by-RalfR-72.jpg",
+     "urheber": "Ralf Roletschek",
+     "lizenz": "GFDL 1.2",
+     "lizenzUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Szczecin"
+    },
+    {
+     "titel": "2010-05-breda-fahrradschilder-by-RalfR-11.jpg",
+     "beschreibung": "Breda Süd, Fahrradschilder",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/2010-05-breda-fahrradschilder-by-RalfR-11.jpg/1280px-2010-05-breda-fahrradschilder-by-RalfR-11.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2010-05-breda-fahrradschilder-by-RalfR-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2010-05-breda-fahrradschilder-by-RalfR-11.jpg",
+     "urheber": "Ralf Roletschek ( talk ) - Fahrradtechnik auf fahrradmonteur.de",
+     "lizenz": "GFDL 1.2",
+     "lizenzUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Breda Süd, Fahrradschilder"
+    },
+    {
+     "titel": "Abrams Building site, Albany, NY (cropped).jpg",
+     "beschreibung": "Former location of the Abrams Building at South Pearl Street ( NY 32 ) and Hudson Avenue in Albany, NY, USA",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Abrams_Building_site%2C_Albany%2C_NY_%28cropped%29.jpg/1280px-Abrams_Building_site%2C_Albany%2C_NY_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Abrams_Building_site%2C_Albany%2C_NY_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Abrams_Building_site,_Albany,_NY_(cropped).jpg",
+     "urheber": "Daniel Case",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Former location of the Abrams Building at South Pearl Street ( NY 32 ) and Hudson Avenue in Albany, NY, USA"
+    },
+    {
+     "titel": "Amerikanische Kreuzung in Berlin.JPG",
+     "beschreibung": "Amerikanische Kreuzung „Friedrichstraße/Rudi-Dutschke-Straße“ in Berlin 2009",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Amerikanische_Kreuzung_in_Berlin.JPG/1280px-Amerikanische_Kreuzung_in_Berlin.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Amerikanische_Kreuzung_in_Berlin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Amerikanische_Kreuzung_in_Berlin.JPG",
+     "urheber": "Elkawe",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Amerikanische Kreuzung „Friedrichstraße/Rudi-Dutschke-Straße“ in Berlin 2009"
+    },
+    {
+     "titel": "Ampel-Goettingen-34.jpg",
+     "beschreibung": "Geschwindigkeitsanzeiger, Göttingen, Kasseler Landstraße, westlich Rehbachstraße, ortsauswärts, 31.12.2013. Foto: Francisco Welter-Schultes.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Ampel-Goettingen-34.jpg/1280px-Ampel-Goettingen-34.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ampel-Goettingen-34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ampel-Goettingen-34.jpg",
+     "urheber": "User:FranciscoWelterSchultes",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Geschwindigkeitsanzeiger, Göttingen, Kasseler Landstraße, westlich Rehbachstraße, ortsauswärts, 31.12.2013. Foto: Francisco Welter-Schultes."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Led traffic lights.jpg",
+    "beschreibung": "LED traffic lights in Örnsköldsvik, Sweden.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Led_traffic_lights.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Led_traffic_lights.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Led_traffic_lights.jpg",
+    "urheber": "Petey21",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Ampel",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Ampel steuert den Verkehr an Kreuzungen."
+   }
+  },
   {
    "id": "wie-funktionierte-eigentlich-der-limes",
    "zeit": "2026-09-29T20:47:34.385Z",
@@ -550,7 +744,7 @@
       4.62,
       8.89,
       12.32,
-      16.0,
+      16,
       20.28,
       24.76,
       29.4
