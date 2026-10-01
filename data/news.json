@@ -2802,7 +2802,125 @@
     "lon": 37.633
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Auf einem Flug von Dubai nach Tel Aviv hat es einen gewaltsamen Zwischenfall im ",
+     "d": "e8deae4b5b.mp3",
+     "l": 60.33,
+     "s": [
+      0.25,
+      5.59,
+      11.89,
+      18.52,
+      24.38,
+      31.04,
+      36.9,
+      41.96,
+      49.36,
+      54.09
+     ]
+    },
+    {
+     "k": "Auf einem Flug von Dubai nach Tel Aviv kam es im Cockpit zu einem Messerangriff.",
+     "d": "0c7db5b531.mp3",
+     "l": 16.1,
+     "s": [
+      0.25,
+      4.74,
+      11.38
+     ]
+    },
+    {
+     "k": "Auf einem Flug von Dubai nach Tel Aviv griff der Co-Pilot den Kapitän an. Er sta",
+     "d": "88e2e3ab97.mp3",
+     "l": 25.64,
+     "s": [
+      0.25,
+      6.01,
+      8.95,
+      12.61,
+      18.14,
+      21.62
+     ]
+    },
+    {
+     "k": "Das genaue Motiv des mutmaßlichen Täters ist unklar (Tagesschau/ARD, Deutsche We",
+     "d": "99ec09dd22.mp3",
+     "l": 6.3,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Co-Pilot? Der Co-Pilot ist der zweite Pilot im Flugzeug,",
+     "d": "ed7caa34ed.mp3",
+     "l": 10.29,
+     "s": [
+      0.25,
+      3.29
+     ]
+    },
+    {
+     "k": "Auf dem Flydubai-Flug FZ 1073 kam es während des Fluges von Dubai nach Tel Aviv ",
+     "d": "fe8930d5ac.mp3",
+     "l": 56.89,
+     "s": [
+      0.25,
+      8.18,
+      18.94,
+      22.41,
+      27.88,
+      38.96,
+      43.99,
+      48.8
+     ]
+    },
+    {
+     "k": "Der verletzte indische Flugkapitän Smit Machchhar wurde nach Angaben der Deutsch",
+     "d": "629febb2ae.mp3",
+     "l": 53.51,
+     "s": [
+      0.25,
+      9.56,
+      15.26,
+      21.82,
+      26.97,
+      33.49,
+      41.25,
+      44.68
+     ]
+    },
+    {
+     "k": "Das Motiv des mutmaßlichen Täters ist nach Angaben der Behörden bislang unklar. ",
+     "d": "05a8e3f9ad.mp3",
+     "l": 59.29,
+     "s": [
+      0.25,
+      5.11,
+      11.33,
+      22.47,
+      26.44,
+      38.38,
+      47.19,
+      53.95
+     ]
+    },
+    {
+     "k": "Indiens Premierminister Narendra Modi würdigte den Flugkapitän Smit Machchhar la",
+     "d": "d7e425974e.mp3",
+     "l": 63.98,
+     "s": [
+      0.25,
+      7.38,
+      14.35,
+      25.17,
+      36.49,
+      47.59,
+      52.39
+     ]
+    }
+   ]
   },
   {
    "id": "tankrabatt-start-oktober",
@@ -3219,7 +3337,131 @@
     "lon": 10.448
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Seit Mitternacht gilt der neue staatliche Tankrabatt in Deutschland. Die Steuer ",
+     "d": "4ae66b2f90.mp3",
+     "l": 13.31,
+     "s": [
+      0.25,
+      4.09,
+      8.37
+     ]
+    },
+    {
+     "k": "Seit Mitternacht gibt es einen neuen Tankrabatt in Deutschland. Die Steuern auf ",
+     "d": "14b71742f5.mp3",
+     "l": 23.38,
+     "s": [
+      0.25,
+      4.45,
+      8.19,
+      13.21,
+      18.67
+     ]
+    },
+    {
+     "k": "Ob die gesamte Entlastung vollständig bei den Verbrauchern ankommt (laut Tagessc",
+     "d": "3173ded246.mp3",
+     "l": 7.63,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Monopolkommission? Ein unabhängiges Beratungsgremium, da",
+     "d": "6daae82505.mp3",
+     "l": 11.01,
+     "s": [
+      0.25,
+      3.75
+     ]
+    },
+    {
+     "k": "Seit Mitternacht ist der zweite staatliche Tankrabatt des Jahres in Kraft getret",
+     "d": "e9d575512c.mp3",
+     "l": 40.52,
+     "s": [
+      0.25,
+      5.16,
+      11.96,
+      15.6,
+      19.18,
+      25.43,
+      29.43,
+      35.25
+     ]
+    },
+    {
+     "k": "Der ADAC ermittelte um 8:00 Uhr einen Rückgang beim bundesweiten Durchschnittspr",
+     "d": "5009fa2cf3.mp3",
+     "l": 46.67,
+     "s": [
+      0.25,
+      8.72,
+      13.77,
+      20.38,
+      27.08,
+      30.93,
+      36.33,
+      40.49
+     ]
+    },
+    {
+     "k": "An vielen Tankstellen herrschte am späten Vormittag Nachfrage, vereinzelt kam es",
+     "d": "b5d975914d.mp3",
+     "l": 40.8,
+     "s": [
+      0.25,
+      5.94,
+      9.41,
+      15.79,
+      22.4,
+      29.44,
+      33.0,
+      37.66
+     ]
+    },
+    {
+     "k": "Es handelt sich bereits um den zweiten Tankrabatt in diesem Jahr. Im Mai und Jun",
+     "d": "b9ce593cde.mp3",
+     "l": 46.38,
+     "s": [
+      0.25,
+      3.92,
+      9.66,
+      16.07,
+      24.83,
+      30.96,
+      40.1
+     ]
+    },
+    {
+     "k": "Eine Monopolkommission ist ein Beratungsgremium, das die Bundesregierung und den",
+     "d": "ee1936559e.mp3",
+     "l": 17.54,
+     "s": [
+      0.25,
+      9.41
+     ]
+    },
+    {
+     "k": "Die Maßnahme ist unter Ökonomen und Fachleuten umstritten. Die Wirtschaftsweise ",
+     "d": "68a30d488c.mp3",
+     "l": 51.51,
+     "s": [
+      0.25,
+      3.88,
+      12.02,
+      19.57,
+      24.64,
+      31.24,
+      38.72,
+      43.29
+     ]
+    }
+   ]
   },
   {
    "id": "koalitionsstreit-pflegereform-linnemann-spd",
@@ -3712,7 +3954,143 @@
     "lat": 52.517,
     "lon": 13.395
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Das Bundeskabinett hat nach langen Verhandlungen einen Entwurf für ein Pflegeneu",
+     "d": "800418f704.mp3",
+     "l": 66.8,
+     "s": [
+      0.25,
+      6.29,
+      10.68,
+      16.1,
+      24.32,
+      29.38,
+      39.07,
+      46.16,
+      54.15,
+      62.28
+     ]
+    },
+    {
+     "k": "Die Bundesregierung hat einen Gesetzentwurf zur Reform der Pflegeversicherung be",
+     "d": "dd83d64f21.mp3",
+     "l": 17.78,
+     "s": [
+      0.25,
+      5.12,
+      9.19,
+      12.37
+     ]
+    },
+    {
+     "k": "Die Bundesregierung hat ein neues Gesetz für die Pflege beschlossen. Der Pflegek",
+     "d": "402f874e75.mp3",
+     "l": 27.87,
+     "s": [
+      0.25,
+      4.92,
+      9.65,
+      14.88,
+      22.43
+     ]
+    },
+    {
+     "k": "Ob die geplante Kommission bis Januar 2027 konkrete Einigungen zu einem Pflegede",
+     "d": "7077cc4254.mp3",
+     "l": 10.56,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Pflegeneuordnungsgesetz? Ein neues Gesetz der Bundesregi",
+     "d": "08727bf76b.mp3",
+     "l": 10.9,
+     "s": [
+      0.25,
+      4.19
+     ]
+    },
+    {
+     "k": "Das Bundeskabinett hat sich nach Angaben von Tagesschau/ARD und ZDFheute auf den",
+     "d": "663438fd97.mp3",
+     "l": 64.5,
+     "s": [
+      0.25,
+      9.48,
+      16.1,
+      23.79,
+      31.22,
+      38.34,
+      44.89,
+      53.49
+     ]
+    },
+    {
+     "k": "Zur Schließung der Finanzlücke sieht der Entwurf laut Tagesschau/ARD verschieden",
+     "d": "8f44ff46dd.mp3",
+     "l": 67.91,
+     "s": [
+      0.25,
+      8.22,
+      18.26,
+      28.25,
+      41.88,
+      49.05,
+      55.17,
+      58.49
+     ]
+    },
+    {
+     "k": "Hauptursache für die finanzielle Schieflage der Pflegeversicherung ist laut den ",
+     "d": "35d65c7555.mp3",
+     "l": 62.82,
+     "s": [
+      0.25,
+      6.51,
+      13.99,
+      23.9,
+      30.58,
+      37.88,
+      49.17
+     ]
+    },
+    {
+     "k": "Die soziale Pflegeversicherung ist in Deutschland der fünfte Zweig der Sozialver",
+     "d": "c11b4cdfd0.mp3",
+     "l": 19.5,
+     "s": [
+      0.25,
+      5.76,
+      16.42
+     ]
+    },
+    {
+     "k": "Die SPD hatte laut Tagesschau/ARD bis zuletzt grundlegende Reformen und einen so",
+     "d": "67c45162af.mp3",
+     "l": 51.54,
+     "s": [
+      0.25,
+      11.31,
+      17.67,
+      27.65,
+      38.34
+     ]
+    },
+    {
+     "k": "Umfassende strukturelle Reformen wurden in dem aktuellen Gesetzentwurf zunächst ",
+     "d": "49e7d92e64.mp3",
+     "l": 32.45,
+     "s": [
+      0.25,
+      5.76,
+      12.87,
+      22.14
+     ]
+    }
+   ]
   },
   {
    "id": "marokko-erste-ministerpraesidentin",
@@ -4685,7 +5063,135 @@
     "lat": 52.421,
     "lon": 10.786
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Der Automobilkonzern Volkswagen hat zehn Tarifverträge zum Jahresende gekündigt.",
+     "d": "8b0053a728.mp3",
+     "l": 55.33,
+     "s": [
+      0.25,
+      5.43,
+      9.97,
+      15.84,
+      21.6,
+      26.84,
+      31.27,
+      38.18,
+      45.52,
+      51.14
+     ]
+    },
+    {
+     "k": "Volkswagen hat zehn Tarifverträge gekündigt. Die Gewerkschaft IG Metall kündigt ",
+     "d": "8043f442e8.mp3",
+     "l": 10.99,
+     "s": [
+      0.25,
+      3.29,
+      6.84
+     ]
+    },
+    {
+     "k": "Volkswagen hat zehn wichtige Verträge für die Mitarbeiter gekündigt. Das Unterne",
+     "d": "c2b3a228ff.mp3",
+     "l": 22.18,
+     "s": [
+      0.25,
+      4.81,
+      8.83,
+      13.76,
+      17.32
+     ]
+    },
+    {
+     "k": "Die genaue Anzahl der betroffenen Verträge: VW nennt laut Tagesschau keine genau",
+     "d": "7a8c9ff28d.mp3",
+     "l": 9.28,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Haustarifvertrag? Ein Vertrag zwischen einer Gewerkschaf",
+     "d": "0a7ffaaeda.mp3",
+     "l": 10.51,
+     "s": [
+      0.25,
+      3.75
+     ]
+    },
+    {
+     "k": "Der europäische Automobilkonzern Volkswagen hat eine Reihe von Tarifverträgen ge",
+     "d": "6d65092138.mp3",
+     "l": 54.0,
+     "s": [
+      0.25,
+      6.04,
+      12.51,
+      17.83,
+      22.3,
+      27.21,
+      36.42,
+      42.38
+     ]
+    },
+    {
+     "k": "Von den Kündigungen sind laut den Berichten etwa einhunderttausend Beschäftigte ",
+     "d": "aa3c582cc7.mp3",
+     "l": 69.9,
+     "s": [
+      0.25,
+      7.8,
+      13.24,
+      21.91,
+      33.48,
+      37.57,
+      46.9,
+      62.14
+     ]
+    },
+    {
+     "k": "Die aktuellen Auseinandersetzungen stehen im Kontext einer tiefen Krise der Auto",
+     "d": "4e50e1c77f.mp3",
+     "l": 67.87,
+     "s": [
+      0.25,
+      8.18,
+      18.54,
+      31.77,
+      37.76,
+      47.3,
+      52.71,
+      58.74
+     ]
+    },
+    {
+     "k": "Ein Haustarifvertrag ist ein Vertrag, der zwischen einer Gewerkschaft und einem ",
+     "d": "fcdfa0a938.mp3",
+     "l": 23.43,
+     "s": [
+      0.25,
+      8.18,
+      14.94
+     ]
+    },
+    {
+     "k": "Die IG Metall bewertete das Vorgehen des Unternehmens scharf. Bezirkschef und Ve",
+     "d": "d0f7df3a57.mp3",
+     "l": 51.26,
+     "s": [
+      0.25,
+      3.95,
+      15.49,
+      21.15,
+      28.57,
+      33.18,
+      36.86,
+      46.62
+     ]
+    }
+   ]
   },
   {
    "id": "manchester-city-finanzaffaere",
