@@ -1,6 +1,164 @@
 {
- "stand": "2026-10-01T13:04:54.539Z",
+ "stand": "2026-10-01T18:51:59.883Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-die-stenografie",
+   "zeit": "2026-10-01T18:56:22.063Z",
+   "bereich": "Sprache und Kultur",
+   "titel": "Wie funktioniert eigentlich die Stenografie?",
+   "vorspann": "Stenografie ist eine spezielle Schrift, mit der man gesprochene Sprache sehr schnell mitschreiben kann. Schon im alten Römischen Reich nutzten Menschen diese Technik für Notizen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Begriff Stenografie stammt von griechischen Wörtern für eng und schreiben ab. Ein geschriebener Text in Kurzschrift heißt Stenogramm. Wer diese Schrift bei Verhandlungen anwendet, ist ein Stenograf. Mit Kurzschriftsystemen lassen sich hohe Schreibgeschwindigkeiten erreichen. Der Informationsgehalt wird dabei durch grafische und linguistische Mittel verdichtet.",
+      "Schon antike Griechen und Römer kannten Kurzschriftsysteme wie die Tironischen Noten. Bis zum Mittelalter dienten sie als Akten- und Kanzleischrift. In der Neuzeit verbreiteten sich geometrische Kurzschriften in England und Frankreich. Auch in Deutschland gab es solche Schriften seit dem Jahr 1678. Für verschiedene Sprachen sind jeweils eigene Kurzschriften nötig."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Moderne Stenografiesysteme sind im Wesentlichen Buchstabenschriften. Sie enthalten zudem Elemente aus der Silbenschrift sowie Kürzel für ganze Wörter. Bestimmte Laute und festgelegte Silben werden symbolisiert. Man unterscheidet zwischen geometrischen Systemen und kursiven Systemen.",
+      "Bei geometrischen Systemen nutzt man einfache geometrische Grundelemente wie Punkte, Geraden und Kreise. Kursive Systeme bilden ihre Zeichen dagegen aus Teilen gewöhnlicher Schreibschriftbuchstaben. In Deutschland wurde im Jahr 1924 die Deutsche Einheitskurzschrift verabschiedet. Sie besteht aus den Stufen Verkehrsschrift, Eilschrift und Redeschrift.",
+      "Bis zur Mitte des 19. Jahrhunderts nutzte meist eine kleine Elite Kurzschriften. Später verwendeten viele Akademiker die Stenografie als Konzeptschrift. Heute dient sie vor allem als Notizschrift für schnelle Aufzeichnungen bei Besprechungen, Vorträgen oder Telefonnotizen. Parlamentsstenografen arbeiten noch in den meisten deutschen Landtagen und im Deutschen Bundestag."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Über die Geschichte der Stenografie gibt es zahlreiche historische Aufzeichnungen und Funde. So sind die Tironischen Noten aus dem ersten vorchristlichen Jahrhundert in Klosterhandschriften und Kanzleiakten überliefert. Auch das erste Kurzschriftsystem der Neuzeit aus dem Jahr 1588 ist genau dokumentiert. Über die Entstehung und Entwicklung der verschiedenen Systeme in England, Frankreich, Italien, Spanien und im deutschsprachigen Raum existieren umfangreiche historische Überlieferungen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erstes deutsches Stenografielehrbuch",
+     "1678"
+    ],
+    [
+     "Verabschiedung Deutsche Einheitskurzschrift",
+     "1924"
+    ],
+    [
+     "Manuskripte im Nachlass von Edmund Husserl",
+     "40.000 Blätter"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Stenografie",
+     "Eine aus einfachen Zeichen gebildete Abbreviaturschrift, die schneller als Langschrift geschrieben werden kann."
+    ],
+    [
+     "Stenogramm",
+     "Ein in Kurzschrift verfasstes Schriftstück."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde die Deutsche Einheitskurzschrift DEK verabschiedet?",
+     "optionen": [
+      "1826",
+      "1924",
+      "1968"
+     ],
+     "richtig": 1,
+     "erklaerung": "Nach langjährigen Verhandlungen wurde die Deutsche Einheitskurzschrift im Jahr 1924 verabschiedet und amtlich anerkannt."
+    }
+   ],
+   "video": [
+    "Stenografie ist eine besondere Schrift für eine sehr schnelle Handschrift.",
+    "Schon im Altertum nutzten die Menschen im Römischen Reich die sogenannten Tironischen Noten.",
+    "Später entstanden in Ländern wie England und Frankreich neue Systeme.",
+    "In Deutschland entwickelte Franz Xaver Gabelsberger die kursive deutsche Stenografie.",
+    "Im Jahr 1924 wurde schließlich die Deutsche Einheitskurzschrift verabschiedet.",
+    "Moderne Systeme nutzen Buchstaben, Silbenelemente und Kürzel für ganze Wörter.",
+    "Früher schrieben Sekretärinnen Diktate in Kurzschrift auf.",
+    "Heute nutzen Parlamentsstenografen die Technik im Bundestag und in Landtagen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Stenografie",
+    "bildunterschrift": "Stenografie ermöglicht es, gesprochene Sprache schnell mitzuschreiben."
+   },
+   "quelle": {
+    "titel": "Stenografie",
+    "url": "https://de.wikipedia.org/wiki/Stenografie",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 278,
+   "bildInfos": [
+    {
+     "titel": "2020-02-13 Deutscher Bundestag IMG 3269 by Stepro.jpg",
+     "beschreibung": "Stenographer(s) in the German Bundestag",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg/1280px-2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Stenografie",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Stenografie ermöglicht es, gesprochene Sprache schnell mitzuschreiben."
+    },
+    {
+     "titel": "LudwigSteno.jpg",
+     "beschreibung": "Ansichtskarte mit König Ludwig II von Bayern mit stenografiertem Gruß",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/LudwigSteno.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/LudwigSteno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:LudwigSteno.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ansichtskarte mit König Ludwig II von Bayern mit stenografiertem Gruß"
+    },
+    {
+     "titel": "P030309PS-0341 (3484016753).jpg",
+     "beschreibung": "A reporter takes notes while President Barack Obama and Prime Minister Gordon Brown of the United Kingdom speak to the press in the Oval Office, March 3, 2009. (Official White House Photo by Pete Souz",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/P030309PS-0341_%283484016753%29.jpg/1280px-P030309PS-0341_%283484016753%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/P030309PS-0341_%283484016753%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:P030309PS-0341_(3484016753).jpg",
+     "urheber": "The White House from Washington, DC",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "A reporter takes notes while President Barack Obama and Prime Minister Gordon Brown of the United Kingdom speak to the press in the Oval Office, March 3, 2009. (Official White House Photo by Pete Souz"
+    },
+    {
+     "titel": "Wandrers Nachtlied.jpg",
+     "beschreibung": "Wandrers Nachtlied",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Wandrers_Nachtlied.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/23/Wandrers_Nachtlied.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wandrers_Nachtlied.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Wandrers Nachtlied"
+    }
+   ],
+   "bildInfo": {
+    "titel": "2020-02-13 Deutscher Bundestag IMG 3269 by Stepro.jpg",
+    "beschreibung": "Stenographer(s) in the German Bundestag",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg/1280px-2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2020-02-13_Deutscher_Bundestag_IMG_3269_by_Stepro.jpg",
+    "urheber": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Stenografie",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Stenografie ermöglicht es, gesprochene Sprache schnell mitzuschreiben."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-das-raetsel-der-pantomime",
    "zeit": "2026-10-01T13:12:29.221Z",
