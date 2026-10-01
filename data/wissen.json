@@ -157,7 +157,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Stenografie ermöglicht es, gesprochene Sprache schnell mitzuschreiben."
-   }
+   },
+   "ton": [
+    {
+     "k": "Stenografie ist eine besondere Schrift für eine sehr schnelle Handschrift. Schon",
+     "d": "64658a7d66.mp3",
+     "l": 39.87,
+     "s": [
+      0.25,
+      4.4,
+      9.37,
+      13.78,
+      18.97,
+      25.74,
+      31.04,
+      35.08
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-das-raetsel-der-pantomime",
@@ -319,7 +336,26 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Die Pantomime nutzt körperlichen Ausdruck wie Mimik und Gestik ohne Worte."
-   }
+   },
+   "ton": [
+    {
+     "k": "Die Pantomime ist eine sehr alte Form der darstellenden Kunst. Dabei drücken Kün",
+     "d": "be4791e8ae.mp3",
+     "l": 45.16,
+     "s": [
+      0.25,
+      4.11,
+      8.18,
+      12.21,
+      16.04,
+      20.56,
+      25.28,
+      30.25,
+      34.9,
+      40.62
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-eine-sternschnuppe",
@@ -498,7 +534,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Sternschnuppe leuchtet auf, wenn ein Teilchen aus dem Weltall in der Atmosphäre verglüht."
-   }
+   },
+   "ton": [
+    {
+     "k": "Was ist eigentlich eine Sternschnuppe? Kleine Gesteins- oder Staubteilchen aus d",
+     "d": "15dc578d89.mp3",
+     "l": 28.6,
+     "s": [
+      0.25,
+      2.71,
+      7.33,
+      10.22,
+      13.04,
+      16.83,
+      19.86,
+      23.41
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",
@@ -1211,24 +1264,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Muskelkater entsteht oft nach ungewohnten oder sehr hohen körperlichen Belastungen."
-   },
-   "ton": [
-    {
-     "k": "Muskelkater ist ein Schmerz nach körperlicher Anstrengung. Er tritt besonders be",
-     "d": "6d4e55c385.mp3",
-     "l": 27.13,
-     "s": [
-      0.25,
-      3.97,
-      6.75,
-      10.01,
-      13.51,
-      16.36,
-      19.32,
-      23.38
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-pass",
@@ -1414,24 +1450,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen über Grenzen hinweg."
-   },
-   "ton": [
-    {
-     "k": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Er wird",
-     "d": "b256aa3bbd.mp3",
-     "l": 34.46,
-     "s": [
-      0.25,
-      4.62,
-      8.89,
-      12.32,
-      16,
-      20.28,
-      24.76,
-      29.4
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktionierte-eigentlich-die-geheimschrift-enigma",

@@ -1,6 +1,36 @@
 {
- "stand": "2026-10-01T13:04:54.539Z",
+ "stand": "2026-10-01T18:51:59.883Z",
  "folgen": [
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-die-stenografie",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich die Stenografie?",
+   "text": "Stenografie ist eine spezielle Schrift, mit der man gesprochene Sprache sehr schnell mitschreiben kann. Schon im alten Römischen Reich nutzten Menschen diese Technik für Notizen.",
+   "zeit": "2026-10-01T18:56:22.063Z",
+   "d": "64658a7d66.mp3",
+   "l": 39.87,
+   "b": 239709
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-das-raetsel-der-pantomime",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich das Rätsel der Pantomime?",
+   "text": "Die Pantomime ist eine Form der darstellenden Kunst. Dabei zeigen Künstler körperlichen Ausdruck durch Mimik und Gestik ohne Worte.",
+   "zeit": "2026-10-01T13:12:29.221Z",
+   "d": "be4791e8ae.mp3",
+   "l": 45.16,
+   "b": 271389
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-eine-sternschnuppe",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich eine Sternschnuppe?",
+   "text": "Am Nachthimmel sind manchmal aufleuchtende Sternschnuppen zu sehen. Kleine Teilchen aus dem Weltall erzeugen diese Leuchterscheinungen in der Erdatmosphäre.",
+   "zeit": "2026-10-01T05:49:19.484Z",
+   "d": "15dc578d89.mp3",
+   "l": 28.6,
+   "b": 172029
+  },
   {
    "id": "hauptausgabe-2026-10-01",
    "art": "nachrichten",
@@ -30,36 +60,6 @@
    "d": "572dccb84d.mp3",
    "l": 32.66,
    "b": 196365
-  },
-  {
-   "id": "wissen-wie-funktionierte-eigentlich-der-limes",
-   "art": "wissen",
-   "titel": "Wie funktionierte eigentlich der Limes?",
-   "text": "Der Limes war ein römisches Grenzsicherungssystem und prägte viele Landschaften. Heute betrachten Fachleute ihn vor allem als wirtschaftspolitische Steuerungs- und Kontrolllinie.",
-   "zeit": "2026-09-29T20:47:34.385Z",
-   "d": "2cdb3dc113.mp3",
-   "l": 28.34,
-   "b": 170445
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-muskelkater",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich Muskelkater?",
-   "text": "Nach einer anstrengenden körperlichen Belastung spüren viele Menschen oft erst nach Stunden einen Schmerz im Körper. Dieser Zustand wird als Muskelkater bezeichnet.",
-   "zeit": "2026-09-29T15:51:49.119Z",
-   "d": "6d4e55c385.mp3",
-   "l": 27.13,
-   "b": 163245
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-ein-pass",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich ein Pass?",
-   "text": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seit vielen Jahrhunderten nutzen Staaten verschiedene Dokumente zur Kontrolle.",
-   "zeit": "2026-09-29T08:31:39.949Z",
-   "d": "b256aa3bbd.mp3",
-   "l": 34.46,
-   "b": 207165
   }
  ]
 }
