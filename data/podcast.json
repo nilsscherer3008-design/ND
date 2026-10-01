@@ -1,6 +1,16 @@
 {
- "stand": "2026-09-30T19:13:41.642Z",
+ "stand": "2026-10-01T05:44:41.530Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-10-01",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-10-01",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Gewaltsamer Zwischenfall im Cockpit eines Flugzeugs nach Tel Aviv · Bundeskabinett bringt Gesetzentwurf zur Reform der Pflegeversicherung auf den Weg · Regierungsbildung in Marokko nach der Parlamentswahl · Volkswagen kündigt Tarifverträge im Rahmen von Sparmaßnahmen",
+   "zeit": "2026-10-01T05:44:41.530Z",
+   "d": "folge-hauptausgabe-2026-10-01.mp3",
+   "l": 586.46,
+   "b": 3519021
+  },
   {
    "id": "wissen-wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",
    "art": "wissen",
@@ -20,16 +30,6 @@
    "d": "572dccb84d.mp3",
    "l": 32.66,
    "b": 196365
-  },
-  {
-   "id": "hauptausgabe-2026-09-30",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-09-30",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Verfahren gegen Manchester City wegen Verstößen gegen Finanzregeln · Regierungsbildung in Marokko nach Parlamentswahl · Verhandlungen über die Pflegereform vor Kabinettsberatungen · OpenAI verschiebt Veröffentlichung von neuem KI-Modell und stellt Assistenten vor · US-Importverbote für bestimmte Waren aus Kanada in Kraft getreten",
-   "zeit": "2026-09-30T06:39:04.882Z",
-   "d": "folge-hauptausgabe-2026-09-30.mp3",
-   "l": 663.6,
-   "b": 3981837
   },
   {
    "id": "wissen-wie-funktionierte-eigentlich-der-limes",
