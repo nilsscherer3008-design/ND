@@ -1,5 +1,5 @@
 {
- "stand": "2026-09-30T19:13:41.642Z",
+ "stand": "2026-10-01T05:44:41.530Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -51,7 +51,9 @@
   "us-importverbote-kanada-waren",
   "manchester-city-finanzaffaere",
   "marokko-erste-ministerpraesidentin",
-  "vw-kuendigung-tarifvertraege"
+  "vw-kuendigung-tarifvertraege",
+  "tankrabatt-start-oktober",
+  "flydubai-notlandung-angriff"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -64,11 +66,13 @@
   "us-importverbote-kanada-waren",
   "manchester-city-finanzaffaere",
   "marokko-erste-ministerpraesidentin",
-  "vw-kuendigung-tarifvertraege"
+  "vw-kuendigung-tarifvertraege",
+  "tankrabatt-start-oktober",
+  "flydubai-notlandung-angriff"
  ],
  "wetter": {
-  "stand": "2026-09-30T19:13:41.642Z",
-  "morgenTag": "Donnerstag",
+  "stand": "2026-10-01T05:44:41.530Z",
+  "morgenTag": "Freitag",
   "orte": [
    {
     "name": "Hamburg",
@@ -76,66 +80,53 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 19,
-     "code": 2,
-     "gefuehlt": 17,
+     "grad": 14,
+     "code": 3,
+     "gefuehlt": 12,
      "wind": 11,
-     "windAus": 124,
-     "feuchte": 49,
-     "druck": 1019,
+     "windAus": 131,
+     "feuchte": 73,
+     "druck": 1018,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 3,
-     "max": 24,
-     "min": 14,
-     "regen": 0,
-     "menge": 0,
-     "wind": 16,
-     "windAus": 122,
-     "uv": 3.4,
-     "auf": "07:19",
-     "unter": "18:59"
-    },
-    "morgen": {
      "datum": "2026-10-01",
      "code": 63,
      "max": 22,
      "min": 14,
-     "regen": 90,
-     "menge": 22.5,
+     "regen": 100,
+     "menge": 14.5,
      "wind": 12,
-     "windAus": 149,
-     "uv": 1.4,
+     "windAus": 144,
+     "uv": 2.3,
      "auf": "07:21",
      "unter": "18:56"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 61,
+     "max": 20,
+     "min": 15,
+     "regen": 90,
+     "menge": 1.9,
+     "wind": 11,
+     "windAus": 266,
+     "uv": 3.4,
+     "auf": "07:23",
+     "unter": "18:54"
+    },
     "tage": [
-     {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 24,
-      "min": 14,
-      "regen": 0,
-      "menge": 0,
-      "wind": 16,
-      "windAus": 122,
-      "uv": 3.4,
-      "auf": "07:19",
-      "unter": "18:59"
-     },
      {
       "datum": "2026-10-01",
       "code": 63,
       "max": 22,
       "min": 14,
-      "regen": 90,
-      "menge": 22.5,
+      "regen": 100,
+      "menge": 14.5,
       "wind": 12,
-      "windAus": 149,
-      "uv": 1.4,
+      "windAus": 144,
+      "uv": 2.3,
       "auf": "07:21",
       "unter": "18:56"
      },
@@ -143,37 +134,37 @@
       "datum": "2026-10-02",
       "code": 61,
       "max": 20,
-      "min": 14,
+      "min": 15,
       "regen": 90,
-      "menge": 2.7,
+      "menge": 1.9,
       "wind": 11,
-      "windAus": 277,
-      "uv": 2.4,
+      "windAus": 266,
+      "uv": 3.4,
       "auf": "07:23",
       "unter": "18:54"
      },
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 19,
-      "min": 10,
+      "max": 21,
+      "min": 11,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 152,
-      "uv": 2.9,
+      "windAus": 192,
+      "uv": 3.1,
       "auf": "07:25",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
-      "max": 19,
+      "code": 80,
+      "max": 17,
       "min": 11,
-      "regen": 8,
-      "menge": 0,
-      "wind": 11,
-      "windAus": 263,
+      "regen": 5,
+      "menge": 2.1,
+      "wind": 7,
+      "windAus": 286,
       "uv": 2.9,
       "auf": "07:26",
       "unter": "18:49"
@@ -181,91 +172,44 @@
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 19,
-      "min": 12,
-      "regen": 18,
+      "max": 18,
+      "min": 11,
+      "regen": 3,
       "menge": 0,
-      "wind": 15,
-      "windAus": 249,
-      "uv": 2.8,
+      "wind": 11,
+      "windAus": 244,
+      "uv": 3,
       "auf": "07:28",
       "unter": "18:47"
      },
      {
       "datum": "2026-10-06",
-      "code": 2,
-      "max": 20,
-      "min": 12,
-      "regen": 8,
+      "code": 3,
+      "max": 21,
+      "min": 15,
+      "regen": 1,
       "menge": 0,
       "wind": 12,
-      "windAus": 241,
-      "uv": 3.1,
+      "windAus": 236,
+      "uv": 3,
       "auf": "07:30",
       "unter": "18:44"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 61,
+      "max": 21,
+      "min": 13,
+      "regen": 45,
+      "menge": 0.6,
+      "wind": 10,
+      "windAus": 232,
+      "uv": 2.9,
+      "auf": "07:32",
+      "unter": "18:42"
      }
     ],
     "stunden": [
-     {
-      "zeit": "21:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "07:00",
       "grad": 14,
@@ -292,7 +236,7 @@
      },
      {
       "zeit": "11:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -300,55 +244,115 @@
       "zeit": "12:00",
       "grad": 18,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 20,
       "code": 3,
-      "regen": 8
+      "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 21,
       "code": 3,
-      "regen": 20
+      "regen": 8
      },
      {
       "zeit": "15:00",
       "grad": 22,
       "code": 3,
-      "regen": 30
+      "regen": 38
      },
      {
       "zeit": "16:00",
-      "grad": 21,
-      "code": 61,
-      "regen": 48
+      "grad": 22,
+      "code": 3,
+      "regen": 63
      },
      {
       "zeit": "17:00",
-      "grad": 20,
-      "code": 61,
-      "regen": 73
+      "grad": 22,
+      "code": 3,
+      "regen": 75
      },
      {
       "zeit": "18:00",
-      "grad": 19,
+      "grad": 21,
       "code": 61,
-      "regen": 83
+      "regen": 93
      },
      {
       "zeit": "19:00",
       "grad": 19,
       "code": 63,
-      "regen": 88
+      "regen": 95
      },
      {
       "zeit": "20:00",
       "grad": 18,
       "code": 63,
+      "regen": 100
+     },
+     {
+      "zeit": "21:00",
+      "grad": 18,
+      "code": 63,
+      "regen": 100
+     },
+     {
+      "zeit": "22:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 98
+     },
+     {
+      "zeit": "23:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 95
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 85
+     },
+     {
+      "zeit": "01:00",
+      "grad": 16,
+      "code": 61,
+      "regen": 83
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 61,
+      "regen": 83
+     },
+     {
+      "zeit": "03:00",
+      "grad": 16,
+      "code": 61,
       "regen": 90
+     },
+     {
+      "zeit": "04:00",
+      "grad": 16,
+      "code": 61,
+      "regen": 85
+     },
+     {
+      "zeit": "05:00",
+      "grad": 16,
+      "code": 61,
+      "regen": 73
+     },
+     {
+      "zeit": "06:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 55
      }
     ]
    },
@@ -358,30 +362,17 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 19,
+     "grad": 14,
      "code": 3,
-     "gefuehlt": 17,
-     "wind": 12,
-     "windAus": 105,
-     "feuchte": 52,
+     "gefuehlt": 13,
+     "wind": 10,
+     "windAus": 117,
+     "feuchte": 69,
      "druck": 1020,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 3,
-     "max": 24,
-     "min": 13,
-     "regen": 0,
-     "menge": 0,
-     "wind": 17,
-     "windAus": 114,
-     "uv": 3.2,
-     "auf": "07:05",
-     "unter": "18:46"
-    },
-    "morgen": {
      "datum": "2026-10-01",
      "code": 3,
      "max": 24,
@@ -390,24 +381,24 @@
      "menge": 0,
      "wind": 13,
      "windAus": 128,
-     "uv": 3.3,
+     "uv": 3.1,
      "auf": "07:07",
      "unter": "18:43"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 61,
+     "max": 18,
+     "min": 14,
+     "regen": 18,
+     "menge": 0.8,
+     "wind": 9,
+     "windAus": 331,
+     "uv": 2.6,
+     "auf": "07:09",
+     "unter": "18:41"
+    },
     "tage": [
-     {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 24,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 17,
-      "windAus": 114,
-      "uv": 3.2,
-      "auf": "07:05",
-      "unter": "18:46"
-     },
      {
       "datum": "2026-10-01",
       "code": 3,
@@ -417,45 +408,45 @@
       "menge": 0,
       "wind": 13,
       "windAus": 128,
-      "uv": 3.3,
+      "uv": 3.1,
       "auf": "07:07",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-02",
       "code": 61,
-      "max": 19,
+      "max": 18,
       "min": 14,
-      "regen": 13,
-      "menge": 0.9,
+      "regen": 18,
+      "menge": 0.8,
       "wind": 9,
-      "windAus": 319,
-      "uv": 2.1,
+      "windAus": 331,
+      "uv": 2.6,
       "auf": "07:09",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
-      "max": 22,
-      "min": 13,
-      "regen": 5,
+      "code": 3,
+      "max": 21,
+      "min": 15,
+      "regen": 0,
       "menge": 0,
       "wind": 4,
-      "windAus": 17,
-      "uv": 3.1,
+      "windAus": 102,
+      "uv": 3.5,
       "auf": "07:10",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
-      "max": 22,
-      "min": 15,
-      "regen": 10,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 290,
+      "code": 63,
+      "max": 17,
+      "min": 13,
+      "regen": 8,
+      "menge": 9,
+      "wind": 7,
+      "windAus": 342,
       "uv": 3.4,
       "auf": "07:12",
       "unter": "18:36"
@@ -463,13 +454,13 @@
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 21,
+      "max": 18,
       "min": 12,
-      "regen": 14,
+      "regen": 6,
       "menge": 0,
-      "wind": 11,
-      "windAus": 254,
-      "uv": 3,
+      "wind": 10,
+      "windAus": 246,
+      "uv": 3.2,
       "auf": "07:14",
       "unter": "18:34"
      },
@@ -477,80 +468,33 @@
       "datum": "2026-10-06",
       "code": 3,
       "max": 21,
-      "min": 11,
-      "regen": 4,
+      "min": 14,
+      "regen": 0,
       "menge": 0,
       "wind": 9,
-      "windAus": 246,
-      "uv": 3.3,
+      "windAus": 237,
+      "uv": 1.3,
       "auf": "07:15",
       "unter": "18:32"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 3,
+      "max": 23,
+      "min": 13,
+      "regen": 28,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 189,
+      "uv": 3.1,
+      "auf": "07:17",
+      "unter": "18:29"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "07:00",
-      "grad": 14,
+      "grad": 15,
       "code": 3,
       "regen": 0
      },
@@ -563,24 +507,24 @@
      {
       "zeit": "09:00",
       "grad": 15,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 17,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "11:00",
       "grad": 19,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 20,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
@@ -611,7 +555,7 @@
      {
       "zeit": "17:00",
       "grad": 24,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
@@ -631,6 +575,66 @@
       "grad": 21,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 3
      }
     ]
    },
@@ -640,30 +644,17 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 18,
+     "grad": 12,
      "code": 2,
-     "gefuehlt": 17,
-     "wind": 7,
-     "windAus": 137,
-     "feuchte": 52,
-     "druck": 1009,
+     "gefuehlt": 11,
+     "wind": 4,
+     "windAus": 132,
+     "feuchte": 78,
+     "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 3,
-     "max": 24,
-     "min": 13,
-     "regen": 0,
-     "menge": 0,
-     "wind": 11,
-     "windAus": 121,
-     "uv": 3.6,
-     "auf": "07:09",
-     "unter": "18:50"
-    },
-    "morgen": {
      "datum": "2026-10-01",
      "code": 3,
      "max": 25,
@@ -676,20 +667,20 @@
      "auf": "07:10",
      "unter": "18:48"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 61,
+     "max": 18,
+     "min": 15,
+     "regen": 55,
+     "menge": 3.7,
+     "wind": 8,
+     "windAus": 338,
+     "uv": 2.7,
+     "auf": "07:12",
+     "unter": "18:46"
+    },
     "tage": [
-     {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 24,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 11,
-      "windAus": 121,
-      "uv": 3.6,
-      "auf": "07:09",
-      "unter": "18:50"
-     },
      {
       "datum": "2026-10-01",
       "code": 3,
@@ -707,12 +698,12 @@
       "datum": "2026-10-02",
       "code": 61,
       "max": 18,
-      "min": 14,
-      "regen": 28,
-      "menge": 0.1,
-      "wind": 9,
-      "windAus": 319,
-      "uv": 2.8,
+      "min": 15,
+      "regen": 55,
+      "menge": 3.7,
+      "wind": 8,
+      "windAus": 338,
+      "uv": 2.7,
       "auf": "07:12",
       "unter": "18:46"
      },
@@ -720,132 +711,85 @@
       "datum": "2026-10-03",
       "code": 45,
       "max": 21,
-      "min": 13,
-      "regen": 4,
+      "min": 12,
+      "regen": 0,
       "menge": 0,
-      "wind": 3,
-      "windAus": 93,
-      "uv": 3.6,
+      "wind": 6,
+      "windAus": 67,
+      "uv": 3.7,
       "auf": "07:14",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
-      "max": 21,
+      "code": 61,
+      "max": 18,
       "min": 13,
       "regen": 10,
-      "menge": 0,
-      "wind": 6,
-      "windAus": 318,
-      "uv": 3.1,
+      "menge": 0.6,
+      "wind": 11,
+      "windAus": 282,
+      "uv": 3.4,
       "auf": "07:15",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 21,
-      "min": 10,
-      "regen": 7,
+      "max": 20,
+      "min": 12,
+      "regen": 9,
       "menge": 0,
-      "wind": 10,
-      "windAus": 240,
-      "uv": 3.4,
+      "wind": 9,
+      "windAus": 249,
+      "uv": 3.5,
       "auf": "07:17",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-06",
-      "code": 2,
-      "max": 22,
-      "min": 10,
-      "regen": 3,
+      "code": 3,
+      "max": 21,
+      "min": 13,
+      "regen": 1,
       "menge": 0,
-      "wind": 5,
-      "windAus": 206,
-      "uv": 3.4,
+      "wind": 8,
+      "windAus": 221,
+      "uv": 3.1,
       "auf": "07:19",
       "unter": "18:37"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 3,
+      "max": 24,
+      "min": 11,
+      "regen": 24,
+      "menge": 0,
+      "wind": 7,
+      "windAus": 202,
+      "uv": 3.4,
+      "auf": "07:20",
+      "unter": "18:34"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 14,
+      "zeit": "07:00",
+      "grad": 12,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "04:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
+      "zeit": "08:00",
       "grad": 12,
       "code": 2,
       "regen": 0
      },
      {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
       "grad": 14,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -856,19 +800,19 @@
      },
      {
       "zeit": "11:00",
-      "grad": 19,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 21,
+      "grad": 20,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 23,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
@@ -880,7 +824,7 @@
      },
      {
       "zeit": "15:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
       "regen": 0
      },
@@ -904,15 +848,75 @@
      },
      {
       "zeit": "19:00",
-      "grad": 24,
+      "grad": 23,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 22,
+      "grad": 21,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "04:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "05:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "06:00",
+      "grad": 16,
+      "code": 61,
+      "regen": 25
      }
     ]
    },
@@ -922,104 +926,91 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 26,
+     "grad": 20,
      "code": 3,
-     "gefuehlt": 26,
-     "wind": 8,
-     "windAus": 158,
-     "feuchte": 48,
-     "druck": 1010,
+     "gefuehlt": 21,
+     "wind": 10,
+     "windAus": 144,
+     "feuchte": 85,
+     "druck": 1012,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 51,
-     "max": 29,
-     "min": 19,
-     "regen": 14,
-     "menge": 0.1,
-     "wind": 15,
-     "windAus": 128,
-     "uv": 4,
-     "auf": "07:30",
-     "unter": "19:12"
-    },
-    "morgen": {
      "datum": "2026-10-01",
-     "code": 53,
-     "max": 22,
-     "min": 19,
+     "code": 63,
+     "max": 23,
+     "min": 18,
      "regen": 90,
-     "menge": 2.2,
-     "wind": 14,
-     "windAus": 230,
-     "uv": 0.5,
+     "menge": 7.2,
+     "wind": 13,
+     "windAus": 229,
+     "uv": 2,
      "auf": "07:32",
      "unter": "19:10"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 3,
+     "max": 20,
+     "min": 15,
+     "regen": 86,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 330,
+     "uv": 3.6,
+     "auf": "07:34",
+     "unter": "19:07"
+    },
     "tage": [
      {
-      "datum": "2026-09-30",
-      "code": 51,
-      "max": 29,
-      "min": 19,
-      "regen": 14,
-      "menge": 0.1,
-      "wind": 15,
-      "windAus": 128,
-      "uv": 4,
-      "auf": "07:30",
-      "unter": "19:12"
-     },
-     {
       "datum": "2026-10-01",
-      "code": 53,
-      "max": 22,
-      "min": 19,
+      "code": 63,
+      "max": 23,
+      "min": 18,
       "regen": 90,
-      "menge": 2.2,
-      "wind": 14,
-      "windAus": 230,
-      "uv": 0.5,
+      "menge": 7.2,
+      "wind": 13,
+      "windAus": 229,
+      "uv": 2,
       "auf": "07:32",
       "unter": "19:10"
      },
      {
       "datum": "2026-10-02",
-      "code": 51,
+      "code": 3,
       "max": 20,
       "min": 15,
       "regen": 86,
-      "menge": 0.1,
-      "wind": 11,
-      "windAus": 317,
-      "uv": 3.4,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 330,
+      "uv": 3.6,
       "auf": "07:34",
       "unter": "19:07"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 20,
-      "min": 10,
+      "max": 21,
+      "min": 13,
       "regen": 2,
       "menge": 0,
       "wind": 8,
-      "windAus": 46,
-      "uv": 3.5,
+      "windAus": 54,
+      "uv": 3.8,
       "auf": "07:35",
       "unter": "19:05"
      },
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 19,
+      "max": 18,
       "min": 10,
       "regen": 2,
       "menge": 0,
-      "wind": 7,
-      "windAus": 291,
+      "wind": 8,
+      "windAus": 330,
       "uv": 3.7,
       "auf": "07:37",
       "unter": "19:03"
@@ -1027,174 +1018,187 @@
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 19,
-      "min": 11,
+      "max": 18,
+      "min": 8,
       "regen": 2,
       "menge": 0,
-      "wind": 5,
-      "windAus": 229,
-      "uv": 3.2,
+      "wind": 4,
+      "windAus": 120,
+      "uv": 3.7,
       "auf": "07:38",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-06",
-      "code": 3,
-      "max": 21,
+      "code": 51,
+      "max": 22,
       "min": 9,
       "regen": 4,
-      "menge": 0,
+      "menge": 0.3,
       "wind": 10,
-      "windAus": 127,
-      "uv": 3.3,
+      "windAus": 126,
+      "uv": 3.5,
       "auf": "07:40",
       "unter": "18:59"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 51,
+      "max": 23,
+      "min": 12,
+      "regen": 36,
+      "menge": 1.8,
+      "wind": 14,
+      "windAus": 142,
+      "uv": 3.3,
+      "auf": "07:42",
+      "unter": "18:56"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 26,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "22:00",
-      "grad": 25,
-      "code": 3,
-      "regen": 7
-     },
-     {
-      "zeit": "23:00",
-      "grad": 23,
-      "code": 51,
-      "regen": 14
-     },
-     {
-      "zeit": "00:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 25
-     },
-     {
-      "zeit": "01:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 38
-     },
-     {
-      "zeit": "02:00",
-      "grad": 21,
-      "code": 53,
-      "regen": 51
-     },
-     {
-      "zeit": "03:00",
-      "grad": 21,
-      "code": 51,
-      "regen": 62
-     },
-     {
-      "zeit": "04:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 72
-     },
-     {
-      "zeit": "05:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 80
-     },
-     {
-      "zeit": "06:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 85
-     },
-     {
       "zeit": "07:00",
-      "grad": 21,
-      "code": 3,
+      "grad": 20,
+      "code": 51,
       "regen": 88
      },
      {
       "zeit": "08:00",
       "grad": 20,
-      "code": 51,
+      "code": 3,
       "regen": 90
      },
      {
       "zeit": "09:00",
       "grad": 20,
-      "code": 51,
+      "code": 53,
       "regen": 90
      },
      {
       "zeit": "10:00",
       "grad": 20,
-      "code": 53,
+      "code": 51,
       "regen": 89
      },
      {
       "zeit": "11:00",
-      "grad": 21,
+      "grad": 20,
       "code": 3,
       "regen": 88
      },
      {
       "zeit": "12:00",
-      "grad": 22,
-      "code": 3,
+      "grad": 20,
+      "code": 53,
       "regen": 86
      },
      {
       "zeit": "13:00",
-      "grad": 22,
-      "code": 3,
+      "grad": 20,
+      "code": 61,
       "regen": 84
      },
      {
       "zeit": "14:00",
-      "grad": 21,
-      "code": 3,
+      "grad": 19,
+      "code": 63,
       "regen": 82
      },
      {
       "zeit": "15:00",
-      "grad": 21,
-      "code": 51,
+      "grad": 19,
+      "code": 55,
       "regen": 79
      },
      {
       "zeit": "16:00",
-      "grad": 20,
+      "grad": 19,
       "code": 3,
       "regen": 76
      },
      {
       "zeit": "17:00",
-      "grad": 20,
+      "grad": 19,
       "code": 3,
       "regen": 75
      },
      {
       "zeit": "18:00",
       "grad": 19,
-      "code": 51,
+      "code": 3,
       "regen": 76
      },
      {
       "zeit": "19:00",
       "grad": 19,
-      "code": 51,
+      "code": 3,
       "regen": 78
      },
      {
       "zeit": "20:00",
-      "grad": 19,
+      "grad": 18,
       "code": 3,
       "regen": 80
+     },
+     {
+      "zeit": "21:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 82
+     },
+     {
+      "zeit": "22:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 85
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 51,
+      "regen": 86
+     },
+     {
+      "zeit": "00:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 86
+     },
+     {
+      "zeit": "01:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 85
+     },
+     {
+      "zeit": "02:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 82
+     },
+     {
+      "zeit": "03:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 75
+     },
+     {
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 65
+     },
+     {
+      "zeit": "05:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 55
+     },
+     {
+      "zeit": "06:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 45
      }
     ]
    },
@@ -1204,66 +1208,53 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 23,
+     "grad": 17,
      "code": 3,
-     "gefuehlt": 22,
-     "wind": 5,
+     "gefuehlt": 17,
+     "wind": 3,
      "windAus": 74,
-     "feuchte": 46,
-     "druck": 1007,
+     "feuchte": 65,
+     "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 3,
-     "max": 29,
-     "min": 16,
-     "regen": 0,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 94,
-     "uv": 3.8,
-     "auf": "07:23",
-     "unter": "19:05"
-    },
-    "morgen": {
      "datum": "2026-10-01",
      "code": 63,
-     "max": 22,
-     "min": 18,
-     "regen": 88,
-     "menge": 10.5,
-     "wind": 9,
+     "max": 21,
+     "min": 17,
+     "regen": 100,
+     "menge": 7.1,
+     "wind": 8,
      "windAus": 225,
-     "uv": 3.2,
+     "uv": 2.7,
      "auf": "07:25",
      "unter": "19:03"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 61,
+     "max": 22,
+     "min": 15,
+     "regen": 68,
+     "menge": 0,
+     "wind": 9,
+     "windAus": 23,
+     "uv": 3.9,
+     "auf": "07:26",
+     "unter": "19:01"
+    },
     "tage": [
-     {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 29,
-      "min": 16,
-      "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 94,
-      "uv": 3.8,
-      "auf": "07:23",
-      "unter": "19:05"
-     },
      {
       "datum": "2026-10-01",
       "code": 63,
-      "max": 22,
-      "min": 18,
-      "regen": 88,
-      "menge": 10.5,
-      "wind": 9,
+      "max": 21,
+      "min": 17,
+      "regen": 100,
+      "menge": 7.1,
+      "wind": 8,
       "windAus": 225,
-      "uv": 3.2,
+      "uv": 2.7,
       "auf": "07:25",
       "unter": "19:03"
      },
@@ -1271,212 +1262,225 @@
       "datum": "2026-10-02",
       "code": 61,
       "max": 22,
-      "min": 14,
-      "regen": 90,
-      "menge": 2.9,
-      "wind": 6,
-      "windAus": 12,
-      "uv": 3.8,
+      "min": 15,
+      "regen": 68,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 23,
+      "uv": 3.9,
       "auf": "07:26",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 22,
-      "min": 13,
-      "regen": 0,
+      "max": 20,
+      "min": 12,
+      "regen": 3,
       "menge": 0,
-      "wind": 6,
-      "windAus": 40,
+      "wind": 7,
+      "windAus": 28,
       "uv": 3.9,
       "auf": "07:28",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-04",
-      "code": 80,
-      "max": 20,
-      "min": 13,
-      "regen": 5,
-      "menge": 1.5,
-      "wind": 5,
-      "windAus": 29,
-      "uv": 3.8,
+      "code": 45,
+      "max": 22,
+      "min": 12,
+      "regen": 11,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 318,
+      "uv": 3.1,
       "auf": "07:29",
       "unter": "18:57"
      },
      {
       "datum": "2026-10-05",
-      "code": 45,
+      "code": 3,
       "max": 21,
-      "min": 8,
-      "regen": 4,
+      "min": 10,
+      "regen": 5,
       "menge": 0,
-      "wind": 4,
-      "windAus": 137,
-      "uv": 3.8,
+      "wind": 9,
+      "windAus": 225,
+      "uv": 3.6,
       "auf": "07:31",
       "unter": "18:55"
      },
      {
       "datum": "2026-10-06",
       "code": 45,
-      "max": 22,
-      "min": 8,
-      "regen": 3,
+      "max": 23,
+      "min": 7,
+      "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 54,
-      "uv": 3.3,
+      "wind": 4,
+      "windAus": 51,
+      "uv": 3.6,
       "auf": "07:32",
       "unter": "18:52"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 61,
+      "max": 23,
+      "min": 7,
+      "regen": 44,
+      "menge": 0.3,
+      "wind": 9,
+      "windAus": 209,
+      "uv": 3.4,
+      "auf": "07:34",
+      "unter": "18:50"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "05:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "06:00",
-      "grad": 19,
-      "code": 61,
-      "regen": 10
-     },
-     {
       "zeit": "07:00",
       "grad": 18,
-      "code": 61,
-      "regen": 13
+      "code": 3,
+      "regen": 48
      },
      {
       "zeit": "08:00",
-      "grad": 18,
-      "code": 61,
-      "regen": 18
+      "grad": 17,
+      "code": 3,
+      "regen": 48
      },
      {
       "zeit": "09:00",
-      "grad": 18,
+      "grad": 17,
       "code": 61,
-      "regen": 30
+      "regen": 15
      },
      {
       "zeit": "10:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 33
+      "grad": 18,
+      "code": 61,
+      "regen": 5
      },
      {
       "zeit": "11:00",
-      "grad": 20,
+      "grad": 19,
       "code": 3,
-      "regen": 33
+      "regen": 8
      },
      {
       "zeit": "12:00",
       "grad": 21,
       "code": 3,
-      "regen": 38
+      "regen": 20
      },
      {
       "zeit": "13:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 40
+      "grad": 21,
+      "code": 61,
+      "regen": 33
      },
      {
       "zeit": "14:00",
-      "grad": 22,
+      "grad": 21,
       "code": 61,
-      "regen": 43
+      "regen": 40
      },
      {
       "zeit": "15:00",
       "grad": 21,
       "code": 61,
-      "regen": 63
+      "regen": 48
      },
      {
       "zeit": "16:00",
-      "grad": 20,
+      "grad": 21,
       "code": 61,
-      "regen": 65
+      "regen": 70
      },
      {
       "zeit": "17:00",
       "grad": 20,
       "code": 61,
-      "regen": 73
+      "regen": 93
      },
      {
       "zeit": "18:00",
       "grad": 19,
-      "code": 61,
-      "regen": 83
+      "code": 63,
+      "regen": 95
      },
      {
       "zeit": "19:00",
       "grad": 19,
       "code": 61,
-      "regen": 83
+      "regen": 100
      },
      {
       "zeit": "20:00",
       "grad": 19,
       "code": 61,
-      "regen": 85
+      "regen": 95
+     },
+     {
+      "zeit": "21:00",
+      "grad": 19,
+      "code": 61,
+      "regen": 95
+     },
+     {
+      "zeit": "22:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 90
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 83
+     },
+     {
+      "zeit": "00:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 68
+     },
+     {
+      "zeit": "01:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 53
+     },
+     {
+      "zeit": "02:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 43
+     },
+     {
+      "zeit": "03:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 20
+     },
+     {
+      "zeit": "04:00",
+      "grad": 16,
+      "code": 45,
+      "regen": 15
+     },
+     {
+      "zeit": "05:00",
+      "grad": 15,
+      "code": 45,
+      "regen": 5
+     },
+     {
+      "zeit": "06:00",
+      "grad": 15,
+      "code": 45,
+      "regen": 0
      }
     ]
    },
@@ -1486,77 +1490,64 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 23,
+     "grad": 18,
      "code": 3,
-     "gefuehlt": 22,
-     "wind": 6,
-     "windAus": 167,
-     "feuchte": 45,
-     "druck": 990,
+     "gefuehlt": 19,
+     "wind": 5,
+     "windAus": 210,
+     "feuchte": 71,
+     "druck": 992,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 3,
-     "max": 29,
-     "min": 15,
-     "regen": 0,
-     "menge": 0,
-     "wind": 7,
-     "windAus": 160,
-     "uv": 4.1,
-     "auf": "07:21",
-     "unter": "19:04"
-    },
-    "morgen": {
      "datum": "2026-10-01",
-     "code": 61,
-     "max": 25,
-     "min": 18,
-     "regen": 83,
-     "menge": 1.2,
-     "wind": 14,
-     "windAus": 297,
-     "uv": 2.9,
+     "code": 80,
+     "max": 24,
+     "min": 17,
+     "regen": 98,
+     "menge": 2.6,
+     "wind": 12,
+     "windAus": 285,
+     "uv": 2.6,
      "auf": "07:22",
      "unter": "19:02"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 61,
+     "max": 20,
+     "min": 16,
+     "regen": 90,
+     "menge": 7.5,
+     "wind": 10,
+     "windAus": 335,
+     "uv": 3.9,
+     "auf": "07:24",
+     "unter": "19:00"
+    },
     "tage": [
      {
-      "datum": "2026-09-30",
-      "code": 3,
-      "max": 29,
-      "min": 15,
-      "regen": 0,
-      "menge": 0,
-      "wind": 7,
-      "windAus": 160,
-      "uv": 4.1,
-      "auf": "07:21",
-      "unter": "19:04"
-     },
-     {
       "datum": "2026-10-01",
-      "code": 61,
-      "max": 25,
-      "min": 18,
-      "regen": 83,
-      "menge": 1.2,
-      "wind": 14,
-      "windAus": 297,
-      "uv": 2.9,
+      "code": 80,
+      "max": 24,
+      "min": 17,
+      "regen": 98,
+      "menge": 2.6,
+      "wind": 12,
+      "windAus": 285,
+      "uv": 2.6,
       "auf": "07:22",
       "unter": "19:02"
      },
      {
       "datum": "2026-10-02",
-      "code": 80,
-      "max": 21,
+      "code": 61,
+      "max": 20,
       "min": 16,
-      "regen": 78,
-      "menge": 15.7,
-      "wind": 16,
+      "regen": 90,
+      "menge": 7.5,
+      "wind": 10,
       "windAus": 335,
       "uv": 3.9,
       "auf": "07:24",
@@ -1564,26 +1555,26 @@
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
+      "code": 3,
       "max": 22,
-      "min": 13,
-      "regen": 0,
+      "min": 14,
+      "regen": 3,
       "menge": 0,
       "wind": 5,
-      "windAus": 90,
+      "windAus": 346,
       "uv": 3.9,
       "auf": "07:25",
       "unter": "18:58"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
+      "code": 45,
       "max": 21,
-      "min": 13,
-      "regen": 10,
+      "min": 14,
+      "regen": 19,
       "menge": 0,
       "wind": 8,
-      "windAus": 297,
+      "windAus": 294,
       "uv": 3.6,
       "auf": "07:26",
       "unter": "18:56"
@@ -1591,12 +1582,12 @@
      {
       "datum": "2026-10-05",
       "code": 45,
-      "max": 21,
-      "min": 12,
-      "regen": 7,
+      "max": 22,
+      "min": 10,
+      "regen": 12,
       "menge": 0,
       "wind": 5,
-      "windAus": 111,
+      "windAus": 243,
       "uv": 3.8,
       "auf": "07:28",
       "unter": "18:54"
@@ -1604,161 +1595,174 @@
      {
       "datum": "2026-10-06",
       "code": 45,
-      "max": 23,
+      "max": 24,
       "min": 8,
-      "regen": 3,
+      "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 146,
-      "uv": 3.5,
+      "windAus": 153,
+      "uv": 3.6,
       "auf": "07:29",
       "unter": "18:51"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 3,
+      "max": 25,
+      "min": 9,
+      "regen": 41,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 213,
+      "uv": 3.4,
+      "auf": "07:31",
+      "unter": "18:49"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 23,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 5
-     },
-     {
       "zeit": "07:00",
-      "grad": 19,
+      "grad": 18,
       "code": 3,
-      "regen": 5
+      "regen": 0
      },
      {
       "zeit": "08:00",
       "grad": 18,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "09:00",
       "grad": 19,
-      "code": 3,
-      "regen": 8
+      "code": 61,
+      "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 8
-     },
-     {
-      "zeit": "11:00",
-      "grad": 22,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
+      "zeit": "11:00",
+      "grad": 20,
+      "code": 61,
+      "regen": 0
+     },
+     {
       "zeit": "12:00",
-      "grad": 23,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 24,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 24,
+      "grad": 23,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
-      "regen": 5
+      "regen": 8
      },
      {
       "zeit": "16:00",
-      "grad": 23,
-      "code": 61,
-      "regen": 20
+      "grad": 24,
+      "code": 3,
+      "regen": 10
      },
      {
       "zeit": "17:00",
       "grad": 22,
       "code": 61,
-      "regen": 33
+      "regen": 43
      },
      {
       "zeit": "18:00",
       "grad": 21,
-      "code": 61,
-      "regen": 43
+      "code": 3,
+      "regen": 73
      },
      {
       "zeit": "19:00",
       "grad": 20,
-      "code": 61,
-      "regen": 45
+      "code": 80,
+      "regen": 90
      },
      {
       "zeit": "20:00",
-      "grad": 20,
+      "grad": 19,
       "code": 61,
-      "regen": 48
+      "regen": 90
+     },
+     {
+      "zeit": "21:00",
+      "grad": 19,
+      "code": 61,
+      "regen": 93
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 61,
+      "regen": 98
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 98
+     },
+     {
+      "zeit": "00:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 90
+     },
+     {
+      "zeit": "01:00",
+      "grad": 18,
+      "code": 61,
+      "regen": 90
+     },
+     {
+      "zeit": "02:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 70
+     },
+     {
+      "zeit": "03:00",
+      "grad": 17,
+      "code": 61,
+      "regen": 63
+     },
+     {
+      "zeit": "04:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 53
+     },
+     {
+      "zeit": "05:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 45
+     },
+     {
+      "zeit": "06:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 25
      }
     ]
    },
@@ -1768,236 +1772,176 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 19,
-     "code": 0,
-     "gefuehlt": 19,
-     "wind": 5,
-     "windAus": 113,
-     "feuchte": 66,
+     "grad": 12,
+     "code": 2,
+     "gefuehlt": 11,
+     "wind": 2,
+     "windAus": 169,
+     "feuchte": 93,
      "druck": 961,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-09-30",
-     "code": 45,
-     "max": 25,
-     "min": 10,
-     "regen": 0,
-     "menge": 0,
-     "wind": 8,
-     "windAus": 52,
-     "uv": 4.2,
-     "auf": "07:11",
-     "unter": "18:55"
-    },
-    "morgen": {
      "datum": "2026-10-01",
      "code": 45,
      "max": 25,
-     "min": 13,
+     "min": 12,
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 297,
-     "uv": 3.6,
+     "windAus": 286,
+     "uv": 3.5,
      "auf": "07:12",
      "unter": "18:53"
     },
+    "morgen": {
+     "datum": "2026-10-02",
+     "code": 3,
+     "max": 23,
+     "min": 14,
+     "regen": 45,
+     "menge": 0,
+     "wind": 11,
+     "windAus": 352,
+     "uv": 2.2,
+     "auf": "07:14",
+     "unter": "18:51"
+    },
     "tage": [
-     {
-      "datum": "2026-09-30",
-      "code": 45,
-      "max": 25,
-      "min": 10,
-      "regen": 0,
-      "menge": 0,
-      "wind": 8,
-      "windAus": 52,
-      "uv": 4.2,
-      "auf": "07:11",
-      "unter": "18:55"
-     },
      {
       "datum": "2026-10-01",
       "code": 45,
       "max": 25,
-      "min": 13,
+      "min": 12,
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 297,
-      "uv": 3.6,
+      "windAus": 286,
+      "uv": 3.5,
       "auf": "07:12",
       "unter": "18:53"
      },
      {
       "datum": "2026-10-02",
-      "code": 80,
-      "max": 18,
+      "code": 3,
+      "max": 23,
       "min": 14,
-      "regen": 50,
-      "menge": 1.2,
-      "wind": 10,
-      "windAus": 290,
-      "uv": 1.2,
+      "regen": 45,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 352,
+      "uv": 2.2,
       "auf": "07:14",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 20,
-      "min": 12,
+      "max": 21,
+      "min": 13,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 36,
+      "windAus": 328,
       "uv": 3.9,
       "auf": "07:15",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-04",
-      "code": 61,
-      "max": 20,
-      "min": 11,
-      "regen": 9,
-      "menge": 4.8,
-      "wind": 4,
-      "windAus": 238,
-      "uv": 3.6,
+      "code": 80,
+      "max": 19,
+      "min": 12,
+      "regen": 15,
+      "menge": 0.6,
+      "wind": 8,
+      "windAus": 245,
+      "uv": 3.4,
       "auf": "07:16",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-05",
-      "code": 80,
-      "max": 19,
-      "min": 11,
-      "regen": 10,
-      "menge": 0.3,
-      "wind": 6,
-      "windAus": 305,
-      "uv": 3.9,
+      "code": 45,
+      "max": 20,
+      "min": 10,
+      "regen": 15,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 230,
+      "uv": 3.8,
       "auf": "07:18",
       "unter": "18:44"
      },
      {
       "datum": "2026-10-06",
       "code": 45,
-      "max": 21,
-      "min": 8,
-      "regen": 4,
+      "max": 22,
+      "min": 6,
+      "regen": 1,
       "menge": 0,
       "wind": 10,
-      "windAus": 106,
-      "uv": 3.5,
+      "windAus": 117,
+      "uv": 3.7,
       "auf": "07:19",
       "unter": "18:42"
+     },
+     {
+      "datum": "2026-10-07",
+      "code": 45,
+      "max": 24,
+      "min": 7,
+      "regen": 17,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 228,
+      "uv": 3.6,
+      "auf": "07:21",
+      "unter": "18:40"
      }
     ],
     "stunden": [
      {
-      "zeit": "21:00",
-      "grad": 19,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 16,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 13,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "07:00",
-      "grad": 13,
-      "code": 1,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "08:00",
-      "grad": 13,
-      "code": 1,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "09:00",
-      "grad": 15,
+      "grad": 14,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 18,
-      "code": 2,
+      "grad": 17,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 20,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 22,
-      "code": 1,
+      "grad": 21,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 23,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -2008,19 +1952,19 @@
      },
      {
       "zeit": "15:00",
-      "grad": 25,
+      "grad": 24,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 25,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 25,
+      "grad": 24,
       "code": 3,
       "regen": 0
      },
@@ -2032,28 +1976,88 @@
      },
      {
       "zeit": "19:00",
-      "grad": 23,
+      "grad": 22,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 22,
+      "grad": 21,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "05:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "06:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 15
      }
     ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 24 und 29 Grad.",
-   "Die Vorhersage für morgen, Donnerstag: im Norden und Osten bewölkt, im Süden und Westen leichter Regen.",
-   "Die Temperaturen erreichen dann 22 bis 25 Grad.",
-   "Am wärmsten wird es in Leipzig mit 25 Grad.",
+   "Heute liegen die Höchstwerte zwischen 21 und 25 Grad.",
+   "Die Vorhersage für morgen, Freitag, im ganzen Land: leichter Regen.",
+   "Die Temperaturen erreichen dann 18 bis 23 Grad.",
+   "Am wärmsten wird es in München mit 23 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
-   "tag": "Donnerstag",
+   "tag": "Freitag",
    "orte": [
     {
      "name": "Hamburg",
@@ -2061,20 +2065,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
-       "regen": 22.5
+       "grad": 20,
+       "regen": 1.9
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 18,
-       "regen": 16.2
+       "grad": 19,
+       "regen": 11.8
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 19,
-       "regen": 7.1
+       "regen": 17.6
       }
      ]
     },
@@ -2084,20 +2088,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 24,
-       "regen": 0
+       "grad": 18,
+       "regen": 0.8
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
+       "grad": 20,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
-       "regen": 0
+       "grad": 19,
+       "regen": 2.2
       }
      ]
     },
@@ -2107,20 +2111,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 25,
-       "regen": 0
+       "grad": 18,
+       "regen": 3.7
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
+       "grad": 20,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
-       "regen": 0
+       "grad": 18,
+       "regen": 1.1
       }
      ]
     },
@@ -2130,20 +2134,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
-       "regen": 5.7
+       "grad": 20,
+       "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 20,
-       "regen": 12.6
+       "grad": 21,
+       "regen": 0.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 19,
-       "regen": 18.2
+       "grad": 18,
+       "regen": 1.1
       }
      ]
     },
@@ -2154,19 +2158,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 22,
-       "regen": 10.5
+       "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
-       "regen": 14.3
+       "grad": 22,
+       "regen": 0.8
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 21,
-       "regen": 1.6
+       "grad": 20,
+       "regen": 3.8
       }
      ]
     },
@@ -2176,20 +2180,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 25,
-       "regen": 1.2
+       "grad": 20,
+       "regen": 7.5
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
-       "regen": 6.7
+       "grad": 22,
+       "regen": 1.2
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 23,
-       "regen": 0.1
+       "grad": 21,
+       "regen": 3.1
       }
      ]
     },
@@ -2199,38 +2203,38 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 25,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 23,
-       "regen": 0
+       "grad": 18,
+       "regen": 5.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
-       "regen": 0
+       "grad": 17,
+       "regen": 4.5
       }
      ]
     }
    ],
-   "spanneGrad": 4,
+   "spanneGrad": 6,
    "uneinigRegen": {
-    "ort": "Stuttgart",
+    "ort": "Berlin",
     "nass": [
-     "ICON",
-     "GFS"
+     "ECMWF"
     ],
     "trocken": [
-     "ECMWF"
+     "ICON",
+     "GFS"
     ]
    },
    "saetze": [
-    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 18 und 22 Grad.",
-    "Und in Stuttgart erwartet ICON und GFS Regen, ECMWF dagegen nicht."
+    "Für München gehen die Modelle am weitesten auseinander: zwischen 17 und 23 Grad.",
+    "Und in Berlin erwartet ECMWF Regen, ICON und GFS dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2238,19 +2242,7 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst",
-  "ton": {
-   "k": "Heute liegen die Höchstwerte zwischen 24 und 29 Grad. Die Vorhersage für morgen,",
-   "d": "f5720d87bd.mp3",
-   "l": 22.12,
-   "s": [
-    0.25,
-    5.18,
-    11.67,
-    15.96,
-    19.41
-   ]
-  }
+  "quelle": "Open-Meteo / Deutscher Wetterdienst"
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2435,92 +2427,91 @@
  },
  "nachrichten": [
   {
-   "id": "vw-kuendigung-tarifvertraege",
+   "id": "tankrabatt-start-oktober",
    "rubrik": "Wirtschaft",
-   "zeit": "2026-09-30T19:02:30.000Z",
-   "aktualisiert": "aktualisiert um 21:13 Uhr",
-   "titel": "Volkswagen kündigt Tarifverträge im Rahmen von Sparmaßnahmen",
-   "vorspann": "Der Automobilkonzern Volkswagen hat zahlreiche Haustarifverträge fristgerecht zum Jahresende gekündigt. Arbeitnehmervertreter und Gewerkschaften kündigten umgehend Widerstand gegen diesen Schritt an.",
+   "zeit": "2026-10-01T05:28:02.000Z",
+   "titel": "Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen",
+   "vorspann": "Zum Oktober ist der staatliche Tankrabatt in Kraft getreten, um die Kraftstoffpreise zu senken. Die Maßnahme ist zwischen Kritikern und Befürwortern umstritten.",
    "eil": false,
    "verstaendlich": {
-    "stufe": "schwer",
-    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
    },
    "zusammenfassung": [
-    "Der Automobilkonzern Volkswagen hat einen Großteil seiner Haustarifverträge fristgerecht zum Ende des Jahres 2026 gekündigt.",
-    "Betroffen sind laut Berichten zehn Verträge, darunter der wichtige Manteltarifvertrag für die Beschäftigten in Deutschland.",
-    "Das Unternehmen begründet diesen Schritt mit einem starken Kostendruck und veränderten Marktbedingungen durch internationale Konkurrenz.",
-    "Gewerkschaften und Betriebsräte kündigten Widerstand an und warfen dem Management ein unfaires Vorgehen vor."
+    "Am 1. Oktober ist ein neuer staatlicher Tankrabatt für Benzin und Diesel in Kraft getreten.",
+    "Der Steuernachlass beträgt 16,7 Cent pro Liter und gilt bis zum Ende des Monats Dezember.",
+    "Kurz nach Mitternacht sanken die bundesweiten Durchschnittspreise an den Tankstellen um rund zehn bis elf Cent.",
+    "Die Maßnahme ist umstritten, da Kritiker eine unvollständige Weitergabe bemängeln, während Verbände der Mineralölwirtschaft dies bestreiten."
    ],
    "einig": [
     [
-     "Volkswagen hat einen Großteil seiner Tarifverträge gekündigt.",
+     "Der Tankrabatt ist am 1. Oktober um Mitternacht in Kraft getreten.",
      [
       "Tagesschau/ARD",
       "Deutschlandfunk",
-      "Spiegel",
-      "Zeit",
-      "Süddeutsche Zeitung"
+      "Spiegel"
      ]
     ],
     [
-     "Der Manteltarifvertrag ist von der Kündigung betroffen.",
+     "Der Steuernachlass beträgt 16,7 Cent pro Liter für Benzin und Diesel.",
      [
       "Tagesschau/ARD",
-      "Spiegel",
-      "Zeit",
-      "Süddeutsche Zeitung"
+      "Spiegel"
      ]
     ],
     [
-     "Die IG Metall und der Betriebsrat kündigten Widerstand an.",
+     "Die Maßnahme ist umstritten und es gibt Unklarheiten über die vollständige Weitergabe an die Verbraucher.",
      [
       "Tagesschau/ARD",
-      "Spiegel",
-      "Süddeutsche Zeitung"
+      "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Die genaue Anzahl der gekündigten Verträge: Ein VW-Sprecher wollte sich nicht äußern, die IG Metall und die Süddeutsche Zeitung sprechen von zehn Verträgen."
+    "Ob der Tankrabatt vollständig an die Verbraucher weitergegeben wird, ist laut Spiegel und Tagesschau/ARD unklar und umstritten. Die Mineralölwirtschaft bestreitet Kritikpunkte von Instituten, während Verbände eine vollständige Weitergabe erwarten."
    ],
    "positionen": [
     [
-     "Volkswagen-Management / Personalvorstand Arne Meiswinkel",
-     "Die Verträge müssen wegen verschärfter Marktbedingungen und enormen Kostendrucks angepasst werden.",
-     "Tagesschau/ARD,Deutschlandfunk,Spiegel"
+     "Benjamin Großkopff",
+     "Die Bundesregierung hat mit dem Tankrabatt die richtige Maßnahme ergriffen.",
+     "Tagesschau/ARD"
     ],
     [
-     "IG-Metall-Verhandlungsführer Thorsten Gröger",
-     "Die Kündigungen sind ein übles Foul an der Belegschaft und ein Versuch, in deren Geldbeutel zu greifen.",
+     "Kritiker (unter anderem Ifo-Institut, Monopolkommission, Bundeskartellamt beim früheren Rabatt)",
+     "Der Rabatt wurde beim letzten Mal nicht vollständig weitergegeben, ist ungenau und dämpft den Anreiz zum Sparen.",
      "Tagesschau/ARD,Spiegel"
     ],
     [
-     "VW-Betriebsratschefin Daniela Cavallo",
-     "Der Schritt ist Erpressung, es wird eine heftige Auseinandersetzung zum Jahreswechsel geben.",
-     "Tagesschau/ARD,Spiegel,Süddeutsche Zeitung"
+     "Wirtschaftsverband Fuels und Energie (en2x)",
+     "Erwartet eine sofortige und vollständige Weitergabe des Rabatts und kritisiert Methodik von Untersuchungen.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Mineralölwirtschaft",
+     "Bestreitet, dass der Rabatt in der Vergangenheit nicht vollständig weitergegeben wurde.",
+     "Tagesschau/ARD,Spiegel"
     ]
    ],
-   "fehlend": "Stimmen von Wirtschaftsverbänden, externen Automobil-Analysten oder der Politik.",
+   "fehlend": "Stimmen von Vertretern der Bundesländer zur ungewöhnlichen Finanzierung",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "30.09.26, 16:00",
-     "fokus": "Hintergründe und Gewerkschaftsreaktionen",
-     "text": "Der Bericht beleuchtet ausführlich das erste Überprüfungsgespräch und führt Zitate von Gewerkskeitsvertretern sowie Details zum Zukunftsplan auf.",
-     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-aufhebung-tarifvertraege-sparmassnahmen-100.html",
+     "datum": "01.10.26, 04:55",
+     "fokus": "Hintergründe und Rechenbeispiele",
+     "text": "Das Projekt beleuchtet detailliert die steuerlichen Hintergründe, die Kostenverteilung zwischen Bund und Ländern sowie konkrete Rechenbeispiele für Autofahrer.",
+     "url": "https://www.tagesschau.de/wirtschaft/verbraucher/faq-tankrabatt-100.html",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 2,
-      "woerter": 449,
-      "satzlaenge": 13,
-      "langeWoerter": 39
+      "klasse": 8,
+      "minuten": 3,
+      "woerter": 621,
+      "satzlaenge": 16,
+      "langeWoerter": 29
      },
      "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
      "finanzierung": "Rundfunkbeitrag",
@@ -2531,10 +2522,10 @@
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "30.09.26, 21:02",
-     "fokus": "–",
-     "text": "Der Volkswagen-Konzern hat nach eigenen Angaben fast alle Tarifverträge gekündigt. Das Unternehmen teilte in Hannover mit, mit Blick auf die Kostenbelastung von VW müssten Regelungen in diesen Verträgen angepasst werden.",
-     "url": "https://www.deutschlandfunk.de/volkswagen-kuendigt-fast-alle-tarifvertraege-auch-manteltarifvertrag-betroffen-100.html",
+     "datum": "01.10.26, 07:28",
+     "fokus": "Kurze Meldung zum Start",
+     "text": "Die Meldung fasst den Beginn des Tankrabatts kurz und prägnant zusammen.",
+     "url": "https://www.deutschlandfunk.de/erneuter-tankrabatt-um-mitternacht-gestartet-preise-bereits-gesunken-100.html",
      "video": false,
      "lesbar": null,
      "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
@@ -2546,507 +2537,642 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "30.09.26, 15:15",
-     "fokus": "Vertragsdetails und Zitate",
-     "text": "Das Nachrichtenmagazin nennt konkrete details zu den betroffenen Zusatzvergütungen und beschreibt die drohende Auseinandersetzung.",
-     "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-kuendigt-tarifvertraege-a-c60ba636-204a-4c5d-994c-ea8bf2c1b06a#ref=rss",
+     "datum": "01.10.26, 06:51",
+     "fokus": "Regionale Preisunterschiede",
+     "text": "Der Artikel konzentriert sich stark auf die konkreten Preisschwankungen in der Nacht und die regionalen Unterschiede in verschiedenen deutschen Städten.",
+     "url": "https://www.spiegel.de/wirtschaft/service/tankrabatt-start-bringt-spuerbaren-rueckgang-der-spritpreise-a-8f36c371-f735-48b9-8388-8786dae75db1#ref=rss",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 12,
-      "minuten": 2,
-      "woerter": 324,
-      "satzlaenge": 17,
-      "langeWoerter": 40
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 288,
+      "satzlaenge": 13,
+      "langeWoerter": 36
      },
      "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "30.09.26, 16:02",
-     "fokus": "–",
-     "text": "Aus Kostendruck hat der Autokonzern VW einen Großteil seiner Tarifverträge gekündigt. Auch der Manteltarifvertrag ist von der Kündigung betroffen.",
-     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-09/volkswagen-kuendigt-fast-alle-tarifvertraege-gxe",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "30.09.26, 13:31",
-     "fokus": "Konsequenzen für Arbeitnehmer",
-     "text": "Die Tageszeitung nennt konkrete Auswirkungen auf Urlaubszeiten sowie Schutzregelungen für ältere und kranke Mitarbeiter.",
-     "url": "https://www.sueddeutsche.de/wirtschaft/vw-sparplan-personal-betriebsrat-streit-li.3555614",
-     "video": false,
-     "lesbar": {
-      "stufe": "schwer",
-      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
-      "klasse": 13,
-      "minuten": 1,
-      "woerter": 153,
-      "satzlaenge": 13,
-      "langeWoerter": 43
-     },
-     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
      "finanzierung": "Abos und Werbung",
      "publikumWert": null
     }
    ],
    "unterschiede": [
     [
-     "Anzahl der gekündigten Verträge",
-     "Ein VW-Sprecher lehnte genaue Angaben ab, während die IG Metall und Medien wie der Spiegel und die Süddeutsche Zeitung konkret von zehn Verträgen sprechen."
+     "Ausführlichkeit",
+     "Tagesschau/ARD und Spiegel liefern sehr ausführliche Berichte mit Rechenbeispielen und regionalen Daten, während der Deutschlandfunk eine kurze Meldung verfasst."
     ]
    ],
    "wfragen": {
-    "wer": "Der Automobilkonzern Volkswagen",
-    "was": "Kündigung zahlreicher Haustarifverträge",
-    "wann": "Zum 30. September 2026",
-    "wo": "Hannover, Deutschland",
-    "wie": "Durch fristgerechte Übermittlung von Kündigungsschreiben zum Jahresende",
-    "warum": "Wegen steigenden Kostendrucks laut Unternehmen",
-    "quellenlage": "Meldungen von Tagesschau/ARD, Deutschlandfunk, Spiegel, Zeit und Süddeutscher Zeitung"
+    "wer": "Die Bundesregierung",
+    "was": "Ein erneuter staatlicher Tankrabatt tritt in Kraft",
+    "wann": "2026-10-01",
+    "wo": "Deutschland",
+    "wie": "Durch einen Steuernachlass an Raffinerien und Tanklagern",
+    "warum": "Als Reaktion auf extrem hohe Spritpreise, laut Bundesregierung",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk und Spiegel"
    },
    "artikel": [
     {
      "ueberschrift": "Das ist passiert",
      "absaetze": [
-      "Der Automobilkonzern Volkswagen hat einen Großteil seiner bestehenden Haustarifverträge gekündigt. Die entsprechenden Kündigungsschreiben wurden nach Angaben aus Arbeitnehmerkreisen am Mittwoch übermittelt. Die Maßnahmen sollen zum Jahresende wirksam werden. Das Unternehmen begründet diesen Schritt mit dem aktuellen Kostendruck in der Branche.",
-      "Laut Berichten von Tagesschau/ARD, Spiegel und Süddeutscher Zeitung sind insgesamt zehn von dreizehn Verträgen des Haustarifs betroffen. Zu den betroffenen Vereinbarungen gehört unter anderem der Manteltarifvertrag. Dieser regelt wichtige Grundlagen für die Beschäftigten des Unternehmens.",
-      "Die Kündigung der Verträge wurde nach einem Gespräch zwischen Unternehmensvertretern und Arbeitnehmervertretern in Hannover bekannt. Das Unternehmen erklärte, damit einen Verhandlungsraum für anstehende Anpassungen öffnen zu wollen. Erste Auswirkungen könnten die Beschäftigten nach Angaben der Arbeitnehmer ab Januar 2027 spüren."
+      "Um Mitternacht ist der zweite staatliche Tankrabatt des Jahres in Kraft getreten. Die Maßnahme soll bis zum Ende des Monats Dezember andauern. Der Steuernachlass betrifft Benzin und Diesel. Die Bundesregierung reagiert damit auf die aktuell sehr hohen Kraftstoffpreise. Der September war laut den Berichten der bisher teuerste Monat für das Tanken.",
+      "Der Nachlass bei der Energiesteuer liegt bei 14,04 Cent pro Liter. Da dieser Betrag beim Verkauf auch zu einer geringeren Mehrwertsteuer führt, ergibt sich ein Gesamtnachlass von 16,7 Cent pro Liter. Diese Senkung greift jedoch nicht direkt an der Zapfsäule, sondern bei der Lieferung des Treibstoffs. Laut Tagesschau/ARD und Spiegel gilt der Rabatt für Benzin und Diesel, die Tanklager und Raffinerien verlassen.",
+      "Kurz nach Mitternacht sanken die Preise an vielen Tankstellen spürbar ab. Laut Daten des Portals Tankerkönig und des ADAC fielen die bundesweiten Durchschnittspreise in den Nachtstunden um rund zehn bis elf Cent. Superbenzin der Sorte E10 wurde vielerorts für weniger als zwei Euro angeboten. Dies ergab sich laut Spiegel vor allem in Städten wie München, Stuttgart und Leipzig."
      ]
     },
     {
      "ueberschrift": "Die Einzelheiten",
      "absaetze": [
-      "Von der Kündigung betroffen ist nach übereinstimmenden Berichten der Manteltarifvertrag, welcher unter anderem die Arbeitszeit der knapp 100.000 beziehungsweise mehr als 100.000 VW-Beschäftigten in Deutschland regelt. Laut Süddeutscher Zeitung sind auch Urlaubszeiten sowie Schutzregelungen für ältere und kranke Arbeitnehmer von den Änderungen berührt.",
-      "Der Spiegel und die Süddeutsche Zeitung führen weitere betroffene Bereiche auf. Dazu gehören eine tarifliche Zusatzvergütung, bei der Beschäftigte zwischen sechs zusätzlichen freien Tagen und einer Zusatzzahlung von 27,5 Prozent eines Monatseinkommens wählen können. Ebenfalls auf dem Spiel stehen laut diesen Berichten weitere Zulagen sowie Vereinbarungen zur Ausbildung.",
-      "Ein Sprecher des Unternehmens äußerte sich laut Tagesschau/ARD zunächst nicht zur genauen Anzahl der gekündigten Verträge. Die Gewerkschaft IG Metall sprach demgegenüber von insgesamt zehn Verträgen. Der Zukunftstarifvertrag aus dem Jahr 2024 sowie die darin vereinbarte Beschäftigungssicherung bis Ende 2030 bleiben nach Angaben der Gewerkschaft unberührt."
+      "Die Entwicklung der Preise an den Tankstellen zeigt deutliche regionale Unterschiede. In Berlin gab es laut Spiegel zahlreiche Angebote unter zwei Euro, in Hamburg dagegen nur wenige. In Köln wurden am Morgen gar keine Tankstellen unter zwei Euro angezeigt. Die bundesweiten Durchschnittspreise lagen laut denselben Angaben weiterhin deutlich über der Marke von zwei Euro.",
+      "Tankstellen sind nicht rechtlich verpflichtet, den Rabatt an die Verbraucher weiterzugeben. Dies geht aus den Berichten von Tagesschau/ARD und Spiegel hervor. Dennoch sanken die Preise in der Nacht, weil Kunden dies offenbar erwarteten. Unmittelbar um Mitternacht hatten die Tankstellen den verbilligten Sprit zudem noch gar nicht physisch vorrätig, wie die Tagesschau/ARD anmerkt.",
+      "Laut dem Portal Tankerkönig gibt es bei den Preisen eine Regelung zum Vormittag. Demnach können die Preise am Vormittag aufgrund rechtlicher Vorgaben nur sinken, nicht aber steigen. Den niedrigsten Preis gibt es laut dieser Quelle in der Regel kurz vor zwölf Uhr mittags. Wer erst kurz nach zwölf Uhr tankt, muss laut Tankerkönig oft etwa zwanzig Cent pro Liter mehr bezahlen."
      ]
     },
     {
      "ueberschrift": "Hintergrund",
      "absaetze": [
-      "Das wirtschaftliche Umfeld hat sich für die Autoindustrie und Volkswagen nach Angaben des Personalvorstands der Marke Volkswagen, Arne Meiswinkel, gravierend verschärft. Die Marktveränderungen seien strukturell und tiefgreifend. Als konkreten Grund nannte Meiswinkel unter anderem den Umstand, dass chinesische Hersteller mit günstigen Exporten nach Europa drängen.",
-      "Dies erhöhe den Preis- und Wettbewerbsdruck enorm, weshalb die Maßnahmen aus dem Zukunftsplan 2030 schnell und konsequent umgesetzt werden müssten. Das Unternehmen hat ein umfassendes Sparprogramm auf den Weg gebracht. Vor einer Aufsichtsratssitzung war ein Kompromiss im Streit über den Sparkurs zunächst nicht in Sicht.",
-      "Am Mittwoch fand das erste Überprüfungsgespräch zwischen Vertretern von Volkswagen, der IG Metall und dem Betriebsrat statt. Es war das erste offizielle Treffen in größerer Runde seit dem Aufsichtsratsbeschluss zum Zukunftsplan Anfang September. Das Management um den Vorstandschef Oliver Blume hat seither ein Mandat, den Konzern umzubauen und Milliarden einzusparen."
+      "Die hohen Kraftstoffpreise haben verschiedene Ursachen. Laut Tagesschau/ARD schränkt der Iran-Krieg den Export von Öl und Treibstoff aus der Golf-Region ein. Zudem fehlen Kapazitäten bei den Raffinerien. Auch Niedrigwasser kann hierzulande zu logistischen Problemen bei der Versorgung führen.",
+      "Vor Beginn dieser Phase stiegen die Preise deutlich an. Am Tag vor Ausbruch des Iran-Krieges Ende Februar kostete Super E10 laut ADAC im bundesweiten Durchschnitt 1,78 Euro und Diesel 1,75 Euro. Am vergangenen Sonntag kostete Super E10 laut derselben Quelle 2,28 Euro und Diesel 2,43 Euro. Der September lag demnach mehr als zehn Cent über dem vorherigen Rekord.",
+      "Die Finanzierung der Maßnahme unterscheidet sich von früheren Vorhaben. Die Bundesregierung erwartet Mindereinnahmen von rund 2,485 Milliarden Euro. Erstmals sollen die Länder die Hälfte dieser Kosten tragen. Dafür tritt der Bund ihnen etwas weniger Umsatzsteuereinnahmen ab, was laut Tagesschau/ARD ein ungewöhnliches Vorgehen darstellt."
      ]
     },
     {
      "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Ein Manteltarifvertrag ist ein Kollektivvertrag zwischen einer Gewerkschaft und einem Arbeitgeber oder Arbeitgeberverband. Er regelt grundsätzliche und längerfristige Arbeitsbedingungen wie Arbeitszeiten, Urlaub und Kündigungsfristen, während Entgelte meist in separaten Lohn- und Gehaltstarifverträgen verhandelt werden.",
-      "Ein Haustarifvertrag ist ein spezieller Tarifvertrag, der im Gegensatz zu einem Flächentarifvertrag nur für ein einzelnes Unternehmen und dessen Beschäftigte gilt. Die IG Metall ist die zuständige Gewerkschaft, die die Interessen der Arbeitnehmer in der Metall- und Elektroindustrie sowie bei Automobilherstellern vertritt."
+      "Eine Energiesteuer ist eine Verbrauchssteuer, die auf Energieträger wie Benzin und Diesel erhoben wird. Sie ist fester Bestandteil des Endpreises an der Tankstelle. Eine Senkung dieser Steuer soll die Belastung für Verbraucher und Wirtschaft verringern.",
+      "Raffinerien sind Industrieanlagen, in denen Rohöl durch Destillation und andere Verfahren zu Produkten wie Benzin, Diesel oder Heizöl verarbeitet wird. Tanklager dienen der Zwischenlagerung dieser Kraftstoffe, bevor sie per Lkw zu den einzelnen Tankstellen transportiert werden."
      ]
     },
     {
      "ueberschrift": "Reaktionen",
      "absaetze": [
-      "Die Gewerkschaft IG Metall und der Betriebsrat kündigten umgehend Widerstand gegen die Vorhaben des Autobauers an. Der IG-Metall-Bezirkschef und Verhandlungsführer Thorsten Gröger bezeichnete den Schritt als ein übles Foul an der Belegschaft. Laut Tagesschau/ARD, Spiegel und weiteren Medien erklärte Gröger zudem, es handele sich um einen schamlosen Versuch, in die Geldbeutel der Beschäftigten greifen zu wollen.",
-      "Die Gewerkschaft werde nicht hinnehmen, dass unternehmerische Kosten und Risiken auf die Belegschaft verlagert würden, während Gewinne privatisiert blieben. Betriebsratschefin Daniela Cavallo sprach laut dem Spiegel von Erpressung. Sie rechnet nach Angaben aus den Berichten mit einer heftigen Auseinandersetzung zum Jahreswechsel.",
-      "Zu diesem Zeitpunkt endet die Friedenspflicht in dem ebenfalls gekündigten Vergütungstarifvertrag, wodurch Streiks ermöglicht würden. In der Süddeutschen Zeitung warf Cavallo dem Vorstand zudem vor, einiges verschlafen zu haben, und erklärte, die Gewerkschaft habe keinem massiven Stellenabbau zugestimmt."
+      "Die Maßnahme ist unter Fachleuten und Organisationen umstritten. Laut Tagesschau/ARD und Spiegel kritisieren Kritiker, dass der Rabatt ungenau ist, den Anreiz zum Kraftstoffsparen dämpft und nicht vollständig beim Verbraucher ankommt. Beim vorherigen Tankrabatt im Mai und Juni hatten laut Tagesschau/ARD das Ifo-Institut, die Monopolkommission und das Bundeskartellamt festgestellt, dass der Rabatt nicht vollständig weitergegeben wurde.",
+      "Die Mineralölwirtschaft bestreitet diese Vorwürfe. Der Wirtschaftsverband Fuels und Energie (en2x) erwartet laut Tagesschau/ARD eine sofortige und vollständige Weitergabe des Tankrabatts. Der Verband kritisierte zudem, dass Untersuchungen zu diesem Thema oft andere Kostenfaktoren nicht berücksichtigen.",
+      "Befürworter verteidigen die Entscheidung. Laut Tagesschau/ARD meint Benjamin Großkopff, die Bundesregierung habe mit dem Tankrabatt die richtige Maßnahme ergriffen. Der Spiegel berichtet ebenfalls, Befürworter verweisen darauf, dass es aktuell kein besseres Mittel zur Entlastung von Autofahrern gebe."
      ]
     },
     {
      "ueberschrift": "Wie geht es weiter?",
      "absaetze": [
-      "Die ausgesprochenen Kündigungen der Tarifverträge werden zum 31. Dezember 2026 fristgerecht wirksam. Das Management strebt an, die Regelungen in den Verträgen angesichts des Kostendrucks anzupassen.",
-      "Erste konkrete Folgen für die Beschäftigten könnten nach Angaben der Arbeitnehmerseite ab Januar 2027 spürbar werden. Die betroffenen Parteien stehen vor intensiven Verhandlungen über die künftige Ausgestaltung der Arbeitsbedingungen."
+      "Der Steuernachlass gilt für drei Monate bis zum 31. Dezember des Jahres. In den kommenden Tagen wird sich laut den Analysen im Spiegel zeigen, wie vollständig der Rabatt an die Verbraucher weitergegeben wird. Der ADAC und das Portal Tankerkönig werden die Preisentwicklung weiter beobachten.",
+      "Autofahrer müssen sich weiterhin auf schwankende Preise einstellen. Rechenbeispiele der Tagesschau/ARD verdeutlichen die mögliche Ersparnis bei vollständiger Weitergabe. Ein Dieselfahrzeug mit einer jährlichen Fahrleistung von 15.000 Kilometern und einem Verbrauch von sieben Litern auf 100 Kilometern würde in den drei Monaten rund 44 Euro sparen. Ein Benziner mit 9.000 Kilometern Fahrleistung und einem Verbrauch von acht Litern auf 100 Kilometern käme demnach auf eine Ersparnis von rund 30 Euro."
      ]
     }
    ],
    "zeitleiste": [
     [
-     "2024",
-     "Abschluss des Tarifkompromisses mit dem Zukunftstarifvertrag und Beschäftigungssicherung bis 2030."
+     "Ende Februar",
+     "Vor Ausbruch des Iran-Krieges kostete Super E10 im Durchschnitt 1,78 Euro und Diesel 1,75 Euro."
     ],
     [
-     "Anfang September 2026",
-     "Beschluss des Zukunftsplans durch den Aufsichtsrat mit Mandat zum Konzernumbau."
+     "September",
+     "Der Monat war laut Berichten der bisher teuerste Tankmonat."
     ],
     [
-     "30. September 2026",
-     "Erstes Überprüfungsgespräch und Kündigung zahlreicher Haustarifverträge durch Volkswagen."
-    ],
-    [
-     "31. Dezember 2026",
-     "Die Kündigung der Tarifverträge wird fristgerecht wirksam."
+     "2026-10-01",
+     "Der zweite staatliche Tankrabatt des Jahres tritt um Mitternacht in Kraft."
     ]
    ],
    "bilder": [
     {
-     "art": "person",
-     "suchbegriff": "Oliver Blume manager",
-     "bildunterschrift": "Volkswagen-Vorstandschef Oliver Blume leitet den Umbau des Konzerns."
-    },
-    {
      "art": "ort",
-     "suchbegriff": "Volkswagen Arena Wolfsburg",
-     "bildunterschrift": "Das Firmengelände von Volkswagen in Niedersachsen."
+     "suchbegriff": "Gas station Germany",
+     "bildunterschrift": "Eine Tankstelle in Deutschland, an der Kraftstoffe wie Benzin und Diesel verkauft werden."
     },
     {
      "art": "institution",
-     "suchbegriff": "IG Metall headquarters Frankfurt",
-     "bildunterschrift": "Die Gewerkschaft IG Metall vertritt die Interessen der Beschäftigten."
+     "suchbegriff": "Federal Ministry of Finance Germany",
+     "bildunterschrift": "Das Bundesministerium der Finanzen in Berlin, das für steuerliche Maßnahmen zuständig ist."
     },
     {
      "art": "symbol",
-     "suchbegriff": "Automobile manufacturing assembly line",
-     "bildunterschrift": "Eine Produktionshalle in der Automobilindustrie."
+     "suchbegriff": "Crude oil refinery",
+     "bildunterschrift": "Eine Raffinerie, in der Rohöl zu Treibstoffen verarbeitet wird."
     }
    ],
    "ort": {
-    "name": "Hannover, Deutschland"
+    "name": "Deutschland"
    },
    "geprueft": true,
-   "korrekturen": [
-    "Entfernung der unbestätigten politischen Warnung aus der Fehlend-Sektion im Fließtext, Anpassung von Begriffserklärungen gemäß Vorgaben."
-   ],
-   "wortwarnung": [
-    "heftigen",
-    "massiven"
-   ],
+   "korrekturen": [],
+   "wortwarnung": [],
    "lernen": {
     "begriffe": [
      [
-      "Haustarifvertrag",
-      "Ein Vertrag zwischen einem einzelnen Unternehmen und einer Gewerkschaft, der die Arbeitsbedingungen für die Beschäftigten dieses speziellen Betriebes regelt."
+      "Energiesteuer",
+      "Eine Steuer auf Energieträger wie Benzin und Diesel, die fest im Preis an der Zapfsäule enthalten ist."
      ],
      [
-      "Manteltarifvertrag",
-      "Ein Vertrag, der grundlegende Arbeitsbedingungen wie Arbeitszeiten, Urlaub und Kündigungsfristen für längere Zeit festlegt."
+      "Raffinerie",
+      "Eine industrielle Anlage, in der Rohöl durch verschiedene Verfahren zu Kraftstoffen wie Benzin oder Diesel verarbeitet wird."
+     ],
+     [
+      "Tanklager",
+      "Ein Ort, an dem Kraftstoffe in großen Mengen gelagert werden, bevor sie zu Tankstellen transportiert werden."
      ]
     ],
     "fragen": [
-     "Welche Gründe nennt Volkswagen für die Kündigung der Tarifverträge, und wie bewertet die Gewerkschaft diesen Schritt?",
-     "Welche Folgen könnten die Kündigungen ab dem Jahr zweitausendsiebenundzwanzig für die Beschäftigten haben?"
+     "Welche Argumente bringen Kritiker und Befürworter des Tankrabatts vor?",
+     "Warum ist die Weitergabe des Tankrabatts an die Verbraucher laut den Berichten schwer zu messen?",
+     "Welche Rolle spielen der Bund und die Länder bei der Finanzierung der Maßnahme?"
     ],
     "quiz": [
      {
-      "frage": "Welcher wichtige Vertrag ist laut den Berichten von der Kündigung betroffen?",
+      "frage": "Wie hoch ist der gesamte Steuernachlass pro Liter beim neuen Tankrabatt?",
       "optionen": [
-       "Der Zukunftstarifvertrag zweitausendvierundzwanzig",
-       "Der Manteltarifvertrag",
-       "Ein Ausbildungsvertrag für neue Lehrlinge"
+       "10,0 Cent",
+       "16,7 Cent",
+       "20,0 Cent"
       ],
       "richtig": 1,
-      "erklaerung": "Der Manteltarifvertrag wird in mehreren Berichten als direkt von der Kündigung betroffen genannt."
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel ergibt sich durch die Energiesteuersenkung und die geringere Mehrwertsteuer ein Rabatt von insgesamt 16,7 Cent pro Liter."
      },
      {
-      "frage": "Wie viele Tarifverträge wurden nach Angaben der IG Metall gekündigt?",
+      "frage": "Bis zu welchem Datum ist der Tankrabatt befristet?",
       "optionen": [
-       "Acht Verträge",
-       "Zehn Verträge",
-       "Dreižehn Verträge"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die IG Metall und die Süddeutsche Zeitung geben an, dass zehn von insgesamt dreizehn Haustarifverträgen gekündigt wurden."
-     },
-     {
-      "frage": "Wer kritisierte die Kündigungen als übles Foul an der Belegschaft?",
-      "optionen": [
-       "Der VW-Vorstandschef Oliver Blume",
-       "Personalvorstand Arne Meiswinkel",
-       "IG-Metall-Verhandlungsführer Thorsten Gröger"
+       "31. Oktober",
+       "30. November",
+       "31. Dezember"
       ],
       "richtig": 2,
-      "erklaerung": "Thorsten Gröger von der IG Metall nutzte diese Formulierung als Reaktion auf die Pläne des Autobauers."
+      "erklaerung": "Die Tagesschau/ARD und der Deutschlandfunk berichten übereinstimmend, dass der Rabatt bis zum 31. Dezember gilt."
+     },
+     {
+      "frage": "Wer trägt nach Angaben der Tagesschau/ARD die Hälfte der Kosten für die Steuerausfälle?",
+      "optionen": [
+       "Die Bundesländer",
+       "Die Mineralölkonzerne",
+       "Die europäischen Staaten"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD sollen diesmal die Länder die Hälfte der Kosten tragen, wofür der Bund ihnen etwas weniger Umsatzsteuereinnahmen abtritt."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Der Autohersteller Volkswagen hat viele Tarifverträge gekündigt. Das sorgt für großen Streit mit den Beschäftigten.",
+    "vorspann": "In Deutschland gilt seit dem ersten Oktober ein neuer Tankrabatt. Autofahrer sollen dadurch beim Tanken von Benzin und Diesel Geld sparen.",
     "absaetze": [
-     "Volkswagen hat nach eigenen Angaben fast alle Haustarifverträge beendet. Das Unternehmen will damit Geld sparen. Betroffen ist unter anderem der wichtige Manteltarifvertrag für rund einhunderttausend Beschäftigte. Das Unternehmen sagt, dass der Druck durch Konkurrenz aus anderen Ländern zu groß geworden ist. Die Gewerkschaft IG Metall und der Betriebsrat sind wütend über diesen Schritt. Sie kündigten an, dagegen zu kämpfen und für die Rechte der Arbeiter einzustehen."
+     "Der Staat senkt die Energiesteuer für Treibstoff, der die Tanklager und Raffinerien verlässt. Raffinerien sind große Fabriken, in denen Rohöl zu Benzin verarbeitet wird.",
+     "Durch die Steuersenkung sinkt auch die Mehrwertsteuer, sodass insgesamt sechzehn Komma sieben Cent pro Liter eingespart werden.",
+     "Kurz nach Mitternacht sind die Spritpreise an vielen Tankstellen um etwa zehn bis elf Cent gefallen.",
+     "Ob der Rabatt vollständig bei den Autofahrern ankommt, ist unter Fachleuten stark umstritten.",
+     "Die Maßnahme gilt für drei Monate bis zum einunddreißigsten Dezember dieses Jahres."
     ]
    },
    "video": {
     "kurz": [
-     "Der Autohersteller Volkswagen hat fast alle seine Haustarifverträge gekündigt.",
-     "Das Unternehmen begründet den Schritt mit hohem Kostendruck und starker Konkurrenz.",
-     "Gewerkschaften und Betriebsräte kündigten massiven Widerstand an und kritisieren das Vorgehen scharf."
+     "Am ersten Oktober ist in Deutschland ein neuer staatlicher Tankrabatt in Kraft getreten.",
+     "Der Steuernachlass beträgt sechzehn Komma sieben Cent pro Liter Benzin und Diesel.",
+     "Nach Angaben von Medien sanken die Preise in der Nacht um rund zehn bis elf Cent.",
+     "Ob die Mineralölkonzerne den Rabatt vollständig weitergeben, bleibt umstritten."
     ],
     "lang": [
-     "Der Autohersteller Volkswagen hat einen Großteil seiner Haustarifverträge gekündigt.",
-     "Das teilte das Unternehmen nach Angaben aus Hannover am Mittwoch mit.",
-     "Betroffen sind nach übereinstimmenden Medienberichten zehn Verträge, darunter auch der wichtige Manteltarifvertrag für rund einhunderttausend Beschäftigte in Deutschland.",
-     "Volkswagen begründet diesen Schritt mit einem starken Kostendruck und veränderten Marktbedingungen.",
-     "Der Personalvorstand Arne Meiswinkel erklärte, dass unter anderem günstige Exporte chinesischer Hersteller den Wettbewerbsdruck erhöhen.",
-     "Die Gewerkschaft IG Metall und der Betriebsrat wiesen die Pläne scharf zurück.",
-     "Der IG-Metall-Verhandlungsführer Thorsten Gröger nannte die Kündigungen ein übles Foul an der Belegschaft.",
-     "Betriebsratschefin Daniela Cavallo rechnet nach eigenen Angaben mit einer heftigen Auseinandersetzung zum Jahreswechsel.",
-     "Die Kündigungsschreiben wurden fristgerecht übermittelt und werden zum Ende des Jahres zweitausendsechsundzwanzig wirksam.",
-     "Erste spürbare Folgen für die Arbeitnehmer werden ab Januar zweitausendsiebenundzwanzig erwartet."
+     "In Deutschland ist am ersten Oktober ein neuer staatlicher Tankrabatt in Kraft getreten.",
+     "Die Maßnahme soll die hohen Kraftstoffpreise für Autofahrer verringern.",
+     "Der Steuernachlass beträgt nach übereinstimmenden Medienberichten sechzehn Komma sieben Cent pro Liter Benzin und Diesel.",
+     "Die Regelung gilt für drei Monate bis zum einunddreißigsten Dezember.",
+     "Nach Daten des Portals Tankerkönig sanken die bundesweiten Durchschnittspreise in der Nacht um rund zehn bis elf Cent.",
+     "Die Bundesregierung erwartet dadurch Mindereinnahmen von zwei Komma vier acht fünf Milliarden Euro.",
+     "Kritiker bezweifeln, dass der Rabatt vollständig bei den Verbrauchern ankommt, was die Mineralölwirtschaft bestreitet.",
+     "Als Grund für die zuvor hohen Preise nennen Berichte unter anderem den Krieg im Iran und fehlende Kapazitäten.",
+     "Die Bundesländer tragen nach Medienangaben die Hälfte der Kosten, was als ungewöhnlich gilt.",
+     "Ob die Maßnahme ihr Ziel erreicht, wird sich in den kommenden Wochen zeigen."
     ],
     "einfach": [
-     "Volkswagen hat viele wichtige Verträge mit seinen Arbeitnehmern gekündigt.",
-     "Das Unternehmen will damit in einer schwierigen wirtschaftlichen Lage Geld sparen.",
-     "Günstige Autos aus China machen dem Konzern großen Druck.",
-     "Gewerkschaften kritisieren die Kündigungen als unfair und kündigen Widerstand an.",
-     "Ab dem kommenden Jahr könnte es deshalb zu großen Streiks kommen."
+     "In Deutschland gibt es seit dem ersten Oktober einen neuen Tankrabatt.",
+     "Dadurch soll Benzin für Autofahrer billiger werden.",
+     "Der Staat senkt die Steuern auf den Kraftstoff.",
+     "Der Nachlass beträgt sechzehn Komma sieben Cent pro Liter.",
+     "In der Nacht sind die Preise an den Tankstellen deutlich gesunken.",
+     "Ob das Geld wirklich komplett bei den Autofahrern ankommt, ist umstritten."
     ]
    },
    "kurz": [
-    "Volkswagen hat einen Großteil seiner Haustarifverträge fristgerecht gekündigt.",
-    "Betroffen sind laut Medienberichten zehn Verträge, darunter der Manteltarifvertrag.",
-    "Das Unternehmen begründet dies mit starkem Kostendruck und Konkurrenz.",
-    "Gewerkschaften und Betriebsrat kündigten heftigen Widerstand an."
+    "Am ersten Oktober ist ein neuer staatlicher Tankrabatt für Benzin und Diesel in Kraft getreten.",
+    "Der Steuernachlass beträgt sechzehn Komma sieben Cent pro Liter und gilt bis Ende Dezember.",
+    "Nach dem Start sanken die bundesweiten Durchschnittspreise an den Tankstellen um rund zehn bis elf Cent.",
+    "Die Maßnahme ist umstritten, da Kritiker eine unvollständige Weitergabe bemängeln."
    ],
    "fakten": [
     [
-     "Beschäftigte in Deutschland",
-     "rund 100.000"
+     "Steuernachlass pro Liter",
+     "16,7 Cent"
     ],
     [
-     "Gekündigte Verträge nach Gewerkschaftsangaben",
-     "10"
+     "Dauer des Tankrabatts",
+     "3 Monate (bis 31. Dezember)"
     ],
     [
-     "Wirksamkeit der Kündigungen",
-     "Ende des Jahres 2026"
+     "Erwartete Steuermindereinnahmen",
+     "2,485 Milliarden Euro"
+    ],
+    [
+     "Durchschnittspreis Super E10 am Sonntag vor dem Start",
+     "2,28 Euro"
+    ],
+    [
+     "Durchschnittspreis Diesel am Sonntag vor dem Start",
+     "2,43 Euro"
     ]
    ],
    "dossier": {
-    "slug": "vw-tarif-sparprogramm",
-    "titel": "Volkswagen Sparprogramm und Tarifkonflikt"
+    "slug": "staatlicher-tankrabatt-2026",
+    "titel": "Staatlicher Tankrabatt und Kraftstoffpreise"
    },
    "bildInfo": {
-    "titel": "Dr. Oliver Blume CEO Porsche AG.jpg",
-    "beschreibung": "Dr. Oliver Blume Member of the Executive Board - Production and Logistics - of Dr. Ing. h.c. F. Porsche AGMitglied des Vorstandes, Produktion und Logistik der Dr. Ing. h.c. F. Porsche AGFoto: PORSCHE ",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg/1280px-Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
-    "urheber": "Foto: Marco Prosch, Porsche AG, überreicht durch Diana Sänger, Public Relations and Press ",
-    "lizenz": "CC0",
-    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "artikel": "Oliver Blume (Manager)",
-    "sprache": "de",
-    "art": "person",
-    "suchbegriff": "Oliver Blume manager",
-    "bildunterschrift": "Oliver Blume ist Manager bei Volkswagen und Porsche.",
+    "titel": "Old Gas Station Hamburg Grindel.jpg",
+    "beschreibung": "Old gas station in Hamburg that is now being used as a plant shop.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg/1280px-Old_Gas_Station_Hamburg_Grindel.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Old_Gas_Station_Hamburg_Grindel.jpg",
+    "urheber": "Capecross",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "ort",
+    "suchbegriff": "Gas station Germany",
+    "bildunterschrift": "Eine alte Tankstelle in Hamburg, die mittlerweile als Pflanzengeschäft genutzt wird und an das Thema Kraftstoff erinnert.",
     "hinweis": "Archivfoto"
    },
    "bildInfos": [
     {
-     "titel": "Dr. Oliver Blume CEO Porsche AG.jpg",
-     "beschreibung": "Dr. Oliver Blume Member of the Executive Board - Production and Logistics - of Dr. Ing. h.c. F. Porsche AGMitglied des Vorstandes, Produktion und Logistik der Dr. Ing. h.c. F. Porsche AGFoto: PORSCHE ",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg/1280px-Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
-     "urheber": "Foto: Marco Prosch, Porsche AG, überreicht durch Diana Sänger, Public Relations and Press ",
-     "lizenz": "CC0",
-     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-     "artikel": "Oliver Blume (Manager)",
-     "sprache": "de",
-     "art": "person",
-     "suchbegriff": "Oliver Blume manager",
-     "bildunterschrift": "Oliver Blume ist Manager bei Volkswagen und Porsche.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Wolfsburg Jun 2012 004 (Volkswagen Arena).JPG",
-     "beschreibung": "The interior of Volkswagen Arena in Wolfsburg , Niedersachsen ( Germany ).",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG/1280px-Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburg_Jun_2012_004_(Volkswagen_Arena).JPG",
-     "urheber": "Michael Barera",
+     "titel": "Old Gas Station Hamburg Grindel.jpg",
+     "beschreibung": "Old gas station in Hamburg that is now being used as a plant shop.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg/1280px-Old_Gas_Station_Hamburg_Grindel.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Old_Gas_Station_Hamburg_Grindel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Old_Gas_Station_Hamburg_Grindel.jpg",
+     "urheber": "Capecross",
      "lizenz": "CC BY-SA 4.0",
      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
      "art": "ort",
-     "suchbegriff": "Volkswagen Arena Wolfsburg",
-     "bildunterschrift": "Die Volkswagen-Arena in Wolfsburg steht für den Standort des Automobilkonzerns.",
+     "suchbegriff": "Gas station Germany",
+     "bildunterschrift": "Eine alte Tankstelle in Hamburg, die mittlerweile als Pflanzengeschäft genutzt wird und an das Thema Kraftstoff erinnert.",
      "hinweis": "Archivfoto"
     },
     {
-     "titel": "Frankfurt am Main, Central business district (2024).jpg",
-     "beschreibung": "Frankfurt : Bankenviertel (central business district)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
-     "urheber": "Dr. Thomas Liptak",
+     "titel": "Crude Oil Tanker SKS Darent at BP Oil Refinery Jetty, Kwinana, July 2022 02.jpg",
+     "beschreibung": "The Crude Oil Tanker SKS Darent at BP Oil Refinery Jetty, Kwinana, Western Australia.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Crude_Oil_Tanker_SKS_Darent_at_BP_Oil_Refinery_Jetty%2C_Kwinana%2C_July_2022_02.jpg/1280px-Crude_Oil_Tanker_SKS_Darent_at_BP_Oil_Refinery_Jetty%2C_Kwinana%2C_July_2022_02.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Crude_Oil_Tanker_SKS_Darent_at_BP_Oil_Refinery_Jetty%2C_Kwinana%2C_July_2022_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Crude_Oil_Tanker_SKS_Darent_at_BP_Oil_Refinery_Jetty,_Kwinana,_July_2022_02.jpg",
+     "urheber": "Calistemon",
      "lizenz": "CC BY-SA 4.0",
      "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Liste der Hochhäuser in Frankfurt am Main",
-     "sprache": "de",
-     "art": "institution",
-     "suchbegriff": "IG Metall headquarters Frankfurt",
-     "bildunterschrift": "In Frankfurt befindet sich der Hauptsitz der Gewerkschaft IG Metall.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
-     "beschreibung": "Car factory production line. Opel Astra J manufactured in General Motors Manufacturing Poland plant in Gliwice.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg/1280px-002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
-     "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
-     "lizenz": "CC BY 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
      "art": "symbol",
-     "suchbegriff": "Automobile manufacturing assembly line",
-     "bildunterschrift": "Eine Produktionslinie in einer Autofabrik zeigt die Automobilfertigung.",
+     "suchbegriff": "Crude oil refinery",
+     "bildunterschrift": "Ein Rohöl-Tankschiff an einer Raffinerie, passend zum Thema Kraftstoffpreise und Erdöl.",
      "hinweis": "Symbolbild"
     }
    ],
    "ortInfo": {
-    "name": "Hannover, Deutschland",
-    "lat": 52.374,
-    "lon": 9.739
+    "name": "Deutschland",
+    "lat": 51.164,
+    "lon": 10.448
    },
    "version": 5,
-   "bildVersucht": true,
-   "ton": [
+   "bildVersucht": true
+  },
+  {
+   "id": "flydubai-notlandung-angriff",
+   "rubrik": "Welt",
+   "zeit": "2026-10-01T05:28:02.000Z",
+   "titel": "Gewaltsamer Zwischenfall im Cockpit eines Flugzeugs nach Tel Aviv",
+   "vorspann": "Ein Flugzeug der Fluggesellschaft Flydubai auf dem Weg nach Tel Aviv musste nach einer Auseinandersetzung im Cockpit in Saudi-Arabien notlanden. Die israelische Regierung stuft den Vorfall als versuchten Terroranschlag ein.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Ein Flugzeug der Fluggesellschaft Flydubai auf dem Weg von Dubai nach Tel Aviv musste nach einem gewaltsamen Zwischenfall im Cockpit in Saudi-Arabien notlanden.",
+    "Nach Angaben der israelischen Regierung stach ein Pilot auf seinen Kollegen ein.",
+    "Passagiere überwältigten den Angreifer im Cockpit, bevor die Maschine in Tabuk landete.",
+    "Die israelische Regierung wertet den Vorfall als Terroranschlag, während die Fluggesellschaft Flydubai mitteilte, die Motive seien noch unklar."
+   ],
+   "einig": [
+    [
+     "Ein Flugzeug von Flydubai auf dem Weg nach Tel Aviv musste nach einem Gewaltvorfall im Cockpit in Saudi-Arabien notlanden.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die israelische Regierung geht von einem versuchten Terroranschlag aus.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Ein Pilot soll seinen Kollegen mit einem Messer verletzt haben.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob es sich um einen gezielten Terroranschlag handelte, da Flydubai und Sicherheitskreise von unklaren Motiven sprechen, während israelische Minister von einem Terrorakt ausgehen.",
+    "Die genaue Anzahl der Passagiere (während israelische Medien 174 Personen nennen, spricht der Spiegel von 180 Personen)."
+   ],
+   "positionen": [
+    [
+     "Benjamin Netanjahu (Israels Premierminister)",
+     "Der Vorfall war ein versuchter Anschlag eines Piloten, der die Maschine zum Absturz bringen wollte.",
+     "Tagesschau/ARD,Deutschlandfunk"
+    ],
+    [
+     "Itamar Ben-Gvir (Israels Sicherheitsminister)",
+     "Ein Terrorist wollte 180 Israelis an Bord ermorden; der Terror muss besiegt werden.",
+     "Spiegel"
+    ],
+    [
+     "Bezalel Smotrich (Israels Finanzminister)",
+     "Wer ein Flugzeug zum Absturz bringen will, muss dafür wie für einen Mord bezahlen.",
+     "Spiegel"
+    ],
+    [
+     "Flydubai (Fluggesellschaft)",
+     "Die Hintergründe und Motive für den Vorfall sind unklar; Spekulationen sollten vermieden werden.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen der saudi-arabischen Regierung, offizielle Aussagen der beteiligten Piloten selbst sowie Stellungnahmen von Flugunfallermittlern.",
+   "medien": [
     {
-     "k": "Der Autohersteller Volkswagen hat einen Großteil seiner Haustarifverträge gekünd",
-     "d": "9c675589c5.mp3",
-     "l": 61.53,
-     "s": [
-      0.25,
-      5.22,
-      9.41,
-      18.78,
-      24.26,
-      31.66,
-      36.5,
-      42.16,
-      48.59,
-      55.53
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "30.09.26, 22:31",
+     "fokus": "Umfassender Überblick mit Reaktionen",
+     "text": "Der Bericht schildert den Ablauf des Fluges, Aussagen von Augenzeugen und Netanjahus Einordnung als Terroranschlag. Zudem werden diplomatische Hintergründe zwischen den Vereinigten Arabischen Emiraten, Israel und Saudi-Arabien beleuchtet.",
+     "url": "https://www.tagesschau.de/ausland/asien/faq-flydubai-gewalt-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 12,
+      "minuten": 4,
+      "woerter": 727,
+      "satzlaenge": 15,
+      "langeWoerter": 39
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "01.10.26, 07:28",
+     "fokus": "Kurze Zusammenfassung der Kernfakten",
+     "text": "Die Meldung konzentriert sich auf die wesentlichen Ereignisse und die Einschätzung der israelische Regierung bezüglich des versuchten Anschlags durch einen Piloten.",
+     "url": "https://www.deutschlandfunk.de/israel-spricht-von-versuchtem-anschlag-auf-flydubai-flug-nach-tel-aviv-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 14:14",
+     "fokus": "Details zu Flugdaten und Politikeraussagen",
+     "text": "Der Artikel liefert genaue Flightradar24-Zeiten, Zitate der Minister Ben-Gvir und Smotrich sowie Vergleiche mit historischen Piloten-Suiziden in der Luftfahrt.",
+     "url": "https://www.spiegel.de/ausland/flydubai-maschine-muss-notlanden-israel-geht-von-versuchtem-terroranschlag-aus-a-5455ec81-5edd-45c7-b8e1-1ccb32c9de16#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 547,
+      "satzlaenge": 18,
+      "langeWoerter": 38
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Passagierzahlen",
+     "Die Tagesschau nennt 174 Passagiere (darunter 27 Kinder), während der Spiegel von 180 Israelis an Bord spricht."
+    ],
+    [
+     "Einordnung der Tat",
+     "Der Spiegel zitiert Minister, die von einem Terroristen sprechen, während die Tagesschau auch auf die Haltung von Flydubai verweist, dass die Motive noch unklar seien."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Ein Pilot und die Besatzung von Flug FZ1073",
+    "was": "Ein gewaltsamer Zwischenfall im Cockpit mit einer Notlandung",
+    "wann": "2026-09-30",
+    "wo": "Flughafen Tabuk in Saudi-Arabien",
+    "wie": "Durch eine Messerattacke im Cockpit und anschließende Notlandung",
+    "warum": "Nach israelischen Regierungsangaben ein versuchter Anschlag, laut Flydubai sind die Motive noch unklar",
+    "quellenlage": "Regierungsangaben, Fluggesellschaft, Medien und Augenzeugen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Ein Passagierflugzeug der Fluggesellschaft Flydubai auf dem Weg von Dubai nach Tel Aviv ist nach einer gewaltsamen Auseinandersetzung im Cockpit in Saudi-Arabien notgelandet. Nach Angaben der israelischen Regierung und Medienberichten soll ein Pilot seinen Kollegen mit einem Messer verletzt haben. Laut Flightradar24 verlor die Maschine in etwa einer Minute rund 4.900 Meter an Flughöhe. In sozialen Medien veröffentlichte Videos zeigten blutverschmierte Menschen und Szenen während des Sturzflugs. Eine Passagierin berichtete gegenüber dem israelischen Fernsehsender N12 von großer Angst, Schreien und Panik an Bord.",
+      "Der israelische Premierminister Benjamin Netanjahu erklärte, ein Pilot habe auf seinen Kollegen eingestochen und offenbar versucht, die mit Israelis besetzte Maschine zum Absturz zu bringen. Ein Passagier schilderte Netanjahu in einem Telefongespräch, wie er gemeinsam mit einem Besatzungsmitglied in das Cockpit gelangt sei. Sie hätten den Angreifer überwältigt, während dieser die Bordgeräte zu beschädigen versuchte. Aus Ermittlerkreisen hieß es laut Tagesschau/ARD, unter den eingreifenden Passagieren seien israelische Sicherheitskräfte und Luftsicherheitsbegleiter gewesen. Die Fluggesellschaft Flydubai teilte mit, eine zweite Besatzung in der Kabine habe das Steuer übernommen.",
+      "Flydubai bestätigte eine Auseinandersetzung im Cockpit von Flug FZ1073, nannte jedoch zunächst keine weiteren Details. Zuvor war bekannt geworden, dass die Maschine nacheinander den Code 7700 für eine allgemeine Notlage und den Code 7500 für eine Flugzeugentführung abgesetzt hatte. Der Flughafen Tabuk in Saudi-Arabien, wo die Landung stattfand, teilte mit, der Kapitän und der Erste Offizier seien verletzt in ein Krankenhaus gebracht worden. Über weitere Verletzte gab es zunächst keine offiziellen Angaben. Israelischen Medien zufolge befanden sich 174 Passagiere, darunter 27 Kinder, an Bord der Maschine."
      ]
     },
     {
-     "k": "Der Autohersteller Volkswagen hat fast alle seine Haustarifverträge gekündigt. D",
-     "d": "577f593333.mp3",
-     "l": 15.49,
-     "s": [
-      0.25,
-      4.88,
-      9.74
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut dem Nachrichtenmagazin Spiegel betrug die Zahl der Israelis an Bord nach Angaben des Ministers Itamar Ben-Gvir 180 Personen. Der Flug mit der Kennung FZ1073 startete um 03:05 Uhr UTC am Dubai International Airport. Um 05:31 Uhr UTC wurde der Notfallcode auf 7700 geändert, um 05:38 Uhr UTC folgte der Code 7500 für eine unrechtmäßige Einmischung. Nach weiteren Funk- und Satellitensignalen riss der Kontakt ab, und die Maschine landete schließlich um 09:45 Uhr Ortszeit auf dem Flughafen Tabuk. Passagiere wurden laut dem Sender N12 angewiesen, zunächst sitzen zu bleiben und das Flugzeug nicht zu verlassen.",
+      "Am Abend wurden die Fluggäste an Bord einer Ersatzmaschine sicher zum Flughafen Tel Aviv gebracht, wo Angehörige sie empfingen. Flydubai erklärte, dass alle Passagiere und die Crew in Sicherheit seien. Der saudi-arabische Flughafen bestätigte die Einweisung der beiden Piloten in ein Krankenhaus. Premierminister Netanjahu teilte mit, der Angreifer sei festgenommen worden und werde derzeit von den saudi-arabischen Sicherheitsbehörden befragt. Die Fluggesellschaft Flydubai hat alle Flüge von und nach Israel bis auf Weiteres ausgesetzt.",
+      "Die Vereinigten Arabischen Emirate und Israel unterhalten seit dem Jahr 2020 diplomatische Beziehungen im Rahmen eines Annäherungsabkommens. Direkte Flüge zwischen Saudi-Arabien und Israel stellen jedoch eine Seltenheit dar, da beide Länder offiziell keine diplomatischen Beziehungen pflegen. Nach Medienberichten kooperieren die Staaten allerdings in bestimmten Bereichen hinter den Kulissen. Eine mögliche Normalisierung der Beziehungen gilt seit dem Ausbruch des Gaza-Krieges als zunehmend unwahrscheinlich. Flydubai rief dazu auf, angesichts der andauernden Ermittlungen von Spekulationen abzusehen."
      ]
     },
     {
-     "k": "Volkswagen hat viele wichtige Verträge mit seinen Arbeitnehmern gekündigt. Das U",
-     "d": "28775950ad.mp3",
-     "l": 25.79,
-     "s": [
-      0.25,
-      5.37,
-      10.53,
-      14.78,
-      20.99
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die politische Einordnung des Vorfalls unterscheidet sich in den vorliegenden Berichten teilweise. Die israelische Regierung und Minister bewerten den Vorfall als versuchten Terroranschlag. Verteidigungsminister Israel Katz sprach von einem dschihadistischen Anschlag, der durch das Eingreifen israelischer Passagiere vereitelt worden sei. Premierminister Netanjahu verwies auf den bevorstehenden Jahrestag des Angriffs der Hamas auf Israel am 7. Oktober und warnte vor anhaltenden Sicherheitsbedrohungen. Gleichzeitig erklärte er, die Sicherheitskräfte angewiesen zu haben, sich auf mögliche weitere Bedrohungen einzustellen.",
+      "Laut israelischen Sicherheitskreisen und Berichten des Senders Kan wird der mutmaßliche Täter als Einzeltäter eingestuft. Es gebe keine Anzeichen dafür, dass ein Staat oder eine Terrororganisation als Drahtzieher hinter dem Vorfall stehe. Die staatliche emiratische Fluggesellschaft Flydubai betonte ebenfalls, dass die Hintergründe und Motive noch unklar seien. Der Spiegel verwies zudem auf frühere Flugzeugabstürze durch Piloten, wie den Germanwings-Flug 9525 im Jahr 2015, bei denen kein terroristisches Motiv festgestellt worden war."
      ]
     },
     {
-     "k": "Die genaue Anzahl der gekündigten Verträge: Ein VW-Sprecher wollte sich nicht äu",
-     "d": "8eebfd3241.mp3",
-     "l": 8.76,
-     "s": [
-      0.25
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Notfallcodes im zivilen Flugfunk, sogenannte Transponder-Codes oder Squawks, dienen der schnellen Kommunikation zwischen Flugzeugen und der Flugsicherung. Der Code 7700 signalisiert eine allgemeine Luftnotlage an Bord. Der Code 7500 wird ausschließlich verwendet, um eine unrechtmäßige Einmischung, wie etwa eine Flugzeugentführung, zu melden."
      ]
     },
     {
-     "k": "Was bedeutet eigentlich Haustarifvertrag? Ein Vertrag zwischen einem einzelnen U",
-     "d": "b24fd76774.mp3",
-     "l": 13.71,
-     "s": [
-      0.25,
-      3.79
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der israelische Premierminister Benjamin Netanjahu erklärte, ein Pilot habe auf seinen Kollegen eingestochen und die Maschine zum Absturz bringen wollen. Er lobte die Geistesgegenwart und den Wagemut der Passagiere, die eine Katastrophe verhindert hätten. Der israelische Sicherheitsminister Itamar Ben-Gvir schrieb auf der Plattform X von einem Terroristen, der die 180 Israelis an Bord habe ermorden wollen, und forderte ein hartes Vorgehen gegen den Terror. Der israelische Finanzminister Bezalel Smotrich schloss sich dieser Forderung an und erklärte, Verantwortliche müssten für die Tat bezahlen.",
+      "Verteidigungsminister Israel Katz bezeichnete den Vorfall als dschihadistischen Anschlag. Regierungsvertreter aus der Region berichteten laut Tagesschau/ARD zudem, dass Israel Kampfflugzeuge aufsteigen ließ, als eine Entführung befürchtet wurde. Die Fluggesellschaft Flydubai bestätigte die Auseinandersetzung und die Notlandung, betonte jedoch, dass die Motive noch unklar seien und die Ermittlungen abgewartet werden müssten."
      ]
     },
     {
-     "k": "Der Automobilkonzern Volkswagen hat einen Großteil seiner bestehenden Haustarifv",
-     "d": "477124fd6a.mp3",
-     "l": 43.35,
-     "s": [
-      0.25,
-      6.36,
-      11.85,
-      14.82,
-      19.34,
-      27.42,
-      32.17,
-      35.92
-     ]
-    },
-    {
-     "k": "Von der Kündigung betroffen ist nach übereinstimmenden Berichten der Manteltarif",
-     "d": "c8a1fd80b9.mp3",
-     "l": 51.78,
-     "s": [
-      0.25,
-      8.08,
-      11.26,
-      14.59,
-      22.39,
-      27.22,
-      38.4,
-      44.33
-     ]
-    },
-    {
-     "k": "Das wirtschaftliche Umfeld hat sich für die Autoindustrie und Volkswagen nach An",
-     "d": "a0bd2572f9.mp3",
-     "l": 54.17,
-     "s": [
-      0.25,
-      9.48,
-      12.8,
-      20.25,
-      30.32,
-      34.48,
-      40.03,
-      47.05
-     ]
-    },
-    {
-     "k": "Ein Manteltarifvertrag ist ein Kollektivvertrag zwischen einer Gewerkschaft und ",
-     "d": "ec1174441d.mp3",
-     "l": 36.19,
-     "s": [
-      0.25,
-      7.18,
-      17.99,
-      26.8
-     ]
-    },
-    {
-     "k": "Die Gewerkschaft IG Metall und der Betriebsrat kündigten umgehend Widerstand geg",
-     "d": "50a27f2990.mp3",
-     "l": 58.99,
-     "s": [
-      0.25,
-      7.02,
-      14.35,
-      24.91,
-      32.81,
-      37.1,
-      42.19,
-      49.73
-     ]
-    },
-    {
-     "k": "Die ausgesprochenen Kündigungen der Tarifverträge werden zum 31. Dezember 2026 f",
-     "d": "78cab57428.mp3",
-     "l": 29.35,
-     "s": [
-      0.25,
-      4.89,
-      8.72,
-      14.58,
-      22.59
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die saudi-arabischen Behörden und die Fluggesellschaft Flydubai haben eigene Ermittlungen zu dem Vorfall aufgenommen. Der festgenommene Angreifer wird nach Angaben des israelischen Premierministers Netanjahu von saudi-arabischen Sicherheitskräften befragt. Die Flüge der Gesellschaft Flydubai von und nach Israel bleiben für die Dauer der laufenden Ermittlungen bis auf Weiteres ausgesetzt. Weitere offizielle Angaben zu den Verletzten oder den genauen Hintergründen der Tat wurden zunächst nicht gemacht."
      ]
     }
-   ]
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-30 03:05 UTC",
+     "Start des Fluges FZ1073 vom Dubai International Airport."
+    ],
+    [
+     "2026-09-30 05:31 UTC",
+     "Änderung des Transponder-Codes auf 7700 (Notlage)."
+    ],
+    [
+     "2026-09-30 05:38 UTC",
+     "Änderung des Transponder-Codes auf 7500 (Entführung)."
+    ],
+    [
+     "2026-09-30",
+     "Notlandung der Maschine auf dem Flughafen Tabuk in Saudi-Arabien."
+    ],
+    [
+     "2026-09-30 Abend",
+     "Rückführung der Passagiere nach Tel Aviv mit einer Ersatzmaschine."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Es wird kein Bild angezeigt, da der Vorfall eine Gewalttat und Verletzte umfasst."
+    }
+   ],
+   "ort": {
+    "name": "Tabuk, Saudi-Arabien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung nicht belegbarer Abschnitte im Bereich Zum Verständnis."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Transponder-Code",
+      "Ein elektronisches Signal eines Flugzeugs, das der Flugsicherung wichtige Informationen über den Flugstatus übermittelt."
+     ],
+     [
+      "Notlandung",
+      "Die planungsfreie Landung eines Flugzeugs an einem Ort, die wegen einer Gefahr oder eines Notfalls notwendig wird."
+     ]
+    ],
+    "fragen": [
+     "Wie bewerten verschiedene Regierungsmitglieder in Israel den Vorfall, und worin unterscheiden sich ihre Aussagen von den Angaben der Fluggesellschaft Flydubai?",
+     "Welche Rolle spielten die Passagiere bei der Bewältigung des Vorfalls an Bord?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wo landete das betroffene Flugzeug nach dem Vorfall im Cockpit?",
+      "optionen": [
+       "In Tel Aviv",
+       "In Tabuk in Saudi-Arabien",
+       "In Dubai"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Flugzeug landete nach übereinstimmenden Angaben der Berichte auf dem Flughafen Tabuk in Saudi-Arabien."
+     },
+     {
+      "frage": "Wie stuft die israelische Regierung den Vorfall ein?",
+      "optionen": [
+       "Als normalen technischen Defekt",
+       "Als versuchten Terroranschlag",
+       "Als geplante Flugzeugentführung durch einen fremden Staat"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau, Deutschlandfunk und Spiegel geht die israelische Regierung von einem versuchten Terroranschlag aus."
+     },
+     {
+      "frage": "Wer überwältigte den Angreifer laut den Berichten im Cockpit?",
+      "optionen": [
+       "Das saudi-arabische Militär",
+       "Passagiere und Besatzungsmitglieder",
+       "Die Flughafenfeuerwehr"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte stimmen überein, dass Passagiere und Besatzungsmitglieder den Angreifer überwältigten."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Ein Flugzeug auf dem Weg nach Tel Aviv musste in Saudi-Arabien notlanden.",
+    "absaetze": [
+     "Ein Flugzeug der Fluggesellschaft Flydubai flog von Dubai nach Tel Aviv.",
+     "Im Cockpit kam es zu einer gewaltsamen Auseinandersetzung zwischen Piloten.",
+     "Nach Angaben der israelischen Regierung stach ein Pilot mit einem Messer auf seinen Kollegen ein.",
+     "Passagiere und Besatzungsmitglieder überwältigten den Angreifer.",
+     "Die Maschine landete sicher in Saudi-Arabien, und die Passagiere flogen später weiter nach Tel Aviv."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Ein Passagierflugzeug nach Tel Aviv ist in Saudi-Arabien notgelandet.",
+     "Im Cockpit gab es einen gewaltsamen Zwischenfall mit einem Messer.",
+     "Die israelische Regierung spricht von einem versuchten Terroranschlag."
+    ],
+    "lang": [
+     "Ein Flugzeug der Fluggesellschaft Flydubai auf dem Weg nach Tel Aviv musste in Saudi-Arabien notlanden.",
+     "Der Flug hatte die Kennung FZ1073 und war in Dubai gestartet.",
+     "Nach übereinstimmenden Medienberichten gab es einen gewaltsamen Zwischenfall im Cockpit.",
+     "Nach Angaben der israelischen Regierung stach ein Pilot mit einem Messer auf seinen Kollegen ein.",
+     "Passagiere überwältigten den Angreifer im Cockpit, bevor die Maschine in Tabuk landete.",
+     "Die israelische Regierung stuft den Vorfall als versuchten Terroranschlag ein.",
+     "Die Fluggesellschaft Flydubai teilte mit, dass die Hintergründe und Motive noch unklar seien.",
+     "Die saudi-arabischen Behörden und Flydubai haben Ermittlungen zu dem Vorfall aufgenommen.",
+     "Am Abend wurden die Passagiere mit einer Ersatzmaschine nach Tel Aviv gebracht."
+    ],
+    "einfach": [
+     "Ein Flugzeug musste in Saudi-Arabien notlanden.",
+     "Im Cockpit gab es einen Streit zwischen Piloten.",
+     "Ein Pilot verletzte seinen Kollegen mit einem Messer.",
+     "Passagiere griffen ein und überwältigten den Angreifer.",
+     "Die israelische Regierung nennt den Vorfall einen Terroranschlag."
+    ]
+   },
+   "kurz": [
+    "Ein Flugzeug von Flydubai musste in Saudi-Arabien notlanden.",
+    "Im Cockpit soll ein Pilot seinen Kollegen mit einem Messer verletzt haben.",
+    "Die israelische Regierung stuft den Vorfall als versuchten Terroranschlag ein.",
+    "Passagiere überwältigten den Angreifer, alle Insassen blieben schließlich in Sicherheit."
+   ],
+   "fakten": [
+    [
+     "Passagieranzahl",
+     "174 (nach Angaben der Tagesschau) beziehungsweise 180 (nach Angaben des Spiegel)"
+    ],
+    [
+     "Datum des Vorfalls",
+     "30. September 2026"
+    ]
+   ],
+   "dossier": {
+    "slug": "flydubai-vorfall-tel-aviv",
+    "titel": "Zwischenfall im Flydubai-Flug nach Tel Aviv"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Tabuk, Saudi-Arabien",
+    "lat": 28.325,
+    "lon": 37.633
+   },
+   "version": 5
   },
   {
    "id": "koalitionsstreit-pflegereform-linnemann-spd",
@@ -4100,91 +4226,88 @@
    ]
   },
   {
-   "id": "manchester-city-finanzaffaere",
-   "rubrik": "Sport",
-   "zeit": "2026-09-30T10:34:00.000Z",
-   "aktualisiert": "aktualisiert um 21:13 Uhr",
-   "titel": "Unabhängige Kommission spricht Manchester City in Finanzverfahren schuldig",
-   "vorspann": "Der englische Fußballverein Manchester City ist von einer unabhängigen Kommission in zahlreichen Punkten wegen Verstößen gegen Finanzregeln für schuldig befunden worden. Der Club kündigte an, gegen die Entscheidung vorzugehen, während über mögliche Sanktionen in einer weiteren Anhörung entschieden wird.",
+   "id": "vw-kuendigung-tarifvertraege",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-09-30T17:02:10.000Z",
+   "aktualisiert": "aktualisiert um 07:44 Uhr",
+   "titel": "Volkswagen kündigt Tarifverträge im Rahmen von Sparmaßnahmen",
+   "vorspann": "Der Automobilkonzern Volkswagen hat Haustarifverträge und den Manteltarifvertrag gekündigt. Gewerkschaft und Betriebsrat kündigten Widerstand gegen die geplanten Einsparungen an.",
    "eil": false,
    "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
    },
    "zusammenfassung": [
-    "Manchester City ist von einer unabhängigen Kommission in zahlreichen Punkten wegen Verstößen gegen die Finanzregeln der Premier League für schuldig befunden worden.",
-    "Die Vorwürfe beziehen sich auf den Zeitraum zwischen 2009 und 2018, in dem der Verein durch Scheinverträge Einnahmen künstlich erhöht haben soll.",
-    "Der Verein weist die Anschuldigungen als unbegründet zurück, kündigte rechtliche Schritte an und sprach von einer Verschwörung.",
-    "Über mögliche Sanktionen wie Punktabzüge oder einen Ausschluss aus der Liga soll in einer gesonderten Anhörung entschieden werden."
+    "Volkswagen hat zahlreiche Haustarifverträge und den Manteltarifvertrag gekündigt.",
+    "Die Arbeitnehmerseite und die Gewerkschaft IG Metall kritisieren das Vorgehen.",
+    "Als Gründe nennt das Unternehmen die verschärfte Konkurrenz und Einsparbedarfe.",
+    "Die Jobgarantie bis zum Jahr 2030 bleibt nach Konzernangaben bestehen."
    ],
    "einig": [
     [
-     "Manchester City wurde von einer unabhängigen Kommission in Finanzfragen für schuldig befunden.",
+     "Volkswagen hat Tarifverträge gekündigt.",
      [
       "Tagesschau/ARD",
       "Spiegel",
-      "Zeit",
-      "Süddeutsche Zeitung",
-      "Deutsche Welle"
+      "Zeit"
      ]
     ],
     [
-     "Die Vorwürfe beziehen sich auf den Zeitraum zwischen den Spielzeiten 2009/10 und 2017/18.",
+     "Auch der Manteltarifvertrag ist von der Kündigung betroffen.",
      [
       "Tagesschau/ARD",
       "Spiegel",
-      "Deutsche Welle"
+      "Zeit"
      ]
     ],
     [
-     "Es geht um eine Summe von 900 Millionen Pfund beziehungsweise rund eine Milliarde Euro.",
+     "Die IG Metall und der Betriebsrat kündigten Widerstand an.",
      [
       "Tagesschau/ARD",
-      "Spiegel",
-      "Deutsche Welle"
+      "Spiegel"
      ]
     ]
    ],
    "unklar": [
-    "Ob der Verein tatsächlich mit einem Zwangsabstieg oder dem Entzug von Titeln bestraft wird, ist noch unklar und hängt von kommenden Anhörungen ab."
+    "Die genaue Anzahl der betroffenen Verträge wird unterschiedlich genannt: Volkswagen nennt keine Zahl, während die IG Metall von zehn Verträgen spricht."
    ],
    "positionen": [
     [
-     "Manchester City (Vereinsführung und Geschäftsführer Ferran Soriano)",
-     "Der Verein ist unschuldig, die Vorwürfe basieren auf einer Verschwörungstheorie und das Verfahren enthält wesentliche Fehler.",
-     "Tagesschau/ARD,Spiegel,Süddeutsche Zeitung,Deutsche Welle"
+     "Volkswagen (Personalvorstand Arne Meiswinkel)",
+     "Die Kündigungen sind wegen einer verschlechterten Wettbewerbslage und wachsender Konkurrenz notwendig.",
+     "Tagesschau/ARD"
     ],
     [
-     "Premier League (Geschäftsführer Richard Masters)",
-     "Die Regeln müssen zum Schutz der Integrität des Wettbewerbs konsequent durchgesetzt werden.",
+     "IG-Metall-Verhandlungsführer Thorsten Gröger",
+     "Das Vorgehen ist ein übles Foul und ein Versuch, unternehmerische Kosten auf die Beschäftigten abzuwälzen.",
+     "Spiegel,Tagesschau/ARD"
+    ],
+    [
+     "Betriebsratschefin Daniela Cavallo",
+     "Der Kurs des Unternehmens ist eine Erpressung, bei der mit dem Aus von Standorten gedroht wird.",
      "Tagesschau/ARD,Spiegel"
-    ],
-    [
-     "David Bernstein (Ehemaliger Vereinsvorsitzender)",
-     "Es wird ein Zwangsabstieg gefordert, da die Glaubwürdigkeit des Fußballs auf dem Spiel steht.",
-     "Deutsche Welle"
     ]
    ],
-   "fehlend": "Stimmen von Vertretern der UEFA oder von Sponsorenfirmen kommen in den Berichten nicht zu Wort.",
+   "fehlend": "Stimmen von Arbeitgeberverbänden oder externen Wirtschaftsexperten fehlen in den Berichten.",
    "medien": [
     {
      "name": "Tagesschau/ARD",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "29.09.26, 21:08",
-     "fokus": "Offizielle Bestätigung und Details",
-     "text": "Berichtet umfassend über die Bestätigung der Liga, die Reaktionen des Managements und die historische Einordnung des Falls durch den Ligachef.",
-     "url": "https://www.sportschau.de/fussball/premier-league/premier-league-spricht-man-city-in-finanz-affaere-schuldig,manchester-city-statement-premier-league-100.html",
+     "datum": "30.09.26, 19:02",
+     "fokus": "Umfassender Überblick zur Krise",
+     "text": "Der Bericht beleuchtet die Hintergründe der Tarifkündigungen, den Verweis auf die Konkurrenz sowie geplante Werksverkäufe.",
+     "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-tarifvertraege-sparkurs-100.html",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
       "klasse": 10,
-      "minuten": 3,
-      "woerter": 551,
-      "satzlaenge": 16,
-      "langeWoerter": 37
+      "minuten": 2,
+      "woerter": 399,
+      "satzlaenge": 11,
+      "langeWoerter": 36
      },
      "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
      "finanzierung": "Rundfunkbeitrag",
@@ -4195,18 +4318,18 @@
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "29.09.26, 18:38",
-     "fokus": "Hintergrund und Football-Leaks",
-     "text": "Beleuchtet die Rolle der früheren Football-Leaks-Berichte und die genauen Mechanismen der Scheinverträge.",
-     "url": "https://www.spiegel.de/sport/fussball/premier-league-befindet-manchester-city-in-allen-anklagepunkten-fuer-schuldig-a-a27ad732-a12d-4c28-beaf-dd9550aff415#ref=rss",
+     "datum": "30.09.26, 15:15",
+     "fokus": "Details aus Arbeitnehmerkreisen",
+     "text": "Der Artikel nennt konkrete Zahlen zu den betroffenen Verträgen, den Zusatzvergütungen und die Reaktionen der Gewerkschaftsführung.",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-kuendigt-tarifvertraege-a-c60ba636-204a-4c5d-994c-ea8bf2c1b06a#ref=rss",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
+      "klasse": 12,
       "minuten": 2,
-      "woerter": 403,
-      "satzlaenge": 16,
+      "woerter": 324,
+      "satzlaenge": 17,
       "langeWoerter": 40
      },
      "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
@@ -4218,13 +4341,415 @@
      "typ": "Wochenzeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "29.09.26, 19:08",
+     "datum": "30.09.26, 16:02",
      "fokus": "Kompakte Zusammenfassung",
-     "text": "Liefert eine kurze und prägnante Bestätigung des Schuldspruchs.",
-     "url": "https://www.zeit.de/sport/2026-09/manchester-city-premier-league-finanzregeln-anklagepunkte",
+     "text": "Die Meldung fasst die wesentlichen Schritte der Tarifkündigungen aus Kostengründen kurz zusammen.",
+     "url": "https://www.zeit.de/wirtschaft/unternehmen/2026-09/volkswagen-kuendigt-fast-alle-tarifvertraege-gxe",
      "video": false,
      "lesbar": null,
      "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zu den Verträgen",
+     "Der Spiegel nennt konkrete Details wie die Anzahl von zehn Verträgen und Wahlmöglichkeiten bei Zusatzvergütungen, während die Zeit und die Tagesschau teilweise breiter über die Gesamtstrategie berichten."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Volkswagen-Geschäftsführung und IG Metall",
+    "was": "Kündigung von Haustarifverträgen und des Manteltarifs",
+    "wann": "zum Ende des Jahres beziehungsweise laut Berichten im Jahr 2026",
+    "wo": "Deutschland",
+    "wie": "Durch offizielle Mitteilung der Arbeitgeberseite",
+    "warum": "Laut Volkswagen wegen einer schlechten Wettbewerbslage und wachsender Konkurrenz",
+    "quellenlage": "Tagesschau/ARD, Spiegel, Zeit"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Geschäftsführung des Automobilkonzerns Volkswagen hat eine Reihe von Tarifverträgen gekündigt. Dies geht aus übereinstimmenden Berichten von Tagesschau/ARD, Spiegel und Zeit hervor. Von den Schritten sind nach Angaben der IG Metall zehn einzelne Vereinbarungen betroffen. Dazu gehört laut den Medienberichten auch der wichtige Manteltarifvertrag.",
+      "Das Treffen zwischen den Beteiligten war ursprünglich als Überprüfungsgespräch geplant gewesen. Dabei ging es um den Tarifkompromiss aus dem Jahr 2024. Die Kündigungen der Verträge wurden übermittelt. Sie können laut dem Spiegel frühestens ab Januar 2027 wirksam werden.",
+      "Die Arbeitnehmerseite reagierte mit Kritik auf die Maßnahmen des Unternehmens. Gewerkschaftsvertreter und der Betriebsrat kündigten Widerstand an. In den kommenden Monaten werden Auseinandersetzungen über Arbeitszeiten und Vergütungen erwartet. Die Friedenspflicht endet nach Angaben der Berichte zum Jahreswechsel."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut dem Spiegel sind von den Kündigungen die Beschäftigten von Volkswagen in Deutschland betroffen. Die Arbeitgeberseite, vertreten unter anderem durch Personalvorstand Arne Meiswinkel, nannte nach Gewerkschaftsangaben zunächst keine Details zu den genauen Schritten. Zu den betroffenen Bereichen gehören laut den Berichten neben dem Manteltarifvertrag auch Vereinbarungen zur Ausbildung sowie zu Zulagen und Zusatzvergütungen.",
+      "Bei der tariflichen Zusatzvergütung haben Beschäftigte laut dem Spiegel die Wahl zwischen sechs zusätzlichen freien Tagen oder einer Zahlung von 27,5 Prozent eines Monatseinkommens. Auch Regelungen zu Arbeitszeiten, Sonderzahlungen und Eingruppierungen stehen im Fokus der anstehenden Verhandlungen. Die gefährdeten deutschen Werke in Hannover, Emden, Zwickau und Neckarsulm sind laut Tagesschau/ARD nicht direkt Gegenstand der aktuellen Tarifverhandlungen.",
+      "Zudem plant Volkswagen laut Tagesschau/ARD den Verkauf des Werks Osnabrück an den israelischen Finanzinvestor Aurelius und das Land Niedersachsen. Der Vorstand begründete den Schritt mit einer verschlechterten Wettbewerbssituation. Die IG Metall und der Betriebsrat verweisen darauf, dass durch die Kündigungen die bisherigen Errungenschaften der Beschäftigten gefährdet seien."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Bereits Ende 2024 führten die Gewerkschaft und die VW-Führung Gespräche. Damals stand am Ende das sogenannte Weihnachtswunder. Die Arbeitnehmerseite stimmte dem sozialverträglichen Abbau von Arbeitsplätzen sowie weiteren Einschnitten zu. Im Gegenzug erhielt die Belegschaft eine Jobgarantie bis Ende 2030.",
+      "Laut Tagesschau/ARD und dem Spiegel bleibt diese Jobgarantie bis 2030 bestehen und ist von den aktuellen Kündigungen nicht direkt betroffen. Volkswagen begründet die Notwendigkeit der neuen Sparmaßnahmen jedoch mit einem verschlechterten wirtschaftlichen Umfeld. Als wesentlichen Grund nennt das Unternehmen die wachsende Konkurrenz aus China, die den Druck auf den Konzern erhöhe.",
+      "Die Friedenspflicht im Vergütungstarifvertrag endet zum Jahreswechsel laut den Berichten. Damit sind ab diesem Zeitpunkt Arbeitskämpfe und Streiks möglich. Gewerkschaftsvertreter betonen, dass die Belegschaft nicht bereit sei, unternehmerische Kosten und Risiken allein zu tragen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein Manteltarifvertrag regelt grundlegende Rahmenbedingungen eines Arbeitsverhältnisses. Dazu gehören unter anderem Arbeitszeiten, Urlaubsansprüche und Kündigungsfristen. Haustarifverträge sind spezielle Vereinbarungen, die für ein einzelnes Unternehmen und dessen Belegschaft gelten.",
+      "Die Friedenspflicht beschreibt einen Zeitraum während eines bestehenden Tarifvertrags, in dem Arbeitskämpfe und Streiks unzulässig sind. Erst nach dem Ablauf dieser Frist können Gewerkschaften zu Streikmaßnahmen aufrufen. Verhandlungen zwischen Arbeitgebern und Gewerkschaften dienen dazu, Kompromisse bei Löhnen und Arbeitsbedingungen zu finden."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "IG-Metall-Bezirkschef und Verhandlungsführer Thorsten Gröger bezeichnete die Pläne laut dem Spiegel als ein übles Foul. Es handele sich um einen Versuch, in den Geldbeutel der Beschäftigten zu greifen. Die Gewerkschaft werde nicht hinnehmen, dass unternehmerische Risiken auf die Arbeitnehmer verlagert würden.",
+      "Betriebsratschefin Daniela Cavallo warf dem Unternehmen laut Tagesschau/ARD und dem Spiegel Erpressung vor. Volkswagen drohe mit dem Aus von Standorten, um Einsparungen durchzudrücken. Sie rechnet mit einer Auseinandersetzung zum Jahreswechsel und kündigte Proteste an.",
+      "Personalvorstand Arne Meiswinkel begründete die Schritte laut Tagesschau/ARD mit einer verschlechterten Wettbewerbslage. Das wirtschaftliche Umfeld habe sich verändert, weshalb viele Bereiche auf den Prüfstand kämen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "In den kommenden Wochen und Monaten stehen Neuverhandlungen der betroffenen Tarifverträge an. Die Gewerkschaft und der Betriebsrat haben Widerstand und Proteste angekündigt. Zum Jahreswechsel läuft die Friedenspflicht aus, womit Streiks rechtlich möglich werden.",
+      "Ein Ausweg aus der Lage besteht nach Einschätzung der Berichte darin, dass sich beide Seiten in den Verhandlungen aufeinander zubewegen. Die genaue Ausgestaltung der künftigen Arbeitsbedingungen und Einsparungen bleibt das Thema der kommenden Monate."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2024",
+     "Abschluss des Tarifkompromisses mit dem Zukunftstarifvertrag und Beschäftigungssicherung bis 2030."
+    ],
+    [
+     "Anfang September 2026",
+     "Beschluss des Zukunftsplans durch den Aufsichtsrat mit Mandat zum Konzernumbau."
+    ],
+    [
+     "30. September 2026",
+     "Erstes Überprüfungsgespräch und Kündigung zahlreicher Haustarifverträge durch Volkswagen."
+    ],
+    [
+     "31. Dezember 2026",
+     "Die Kündigung der Tarifverträge wird fristgerecht wirksam."
+    ],
+    [
+     "Ende 2024",
+     "Tarifgespräche und Vereinbarung einer Jobgarantie bis Ende 2030."
+    ],
+    [
+     "30. September 2026",
+     "Kündigung zahlreicher Haustarifverträge durch Volkswagen."
+    ],
+    [
+     "31. Dezember 2026",
+     "Die Kündigung der Tarifverträge wird wirksam."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Daniela Cavallo trade unionist",
+     "bildunterschrift": "Daniela Cavallo, die Betriebsratschefin von Volkswagen, kritisiert die Pläne des Unternehmens."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Volkswagen Arena Wolfsburg",
+     "bildunterschrift": "Der Hauptsitz und das Werk von Volkswagen in Wolfsburg sind von den wirtschaftlichen Veränderungen betroffen."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "IG Metall logo",
+     "bildunterschrift": "Das Logo der Gewerkschaft IG Metall, die Widerstand angekündigt hat."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Wolfsburg city skyline",
+     "bildunterschrift": "Die Stadt Wolfsburg, in der sich die zentrale Unternehmensleitung des Automobilkonzerns befindet."
+    }
+   ],
+   "ort": {
+    "name": "Wolfsburg, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Zitat im Vorspann wurde entfernt, um neutral zu bleiben. Unbelegte Details im Abschnitt Zum Verständnis wurden gelöscht. Wertende Wörter außerhalb von Zitaten wurden neutralisiert."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Tarifvertrag",
+      "Ein Vertrag zwischen Arbeitgeber und Gewerkschaft über Löhne und Arbeitszeiten."
+     ],
+     [
+      "Manteltarifvertrag",
+      "Ein Vertrag, der allgemeine Arbeitsbedingungen wie Urlaub und Arbeitszeit regelt."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nennt Volkswagen für die Kündigung der Tarifverträge?",
+     "Wie reagieren Gewerkschaft und Betriebsrat auf die Pläne von Volkswagen?",
+     "Welche Rolle spielt die Friedenspflicht in diesem Konflikt?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Verträge hat Volkswagen gekündigt?",
+      "optionen": [
+       "Nur den Ausbildungsvertrag",
+       "Zahlreiche Haustarifverträge und den Manteltarifvertrag",
+       "Keinen einzigen Vertrag"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau, Spiegel und Zeit wurden zahlreiche Haustarifverträge und der Manteltarifvertrag gekündigt."
+     },
+     {
+      "frage": "Was bleibt nach Angaben von Volkswagen weiterhin bestehen?",
+      "optionen": [
+       "Die Jobgarantie bis Ende 2030",
+       "Alle bisherigen Sonderzahlungen",
+       "Die Friedenspflicht ohne Ende"
+      ],
+      "richtig": 0,
+      "erklaerung": "Volkswagen betont laut Berichten, dass die Jobgarantie bis Ende 2030 weiterhin besteht."
+     },
+     {
+      "frage": "Welche Organisation kündigte Widerstand gegen die Pläne an?",
+      "optionen": [
+       "Ein externer Finanzinvestor",
+       "Die IG Metall und der Betriebsrat",
+       "Der Arbeitgeberverband"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die IG Metall und der Betriebsrat haben laut Tagesschau und Spiegel massiven Widerstand angekündigt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der Autohersteller Volkswagen hat viele Tarifverträge gekündigt.",
+    "absaetze": [
+     "Dazu gehört auch der wichtige Manteltarifvertrag. Das Unternehmen muss Geld sparen. Die Konkurrenz aus anderen Ländern ist gross. Die Gewerkschaft IG Metall kritisiert die Pläne scharf. Sie spricht von einem unfairen Vorgehen gegen die Beschäftigten. Betriebsrat und Gewerkschaft kündigen grossen Widerstand an. Zum Jahreswechsel können auch Streiks stattfinden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Volkswagen hat wichtige Tarifverträge und den Manteltarifvertrag gekündigt.",
+     "Die Gewerkschaft IG Metall und der Betriebsrat kündigen heftigen Widerstand an.",
+     "Als Grund nennt Volkswagen eine verschlechterte Wettbewerbslage und hohe Kosten."
+    ],
+    "lang": [
+     "Der Automobilkonzern Volkswagen hat zahlreiche Haustarifverträge und den Manteltarifvertrag gekündigt.",
+     "Das teilten Medien wie die Tagesschau und der Spiegel am Mittwoch mit.",
+     "Betroffen sind laut Angaben der Gewerkschaft IG Metall zehn verschiedene Vereinbarungen.",
+     "Volkswagen begründet diesen Schritt mit einer schwierigen wirtschaftlichen Lage und grosser Konkurrenz.",
+     "Die Arbeitnehmerseite reagierte mit scharfer Kritik auf die angekündigten Einsparungen.",
+     "Der IG Metall Verhandlungsführer Thorsten Gröger sprach von einem üblen Foul an der Belegschaft.",
+     "Betriebsratschefin Daniela Cavallo warf dem Unternehmen vor, mit dem Aus von Standorten zu erpressen.",
+     "Die Jobgarantie bis zum Jahr zweitausendunddreissig bleibt nach Angaben des Konzerns jedoch bestehen.",
+     "Zum Jahreswechsel endet die Friedenspflicht, wodurch auch Streiks bei Volkswagen möglich werden.",
+     "Beide Seiten müssen nun in den kommenden Verhandlungen einen neuen Kompromiss finden."
+    ],
+    "einfach": [
+     "Volkswagen hat wichtige Tarifverträge gekündigt.",
+     "Das Unternehmen will damit Geld einsparen.",
+     "Die Gewerkschaft IG Metall ist wütend über diesen Schritt.",
+     "Die Arbeitnehmer kündigen grossen Protest an.",
+     "Ab Januar zweitausendundsieben sind Streiks möglich."
+    ]
+   },
+   "kurz": [
+    "Der Automobilkonzern Volkswagen hat zahlreiche Tarifverträge und den Manteltarifvertrag gekündigt.",
+    "Gewerkschaften und der Betriebsrat kritisieren den Schritt scharf und kündigen Widerstand an.",
+    "Das Unternehmen begründet die Maßnahme mit einer verschlechterten Wettbewerbslage."
+   ],
+   "fakten": [
+    [
+     "Jobgarantie bis",
+     "Ende 2030"
+    ],
+    [
+     "Wirksamkeit der Kündigung frühestens ab",
+     "Januar 2027"
+    ]
+   ],
+   "dossier": {
+    "slug": "volkswagen-tarifkrise",
+    "titel": "Tarifkonflikt und Sparmaßnahmen bei Volkswagen"
+   },
+   "bildInfo": {
+    "titel": "Dr. Oliver Blume CEO Porsche AG.jpg",
+    "beschreibung": "Dr. Oliver Blume Member of the Executive Board - Production and Logistics - of Dr. Ing. h.c. F. Porsche AGMitglied des Vorstandes, Produktion und Logistik der Dr. Ing. h.c. F. Porsche AGFoto: PORSCHE ",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg/1280px-Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+    "urheber": "Foto: Marco Prosch, Porsche AG, überreicht durch Diana Sänger, Public Relations and Press ",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "artikel": "Oliver Blume (Manager)",
+    "sprache": "de",
+    "art": "person",
+    "suchbegriff": "Oliver Blume manager",
+    "bildunterschrift": "Oliver Blume ist Manager bei Volkswagen und Porsche.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Dr. Oliver Blume CEO Porsche AG.jpg",
+     "beschreibung": "Dr. Oliver Blume Member of the Executive Board - Production and Logistics - of Dr. Ing. h.c. F. Porsche AGMitglied des Vorstandes, Produktion und Logistik der Dr. Ing. h.c. F. Porsche AGFoto: PORSCHE ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg/1280px-Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+     "urheber": "Foto: Marco Prosch, Porsche AG, überreicht durch Diana Sänger, Public Relations and Press ",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "artikel": "Oliver Blume (Manager)",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Oliver Blume manager",
+     "bildunterschrift": "Oliver Blume ist Manager bei Volkswagen und Porsche.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Wolfsburg Jun 2012 004 (Volkswagen Arena).JPG",
+     "beschreibung": "The interior of Volkswagen Arena in Wolfsburg , Niedersachsen ( Germany ).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG/1280px-Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburg_Jun_2012_004_(Volkswagen_Arena).JPG",
+     "urheber": "Michael Barera",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Volkswagen Arena Wolfsburg",
+     "bildunterschrift": "Die Volkswagen-Arena in Wolfsburg steht für den Standort des Automobilkonzerns.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Frankfurt am Main, Central business district (2024).jpg",
+     "beschreibung": "Frankfurt : Bankenviertel (central business district)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+     "urheber": "Dr. Thomas Liptak",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Liste der Hochhäuser in Frankfurt am Main",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "IG Metall headquarters Frankfurt",
+     "bildunterschrift": "In Frankfurt befindet sich der Hauptsitz der Gewerkschaft IG Metall.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
+     "beschreibung": "Car factory production line. Opel Astra J manufactured in General Motors Manufacturing Poland plant in Gliwice.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg/1280px-002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+     "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "suchbegriff": "Automobile manufacturing assembly line",
+     "bildunterschrift": "Eine Produktionslinie in einer Autofabrik zeigt die Automobilfertigung.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Wolfsburg, Deutschland",
+    "lat": 52.421,
+    "lon": 10.786
+   },
+   "version": 5
+  },
+  {
+   "id": "manchester-city-finanzaffaere",
+   "rubrik": "Sport",
+   "zeit": "2026-09-30T14:05:00.000Z",
+   "aktualisiert": "aktualisiert um 07:44 Uhr",
+   "titel": "Unabhängige Kommission entscheidet im Finanzverfahren gegen Manchester City",
+   "vorspann": "Eine unabhängige Kommission hat den englischen Fußballverein Manchester City in allen Anklagepunkten wegen Verstößen gegen Finanzregeln für schuldig befunden. Der Verein kündigte an, gegen die Entscheidung Berufung einzulegen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Eine unabhängige Kommission hat Manchester City in allen Anklagepunkten wegen Finanzverstößen für schuldig befunden.",
+    "Die Vorwürfe betreffen den Zeitraum von den Spielzeiten 2009/2010 bis 2017/2018 und umfassen Beträge von mehr als 900 Millionen Pfund.",
+    "Der Verein wies die Vorwürfe zurück, kündigte Berufung an und erhielt Unterstützung von Pep Guardiola.",
+    "Die Premier League bestätigte den Schuldspruch offiziell; über konkrete Strafen wird in einer weiteren Anhörung entschieden."
+   ],
+   "einig": [
+    [
+     "Eine unabhängige Kommission hat Manchester City in allen Anklagepunkten wegen Verstößen gegen die Finanzregeln der Premier League für schuldig befunden.",
+     [
+      "Spiegel",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Die Vorwürfe beziehen sich auf den Zeitraum zwischen den Spielzeiten 2009/2010 und 2017/2018.",
+     [
+      "Spiegel",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Die finanziellen Unregelmäßigkeiten belaufen sich auf mehr als 900 Millionen Pfund.",
+     [
+      "Spiegel",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Der Verein kündigte an, gegen die Entscheidung Berufung einzulegen.",
+     [
+      "Spiegel",
+      "Süddeutsche Zeitung"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche konkreten Strafen verhängt werden, da hierüber erst in einer kommenden Anhörung entschieden wird."
+   ],
+   "positionen": [
+    [
+     "Premier League",
+     "Die Liga bestätigte den Schuldspruch der Kommission und sieht den Fall als historisch bedeutsam an.",
+     "Süddeutsche Zeitung"
+    ],
+    [
+     "Manchester City (Vereinsführung)",
+     "Der Club weist die Vorwürfe als unbegründet zurück, kritisiert wesentliche Fehler im Urteil und kündigt Berufung an.",
+     "Süddeutsche Zeitung"
+    ],
+    [
+     "Pep Guardiola (Botschafter und ehemaliger Trainer)",
+     "Er drückt dem Verein seine volle Unterstützung aus und ist überzeugt, dass der Club die Situation gemeinsam überstehen wird.",
+     "Spiegel"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von Konkurrenzvereinen oder der unabhängigen Kommission selbst über die Details der künftigen Strafen.",
+   "medien": [
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "30.09.26, 16:05",
+     "fokus": "Unterstützung durch Pep Guardiola",
+     "text": "Der Spiegel beleuchtet vor allem die Reaktionen und Social-Media-Äußerungen des ehemaligen Trainers Pep Guardiola, der dem Club demonstrativ zur Seite steht. Zudem nennt er Details zu den Anklagepunkten und der Summe von 900 Millionen Pfund.",
+     "url": "https://www.spiegel.de/sport/fussball/pep-guardiola-stellt-sich-hinter-manchester-city-ich-bin-fuer-euch-da-a-0edb03c9-5cb0-42e9-8a07-cd34d60ca8ab#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 263,
+      "satzlaenge": 18,
+      "langeWoerter": 34
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
      "finanzierung": "Abos und Werbung",
      "publikumWert": null
     },
@@ -4233,105 +4758,86 @@
      "typ": "Tageszeitung",
      "art": "privates Medium",
      "stamm": true,
-     "datum": "30.09.26, 11:24",
-     "fokus": "Einordnung der Dimension",
-     "text": "Beschreibt die Schwere der Vorwürfe als beispiellos im Fußball.",
-     "url": "https://www.sueddeutsche.de/sport/manchester-city-premier-league-finanzen-strafen-li.3556240",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "30.09.26, 12:34",
-     "fokus": "Stimmen zu den Folgen",
-     "text": "Führt ausführliche Zitate von ehemaligen Vereinsmitgliedern und Politikern zu möglichen Konsequenzen an.",
-     "url": "https://www.dw.com/de/eine-milliarde-euro-finanzbetrug-droht-manchester-city-der-zwangsabstieg/a-79484562?maca=de-rss-de-all-1119-rdf",
+     "datum": "30.09.26, 07:58",
+     "fokus": "Offizielle Bestätigung der Liga und Reaktionen des Clubs",
+     "text": "Die Süddeutsche Zeitung konzentriert sich auf die offizielle Bestätigung durch die Premier League, die Einordnung als historischer Skandal sowie die Stellungnahme des Vereinschefs Khaldoon Al Mubarak.",
+     "url": "https://www.sueddeutsche.de/sport/manchester-city-schuldig-finanzregeln-premier-league-li.3556207",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
       "klasse": 11,
-      "minuten": 3,
-      "woerter": 684,
-      "satzlaenge": 18,
-      "langeWoerter": 37
+      "minuten": 2,
+      "woerter": 455,
+      "satzlaenge": 16,
+      "langeWoerter": 40
      },
-     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
-     "finanzierung": "Steuermittel des Bundes",
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
      "publikumWert": null
     }
    ],
    "unterschiede": [
     [
-     "Anzahl der Anklagepunkte",
-     "Tagesschau/ARD und Spiegel erwähnen 115 beziehungsweise 114 Punkte bezüglich der Finanzregeln, während Zeit pauschal von allen Anklagepunkten spricht."
+     "Schwerpunkte der Berichterstattung",
+     "Der Spiegel legt einen großen Fokus auf das Statement von Pep Guardiola, während die Süddeutsche Zeitung stärker auf die Aussagen der Ligaführung und der Clubspitze eingeht."
     ]
    ],
    "wfragen": {
-    "wer": "Eine unabhängige Kommission und der Verein Manchester City",
-    "was": "Schuldspruch wegen Verstößen gegen die Finanzregeln",
-    "wann": "29.09.2026",
-    "wo": "London, England",
-    "wie": "Durch ein formelles Verfahren der Premier League",
-    "warum": "Wegen künstlich erhöhter Einnahmen und verschleierter Finanzen laut Kommission",
-    "quellenlage": "Meldungen von Tagesschau/ARD, Spiegel, Zeit, Süddeutsche Zeitung und Deutsche Welle"
+    "wer": "Eine unabhängige Kommission und der Verein Manchester City.",
+    "was": "Schuldspruch wegen Verstößen gegen die Finanzregeln der Premier League.",
+    "wann": "Ende September 2026 nach langjährigen Ermittlungen.",
+    "wo": "England.",
+    "wie": "Durch eine Entscheidung einer unabhängigen Kommission.",
+    "warum": "Wegen künstlich erhöhter Einnahmen und verschleierter Kosten laut der Premier League.",
+    "quellenlage": "Meldungen von Spiegel und Süddeutscher Zeitung."
    },
    "artikel": [
     {
      "ueberschrift": "Das ist passiert",
      "absaetze": [
-      "Der englische Spitzenclub Manchester City ist von einer unabhängigen Kommission in zahlreichen Anklagepunkten wegen Verstößen gegen die Finanzregeln der Premier League für schuldig befunden worden. Das Verfahren betrifft den Zeitraum zwischen den Spielzeiten 2009/10 und 2017/18. Die Premier League hat die Entscheidung der Kommission offiziell bestätigt. Laut Tagesschau/ARD und Spiegel wurde der Verein in fast allen Punkten oder in 115 von 115 Anklagepunkten für schuldig erklärt. Die Zeit berichtete ebenfalls über den Schuldspruch in allen Anklagepunkten.",
-      "Zusätzlich zur Verletzung der Finanzregeln trifft nach Angaben des Spiegels und der Deutschen Welle auch die Mehrheit der Vorwürfe hinsichtlich mangelnder Kooperation bei den Ermittlungen zu. Der Club muss nun mit schweren Sanktionen rechnen. Über das genaue Strafmaß soll in einer weiteren, gesonderten Anhörung der Kommission entschieden werden. Bis zu diesem Zeitpunkt bleibt offen, welche konkreten Konsequenzen auf den Verein zukommen. Der Verein hat die Möglichkeit, bis Freitag, den 02.10.2026, Berufung gegen die Feststellungen einzulegen.",
-      "Die Untersuchung der Liga wurde im Februar 2023 nach mehrjährigen Ermittlungen formell eingeleitet. Ausgelöst wurden die Ermittlungen laut Tagesschau/ARD und Deutscher Welle durch Enthüllungen der Plattform Football Leaks, die im Jahr 2018 vom Magazin Der Spiegel veröffentlicht wurden. Die Premier League selbst betonte laut Spiegel die Bedeutung der Regelklarheit zur Sicherung der Integrität des Wettbewerbs. Richard Masters, der Chef der Premier League, bezeichnete den Fall laut Tagesschau/ARD als den bedeutendsten in der Geschichte der Liga."
+      "Eine unabhängige Kommission hat den englischen Fußballverein Manchester City in allen Anklagepunkten für schuldig befunden. Die Vorwürfe beziehen sich auf Verstöße gegen die Finanzregeln der Premier League in den Spielzeiten zwischen 2009/2010 und 2017/2018. Laut den Berichten handelt es sich um einen der größten Skandale in der Geschichte des englischen Fußballs. Die Premier League bestätigte das Ergebnis des Verfahrens offiziell.",
+      "Der Verein muss nun mit schweren Sanktionen rechnen. Als mögliche Strafen werden Punktabzüge oder ein Ausschluss aus der Premier League genannt. Über die genauen Strafen soll in einer weiteren Anhörung vor derselben Kommission gesondert entschieden werden. Dem Verein wurde bis Freitag Zeit eingeräumt, um Berufung einzulegen.",
+      "Die im Verfahren untersuchten finanziellen Unregelmäßigkeiten belaufen sich laut der Kommission auf mehr als 900 Millionen Pfund, was umgerechnet etwa 1,05 Milliarden Euro entspricht. Zu den Vorwürfen gehören laut den Berichten falsche Angaben zu Finanzen und Sponsoring-Einnahmen sowie unvollständige Informationen über Trainer- und Spielergehälter. Zudem soll der Club bei der Aufklärung nicht ausreichend mit der Liga kooperiert haben."
      ]
     },
     {
      "ueberschrift": "Die Einzelheiten",
      "absaetze": [
-      "Laut Angaben der unabhängigen Kommission hat Manchester City in dem untersuchten Zeitraum Scheinverträge mit Sponsoren genutzt. Dadurch seien die Einnahmen künstlich erhöht und die Kosten gesenkt worden. Die Kommission bezifferte diese Summe auf 900 Millionen Pfund, was laut Tagesschau/ARD und Spiegel etwa einer Milliarde Euro entspricht. Die Deutsche Welle nannte ebenfalls eine Summe von rund einer Milliarde Euro. Der Club soll nach diesen Berichten falsche Jahresabschlüsse vorgelegt und die tatsächliche Finanzlage vor Wirtschaftsprüfern sowie Fußball-Aufsichtsbehörden verschleiert haben.",
-      "Durch dieses Verhalten habe der Verein sowohl die Ausgabenobergrenzen der Premier League als auch die der UEFA erheblich überschritten. Laut dem Spiegel kam die Kommission zu dem Schluss, dass ein klares Ziel zur Umgehung der Ligaregeln vorlag. Die Vorwürfe erstrecken sich über eine Zeitspanne, in der Manchester City dreimal die englische Meisterschaft gewann. Die Untersuchungen umfassten unter anderem auch unvollständige Angaben zu Gehaltszahlungen an Trainer und Spieler sowie das Geschäftsgebaren der Clubbesitzer aus Abu Dhabi.",
-      "Der Verein gehört seit dem Jahr 2008 Scheich Mansour aus der Herrscherfamilie von Abu Dhabi. Vor dieser Übernahme war der Club über Jahrzehnte ein traditionsreicher Verein, der im Schatten des Stadtrivalen Manchester United stand. Nach der Übernahme stiegen die sportlichen Erfolge deutlich an, begleitet von großen Investitionen. Das Portal The Athletic hatte bereits am Freitag vor der offiziellen Bestätigung über den Schuldspruch berichtet, woraufhin die Vereinsführung auf die Anschuldigungen reagierte."
+      "Laut den Mitteilungen der Premier League soll der Verein seine Einnahmen unter anderem durch Scheinverträge mit Sponsoren künstlich erhöht und seine Kosten gedrückt haben. Das Verfahren war im Februar 2023 von der Premier League nach mehrjährigen Ermittlungen eingeleitet worden. Auslöser für die Untersuchungen waren frühere Enthüllungen von Football Leaks im Spiegel gewesen.",
+      "Der Verein gehört seit dem Jahr 2008 Scheich Mansour aus der Herrscherfamilie von Abu Dhabi. In dem fraglichen Zeitraum zwischen 2009 und 2018 gewann Manchester City dreimal die englische Meisterschaft. Trainer des Clubs war in einer späteren Phase von 2016 bis zum Ende der vergangenen Saison Pep Guardiola, der inzwischen eine Botschafterrolle für den Verein innehat.",
+      "Der Chef der Premier League, Richard Masters, bezeichnete das Verfahren laut der Süddeutschen Zeitung als den bedeutendsten Fall in der Geschichte der Liga. Manchester City wies die Vorwürfe umgehend zurück und kündigte an, Berufung einzulegen. Klubchef Khaldoon Al Mubarak schrieb an die Fans, dass die Zuversicht, die Unschuld des Klubs zu beweisen, ungebrochen sei."
      ]
     },
     {
      "ueberschrift": "Hintergrund",
      "absaetze": [
-      "Es ist nicht das erste Mal, dass Manchester City mit Vorwürfen und Sanktionen wegen finanzieller Regelverstöße konfrontiert wird. Im Jahr 2020 hatte die UEFA den Verein wegen Verstößen gegen das Financial Fairplay für zwei Jahre von den europäischen Wettbewerben ausgeschlossen. Der Internationale Sportgerichtshof CAS hob diese Sperre jedoch auf und senkte die gleichzeitig verhängte Geldstrafe von 30 Millionen auf 10 Millionen Euro. Damals konnten laut Deutscher Welle viele Vorwürfe nicht abschließend bewertet werden.",
-      "Trotz der laufenden Untersuchungen und der im Jahr 2023 erhobenen Anklagen setzte der Verein seine sportlichen Erfolge fort. Unter Trainer Pep Guardiola gewann das Team weitere Titel, darunter das sogenannte Triple im Jahr 2023 sowie vier Meistertitel in Serie. Die Eigentümer aus Abu Dhabi bauten den Club nach der Übernahme im Jahr 2008 zu einer globalen Fußballorganisation aus, die zahlreiche internationale und nationale Titel errang."
+      "Manchester City war in der Vergangenheit bereits von der UEFA wegen Verstößen gegen das Financial Fairplay für zwei Jahre von europäischen Wettbewerben ausgeschlossen worden. Der Internationale Sportgerichtshof CAS hob die Sperre jedoch auf und senkte eine Geldstrafe von 30 auf zehn Millionen Euro.",
+      "Der aktuelle Schuldspruch setzt eine Reihe von juristischen Auseinandersetzungen fort. Der Verein hat die Vorwürfe stets als unbegründet zurückgewiesen. Klubchef Khaldoon Al Mubarak erklärte laut der Süddeutschen Zeitung, es gebe noch immer viele, die den Aufschwung des Klubs untergraben wollen."
      ]
     },
     {
      "ueberschrift": "Zum Verständnis",
      "absaetze": [
-      "Die Premier League ist die höchste Spielklasse im englischen Profifußball. Die zugehörigen Vereine verabschieden eigene Regeln zur finanziellen Stabilität und zum Wettbewerb, um die Integrität der Liga zu wahren. Die Einhaltung dieser Vorgaben wird von unabhängigen Kommissionen überprüft. Das Financial Fairplay umfasst Richtlinien von Verbänden, die verhindern sollen, dass Vereine mehr Geld ausgeben, als sie über reguläre Kanäle einnehmen.",
-      "Der Internationale Sportgerichtshof CAS ist ein unabhängiges Gericht zur Schlichtung von Streitigkeiten im Sport. Die UEFA ist der europäische Dachverband des Fußballs und organisiert unter anderem die europäischen Vereinswettbewerbe. Unabhängige Kommissionen prüfen in solchen Verfahren die Vorwürfe und entscheiden über eventuelle Schuldbrüche sowie darauf folgende Sanktionen wie Geldstrafen oder Punktabzüge."
+      "Eine unabhängige Kommission ist ein Gremium, das frei von direkten Weisungen über Streitfälle oder Regulierungsverstöße entscheidet. Sie prüft Beweise und Anklagepunkte, um in Verfahren ein unvoreingenommenes Urteil zu fällen.",
+      "Financial Fairplay bezeichnet Regelwerke von Sportverbänden, die verhindern sollen, dass Vereine mehr Geld ausgeben, als sie über eigene wirtschaftliche Aktivitäten einnehmen."
      ]
     },
     {
      "ueberschrift": "Reaktionen",
      "absaetze": [
-      "Manchester City reagierte enttäuscht und überrascht auf die Entscheidung der Kommission und wies alle Vorwürfe zurück. Der Club erklärte laut Tagesschau/ARD und Spiegel, unschuldig zu sein und kündigte an, alle verfügbaren Rechtsmittel auszuschöpfen. Geschäftsführer Ferran Soriano bezeichnete das Verfahren laut Tagesschau/ARD und Deutscher Welle als das Ergebnis einer Verschwörungstheorie der Premier League und äußerte die Überzeugung, dass es keinerlei Sanktionen geben werde. Clubchef Khaldoon Al Mubarak schrieb an die Fans, dass die Zuversicht ungebrochen sei und der Verein von Gegnern im Visier genommen werde.",
-      "Richard Masters, der Chef der Premier League, betonte laut Tagesschau/ARD und Spiegel die Wichtigkeit der Regeldurchsetzung zum Schutz des Wettbewerbs. Die britische Kultur- und Sportministerin Lisa Nandy bezeichnete den Fall laut Deutscher Welle als äußerst ernst und nannte den Bericht in seiner Deutlichkeit erschütternd. David Bernstein, ein ehemaliger Vorsitzender des Klubs, forderte laut Deutscher Welle einen Zwangsabstieg, da die Glaubwürdigkeit des Fußballs auf dem Spiel stehe und Geldstrafen die milliardenschweren Eigentümer kaum treffen würden. Der frühere Spieler Roy Keane sprach laut Deutscher Welle von Betrug und äußerte sich kritisch über gewonnene Medaillen unter solchen Umständen."
+      "Der ehemalige Trainer und aktuelle Vereinsbotschafter Pep Guardiola äußerte laut dem Spiegel seine Unterstützung für Manchester City auf Instagram. Er erklärte, er stehe hinter dem Verein, den Eigentümern, dem Vorsitzenden und den Spielern und sie würden dies gemeinsam durchstehen. Guardiola hatte im Mai 2022 erklärt, dass er den Erklärungen der Clubführung glaube, den Verein bei einer erwiesenen Lüge jedoch verlassen würde.",
+      "Der Verein Manchester City reagierte laut der Süddeutschen Zeitung enttäuscht und kündigte an, Berufung einzulegen. Die Entscheidung enthalte eindeutige wesentliche Fehler in rechtlicher Hinsicht sowie bei Grundsätzen und Tatsachen. Klubchef Khaldoon Al Mubarak betonte in einem Schreiben an die Anhänger laut der Süddeutschen Zeitung, der Club sehe sich im Visier von Gegnern."
      ]
     },
     {
      "ueberschrift": "Wie geht es weiter?",
      "absaetze": [
-      "Der Verein hat bis Freitag, den 02.10.2026, Zeit, um gegen die Feststellungen der unabhängigen Kommission Berufung einzulegen. Über die Art und Höhe der Sanktionen wird in einer gesonderten Anhörung vor der Kommission entschieden. Die Premier League kündigte an, diesen Prozess fortzuführen. Es wird erwartet, dass nach dem Abschluss des Berufungsverfahrens über mögliche Strafen wie Punktabzüge, Geldstrafen oder den Ausschluss aus der Liga entschieden wird."
+      "Nach der Bestätigung des Schuldspruchs durch die Premier League hat der Verein Manchester City bis Freitag Zeit, Berufung einzulegen. Über die Art und Härte der endgültigen Sanktionen soll in einer folgenden separaten Anhörung vor derselben unabhängigen Kommission befunden werden."
      ]
     }
    ],
    "zeitleiste": [
-    [
-     "2008",
-     "Scheich Mansour übernimmt den Fußballverein Manchester City."
-    ],
     [
      "2020",
      "Die UEFA verhängt eine Sperre für europäische Wettbewerbe, die der CAS später aufhebt."
@@ -4357,10 +4863,6 @@
      "Scheich Mansour aus Abu Dhabi übernimmt den Verein Manchester City."
     ],
     [
-     "2020",
-     "Die UEFA verhängt eine zweijährige Europapokalsperre, die der CAS später aufhebt."
-    ],
-    [
      "Februar 2023",
      "Die Premier League klagt Manchester City nach mehrjährigen Ermittlungen an."
     ],
@@ -4369,140 +4871,166 @@
      "Das Portal The Athletic berichtet über den Schuldspruch."
     ],
     [
-     "29.09.2026",
+     "2008",
+     "Scheich Mansour übernimmt den Fußballverein Manchester City."
+    ],
+    [
+     "2020",
+     "Die UEFA verhängt eine zweijährige Europapokalsperre, die der CAS später aufhebt."
+    ],
+    [
+     "Februar 2023",
+     "Die Premier League leitet nach mehrjährigen Ermittlungen ein Verfahren gegen Manchester City ein."
+    ],
+    [
+     "September 2026",
      "Die Premier League bestätigt den Schuldspruch einer unabhängigen Kommission offiziell."
     ]
    ],
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Pep Guardiola football manager",
-     "bildunterschrift": "Pep Guardiola war in vielen der untersuchten Spielzeiten Trainer von Manchester City."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Etihad Stadium Manchester",
-     "bildunterschrift": "Das Etihad Stadium ist die Heimspielstätte des englischen Fußballvereins Manchester City."
+     "suchbegriff": "Pep Guardiola",
+     "bildunterschrift": "Pep Guardiola äußerte sich öffentlich in Unterstützung für seinen ehemaligen Verein Manchester City."
     },
     {
      "art": "institution",
-     "suchbegriff": "Premier League logo",
-     "bildunterschrift": "Die Premier League organisiert den Spielbetrieb und erlässt die finanziellen Regularien."
+     "suchbegriff": "Premier League",
+     "bildunterschrift": "Die Premier League hatte das Verfahren gegen den Fußballverein nach mehrjährigen Ermittlungen geführt."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Etihad Stadium",
+     "bildunterschrift": "Das Stadion von Manchester City, dem Club, gegen den das Verfahren geführt wurde."
     },
     {
      "art": "symbol",
-     "suchbegriff": "Association football trophy",
-     "bildunterschrift": "Im Zentrum des Verfahrens stehen die in den betreffenden Jahren errungenen Meisterschaften und Titel."
+     "suchbegriff": "Court of Arbitration for Sport",
+     "bildunterschrift": "Der Internationale Sportgerichtshof CAS hatte in der Vergangenheit bereits über Sanktionen gegen den Club entschieden."
     }
    ],
    "ort": {
-    "name": "Manchester, Großbritannien"
+    "name": "England"
    },
    "geprueft": true,
-   "korrekturen": [],
-   "wortwarnung": [],
+   "korrekturen": [
+    "Das genaue Datum 25.09.2026 für den Bericht von The Athletic wurde entfernt, da in den Quellen nur Ende September steht.",
+    "Unbelegte Details im Abschnitt Zum Verständnis wurden entfernt und durch allgemeine Erklärungen ersetzt.",
+    "Der Ort im Metadatensatz wurde von Manchester auf England korrigiert, entsprechend den Angaben in den Texten."
+   ],
+   "wortwarnung": [
+    "Skandale"
+   ],
    "lernen": {
     "begriffe": [
      [
-      "Financial Fairplay",
-      "Ein System von Regeln im Fußball, das verhindern soll, dass Vereine viel mehr Geld ausgeben, als sie selbst einnehmen."
+      "Unabhängige Kommission",
+      "Ein Gremium, das frei von Weisungen über Streitfälle oder Regulierungsverstöße entscheidet."
      ],
      [
-      "Scheinverträge",
-      "Verträge, die nur zum Schein gemacht werden, um zum Beispiel Einnahmen höher erscheinen zu lassen, als sie in Wirklichkeit sind."
+      "Financial Fairplay",
+      "Regeln von Sportverbänden, die verhindern sollen, dass Vereine mehr Geld ausgeben, als sie einnehmen."
+     ],
+     [
+      "Berufung",
+      "Das Recht, ein gerichtliches oder offizielles Urteil von einer höheren Instanz überprüfen zu lassen."
      ]
     ],
     "fragen": [
-     "Welche Argumente bringt Manchester City zur Verteidigung vor, und wie bewertet die Premier League die Situation?",
-     "Welche Folgen könnte ein solcher Schuldspruch für den internationalen Vereinsfußball haben?"
+     "Welche Folgen könnte der Schuldspruch für die sportliche Zukunft von Manchester City haben?",
+     "Warum ist die Reaktion des Vereinschefs anders zu bewerten als die Einschätzung der unabhängigen Kommission?"
     ],
     "quiz": [
      {
-      "frage": "Wann soll Manchester City laut dem Bericht gegen die Finanzregeln verstoßen haben?",
+      "frage": "Wer hat Manchester City für schuldig befunden?",
       "optionen": [
-       "Zwischen 2009 und 2018",
-       "Zwischen 2015 und 2023",
-       "Zwischen 2000 und 2005"
+       "Eine unabhängige Kommission",
+       "Das Europäische Parlament",
+       "Der Internationale Sportgerichtshof CAS"
       ],
       "richtig": 0,
-      "erklaerung": "Die Vorwürfe beziehen sich auf den Zeitraum zwischen den Spielzeiten 2009/10 und 2017/18."
+      "erklaerung": "Laut Spiegel und Süddeutscher Zeitung hat eine unabhängige Kommission den Verein schuldig gesprochen."
      },
      {
-      "frage": "Wie hoch ist die Summe, die laut Kommission in den Bilanzen anders dargestellt wurde?",
+      "frage": "Auf welchen Zeitraum beziehen sich die Vorwürfe?",
       "optionen": [
-       "900 Millionen Pfund",
-       "100 Millionen Pfund",
-       "5 Milliarden Pfund"
+       "Spielzeiten 2009/2010 bis 2017/2018",
+       "Spielzeiten 2015/2016 bis 2022/2023",
+       "Das Jahr 2020 bis zum Jahr 2026"
       ],
       "richtig": 0,
-      "erklaerung": "Die Kommission kam zu dem Schluss, dass es sich um eine Summe von 900 Millionen Pfund handelt."
+      "erklaerung": "Die Berichte stimmen überein, dass die Vorwürfe die Spielzeiten 2009/2010 bis 2017/2018 betreffen."
      },
      {
-      "frage": "Wer hat den Verein Manchester City im Jahr 2008 übernommen?",
+      "frage": "Wie reagierte Manchester City auf den Schuldspruch?",
       "optionen": [
-       "Scheich Mansour",
-       "Ein internationaler Sportgerichtshof",
-       "Ein deutscher Investor"
+       "Der Verein akzeptierte die Strafe sofort.",
+       "Der Verein wies die Vorwürfe zurück und kündigte Berufung an.",
+       "Der Verein löste sich auf."
       ],
-      "richtig": 0,
-      "erklaerung": "Der Verein gehört seit dem Jahr 2008 Scheich Mansour aus der Herrscherfamilie von Abu Dhabi."
+      "richtig": 1,
+      "erklaerung": "Der Verein beteuerte laut den Berichten seine Unschuld und kündigte an, Berufung einzulegen."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Der englische Fußballverein Manchester City hat gegen Finanzregeln verstoßen. Das hat eine Kommission entschieden.",
+    "vorspann": "Eine Kommission hat den Fußballverein Manchester City für schuldig befunden. Der Verein hat gegen Finanzregeln verstoßen.",
     "absaetze": [
-     "Der Verein wurde in vielen Punkten für schuldig erklärt. Die Vorwürfe stammen aus den Jahren 2009 bis 2018.",
-     "Damals soll der Club durch Scheinverträge mit Sponsoren Geld versteckt haben. Es geht um eine Summe von rund einer Milliarde Euro.",
-     "Manchester City weist die Vorwürfe zurück und spricht von einer Verschwörung. Der Verein will gegen die Entscheidung vorgehen.",
-     "Welche Strafe der Verein bekommt, steht noch nicht fest. Möglich sind Punktabzüge oder ein Ausschluss aus der Liga."
+     "Eine unabhängige Kommission prüfte die Finanzen von Manchester City. Die Vorwürfe betreffen die Jahre von zweitausendneun bis zweitausendachtzehn.",
+     "Der Verein soll Einnahmen künstlich erhöht und Kosten verschleiert haben. Es geht um eine Summe von mehr als neunhundert Millionen Pfund.",
+     "Manchester City weist die Vorwürfe zurück. Der Verein möchte gegen die Entscheidung Berufung einlegen.",
+     "Der ehemalige Trainer Pep Guardiola unterstützt den Verein öffentlich. Über mögliche Strafen wird in einer weiteren Anhörung entschieden."
     ]
    },
    "video": {
     "kurz": [
-     "Manchester City ist von einer Kommission wegen Verstößen gegen Finanzregeln schuldig gesprochen worden. Die Vorwürfe betreffen Scheinverträge in Höhe von rund einer Milliarde Euro aus den Jahren 2009 bis 2018. Der Verein weist die Anschuldigungen zurück und will rechtliche Schritte einleiten. Über mögliche Strafen wird in einer weiteren Anhörung entschieden."
+     "Manchester City wurde von einer Kommission wegen Finanzverstößen für schuldig befunden.",
+     "Die Unregelmäßigkeiten belaufen sich auf mehr als neunhundert Millionen Pfund.",
+     "Der Verein kündigte an, gegen diese Entscheidung Berufung einzulegen."
     ],
     "lang": [
-     "Ein englisches Fußballteam ist verurteilt worden.",
-     "Manchester City hat nach Angaben einer Kommission gegen Finanzregeln verstoßen.",
-     "Das betrifft die Spielzeiten von zweitausendneun bis zweitausendachtzehn.",
-     "Der Verein hat laut dem Bericht durch Scheinverträge Einnahmen künstlich erhöht.",
-     "Es geht um eine Summe von rund einer Milliarde Euro.",
-     "Die Premier League hat den Schuldspruch am neunundzwanzigsten September zweitausendsechsundzwanzig offiziell bestätigt.",
-     "Der Verein weist alle Vorwürfe zurück und spricht von einer Verschwörung.",
-     "Über mögliche Strafen wie Punktabzüge oder einen Ausschluss muss eine weitere Kommission entscheiden.",
-     "Bis Freitag kann der Verein gegen die Entscheidung Berufung einlegen."
+     "Eine unabhängige Kommission hat den Fußballverein Manchester City für schuldig befunden.",
+     "Der Verein hat laut der Premier League gegen Finanzregeln verstoßen.",
+     "Die Vorwürfe betreffen den Zeitraum zwischen den Spielzeiten zweitausendneun und zweitausendachtzehn.",
+     "Die Kommission bezifferte die Unregelmäßigkeiten auf mehr als neunhundert Millionen Pfund.",
+     "Das entspricht umgerechnet etwa einer Komma null fünf Milliarden Euro.",
+     "Nach Angaben der Premier League nutzte der Club unter anderem Scheinverträge.",
+     "Manchester City wies die Vorwürfe zurück und kündigte an, Berufung einzulegen.",
+     "Der ehemalige Trainer Pep Guardiola erklärte öffentlich seine Unterstützung für den Verein.",
+     "Über konkrete Strafen wie Punktabzüge wird in einer weiteren Anhörung entschieden.",
+     "Das Verfahren läuft seit dem Jahr zweitausenddreiundzwanzig."
     ],
     "einfach": [
-     "Manchester City hat gegen Regeln im Fußball verstoßen.",
-     "Das hat eine Kommission am neunundzwanzigsten September zweitausendsechsundzwanzig entschieden.",
-     "Der Verein soll Geld versteckt und falsche Papiere vorgelegt haben.",
-     "Der Verein streitet die Vorwürfe ab und will sich wehren.",
-     "Eine Strafe steht noch nicht fest."
+     "Manchester City hat gegen Regeln verstoßen.",
+     "Das hat eine Kommission entschieden.",
+     "Es geht um sehr viel Geld.",
+     "Der Verein will sich dagegen wehren.",
+     "Der ehemalige Trainer unterstützt den Club.",
+     "Welche Strafe folgt, ist noch offen."
     ]
    },
    "kurz": [
-    "Manchester City ist in zahlreichen Punkten wegen Verstößen gegen Finanzregeln schuldig gesprochen worden.",
-    "Die Vorwürfe betreffen Scheinverträge und verschleierte Finanzen in Höhe von rund einer Milliarde Euro.",
-    "Der Verein weist die Anschuldigungen zurück und kündigt rechtliche Schritte an.",
-    "Über mögliche Strafen wie Punktabzüge oder einen Ausschluss wird in einer weiteren Anhörung entschieden."
+    "Manchester City wurde in allen Punkten wegen Finanzverstößen schuldig gesprochen.",
+    "Die Vorwürfe betreffen die Spielzeiten von 2009 bis 2018.",
+    "Die Summe der Unregelmäßigkeiten beläuft sich auf mehr als 900 Millionen Pfund.",
+    "Der Verein kündigte an, gegen die Entscheidung Berufung einzulegen."
    ],
    "fakten": [
     [
-     "Untersuchter Zeitraum",
-     "Spielzeiten 2009/10 bis 2017/18"
+     "Finanzielle Unregelmäßigkeiten",
+     "mehr als 900 Millionen Pfund"
     ],
     [
-     "Künstlich veränderte Summe",
-     "900 Millionen Pfund (rund eine Milliarde Euro)"
+     "Betroffener Zeitraum",
+     "Spielzeiten 2009/2010 bis 2017/2018"
     ],
     [
-     "Anzahl der Anklagepunkte laut Tagesschau und Spiegel",
-     "115 beziehungsweise 114 Punkte"
+     "Geldstrafe nach CAS-Entscheid im Jahr 2020",
+     "10 Millionen Euro"
     ]
    ],
    "dossier": {
-    "slug": "manchester-city-finanzverfahren",
+    "slug": "manchester-city-finanzskandal",
     "titel": "Finanzverfahren gegen Manchester City"
    },
    "bildInfo": {
@@ -4569,149 +5097,12 @@
      "hinweis": "Archivfoto"
     }
    ],
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Ein englisches Fußballteam ist verurteilt worden. Manchester City hat nach Angab",
-     "d": "af68b01e97.mp3",
-     "l": 41.53,
-     "s": [
-      0.25,
-      3.27,
-      7.86,
-      12.67,
-      17.2,
-      20.65,
-      27.55,
-      31.75,
-      37.47
-     ]
-    },
-    {
-     "k": "Manchester City ist von einer Kommission wegen Verstößen gegen Finanzregeln schu",
-     "d": "8856476b49.mp3",
-     "l": 21.04,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Manchester City hat gegen Regeln im Fußball verstoßen. Das hat eine Kommission a",
-     "d": "06bc12dab3.mp3",
-     "l": 22.74,
-     "s": [
-      0.25,
-      4.81,
-      11.17,
-      15.65,
-      19.77
-     ]
-    },
-    {
-     "k": "Ob der Verein tatsächlich mit einem Zwangsabstieg oder dem Entzug von Titeln bes",
-     "d": "4e02e1f1fd.mp3",
-     "l": 8.81,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Financial Fairplay? Ein System von Regeln im Fußball, da",
-     "d": "4180b0bd2b.mp3",
-     "l": 12.05,
-     "s": [
-      0.25,
-      4.09
-     ]
-    },
-    {
-     "k": "Der englische Spitzenclub Manchester City ist von einer unabhängigen Kommission ",
-     "d": "acb8529e3a.mp3",
-     "l": 54.93,
-     "s": [
-      0.25,
-      10.57,
-      17.45,
-      21.66,
-      31.73,
-      36.34,
-      45.87,
-      48.94
-     ]
-    },
-    {
-     "k": "Laut Angaben der unabhängigen Kommission hat Manchester City in dem untersuchten",
-     "d": "8395d1ea77.mp3",
-     "l": 53.85,
-     "s": [
-      0.25,
-      7.29,
-      11.44,
-      20.23,
-      24.57,
-      34.21,
-      41.71,
-      47.78
-     ]
-    },
-    {
-     "k": "Es ist nicht das erste Mal, dass Manchester City mit Vorwürfen und Sanktionen we",
-     "d": "8f7bfb43cf.mp3",
-     "l": 61.57,
-     "s": [
-      0.25,
-      7.83,
-      16.89,
-      27.11,
-      31.83,
-      40.29,
-      49.98
-     ]
-    },
-    {
-     "k": "Die Premier League ist die höchste Spielklasse im englischen Profifußball. Die z",
-     "d": "61ef7b93c7.mp3",
-     "l": 49.98,
-     "s": [
-      0.25,
-      4.77,
-      12.55,
-      17.2,
-      25.68,
-      32.32,
-      39.42
-     ]
-    },
-    {
-     "k": "Manchester City reagierte enttäuscht und überrascht auf die Entscheidung der Kom",
-     "d": "4c786d01ba.mp3",
-     "l": 73.71,
-     "s": [
-      0.25,
-      6.65,
-      15.18,
-      27.98,
-      35.41,
-      44.37,
-      53.51,
-      65.65
-     ]
-    },
-    {
-     "k": "Der Verein hat bis Freitag, den 02. 10. 2026, Zeit, um gegen die Feststellungen ",
-     "d": "38dbe6863b.mp3",
-     "l": 29.69,
-     "s": [
-      0.25,
-      3.14,
-      4.0,
-      10.96,
-      16.56,
-      20.36
-     ]
-    }
-   ]
+   "ortInfo": {
+    "name": "England",
+    "lat": 52.531,
+    "lon": -1.265
+   },
+   "version": 5
   },
   {
    "id": "ki-agenten-datenleck-openai",

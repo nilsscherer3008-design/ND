@@ -1,6 +1,185 @@
 {
- "stand": "2026-09-30T13:38:12.194Z",
+ "stand": "2026-10-01T05:44:41.530Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-eine-sternschnuppe",
+   "zeit": "2026-10-01T05:49:19.484Z",
+   "bereich": "Weltall",
+   "titel": "Wie entsteht eigentlich eine Sternschnuppe?",
+   "vorspann": "Am Nachthimmel sind manchmal aufleuchtende Sternschnuppen zu sehen. Kleine Teilchen aus dem Weltall erzeugen diese Leuchterscheinungen in der Erdatmosphäre.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Als Meteor wird das Aufleuchten von Sternschnuppen bezeichnet, wenn sie als kleine Gesteins- oder Staubteilchen in der Hochatmosphäre verglühen. Bei größerer Helligkeit spricht man von Feuerkugeln oder Boliden. Die wenigen bis zur Erdoberfläche herabfallenden Körper nennt man Meteorite. Die Überreste des Verglühens und die feinsten Meteore ergeben die extraterrestrischen Aerosole. Schätzungen des dauernd herabrieselnden Meteorstaubs reichen von einigen hundert bis 5000 Tonnen pro Tag.",
+      "Fast immer sind die meisten Sternschnuppen in der zweiten Nachthälfte zu sehen. Dann liegt der Beobachter auf der Vorderseite der Erdbewegung um die Sonne. Besonders deutlich wird dies bei der Beobachtung von Meteorschwärmen wie den Perseiden im August oder den Geminiden im Dezember. Das Wort Meteor kommt von altgriechisch metéōros, was in der Luft schwebend bedeutet."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Meteoroide sind meist Staubkörner sowie kleine Metall- oder Gesteinskörner aus dem interplanetaren Raum. Pro Tag fallen etwa zehn Milliarden davon vom Weltall mit einer Gesamtmasse von zehn bis 150 Tonnen in die Erdatmosphäre ein. Wegen ihrer enormen Geschwindigkeit von etwa 11,2 bis 72 Kilometern pro Sekunde verdampfen die meisten in etwa 80 Kilometer Höhe durch Luftreibung. Dabei ionisieren sie die Luftmoleküle, was helle Leuchtspuren hervorruft.",
+      "Der überwiegende Teil der Meteore ist interplanetaren Ursprungs, nur sehr wenige erreichen die Erde aus dem interstellaren Raum. Meteorströme entstehen, wenn die Erde die Flugbahn eines Kometen kreuzt. Da sich die Spuren all dieser Meteore in einem Punkt zu treffen scheinen, sind die Meteorströme nach dem Sternbild benannt, in dem dieser Radiant liegt. Bekannte Meteorströme sind die Quadrantiden im Januar, die Perseiden im Juli und August, die Leoniden im November sowie die Geminiden im Dezember.",
+      "Im volkstümlichen Aberglauben vieler Länder hat jemand, der zufällig eine Sternschnuppe am nächtlichen Himmel sieht, einen Wunsch frei. In Schlesien, der Oberpfalz und in Böhmen existierte zudem der Glaube, dass man dort einen Schatz findet, wo eine Sternschnuppe zur Erde fällt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die Erforschung der Meteore hat in der Astronomie eine lange Tradition. Die durch freiäugige Beobachtung oder durch spezielle Meteorkameras ermöglichte Bahnbestimmung gibt Einblick in die Herkunft dieser Kleinkörper. Meteorforschung wird seit etwa der Mitte des 19. Jahrhunderts betrieben. Um 1870 gelang dem Mailänder Astronomen Giovanni Schiaparelli der Nachweis, dass die Meteorströme auf den Zerfall von Kometen zurückgehen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Meteorstaub pro Tag",
+     "einige hundert bis 5000 Tonnen"
+    ],
+    [
+     "Meteoroide pro Tag in Atmosphäre",
+     "etwa 10 Milliarden"
+    ],
+    [
+     "Masse der Meteoroide pro Tag",
+     "10 bis 150 Tonnen"
+    ],
+    [
+     "Geschwindigkeit der Meteoroide",
+     "11,2 bis 72 km/s"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Meteor",
+     "Das Aufleuchten von Sternschnuppen, wenn sie als kleine Gesteins- oder Staubteilchen in der Hochatmosphäre verglühen."
+    ],
+    [
+     "Meteoroide",
+     "Meist Staubkörner, kleine Metall- oder Gesteinskörner aus dem interplanetaren Raum."
+    ],
+    [
+     "Meteorite",
+     "Die wenigen Körper, die bis zur Erdoberfläche herabfallen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann sind die meisten Sternschnuppen zu sehen?",
+     "optionen": [
+      "In der ersten Nachthälfte",
+      "In der zweiten Nachthälfte",
+      "Nur am Tage"
+     ],
+     "richtig": 1,
+     "erklaerung": "Fast immer sind die meisten Sternschnuppen in der zweiten Nachthälfte zu sehen, weil der Beobachter dann auf der Vorderseite der Erdbewegung liegt."
+    }
+   ],
+   "video": [
+    "Was ist eigentlich eine Sternschnuppe?",
+    "Kleine Gesteins- oder Staubteilchen aus dem All dringen in die Erdatmosphäre ein.",
+    "Fachleute nennen diese Teilchen Meteoroide.",
+    "Sie rasen mit enormer Geschwindigkeit durch die Luft.",
+    "Durch die starke Reibung verglühen die Teilchen in großer Höhe.",
+    "Dabei entsteht ein helles Aufleuchten am Himmel.",
+    "Dieses Aufleuchten nennen wir Meteor oder Sternschnuppe.",
+    "Manchmal überstehen größere Teile den Flug und treffen als Meteorit auf die Erde."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Meteor",
+    "bildunterschrift": "Eine Sternschnuppe leuchtet auf, wenn ein Teilchen aus dem Weltall in der Atmosphäre verglüht."
+   },
+   "quelle": {
+    "titel": "Meteor",
+    "url": "https://de.wikipedia.org/wiki/Meteor",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 358,
+   "bildInfos": [
+    {
+     "titel": "Meteor, 8.5.2016.jpg",
+     "beschreibung": "Meteor über Sardinien, 8.5.2016.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Meteor%2C_8.5.2016.jpg/1280px-Meteor%2C_8.5.2016.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Meteor%2C_8.5.2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Meteor,_8.5.2016.jpg",
+     "urheber": "Michael Eberth",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Meteor",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Sternschnuppe leuchtet auf, wenn ein Teilchen aus dem Weltall in der Atmosphäre verglüht."
+    },
+    {
+     "titel": "MeteorAccGraph.jpg",
+     "beschreibung": "This diagram shows the acceleration of an idealized (spherical) meteoroid when entering the Earth's atmosphere at different initial velocities. As the density of the atmosphere increases in accord wit",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/MeteorAccGraph.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/MeteorAccGraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:MeteorAccGraph.jpg",
+     "urheber": "AllenMcC.",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "This diagram shows the acceleration of an idealized (spherical) meteoroid when entering the Earth's atmosphere at different initial velocities. As the density of the atmosphere increases in accord wit"
+    },
+    {
+     "titel": "Meteor burst.jpg",
+     "beschreibung": "This picture is of the Alpha- Monocerotid meteor outburst in 1995. The Perseid meteor shower, usually the richest meteor shower of the year, peaks in August. Over the course of an hour, a person watch",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Meteor_burst.jpg/1280px-Meteor_burst.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Meteor_burst.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Meteor_burst.jpg",
+     "urheber": "NASA Ames Research Center/S. Molau and P. Jenniskens",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "This picture is of the Alpha- Monocerotid meteor outburst in 1995. The Perseid meteor shower, usually the richest meteor shower of the year, peaks in August. Over the course of an hour, a person watch"
+    },
+    {
+     "titel": "Perseid meteor 2007.jpg",
+     "beschreibung": "A multicolored Perseid meteor striking the sky just to the right from Milky Way .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Perseid_meteor_2007.jpg/1280px-Perseid_meteor_2007.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Perseid_meteor_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Perseid_meteor_2007.jpg",
+     "urheber": "Brocken Inaglory",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "A multicolored Perseid meteor striking the sky just to the right from Milky Way ."
+    },
+    {
+     "titel": "Sternschnuppe.scheinbare.Helligkeit.P1091635.png",
+     "beschreibung": "Sternschnuppe mit einer Länge vom zwei Bogengrad vom Sternbild Stier (Taurus, rechts oben) durch das Sternbild Eridanus (Eri) bis in das Sternbild Orion im Vergleich zu benachbarten Sternen vierter bi",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sternschnuppe.scheinbare.Helligkeit.P1091635.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sternschnuppe.scheinbare.Helligkeit.P1091635.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sternschnuppe.scheinbare.Helligkeit.P1091635.png",
+     "urheber": "Bautsch",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Sternschnuppe mit einer Länge vom zwei Bogengrad vom Sternbild Stier (Taurus, rechts oben) durch das Sternbild Eridanus (Eri) bis in das Sternbild Orion im Vergleich zu benachbarten Sternen vierter bi"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Meteor, 8.5.2016.jpg",
+    "beschreibung": "Meteor über Sardinien, 8.5.2016.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Meteor%2C_8.5.2016.jpg/1280px-Meteor%2C_8.5.2016.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Meteor%2C_8.5.2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Meteor,_8.5.2016.jpg",
+    "urheber": "Michael Eberth",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Meteor",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Sternschnuppe leuchtet auf, wenn ein Teilchen aus dem Weltall in der Atmosphäre verglüht."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",
    "zeit": "2026-09-30T13:45:23.860Z",
