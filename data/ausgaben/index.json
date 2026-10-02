@@ -1,5 +1,12 @@
 [
  {
+  "id": "2026-10-02-06",
+  "name": "6-Uhr-Ausgabe",
+  "stunde": 6,
+  "zeit": "2026-10-02T05:28:38.180Z",
+  "anzahl": 11
+ },
+ {
   "id": "2026-10-01-18",
   "name": "18-Uhr-Ausgabe",
   "stunde": 18,
@@ -270,13 +277,6 @@
   "name": "18-Uhr-Ausgabe",
   "stunde": 18,
   "zeit": "2026-09-20T16:46:32.668Z",
-  "anzahl": 12
- },
- {
-  "id": "2026-09-20-12",
-  "name": "12-Uhr-Ausgabe",
-  "stunde": 12,
-  "zeit": "2026-09-20T12:16:56.852Z",
   "anzahl": 12
  }
 ]
