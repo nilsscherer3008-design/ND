@@ -2233,7 +2233,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 18 und 21 Grad. Die Vorhersage für morgen,",
+   "d": "83ee2f8b9c.mp3",
+   "l": 21.01,
+   "s": [
+    0.25,
+    4.31,
+    10.57,
+    14.74,
+    18.39
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2247,156 +2259,156 @@
   },
   "ansagen": [
    {
-    "k": "Nachrichten-Heft. Die Hauptausgabe vom Donnerstag, 1. Oktober. Es liest die Comp",
-    "d": "a2f7e5df1d.mp3",
-    "l": 7.07,
+    "k": "Nachrichten-Heft. Die Hauptausgabe vom Freitag, 2. Oktober. Es liest die Compute",
+    "d": "bb064cc21d.mp3",
+    "l": 7.23,
+    "s": [
+     0.25,
+     4.61
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Freitag, 2. Oktober. Es liest die",
+    "d": "472c69c43e.mp3",
+    "l": 7.64,
+    "s": [
+     0.25,
+     5.05
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Einfach erklärt vom Freitag, 2. Oktober. Es liest die Computer",
+    "d": "c6b3bcb715.mp3",
+    "l": 8.13,
+    "s": [
+     0.25,
+     4.97
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Kurzmeldungen vom Freitag, 2. Oktober. Es liest die Computerst",
+    "d": "0f58f3f5a1.mp3",
+    "l": 7.35,
     "s": [
      0.25,
      4.59
     ]
    },
    {
-    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Donnerstag, 1. Oktober. Es liest ",
-    "d": "f860816a92.mp3",
-    "l": 7.49,
+    "k": "Nachrichten-Heft. Der Wochenrückblick vom Freitag, 2. Oktober. Es liest die Comp",
+    "d": "87cf94956e.mp3",
+    "l": 6.93,
     "s": [
      0.25,
-     5
+     4.57
     ]
    },
    {
-    "k": "Nachrichten-Heft. Einfach erklärt vom Donnerstag, 1. Oktober. Es liest die Compu",
-    "d": "6d8585d5cb.mp3",
-    "l": 8.37,
+    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Freitag, 2. Oktober. Es liest die",
+    "d": "852e8b6638.mp3",
+    "l": 7.83,
     "s": [
      0.25,
-     5.31
+     5.24
     ]
    },
    {
-    "k": "Nachrichten-Heft. Kurzmeldungen vom Donnerstag, 1. Oktober. Es liest die Compute",
-    "d": "722a268d2b.mp3",
-    "l": 6.97,
+    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Freitag, 2. Oktober. Es liest die ",
+    "d": "3480c8824d.mp3",
+    "l": 7.4,
     "s": [
      0.25,
-     4.47
+     4.86
     ]
    },
    {
-    "k": "Nachrichten-Heft. Der Wochenrückblick vom Donnerstag, 1. Oktober. Es liest die C",
-    "d": "647c0f5f05.mp3",
-    "l": 7.45,
+    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Freitag, 2. Oktober. Es liest die",
+    "d": "d1b407cc33.mp3",
+    "l": 7.86,
     "s": [
      0.25,
-     4.93
+     5.25
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Donnerstag, 1. Oktober. Es liest ",
-    "d": "b263111983.mp3",
-    "l": 7.42,
+    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Freitag, 2. Oktober. Es liest ",
+    "d": "73197aa30e.mp3",
+    "l": 8.0,
     "s": [
      0.25,
-     4.89
+     5.4
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Donnerstag, 1. Oktober. Es liest d",
-    "d": "4097706e67.mp3",
-    "l": 7.46,
+    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Freitag, 2. Oktober. Es liest ",
+    "d": "fd3c0d3662.mp3",
+    "l": 8.0,
     "s": [
      0.25,
-     4.92
+     5.16
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Donnerstag, 1. Oktober. Es liest ",
-    "d": "95a2ea190e.mp3",
-    "l": 7.49,
+    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Freitag, 2. Oktober. Es l",
+    "d": "91752639e8.mp3",
+    "l": 8.09,
     "s": [
      0.25,
-     4.93
+     5.55
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Donnerstag, 1. Oktober. Es lie",
-    "d": "b681a9f017.mp3",
-    "l": 8.16,
+    "k": "Nachrichten-Heft. Deutschland vom Freitag, 2. Oktober. Es liest die Computerstim",
+    "d": "59c258b7f6.mp3",
+    "l": 6.82,
     "s": [
      0.25,
-     5.44
+     4.23
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Donnerstag, 1. Oktober. Es lie",
-    "d": "6325feab7e.mp3",
-    "l": 8,
-    "s": [
-     0.25,
-     5.38
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Donnerstag, 1. Oktober. E",
-    "d": "70bee20551.mp3",
-    "l": 7.93,
-    "s": [
-     0.25,
-     5.37
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Deutschland vom Donnerstag, 1. Oktober. Es liest die Computers",
-    "d": "38858f43e2.mp3",
-    "l": 6.97,
-    "s": [
-     0.25,
-     4.42
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Welt vom Donnerstag, 1. Oktober. Es liest die Computerstimme T",
-    "d": "799f090ccb.mp3",
-    "l": 6.53,
+    "k": "Nachrichten-Heft. Welt vom Freitag, 2. Oktober. Es liest die Computerstimme Thor",
+    "d": "1b44f65b1c.mp3",
+    "l": 6.66,
     "s": [
      0.25,
      4.02
     ]
    },
    {
-    "k": "Nachrichten-Heft. Wirtschaft vom Donnerstag, 1. Oktober. Es liest die Computerst",
-    "d": "d858aa6f48.mp3",
-    "l": 7.02,
+    "k": "Nachrichten-Heft. Wirtschaft vom Freitag, 2. Oktober. Es liest die Computerstimm",
+    "d": "e97ecd4d79.mp3",
+    "l": 6.8,
     "s": [
      0.25,
-     4.21
+     4.04
     ]
    },
    {
-    "k": "Nachrichten-Heft. Wissen und Klima vom Donnerstag, 1. Oktober. Es liest die Comp",
-    "d": "8ae4e70445.mp3",
-    "l": 7.4,
+    "k": "Nachrichten-Heft. Wissen und Klima vom Freitag, 2. Oktober. Es liest die Compute",
+    "d": "406c979fe9.mp3",
+    "l": 7.46,
     "s": [
      0.25,
-     4.89
+     4.74
     ]
    },
    {
-    "k": "Nachrichten-Heft. Sport vom Donnerstag, 1. Oktober. Es liest die Computerstimme ",
-    "d": "b27915765d.mp3",
-    "l": 6.99,
+    "k": "Nachrichten-Heft. Sport vom Freitag, 2. Oktober. Es liest die Computerstimme Tho",
+    "d": "baf24d9448.mp3",
+    "l": 6.39,
     "s": [
      0.25,
-     4.33
+     3.96
     ]
    },
    {
-    "k": "Nachrichten-Heft. Region vom Donnerstag, 1. Oktober. Es liest die Computerstimme",
-    "d": "3bbbe838ec.mp3",
-    "l": 6.89,
+    "k": "Nachrichten-Heft. Region vom Freitag, 2. Oktober. Es liest die Computerstimme Th",
+    "d": "cd65e00d05.mp3",
+    "l": 6.86,
     "s": [
      0.25,
-     4.35
+     4.13
     ]
    },
    {
