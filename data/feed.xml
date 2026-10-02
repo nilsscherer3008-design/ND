@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Fri, 02 Oct 2026 12:25:47 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 18:22:33 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,17 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Wie entsteht eigentlich eine Sonnenfinsternis?</title>
+    <description>Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.</description>
+    <itunes:summary>Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.</itunes:summary>
+    <pubDate>Fri, 02 Oct 2026 12:32:02 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-eine-sonnenfinsternis</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/c1250521ad.mp3" length="203277" type="audio/mpeg"/>
+    <itunes:duration>00:00:34</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Hauptausgabe vom 2026-10-02</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Zwischenfall im Cockpit eines Flydubai-Fluges nach Tel Aviv · Bundeswehr kündigt erstes Drohnenregiment an · Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Volkswagen kündigt zahlreiche Haustarifverträge im Rahmen eines Sparprogramms · Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung</description>
@@ -89,17 +100,6 @@
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-das-menschliche-gedaechtnis</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/7541058a12.mp3" length="167133" type="audio/mpeg"/>
     <itunes:duration>00:00:28</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Wie funktioniert eigentlich eine Ampel?</title>
-    <description>Ampeln steuern den Straßen- und Schienenverkehr auf der ganzen Welt. Sie haben eine lange Geschichte und nutzen heute verschiedene Signale.</description>
-    <itunes:summary>Ampeln steuern den Straßen- und Schienenverkehr auf der ganzen Welt. Sie haben eine lange Geschichte und nutzen heute verschiedene Signale.</itunes:summary>
-    <pubDate>Wed, 30 Sep 2026 06:45:19 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-eine-ampel</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/572dccb84d.mp3" length="196365" type="audio/mpeg"/>
-    <itunes:duration>00:00:33</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>

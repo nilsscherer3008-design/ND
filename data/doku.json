@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-02T12:25:47.602Z",
+ "stand": "2026-10-02T18:22:33.969Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -94,7 +94,8 @@
    {
     "ueberschrift": "Die lateinische Schrift",
     "wikipedia": "Lateinisches Alphabet",
-    "fokus": "Aus dem griechischen System entstand das heute weltweit meistgenutzte Alphabet."
+    "fokus": "Aus dem griechischen System entstand das heute weltweit meistgenutzte Alphabet.",
+    "versuche": 1
    },
    {
     "ueberschrift": "Die Entzifferung alter Schriften",

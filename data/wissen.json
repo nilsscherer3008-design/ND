@@ -1,6 +1,197 @@
 {
- "stand": "2026-10-02T12:25:47.602Z",
+ "stand": "2026-10-02T18:22:33.969Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-eigentlich-das-antike-orakel-von-delphi",
+   "zeit": "2026-10-02T18:31:01.913Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte eigentlich das antike Orakel von Delphi?",
+   "vorspann": "Das Orakel von Delphi war eine wichtige Weissagungsstätte im antiken Griechenland. Dort beantworteten Priester und Priesterinnen Fragen von Ratsuchenden.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Orakel von Delphi war eine berühmte Weissagungsstätte des antiken Griechenlands. Sie befand sich am Hang des Parnass bei der Stadt Delphi in der Landschaft Phokis. Diese Kultstätte galt in der hellenischen Welt als sehr wichtig. Lange Zeit wurde der Ort sogar als Mittelpunkt der Welt angesehen. Ein Stein namens Omphalos markierte diesen Mittelpunkt symbolisch. Nach dem Mythos ließ Zeus dort einst zwei Adler fliegen, die sich trafen.",
+      "Ursprünglich war der Kult in Delphi laut Berichten der Erdgöttin Gaia gewidmet. Später übernahm der Gott Apollon das Heiligtum. Ein christlicher Kaiser namens Theodosius der Erste beendete die Orakelstätte im Jahr 391 durch ein Edikt. Vorher reisten Menschen aus dem gesamten Mittelmeerraum dorthin. Sie wollten etwas über politische Absichten oder Koloniepläne erfahren. Auch Städte und Einzelpersonen stellten ihre Fragen an das Orakel."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Befragung des Orakels lief nach einem festen Ablauf ab. Zuerst mussten die Ratsuchenden ein Omen abwarten. Ein Oberpriester besprengte dafür eine junge Ziege mit eiskaltem Wasser. Blieb das Tier ruhig, fiel das Orakel für diesen Tag aus. Zuckte die Ziege zusammen, wurde sie als Opfertier geschlachtet und auf einem Altar verbrannt.",
+      "Anschließend begab sich die Priesterin, die Pythia genannt wurde, zur heiligen Quelle. Dort nahm sie ein nacktes Bad und trank Wasser aus einer zweiten Quelle. Begleitet von Priestern ging sie dann in den Apollontempel. Dort stiegen laut Theorien berauschende Dämpfe aus einer Erdspalte auf. Die Pythia geriet in eine Trance und sprach ihre Weissagungen aus.",
+      "Nicht alle Ratsuchenden bekamen die gleichen Antworten. Begüterte Klienten erhielten individuelle und ausführliche Antworten. Ärmere Menschen mussten dagegen ein Ja-Nein-Orakel nutzen. Dafür zog die Pythia eine weiße oder schwarze Bohnenart aus einem Behälter. Weiß bedeutete Ja und schwarz bedeutete Nein."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Über das Orakel von Delphi berichten zahlreiche antike Quellen und Autoren. Dazu gehören Schriften von Herodot, Plinius dem Älteren und Titus Livius. Auch die moderne Forschung beschäftigt sich intensiv mit der Stätte. Der amerikanische Geologe Jelle de Boer untersuchte im Jahr 2001 die Gase in Delphi. Er veröffentlichte Forschungen, wonach das austretende Gas Ethylen die Trance der Priesterin bewirkt haben könnte."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Umstritten bleibt in der Forschung, wie die Trance der Priesterin genau ausgelöst wurde. Italienische Geologen um Giuseppe Etiope widersprachen der These von de Boer im Jahr 2006. Nach ihren Ergebnissen erreichte das Ethylen keine ausreichenden Konzentrationen, sondern Methan und Kohlendioxid verursachten den Zustand. Zudem wird in der modernen Geschichtswissenschaft diskutiert, ob bestimmte berühmte Orakelsprüche frei erfunden sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Jahr des Endes durch Edikt",
+     "391"
+    ],
+    [
+     "Forschungen von Jelle de Boer",
+     "2001"
+    ],
+    [
+     "Widerspruch durch italienische Geologen",
+     "2006"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Pythia",
+     "Die Priesterin des Orakels von Delphi, die in Trance die Weissagungen sprach."
+    ],
+    [
+     "Omphalos",
+     "Ein symbolischer Stein, der den Mittelpunkt der Welt in Delphi markierte."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer hob alle Orakelstätten im Jahr 391 durch ein Edikt auf?",
+     "optionen": [
+      "Kaiser Theodosius der Erste",
+      "Der König von Lydien",
+      "Der griechische Gott Zeus"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der christliche Kaiser Theodosius der Erste beendete die Orakelstätten im Jahr 391."
+    }
+   ],
+   "video": [
+    "Das Orakel von Delphi war eine berühmte Stätte im antiken Griechenland.",
+    "Es galt als der symbolische Mittelpunkt der Welt.",
+    "Menschen aus dem gesamten Mittelmeerraum reisten dorthin für Fragen.",
+    "Vor der Befragung wurde eine junge Ziege mit Wasser besprengt.",
+    "Die Priesterin Pythia saß im Tempel und sprach Weissagungen aus.",
+    "Dabei halfen ihr möglicherweise Gase aus einer Erdspalte.",
+    "Reiche Klienten bekamen ausführliche und oft rätselhafte Antworten.",
+    "Arme Menschen nutzten ein einfaches Ja-Nein-Orakel mit Bohnen.",
+    "Im Jahr dreihunderteinundneunzig endete das Orakel durch einen Kaiser."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Orakel von Delphi",
+    "bildunterschrift": "Das Orakel von Delphi war die wichtigste Weissagungsstätte der hellenischen Welt."
+   },
+   "quelle": {
+    "titel": "Orakel von Delphi",
+    "url": "https://de.wikipedia.org/wiki/Orakel_von_Delphi",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 395,
+   "bildInfos": [
+    {
+     "titel": "Themis Aigeus Antikensammlung Berlin F2538 n2.jpg",
+     "beschreibung": "Themis and Aegeus. Attic red-figure kylix, 440–430 BC. From Vulci.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg/1280px-Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg",
+     "urheber": "Kodros Painter",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Orakel von Delphi",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Das Orakel von Delphi war die wichtigste Weissagungsstätte der hellenischen Welt."
+    },
+    {
+     "titel": "Columns of the Temple of Apollo at Delphi, Greece.jpeg",
+     "beschreibung": "The remaining columns of the Temple of Apollo at Delphi, Greece.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Columns_of_the_Temple_of_Apollo_at_Delphi%2C_Greece.jpeg/1280px-Columns_of_the_Temple_of_Apollo_at_Delphi%2C_Greece.jpeg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Columns_of_the_Temple_of_Apollo_at_Delphi%2C_Greece.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Columns_of_the_Temple_of_Apollo_at_Delphi,_Greece.jpeg",
+     "urheber": "Patar knight",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The remaining columns of the Temple of Apollo at Delphi, Greece."
+    },
+    {
+     "titel": "Delphi Apollo Temple.jpg",
+     "beschreibung": "Delphi (Apollo Temple)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Delphi_Apollo_Temple.jpg/1280px-Delphi_Apollo_Temple.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Delphi_Apollo_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Delphi_Apollo_Temple.jpg",
+     "urheber": "Юкатан",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Delphi (Apollo Temple)"
+    },
+    {
+     "titel": "DelphicSibylByMichelangelo.jpg",
+     "beschreibung": "The Delphic Sibyl",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/DelphicSibylByMichelangelo.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/DelphicSibylByMichelangelo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:DelphicSibylByMichelangelo.jpg",
+     "urheber": "Michelangelo",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The Delphic Sibyl"
+    },
+    {
+     "titel": "John Collier - Priestess of Delphi - Google Art Project.jpg",
+     "beschreibung": "Priestess of Delphi title QS:P1476,en:\"Priestess of Delphi\" label QS:Len,\"Priestess of Delphi\"",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/John_Collier_-_Priestess_of_Delphi_-_Google_Art_Project.jpg/1280px-John_Collier_-_Priestess_of_Delphi_-_Google_Art_Project.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/John_Collier_-_Priestess_of_Delphi_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:John_Collier_-_Priestess_of_Delphi_-_Google_Art_Project.jpg",
+     "urheber": "John Collier",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Priestess of Delphi title QS:P1476,en:\"Priestess of Delphi\" label QS:Len,\"Priestess of Delphi\""
+    },
+    {
+     "titel": "Tholos Athena Pronaia.JPG",
+     "beschreibung": "Tholos im Heiligtum der Athena Pronaia",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Tholos_Athena_Pronaia.JPG/1280px-Tholos_Athena_Pronaia.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tholos_Athena_Pronaia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tholos_Athena_Pronaia.JPG",
+     "urheber": "Mr.checker",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Tholos im Heiligtum der Athena Pronaia"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Themis Aigeus Antikensammlung Berlin F2538 n2.jpg",
+    "beschreibung": "Themis and Aegeus. Attic red-figure kylix, 440–430 BC. From Vulci.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg/1280px-Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/32/Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Themis_Aigeus_Antikensammlung_Berlin_F2538_n2.jpg",
+    "urheber": "Kodros Painter",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Orakel von Delphi",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Das Orakel von Delphi war die wichtigste Weissagungsstätte der hellenischen Welt."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-eine-sonnenfinsternis",
    "zeit": "2026-10-02T12:32:02.591Z",
