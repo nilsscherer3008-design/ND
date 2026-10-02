@@ -2245,7 +2245,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 17 und 21 Grad. Die Vorhersage für morgen,",
+   "d": "41408cb752.mp3",
+   "l": 18.92,
+   "s": [
+    0.25,
+    4.39,
+    8.5,
+    12.38,
+    16.34
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2921,11 +2933,11 @@
     {
      "k": "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent ",
      "d": "bcd13976a1.mp3",
-     "l": 16.55,
+     "l": 16.31,
      "s": [
       0.25,
-      5.89,
-      11.66
+      5.61,
+      11.4
      ]
     },
     {
@@ -4664,6 +4676,58 @@
       52.82,
       63.65
      ]
+    },
+    {
+     "k": "Die Bedeutung von klassischen Kauf- und Warenhäusern im deutschen Einzelhandel i",
+     "d": "633cf34b09.mp3",
+     "l": 70.25,
+     "s": [
+      0.25,
+      6.73,
+      19.4,
+      25.12,
+      36.08,
+      40.39,
+      55.0,
+      63.5
+     ]
+    },
+    {
+     "k": "Ein Insolvenzverfahren ist ein gerichtlich gesteuertes Verfahren für Unternehmen",
+     "d": "7a2c7ccf5f.mp3",
+     "l": 29.59,
+     "s": [
+      0.25,
+      7.45,
+      15.52,
+      22.76
+     ]
+    },
+    {
+     "k": "Die Dienstleistungsgewerkschaft ver. di kritisierte das Vorgehen. Laut der ver. ",
+     "d": "2316660715.mp3",
+     "l": 38.73,
+     "s": [
+      0.25,
+      2.53,
+      4.47,
+      5.82,
+      12.02,
+      19.14,
+      25.8,
+      29.24
+     ]
+    },
+    {
+     "k": "Der Geschäftsbetrieb in allen 83 Filialen läuft nach Unternehmensangaben vorerst",
+     "d": "314b189961.mp3",
+     "l": 27.4,
+     "s": [
+      0.25,
+      6.58,
+      12.03,
+      20.18
+     ]
     }
    ]
   },
@@ -5162,6 +5226,89 @@
       0.25,
       3.9,
       9.63
+     ]
+    },
+    {
+     "k": "Das Parlament in Spanien hat zwei Dekrete der linken Minderheitsregierung zur Be",
+     "d": "333e086bef.mp3",
+     "l": 58.29,
+     "s": [
+      0.25,
+      6.77,
+      14.08,
+      22.32,
+      29.68,
+      38.14,
+      43.42,
+      49.93
+     ]
+    },
+    {
+     "k": "Das erste abgelehnte Dekret sah ein Moratorium für Zwangsräumungen schutzbedürft",
+     "d": "7134d46e3c.mp3",
+     "l": 55.72,
+     "s": [
+      0.25,
+      8.11,
+      14.34,
+      22.57,
+      27.95,
+      37.48,
+      43.93,
+      47.96
+     ]
+    },
+    {
+     "k": "Der spanische Wohnungsmarkt leidet seit Jahren unter starker Anspannung. Laut Ta",
+     "d": "b797fc7243.mp3",
+     "l": 49.57,
+     "s": [
+      0.25,
+      4.46,
+      12.2,
+      23.4,
+      28.68,
+      30.62,
+      34.79,
+      41.5
+     ]
+    },
+    {
+     "k": "Eine Minderheitsregierung ist eine Regierung aus einer oder mehreren Parteien, d",
+     "d": "9b3d2370ee.mp3",
+     "l": 32.17,
+     "s": [
+      0.25,
+      8.1,
+      16.14,
+      23.79
+     ]
+    },
+    {
+     "k": "Ministerpräsident Pedro Sánchez appellierte kurz vor der Abstimmung eindringlich",
+     "d": "8a756e075d.mp3",
+     "l": 59.36,
+     "s": [
+      0.25,
+      6.41,
+      14.42,
+      25.04,
+      34.15,
+      44.18,
+      49.94
+     ]
+    },
+    {
+     "k": "Regierungsquellen kündigten an, das Wochenende zu nutzen, um über die nächsten S",
+     "d": "1419d64728.mp3",
+     "l": 30.54,
+     "s": [
+      0.25,
+      5.98,
+      10.36,
+      16.49,
+      22.8,
+      25.52
      ]
     }
    ]
@@ -5672,6 +5819,52 @@
      "s": [
       0.25,
       3.64
+     ]
+    },
+    {
+     "k": "Manchester City hat Berufung gegen den Schuldspruch wegen Verstößen gegen die Fi",
+     "d": "86acf106f7.mp3",
+     "l": 23.38,
+     "s": [
+      0.25,
+      5.83,
+      10.52,
+      18.2
+     ]
+    },
+    {
+     "k": "Die Premier League wirft Manchester City vor, zwischen 2009 und 2018 falsche Ang",
+     "d": "41e02d385d.mp3",
+     "l": 40.31,
+     "s": [
+      0.25,
+      8.64,
+      13.33,
+      18.93,
+      27.38,
+      33.6
+     ]
+    },
+    {
+     "k": "Der Klub teilt mit, dass das Gutachten aus mehreren Gründen klare wesentliche Fe",
+     "d": "97ae2f3e6e.mp3",
+     "l": 35.58,
+     "s": [
+      0.25,
+      8.62,
+      12.28,
+      16.29,
+      25.45,
+      28.9
+     ]
+    },
+    {
+     "k": "Die Premier League ist die höchste Spielklasse im englischen Profifußball. Sie v",
+     "d": "6dc89381dd.mp3",
+     "l": 11.64,
+     "s": [
+      0.25,
+      4.82
      ]
     }
    ]
