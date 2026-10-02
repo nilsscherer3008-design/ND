@@ -2241,7 +2241,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 17 und 21 Grad. Die Vorhersage für morgen,",
+   "d": "850b57ec23.mp3",
+   "l": 21.05,
+   "s": [
+    0.25,
+    4.44,
+    10.82,
+    14.7,
+    18.35
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2874,7 +2886,134 @@
     "lon": 27.553
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Sommer des Jahres 2026 war in Westeuropa der wärmste Sommer seit Beginn der ",
+     "d": "30437073f2.mp3",
+     "l": 52.49,
+     "s": [
+      0.25,
+      7.54,
+      11.63,
+      15.97,
+      24.04,
+      29.96,
+      36.02,
+      44.08,
+      47.85
+     ]
+    },
+    {
+     "k": "Westeuropas Sommer 2026 war der wärmste seit Beginn der Wetteraufzeichnungen. La",
+     "d": "1ca66b1426.mp3",
+     "l": 16.31,
+     "s": [
+      0.25,
+      6.61,
+      12.12
+     ]
+    },
+    {
+     "k": "Westeuropa hatte im Jahr 2026 den wärmsten Sommer seit Beginn der Messungen. Das",
+     "d": "5226dd4391.mp3",
+     "l": 23.68,
+     "s": [
+      0.25,
+      6.84,
+      11.49,
+      15.95,
+      19.29
+     ]
+    },
+    {
+     "k": "Die genaue Zahl der verbrannten Hektar unterscheidet sich in den Berichten; EFFI",
+     "d": "8cd8f81c4a.mp3",
+     "l": 10.98,
+     "s": [
+      0.25,
+      8.12
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Hitzestress? Eine starke körperliche Belastung für den M",
+     "d": "117129bf7e.mp3",
+     "l": 9.89,
+     "s": [
+      0.25,
+      3.55
+     ]
+    },
+    {
+     "k": "Der Sommer 2026 war in Westeuropa der wärmste seit Beginn der Aufzeichnungen. Da",
+     "d": "78c10de7b2.mp3",
+     "l": 48.61,
+     "s": [
+      0.25,
+      6.24,
+      14.4,
+      26.0,
+      33.0,
+      38.89,
+      44.88
+     ]
+    },
+    {
+     "k": "Mit den hohen Temperaturen ging eine anhaltende Trockenheit einher. Nach Angaben",
+     "d": "ceba442287.mp3",
+     "l": 42.75,
+     "s": [
+      0.25,
+      4.01,
+      16.67,
+      20.91,
+      23.39,
+      30.17,
+      33.66,
+      37.2
+     ]
+    },
+    {
+     "k": "Der europäische Kontinent erwärmt sich nach Angaben von Wissenschaftlern infolge",
+     "d": "90209e2e74.mp3",
+     "l": 24.47,
+     "s": [
+      0.25,
+      7.41,
+      12.97,
+      19.61
+     ]
+    },
+    {
+     "k": "Unter dem Begriff Hitzestress versteht man die Belastung des menschlichen Körper",
+     "d": "ab991e5671.mp3",
+     "l": 21.87,
+     "s": [
+      0.25,
+      7.27,
+      14.0
+     ]
+    },
+    {
+     "k": "Samantha Burgess vom Europäischen Zentrum für mittelfristige Wettervorhersage er",
+     "d": "c59573ec89.mp3",
+     "l": 29.85,
+     "s": [
+      0.25,
+      12.15,
+      15.76
+     ]
+    },
+    {
+     "k": "Konkrete politische Schritte wurden in den Berichten nicht angekündigt. Die bete",
+     "d": "cbafd521d1.mp3",
+     "l": 10.74,
+     "s": [
+      0.25,
+      4.37
+     ]
+    }
+   ]
   },
   {
    "id": "inflation-euroraum",
@@ -3329,7 +3468,143 @@
     "lon": 6.13
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Inflationsrate im Euroraum ist im September auf drei Komma acht Prozent gest",
+     "d": "00af4e6f7f.mp3",
+     "l": 50.45,
+     "s": [
+      0.25,
+      5.8,
+      10.06,
+      14.16,
+      18.9,
+      22.88,
+      27.94,
+      33.7,
+      41.33,
+      46.3
+     ]
+    },
+    {
+     "k": "Die Inflation im Euroraum ist im September auf drei Komma acht Prozent gestiegen",
+     "d": "8ece46e072.mp3",
+     "l": 12.42,
+     "s": [
+      0.25,
+      5.25,
+      8.58
+     ]
+    },
+    {
+     "k": "Im Euroraum sind die Preise im September deutlich gestiegen. Die Inflationsrate ",
+     "d": "4c3985e934.mp3",
+     "l": 23.45,
+     "s": [
+      0.25,
+      4.79,
+      9.27,
+      12.19,
+      15.8,
+      19.94
+     ]
+    },
+    {
+     "k": "Ob die Europäische Zentralbank bereits im Oktober oder erst im Dezember die Leit",
+     "d": "40493b5913.mp3",
+     "l": 9.38,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Inflation? Inflation bedeutet, dass Geld an Wert verlier",
+     "d": "5bbdad8bf5.mp3",
+     "l": 12.32,
+     "s": [
+      0.25,
+      3.58,
+      7.74
+     ]
+    },
+    {
+     "k": "Die Inflationsrate in der Eurozone hat im September den höchsten Stand seit Sept",
+     "d": "30489e97e8.mp3",
+     "l": 50.7,
+     "s": [
+      0.25,
+      7.29,
+      15.96,
+      19.78,
+      23.59,
+      29.5,
+      37.39,
+      45.15
+     ]
+    },
+    {
+     "k": "Neben Energie haben sich auch andere Bereiche verteuert. Dienstleistungen waren ",
+     "d": "5e8e1bf2a6.mp3",
+     "l": 69.03,
+     "s": [
+      0.25,
+      3.54,
+      12.45,
+      17.43,
+      27.01,
+      38.85,
+      46.66,
+      55.13
+     ]
+    },
+    {
+     "k": "Die Entwicklung wird durch geopolitische Konflikte beeinflusst. Nach Angaben des",
+     "d": "e9da715064.mp3",
+     "l": 38.82,
+     "s": [
+      0.25,
+      3.86,
+      13.32,
+      16.29,
+      28.03
+     ]
+    },
+    {
+     "k": "Die Europäische Zentralbank ist die zentrale Institution für die Geldpolitik der",
+     "d": "21443029db.mp3",
+     "l": 23.07,
+     "s": [
+      0.25,
+      7.73,
+      15.79
+     ]
+    },
+    {
+     "k": "Jörg Krämer, Chefvolkswirt der Commerzbank, erklärte laut Tagesschau/ARD und Fra",
+     "d": "bfa35f2643.mp3",
+     "l": 60.04,
+     "s": [
+      0.25,
+      9.9,
+      16.01,
+      26.72,
+      34.55,
+      47.82
+     ]
+    },
+    {
+     "k": "Die nächste Zinsentscheidung der Europäischen Zentralbank steht laut Frankfurter",
+     "d": "1403b3df97.mp3",
+     "l": 26.24,
+     "s": [
+      0.25,
+      7.36,
+      8.65,
+      19.08
+     ]
+    }
+   ]
   },
   {
    "id": "franz-reindl-iihf-praesident",
@@ -3701,7 +3976,124 @@
     "lon": -16.621
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes. Die Wahl fand bei ",
+     "d": "d4014837f0.mp3",
+     "l": 41.81,
+     "s": [
+      0.25,
+      4.11,
+      8.33,
+      11.23,
+      16.97,
+      20.2,
+      24.65,
+      29.9,
+      36.96
+     ]
+    },
+    {
+     "k": "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes. Er gewann die Stic",
+     "d": "01d489a18a.mp3",
+     "l": 12.0,
+     "s": [
+      0.25,
+      3.92,
+      7.78
+     ]
+    },
+    {
+     "k": "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes. Er hat die Wahl au",
+     "d": "56d096810f.mp3",
+     "l": 19.49,
+     "s": [
+      0.25,
+      5.22,
+      8.63,
+      11.71,
+      15.82
+     ]
+    },
+    {
+     "k": "Welche konkreten Schritte zur Lösung der Konflikte mit der NHL und bezüglich der",
+     "d": "c11317f13e.mp3",
+     "l": 7.93,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich IIHF? Die IIHF ist der internationale Eishockey-Weltverb",
+     "d": "ff0d42af84.mp3",
+     "l": 10.13,
+     "s": [
+      0.25,
+      3.21
+     ]
+    },
+    {
+     "k": "Der deutsche Eishockey-Funktionär Franz Reindl ist zum neuen Präsidenten des Eis",
+     "d": "c6d42d509e.mp3",
+     "l": 58.18,
+     "s": [
+      0.25,
+      7.0,
+      13.71,
+      19.75,
+      25.84,
+      31.83,
+      42.27,
+      50.94
+     ]
+    },
+    {
+     "k": "Franz Reindl blickt auf eine jahrzehntelange Laufbahn im Eishockeysport zurück. ",
+     "d": "6978f5deba.mp3",
+     "l": 60.31,
+     "s": [
+      0.25,
+      4.79,
+      12.75,
+      18.93,
+      26.63,
+      35.79,
+      42.75,
+      49.7
+     ]
+    },
+    {
+     "k": "Nach der Wahl äußerten sich nationale Verbände erfreut über den Ausgang. Frank L",
+     "d": "eebcc9bf9d.mp3",
+     "l": 50.53,
+     "s": [
+      0.25,
+      4.62,
+      10.66,
+      18.85,
+      25.93,
+      29.41,
+      38.06,
+      42.31
+     ]
+    },
+    {
+     "k": "Auf den neuen IIHF-Präsidenten warten laut den Berichten der FAZ verschiedene Pr",
+     "d": "1a741ed366.mp3",
+     "l": 46.02,
+     "s": [
+      0.25,
+      5.68,
+      12.66,
+      20.82,
+      24.1,
+      29.4,
+      39.12,
+      42.68
+     ]
+    }
+   ]
   },
   {
    "id": "israel-oberstes-gericht-arabische-parteien",
@@ -4173,7 +4565,91 @@
     "lon": 35.226
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien bei der P",
+     "d": "81b69e5ae0.mp3",
+     "l": 15.81,
+     "s": [
+      0.25,
+      6.8,
+      10.65
+     ]
+    },
+    {
+     "k": "In Israel dürfen arabische Parteien bei der Parlamentswahl im Oktober mitmachen.",
+     "d": "f3bce05128.mp3",
+     "l": 23.89,
+     "s": [
+      0.25,
+      6.26,
+      9.57,
+      13.65,
+      18.91
+     ]
+    },
+    {
+     "k": "Die genauen Hintergründe zu den im Spiegel erwähnten Vorfällen um einen Co-Pilot",
+     "d": "0731995dc5.mp3",
+     "l": 7.89,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Knesset? So wird das Parlament in Israel genannt.",
+     "d": "eadbbcbdee.mp3",
+     "l": 6.59,
+     "s": [
+      0.25,
+      3.43
+     ]
+    },
+    {
+     "k": "Das Oberste Gericht in Israel hat entschieden, dass die arabischen Parteien bei ",
+     "d": "d0a66d69bd.mp3",
+     "l": 44.65,
+     "s": [
+      0.25,
+      7.97,
+      13.82,
+      18.96,
+      27.09,
+      33.67,
+      40.18,
+      42.93
+     ]
+    },
+    {
+     "k": "Aktuellen Meinungsumfragen zufolge wird die bevorstehende Parlamentswahl am 27. ",
+     "d": "7d0d3016ab.mp3",
+     "l": 59.48,
+     "s": [
+      0.25,
+      6.06,
+      9.35,
+      21.32,
+      26.04,
+      35.9,
+      44.72,
+      53.59
+     ]
+    },
+    {
+     "k": "Die Vereinigte Arabische Liste verurteilte die Entscheidung des Wahlkomitees übe",
+     "d": "7f63d1ec86.mp3",
+     "l": 48.94,
+     "s": [
+      0.25,
+      9.37,
+      13.1,
+      17.9,
+      30.91,
+      37.85
+     ]
+    }
+   ]
   },
   {
    "id": "flydubai-notlandung-angriff",
