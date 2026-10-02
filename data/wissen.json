@@ -1,6 +1,214 @@
 {
- "stand": "2026-10-01T18:51:59.883Z",
+ "stand": "2026-10-02T12:25:47.602Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-eine-sonnenfinsternis",
+   "zeit": "2026-10-02T12:32:02.591Z",
+   "bereich": "Weltall",
+   "titel": "Wie entsteht eigentlich eine Sonnenfinsternis?",
+   "vorspann": "Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Eine Sonnenfinsternis ist ein astronomisches Ereignis. Dabei wird die Sonne von bestimmten Gebieten auf der Erde aus gesehen teilweise oder ganz durch den Mond verdeckt. Der Schatten des Mondes streicht dabei über die Erde. Dies ist laut dem Wikipedia-Artikel nur bei Neumond möglich.",
+      "Sonne und Mond erscheinen einem Beobachter auf der Erde mit ungefähr dem gleichen scheinbaren Durchmesser von etwa 0,5 Grad. Bei bestimmten Konstellationen kreuzt der Mond den Weg der Sonnenstrahlen. Dadurch kann er die Sonnenscheibe vorübergehend vollständig abdecken."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Damit es zu einer Sonnenfinsternis kommt, müssen Sonne, Mond und Erde auf einer Linie stehen. Da die Mondbahn geneigt ist, tritt dies nicht jedes Mal zu Neumond ein. Es muss sich der Mond dann auch nahe einem der zwei Schnittpunkte von Mondbahn und Ekliptikebene befinden.",
+      "Es gibt verschiedene Arten von Sonnenfinsternissen. Bei einer totalen Sonnenfinsternis ist der scheinbare Durchmesser des Mondes größer als derjenige der Sonne, sodass der Mond die Sonne vollständig verdeckt. Bei einer ringförmigen Sonnenfinsternis bleibt der äußere Rand der Sonne sichtbar, weil der Kernschatten des Mondes die Erdoberfläche nicht erreicht.",
+      "Geht über einen Ort nicht der Kernschatten des Mondes hinweg, aber sein Halbschatten, wird von einer partiellen Sonnenfinsternis gesprochen. Bei einer hybriden Sonnenfinsternis ist der Mond so weit entfernt, dass sein Kernschatten nur ein begrenztes Gebiet der Erdoberfläche erreicht. In jedem Kalenderjahr gibt es nach dem Wikipedia-Artikel mindestens zwei und maximal fünf Sonnenfinsternisse."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Schriftliche Aufzeichnungen über Sonnenfinsternisse reichen weit in die Geschichte zurück. So nahmen schon die Babylonier ab etwa 800 vor Christus Finsterniszyklen mit der Sarosperiode wahr. Aus Keilschriften geht hervor, dass diese Zyklen rund 18 Jahre dauern.",
+      "Auch der hethitische Großkönig Mursili II. nahm in seinem zehnten Regierungsjahr ein Omen wahr, das zumeist als Sonnenfinsternis interpretiert wird. Später nutzten Forscher wie Edmond Halley die Berechnungen von Bahnbewegungen zur Erforschung historischer Finsternisse. Dabei entdeckten sie Unstimmigkeiten, die sich durch eine zunehmende Verlangsamung der Erdumdrehung erklären ließen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Laut dem Wikipedia-Artikel ist in der Forschung umstritten, inwieweit antike Astronomen Sonnenfinsternisse tatsächlich vorhersagen konnten."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Ungefährer scheinbarer Durchmesser",
+     "0,5 Grad"
+    ],
+    [
+     "Dauer der Sarosperiode",
+     "rund 18 Jahre"
+    ],
+    [
+     "Mindestanzahl Sonnenfinsternisse pro Kalenderjahr",
+     "2"
+    ],
+    [
+     "Höchstanzahl Sonnenfinsternisse pro Kalenderjahr",
+     "5"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Sonnenfinsternis",
+     "Ein astronomisches Ereignis, bei dem die Sonne von der Erde aus gesehen durch den Mond teilweise oder ganz verdeckt wird."
+    ],
+    [
+     "Kernschatten",
+     "Der innerste Bereich des Mondschattens, der bei einer totalen Sonnenfinsternis auf die Erdoberfläche treffen kann."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann kann eine Sonnenfinsternis stattfinden?",
+     "optionen": [
+      "Nur bei Vollmond",
+      "Nur bei Neumond",
+      "Jederzeit im Monat"
+     ],
+     "richtig": 1,
+     "erklaerung": "Der Schatten des Mondes streicht laut dem Text nur bei Neumond über die Erde."
+    }
+   ],
+   "video": [
+    "Eine Sonnenfinsternis ist ein spannendes astronomisches Ereignis.",
+    "Dabei schiebt sich der Mond genau vor die Sonne.",
+    "Das funktioniert allerdings nur, wenn Mond, Sonne und Erde auf einer Linie stehen.",
+    "Weil die Mondbahn schräg verläuft, passiert das nicht bei jedem Neumond.",
+    "Man unterscheidet zwischen totalen, ringförmigen und partiellen Sonnenfinsternissen.",
+    "Bei einer totalen Finsternis verdeckt der Mond die Sonne vollständig.",
+    "Schon in der Antike haben Menschen solche Finsternisse beobachtet und aufgezeichnet.",
+    "In jedem Kalenderjahr gibt es mindestens zwei Sonnenfinsternisse."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Sonnenfinsternis",
+    "bildunterschrift": "Eine Sonnenfinsternis entsteht, wenn der Mond die Sonne von der Erde aus gesehen verdeckt."
+   },
+   "quelle": {
+    "titel": "Sonnenfinsternis",
+    "url": "https://de.wikipedia.org/wiki/Sonnenfinsternis",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 325,
+   "bildInfos": [
+    {
+     "titel": "Solar eclipse 1999 4.jpg",
+     "beschreibung": "Total Solar eclipse in France.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/1280px-Solar_eclipse_1999_4.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
+     "urheber": "Luc Viatour",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Sonnenfinsternis",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Sonnenfinsternis entsteht, wenn der Mond die Sonne von der Erde aus gesehen verdeckt."
+    },
+    {
+     "titel": "2023-04-20 Solar Eclipse in Timor-Leste 3 (cropped).jpg",
+     "beschreibung": "Rezultadu husi ECLIPSE Solar TOTAL iha TIMOR-LESTE nebe ohin Ekipa DNMG hamutuk ho CIENTISTAS International,Komunidade sira ho entuciasmu ne’ebe nakonu hodi partisipa husi prosesu EVENTU Astronômico i",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023-04-20_Solar_Eclipse_in_Timor-Leste_3_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023-04-20_Solar_Eclipse_in_Timor-Leste_3_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2023-04-20_Solar_Eclipse_in_Timor-Leste_3_(cropped).jpg",
+     "urheber": "Direção Nacional Metereologia e Geofisica DNMG",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Rezultadu husi ECLIPSE Solar TOTAL iha TIMOR-LESTE nebe ohin Ekipa DNMG hamutuk ho CIENTISTAS International,Komunidade sira ho entuciasmu ne’ebe nakonu hodi partisipa husi prosesu EVENTU Astronômico i"
+    },
+    {
+     "titel": "Beleuchtung während Sofi.jpg",
+     "beschreibung": "Diese drei Bilder entstanden während der ringförmigen Sonnenfinsternis am 3. Oktober 2005 in Madrid. Sie zeigen deutlich, wie sich die Beleuchtung der Landschaft verändert. Publiziert in der Fachzeits",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Beleuchtung_w%C3%A4hrend_Sofi.jpg/1280px-Beleuchtung_w%C3%A4hrend_Sofi.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Beleuchtung_w%C3%A4hrend_Sofi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Beleuchtung_w%C3%A4hrend_Sofi.jpg",
+     "urheber": "Thomas Baer, Embrach, Schweiz",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Diese drei Bilder entstanden während der ringförmigen Sonnenfinsternis am 3. Oktober 2005 in Madrid. Sie zeigen deutlich, wie sich die Beleuchtung der Landschaft verändert. Publiziert in der Fachzeits"
+    },
+    {
+     "titel": "Course of moon shadow 2.=12. 8. 1654 figured in advance by Erhard Weigel.jpg",
+     "beschreibung": "Erhard Weigel, pre-calculated map representation of the lunar shadow course on the 2nd (Jul.) /12. (greg.) August 1654",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Course_of_moon_shadow_2.%3D12._8._1654_figured_in_advance_by_Erhard_Weigel.jpg/1280px-Course_of_moon_shadow_2.%3D12._8._1654_figured_in_advance_by_Erhard_Weigel.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Course_of_moon_shadow_2.%3D12._8._1654_figured_in_advance_by_Erhard_Weigel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Course_of_moon_shadow_2.%3D12._8._1654_figured_in_advance_by_Erhard_Weigel.jpg",
+     "urheber": "Erhard Weigel",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Erhard Weigel, pre-calculated map representation of the lunar shadow course on the 2nd (Jul.) /12. (greg.) August 1654"
+    },
+    {
+     "titel": "Eclipse Magnitude 2.png",
+     "beschreibung": "The magnitude of a partial solar eclipse is the fraction of the Sun's diameter covered by the Moon.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eclipse_Magnitude_2.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/36/Eclipse_Magnitude_2.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Eclipse_Magnitude_2.png",
+     "urheber": "Sch",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The magnitude of a partial solar eclipse is the fraction of the Sun's diameter covered by the Moon."
+    },
+    {
+     "titel": "Eclipse fromISS 2006-03-29.jpg",
+     "beschreibung": "Solar eclipse , as seen from the International Space Station over Turkey and Cyprus. The shadow is centered at approximately 36°42'54\"N 32°18'58\"E",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Eclipse_fromISS_2006-03-29.jpg/1280px-Eclipse_fromISS_2006-03-29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Eclipse_fromISS_2006-03-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Eclipse_fromISS_2006-03-29.jpg",
+     "urheber": "NASA",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Solar eclipse , as seen from the International Space Station over Turkey and Cyprus. The shadow is centered at approximately 36°42'54\"N 32°18'58\"E"
+    },
+    {
+     "titel": "Eclipse shadows through a peach tree (36674442956).jpg",
+     "beschreibung": "Eclipse shadows through a peach tree",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Eclipse_shadows_through_a_peach_tree_%2836674442956%29.jpg/1280px-Eclipse_shadows_through_a_peach_tree_%2836674442956%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Eclipse_shadows_through_a_peach_tree_%2836674442956%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Eclipse_shadows_through_a_peach_tree_(36674442956).jpg",
+     "urheber": "Jonathan Lidbeck from Eugene, USA",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eclipse shadows through a peach tree"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Solar eclipse 1999 4.jpg",
+    "beschreibung": "Total Solar eclipse in France.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Solar_eclipse_1999_4.jpg/1280px-Solar_eclipse_1999_4.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Solar_eclipse_1999_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg",
+    "urheber": "Luc Viatour",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Sonnenfinsternis",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Sonnenfinsternis entsteht, wenn der Mond die Sonne von der Erde aus gesehen verdeckt."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-die-stenografie",
    "zeit": "2026-10-01T18:56:22.063Z",

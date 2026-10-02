@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-02T05:28:38.180Z",
+ "stand": "2026-10-02T12:25:47.602Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -54,7 +54,11 @@
   "vw-kuendigung-tarifvertraege",
   "tankrabatt-start-oktober",
   "flydubai-notlandung-angriff",
-  "bundeswehr-drohnenregiment"
+  "bundeswehr-drohnenregiment",
+  "copernicus-hitzesommer-europa",
+  "inflation-euroraum",
+  "franz-reindl-iihf-praesident",
+  "israel-oberstes-gericht-arabische-parteien"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -69,10 +73,14 @@
   "vw-kuendigung-tarifvertraege",
   "tankrabatt-start-oktober",
   "flydubai-notlandung-angriff",
-  "bundeswehr-drohnenregiment"
+  "bundeswehr-drohnenregiment",
+  "copernicus-hitzesommer-europa",
+  "inflation-euroraum",
+  "franz-reindl-iihf-praesident",
+  "israel-oberstes-gericht-arabische-parteien"
  ],
  "wetter": {
-  "stand": "2026-10-02T05:28:38.180Z",
+  "stand": "2026-10-02T12:25:47.602Z",
   "morgenTag": "Samstag",
   "orte": [
    {
@@ -81,14 +89,14 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 16,
-     "code": 61,
-     "gefuehlt": 16,
-     "wind": 7,
-     "windAus": 315,
-     "feuchte": 94,
-     "druck": 1028,
-     "niederschlag": 0.7,
+     "grad": 19,
+     "code": 3,
+     "gefuehlt": 18,
+     "wind": 9,
+     "windAus": 282,
+     "feuchte": 65,
+     "druck": 1031,
+     "niederschlag": 0,
      "tag": 1
     },
     "heute": {
@@ -97,10 +105,10 @@
      "max": 19,
      "min": 15,
      "regen": 100,
-     "menge": 10.8,
-     "wind": 9,
-     "windAus": 299,
-     "uv": 3.4,
+     "menge": 11.2,
+     "wind": 11,
+     "windAus": 298,
+     "uv": 3.3,
      "auf": "07:23",
      "unter": "18:54"
     },
@@ -109,11 +117,11 @@
      "code": 45,
      "max": 19,
      "min": 11,
-     "regen": 3,
+     "regen": 5,
      "menge": 0,
-     "wind": 7,
-     "windAus": 147,
-     "uv": 3,
+     "wind": 8,
+     "windAus": 156,
+     "uv": 2.7,
      "auf": "07:25",
      "unter": "18:51"
     },
@@ -124,10 +132,10 @@
       "max": 19,
       "min": 15,
       "regen": 100,
-      "menge": 10.8,
-      "wind": 9,
-      "windAus": 299,
-      "uv": 3.4,
+      "menge": 11.2,
+      "wind": 11,
+      "windAus": 298,
+      "uv": 3.3,
       "auf": "07:23",
       "unter": "18:54"
      },
@@ -136,24 +144,24 @@
       "code": 45,
       "max": 19,
       "min": 11,
-      "regen": 3,
+      "regen": 5,
       "menge": 0,
-      "wind": 7,
-      "windAus": 147,
-      "uv": 3,
+      "wind": 8,
+      "windAus": 156,
+      "uv": 2.7,
       "auf": "07:25",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-04",
       "code": 45,
-      "max": 20,
-      "min": 11,
+      "max": 19,
+      "min": 12,
       "regen": 3,
       "menge": 0,
-      "wind": 6,
+      "wind": 8,
       "windAus": 277,
-      "uv": 2.3,
+      "uv": 3.2,
       "auf": "07:26",
       "unter": "18:49"
      },
@@ -162,23 +170,23 @@
       "code": 3,
       "max": 19,
       "min": 11,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
-      "wind": 12,
-      "windAus": 242,
-      "uv": 2.8,
+      "wind": 11,
+      "windAus": 245,
+      "uv": 3,
       "auf": "07:28",
       "unter": "18:47"
      },
      {
       "datum": "2026-10-06",
-      "code": 2,
-      "max": 20,
-      "min": 11,
-      "regen": 7,
+      "code": 3,
+      "max": 19,
+      "min": 12,
+      "regen": 8,
       "menge": 0,
-      "wind": 9,
-      "windAus": 240,
+      "wind": 11,
+      "windAus": 239,
       "uv": 1.1,
       "auf": "07:30",
       "unter": "18:44"
@@ -187,12 +195,12 @@
       "datum": "2026-10-07",
       "code": 61,
       "max": 17,
-      "min": 10,
+      "min": 11,
       "regen": 32,
-      "menge": 5.1,
+      "menge": 5.4,
       "wind": 16,
-      "windAus": 217,
-      "uv": 1.1,
+      "windAus": 275,
+      "uv": 0.5,
       "auf": "07:32",
       "unter": "18:42"
      },
@@ -205,100 +213,58 @@
       "menge": 0.9,
       "wind": 16,
       "windAus": 297,
-      "uv": 2.5,
+      "uv": 2.7,
       "auf": "07:34",
       "unter": "18:40"
      }
     ],
     "stunden": [
      {
-      "zeit": "07:00",
-      "grad": 16,
-      "code": 61,
-      "regen": 78
-     },
-     {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 61,
-      "regen": 53
-     },
-     {
-      "zeit": "09:00",
-      "grad": 15,
-      "code": 80,
-      "regen": 18
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "11:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "14:00",
       "grad": 19,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "15:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "19:00",
       "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
+      "zeit": "19:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 0
+     },
+     {
       "zeit": "20:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 16,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -310,7 +276,7 @@
      {
       "zeit": "23:00",
       "grad": 15,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
@@ -322,13 +288,13 @@
      {
       "zeit": "01:00",
       "grad": 14,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 14,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -339,8 +305,8 @@
      },
      {
       "zeit": "04:00",
-      "grad": 13,
-      "code": 3,
+      "grad": 12,
+      "code": 45,
       "regen": 0
      },
      {
@@ -351,8 +317,50 @@
      },
      {
       "zeit": "06:00",
+      "grad": 12,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
       "grad": 11,
       "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 11,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 12,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 16,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -363,105 +371,105 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
+     "grad": 17,
      "code": 3,
-     "gefuehlt": 12,
-     "wind": 3,
-     "windAus": 276,
-     "feuchte": 83,
-     "druck": 1024,
+     "gefuehlt": 17,
+     "wind": 6,
+     "windAus": 310,
+     "feuchte": 81,
+     "druck": 1028,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-02",
-     "code": 3,
-     "max": 18,
+     "code": 61,
+     "max": 17,
      "min": 12,
-     "regen": 35,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 332,
-     "uv": 1.2,
+     "regen": 30,
+     "menge": 0.1,
+     "wind": 10,
+     "windAus": 325,
+     "uv": 1.8,
      "auf": "07:09",
      "unter": "18:41"
     },
     "morgen": {
      "datum": "2026-10-03",
      "code": 3,
-     "max": 20,
-     "min": 15,
+     "max": 19,
+     "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 8,
-     "windAus": 73,
-     "uv": 3.5,
+     "wind": 7,
+     "windAus": 75,
+     "uv": 2.6,
      "auf": "07:10",
      "unter": "18:39"
     },
     "tage": [
      {
       "datum": "2026-10-02",
-      "code": 3,
-      "max": 18,
+      "code": 61,
+      "max": 17,
       "min": 12,
-      "regen": 35,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 332,
-      "uv": 1.2,
+      "regen": 30,
+      "menge": 0.1,
+      "wind": 10,
+      "windAus": 325,
+      "uv": 1.8,
       "auf": "07:09",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 20,
-      "min": 15,
+      "max": 19,
+      "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 73,
-      "uv": 3.5,
+      "wind": 7,
+      "windAus": 75,
+      "uv": 2.6,
       "auf": "07:10",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 22,
-      "min": 14,
+      "max": 21,
+      "min": 13,
       "regen": 3,
       "menge": 0,
-      "wind": 5,
-      "windAus": 1,
-      "uv": 3,
+      "wind": 6,
+      "windAus": 323,
+      "uv": 3.2,
       "auf": "07:12",
       "unter": "18:36"
      },
      {
       "datum": "2026-10-05",
-      "code": 3,
+      "code": 45,
       "max": 21,
-      "min": 13,
-      "regen": 1,
+      "min": 9,
+      "regen": 3,
       "menge": 0,
-      "wind": 8,
-      "windAus": 284,
-      "uv": 3.4,
+      "wind": 7,
+      "windAus": 275,
+      "uv": 3.1,
       "auf": "07:14",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-06",
-      "code": 1,
+      "code": 0,
       "max": 22,
-      "min": 10,
-      "regen": 0,
+      "min": 9,
+      "regen": 2,
       "menge": 0,
-      "wind": 5,
-      "windAus": 252,
-      "uv": 3.4,
+      "wind": 7,
+      "windAus": 251,
+      "uv": 2.1,
       "auf": "07:15",
       "unter": "18:32"
      },
@@ -469,12 +477,12 @@
       "datum": "2026-10-07",
       "code": 61,
       "max": 16,
-      "min": 11,
+      "min": 9,
       "regen": 31,
       "menge": 2.7,
       "wind": 9,
-      "windAus": 79,
-      "uv": 3.2,
+      "windAus": 265,
+      "uv": 2.7,
       "auf": "07:17",
       "unter": "18:29"
      },
@@ -487,75 +495,33 @@
       "menge": 0,
       "wind": 12,
       "windAus": 293,
-      "uv": 0.7,
+      "uv": 2.6,
       "auf": "07:19",
       "unter": "18:27"
      }
     ],
     "stunden": [
      {
-      "zeit": "07:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 13
-     },
-     {
-      "zeit": "11:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 25
-     },
-     {
-      "zeit": "12:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 35
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 10
-     },
-     {
       "zeit": "14:00",
       "grad": 17,
       "code": 3,
-      "regen": 8
+      "regen": 18
      },
      {
       "zeit": "15:00",
       "grad": 17,
       "code": 3,
-      "regen": 3
+      "regen": 8
      },
      {
       "zeit": "16:00",
       "grad": 17,
       "code": 3,
-      "regen": 0
+      "regen": 8
      },
      {
       "zeit": "17:00",
-      "grad": 18,
+      "grad": 17,
       "code": 3,
       "regen": 0
      },
@@ -579,7 +545,7 @@
      },
      {
       "zeit": "21:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -627,13 +593,55 @@
      },
      {
       "zeit": "05:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
       "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 18,
       "code": 3,
       "regen": 0
      }
@@ -645,13 +653,13 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 16,
+     "grad": 17,
      "code": 3,
-     "gefuehlt": 16,
-     "wind": 8,
-     "windAus": 311,
-     "feuchte": 89,
-     "druck": 1016,
+     "gefuehlt": 17,
+     "wind": 7,
+     "windAus": 319,
+     "feuchte": 81,
+     "druck": 1019,
      "niederschlag": 0,
      "tag": 1
     },
@@ -660,24 +668,24 @@
      "code": 61,
      "max": 18,
      "min": 15,
-     "regen": 70,
-     "menge": 2.1,
-     "wind": 9,
-     "windAus": 316,
-     "uv": 0.7,
+     "regen": 88,
+     "menge": 2.2,
+     "wind": 10,
+     "windAus": 312,
+     "uv": 0.5,
      "auf": "07:12",
      "unter": "18:46"
     },
     "morgen": {
      "datum": "2026-10-03",
      "code": 3,
-     "max": 22,
+     "max": 21,
      "min": 15,
      "regen": 0,
      "menge": 0,
      "wind": 6,
-     "windAus": 32,
-     "uv": 3.6,
+     "windAus": 58,
+     "uv": 1.8,
      "auf": "07:14",
      "unter": "18:43"
     },
@@ -687,62 +695,62 @@
       "code": 61,
       "max": 18,
       "min": 15,
-      "regen": 70,
-      "menge": 2.1,
-      "wind": 9,
-      "windAus": 316,
-      "uv": 0.7,
+      "regen": 88,
+      "menge": 2.2,
+      "wind": 10,
+      "windAus": 312,
+      "uv": 0.5,
       "auf": "07:12",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 22,
+      "max": 21,
       "min": 15,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 32,
-      "uv": 3.6,
+      "windAus": 58,
+      "uv": 1.8,
       "auf": "07:14",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-04",
-      "code": 3,
-      "max": 22,
+      "code": 45,
+      "max": 21,
       "min": 13,
-      "regen": 10,
+      "regen": 8,
       "menge": 0,
-      "wind": 4,
-      "windAus": 332,
-      "uv": 3.3,
+      "wind": 5,
+      "windAus": 339,
+      "uv": 3.4,
       "auf": "07:15",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-05",
-      "code": 61,
-      "max": 19,
-      "min": 14,
-      "regen": 3,
-      "menge": 0.3,
-      "wind": 5,
-      "windAus": 358,
-      "uv": 3.5,
+      "code": 3,
+      "max": 21,
+      "min": 12,
+      "regen": 8,
+      "menge": 0,
+      "wind": 3,
+      "windAus": 8,
+      "uv": 3.3,
       "auf": "07:17",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-06",
       "code": 45,
-      "max": 21,
-      "min": 9,
-      "regen": 2,
+      "max": 22,
+      "min": 8,
+      "regen": 1,
       "menge": 0,
-      "wind": 4,
-      "windAus": 34,
+      "wind": 2,
+      "windAus": 289,
       "uv": 3.6,
       "auf": "07:19",
       "unter": "18:37"
@@ -751,12 +759,12 @@
       "datum": "2026-10-07",
       "code": 61,
       "max": 16,
-      "min": 12,
+      "min": 8,
       "regen": 29,
-      "menge": 3,
+      "menge": 1.8,
       "wind": 8,
-      "windAus": 263,
-      "uv": 2.2,
+      "windAus": 262,
+      "uv": 3.1,
       "auf": "07:20",
       "unter": "18:34"
      },
@@ -769,59 +777,17 @@
       "menge": 0.6,
       "wind": 12,
       "windAus": 307,
-      "uv": 1.2,
+      "uv": 2,
       "auf": "07:22",
       "unter": "18:32"
      }
     ],
     "stunden": [
      {
-      "zeit": "07:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 15
-     },
-     {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 65
-     },
-     {
-      "zeit": "09:00",
-      "grad": 16,
-      "code": 61,
-      "regen": 70
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 55,
-      "regen": 45
-     },
-     {
-      "zeit": "11:00",
-      "grad": 16,
-      "code": 61,
-      "regen": 15
-     },
-     {
-      "zeit": "12:00",
-      "grad": 16,
-      "code": 61,
-      "regen": 8
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 8
-     },
-     {
       "zeit": "14:00",
       "grad": 17,
       "code": 3,
-      "regen": 3
+      "regen": 5
      },
      {
       "zeit": "15:00",
@@ -831,33 +797,33 @@
      },
      {
       "zeit": "16:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "17:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 8
      },
      {
       "zeit": "18:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
       "regen": 3
      },
      {
       "zeit": "19:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "20:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "21:00",
@@ -918,6 +884,48 @@
       "grad": 15,
       "code": 3,
       "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
      }
     ]
    },
@@ -927,15 +935,15 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 14,
-     "code": 0,
-     "gefuehlt": 14,
-     "wind": 7,
-     "windAus": 336,
-     "feuchte": 90,
-     "druck": 1024,
+     "grad": 19,
+     "code": 3,
+     "gefuehlt": 20,
+     "wind": 1,
+     "windAus": 69,
+     "feuchte": 63,
+     "druck": 1025,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
      "datum": "2026-10-02",
@@ -945,8 +953,8 @@
      "regen": 84,
      "menge": 16.1,
      "wind": 8,
-     "windAus": 340,
-     "uv": 3.6,
+     "windAus": 335,
+     "uv": 3.8,
      "auf": "07:34",
      "unter": "19:07"
     },
@@ -958,7 +966,7 @@
      "regen": 0,
      "menge": 0,
      "wind": 9,
-     "windAus": 92,
+     "windAus": 106,
      "uv": 3.8,
      "auf": "07:35",
      "unter": "19:05"
@@ -972,8 +980,8 @@
       "regen": 84,
       "menge": 16.1,
       "wind": 8,
-      "windAus": 340,
-      "uv": 3.6,
+      "windAus": 335,
+      "uv": 3.8,
       "auf": "07:34",
       "unter": "19:07"
      },
@@ -985,7 +993,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 9,
-      "windAus": 92,
+      "windAus": 106,
       "uv": 3.8,
       "auf": "07:35",
       "unter": "19:05"
@@ -993,13 +1001,13 @@
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 21,
-      "min": 13,
+      "max": 22,
+      "min": 15,
       "regen": 2,
       "menge": 0,
-      "wind": 7,
-      "windAus": 334,
-      "uv": 3.4,
+      "wind": 8,
+      "windAus": 110,
+      "uv": 3.7,
       "auf": "07:37",
       "unter": "19:03"
      },
@@ -1007,11 +1015,11 @@
       "datum": "2026-10-05",
       "code": 3,
       "max": 20,
-      "min": 10,
+      "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 186,
+      "wind": 4,
+      "windAus": 202,
       "uv": 3.7,
       "auf": "07:38",
       "unter": "19:01"
@@ -1019,86 +1027,44 @@
      {
       "datum": "2026-10-06",
       "code": 3,
-      "max": 21,
+      "max": 20,
       "min": 10,
       "regen": 2,
       "menge": 0,
       "wind": 8,
-      "windAus": 112,
-      "uv": 3.7,
+      "windAus": 39,
+      "uv": 3.6,
       "auf": "07:40",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-07",
-      "code": 53,
-      "max": 25,
+      "code": 3,
+      "max": 21,
       "min": 11,
       "regen": 47,
-      "menge": 2.7,
-      "wind": 11,
-      "windAus": 145,
-      "uv": 0.5,
+      "menge": 0,
+      "wind": 9,
+      "windAus": 114,
+      "uv": 2.2,
       "auf": "07:42",
       "unter": "18:56"
      },
      {
       "datum": "2026-10-08",
-      "code": 53,
-      "max": 17,
+      "code": 80,
+      "max": 15,
       "min": 10,
       "regen": 35,
-      "menge": 8.7,
-      "wind": 20,
-      "windAus": 291,
-      "uv": 1.7,
+      "menge": 15.9,
+      "wind": 18,
+      "windAus": 283,
+      "uv": 2.8,
       "auf": "07:43",
       "unter": "18:54"
      }
     ],
     "stunden": [
-     {
-      "zeit": "07:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "14:00",
       "grad": 19,
@@ -1107,14 +1073,14 @@
      },
      {
       "zeit": "15:00",
-      "grad": 20,
-      "code": 2,
+      "grad": 19,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 20,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
@@ -1132,31 +1098,31 @@
      {
       "zeit": "19:00",
       "grad": 19,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 18,
-      "code": 1,
+      "grad": 19,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 18,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 17,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "23:00",
       "grad": 16,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1179,26 +1145,68 @@
      },
      {
       "zeit": "03:00",
-      "grad": 14,
+      "grad": 15,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
       "grad": 14,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "05:00",
       "grad": 14,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "06:00",
       "grad": 14,
       "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -1209,13 +1217,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 14,
-     "code": 45,
-     "gefuehlt": 16,
-     "wind": 0,
-     "windAus": 180,
-     "feuchte": 100,
-     "druck": 1018,
+     "grad": 20,
+     "code": 1,
+     "gefuehlt": 20,
+     "wind": 8,
+     "windAus": 19,
+     "feuchte": 60,
+     "druck": 1020,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1227,21 +1235,21 @@
      "regen": 93,
      "menge": 0.7,
      "wind": 8,
-     "windAus": 22,
+     "windAus": 19,
      "uv": 3.9,
      "auf": "07:26",
      "unter": "19:01"
     },
     "morgen": {
      "datum": "2026-10-03",
-     "code": 45,
-     "max": 22,
+     "code": 3,
+     "max": 21,
      "min": 11,
      "regen": 0,
      "menge": 0,
      "wind": 6,
      "windAus": 31,
-     "uv": 3.9,
+     "uv": 3.8,
      "auf": "07:28",
      "unter": "18:59"
     },
@@ -1254,59 +1262,59 @@
       "regen": 93,
       "menge": 0.7,
       "wind": 8,
-      "windAus": 22,
+      "windAus": 19,
       "uv": 3.9,
       "auf": "07:26",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-03",
-      "code": 45,
-      "max": 22,
+      "code": 3,
+      "max": 21,
       "min": 11,
       "regen": 0,
       "menge": 0,
       "wind": 6,
       "windAus": 31,
-      "uv": 3.9,
+      "uv": 3.8,
       "auf": "07:28",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-04",
       "code": 61,
-      "max": 17,
-      "min": 11,
-      "regen": 38,
-      "menge": 9.5,
-      "wind": 5,
-      "windAus": 34,
-      "uv": 3.5,
+      "max": 19,
+      "min": 12,
+      "regen": 29,
+      "menge": 6.3,
+      "wind": 9,
+      "windAus": 26,
+      "uv": 3.7,
       "auf": "07:29",
       "unter": "18:57"
      },
      {
       "datum": "2026-10-05",
       "code": 45,
-      "max": 19,
-      "min": 13,
-      "regen": 8,
+      "max": 21,
+      "min": 11,
+      "regen": 14,
       "menge": 0,
-      "wind": 6,
-      "windAus": 12,
-      "uv": 3.8,
+      "wind": 8,
+      "windAus": 23,
+      "uv": 3.4,
       "auf": "07:31",
       "unter": "18:55"
      },
      {
       "datum": "2026-10-06",
-      "code": 61,
-      "max": 20,
-      "min": 10,
-      "regen": 5,
-      "menge": 0.9,
-      "wind": 5,
-      "windAus": 51,
+      "code": 45,
+      "max": 21,
+      "min": 7,
+      "regen": 6,
+      "menge": 0,
+      "wind": 4,
+      "windAus": 31,
       "uv": 3.8,
       "auf": "07:32",
       "unter": "18:52"
@@ -1315,12 +1323,12 @@
       "datum": "2026-10-07",
       "code": 80,
       "max": 18,
-      "min": 14,
+      "min": 7,
       "regen": 42,
-      "menge": 7.7,
+      "menge": 4.2,
       "wind": 8,
-      "windAus": 238,
-      "uv": 2.8,
+      "windAus": 237,
+      "uv": 3.1,
       "auf": "07:34",
       "unter": "18:50"
      },
@@ -1333,70 +1341,28 @@
       "menge": 0.9,
       "wind": 9,
       "windAus": 326,
-      "uv": 1.9,
+      "uv": 2.3,
       "auf": "07:36",
       "unter": "18:48"
      }
     ],
     "stunden": [
      {
-      "zeit": "07:00",
-      "grad": 15,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
+      "zeit": "14:00",
       "grad": 20,
       "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 21,
-      "code": 1,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "15:00",
-      "grad": 21,
-      "code": 2,
+      "grad": 20,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 21,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1407,7 +1373,7 @@
      },
      {
       "zeit": "18:00",
-      "grad": 21,
+      "grad": 20,
       "code": 1,
       "regen": 0
      },
@@ -1426,13 +1392,13 @@
      {
       "zeit": "21:00",
       "grad": 17,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 16,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1444,7 +1410,7 @@
      {
       "zeit": "00:00",
       "grad": 15,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1482,6 +1448,48 @@
       "grad": 12,
       "code": 2,
       "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
      }
     ]
    },
@@ -1491,12 +1499,12 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 16,
-     "code": 3,
-     "gefuehlt": 17,
-     "wind": 3,
-     "windAus": 302,
-     "feuchte": 91,
+     "grad": 20,
+     "code": 2,
+     "gefuehlt": 20,
+     "wind": 8,
+     "windAus": 18,
+     "feuchte": 61,
      "druck": 1001,
      "niederschlag": 0,
      "tag": 1
@@ -1509,20 +1517,20 @@
      "regen": 100,
      "menge": 6.6,
      "wind": 10,
-     "windAus": 349,
-     "uv": 3.5,
+     "windAus": 350,
+     "uv": 3.8,
      "auf": "07:24",
      "unter": "19:00"
     },
     "morgen": {
      "datum": "2026-10-03",
      "code": 45,
-     "max": 23,
+     "max": 22,
      "min": 13,
      "regen": 0,
      "menge": 0,
      "wind": 7,
-     "windAus": 20,
+     "windAus": 33,
      "uv": 3.9,
      "auf": "07:25",
      "unter": "18:58"
@@ -1536,73 +1544,73 @@
       "regen": 100,
       "menge": 6.6,
       "wind": 10,
-      "windAus": 349,
-      "uv": 3.5,
+      "windAus": 350,
+      "uv": 3.8,
       "auf": "07:24",
       "unter": "19:00"
      },
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 23,
+      "max": 22,
       "min": 13,
       "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 20,
+      "windAus": 33,
       "uv": 3.9,
       "auf": "07:25",
       "unter": "18:58"
      },
      {
       "datum": "2026-10-04",
-      "code": 95,
-      "max": 23,
-      "min": 13,
-      "regen": 33,
-      "menge": 8.6,
-      "wind": 6,
-      "windAus": 210,
+      "code": 80,
+      "max": 22,
+      "min": 14,
+      "regen": 35,
+      "menge": 11.8,
+      "wind": 10,
+      "windAus": 309,
       "uv": 3.8,
       "auf": "07:26",
       "unter": "18:56"
      },
      {
       "datum": "2026-10-05",
-      "code": 61,
+      "code": 80,
       "max": 19,
       "min": 15,
-      "regen": 23,
-      "menge": 3.7,
-      "wind": 7,
-      "windAus": 357,
+      "regen": 32,
+      "menge": 3.1,
+      "wind": 9,
+      "windAus": 359,
       "uv": 3.8,
       "auf": "07:28",
       "unter": "18:54"
      },
      {
       "datum": "2026-10-06",
-      "code": 80,
-      "max": 19,
-      "min": 13,
-      "regen": 4,
-      "menge": 1.8,
-      "wind": 5,
-      "windAus": 327,
-      "uv": 3.8,
+      "code": 61,
+      "max": 20,
+      "min": 12,
+      "regen": 5,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 325,
+      "uv": 3.7,
       "auf": "07:29",
       "unter": "18:51"
      },
      {
       "datum": "2026-10-07",
-      "code": 80,
+      "code": 61,
       "max": 19,
       "min": 14,
       "regen": 33,
-      "menge": 5.4,
+      "menge": 3.2,
       "wind": 11,
-      "windAus": 256,
-      "uv": 3.1,
+      "windAus": 276,
+      "uv": 3.2,
       "auf": "07:31",
       "unter": "18:49"
      },
@@ -1615,54 +1623,12 @@
       "menge": 18.9,
       "wind": 13,
       "windAus": 325,
-      "uv": 1.5,
+      "uv": 2.9,
       "auf": "07:32",
       "unter": "18:47"
      }
     ],
     "stunden": [
-     {
-      "zeit": "07:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 18,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
      {
       "zeit": "14:00",
       "grad": 20,
@@ -1671,14 +1637,14 @@
      },
      {
       "zeit": "15:00",
-      "grad": 21,
-      "code": 3,
+      "grad": 20,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 21,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1696,30 +1662,30 @@
      {
       "zeit": "19:00",
       "grad": 20,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
       "grad": 19,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "22:00",
+      "zeit": "21:00",
       "grad": 18,
-      "code": 2,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 17,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 17,
+      "grad": 16,
       "code": 1,
       "regen": 0
      },
@@ -1732,24 +1698,24 @@
      {
       "zeit": "01:00",
       "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 15,
       "code": 2,
       "regen": 0
      },
      {
+      "zeit": "02:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
       "zeit": "03:00",
-      "grad": 15,
+      "grad": 14,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 15,
+      "grad": 14,
       "code": 2,
       "regen": 0
      },
@@ -1761,7 +1727,49 @@
      },
      {
       "zeit": "06:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
       "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
       "code": 2,
       "regen": 0
      }
@@ -1773,26 +1781,26 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 16,
+     "grad": 18,
      "code": 3,
-     "gefuehlt": 16,
-     "wind": 11,
-     "windAus": 289,
-     "feuchte": 91,
-     "druck": 969,
+     "gefuehlt": 18,
+     "wind": 5,
+     "windAus": 28,
+     "feuchte": 68,
+     "druck": 970,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-02",
-     "code": 80,
+     "code": 3,
      "max": 18,
      "min": 15,
-     "regen": 30,
-     "menge": 1.4,
-     "wind": 11,
+     "regen": 15,
+     "menge": 0,
+     "wind": 13,
      "windAus": 319,
-     "uv": 1,
+     "uv": 0.5,
      "auf": "07:14",
      "unter": "18:51"
     },
@@ -1803,23 +1811,23 @@
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 7,
-     "windAus": 44,
-     "uv": 3.9,
+     "wind": 8,
+     "windAus": 22,
+     "uv": 4,
      "auf": "07:15",
      "unter": "18:48"
     },
     "tage": [
      {
       "datum": "2026-10-02",
-      "code": 80,
+      "code": 3,
       "max": 18,
       "min": 15,
-      "regen": 30,
-      "menge": 1.4,
-      "wind": 11,
+      "regen": 15,
+      "menge": 0,
+      "wind": 13,
       "windAus": 319,
-      "uv": 1,
+      "uv": 0.5,
       "auf": "07:14",
       "unter": "18:51"
      },
@@ -1830,61 +1838,61 @@
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 44,
-      "uv": 3.9,
+      "wind": 8,
+      "windAus": 22,
+      "uv": 4,
       "auf": "07:15",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-04",
       "code": 45,
-      "max": 22,
-      "min": 10,
-      "regen": 38,
+      "max": 23,
+      "min": 11,
+      "regen": 19,
       "menge": 0,
-      "wind": 5,
-      "windAus": 188,
-      "uv": 3.9,
+      "wind": 8,
+      "windAus": 90,
+      "uv": 3.6,
       "auf": "07:16",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-05",
-      "code": 80,
+      "code": 95,
       "max": 20,
       "min": 14,
-      "regen": 30,
-      "menge": 1.5,
-      "wind": 6,
-      "windAus": 277,
-      "uv": 3.8,
+      "regen": 25,
+      "menge": 7.2,
+      "wind": 5,
+      "windAus": 174,
+      "uv": 3.9,
       "auf": "07:18",
       "unter": "18:44"
      },
      {
       "datum": "2026-10-06",
       "code": 61,
-      "max": 21,
+      "max": 18,
       "min": 11,
-      "regen": 4,
-      "menge": 0.6,
-      "wind": 5,
-      "windAus": 44,
-      "uv": 3.9,
+      "regen": 6,
+      "menge": 1.5,
+      "wind": 6,
+      "windAus": 318,
+      "uv": 3.8,
       "auf": "07:19",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-07",
-      "code": 80,
+      "code": 61,
       "max": 19,
       "min": 12,
       "regen": 13,
-      "menge": 2.1,
+      "menge": 3.2,
       "wind": 13,
-      "windAus": 247,
-      "uv": 3.2,
+      "windAus": 252,
+      "uv": 2.4,
       "auf": "07:21",
       "unter": "18:40"
      },
@@ -1897,63 +1905,21 @@
       "menge": 21.3,
       "wind": 14,
       "windAus": 298,
-      "uv": 0.7,
+      "uv": 2.5,
       "auf": "07:22",
       "unter": "18:38"
      }
     ],
     "stunden": [
      {
-      "zeit": "07:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "09:00",
-      "grad": 15,
-      "code": 61,
-      "regen": 23
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 61,
-      "regen": 30
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 80,
-      "regen": 23
-     },
-     {
-      "zeit": "12:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 15
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 3
-     },
-     {
       "zeit": "14:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
@@ -1977,20 +1943,20 @@
      },
      {
       "zeit": "19:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 18,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 16,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -2001,14 +1967,14 @@
      },
      {
       "zeit": "23:00",
-      "grad": 16,
-      "code": 3,
+      "grad": 15,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 15,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -2019,19 +1985,19 @@
      },
      {
       "zeit": "02:00",
-      "grad": 15,
+      "grad": 14,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 15,
+      "grad": 14,
       "code": 2,
       "regen": 0
      },
@@ -2046,15 +2012,57 @@
       "grad": 14,
       "code": 45,
       "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 14,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 14,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
      }
     ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 18 und 21 Grad.",
+   "Heute liegen die Höchstwerte zwischen 17 und 21 Grad.",
    "Die Vorhersage für morgen, Samstag: im Norden und Osten bewölkt, im Süden und Westen neblig.",
-   "Die Temperaturen erreichen dann 19 bis 23 Grad.",
-   "Am wärmsten wird es in Stuttgart mit 23 Grad.",
+   "Die Temperaturen erreichen dann 19 bis 22 Grad.",
+   "Am wärmsten wird es in Köln mit 22 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
@@ -2078,7 +2086,7 @@
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 20,
+       "grad": 19,
        "regen": 0
       }
      ]
@@ -2089,20 +2097,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 20,
+       "grad": 19,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 20,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 20,
-       "regen": 0
+       "regen": 0.1
       }
      ]
     },
@@ -2112,13 +2120,13 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 22,
+       "grad": 19,
        "regen": 0
       },
       {
@@ -2158,7 +2166,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       },
       {
@@ -2181,19 +2189,19 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 23,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 24,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       }
      ]
@@ -2210,7 +2218,7 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 22,
+       "grad": 21,
        "regen": 0
       },
       {
@@ -2225,7 +2233,7 @@
    "spanneGrad": 2,
    "uneinigRegen": null,
    "saetze": [
-    "Für Köln gehen die Modelle am weitesten auseinander: zwischen 21 und 23 Grad."
+    "Für Leipzig gehen die Modelle am weitesten auseinander: zwischen 19 und 21 Grad."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2233,19 +2241,7 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst",
-  "ton": {
-   "k": "Heute liegen die Höchstwerte zwischen 18 und 21 Grad. Die Vorhersage für morgen,",
-   "d": "83ee2f8b9c.mp3",
-   "l": 21.01,
-   "s": [
-    0.25,
-    4.31,
-    10.57,
-    14.74,
-    18.39
-   ]
-  }
+  "quelle": "Open-Meteo / Deutscher Wetterdienst"
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2333,7 +2329,7 @@
    {
     "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Freitag, 2. Oktober. Es liest ",
     "d": "73197aa30e.mp3",
-    "l": 8.0,
+    "l": 8,
     "s": [
      0.25,
      5.4
@@ -2342,7 +2338,7 @@
    {
     "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Freitag, 2. Oktober. Es liest ",
     "d": "fd3c0d3662.mp3",
-    "l": 8.0,
+    "l": 8,
     "s": [
      0.25,
      5.16
@@ -2429,6 +2425,1756 @@
   "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
+  {
+   "id": "copernicus-hitzesommer-europa",
+   "rubrik": "Wissen & Klima",
+   "zeit": "2026-10-02T12:23:30.000Z",
+   "titel": "EU-Klimadienst Copernicus: Sommer 2026 in Westeuropa war der wärmste seit Beginn der Aufzeichnungen",
+   "vorspann": "Der Sommer 2026 brachte in Westeuropa Rekordtemperaturen und extreme Trockenheit. Dies geht aus einer am Freitag veröffentlichten Analyse des EU-Klimadienstes Copernicus hervor.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Der Sommer 2026 war in Westeuropa der wärmste seit Beginn der Aufzeichnungen.",
+    "Copernicus meldete Durchschnittstemperaturen von knapp 22 Grad, was 2,5 Grad über dem Mittel der Jahre 1991 bis 2020 liegt.",
+    "Mehr als die Hälfte des Kontinents war von starkem Hitzestress betroffen.",
+    "Gleichzeitig führten extreme Trockenheit und Hitze zu Niedrigwasser in Flüssen und zu Waldbränden."
+   ],
+   "einig": [
+    [
+     "Westeuropa erlebte den wärmsten Sommer seit Beginn der Wetteraufzeichnungen.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "FAZ",
+      "taz",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Die Durchschnittstemperatur in Westeuropa lag 2,5 Grad über dem Vergleichswert der Jahre 1991 bis 2020.",
+     [
+      "Deutschlandfunk",
+      "FAZ",
+      "taz",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Etwas mehr als die Hälfte Westeuropas war von sehr starkem Hitzestress betroffen.",
+     [
+      "FAZ",
+      "taz",
+      "The Guardian"
+     ]
+    ],
+    [
+     "In Europa wurden starke Niedrigwasserstände an Flüssen wie Rhein und Donau gemessen.",
+     [
+      "FAZ",
+      "taz",
+      "The Guardian"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Zahl der verbrannten Hektar unterscheidet sich in den Berichten; EFFIS nennt verdoppelte Flächen, der Guardian nennt 680.000 Hektar bis Ende September."
+   ],
+   "positionen": [
+    [
+     "Samantha Burgess (Europäisches Zentrum für mittelfristige Wettervorhersage)",
+     "Die Hitze war durch Intensität und geografische Ausdehnung bemerkenswert, es gab sich überschneidende Klimaextreme.",
+     "FAZ,taz,The Guardian"
+    ],
+    [
+     "Xavier Rodó (ISGlobal)",
+     "Der Anstieg extremer Wetterereignisse zeigt beispiellose Veränderungen im europäischen Klima.",
+     "The Guardian"
+    ]
+   ],
+   "fehlend": "Stimmen von Vertretern der europäischen Regierungspolitik oder Wirtschaftsverbänden",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "02.10.26, 14:11",
+     "fokus": "Kompakte Rekordmeldung",
+     "text": "Die Tagesschau meldet kurz, dass der Sommer 2026 in Westeuropa der heißeste seit Beginn der Aufzeichnungen war.",
+     "url": "https://www.tagesschau.de/video/video-1659294.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "02.10.26, 14:23",
+     "fokus": "Wetterdaten und Durchschnittswerte",
+     "text": "Der Deutschlandfunk nennt Durchschnittstemperaturen und den Vergleich zu den Jahren 1991 bis 2020.",
+     "url": "https://www.deutschlandfunk.de/copernicus-sommer-in-europa-von-klimaextremen-gepraegt-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 12:41",
+     "fokus": "Ausführliche Folgen und Hitzetage",
+     "text": "Die FAZ beleuchtet die Zahl der Hitzetage, gesundheitliche Risiken und betroffene Flüsse.",
+     "url": "https://www.faz.net/aktuell/gesellschaft/sommer-in-europa-war-so-heiss-und-trocken-wie-nie-zuvor-accg-201283186.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 445,
+      "satzlaenge": 15,
+      "langeWoerter": 39
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "taz",
+     "typ": "Tageszeitung (Genossenschaft)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "02.10.26, 09:47",
+     "fokus": "Klimaextreme und Infrastruktur",
+     "text": "Die taz legt den Schwerpunkt auf Wasserstände, Hitzestress und Auswirkungen auf die Energieversorgung.",
+     "url": "https://taz.de/Hitze-in-Europa/!6218452/",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 606,
+      "satzlaenge": 15,
+      "langeWoerter": 38
+     },
+     "traeger": "taz Verlags- und Vertriebs GmbH, getragen von der Genossenschaft taz eG (rund 23.000 Mitglieder)",
+     "finanzierung": "Genossenschaft, Abos, freiwillige Zahlungen",
+     "publikumWert": null
+    },
+    {
+     "name": "The Guardian",
+     "typ": "Tageszeitung (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "02.10.26, 04:00",
+     "fokus": "Globale Zusammenhänge und El Niño",
+     "text": "The Guardian ergänzt internationale Perspektiven wie den El-Niño-Effekt und Forderungen von Medizinern.",
+     "url": "https://www.theguardian.com/environment/2026/oct/02/may-heatwaves-deaths-ruined-harvests-study-of-europes-summer-paints-grim-picture-for-the-future",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 583,
+      "satzlaenge": 32,
+      "langeWoerter": 30
+     },
+     "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
+     "finanzierung": "Leserbeiträge und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Geografischer Fokus",
+     "Einige Berichte konzentrieren sich auf Westeuropa, während andere Daten für ganz Europa anführen."
+    ],
+    [
+     "Zusätzliche Hintergründe",
+     "Der Guardian erwähnt globale Phänomene wie El Niño, während die anderen Medien sich auf die Copernicus-Daten beschränken."
+    ]
+   ],
+   "wfragen": {
+    "wer": "EU-Klimadienst Copernicus",
+    "was": "Analyse zum Sommerwetter in Europa veröffentlicht",
+    "wann": "2026-10-02",
+    "wo": "Westeuropa und Europa",
+    "wie": "Durch Datenauswertung von Wetteraufzeichnungen und Satellitenmessungen",
+    "warum": "Durch den globalen Klimawandel und natürliche Faktoren, laut Copernicus",
+    "quellenlage": "Fünf verschiedene Medienberichte und offizielle Datenauswertungen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der Sommer 2026 war in Westeuropa der wärmste seit Beginn der Aufzeichnungen. Das hat laut Deutschlandfunk, FAZ, taz und The Guardian eine Analyse des EU-Klimabeobachtungsprogramms Copernicus ergeben. Die Durchschnittstemperatur lag demnach bei knapp 22 Grad und damit 2,5 Grad über dem Vergleichswert der Jahre 1991 bis 2020.",
+      "Laut den Berichten stiegen in mehr als der Hälfte Westeuropas die Temperaturen an mehreren Tagen auf über 30 Grad. Mehr als die Hälfte des europäischen Kontinents erlebte laut den Daten sehr starken Hitzestress.",
+      "Unter sehr starkem Hitzestress wird eine gefühlte Temperatur von 38 Grad oder mehr verstanden. Dies führte zu einer extremen Belastung für den menschlichen Körper."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Mit den hohen Temperaturen ging eine anhaltende Trockenheit einher. Nach Angaben des Europäischen Waldbrand-Informationssystems war die verbrannte Fläche in der EU bis Anfang September fast doppelt so groß wie im Durchschnitt der Jahre 2006 bis 2025. Der Guardian nennt zudem eine verbrannte Fläche von 680.000 Hektar bis Ende September.",
+      "Parallel zu den Bränden wurden in Europa laut FAZ, taz und The Guardian niedrige Wasserstände gemessen. Davon waren unter anderem die Flüsse Rhein und Donau betroffen. Die europäischen Meere waren ebenfalls ungewöhnlich warm.",
+      "Zehntausende zusätzliche Hitzetote wurden infolge der langanhaltenden Hitzewellen gezählt. Zudem kam es zu Beeinträchtigungen bei der Bewässerung und der Energieversorgung."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der europäische Kontinent erwärmt sich nach Angaben von Wissenschaftlern infolge des globalen Klimawandels am schnellsten. Der Guardian verweist ergänzend auf einen El-Niño-Effekt, der die globalen Temperaturen anhebt.",
+      "Der EU-Klimadienst Copernicus wird vom Europäischen Zentrum für mittelfristige Wettervorhersage bereitgestellt. Er liefert Daten und Analysen zur Erderwärmung und zu meteorologischen Bedingungen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Unter dem Begriff Hitzestress versteht man die Belastung des menschlichen Körpers durch hohe Temperaturen und Luftfeuchtigkeit. Wenn die Umgebungstemperatur stark ansteigt, reichen die natürlichen Kühlmechanismen des Körpers oft nicht mehr aus.",
+      "Niedrigwasser beschreibt einen Zustand, bei dem der Wasserstand in Flüssen und Seen über einen längeren Zeitraum deutlich unter dem Durchschnitt liegt."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Samantha Burgess vom Europäischen Zentrum für mittelfristige Wettervorhersage erklärte laut FAZ, taz und The Guardian, dass die Hitze durch Intensität und geografische Ausdehnung bemerkenswert war. Sie sprach von einem Sommer mit sich überschneidenden Klimaextremen.",
+      "Xavier Rodó, Leiter des Programms für Klima und Gesundheit an dem spanischen Forschungsinstitut ISGlobal, erklärte laut dem Guardian, dass dieser Anstieg der Extremwetterereignisse auf beispiellose Veränderungen im europäischen Klima hinweist."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter",
+     "absaetze": [
+      "Konkrete politische Schritte wurden in den Berichten nicht angekündigt. Die beteiligten Forschungseinrichtungen kündigten an, die Entwicklung der Temperaturen weiterhin zu beobachten."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Frühjahr 2026",
+     "Ein früher Start des Sommerwetters und hohe Temperaturen wurden gemessen."
+    ],
+    [
+     "Sommer 2026",
+     "Westeuropa erlebte den wärmsten Sommer seit Beginn der Aufzeichnungen mit Hitze und Trockenheit."
+    ],
+    [
+     "02.09.2026",
+     "Das Europäische Waldbrand-Informationssystem erfasste Daten zu den verbrannten Flächen."
+    ],
+    [
+     "02.10.2026",
+     "Der EU-Klimadienst Copernicus veröffentlichte die Analyse zum Sommer 2026."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Westeuropa"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Unerwünschte Tier- und Gerichtsmeldungen aus der FAZ-Quelle wurden vollständig entfernt, da sie nicht zum Thema des Copernicus-Klimaberichts gehören.",
+    "Unbelegte Details im Abschnitt Zum Verständnis wurden entfernt."
+   ],
+   "wortwarnung": [
+    "beispiellose"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Hitzestress",
+      "Eine starke körperliche Belastung für den Menschen durch hohe Temperaturen und hohe Luftfeuchtigkeit."
+     ],
+     [
+      "Niedrigwasser",
+      "Ein Zustand, bei dem der Wasserstand in einem Fluss oder See deutlich unter dem normalen Wert liegt."
+     ],
+     [
+      "EU-Klimadienst Copernicus",
+      "Ein Programm der Europäischen Union, das Daten über das Klima und die Umwelt auf der Erde sammelt."
+     ]
+    ],
+    "fragen": [
+     "Welche Folgen hat extreme Hitze für die Natur und die Menschen laut den Berichten?",
+     "Warum ist es wichtig, dass Wetterdaten von unabhängigen Institutionen wie Copernicus gesammelt werden?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welcher Sommer war in Westeuropa laut Copernicus der wärmste seit Beginn der Aufzeichnungen?",
+      "optionen": [
+       "Der Sommer 2003",
+       "Der Sommer 2025",
+       "Der Sommer 2026"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut den Berichten von Tagesschau, Deutschlandfunk, FAZ, taz und The Guardian war der Sommer 2026 der wärmste seit Beginn der Aufzeichnungen."
+     },
+     {
+      "frage": "Wie viel lag die Durchschnittstemperatur über dem Vergleichswert der Jahre 1991 bis 2020?",
+      "optionen": [
+       "1,0 Grad",
+       "2,5 Grad",
+       "4,0 Grad"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Deutschlandfunk, die FAZ, die taz und The Guardian berichten übereinstimmend, dass die Temperatur 2,5 Grad über dem Vergleichswert lag."
+     },
+     {
+      "frage": "Welches Problem trat neben der großen Hitze an Flüssen wie dem Rhein auf?",
+      "optionen": [
+       "Starke Überschwemmungen",
+       "Sehr niedrige Wasserstände",
+       "Vollständiges Austrocknen ohne jedes Flussbett"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die FAZ, die taz und The Guardian berichten übereinstimmend über starke Niedrigwasserstände an Flüssen wie dem Rhein."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der Sommer des Jahres 2026 war in Westeuropa der wärmste Sommer seit Beginn aller Wetteraufzeichnungen.",
+    "absaetze": [
+     "Das hat eine Untersuchung des europäischen Klimadienstes Copernicus gezeigt.",
+     "Die Durchschnittstemperatur lag bei knapp 22 Grad.",
+     "Das sind zweieinhalb Grad mehr als im Durchschnitt der Jahre von 1991 bis 2020.",
+     "Mehr als die Hälfte des Kontinents litt unter starker Hitze.",
+     "Wegen der großen Trockenheit führten viele Flüsse nur noch sehr wenig Wasser."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Westeuropas Sommer 2026 war der wärmste seit Beginn der Wetteraufzeichnungen.",
+     "Laut dem EU-Klimadienst Copernicus lag die Temperatur zweieinhalb Grad über dem Durchschnitt.",
+     "Hitze und Trockenheit führten zu niedrigen Wasserständen in den Flüssen."
+    ],
+    "lang": [
+     "Der Sommer des Jahres 2026 war in Westeuropa der wärmste Sommer seit Beginn der Wetteraufzeichnungen.",
+     "Das teilte der Europäische Klimadienst Copernicus am Freitag mit.",
+     "Die Durchschnittstemperatur lag demnach bei knapp 22 Grad.",
+     "Dieser Wert liegt zweieinhalb Grad über dem Vergleichswert der Jahre von 1991 bis 2020.",
+     "Mehr als die Hälfte von Westeuropa war nach Angaben der Forscher von sehr starkem Hitzestress betroffen.",
+     "Gleichzeitig führten Trockenheit und Hitze zu niedrigen Wasserständen in Flüssen wie dem Rhein und der Donau.",
+     "Samantha Burgess vom Europäischen Zentrum für mittelfristige Wettervorhersage sprach von einem Sommer mit sich überschneidenden Klimaextremen.",
+     "Wissenschaftler erklären den Trend mit dem globalen Klimawandel.",
+     "Die Behörden und Forscher wollen die Entwicklung des Klimas weiter genau beobachten."
+    ],
+    "einfach": [
+     "Westeuropa hatte im Jahr 2026 den wärmsten Sommer seit Beginn der Messungen.",
+     "Das hat der europäische Klimadienst Copernicus bekannt gegeben.",
+     "Es war zweieinhalb Grad wärmer als im langjährigen Durchschnitt.",
+     "Viele Menschen litten unter großer Hitze.",
+     "Auch in Flüssen gab es wegen der Trockenheit viel zu wenig Wasser."
+    ]
+   },
+   "kurz": [
+    "Westeuropa erlebte im Sommer 2026 den wärmsten Sommer seit Beginn der Aufzeichnungen.",
+    "Die Durchschnittstemperatur lag laut dem EU-Klimadienst Copernicus bei knapp 22 Grad.",
+    "Extreme Hitze, Trockenheit und Niedrigwasser prägten den Sommer."
+   ],
+   "fakten": [
+    [
+     "Durchschnittstemperatur Westeuropa",
+     "21,7 Grad"
+    ],
+    [
+     "Temperaturabweichung zum Mittel",
+     "plus 2,5 Grad"
+    ],
+    [
+     "Anteil von Westeuropa mit Hitzestress",
+     "52 Prozent"
+    ]
+   ],
+   "dossier": {
+    "slug": "klima-sommer-2026",
+    "titel": "Klimabericht zum Sommer 2026"
+   },
+   "bildInfo": {
+    "titel": "Views in the Main Control Room (12052189474).jpg",
+    "beschreibung": "Main Control Room / Mission Control Room of ESA at the European Space Operations Centre (ESOC) in Darmstadt , Germany .",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg/1280px-Views_in_the_Main_Control_Room_%2812052189474%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Views_in_the_Main_Control_Room_(12052189474).jpg",
+    "urheber": "European Space Agency",
+    "lizenz": "CC BY-SA 3.0 igo",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+    "artikel": "Europäische Weltraumorganisation",
+    "sprache": "de",
+    "art": "institution",
+    "suchbegriff": "Copernicus Programme logo",
+    "bildunterschrift": "Der Kontrollraum der Europäischen Weltraumorganisation zeigt den Arbeitsplatz für die Überwachung von Satellitendaten.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Views in the Main Control Room (12052189474).jpg",
+     "beschreibung": "Main Control Room / Mission Control Room of ESA at the European Space Operations Centre (ESOC) in Darmstadt , Germany .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg/1280px-Views_in_the_Main_Control_Room_%2812052189474%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Views_in_the_Main_Control_Room_(12052189474).jpg",
+     "urheber": "European Space Agency",
+     "lizenz": "CC BY-SA 3.0 igo",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+     "artikel": "Europäische Weltraumorganisation",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Der Kontrollraum der Europäischen Weltraumorganisation zeigt den Arbeitsplatz für die Überwachung von Satellitendaten.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Air quality in Europe (Copernicus 2020-11-24).webp",
+     "beschreibung": "On 23 November 2020, the European Environment Agency published the “Air quality in Europe” 2020 report, a high level report in which an annual assessment of the status and impacts of air quality in Eu",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp/1280px-Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Air_quality_in_Europe_(Copernicus_2020-11-24).webp",
+     "urheber": "European Union, Copernicus Sentinel-2 imagery",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Eine grafische Darstellung der Europäischen Umweltagentur zur Luftqualität in Europa.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Lake Balkhash, Kazakhstan (Copernicus 2020-10-30).webp",
+     "beschreibung": "Lake Balkhash is one of the largest lakes in Asia and the 15th largest lake in the world. Even though the lake is in a desert, it is fed by several rivers and serves as a habitat for 20 species of fis",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp/1280px-Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lake_Balkhash,_Kazakhstan_(Copernicus_2020-10-30).webp",
+     "urheber": "European Union, Copernicus Sentinel-2 imagery",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Eine Satellitenaufnahme des Balkhash-Sees in Kasachstan aus dem Copernicus-Programm.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Westeuropa",
+    "lat": 53.86,
+    "lon": 27.553
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "inflation-euroraum",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-10-02T12:23:30.000Z",
+   "titel": "Inflationsrate im Euroraum steigt im September auf 3,8 Prozent",
+   "vorspann": "Die Verbraucherpreise im Euroraum sind im September gestiegen und erreichen den höchsten Stand seit drei Jahren. Hauptursache für diese Entwicklung sind die gestiegenen Kosten für Energie.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Die Inflationsrate im Euroraum ist im September auf 3,8 Prozent gestiegen.",
+    "Hauptursache für den Anstieg sind gestiegene Energiepreise infolge des Iran-Krieges.",
+    "Die Europäische Zentralbank strebt mittelfristig eine Preisstabilität von zwei Prozent an.",
+    "Finanzmärkte und Experten erwarten mögliche weitere Zinserhöhungen der Notenbank."
+   ],
+   "einig": [
+    [
+     "Die Inflationsrate im Euroraum stieg im September auf 3,8 Prozent.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Im August lag die Inflationsrate im Euroraum bei 3,2 Prozent.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Energiepreise sind der Hauptgrund für den Anstieg der Teuerung.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Europäische Zentralbank hat als Ziel eine Inflationsrate von mittelfristig zwei Prozent.",
+     [
+      "Spiegel",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Europäische Zentralbank bereits im Oktober oder erst im Dezember die Leitzinsen anheben wird, ist laut den Berichten noch nicht endgültig entschieden."
+   ],
+   "positionen": [
+    [
+     "Jörg Krämer (Chefvolkswirt Commerzbank)",
+     "Unternehmen geben höhere Energiepreise an ihre Kunden weiter.",
+     "Tagesschau/ARD,FAZ"
+    ],
+    [
+     "Alexander Krüger (Chefvolkswirt Bethmann Bank)",
+     "Die aktuelle Inflationsentwicklung ist Wasser auf die Mühlen der EZB für weitere Leitzinserhöhungen.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Christine Lagarde (EZB-Präsidentin)",
+     "Die Notenbank will mit Augenmaß reagieren und sieht keine Belege für eine Übertragung der Energiepreise auf die Löhne.",
+     "FAZ"
+    ],
+    [
+     "Isabel Schnabel (EZB-Direktoriumsmitglied)",
+     "Man kann nicht abwarten und muss die Geldpolitik an die Schocks anpassen.",
+     "Tagesschau/ARD,FAZ"
+    ]
+   ],
+   "fehlend": "Stimmen von Verbraucherschützern oder Vertretern der nationalen Regierungen der betroffenen Euro-Länder zur aktuellen Teuerung fehlen weitgehend in den Berichten.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "02.10.26, 12:52",
+     "fokus": "Ausführliche Experteneinschätzungen zur EZB-Politik",
+     "text": "Der Bericht beleuchtet detailliert die Aussagen verschiedener Banken-Chefvolkswirte. Er ordnet die Inflationsdaten im Kontext der Geldpolitik ein.",
+     "url": "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-eurozone-anstieg-102.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 483,
+      "satzlaenge": 16,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "02.10.26, 14:23",
+     "fokus": "Kurze Zusammenfassung der Kernfakten",
+     "text": "Die Meldung beschränkt sich auf die Bekanntgabe des neuen Inflationswertes für die Eurozone. Sie liefert eine kompakte Übersicht ohne Analysen.",
+     "url": "https://www.deutschlandfunk.de/energiepreise-treiben-inflation-im-euroraum-auf-drei-jahres-hoch-102.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 13:15",
+     "fokus": "Hintergründe zu Energie und geopolitischen Konflikten",
+     "text": "Der Artikel stellt die Verbindung zwischen dem Konflikt um die Straße von Hormus und den weltweiten Energiepreise her. Zudem erwähnt er nationale Entlastungsmaßnahmen in Deutschland.",
+     "url": "https://www.spiegel.de/wirtschaft/drei-jahres-hoch-inflation-im-euroraum-steigt-auf-3-8-prozent-a-373ee80b-13af-4eea-9a4f-9c5261c79341#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 366,
+      "satzlaenge": 22,
+      "langeWoerter": 36
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 11:02",
+     "fokus": "Umfassender Ländervergleich und EZB-Prognosen",
+     "text": "Die Frankfurter Allgemeine Zeitung bietet eine detaillierte Übersicht der Inflationsraten in verschiedenen europäischen Ländern. Sie zitiert ausführlich Vertreter der Europäischen Zentralbank.",
+     "url": "https://www.faz.net/aktuell/finanzen/finanzmarkt/inflation-im-euroraum-steigt-auf-3-8-prozent-accg-201282465.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 4,
+      "woerter": 771,
+      "satzlaenge": 14,
+      "langeWoerter": 36
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Erwartungen von Volkswirten",
+     "Tagesschau/ARD und FAZ nennen einen erwarteten Wert von 3,6 beziehungsweise 3,7 Prozent, während Spiegel ebenfalls 3,7 Prozent angibt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "EU-Statistikamt Eurostat",
+    "was": "Inflationsrate im Euroraum steigt auf 3,8 Prozent",
+    "wann": "2026-10-02",
+    "wo": "Euroraum",
+    "wie": "Durch Anstieg der Energiepreise um 18,8 Prozent",
+    "warum": "Laut den Berichten wegen des anhaltenden Iran-Krieges und Behinderungen an der Straße von Hormus",
+    "quellenlage": "EU-Statistikamt, Finanzmärkte, Banken-Chefvolkswirte, Zentralbank-Vertreter"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Inflationsrate in der Eurozone hat im September den höchsten Stand seit September 2023 erreicht. Nach vorläufigen Daten des EU-Statistikamtes Eurostat stiegen die Verbraucherpreise um 3,8 Prozent im Vergleich zum Vorjahresmonat. Im August hatte die Rate noch bei 3,2 Prozent gelegen. Der Anstieg fiel damit stärker aus als von Experten erwartet.",
+      "Von Reuters befragte Experten hatten im Schnitt mit einem Wert von 3,6 Prozent gerechnet. Der Spiegel und die Frankfurter Allgemeine Zeitung nennen einen von Volkswirten erwarteten Durchschnittswert von 3,7 Prozent. Die Teuerung entfernt sich damit weiter von dem von der Europäischen Zentralbank angestrebten Ziel von mittelfristig zwei Prozent.",
+      "Hauptgrund für den starken Anstieg sind in der gesamten Eurozone die hohen Energiepreise. Energie verteuerte sich gegenüber dem Vorjahresmonat um 18,8 Prozent. Im August hatte die Steigerungsrate bei Energie noch bei 14,3 Prozent gelegen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Neben Energie haben sich auch andere Bereiche verteuert. Dienstleistungen waren im September um 3,2 Prozent teurer als im Vorjahresmonat, nach einem Anstieg von 3,0 Prozent im August. Die Preise für Lebensmittel, Alkohol und Tabak stiegen um 1,4 Prozent. Laut dem Bericht der Frankfurter Allgemeinen Zeitung stiegen bestimmte Nahrungsmittel wie Gemüse durch schlechte Ernten infolge von Trockenheit besonders deutlich im Preis.",
+      "Die sogenannte Kernrate der Inflation, bei der die schwankungsanfälligen Preise für Energie und Nahrungsmittel ausgeklammert werden, stieg im September auf 2,5 Prozent nach 2,4 Prozent im Vormonat. Laut Tagesschau/ARD und Frankfurter Allgemeine Zeitung signalisiert diese Kernrate den längerfristigen Trend der Teuerung.",
+      "Auch in Deutschland zog die Inflation im September an und erreichte laut Tagesschau/ARD und Spiegel einen Wert von 3,3 Prozent. In Frankreich stieg die Inflationsrate laut Frankfurter Allgemeine Zeitung von 2,6 auf 3,4 Prozent, in Italien von 3,2 auf 4,1 Prozent und in Spanien von 4,6 auf 5,0 Prozent. Die höchste Inflationsrate im Euroraum verzeichnet laut Frankfurter Allgemeine Zeitung Litauen mit 6,1 Prozent, während Malta mit 2,4 Prozent die niedrigste Rate aufweist."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Entwicklung wird durch geopolitische Konflikte beeinflusst. Nach Angaben des Spiegels wirken sich die Folgen des Konflikts zwischen den USA und dem Iran aus, da Öl- und Gastransporte durch die Straße von Hormus behindert werden. Dies treibt die Energiepreise weltweit in die Höhe.",
+      "Die Europäische Zentralbank hatte bereits im Juni und September auf den Inflationsschub reagiert und den Leitzins auf aktuell 2,50 Prozent beziehungsweise 2,5 Prozent angehoben. Die Notenbank rechnet laut Spiegel damit, dass die Gesamtinflation noch bis in die erste Jahreshälfte 2027 deutlich über dem Zielwert von 2,0 Prozent bleiben wird."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Die Europäische Zentralbank ist die zentrale Institution für die Geldpolitik der Mitgliedstaaten, die den Euro eingeführt haben. Ihr Hauptziel ist die Gewährleistung der Preisstabilität im Euroraum, die sie mittelfristig bei einer Inflationsrate von zwei Prozent sieht. Als Kernrate bezeichnet man die Teuerungsrate ohne die stark schwankenden Preise für Energie und Nahrungsmittel."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Jörg Krämer, Chefvolkswirt der Commerzbank, erklärte laut Tagesschau/ARD und Frankfurter Allgemeine Zeitung, dass es sich um Preiserhöhungen bei Energie handele. Zudem mehrten sich nach seiner Einschätzung die Anzeichen, dass Unternehmen höhere Kosten an Kunden weitergäben.",
+      "Alexander Krüger, Chefvolkswirt der Bethmann Bank, betonte laut Tagesschau/ARD, die Entwicklung sei Wasser auf die Mühlen der Europäischen Zentralbank für weitere Leitzinserhöhungen. Michael Heise, Chefvolkswirt von HQ Trust, hob laut Frankfurter Allgemeine Zeitung hervor, dass der Inflationsanstieg an Breite gewinne.",
+      "EZB-Präsidentin Christine Lagarde erklärte in Brüssel laut Frankfurter Allgemeine Zeitung, die Notenbank wolle mit Augenmaß reagieren und sehe zum jetzigen Zeitpunkt keine Belege für eine Übertragung der Energiepreise auf die Löhne. EZB-Direktoriumsmitglied Isabel Schnabel betonte laut Tagesschau/ARD und Frankfurter Allgemeine Zeitung hingegen, dass man nicht abwarten könne und die Geldpolitik entsprechend ausrichten müsse."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die nächste Zinsentscheidung der Europäischen Zentralbank steht laut Frankfurter Allgemeine Zeitung am 29. Oktober an. An den Finanzmärkten wird laut Tagesschau/ARD und Spiegel erwartet, dass sich die Zentralbank bis zum Jahresende mit einer weiteren Zinserhöhung gegen den Preisauftrieb stemmen könnte. Im Dezember wird es laut Frankfurter Allgemeine Zeitung neue mittelfristige Inflationsprognosen der Ökonomen geben."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Juni 2026",
+     "Die EZB hebt den Leitzins infolge des Inflationsschubes an."
+    ],
+    [
+     "September 2026",
+     "Die Inflationsrate im Euroraum steigt auf 3,8 Prozent."
+    ],
+    [
+     "29. Oktober 2026",
+     "Die nächste Zinsentscheidung der EZB steht an."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Christine Lagarde",
+     "bildunterschrift": "EZB-Präsidentin Christine Lagarde leitet die Europäische Zentralbank, die über die Reaktion auf die steigende Inflation entscheidet."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "European Central Bank headquarters",
+     "bildunterschrift": "Das Hauptgebäude der Europäischen Zentralbank in Frankfurt am Main."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Strait of Hormuz",
+     "bildunterschrift": "Die Straße von Hormus ist ein wichtiger Seeweg für den Transport von Öl und Gas."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Euro sign",
+     "bildunterschrift": "Das Euro-Symbol steht für die gemeinsame Währung im Euroraum."
+    }
+   ],
+   "ort": {
+    "name": "Luxemburg, Luxemburg"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Wertende Adjektive wie 'massiv' oder 'rekordhoch' im Fließtext und in Zitatkennzeichnungen entfernt, um Neutralität zu wahren."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Inflation",
+      "Inflation bedeutet, dass Geld an Wert verliert. Man kann für denselben Geldbetrag weniger kaufen als früher."
+     ],
+     [
+      "Europäische Zentralbank",
+      "Die Europäische Zentralbank ist die zentrale Bank für die Länder, die den Euro haben. Sie kümmert sich um den Wert des Geldes."
+     ],
+     [
+      "Leitzins",
+      "Der Leitzins ist der Zins, zu dem sich Geschäftsbanken Geld bei der Zentralbank leihen können. Er ist ein wichtiges Werkzeug gegen die Inflation."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen geopolitische Konflikte für die aktuelle Wirtschaftslage in Europa?",
+     "Wie bewerten verschiedene Experten die Notwendigkeit von Zinserhöhungen durch die Europäische Zentralbank?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie hoch war die Inflationsrate im Euroraum im September nach Angaben von Eurostat?",
+      "optionen": [
+       "zwei Komma fünf Prozent",
+       "drei Komma acht Prozent",
+       "vier Komma eins Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut übereinstimmenden Berichten aller Quellen stieg die Inflationsrate im September auf 3,8 Prozent."
+     },
+     {
+      "frage": "Was ist laut den Berichten der Hauptgrund für den Anstieg der Inflation?",
+      "optionen": [
+       "hohe Energiepreise",
+       "steigende Löhne",
+       "sinkende Steuern"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Berichte von Tagesschau/ARD, Spiegel und FAZ nennen übereinstimmend die hohen Energiepreise als Hauptgrund."
+     },
+     {
+      "frage": "Welches Ziel verfolgt die Europäische Zentralbank mittelfristig für die Inflation?",
+      "optionen": [
+       "genau null Prozent",
+       "genau zwei Prozent",
+       "fünf Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Spiegel und FAZ strebt die Europäische Zentralbank mittelfristig eine Rate von zwei Prozent an."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die Preise im Euroraum sind im September stark gestiegen.",
+    "absaetze": [
+     "Die Inflation hat im September den Wert von drei Komma acht Prozent erreicht.",
+     "Das ist der höchste Stand seit drei Jahren.",
+     "Grund für den Anstieg sind vor allem sehr teure Energiepreise.",
+     "Die Europäische Zentralbank prüft nun, ob sie die Zinsen erhöht."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die Inflation im Euroraum ist im September auf drei Komma acht Prozent gestiegen.",
+     "Hauptgrund für die Teuerung sind die hohen Energiepreise.",
+     "Die Europäische Zentralbank berät über mögliche Zinserhöhungen."
+    ],
+    "lang": [
+     "Die Inflationsrate im Euroraum ist im September auf drei Komma acht Prozent gestiegen.",
+     "Das teilte das europäische Statistikamt Eurostat am Freitag mit.",
+     "Im August hatte der Wert noch bei drei Komma zwei Prozent gelegen.",
+     "Hauptgrund für den Anstieg sind nach Angaben der Berichte die hohen Energiepreise.",
+     "Energie hat sich demnach um achtzehn Komma acht Prozent verteuert.",
+     "Die Europäische Zentralbank hat das Ziel einer Preisstabilität von zwei Prozent.",
+     "Nach Angaben der Frankfurter Allgemeinen Zeitung fordern Experten deshalb mögliche Zinserhöhungen.",
+     "EZB Präsidentin Christine Lagarde erklärte hingegen nach Angaben der Zeitung, die Notenbank wolle mit Augenmaß reagieren.",
+     "Hintergrund für die hohen Energiepreise sind laut Berichten die Folgen des Iran Krieges.",
+     "Die nächste Zinsentscheidung der Notenbank steht Ende Oktober an."
+    ],
+    "einfach": [
+     "Im Euroraum sind die Preise im September deutlich gestiegen.",
+     "Die Inflationsrate liegt nun bei drei Komma acht Prozent.",
+     "Das ist der höchste Wert seit drei Jahren.",
+     "Vor allem teure Energie sorgt für den Anstieg.",
+     "Die Europäische Zentralbank will die Teuerung stoppen.",
+     "Dazu könnte sie bald die Zinsen erhöhen."
+    ]
+   },
+   "kurz": [
+    "Die Inflationsrate im Euroraum stieg im September auf drei Komma acht Prozent.",
+    "Hauptursache für den Anstieg sind stark erhöhte Energiepreise.",
+    "Die Europäische Zentralbank strebt mittelfristig eine Preisstabilität von zwei Prozent an.",
+    "Finanzmärkte erwarten mögliche weitere Zinserhöhungen der Notenbank."
+   ],
+   "fakten": [
+    [
+     "Inflationsrate Euroraum September",
+     "drei Komma acht Prozent"
+    ],
+    [
+     "Inflationsrate Euroraum August",
+     "drei Komma zwei Prozent"
+    ],
+    [
+     "Anstieg der Energiepreise",
+     "achtzehn Komma acht Prozent"
+    ],
+    [
+     "Aktueller Leitzins der EZB",
+     "zwei Komma fünf Prozent"
+    ]
+   ],
+   "dossier": {
+    "slug": "inflation-euroraum-2026",
+    "titel": "Inflation und Geldpolitik im Euroraum"
+   },
+   "bildInfo": {
+    "titel": "Christine Lagarde (cropped).jpg",
+    "beschreibung": "Read more: <a href=\" http://www.europarl.europa.eu/news/en \" rel=\"noreferrer nofollow\">www.europarl.europa.eu/news/en</a> This photo is free to use under Creative Commons license CC-BY-4.0 and must be",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Christine_Lagarde_(cropped).jpg",
+    "urheber": "European Parliament from EU",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Christine Lagarde",
+    "sprache": "de",
+    "art": "person",
+    "suchbegriff": "Christine Lagarde",
+    "bildunterschrift": "Christine Lagarde, Präsidentin der Europäischen Zentralbank.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Christine Lagarde (cropped).jpg",
+     "beschreibung": "Read more: <a href=\" http://www.europarl.europa.eu/news/en \" rel=\"noreferrer nofollow\">www.europarl.europa.eu/news/en</a> This photo is free to use under Creative Commons license CC-BY-4.0 and must be",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Christine_Lagarde_(cropped).jpg",
+     "urheber": "European Parliament from EU",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Christine Lagarde",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Christine Lagarde",
+     "bildunterschrift": "Christine Lagarde, Präsidentin der Europäischen Zentralbank.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Europäische Zentralbank Frankfurt.jpg",
+     "beschreibung": "European Central Bank at Frankfurt , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "urheber": "Thomas Wolf , www.foto-tw.de",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Sitz der Europäischen Zentralbank",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "European Central Bank headquarters",
+     "bildunterschrift": "Der Sitz der Europäischen Zentralbank in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "OCR-B-Euro-Proposals.png",
+     "beschreibung": "The initial proposal for adding the Euro sign to OCR-B included two design variants: One with a double stroke, another with a single stroke.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:OCR-B-Euro-Proposals.png",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Euro sign",
+     "bildunterschrift": "Das Euro-Symbol als Währungseinheit im Euroraum.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Luxemburg, Luxemburg",
+    "lat": 49.611,
+    "lon": 6.13
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "franz-reindl-iihf-praesident",
+   "rubrik": "Sport",
+   "zeit": "2026-10-02T12:23:30.000Z",
+   "titel": "Neuer Präsident des Eishockey-Weltverbands IIHF gewählt",
+   "vorspann": "Der deutsche Eishockey-Funktionär Franz Reindl hat die Wahl zum Präsidenten des Eishockey-Weltverbandes gewonnen. Er setzte sich bei einem Kongress auf Teneriffa in einer Stichwahl gegen andere Kandidaten durch.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes IIHF.",
+    "Er gewann die Wahl bei einem Kongress auf Teneriffa in einer Stichwahl gegen Petr Briza.",
+    "Reindl tritt die Nachfolge von Luc Tardif an und ist der zweite deutsche Präsident in der Geschichte des Verbandes.",
+    "Auf den 71-jährigen Funktionär warten Aufgaben wie die Moderation der Russland-Rückkehr und die Konkurrenz durch die NHL."
+   ],
+   "einig": [
+    [
+     "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes IIHF.",
+     [
+      "Deutschlandfunk",
+      "Süddeutsche Zeitung",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Wahl fand auf Teneriffa statt und erforderte zwei Wahlgänge.",
+     [
+      "Süddeutsche Zeitung",
+      "FAZ"
+     ]
+    ],
+    [
+     "In der Stichwahl setzte sich Reindl gegen Petr Briza durch.",
+     [
+      "Süddeutsche Zeitung",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Welche konkreten Schritte zur Lösung der Konflikte mit der NHL und bezüglich der Russland-Rückkehr unternommen werden, bleibt abzuwarten (FAZ)."
+   ],
+   "positionen": [
+    [
+     "Frank Lutz, Vorstandsvorsitzender des Deutschen Eishockey-Bundes",
+     "Die Wahl ist eine Anerkennung für Reindls Arbeit; man freut sich auf die Zusammenarbeit bei der Heim-WM 2027.",
+     "Süddeutsche Zeitung, FAZ"
+    ]
+   ],
+   "fehlend": "Stimmen aus anderen Eishockey-Verbänden weltweit sowie Aussagen von Petr Briza oder Luc Tardif.",
+   "medien": [
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "02.10.26, 14:23",
+     "fokus": "Kappe Kurzmeldung zur Wahl",
+     "text": "Der Deutschlandfunk berichtet in einer kurzen Meldung über den Wahlsieg des deutschen Eishockey-Funktionärs.",
+     "url": "https://www.deutschlandfunk.de/deutscher-franz-reindl-zum-neuen-praesidenten-des-eishockey-weltverbands-gewaehlt-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 10:57",
+     "fokus": "Hintergründe und Stimmen",
+     "text": "Die Süddeutsche Zeitung liefert Details zu den Abstimmungsergebnissen und Reaktionen aus dem Deutschen Eishockey-Bund.",
+     "url": "https://www.sueddeutsche.de/sport/reindl-eishockey-weltverband-praesident-iihf-li.3557532",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 8,
+      "minuten": 1,
+      "woerter": 249,
+      "satzlaenge": 19,
+      "langeWoerter": 29
+     },
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 10:53",
+     "fokus": "Umfassender Bericht mit Problemanalyse",
+     "text": "Die FAZ beleuchtet neben dem Wahlablauf auch die zukünftigen Herausforderungen wie die NHL-Konkurrenz und die Russland-Frage.",
+     "url": "https://www.faz.net/aktuell/sport/sportpolitik/eishockey-franz-reindl-neuer-praesident-des-weltverbands-iihf-accg-201282960.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 3,
+      "woerter": 572,
+      "satzlaenge": 17,
+      "langeWoerter": 30
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Der Deutschlandfunk bringt nur eine kurze Nachricht, während Süddeutsche Zeitung und FAZ ausführlich über den Ablauf und die Hintergründe berichten."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Franz Reindl",
+    "was": "Wahl zum Präsidenten des Eishockey-Weltverbands IIHF",
+    "wann": "noch unklar",
+    "wo": "Teneriffa, Spanien",
+    "wie": "In zwei Wahlgängen und einer knappen Stichwahl",
+    "warum": "Neubesetzung nach dem Ende der Amtszeit des Vorgängers",
+    "quellenlage": "Deutschlandfunk, Süddeutsche Zeitung, FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Die Wahl auf Teneriffa",
+     "absaetze": [
+      "Der deutsche Eishockey-Funktionär Franz Reindl ist zum neuen Präsidenten des Eishockey-Weltverbandes IIHF gewählt worden. Die Wahl fand laut Süddeutscher Zeitung und FAZ bei einem Kongress auf der spanischen Ferieninsel Teneriffa statt. Laut übereinstimmenden Berichten waren für die Entscheidung insgesamt zwei Wahlgänge erforderlich. Der 71-jährige Reindl setzte sich dabei am Ende gegen seine verbliebenen Mitbewerber durch. Die Süddeutsche Zeitung und die FAZ berichten, dass ursprünglich neun Kandidaten angetreten waren.",
+      "Im ersten Wahlgang lag laut den Berichten der FAZ und der Süddeutschen Zeitung der ehemalige tschechoslowakische und tschechische Nationaltorwart Petr Briza mit 48 Stimmen vorn. Franz Reindl erhielt zu diesem Zeitpunkt 36 Stimmen, während Aiwas Omorkanow aus Kirgisistan 33 Stimmen auf sich vereinte. Laut Angaben der Süddeutschen Zeitung hatten sich sechs der ursprünglich neun Kandidaten bereits vor der Abstimmung zurückgezogen. In der anschließenden Stichwahl trafen die verbliebenen Bewerber aufeinander. Diese entscheidende Runde verlief sehr knapp.",
+      "In der Stichwahl setzte sich Franz Reindl laut den Berichten der Tageszeitungen mit 60 zu 57 Stimmen gegen Petr Briza durch. Dies entspricht einem Stimmenanteil von 51,28 Prozent, wie die FAZ ergänzend mitteilt. Damit steht zum zweiten Mal in der Geschichte ein Deutscher an der Spitze des internationalen Eishockey-Weltverbandes. Der bisher einzige deutsche Präsident war Günther Sabetzki, der das Amt von 1975 bis 1994 innehatte. Reindl folgt als 15. Präsident in der Geschichte der IIHF auf den Franzosen Luc Tardif.",
+      "Der vorherige Präsident Luc Tardif trat laut den Berichten in diesem Jahr nicht mehr zur Wiederwahl an. Vor fünf Jahren hatte Tardif das Amt nach einem Sieg im entscheidenden Wahlgang gegen eben jenen Franz Reindl übernommen. Damals unterlag Reindl mit 39 zu 67 Stimmen. Nun unternahm der 71-jährige Deutsche seinen zweiten Anlauf und erreichte die Mehrheit der Stimmen. Die Amtszeit des neu gewählten Präsidenten läuft bis Oktober 2030."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Person",
+     "absaetze": [
+      "Franz Reindl blickt auf eine jahrzehntelange Laufbahn im Eishockeysport zurück. Laut den vorliegenden Berichten wurde er 1972 in Garmisch-Partenkirchen Profi beim SC Riessersee. Als Stürmer nahm er an drei Olympischen Winterspielen sowie an acht Weltmeisterschaften teil. Im Jahr 1976 gewann er mit der Nationalmannschaft in Innsbruck die Bronzemedaille. Nach dem Ende seiner aktiven Karriere als Spieler im Jahr 1988 arbeitete er zunächst als Trainer und später als Funktionär.",
+      "Von 2014 bis 2022 fungierte Reindl als Präsident des Deutschen Eishockey-Bundes. In seine Amtszeit fiel laut FAZ unter anderem die Beendigung des Dauerstreits mit der Deutschen Eishockey Liga. Zudem war er an den Grundlagen für die Erfolge der Nationalmannschaft beteiligt, wie den Silbermedaillen bei den Olympischen Spielen 2018 und der Weltmeisterschaft 2023. Seine erste Kandidatur für das internationale Präsidentenamt im Jahr 2021 war jedoch von Kontroversen überschattet worden.",
+      "Laut dem Bericht der FAZ gab es damals Vorwürfe, Reindl sei als Geschäftsführer der DEB GmbH verdeckt für seine ehrenamtliche Tätigkeit bezahlt worden und habe sich in einem Interessenkonflikt befunden. Diese Vorwürfe führten zu einer Empfehlung der Ethikkommission des Deutschen Olympischen Sportbundes für eine Untersuchung. Die Staatsanwaltschaft ermittelte ab Anfang 2022. Infolgedessen trat Reindl im Jahr 2022 nicht mehr zur Wiederwahl als DEB-Präsident an. Fünf Jahre nach diesem Scheitern trat er nun erneut an und gewann die Wahl."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen auf den Wahlausgang",
+     "absaetze": [
+      "Nach der Wahl äußerten sich nationale Verbände erfreut über den Ausgang. Frank Lutz, der Vorstandsvorsitzende des Deutschen Eishockey-Bundes, gratulierte dem neuen Präsidenten. Laut den übereinstimmenden Berichten von FAZ und Süddeutscher Zeitung sagte Lutz, Reindl habe das deutsche Eishockey über Jahrzehnte geprägt. Die internationale Eishockeyfamilie spreche ihm mit der Führung der IIHF eine große Anerkennung seiner Arbeit aus.",
+      "Zudem verwies Frank Lutz auf die bevorstehende Heim-WM. Der Deutsche Eishockey-Bund freue sich auf die Zusammenarbeit, gerade mit Blick auf die Weltmeisterschaft 2027 im eigenen Land. Franz Reindl selbst äußerte sich ebenfalls zu den anstehenden Aufgaben. Nach Angaben der FAZ erklärte er zuvor gegenüber dem Sport-Informations-Dienst, dass das Gremium vor großen Herausforderungen stehe. Es brauche eine ruhige Hand, Erfahrung und eine gute Kommunikation, um Brücken zu bauen und die Eishockeyfamilie wieder zu vereinen."
+     ]
+    },
+    {
+     "ueberschrift": "Ausblick und anstehende Aufgaben",
+     "absaetze": [
+      "Auf den neuen IIHF-Präsidenten warten laut den Berichten der FAZ verschiedene Problemfelder. Ein wichtiges Thema ist die vom Internationalen Olympischen Komitee empfohlene Rückkehr Russlands in den internationalen Spielbetrieb. Diese Empfehlung stößt in einflussreichen Eishockeynationen auf großen Widerstand, weshalb hier eine moderierende Rolle des Präsidenten gefragt ist. Reindl soll diesen Prozess begleiten und moderieren.",
+      "Ein weiteres Problem ist die Konkurrenz durch die nordamerikanische Profiliga NHL. Diese drängt laut FAZ verstärkt nach Europa und gefährdet mit der Neuauflage des World Cups im Februar 2028 das Geschäftsmodell der IIHF. Dieses basiert maßgeblich auf der jährlichen Weltmeisterschaft. Die bevorstehende Heim-WM findet vom 13. bis 30. Mai in Deutschland statt, mit Spielorten in Düsseldorf, Mannheim und Gelsenkirchen."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "1975 bis 1994",
+     "Günther Sabetzki ist der erste deutsche IIHF-Präsident."
+    ],
+    [
+     "2014 bis 2022",
+     "Franz Reindl ist Präsident des Deutschen Eishockey-Bundes."
+    ],
+    [
+     "2021",
+     "Erste Kandidatur von Reindl für das IIHF-Präsidentenamt scheitert gegen Luc Tardif."
+    ],
+    [
+     "2026",
+     "Franz Reindl gewinnt im zweiten Anlauf die Wahl zum IIHF-Präsidenten auf Teneriffa."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Franz Reindl ice hockey",
+     "bildunterschrift": "Der gewählte IIHF-Präsident Franz Reindl in seiner Funktion als Eishockey-Funktionär."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Tenerife landscape ocean",
+     "bildunterschrift": "Die spanische Insel Teneriffa war der Ort des diesjährigen IIHF-Kongresses."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "International Ice Hockey Federation",
+     "bildunterschrift": "Der Eishockey-Weltverband IIHF leitet den internationalen Sportbetrieb."
+    }
+   ],
+   "ort": {
+    "name": "Teneriffa, Spanien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Datum im Feld wann in den wfragen wurde auf 'noch unklar' gesetzt, da kein exaktes Datum der Wahl in den Quellen steht (nur 'am Freitag' bzw. vor der WM im Mai).",
+    "Direkte Aussagen von Franz Reindl wurden in den Texten als Aussagen über den Sport-Informations-Dienst gekennzeichnet."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "IIHF",
+      "Die IIHF ist der internationale Eishockey-Weltverband, der den weltweiten Eishockeysport leitet."
+     ],
+     [
+      "Stichwahl",
+      "Eine Stichwahl ist eine zweite Abstimmung, wenn beim ersten Mal kein Kandidat die nötige Mehrheit erreicht hat."
+     ]
+    ],
+    "fragen": [
+     "Welche Herausforderungen kommen nach Ansicht der Berichte auf den neuen Präsidenten zu?",
+     "Warum war die erste Kandidatur von Franz Reindl im Jahr 2021 umstritten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer ist neuer Präsident des Eishockey-Weltverbandes IIHF?",
+      "optionen": [
+       "Luc Tardif",
+       "Franz Reindl",
+       "Petr Briza"
+      ],
+      "richtig": 1,
+      "erklaerung": "Franz Reindl hat die Wahl auf Teneriffa gewonnen und ist neuer Präsident."
+     },
+     {
+      "frage": "Auf welcher Insel fand der Kongress mit der Wahl statt?",
+      "optionen": [
+       "Teneriffa",
+       "Mallorca",
+       "Sizilien"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Kongress mit der Wahl wurde auf der spanischen Ferieninsel Teneriffa abgehalten."
+     },
+     {
+      "frage": "Wie oft gab es vor Franz Reindl einen deutschen IIHF-Präsidenten?",
+      "optionen": [
+       "Gar keinen",
+       "Genau einen",
+       "Bereits drei"
+      ],
+      "richtig": 1,
+      "erklaerung": "Günther Sabetzki war von 1975 bis 1994 der erste deutsche Präsident."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Franz Reindl ist der neue Chef des Eishockey-Weltverbandes.",
+    "absaetze": [
+     "Er hat die Wahl bei einem Treffen auf der Insel Teneriffa gewonnen.",
+     "Für die Entscheidung waren zwei Wahlgänge nötig.",
+     "In der Stichwahl setzte sich der Deutsche knapp gegen Petr Briza durch.",
+     "Reindl ist erst der zweite Deutsche in diesem Amt.",
+     "Früher war er Spieler und Chef des deutschen Eishockey-Bundes."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+     "Er gewann die Stichwahl auf Teneriffa mit sechzig zu siebenzig Stimmen.",
+     "Reindl ist erst der zweite deutsche Präsident in der Verbandsgeschichte."
+    ],
+    "lang": [
+     "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+     "Die Wahl fand bei einem Kongress auf der spanischen Insel Teneriffa statt.",
+     "Für die Entscheidung waren zwei Wahlgänge nötig.",
+     "In der Stichwahl setzte sich Reindl mit sechzig zu siebenundfünfzig Stimmen gegen Petr Briza durch.",
+     "Das schreiben die Süddeutsche Zeitung und die FAZ.",
+     "Reindl ist nach Günther Sabetzki der zweite deutsche Präsident des Verbandes.",
+     "Nach Angaben des Deutschen Eishockey-Bundes ist die Wahl eine große Anerkennung seiner Arbeit.",
+     "Auf den neuen Präsidenten warten Aufgaben wie die Rückkehr Russlands und die Konkurrenz durch die nordamerikanische Liga.",
+     "Die Amtszeit des neuen Präsidenten läuft bis Oktober zweitausenddreißig."
+    ],
+    "einfach": [
+     "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+     "Er hat die Wahl auf der Insel Teneriffa gewonnen.",
+     "Dafür waren zwei Wahlgänge nötig.",
+     "Reindl ist erst der zweite deutsche Präsident in diesem Amt.",
+     "Früher leitete er den deutschen Eishockey-Bund."
+    ]
+   },
+   "kurz": [
+    "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+    "Er gewann die Stichwahl bei einem Kongress auf Teneriffa.",
+    "Reindl ist erst der zweite deutsche Präsident in der Verbandsgeschichte.",
+    "Auf ihn warten Aufgaben wie die Russland-Rückkehr und die Konkurrenz der NHL."
+   ],
+   "fakten": [
+    [
+     "Stimmen in der Stichwahl",
+     "60 zu 57"
+    ],
+    [
+     "Alter von Franz Reindl",
+     "71 Jahre"
+    ],
+    [
+     "Amtszeit bis",
+     "Oktober 2030"
+    ]
+   ],
+   "dossier": {
+    "slug": "eishockey-weltverband-wahl-2026",
+    "titel": "Wahl des Eishockey-Weltverbands IIHF"
+   },
+   "bildInfo": {
+    "titel": "2022-04-29 Deutschland gegen Slowakei (Eishockey-Länderspiel) by Sandro Halank–128.jpg",
+    "beschreibung": "Ice Hockey preparation match in Dresden in preparation for the 2022 Ice Hockey World Championships: Germany vs. Slovakia (1:3)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg/1280px-2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2022-04-29_Deutschland_gegen_Slowakei_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93128.jpg",
+    "urheber": "Sandro Halank , Wikimedia Commons",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Franz Reindl (Eishockeyspieler)",
+    "sprache": "de",
+    "art": "person",
+    "suchbegriff": "Franz Reindl ice hockey",
+    "bildunterschrift": "Der deutsche Eishockey-Funktionär Franz Reindl bei einem Länderspiel.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "2022-04-29 Deutschland gegen Slowakei (Eishockey-Länderspiel) by Sandro Halank–128.jpg",
+     "beschreibung": "Ice Hockey preparation match in Dresden in preparation for the 2022 Ice Hockey World Championships: Germany vs. Slovakia (1:3)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg/1280px-2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2022-04-29_Deutschland_gegen_Slowakei_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93128.jpg",
+     "urheber": "Sandro Halank , Wikimedia Commons",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Franz Reindl (Eishockeyspieler)",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Franz Reindl ice hockey",
+     "bildunterschrift": "Der deutsche Eishockey-Funktionär Franz Reindl bei einem Länderspiel.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Tenerife, Canary Islands ESA23970088.jpeg",
+     "beschreibung": "The Copernicus Sentinel-2 mission takes us over Tenerife – the largest of Spain’s Canary Islands. Zoom in to see this image at its full 10 m resolution or click on the circles to learn more about the ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg/1280px-Tenerife%2C_Canary_Islands_ESA23970088.jpeg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tenerife,_Canary_Islands_ESA23970088.jpeg",
+     "urheber": "European Space Agency",
+     "lizenz": "CC BY-SA 3.0 igo",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+     "artikel": "Tenerife",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Tenerife landscape ocean",
+     "bildunterschrift": "Die Insel Teneriffa, auf der der Kongress und die Wahl stattfanden.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Teneriffa, Spanien",
+    "lat": 28.294,
+    "lon": -16.621
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "israel-oberstes-gericht-arabische-parteien",
+   "rubrik": "Welt",
+   "zeit": "2026-10-02T12:22:00.000Z",
+   "titel": "Gericht in Israel erlaubt Teilnahme arabischer Parteien an Parlamentswahl",
+   "vorspann": "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien an der Parlamentswahl Ende Oktober teilnehmen dürfen. Damit wurde ein anderslautender Beschluss des Zentralen Wahlkomitees aufgehoben.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Das Oberste Gericht in Israel hat arabischen Parteien die Teilnahme an der Parlamentswahl Ende Oktober erlaubt.",
+    "Damit hob das Gericht einen Beschluss des Zentralen Wahlkomitees auf, das die Parteien wegen angeblicher Unterstützung des bewaffneten Kampfes ausschließen wollte.",
+    "Die rechtsextreme Partei von Polizeiminister Itamar Ben-Gvir wurde laut den Berichten nicht von der Wahl ausgeschlossen.",
+    "Umfragen zufolge kann keines der großen Lager bei der Wahl mit einer absoluten rechnen, und der Raam-Partei könnte eine Schlüsselrolle zukommen."
+   ],
+   "einig": [
+    [
+     "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien an der Parlamentswahl im Oktober teilnehmen dürfen.",
+     [
+      "Spiegel",
+      "Zeit",
+      "FAZ",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ],
+    [
+     "Das Gericht hob damit einen Beschluss des Zentralen Wahlkomitees auf.",
+     [
+      "Spiegel",
+      "FAZ",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ],
+    [
+     "Das Zentrale Wahlkomitee hatte zuvor mit 18 zu fünf Stimmen gegen die Raam-Partei und die Gemeinsame Liste gestimmt.",
+     [
+      "Spiegel",
+      "ORF"
+     ]
+    ],
+    [
+     "Der Grund für die Aufhebung durch das Gericht war, dass die Voraussetzungen für einen Ausschluss nach Ansicht der Richter nicht erfüllt waren.",
+     [
+      "Spiegel",
+      "FAZ",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ],
+    [
+     "Im Gegensatz zu den arabischen Parteien wurde die rechtsextreme Partei Ozma Jehudit von Polizeiminister Itamar Ben-Gvir nicht ausgeschlossen.",
+     [
+      "Spiegel",
+      "FAZ",
+      "ORF"
+     ]
+    ],
+    [
+     "Laut Meinungsumfragen kann keines der großen Lager bei der Wahl im Oktober mit einer absoluten Mehrheit rechnen, und der Raam-Partei könnte die Rolle des Königsmachers zukommen.",
+     [
+      "Spiegel",
+      "FAZ",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genauen Hintergründe zu den im Spiegel erwähnten Vorfällen um einen Co-Piloten werden in den Berichten nicht vollständig erklärt."
+   ],
+   "positionen": [
+    [
+     "Zentrales Wahlkomitee (Mehrheit)",
+     "Die arabischen Parteien sollten von der Parlamentswahl ausgeschlossen werden, unter anderem wegen angeblicher Unterstützung des bewaffneten Kampfes.",
+     "Spiegel, ORF"
+    ],
+    [
+     "Oberstes Gericht in Israel",
+     "Der Beschluss des Wahlkomitees erfüllte nicht die rechtlichen Voraussetzungen für einen Ausschluss, weshalb die arabischen Parteien antreten dürfen.",
+     "Spiegel, FAZ, Deutsche Welle, ORF"
+    ],
+    [
+     "Vereinigte Arabische Liste",
+     "Die Entscheidung des Wahlkomitees über den Ausschluss war laut ihrer Erklärung politisch, rassistisch und antidemokratisch.",
+     "Spiegel, ORF"
+    ],
+    [
+     "Sami Abu Schehadeh und Partei Balad",
+     "Die Kandidatur wurde zurückgezogen, um eine schwerwiegende gerichtliche Entscheidung für das politische Leben abzuwenden und politischer Verantwortung nachzukommen.",
+     "Deutsche Welle"
+    ]
+   ],
+   "fehlend": "Es fehlen direkte Stellungnahmen des Ministerpräsidenten Benjamin Netanyahu sowie von Vertretern der rechtsextremen Partei Ozma Jehudit zu den aktuellen Gerichtsentscheidungen in den übrigen Medien.",
+   "medien": [
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 14:22",
+     "fokus": "Politische Details und Umfragen",
+     "text": "Der Spiegel berichtet ausführlich über die Abstimmung im Wahlkomitee und die Umfragewerte der Parteien.",
+     "url": "https://www.spiegel.de/ausland/israel-oberstes-gericht-erlaubt-arabischen-parteien-wahlteilnahme-a-09c74d27-bf5b-4fe1-8502-88c660703755#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 221,
+      "satzlaenge": 15,
+      "langeWoerter": 41
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 14:05",
+     "fokus": "Kompakte Zusammenfassung",
+     "text": "Die Zeit fasst die Kernmeldung in wenigen Sätzen zusammen und nennt die Aufhebung des Wahlausschlusses durch das Oberste Gericht.",
+     "url": "https://www.zeit.de/politik/ausland/2026-10/arabische-parteien-israel-oberstes-gericht-raum-chadasch-taal-balad-parlamentswahl",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "02.10.26, 13:39",
+     "fokus": "Wahlkonstellation und Randnotizen",
+     "text": "Die FAZ konzentriert sich auf den Gerichtsentscheid und die Umfragedaten.",
+     "url": "https://www.faz.net/aktuell/politik/ausland/wahl-in-israel-oberstes-gericht-erlaubt-arabischen-parteien-teilnahm-accg-201283556.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 181,
+      "satzlaenge": 13,
+      "langeWoerter": 43
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "02.10.26, 13:09",
+     "fokus": "Hintergrund des Politikers Schehadeh",
+     "text": "Die Deutsche Welle liefert detaillierte Informationen zum Rückzug des Politikers Sami Abu Schehadeh und erklärt die Zusammensetzung des Wahlkomitees.",
+     "url": "https://www.dw.com/de/chef-von-arabisch-israelischer-partei-kandidiert-doch-nicht/a-79513054?maca=de-rss-de-all-1119-rdf",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 12,
+      "minuten": 2,
+      "woerter": 400,
+      "satzlaenge": 17,
+      "langeWoerter": 39
+     },
+     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
+     "finanzierung": "Steuermittel des Bundes",
+     "publikumWert": null
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "02.10.26, 13:11",
+     "fokus": "Fakten zum Gerichtsurteil",
+     "text": "Der ORF schildert den Ablauf der Gerichtsentscheidung und die Stimmverteilung im Zentralen Wahlkomitee.",
+     "url": "https://orf.at/stories/3443904/",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 178,
+      "satzlaenge": 16,
+      "langeWoerter": 40
+     },
+     "traeger": "Österreichischer Rundfunk, Stiftung öffentlichen Rechts",
+     "finanzierung": "Haushaltsabgabe",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Detailgrad zu Einzelpolitikern",
+     "Die Deutsche Welle berichtet ausführlich über den Rückzug von Sami Abu Schehadeh und dessen Begründung, während andere Quellen diesen Aspekt nicht oder kaum vertiefen."
+    ],
+    [
+     "Themenvielfalt",
+     "Spiegel und FAZ erwähnen am Ende ihrer Berichte diverse unzusammenhängende Kurzmeldungen zu anderen Themen, die bei Zeit, Deutsche Welle und ORF nicht vorkommen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Das Oberste Gericht in Israel",
+    "was": "Erlaubt arabischen Parteien die Teilnahme an der Wahl",
+    "wann": "Ende Oktober",
+    "wo": "Israel",
+    "wie": "Durch Aufhebung einer Entscheidung des Zentralen Wahlkomitees",
+    "warum": "Weil laut Gericht die Voraussetzungen für einen Ausschluss nicht erfüllt waren",
+    "quellenlage": "Berichte von Spiegel, Zeit, FAZ, Deutsche Welle und ORF"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Oberste Gericht entscheidet",
+     "absaetze": [
+      "Das Oberste Gericht in Israel hat entschieden, dass die arabischen Parteien bei der kommenden Parlamentswahl im Oktober antreten dürfen. Mit diesem Richterspruch wurde ein vorheriger Beschluss des Zentralen Wahlkomitees offiziell aufgehoben. Das Komitee hatte zuvor versucht, die arabischen Parteien von der Wahl auszuschließen. Nach Auffassung der Richter des Obersten Gerichts hat der Beschluss des Gremiums die rechtlichen Voraussetzungen für einen solchen Ausschluss nicht erfüllt. Diese Entscheidung betrifft mehrere politische Gruppierungen im Land, die nun regulär an der Abstimmung teilnehmen können. Der Ausgang dieses juristischen Verfahrens war von Beobachtern bereits im Vorfeld als wahrscheinlich eingeschätzt worden. Die Wahl selbst ist für den 27. Oktober angesetzt.",
+      "Zuvor hatte das Zentrale Wahlkomitee nach übereinstimmenden Berichten von Spiegel und ORF in einer Abstimmung mit 18 zu fünf Stimmen gegen die Teilnahme der Parteien votiert. Von dieser Maßnahme betroffen waren die konservativ-islamische Raam-Partei unter der Führung von Mansour Abbas beziehungsweise Mansur Abbas sowie die Gemeinsame Liste, welche sich aus den Gruppierungen Chadasch, Taal und Balad zusammensetzt. Als Begründung für die Anträge gegen die Parteien wurde von den Antragstellern unter anderem angeführt, dass diese den bewaffneten Kampf gegen den Staat Israel unterstützen würden. Im Gegensatz dazu beschloss das Zentrale Wahlkomitee laut Spiegel, FAZ und ORF nicht, die rechtsextreme jüdische Partei Ozma Jehudit von Polizeiminister Itamar Ben-Gvir von der Wahl auszuschließen. Die entsprechenden Entscheidungen des Komitees spiegeln laut Angaben der Deutschen Welle die generellen Mehrheitsverhältnisse in der Knesset wider.",
+      "Parallel zu diesen Entwicklungen äußerte sich nach Angaben der Deutschen Welle der Vorsitzende der arabisch-israelischen Oppositionspartei Balad, Sami Abu Schehadeh. Dieser zog angesichts eines drohenden Ausschlusses seine persönliche Kandidatur für einen Sitz in der Knesset zurück. Der Schritt erfolgte, nachdem der Oberste Gerichtshof ihm zuvor eine Empfehlung zum Rückzug ausgesprochen hatte. Hintergrund dieser Empfehlung waren laut Deutscher Welle Äußerungen des Politikers zu dem Angriff vom 7. Oktober 2023, welchen er in einem Artikel als wichtiges historisches Ereignis bezeichnet hatte. Nach Angaben der Deutschen Welle hatte die Wahlkommission auf Antrag von Polizeiminister Itamar Ben-Gvir für Schehadehs Ausschluss gestimmt. Schehadeh bestritt daraufhin, den Terrorüberfall befürwortet zu haben, gab seine Kandidatur jedoch auf, um eine gerichtliche Entscheidung mit weitreichenden Folgen abzuwenden. Die Führung seiner Partei Balad sowie verbündete Parteien akzeptierten diesen Schritt im Rahmen politischer Verantwortung."
+     ]
+    },
+    {
+     "ueberschrift": "Politische Rahmenbedingungen",
+     "absaetze": [
+      "Aktuellen Meinungsumfragen zufolge wird die bevorstehende Parlamentswahl am 27. Oktober voraussichtlich keine klaren Mehrheiten bringen. Weder das Lager von Ministerpräsident Benjamin Netanyahu beziehungsweise Netanjahu noch das Lager seiner politischen Gegner kann demnach laut Spiegel, FAZ, Deutsche Welle und ORF mit einer absoluten Mehrheit rechnen. In dieser Konstellation könnte der Raam-Partei eine entscheidende Position zukommen. Laut den Berichten von Spiegel, FAZ, ORF und Deutsche Welle wird der Gruppierung möglicherweise die Rolle des Königsmachers bei einer kommenden Regierungsbildung zuteil. Die Deutsche Welle ergänzt dazu, dass Umfragen für die Raam-Partei einen Gewinn von fünf bis sechs der insgesamt 120 Sitze in der Knesset vorhersagen. Etwa 20 Prozent der israelischen Bevölkerung sind laut Deutscher Welle arabischstämmig und identifizieren sich zumeist selbst als Palästinenser.",
+      "Das Zentrale Wahlkomitee setzt sich aus Delegierten der im Parlament vertretenen Parteien zusammen. Laut den Berichten der Deutschen Welle versuchen israelische Parteien regelmäßig im Vorfeld von Wahlen, die Kandidaturen ihrer politischen Gegner durch Anträge bei der Wahlkommission für ungültig erklären zu lassen. Solche Vorstöße werden im Regelfall im Anschluss vom Obersten Gericht wieder verworfen, wie es auch im aktuellen Fall geschehen ist. Die Organisation des Komitees und das Zusammenspiel mit dem Obersten Gericht bilden dabei einen festen Bestandteil des israelischen Wahlprozesses. Die aktuelle juristische Auseinandersetzung reiht sich somit in bekannte Muster vorwähllichen Verhaltens ein. Die Richter betonten in ihrem Urteil, dass die formalen Kriterien für einen Ausschluss der betroffenen Parteien nach übereinstimmenden Angaben von Spiegel, FAZ, Deutscher Welle und ORF nicht gegeben waren."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen auf die Entscheidungen",
+     "absaetze": [
+      "Die Vereinigte Arabische Liste verurteilte die Entscheidung des Wahlkomitees über den anfänglichen Ausschluss als politisch, rassistisch und antidemokratisch. Dies geht aus den Berichten von Spiegel und ORF hervor. Die Partei wies damit die Vorwürfe und den Beschluss des Gremiums scharf zurück. Auch die Partei Balad äußerte sich nach Angaben der Deutschen Welle zu den Vorgängen um ihren Vorsitzenden Sami Abu Schehadeh und teilte mit, dass der Rückzug aus Verantwortung gegenüber dem politischen und parlamentarischen Leben des Landes erfolgt sei. Laut Deutscher Welle wurde diese Erklärung von allen Parteien unterstützt, mit denen Balad gemeinsam zur Wahl antreten will. Weitere offizielle Stellungnahmen von Regierungsvertretern oder anderen Parteien wurden in den vorliegenden Berichten nicht detailliert aufgeführt, abgesehen von den Anträgen des Polizeiministers Itamar Ben-Gvir."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "7. Oktober 2023",
+     "Angriff von Hamas und anderen palästinensischen Extremisten auf Israel."
+    ],
+    [
+     "Woche vor dem Urteil",
+     "Das Zentrale Wahlkomitee stimmt für den Ausschluss arabischer Parteien und von Sami Abu Schehadeh."
+    ],
+    [
+     "Donnerstag",
+     "Der Oberste Gerichtshof empfiehlt dem Politiker Sami Abu Schehadeh einen Rückzug von seiner Kandidatur."
+    ],
+    [
+     "Freitag",
+     "Das Oberste Gericht hebt die Entscheidung des Wahlkomitees zum Ausschluss der arabischen Parteien auf."
+    ],
+    [
+     "27. Oktober",
+     "Geplante Parlamentswahl in Israel."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Jerusalem, Israel"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Datum in den W-Fragen wurde von einem unbestätigten Jahr 2026 auf 'Ende Oktober' korrigiert.",
+    "Der Entwurf wurde vollständig an die Regeln angepasst und wertende Ausdrücke sowie unbestätigte Zusatzinhalte entfernt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Knesset",
+      "So wird das Parlament in Israel genannt."
+     ],
+     [
+      "Oberstes Gericht",
+      "Das höchste Gericht in einem Land, das Gesetze und Entscheidungen überprüft."
+     ],
+     [
+      "Wahlkomitee",
+      "Ein Gremium, das den Ablauf von Wahlen überwacht und über die Zulassung von Parteien entscheidet."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielt das Oberste Gericht bei Streitigkeiten über Wahlen in Israel?",
+     "Warum versuchen Parteien laut den Berichten oft, politische Gegner vor einer Wahl ausschließen zu lassen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat die Entscheidung des Zentralen Wahlkomitees aufgehoben?",
+      "optionen": [
+       "Das Oberste Gericht in Israel",
+       "Der israelische Ministerpräsident",
+       "Die Europäische Union"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von Spiegel, Zeit, FAZ, Deutsche Welle und ORF hat das Oberste Gericht den Beschluss des Wahlkomitees für ungültig erklärt."
+     },
+     {
+      "frage": "Mit wie vielen Stimmen hatte das Zentrale Wahlkomitee zuvor gegen die arabischen Parteien gestimmt?",
+      "optionen": [
+       "Mit zehn zu zehn Stimmen",
+       "Mit achtzehn zu fünf Stimmen",
+       "Einstimmig mit allen Stimmen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Spiegel und ORF berichten übereinstimmend, dass das Komitee mit achtzehn zu fünf Stimmen gestimmt hatte."
+     },
+     {
+      "frage": "Welchen Anteil der israelischen Bevölkerung machen arabischstämmige Menschen nach Angaben der Deutschen Welle aus?",
+      "optionen": [
+       "Etwa fünf Prozent",
+       "Etwa zwanzig Prozent",
+       "Etwa die Hälfte"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Deutsche Welle nennt in ihrem Bericht einen Wert von etwa zwanzig Prozent der israelischen Bevölkerung."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Israel hat das Oberste Gericht entschieden, dass arabische Parteien bei der Wahl im Oktober mitmachen dürfen.",
+    "absaetze": [
+     "Zuvor wollte ein Wahlkomitee diese Parteien von der Wahl ausschließen.",
+     "Das Komitee war der Meinung, dass die Parteien den bewaffneten Kampf unterstützen.",
+     "Das Oberste Gericht sagte jedoch, dass die Regeln für einen Ausschluss nicht erfüllt waren.",
+     "Umfragen zeigen, dass keine Partei eine sichere Mehrheit bekommt.",
+     "Deshalb könnten kleine Parteien sehr wichtig für eine neue Regierung werden."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien bei der Parlamentswahl im Oktober antreten dürfen.",
+     "Damit hob das Gericht einen Beschluss des Zentralen Wahlkomitees auf.",
+     "Umfragen zufolge hat vor der Wahl keines der großen Lager eine absolute Mehrheit."
+    ],
+    "lang": [
+     "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien bei der Parlamentswahl im Oktober antreten dürfen.",
+     "Damit hob das Gericht eine Entscheidung des Zentralen Wahlkomitees auf, das die Parteien zuvor ausschließen wollte.",
+     "Das Komitee hatte mit achtzehn zu fünf Stimmen gegen die Raam-Partei und die Gemeinsame Liste gestimmt.",
+     "Als Grund nannten die Befürworter des Ausschlusses laut den Berichten den Vorwurf der Unterstützung des bewaffneten Kampfes.",
+     "Die Richter des Obersten Gerichts erklärten jedoch, dass die rechtlichen Voraussetzungen für einen Ausschluss nicht erfüllt waren.",
+     "Eine rechtsextreme jüdische Partei wurde nach Angaben der Medien nicht von der Wahl ausgeschlossen.",
+     "Die Vereinigte Arabische Liste verurteilte den ursprünglichen Ausschluss als politisch und antidemokratisch.",
+     "Umfragen zeigen, dass vor der Wahl am siebenundzwanzigsten Oktober keines der großen Lager eine absolute Mehrheit erreicht.",
+     "Der Raam-Partei könnte nach Einschätzung von Beobachtern die Rolle des Königsmachers zufallen.",
+     "Der Politiker Sami Abu Schehadeh zog zudem seine persönliche Kandidatur nach einer Empfehlung des Gerichts zurück."
+    ],
+    "einfach": [
+     "In Israel dürfen arabische Parteien bei der Parlamentswahl im Oktober mitmachen.",
+     "Ein Wahlkomitee wollte das zuerst verbieten.",
+     "Aber das Oberste Gericht hat dieses Verbot wieder aufgehoben.",
+     "Das Gericht sagte, dass es für ein Verbot keinen ausreichenden Grund gab.",
+     "Vor der Wahl ist noch unklar, welche Parteien danach regieren werden."
+    ]
+   },
+   "kurz": [
+    "Das Oberste Gericht in Israel erlaubt arabischen Parteien die Teilnahme an der Parlamentswahl im Oktober.",
+    "Das Zentrale Wahlkomitee wollte die Parteien zuvor ausschließen, was das Gericht für unrechtmäßig erklärte.",
+    "Umfragen zufolge hat keines der großen Lager eine sichere Mehrheit.",
+    "Der Politiker Sami Abu Schehadeh zog seine Kandidatur nach einer Empfehlung des Gerichts zurück."
+   ],
+   "fakten": [
+    [
+     "Stimmen im Wahlkomitee gegen arabische Parteien",
+     "18 zu 5"
+    ],
+    [
+     "Anteil arabischstämmiger Bevölkerung in Israel",
+     "etwa 20 Prozent"
+    ],
+    [
+     "Datum der Parlamentswahl",
+     "27. Oktober"
+    ],
+    [
+     "Sitze der Raam-Partei laut Umfragen in der Knesset",
+     "fünf bis sechs"
+    ],
+    [
+     "Gesamtzahl der Sitze in der Knesset",
+     "120"
+    ]
+   ],
+   "dossier": {
+    "slug": "parlamentswahl-israel-2023",
+    "titel": "Parlamentswahl in Israel"
+   },
+   "bildInfo": {
+    "titel": "Israel Supreme Court.jpg",
+    "beschreibung": "Supreme Court of Israel",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
+    "urheber": "israeltourism",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "art": "ort",
+    "suchbegriff": "Supreme Court of Israel building",
+    "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Israel Supreme Court.jpg",
+     "beschreibung": "Supreme Court of Israel",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
+     "urheber": "israeltourism",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Hearing hall in Israel supreme court.jpg",
+     "beschreibung": "אולם ב' בבית המשפט העליון בירושלים",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hearing_hall_in_Israel_supreme_court.jpg/1280px-Hearing_hall_in_Israel_supreme_court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hearing_hall_in_Israel_supreme_court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hearing_hall_in_Israel_supreme_court.jpg",
+     "urheber": "Avi1111 dr. avishai teicher",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Der Verhandlungssaal im Obersten Gericht in Jerusalem.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "PikiWiki Israel 44720 The Supreme Court building .jpg",
+     "beschreibung": "The Supreme Court building",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg/1280px-PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "urheber": "shaula haitner",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Eine weitere Ansicht des Gebäudes des Obersten Gerichts in Israel.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Jerusalem, Israel",
+    "lat": 31.779,
+    "lon": 35.226
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
   {
    "id": "flydubai-notlandung-angriff",
    "rubrik": "Welt",

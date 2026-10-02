@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-01T18:51:59.883Z",
+ "stand": "2026-10-02T12:25:47.602Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -51,7 +51,45 @@
     "wikipedia": "Griechisches Alphabet",
     "fokus": "Die Griechen ergänzten das Alphabet um Vokale und prägten die europäische Schrift.",
     "versuche": 2,
-    "zuDuenn": 2
+    "zuDuenn": 3,
+    "absaetze": [
+     "Die griechische Schrift hat sich aus der phönizischen Schrift entwickelt.",
+     "Das griechische Alphabet umfasst heute vierundzwanzig Buchstaben.",
+     "Die griechische Anpassung ergänzte das Alphabet um Vokale und prägte die europäische Schrift.",
+     "Das lateinische, kyrillische und koptische Alphabet stammen vom griechischen Alphabet ab.",
+     "Die Vereinheitlichung des Alphabets zum Ionischen hin wurde nicht von allen Regionen gleichermaßen mitgetragen.",
+     "Somit bereitete die griechische Schrift den Weg für viele weitere Schriftsysteme im kommenden Kapitel."
+    ],
+    "fakten": [
+     [
+      "Buchstaben im griechischen Alphabet heute",
+      "24"
+     ],
+     [
+      "Zeitraum des griechischen Alphabets seit",
+      "9. Jahrhundert v. Chr."
+     ]
+    ],
+    "begriffe": [
+     [
+      "Vokale",
+      "Laute wie A, E, I, O, U, die im Gegensatz zu Konsonanten frei gesprochen werden können."
+     ],
+     [
+      "Alphabetschrift",
+      "Ein Schriftsystem, in dem Lauten bestimmte Buchstaben zugeordnet sind."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Griechisches Alphabet",
+     "bildunterschrift": "Das griechische Alphabet bildete die Grundlage für viele europäische Schriften."
+    },
+    "quelle": {
+     "titel": "Griechisches Alphabet",
+     "url": "https://de.wikipedia.org/wiki/Griechisches_Alphabet"
+    },
+    "woerter": 69
    },
    {
     "ueberschrift": "Die lateinische Schrift",

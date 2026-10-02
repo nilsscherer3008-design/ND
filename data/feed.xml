@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Fri, 02 Oct 2026 05:28:38 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 02 Oct 2026 12:25:47 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,17 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Hauptausgabe vom 2026-10-02</title>
+    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Zwischenfall im Cockpit eines Flydubai-Fluges nach Tel Aviv · Bundeswehr kündigt erstes Drohnenregiment an · Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Volkswagen kündigt zahlreiche Haustarifverträge im Rahmen eines Sparprogramms · Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung</description>
+    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Zwischenfall im Cockpit eines Flydubai-Fluges nach Tel Aviv · Bundeswehr kündigt erstes Drohnenregiment an · Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Volkswagen kündigt zahlreiche Haustarifverträge im Rahmen eines Sparprogramms · Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung</itunes:summary>
+    <pubDate>Fri, 02 Oct 2026 05:28:38 GMT</pubDate>
+    <guid isPermaLink="false">hauptausgabe-2026-10-02</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-02.mp3" length="3719181" type="audio/mpeg"/>
+    <itunes:duration>00:10:20</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Zwischenfall im Cockpit auf Flug nach Tel Aviv</title>
     <description>Ein Flug von Flydubai nach Tel Aviv endet nach einem Angriff im Cockpit mit einer Notlandung in Saudi-Arabien. Die israelische Regierung spricht von einem versuchten Terroranschlag.</description>
@@ -56,17 +67,6 @@
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-eine-sternschnuppe</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/15dc578d89.mp3" length="172029" type="audio/mpeg"/>
     <itunes:duration>00:00:29</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Hauptausgabe vom 2026-10-01</title>
-    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Gewaltsamer Zwischenfall im Cockpit eines Flugzeugs nach Tel Aviv · Bundeskabinett bringt Gesetzentwurf zur Reform der Pflegeversicherung auf den Weg · Regierungsbildung in Marokko nach der Parlamentswahl · Volkswagen kündigt Tarifverträge im Rahmen von Sparmaßnahmen</description>
-    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Gewaltsamer Zwischenfall im Cockpit eines Flugzeugs nach Tel Aviv · Bundeskabinett bringt Gesetzentwurf zur Reform der Pflegeversicherung auf den Weg · Regierungsbildung in Marokko nach der Parlamentswahl · Volkswagen kündigt Tarifverträge im Rahmen von Sparmaßnahmen</itunes:summary>
-    <pubDate>Thu, 01 Oct 2026 05:44:41 GMT</pubDate>
-    <guid isPermaLink="false">hauptausgabe-2026-10-01</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-01.mp3" length="3519021" type="audio/mpeg"/>
-    <itunes:duration>00:09:46</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
