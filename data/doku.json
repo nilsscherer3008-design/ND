@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-03T13:19:51.785Z",
+ "stand": "2026-10-03T17:54:49.887Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -159,7 +159,8 @@
    {
     "ueberschrift": "Die Entzifferung alter Schriften",
     "wikipedia": "Rosettastein",
-    "fokus": "Forscher konnten dank historischer Funde längst vergessene Schriften lesen."
+    "fokus": "Forscher konnten dank historischer Funde längst vergessene Schriften lesen.",
+    "versuche": 1
    },
    {
     "ueberschrift": "Die Entwicklung des Buchdrucks",

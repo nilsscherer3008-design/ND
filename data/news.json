@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-03T13:19:51.785Z",
+ "stand": "2026-10-03T17:54:49.887Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -61,7 +61,8 @@
   "israel-oberstes-gericht-arabische-parteien",
   "g7-freigabe-oel-reserven",
   "galeria-insolvenz",
-  "spanische-wohnungskrise-parlament"
+  "spanische-wohnungskrise-parlament",
+  "schuelerproteste-frankreich"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -79,10 +80,11 @@
   "israel-oberstes-gericht-arabische-parteien",
   "g7-freigabe-oel-reserven",
   "galeria-insolvenz",
-  "spanische-wohnungskrise-parlament"
+  "spanische-wohnungskrise-parlament",
+  "schuelerproteste-frankreich"
  ],
  "wetter": {
-  "stand": "2026-10-03T13:19:51.785Z",
+  "stand": "2026-10-03T17:54:49.887Z",
   "morgenTag": "Sonntag",
   "orte": [
    {
@@ -91,25 +93,25 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 19,
+     "grad": 17,
      "code": 3,
-     "gefuehlt": 19,
-     "wind": 7,
-     "windAus": 259,
-     "feuchte": 58,
+     "gefuehlt": 17,
+     "wind": 3,
+     "windAus": 230,
+     "feuchte": 72,
      "druck": 1028,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 45,
-     "max": 19,
+     "max": 20,
      "min": 9,
      "regen": 0,
      "menge": 0,
      "wind": 7,
-     "windAus": 181,
+     "windAus": 179,
      "uv": 2.9,
      "auf": "07:25",
      "unter": "18:51"
@@ -121,9 +123,9 @@
      "min": 12,
      "regen": 3,
      "menge": 0,
-     "wind": 6,
-     "windAus": 267,
-     "uv": 3,
+     "wind": 9,
+     "windAus": 268,
+     "uv": 3.2,
      "auf": "07:26",
      "unter": "18:49"
     },
@@ -131,12 +133,12 @@
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 19,
+      "max": 20,
       "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 181,
+      "windAus": 179,
       "uv": 2.9,
       "auf": "07:25",
       "unter": "18:51"
@@ -148,9 +150,9 @@
       "min": 12,
       "regen": 3,
       "menge": 0,
-      "wind": 6,
-      "windAus": 267,
-      "uv": 3,
+      "wind": 9,
+      "windAus": 268,
+      "uv": 3.2,
       "auf": "07:26",
       "unter": "18:49"
      },
@@ -161,9 +163,9 @@
       "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 12,
-      "windAus": 236,
-      "uv": 3,
+      "wind": 13,
+      "windAus": 234,
+      "uv": 3.1,
       "auf": "07:28",
       "unter": "18:47"
      },
@@ -171,80 +173,56 @@
       "datum": "2026-10-06",
       "code": 3,
       "max": 21,
-      "min": 11,
+      "min": 13,
       "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 224,
-      "uv": 1.7,
+      "menge": 0.1,
+      "wind": 11,
+      "windAus": 236,
+      "uv": 1.9,
       "auf": "07:30",
       "unter": "18:44"
      },
      {
       "datum": "2026-10-07",
       "code": 61,
-      "max": 18,
-      "min": 8,
-      "regen": 53,
-      "menge": 6.6,
-      "wind": 9,
-      "windAus": 359,
-      "uv": 2.8,
+      "max": 21,
+      "min": 11,
+      "regen": 62,
+      "menge": 0.6,
+      "wind": 7,
+      "windAus": 169,
+      "uv": 2.4,
       "auf": "07:32",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-08",
-      "code": 3,
-      "max": 14,
+      "code": 61,
+      "max": 15,
       "min": 7,
-      "regen": 63,
-      "menge": 2.1,
-      "wind": 17,
-      "windAus": 309,
-      "uv": 2.7,
+      "regen": 68,
+      "menge": 0.6,
+      "wind": 15,
+      "windAus": 301,
+      "uv": 2.9,
       "auf": "07:34",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 13,
-      "min": 6,
-      "regen": 18,
-      "menge": 3,
-      "wind": 17,
-      "windAus": 250,
-      "uv": 1.9,
+      "max": 14,
+      "min": 7,
+      "regen": 40,
+      "menge": 2.1,
+      "wind": 14,
+      "windAus": 229,
+      "uv": 0.3,
       "auf": "07:35",
       "unter": "18:37"
      }
     ],
     "stunden": [
-     {
-      "zeit": "15:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
      {
       "zeit": "19:00",
       "grad": 18,
@@ -265,7 +243,7 @@
      },
      {
       "zeit": "22:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -289,7 +267,7 @@
      },
      {
       "zeit": "02:00",
-      "grad": 13,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
@@ -313,7 +291,7 @@
      },
      {
       "zeit": "06:00",
-      "grad": 12,
+      "grad": 13,
       "code": 3,
       "regen": 0
      },
@@ -327,42 +305,66 @@
       "zeit": "08:00",
       "grad": 12,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "09:00",
       "grad": 12,
-      "code": 3,
-      "regen": 3
+      "code": 2,
+      "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
+      "grad": 14,
+      "code": 2,
+      "regen": 3
      },
      {
       "zeit": "11:00",
       "grad": 14,
-      "code": 3,
+      "code": 2,
       "regen": 3
      },
      {
       "zeit": "12:00",
       "grad": 15,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 17,
-      "code": 3,
-      "regen": 3
+      "code": 2,
+      "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 18,
+      "code": 2,
       "regen": 0
      }
     ]
@@ -373,38 +375,38 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 19,
+     "grad": 18,
      "code": 3,
-     "gefuehlt": 19,
-     "wind": 6,
-     "windAus": 101,
-     "feuchte": 66,
-     "druck": 1027,
+     "gefuehlt": 18,
+     "wind": 5,
+     "windAus": 122,
+     "feuchte": 72,
+     "druck": 1026,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 45,
-     "max": 19,
+     "max": 20,
      "min": 13,
      "regen": 3,
      "menge": 0,
      "wind": 6,
-     "windAus": 87,
-     "uv": 2.2,
+     "windAus": 93,
+     "uv": 2.5,
      "auf": "07:10",
      "unter": "18:39"
     },
     "morgen": {
      "datum": "2026-10-04",
      "code": 45,
-     "max": 19,
+     "max": 20,
      "min": 12,
      "regen": 3,
      "menge": 0,
-     "wind": 7,
-     "windAus": 290,
+     "wind": 8,
+     "windAus": 274,
      "uv": 3.1,
      "auf": "07:12",
      "unter": "18:36"
@@ -413,25 +415,25 @@
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 19,
+      "max": 20,
       "min": 13,
       "regen": 3,
       "menge": 0,
       "wind": 6,
-      "windAus": 87,
-      "uv": 2.2,
+      "windAus": 93,
+      "uv": 2.5,
       "auf": "07:10",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-04",
       "code": 45,
-      "max": 19,
+      "max": 20,
       "min": 12,
       "regen": 3,
       "menge": 0,
-      "wind": 7,
-      "windAus": 290,
+      "wind": 8,
+      "windAus": 274,
       "uv": 3.1,
       "auf": "07:12",
       "unter": "18:36"
@@ -444,89 +446,65 @@
       "regen": 0,
       "menge": 0,
       "wind": 10,
-      "windAus": 239,
-      "uv": 3.4,
+      "windAus": 240,
+      "uv": 3.2,
       "auf": "07:14",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-06",
-      "code": 3,
+      "code": 2,
       "max": 22,
-      "min": 10,
-      "regen": 2,
+      "min": 11,
+      "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 197,
+      "wind": 7,
+      "windAus": 224,
       "uv": 3.4,
       "auf": "07:15",
       "unter": "18:32"
      },
      {
       "datum": "2026-10-07",
-      "code": 2,
-      "max": 24,
-      "min": 10,
-      "regen": 18,
+      "code": 3,
+      "max": 23,
+      "min": 9,
+      "regen": 10,
       "menge": 0,
-      "wind": 6,
-      "windAus": 150,
-      "uv": 3.3,
+      "wind": 10,
+      "windAus": 147,
+      "uv": 3.1,
       "auf": "07:17",
       "unter": "18:29"
      },
      {
       "datum": "2026-10-08",
-      "code": 63,
+      "code": 80,
       "max": 15,
       "min": 10,
-      "regen": 55,
-      "menge": 17.3,
-      "wind": 14,
-      "windAus": 295,
-      "uv": 1.6,
+      "regen": 60,
+      "menge": 3.3,
+      "wind": 12,
+      "windAus": 298,
+      "uv": 3.1,
       "auf": "07:19",
       "unter": "18:27"
      },
      {
       "datum": "2026-10-09",
       "code": 3,
-      "max": 15,
-      "min": 7,
+      "max": 14,
+      "min": 6,
       "regen": 21,
       "menge": 0,
-      "wind": 17,
-      "windAus": 271,
-      "uv": 3.1,
+      "wind": 10,
+      "windAus": 279,
+      "uv": 1.2,
       "auf": "07:21",
       "unter": "18:25"
      }
     ],
     "stunden": [
-     {
-      "zeit": "15:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "19:00",
       "grad": 18,
@@ -535,7 +513,7 @@
      },
      {
       "zeit": "20:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
@@ -559,49 +537,49 @@
      },
      {
       "zeit": "00:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 3
+      "grad": 17,
+      "code": 3,
+      "regen": 0
      },
      {
       "zeit": "01:00",
       "grad": 16,
-      "code": 2,
-      "regen": 0
+      "code": 3,
+      "regen": 3
      },
      {
       "zeit": "02:00",
       "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "03:00",
-      "grad": 15,
-      "code": 2,
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 14,
-      "code": 2,
+      "grad": 15,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 14,
-      "code": 45,
+      "grad": 15,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
-      "grad": 13,
-      "code": 45,
+      "grad": 14,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 12,
+      "grad": 14,
       "code": 45,
       "regen": 0
      },
@@ -613,13 +591,13 @@
      },
      {
       "zeit": "09:00",
-      "grad": 12,
+      "grad": 13,
       "code": 45,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 12,
+      "grad": 14,
       "code": 45,
       "regen": 0
      },
@@ -632,17 +610,41 @@
      {
       "zeit": "12:00",
       "grad": 17,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 20,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
       "grad": 19,
       "code": 3,
       "regen": 0
@@ -658,36 +660,36 @@
      "grad": 18,
      "code": 3,
      "gefuehlt": 19,
-     "wind": 3,
-     "windAus": 41,
-     "feuchte": 79,
+     "wind": 1,
+     "windAus": 333,
+     "feuchte": 82,
      "druck": 1017,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 3,
      "max": 18,
      "min": 15,
-     "regen": 0,
+     "regen": 3,
      "menge": 0,
      "wind": 5,
-     "windAus": 39,
-     "uv": 1.9,
+     "windAus": 43,
+     "uv": 1.6,
      "auf": "07:14",
      "unter": "18:43"
     },
     "morgen": {
      "datum": "2026-10-04",
      "code": 45,
-     "max": 18,
+     "max": 19,
      "min": 12,
      "regen": 0,
      "menge": 0,
-     "wind": 4,
-     "windAus": 300,
-     "uv": 3.6,
+     "wind": 6,
+     "windAus": 272,
+     "uv": 3.1,
      "auf": "07:15",
      "unter": "18:41"
     },
@@ -697,24 +699,24 @@
       "code": 3,
       "max": 18,
       "min": 15,
-      "regen": 0,
+      "regen": 3,
       "menge": 0,
       "wind": 5,
-      "windAus": 39,
-      "uv": 1.9,
+      "windAus": 43,
+      "uv": 1.6,
       "auf": "07:14",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-04",
       "code": 45,
-      "max": 18,
+      "max": 19,
       "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 4,
-      "windAus": 300,
-      "uv": 3.6,
+      "wind": 6,
+      "windAus": 272,
+      "uv": 3.1,
       "auf": "07:15",
       "unter": "18:41"
      },
@@ -725,21 +727,21 @@
       "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 198,
+      "wind": 7,
+      "windAus": 213,
       "uv": 3.6,
       "auf": "07:17",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-06",
-      "code": 3,
-      "max": 22,
-      "min": 9,
-      "regen": 2,
+      "code": 2,
+      "max": 21,
+      "min": 10,
+      "regen": 0,
       "menge": 0,
-      "wind": 4,
-      "windAus": 164,
+      "wind": 5,
+      "windAus": 175,
       "uv": 3.6,
       "auf": "07:19",
       "unter": "18:37"
@@ -747,26 +749,26 @@
      {
       "datum": "2026-10-07",
       "code": 3,
-      "max": 23,
-      "min": 10,
-      "regen": 19,
+      "max": 24,
+      "min": 9,
+      "regen": 12,
       "menge": 0,
-      "wind": 5,
+      "wind": 8,
       "windAus": 171,
-      "uv": 3.5,
+      "uv": 3.4,
       "auf": "07:20",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 15,
-      "min": 9,
-      "regen": 73,
-      "menge": 20.7,
-      "wind": 15,
-      "windAus": 303,
-      "uv": 1.2,
+      "max": 17,
+      "min": 10,
+      "regen": 58,
+      "menge": 8.1,
+      "wind": 13,
+      "windAus": 304,
+      "uv": 3.3,
       "auf": "07:22",
       "unter": "18:32"
      },
@@ -775,40 +777,16 @@
       "code": 3,
       "max": 14,
       "min": 7,
-      "regen": 30,
+      "regen": 34,
       "menge": 0,
-      "wind": 14,
-      "windAus": 263,
-      "uv": 3.2,
+      "wind": 11,
+      "windAus": 279,
+      "uv": 1,
       "auf": "07:23",
       "unter": "18:30"
      }
     ],
     "stunden": [
-     {
-      "zeit": "15:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "19:00",
       "grad": 18,
@@ -830,31 +808,31 @@
      {
       "zeit": "22:00",
       "grad": 17,
-      "code": 2,
-      "regen": 0
+      "code": 3,
+      "regen": 3
      },
      {
       "zeit": "23:00",
       "grad": 16,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "00:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 15,
-      "code": 45,
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "02:00",
-      "grad": 14,
-      "code": 45,
+      "grad": 15,
+      "code": 2,
       "regen": 0
      },
      {
@@ -901,14 +879,14 @@
      },
      {
       "zeit": "10:00",
-      "grad": 12,
+      "grad": 13,
       "code": 45,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 13,
-      "code": 45,
+      "grad": 15,
+      "code": 3,
       "regen": 0
      },
      {
@@ -919,13 +897,37 @@
      },
      {
       "zeit": "13:00",
-      "grad": 16,
+      "grad": 17,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 17,
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 18,
       "code": 3,
       "regen": 0
      }
@@ -937,15 +939,15 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 22,
-     "code": 3,
-     "gefuehlt": 21,
-     "wind": 1,
-     "windAus": 256,
-     "feuchte": 48,
+     "grad": 19,
+     "code": 2,
+     "gefuehlt": 19,
+     "wind": 6,
+     "windAus": 54,
+     "feuchte": 55,
      "druck": 1022,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
@@ -955,7 +957,7 @@
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 99,
+     "windAus": 107,
      "uv": 3.6,
      "auf": "07:35",
      "unter": "19:05"
@@ -964,12 +966,12 @@
      "datum": "2026-10-04",
      "code": 3,
      "max": 22,
-     "min": 14,
-     "regen": 2,
+     "min": 15,
+     "regen": 0,
      "menge": 0,
-     "wind": 7,
-     "windAus": 78,
-     "uv": 3.7,
+     "wind": 8,
+     "windAus": 121,
+     "uv": 3.6,
      "auf": "07:37",
      "unter": "19:03"
     },
@@ -982,7 +984,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 99,
+      "windAus": 107,
       "uv": 3.6,
       "auf": "07:35",
       "unter": "19:05"
@@ -991,24 +993,24 @@
       "datum": "2026-10-04",
       "code": 3,
       "max": 22,
-      "min": 14,
-      "regen": 2,
+      "min": 15,
+      "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 78,
-      "uv": 3.7,
+      "wind": 8,
+      "windAus": 121,
+      "uv": 3.6,
       "auf": "07:37",
       "unter": "19:03"
      },
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 24,
+      "max": 23,
       "min": 14,
-      "regen": 2,
+      "regen": 0,
       "menge": 0,
-      "wind": 9,
-      "windAus": 163,
+      "wind": 10,
+      "windAus": 155,
       "uv": 3.7,
       "auf": "07:38",
       "unter": "19:01"
@@ -1018,11 +1020,11 @@
       "code": 3,
       "max": 21,
       "min": 9,
-      "regen": 14,
+      "regen": 12,
       "menge": 0,
       "wind": 6,
-      "windAus": 101,
-      "uv": 3.7,
+      "windAus": 91,
+      "uv": 3.4,
       "auf": "07:40",
       "unter": "18:59"
      },
@@ -1031,11 +1033,11 @@
       "code": 55,
       "max": 22,
       "min": 10,
-      "regen": 71,
+      "regen": 65,
       "menge": 3.3,
       "wind": 11,
       "windAus": 104,
-      "uv": 3.6,
+      "uv": 3.3,
       "auf": "07:42",
       "unter": "18:56"
      },
@@ -1044,11 +1046,11 @@
       "code": 80,
       "max": 15,
       "min": 9,
-      "regen": 78,
+      "regen": 77,
       "menge": 13.5,
       "wind": 21,
       "windAus": 292,
-      "uv": 2.4,
+      "uv": 2.8,
       "auf": "07:43",
       "unter": "18:54"
      },
@@ -1061,46 +1063,22 @@
       "menge": 4.2,
       "wind": 14,
       "windAus": 308,
-      "uv": 2,
+      "uv": 1.2,
       "auf": "07:45",
       "unter": "18:52"
      }
     ],
     "stunden": [
      {
-      "zeit": "15:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 22,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "19:00",
-      "grad": 20,
-      "code": 2,
+      "grad": 21,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
       "grad": 19,
-      "code": 0,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1117,7 +1095,7 @@
      },
      {
       "zeit": "23:00",
-      "grad": 17,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -1129,25 +1107,25 @@
      },
      {
       "zeit": "01:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "02:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
@@ -1165,37 +1143,37 @@
      },
      {
       "zeit": "07:00",
-      "grad": 14,
+      "grad": 15,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "08:00",
-      "grad": 14,
+      "grad": 15,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "09:00",
       "grad": 15,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 16,
-      "code": 1,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
       "grad": 17,
-      "code": 0,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 19,
+      "grad": 18,
       "code": 0,
       "regen": 0
      },
@@ -1208,6 +1186,30 @@
      {
       "zeit": "14:00",
       "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 22,
       "code": 0,
       "regen": 0
      }
@@ -1219,25 +1221,25 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 20,
-     "code": 0,
-     "gefuehlt": 21,
-     "wind": 3,
-     "windAus": 72,
-     "feuchte": 60,
-     "druck": 1017,
+     "grad": 19,
+     "code": 2,
+     "gefuehlt": 18,
+     "wind": 5,
+     "windAus": 18,
+     "feuchte": 48,
+     "druck": 1016,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 45,
-     "max": 21,
+     "max": 22,
      "min": 10,
      "regen": 0,
      "menge": 0,
-     "wind": 5,
-     "windAus": 41,
+     "wind": 6,
+     "windAus": 42,
      "uv": 3.9,
      "auf": "07:28",
      "unter": "18:59"
@@ -1245,13 +1247,13 @@
     "morgen": {
      "datum": "2026-10-04",
      "code": 3,
-     "max": 21,
+     "max": 22,
      "min": 11,
-     "regen": 5,
+     "regen": 8,
      "menge": 0,
      "wind": 5,
-     "windAus": 53,
-     "uv": 3.2,
+     "windAus": 47,
+     "uv": 3.6,
      "auf": "07:29",
      "unter": "18:57"
     },
@@ -1259,12 +1261,12 @@
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 21,
+      "max": 22,
       "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 41,
+      "wind": 6,
+      "windAus": 42,
       "uv": 3.9,
       "auf": "07:28",
       "unter": "18:59"
@@ -1272,26 +1274,26 @@
      {
       "datum": "2026-10-04",
       "code": 3,
-      "max": 21,
+      "max": 22,
       "min": 11,
-      "regen": 5,
+      "regen": 8,
       "menge": 0,
       "wind": 5,
-      "windAus": 53,
-      "uv": 3.2,
+      "windAus": 47,
+      "uv": 3.6,
       "auf": "07:29",
       "unter": "18:57"
      },
      {
       "datum": "2026-10-05",
       "code": 3,
-      "max": 21,
-      "min": 9,
+      "max": 22,
+      "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 4,
-      "windAus": 98,
-      "uv": 3.7,
+      "wind": 7,
+      "windAus": 157,
+      "uv": 3.8,
       "auf": "07:31",
       "unter": "18:55"
      },
@@ -1299,38 +1301,38 @@
       "datum": "2026-10-06",
       "code": 45,
       "max": 22,
-      "min": 7,
-      "regen": 4,
+      "min": 8,
+      "regen": 2,
       "menge": 0,
-      "wind": 5,
-      "windAus": 51,
+      "wind": 4,
+      "windAus": 53,
       "uv": 3.8,
       "auf": "07:32",
       "unter": "18:52"
      },
      {
       "datum": "2026-10-07",
-      "code": 80,
+      "code": 63,
       "max": 22,
       "min": 6,
-      "regen": 61,
-      "menge": 5.4,
-      "wind": 6,
-      "windAus": 226,
-      "uv": 3.7,
+      "regen": 52,
+      "menge": 7.2,
+      "wind": 9,
+      "windAus": 213,
+      "uv": 3.5,
       "auf": "07:34",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
-      "max": 16,
+      "code": 80,
+      "max": 17,
       "min": 8,
-      "regen": 70,
-      "menge": 15.3,
-      "wind": 11,
-      "windAus": 314,
-      "uv": 1.1,
+      "regen": 61,
+      "menge": 5.1,
+      "wind": 12,
+      "windAus": 307,
+      "uv": 3.5,
       "auf": "07:36",
       "unter": "18:48"
      },
@@ -1340,115 +1342,91 @@
       "max": 14,
       "min": 5,
       "regen": 26,
-      "menge": 1.2,
-      "wind": 15,
-      "windAus": 242,
-      "uv": 3.3,
+      "menge": 0.6,
+      "wind": 11,
+      "windAus": 238,
+      "uv": 0.9,
       "auf": "07:37",
       "unter": "18:46"
      }
     ],
     "stunden": [
      {
-      "zeit": "15:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 21,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 21,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 21,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "19:00",
-      "grad": 20,
+      "grad": 21,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 18,
-      "code": 1,
+      "grad": 19,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 17,
+      "grad": 18,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "22:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
       "grad": 16,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "23:00",
+      "zeit": "00:00",
       "grad": 15,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "00:00",
+      "zeit": "01:00",
       "grad": 14,
-      "code": 2,
+      "code": 0,
       "regen": 0
      },
      {
-      "zeit": "01:00",
+      "zeit": "02:00",
       "grad": 13,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "02:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "03:00",
-      "grad": 12,
-      "code": 2,
+      "grad": 13,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 11,
+      "grad": 12,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 11,
-      "code": 2,
+      "grad": 12,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "06:00",
-      "grad": 11,
+      "grad": 12,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 11,
-      "code": 3,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1459,21 +1437,21 @@
      },
      {
       "zeit": "09:00",
-      "grad": 11,
-      "code": 2,
+      "grad": 12,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 13,
-      "code": 2,
+      "grad": 14,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
       "grad": 15,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "12:00",
@@ -1483,15 +1461,39 @@
      },
      {
       "zeit": "13:00",
-      "grad": 18,
+      "grad": 19,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "14:00",
       "grad": 20,
       "code": 3,
       "regen": 3
+     },
+     {
+      "zeit": "15:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 22,
+      "code": 0,
+      "regen": 8
+     },
+     {
+      "zeit": "18:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 8
      }
     ]
    },
@@ -1501,39 +1503,39 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 21,
-     "code": 3,
-     "gefuehlt": 21,
-     "wind": 6,
-     "windAus": 24,
+     "grad": 20,
+     "code": 1,
+     "gefuehlt": 20,
+     "wind": 4,
+     "windAus": 354,
      "feuchte": 64,
-     "druck": 999,
+     "druck": 998,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 45,
-     "max": 21,
+     "max": 22,
      "min": 14,
      "regen": 0,
      "menge": 0,
-     "wind": 8,
-     "windAus": 7,
+     "wind": 6,
+     "windAus": 16,
      "uv": 3.7,
      "auf": "07:25",
      "unter": "18:58"
     },
     "morgen": {
      "datum": "2026-10-04",
-     "code": 45,
-     "max": 21,
+     "code": 61,
+     "max": 22,
      "min": 12,
-     "regen": 25,
-     "menge": 0,
+     "regen": 35,
+     "menge": 0.4,
      "wind": 8,
-     "windAus": 319,
-     "uv": 3.4,
+     "windAus": 353,
+     "uv": 3.3,
      "auf": "07:26",
      "unter": "18:56"
     },
@@ -1541,26 +1543,26 @@
      {
       "datum": "2026-10-03",
       "code": 45,
-      "max": 21,
+      "max": 22,
       "min": 14,
       "regen": 0,
       "menge": 0,
-      "wind": 8,
-      "windAus": 7,
+      "wind": 6,
+      "windAus": 16,
       "uv": 3.7,
       "auf": "07:25",
       "unter": "18:58"
      },
      {
       "datum": "2026-10-04",
-      "code": 45,
-      "max": 21,
+      "code": 61,
+      "max": 22,
       "min": 12,
-      "regen": 25,
-      "menge": 0,
+      "regen": 35,
+      "menge": 0.4,
       "wind": 8,
-      "windAus": 319,
-      "uv": 3.4,
+      "windAus": 353,
+      "uv": 3.3,
       "auf": "07:26",
       "unter": "18:56"
      },
@@ -1569,23 +1571,23 @@
       "code": 3,
       "max": 22,
       "min": 12,
-      "regen": 18,
+      "regen": 15,
       "menge": 0,
       "wind": 6,
-      "windAus": 197,
-      "uv": 3.6,
+      "windAus": 174,
+      "uv": 3.8,
       "auf": "07:28",
       "unter": "18:54"
      },
      {
       "datum": "2026-10-06",
-      "code": 1,
-      "max": 23,
+      "code": 45,
+      "max": 22,
       "min": 10,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 149,
+      "windAus": 145,
       "uv": 3.8,
       "auf": "07:29",
       "unter": "18:51"
@@ -1593,138 +1595,114 @@
      {
       "datum": "2026-10-07",
       "code": 3,
-      "max": 24,
-      "min": 10,
-      "regen": 44,
+      "max": 25,
+      "min": 9,
+      "regen": 27,
       "menge": 0,
-      "wind": 6,
-      "windAus": 185,
-      "uv": 3.7,
+      "wind": 10,
+      "windAus": 199,
+      "uv": 3.6,
       "auf": "07:31",
       "unter": "18:49"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
+      "code": 80,
       "max": 18,
-      "min": 10,
-      "regen": 73,
-      "menge": 17.7,
-      "wind": 21,
-      "windAus": 311,
-      "uv": 0.6,
+      "min": 9,
+      "regen": 71,
+      "menge": 23.9,
+      "wind": 15,
+      "windAus": 305,
+      "uv": 1.2,
       "auf": "07:32",
       "unter": "18:47"
      },
      {
       "datum": "2026-10-09",
       "code": 3,
-      "max": 12,
-      "min": 8,
-      "regen": 44,
+      "max": 13,
+      "min": 7,
+      "regen": 37,
       "menge": 0,
       "wind": 10,
-      "windAus": 294,
-      "uv": 2.3,
+      "windAus": 307,
+      "uv": 1.1,
       "auf": "07:34",
       "unter": "18:45"
      }
     ],
     "stunden": [
      {
-      "zeit": "15:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "19:00",
-      "grad": 20,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 19,
-      "code": 0,
+      "grad": 20,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 17,
+      "grad": 19,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 16,
-      "code": 1,
+      "grad": 18,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 16,
-      "code": 3,
+      "grad": 17,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "00:00",
-      "grad": 15,
+      "grad": 16,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 15,
-      "code": 1,
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 15,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 14,
-      "code": 1,
+      "grad": 15,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "04:00",
       "grad": 14,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "05:00",
       "grad": 14,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "06:00",
       "grad": 13,
-      "code": 45,
+      "code": 3,
       "regen": 0
      },
      {
@@ -1741,14 +1719,14 @@
      },
      {
       "zeit": "09:00",
-      "grad": 12,
-      "code": 45,
+      "grad": 13,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 15,
-      "code": 45,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1759,21 +1737,45 @@
      },
      {
       "zeit": "12:00",
-      "grad": 19,
-      "code": 3,
+      "grad": 18,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 20,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 21,
       "code": 3,
-      "regen": 3
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "17:00",
+      "grad": 22,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "18:00",
+      "grad": 21,
+      "code": 61,
+      "regen": 20
      }
     ]
    },
@@ -1783,38 +1785,38 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 20,
-     "code": 3,
-     "gefuehlt": 20,
-     "wind": 6,
-     "windAus": 325,
-     "feuchte": 61,
+     "grad": 18,
+     "code": 0,
+     "gefuehlt": 18,
+     "wind": 5,
+     "windAus": 90,
+     "feuchte": 73,
      "druck": 968,
      "niederschlag": 0,
-     "tag": 1
+     "tag": 0
     },
     "heute": {
      "datum": "2026-10-03",
      "code": 3,
-     "max": 21,
-     "min": 15,
+     "max": 20,
+     "min": 14,
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 43,
+     "windAus": 47,
      "uv": 3.8,
      "auf": "07:15",
      "unter": "18:48"
     },
     "morgen": {
      "datum": "2026-10-04",
-     "code": 45,
-     "max": 21,
+     "code": 61,
+     "max": 22,
      "min": 11,
-     "regen": 18,
-     "menge": 0,
+     "regen": 25,
+     "menge": 0.1,
      "wind": 8,
-     "windAus": 50,
+     "windAus": 40,
      "uv": 3.9,
      "auf": "07:16",
      "unter": "18:46"
@@ -1823,38 +1825,38 @@
      {
       "datum": "2026-10-03",
       "code": 3,
-      "max": 21,
-      "min": 15,
+      "max": 20,
+      "min": 14,
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 43,
+      "windAus": 47,
       "uv": 3.8,
       "auf": "07:15",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-04",
-      "code": 45,
-      "max": 21,
+      "code": 61,
+      "max": 22,
       "min": 11,
-      "regen": 18,
-      "menge": 0,
+      "regen": 25,
+      "menge": 0.1,
       "wind": 8,
-      "windAus": 50,
+      "windAus": 40,
       "uv": 3.9,
       "auf": "07:16",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-05",
-      "code": 3,
-      "max": 21,
+      "code": 61,
+      "max": 20,
       "min": 14,
       "regen": 35,
-      "menge": 0,
+      "menge": 0.5,
       "wind": 6,
-      "windAus": 17,
+      "windAus": 30,
       "uv": 3.8,
       "auf": "07:18",
       "unter": "18:44"
@@ -1862,12 +1864,12 @@
      {
       "datum": "2026-10-06",
       "code": 45,
-      "max": 22,
-      "min": 9,
+      "max": 21,
+      "min": 10,
       "regen": 2,
       "menge": 0,
-      "wind": 9,
-      "windAus": 95,
+      "wind": 8,
+      "windAus": 104,
       "uv": 3.8,
       "auf": "07:19",
       "unter": "18:42"
@@ -1877,66 +1879,42 @@
       "code": 45,
       "max": 23,
       "min": 8,
-      "regen": 6,
+      "regen": 3,
       "menge": 0,
-      "wind": 5,
+      "wind": 4,
       "windAus": 163,
-      "uv": 3.8,
+      "uv": 3.7,
       "auf": "07:21",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
-      "max": 16,
+      "code": 63,
+      "max": 15,
       "min": 9,
       "regen": 79,
-      "menge": 13.5,
-      "wind": 15,
-      "windAus": 270,
-      "uv": 2.7,
+      "menge": 28.8,
+      "wind": 14,
+      "windAus": 283,
+      "uv": 0.4,
       "auf": "07:22",
       "unter": "18:38"
      },
      {
       "datum": "2026-10-09",
-      "code": 3,
+      "code": 80,
       "max": 11,
-      "min": 7,
-      "regen": 67,
-      "menge": 0.6,
-      "wind": 12,
-      "windAus": 294,
-      "uv": 1.1,
+      "min": 6,
+      "regen": 78,
+      "menge": 12.9,
+      "wind": 13,
+      "windAus": 323,
+      "uv": 2.9,
       "auf": "07:24",
       "unter": "18:36"
      }
     ],
     "stunden": [
-     {
-      "zeit": "15:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 21,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 0
-     },
      {
       "zeit": "19:00",
       "grad": 19,
@@ -1946,13 +1924,13 @@
      {
       "zeit": "20:00",
       "grad": 18,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 16,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1963,7 +1941,7 @@
      },
      {
       "zeit": "23:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
@@ -1975,31 +1953,31 @@
      },
      {
       "zeit": "01:00",
-      "grad": 14,
-      "code": 2,
+      "grad": 13,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "02:00",
       "grad": 13,
-      "code": 45,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "03:00",
       "grad": 13,
-      "code": 45,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 13,
-      "code": 45,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 11,
+      "grad": 12,
       "code": 45,
       "regen": 0
      },
@@ -2024,12 +2002,12 @@
      {
       "zeit": "09:00",
       "grad": 12,
-      "code": 45,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 14,
+      "grad": 15,
       "code": 2,
       "regen": 0
      },
@@ -2041,20 +2019,44 @@
      },
      {
       "zeit": "12:00",
-      "grad": 18,
-      "code": 2,
+      "grad": 19,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 20,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 21,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 22,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 22,
       "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 21,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 21,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -2062,7 +2064,7 @@
   ],
   "text": [
    "Heute liegen die Höchstwerte zwischen 18 und 22 Grad.",
-   "Die Vorhersage für morgen, Sonntag, im ganzen Land: neblig.",
+   "Die Vorhersage für morgen, Sonntag: im Norden und Osten neblig, im Süden und Westen leichter Regen.",
    "Die Temperaturen erreichen dann 18 bis 22 Grad.",
    "Am wärmsten wird es in Köln mit 22 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
@@ -2099,13 +2101,13 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 19,
+       "grad": 20,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 20,
        "regen": 0
       },
       {
@@ -2122,13 +2124,13 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 18,
+       "grad": 19,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 20,
        "regen": 0
       },
       {
@@ -2145,7 +2147,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
@@ -2168,7 +2170,7 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
@@ -2191,14 +2193,14 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 21,
-       "regen": 0
+       "grad": 22,
+       "regen": 0.4
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 22,
-       "regen": 1.6
+       "grad": 21,
+       "regen": 0.6
       },
       {
        "name": "ECMWF",
@@ -2214,8 +2216,8 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 21,
-       "regen": 0
+       "grad": 22,
+       "regen": 0.1
       },
       {
        "name": "GFS",
@@ -2232,20 +2234,10 @@
      ]
     }
    ],
-   "spanneGrad": 3,
-   "uneinigRegen": {
-    "ort": "Stuttgart",
-    "nass": [
-     "GFS"
-    ],
-    "trocken": [
-     "ICON",
-     "ECMWF"
-    ]
-   },
+   "spanneGrad": 2,
+   "uneinigRegen": null,
    "saetze": [
-    "Für Leipzig gehen die Modelle am weitesten auseinander: zwischen 18 und 21 Grad.",
-    "Und in Stuttgart erwartet GFS Regen, ICON und ECMWF dagegen nicht."
+    "Für Köln gehen die Modelle am weitesten auseinander: zwischen 20 und 22 Grad."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2438,643 +2430,110 @@
  },
  "nachrichten": [
   {
-   "id": "flydubai-notlandung-angriff",
+   "id": "schuelerproteste-frankreich",
    "rubrik": "Welt",
-   "zeit": "2026-10-04T06:12:00.000Z",
-   "aktualisiert": "aktualisiert um 15:19 Uhr",
-   "titel": "Behörden der Emirate untersuchen Angriff auf Flydubai-Flug nach Tel Aviv als Terrorakt",
-   "vorspann": "Auf einem Flug von Dubai nach Israel hat ein Kopilot den Flugkapitän mit einer Notfallaxt angegriffen und schwer verletzt. Die Justiz der Vereinigten Arabischen Emirate ermittelt wegen des Verdachts auf einen Terroranschlag.",
+   "zeit": "2026-10-03T17:53:48.000Z",
+   "titel": "Schülerproteste und Ausschreitungen in Frankreich",
+   "vorspann": "In Frankreich kommt es seit Tagen zu landesweiten Schülerprotesten, die von Gewalt begleitet werden. Laut Regierungsangaben wurden bisher mehr als 5.000 Menschen festgenommen.",
    "eil": false,
    "verstaendlich": {
     "stufe": "schwer",
     "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
    },
    "zusammenfassung": [
-    "Auf einem Flug der Gesellschaft Flydubai von Dubai nach Tel Aviv hat der Kopilot den Flugkapitän im Cockpit mit einer Notfallaxt angegriffen und schwer verletzt.",
-    "Dem verletzten Kapitän gelang es, die Cockpittür zu öffnen, woraufhin Passagiere und Besatzungsmitglieder den Angreifer überwältigten; die Maschine landete in Tabuk in Saudi-Arabien.",
-    "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate ermittelt wegen eines versuchten Terroranschlags; der Angreifer soll das Flugzeug laut Berichten zum Absturz haben bringen wollen.",
-    "Medienberichten zufolge war der Verdächtige bereits zuvor bei einer omanischen Fluggesellschaft wegen Sicherheitsbedenken und extremistischen Materials mit einem Flugverbot belegt worden."
+    "In Frankreich kommt es seit Tagen zu landesweiten Schülerprotesten und Schulblockaden wegen unzureichender Bildungsbedingungen.",
+    "Die Demonstrationen führten zu mehr als 5.000 Festnahmen seit Beginn der Woche, wie Regierungsstellen mitteilten.",
+    "Neben friedlichen Protesten kam es zu Gewalttaten, Angriffen auf Einsatzkräfte und Zerstörungen an Schulen.",
+    "Die Regierung kündigte ein Vorgehen gegen Randalierer an und wirft schulfremden Personen die Steuerung der Unruhen vor."
    ],
    "einig": [
     [
-     "Der Kopilot griff den Flugkapitän auf dem Flug von Dubai nach Tel Aviv mit einer Notfallaxt im Cockpit an.",
+     "Mehr als 5.000 Festnahmen wurden seit Montag bei den Schülerprotesten in Frankreich verzeichnet.",
      [
-      "FAZ",
-      "Welt",
-      "The Guardian"
+      "Tagesschau/ARD",
+      "BBC"
      ]
     ],
     [
-     "Der verletzte Kapitän konnte die Cockpittür öffnen, sodass Passagiere eindringen und den Angreifer überwältigen konnten.",
+     "Am Freitag waren rund 735 Schulen von den Protesten und Blockaden betroffen.",
      [
-      "FAZ",
-      "Welt",
-      "The Guardian"
+      "Tagesschau/ARD",
+      "BBC"
      ]
     ],
     [
-     "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate stuft den Angriff als versuchten Terrorakt ein.",
+     "Innenminister Laurent Nuñez gab bekannt, dass am Freitag 1.747 Menschen festgenommen wurden.",
      [
-      "FAZ",
-      "Welt",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Der Kopilot war zuvor bei einer Fluggesellschaft in Oman wegen extremistischer Ansichten und Sicherheitsbedenken mit einem Flugverbot belegt worden.",
-     [
-      "FAZ",
-      "Welt",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Die israelische Regierung bezeichnete den Vorfall als Terroranschlag beziehungsweise sprach von islamistischer Radikalisierung.",
-     [
-      "FAZ",
-      "Welt",
-      "The Guardian"
-     ]
-    ],
-    [
-     "Die Maschine landete nach dem Zwischenfall im saudi-arabischen Tabuk.",
-     [
-      "Welt",
-      "The Guardian"
+      "Tagesschau/ARD",
+      "BBC"
      ]
     ]
    ],
    "unklar": [
-    "Wie der Tatverdächtige trotz früherer Einstufung als Sicherheitsrisiko im Oman bei Flydubai angestellt und auf der Route nach Tel Aviv eingesetzt werden konnte.",
-    "Ob der Tatverdächtige als Einzeltäter handelte oder Verbindungen zu extremistischen Gruppen hatte.",
-    "Genaue Anzahl der Menschen an Bord: FAZ berichtet von mehr als 170 Personen, The Guardian nennt konkret 182 Personen."
+    "In welchem Ausmaß linke Parteien oder schulfremde Personen die Proteste gesteuert haben, wird zwischen Regierung und Demonstrierenden unterschiedlich bewertet.",
+    "Ob die Polizei verhältnismäßig agierte oder übermäßige Gewalt einsetzte, ist zwischen Regierung und Kritikern umstritten."
    ],
    "positionen": [
     [
-     "Generalstaatsanwaltschaft der VAE",
-     "Ermittelt wegen eines versuchten Terroranschlags und wirft dem Kopiloten vor, einen Terrorakt geplant zu haben.",
-     "FAZ, Welt, The Guardian"
+     "Innenminister Laurent Nuñez",
+     "Die Proteste sind in urbane Gewalt umgeschlagen und werden von sozialen Netzwerken sowie der linken Partei LFI angetrieben.",
+     "Tagesschau/ARD"
     ],
     [
-     "Anwar Gargash (Diplomatischer Berater der VAE)",
-     "Bezeichnet den Vorfall öffentlich als einen gefährlichen Terrorakt.",
-     "Welt, The Guardian"
+     "Polizeipräfekt Faure",
+     "Die Proteste sind außer Kontrolle geraten, und die Organisatoren haben den Überblick verloren.",
+     "Deutschlandfunk"
     ],
     [
-     "Benjamin Netanjahu (Ministerpräsident Israels)",
-     "Erklärt, der Kopilot habe eine islamistische Radikalisierung durchlaufen, und droht möglichen Hintermännern mit Konsequenzen.",
-     "Welt, The Guardian"
+     "Justizminister Gérald Darmanin",
+     "Die Ereignisse sind zu einer Störung der öffentlichen Ordnung geworden; Eltern sollten für Schäden zahlen.",
+     "BBC"
     ],
     [
-     "Smit Machchhar (Flugkapitän)",
-     "Berichtet, er habe trotz schwerer Verletzungen mit letzter Kraft die Cockpittür entriegelt, um das Leben der Insassen zu retten.",
-     "FAZ, The Guardian"
+     "Schülervertreter",
+     "Man distanziert sich von der Gewalt, fordert aber bessere Bedingungen und setzt die Proteste fort.",
+     "Tagesschau/ARD"
     ],
     [
-     "Flydubai (Fluggesellschaft)",
-     "Erklärt, die Umstände würden untersucht, verweist auf laufende Ermittlungen und setzt Flüge nach Tel Aviv vorerst aus.",
-     "The Guardian"
+     "Bildungsminister Édouard Geffray",
+     "Die Bewegung wurde von Personen gekapert, die keine regulären Schüler sind.",
+     "BBC"
     ]
    ],
-   "fehlend": "Eine direkte Stellungnahme des festgenommenen Kopiloten oder seines Rechtsbeistands zu den Vorwürfen sowie offizielle Erklärungen der Regierung von Oman oder der Fluggesellschaft Oman Air.",
+   "fehlend": "Ausführliche Stellungnahmen der linken Partei LFI sowie direkte Aussagen von Elternverbänden zur Gesamtsituation fehlen in den Berichten.",
    "medien": [
     {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "03.10.26, 10:09",
-     "fokus": "Ermittlungen und Angriff im Cockpit",
-     "text": "Die FAZ konzentriert sich auf die Angaben der emiratischen Generalstaatsanwaltschaft und die Einstufung als Terrorakt. Sie beleuchtet zudem Berichte über die Kündigung des Mannes bei einer omanischen Fluggesellschaft.",
-     "url": "https://www.faz.net/aktuell/politik/ausland/ermittler-flydubai-copilot-plante-terrorakt-201284794.html",
+     "datum": "03.10.26, 12:47",
+     "fokus": "Zahlen und politische Ursachen",
+     "text": "Die Tagesschau nennt genaue Festnahmezahlen, das Ausmaß der betroffenen Schulen und ordnet die Proteste über politische Einflüsse ein.",
+     "url": "https://www.tagesschau.de/ausland/frankreich-schuelerproteste-festnahmen-100.html",
      "video": false,
      "lesbar": {
       "stufe": "mittel",
       "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
       "klasse": 11,
-      "minuten": 2,
-      "woerter": 477,
+      "minuten": 1,
+      "woerter": 253,
       "satzlaenge": 17,
-      "langeWoerter": 38
+      "langeWoerter": 37
      },
-     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
     },
-    {
-     "name": "Welt",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": false,
-     "datum": "04.10.26, 08:12",
-     "fokus": "Biografie und Sicherheitslücken",
-     "text": "Die Welt stellt detailliert den Lebenslauf des Tatverdächtigen, Bildungsabschlüsse und Internetaktivitäten dar. Sie thematisiert intensiv die Frage, warum Sicherheitsprüfungen vor der Einstellung bei Flydubai nicht griffen.",
-     "url": "https://www.welt.de/vermischtes/article6ac062a90b713e82b7a9437b/ermittlungen-zu-flug-drama-generalstaatsanwalt-der-emirate-flydubai-copilot-plante-terrorakt.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "schwer",
-      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
-      "klasse": 12,
-      "minuten": 4,
-      "woerter": 772,
-      "satzlaenge": 16,
-      "langeWoerter": 41
-     },
-     "traeger": "WeltN24 GmbH, gehört zur Axel Springer SE",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "The Guardian",
-     "typ": "Tageszeitung (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": false,
-     "datum": "03.10.26, 13:56",
-     "fokus": "Flugverlauf und internationale Ermittlungen",
-     "text": "The Guardian beschreibt präzise die Flugmanöver, den Sinkflug und Schäden an der Maschine sowie die Notlandung durch Reservepiloten. Zudem hebt das Blatt die Zusammenarbeit regionaler und westlicher Geheimdienste hervor.",
-     "url": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 4,
-      "woerter": 815,
-      "satzlaenge": 25,
-      "langeWoerter": 29
-     },
-     "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
-     "finanzierung": "Leserbeiträge und Werbung",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [],
-   "wfragen": {
-    "wer": "Der Kopilot einer Flydubai-Maschine",
-    "was": "Angriff auf den Flugkapitän mit einer Rettungsaxt",
-    "wann": "Mittwoch",
-    "wo": "Im Cockpit auf dem Flug von Dubai nach Tel Aviv",
-    "wie": "Mit einer vorgeschriebenen Notfallaxt aus dem Cockpit",
-    "warum": "Laut Behörden der Vereinigten Arabischen Emirate plante der Mann einen Terrorakt; Hintergründe werden geprüft",
-    "quellenlage": "Justizbehörden der Vereinigten Arabischen Emirate, Regierungsvertreter, US-Medienberichte und Angaben von Beteiligten"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Auf einem Linienflug der Fluggesellschaft Flydubai von Dubai nach Tel Aviv hat sich im Cockpit ein schwerer gewaltsamer Zwischenfall ereignet. Nach Angaben der Behörden der Vereinigten Arabischen Emirate griff der Kopilot den Flugkapitän während des Fluges mit einer Rettungsaxt an. Der Kapitän erlitt bei dem Angriff schwere Verletzungen, darunter mehrere Stich- und Schnittwunden. Trotz seiner Verletzungen gelang es dem Piloten, die Cockpittür für Personen außerhalb des Cockpits zu öffnen. Passagiere und Besatzungsmitglieder griffen daraufhin ein und überwältigten den Kopiloten.",
-      "Nach der Überwältigung des Angreifers konnte das Flugzeug stabilisiert und gelandet werden. An Bord der Maschine befanden sich nach Angaben der FAZ mehr als 170 Menschen, nach Angaben der britischen Zeitung The Guardian waren es 182 Personen. Wie The Guardian berichtet, verlor die Maschine während des Zwischenfalls innerhalb von gut 30 Sekunden rund 16.625 Fuß an Höhe. Dabei sei der Sinkflug so stark gewesen, dass ein Teil des Seitenruders abgerissen wurde. Zwei Reservepiloten, die sich an Bord befanden, übernahmen laut diesem Bericht die Steuerung und landeten das Flugzeug auf dem Flughafen Tabuk im Nordwesten von Saudi-Arabien.",
-      "Der verletzte Flugkapitän und der festgenommene Kopilot wurden nach dem Vorfall in die Vereinigten Arabischen Emirate gebracht. Die Generalstaatsanwaltschaft der Emirate führt dort die zentralen Ermittlungen. Nach offiziellen Angaben des emiratischen Generalstaatsanwalts Hamad Saif Al Shamsi wird dem Kopiloten vorgeworfen, einen Terrorakt geplant zu haben. Die Fluggesellschaft Flydubai setzte ihre Linienflüge zwischen Dubai und Tel Aviv nach dem Angriff bis auf Weiteres aus."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Bei der eingesetzten Tatwaffe handelte es sich nach Angaben der Ermittler um eine sogenannte Notfallaxt. Diese Äxte, in der Fachsprache crash axes genannt, gehören zur vorschriftsmäßigen Sicherheitsausrüstung von Verkehrsflugzeugen. Sie sind im Cockpit untergebracht und für Passagiere nicht zugänglich. Ihr eigentlicher Zweck besteht darin, sich im Notfall durch Verkleidungen oder andere Hindernisse zu arbeiten. Die Waffe musste daher vom Tatverdächtigen nicht heimlich durch Sicherheitskontrollen an Bord gebracht werden.",
-      "Der indische Flugkapitän Smit Machchhar berichtete über den Ablauf des Angriffs. Er gab an, trotz seiner schweren Verletzungen seine verbliebene Kraft genutzt zu haben, um die verriegelte Tür des Cockpits von innen zu entriegeln. Dadurch konnten Fluggäste und Besatzungsmitglieder, die durch laute Geräusche aufmerksam geworden waren, in das Cockpit vordringen. Machchhar erklärte später in einem Videogespräch mit dem indischen Premierminister Narendra Modi, er habe am Boden gelegen und gewusst, dass er die Tür öffnen müsse, um das Leben der Insassen zu retten. Nach Medienberichten landete das Flugzeug schließlich um 06.58 Uhr Ortszeit im saudi-arabischen Tabuk.",
-      "Der Tatverdächtige wurde in internationalen Medien als der 29-jährige Hammam al-Hammami identifiziert. Nach Berichten besitzt er die Staatsangehörigkeit von Oman und laut Angaben der Zeitung Die Welt auch einen Pass der Vereinigten Arabischen Emirate. Sein Vater stamme aus dem Oman und seine Mutter aus Syrien. Zudem habe er laut Berichten von CNN an der britischen Buckinghamshire New University ein Fernstudium im Fach Luftfahrtmanagement absolviert und 2023 abgeschlossen. Die Universität bestätigte diesen Abschluss und stellte klar, dass dort keine Pilotenausbildung stattfand."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Über die berufliche Vergangenheit des Kopiloten wurden nach dem Vorfall mehrere Einzelheiten bekannt. US-Medien wie ABC News, CNN und das Wall Street Journal berichteten, dass der Mann bereits zuvor bei der Fluggesellschaft Oman Air als Sicherheitsrisiko eingestuft worden war. Im Jahr 2024 sei bei ihm als Copilot-Auszubildender extremistisches Material entdeckt worden. Daraufhin sei er suspendiert, mit einem Flugverbot belegt und in eine Verwaltungsfunktion versetzt worden, bevor das Arbeitsverhältnis endete. Nach Angaben der Welt arbeitete er danach kurzzeitig für eine marokkanische Fluggesellschaft, bevor er vor rund acht Monaten zu Flydubai wechselte.",
-      "Für die Ermittler stellt sich die Frage, wie der Mann trotz dieser Vorgeschichte bei Flydubai angestellt und für Flüge nach Israel eingeteilt werden konnte. Nach Angaben eines ehemaligen Besatzungsmitglieds im Wall Street Journal unterliegen Piloten bei Flydubai vor Flügen Sicherheitsüberprüfungen sowie mindestens jährlichen medizinischen Kontrollen. Israel erklärte zudem, es gebe Vereinbarungen mit ausländischen Fluggesellschaften, um Piloten aus Staaten ohne diplomatische Beziehungen aus dem israelischen Luftraum fernzuhalten. Zwischen Israel und dem Oman bestehen keine formalen diplomatischen Beziehungen. Bislang haben sich Flydubai und Behörden aus dem Oman nicht detailliert zu den Einstellungsverfahren geäußert.",
-      "In sozialen Netzwerken gab es nach Berichten der Bild-Zeitung und des Guardian digitale Spuren. Ein LinkedIn-Profil, das dem Verdächtigen zugeordnet wurde, zeigte kurz nach dem Vorfall Videos mit Bezügen zu früheren Anführern terroristischer Gruppen und religiösen Inhalten, bevor das Profil gelöscht wurde. Auch ein Instagram-Konto des Mannes war bis zum Tag des Fluges aktiv und wurde anschließend gelöscht. Ob die Veröffentlichungen direkt vom Verdächtigen stammten, blieb zunächst ungeklärt. Der arabische Sender Al Arabiya berichtete zudem, dass sich der Kopilot zeitweise in Syrien aufgehalten haben könnte."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Cockpittüren in modernen Passagierflugzeugen sind durch spezielle Schließsysteme gesichert, um ein unbefugtes Eindringen aus der Passagierkabine zu verhindern. Die Tür kann in der Regel nur von den anwesenden Piloten von innen entriegelt werden. Gleichzeitig befinden sich im Flugdeck vorgeschriebene Rettungswerkzeuge, zu denen Notfalläxte gehören, die der Besatzung im Fall von Notlagen zur Verfügung stehen müssen.",
-      "Internationale Fluggesellschaften führen vor der Einstellung von Cockpitpersonal Sicherheitsüberprüfungen durch. Dabei arbeiten Fluggesellschaften und nationale Luftfahrtbehörden mit Hintergrundchecks zusammen, um Sicherheitsrisiken zu minimieren."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die Justizbehörden der Vereinigten Arabischen Emirate stufen den Vorfall als versuchten Terroranschlag ein. Der Generalstaatsanwalt der Vereinigten Arabischen Emirate, Hamad Saif Al Shamsi, erklärte laut der staatlichen Nachrichtenagentur WAM, die Ermittlungen hätten ergeben, dass der Kopilot einen Terrorakt habe ausführen wollen. Anwar Gargash, ein hochrangiger diplomatischer Berater der emiratischen Führung, bezeichnete die Tat auf der Online-Plattform X als einen gefährlichen Terrorakt. Die Behörden der Vereinigten Arabischen Emirate leiten die Untersuchungen und werten Beweismittel aus.",
-      "Auch die israelische Führung äußerte sich zu dem Zwischenfall. Der israelische Ministerpräsident Benjamin Netanjahu erklärte am Freitag, der Kopilot habe eine islamistische Radikalisierung durchlaufen, legte dafür jedoch zunächst keine Beweise vor. Netanjahu kündigte an, dass Israel prüfe, ob der Mann auf Anweisung Dritter gehandelt habe. Der indische Flugkapitän Smit Machchhar wurde derweil international und vom indischen Premierminister Narendra Modi für sein Verhalten gewürdigt."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Die Ermittlungen zu dem Zwischenfall dauern an. Nach Angaben von US-Medien kooperiert der festgenommene Kopilot mit den Behörden in den Vereinigten Arabischen Emiraten und soll angedeutet haben, dass er beabsichtigte, das Flugzeug in Israel zum Absturz zu bringen. Unabhängig bestätigt sind diese Angaben bislang nicht. Sicherheitsbehörden aus vier Ländern der Region ermitteln laut The Guardian gemeinsam mit Unterstützung der USA und westlicher Staaten. Ein Golf-Diplomat erklärte, es werde geprüft, ob der Kopilot als Einzeltäter handelte oder Verbindungen zu extremistischen Gruppen bestanden haben.",
-      "Zudem steht die Überprüfung der Sicherheitsstandards bei der Personalauswahl im Raum. Ermittler versuchen weiterhin zu rekonstruieren, wie es dem Verdächtigen nach seinem Ausscheiden bei Oman Air möglich war, bei Flydubai eingestellt zu werden. Die Fluggesellschaft Flydubai erklärte, dass die Umstände weiter untersucht werden und vorerst keine weiteren Kommentare abgegeben werden können. Die Flugverbindung der Gesellschaft zwischen Dubai und Tel Aviv bleibt vorerst ausgesetzt."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026-09-30",
-     "Start des Fluges FZ1073 und Notlandung in Tabuk in Saudi-Arabien"
-    ],
-    [
-     "2026-09-30",
-     "Start des Fluges FZ1073 vom Dubai International Airport nach Tel Aviv."
-    ],
-    [
-     "2026-09-30",
-     "Änderung des Transponder-Codes auf 7700 und 7500 während des Sinkflugs."
-    ],
-    [
-     "2026-09-30",
-     "Notlandung der Maschine auf dem Flughafen Tabuk in Saudi-Arabien."
-    ],
-    [
-     "2026-09-30 Abend",
-     "Rückführung der Passagiere nach Israel mit einer Ersatzmaschine."
-    ],
-    [
-     "2026-09-30",
-     "Angriff im Cockpit auf einem Flug von Dubai nach Tel Aviv"
-    ],
-    [
-     "2026-09-30",
-     "Notlandung der Maschine auf dem Flughafen Tabuk in Saudi-Arabien"
-    ],
-    [
-     "2024",
-     "Extremistisches Material wird beim Verdächtigen während seiner Ausbildung bei Oman Air festgestellt; Versetzung in die Verwaltung und Flugverbot."
-    ],
-    [
-     "Vor rund 8 Monaten",
-     "Der Kopilot wechselt nach einer Zwischenstation bei einer marokkanischen Airline zu Flydubai."
-    ],
-    [
-     "Mittwoch",
-     "Start des Flydubai-Fluges in Dubai mit Ziel Tel Aviv sowie Angriff des Kopiloten auf den Flugkapitän mit der Notfallaxt und Passagiere überwältigen den Angreifer."
-    ],
-    [
-     "Freitag",
-     "Israels Premierminister Netanjahu spricht von islamistischer Radikalisierung; Berater Gargash nennt den Vorfall einen Terrorakt."
-    ],
-    [
-     "Samstag",
-     "Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate stuft die Tat offiziell als versuchten Terrorakt ein; The Guardian berichtet über Details der Ermittlungen."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "keins",
-     "suchbegriff": "Flydubai Boeing 737",
-     "bildunterschrift": "Kein Bild gemäß Richtlinien bei Gewalttaten und Vorfällen mit Verletzten."
-    }
-   ],
-   "ort": {
-    "name": "Tabuk, Saudi-Arabien"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das genaue Datum und die Uhrzeiten aus der Zeitleiste des Entwurfs wurden durch korrekte Angaben aus den Berichten ersetzt oder an die Textquellen angepasst.",
-    "Spekulative Erwähnungen wie September 2026 wurden entfernt, da sie in den Originalberichten nicht genannt werden."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Kopilot",
-      "Ein Kopilot ist der zweite Pilot in einem Flugzeug, der den Kapitän bei der Steuerung unterstützt."
-     ],
-     [
-      "Notfallaxt",
-      "Eine Notfallaxt ist ein Werkzeug im Cockpit, das bei Notfällen wie Bränden zum Einschlagen von Verkleidungen genutzt wird."
-     ],
-     [
-      "Generalstaatsanwaltschaft",
-      "Die Generalstaatsanwaltschaft ist eine Behörde, die schwere Straftaten untersucht und die Anklage vertritt."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielen Sicherheitsüberprüfungen bei der Einstellung von Piloten nach diesem Vorfall?",
-     "Wie berichten verschiedene Medien über ungeklärte Details des Angriffs?"
-    ],
-    "quiz": [
-     {
-      "frage": "Womit griff der Kopilot den Kapitän an?",
-      "optionen": [
-       "Mit einer Notfallaxt",
-       "Mit einem Taschenmesser",
-       "Mit einem Werkzeug aus der Kabine"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut übereinstimmenden Berichten von FAZ, Welt und The Guardian griff der Kopilot den Kapitän mit einer Notfallaxt aus dem Cockpit an."
-     },
-     {
-      "frage": "Wo landete das Flugzeug nach dem Vorfall?",
-      "optionen": [
-       "In Tel Aviv",
-       "In Dubai",
-       "In Tabuk in Saudi-Arabien"
-      ],
-      "richtig": 2,
-      "erklaerung": "Welt und The Guardian berichten, dass die Maschine nach dem Zwischenfall in Tabuk in Saudi-Arabien landete."
-     },
-     {
-      "frage": "Wie stufen die Behörden der Vereinigten Arabischen Emirate den Vorfall ein?",
-      "optionen": [
-       "Als technischen Defekt",
-       "Als versuchten Terrorakt",
-       "Als normalen Streit unter Piloten"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate stuft den Angriff laut FAZ, Welt und The Guardian als versuchten Terrorakt ein."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Auf einem Flug von Dubai nach Israel hat ein Kopilot den Kapitän mit einer Axt angegriffen. Die Justiz ermittelt wegen eines Terroranschlags.",
-    "absaetze": [
-     "Der Vorfall passierte auf einem Flug der Gesellschaft Flydubai.",
-     "Der Kopilot verletzte den Flugkapitän schwer im Cockpit.",
-     "Dem verletzten Kapitän gelang es, die Tür zum Cockpit zu öffnen.",
-     "Passagiere und Besatzung überwältigten den Angreifer.",
-     "Das Flugzeug landete daraufhin sicher in Saudi-Arabien.",
-     "Die Behörden untersuchen nun die Hintergründe der Tat."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Auf einem Flydubai-Flug hat ein Kopilot den Kapitän mit einer Axt angegriffen.",
-     "Passagiere überwältigten den Angreifer, und die Maschine landete sicher in Saudi-Arabien.",
-     "Die Behörden der Vereinigten Arabischen Emirate ermitteln wegen eines versuchten Terroranschlags."
-    ],
-    "lang": [
-     "Auf einem Flug von Dubai nach Israel hat ein Kopilot den Flugkapitän mit einer Axt angegriffen.",
-     "Nach Angaben der Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate passierte der Vorfall am Mittwoch an Bord einer Flydubai-Maschine.",
-     "Der Angreifer verletzte den Kapitän schwer, konnte aber von Passagieren überwältigt werden.",
-     "Die Maschine landete nach dem Zwischenfall auf dem Flughafen in Tabuk in Saudi-Arabien.",
-     "Nach Berichten von US-Medien war der Verdächtige zuvor im Oman wegen extremistischer Ansichten mit einem Flugverbot belegt worden.",
-     "Die Justiz der Vereinigten Arabischen Emirate stuft die Tat nach eigenen Angaben als versuchten Terrorakt ein.",
-     "Die israelische Regierung erklärte laut Medienberichten ebenfalls, dass es sich um einen Terroranschlag handele.",
-     "Ein Notfallwerkzeug namens Notfallaxt, das sich im Cockpit befindet, wurde bei dem Angriff verwendet.",
-     "Die Ermittlungen zu den Motiven und Hintergründen der Tat dauern an.",
-     "Die Fluggesellschaft Flydubai setzte ihre Flüge nach Tel Aviv vorerst aus."
-    ],
-    "einfach": [
-     "Ein Kopilot hat auf einem Flug den Kapitän mit einer Axt attackiert.",
-     "Das Flugzeug war von Dubai nach Tel Aviv unterwegs.",
-     "Passagiere konnten den Angreifer stoppen und das Flugzeug landete in Saudi-Arabien.",
-     "Die Behörden prüfen nun den Verdacht auf einen Terroranschlag.",
-     "Der Mann war früher schon einmal wegen extremistischer Ansichten aufgefallen."
-    ]
-   },
-   "kurz": [
-    "Auf einem Flydubai-Flug hat ein Kopilot den Kapitän mit einer Axt angegriffen.",
-    "Passagiere überwältigten den Angreifer, und die Maschine landete in Saudi-Arabien.",
-    "Die Behörden der Vereinigten Arabischen Emirate ermitteln wegen eines versuchten Terroranschlags."
-   ],
-   "fakten": [
-    [
-     "Anzahl Menschen an Bord (FAZ)",
-     "mehr als 170"
-    ],
-    [
-     "Anzahl Menschen an Bord (The Guardian)",
-     "182"
-    ],
-    [
-     "Sinkhöhe (The Guardian)",
-     "16.625 Fuß"
-    ]
-   ],
-   "dossier": {
-    "slug": "angriff-flydubai-flug-israel",
-    "titel": "Angriff auf Flydubai-Flug nach Israel"
-   },
-   "bildInfos": [],
-   "ortInfo": {
-    "name": "Tabuk, Saudi-Arabien",
-    "lat": 28.325,
-    "lon": 37.633
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Auf einem Flug von Dubai nach Israel hat ein Kopilot den Flugkapitän mit einer A",
-     "d": "a73ff62a47.mp3",
-     "l": 59.95,
-     "s": [
-      0.25,
-      6.35,
-      14.28,
-      19.51,
-      24.71,
-      32.0,
-      38.42,
-      44.94,
-      50.75,
-      54.81
-     ]
-    },
-    {
-     "k": "Auf einem Flydubai-Flug hat ein Kopilot den Kapitän mit einer Axt angegriffen. P",
-     "d": "fe3ea21101.mp3",
-     "l": 16.12,
-     "s": [
-      0.25,
-      4.87,
-      10.3
-     ]
-    },
-    {
-     "k": "Ein Kopilot hat auf einem Flug den Kapitän mit einer Axt attackiert. Das Flugzeu",
-     "d": "25ceb62339.mp3",
-     "l": 24.72,
-     "s": [
-      0.25,
-      4.9,
-      9.19,
-      15.09,
-      19.35
-     ]
-    },
-    {
-     "k": "Wie der Tatverdächtige trotz früherer Einstufung als Sicherheitsrisiko im Oman b",
-     "d": "509a0894a4.mp3",
-     "l": 9.87,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Kopilot? Ein Kopilot ist der zweite Pilot in einem Flugz",
-     "d": "7cc4f6fab4.mp3",
-     "l": 10.22,
-     "s": [
-      0.25,
-      3.32
-     ]
-    },
-    {
-     "k": "Auf einem Linienflug der Fluggesellschaft Flydubai von Dubai nach Tel Aviv hat s",
-     "d": "66b6eff229.mp3",
-     "l": 55.8,
-     "s": [
-      0.25,
-      7.87,
-      15.78,
-      21.51,
-      27.56,
-      33.03,
-      38.61,
-      48.59
-     ]
-    },
-    {
-     "k": "Bei der eingesetzten Tatwaffe handelte es sich nach Angaben der Ermittler um ein",
-     "d": "a2621418ff.mp3",
-     "l": 49.92,
-     "s": [
-      0.25,
-      6.28,
-      13.77,
-      17.94,
-      24.03,
-      29.99,
-      34.37,
-      42.32
-     ]
-    },
-    {
-     "k": "Über die berufliche Vergangenheit des Kopiloten wurden nach dem Vorfall mehrere ",
-     "d": "ea3399980e.mp3",
-     "l": 69.68,
-     "s": [
-      0.25,
-      6.13,
-      16.14,
-      23.28,
-      31.34,
-      39.5,
-      47.87,
-      58.85
-     ]
-    },
-    {
-     "k": "Cockpittüren in modernen Passagierflugzeugen sind durch spezielle Schließsysteme",
-     "d": "de56a78037.mp3",
-     "l": 36.72,
-     "s": [
-      0.25,
-      9.18,
-      13.94,
-      22.98,
-      29.0
-     ]
-    },
-    {
-     "k": "Die Justizbehörden der Vereinigten Arabischen Emirate stufen den Vorfall als ver",
-     "d": "eb06c152c6.mp3",
-     "l": 61.95,
-     "s": [
-      0.25,
-      6.48,
-      18.22,
-      27.03,
-      33.04,
-      36.58,
-      47.81,
-      53.54
-     ]
-    },
-    {
-     "k": "Die Ermittlungen zu dem Zwischenfall dauern an. Nach Angaben von US-Medien koope",
-     "d": "f208de6f54.mp3",
-     "l": 56.42,
-     "s": [
-      0.25,
-      2.96,
-      15.18,
-      18.49,
-      26.35,
-      34.77,
-      40.01,
-      48.32
-     ]
-    }
-   ]
-  },
-  {
-   "id": "g7-freigabe-oel-reserven",
-   "rubrik": "Wirtschaft",
-   "zeit": "2026-10-03T12:45:13.000Z",
-   "aktualisiert": "aktualisiert um 15:19 Uhr",
-   "titel": "G7-Staaten vereinbaren Freigabe von Öl- und Diesel-Reserven",
-   "vorspann": "Die G7-Staaten haben sich auf die Freigabe von bis zu 100 Millionen Barrel Diesel und Rohöl aus ihren Reserven verständigt. Damit soll auf Forderungen der USA und angesichts hoher Energiepreise eine Entlastung der Energiemärkte erreicht werden.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Die G7-Staaten haben sich auf die Freigabe von bis zu 100 Millionen Barrel Rohöl und Diesel aus ihren Reserven geeinigt.",
-    "Die Maßnahme zielt darauf ab, die Energiemärkte zu entlasten und auf Forderungen der USA zu reagieren.",
-    "Eine vorgezogene Dieselfreigabe innerhalb der ersten 20 Tage ist ebenfalls geplant.",
-    "Kritik an dem Beschluss kam unter anderem vom Bundestagsabgeordneten Michael Kellner von den Grünen."
-   ],
-   "einig": [
-    [
-     "Die G7-Staaten haben sich darauf geeinigt, bis zu 100 Millionen Barrel Diesel und Rohöl aus ihren Reserven freizugeben.",
-     [
-      "Deutschlandfunk",
-      "Spiegel",
-      "Zeit"
-     ]
-    ],
-    [
-     "Die Freigabe soll über einen Zeitraum von vier Monaten erfolgen.",
-     [
-      "Deutschlandfunk",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Die Maßnahme soll die Energiemärkte entlasten.",
-     [
-      "Deutschlandfunk",
-      "Spiegel",
-      "Zeit"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die freigegebenen Mengen ausreichen, um die Preise nachhaltig zu senken, ist unklar."
-   ],
-   "positionen": [
-    [
-     "Donald Trump (US-Präsident)",
-     "Europa habe sich bereiterklärt, einen Großteil seiner umfangreichen Dieselvorräte freizugeben.",
-     "Spiegel"
-    ],
-    [
-     "Emmanuel Macron (Frankreichs Präsident)",
-     "Die Freigabe über vier Monate soll die Energiemärkte entlasten und die Lieferungen sichern.",
-     "Deutschlandfunk, Spiegel"
-    ],
-    [
-     "Michael Kellner (Grünen-Bundestagsabgeordneter)",
-     "Die Freigabe der Reserven sei eine politische Dummheit und mache die EU klein und schwach.",
-     "Spiegel"
-    ],
-    [
-     "Scott Bessent (US-Finanzminister)",
-     "Europa solle zusätzliche Liefermengen unverzüglich bereitstellen.",
-     "Spiegel"
-    ]
-   ],
-   "fehlend": "Stimmen aus den Regierungen anderer G7-Staaten wie Kanada, Japan oder Großbritannien fehlen in den Berichten weitgehend.",
-   "medien": [
     {
      "name": "Deutschlandfunk",
      "typ": "öffentlich-rechtlich",
      "art": "öffentlich-rechtlich",
      "stamm": true,
-     "datum": "03.10.26, 14:45",
-     "fokus": "Kompakte Zusammenfassung",
-     "text": "Der Bericht konzentriert sich auf die Kernentscheidung der G7.",
-     "url": "https://www.deutschlandfunk.de/macron-g7-geben-bis-zu-100-millionen-barrel-diesel-und-rohoel-frei-108.html",
+     "datum": "03.10.26, 19:53",
+     "fokus": "Einschätzung der Polizei",
+     "text": "Der Deutschlandfunk konzentriert sich auf die Bewertung der Pariser Polizei, wonach die Proteste außer Kontrolle geraten seien.",
+     "url": "https://www.deutschlandfunk.de/schuelerproteste-in-frankreich-laut-pariser-polizeichef-ausser-kontrolle-102.html",
      "video": false,
      "lesbar": null,
      "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
@@ -3082,13 +2541,371 @@
      "publikumWert": null
     },
     {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "02.10.26, 23:13",
+     "fokus": "Internationale Berichterstattung und Details",
+     "text": "Die BBC liefert zahlreiche Einzelheiten zu regionalen Schäden, gewaltsamen Vorfällen und den Aussagen mehrerer französischer Minister.",
+     "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&at_campaign=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 4,
+      "woerter": 703,
+      "satzlaenge": 22,
+      "langeWoerter": 28
+     },
+     "traeger": "British Broadcasting Corporation, Großbritannien",
+     "finanzierung": "Rundfunkgebühr (Licence Fee)",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Fokus der Berichterstattung",
+     "Während die Tagesschau die politischen Einflüsse und die Reaktionen der Schüler beleuchtet, konzentriert sich die BBC stärker auf konkrete Gewalttaten und Vorfälle vor Ort."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Schülerinnen, Schüler und Sicherheitskräfte in Frankreich",
+    "was": "Schülerproteste, Schulblockaden und gewaltsame Ausschreitungen",
+    "wann": "Oktober 2026",
+    "wo": "Frankreich",
+    "wie": "Durch Schulblockaden, Demonstrationen und teilweise gewaltsame Auseinandersetzungen",
+    "warum": "Forderungen nach mehr Bildungsinvestitionen und Kritik an der Politik, laut Tagesschau/ARD",
+    "quellenlage": "Tagesschau/ARD, Deutschlandfunk und BBC"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Ablauf der Proteste",
+     "absaetze": [
+      "In Frankreich finden seit der vergangenen Woche landesweite Schülerproteste statt, die in den vergangenen Tagen zu Störungen an Hunderten Schulen führten. Die Demonstrationen begannen laut der BBC in der Hauptstadt Paris und breiteten sich rasch auf andere Städte wie Montpellier, Nantes und Marseille aus. Am Freitag waren nach offiziellen Angaben insgesamt 735 Schulen von den Protestaktionen betroffen. Die Protestierenden richteten sich unter anderem mit Straßenblockaden und Feuern gegen den aus ihrer Sicht herrschenden Mangel an Lehrkräften.",
+      "Laut dem Innenministerium waren am Freitag insgesamt 1.747 Menschen festgenommen worden, während am Donnerstag 1.954 Festnahmen registriert wurden. Seit Beginn der Woche stieg die Gesamtzahl der Festnahmen nach Angaben der Regierung auf mehr als 5.000 an. Nach Angaben der Tagesschau/ARD sind rund 85 Prozent der Festgenommenen minderjährig und meist Schülerinnen und Schüler. Allerdings bedeute dies laut den Berichten nicht zwangsläufig, dass sie auch die Bildungseinrichtungen besuchten, in deren Nähe sie angetroffen wurden.",
+      "Neben Schulblockaden kam es nach Regierungsangaben zu Ausschreitungen und Gewaltvorfällen. Innenminister Laurent Nuñez teilte mit, dass in der Nähe von 158 Einrichtungen Wurfgeschosse eingesetzt sowie Ordnungskräfte, Lehrkräfte, Journalisten und Passanten angegriffen wurden. Das Bildungsministerium meldete, dass mindestens 65 Mitarbeiter an Schulen verletzt wurden. Zudem sei Schaden an Gebäuden entstanden, darunter an Toren, Eingängen und Zäunen von Schulen."
+     ]
+    },
+    {
+     "ueberschrift": "Konkrete Zwischenfälle und Schäden",
+     "absaetze": [
+      "An verschiedenen Orten im Land kam es zu Zusammenstössen zwischen Demonstrierenden und der Polizei. Laut der BBC schritt die Polizei in Paris im Vorort Pantin ein und nahm Personen fest, nachdem Projektile auf Einsatzkräfte geworfen worden waren. In Strasbourg wurde Tränengas eingesetzt. In Belfort im Nordosten Frankreichs wurde ein 17-Jähriger unter dem Verdacht eines versuchten Tötungsdelikts festgenommen, nachdem ein Polizeibeamter gezielt angegriffen worden war.",
+      "Die BBC berichtete unter Berufung auf die Regionalregierung von Zerstörungen am Nelson-Mandela-Gymnasium in Nantes. Dort zerstörte ein Feuer den gläsernen Eingangsbereich sowie Teile des Innenbereichs, wodurch ein Schaden von mehr als zwei Millionen Euro entstand. Die Polizei veröffentlichte Aufnahmen von beschlagnahmten Gegenständen, darunter Brandflaschen, eine Axt und sogenannte Mörser-Feuerwerkskörper.",
+      "Auch außerhalb der Schulen kam es zu Beeinträchtigungen des öffentlichen Lebens. Schülerinnen und Schüler errichteten Barrikaden und brannten in den Straßen Feuer ab. Einige Jugendliche äußerten sich gegenüber Medien erleichtert über geschlossene Schulen, während Eltern und Lehrkräfte besorgt auf die Entwicklungen blickten. Die Pariser Polizei bewertete die Gesamtsituation als außer Kontrolle geraten, da die ursprünglichen Organisatoren den Überblick verloren hätten."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergründe und Motive",
+     "absaetze": [
+      "Die Demonstrierenden fordern eine bessere finanzielle Ausstattung der Schulen, mehr Lehrkräfte und kleinere Klassen. Kritisiert werden zudem verschmutzte Gebäude, zu lange Schulzeiten sowie überhitzte Klassenräume. Die Proteste finden zu einem Zeitpunkt statt, an dem in Frankreich geplante Haushaltskürzungen im Bildungsbereich diskutiert werden. Zudem weist die BBC darauf hin, dass die politischen Unruhen sechs Monate vor der kommenden Präsidentschaftswahl in Frankreich stattfinden.",
+      "Vertreter der Schülerschaft betonten, dass sie sich von der Gewalt distanzieren und friedlich für ihre Anliegen eintreten wollen. Gleichzeitig riefen sie dazu auf, die Proteste fortzusetzen. Verschiedene Gewerkschaften wie SNEP-FSU, SNUEP-FSU und Solidaires erklärten ihre Solidarität mit den Demonstrierenden. Die Solidaires-Gewerkschaft betonte in einer Stellungnahme, dass Jugendliche ein Recht auf Versammlungs- und Demonstrationsfreiheit haben.",
+      "Regierungsvertreter äußerten sich besorgt über die Durchdringung der Proteste durch gewaltbereite Gruppen. Innenminister Nuñez erklärte laut Tagesschau/ARD, dass das Ausmaß der Proteste überraschend sei und auf soziale Netzwerke sowie den Einfluss der linken Partei LFI zurückgeführt werden könne. Der Bildungsminister Édouard Geffray äußerte laut BBC zudem den Verdacht, dass die Bewegung von externen Personen gekapert worden sei, die keine regulären Schüler seien."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Unter den Begriffen Bildungspolitik und öffentliche Ordnung versteht man staatliche Aufgaben zur Regelung des Schulwesens und zur Gewährleistung der Sicherheit im öffentlichen Raum. Regierungen stellen über Haushaltspläne Mittel für Schulen und das Personal zur Verfügung. Gewerkschaften sind Organisationen von Arbeitnehmern, die sich für die Interessen ihrer Mitglieder einsetzen. Polizeibehörden sind staatliche Institutionen, die für die Aufrechterhaltung der öffentlichen Sicherheit und Ordnung zuständig sind."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen der Behörden und Politiker",
+     "absaetze": [
+      "Innenminister Laurent Nuñez erklärte laut Tagesschau/ARD und BBC, dass sich das Land in Richtung von Aufständen und urbaner Gewalt bewege. Die Behörden setzten alle verfügbaren Mittel ein, um die Unruhen zu beenden. Der Polizeipräfekt von Paris, Faure, rief die Demonstrierenden laut Deutschlandfunk dazu auf, zu friedlichen Protestformen zurückzukehren.",
+      "Justizminister Gérald Darmanin sprach laut BBC davon, dass sich die Ereignisse von normalen Schülerdemonstrationen zu einer Störung der öffentlichen Ordnung gewandelt hätten. Er kündigte an, dass Staatsanwälte prüfen sollen, ob Eltern für die von ihren Kindern verursachten Schäden finanziell haftbar gemacht werden können. Bildungsminister Édouard Geffray teilte mit, dass die Proteste von schulfremden Personen beeinflusst worden seien.",
+      "Kritik an der Arbeit der Polizei kam derweil von anderer Seite. Obwohl die Regierung betonte, die Sicherheitskräfte würden zurückhandeln, warfen verschiedene Kritiker ihnen laut Tagesschau/ARD übermäßige Gewalt vor. Auch betroffene Schülerinnen kritisierten den Einsatz von Tränengas und polizeiliche Übergriffe."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Regierungsbehörden kündigten an, weiterhin gegen die Gewalt und die Störungen der öffentlichen Ordnung vorzugehen. Die Justiz soll über mögliche Regressansprüche gegen Eltern beraten. Schülervertretungen riefen trotz der Festnahmen und Ausschreitungen dazu auf, die Proteste fortzusetzen."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Wochenbeginn",
+     "Beginn der landesweiten Schülerproteste und Schulblockaden in Frankreich"
+    ],
+    [
+     "Donnerstag",
+     "1.954 Festnahmen bei den Protesten laut Regierungsangaben"
+    ],
+    [
+     "Freitag",
+     "1.747 Festnahmen, 735 betroffene Schulen und Ausschreitungen im ganzen Land"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Es wird kein Bild gezeigt, da sich das Thema auf Gewalt und Minderjährige bezieht."
+    }
+   ],
+   "ort": {
+    "name": "Paris, Frankreich"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Schreibfehler bei minderheitig in minderjährig korrigiert.",
+    "Wertendes Wort in der Überschrift entfernt und Tippfehler korrigiert."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Gewerkschaften",
+      "Das sind Zusammenschlüsse von Arbeitnehmern, die sich gemeinsam für bessere Arbeitsbedingungen und Rechte einsetzen."
+     ],
+     [
+      "Minderjährig",
+      "Das bedeutet, dass eine Person noch nicht volljährig ist, also in Frankreich unter achtzehn Jahre alt ist."
+     ],
+     [
+      "Protest",
+      "Eine Form, mit der Menschen öffentlich ihren Unmut oder ihre Forderungen äußern."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente bringen die protestierenden Schülerinnen und Schüler vor und wie begründet die Regierung ihr Vorgehen?",
+     "Wie berichten verschiedene Medien über die Ausschreitungen und worauf legen sie ihren Schwerpunkt?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Festnahmen gab es nach Regierungsangaben seit Wochenbeginn?",
+      "optionen": [
+       "Mehr als 5.000",
+       "Genau 735",
+       "Weniger als 500"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut den Berichten von Tagesschau und BBC wurden seit Montag mehr als 5.000 Menschen festgenommen."
+     },
+     {
+      "frage": "Wie viele Schulen waren am Freitag von den Protesten betroffen?",
+      "optionen": [
+       "3.700 Schulen",
+       "735 Schulen",
+       "158 Schulen"
+      ],
+      "richtig": 1,
+      "erklaerung": "In den Berichten wird übereinstimmend genannt, dass am Freitag 735 Schulen von den Protesten und Blockaden betroffen waren."
+     },
+     {
+      "frage": "Welcher Minister sprach im Sender TF1 über die Festnahmezahlen?",
+      "optionen": [
+       "Justizminister Gérald Darmanin",
+       "Innenminister Laurent Nuñez",
+       "Bildungsminister Édouard Geffray"
+      ],
+      "richtig": 1,
+      "erklaerung": "Innenminister Laurent Nuñez gab die Zahlen im Sender TF1 bekannt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Frankreich protestieren Schüler seit Tagen gegen schlechte Bedingungen an Schulen. Viele Demonstrationen wurden jedoch gewalttätig.",
+    "absaetze": [
+     "Die Jugendlichen fordern mehr Geld für Bildung, kleinere Klassen und mehr Lehrer. An vielen Orten kam es zu Schulblockaden und Sachbeschädigungen.",
+     "Nach Angaben der Regierung wurden seit Wochenbeginn mehr als fünf tausend Menschen festgenommen. Rund achtzig Prozent davon sind minderjährig.",
+     "Minister und Polizeibehörden kritisieren die Gewalt und kündigten ein hartes Vorgehen an. Schülervertreter distanzieren sich von den Ausschreitungen, wollen aber weiter protestieren."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Frankreich kommt es seit Tagen zu landesweiten Schülerprotesten.",
+     "Laut Regierungsangaben wurden bisher mehr als fünf tausend Menschen festgenommen.",
+     "Die Regierung kündigte ein hartes Vorgehen gegen die Gewalt an."
+    ],
+    "lang": [
+     "In Frankreich protestieren Schülerinnen und Schüler seit Tagen für eine bessere Bildungspolitik.",
+     "Die Demonstrationen führten zu Blockaden und gewaltsamen Ausschreitungen im ganzen Land.",
+     "Nach Angaben des Innenministers Laurent Nuñez gab es seit Wochenbeginn mehr als fünf tausend Festnahmen.",
+     "Am Freitag zählten die Behörden ein tausend sieben hundert sieben und vierzig Festnahmen.",
+     "Insgesamt waren am Freitag sieben hundert fünf und dreißig Schulen von den Protesten betroffen.",
+     "Die Pariser Polizei schätzte die Lage so ein, dass die Proteste außer Kontrolle geraten sind.",
+     "Kritiker werfen der Polizei dagegen vor, übermäßige Gewalt eingesetzt zu haben.",
+     "Die Demonstranten fordern unter anderem mehr Lehrer und kleinere Klassen.",
+     "Schülervertreter riefen dazu auf, die Proteste trotz der Zwischenfälle fortzusetzen.",
+     "Die Regierung kündigte an, konsequent gegen Randalierer vorzugehen."
+    ],
+    "einfach": [
+     "In Frankreich protestieren viele Schüler gegen schlechte Bedingungen an Schulen.",
+     "Dabei kam es oft zu Gewalt und zerstörten Gebäuden.",
+     "Nach Angaben der Regierung gab es bereits mehr als fünf tausend Festnahmen.",
+     "Die Polizei und Minister fordern ein Ende der Ausschreitungen.",
+     "Schüler wollen aber friedlich weiter protestieren."
+    ]
+   },
+   "kurz": [
+    "In Frankreich gibt es seit Tagen landesweite Schülerproteste gegen die Bildungspolitik.",
+    "Nach Regierungsangaben wurden seit Wochenbeginn mehr als 5.000 Menschen festgenommen.",
+    "Neben friedlichen Kundgebungen kam es zu gewalttätigen Ausschreitungen und Schulschäden."
+   ],
+   "fakten": [
+    [
+     "Festnahmen insgesamt",
+     "mehr als 5.000"
+    ],
+    [
+     "Festnahmen am Freitag",
+     "1.747"
+    ],
+    [
+     "Festnahmen am Donnerstag",
+     "1.954"
+    ],
+    [
+     "Betroffene Schulen am Freitag",
+     "735"
+    ],
+    [
+     "Schaden am Gymnasium in Nantes",
+     "mehr als zwei Millionen Euro"
+    ]
+   ],
+   "dossier": {
+    "slug": "schuelerproteste-frankreich",
+    "titel": "Schülerproteste in Frankreich"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Paris, Frankreich",
+    "lat": 48.853,
+    "lon": 2.348
+   },
+   "version": 5
+  },
+  {
+   "id": "g7-freigabe-oel-reserven",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-10-03T15:21:00.000Z",
+   "aktualisiert": "aktualisiert um 19:54 Uhr",
+   "titel": "Freigabe von Öl- und Dieselreserven durch G7-Staaten",
+   "vorspann": "Angesichts hoher Energiepreise haben sich die G7-Staaten auf die Freigabe von Öl- und Dieselreserven geeinigt. Die Maßnahmen sollen die Märkte über einen Zeitraum von vier Monaten entlasten.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Die G7-Staaten haben die Freigabe von bis zu 100 Millionen Barrel Öl und Diesel beschlossen.",
+    "Die Maßnahme soll die Energiemärkte über vier Monate hinweg angesichts hoher Preise entlasten.",
+    "Hintergrund sind die Auswirkungen des Iran-Kriegs und Störungen in der Straße von Hormus.",
+    "Während US-Präsident Trump die Einigung lobte, gab es von den Grünen scharfe Kritik.",
+    "Ökonomen bewerten den Schritt als kurzfristige Maßnahme ohne dauerhafte Problemlösung."
+   ],
+   "einig": [
+    [
+     "Die G7-Staaten haben die Freigabe von bis zu 100 Millionen Barrel Öl und Diesel vereinbart.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die Maßnahmen sind eine Reaktion auf die hohen Energiepreise infolge des Iran-Kriegs.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Die Freigabe soll über einen Zeitraum von vier Monaten über die Internationale Energieagentur erfolgen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die USA tatsächlich einen vollständigen Exportstopp für Diesel verhängt hätten, da US-Präsident Trump erklärte, dies sei nie wirklich auf dem Tisch gewesen, während Medienberichte über Drohungen vorlagen."
+   ],
+   "positionen": [
+    [
+     "Donald Trump (US-Präsident)",
+     "Die Freigabe der Reserven ist eine großartige Sache und ein Exportstopp war nie wirklich geplant.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ],
+    [
+     "Michael Kellner (Grünen-Energiepolitiker)",
+     "Die Freigabe der Reserven ist eine politische Dummheit und dient dem Wahlkampf von US-Präsident Trump.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "Samina Sultan (Ökonomin IW)",
+     "Die Freigabe bringt nur kurzfristige Linderung, ändert aber nichts an der grundlegenden Problematik.",
+     "Tagesschau/ARD,ZDFheute"
+    ],
+    [
+     "Katherina Reiche (Bundeswirtschaftsministerin)",
+     "Es entsteht kein Risiko für die deutsche Energieversorgung und es bleibt ausreichend Reserve im System.",
+     "Tagesschau/ARD,ZDFheute"
+    ]
+   ],
+   "fehlend": "Stimmen aus den Regierungen von Japan, Italien, Kanada und dem Iran kommen in den Berichten nicht direkt zu Wort.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "03.10.26, 14:54",
+     "fokus": "Politische Reaktionen in Deutschland",
+     "text": "Der Bericht beleuchtet vor allem die Kritik der Grünen sowie Einschätzungen des Bundeswirtschaftsministeriums und von Ökonomen.",
+     "url": "https://www.tagesschau.de/ausland/europa/freigabe-oelreserven-reaktionen-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 394,
+      "satzlaenge": 16,
+      "langeWoerter": 36
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "03.10.26, 17:21",
+     "fokus": "Hintergründe und Marktdaten",
+     "text": "Der Artikel enthält ausführliche Statistiken zu Deutschlands Importen, den Beständen der Reserve sowie Berichte über Tankpreise.",
+     "url": "https://www.zdfheute.de/politik/deutschland/reserven-sprit-tankstelle-faq-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 5,
+      "woerter": 992,
+      "satzlaenge": 14,
+      "langeWoerter": 35
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
      "name": "Spiegel",
      "typ": "Nachrichtenmagazin",
      "art": "privates Medium",
      "stamm": true,
      "datum": "02.10.26, 16:31",
-     "fokus": "Ausführliche Hintergründe und Reaktionen",
-     "text": "Der Artikel liefert Details zu den Verhandlungen und Reaktionen.",
+     "fokus": "Diplomatische Abläufe und G7-Erklärung",
+     "text": "Das Nachrichtenmagazin konzentriert sich auf die Videokonferenz der Staatschefs, Macron und die Erklärung zu Exportbeschränkungen.",
      "url": "https://www.spiegel.de/wirtschaft/diesel-und-rohoel-g7-geben-bis-zu-100-millionen-barrel-frei-a-c0ef3afe-2923-476c-9732-87300e24ae4b#ref=rss",
      "video": false,
      "lesbar": {
@@ -3103,51 +2920,53 @@
      "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
      "finanzierung": "Abos und Werbung",
      "publikumWert": null
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "02.10.26, 19:31",
-     "fokus": "Kurze Meldung",
-     "text": "Die Wochenzeitung fasst den Beschluss kurz zusammen.",
-     "url": "https://www.zeit.de/wirtschaft/2026-10/g7-wollen-bis-zu-100-millionen-barrel-diesel-und-rohoel-freigeben",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
     }
    ],
    "unterschiede": [
     [
-     "Ausführlichkeit",
-     "Der Spiegel bietet weitaus mehr Hintergrundinformationen und Reaktionen als Deutschlandfunk und Zeit."
+     "Detailreichtum bei Importstatistiken",
+     "ZDFheute nennt detaillierte Zahlen des Statistischen Bundesamtes zu Deutschlands Öllieferanten, während die anderen Quellen dies nicht erwähnen."
     ]
    ],
    "wfragen": {
-    "wer": "Die G7-Staaten und die Internationale Energieagentur",
-    "was": "Freigabe von bis zu 100 Millionen Barrel Diesel und Rohöl",
-    "wann": "noch unklar",
-    "wo": "Internationale Ebene",
-    "wie": "Koordinierte Freigabe über einen Zeitraum von vier Monaten",
-    "warum": "Senkung der Energiepreise nach US-Druck und Volatilität laut G7 und Trump",
-    "quellenlage": "Berichte von Deutschlandfunk, Spiegel und Zeit"
+    "wer": "G7-Staaten und Internationale Energieagentur",
+    "was": "Freigabe von bis zu 100 Millionen Barrel Öl und Diesel",
+    "wann": "Oktober 2026",
+    "wo": "Internationale Energiemärkte",
+    "wie": "Koordinierte Freigabe über vier Monate und Abstimmung von Raffineriewartungen",
+    "warum": "Hohe Energiepreise und Versorgungsrisiken durch den Iran-Krieg laut G7-Berichten",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Spiegel"
    },
    "artikel": [
     {
-     "ueberschrift": "Das ist passiert",
+     "ueberschrift": "Beschluss zur Freigabe von Reserven",
      "absaetze": [
-      "Die G7-Staaten haben sich darauf verständigt, bis zu 100 Millionen Barrel Diesel und Rohöl aus ihren Reserven freizugeben. Dies geschieht laut Spiegel über einen Zeitraum von vier Monaten. Die Maßnahmen sollen nach übereinstimmenden Angaben der Berichte dazu dienen, die Energiemärkte zu entlasten.",
-      "Die G7 reagierten damit laut Deutschlandfunk auf eine Forderung Washingtons. Laut dem Spiegel soll die koordinierte Freigabe über die Internationale Energieagentur unverzüglich anlaufen."
+      "Die G7-Staaten haben sich darauf verständigt, bis zu 100 Millionen Barrel Diesel und Rohöl aus ihren nationalen Reserven freizugeben. Dies geht aus übereinstimmenden Berichten von Tagesschau/ARD, ZDFheute und Spiegel hervor. Die Maßnahme soll dazu dienen, die stark gestiegenen Energiemärkte zu entlasten. Laut Tagesschau/ARD erstreckt sich die Freigabe über einen Zeitraum von vier Monaten. Die beteiligten Staaten schlossen zudem die Freigabe zusätzlicher Mengen nicht aus.",
+      "Die Koordination der Maßnahme erfolgt über die Internationale Energieagentur, kurz IEA. Laut Spiegel ist eine vorgezogene und erhebliche Freigabe von Diesel innerhalb der ersten zwanzig Tage durch die G7-Mitglieder und deren Partner geplant. Die G7-Staaten teilten mit, dass in den kommenden Tagen weitere Treffen im Rahmen der IEA stattfinden werden, um mögliche zusätzliche Dieselfreigaben zu erörtern. In einer gemeinsamen Erklärung sprachen die Staaten von einer beispiellosen Volatilität auf den Ölmärkten.",
+      "Zu den Mitgliedern der G7 gehören Deutschland, Frankreich, Italien, Großbritannien, die USA, Kanada und Japan. Der französische Präsident Emmanuel Macron teilte nach Beratungen in einer Videokonferenz mit G7-Vertretern, an der auch Bundeskanzler Friedrich Merz teilnahm, die Einigung mit. Die Staats- und Regierungschefs der G7-Staaten bekräftigten in ihrer Erklärung ihre Verpflichtung, auf Exportbeschränkungen für Energie und Energieträger untereinander zu verzichten."
      ]
     },
     {
-     "ueberschrift": "Die Einzelheiten",
+     "ueberschrift": "Hintergrund und Marktlage",
      "absaetze": [
-      "Laut dem Spiegel nahmen an einer Videokonferenz der G7 unter anderem der französische Präsident Emmanuel Macron und Bundeskanzler Friedrich Merz teil. US-Präsident Donald Trump erklärte laut dem Spiegel, Europa habe sich zur Bereitstellung bereiterklärt. US-Finanzminister Scott Bessent forderte laut dem Spiegel auf X, Europa solle Liefermengen unverzüglich bereitstellen.",
-      "Laut dem Spiegel verurteilten die G7-Staaten Angriffe Irans auf Nachbarstaaten und bekräftigten, an Sanktionen gegen Russland festzuhalten."
+      "Die Ölpreise befinden sich nach Angaben von ZDFheute wegen des Konflikts im Nahen Osten seit Monaten auf einem Höhenflug. Der Konflikt zwischen dem Iran und den USA ist demnach noch immer nicht beigelegt. In der für den weltweiten Energiehandel wichtigen Straße von Hormus werden laut ZDFheute Tanker beschossen. Die Meeresstraße ist seit Beginn des Iran-Kriegs Ende Februar für den Schiffsverkehr weitgehend blockiert, wie Tagesschau/ARD berichtet.",
+      "Infolge dieser Entwicklungen kam es zu einem deutlichen Anstieg der Inflation, wobei die Marke von 100 US-Dollar je Barrel überschritten wurde. Rohöl der Sorte Brent hat sich nach Angaben von ZDFheute seit Beginn des Jahres um mehr als 60 Prozent verteuert. Die Freigabe der Reserven soll das Signal senden, dass genügend Öl vorhanden ist und keine Knappheit droht. Nach der Einigung gaben die Ölpreise zunächst nach, wobei die Referenzsorte Brent um mehr als drei Prozent auf 98,72 US-Dollar fiel.",
+      "Die Vereinigten Staaten sind nach Angaben von ZDFheute zwar Europas wichtigster Lieferant von Diesel, jedoch beziehen Europa und Deutschland insgesamt relativ geringe Mengen direkt aus den USA. Deutschland hat im Jahr 2025 nach Angaben des Statistischen Bundesamtes nur rund 6,1 Prozent aus dem Nahen Osten bezogen, während Norwegen, die USA und Libyen zu den wichtigsten Lieferanten zählen. Die USA hatten zuvor mit einem Exportstopp gedroht, den US-Präsident Donald Trump nun jedoch als nicht mehr aktuell bezeichnete."
+     ]
+    },
+    {
+     "ueberschrift": "Nationale Reserven und Reaktionen der Politik",
+     "absaetze": [
+      "Deutschland hält ebenfalls strategische Ölreserven bereit, um Versorgungsstörungen auszugleichen. Laut ZDFheute könnte mit diesen Vorräten ein vollständiger Ausfall aller Importe für drei Monate ausgeglichen werden. Die Bundeswirtschaftsministerin Katherina Reiche betonte laut Tagesschau/ARD, dass durch die Freigabe kein Risiko für die deutsche Energieversorgung entstehe, da ausreichend Reserven im System verbleiben.",
+      "US-Präsident Donald Trump begrüßte die Entscheidung der G7-Staaten und erklärte, ein zuvor angedrohter Exportstopp für Diesel sei nie wirklich auf dem Tisch gewesen. Laut ZDFheute hatten die USA zuvor erheblichen Druck auf europäische Partner ausgeübt, um die Freigabe von Vorräten zu erreichen. US-Finanzminister Scott Bessent hatte zuvor auf der Plattform X gefordert, Europa solle zusätzliche Liefermengen unverzüglich bereitstellen.",
+      "Kritik an dem Schritt kam von der Partei Die Grünen in Deutschland. Der Energiepolitiker Michael Kellner bezeichnete die Freigabe in Berichten von Tagesschau/ARD und Spiegel als Fehler und politische Dummheit, die dem Wahlkampf des US-Präsidenten diene. Auch die Umweltschutzorganisation Greenpeace äußerte laut ZDFheute Bedenken hinsichtlich der geopolitischen Erpressbarkeit durch fossile Energieträger."
+     ]
+    },
+    {
+     "ueberschrift": "Wirtschaftliche Einschätzungen",
+     "absaetze": [
+      "Ökonomen bewerten die Maßnahme der G7-Staaten als kurzfristige Entlastung. Die Ökonomin Samina Sultan vom Institut der deutschen Wirtschaft erklärte laut Tagesschau/ARD und ZDFheute, die Freigabe wirke ähnlich wie ein Tankrabatt und verschaffe nur kurzfristig Linderung. Für eine dauerhafte Normalisierung der Preise sei eine Öffnung der Straße von Hormus erforderlich.",
+      "Die freigegebenen Mengen aus den deutschen Reserven werden zu aktuellen Marktpreisen verkauft. Sie sollen laut ZDFheute eigentlich zur Abwendung einer Mangellage dienen und nicht primär zur Preissenkung von Benzin und Diesel. Die Verbraucherpreise an Tankstellen gaben nach der Einigung im Bundesdurchschnitt leicht nach, wobei der Benzinpreis von Super E10 und die Dieselpreise geringfügig sanken."
      ]
     }
    ],
@@ -3161,108 +2980,162 @@
      "US-Präsident Trump telefonierte mit Frankreichs Präsident Emmanuel Macron."
     ],
     [
-     "Freitagabend",
-     "Die G7-Staatengruppe gab die koordinierte Freigabe von bis zu 100 Millionen Barrel Öl und Kraftstoffen bekannt."
+     "Donnerstag",
+     "US-Finanzminister Scott Bessent schrieb auf X, Europa solle zusätzliche Liefermengen bereitstellen."
     ],
     [
      "Donnerstag",
-     "US-Finanzminister Scott Bessent schrieb auf X, Europa solle zusätzliche Liefermengen bereitstellen."
+     "US-Finanzminister Scott Bessent forderte Europa auf X zur Bereitstellung zusätzlicher Liefermengen auf."
+    ],
+    [
+     "Freigabe",
+     "Die G7-Staatengruppe gab die koordinierte Freigabe von bis zu 100 Millionen Barrel Öl und Kraftstoffen bekannt."
     ]
    ],
    "bilder": [
     {
      "art": "person",
-     "suchbegriff": "Emmanuel Macron politician",
-     "bildunterschrift": "Der französische Präsident Emmanuel Macron teilte die gemeinsame Entscheidung mit."
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump begrüßte die Entscheidung zur Freigabe von Energiereserven."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Emmanuel Macron",
+     "bildunterschrift": "Frankreichs Präsident Emmanuel Macron nahm an den Beratungen der G7-Staaten teil."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "International Energy Agency headquarters Paris",
+     "bildunterschrift": "Die Internationale Energieagentur koordiniert die Freigabe der nationalen Ölreserven."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Strait of Hormuz",
+     "bildunterschrift": "Die Straße von Hormus ist eine zentrale und aktuell umkämpfte Route für den weltweiten Ölhandel."
     }
    ],
    "ort": {
-    "name": "Paris, Frankreich"
+    "name": "Berlin, Deutschland"
    },
    "geprueft": true,
    "korrekturen": [
-    "Das Datum in der W-Frage wurde auf noch unklar korrigiert, da in den Berichten kein genaues Datum des Beschlusses genannt wird.",
-    "Nicht belegte Sätze im Artikel wurden entfernt oder an die Berichte angepasst."
+    "Rechtschreibfehler im Entwurf korrigiert (z.B. Energyträger zu Energieträger)."
    ],
-   "wortwarnung": [],
+   "wortwarnung": [
+    "beispiellosen"
+   ],
    "lernen": {
     "begriffe": [
      [
-      "G7",
-      "Die G7 ist ein Zusammenschluss von sieben wichtigen Industrienationen."
+      "G7-Staaten",
+      "Ein Zusammenschluss von sieben wichtigen Industrieländern, zu denen unter anderem Deutschland, die USA und Frankreich gehören."
      ],
      [
-      "Rohöl",
-      "Rohöl ist unverarbeitetes Erdöl, aus dem unter anderem Benzin und Diesel hergestellt werden."
+      "Internationale Energieagentur (IEA)",
+      "Eine internationale Organisation, die Mitgliedsländer bei der Sicherung ihrer Energieversorgung unterstützt."
+     ],
+     [
+      "Straße von Hormus",
+      "Eine sehr wichtige Meeresstraße für den weltweiten Schiffsverkehr und Handel mit Erdöl."
      ]
     ],
     "fragen": [
-     "Welche Argumente nannten Befürworter und Kritiker der Freigabe von Ölreserven?",
-     "Welche Rolle spielt die Internationale Energieagentur bei solchen Entscheidungen?"
+     "Welche Argumente bringen Kritiker gegen die Freigabe von staatlichen Ölreserven vor?",
+     "Warum spielt die Straße von Hormus eine so wichtige Rolle für die weltweiten Energiepreise?"
     ],
     "quiz": [
      {
-      "frage": "Wie viele Barrel Diesel und Rohöl wollen die G7-Staaten maximal freigeben?",
+      "frage": "Wie viel Öl und Diesel wollen die G7-Staaten aus ihren Reserven freigeben?",
       "optionen": [
-       "Bis zu 50 Millionen Barrel",
        "Bis zu 100 Millionen Barrel",
-       "Bis zu 400 Millionen Barrel"
+       "Genau 400 Millionen Barrel",
+       "Bis zu 50 Millionen Barrel"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau, ZDF und Spiegel wurden bis zu 100 Millionen Barrel vereinbart."
+     },
+     {
+      "frage": "Über welchen Zeitraum soll die Freigabe der Reserven erfolgen?",
+      "optionen": [
+       "Zwei Monate",
+       "Vier Monate",
+       "Ein Jahr"
       ],
       "richtig": 1,
-      "erklaerung": "Laut übereinstimmender Berichte von Deutschlandfunk, Spiegel und Zeit haben sich die G7-Staaten auf bis zu 100 Millionen Barrel geeinigt."
+      "erklaerung": "Die Berichte geben an, dass sich die Freigabe über einen Zeitraum von vier Monaten erstreckt."
+     },
+     {
+      "frage": "Wer kritisierte die Entscheidung in Deutschland scharf?",
+      "optionen": [
+       "Die Partei Die Grünen",
+       "Das Bundeswirtschaftsministerium",
+       "Das Statistische Bundesamt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Grünen, vertreten durch den Energiepolitiker Michael Kellner, übten laut Tagesschau und Spiegel scharfe Kritik."
      }
     ]
    },
    "einfach": {
-    "vorspann": "Die G7-Staaten wollen Öl und Diesel aus ihren Lagern freigeben.",
+    "vorspann": "Wegen hoher Preise an den Tankstellen helfen die großen Wirtschaftsländer mit Öl aus.",
     "absaetze": [
-     "Die Gruppe der sieben großen Industrienationen hat sich geeinigt. Sie wollen bis zu 100 Millionen Barrel Rohöl und Diesel aus ihren Reserven freigeben.",
-     "Damit sollen laut den Berichten die Energiemärkte entlastet werden. Die Freigabe soll über vier Monate laufen.",
-     "Laut dem Spiegel gab es zuvor Forderungen aus den Vereinigten Staaten von Amerika nach solchen Schritten."
+     "Die Gruppe der sieben großen Industrieländer, kurz G7, hat eine wichtige Entscheidung getroffen.",
+     "Sie wollen bis zu einhundert Millionen Barrel Öl und Diesel aus ihren Lagern auf den Markt bringen.",
+     "Ein Barrel ist ein Fass mit einhundertneunundfünfzig Litern.",
+     "Das soll dafür sorgen, dass das Benzin und der Diesel wieder günstiger werden.",
+     "Hintergrund ist der Krieg im Iran, der den Handel mit Öl schwer stört.",
+     "Einige Politiker kritisieren die Maßnahme jedoch scharf."
     ]
    },
    "video": {
     "kurz": [
-     "Die G7-Staaten geben bis zu 100 Millionen Barrel Öl und Diesel frei.",
-     "Die Maßnahme soll die Energiemärkte über vier Monate entlasten.",
-     "Laut dem Spiegel reagieren die Staaten damit auf Forderungen der USA."
+     "Die G7-Staaten geben bis zu einhundert Millionen Barrel Öl und Diesel frei.",
+     "Das soll die hohen Energiepreise nach Angaben der beteiligten Regierungen senken.",
+     "Hintergrund ist der anhaltende Krieg im Iran und dessen Folgen für den Welthandel."
     ],
     "lang": [
-     "Die G7-Staaten haben sich auf die Freigabe von Ölreserven geeinigt.",
-     "Bis zu 100 Millionen Barrel Diesel und Rohöl sollen aus den Lagern kommen.",
-     "Die Maßnahme dauert vier Monate.",
-     "Das Ziel ist nach Angaben der Berichte eine Entlastung der Energiemärkte.",
-     "Laut dem Spiegel reagieren die G7 damit auf eine Forderung der Vereinigten Staaten von Amerika.",
-     "Der französische Präsident Emmanuel Macron teilte die Entscheidung mit.",
-     "Kritik kam laut dem Spiegel von dem Bundestagsabgeordneten Michael Kellner von den Grünen.",
-     "Die Internationale Energieagentur soll die Umsetzung überwachen.",
-     "In den kommenden Tagen sind weitere Beratungen geplant."
+     "Die Staaten der Gruppe der sieben großen Industrieländer haben die Freigabe von Ölreserven beschlossen.",
+     "Das teilten die Regierungen am Freitag nach einer Videokonferenz mit.",
+     "Bis zu einhundert Millionen Barrel Rohöl und Diesel sollen in den nächsten vier Monaten auf den Markt kommen.",
+     "Die Internationale Energieagentur koordiniert diese Maßnahme nach Angaben der Berichte.",
+     "Hintergrund sind stark gestiegene Energiepreise infolge des Krieges im Iran.",
+     "US-Präsident Donald Trump begrüsste die Entscheidung und sprach von einer großartigen Sache.",
+     "Kritik kam dagegen von den Grünen in Deutschland, die den Schritt als politische Dummheit bezeichneten.",
+     "Ökonomen erwarten nach übereinstimmenden Berichten nur eine kurzfristige Entlastung der Verbraucher.",
+     "Deutschland hält eigene Reserven bereit, die laut dem Bundeswirtschaftsministerium ausreichen.",
+     "Eine dauerhafte Normalisierung hängt nach Expertensicht von der Öffnung der Straße von Hormus ab."
     ],
     "einfach": [
-     "Die G7-Staaten geben Öl und Diesel frei.",
-     "Bis zu 100 Millionen Barrel sollen den Markt entlasten.",
-     "Die Aktion dauert vier Monate.",
-     "Die Vereinigten Staaten hatten das gefordert.",
-     "Das teilen Berichte von Deutschlandfunk und dem Spiegel mit."
+     "Die sieben großen Wirtschaftsländer helfen den Autofahrern mit Öl aus.",
+     "Sie geben bis zu einhundert Millionen Barrel Öl und Diesel frei.",
+     "Das ist eine Reaktion auf die sehr hohen Energiepreise.",
+     "Der Grund für die hohen Preise ist der Krieg im Iran.",
+     "Der amerikanische Präsident Donald Trump findet die Entscheidung gut.",
+     "Die Partei Die Grünen kritisiert die Freigabe der Vorräte."
     ]
    },
    "kurz": [
-    "Die G7-Staaten geben bis zu 100 Millionen Barrel Diesel und Rohöl frei.",
-    "Die Maßnahme soll die Energiemärkte über vier Monate hinweg entlasten.",
-    "Laut dem Spiegel geht der Schritt auf Forderungen der USA zurück."
+    "Die G7-Staaten geben bis zu 100 Millionen Barrel Öl und Diesel frei.",
+    "Dies ist eine Reaktion auf hohe Energiepreise durch den Iran-Krieg.",
+    "Die Freigabe läuft über vier Monate und wird von der IEA koordiniert.",
+    "US-Präsident Trump begrüßt den Schritt, während die Grünen Kritik üben."
    ],
    "fakten": [
     [
-     "Freigabemenge an Diesel und Rohöl",
+     "Freigegebene Ölmenge",
      "bis zu 100 Millionen Barrel"
     ],
     [
      "Zeitraum der Freigabe",
      "vier Monate"
+    ],
+    [
+     "Preis für Rohöl der Sorte Brent nach Rückgang",
+     "98,72 US-Dollar"
     ]
    ],
    "dossier": {
-    "slug": "g7-oelreserven-energiekrise",
+    "slug": "energiekrise-und-oelreserven-g7",
     "titel": "Freigabe von G7-Ölreserven"
    },
    "bildInfo": {
@@ -3328,91 +3201,432 @@
     }
    ],
    "ortInfo": {
-    "name": "Paris, Frankreich",
-    "lat": 48.859,
-    "lon": 2.32
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
    },
-   "version": 5,
-   "ton": [
+   "version": 5
+  },
+  {
+   "id": "spanische-wohnungskrise-parlament",
+   "rubrik": "Welt",
+   "zeit": "2026-10-03T14:22:55.000Z",
+   "aktualisiert": "aktualisiert um 19:54 Uhr",
+   "titel": "Proteste in Spanien nach parlamentarischer Ablehnung von Mieterschutzpaketen",
+   "vorspann": "Nach dem Scheitern von Regierungsdekreten im spanischen Parlament haben landesweit Zehntausende Menschen gegen Wohnungsnot demonstriert. Die Parteien im Parlament vertreten unterschiedliche Auffassungen über Lösungswege für die Krise.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "In Spanien haben Zehntausende Menschen gegen die Wohnungsnot demonstriert.",
+    "Zuvor waren zwei Regierungsdekrete zur Mietenregulierung im Parlament gescheitert.",
+    "Konservative und rechtspopulistische Parteien stimmten gegen die Vorhaben.",
+    "Medienberichten zufolge erwägt Premierminister Sánchez mögliche Neuwahlen."
+   ],
+   "einig": [
+    [
+     "Zehntausende Menschen protestierten landesweit in Spanien gegen die Wohnungsnot.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Das Parlament lehnte zwei Regierungsdekrete zur Mietenregulierung ab.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "In Madrid gaben die Behörden die Teilnehmerzahl mit 70.000 an, während die Veranstalter von 500.000 sprachen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob Ministerpräsident Pedro Sánchez tatsächliche Neuwahlen für November ansetzt, ist unklar; sein Büro lehnte laut Tagesschau/ARD eine Stellungnahme zu entsprechenden Medienberichten ab."
+   ],
+   "positionen": [
+    [
+     "Valeria Racu (Sprecherin des Mieterverbands Madrid)",
+     "Die Bevölkerung fordert konsequentes Handeln gegen die Krise und wird den Protest so lange fortsetzen, bis sich etwas ändert.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "Juan Bravo (Abgeordneter der Volkspartei)",
+     "Wohnraum wird nicht durch staatliche Dekrete bezahlbarer, sondern durch den Bau weiterer Wohnungen.",
+     "The Guardian"
+    ],
+    [
+     "Regierung unter Pedro Sánchez",
+     "Die Regierung wollte mit den abgelehnten Dekreten gegen steigende Mieten und Zwangsräumungen vorgehen.",
+     "Tagesschau/ARD,Spiegel"
+    ]
+   ],
+   "fehlend": "Detaillierte Stellungnahmen der Partei Vox zu ihren Motiven bei der Abstimmung im Parlament.",
+   "medien": [
     {
-     "k": "Die G7-Staaten haben sich auf die Freigabe von Ölreserven geeinigt. Bis zu 100 M",
-     "d": "f5f6a2038e.mp3",
-     "l": 39.39,
-     "s": [
-      0.25,
-      4.67,
-      9.58,
-      11.72,
-      16.02,
-      22.12,
-      26.35,
-      31.85,
-      35.72
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "03.10.26, 16:22",
+     "fokus": "Politische Krise und Proteste",
+     "text": "Berichtet ausführlich über die politischen Hintergründe, die Reaktionen des Mieterverbands sowie die Ausschreitungen in Valencia.",
+     "url": "https://www.tagesschau.de/ausland/europa/proteste-wegen-wohnungsnot-in-spanien-gehen-weiter-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "schwer",
+      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
+      "klasse": 13,
+      "minuten": 2,
+      "woerter": 398,
+      "satzlaenge": 15,
+      "langeWoerter": 43
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "03.10.26, 16:19",
+     "fokus": "Soziale Lage und Statistiken",
+     "text": "Fokussiert stark auf die statistischen Hintergründe der Wohnungsnot sowie die Zuspitzung der politischen Situation der Regierung.",
+     "url": "https://www.spiegel.de/ausland/spanien-zehntausende-menschen-protestieren-gegen-wohnungsnot-a-d0aa2b52-268b-46f1-8018-8736827e4d2f#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 466,
+      "satzlaenge": 18,
+      "langeWoerter": 38
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "The Guardian",
+     "typ": "Tageszeitung (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "03.10.26, 16:19",
+     "fokus": "Bürgerperspektiven und Zitate",
+     "text": "Beinhaltet zahlreiche Aussagen von Demonstrierenden über ihre persönlichen Lebenshaltungskosten und die Mietbelastung in Madrid.",
+     "url": "https://www.theguardian.com/world/2026/oct/03/spain-housing-protest",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 3,
+      "woerter": 640,
+      "satzlaenge": 29,
+      "langeWoerter": 26
+     },
+     "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
+     "finanzierung": "Leserbeiträge und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zitate und Stimmen",
+     "The Guardian führt mehrere namentlich genannte Bürger an, die von ihren persönlichen Mietkosten berichten, während Tagesschau und Spiegel stärker auf offizielle Verbände und politische Berichterstattung setzen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Zehntausende Demonstranten, Mieterverbände und die spanische Regierung",
+    "was": "Proteste gegen Wohnungsnot und gescheiterte Regierungsdekreite",
+    "wann": "2026-10-03",
+    "wo": "Spanien (Madrid, Valencia und weitere Städte)",
+    "wie": "Durch friedliche Proteste, Kundgebungen und vereinzelte Ausschreitungen",
+    "warum": "Laut Berichten wegen steigender Mieten und fehlender parlamentarischer Mehrheiten für Reformen",
+    "quellenlage": "Polizeibehörden, Veranstalter, Zeitungsberichte und offizielle Erklärungen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In Spanien haben am Wochenende Zehntausende Menschen gegen die anhaltende Wohnungsnot demonstriert. Die Kundgebungen fanden in zahlreichen Städten des Landes statt. Anlass für die Proteste war das Scheitern von zwei Regierungsdekreten im Parlament am Freitag. Die von Ministerpräsident Pedro Sánchez eingebrachten Maßnahmen zur Linderung der Wohnungskrise erhielten keine Mehrheit.",
+      "Konservative und rechtspopulistische Abgeordnete stimmten gegen die Gesetzesvorhaben. Die Vorlagen sollten unter anderem den Schutz von Mietern erhöhen und Zwangsräumungen regulieren. Das Ausbleiben einer parlamentarischen Einigung führte zu landesweiten Protesten von Mietergruppen und betroffenen Bürgern. Die Demonstranten forderten weitreichende Reformen auf dem Wohnungsmarkt.",
+      "Laut Angaben des staatlichen Senders RTVE waren Kundgebungen in mehr als 50 Städten angekündigt worden. In Madrid und anderen Städten zogen Demonstranten durch die Zentren. Eine in Barcelona geplante Veranstaltung musste wegen einer amtlichen Unwetterwarnung verschoben werden. Die Versammlungen verliefen überwiegend friedlich, es kam jedoch an einigen Orten zu Zwischenfällen."
      ]
     },
     {
-     "k": "Die G7-Staaten geben bis zu 100 Millionen Barrel Öl und Diesel frei. Die Maßnahm",
-     "d": "c59caf9cc2.mp3",
-     "l": 13.78,
-     "s": [
-      0.25,
-      5.51,
-      9.29
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Zu den Teilnehmerzahlen der Demonstrationen machten Behörden und Veranstalter unterschiedliche Angaben. Laut Behördenangaben beteiligten sich in Madrid etwa 70.000 Menschen an den Kundgebungen. Die Organisatoren der Proteste sprachen hingegen von bis zu 500.000 Teilnehmern in der Hauptstadt. In Valencia kam es nach Angaben der Behörden zu Ausschreitungen zwischen Demonstranten und Einsatzkräften.",
+      "Die Polizei setzte in Valencia Gummigeschosse und Tränengas ein, um die Menschenmenge aufzulösen. Etwa 30 Demonstranten drängten vorübergehend in den Kulturkomplex Stadt der Künste und Wissenschaften vor. Die Beamten vertrieben die Personen kurz darauf aus dem Gebäude. In Madrid und anderen Städten forderten einige Teilnehmer auf Transparenten einen Generalstreik.",
+      "Auslöser für die Zuspitzung der Proteste war unter anderem die Zwangsräumung einer 87-jährigen Bewohnerin in Madrid. Die Rentnerin Maricarmen Abascal musste ihre Wohnung nach jahrzehntelanger Mietzeit verlassen. Laut Angaben des Mieterverbands war die Miete zuvor stark erhöht worden. Inzwischen wurde laut Medienberichten eine Einigung über ihre Rückkehr in die Wohnung erzielt."
      ]
     },
     {
-     "k": "Die G7-Staaten geben Öl und Diesel frei. Bis zu 100 Millionen Barrel sollen den ",
-     "d": "285360e784.mp3",
-     "l": 18.43,
-     "s": [
-      0.25,
-      4.02,
-      8.18,
-      11.09,
-      14.47
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Wohnraummangel und stark gestiegene Preise zählen in Spanien seit Jahren zu den zentralen sozialen Herausforderungen. Nach Angaben des Immobilienportals Idealista haben sich die Durchschnittsmieten im Land innerhalb von zehn Jahren fast verdoppelt. Die Angebotspreise für Wohnimmobilien stiegen demnach um etwa 90 Prozent. Die spanische Zentralbank schätzt, dass landesweit mehr als 700.000 Wohnungen fehlen.",
+      "Die gescheiterten Dekrete der Regierung sahen verschiedene Maßnahmen zur Entlastung des Marktes vor. Dazu gehörte ein vorübergehendes Verbot von Zwangsräumungen in sozialen Notlagen sowie strengere Auflagen für Kurzzeitvermietungen. Zudem sollten Immobilienspekulationen erschwert und steuerliche Anreize für den Wohnungsbau geschaffen werden. Auch eine Entfristung der in Spanien üblicherweise auf acht Jahre angelegten Mietverträge war geplant.",
+      "Die Regierung von Ministerpräsident Pedro Sánchez gerät durch das parlamentarische Nein in eine schwere politische Krise. Die sozialistische Koalition kann kaum noch Initiativen im Parlament durchsetzen. Vor knapp einem Jahr kündigte die konservative katalanische Separatistenpartei Junts ihre Unterstützung auf und entzog der Regierung sieben wichtige Stimmen. Berichten der Zeitung El País zufolge erwägt Sánchez angesichts der Lage die Ansetzung von Neuwahlen im November."
      ]
     },
     {
-     "k": "Ob die freigegebenen Mengen ausreichen, um die Preise nachhaltig zu senken, ist ",
-     "d": "5c73affc52.mp3",
-     "l": 5.73,
-     "s": [
-      0.25
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Parlament eines Staates ist die Volksvertretung, die über Gesetze und Regierungsinitiativen abstimmt. In parlamentarischen Demokratien ist eine Regierung auf eine stabile Mehrheit angewiesen, um Gesetze beschließen zu können. Fehlt diese Mehrheit, können Vorhaben scheitern, was Regierungen in schwere politische Krisen stürzen kann.",
+      "Dekrete sind in vielen politischen Systemen Rechtsverordnungen der Regierung, die je nach Verfassung erlassen werden können, aber oft einer parlamentarischen Bestätigung bedürfen."
      ]
     },
     {
-     "k": "Was bedeutet eigentlich G7? Die G7 ist ein Zusammenschluss von sieben wichtigen ",
-     "d": "d156bd008b.mp3",
-     "l": 8.16,
-     "s": [
-      0.25,
-      3.18
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Sprecherin des Mieterverbands von Madrid, Valeria Racu, erklärte laut den Berichten, die Macht sei zurück auf der Straße. Sie kündigte an, dass die Proteste so lange fortgesetzt würden, bis sich die Situation grundlegend ändere. Zudem forderte sie einen Generalstreik als Reaktion auf die Wohnungskrise.",
+      "Der Abgeordnete Juan Bravo von der konservativen Volkspartei äußerte sich zur Position seiner Partei. Laut seiner Aussage führt nicht Regulierung, sondern der Neubau von Wohnungen zu mehr Bezahlbarkeit. Die Volkspartei lehnte die Dekrete gemeinsam mit der Partei Vox und der Partei Junts ab.",
+      "Teilnehmer der Demonstrationen kritisierten das Vorgehen der Politik. Ein 26-jähriger Demonstrationsteilnehmer in Madrid namens Nando de Anguulo erklärte gegenüber der Nachrichtenagentur Reuters, dass sich die Bevölkerung den Parteien anpassen müsse und nicht umgekehrt. Ein weiterer Teilnehmer, der Bibliothekar Marcos Sainz, berichtete von stark gestiegenen Mietkosten im Vergleich zu den Einkommen in der Hauptstadt."
      ]
     },
     {
-     "k": "Die G7-Staaten haben sich darauf verständigt, bis zu 100 Millionen Barrel Diesel",
-     "d": "4e3b206c22.mp3",
-     "l": 29.05,
-     "s": [
-      0.25,
-      7.99,
-      11.65,
-      17.47,
-      22.33
-     ]
-    },
-    {
-     "k": "Laut dem Spiegel nahmen an einer Videokonferenz der G7 unter anderem der französ",
-     "d": "6ac755b740.mp3",
-     "l": 31.08,
-     "s": [
-      0.25,
-      9.32,
-      15.37,
-      22.54
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Ministerpräsident Pedro Sánchez will nach Angaben von Medienberichten das Ausmaß des Unmuts in der Bevölkerung an diesem Wochenende beobachten. Danach werde er eine Entscheidung darüber treffen, ob im November vorgezogene Parlamentswahlen angesetzt werden. Sein Regierungsbüro lehnte eine offizielle Stellungnahme zu diesen Berichten zunächst ab.",
+      "Mieterverbände und Bürgerinitiativen kündigten an, den Druck auf die Politik durch weitere Proteste aufrechtzuerhalten. Die Reaktionen auf das parlamentarische Scheitern der Mietdekrete dominieren weiterhin die politische Diskussion in Spanien."
      ]
     }
-   ]
+   ],
+   "zeitleiste": [
+    [
+     "2026",
+     "Das spanische Parlament lehnt zwei Regierungsdekrete zum Mieterschutz in zwei Abstimmungen ab."
+    ],
+    [
+     "Freitag",
+     "Das spanische Parlament lehnt zwei Regierungsdekrete der Regierung zum Mieterschutz ab."
+    ],
+    [
+     "Samstag",
+     "Zehntausende Menschen demonstrieren in landesweit mehr als 50 Städten gegen die Wohnungsnot."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Pedro Sánchez politician",
+     "bildunterschrift": "Der spanische Ministerpräsident Pedro Sánchez steht nach dem Scheitern seiner Reformvorhaben im Parlament unter starkem Druck."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Madrid cityscape",
+     "bildunterschrift": "In der spanischen Hauptstadt Madrid fanden die größten Kundgebungen gegen die Wohnungsnot statt."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Congress of Deputies of Spain",
+     "bildunterschrift": "Im spanischen Abgeordnetenhaus wurden die von der Regierung eingebrachten Regulierungsdekrete abgelehnt."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Valencia cityscape",
+     "bildunterschrift": "In Valencia kam es während der Proteste zu vereinzelten Ausschreitungen und Polizeieinsätzen."
+    }
+   ],
+   "ort": {
+    "name": "Madrid, Spanien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Anführungszeichen bei wörtlichen Zitaten in Text und Abschnitten angepasst oder entfernt, um den Regeln zu entsprechen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Dekret",
+      "Ein Dekret ist eine Verordnung oder ein Beschluss der Regierung, der oft einer Bestätigung durch das Parlament bedarf."
+     ],
+     [
+      "Parlament",
+      "Das Parlament ist die gewählte Volksvertretung eines Landes, die über Gesetze berät und abstimmt."
+     ],
+     [
+      "Zwangsräumung",
+      "Eine Zwangsräumung ist das gewaltsame Räumen einer Wohnung durch Behörden, meist wenn Mieter ihre Miete nicht mehr zahlen können oder wollen."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen unterschiedliche Angaben bei Teilnehmerzahlen von Demonstrationen in der Berichterstattung?",
+     "Warum kann das Fehlen einer parlamentarischen Mehrheit eine Regierung in eine Krise stürzen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Städte waren laut Berichten für Proteste angekündigt?",
+      "optionen": [
+       "Mehr als 50 Städte",
+       "Genau 10 Städte",
+       "Mehr als 200 Städte"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel waren Proteste in mehr als 50 Städten angekündigt."
+     },
+     {
+      "frage": "Welche Parteien stimmten im Parlament gegen die Regierungsdekrete?",
+      "optionen": [
+       "Nur die sozialistische Partei",
+       "Konservative und rechtspopulistische Abgeordnete",
+       "Alle Parteien einstimmig"
+      ],
+      "richtig": 1,
+      "erklaerung": "Konservative und rechtspopulistische Abgeordnete stimmten laut den Berichten gegen die Dekrete."
+     },
+     {
+      "frage": "Wie hoch gaben die Veranstalter die Teilnehmerzahl in Madrid an?",
+      "optionen": [
+       "70.000",
+       "500.000",
+       "1 Million"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Veranstalter sprachen laut übereinstimmenden Berichten von bis zu 500.000 Teilnehmern in Madrid."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Spanien haben viele Menschen gegen hohe Mieten demonstriert. Zuvor lehnte das Parlament wichtige Gesetze der Regierung ab.",
+    "absaetze": [
+     "In mehr als fünfzig Städten in Spanien gingen Zehntausende Menschen auf die Straße. Sie protestierten gegen die große Wohnungsnot und hohe Mieten.",
+     "Auslöser für die Wut war das Scheitern von zwei Gesetzen im Parlament. Konservative und rechtspopulistische Parteien stimmten am Freitag dagegen.",
+     "Die Regierung von Ministerpräsident Pedro Sánchez wollte mit den Gesetzen den Mieterschutz verbessern. Nun gerät die Regierung in eine schwere politische Krise.",
+     "In Madrid gaben die Behörden an, dass siebzigtausend Menschen demonstrierten. Die Veranstalter sprachen dagegen von fünfhunderttausend Teilnehmern."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Spanien haben Zehntausende Menschen gegen die Wohnungsnot demonstriert.",
+     "Zuvor lehnte das Parlament zwei Regierungsdekrete zur Mietenregulierung ab.",
+     "Medienberichten zufolge erwägt Premierminister Pedro Sánchez nun vorgezogene Wahlen."
+    ],
+    "lang": [
+     "In Spanien haben Zehntausende Menschen landesweit gegen die zunehmende Wohnungsnot demonstriert.",
+     "Anlass waren zwei im Parlament gescheiterte Regierungsdekrete zur Mietenregulierung.",
+     "Das Parlament lehnte die Vorhaben am Freitag nach Angaben von Medien ab.",
+     "In der Hauptstadt Madrid beteiligten sich nach Behördenangaben siebzigtausend Menschen.",
+     "Die Veranstalter der Proteste sprachen dagegen von bis zu fünfhunderttausend Teilnehmern.",
+     "In Valencia kam es nach Behördenangaben zu Ausschreitungen zwischen Demonstranten und der Polizei.",
+     "Die Regierung von Ministerpräsident Pedro Sánchez gerät durch das Scheitern in eine schwere Krise.",
+     "Medienberichten zufolge erwägt Sánchez nun die Ansetzung von Neuwahlen im Monat November.",
+     "Sein Regierungsbüro lehnte eine Stellungnahme zu diesen Berichten zunächst ab.",
+     "Die Proteste und die politische Situation beschäftigen das Land weiter."
+    ],
+    "einfach": [
+     "In Spanien haben Zehntausende Menschen gegen hohe Mieten demonstriert.",
+     "Das Parlament lehnte zuvor wichtige Gesetze der Regierung ab.",
+     "Deshalb kam es im Land zu grossen Protesten.",
+     "In Madrid gab es nach Behördenangaben siebzigtausend Demonstranten.",
+     "Die Regierung von Ministerpräsident Pedro Sánchez gerät dadurch in eine Krise.",
+     "Ob es Neuwahlen gibt, ist im Moment noch unklar."
+    ]
+   },
+   "kurz": [
+    "Zehntausende Menschen demonstrieren in Spanien gegen steigende Mieten und Wohnungsnot.",
+    "Zwei Regierungsdekrete zur Mietenregulierung scheiterten zuvor im Parlament.",
+    "Medienberichten zufolge prüft Premierminister Pedro Sánchez mögliche Neuwahlen im November."
+   ],
+   "fakten": [
+    [
+     "Teilnehmer in Madrid laut Behörden",
+     "70.000"
+    ],
+    [
+     "Teilnehmer in Madrid laut Veranstaltern",
+     "500.000"
+    ],
+    [
+     "Anzahl der Städte mit angekündigten Protesten",
+     "mehr als 50"
+    ],
+    [
+     "Fehlende Wohnungen laut Zentralbank",
+     "mehr als 700.000"
+    ]
+   ],
+   "dossier": {
+    "slug": "wohnungsnot-spanien-2026",
+    "titel": "Wohnungsnot und politische Krise in Spanien"
+   },
+   "bildInfo": {
+    "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
+    "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+    "urheber": "Senator Risa Hontiveros",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "person",
+    "suchbegriff": "Pedro Sánchez politician",
+    "bildunterschrift": "Der spanische Premierminister Pedro Sánchez im Jahr 2026.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
+     "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "urheber": "Senator Risa Hontiveros",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Pedro Sánchez politician",
+     "bildunterschrift": "Der spanische Premierminister Pedro Sánchez im Jahr 2026.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Madrid Cityscape.jpg",
+     "beschreibung": "Madrid Cityscape, Spain",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Madrid_Cityscape.jpg/1280px-Madrid_Cityscape.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Madrid_Cityscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Madrid_Cityscape.jpg",
+     "urheber": "Justraveling.com",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Madrid cityscape",
+     "bildunterschrift": "Stadtbild von Madrid, der Hauptstadt Spaniens.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Cityscape of Madrid.JPG",
+     "beschreibung": "Cityscape of Madrid",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cityscape_of_Madrid.JPG/1280px-Cityscape_of_Madrid.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cityscape_of_Madrid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Madrid.JPG",
+     "urheber": "Superchilum",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Madrid cityscape",
+     "bildunterschrift": "Ein weiterer Blick auf das Stadtbild von Madrid.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Madrid, Spanien",
+    "lat": 40.417,
+    "lon": -3.704
+   },
+   "version": 5,
+   "bildVersucht": true
   },
   {
    "id": "manchester-city-finanzaffaere",
@@ -4000,6 +4214,391 @@
    ]
   },
   {
+   "id": "flydubai-notlandung-angriff",
+   "rubrik": "Welt",
+   "zeit": "2026-10-03T11:56:46.000Z",
+   "aktualisiert": "aktualisiert um 19:54 Uhr",
+   "titel": "Ermittlungen zu versuchtem Terrorakt auf Flug von Flydubai",
+   "vorspann": "Nach einem Vorfall im Cockpit eines Flydubai-Fluges stufen die Behörden in den Vereinigten Arabischen Emiraten und in Israel die Tat als versuchten Terrorakt ein. Der Co-Pilot soll den Flugkapitän mit einer Rettungsaxt angegriffen haben.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Ein Co-Pilot von Flydubai hat auf einem Flug von Dubai nach Tel Aviv den Flugkapitän mit einer Rettungsaxt angegriffen.",
+    "Passagiere und Besatzungsmitglieder konnten den Angreifer überwältigen, woraufhin eine Notlandung im saudi-arabischen Tabuk erfolgte.",
+    "Die Behörden in den Vereinigten Arabischen Emiraten und in Israel werten den Vorfall als einen versuchten Terroranschlag.",
+    "Nach Medienberichten war der Co-Pilot zuvor im Oman wegen des Verdachts auf extreme Ansichten mit einem Flugverbot belegt worden."
+   ],
+   "einig": [
+    [
+     "Der Co-Pilot griff den Flugkapitän auf einem Flydubai-Flug von Dubai nach Tel Aviv mit einer Rettungsaxt an.",
+     [
+      "Tagesschau/ARD",
+      "NZZ",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Das Flugzeug landete nach dem Vorfall auf dem Flughafen Tabuk in Saudi-Arabien.",
+     [
+      "Tagesschau/ARD",
+      "NZZ",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Die Behörden in den Vereinigten Arabischen Emiraten und Israel stufen den Vorfall als versuchten Terroranschlag ein.",
+     [
+      "Tagesschau/ARD",
+      "NZZ",
+      "The Guardian"
+     ]
+    ],
+    [
+     "Der Co-Pilot durfte nach Medienberichten im Oman aufgrund von Sicherheitsbedenken und extremistischen Ansichten nicht mehr fliegen.",
+     [
+      "Tagesschau/ARD",
+      "NZZ",
+      "The Guardian"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob der Co-Pilot als Einzeltäter gehandelt hat oder Verbindungen zu extremistischen Gruppen bestanden, wird laut Berichten noch untersucht."
+   ],
+   "positionen": [
+    [
+     "Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate",
+     "Der Co-Pilot hat einen versuchten Terrorakt mit einer Rettungsaxt im Cockpit verübt.",
+     "Tagesschau/ARD,NZZ,The Guardian"
+    ],
+    [
+     "Regierung und Premierminister Benjamin Netanjahu (Israel)",
+     "Der Vorfall wird als dschihadistischer Terroranschlag bewertet.",
+     "Tagesschau/ARD,NZZ,The Guardian"
+    ],
+    [
+     "Anwar Gargash, Berater des Präsidenten der Vereinigten Arabischen Emirate",
+     "Der Angriff wird als gefährlicher terroristischer Akt bezeichnet.",
+     "The Guardian"
+    ]
+   ],
+   "fehlend": "Stellungnahmen von Oman Air oder weiteren beteiligten Fluggesellschaften zu den Rekrutierungsverfahren fehlen in den Berichten weitgehend.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "03.10.26, 10:09",
+     "fokus": "Details zu US-Medienberichten",
+     "text": "Berichtet ausführlich über die Recherchen von ABC News und CNN bezüglich der Vergangenheit des Co-Piloten im Oman.",
+     "url": "https://www.tagesschau.de/ausland/flydubai-co-pilot-sicherheitsrisiko-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 393,
+      "satzlaenge": 16,
+      "langeWoerter": 36
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "NZZ",
+     "typ": "Tageszeitung (Schweiz)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "03.10.26, 10:30",
+     "fokus": "Ablauf und Reaktionen",
+     "text": "Beleuchtet die behördlichen Reaktionen in den Emiraten und Israel sowie die Auswirkungen auf den regionalen Flugverkehr.",
+     "url": "https://www.nzz.ch/panorama/flydubai-flug-von-dubai-nach-tel-aviv-pilot-laut-ermittlungsbehoerden-mit-rettungsaxt-angegriffen-ld.10026636",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 448,
+      "satzlaenge": 14,
+      "langeWoerter": 36
+     },
+     "traeger": "Neue Zürcher Zeitung AG, Schweiz",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "The Guardian",
+     "typ": "Tageszeitung (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": false,
+     "datum": "03.10.26, 13:56",
+     "fokus": "Hintergründe und Passagieraussagen",
+     "text": "Liefert zusätzliche Details zur Sinkflugrate des Flugzeugs sowie Aussagen des verletzten Kapitäns über den Kampf im Cockpit.",
+     "url": "https://www.theguardian.com/world/2026/oct/03/flydubai-co-pilot-used-crash-axe-to-attack-captain-says-uae",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 4,
+      "woerter": 815,
+      "satzlaenge": 25,
+      "langeWoerter": 29
+     },
+     "traeger": "Guardian Media Group, im Eigentum des Scott Trust",
+     "finanzierung": "Leserbeiträge und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zusatzdetails",
+     "The Guardian nennt konkrete Zahlen zum Sinkflug des Flugzeugs und Aussagen des Kapitäns, während Tagesschau/ARD und NZZ stärker auf die Berichte amerikanischer Medien über die Vergangenheit des Co-Piloten eingehen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Co-Pilot und Flugkapitän",
+    "was": "Angriff im Cockpit und Notlandung",
+    "wann": "Mittwoch, 2026-09-30",
+    "wo": "Luftraum über dem Nahen Osten und Flughafen Tabuk",
+    "wie": "Mit einer Rettungsaxt im Cockpit und anschließender Passagierintervention",
+    "warum": "Nach Behördenangaben extremistischer Hintergrund des Co-Piloten",
+    "quellenlage": "Generalstaatsanwaltschaft, Medienberichte und Regierungsangaben"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Ein Flug der Fluggesellschaft Flydubai von Dubai nach Tel Aviv war von einem schwerwiegenden Zwischenfall im Cockpit betroffen. Die Maschine befand sich am Mittwoch im Luftraum, als es zu einer gewaltsamen Auseinandersetzung zwischen den Piloten kam. Demnach attackierte der Co-Pilot den Flugkapitän während des Fluges mit einer Rettungsaxt. Durch die Handlungen im Cockpit geriet das Flugzeug in einen starken Sinkflug.",
+      "Laut übereinstimmenden Berichten verlor das Flugzeug in kurzer Zeit erheblich an Höhe, wobei laut dem Bericht von The Guardian sogar Teile des Seitenruders beschädigt wurden. Trotz schwerer Verletzungen gelang es dem Flugkapitän, die Cockpit-Tür zu öffnen. Daraufhin griffen anwesende Passagiere und Besatzungsmitglieder ein und überwältigten den angreifenden Co-Piloten.",
+      "Zwei Ersatzpiloten, die sich ebenfalls an Bord befanden, übernahmen die Steuerung der Maschine. Sie führten eine Notlandung auf dem Flughafen Tabuk im Nordwesten von Saudi-Arabien durch. Der verletzte Kapitän sowie der festgenommene Co-Pilot wurden später in die Vereinigten Arabischen Emirate gebracht."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten des Vorfalls",
+     "absaetze": [
+      "An Bord des betroffenen Flydubai-Flugs befanden sich nach Angaben aus den Medien insgesamt 182 Personen. Der Angriff ereignete sich im Cockpit, während die Maschine auf dem Weg von den Vereinigten Arabischen Emiraten nach Israel war. Der Co-Pilot soll versucht haben, gewaltsam die Kontrolle über das Passagierflugzeug zu erlangen.",
+      "Für den Angriff wurde eine sogenannte Rettungsaxt oder Crash-Axe verwendet. Solche Äxte gehören nach den Angaben zur vorgeschriebenen Notausrüstung von Verkehrsflugzeugen. Sie sind dafür vorgesehen, im Notfall Barrieren oder Verkleidungen im Flugzeug zu durchbrechen, und befanden sich daher regulär an Bord der Maschine.",
+      "Der indische Flugkapitän Smit Machchhar erlitt bei dem Angriff mehrere Stichwunden. In einer Videokonferenz mit dem indischen Premierminister Narendra Modi berichtete der Kapitän von seiner Anstrengung, trotz schwerer Verletzungen die Cockpit-Tür von innen zu öffnen. Nach der Landung in Tabuk am frühen Morgen übernahmen die Behörden in den Vereinigten Arabischen Emiraten die weiteren Schritte."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Vorgeschichte",
+     "absaetze": [
+      "Zu der Person des Co-Piloten wurden im Rahmen von Medienberichten verschiedene Details bekannt. Laut übereinstimmenden Angaben aus den Berichten von Tagesschau/ARD, NZZ und The Guardian handelt es sich um einen Staatsbürger aus dem Oman mit dem Namen Hammam al-Hammami. Der Mann soll zuvor bei Oman Air als Co-Pilot-Auszubildender tätig gewesen sein.",
+      "Medienberichten zufolge war der Co-Pilot von seinem früheren Arbeitgeber im Oman mit einem Flugverbot belegt worden. Als Grund nennen die Berichte Bedenken hinsichtlich extremistischer Ansichten. Demnach war bei ihm im Jahr 2024 extremistisches Material festgestellt worden. Anschließend war er laut den Berichten in eine Verwaltungsfunktion versetzt worden, bevor er zu Flydubai wechselte.",
+      "Der saudische Sender Al-Arabiya sowie weitere Medien berichteten zudem, dass sich der Mann zeitweise in Syrien aufgehalten hatte. Dies weckte bei den zuständigen Stellen den Verdacht einer Radikalisierung durch dortige Gruppen. Auch eine Fernstudien-Ausbildung im Bereich Aviation Management an einer britischen Universität wurde in den Berichten erwähnt."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Rettungsäxte in Passagierflugzeugen sind Teil der Sicherheitsausrüstung für den Notfall. Sie dienen der Besatzung dazu, sich bei Bränden oder anderen unvorhergesehenen Ereignissen den Weg durch blockierte Türen oder Verkleidungen freizumachen. Die Ausrüstung wird in der Regel fest im Cockpit oder in der Kabine verstaut.",
+      "Hintergrundüberprüfungen von Flugzeugbesatzungen umfassen routinemäßige Sicherheits- und Zuverlässigkeitsüberprüfungen. Fluggesellschaften und Behörden arbeiten international zusammen, um die Eignung von Piloten und Personal für den Flugbetrieb zu gewährleisten. Dabei werden sowohl berufliche Qualifikationen als auch sicherheitsrelevante Aspekte bewertet."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate erklärte laut Tagesschau/ARD, NZZ und The Guardian offiziell, dass der Co-Pilot einen Terrorakt geplant habe. Der Generalstaatsanwalt Hamad Saif Al Shamsi bezeichnete die Tat als versuchten terroristischen Angriff.",
+      "Die israelische Regierung äußerte ebenfalls die Einschätzung, dass es sich um einen Terroranschlag handelte. Premierminister Benjamin Netanjahu erklärte, der Co-Pilot habe eine islamistische Radikalisierung durchlaufen. Zudem kündigte er an, die Hintergründe der Tat und mögliche Verbindungen zu prüfen.",
+      "Ein hochrangiger Berater des Präsidenten der Vereinigten Arabischen Emirate, Anwar Gargash, bewertete den Vorfall laut The Guardian als einen gefährlichen terroristischen Akt. Flydubai teilte mit, dass die Umstände des Vorfalls umfassend untersucht werden und die Flüge auf der betroffenen Strecke vorerst ausgesetzt sind."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Ermittlungen zu dem Vorfall werden unter der Führung der Behörden in den Vereinigten Arabischen Emiraten fortgesetzt. Dabei sollen laut den Berichten die genauen Motive des Co-Piloten sowie mögliche Verbindungen zu extremistischen Organisationen oder weiteren Personen geklärt werden.",
+      "Neben den juristischen Untersuchungen finden technische Analysen sowie die Auswertung physischer und digitaler Beweismittel statt. An den laufenden Untersuchungen sind nach Angaben von The Guardian auch Sicherheitsbehörden aus weiteren regionalen Staaten sowie westlichen Ländern beteiligt."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-30 Abend",
+     "Rückführung der Passagiere nach Israel mit einer Ersatzmaschine."
+    ],
+    [
+     "2026-09-30",
+     "Angriff im Cockpit auf einem Flug von Dubai nach Tel Aviv"
+    ],
+    [
+     "2026-09-30",
+     "Notlandung der Maschine auf dem Flughafen Tabuk in Saudi-Arabien"
+    ],
+    [
+     "2024",
+     "Extremistisches Material wird beim Verdächtigen während seiner Ausbildung bei Oman Air festgestellt; Versetzung in die Verwaltung und Flugverbot."
+    ],
+    [
+     "Vor rund 8 Monaten",
+     "Der Kopilot wechselt nach einer Zwischenstation bei einer marokkanischen Airline zu Flydubai."
+    ],
+    [
+     "Mittwoch",
+     "Start des Flydubai-Fluges in Dubai mit Ziel Tel Aviv sowie Angriff des Kopiloten auf den Flugkapitän mit der Notfallaxt und Passagiere überwältigen den Angreifer."
+    ],
+    [
+     "Freitag",
+     "Israels Premierminister Netanjahu spricht von islamistischer Radikalisierung; Berater Gargash nennt den Vorfall einen Terrorakt."
+    ],
+    [
+     "Samstag",
+     "Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate stuft die Tat offiziell als versuchten Terrorakt ein; The Guardian berichtet über Details der Ermittlungen."
+    ],
+    [
+     "2024",
+     "Extremistisches Material wird beim Verdächtigen während seiner Ausbildung im Oman festgestellt; anschließendes Flugverbot und Versetzung in die Verwaltung."
+    ],
+    [
+     "Mittwoch",
+     "Start des Flydubai-Fluges in Dubai mit Ziel Tel Aviv, Angriff des Co-Piloten im Cockpit und Notlandung in Tabuk nach Passagierintervention."
+    ],
+    [
+     "Freitag",
+     "Israels Premierminister Netanjahu äußert sich zu dem Vorfall; Berater Gargash bezeichnet die Tat als Terrorakt."
+    ],
+    [
+     "Samstag",
+     "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate stuft die Tat offiziell als versuchten Terrorakt ein."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Zu diesem Thema wird kein Bild vorgeschlagen, da es sich um eine Gewalttat handelt."
+    }
+   ],
+   "ort": {
+    "name": "Dubai, Vereinigte Arabische Emirate und Tabuk, Saudi-Arabien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung nicht belegter Behauptungen über fehlende Beweise bei Netanjahus Aussagen, da die Quelle dies so nicht direkt als unbewiesen markiert, sondern nur zitiert."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Co-Pilot",
+      "Ein Co-Pilot ist ein Pilot, der den Flugkapitän bei der Steuerung des Flugzeugs unterstützt."
+     ],
+     [
+      "Rettungsaxt",
+      "Eine Rettungsaxt ist ein vorgeschriebenes Werkzeug in Flugzeugen, um sich im Notfall den Weg freizumachen."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen internationale Hintergrundüberprüfungen von Flugzeugbesatzungen für die Sicherheit im Luftverkehr?",
+     "Wie bewerten Sie die Tatsache, dass Sicherheitsbehörden verschiedener Länder bei den Ermittlungen zusammenarbeiten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Womit griff der Co-Pilot den Piloten an?",
+      "optionen": [
+       "Mit einer Rettungsaxt",
+       "Mit einer Pistole",
+       "Mit einem Messer"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Berichten von Tagesschau/ARD, NZZ und The Guardian griff der Co-Pilot den Kapitän mit einer Rettungsaxt an."
+     },
+     {
+      "frage": "Wo landete das Flugzeug nach dem Vorfall?",
+      "optionen": [
+       "In Tel Aviv",
+       "In Tabuk",
+       "In Dubai"
+      ],
+      "richtig": 1,
+      "erklaerung": "Das Flugzeug wurde von einer zweiten Besatzung zum Flughafen Tabuk in Saudi-Arabien gesteuert."
+     },
+     {
+      "frage": "Was war dem Co-Pilot laut Medienberichten früher in einem anderen Land passiert?",
+      "optionen": [
+       "Er wurde zum Chefpiloten befördert.",
+       "Er erhielt ein Flugverbot wegen extremistischer Ansichten.",
+       "Er gewann einen Preis für sicheres Fliegen."
+      ],
+      "richtig": 1,
+      "erklaerung": "Nach Medienberichten durfte der Mann im Oman wegen Sicherheitsbedenken und extremistischer Ansichten nicht mehr fliegen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Auf einem Flug von Dubai nach Tel Aviv hat ein Co-Pilot den Piloten im Cockpit angegriffen.",
+    "absaetze": [
+     "Der Flug gehörte zur Fluggesellschaft Flydubai. Der Co-Pilot benutzte eine Rettungsaxt für den Angriff. Passagiere und Besatzung überwältigten den Mann.",
+     "Zwei andere Piloten an Bord landeten das Flugzeug sicher in Saudi-Arabien. Die Behörden in den Vereinigten Arabischen Emiraten und in Israel sprechen von einem versuchten Terroranschlag.",
+     "Medienberichten zufolge durfte der Co-Pilot früher im Oman wegen Sicherheitsbedenken nicht mehr fliegen. Die Ermittlungen zu den Motiven der Tat dauern an."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Auf einem Flug der Fluggesellschaft Flydubai hat ein Co-Pilot den Kapitän mit einer Axt angegriffen.",
+     "Passagiere und Besatzungsmitglieder überwältigten den Angreifer, woraufhin eine Notlandung in Saudi-Arabien stattfand.",
+     "Behörden in den Vereinigten Arabischen Emiraten und in Israel stufen den Vorfall als versuchten Terroranschlag ein."
+    ],
+    "lang": [
+     "Auf einem Flug der Fluggesellschaft Flydubai ist es zu einem schweren Zwischenfall im Cockpit gekommen.",
+     "Der Co-Pilot griff den Kapitän am Mittwoch auf dem Weg von Dubai nach Tel Aviv mit einer Rettungsaxt an.",
+     "Nach Angaben der Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate handelt es sich um einen versuchten Terrorakt.",
+     "An Bord befanden sich insgesamt hundertachtzig Personen, als das Flugzeug stark an Höhe verlor.",
+     "Trotz schwerer Verletzungen gelang es dem Kapitän, die Cockpit Tür zu öffnen.",
+     "Daraufhin überwältigten Passagiere und Besatzungsmitglieder den Angreifer.",
+     "Zwei Ersatzpiloten landeten die Maschine anschließend sicher im saudi-arabischen Tabuk.",
+     "Nach Angaben von Medienberichten durfte der Co-Pilot zuvor im Oman wegen extremistischer Ansichten nicht mehr fliegen.",
+     "Die Regierung in Israel und Behörden in den Emiraten bewerten die Tat übereinstimmend als Terroranschlag.",
+     "Die Ermittlungen zu den Hintergründen und möglichen Verbindungen des Angreifers dauern an."
+    ],
+    "einfach": [
+     "Ein Co-Pilot griff den Piloten eines Flugzeugs mit einer Axt an.",
+     "Das Flugzeug war auf dem Weg von Dubai nach Tel Aviv.",
+     "Passagiere stoppten den Angreifer und retteten damit viele Menschen.",
+     "Zwei andere Piloten landeten das Flugzeug sicher in Saudi-Arabien.",
+     "Die Behörden nennen die Tat einen versuchten Terroranschlag."
+    ]
+   },
+   "kurz": [
+    "Ein Co-Pilot griff den Kapitän auf einem Flydubai-Flug mit einer Rettungsaxt an.",
+    "Passagiere überwältigten den Angreifer, und die Maschine landete sicher in Saudi-Arabien.",
+    "Behörden in den Emiraten und Israel werten den Vorfall als versuchten Terrorakt.",
+    "Der Co-Pilot hatte zuvor im Oman wegen Sicherheitsbedenken ein Flugverbot erhalten."
+   ],
+   "fakten": [
+    [
+     "Personen an Bord",
+     "182"
+    ],
+    [
+     "Datum des Vorfalls",
+     "Mittwoch"
+    ],
+    [
+     "Sinkflug in Sekunden",
+     "16625 Fuß"
+    ],
+    [
+     "Landungsort",
+     "Tabuk"
+    ]
+   ],
+   "dossier": {
+    "slug": "angriff-auf-flydubai-flug",
+    "titel": "Angriff auf Flydubai-Flug"
+   },
+   "bildInfos": [],
+   "version": 5
+  },
+  {
    "id": "israel-oberstes-gericht-arabische-parteien",
    "rubrik": "Welt",
    "zeit": "2026-10-03T06:42:05.000Z",
@@ -4501,599 +5100,6 @@
       40.75,
       45.28,
       58.82
-     ]
-    }
-   ]
-  },
-  {
-   "id": "spanische-wohnungskrise-parlament",
-   "rubrik": "Welt",
-   "zeit": "2026-10-03T06:42:05.000Z",
-   "aktualisiert": "aktualisiert um 10:02 Uhr",
-   "titel": "Spanisches Parlament lehnt Regierungsdekrete zum Mieterschutz ab",
-   "vorspann": "Das spanische Parlament hat zwei von der Regierung eingebrachte Dekrete zum Mieterschutz abgelehnt. Dies erhöht laut Berichten den politischen Druck auf die Minderheitsregierung von Ministerpräsident Pedro Sánchez.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "schwer",
-    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
-   },
-   "zusammenfassung": [
-    "Das spanische Parlament hat zwei Dekrete der linken Minderheitsregierung zum Mieterschutz abgelehnt.",
-    "Die konservative Opposition und katalanische Separatisten stimmten gegen die Vorlagen.",
-    "Auslöser waren landesweite Proteste gegen hohe Mieten und Zwangsräumungen in Spanien.",
-    "Die Niederlage erhöht den politischen Druck auf Ministerpräsident Pedro Sánchez und schürt Spekulationen über Neuwahlen."
-   ],
-   "einig": [
-    [
-     "Das spanische Parlament hat zwei Regierungsdekrete zum Mieterschutz abgelehnt.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Gegen das erste Dekret stimmten 178 Abgeordnete.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Gegen das zweite Dekret stimmten 184 Abgeordnete.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Spiegel",
-      "BBC"
-     ]
-    ],
-    [
-     "Die katalanische Separatistenpartei Junts stimmte gegen die Dekrete.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute",
-      "Deutschlandfunk",
-      "Spiegel",
-      "BBC"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob Ministerpräsident Pedro Sánchez tatsächlich vorgezogene Neuwahlen ansetzen wird, ist laut Medienberichten noch unklar."
-   ],
-   "positionen": [
-    [
-     "Pedro Sánchez (Ministerpräsident, PSOE)",
-     "Laut Tagesschau/ARD, ZDFheute und BBC sagte er, die Dekrete seien notwendig, um großen wirtschaftlichen und sozialen Schaden vom Land abzuwenden.",
-     "Tagesschau/ARD,ZDFheute,BBC"
-    ],
-    [
-     "Isabel Rodríguez (Wohnungsbauministerin, PSOE)",
-     "Laut Tagesschau/ARD und ZDFheute sagte sie, die Abstimmung entscheide darüber, ob man auf der Seite der Bürger oder auf der Seite spekulativer Investoren stehe.",
-     "Tagesschau/ARD,ZDFheute"
-    ],
-    [
-     "Míriam Nogueras (Junts-Partei)",
-     "Laut Tagesschau/ARD, ZDFheute und BBC sagte sie, die Dekrete seien überhastet verfasst, verfehlten ihr Ziel und sollten durch Gespräche ersetzt werden.",
-     "Tagesschau/ARD,ZDFheute,BBC"
-    ],
-    [
-     "Juan Bravo (Volkspartei PP)",
-     "Laut BBC sagte er, Wohnraum werde nicht durch staatliche Dekrete günstiger, sondern ausschließlich durch den Bau neuer Wohnungen.",
-     "BBC"
-    ],
-    [
-     "Opposition und Junts",
-     "Laut Tagesschau/ARD, ZDFheute und Spiegel warfen sie der Regierung vor, die Maßnahmen würden das Wohnungsangebot verknappen und die Mieten weiter in die Höhe treiben.",
-     "Tagesschau/ARD,ZDFheute,Spiegel"
-    ]
-   ],
-   "fehlend": "Detaillierte Stellungnahmen von Wirtschaftsverbänden oder Immobilienwirtschaft fehlen in den Berichten.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "02.10.26, 16:42",
-     "fokus": "Hintergründe und Zitate",
-     "text": "Berichtet ausführlich über die Proteste in Madrid und anderen Städten sowie über die Argumente der Ministerin Rodríguez.",
-     "url": "https://www.tagesschau.de/ausland/europa/spanien-wohungsgesetze-gescheitert-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 12,
-      "minuten": 3,
-      "woerter": 502,
-      "satzlaenge": 17,
-      "langeWoerter": 39
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "02.10.26, 22:12",
-     "fokus": "Statistiken und Wohnungsnot",
-     "text": "Beleuchtet die Gründe für die Wohnungsnot anhand von Statistiken des nationalen Statistikamtes und der Zentralbank.",
-     "url": "https://www.zdfheute.de/politik/ausland/spanien-wohnungsnot-dekret-sanchez-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 12,
-      "minuten": 3,
-      "woerter": 526,
-      "satzlaenge": 15,
-      "langeWoerter": 40
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "03.10.26, 08:42",
-     "fokus": "Kurze Zusammenfassung",
-     "text": "Fasst das Scheitern der Dekrete und die Haltung der beteiligten Parteien kompakt zusammen.",
-     "url": "https://www.deutschlandfunk.de/spanische-regierung-erleidet-niederlage-im-streit-um-wohnungsnot-108.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "02.10.26, 16:26",
-     "fokus": "Fallbeispiel und Details",
-     "text": "Erwähnt das konkrete Schicksal der 87-jährigen Rentnerin Maricarmen Abascal als Auslöser der Proteste.",
-     "url": "https://www.spiegel.de/ausland/spanien-pedro-sanchez-kassiert-niederlage-bei-abstimmung-zur-wohnungsnot-a-776f9618-a2f3-46a3-ac3d-3043747f9ec2#ref=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "schwer",
-      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
-      "klasse": 12,
-      "minuten": 1,
-      "woerter": 245,
-      "satzlaenge": 19,
-      "langeWoerter": 39
-     },
-     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "BBC",
-     "typ": "öffentlich-rechtlich (Großbritannien)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "02.10.26, 17:30",
-     "fokus": "Internationale Perspektive",
-     "text": "Beschreibt die Stimmung vor dem Parlament und die Reaktionen der Demonstrierenden.",
-     "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 4,
-      "woerter": 866,
-      "satzlaenge": 28,
-      "langeWoerter": 33
-     },
-     "traeger": "British Broadcasting Corporation, Großbritannien",
-     "finanzierung": "Rundfunkgebühr (Licence Fee)",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Details zu den Protesten",
-     "Einige Medien wie Tagesschau/ARD und Spiegel gehen ausführlich auf das Schicksal der betroffenen Rentnerin Maricarmen Abascal ein, während andere den Fokus stärker auf die parlamentarische Dynamik legen."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Das spanische Parlament in Madrid",
-    "was": "Ablehnung von zwei Regierungsdekreten zum Mieterschutz",
-    "wann": "2026",
-    "wo": "Madrid, Spanien",
-    "wie": "Mit 178 zu 172 Stimmen und 184 zu 166 Stimmen",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, BBC"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Das spanische Parlament hat zwei Dekrete der linken Minderheitsregierung zum Mieterschutz abgelehnt. Laut Tagesschau/ARD stimmten die konservative Volkspartei Partido Popular (PP), die rechtspopulistische Partei Vox und die katalanischen Separatisten der Junts-Partei gegen die Vorlagen. Laut ZDFheute scheiterten die Initiativen am Widerstand der Opposition. Die Abstimmung fand im Kongress in Madrid statt. Laut Spiegel stimmten beim ersten Dekret 178 Abgeordnete gegen die Annahme, beim zweiten Dekret waren es sogar 184 Nein-Stimmen.",
-      "Laut BBC lehnten die Abgeordneten das erste Dekret mit 178 zu 172 Stimmen ab. Das zweite Dekret wurde laut Angaben der BBC mit 184 zu 166 Stimmen abgelehnt. Die Regierung von Ministerpräsident Pedro Sánchez hatte die Dekrete nach landesweiten Protesten gegen die Wohnungsnot auf den Weg gebracht. Die Maßnahmen sollten den Mieterschutz verbessern und Zwangsräumungen in sozialen Notlagen verhindern. Durch die Ablehnung verfallen die Regelungen, da sie für ihren Fortbestand eine parlamentarische Bestätigung benötigten.",
-      "Die Niederlage schwächt die Position der sozialistischen Regierung. Laut Tagesschau/ARD kann Ministerpräsident Sánchez kaum noch Gesetzesinitiativen durch das Parlament bringen, seitdem die Partei Junts der Regierung vor knapp einem Jahr die Unterstützung entzogen hat. Vor der Abstimmung hatten Medienberichte über mögliche vorgezogene Neuwahlen die Runde gemacht. Laut Spiegel könnte Sánchez angesichts dieser politischen Schlappe gezwungen sein, den Weg für Neuwahlen frei zu machen."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten der Dekrete",
-     "absaetze": [
-      "Das erste abgelehnte Dekret enthielt laut Spiegel ein Moratorium für Zwangsräumungen bis zum Jahr 2030 sowie steuerliche Anreize für Vermieter und den Wohnungsbau. Zudem sollte der Erwerb von Wohnimmobilien durch sogenannte Geier-Fonds verboten werden. Laut ZDFheute waren in diesem ersten Paket zudem strengere Auflagen für Kurzzeitvermietungen vorgesehen. Die Maßnahmen sollten nach Regierungsangaben dazu dienen, Spekulationen auf dem Immobilienmarkt zu bekämpfen.",
-      "Das zweite Dekret war laut Angaben der BBC noch umstrittener und zielte auf die automatische Erneuerung von Mietverträgen ab. Laut Tagesschau/ARD sollte es aus bisherigen Zeitverträgen dauerhafte Mietverhältnisse machen. Bislang laufen Mietverträge in Spanien maximal acht Jahre, wonach neue Konditionen ausgehandelt werden können. Laut Spiegel war auch eine automatische Entfristung befristeter Mietverträge ein zentraler Bestandteil dieses zweiten Gesetzesentwurfs.",
-      "Die Debatte im Parlament war von Auseinandersetzungen begleitet. Laut BBC versammelten sich Hunderte Demonstranten vor dem Kongressgebäude und brachten ihren Unmut mit Rufen zum Ausdruck. Nach Angaben von ZDFheute und Spiegel begründete die Opposition ihre Ablehnung damit, dass die Vorschläge das Wohnungsangebot weiter verknappen und die Mieten steigen lassen würden. Die Regierung hatte bis zuletzt gehofft, dass die Junts-Partei zumindest dem ersten Dekret zustimmt."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Auslöser",
-     "absaetze": [
-      "Auslöser für die Gesetzesinitiative waren landesweite Proteste in spanischen Städten. Im Zentrum der Empörung stand laut Spiegel die Zwangsräumung der 87-jährigen Rentnerin Maricarmen Abascal in Madrid. Die Seniorin hatte in ihrer Wohnung gelebt, bevor ein Investor die Miete erhöhte und sie geräumt wurde. Nach Angaben des Spiegels konnte vor der parlamentarischen Debatte eine Einigung über die Rückkehr der Seniorin in ihre Wohnung erzielt werden.",
-      "Der Wohnungsmarkt in Spanien gilt als angespannt. Laut Tagesschau/ARD hat sich die durchschnittliche Miete im Land in den vergangenen zehn Jahren nahezu verdoppelt. Nach Daten des Immobilienportals Idealista stieg der Quadratmeterpreis von 8,20 Euro im Jahr 2016 auf 15,10 Euro im aktuellen Jahr. Laut ZDFheute spielen auch der Bevölkerungszuwachs sowie stark steigende Touristenzahlen eine Rolle, die den Druck auf den Mietmarkt erhöhen.",
-      "Die spanische Zentralbank geht davon aus, dass das Wohnungsdefizit steigen wird. Laut Spiegel schätzt die Zentralbank, dass landesweit mehr als 700.000 Wohnungen fehlen. Die Protestbewegung breitete sich nach der Räumung der Seniorin weiter aus. Aktivisten errichteten Protestcamps in Städten wie Madrid, Barcelona, Sevilla und Málaga. Mieterverbände kündigten nach der Parlamentsentscheidung an, die Proteste fortzusetzen."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Eine Minderheitsregierung ist eine Regierung, die im Parlament nicht über die absolute Mehrheit der Sitze verfügt. Sie ist bei Abstimmungen auf die Unterstützung von Abgeordneten aus anderen Parteien angewiesen.",
-      "Dekrete sind in vielen parlamentarischen Systemen Rechtsverordnungen oder Verordnungen der Exekutive. In Spanien müssen bestimmte Regierungsdekrete nachträglich vom Parlament bestätigt werden, um dauerhaft gültig zu bleiben."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen der Beteiligten",
-     "absaetze": [
-      "Ministerpräsident Pedro Sánchez appellierte vor der Abstimmung an die Abgeordneten. Ein Nein würde dem Land wirtschaftlichen und sozialen Schaden zufügen, sagte er laut Tagesschau/ARD.",
-      "Wohnungsbauministerin Isabel Rodríguez von der sozialistischen PSOE verteidigte die Maßnahmen im Parlament. Es gehe bei der Abstimmung darum, ob man auf der Seite der Menschen oder auf der Seite von spekulativen Investoren stehe, sagte sie laut Tagesschau/ARD und ZDFheute.",
-      "Míriam Nogueras von der katalanischen Partei Junts warf der Regierung vor, die Dekrete seien überhastet ausgearbeitet worden. Sie forderte die Rücknahme der Entwürfe und bot stattdessen Gespräche über Änderungen an, wie Tagesschau/ARD und ZDFheute berichteten.",
-      "Juan Bravo von der konservativen Volkspartei PP lehnte die staatlichen Eingriffe ab. Wohnungen würden nicht durch Dekrete billiger, sondern durch den Bau neuer Immobilien, sagte er laut der britischen Rundfunkanstalt BBC."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Nach der Niederlage der Regierung im Parlament wird in Spanien über vorgezogene Neuwahlen spekuliert. Laut Tagesschau/ARD und Spiegel könnten die politischen Ereignisse dazu führen, dass Ministerpräsident Sánchez den Weg für eine Neuwahl freimacht.",
-      "Mieterschutzverbände haben nach der Parlamentsentscheidung zu weiteren Protesten aufgerufen. Nach Angaben der BBC kündigte die Mietervereinigung Sindicato de Inquilinas an, den Protest in die Nachbarschaften zu tragen und die Energie der Kundgebungen in eine dauerhafte Organisation umzuwandeln."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "2026",
-     "Das spanische Parlament lehnt zwei Regierungsdekrete zum Mieterschutz in zwei Abstimmungen ab."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Pedro Sánchez politician",
-     "bildunterschrift": "Ministerpräsident Pedro Sánchez steht nach der parlamentarischen Niederlage seiner Regierung unter Druck."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Congress of Deputies of Spain",
-     "bildunterschrift": "Das spanische Parlamentsgebäude in Madrid, in dem die Abgeordneten über die Mieterschutzdekrete abgestimmt haben."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Bank of Spain building",
-     "bildunterschrift": "Die Spanische Zentralbank warnt vor einem steigenden Wohnungsdefizit in den kommenden Jahren."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Housing market protest",
-     "bildunterschrift": "Proteste gegen hohe Mieten und Wohnungsnot haben in mehreren spanischen Städten stattgefunden."
-    }
-   ],
-   "ort": {
-    "name": "Madrid, Spanien"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Aussagen von Politikern und Parteien im Artikel und in den Positionen präzise als Aussagen gekennzeichnet.",
-    "Unbelegte Zahlen und Wertungen im Text entfernt oder an die Berichte angepasst."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Minderheitsregierung",
-      "Eine Regierung, die im Parlament keine absolute Mehrheit der Sitze hat und deshalb auf Stimmen anderer Parteien angewiesen ist."
-     ],
-     [
-      "Dekret",
-      "Eine Verordnung oder ein Gesetz, das von der Regierung erlassen wird und in vielen Systemen nachträglich vom Parlament bestätigt werden muss."
-     ]
-    ],
-    "fragen": [
-     "Welche Argumente nannten Befürworter und Gegner der Mieterschutz-Dekrete in Spanien?",
-     "Welche politischen Folgen kann es haben, wenn eine Minderheitsregierung wichtige Gesetzesvorhaben im Parlament verliert?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wie viele Abgeordnete stimmten nach übereinstimmenden Berichten gegen das zweite Dekret?",
-      "optionen": [
-       "178 Abgeordnete",
-       "184 Abgeordnete",
-       "350 Abgeordnete"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau/ARD, ZDFheute, Spiegel und BBC stimmten 184 Abgeordnete gegen das zweite Dekret."
-     },
-     {
-      "frage": "Welche Partei aus Katalonien stimmte ebenfalls gegen die Dekrete der Regierung?",
-      "optionen": [
-       "Junts",
-       "Vox",
-       "Partido Popular"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die katalanische Separatistenpartei Junts stimmte laut den Berichten gegen die Vorlagen der Regierung."
-     },
-     {
-      "frage": "Was war ein konkreter Auslöser für die landesweiten Proteste in Spanien?",
-      "optionen": [
-       "Eine vorgezogene Parlamentswahl",
-       "Die Zwangsräumung einer 87-jährigen Rentnerin",
-       "Ein Generalstreik der Industrie"
-      ],
-      "richtig": 1,
-      "erklaerung": "Auslöser für die Proteste waren laut den Berichten landesweite Demonstrationen nach der Zwangsräumung der 87-jährigen Maricarmen Abascal."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "In Spanien hat das Parlament zwei wichtige Gesetze zum Schutz von Mietern abgelehnt. Das bringt die Regierung von Ministerpräsident Pedro Sánchez in große Schwierigkeiten.",
-    "absaetze": [
-     "Die Regierung wollte mit zwei Dekreten gegen die große Wohnungsnot im Land vorgehen.",
-     "Ein Dekret sah vor, Zwangsräumungen in Notlagen zu verbieten und Spekulanten einzuschränken.",
-     "Das zweite Dekret sollte befristete Mietverträge automatisch verlängern.",
-     "Im Parlament stimmten jedoch die konservative Opposition und andere Parteien dagegen.",
-     "Auslöser für die Pläne waren große Proteste von Menschen in ganz Spanien wegen hoher Mieten."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Das spanische Parlament hat zwei Regierungsdekrete zum Mieterschutz abgelehnt.",
-     "Gegen die Entwürfe stimmten bei zwei Abstimmungen 178 beziehungsweise 184 Abgeordnete.",
-     "Die Niederlage erhöht den politischen Druck auf den spanischen Ministerpräsidenten Pedro Sánchez."
-    ],
-    "lang": [
-     "Das spanische Parlament in Madrid hat zwei Regierungsdekrete zum Mieterschutz abgelehnt.",
-     "Die Abstimmung fand nach landesweiten Protesten gegen die Wohnungsnot im Land statt.",
-     "Das Parlament lehnte das erste Dekret mit 178 Nein-Stimmen ab.",
-     "Gegen das zweite Dekret stimmten laut Medienberichten 184 Abgeordnete.",
-     "Die konservative Opposition und die katalanische Partei Junts stimmten nach Angaben der Sender gegen die Vorlagen.",
-     "Ministerpräsident Pedro Sánchez warnte vor der Abstimmung vor großen wirtschaftlichen Schäden.",
-     "Die Opposition warf der Regierung dagegen vor, die Mieten durch die Maßnahmen noch weiter zu erhöhen.",
-     "Die politische Niederlage verstärkt nun die Spekulationen über mögliche vorgezogene Neuwahlen in Spanien.",
-     "Mieterschutzverbände kündigten an, ihre Proteste gegen die Wohnungskrise fortzusetzen."
-    ],
-    "einfach": [
-     "In Spanien hat das Parlament zwei Gesetze zum Mieterschutz abgelehnt.",
-     "Die linke Regierung wollte damit gegen hohe Mieten und Zwangsräumungen vorgehen.",
-     "Dagegen stimmten die konservativen Parteien und die katalanische Partei Junts.",
-     "Viele Menschen hatten zuvor in ganz Spanien gegen die Wohnungsnot demonstriert.",
-     "Für den Regierungschef Pedro Sánchez bedeutet das eine große politische Niederlage."
-    ]
-   },
-   "kurz": [
-    "Das spanische Parlament hat zwei Regierungsdekrete zum Mieterschutz abgelehnt.",
-    "Gegen das erste Dekret stimmten 178 Abgeordnete, gegen das zweite 184 Abgeordnete.",
-    "Auslöser waren landesweite Proteste gegen hohe Mieten und Zwangsräumungen.",
-    "Die Niederlage erhöht den politischen Druck auf Ministerpräsident Pedro Sánchez."
-   ],
-   "fakten": [
-    [
-     "Nein-Stimmen erstes Dekret",
-     "178"
-    ],
-    [
-     "Nein-Stimmen zweites Dekret",
-     "184"
-    ],
-    [
-     "Gesamtzahl Parlamentarier",
-     "350"
-    ],
-    [
-     "Quadratmeterpreis Miete 2016",
-     "8,20 Euro"
-    ],
-    [
-     "Quadratmeterpreis Miete aktuelles Jahr",
-     "15,10 Euro"
-    ]
-   ],
-   "dossier": {
-    "slug": "spanien-mietkrise-2026",
-    "titel": "Wohnungsnot und politische Krise in Spanien"
-   },
-   "bildInfo": {
-    "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
-    "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
-    "urheber": "Senator Risa Hontiveros",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "art": "person",
-    "suchbegriff": "Pedro Sánchez politician",
-    "bildunterschrift": "Der spanische Ministerpräsident Pedro Sánchez, dessen Regierung von der Ablehnung im Parlament betroffen ist.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
-     "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
-     "urheber": "Senator Risa Hontiveros",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "art": "person",
-     "suchbegriff": "Pedro Sánchez politician",
-     "bildunterschrift": "Der spanische Ministerpräsident Pedro Sánchez, dessen Regierung von der Ablehnung im Parlament betroffen ist.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Madrid - Congreso de los Diputados 01.jpg",
-     "beschreibung": "Statues of lions at the Congress of Deputies of Spain (Spain) - Madrid, Spain",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg/1280px-Madrid_-_Congreso_de_los_Diputados_01.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Madrid_-_Congreso_de_los_Diputados_01.jpg",
-     "urheber": "Selbymay",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "ort",
-     "suchbegriff": "Congress of Deputies of Spain",
-     "bildunterschrift": "Das Gebäude des spanischen Parlaments (Congress of Deputies) in Madrid.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Madrid, Spanien",
-    "lat": 40.417,
-    "lon": -3.704
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Das spanische Parlament in Madrid hat zwei Regierungsdekrete zum Mieterschutz ab",
-     "d": "8b99583ec3.mp3",
-     "l": 50.32,
-     "s": [
-      0.25,
-      5.29,
-      9.9,
-      15.4,
-      21.16,
-      27.74,
-      33.02,
-      38.68,
-      44.96
-     ]
-    },
-    {
-     "k": "Das spanische Parlament hat zwei Regierungsdekrete zum Mieterschutz abgelehnt. G",
-     "d": "b185aa952c.mp3",
-     "l": 19.21,
-     "s": [
-      0.25,
-      4.92,
-      13.12
-     ]
-    },
-    {
-     "k": "In Spanien hat das Parlament zwei Gesetze zum Mieterschutz abgelehnt. Die linke ",
-     "d": "85a771b480.mp3",
-     "l": 28.43,
-     "s": [
-      0.25,
-      5.35,
-      10.69,
-      16.43,
-      22.11
-     ]
-    },
-    {
-     "k": "Ob Ministerpräsident Pedro Sánchez tatsächlich vorgezogene Neuwahlen ansetzen wi",
-     "d": "3d34fe0123.mp3",
-     "l": 7.85,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Minderheitsregierung? Eine Regierung, die im Parlament k",
-     "d": "7afab7073a.mp3",
-     "l": 11.98,
-     "s": [
-      0.25,
-      3.8
-     ]
-    },
-    {
-     "k": "Das spanische Parlament hat zwei Dekrete der linken Minderheitsregierung zum Mie",
-     "d": "f93913e89d.mp3",
-     "l": 58.91,
-     "s": [
-      0.25,
-      5.71,
-      16.96,
-      21.9,
-      24.76,
-      34.76,
-      42.95,
-      50.82
-     ]
-    },
-    {
-     "k": "Das erste abgelehnte Dekret enthielt laut Spiegel ein Moratorium für Zwangsräumu",
-     "d": "fa67211de1.mp3",
-     "l": 57.33,
-     "s": [
-      0.25,
-      10.6,
-      15.79,
-      22.28,
-      28.52,
-      36.43,
-      42.51,
-      49.24
-     ]
-    },
-    {
-     "k": "Auslöser für die Gesetzesinitiative waren landesweite Proteste in spanischen Stä",
-     "d": "4bc39ffb29.mp3",
-     "l": 57.02,
-     "s": [
-      0.25,
-      5.41,
-      13.55,
-      19.44,
-      26.95,
-      30.26,
-      36.82,
-      48.04
-     ]
-    },
-    {
-     "k": "Eine Minderheitsregierung ist eine Regierung, die im Parlament nicht über die ab",
-     "d": "4906c9f23f.mp3",
-     "l": 24.83,
-     "s": [
-      0.25,
-      6.15,
-      11.4,
-      17.38
-     ]
-    },
-    {
-     "k": "Ministerpräsident Pedro Sánchez appellierte vor der Abstimmung an die Abgeordnet",
-     "d": "55f04a40e0.mp3",
-     "l": 57.9,
-     "s": [
-      0.25,
-      5.8,
-      11.94,
-      18.52,
-      28.43,
-      35.75,
-      44.06,
-      49.65
      ]
     }
    ]

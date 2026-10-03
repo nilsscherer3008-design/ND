@@ -1,6 +1,214 @@
 {
- "stand": "2026-10-03T13:19:51.785Z",
+ "stand": "2026-10-03T17:54:49.887Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-heissluftballon",
+   "zeit": "2026-10-03T17:59:26.362Z",
+   "bereich": "Technik und Erfindungen",
+   "titel": "Wie funktioniert eigentlich ein Heißluftballon?",
+   "vorspann": "Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Heißluftballon ist ein Luftfahrzeug ohne Tragestruktur. Das bedeutet, dass der Korb an der Hülle hängt oder von Seilen gehalten wird. Die Hülle ist das tragende Element und besteht aus einem speziellen Gewebe. Typischerweise wird Polyamid oder Polyester verwendet.",
+      "Das Gewebe ist leicht und mit einer Schicht aus Polyurethan oder Silikon versehen. Dadurch bleibt die Hülle luftdicht. Unten am Ballon befindet sich der Korb für Passagiere und Ausrüstung. Er wird traditionell aus Weide geflochten."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "In der Ballonhülle wird eine große Luftmenge erwärmt. Wenn sich Luft erwärmt, dehnt sie sich aus. Dadurch wird ihr spezifisches Gewicht geringer als das der kälteren Außenluft. Dieser Dichteunterschied erzeugt eine Auftriebskraft.",
+      "Der Ballon hebt ab, wenn dieser Auftrieb der Gewichtskraft entspricht. Das Gewicht setzt sich aus der Hülle und der Nutzlast zusammen. Dazu gehören der Korb, der Brenner, die Gasflaschen und die Insassen. Zum Heizen werden meist Propan-Gasbrenner eingesetzt.",
+      "Start und Landung sind stark vom Wind abhängig. Bei zu viel Wind kann die Gondel über den Boden schleifen. Auch Thermik ist eine Gefahr für Ballonfahrer. Aufsteigende warme Luft kann die offene Hülle zusammendrücken."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Heißluftballon ist das älteste Luftfahrzeug nach den Fesseldrachen. Die Brüder Joseph Michel und Jacques Etienne Montgolfier gelten als Erfinder. Ihre erste Ballonfahrt fand am 4. oder 5. Juni 1783 statt.",
+      "Die ersten Menschen in der Geschichte der Menschheit waren Jean-François Pilâtre de Rozier und François d’Arlandes. Sie stiegen am 21. November 1783 in Paris mit einem Heißluftballon auf."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Text enthält keine Angaben zu offenen Fragen oder ungelösten Problemen der Forschung."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Erstes unbemanntes Datum",
+     "4. oder 5. Juni 1783"
+    ],
+    [
+     "Erstes bemanntes Datum",
+     "21. November 1783"
+    ],
+    [
+     "Gängiges Volumen",
+     "3000 bis 10000 Kubikmeter"
+    ],
+    [
+     "Innstemperatur",
+     "70 bis 125 Grad Celsius"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Heißluftballon",
+     "Ein Luftfahrzeug, das den statischen Auftrieb heißer Luft in seinem Inneren nutzt."
+    ],
+    [
+     "Ballonhülle",
+     "Das tragende Auftriebselement des Ballons aus speziellem Gewebe."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann fand die erste unbemannte Fahrt statt?",
+     "optionen": [
+      "Am 4. oder 5. Juni 1783",
+      "Am 21. November 1783",
+      "Am 26. November 2005"
+     ],
+     "richtig": 0,
+     "erklaerung": "Die erste Ballonfahrt ohne Menschen war am 4. oder 5. Juni 1783."
+    }
+   ],
+   "video": [
+    "Ein Heißluftballon fliegt mit warmer Luft in seiner Hülle.",
+    "Die Luft dehnt sich durch die Erwärmung aus.",
+    "Dadurch sinkt ihr Gewicht im Vergleich zur Umgebung.",
+    "Wenn der Auftrieb groß genug ist, hebt der Ballon ab.",
+    "Bemannte Ballons nutzen meist Brenner mit Propan-Gas.",
+    "Die Brüder Montgolfier gelten als die Erfinder dieses Fahrzeugs.",
+    "Im Jahr 1783 fand die erste unbemannte Fahrt statt.",
+    "Kurz darauf stiegen die ersten Menschen in den Himmel auf."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Heißluftballon",
+    "bildunterschrift": "Ein Heißluftballon nutzt den Auftrieb warmer Luft."
+   },
+   "quelle": {
+    "titel": "Heißluftballon",
+    "url": "https://de.wikipedia.org/wiki/Hei%C3%9Fluftballon",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 250,
+   "bildInfos": [
+    {
+     "titel": "Balloons 3 bg 060504.jpg",
+     "beschreibung": "Hot air ballooons owned by Gary & Diana Moore, Wanderlust Balloons - Lake Havasu City, AZ, USA",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Balloons_3_bg_060504.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Balloons_3_bg_060504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Balloons_3_bg_060504.jpg",
+     "urheber": "Matthäus Wander",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Heißluftballon",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Heißluftballon nutzt den Auftrieb warmer Luft."
+    },
+    {
+     "titel": "Ballonstart 1.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 1 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ballonstart_1.jpg/1280px-Ballonstart_1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/96/Ballonstart_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_1.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 1 von 12"
+    },
+    {
+     "titel": "Ballonstart 10 THWZ.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 10 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ballonstart_10_THWZ.jpg/1280px-Ballonstart_10_THWZ.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Ballonstart_10_THWZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_10_THWZ.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 10 von 12"
+    },
+    {
+     "titel": "Ballonstart 11 THWZ.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 11 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ballonstart_11_THWZ.jpg/1280px-Ballonstart_11_THWZ.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Ballonstart_11_THWZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_11_THWZ.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 11 von 12"
+    },
+    {
+     "titel": "Ballonstart 4.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 4 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ballonstart_4.jpg/1280px-Ballonstart_4.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ballonstart_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_4.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 4 von 12"
+    },
+    {
+     "titel": "Ballonstart 7 THWZ.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 7 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Ballonstart_7_THWZ.jpg/1280px-Ballonstart_7_THWZ.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ballonstart_7_THWZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_7_THWZ.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 7 von 12"
+    },
+    {
+     "titel": "Ballonstart 9 THWZ.jpg",
+     "beschreibung": "Start eines Heißluftballons; Bild 9 von 12",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Ballonstart_9_THWZ.jpg/1280px-Ballonstart_9_THWZ.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ballonstart_9_THWZ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Ballonstart_9_THWZ.jpg",
+     "urheber": "Thomas Zimmermann ( THWZ )",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Start eines Heißluftballons; Bild 9 von 12"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Balloons 3 bg 060504.jpg",
+    "beschreibung": "Hot air ballooons owned by Gary & Diana Moore, Wanderlust Balloons - Lake Havasu City, AZ, USA",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Balloons_3_bg_060504.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Balloons_3_bg_060504.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Balloons_3_bg_060504.jpg",
+    "urheber": "Matthäus Wander",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Heißluftballon",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Heißluftballon nutzt den Auftrieb warmer Luft."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-sandsturm",
    "zeit": "2026-10-03T13:24:31.795Z",
