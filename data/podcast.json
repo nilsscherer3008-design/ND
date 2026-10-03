@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-02T18:22:33.969Z",
+ "stand": "2026-10-03T08:02:01.592Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-10-03",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-10-03",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Ermittlungen zu gewaltsamem Zwischenfall auf Flug von Dubai nach Tel Aviv · G7-Staaten vereinbaren Freigabe von Öl- und Diesel-Reserven · Oberstes Gericht in Israel erlaubt Teilnahme arabischer Parteien an Parlamentswahl · Warenhauskette Galeria stellt erneut Insolvenzantrag · Spanisches Parlament lehnt Regierungsdekrete zum Mieterschutz ab",
+   "zeit": "2026-10-03T08:02:01.592Z",
+   "d": "folge-hauptausgabe-2026-10-03.mp3",
+   "l": 599.02,
+   "b": 3594333
+  },
   {
    "id": "wissen-wie-funktionierte-eigentlich-das-antike-orakel-von-delphi",
    "art": "wissen",
@@ -20,16 +30,6 @@
    "d": "c1250521ad.mp3",
    "l": 33.8,
    "b": 203277
-  },
-  {
-   "id": "hauptausgabe-2026-10-02",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-10-02",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Zwischenfall im Cockpit eines Flydubai-Fluges nach Tel Aviv · Bundeswehr kündigt erstes Drohnenregiment an · Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen · Volkswagen kündigt zahlreiche Haustarifverträge im Rahmen eines Sparprogramms · Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung",
-   "zeit": "2026-10-02T05:28:38.180Z",
-   "d": "folge-hauptausgabe-2026-10-02.mp3",
-   "l": 619.82,
-   "b": 3719181
   },
   {
    "id": "wissen-wie-funktioniert-eigentlich-die-stenografie",
