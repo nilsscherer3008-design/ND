@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-03T08:02:01.592Z",
+ "stand": "2026-10-03T13:19:51.785Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -95,7 +95,66 @@
     "ueberschrift": "Die lateinische Schrift",
     "wikipedia": "Lateinisches Alphabet",
     "fokus": "Aus dem griechischen System entstand das heute weltweit meistgenutzte Alphabet.",
-    "versuche": 2
+    "versuche": 2,
+    "absaetze": [
+     "Aus dem griechischen Schriftsystem entwickelte sich im Laufe der Zeit die lateinische Schrift. Das lateinische Alphabet ist ursprünglich das von den Römern verwendete Alphabet. Es wird auch als römisches Alphabet bezeichnet und bildet die Grundlage vieler heutiger Alphabete. Zusammen bilden diese Alphabete das lateinische Schriftsystem. Dies ist das am weitesten verbreitete Schriftsystem der Welt. Einige Sprachen wie das Englische benutzen das Alphabet ohne Veränderungen. Das deutsche Alphabet umfasst neben allen sechsundzwanzig lateinischen Buchstaben vier weitere.",
+     "Das lateinische Alphabet stammt vom altitalischen Alphabet der Etrusker ab. Die Etrusker hatten ihre Schrift aus dem griechischen Alphabet entlehnt. Frühe erhaltene Zeugnisse in lateinischer Schrift sind der Lapis Niger aus der Zeit um sechshundert vor Christus und die Duenos Inschrift aus der ersten Hälfte des sechsten Jahrhunderts vor Christus. Das archaische lateinische Alphabet bestand aus einundzwanzig Buchstaben. Ein Zeichen für den griechischen Laut wurde an siebter Stelle weitergeführt, obwohl es dafür keine Verwendung gab. Die Abschaffung dieses Zeichens soll laut Wikipedia auf Spurius Carvilius Ruga zurückgehen. Er war ein freigelassener Sklave und eröffnete die erste Schule mit zahlungspflichtigem Unterricht.",
+     "Das klassische lateinische Alphabet unterscheidet sich durch zusätzliche Buchstaben. Laut Wikipedia soll Spurius Carvilius Ruga den Buchstaben G durch einen Strich am Buchstaben C eingeführt haben. Später entstanden in der Spätantike weitere Veränderungen, nachdem das griechische Mutterland im Jahr einhundertsechsundvierzig vor Christus unterworfen worden war. Es entstand Bedarf, griechische Namen und Fremdwörter in lateinischer Schrift wiederzugeben. Die Römer übernahmen das griechische Ypsilon erneut als Fremdzeichen. Auch der Buchstabe Z wurde für Laute aus dem Griechischen ans Ende des Alphabets gestellt. Kaiser Claudius versuchte im Jahr siebenundvierzig, das Alphabet auf vierundzwanzig Buchstaben zu erweitern. Diesem Versuch war nach seinem Tod kein Erfolg beschieden.",
+     "In der spätantiken Grammatik konsolidierte sich die Zahl der Buchstaben auf dreiundzwanzig. Das lateinische Mittelalter legte auf diese Zahl besonderen Wert. Sie liegt genau zwischen den Buchstabenzahlen des hebräischen und des griechischen Alphabets. Das lateinische Christentum sah sich dadurch in seiner Stellung als Erbe beider Kulturen bestätigt. In der Antike gab es noch keine Unterscheidung von Groß und Kleinbuchstaben. Auch Wortzwischenräume fehlten in der sogenannten scriptio continua. Stattdessen wurden alle Zeichen aneinander geschrieben.",
+     "Seit spätantiker Zeit existierten neben dem Buchstaben I auch die Schreibform J und neben V auch die gerundete Schreibform U. Diese Schreibvarianten dienten zunächst nicht zur Markierung lautlicher Unterschiede. Erst in der Renaissance führten Reformprojekte zu einer Unterscheidung. In Italien waren daran Leon Battista Alberti und Gian Giorgio Trissino beteiligt. In Frankreich trugen Geoffroy Tory und Louis Meigret dazu bei. Durch die Unterscheidung der Schreibformen entstanden die zwei neuen Buchstaben J und U. Der Buchstabe W entstand nachmittelalterlich aus einer Verbindung von zwei V. Damit war das heutige lateinische Alphabet komplett.",
+     "Die Namen der Buchstaben wurden größtenteils nicht aus dem griechischen übernommen. Vokale bezeichnen sich selbst. Plosive fügen ein e an. Dauerlaute bekommen ein e vorangestellt. Einige Buchstaben wichen von diesem Schema ab. K und Q bilden den Namen mit dem für sie typischen Vokal. X wurde ex genannt. Z trug den griechischen Namen zeta. Für Y gab es verschiedene Namen wie das griechische i. Die Buchstabennamen wurden bei der Übertragung auf andere Sprachen weitgehend beibehalten. In antiken Inschriften wurden viele Abkürzungen verwendet. Marcus Tullius Tiro erfand eine antike Stenografie, die als tironische Noten bekannt ist.",
+     "Das lateinische Schriftsystem bildet die Grundlage für viele weitere Entwicklungen der Schriftgeschichte. Schließlich entstanden daraus zahlreiche Alphabete, die bis heute weltweit im Alltag genutzt werden."
+    ],
+    "fakten": [
+     [
+      "Buchstaben im modernen lateinischen Alphabet",
+      "26"
+     ],
+     [
+      "Buchstaben im archaischen lateinischen Alphabet",
+      "21"
+     ],
+     [
+      "Buchstaben im klassischen lateinischen Alphabet",
+      "23"
+     ],
+     [
+      "Zeitpunkt Lapis Niger",
+      "um 600 v. Chr."
+     ],
+     [
+      "Zeitpunkt Duenos-Inschrift",
+      "erste Hälfte des 6. Jahrhunderts v. Chr."
+     ],
+     [
+      "Unterwerfung des griechischen Mutterlandes",
+      "146 v. Chr."
+     ],
+     [
+      "Versuch von Kaiser Claudius zur Alphabet-Erweiterung",
+      "im Jahr 47"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Scriptio continua",
+      "Eine Schreibweise in antiken Texten ohne Wortzwischenräume und ohne Unterscheidung von Groß- und Kleinbuchstaben."
+     ],
+     [
+      "Tironische Noten",
+      "Eine von Marcus Tullius Tiro erfundene antike Stenografie zur schnellen Aufzeichnung von Texten."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Lateinisches Alphabet",
+     "bildunterschrift": "Das lateinische Alphabet ist das weltweit am weitesten verbreitete Schriftsystem."
+    },
+    "quelle": {
+     "titel": "Lateinisches Alphabet",
+     "url": "https://de.wikipedia.org/wiki/Lateinisches_Alphabet"
+    },
+    "woerter": 561
    },
    {
     "ueberschrift": "Die Entzifferung alter Schriften",

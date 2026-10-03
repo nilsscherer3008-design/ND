@@ -1,6 +1,153 @@
 {
- "stand": "2026-10-03T08:02:01.592Z",
+ "stand": "2026-10-03T13:19:51.785Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-sandsturm",
+   "zeit": "2026-10-03T13:24:31.795Z",
+   "bereich": "Erde und Klima",
+   "titel": "Wie entsteht eigentlich ein Sandsturm?",
+   "vorspann": "Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Sandsturm ist ein sehr trockener und heißer Wind in Trockengebieten. Er wirbelt große Mengen Sand hoch und führt sie mit. Einige Stürme transportieren bis zu hundert Millionen Tonnen Sand über weite Strecken. Die Entfernung hängt von der Größe der einzelnen Sandpartikel ab. Die größten Partikel bilden an windgeschützten Stellen langsame Dünen.",
+      "Lose an der Oberfläche liegende Partikel werden in die Luft gehoben oder über den Boden gerollt. Diesen Vorgang nennt man Deflation. Der Begriff Sandsturm ist irreführend, weil die Verlagerung von Sand nur im Bereich weniger Dezimeter stattfindet. Feinerer Staub kann dagegen mehrere Kilometer transportiert werden. Ein Staubsturm kommt als dunkle Wolke heran und reduziert die Sichtweite auf wenige Meter."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Sand ist zu schwer, um in große Höhen getragen zu werden. Er bewegt sich in einer springenden Bewegung über den Boden, die Saltation genannt wird. Feinere Partikel von der Größe des Schluffs werden dagegen in dichten, hohen Wolken in die Luft gehoben. Das nennt man dann einen Staubsturm. Große Sandpartikel bilden eine niedrige Wolke, die lediglich wenige Zentimeter bis maximal zwei Meter hoch reicht.",
+      "Es gibt verschiedene Ursachen für diese Stürme und die damit verbundene Erosion. Die zunehmende Benutzung von Geländewagen in Wüsten bricht verhärtete Krusten auf. Auch die Einführung von Rindern und Schafen im australischen Landesinnere zerstörte die Bewuchsschicht. Weitere Gründe sind Desertifikation, Entwaldung und der Klimawandel.",
+      "In vielen Regionen haben diese Stürme lokale Namen. Dazu gehören Buran in Mittelasien, Chamsin im Nilgebiet und in Israel oder Palästina, Gibli in Tunesien und Libyen, Habub in der Sahara sowie Samum im nordafrikanisch-arabischen Raum. Auch der Scirocco gehört dazu. Am achten April zweitausendelf war ein Sandsturm die Ursache für eine Massenkarambolage auf einer Autobahn."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Für das Jahr zweitausendvier wird geschätzt, dass insgesamt etwa zwei bis drei Milliarden Tonnen Sand durch Sandstürme bewegt wurden. Zudem wird geschätzt, dass ein Kubikmeter Luft bis zu einem Gramm Staub enthalten kann. In der Wetterkunde nutzt die Weltorganisation für Meteorologie spezielle Symbole und Codes zur Angabe von Wetterzuständen mit Sand- oder Staubstürmen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text enthält keine Angaben zu offenen Forschungsfragen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Transportierter Sand im Jahr 2004",
+     "2 bis 3 Milliarden Tonnen"
+    ],
+    [
+     "Unfallopfer bei Autobahnunfall am 8. April 2011",
+     "8 Tote und 131 Verletzte"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Deflation",
+     "Der Prozess, bei dem lose an der Oberfläche liegende Partikel in die Luft gehoben oder über den Boden gerollt werden."
+    ],
+    [
+     "Saltation",
+     "Eine springende Bewegung, mit der Sand über den Boden getrieben wird."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie nennt man die springende Bewegung, mit der Sand über den Boden getrieben wird?",
+     "optionen": [
+      "Saltation",
+      "Deflation",
+      "Desertifikation"
+     ],
+     "richtig": 0,
+     "erklaerung": "Sand ist zu schwer für große Höhen und wird in einer Saltation genannten Bewegung über den Boden getrieben."
+    }
+   ],
+   "video": [
+    "Ein Sandsturm ist ein sehr trockener und heißer Wind in Trockengebieten.",
+    "Er wirbelt große Mengen Sand und Staub hoch und führt sie mit sich.",
+    "Dabei sind die meisten Stürme im eigentlichen Sinne Staubstürme.",
+    "Schwere Sandpartikel bewegen sich in einer springenden Bewegung über den Boden.",
+    "Diese Bewegung wird Saltation genannt.",
+    "Feinere Staubpartikel können dagegen mehrere Kilometer hoch in die Luft gehoben werden.",
+    "Zu den Ursachen gehören neben dem Klimawandel auch Geländewagen und Tiere in empfindlichen Regionen.",
+    "In vielen Gebieten der Erde haben diese Stürme eigene lokale Bezeichnungen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Sandsturm",
+    "bildunterschrift": "Ein Sandsturm führt große Mengen Sand und Staub mit sich."
+   },
+   "quelle": {
+    "titel": "Sandsturm",
+    "url": "https://de.wikipedia.org/wiki/Sandsturm",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 336,
+   "bildInfos": [
+    {
+     "titel": "Sandstorm in Al Asad, Iraq.jpg",
+     "beschreibung": "A massive dust storm cloud ( haboob ) is close to enveloping a military camp as it rolls over Al Asad, Iraq , just before nightfall on April 27, 2005. DoD photo by Corporal Alicia M. Garcia, U.S. Mari",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sandstorm_in_Al_Asad%2C_Iraq.jpg/1280px-Sandstorm_in_Al_Asad%2C_Iraq.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sandstorm_in_Al_Asad%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sandstorm_in_Al_Asad,_Iraq.jpg",
+     "urheber": "Arya Barznji M. Baghdad, Iraqi National Republian Guard Corps.",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Sandsturm",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Sandsturm führt große Mengen Sand und Staub mit sich."
+    },
+    {
+     "titel": "Sandsturm-2.jpg",
+     "beschreibung": "Sandsturm-2",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sandsturm-2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sandsturm-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sandsturm-2.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Sandsturm-2"
+    },
+    {
+     "titel": "Sandsturm in der Namib (2017).jpg",
+     "beschreibung": "Sandstrom seen from above (Namib Desert 2017)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Sandsturm_in_der_Namib_%282017%29.jpg/1280px-Sandsturm_in_der_Namib_%282017%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sandsturm_in_der_Namib_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sandsturm_in_der_Namib_(2017).jpg",
+     "urheber": "Olga Ernst & Hp.Baumeler",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Sandstrom seen from above (Namib Desert 2017)"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Sandstorm in Al Asad, Iraq.jpg",
+    "beschreibung": "A massive dust storm cloud ( haboob ) is close to enveloping a military camp as it rolls over Al Asad, Iraq , just before nightfall on April 27, 2005. DoD photo by Corporal Alicia M. Garcia, U.S. Mari",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sandstorm_in_Al_Asad%2C_Iraq.jpg/1280px-Sandstorm_in_Al_Asad%2C_Iraq.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Sandstorm_in_Al_Asad%2C_Iraq.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Sandstorm_in_Al_Asad,_Iraq.jpg",
+    "urheber": "Arya Barznji M. Baghdad, Iraqi National Republian Guard Corps.",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Sandsturm",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Sandsturm führt große Mengen Sand und Staub mit sich."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-kompass",
    "zeit": "2026-10-03T08:08:23.562Z",

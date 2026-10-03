@@ -1,0 +1,733 @@
+{
+ "id": "2026-10-03-15",
+ "name": "15-Uhr-Ausgabe",
+ "stunde": 15,
+ "zeit": "2026-10-03T13:19:51.785Z",
+ "themen": [
+  {
+   "id": "flydubai-notlandung-angriff",
+   "titel": "Behörden der Emirate untersuchen Angriff auf Flydubai-Flug nach Tel Aviv als Terrorakt",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [],
+   "ort": {
+    "name": "Tabuk, Saudi-Arabien",
+    "lat": 28.325,
+    "lon": 37.633
+   },
+   "saetze": [
+    "Auf einem Flug von Dubai nach Israel hat ein Kopilot den Flugkapitän mit einer Axt angegriffen.",
+    "Nach Angaben der Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate passierte der Vorfall am Mittwoch an Bord einer Flydubai-Maschine.",
+    "Der Angreifer verletzte den Kapitän schwer, konnte aber von Passagieren überwältigt werden.",
+    "Die Maschine landete nach dem Zwischenfall auf dem Flughafen in Tabuk in Saudi-Arabien.",
+    "Nach Berichten von US-Medien war der Verdächtige zuvor im Oman wegen extremistischer Ansichten mit einem Flugverbot belegt worden.",
+    "Die Justiz der Vereinigten Arabischen Emirate stuft die Tat nach eigenen Angaben als versuchten Terrorakt ein.",
+    "Die israelische Regierung erklärte laut Medienberichten ebenfalls, dass es sich um einen Terroranschlag handele.",
+    "Ein Notfallwerkzeug namens Notfallaxt, das sich im Cockpit befindet, wurde bei dem Angriff verwendet.",
+    "Die Ermittlungen zu den Motiven und Hintergründen der Tat dauern an.",
+    "Die Fluggesellschaft Flydubai setzte ihre Flüge nach Tel Aviv vorerst aus."
+   ]
+  },
+  {
+   "id": "g7-freigabe-oel-reserven",
+   "titel": "G7-Staaten vereinbaren Freigabe von Öl- und Diesel-Reserven",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump, dessen Land zu den G7-Staaten gehört.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Emmanuel Macron 2025 (cropped).jpg",
+     "beschreibung": "Foto: Nebojša Tejić / STA",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg/1280px-Emmanuel_Macron_2025_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+     "urheber": "Nebojša Tejić",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Emmanuel Macron",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Emmanuel Macron",
+     "bildunterschrift": "Der französische Präsident Emmanuel Macron, dessen Land an den G7-Beratungen beteiligt ist.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
+     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg/1280px-2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Friedrich Merz",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Friedrich Merz, Parteivorsitzender der CDU.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Paris, Frankreich",
+    "lat": 48.859,
+    "lon": 2.32
+   },
+   "saetze": [
+    "Die G7-Staaten haben sich auf die Freigabe von Ölreserven geeinigt.",
+    "Bis zu 100 Millionen Barrel Diesel und Rohöl sollen aus den Lagern kommen.",
+    "Die Maßnahme dauert vier Monate.",
+    "Das Ziel ist nach Angaben der Berichte eine Entlastung der Energiemärkte.",
+    "Laut dem Spiegel reagieren die G7 damit auf eine Forderung der Vereinigten Staaten von Amerika.",
+    "Der französische Präsident Emmanuel Macron teilte die Entscheidung mit.",
+    "Kritik kam laut dem Spiegel von dem Bundestagsabgeordneten Michael Kellner von den Grünen.",
+    "Die Internationale Energieagentur soll die Umsetzung überwachen.",
+    "In den kommenden Tagen sind weitere Beratungen geplant."
+   ]
+  },
+  {
+   "id": "manchester-city-finanzaffaere",
+   "titel": "Finanzverfahren und Berufung im Fall Manchester City",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
+     "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Pep Guardiola",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Pep Guardiola football manager",
+     "bildunterschrift": "Josep Guardiola ist der Trainer des Fußballvereins Manchester City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Manchester city etihad stadium (cropped).jpg",
+     "beschreibung": "Manchester City Etihad Stadium, Manchester, England, United Kingdom",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Manchester_city_etihad_stadium_%28cropped%29.jpg/1280px-Manchester_city_etihad_stadium_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Manchester_city_etihad_stadium_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Manchester_city_etihad_stadium_(cropped).jpg",
+     "urheber": "Arne Müseler",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Etihad Stadium (Manchester)",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Etihad Stadium Manchester",
+     "bildunterschrift": "Das Etihad Stadium ist die Heimspielstätte des englischen Fußballvereins Manchester City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Sergio Aguero statue - Etihad Stadium.jpg",
+     "beschreibung": "The Sergio Aguero statue at the Etihad Stadium in Manchester.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Sergio_Aguero_statue_-_Etihad_Stadium.jpg/1280px-Sergio_Aguero_statue_-_Etihad_Stadium.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sergio_Aguero_statue_-_Etihad_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sergio_Aguero_statue_-_Etihad_Stadium.jpg",
+     "urheber": "Christian David",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Etihad Stadium Manchester",
+     "bildunterschrift": "Eine Statue am Etihad Stadium erinnert an den Spieler Sergio Aguero.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Manchester, Vereinigtes Königreich",
+    "lat": 53.442,
+    "lon": -2.232
+   },
+   "saetze": [
+    "Der englische Fußballverein Manchester City geht juristisch gegen einen Schuldspruch der Premier League vor.",
+    "Das bestätigte der Verein nach Angaben von Medienberichten am Freitag.",
+    "Eine unabhängige Kommission hatte dem Verein zuvor schwerwiegende Verstöße gegen die Finanzregeln vorgeworfen.",
+    "Der Club kündigte an, eine umfassende Berufung gegen das Urteil einzureichen.",
+    "Zusätzlich soll die britische Steuerbehörde nach Forderungen aus dem Parlament die Ergebnisse untersuchen.",
+    "Ausgelöst wurde diese Forderung durch einen Bericht über mögliche Scheinverträge.",
+    "Der Verein weist die Vorwürfe zurück und spricht von Fehlern in dem Gutachten.",
+    "Ein Sprecher des britischen Premierministers Andy Burnham erklärte, der unabhängige Prozess müsse seinen Lauf nehmen.",
+    "Wann eine endgültige Entscheidung oder eine Strafe folgt, ist bisher noch offen."
+   ]
+  },
+  {
+   "id": "israel-oberstes-gericht-arabische-parteien",
+   "titel": "Oberstes Gericht in Israel erlaubt Teilnahme arabischer Parteien an Parlamentswahl",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Israel Supreme Court.jpg",
+     "beschreibung": "Supreme Court of Israel",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
+     "urheber": "israeltourism",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Hearing hall in Israel supreme court.jpg",
+     "beschreibung": "אולם ב' בבית המשפט העליון בירושלים",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hearing_hall_in_Israel_supreme_court.jpg/1280px-Hearing_hall_in_Israel_supreme_court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hearing_hall_in_Israel_supreme_court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hearing_hall_in_Israel_supreme_court.jpg",
+     "urheber": "Avi1111 dr. avishai teicher",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Der Verhandlungssaal im Obersten Gericht in Jerusalem.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "PikiWiki Israel 44720 The Supreme Court building .jpg",
+     "beschreibung": "The Supreme Court building",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg/1280px-PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "urheber": "shaula haitner",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Eine weitere Ansicht des Gebäudes des Obersten Gerichts in Israel.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Jerusalem, Israel",
+    "lat": 31.779,
+    "lon": 35.226
+   },
+   "saetze": [
+    "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Parlamentswahl gekippt.",
+    "Die Richter entschieden am zweiten Oktober des Jahres zweitausendsechs in Jerusalem.",
+    "Das Zentrale Wahlkomitee hatte zuvor mit achtzehn zu fünf Stimmen gegen die Zulassung gestimmt.",
+    "Als Grund wurden in Anträgen Sicherheitsbedenken und der Vorwurf der Unterstützung des bewaffneten Kampfes genannt.",
+    "Die betroffenen Parteien verurteilten den Beschluss nach Angaben der Tagesschau als rassistisch und antidemokratisch.",
+    "Das Gericht befand die Entscheidung des Komitees jedoch für nicht rechtmäßig.",
+    "Nach Berichten der Tageszeitung taz zog der Politiker Sami Abu Shehadeh seine Kandidatur nach einer Empfehlung des Gerichts zurück.",
+    "Laut Meinungsumfragen kann bei der Wahl Ende Oktober keine Seite mit einer absoluten Mehrheit rechnen.",
+    "Die kleineren Parteien könnten nach Angaben des Spiegels eine wichtige Rolle bei der Regierungsbildung einnehmen.",
+    "Ob die rechtsextreme Partei von Polizeiminister Itamar Ben-Gvir ebenfalls ausgeschlossen werden sollte, blieb im Komitee umstritten."
+   ]
+  },
+  {
+   "id": "spanische-wohnungskrise-parlament",
+   "titel": "Spanisches Parlament lehnt Regierungsdekrete zum Mieterschutz ab",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
+     "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "urheber": "Senator Risa Hontiveros",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Pedro Sánchez politician",
+     "bildunterschrift": "Der spanische Ministerpräsident Pedro Sánchez, dessen Regierung von der Ablehnung im Parlament betroffen ist.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Madrid - Congreso de los Diputados 01.jpg",
+     "beschreibung": "Statues of lions at the Congress of Deputies of Spain (Spain) - Madrid, Spain",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg/1280px-Madrid_-_Congreso_de_los_Diputados_01.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Madrid_-_Congreso_de_los_Diputados_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Madrid_-_Congreso_de_los_Diputados_01.jpg",
+     "urheber": "Selbymay",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Congress of Deputies of Spain",
+     "bildunterschrift": "Das Gebäude des spanischen Parlaments (Congress of Deputies) in Madrid.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Madrid, Spanien",
+    "lat": 40.417,
+    "lon": -3.704
+   },
+   "saetze": [
+    "Das spanische Parlament in Madrid hat zwei Regierungsdekrete zum Mieterschutz abgelehnt.",
+    "Die Abstimmung fand nach landesweiten Protesten gegen die Wohnungsnot im Land statt.",
+    "Das Parlament lehnte das erste Dekret mit 178 Nein-Stimmen ab.",
+    "Gegen das zweite Dekret stimmten laut Medienberichten 184 Abgeordnete.",
+    "Die konservative Opposition und die katalanische Partei Junts stimmten nach Angaben der Sender gegen die Vorlagen.",
+    "Ministerpräsident Pedro Sánchez warnte vor der Abstimmung vor großen wirtschaftlichen Schäden.",
+    "Die Opposition warf der Regierung dagegen vor, die Mieten durch die Maßnahmen noch weiter zu erhöhen.",
+    "Die politische Niederlage verstärkt nun die Spekulationen über mögliche vorgezogene Neuwahlen in Spanien.",
+    "Mieterschutzverbände kündigten an, ihre Proteste gegen die Wohnungskrise fortzusetzen."
+   ]
+  },
+  {
+   "id": "inflation-euroraum",
+   "titel": "Inflationsrate im Euroraum steigt im September auf 3,8 Prozent",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Christine Lagarde (cropped).jpg",
+     "beschreibung": "Read more: <a href=\" http://www.europarl.europa.eu/news/en \" rel=\"noreferrer nofollow\">www.europarl.europa.eu/news/en</a> This photo is free to use under Creative Commons license CC-BY-4.0 and must be",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Christine_Lagarde_(cropped).jpg",
+     "urheber": "European Parliament from EU",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Christine Lagarde",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Christine Lagarde",
+     "bildunterschrift": "Christine Lagarde, Präsidentin der Europäischen Zentralbank.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Europäische Zentralbank Frankfurt.jpg",
+     "beschreibung": "European Central Bank at Frankfurt , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "urheber": "Thomas Wolf , www.foto-tw.de",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Sitz der Europäischen Zentralbank",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "European Central Bank headquarters",
+     "bildunterschrift": "Der Sitz der Europäischen Zentralbank in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "OCR-B-Euro-Proposals.png",
+     "beschreibung": "The initial proposal for adding the Euro sign to OCR-B included two design variants: One with a double stroke, another with a single stroke.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:OCR-B-Euro-Proposals.png",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Euro sign",
+     "bildunterschrift": "Das Euro-Symbol als Währungseinheit im Euroraum.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "saetze": [
+    "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent gestiegen.",
+    "Das teilte das EU-Statistikamt nach vorläufigen Daten mit.",
+    "Im August lag der Wert noch bei drei Komma zwei Prozent.",
+    "Hauptgrund für den Anstieg auf den höchsten Stand seit drei Jahren sind die hohen Energiepreise.",
+    "Energie hat sich demnach im Jahresvergleich um achtzehn Komma acht Prozent verteuert.",
+    "Die Europäische Zentralbank strebt mittelfristig eine Teuerung von zwei Prozent an.",
+    "Finanzmärkte erwarten laut Berichten, dass die Notenbank die Zinsen bis zum Jahresende anhebt.",
+    "Die Europäische Zentralbank hat den Leitzins zuvor bereits auf zwei Komma fünf Prozent angehoben.",
+    "Mehrere Länder haben nationale Maßnahmen wie Tankrabatte oder Preisbremsen beschlossen.",
+    "Die nächste Zinsentscheidung der Notenbank steht Ende Oktober an."
+   ]
+  },
+  {
+   "id": "franz-reindl-iihf-praesident",
+   "titel": "Neuer Präsident des Eishockey-Weltverbands IIHF gewählt",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "2022-04-29 Deutschland gegen Slowakei (Eishockey-Länderspiel) by Sandro Halank–128.jpg",
+     "beschreibung": "Ice Hockey preparation match in Dresden in preparation for the 2022 Ice Hockey World Championships: Germany vs. Slovakia (1:3)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg/1280px-2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2022-04-29_Deutschland_gegen_Slowakei_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93128.jpg",
+     "urheber": "Sandro Halank , Wikimedia Commons",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Franz Reindl (Eishockeyspieler)",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Franz Reindl ice hockey",
+     "bildunterschrift": "Der deutsche Eishockey-Funktionär Franz Reindl bei einem Länderspiel.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Tenerife, Canary Islands ESA23970088.jpeg",
+     "beschreibung": "The Copernicus Sentinel-2 mission takes us over Tenerife – the largest of Spain’s Canary Islands. Zoom in to see this image at its full 10 m resolution or click on the circles to learn more about the ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg/1280px-Tenerife%2C_Canary_Islands_ESA23970088.jpeg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tenerife,_Canary_Islands_ESA23970088.jpeg",
+     "urheber": "European Space Agency",
+     "lizenz": "CC BY-SA 3.0 igo",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+     "artikel": "Tenerife",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Tenerife landscape ocean",
+     "bildunterschrift": "Die Insel Teneriffa, auf der der Kongress und die Wahl stattfanden.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Teneriffa, Spanien",
+    "lat": 28.294,
+    "lon": -16.621
+   },
+   "saetze": [
+    "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+    "Die Wahl fand bei einem Kongress auf der spanischen Insel Teneriffa statt.",
+    "Für die Entscheidung waren zwei Wahlgänge nötig.",
+    "In der Stichwahl setzte sich Reindl mit sechzig zu siebenundfünfzig Stimmen gegen Petr Briza durch.",
+    "Das schreiben die Süddeutsche Zeitung und die FAZ.",
+    "Reindl ist nach Günther Sabetzki der zweite deutsche Präsident des Verbandes.",
+    "Nach Angaben des Deutschen Eishockey-Bundes ist die Wahl eine große Anerkennung seiner Arbeit.",
+    "Auf den neuen Präsidenten warten Aufgaben wie die Rückkehr Russlands und die Konkurrenz durch die nordamerikanische Liga.",
+    "Die Amtszeit des neuen Präsidenten läuft bis Oktober zweitausenddreißig."
+   ]
+  },
+  {
+   "id": "copernicus-hitzesommer-europa",
+   "titel": "EU-Klimadienst: Sommer 2026 war in Westeuropa der wärmste seit Beginn der Aufzeichnungen",
+   "rubrik": "Wissen & Klima",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Views in the Main Control Room (12052189474).jpg",
+     "beschreibung": "Main Control Room / Mission Control Room of ESA at the European Space Operations Centre (ESOC) in Darmstadt , Germany .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg/1280px-Views_in_the_Main_Control_Room_%2812052189474%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Views_in_the_Main_Control_Room_%2812052189474%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Views_in_the_Main_Control_Room_(12052189474).jpg",
+     "urheber": "European Space Agency",
+     "lizenz": "CC BY-SA 3.0 igo",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+     "artikel": "Europäische Weltraumorganisation",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Der Kontrollraum der Europäischen Weltraumorganisation zeigt den Arbeitsplatz für die Überwachung von Satellitendaten.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Air quality in Europe (Copernicus 2020-11-24).webp",
+     "beschreibung": "On 23 November 2020, the European Environment Agency published the “Air quality in Europe” 2020 report, a high level report in which an annual assessment of the status and impacts of air quality in Eu",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp/1280px-Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Air_quality_in_Europe_%28Copernicus_2020-11-24%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Air_quality_in_Europe_(Copernicus_2020-11-24).webp",
+     "urheber": "European Union, Copernicus Sentinel-2 imagery",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Eine grafische Darstellung der Europäischen Umweltagentur zur Luftqualität in Europa.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Lake Balkhash, Kazakhstan (Copernicus 2020-10-30).webp",
+     "beschreibung": "Lake Balkhash is one of the largest lakes in Asia and the 15th largest lake in the world. Even though the lake is in a desert, it is fed by several rivers and serves as a habitat for 20 species of fis",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp/1280px-Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Lake_Balkhash%2C_Kazakhstan_%28Copernicus_2020-10-30%29.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lake_Balkhash,_Kazakhstan_(Copernicus_2020-10-30).webp",
+     "urheber": "European Union, Copernicus Sentinel-2 imagery",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "Copernicus Programme logo",
+     "bildunterschrift": "Eine Satellitenaufnahme des Balkhash-Sees in Kasachstan aus dem Copernicus-Programm.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "saetze": [
+    "Der Klimadienst der Europäischen Union hat eine Bilanz für den Sommer des Jahres zweitausendsechsundzwanzig vorgelegt.",
+    "Nach Angaben der Berichte von Tagesschau und Spiegel war es der wärmste Sommer in Westeuropa seit Beginn der Aufzeichnungen.",
+    "Die Durchschnittstemperatur in Westeuropa lag bei einundzwanzig Komma sieben Grad Celsius.",
+    "Gleichzeitig erreichten viele Flüsse in Deutschland und Europa extrem niedrige Pegelstände.",
+    "In großen Flüssen wie dem Rhein und der Donau flossen im Sommer so geringe Wassermengen wie seit neunzehnhundertzweiundneunzig nicht mehr.",
+    "An der Atlantikküste und im Mittelmeer traten zudem marine Hitzewellen auf.",
+    "Trockenheit und Hitze begünstigten außerdem eine außergewöhnlich intensive Waldbrandsaison mit großen betroffenen Flächen in Spanien und Frankreich.",
+    "Der Dienst erklärte, dass diese Ereignisse den engen Zusammenhang zwischen dem Klimawandel und der Energiesicherheit verdeutlichen.",
+    "Konkrete politische Maßnahmen wurden in den Berichten nicht genannt.",
+    "Die Auswertung stützt sich auf die Daten des europäischen Erdbeobachtungsprogramms."
+   ]
+  },
+  {
+   "id": "galeria-insolvenz",
+   "titel": "Warenhauskette Galeria stellt erneut Insolvenzantrag",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Frankfurt Galeria Kaufhof.20131019.jpg",
+     "beschreibung": "Frankfurt am Main, Hauptwache, Galeria Kaufhof (shopping mall) and Nextower/Jumeirah high-rises in the background.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Frankfurt_Galeria_Kaufhof.20131019.jpg/1280px-Frankfurt_Galeria_Kaufhof.20131019.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Frankfurt_Galeria_Kaufhof.20131019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_Galeria_Kaufhof.20131019.jpg",
+     "urheber": "Epizentrum",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Galeria (department store)",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Bernd Beetz businessman",
+     "bildunterschrift": "Eine Galeria-Filiale in Frankfurt am Main, die von der Insolvenz der Warenhauskette betroffen ist.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Frankfurt view in 2025.jpg",
+     "beschreibung": "Frankfurt (Germany)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Frankfurt_view_in_2025.jpg/1280px-Frankfurt_view_in_2025.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/Frankfurt_view_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_view_in_2025.jpg",
+     "urheber": "Jorge Franganillo",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "artikel": "Liste der Hochhäuser in Deutschland",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Amtsgericht Düsseldorf building",
+     "bildunterschrift": "Das Amtsgericht Düsseldorf, bei dem Galeria den Insolvenzantrag gestellt hat.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Düsseldorf, Deutschland",
+    "lat": 51.225,
+    "lon": 6.776
+   },
+   "saetze": [
+    "Die Warenhauskette Galeria hat erneut Insolvenz angemeldet.",
+    "Das teilten Medien wie Tagesschau und Spiegel am Donnerstag mit.",
+    "Der Antrag wurde beim Amtsgericht in Düsseldorf eingereicht.",
+    "Betroffen sind rund zwölftausend Beschäftigte an dreiundachtzig Standorten.",
+    "Für das Unternehmen ist dies der vierte Insolvenzantrag innerhalb von sechs Jahren.",
+    "Der Geschäftsbetrieb in den Filialen soll nach Angaben des Unternehmens vorerst weiterlaufen.",
+    "Ob Standorte schließen müssen, ist derzeit noch unklar.",
+    "Die Gewerkschaft ver.di kritisierte nach Angaben von Tagesschau das Management des Unternehmens scharf.",
+    "Die Bedeutung von klassischen Warenhäusern im Handel ist in den vergangenen Jahren stark gesunken.",
+    "Das Unternehmen kündigte an, die Situation zu ordnen und die Zukunft zu prüfen."
+   ]
+  },
+  {
+   "id": "bundeswehr-drohnenregiment",
+   "titel": "Bundeswehr kündigt erstes Drohnenregiment an",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Boris Pistorius (2019) (cropped).jpg",
+     "beschreibung": "Boris Pistorius , Minister of the Interior and Sport of Lower Saxony since February 2013, Federal Minister of Defense of the Federal Republic of Germany from January 19, 2023.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg/1280px-Boris_Pistorius_%282019%29_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Boris_Pistorius_%282019%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Boris_Pistorius_(2019)_(cropped).jpg",
+     "urheber": "Daniel Biskup",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "person",
+     "suchbegriff": "Boris Pistorius politician",
+     "bildunterschrift": "Verteidigungsminister Boris Pistorius, der die neue Einheit ankündigte.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "BigBandBw Logo.png",
+     "beschreibung": "Internal coat of arms of the Bundeswehr (Armed Forces of the Federal Republic of Germany). → Remarks on naming and categorization scheme",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/BigBandBw_Logo.png/1280px-BigBandBw_Logo.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ed/BigBandBw_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:BigBandBw_Logo.png",
+     "urheber": "Zentrum Militärmusik der Bundeswehr",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Big Band der Bundeswehr",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Bundeswehr logo",
+     "bildunterschrift": "Das Logo der Bundeswehr.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Bergen, Deutschland",
+    "lat": 49.781,
+    "lon": 7.418
+   },
+   "saetze": [
+    "Die Bundeswehr wird erstmals ein eigenes Drohnenregiment mit bis zu sechstausend Soldaten aufstellen.",
+    "Das kündigte Verteidigungsminister Boris Pistorius bei einem Besuch auf einem Truppenübungsplatz an.",
+    "Nach Angaben von Pistorius ist das eine Konsequenz aus dem Krieg in der Ukraine.",
+    "Der neue Verband soll im Laufe des Jahres zweitausend siebenundzwanzig gebildet werden.",
+    "Der Inspekteur des Heeres, Generalleutnant Christian Freuding, erklärte, dass das Regiment mit dreihundert Soldaten beginnen soll.",
+    "Die Zielstärke liegt nach Angaben der Berichte bei sechshundert Soldatinnen und Soldaten.",
+    "Das Regiment soll Reichweiten bis zu fünfhundert Kilometer abdecken und unbemannte Systeme an Land und in der Luft nutzen.",
+    "Über den genauen Standort des neuen Verbandes ist nach Angaben der Berichte noch nicht entschieden.",
+    "Die Bundeswehr reagiert damit auf die Bedeutung von Drohnen in modernen Konflikten."
+   ]
+  },
+  {
+   "id": "tankrabatt-start-oktober",
+   "titel": "Inkrafttreten des staatlichen Tankrabatts und Preissituation an Tankstellen",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "2019-10-10 Tarek Al-Wazir by OlafKosinsky MG 5200.jpg",
+     "beschreibung": "Tarek Al-Wazir am 10. Oktober 2019 in Frankfurt am Main im Rahmen der Verkehrsministerkonferenz .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/2019-10-10_Tarek_Al-Wazir_by_OlafKosinsky_MG_5200.jpg/1280px-2019-10-10_Tarek_Al-Wazir_by_OlafKosinsky_MG_5200.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/33/2019-10-10_Tarek_Al-Wazir_by_OlafKosinsky_MG_5200.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2019-10-10_Tarek_Al-Wazir_by_OlafKosinsky_MG_5200.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Tarek Al-Wazir",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Tarek Al-Wazir politician",
+     "bildunterschrift": "Tarek Al-Wazir im Jahr 2019.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Petrol station in Bénin.jpg",
+     "beschreibung": "Petrol is sold by the (mainly liquor) bottle in Bénin . There are thousands of these shops in the capital Cotonou , where motorbikes can refuel. It is said that the petrol is illegally imported by sea",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Petrol_station_in_B%C3%A9nin.jpg/1280px-Petrol_station_in_B%C3%A9nin.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Petrol_station_in_B%C3%A9nin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Petrol_station_in_B%C3%A9nin.jpg",
+     "urheber": "Ferdinand Reus",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "symbol",
+     "suchbegriff": "Gasoline pump station",
+     "bildunterschrift": "Eine Zapfsäule als Symbol für den Verkauf von Kraftstoff.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Berlin, Deutschland",
+    "lat": 52.517,
+    "lon": 13.395
+   },
+   "saetze": [
+    "Seit dem ersten Oktober gilt in Deutschland ein neuer staatlicher Tankrabatt.",
+    "Autofahrer können sich an vielen Tankstellen über gesunkene Preise für Benzin und Diesel freuen.",
+    "Das Ziel der Maßnahme ist eine finanzielle Entlastung bei hohen Spritpreisen.",
+    "Dem Bund entstehen durch die Tankrabatte in diesem Jahr Steuerausfälle von rund vier Milliarden Euro.",
+    "Nach Angaben des ZDF kritisiert der Grünen-Politiker Tarek Al-Wazir die Maßnahme als nicht zielgenau.",
+    "Er fordert stattdessen eine Senkung der Stromsteuer und direkte Ausgleichszahlungen für die Bürger.",
+    "Auch die Wirtschaftsweise Veronika Grimm äußerte nach Angaben der Zeit Zweifel an dem Rabatt.",
+    "Der Präsident des Bundeskartellamtes Andreas Mundt appellierte an die Mineralölwirtschaft, die Entlastung schnell weiterzugeben.",
+    "Ein früherer Tankrabatt kam im Mai und Juni zu rund achtzig Prozent bei den Verbrauchern an.",
+    "Für das Jahr zweitausend sieben ist ein angedachter Preisdeckel für Sprit geplant."
+   ]
+  },
+  {
+   "id": "vw-kuendigung-tarifvertraege",
+   "titel": "Volkswagen kündigt zahlreiche Haustarifverträge im Rahmen eines Sparprogramms",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Dr. Oliver Blume CEO Porsche AG.jpg",
+     "beschreibung": "Dr. Oliver Blume Member of the Executive Board - Production and Logistics - of Dr. Ing. h.c. F. Porsche AGMitglied des Vorstandes, Produktion und Logistik der Dr. Ing. h.c. F. Porsche AGFoto: PORSCHE ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg/1280px-Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/07/Dr._Oliver_Blume_CEO_Porsche_AG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dr._Oliver_Blume_CEO_Porsche_AG.jpg",
+     "urheber": "Foto: Marco Prosch, Porsche AG, überreicht durch Diana Sänger, Public Relations and Press ",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "artikel": "Oliver Blume (Manager)",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Oliver Blume manager",
+     "bildunterschrift": "Oliver Blume ist Manager bei Volkswagen und Porsche.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Wolfsburg Jun 2012 004 (Volkswagen Arena).JPG",
+     "beschreibung": "The interior of Volkswagen Arena in Wolfsburg , Niedersachsen ( Germany ).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG/1280px-Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/39/Wolfsburg_Jun_2012_004_%28Volkswagen_Arena%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wolfsburg_Jun_2012_004_(Volkswagen_Arena).JPG",
+     "urheber": "Michael Barera",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Volkswagen Arena Wolfsburg",
+     "bildunterschrift": "Die Volkswagen-Arena in Wolfsburg steht für den Standort des Automobilkonzerns.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Frankfurt am Main, Central business district (2024).jpg",
+     "beschreibung": "Frankfurt : Bankenviertel (central business district)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg/1280px-Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Frankfurt_am_Main%2C_Central_business_district_%282024%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Frankfurt_am_Main,_Central_business_district_(2024).jpg",
+     "urheber": "Dr. Thomas Liptak",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Liste der Hochhäuser in Frankfurt am Main",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "IG Metall headquarters Frankfurt",
+     "bildunterschrift": "In Frankfurt befindet sich der Hauptsitz der Gewerkschaft IG Metall.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "002 Production line - car assembly line in General Motors Manufacturing Poland - Gliwice, Poland.jpg",
+     "beschreibung": "Car factory production line. Opel Astra J manufactured in General Motors Manufacturing Poland plant in Gliwice.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg/1280px-002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9f/002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice%2C_Poland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:002_Production_line_-_car_assembly_line_in_General_Motors_Manufacturing_Poland_-_Gliwice,_Poland.jpg",
+     "urheber": "Marek Ślusarczyk ( Tupungato ) Photo portfolio",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "suchbegriff": "Automobile manufacturing assembly line",
+     "bildunterschrift": "Eine Produktionslinie in einer Autofabrik zeigt die Automobilfertigung.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Wolfsburg, Deutschland",
+    "lat": 52.421,
+    "lon": 10.786
+   },
+   "saetze": [
+    "Der Autokonzern Volkswagen hat einen Großteil seiner Haustarifverträge gekündigt.",
+    "Nach Angaben der Gewerkschaft IG Metall sind zehn von dreizehn Verträgen betroffen.",
+    "Die Kündigung wurde fristgerecht zum einunddreißigsten Dezember zweitausendsechsundzwanzig ausgesprochen.",
+    "Betroffen sind rund einhunderttausend bis einhundertdreißigtausend Beschäftigte in Deutschland.",
+    "Zu den betroffenen Vereinbarungen gehören unter anderem der Entgelt und der Manteltarifvertrag.",
+    "Das Unternehmen begründet den Schritt mit einer verschärften wirtschaftlichen Lage und hohem Kostendruck.",
+    "Nach Angaben der Arbeitnehmervertreter ist dies ein schwerer Schlag für die Belegschaft.",
+    "Gesamtbetriebsratschefin Daniela Cavallo rechnet mit einer heftigen Auseinandersetzung zum Jahreswechsel.",
+    "Die bereits vereinbarte Beschäftigungssicherung bis zum Jahr zweitausenddreißig bleibt laut den Berichten bestehen.",
+    "Die konkreten Einschnitte müssen nun in den kommenden Verhandlungen zwischen Arbeitgebern und Arbeitnehmern geklärt werden."
+   ]
+  }
+ ]
+}
