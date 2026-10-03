@@ -2245,7 +2245,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 18 und 22 Grad. Die Vorhersage für morgen,",
+   "d": "09f86cbecb.mp3",
+   "l": 21.62,
+   "s": [
+    0.25,
+    4.5,
+    11.26,
+    15.29,
+    18.83
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -5123,6 +5135,17 @@
       35.62,
       45.26
      ]
+    },
+    {
+     "k": "Die Ermittlungen zu dem Vorfall werden unter der Führung der Behörden in den Ver",
+     "d": "9602f6ab3e.mp3",
+     "l": 33.09,
+     "s": [
+      0.25,
+      6.78,
+      16.13,
+      23.72
+     ]
     }
    ]
   },
@@ -6124,11 +6147,11 @@
     {
      "k": "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent ",
      "d": "bcd13976a1.mp3",
-     "l": 16.41,
+     "l": 16.42,
      "s": [
       0.25,
-      5.84,
-      11.72
+      5.53,
+      11.35
      ]
     },
     {
@@ -7157,6 +7180,75 @@
       0.25,
       3.37
      ]
+    },
+    {
+     "k": "Der EU-Klimadienst Copernicus hat seine Analyse zum vergangenen Sommer vorgelegt",
+     "d": "d5e4091a8e.mp3",
+     "l": 60.46,
+     "s": [
+      0.25,
+      5.13,
+      15.01,
+      19.63,
+      25.21,
+      33.58,
+      40.42,
+      50.31
+     ]
+    },
+    {
+     "k": "Laut dem Spiegel war ein Rekordanteil von 52 Prozent der Kontinentfläche bis zum",
+     "d": "00b7fc41cf.mp3",
+     "l": 58.49,
+     "s": [
+      0.25,
+      10.67,
+      15.31,
+      20.15,
+      27.41,
+      34.89,
+      44.7,
+      49.64
+     ]
+    },
+    {
+     "k": "Der EU-Klimadienst Copernicus Climate Change Service beobachtet und analysiert d",
+     "d": "0aded55c0c.mp3",
+     "l": 27.06,
+     "s": [
+      0.25,
+      8.58,
+      17.75
+     ]
+    },
+    {
+     "k": "Der EU-Klimadienst Copernicus ist Teil des Erdbeobachtungsprogramms der Europäis",
+     "d": "c481293610.mp3",
+     "l": 12.75,
+     "s": [
+      0.25,
+      6.1
+     ]
+    },
+    {
+     "k": "Laut dem EU-Klimawandeldienst Copernicus Climate Change Service waren die Meere ",
+     "d": "00b307a999.mp3",
+     "l": 28.19,
+     "s": [
+      0.25,
+      7.13,
+      16.72,
+      18.98
+     ]
+    },
+    {
+     "k": "Konkrete weitere Schritte oder Maßnahmen wurden in den vorliegenden Berichten vo",
+     "d": "0668612d57.mp3",
+     "l": 16.7,
+     "s": [
+      0.25,
+      7.23
+     ]
     }
    ]
   },
@@ -7664,6 +7756,88 @@
      "s": [
       0.25,
       3.5
+     ]
+    },
+    {
+     "k": "Die Warenhauskette Galeria hat beim Amtsgericht Düsseldorf die Eröffnung eines I",
+     "d": "925f4c6988.mp3",
+     "l": 51.11,
+     "s": [
+      0.25,
+      6.19,
+      15.69,
+      22.45,
+      27.5,
+      34.17,
+      38.12,
+      42.59
+     ]
+    },
+    {
+     "k": "Vorausgegangen war dem Antrag im Jahr 2024 die Schieflage des damaligen Mutterko",
+     "d": "04651312b7.mp3",
+     "l": 70.0,
+     "s": [
+      0.25,
+      7.15,
+      19.33,
+      28.24,
+      37.45,
+      45.6,
+      54.86,
+      61.61
+     ]
+    },
+    {
+     "k": "Die wirtschaftliche Entwicklung von Galeria ist seit Jahren von Krisen geprägt. ",
+     "d": "edfa0b9031.mp3",
+     "l": 56.39,
+     "s": [
+      0.25,
+      4.64,
+      13.38,
+      22.38,
+      27.7,
+      32.47,
+      42.77,
+      49.37
+     ]
+    },
+    {
+     "k": "Ein Insolvenzverfahren ist ein gerichtlich geordnetes Verfahren für Unternehmen,",
+     "d": "4c02583011.mp3",
+     "l": 20.43,
+     "s": [
+      0.25,
+      8.39,
+      12.84
+     ]
+    },
+    {
+     "k": "Die Dienstleistungsgewerkschaft ver. di äußerte sich nach Angaben von Tagesschau",
+     "d": "1b8ecaf7c6.mp3",
+     "l": 38.66,
+     "s": [
+      0.25,
+      2.54,
+      7.45,
+      8.63,
+      15.01,
+      20.51,
+      29.16,
+      33.91
+     ]
+    },
+    {
+     "k": "Der Geschäftsbetrieb in den verbliebenen 83 Filialen soll nach Angaben des Unter",
+     "d": "3e76904928.mp3",
+     "l": 34.66,
+     "s": [
+      0.25,
+      6.96,
+      11.59,
+      17.13,
+      24.68
      ]
     }
    ]

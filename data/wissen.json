@@ -207,7 +207,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Heißluftballon nutzt den Auftrieb warmer Luft."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Heißluftballon fliegt mit warmer Luft in seiner Hülle. Die Luft dehnt sich d",
+     "d": "a68c3a04fe.mp3",
+     "l": 28.33,
+     "s": [
+      0.25,
+      3.53,
+      6.08,
+      8.89,
+      12.35,
+      15.67,
+      19.54,
+      25.06
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-ein-sandsturm",
@@ -354,7 +371,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Sandsturm führt große Mengen Sand und Staub mit sich."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Sandsturm ist ein sehr trockener und heißer Wind in Trockengebieten. Er wirb",
+     "d": "34d404d97e.mp3",
+     "l": 35.61,
+     "s": [
+      0.25,
+      4.6,
+      9.13,
+      13.09,
+      17.48,
+      19.93,
+      25.01,
+      31.15
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-kompass",
@@ -518,7 +552,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein klassischer Kompass dient seit Jahrhunderten der Bestimmung von Himmelsrichtungen."
-   }
+   },
+   "ton": [
+    {
+     "k": "Ein Kompass zeigt uns immer den Weg. Dafür nutzt er unsichtbare Kräfte der Erde.",
+     "d": "0b5e0e1f78.mp3",
+     "l": 23.56,
+     "s": [
+      0.25,
+      2.69,
+      5.29,
+      8.36,
+      10.96,
+      14.2,
+      17.16,
+      20.17
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-eigentlich-das-antike-orakel-von-delphi",
@@ -1289,26 +1340,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Die Pantomime nutzt körperlichen Ausdruck wie Mimik und Gestik ohne Worte."
-   },
-   "ton": [
-    {
-     "k": "Die Pantomime ist eine sehr alte Form der darstellenden Kunst. Dabei drücken Kün",
-     "d": "be4791e8ae.mp3",
-     "l": 45.16,
-     "s": [
-      0.25,
-      4.11,
-      8.18,
-      12.21,
-      16.04,
-      20.56,
-      25.28,
-      30.25,
-      34.9,
-      40.62
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-entsteht-eigentlich-eine-sternschnuppe",
@@ -1487,24 +1519,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Sternschnuppe leuchtet auf, wenn ein Teilchen aus dem Weltall in der Atmosphäre verglüht."
-   },
-   "ton": [
-    {
-     "k": "Was ist eigentlich eine Sternschnuppe? Kleine Gesteins- oder Staubteilchen aus d",
-     "d": "15dc578d89.mp3",
-     "l": 28.6,
-     "s": [
-      0.25,
-      2.71,
-      7.33,
-      10.22,
-      13.04,
-      16.83,
-      19.86,
-      23.41
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-das-menschliche-gedaechtnis",

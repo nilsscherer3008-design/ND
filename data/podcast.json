@@ -2,6 +2,36 @@
  "stand": "2026-10-03T17:54:49.887Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktioniert-eigentlich-ein-heissluftballon",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich ein Heißluftballon?",
+   "text": "Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.",
+   "zeit": "2026-10-03T17:59:26.362Z",
+   "d": "a68c3a04fe.mp3",
+   "l": 28.33,
+   "b": 170445
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-ein-sandsturm",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich ein Sandsturm?",
+   "text": "Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.",
+   "zeit": "2026-10-03T13:24:31.795Z",
+   "d": "34d404d97e.mp3",
+   "l": 35.61,
+   "b": 214077
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-ein-kompass",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich ein Kompass?",
+   "text": "Ein Kompass hilft dabei, die Himmelsrichtungen zu bestimmen. Schon seit Jahrhunderten nutzen Menschen dieses Instrument zur Orientierung.",
+   "zeit": "2026-10-03T08:08:23.562Z",
+   "d": "0b5e0e1f78.mp3",
+   "l": 23.56,
+   "b": 141789
+  },
+  {
    "id": "hauptausgabe-2026-10-03",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-10-03",
@@ -30,36 +60,6 @@
    "d": "c1250521ad.mp3",
    "l": 33.8,
    "b": 203277
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-die-stenografie",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich die Stenografie?",
-   "text": "Stenografie ist eine spezielle Schrift, mit der man gesprochene Sprache sehr schnell mitschreiben kann. Schon im alten Römischen Reich nutzten Menschen diese Technik für Notizen.",
-   "zeit": "2026-10-01T18:56:22.063Z",
-   "d": "64658a7d66.mp3",
-   "l": 39.87,
-   "b": 239709
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-das-raetsel-der-pantomime",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich das Rätsel der Pantomime?",
-   "text": "Die Pantomime ist eine Form der darstellenden Kunst. Dabei zeigen Künstler körperlichen Ausdruck durch Mimik und Gestik ohne Worte.",
-   "zeit": "2026-10-01T13:12:29.221Z",
-   "d": "be4791e8ae.mp3",
-   "l": 45.16,
-   "b": 271389
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-eine-sternschnuppe",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich eine Sternschnuppe?",
-   "text": "Am Nachthimmel sind manchmal aufleuchtende Sternschnuppen zu sehen. Kleine Teilchen aus dem Weltall erzeugen diese Leuchterscheinungen in der Erdatmosphäre.",
-   "zeit": "2026-10-01T05:49:19.484Z",
-   "d": "15dc578d89.mp3",
-   "l": 28.6,
-   "b": 172029
   }
  ]
 }
