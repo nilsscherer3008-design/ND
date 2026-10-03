@@ -1,6 +1,170 @@
 {
- "stand": "2026-10-02T18:22:33.969Z",
+ "stand": "2026-10-03T08:02:01.592Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-kompass",
+   "zeit": "2026-10-03T08:08:23.562Z",
+   "bereich": "Technik und Erfindungen",
+   "titel": "Wie funktioniert eigentlich ein Kompass?",
+   "vorspann": "Ein Kompass hilft dabei, die Himmelsrichtungen zu bestimmen. Schon seit Jahrhunderten nutzen Menschen dieses Instrument zur Orientierung.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Kompass ist ein Instrument zur Anzeige der Richtung des Erdmagnetfelds. Damit dient er zur Bestimmung der Richtung von Nord- und Südpol der Erde. Aus diesen Polen werden die anderen Himmelsrichtungen abgeleitet. In seiner einfachsten Form besteht ein Magnetkompass aus einer frei beweglichen Nadel aus magnetischem Material. Der magnetische Nordpol der Nadel dreht sich dabei zum magnetischen Südpol der Erde.",
+      "Dieser Südpol der Erde liegt nahe beim geografischen Nordpol in der Arktis. Neben dem klassischen Magnetkompass gibt es auch andere Ausführungen. Dazu zählen elektronische Magnetkompasse auf Basis von Sensoren. Ganz ohne das Erdmagnetfeld arbeiten Kreiselkompasse und Sonnenkompasse. Kompasse werden bis heute für die Navigation auf der Erde verwendet."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Der klassische Magnetkompass besitzt einen drehbaren Zeiger aus ferromagnetischem Material. Dieser Zeiger liegt in einem Gehäuse, wo er möglichst reibungsarm gelagert ist. Als Träger der Magnetnadel dienen abriebfeste Edelsteine wie Rubin oder Saphir. Am Gehäuse ist in der Regel eine Winkelskala angebracht. Wenn der Zeiger nach allen Richtungen frei beweglich ist, richtet er sich in Richtung des Erdmagnetfelds aus.",
+      "Die Feldlinien des Erdmagnetfelds verlaufen ungefähr in geografischer Nord-Süd-Richtung. Da die Abweichung meistens sehr genau bekannt ist, kann man aus der Richtung des Zeigers auf die geografische Nordrichtung schließen. Moderne Kompasskapseln sind oft mit einer Flüssigkeit gefüllt. Diese Flüssigkeit besteht aus einem leichten Öl oder einem Lösungsmittel und dämpft die Bewegung der Nadel."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die Geschichte des Kompasses reicht weit zurück. Splitter von Magneteisenstein, die sich in die Nord-Süd-Richtung drehen, waren in Europa seit der griechischen Antike bekannt. In China kannte man sie seit der Zeit der Streitenden Reiche zwischen vierhundertfünfundsiebzig vor Christus und zweihunderteinundzwanzig vor Christus. Chinesische Navigatoren kannten den nassen Kompass bereits um die Jahrtausendwende und nutzten ihn im elften Jahrhundert als schwimmende Kompassnadel.",
+      "In Europa beschrieb der englische Gelehrte Alexander Neckam den nassen Kompass im Jahr elfhundertsiebenundachtzig. Den trockenen Kompass erwähnte im Jahr zwölfneunundsechzig Petrus Peregrinus de Maricourt in seinem Werk Epistola de magnete. Im Laufe der Zeit entdeckten Forscher zudem die Missweisung und die Inklination der Nadel, was die Messungen immer präziser machte."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Es ist historisch nicht in allen Punkten völlig sicher, wer bestimmte Entdeckungen zuerst gemacht hat. Beispielsweise ist nicht sicher, wer die Missweisung der Kompassnadel zuerst erkannt hat. Auch die Existenz des oft als Erfinder genannten Seefahrers Flavio Gioia ist nicht gesichert; die Legende beruht wahrscheinlich auf einem Übersetzungsfehler."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Streitende Reiche",
+     "475 v. Chr. bis 221 v. Chr."
+    ],
+    [
+     "Alexander Neckam",
+     "1187"
+    ],
+    [
+     "Epistola de magnete",
+     "1269"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Magnetkompass",
+     "Ein Instrument mit einer magnetischen Nadel, die sich nach dem Erdmagnetfeld ausrichtet."
+    ],
+    [
+     "Deklination",
+     "Die Abweichung der Kompassnadel vom geografischen Nordpol."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Worauf richtet sich die Nadel eines einfachen Magnetkompasses aus?",
+     "optionen": [
+      "Auf das Erdmagnetfeld",
+      "Auf den Mond",
+      "Auf den nächsten Funkturm"
+     ],
+     "richtig": 0,
+     "erklaerung": "Die frei bewegliche Nadel dreht sich zum magnetischen Südpol der Erde, der in der Arktis liegt."
+    }
+   ],
+   "video": [
+    "Ein Kompass zeigt uns immer den Weg.",
+    "Dafür nutzt er unsichtbare Kräfte der Erde.",
+    "Im Inneren befindet sich eine magnetische Nadel.",
+    "Diese Nadel dreht sich zum Magnetpol.",
+    "Schon im alten China nutzten Menschen schwimmende Nadeln.",
+    "Später wurde der trockene Kompass erfunden.",
+    "Heute nutzen wir ihn weiterhin zur Orientierung.",
+    "So hilft er uns zuverlässig bei jeder Wanderung."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Kompass",
+    "bildunterschrift": "Ein klassischer Kompass dient seit Jahrhunderten der Bestimmung von Himmelsrichtungen."
+   },
+   "quelle": {
+    "titel": "Kompass",
+    "url": "https://de.wikipedia.org/wiki/Kompass",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 381,
+   "bildInfos": [
+    {
+     "titel": "Anders Kompass (cropped).jpg",
+     "beschreibung": "OHCHR’s Anders Kompass on March 2, 2012 at the High Level Segment of the 19th Session of the HRC. U.S. Mission Photo by Eric Bridiers",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Anders_Kompass_%28cropped%29.jpg/1280px-Anders_Kompass_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Anders_Kompass_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Anders_Kompass_(cropped).jpg",
+     "urheber": "United States Mission Geneva",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Anders Kompass",
+     "sprache": "en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein klassischer Kompass dient seit Jahrhunderten der Bestimmung von Himmelsrichtungen."
+    },
+    {
+     "titel": "Boussole avec inclinomètre.jpg",
+     "beschreibung": "Boussole avec inclinomètre",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Boussole_avec_inclinom%C3%A8tre.jpg/1280px-Boussole_avec_inclinom%C3%A8tre.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Boussole_avec_inclinom%C3%A8tre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Boussole_avec_inclinom%C3%A8tre.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Boussole avec inclinomètre"
+    },
+    {
+     "titel": "Boussole en grades table conversion.jpg",
+     "beschreibung": "Aguja náutica para navegación deportiva",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Boussole_en_grades_table_conversion.jpg/1280px-Boussole_en_grades_table_conversion.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Boussole_en_grades_table_conversion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Boussole_en_grades_table_conversion.jpg",
+     "urheber": "No machine-readable author provided. Jaypee assumed (based on copyright claims).",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Aguja náutica para navegación deportiva"
+    },
+    {
+     "titel": "Boussole fantassin russe.jpg",
+     "beschreibung": "Soviet Army wrist compass with two (opposite) scales, 360 degrees clockwise and 6000 Soviet mil counterclockwise, the latter shown in hundreds (0–60, i.e. 15 = 1500 mil, 30 = 3000 mil, 45 = 4500 mil).",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Boussole_fantassin_russe.jpg/1280px-Boussole_fantassin_russe.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/Boussole_fantassin_russe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Boussole_fantassin_russe.jpg",
+     "urheber": "Jean-Patrick Donzey",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Soviet Army wrist compass with two (opposite) scales, 360 degrees clockwise and 6000 Soviet mil counterclockwise, the latter shown in hundreds (0–60, i.e. 15 = 1500 mil, 30 = 3000 mil, 45 = 4500 mil)."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Anders Kompass (cropped).jpg",
+    "beschreibung": "OHCHR’s Anders Kompass on March 2, 2012 at the High Level Segment of the 19th Session of the HRC. U.S. Mission Photo by Eric Bridiers",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Anders_Kompass_%28cropped%29.jpg/1280px-Anders_Kompass_%28cropped%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Anders_Kompass_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Anders_Kompass_(cropped).jpg",
+    "urheber": "United States Mission Geneva",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Anders Kompass",
+    "sprache": "en",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein klassischer Kompass dient seit Jahrhunderten der Bestimmung von Himmelsrichtungen."
+   }
+  },
   {
    "id": "wie-funktionierte-eigentlich-das-antike-orakel-von-delphi",
    "zeit": "2026-10-02T18:31:01.913Z",
