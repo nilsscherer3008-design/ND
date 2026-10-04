@@ -2,150 +2,136 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Nachrichten-Heft · neutral</title>
-  <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
+  <description>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Sun, 04 Oct 2026 18:07:31 GMT</lastBuildDate>
-  <generator>Nachrichten-Heft</generator>
+  <lastBuildDate>Sun, 04 Oct 2026 19:48:48 +0000</lastBuildDate>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
   <itunes:author>Nachrichten-Heft</itunes:author>
-  <itunes:summary>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
+  <itunes:summary>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
   <itunes:category text="News"/>
-  <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
-  <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <itunes:image href="https://nilsscherer3008-design.github.io/ND/data/icon-512.png"/>
+  <item>
+    <title>Parlamentswahl in Lettland: Sieg für Ministerpräsident Kulbergs</title>
+    <description>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</description>
+    <itunes:summary>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</itunes:summary>
+    <pubDate>Sun, 04 Oct 2026 19:48:48 +0000</pubDate>
+    <guid isPermaLink="false">podcast-lettland-parlamentswahl</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-lettland-parlamentswahl.mp3" length="4131693" type="audio/mpeg"/>
+    <itunes:duration>00:08:36</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
   <item>
     <title>Hauptausgabe vom 2026-10-04</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Ausschreitungen und Festnahmen bei Schülerprotesten in Frankreich · Landesweite Proteste in Spanien nach Ablehnung von Mietgesetzen · Ermittlungen zu versuchtem Terrorakt auf Flug von Flydubai · Freigabe von Energierezerven zur Entlastung der Märkte · Finanzverfahren und Berufung im Fall Manchester City</description>
     <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Ausschreitungen und Festnahmen bei Schülerprotesten in Frankreich · Landesweite Proteste in Spanien nach Ablehnung von Mietgesetzen · Ermittlungen zu versuchtem Terrorakt auf Flug von Flydubai · Freigabe von Energierezerven zur Entlastung der Märkte · Finanzverfahren und Berufung im Fall Manchester City</itunes:summary>
-    <pubDate>Sun, 04 Oct 2026 06:48:33 GMT</pubDate>
+    <pubDate>Sun, 04 Oct 2026 06:48:33 +0000</pubDate>
     <guid isPermaLink="false">hauptausgabe-2026-10-04</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-04.mp3" length="3662589" type="audio/mpeg"/>
     <itunes:duration>00:10:10</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Bundeswehr kündigt erstes Drohnenregiment an</title>
     <description>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</description>
     <itunes:summary>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 19:23:55 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 19:23:55 +0000</pubDate>
     <guid isPermaLink="false">podcast-bundeswehr-drohnenregiment</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-bundeswehr-drohnenregiment.mp3" length="3439725" type="audio/mpeg"/>
     <itunes:duration>00:07:10</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich ein Heißluftballon?</title>
     <description>Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.</description>
     <itunes:summary>Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 17:59:26 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 17:59:26 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-heissluftballon</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/a68c3a04fe.mp3" length="170445" type="audio/mpeg"/>
     <itunes:duration>00:00:28</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie entsteht eigentlich ein Sandsturm?</title>
     <description>Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.</description>
     <itunes:summary>Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 13:24:31 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 13:24:31 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-ein-sandsturm</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/34d404d97e.mp3" length="214077" type="audio/mpeg"/>
     <itunes:duration>00:00:36</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich ein Kompass?</title>
     <description>Ein Kompass hilft dabei, die Himmelsrichtungen zu bestimmen. Schon seit Jahrhunderten nutzen Menschen dieses Instrument zur Orientierung.</description>
     <itunes:summary>Ein Kompass hilft dabei, die Himmelsrichtungen zu bestimmen. Schon seit Jahrhunderten nutzen Menschen dieses Instrument zur Orientierung.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 08:08:23 GMT</pubDate>
+    <pubDate>Sat, 03 Oct 2026 08:08:23 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-kompass</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0b5e0e1f78.mp3" length="141789" type="audio/mpeg"/>
     <itunes:duration>00:00:24</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Inflationsrate im Euroraum steigt im September auf drei Komma acht Prozent</title>
     <description>Wir sprechen über den neuesten Anstieg der Inflation im Euroraum und die Reaktionen der Europäischen Zentralbank. Dabei beleuchten wir die unterschiedlichen Positionen von Ökonomen und Politikern.</description>
     <itunes:summary>Wir sprechen über den neuesten Anstieg der Inflation im Euroraum und die Reaktionen der Europäischen Zentralbank. Dabei beleuchten wir die unterschiedlichen Positionen von Ökonomen und Politikern.</itunes:summary>
-    <pubDate>Fri, 02 Oct 2026 20:58:01 GMT</pubDate>
+    <pubDate>Fri, 02 Oct 2026 20:58:01 +0000</pubDate>
     <guid isPermaLink="false">podcast-inflation-euroraum</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-inflation-euroraum.mp3" length="4277613" type="audio/mpeg"/>
     <itunes:duration>00:08:55</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktionierte eigentlich das antike Orakel von Delphi?</title>
     <description>Das Orakel von Delphi war eine wichtige Weissagungsstätte im antiken Griechenland. Dort beantworteten Priester und Priesterinnen Fragen von Ratsuchenden.</description>
     <itunes:summary>Das Orakel von Delphi war eine wichtige Weissagungsstätte im antiken Griechenland. Dort beantworteten Priester und Priesterinnen Fragen von Ratsuchenden.</itunes:summary>
-    <pubDate>Fri, 02 Oct 2026 18:31:01 GMT</pubDate>
+    <pubDate>Fri, 02 Oct 2026 18:31:01 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-funktionierte-eigentlich-das-antike-orakel-von-delphi</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/6238c68d48.mp3" length="212205" type="audio/mpeg"/>
     <itunes:duration>00:00:35</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie entsteht eigentlich eine Sonnenfinsternis?</title>
     <description>Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.</description>
     <itunes:summary>Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.</itunes:summary>
-    <pubDate>Fri, 02 Oct 2026 12:32:02 GMT</pubDate>
+    <pubDate>Fri, 02 Oct 2026 12:32:02 +0000</pubDate>
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-eine-sonnenfinsternis</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/c1250521ad.mp3" length="203277" type="audio/mpeg"/>
     <itunes:duration>00:00:34</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Zwischenfall im Cockpit auf Flug nach Tel Aviv</title>
     <description>Ein Flug von Flydubai nach Tel Aviv endet nach einem Angriff im Cockpit mit einer Notlandung in Saudi-Arabien. Die israelische Regierung spricht von einem versuchten Terroranschlag.</description>
     <itunes:summary>Ein Flug von Flydubai nach Tel Aviv endet nach einem Angriff im Cockpit mit einer Notlandung in Saudi-Arabien. Die israelische Regierung spricht von einem versuchten Terroranschlag.</itunes:summary>
-    <pubDate>Thu, 01 Oct 2026 21:18:30 GMT</pubDate>
+    <pubDate>Thu, 01 Oct 2026 21:18:30 +0000</pubDate>
     <guid isPermaLink="false">podcast-flydubai-notlandung-angriff</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-flydubai-notlandung-angriff.mp3" length="3230445" type="audio/mpeg"/>
     <itunes:duration>00:06:44</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Volkswagen kündigt Haustarifverträge im Rahmen von Sparmaßnahmen</title>
     <description>Der Automobilkonzern Volkswagen hat zahlreiche Haustarifverträge fristgerecht gekündigt. Arbeitnehmervertreter und Gewerkschaften kündigten umgehend Widerstand gegen diesen Schritt an.</description>
     <itunes:summary>Der Automobilkonzern Volkswagen hat zahlreiche Haustarifverträge fristgerecht gekündigt. Arbeitnehmervertreter und Gewerkschaften kündigten umgehend Widerstand gegen diesen Schritt an.</itunes:summary>
-    <pubDate>Wed, 30 Sep 2026 20:59:38 GMT</pubDate>
+    <pubDate>Wed, 30 Sep 2026 20:59:38 +0000</pubDate>
     <guid isPermaLink="false">podcast-vw-kuendigung-tarifvertraege</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-vw-kuendigung-tarifvertraege.mp3" length="3280749" type="audio/mpeg"/>
     <itunes:duration>00:06:50</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Volksabstimmung in der Schweiz zur Neutralität</title>
     <description>In einer Volksabstimmung haben die Schweizer Stimmberechtigten eine strengere Auslegung der Neutralität abgelehnt. Wir besprechen die Hintergründe, Positionen und Reaktionen aus Wirtschaft und Politik.</description>
     <itunes:summary>In einer Volksabstimmung haben die Schweizer Stimmberechtigten eine strengere Auslegung der Neutralität abgelehnt. Wir besprechen die Hintergründe, Positionen und Reaktionen aus Wirtschaft und Politik.</itunes:summary>
-    <pubDate>Tue, 29 Sep 2026 21:01:12 GMT</pubDate>
+    <pubDate>Tue, 29 Sep 2026 21:01:12 +0000</pubDate>
     <guid isPermaLink="false">podcast-schweiz-neutralitaetsinitiative-volksabstimmung</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-schweiz-neutralitaetsinitiative-volksabstimmung.mp3" length="4665837" type="audio/mpeg"/>
     <itunes:duration>00:09:43</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Terrorverdacht nahe britischer Militärbasis Fairford</title>
-    <description>Wir sprechen über die Festnahme von fünf Männern nahe der britischen Basis Fairford und beleuchten die Hintergründe. Dabei schauen wir auf die Sicherheitslage und die Reaktionen der Behörden.</description>
-    <itunes:summary>Wir sprechen über die Festnahme von fünf Männern nahe der britischen Basis Fairford und beleuchten die Hintergründe. Dabei schauen wir auf die Sicherheitslage und die Reaktionen der Behörden.</itunes:summary>
-    <pubDate>Mon, 28 Sep 2026 22:17:05 GMT</pubDate>
-    <guid isPermaLink="false">podcast-festnahmen-militaerbasis-fairford-sprengstoffverda</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-festnahmen-militaerbasis-fairford-sprengstoffverda.mp3" length="3272109" type="audio/mpeg"/>
-    <itunes:duration>00:06:49</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
 </channel>
 </rss>
