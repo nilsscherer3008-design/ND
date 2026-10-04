@@ -1,6 +1,126 @@
 {
- "stand": "2026-10-04T06:48:33.773Z",
+ "stand": "2026-10-04T13:09:55.197Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-gaensehaut",
+   "zeit": "2026-10-04T13:14:39.596Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie entsteht eigentlich Gänsehaut?",
+   "vorspann": "Eine Gänsehaut zeigt sich durch aufgerichtete Körperbehaarung und kleine Erhebungen auf der Haut. Sie erinnert an den Anblick einer gerupften Gans und tritt bei verschiedenen Reizen auf.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Als Gänsehaut bezeichnet man das typische Bild von aufgerichteter Körperbehaarung und kleinen Erhebungen der Hautoberfläche. Dies geschieht vor allem an den Armen und an den Beinen. Das Phänomen ähnelt dem Anblick einer gerupften Gans. Daher stammt auch der Name in vielen verschiedenen Sprachen. Im Englischen spricht man beispielsweise von goose bumps. In anderen Sprachen wie dem Spanischen oder dem Niederländischen wird die Hühnerhaut als Vergleich genutzt.",
+      "Das Phänomen hat je nach Region unterschiedliche Namen. In Wien sagt man dazu Ganslhaut. In der Schweiz, in Vorarlberg und Teilen von Bayern spricht man oft von Hühnerhaut oder Hennenhaut. Medizinisch nennt man den Vorgang Piloerektion oder Piloarrektion. Auf Lateinisch heißt die Haut cutis anserina. Die Reaktion kann an allen Hautstellen entstehen, die auch nur minimal behaart sind."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Bei Kälte, Angst oder Erregung reagiert der Körper auf eine bestimmte Weise. Dabei kommt es zu einer Kontraktion des Haarbalgmuskels. Dieser Muskel heißt medizinisch Musculus arrector pili. Gesteuert wird dieser Vorgang durch das vegetative Nervensystem. Durch die Muskelspannung erhebt sich der Haarfollikel über die Hautoberfläche. Zeitgleich richtet sich das Haar auf. Dieser medizinische Fachbegriff lautet Piloerektion. Die Funktion dient im Tierreich dazu, mehr Luft zwischen den Haaren einzuschließen.",
+      "Auf generell unbehaarten Hautflächen kann keine Gänsehaut entstehen. Dazu gehören zum Beispiel die Fußsohlen und die Handflächen. Regionen mit selbst minimaler Behaarung zeigen diese Reaktion bei entsprechenden Bedingungen jedoch sehr deutlich. Gänsehaut tritt auch dann auf, wenn man von einem positiven Moment oder einem emotionalen Erlebnis berührt wird. Solche Erlebnisse können ein Musikstück oder eine jubelnde Menschenmenge sein. Zudem kann Gänsehaut im Rahmen der Totenstarre entstehen."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Beobachtungen zeigen, dass die Muskeln an den Haaren durch das vegetative Nervensystem gesteuert werden. Bei der Totenstarre bleibt die Erregbarkeit der Musculi arrectores pilorum erhalten. Dadurch kann auch nach dem Tod eine Gänsehaut entstehen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Die genaue Ursache für das Entstehen einer Gänsehaut beim Menschen ist bis heute nicht vollständig geklärt."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Medizinischer Fachbegriff",
+     "Piloerektion"
+    ],
+    [
+     "Lateinischer Begriff für Gänsehaut",
+     "cutis anserina"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Piloerektion",
+     "Das Aufrichten der Haare durch kleine Muskeln an den Haarwurzeln."
+    ],
+    [
+     "Vegetatives Nervensystem",
+     "Ein Teil des Nervensystems, der unbewusste Körperfunktionen steuert."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie heißt die lateinische Bezeichnung für Gänsehaut?",
+     "optionen": [
+      "cutis anserina",
+      "musculus arrector",
+      "piloerectio"
+     ],
+     "richtig": 0,
+     "erklaerung": "Im Artikel steht die lateinische Bezeichnung cutis anserina für Gänsehaut."
+    }
+   ],
+   "video": [
+    "Eine Gänsehaut zeigt sich durch kleine Erhebungen auf der Haut.",
+    "Dabei richtet sich die Körperbehaarung an Armen und Beinen auf.",
+    "Der Anblick erinnert an eine gerupfte Gans.",
+    "Auslöser sind Kälte, Angst oder starke Gefühle.",
+    "Das vegetative Nervensystem steuert diesen Vorgang im Körper.",
+    "Ein Muskel zieht sich zusammen und lässt das Haar steigen.",
+    "Auch bei positiven Momenten wie Musik kann dies passieren.",
+    "Die genaue Ursache ist bis heute nicht vollständig geklärt."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Gänsehaut",
+    "bildunterschrift": "Eine Gänsehaut zeigt sich durch aufgerichtete Haare und kleine Erhebungen auf der Haut."
+   },
+   "quelle": {
+    "titel": "Gänsehaut",
+    "url": "https://de.wikipedia.org/wiki/G%C3%A4nsehaut",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 308,
+   "bildInfos": [
+    {
+     "titel": "Gaensehaut.jpg",
+     "beschreibung": "Goose bumps, goose pimples, goose flesh",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gaensehaut.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gaensehaut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Gaensehaut.jpg",
+     "urheber": "Ralf Roletschek",
+     "lizenz": "GFDL 1.2",
+     "lizenzUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+     "artikel": "Gänsehaut",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Gänsehaut zeigt sich durch aufgerichtete Haare und kleine Erhebungen auf der Haut."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Gaensehaut.jpg",
+    "beschreibung": "Goose bumps, goose pimples, goose flesh",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gaensehaut.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Gaensehaut.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Gaensehaut.jpg",
+    "urheber": "Ralf Roletschek",
+    "lizenz": "GFDL 1.2",
+    "lizenzUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "artikel": "Gänsehaut",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Gänsehaut zeigt sich durch aufgerichtete Haare und kleine Erhebungen auf der Haut."
+   }
+  },
   {
    "id": "wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten",
    "zeit": "2026-10-04T06:55:53.293Z",

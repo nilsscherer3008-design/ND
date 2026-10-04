@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-04T06:48:33.773Z",
+ "stand": "2026-10-04T13:09:55.197Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -62,12 +62,15 @@
   "g7-freigabe-oel-reserven",
   "galeria-insolvenz",
   "spanische-wohnungskrise-parlament",
-  "schuelerproteste-frankreich"
+  "schuelerproteste-frankreich",
+  "lettland-parlamentswahl",
+  "merz-kiew-besuch",
+  "brasilien-praesidentschaftswahl",
+  "oktoberfest-besucherrekord"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
  "notified": [
-  "koalitionsstreit-pflegereform-linnemann-spd",
   "manchester-city-finanzaffaere",
   "vw-kuendigung-tarifvertraege",
   "tankrabatt-start-oktober",
@@ -80,10 +83,14 @@
   "g7-freigabe-oel-reserven",
   "galeria-insolvenz",
   "spanische-wohnungskrise-parlament",
-  "schuelerproteste-frankreich"
+  "schuelerproteste-frankreich",
+  "lettland-parlamentswahl",
+  "merz-kiew-besuch",
+  "brasilien-praesidentschaftswahl",
+  "oktoberfest-besucherrekord"
  ],
  "wetter": {
-  "stand": "2026-10-04T06:48:33.773Z",
+  "stand": "2026-10-04T13:09:55.197Z",
   "morgenTag": "Montag",
   "orte": [
    {
@@ -92,13 +99,13 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 13,
-     "code": 3,
-     "gefuehlt": 13,
-     "wind": 5,
-     "windAus": 306,
-     "feuchte": 95,
-     "druck": 1028,
+     "grad": 17,
+     "code": 1,
+     "gefuehlt": 16,
+     "wind": 8,
+     "windAus": 278,
+     "feuchte": 58,
+     "druck": 1027,
      "niederschlag": 0,
      "tag": 1
     },
@@ -109,9 +116,9 @@
      "min": 12,
      "regen": 0,
      "menge": 0,
-     "wind": 9,
-     "windAus": 274,
-     "uv": 3.2,
+     "wind": 8,
+     "windAus": 271,
+     "uv": 2.9,
      "auf": "07:26",
      "unter": "18:49"
     },
@@ -122,8 +129,8 @@
      "min": 10,
      "regen": 0,
      "menge": 0,
-     "wind": 13,
-     "windAus": 236,
+     "wind": 14,
+     "windAus": 237,
      "uv": 3.1,
      "auf": "07:28",
      "unter": "18:47"
@@ -136,9 +143,9 @@
       "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 9,
-      "windAus": 274,
-      "uv": 3.2,
+      "wind": 8,
+      "windAus": 271,
+      "uv": 2.9,
       "auf": "07:26",
       "unter": "18:49"
      },
@@ -149,22 +156,22 @@
       "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 13,
-      "windAus": 236,
+      "wind": 14,
+      "windAus": 237,
       "uv": 3.1,
       "auf": "07:28",
       "unter": "18:47"
      },
      {
       "datum": "2026-10-06",
-      "code": 80,
-      "max": 19,
+      "code": 3,
+      "max": 20,
       "min": 13,
-      "regen": 5,
-      "menge": 0.8,
-      "wind": 9,
-      "windAus": 240,
-      "uv": 1.5,
+      "regen": 10,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 241,
+      "uv": 3.2,
       "auf": "07:30",
       "unter": "18:44"
      },
@@ -172,25 +179,25 @@
       "datum": "2026-10-07",
       "code": 45,
       "max": 21,
-      "min": 11,
-      "regen": 41,
+      "min": 12,
+      "regen": 18,
       "menge": 0,
-      "wind": 11,
-      "windAus": 135,
-      "uv": 2.5,
+      "wind": 10,
+      "windAus": 129,
+      "uv": 1.6,
       "auf": "07:32",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 14,
-      "min": 9,
-      "regen": 57,
-      "menge": 15.3,
-      "wind": 15,
-      "windAus": 321,
-      "uv": 2.8,
+      "max": 13,
+      "min": 8,
+      "regen": 68,
+      "menge": 7.5,
+      "wind": 16,
+      "windAus": 320,
+      "uv": 2.6,
       "auf": "07:34",
       "unter": "18:40"
      },
@@ -202,8 +209,8 @@
       "regen": 40,
       "menge": 2.1,
       "wind": 17,
-      "windAus": 257,
-      "uv": 0.9,
+      "windAus": 256,
+      "uv": 1.5,
       "auf": "07:35",
       "unter": "18:37"
      },
@@ -223,51 +230,9 @@
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 17,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
@@ -285,7 +250,7 @@
      {
       "zeit": "18:00",
       "grad": 17,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
@@ -303,7 +268,7 @@
      {
       "zeit": "21:00",
       "grad": 14,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
@@ -321,7 +286,7 @@
      {
       "zeit": "00:00",
       "grad": 12,
-      "code": 0,
+      "code": 2,
       "regen": 0
      },
      {
@@ -332,19 +297,19 @@
      },
      {
       "zeit": "02:00",
-      "grad": 10,
-      "code": 2,
+      "grad": 11,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 10,
+      "grad": 11,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "04:00",
-      "grad": 10,
+      "grad": 11,
       "code": 3,
       "regen": 0
      },
@@ -357,12 +322,54 @@
      {
       "zeit": "06:00",
       "grad": 10,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "07:00",
       "grad": 10,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 10,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 19,
       "code": 3,
       "regen": 0
      }
@@ -374,13 +381,13 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 11,
-     "code": 45,
-     "gefuehlt": 11,
-     "wind": 3,
-     "windAus": 278,
-     "feuchte": 100,
-     "druck": 1026,
+     "grad": 20,
+     "code": 2,
+     "gefuehlt": 18,
+     "wind": 9,
+     "windAus": 293,
+     "feuchte": 53,
+     "druck": 1024,
      "niederschlag": 0,
      "tag": 1
     },
@@ -388,12 +395,12 @@
      "datum": "2026-10-04",
      "code": 45,
      "max": 20,
-     "min": 11,
+     "min": 10,
      "regen": 3,
      "menge": 0,
-     "wind": 9,
-     "windAus": 295,
-     "uv": 3.1,
+     "wind": 10,
+     "windAus": 291,
+     "uv": 3.3,
      "auf": "07:12",
      "unter": "18:36"
     },
@@ -401,12 +408,12 @@
      "datum": "2026-10-05",
      "code": 45,
      "max": 21,
-     "min": 8,
+     "min": 9,
      "regen": 0,
      "menge": 0,
-     "wind": 10,
-     "windAus": 239,
-     "uv": 3.3,
+     "wind": 11,
+     "windAus": 242,
+     "uv": 3.4,
      "auf": "07:14",
      "unter": "18:34"
     },
@@ -415,12 +422,12 @@
       "datum": "2026-10-04",
       "code": 45,
       "max": 20,
-      "min": 11,
+      "min": 10,
       "regen": 3,
       "menge": 0,
-      "wind": 9,
-      "windAus": 295,
-      "uv": 3.1,
+      "wind": 10,
+      "windAus": 291,
+      "uv": 3.3,
       "auf": "07:12",
       "unter": "18:36"
      },
@@ -428,12 +435,12 @@
       "datum": "2026-10-05",
       "code": 45,
       "max": 21,
-      "min": 8,
+      "min": 9,
       "regen": 0,
       "menge": 0,
-      "wind": 10,
-      "windAus": 239,
-      "uv": 3.3,
+      "wind": 11,
+      "windAus": 242,
+      "uv": 3.4,
       "auf": "07:14",
       "unter": "18:34"
      },
@@ -441,11 +448,11 @@
       "datum": "2026-10-06",
       "code": 3,
       "max": 22,
-      "min": 10,
+      "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 236,
+      "wind": 8,
+      "windAus": 237,
       "uv": 3.4,
       "auf": "07:15",
       "unter": "18:32"
@@ -458,21 +465,21 @@
       "regen": 0,
       "menge": 0,
       "wind": 9,
-      "windAus": 130,
-      "uv": 3.3,
+      "windAus": 125,
+      "uv": 3.1,
       "auf": "07:17",
       "unter": "18:29"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 17,
-      "min": 10,
-      "regen": 58,
-      "menge": 1.5,
-      "wind": 15,
-      "windAus": 207,
-      "uv": 2,
+      "max": 18,
+      "min": 11,
+      "regen": 42,
+      "menge": 4.2,
+      "wind": 16,
+      "windAus": 238,
+      "uv": 3.1,
       "auf": "07:19",
       "unter": "18:27"
      },
@@ -481,11 +488,11 @@
       "code": 3,
       "max": 14,
       "min": 7,
-      "regen": 18,
+      "regen": 21,
       "menge": 0,
       "wind": 16,
       "windAus": 263,
-      "uv": 2.6,
+      "uv": 2.7,
       "auf": "07:21",
       "unter": "18:25"
      },
@@ -498,58 +505,16 @@
       "menge": 3,
       "wind": 11,
       "windAus": 196,
-      "uv": 2.9,
+      "uv": 2.7,
       "auf": "07:22",
       "unter": "18:23"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 3
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 20,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -567,13 +532,13 @@
      {
       "zeit": "18:00",
       "grad": 19,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 18,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
@@ -585,7 +550,7 @@
      {
       "zeit": "21:00",
       "grad": 16,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -603,7 +568,7 @@
      {
       "zeit": "00:00",
       "grad": 13,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
@@ -615,13 +580,13 @@
      {
       "zeit": "02:00",
       "grad": 12,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "03:00",
-      "grad": 12,
-      "code": 1,
+      "grad": 11,
+      "code": 45,
       "regen": 0
      },
      {
@@ -647,6 +612,48 @@
       "grad": 9,
       "code": 45,
       "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 10,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
      }
     ]
    },
@@ -656,12 +663,12 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 11,
-     "code": 45,
-     "gefuehlt": 11,
-     "wind": 4,
-     "windAus": 261,
-     "feuchte": 99,
+     "grad": 15,
+     "code": 3,
+     "gefuehlt": 15,
+     "wind": 5,
+     "windAus": 166,
+     "feuchte": 82,
      "druck": 1016,
      "niederschlag": 0,
      "tag": 1
@@ -669,13 +676,13 @@
     "heute": {
      "datum": "2026-10-04",
      "code": 45,
-     "max": 19,
+     "max": 18,
      "min": 11,
      "regen": 3,
      "menge": 0,
-     "wind": 5,
-     "windAus": 283,
-     "uv": 3.6,
+     "wind": 6,
+     "windAus": 261,
+     "uv": 3.5,
      "auf": "07:15",
      "unter": "18:41"
     },
@@ -683,12 +690,12 @@
      "datum": "2026-10-05",
      "code": 45,
      "max": 20,
-     "min": 10,
+     "min": 9,
      "regen": 0,
      "menge": 0,
      "wind": 6,
-     "windAus": 216,
-     "uv": 3.5,
+     "windAus": 209,
+     "uv": 3.4,
      "auf": "07:17",
      "unter": "18:39"
     },
@@ -696,13 +703,13 @@
      {
       "datum": "2026-10-04",
       "code": 45,
-      "max": 19,
+      "max": 18,
       "min": 11,
       "regen": 3,
       "menge": 0,
-      "wind": 5,
-      "windAus": 283,
-      "uv": 3.6,
+      "wind": 6,
+      "windAus": 261,
+      "uv": 3.5,
       "auf": "07:15",
       "unter": "18:41"
      },
@@ -710,12 +717,12 @@
       "datum": "2026-10-05",
       "code": 45,
       "max": 20,
-      "min": 10,
+      "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 216,
-      "uv": 3.5,
+      "windAus": 209,
+      "uv": 3.4,
       "auf": "07:17",
       "unter": "18:39"
      },
@@ -723,11 +730,11 @@
       "datum": "2026-10-06",
       "code": 1,
       "max": 21,
-      "min": 9,
+      "min": 11,
       "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 197,
+      "windAus": 204,
       "uv": 3.6,
       "auf": "07:19",
       "unter": "18:37"
@@ -737,24 +744,24 @@
       "code": 45,
       "max": 23,
       "min": 7,
-      "regen": 3,
+      "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 136,
-      "uv": 3.5,
+      "windAus": 124,
+      "uv": 3.4,
       "auf": "07:20",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 15,
-      "min": 11,
-      "regen": 72,
-      "menge": 8.4,
-      "wind": 15,
-      "windAus": 227,
-      "uv": 2.1,
+      "max": 16,
+      "min": 10,
+      "regen": 47,
+      "menge": 7.8,
+      "wind": 13,
+      "windAus": 243,
+      "uv": 3.3,
       "auf": "07:22",
       "unter": "18:32"
      },
@@ -762,12 +769,12 @@
       "datum": "2026-10-09",
       "code": 3,
       "max": 14,
-      "min": 7,
-      "regen": 13,
+      "min": 8,
+      "regen": 27,
       "menge": 0,
       "wind": 17,
-      "windAus": 261,
-      "uv": 2.6,
+      "windAus": 262,
+      "uv": 3,
       "auf": "07:23",
       "unter": "18:30"
      },
@@ -787,147 +794,147 @@
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 11,
-      "code": 45,
+      "zeit": "15:00",
+      "grad": 15,
+      "code": 3,
       "regen": 0
      },
      {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 45,
+      "zeit": "16:00",
+      "grad": 17,
+      "code": 3,
       "regen": 0
      },
      {
-      "zeit": "10:00",
+      "zeit": "17:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
       "grad": 12,
       "code": 45,
       "regen": 0
      },
      {
+      "zeit": "02:00",
+      "grad": 11,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 11,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 10,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 10,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
       "zeit": "11:00",
-      "grad": 14,
-      "code": 3,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 17,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "14:00",
       "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "19:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "20:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 13,
       "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 10,
-      "code": 45,
       "regen": 0
      }
     ]
@@ -938,13 +945,13 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 13,
-     "code": 3,
-     "gefuehlt": 12,
-     "wind": 5,
-     "windAus": 137,
-     "feuchte": 79,
-     "druck": 1022,
+     "grad": 21,
+     "code": 0,
+     "gefuehlt": 20,
+     "wind": 3,
+     "windAus": 128,
+     "feuchte": 48,
+     "druck": 1021,
      "niederschlag": 0,
      "tag": 1
     },
@@ -956,7 +963,7 @@
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 128,
+     "windAus": 127,
      "uv": 3.7,
      "auf": "07:37",
      "unter": "19:03"
@@ -969,7 +976,7 @@
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 147,
+     "windAus": 151,
      "uv": 3.7,
      "auf": "07:38",
      "unter": "19:01"
@@ -983,7 +990,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 128,
+      "windAus": 127,
       "uv": 3.7,
       "auf": "07:37",
       "unter": "19:03"
@@ -996,34 +1003,34 @@
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 147,
+      "windAus": 151,
       "uv": 3.7,
       "auf": "07:38",
       "unter": "19:01"
      },
      {
       "datum": "2026-10-06",
-      "code": 3,
+      "code": 2,
       "max": 22,
       "min": 12,
-      "regen": 6,
+      "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 114,
-      "uv": 3.4,
+      "windAus": 110,
+      "uv": 3.5,
       "auf": "07:40",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-07",
-      "code": 80,
-      "max": 21,
+      "code": 81,
+      "max": 22,
       "min": 10,
       "regen": 71,
-      "menge": 6.3,
-      "wind": 8,
-      "windAus": 121,
-      "uv": 3.4,
+      "menge": 5.2,
+      "wind": 13,
+      "windAus": 128,
+      "uv": 3.5,
       "auf": "07:42",
       "unter": "18:56"
      },
@@ -1032,84 +1039,42 @@
       "code": 80,
       "max": 15,
       "min": 9,
-      "regen": 86,
-      "menge": 14.7,
-      "wind": 19,
-      "windAus": 291,
+      "regen": 90,
+      "menge": 10.3,
+      "wind": 21,
+      "windAus": 304,
       "uv": 3.5,
       "auf": "07:43",
       "unter": "18:54"
      },
      {
       "datum": "2026-10-09",
-      "code": 55,
+      "code": 53,
       "max": 13,
       "min": 8,
-      "regen": 46,
-      "menge": 6.6,
-      "wind": 20,
-      "windAus": 258,
-      "uv": 0.6,
+      "regen": 53,
+      "menge": 6.3,
+      "wind": 24,
+      "windAus": 239,
+      "uv": 0.3,
       "auf": "07:45",
       "unter": "18:52"
      },
      {
       "datum": "2026-10-10",
-      "code": 55,
+      "code": 51,
       "max": 15,
       "min": 11,
-      "regen": 68,
-      "menge": 6.6,
+      "regen": 61,
+      "menge": 3.6,
       "wind": 23,
-      "windAus": 261,
-      "uv": 2.6,
+      "windAus": 265,
+      "uv": 3,
       "auf": "07:46",
       "unter": "18:50"
      }
     ],
     "stunden": [
-     {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 20,
-      "code": 0,
-      "regen": 0
-     },
      {
       "zeit": "15:00",
       "grad": 21,
@@ -1166,7 +1131,7 @@
      },
      {
       "zeit": "00:00",
-      "grad": 15,
+      "grad": 16,
       "code": 0,
       "regen": 0
      },
@@ -1185,7 +1150,7 @@
      {
       "zeit": "03:00",
       "grad": 14,
-      "code": 1,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1203,13 +1168,55 @@
      {
       "zeit": "06:00",
       "grad": 13,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "07:00",
       "grad": 13,
       "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 2,
       "regen": 0
      }
     ]
@@ -1220,13 +1227,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 12,
+     "grad": 21,
      "code": 3,
-     "gefuehlt": 11,
-     "wind": 5,
-     "windAus": 45,
-     "feuchte": 83,
-     "druck": 1017,
+     "gefuehlt": 20,
+     "wind": 4,
+     "windAus": 22,
+     "feuchte": 48,
+     "druck": 1015,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1235,10 +1242,10 @@
      "code": 3,
      "max": 21,
      "min": 11,
-     "regen": 5,
+     "regen": 3,
      "menge": 0,
-     "wind": 7,
-     "windAus": 30,
+     "wind": 6,
+     "windAus": 34,
      "uv": 3.7,
      "auf": "07:29",
      "unter": "18:57"
@@ -1247,11 +1254,11 @@
      "datum": "2026-10-05",
      "code": 45,
      "max": 21,
-     "min": 6,
+     "min": 8,
      "regen": 0,
      "menge": 0,
      "wind": 5,
-     "windAus": 39,
+     "windAus": 88,
      "uv": 3.8,
      "auf": "07:31",
      "unter": "18:55"
@@ -1262,10 +1269,10 @@
       "code": 3,
       "max": 21,
       "min": 11,
-      "regen": 5,
+      "regen": 3,
       "menge": 0,
-      "wind": 7,
-      "windAus": 30,
+      "wind": 6,
+      "windAus": 34,
       "uv": 3.7,
       "auf": "07:29",
       "unter": "18:57"
@@ -1274,11 +1281,11 @@
       "datum": "2026-10-05",
       "code": 45,
       "max": 21,
-      "min": 6,
+      "min": 8,
       "regen": 0,
       "menge": 0,
       "wind": 5,
-      "windAus": 39,
+      "windAus": 88,
       "uv": 3.8,
       "auf": "07:31",
       "unter": "18:55"
@@ -1287,37 +1294,37 @@
       "datum": "2026-10-06",
       "code": 45,
       "max": 22,
-      "min": 7,
+      "min": 9,
       "regen": 0,
       "menge": 0,
       "wind": 4,
-      "windAus": 56,
+      "windAus": 53,
       "uv": 3.8,
       "auf": "07:32",
       "unter": "18:52"
      },
      {
       "datum": "2026-10-07",
-      "code": 45,
-      "max": 22,
-      "min": 7,
-      "regen": 47,
+      "code": 3,
+      "max": 23,
+      "min": 9,
+      "regen": 40,
       "menge": 0,
       "wind": 6,
-      "windAus": 105,
+      "windAus": 109,
       "uv": 3.7,
       "auf": "07:34",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-08",
-      "code": 80,
+      "code": 61,
       "max": 17,
       "min": 10,
-      "regen": 73,
-      "menge": 8.1,
-      "wind": 19,
-      "windAus": 262,
+      "regen": 83,
+      "menge": 7.5,
+      "wind": 13,
+      "windAus": 275,
       "uv": 3.5,
       "auf": "07:36",
       "unter": "18:48"
@@ -1330,8 +1337,8 @@
       "regen": 33,
       "menge": 0,
       "wind": 11,
-      "windAus": 239,
-      "uv": 0.6,
+      "windAus": 241,
+      "uv": 1.1,
       "auf": "07:37",
       "unter": "18:46"
      },
@@ -1344,69 +1351,27 @@
       "menge": 7.8,
       "wind": 14,
       "windAus": 212,
-      "uv": 2.8,
+      "uv": 2.4,
       "auf": "07:39",
       "unter": "18:44"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 3
-     },
-     {
-      "zeit": "13:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 20,
-      "code": 3,
-      "regen": 3
-     },
-     {
       "zeit": "15:00",
       "grad": 21,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "16:00",
       "grad": 21,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "17:00",
-      "grad": 20,
+      "grad": 21,
       "code": 3,
       "regen": 0
      },
@@ -1414,47 +1379,47 @@
       "zeit": "18:00",
       "grad": 20,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 19,
-      "code": 0,
-      "regen": 5
+      "code": 3,
+      "regen": 0
      },
      {
       "zeit": "20:00",
-      "grad": 17,
+      "grad": 18,
       "code": 0,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 15,
-      "code": 2,
+      "grad": 16,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 14,
+      "grad": 15,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 5
-     },
-     {
-      "zeit": "00:00",
-      "grad": 12,
+      "grad": 14,
       "code": 0,
       "regen": 0
      },
      {
+      "zeit": "00:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
       "zeit": "01:00",
-      "grad": 11,
+      "grad": 12,
       "code": 0,
       "regen": 0
      },
@@ -1472,8 +1437,8 @@
      },
      {
       "zeit": "04:00",
-      "grad": 9,
-      "code": 45,
+      "grad": 10,
+      "code": 0,
       "regen": 0
      },
      {
@@ -1484,14 +1449,56 @@
      },
      {
       "zeit": "06:00",
-      "grad": 8,
+      "grad": 9,
       "code": 1,
       "regen": 0
      },
      {
       "zeit": "07:00",
-      "grad": 7,
+      "grad": 8,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 8,
       "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "09:00",
+      "grad": 9,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 20,
+      "code": 1,
       "regen": 0
      }
     ]
@@ -1502,26 +1509,26 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 11,
-     "code": 45,
-     "gefuehlt": 11,
-     "wind": 3,
-     "windAus": 193,
-     "feuchte": 100,
-     "druck": 998,
+     "grad": 22,
+     "code": 2,
+     "gefuehlt": 22,
+     "wind": 7,
+     "windAus": 22,
+     "feuchte": 55,
+     "druck": 997,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-04",
-     "code": 61,
+     "code": 80,
      "max": 22,
-     "min": 11,
-     "regen": 40,
-     "menge": 1.1,
-     "wind": 8,
-     "windAus": 20,
-     "uv": 3.4,
+     "min": 10,
+     "regen": 58,
+     "menge": 1.9,
+     "wind": 9,
+     "windAus": 360,
+     "uv": 3.6,
      "auf": "07:26",
      "unter": "18:56"
     },
@@ -1529,11 +1536,11 @@
      "datum": "2026-10-05",
      "code": 80,
      "max": 22,
-     "min": 12,
-     "regen": 20,
-     "menge": 0,
-     "wind": 6,
-     "windAus": 191,
+     "min": 13,
+     "regen": 30,
+     "menge": 0.1,
+     "wind": 7,
+     "windAus": 162,
      "uv": 3.8,
      "auf": "07:28",
      "unter": "18:54"
@@ -1541,14 +1548,14 @@
     "tage": [
      {
       "datum": "2026-10-04",
-      "code": 61,
+      "code": 80,
       "max": 22,
-      "min": 11,
-      "regen": 40,
-      "menge": 1.1,
-      "wind": 8,
-      "windAus": 20,
-      "uv": 3.4,
+      "min": 10,
+      "regen": 58,
+      "menge": 1.9,
+      "wind": 9,
+      "windAus": 360,
+      "uv": 3.6,
       "auf": "07:26",
       "unter": "18:56"
      },
@@ -1556,11 +1563,11 @@
       "datum": "2026-10-05",
       "code": 80,
       "max": 22,
-      "min": 12,
-      "regen": 20,
-      "menge": 0,
-      "wind": 6,
-      "windAus": 191,
+      "min": 13,
+      "regen": 30,
+      "menge": 0.1,
+      "wind": 7,
+      "windAus": 162,
       "uv": 3.8,
       "auf": "07:28",
       "unter": "18:54"
@@ -1569,11 +1576,11 @@
       "datum": "2026-10-06",
       "code": 45,
       "max": 22,
-      "min": 10,
+      "min": 11,
       "regen": 0,
       "menge": 0,
-      "wind": 6,
-      "windAus": 150,
+      "wind": 5,
+      "windAus": 155,
       "uv": 3.8,
       "auf": "07:29",
       "unter": "18:51"
@@ -1583,37 +1590,37 @@
       "code": 45,
       "max": 24,
       "min": 10,
-      "regen": 19,
+      "regen": 13,
       "menge": 0,
-      "wind": 7,
-      "windAus": 178,
+      "wind": 6,
+      "windAus": 172,
       "uv": 3.7,
       "auf": "07:31",
       "unter": "18:49"
      },
      {
       "datum": "2026-10-08",
-      "code": 63,
-      "max": 18,
-      "min": 9,
-      "regen": 82,
-      "menge": 15.3,
-      "wind": 19,
-      "windAus": 270,
-      "uv": 0.9,
+      "code": 61,
+      "max": 17,
+      "min": 10,
+      "regen": 90,
+      "menge": 21,
+      "wind": 18,
+      "windAus": 280,
+      "uv": 3.2,
       "auf": "07:32",
       "unter": "18:47"
      },
      {
       "datum": "2026-10-09",
-      "code": 61,
+      "code": 3,
       "max": 13,
       "min": 8,
-      "regen": 36,
-      "menge": 1.2,
-      "wind": 12,
-      "windAus": 297,
-      "uv": 1.4,
+      "regen": 40,
+      "menge": 0,
+      "wind": 16,
+      "windAus": 304,
+      "uv": 3,
       "auf": "07:34",
       "unter": "18:45"
      },
@@ -1626,58 +1633,16 @@
       "menge": 4.8,
       "wind": 11,
       "windAus": 210,
-      "uv": 1.7,
+      "uv": 2.7,
       "auf": "07:35",
       "unter": "18:43"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 14,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 21,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 22,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1694,87 +1659,129 @@
      },
      {
       "zeit": "18:00",
-      "grad": 21,
+      "grad": 22,
       "code": 3,
-      "regen": 10
+      "regen": 8
      },
      {
       "zeit": "19:00",
+      "grad": 21,
+      "code": 3,
+      "regen": 20
+     },
+     {
+      "zeit": "20:00",
       "grad": 20,
       "code": 3,
       "regen": 25
      },
      {
-      "zeit": "20:00",
+      "zeit": "21:00",
       "grad": 19,
       "code": 61,
-      "regen": 25
-     },
-     {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 61,
-      "regen": 40
+      "regen": 50
      },
      {
       "zeit": "22:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 33
+      "grad": 17,
+      "code": 61,
+      "regen": 50
      },
      {
       "zeit": "23:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 38
+      "grad": 16,
+      "code": 80,
+      "regen": 58
      },
      {
       "zeit": "00:00",
       "grad": 16,
       "code": 3,
-      "regen": 20
+      "regen": 30
      },
      {
       "zeit": "01:00",
-      "grad": 15,
-      "code": 61,
-      "regen": 8
+      "grad": 16,
+      "code": 3,
+      "regen": 23
      },
      {
       "zeit": "02:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 20
+     },
+     {
+      "zeit": "03:00",
       "grad": 15,
       "code": 80,
       "regen": 13
      },
      {
-      "zeit": "03:00",
-      "grad": 14,
-      "code": 2,
+      "zeit": "04:00",
+      "grad": 15,
+      "code": 3,
       "regen": 10
      },
      {
-      "zeit": "04:00",
+      "zeit": "05:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 10
+     },
+     {
+      "zeit": "06:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 5
+     },
+     {
+      "zeit": "07:00",
       "grad": 14,
       "code": 1,
       "regen": 5
      },
      {
-      "zeit": "05:00",
+      "zeit": "08:00",
       "grad": 13,
-      "code": 0,
-      "regen": 3
+      "code": 1,
+      "regen": 0
      },
      {
-      "zeit": "06:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 8
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 0
      },
      {
-      "zeit": "07:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 3
+      "zeit": "10:00",
+      "grad": 16,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 18,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 19,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 20,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 21,
+      "code": 2,
+      "regen": 0
      }
     ]
    },
@@ -1784,13 +1791,13 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 10,
-     "code": 45,
-     "gefuehlt": 9,
-     "wind": 2,
-     "windAus": 158,
-     "feuchte": 100,
-     "druck": 967,
+     "grad": 21,
+     "code": 1,
+     "gefuehlt": 21,
+     "wind": 6,
+     "windAus": 28,
+     "feuchte": 52,
+     "druck": 966,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1799,10 +1806,10 @@
      "code": 45,
      "max": 21,
      "min": 10,
-     "regen": 10,
+     "regen": 0,
      "menge": 0,
-     "wind": 7,
-     "windAus": 69,
+     "wind": 8,
+     "windAus": 61,
      "uv": 3.9,
      "auf": "07:16",
      "unter": "18:46"
@@ -1812,10 +1819,10 @@
      "code": 61,
      "max": 20,
      "min": 13,
-     "regen": 50,
-     "menge": 0.1,
+     "regen": 68,
+     "menge": 2.6,
      "wind": 6,
-     "windAus": 242,
+     "windAus": 55,
      "uv": 3.8,
      "auf": "07:18",
      "unter": "18:44"
@@ -1826,10 +1833,10 @@
       "code": 45,
       "max": 21,
       "min": 10,
-      "regen": 10,
+      "regen": 0,
       "menge": 0,
-      "wind": 7,
-      "windAus": 69,
+      "wind": 8,
+      "windAus": 61,
       "uv": 3.9,
       "auf": "07:16",
       "unter": "18:46"
@@ -1839,23 +1846,23 @@
       "code": 61,
       "max": 20,
       "min": 13,
-      "regen": 50,
-      "menge": 0.1,
+      "regen": 68,
+      "menge": 2.6,
       "wind": 6,
-      "windAus": 242,
+      "windAus": 55,
       "uv": 3.8,
       "auf": "07:18",
       "unter": "18:44"
      },
      {
       "datum": "2026-10-06",
-      "code": 45,
+      "code": 1,
       "max": 20,
-      "min": 10,
-      "regen": 0,
+      "min": 9,
+      "regen": 3,
       "menge": 0,
-      "wind": 8,
-      "windAus": 100,
+      "wind": 7,
+      "windAus": 97,
       "uv": 3.8,
       "auf": "07:19",
       "unter": "18:42"
@@ -1863,39 +1870,39 @@
      {
       "datum": "2026-10-07",
       "code": 45,
-      "max": 23,
-      "min": 10,
-      "regen": 0,
+      "max": 22,
+      "min": 9,
+      "regen": 8,
       "menge": 0,
       "wind": 5,
-      "windAus": 195,
+      "windAus": 149,
       "uv": 3.8,
       "auf": "07:21",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
-      "max": 14,
-      "min": 7,
-      "regen": 90,
-      "menge": 17.4,
-      "wind": 14,
-      "windAus": 251,
-      "uv": 0.8,
+      "code": 63,
+      "max": 16,
+      "min": 9,
+      "regen": 94,
+      "menge": 24,
+      "wind": 16,
+      "windAus": 260,
+      "uv": 0.6,
       "auf": "07:22",
       "unter": "18:38"
      },
      {
       "datum": "2026-10-09",
-      "code": 61,
+      "code": 63,
       "max": 10,
       "min": 6,
-      "regen": 63,
-      "menge": 4.8,
+      "regen": 68,
+      "menge": 16.7,
       "wind": 14,
-      "windAus": 256,
-      "uv": 3.2,
+      "windAus": 265,
+      "uv": 3.4,
       "auf": "07:24",
       "unter": "18:36"
      },
@@ -1908,76 +1915,34 @@
       "menge": 1.5,
       "wind": 11,
       "windAus": 225,
-      "uv": 2,
+      "uv": 2.5,
       "auf": "07:25",
       "unter": "18:35"
      }
     ],
     "stunden": [
      {
-      "zeit": "08:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 12,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 19,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "15:00",
       "grad": 21,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 21,
-      "code": 0,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 21,
-      "code": 1,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 20,
-      "code": 1,
+      "grad": 21,
+      "code": 2,
       "regen": 0
      },
      {
@@ -1989,74 +1954,116 @@
      {
       "zeit": "20:00",
       "grad": 18,
-      "code": 2,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "21:00",
       "grad": 17,
-      "code": 3,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "22:00",
       "grad": 16,
-      "code": 3,
-      "regen": 3
+      "code": 2,
+      "regen": 0
      },
      {
       "zeit": "23:00",
       "grad": 15,
       "code": 3,
-      "regen": 10
+      "regen": 0
      },
      {
       "zeit": "00:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
-      "regen": 15
+      "regen": 3
      },
      {
       "zeit": "01:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
-      "regen": 38
+      "regen": 15
      },
      {
       "zeit": "02:00",
       "grad": 15,
       "code": 3,
-      "regen": 30
+      "regen": 38
      },
      {
       "zeit": "03:00",
-      "grad": 14,
+      "grad": 15,
       "code": 61,
-      "regen": 38
+      "regen": 45
      },
      {
       "zeit": "04:00",
       "grad": 14,
       "code": 61,
-      "regen": 43
+      "regen": 63
      },
      {
       "zeit": "05:00",
       "grad": 14,
-      "code": 3,
-      "regen": 50
+      "code": 61,
+      "regen": 68
      },
      {
       "zeit": "06:00",
-      "grad": 14,
-      "code": 61,
-      "regen": 50
+      "grad": 13,
+      "code": 3,
+      "regen": 55
      },
      {
       "zeit": "07:00",
       "grad": 13,
       "code": 3,
-      "regen": 45
+      "regen": 38
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 38
+     },
+     {
+      "zeit": "09:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 33
+     },
+     {
+      "zeit": "10:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 18,
+      "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "14:00",
+      "grad": 19,
+      "code": 2,
+      "regen": 5
      }
     ]
    }
@@ -2106,13 +2113,13 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 21,
+       "grad": 20,
        "regen": 0
       }
      ]
@@ -2193,19 +2200,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 22,
-       "regen": 0
+       "regen": 0.1
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 23,
-       "regen": 0
+       "grad": 22,
+       "regen": 4.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 21,
-       "regen": 3.5
+       "regen": 5.2
       }
      ]
     },
@@ -2216,19 +2223,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 20,
-       "regen": 0.1
+       "regen": 2.6
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 21,
-       "regen": 0.6
+       "regen": 1.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 19,
-       "regen": 1.2
+       "grad": 20,
+       "regen": 0.3
       }
      ]
     }
@@ -2237,16 +2244,16 @@
    "uneinigRegen": {
     "ort": "Stuttgart",
     "nass": [
+     "GFS",
      "ECMWF"
     ],
     "trocken": [
-     "ICON",
-     "GFS"
+     "ICON"
     ]
    },
    "saetze": [
-    "Für Leipzig gehen die Modelle am weitesten auseinander: zwischen 20 und 22 Grad.",
-    "Und in Stuttgart erwartet ECMWF Regen, ICON und GFS dagegen nicht."
+    "Für Berlin gehen die Modelle am weitesten auseinander: zwischen 20 und 22 Grad.",
+    "Und in Stuttgart erwartet GFS und ECMWF Regen, ICON dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2318,7 +2325,7 @@
     "l": 7.45,
     "s": [
      0.25,
-     5.0
+     5
     ]
    },
    {
@@ -2438,6 +2445,1679 @@
   "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
+  {
+   "id": "lettland-parlamentswahl",
+   "rubrik": "Welt",
+   "zeit": "2026-10-04T12:56:08.000Z",
+   "titel": "Parlamentswahl in Lettland: Regierungspartei von Ministerpräsident Kulbergs gewinnt deutlich",
+   "vorspann": "Bei der Parlamentswahl in Lettland hat das Wahlbündnis Vereinigte Liste von Ministerpräsident Andris Kulbergs die Abstimmung klar gewonnen. Im Mittelpunkt des Wahlkampfs standen Themen wie nationale Sicherheit, Verteidigung und die wirtschaftliche Lage.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Bei der Parlamentswahl in Lettland hat das proeuropäische Wahlbündnis Vereinigte Liste von Ministerpräsident Andris Kulbergs klar gewonnen.",
+    "Die Partei kam auf rund 35,3 bis 35,4 Prozent der Stimmen und konnte ihre Mandate mehr als verdreifachen.",
+    "Zahlreiche populistische Parteien verzeichneten ebenfalls starke Zugewinne.",
+    "Im Wahlkampf dominierten Themen wie nationale Sicherheit, Verteidigungsausgaben und wirtschaftliche Belastungen."
+   ],
+   "einig": [
+    [
+     "Die Vereinigte Liste von Ministerpräsident Andris Kulbergs gewann die Parlamentswahl in Lettland mit rund 35,3 bis 35,4 Prozent der Stimmen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Zentrale Themen des Wahlkampfs waren Sicherheit, Verteidigung und wirtschaftliche Probleme wie hohe Lebenshaltungskosten.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Die russischsprachige Minderheit in Lettland macht etwa 35 Prozent der Bevölkerung aus.",
+     [
+      "ZDFheute",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Verteilung der Parlamentssitze variiert leicht zwischen den Berichten von Tagesschau/ARD und Deutsche Welle.",
+    "Die genaue Wahlbeteiligung wird unterschiedlich beziffert oder in einigen Quellen nicht genannt; der Spiegel nennt 51,8 Prozent."
+   ],
+   "positionen": [
+    [
+     "Andris Kulbergs (Ministerpräsident und Chef der Vereinigten Liste)",
+     "Die Menschen wollen Veränderung und die Verteidigung sowie der Kurs gegenüber der Ukraine müssen stark fortgesetzt werden.",
+     "Tagesschau/ARD, Deutsche Welle"
+    ],
+    [
+     "Ivo Leitans (Journalist beim lettischen Rundfunk)",
+     "Die Russlandfreunde in Lettland sind viel kleiner als in westeuropäischen Ländern, weshalb Souveräne Macht eine Außenseiterposition hat.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen aus den Parteien Lettland Zuerst oder von Vertretern der russischen Regierung zu den konkreten Vorwürfen außerhalb der allgemeinen Dementis.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 09:58",
+     "fokus": "Hintergründe zur Sicherheitspolitik",
+     "text": "Der Bericht beleuchtet ausführlich die Bedrohungsszenarien an der Ostflanke und zitiert lettische Rundfunkjournalisten zur Rolle prorussischer Kräfte.",
+     "url": "https://www.tagesschau.de/ausland/lettland-wahlen-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 3,
+      "woerter": 514,
+      "satzlaenge": 16,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 14:21",
+     "fokus": "Fokus auf Regierungskrise und Koalition",
+     "text": "Die Berichterstattung legt den Schwerpunkt auf die Entstehung der aktuellen Regierung im Mai und die proeuropäische Ausrichtung.",
+     "url": "https://www.zdfheute.de/politik/ausland/lettland-wahl-eu-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 2,
+      "woerter": 350,
+      "satzlaenge": 13,
+      "langeWoerter": 38
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 14:56",
+     "fokus": "–",
+     "text": "Bei der Parlamentswahl in Lettland hat sich das proeuropäische Wahlbündnis \"Vereinigte Liste\" von Ministerpräsident Kulbergs klar durchgesetzt. Damit dürfte er seine entschiedene Unterstützung für die Ukraine fortsetzen.",
+     "url": "https://www.deutschlandfunk.de/proeuropaeische-regierungspartei-gewinnt-parlamentswahl-deutlich-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 07:27",
+     "fokus": "Details zu Parteien und Mandaten",
+     "text": "Der Spiegel nennt präzise Prozentwerte und liefert Einblicke in die verschiedenen politischen Strömungen sowie die Wahlbeteiligung.",
+     "url": "https://www.spiegel.de/ausland/lettland-pro-europaeische-regierungspartei-von-andris-kulbergs-gewinnt-parlamentswahl-a-bba7c178-fa10-475f-ae52-cec9ac770ae3#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 265,
+      "satzlaenge": 17,
+      "langeWoerter": 42
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "04.10.26, 11:44",
+     "fokus": "Auswertung der Sitze und Porträt des Premiers",
+     "text": "Der Sender schlüsselt die künftigen Parlamentssitze genau auf und beschreibt die politische Inszenierung von Ministerpräsident Kulbergs.",
+     "url": "https://www.dw.com/de/lettland-pro-eu-partei-des-premiers-klare-wahlgewinnerin/a-79536290?maca=de-rss-de-all-1119-rdf",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 553,
+      "satzlaenge": 15,
+      "langeWoerter": 40
+     },
+     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
+     "finanzierung": "Steuermittel des Bundes",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Sitzverteilung",
+     "Tagesschau/ARD nennt exakte Sitze für die bisherige Koalition, während die Deutsche Welle detaillierte Zahlen für alle potenziellen Partner wie die Progressiven anführt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Wahlbündnis Vereinigte Liste unter Führung von Ministerpräsident Andris Kulbergs",
+    "was": "Gewinnt die Parlamentswahl in Lettland klar",
+    "wann": "04.10.2026",
+    "wo": "Riga, Lettland",
+    "wie": "Mit 35,3 beziehungsweise 35,4 Prozent der Stimmen nach Auszählung fast aller Stimmzettel",
+    "warum": "Laut den Berichten wegen des Fokus auf Sicherheit und Regierungsarbeit",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Deutsche Welle"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Wahlergebnis in Lettland",
+     "absaetze": [
+      "Bei der Parlamentswahl im EU- und NATO-Land Lettland hat sich das proeuropäische Wahlbündnis Vereinigte Liste von Ministerpräsident Andris Kulbergs deutlich durchgesetzt. Laut Tagesschau/ARD, ZDFheute, Spiegel und Deutsche Welle kam die Mitte-rechts-Gruppierung nach Auszählung fast aller Stimmen auf rund 35,3 bis 35,4 Prozent. Die Vereinigte Liste konnte damit die Anzahl ihrer Mandate knapp verdreifachen. Sie war erst vor vier Jahren in das Parlament eingezogen und erzielt nun das beste Wahlergebnis einer Partei seit der wiedererlangten Unabhängigkeit im Jahr 1991. Laut Spiegel lag die Wahlbeteiligung nach bisherigen Angaben bei 51,8 Prozent.",
+      "Die Koalition aus den bisherigen Partnern kam insgesamt laut ZDFheute auf 50,5 Prozent der Stimmen. Laut Tagesschau/ARD und ZDFheute schaffen von Kulbergs bisherigen drei Koalitionspartnern nur zwei den Sprung in das Parlament: die nationalkonservative Nationale Allianz und die liberalkonservative Neue Einheit. Laut Tagesschau/ARD entfallen auf die Vereinte Liste 42 Sitze, auf die Nationale Allianz zehn und auf die Neue Einheit sieben Sitze. Laut der Deutschen Welle kommt die Vereinigte Liste auf 41 Sitze, die Nationale Allianz auf elf und die Neue Einheit auf sieben Mandate. Der bisher ebenfalls an der Regierung beteiligte Bauern- und Grünenbund scheiterte laut der Deutschen Welle an der Fünf-Prozent-Hürde.",
+      "Zweitstärkste Kraft wurde laut den Berichten von Spiegel und Deutsche Welle die populistische Partei Lettland Zuerst mit rund 13 bis 13,2 Prozent der Stimmen, gefolgt von der ebenfalls populistischen Partei Souveräne Macht mit 11,7 bis 11,8 Prozent. Laut der Deutschen Welle erhält Lettland Zuerst 17 Sitze und Souveräne Macht 14 Sitze im Parlament in Riga. Als weitere Fraktion zieht laut Spiegel die linksgerichtete Partei Die Progressiven mit 7,4 Prozent in das Parlament ein, während die Deutsche Welle hier neun Sitze nennt. Laut Spiegel sind insgesamt sechs der 14 angetretenen Parteien und Wahlbündnisse in der Volksvertretung Saeima vertreten.",
+      "Die populistischen Kräfte verzeichneten bei der Wahl starke Zugewinne. Laut ZDFheute und Spiegel werden diese Parteien größtenteils von der russischsprachigen Bevölkerung Lettlands gewählt. Diese macht rund 35 Prozent der Gesamtbevölkerung aus, wie unter anderem ZDFheute, Spiegel und Deutsche Welle angeben. Die Vereinigte Liste kündigte laut der Deutschen Welle an, zunächst mit ihren bisherigen Partnern über die Bildung einer Koalition zu sprechen. Ohne einen der bisherigen Partner hätte das Bündnis laut Tagesschau/ARD und ZDFheute eine Mehrheit von 59 der 100 Sitze im Parlament.",
+      "Die Wahl war von der Sorge vor einer möglichen russischen Aggression geprägt. Die baltischen Staaten warnen seit Monaten vor hybriden Angriffen und Sabotageakten. Westliche Regierungsvertreter halten laut Tagesschau/ARD einen direkten russischen Angriff auf das NATO-Mitglied Lettland derzeit für unwahrscheinlich. Die Regierung in Moskau wies die Vorwürfe als unbegründet zurück. Neben der Sicherheit spielten laut den Berichten auch sozialpolitische und wirtschaftliche Themen eine große Rolle im Wahlkampf."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten zum Ablauf",
+     "absaetze": [
+      "Das Land grenzt an Russland und Belarus und zählt laut ZDFheute und Deutscher Welle zu den engsten Unterstützern der Ukraine. Ministerpräsident Andris Kulbergs war erst im Mai in das Amt gelangt. Die vorherige Regierung unter Premierministerin Evika Silina war laut ZDFheute, Spiegel und Deutscher Welle über einen Streit um den Umgang mit Drohnenvorfällen zerbrochen. Ukrainische Drohnen waren zweimal von Russland aus in den lettischen Luftraum gelangt, woraufhin Silina den Verteidigungsminister entlassen hatte und die Regierung ihre Mehrheit verlor.",
+      "Kulbergs bildete daraufhin eine neue Viererkoalition. Im Wahlkampf setzte der 47-jährige Regierungschef auf das Thema Sicherheit. Laut Spiegel versprach er, die Verteidigungsausgaben bei fünf Prozent des Bruttoinlandsprodukts zu belassen. Seine Konkurrenten forderten laut Spiegel hingegen ein Ende der Ukrainehilfe. Die großen russischsprachigen Minderheiten sind laut Spiegel in ihrer Haltung zum Krieg gespalten.",
+      "Zusätzlich belasteten laut den Berichten wirtschaftliche Probleme das Land. Da Lettland massiv in seine Sicherheit investiert, fehlt an anderer Stelle Geld. Das Gesundheitssystem leidet, Abwanderung und Überalterung sind laut Tagesschau/ARD und ZDFheute ein Problem. Viele Menschen klagen über hohe Preise und niedrige Gehälter, während die Wirtschaft stockt. Die Vereinigte Liste ist ein Bündnis grüner, konservativer und wirtschaftsnaher Gruppierungen, wie die Deutsche Welle berichtet."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Reaktionen",
+     "absaetze": [
+      "Ministerpräsident Andris Kulbergs zeigte sich von dem Ergebnis überrascht. Die Menschen wollten Veränderung, auch wenn es wehtue, und kein politisches Gerede, sagte er laut Tagesschau/ARD. Er betonte die sicherheitspolitische Bedeutung der Wahl und erklärte, dass die gesamte Ostflanke Einigkeit zeigen müsse. In einer ersten Reaktion sprach Kulbergs laut Deutscher Welle von einem großen Vertrauensbeweis.",
+      "Julija Stepanenko, Vorsitzende der prorussischen Partei Souveräne Macht, ist eine der Wahlgewinnerinnen. Sie zog erstmals seit der Gründung 2022 in das Parlament ein. Der Journalist Ivo Leitans vom lettischen Rundfunk erklärte laut Tagesschau/ARD, dass die Partei im Parlament eine Außenseiterposition einnehmen werde und die Russlandfreunde in Lettland viel kleiner seien als in westeuropäischen Ländern.",
+      "Politologen sprechen laut der Deutschen Welle von einer Sternstunde des Regierungschefs. Auch innerhalb seiner Mitte-rechts-Partei führen viele den Wahlerfolg größtenteils auf den früheren Unternehmer zurück. Kulbergs inszenierte sich im Wahlkampf als Macher mit wirtschaftsorientiertem Ansatz und dem Slogan, dass er die Lösung sei."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Lettland ist ein parlamentarischer Staat und Mitglied der Europäischen Union sowie der NATO. Die Legislative, also die gesetzgebende Gewalt, liegt beim Parlament namens Saeima, das aus 100 Abgeordneten besteht. Die Regierung wird vom Ministerpräsidenten angeführt und stützt sich auf eine Mehrheit im Parlament."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Vereinigte Liste kündigte laut der Deutschen Welle an, zunächst mit ihren bisherigen Partnern über die Bildung einer Koalition zu sprechen. Alternativ kämen laut der Deutschen Welle auch Gespräche mit den Progressiven oder der populistischen Partei Lettland Zuerst in Betracht."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Mai 2026",
+     "Andris Kulbergs übernimmt nach dem Bruch der vorherigen Regierung das Amt des Ministerpräsidenten."
+    ],
+    [
+     "03.10.2026 bis 04.10.2026",
+     "Die Parlamentswahl in Lettland findet statt und die Vereinigte Liste geht als klare Siegerin hervor."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Andris Kulbergs politician",
+     "bildunterschrift": "Ministerpräsident Andris Kulbergs führte das Wahlbündnis Vereinigte Liste zum klaren Wahlsieg in Lettland."
+    },
+    {
+     "art": "keins",
+     "suchbegriff": "Riga skyline",
+     "bildunterschrift": "Die lettische Hauptstadt Riga, in der sich das Parlamentsgebäude Saeima befindet."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Saeima building Riga",
+     "bildunterschrift": "Das Parlamentsgebäude in Riga, in dem die gewählten Parteien künftig tagen."
+    }
+   ],
+   "ort": {
+    "name": "Riga, Lettland"
+   },
+   "geprueft": true,
+   "korrekturen": [],
+   "wortwarnung": [
+    "massiv"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Parlament",
+      "Eine Gruppe von gewählten Volksvertretern, die Gesetze beschließt und die Regierung kontrolliert."
+     ],
+     [
+      "Koalition",
+      "Ein Bündnis aus mehreren Parteien, die zusammen eine Regierung bilden, weil keine Partei alleine die Mehrheit hat."
+     ],
+     [
+      "Minderheit",
+      "Eine Gruppe von Menschen in einem Staat, die sich durch Sprache oder Kultur von der Mehrheit der Bevölkerung unterscheidet."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielten die Themen Sicherheit und Verteidigung im Wahlkampf in Lettland?",
+     "Warum ist das Wahlergebnis für die künftige Regierungsbildung in Lettland bedeutsam?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welches Bündnis gewann die Parlamentswahl in Lettland?",
+      "optionen": [
+       "Die Vereinigte Liste",
+       "Souveräne Macht",
+       "Lettland Zuerst"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut Tagesschau/ARD und Spiegel hat die Vereinigte Liste von Ministerpräsident Kulbergs die Wahl klar gewonnen."
+     },
+     {
+      "frage": "Wie hoch war der ungefähre Stimmenanteil der Siegerpartei?",
+      "optionen": [
+       "Rund 13 Prozent",
+       "Rund 35 Prozent",
+       "Rund 50 Prozent"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Berichte von Tagesschau/ARD und Spiegel nennen einen Stimmenanteil von etwa 35,3 bis 35,4 Prozent."
+     },
+     {
+      "frage": "Wie viel Prozent der Bevölkerung in Lettland sind laut ZDFheute und Deutscher Welle russischsprachig?",
+      "optionen": [
+       "Etwa 10 Prozent",
+       "Etwa 25 Prozent",
+       "Etwa 35 Prozent"
+      ],
+      "richtig": 2,
+      "erklaerung": "ZDFheute und Deutsche Welle geben den Anteil der russischsprachigen Bevölkerung mit rund 35 Prozent an."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In dem Land Lettland gab es eine Wahl für das Parlament. Das Parlament ist die Gruppe von Politikern, die Gesetze macht.",
+    "absaetze": [
+     "Gewonnen hat das Bündnis von Ministerpräsident Andris Kulbergs.",
+     "Die Partei holte etwa fünfunddreißig Prozent der Stimmen.",
+     "Die Politiker wollen das Land sicher machen und die Ukraine unterstützen.",
+     "Auch andere Parteien bekamen viele Stimmen, zum Beispiel populistische Gruppen.",
+     "Viele Wähler machten sich Sorgen wegen hoher Preise und der Sicherheit."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Lettland hat das Bündnis von Ministerpräsident Andris Kulbergs die Parlamentswahl klar gewonnen.",
+     "Die Vereinigte Liste holte rund fünfunddreißig Prozent der Stimmen und verdreifachte ihre Mandate.",
+     "Wichtige Themen im Wahlkampf waren die nationale Sicherheit und die wirtschaftliche Lage."
+    ],
+    "lang": [
+     "In dem europäischen Land Lettland hat das Bündnis von Ministerpräsident Andris Kulbergs die Parlamentswahl klar gewonnen.",
+     "Das teilten mehrere Medien nach Auszählung fast aller Stimmen am Sonntag mit.",
+     "Die Partei Vereinigte Liste kam demnach auf rund fünfunddreißig Prozent der Stimmen.",
+     "Damit konnte das Bündnis seine Sitze im Parlament mehr als verdreifachen.",
+     "Hintergrund der Wahl waren große Sorgen der Bürger um die nationale Sicherheit und die Wirtschaft.",
+     "Auch populistische Gruppierungen verzeichneten bei der Abstimmung starke Zugewinne.",
+     "Nach Angaben von Ministerpräsident Kulbergs zeige das Ergebnis den Wunsch der Menschen nach Veränderung.",
+     "Lettland ist Mitglied der Europäischen Union und der Nordatlantischen Vertrags-Organisation und grenzt an Russland.",
+     "Wie genau die kommende Regierung gebildet wird, ist nach Angaben der Medien noch offen."
+    ],
+    "einfach": [
+     "In Lettland wurde ein neues Parlament gewählt.",
+     "Die Partei von Ministerpräsident Andris Kulbergs gewann die Wahl klar.",
+     "Das Bündnis holte etwa fünfunddreißig Prozent der Stimmen.",
+     "Wichtige Themen waren die Sicherheit und die hohen Preise.",
+     "Auch andere Parteien bekamen viele Stimmen."
+    ]
+   },
+   "kurz": [
+    "Das proeuropäische Bündnis von Ministerpräsident Andris Kulbergs gewinnt die Wahl in Lettland deutlich.",
+    "Die Vereinigte Liste holt rund 35 Prozent der Stimmen und verdreifacht ihre Mandate im Parlament.",
+    "Im Wahlkampf standen nationale Sicherheit, Verteidigung und wirtschaftliche Probleme im Mittelpunkt.",
+    "Auch populistische und prorussische Parteien verzeichneten starke Zugewinne."
+   ],
+   "fakten": [
+    [
+     "Stimmenanteil Vereinigte Liste",
+     "35,3 bis 35,4 Prozent"
+    ],
+    [
+     "Sitze im Parlament",
+     "100"
+    ],
+    [
+     "Anteil russischsprachige Bevölkerung",
+     "etwa 35 Prozent"
+    ],
+    [
+     "Wahlbeteiligung laut Spiegel",
+     "51,8 Prozent"
+    ]
+   ],
+   "dossier": {
+    "slug": "parlamentswahl-lettland-2026",
+    "titel": "Parlamentswahl in Lettland"
+   },
+   "bildInfo": {
+    "titel": "Andris Kulbergs 2026.jpg",
+    "beschreibung": "RIGA, LATVIA. 20th June 2026. Andrius Kubilius, European Commissioner for Defence and Space meeting with Andris Kulbergs, Prime Minister of Latvia.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Andris_Kulbergs_2026.jpg",
+    "urheber": "Gints Ivuskans",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "artikel": "Andris Kulbergs",
+    "sprache": "en",
+    "art": "person",
+    "suchbegriff": "Andris Kulbergs politician",
+    "bildunterschrift": "Ministerpräsident Andris Kulbergs bei einem Treffen im Jahr 2026.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Andris Kulbergs 2026.jpg",
+     "beschreibung": "RIGA, LATVIA. 20th June 2026. Andrius Kubilius, European Commissioner for Defence and Space meeting with Andris Kulbergs, Prime Minister of Latvia.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Andris_Kulbergs_2026.jpg",
+     "urheber": "Gints Ivuskans",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "artikel": "Andris Kulbergs",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Andris Kulbergs politician",
+     "bildunterschrift": "Ministerpräsident Andris Kulbergs bei einem Treffen im Jahr 2026.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Main building of the Saeima, 2006 (01).jpg",
+     "beschreibung": "Main building of the Saeima, Riga, Latvia",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Main_building_of_the_Saeima%2C_2006_%2801%29.jpg/1280px-Main_building_of_the_Saeima%2C_2006_%2801%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Main_building_of_the_Saeima%2C_2006_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Main_building_of_the_Saeima,_2006_(01).jpg",
+     "urheber": "Bahnfrend",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "institution",
+     "suchbegriff": "Saeima building Riga",
+     "bildunterschrift": "Das Hauptgebäude der Saeima in Riga, dem lettischen Parlament.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Riga, Lettland",
+    "lat": 56.949,
+    "lon": 24.105
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "merz-kiew-besuch",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-04T12:56:08.000Z",
+   "titel": "Bundeskanzler Friedrich Merz besucht die ukrainische Hauptstadt Kiew",
+   "vorspann": "Bundeskanzler Friedrich Merz ist am Wochenende überraschend nach Kiew gereist, um der Ukraine weitere militärische und finanzielle Hilfe zuzusagen. Während seines Besuchs kam es in der ukrainischen Hauptstadt zu Luftalarm und Drohneneinschlägen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Bundeskanzler Friedrich Merz ist unerwartet nach Kiew gereist, um dem angegriffenen Land Solidarität und neue militärische sowie finanzielle Hilfe zuzusichern.",
+    "Während des Besuchs schlugen russische Drohnen in Kiew ein und beschädigten unter anderem eine Straße der Nordbrücke sowie die Akademie der Wissenschaften.",
+    "Das deutsche Hilfspaket umfasst eine Milliarde Euro für militärische Ausrüstung wie Abfangdrohnen und weitreichende Waffen sowie 350 Millionen Euro für die Energieinfrastruktur.",
+    "Bundeskanzler Friedrich Merz forderte den russischen Präsidenten Wladimir Putin zu Verhandlungen und einem Stopp der Angriffe auf.",
+    "Das russische Außenministerium hatte zuvor eine Warnung für Kiew ausgesprochen und vor Luftangriffen gewarnt."
+   ],
+   "einig": [
+    [
+     "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist.",
+     [
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Während des Besuchs gab es Drohnenalarm und einen Einschlag an der Nordbrücke in Kiew nach Angaben von Bürgermeister Vitali Klitschko.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Deutschland stellt eine Milliarde Euro für militärische Hilfe und 350 Millionen Euro für die Energieversorgung zur Verfügung.",
+     [
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Das russische Außenministerium sprach eine Warnung vor Besuchen in Kiew aus.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob diplomatische Bemühungen oder militärischer Druck zu Verhandlungen führen werden, ist unklar; Kanzler Merz setzt laut dem Spiegel auf die Sprache der Stärke, während Russland diplomatische Initiativen laut Berichten ablehnt."
+   ],
+   "positionen": [
+    [
+     "Bundeskanzler Friedrich Merz (CDU)",
+     "Die Ukraine benötigt fortgesetzte militärische Unterstützung, da Russland nur die Sprache der Stärke versteht und die Angriffe ein Ende haben müssen.",
+     "Tagesschau/ARD,ZDFheute,Deutschlandfunk,Spiegel,Süddeutsche Zeitung"
+    ],
+    [
+     "Ukrainischer Präsident Wolodymyr Selenskyj",
+     "Empfing den Kanzler und zeigte ihm die Zerstörungen in Kiew.",
+     "Tagesschau/ARD,ZDFheute,Süddeutsche Zeitung"
+    ],
+    [
+     "Russisches Außenministerium",
+     "Warnte vor Aufenthalten in Kiew und begründete Angriffe mit Reaktionen auf ukrainische Aktionen.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ],
+    [
+     "Kiews Bürgermeister Vitali Klitschko",
+     "Informierte über Angriffe auf Brücken und Infrastruktur.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen aus der russischen Bevölkerung oder direkt aus der russischen Führung abgesehen von den Erklärungen des Außenministeriums.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 11:39",
+     "fokus": "Politischer Besuch und Brücken-Angriff",
+     "text": "Die Tagesschau berichtet ausführlich über den Ablauf des Besuchs von Bundeskanzler Merz sowie über die Angriffe auf Brücken in Kiew.",
+     "url": "https://www.tagesschau.de/ausland/europa/merz-kiew-drohnen-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 504,
+      "satzlaenge": 16,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 12:50",
+     "fokus": "Militärische Hilfspakete und Details",
+     "text": "ZDFheute nennt genaue Summen und Ausrüstungsdetails des deutschen Militär- und Energiepakets für die Ukraine.",
+     "url": "https://www.zdfheute.de/politik/ausland/merz-kiew-ukraine-krieg-russland-putin-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 4,
+      "woerter": 776,
+      "satzlaenge": 15,
+      "langeWoerter": 40
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 14:56",
+     "fokus": "–",
+     "text": "Bundeskanzler Merz hat bei seinem Besuch in Kiew ein Ende der russischen Angriffe auf die Ukraine gefordert. Zugleich rief er den russischen Präsidenten Putin zu Verhandlungen auf. Während des Besuchs gab es mehrfach Drohnenalarm.",
+     "url": "https://www.deutschlandfunk.de/merz-fordert-ein-ende-der-russischen-angriffe-hoeren-sie-diesen-krieg-auf-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 06:23",
+     "fokus": "Begleitung durch Unternehmer und Vorgeschichte",
+     "text": "Der Spiegel hebt hervor, dass Wirtschaftsministerin Reiche und zehn Unternehmer Merz begleiteten, und beleuchtet diplomatische Vorgespräche.",
+     "url": "https://www.spiegel.de/ausland/russland-ukraine-krieg-friedrich-merz-ueberraschend-in-kyjiw-eingetroffen-a-c6e7607a-70a0-4a19-b913-46020ce53a2d#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 567,
+      "satzlaenge": 18,
+      "langeWoerter": 36
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 14:40",
+     "fokus": "–",
+     "text": "Trotz Warnungen aus Moskau ist Bundeskanzler Friedrich Merz am Wochenende in die Ukraine gereist. Er bekräftigt, dass Deutschland weiterhin in großem Umfang Waffen liefern und beim Wiederaufbau helfen wird.",
+     "url": "https://www.sueddeutsche.de/politik/merz-kiew-ukraine-waffenlieferungen-li.3558025",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 1,
+      "woerter": 150,
+      "satzlaenge": 15,
+      "langeWoerter": 34
+     },
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zur Wirtschaftsdelegation",
+     "Der Spiegel erwähnt namentlich zehn mitgereiste Unternehmer aus Rüstung und Energie, während andere Medien diesen Punkt weniger stark gewichten."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Bundeskanzler Friedrich Merz und der ukrainische Präsident Wolodymyr Selenskyj",
+    "was": "Besuch des Bundeskanzlers und Zusicherung weiterer militärischer und finanzieller Hilfe",
+    "wann": "Vierter Oktober zweitausendsechsundzwanzig",
+    "wo": "Kiew, Ukraine",
+    "wie": "Mit einer Zugreise nach Kiew und anschließenden Terminen vor Ort",
+    "warum": "Zur Demonstration von Solidarität und zur militärischen Unterstützung nach Angaben von Bundeskanzler Friedrich Merz",
+    "quellenlage": "Meldungen der öffentlich-rechtlichen Sender Tagesschau/ARD, ZDFheute, Deutschlandfunk sowie der Medien Spiegel und Süddeutsche Zeitung"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Bundeskanzler Friedrich Merz ist zu einem unangekündigten Besuch in die ukrainische Hauptstadt Kiew eingetroffen. Nach Angaben aus Regierungskreisen reiste er mit dem Zug an, begleitet von Wirtschaftsministerin Katherina Reiche sowie mehreren Unternehmern aus den Bereichen Rüstung und Energie. Ziel der Reise ist ein Solidaritätsbesuch, bei dem dem von Russland angegriffenen Land weitere konkrete Hilfe zugesichert werden soll. Kurz nach der Ankunft des Bundeskanzlers lösten russische Angriffe in Kiew erneuten Drohnenalarm aus.",
+      "Während des Aufenthalts wurden mehrere Orte in der Hauptstadt von Drohnen getroffen. Laut Angaben des Kiewer Bürgermeisters Vitali Klitschko schlug mindestens eine Drohne auf der Fahrbahn der Nordbrücke über den Fluss Dnipro ein. Rettungsdienste begaben sich umgehend auf den Weg dorthin. Zudem stürzten laut Berichten Trümmer eines abgeschossenen Flugobjekts auf das Dach eines Wohnhauses.",
+      "Bundeskanzler Merz und der ukrainische Präsident Wolodymyr Selenskyj trafen sich zu Gesprächen und besuchten gemeinsam die beschädigte Nationale Akademie der Wissenschaften. An diesem Ort war bei einem früheren Angriff eine Drohne eingeschlagen. Bei diesem Vorfall wurden laut der Süddeutschen Zeitung zwei Menschen getötet und sieben weitere verletzt. Während des Rundgangs an der Ruine ertönte Luftalarm."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten der Hilfe",
+     "absaetze": [
+      "Laut Berichten von ZDFheute und dem Spiegel umfasst das angekündigte deutsche Unterstützungspaket eine Milliarde Euro aus bereits bewilligten Haushaltsmitteln. Dieses Geld soll in militärische Hilfe wie Abstandswaffen, Kampfdrohnen und Satellitentechnik fließen. Damit soll die Ukraine in die Lage versetzt werden, Abschussrampen auf russischem Gebiet wirksamer zu bekämpfen. Ein weiterer Schwerpunkt liegt auf der Produktion von Abfangdrohnen.",
+      "Die Auslieferung Tausender Abfangdrohnen soll der ukrainischen Armee helfen, russische Kampfdrohnen mit Düsenantrieb abzuwehren. Laut ZDFheute soll die Serienproduktion durch technologische Durchbrüche und Kooperationen zwischen ukrainischen und europäischen Unternehmen starten. Das Unternehmen Quantum Systems stellt in Bayern entsprechende Drohnen für Kiew her.",
+      "Zusätzlich zu den militärischen Hilfen stellt die Bundesregierung nach Angaben aus Regierungskreisen 350 Millionen Euro für die Energiesicherheit bereit. Dieses Geld ist für Infrastruktur und Energieversorgung vorgesehen, um Generatoren und Umspannanlagen vor dem kommenden Kriegswinter zu finanzieren. Zehn Unternehmer aus der Rüstungs- und Energiebranche begleiteten die Regierungsdelegation nach Angaben des Spiegels."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund und Sicherheitslage",
+     "absaetze": [
+      "Die Ukraine befindet sich im Abwehrkampf gegen den russischen Angriffskrieg, der im Februar zweitausendzweiundzwanzig begonnen hat. Vor dem anstehenden Kriegswinter intensiviert Russland nach Angaben der Berichte seine Angriffe auf Städte, Wohnhäuser und Heizkraftwerke. Die ukrainische Luftabwehr stößt bei diesen Angriffen mit Drohnen und ballistischen Raketen an ihre Grenzen.",
+      "Das russische Außenministerium hatte vor dem Besuch eine Warnung ausgesprochen. Es forderte ausländische Besucher und Diplomaten auf, Kiew zu verlassen, da sie sich in Gefahr durch Luftangriffe befänden. Als Grund nannte das Ministerium in Moskau laut dem Spiegel Reaktionen auf Aktionen der ukrainischen Streitkräfte. Bereits am Vortag waren nach Angaben der Tagesschau drei von sechs Straßenbrücken in Kiew angegriffen und beschädigt worden.",
+      "Die diplomatischen Bemühungen zur Beilegung des Konflikts bleiben der Berichterstattung zufolge schwierig. Der deutsche Außenminister Johann Wadephul hatte kurz zuvor in New York den russischen Außenminister Sergej Lawrow getroffen, was jedoch laut den Medienberichten ohne Ergebnis blieb. Lawrow äußerte sich demnach abschätzig über das Gespräch. Kanzler Merz bewertete dies als Beleg dafür, dass Russland nur die Sprache der Stärke verstehe."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Eine Akademie der Wissenschaften ist eine wissenschaftliche Institution, die der Pflege und Förderung der Wissenschaften dient. Sie bringt Forschende zusammen und betreibt oft eigene Forschungseinrichtungen. In Kiew wurde das historische Gebäude der Nationalen Akademie der Wissenschaften bei einem Drohnenangriff beschädigt.",
+      "Unternehmen der Rüstungs- und Energiebranche sind Firmen, die militärische Ausrüstung wie Waffen und Drohnen herstellen beziehungsweise Energie erzeugen und verteilen. Solche Unternehmen arbeiten oft eng mit staatlichen Institutionen zusammen, um Ausrüstung und Infrastruktur bereitzustellen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Bundeskanzler Friedrich Merz betonte bei seinem Besuch in Kiew die deutsche Unterstützung für das Land. Er sagte laut Tagesschau und ZDFheute: Auf unsere Hilfe könnt ihr weiter zählen. Zudem bezeichnete er die Angriffe als Kriegsverbrechen und Terror. An den russischen Präsidenten Wladimir Putin gerichtet forderte er ein Ende der Attacken: Herr Putin, hören Sie diesen sinnlosen Krieg auf!",
+      "Der Kiewer Bürgermeister Vitali Klitschko informierte über die Plattform Telegram über die getroffene Nordbrücke und den Einsatz von Rettungsdiensten. Zuvor hatte er die Lage in der Hauptstadt laut Tagesschau und ZDFheute als extrem dramatisch bezeichnet. Das russische Außenministerium warnte vor Reisen nach Kiew und verwies auf eine Gefahr durch Luftangriffe."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Bundesregierung will die bewilligten Mittel in Höhe von einer Milliarde Euro in Rüstungsgüter umsetzen. Die Auslieferung Tausender Abfangdrohnen und die Unterstützung mit weitreichenden Waffen sollen vorangetrieben werden. Damit soll die ukrainische Armee in die Lage versetzt werden, Nachschublinien und Abschussrampen auf russischem Gebiet anzugreifen.",
+      "Zur Sicherung der Energieversorgung vor dem Winter fließen 350 Millionen Euro nach Angaben aus Regierungskreisen in Generatoren und Umspannanlagen. Die Kooperation zwischen ukrainischen und europäischen Unternehmen zur Herstellung von Abwehr-Ausstattung soll fortgesetzt werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Samstag",
+     "Das russische Außenministerium warnte Ausländer und Diplomaten vor Besuchen in Kiew."
+    ],
+    [
+     "Sonntag",
+     "Bundeskanzler Friedrich Merz traf zu einem Besuch in Kiew ein und wurde von Präsident Wolodymyr Selenskyj empfangen."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Bundeskanzler Friedrich Merz reiste zu Gesprächen in die ukrainische Hauptstadt Kiew."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Volodymyr Zelenskyy president",
+     "bildunterschrift": "Der ukrainische Präsident Wolodymyr Selenskyj empfing den deutschen Bundeskanzler in Kiew."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Maidan Nezalezhnosti Kyiv",
+     "bildunterschrift": "Der Maidanplatz in Kiew ist einer der zentralen Plätze der ukrainischen Hauptstadt."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "National Academy of Sciences of Ukraine building",
+     "bildunterschrift": "Die Nationale Akademie der Wissenschaften in Kiew war Ziel von Angriffen geworden."
+    }
+   ],
+   "ort": {
+    "name": "Kiew, Ukraine"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung von wertenden Adjektiven und unbestätigten Superlativen wie 'krachend' oder 'extrem' außerhalb von direkten Zitaten.",
+    "Anpassung der Datums- und Zahlenformate an die Textvorgaben für die einfache Fassung."
+   ],
+   "wortwarnung": [
+    "dramatisch"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Abfangdrohnen",
+      "Das sind unbemannte Flugobjekte, die dazu dienen, andere feindliche Drohnen in der Luft abzuwehren."
+     ],
+     [
+      "Energieinfrastruktur",
+      "Das sind Anlagen und Netze, die zur Erzeugung und Verteilung von Strom und Wärme für die Bevölkerung nötig sind."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen aus Sicht von Bundeskanzler Merz militärische Hilfen für mögliche Verhandlungen mit Russland?",
+     "Wie bewerten verschiedene Seiten die Sicherheitslage in Kiew?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer reiste am Wochenende überraschend nach Kiew?",
+      "optionen": [
+       "Bundeskanzler Friedrich Merz",
+       "Bundeskanzler Olaf Scholz",
+       "Außenminister Sergej Lawrow"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut den Berichten von ZDFheute und Spiegel reiste Bundeskanzler Friedrich Merz überraschend nach Kiew."
+     },
+     {
+      "frage": "Wie viel Geld stellt Deutschland nach übereinstimmenden Medienberichten für die Energieversorgung bereit?",
+      "optionen": [
+       "100 Millionen Euro",
+       "350 Millionen Euro",
+       "1 Milliarde Euro"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut ZDFheute und dem Spiegel stellt Deutschland 350 Millionen Euro für die Energieversorgung bereit."
+     },
+     {
+      "frage": "Welches Gebäude wurde in Kiew bei einem Drohnenangriff getroffen und von Merz besucht?",
+      "optionen": [
+       "Das Parlamentsgebäude",
+       "Die Akademie der Wissenschaften",
+       "Ein Einkaufszentrum"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau, ZDFheute und der Süddeutschen Zeitung besuchten Merz und Selenskyj die beschädigte Akademie der Wissenschaften."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist. Er will der Ukraine im Krieg gegen Russland weiter helfen.",
+    "absaetze": [
+     "Während des Besuchs gab es in Kiew Luftalarm. Drohnen trafen eine Straße und ein Gebäude.",
+     "Deutschland gibt eine Milliarde Euro für Waffen und Abfangdrohnen aus. Weitere 350 Millionen Euro sind für die Energieversorgung gedacht.",
+     "Merz forderte den russischen Präsidenten Wladimir Putin zu Verhandlungen auf. Das russische Außenministerium hatte zuvor vor Reisen nach Kiew gewarnt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist. Er sagte der Ukraine neue Unterstützung zu. Deutschland stellt eine Milliarde Euro für Rüstung und 350 Millionen Euro für die Energieversorgung bereit."
+    ],
+    "lang": [
+     "Bundeskanzler Friedrich Merz ist am Wochenende überraschend zu einem Besuch nach Kiew gereist.",
+     "Nach Angaben von Medien und Regierungskreisen ging es bei der Reise um neue militärische Hilfe.",
+     "Während des Aufenthalts von Merz gab es in der ukrainischen Hauptstadt Luftalarm.",
+     "Nach Angaben von Bürgermeister Vitali Klitschko traf eine Drohne die Straße der Nordbrücke.",
+     "Deutschland stellt nach übereinstimmenden Medienberichten eine Milliarde Euro für militärische Ausrüstung bereit.",
+     "Weitere 350 Millionen Euro fließen demnach in die Sicherung der Energieversorgung vor dem Winter.",
+     "Kanzler Merz forderte den russischen Präsidenten Wladimir Putin zu Verhandlungen und einem Ende der Angriffe auf.",
+     "Das russische Außenministerium hatte zuvor vor Reisen in die ukrainische Hauptstadt gewarnt.",
+     "Die Ukraine wehrt sich seit Februar zweitausendzweiundzwanzig gegen einen russischen Angriffskrieg.",
+     "Ob die Hilfen und Forderungen zu Verhandlungen führen, bleibt vorerst unklar."
+    ],
+    "einfach": [
+     "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist.",
+     "In der ukrainischen Hauptstadt gab es während des Besuchs Luftalarm.",
+     "Deutschland hilft der Ukraine mit Geld und Waffen.",
+     "Eine Milliarde Euro ist für militärische Ausrüstung bestimmt.",
+     "Drei Hundert fünfzig Millionen Euro helfen bei der Energieversorgung im Winter.",
+     "Das russische Außenministerium hatte zuvor vor der Reise gewarnt."
+    ]
+   },
+   "kurz": [
+    "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist.",
+    "Deutschland stellt eine Milliarde Euro für Rüstung und 350 Millionen Euro für Energie bereit.",
+    "Das russische Außenministerium hatte zuvor vor Besuchen gewarnt."
+   ],
+   "fakten": [
+    [
+     "Militärische Hilfe",
+     "1 Milliarde Euro"
+    ],
+    [
+     "Energieversorgung",
+     "350 Millionen Euro"
+    ]
+   ],
+   "dossier": {
+    "slug": "krieg-in-der-ukraine-merz-besuch",
+    "titel": "Krieg in der Ukraine"
+   },
+   "bildInfo": {
+    "titel": "2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
+    "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg/1280px-2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
+    "urheber": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Friedrich Merz",
+    "sprache": "en",
+    "art": "person",
+    "suchbegriff": "Friedrich Merz politician",
+    "bildunterschrift": "Bundeskanzler Friedrich Merz bei einer Veranstaltung.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
+     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg/1280px-2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Friedrich Merz",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Friedrich Merz politician",
+     "bildunterschrift": "Bundeskanzler Friedrich Merz bei einer Veranstaltung.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Volodymyr Zelensky Official portrait.jpg",
+     "beschreibung": "Official portrait of Volodymyr Zelenskyy .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Volodymyr_Zelensky_Official_portrait.jpg/1280px-Volodymyr_Zelensky_Official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Volodymyr_Zelensky_Official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_Official_portrait.jpg",
+     "urheber": "http://www.president.gov.ua/",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Volodymyr Zelenskyy president",
+     "bildunterschrift": "Der ukrainische Präsident Wolodymyr Selenskyj.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Kiew, Ukraine",
+    "lat": 50.45,
+    "lon": 30.524
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "brasilien-praesidentschaftswahl",
+   "rubrik": "Welt",
+   "zeit": "2026-10-04T12:56:08.000Z",
+   "titel": "Präsidentschaftswahlen in Brasilien",
+   "vorspann": "In Brasilien hat die Wahl eines neuen Präsidenten begonnen. Dabei stehen sich der amtierende linke Präsident Luiz Inácio Lula da Silva und der rechte Herausforderer Flávio Bolsonaro gegenüber.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "In Brasilien hat die Präsidentschaftswahl begonnen.",
+    "Im Wettbewerb stehen der linke Amtsinhaber Luiz Inácio Lula da Silva und der Herausforderer Flávio Bolsonaro.",
+    "Umfragen zeigen ein enges Rennen, weshalb eine Stichwahl wahrscheinlich ist."
+   ],
+   "einig": [
+    [
+     "In Brasilien wird ein neuer Präsident gewählt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ],
+    [
+     "Zu den Hauptkandidaten gehören der amtierende Präsident Luiz Inácio Lula da Silva und der Herausforderer Flávio Bolsonaro.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ],
+    [
+     "Flávio Bolsonaro ist der Sohn des früheren Präsidenten Jair Bolsonaro.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob eine Stichwahl am 25. Oktober notwendig wird oder ob im ersten Wahlgang eine Entscheidung fällt."
+   ],
+   "positionen": [
+    [
+     "Julio Marconato (Wähler)",
+     "Unterstützt laut ZDFheute Flávio Bolsonaro, da dieser für Werte wie Gott, Vaterland und Familie steht.",
+     "ZDFheute"
+    ],
+    [
+     "Nalva de Souza Silva (Wählerin)",
+     "Unterstützt laut ZDFheute Lula da Silva aufgrund früherer Sozialprogramme und Zisternenprojekte.",
+     "ZDFheute"
+    ],
+    [
+     "Pedro Doria (Journalist und Analyst)",
+     "Die Wahl ist laut ZDFheute von starker Ablehnung der jeweiligen Gegenseite geprägt.",
+     "ZDFheute"
+    ]
+   ],
+   "fehlend": "Offizielle Wahlergebnisse",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 10:10",
+     "fokus": "–",
+     "text": "In Brasilien wird neuer Präsident gewählt",
+     "url": "https://www.tagesschau.de/video/video-1660060.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 07:54",
+     "fokus": "Hintergründe und Umfragedaten",
+     "text": "Liefert ausführliche Details zur Stimmung im Land, Umfragewerten von Datafolha und Quaest sowie zu den Hintergründen beider Kandidaten.",
+     "url": "https://www.zdfheute.de/politik/ausland/brasilien-wahl-praesident-lula-bolsonaro-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 4,
+      "woerter": 770,
+      "satzlaenge": 13,
+      "langeWoerter": 34
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 14:56",
+     "fokus": "Kompakte Meldung zum Wahlbeginn",
+     "text": "Berichtet kurz über den Beginn der Präsidentschaftswahl und die Konstellation der beiden Hauptkandidaten.",
+     "url": "https://www.deutschlandfunk.de/praesidentschaftswahl-in-brasilien-beginnt-106.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 12:42",
+     "fokus": "–",
+     "text": "Flávio, der älteste Sohn des rechten Ex-Präsidenten Jair Bolsonaro, hat gute Chancen, Präsident Lula aus dem Amt zu vertreiben.",
+     "url": "https://www.spiegel.de/ausland/brasilien-wahl-warum-flavio-bolsonaro-praesident-lula-besiegen-koennte-a-a3164ecf-1a29-49f9-9396-eff8b4380ecb#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 136,
+      "satzlaenge": 15,
+      "langeWoerter": 35
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 14:44",
+     "fokus": "Kurzbericht zur Wahlöffnung",
+     "text": "Meldet die Öffnung der Wahllokale und das enge Duell zwischen Amtsinhaber Lula und Herausforderer Bolsonaro.",
+     "url": "https://www.zeit.de/politik/ausland/2026-10/wahl-brasilien-praesidentschaft-luiz-inacio-lula-da-silva-flavio-bolsonaro",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit",
+     "Während ZDFheute einen sehr langen Bericht mit Hintergründen zu Wirtschaft, Umfragen und Gesellschaft liefert, fassen Deutschlandfunk, Zeit und Tagesschau die Meldung zum Wahlbeginn wesentlich kürzer zusammen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Luiz Inácio Lula da Silva und Flávio Bolsonaro",
+    "was": "Präsidentschaftswahl",
+    "wann": "heute",
+    "wo": "Brasilien",
+    "wie": "In Form einer verpflichtenden Wahl an elektronischen Wahlurnen",
+    "warum": "Turnusmäßige Neuwahl des Staatspräsidenten",
+    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, Zeit"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In Brasilien haben die Wahllokale für die Präsidentschaftswahl geöffnet. Rund 159 Millionen brasilianische Bürgerinnen und Bürger sind nach Angaben von ZDFheute zur Stimmabgabe aufgerufen. Die Teilnahme an der Abstimmung ist in dem lateinamerikanischen Staat verpflichtend. Das Land geht nach Angaben der Berichte tief gespalten an die elektronischen Wahlurnen.",
+      "Im Mittelpunkt des politischen Wettbewerbs stehen der amtierende linke Amtsinhaber Luiz Inácio Lula da Silva und Herausforderer Flávio Bolsonaro. Flávio Bolsonaro ist Senator und der älteste Sohn des früheren rechten Präsidenten Jair Bolsonaro. Beobachtern zufolge zeichnet sich eine knappe Entscheidung ab.",
+      "Die Stimmabgabe findet in einem Umfeld statt, das nach Angaben von ZDFheute von verschiedenen gesellschaftlichen und politischen Herausforderungen geprägt ist. In den Favelas leben Menschen zwischen der Gewalt von Banden und Polizei. Zudem kämpfen indigene Gruppen um ihr Land und ihre Kultur."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Laut dem Umfrageinstitut Datafolha lag der amtierende Präsident Lula lange Zeit in den Wählerbefragungen vorn. Im Verlauf der vergangenen Wochen konnte sein Herausforderer Flávio Bolsonaro jedoch aufholen. Kurz vor der Wahl ermittelte Datafolha nach Angaben von ZDFheute einen Wert von 40 Prozent der Stimmen für Lula und 36 Prozent für Bolsonaro im ersten Wahlgang. Dritte Kandidaten bleiben dem Institut zufolge chancenlos.",
+      "Für die voraussichtlich notwendige Stichwahl am 25. Oktober wird ein noch engeres Resultat erwartet. Laut einer Umfrage von Datafolha trennen Lula und Bolsonaro in einer Stichwahl lediglich drei Prozentpunkte. Das Institut Quaest sieht beide Kandidaten in einer potenziellen Stichwahl nach Angaben von ZDFheute sogar gleichauf. Fast die Hälfte der Befragten in einer Datafolha-Umfrage gibt an, jeweils einen der Kandidaten abzulehnen.",
+      "Der Wahlkampf wird nach Berichten von ZDFheute von mehreren Themen begleitet. Die brasilianische Vereinigung der Pflanzenölindustrie hat das Soja-Moratorium zum Schutz des Regenwalds verlassen, wodurch neue Regenwaldflächen für den Anbau freigegeben werden könnten. Zudem wirft die brasilianische Politik dem Karneval in Rio ein Nachspiel vor, weil eine Samba-Gruppe angeblich unerlaubt Wahlwerbung für Präsident Lula gemacht hat."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der Präsidentschaftskandidat Flávio Bolsonaro tritt das politische Erbe seines Vaters Jair Bolsonaro an. Während dessen Amtszeit wurde Brasilien nach Angaben von ZDFheute militarisiert, die Abholzung des Regenwalds nahm zu und die Corona-Pandemie wurde geleugnet. Der frühere Präsident Jair Bolsonaro befindet sich derzeit im Hausarrest und wurde zu einer Freiheitsstrafe von mehr als 27 Jahren verurteilt. Die Verurteilung steht nach Angaben von ZDFheute im Zusammenhang mit einem Putschversuch nach seiner Wahlniederlage im Jahr 2022 und der Erstürmung des Regierungsviertels in Brasília im Januar 2023 durch Anhänger.",
+      "Gegen den aktuellen Herausforderer Flávio Bolsonaro ermittelt nach Angaben von ZDFheute das Oberste Gericht wegen des Verdachts auf Geldwäsche und Korruption. Der Wahlkampf wird zudem von gegenseitigen Vorwürfen über Korruptionsskandale überschattet. Unterstützung erhält Flávio Bolsonaro aus den Vereinigten Staaten, wo er im Mai von US-Präsident Donald Trump im Weißen Haus empfangen wurde. Er wirbt im Wahlkampf für eine Militärallianz und eine engere Zusammenarbeit mit Washington.",
+      "Amtsinhaber Luiz Inácio Lula da Silva strebt mit 80 Jahren seine vierte, durch Unterbrechungen getrennte Amtszeit an. Der ehemalige Gewerkschafter stammt aus ärmlichen Verhältnissen und steht für Sozialprogramme sowie den Kampf gegen den Hunger. Er setzt im Gegensatz zu seinem Kontrahenten auf Brasiliens Eigenständigkeit und lehnte eine Einmischung von außen ab. In seiner bisherigen Amtszeit stellte er unter anderem beim UN-Klimagipfel in Belém den sogenannten Tropenwald-Fond zum Schutz der tropischen Wälder vor."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Präsident von Brasilien ist sowohl Staats- als auch Regierungschef. Er wird für eine Amtszeit von vier Jahren gewählt. Das Wahlsystem sieht bei Bedarf eine Stichwahl vor, falls im ersten Wahlgang kein Bewerber die absolute Mehrheit der Stimmen erreicht.",
+      "In Brasilien besteht eine gesetzliche Wahlpflicht für Bürgerinnen und Bürger in einer bestimmten Altersspanne. Die Stimmabgabe erfolgt an elektronischen Wahlgeräten, die in den Wahllokalen im gesamten Staatsgebiet aufgestellt sind."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der brasilianische Journalist und Analyst Pedro Doria erklärte laut ZDFheute zu der Abstimmung, dass es sich im Wesentlichen um eine Wahl handele, bei der man die Gegenposition stärker ablehne als den eigenen Kandidaten zu unterstützen. Man stimme demnach gegen jemanden statt für jemanden.",
+      "Wähler wie Julio Marconato äußerten laut ZDFheute Unterstützung für Flávio Bolsonaro, da dieser für Werte wie Gott, Vaterland und Familie stehe und an die Politik seines Vaters anknüpfe. Auf der anderen Seite begründen Wähler wie Nalva de Souza Silva ihre Unterstützung für Lula laut ZDFheute mit den sozialen Programmen und Verbesserungen in ihrem Alltag während Lulas früheren Regierungsjahren."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Nach dem Abschluss der Stimmabgabe an den elektronischen Wahlurnen werden die Stimmen ausgezählt. Sollte keiner der Kandidaten im ersten Wahlgang die erforderliche Mehrheit erreichen, ist eine Stichwahl für den 25. Oktober angesetzt."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2022",
+     "Jair Bolsonaro unterliegt bei der Präsidentschaftswahl und es kommt zu einem Putschversuch von Anhängern."
+    ],
+    [
+     "Januar 2023",
+     "Anhänger des früheren Präsidenten stürmen das Regierungsviertel in Brasília."
+    ],
+    [
+     "Mai 2026",
+     "Flávio Bolsonaro wird von US-Präsident Donald Trump im Weißen Haus empfangen."
+    ],
+    [
+     "heute",
+     "Beginn der Präsidentschaftswahl in Brasilien."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Luiz Inacio Lula da Silva politician",
+     "bildunterschrift": "Der amtierende brasilianische Präsident Luiz Inácio Lula da Silva strebt seine vierte Amtszeit an."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "Flavio Bolsonaro politician",
+     "bildunterschrift": "Herausforderer Flávio Bolsonaro tritt als Kandidat bei der Präsidentschaftswahl in Brasilien an."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Brasilia cityscape",
+     "bildunterschrift": "Die Bundeshauptstadt Brasília ist das politische Zentrum des südamerikanischen Landes."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Brazilian voting machine",
+     "bildunterschrift": "In Brasilien stimmen die Wahlberechtigten an elektronischen Geräten ab."
+    }
+   ],
+   "ort": {
+    "name": "Brasilia, Brasilien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung von spekulativen oder nicht belegten Aussagen in Abschnitten, Angleichung aller Angaben an die exakten Quellenbelege wie ZDFheute."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Stichwahl",
+      "Eine zweite Wahl, bei der nur die beiden erfolgreichsten Kandidaten aus dem ersten Wahlgang noch einmal antreten."
+     ],
+     [
+      "Wahlpflicht",
+      "Eine gesetzliche Regelung, nach der alle Wahlberechtigten an einer Wahl teilnehmen müssen."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Umfrageinstitute bei der Vorhersage von Wahlen und wie können sie die öffentliche Meinung beeinflussen?",
+     "Welche Argumente nennen Wählerinnen und Wähler in den Berichten für ihre Unterstützung der beiden Kandidaten?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer ist der Herausforderer bei der Präsidentschaftswahl in Brasilien?",
+      "optionen": [
+       "Jair Bolsonaro",
+       "Flávio Bolsonaro",
+       "Luiz Inácio Lula da Silva"
+      ],
+      "richtig": 1,
+      "erklaerung": "Flávio Bolsonaro ist der Herausforderer und der Sohn des früheren Präsidenten Jair Bolsonaro."
+     },
+     {
+      "frage": "Wie viele Wahlberechtigte gibt es in Brasilien nach Angaben der Berichte?",
+      "optionen": [
+       "Etwa 159 Millionen",
+       "Etwa 40 Millionen",
+       "Etwa 80 Millionen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Rund 159 Millionen Brasilianer sind laut den Berichten zur Wahl aufgerufen."
+     },
+     {
+      "frage": "Wann ist eine mögliche Stichwahl angesetzt?",
+      "optionen": [
+       "25. September",
+       "25. Oktober",
+       "25. November"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Stichwahl ist für den 25. Oktober angesetzt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In dem südamerikanischen Land Brasilien wird ein neuer Präsident gewählt. Die Menschen stimmen an elektronischen Geräten ab.",
+    "absaetze": [
+     "Es gibt zwei Hauptkandidaten für das Amt. Der eine Kandidat ist der bisherige linke Präsident Luiz Inácio Lula da Silva. Der andere Kandidat ist der rechte Herausforderer Flávio Bolsonaro.",
+     "Flávio Bolsonaro ist der Sohn des früheren Präsidenten Jair Bolsonaro. Umfragen zeigen ein sehr knappes Rennen zwischen den beiden Politikern.",
+     "Deshalb wird im Oktober wahrscheinlich eine Stichwahl stattfinden. Die Wahl ist für alle Bürgerinnen und Bürger in Brasilien verpflichtend."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Brasilien hat die Präsidentschaftswahl begonnen.",
+     "Dabei treten der amtierende Präsident Luiz Inácio Lula da Silva und der Herausforderer Flávio Bolsonaro gegeneinander an.",
+     "Umfragen zeigen ein sehr knappes Rennen, weshalb eine Stichwahl wahrscheinlich ist."
+    ],
+    "lang": [
+     "In Brasilien hat die Wahl eines neuen Staatspräsidenten begonnen.",
+     "Rund einhundertneunundfünfzig Millionen Menschen sind zur Stimmabgabe an elektronischen Wahlurnen aufgerufen.",
+     "Im Mittelpunkt des politischen Wettbewerbs stehen der amtierende linke Präsident Luiz Inácio Lula da Silva und der rechte Herausforderer Flávio Bolsonaro.",
+     "Flávio Bolsonaro ist der ältester Sohn des früheren Präsidenten Jair Bolsonaro.",
+     "Nach Angaben des Umfrageinstituts Datafolha lag Lula lange in Umfragen vorn, während Bolsonaro zuletzt aufholte.",
+     "Datafolha ermittelte zuletzt vierzig Prozent für Lula und sechsunddreißig Prozent für Bolsonaro.",
+     "Beobachter erwarten wegen der knappen Umfragewerte eine Stichwahl am fünfundzwanzigsten Oktober.",
+     "Der Wahlkampf war nach Berichten von ZDFheute von zahlreichen politischen und gesellschaftlichen Themen geprägt.",
+     "Die Stimmabgabe in dem lateinamerikanischen Land ist für die Bürgerinnen und Bürger verpflichtend.",
+     "Das genaue Wahlergebnis steht noch aus."
+    ],
+    "einfach": [
+     "In Brasilien wählen die Menschen einen neuen Präsidenten.",
+     "Es treten der bisherige Präsident Lula da Silva und der Herausforderer Flávio Bolsonaro an.",
+     "Flávio Bolsonaro ist der Sohn des früheren Präsidenten Bolsonaro.",
+     "Umfragen zeigen ein sehr knappes Rennen zwischen den beiden Politikern.",
+     "Deshalb gibt es im Oktober wahrscheinlich eine Stichwahl.",
+     "Die Wahl ist für alle Menschen in Brasilien verpflichtend."
+    ]
+   },
+   "kurz": [
+    "In Brasilien hat die Präsidentschaftswahl begonnen.",
+    "Amtsinhaber Luiz Inácio Lula da Silva tritt gegen Herausforderer Flávio Bolsonaro an.",
+    "Umfragen zeigen ein sehr knappes Rennen zwischen den beiden Kandidaten.",
+    "Eine Stichwahl ist für den fünfundzwanzigsten Oktober wahrscheinlich."
+   ],
+   "fakten": [
+    [
+     "Wahlberechtigte Bürger",
+     "159 Millionen"
+    ],
+    [
+     "Stimmenanteil Lula da Silva (Datafolha)",
+     "40 Prozent"
+    ],
+    [
+     "Stimmenanteil Flávio Bolsonaro (Datafolha)",
+     "36 Prozent"
+    ],
+    [
+     "Voraussichtlicher Termin der Stichwahl",
+     "25. Oktober"
+    ]
+   ],
+   "dossier": {
+    "slug": "wahl-in-brasilien",
+    "titel": "Präsidentschaftswahl in Brasilien"
+   },
+   "bildInfo": {
+    "titel": "Mikhail Mishustin and Luiz Inácio Lula da Silva (2026-02-05).jpg",
+    "beschreibung": "Mikhail Mishustin's meeting with Brazilian President Luiz Inácio Lula da Silva",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg/1280px-Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_(2026-02-05).jpg",
+    "urheber": "government.ru",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "art": "person",
+    "suchbegriff": "Luiz Inacio Lula da Silva politician",
+    "bildunterschrift": "Der brasilianische Präsident Luiz Inácio Lula da Silva.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Mikhail Mishustin and Luiz Inácio Lula da Silva (2026-02-05).jpg",
+     "beschreibung": "Mikhail Mishustin's meeting with Brazilian President Luiz Inácio Lula da Silva",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg/1280px-Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_(2026-02-05).jpg",
+     "urheber": "government.ru",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Luiz Inacio Lula da Silva politician",
+     "bildunterschrift": "Der brasilianische Präsident Luiz Inácio Lula da Silva.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Foto oficial do senador Flávio Bolsonaro (v. AgSen).jpg",
+     "beschreibung": "Senador pelo Rio de Janeiro, Flávio Bolsonaro",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg/1280px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_(v._AgSen).jpg",
+     "urheber": "Agência Senado",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Flavio Bolsonaro politician",
+     "bildunterschrift": "Der Senator und Präsidentschaftskandidat Flávio Bolsonaro.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Museu da República 1 edit.jpg",
+     "beschreibung": "Museu da República and ministerial office buildings of Esplanada dos Ministérios in Brasilia, Brazil.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Museu_da_Rep%C3%BAblica_1_edit.jpg/1280px-Museu_da_Rep%C3%BAblica_1_edit.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Museu_da_Rep%C3%BAblica_1_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Museu_da_Rep%C3%BAblica_1_edit.jpg",
+     "urheber": "Fwsbsb",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Brasilia cityscape",
+     "bildunterschrift": "Das Museum der Republik und Ministeriumsgebäude in der Hauptstadt Brasília.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Brasilia, Brasilien",
+    "lat": -15.794,
+    "lon": -47.883
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "oktoberfest-besucherrekord",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-04T12:32:14.000Z",
+   "titel": "Abschluss des Münchner Oktoberfests mit neuen Höchstwerten",
+   "vorspann": "Das Münchner Oktoberfest verzeichnet in diesem Jahr eine historische Besucherzahl von 7,4 Millionen Menschen. Begleitet wurde das Volksfest von einem erhöhten Bierkonsum sowie mehreren schweren Unglücksfällen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Das Münchner Oktoberfest 2026 ging mit einem neuen Besucherrekord von 7,4 Millionen Menschen zu Ende.",
+    "Auch beim Bierkonsum wurde mit rund 6,7 Millionen Maß ein Höchstwert erreicht.",
+    "Das Volksfest war jedoch von mehreren schweren Unglücksfällen überschattet.",
+    "Veranstalter und Polizei zogen insgesamt eine positive Bilanz und lobten das Sicherheitskonzept."
+   ],
+   "einig": [
+    [
+     "Das Oktoberfest 2026 verzeichnete einen neuen Besucherrekord von 7,4 Millionen Menschen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Süddeutsche Zeitung",
+      "Welt"
+     ]
+    ],
+    [
+     "Der Konsum von Festbier stieg auf 6,7 Millionen Maß an.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Welt"
+     ]
+    ],
+    [
+     "Das Fest wurde von Todesfällen und schweren Unfällen überschattet.",
+     [
+      "Spiegel",
+      "Welt"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genauen Hintergründe zu den tödlichen Arbeitsunfällen auf dem Festgelände sind laut Spiegel noch Gegenstand von Ermittlungen."
+   ],
+   "positionen": [
+    [
+     "Dominik Krause (Münchner Oberbürgermeister)",
+     "Beurteilte das Oktoberfest als friedlich, entspannt und als eine der schönsten Veranstaltungen.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Christian Scharpf (Wiesn-Chef)",
+     "Bewertete das neue Sicherheitskonzept als erfolgreich und funktionierend.",
+     "Tagesschau/ARD,Spiegel"
+    ],
+    [
+     "Thomas Schelshorn (Polizeisprecher)",
+     "Führte die erhöhte Anzahl von Einsätzen auf die höheren Besucherzahlen und Betäubungsmitteldelikte zurück.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Stimmen von Unfallopfern, Angehörigen oder Kritikern des Volksfests kommen in den Berichten nicht vor.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "04.10.26, 14:32",
+     "fokus": "Detaillierte Festbilanz und Polizeistatistik",
+     "text": "Der Bericht liefert umfangreiche Zahlen zu Besucherströmen, Getränken, Lebensmitteln und den polizeilichen Einsätzen. Zudem werden Zitate von Verantwortlichen wie dem Oberbürgermeister genannt.",
+     "url": "https://www.tagesschau.de/inland/oktoberfest-bilanz-110.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 4,
+      "woerter": 886,
+      "satzlaenge": 12,
+      "langeWoerter": 36
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 13:49",
+     "fokus": "Besucherrekord und schwere Unglücksfälle",
+     "text": "Der Artikel beleuchtet neben den offiziellen Rekordzahlen der Stadt ausführlich die verschiedenen Todesfälle und Unfälle im Zusammenhang mit dem Oktoberfest sowie einen Busunfall bei Buchloe.",
+     "url": "https://www.spiegel.de/panorama/oktoberfest-2026-muenchen-meldet-rekord-mit-7-4-millionen-wiesn-besuchern-a-094f4712-dece-4772-8220-6725a4b71df9#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "leicht",
+      "fuerWen": "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
+      "klasse": 7,
+      "minuten": 1,
+      "woerter": 237,
+      "satzlaenge": 12,
+      "langeWoerter": 32
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "04.10.26, 11:43",
+     "fokus": "Kompakte Rekordmeldung",
+     "text": "Die Meldung beschränkt sich auf die offizielle Bestätigung der Besucherzahl durch die Stadt München und verweist auf dpa-Material.",
+     "url": "https://www.sueddeutsche.de/muenchen/oktoberfest-muenchen-2026-news-wiesn-liveticker-sonntag-li.3549371",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 1,
+      "woerter": 58,
+      "satzlaenge": 15,
+      "langeWoerter": 38
+     },
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "04.10.26, 14:24",
+     "fokus": "Kurze Zusammenfassung der Kennzahlen",
+     "text": "Der Text fasst die wichtigsten Eckdaten zu den Besucherzahlen und dem Bierkonsum zusammen und erwähnt die gemeldeten Todesfälle.",
+     "url": "https://www.welt.de/vermischtes/video6ac2442285d64113fb06eb5c/rekord-wiesn-mehr-besucher-und-bierkonsum-als-je-zuvor-auf-dem-muenchner-oktoberfest.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "WeltN24 GmbH, gehört zur Axel Springer SE",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Ausführlichkeit der Unglücksfälle",
+     "Während die Tagesschau/ARD sehr detailliert auf die verschiedenen Unfälle, Verletzte und Kriminalitätsstatistiken eingeht, konzentrieren sich andere Medien wie die Süddeutsche Zeitung ausschließlich auf die Bekanntgabe des Besucherrekords."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Münchner Oktoberfest mit Besuchern und Veranstaltern",
+    "was": "Veranstaltung des Volksfests mit neuen Höchstwerten",
+    "wann": "2026-10-04",
+    "wo": "München, Deutschland",
+    "wie": "Mit rund 7,4 Millionen Besuchern und 6,7 Millionen Maß Bier",
+    "warum": "Reguläres Ende des traditionellen Volksfests nach 16 Tagen",
+    "quellenlage": "Stadt München, Polizei, Medienberichte, Wiesn-Wirte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Das Münchner Oktoberfest hat in diesem Jahr einen neuen Besucherhöchstwert erreicht. Innerhalb von 16 Tagen besuchten nach Angaben der Stadt München rund 7,4 Millionen Menschen das Fest. Ein Großteil der Besucher kam aus der Stadt selbst oder dem Umland. Die Mehrheit der internationalen Gäste reiste aus den Ländern USA, Italien und Österreich an.",
+      "Das Festgelände war an mehreren Tagen stark ausgelastet. So bat der Veranstalter am ersten Samstag sowie an einem weiteren Tag darum, der Theresienwiese wegen des großen Andrangs fernzubleiben. Große Zelte wurden zeitweise geschlossen, und Eingänge mussten temporär abgeriegelt werden.",
+      "Neben den Besucherzahlen stieg auch der Konsum von Lebensmitteln und Getränken an. Der Verein der Münchner Brauereien verzeichnete einen Ausstoß von rund 6,7 Millionen Maß Festbier. Dies entspricht einem Anstieg von 2,7 Prozent im Vergleich zum Vorjahr."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der alkoholfreie Getränkeabsatz stieg nach Angaben der Tagesschau/ARD um zehn Prozent, wobei das saure Radler besonders oft konsumiert wurde. Die großen Wiesn-Wirte meldeten beim Essen ein Plus von zwei bis drei Prozent. Das klassische Hendl verzeichnete laut Tagesschau/ARD ebenfalls eine größere Beliebtheit.",
+      "Auf der Oidn Wiesn, einem historischen Bereich des Festes, stieg die Besucherzahl von 360.000 im Vorjahr auf 447.000 Gäste an. Zum Kindertag in der zweiten Woche kamen laut Tagesschau/ARD 57 Prozent mehr Besucher als im Vorjahr.",
+      "Die Polizei registrierte im Zuge des Volksfests insgesamt 854 Straftaten und Einsätze, verglichen mit 748 im Vorjahr. Laut dem Polizeisprecher Thomas Schelshorn ist dies auf die höhere Besucherzahl sowie verstärkte Kontrollen im Bereich von Betäubungsmitteln zurückzuführen. Dabei wurden auch 80 Sexualdelikte angezeigt."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der bisherige Höchstwert bei den Besucherzahlen lag im Jahr 2023 bei 7,2 Millionen Menschen. Damals dauerte das Volksfest allerdings aufgrund einer Feiertagsverlängerung 18 Tage statt der regulären 16 Tage. Im Jahr 2025 wurden etwa 6,5 Millionen Maß Bier ausgeschenkt.",
+      "Das Fest wurde in diesem Jahr durch mehrere Todesfälle und schwere Unfälle überschattet. Auf der Oidn Wiesn wurde ein 47-jähriger rumänischer Mitarbeiter von einer Schiffschaukel schwer verletzt, nachdem er sich laut Polizei in einem unzulässigen Bereich aufgehalten hatte. Bereits am 21. September verstarb ein Mitarbeiter des Freefall-Towers nach einem Unfall mit einer Gondel.",
+      "Eine über 90 Jahre alte Frau stürzte im Rollstuhl, nachdem sich dieser im Geschirr eines Kutschpferdes verfangen hatte. Sie starb sechs Tage später im Krankenhaus. Zudem ereignete sich auf der Autobahn 96 bei Buchloe ein schwerer Unfall mit einem Reisebus, der auf dem Weg zum Oktoberfest war und bei dem zwei Menschen starben."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Das Oktoberfest ist ein traditionelles deutsches Volksfest, das jährlich in München auf der Theresienwiese stattfindet. Es gilt als das größte Volksfest der Welt und zieht Millionen von in- und ausländischen Touristen an.",
+      "Die Oide Wiesn ist ein abgetrennter Bereich des Oktoberfests, der historische Fahrgeschäfte und traditionelle Zelte zeigt. Sie erinnert an die Ursprünge des Festes im 19. Jahrhundert."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der Münchner Oberbürgermeister Dominik Krause bewertete das Fest positiv. Er erklärte laut Tagesschau/ARD, es sei eine friedliche, entspannte und eine der schönsten Veranstaltungen gewesen.",
+      "Wiesn-Chef Christian Scharpf äußerte sich ebenfalls zufrieden mit dem Verlauf. Laut Tagesschau/ARD erklärte er, das nachgeschärfte Sicherheitskonzept mit verbesserter Videoüberwachung und neuer Technik habe funktioniert.",
+      "Der Polizeisprecher Thomas Schelshorn erklärte laut Tagesschau/ARD, die Stimmung sei trotz der Einsätze und Delikte überwiegend friedlich und entspannt gewesen. Die Festleitung sowie die Schausteller und Wirte zeigten sich mit dem Festverlauf zufrieden."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Das Oktoberfest wurde traditionell mit Böllerschüssen beendet. Am letzten Tag traten sechzig Personen auf den Treppenstufen der Bavaria auf und schossen Schwarzpulver ab.",
+      "Für die Abschlussphase des Festes kündigte der Deutsche Wetterdienst wechselhaftes Wetter an. Der Betrieb lief noch bis kurz vor Mitternacht weiter."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-21",
+     "Ein Mitarbeiter des Freefall-Towers stirbt bei einem Unfall."
+    ],
+    [
+     "2026-10-04",
+     "Das Oktoberfest endet mit Böllerschüssen und neuen Besucherrekorden."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Kein Bild aufgrund von Unglücksfällen und Todesfällen im Bericht."
+    }
+   ],
+   "ort": {
+    "name": "München, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Die Parteizugehörigkeit von Dominik Krause wurde entfernt, da sie nicht in allen Quellen als einig markiert ist und im Text redundant gehalten werden kann."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Volksfest",
+      "Ein großes Fest unter freiem Himmel, das viele Menschen anzieht und oft Schausteller, Fahrgeschäfte und Essensstände anbietet."
+     ],
+     [
+      "Oide Wiesn",
+      "Ein abgetrennter Bereich des Oktoberfests, der an historische Zeiten erinnert und traditionelle Fahrgeschäfte zeigt."
+     ]
+    ],
+    "fragen": [
+     "Welche Rolle spielen Besucherrekorde und wirtschaftliche Einnahmen im Vergleich zur Sicherheit bei Großveranstaltungen?",
+     "Wie gehen Medien und Polizei mit Berichten über Unfälle und Straftaten bei großen Volksfesten um?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Besucher zählte das Oktoberfest im Jahr 2026?",
+      "optionen": [
+       "7,4 Millionen Menschen",
+       "6,5 Millionen Menschen",
+       "8,2 Millionen Menschen"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Angaben der Berichte besuchten 7,4 Millionen Menschen das Oktoberfest."
+     },
+     {
+      "frage": "Wie viel Festbier wurde nach Angaben der Stadt und Brauereien ausgeschenkt?",
+      "optionen": [
+       "5,0 Millionen Maß",
+       "6,7 Millionen Maß",
+       "8,1 Millionen Maß"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Konsum von Festbier lag laut den Berichten bei rund 6,7 Millionen Maß."
+     },
+     {
+      "frage": "Wie bewertete der Polizeisprecher Thomas Schelshorn die erhöhte Anzahl von Polizeieinsätzen?",
+      "optionen": [
+       "Er machte ausschließlich das Wetter dafür verantwortlich.",
+       "Er führte sie auf die höhere Besucherzahl und Betäubungsmitteldelikte zurück.",
+       "Er kündigte sofortige Schließungen an."
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut der Tagesschau führte der Polizeisprecher Schelshorn die Einsätze auf die höhere Besucherzahl und mehr Betäubungsmitteldelikte zurück."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Das Münchner Oktoberfest hat in diesem Jahr einen neuen Rekord aufgestellt. So viele Besucher wie diesmal gab es noch nie.",
+    "absaetze": [
+     "An sechzehn Tagen kamen sieben komma vier Millionen Menschen auf die Festwiese. Das sind mehr Menschen als je zuvor in der Geschichte des Festes.",
+     "Auch beim Bier gab es einen neuen Höchstwert, denn es wurden sechs komma sieben Millionen Maß ausgeschenkt.",
+     "Überschattet wurde das Volksfest allerdings von mehreren schweren Unfällen und Todesfällen auf dem Gelände und bei der Anreise.",
+     "Die Stadt und die Polizei zeigten sich trotz der Unglücke mit dem Verlauf zufrieden und lobten das neue Sicherheitskonzept."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Das Münchner Oktoberfest ging mit einem neuen Besucherrekord zu Ende.",
+     "Sieben komma vier Millionen Menschen besuchten das Volksfest in diesem Jahr.",
+     "Überschattet wurde das Fest von mehreren schweren Unfällen und Todesfällen."
+    ],
+    "lang": [
+     "Das Münchner Oktoberfest endete nach sechzehn Tagen mit einem historischen Besucherrekord.",
+     "Nach Angaben der Stadt München kamen sieben komma vier Millionen Menschen auf die Theresienwiese.",
+     "Das sind so viele Besucher wie noch nie in der Geschichte des Volksfestes.",
+     "Auch beim Bierkonsum gab es mit sechs komma sieben Millionen Maß einen neuen Höchstwert.",
+     "Überschattet wurde das Fest nach übereinstimmenden Medienberichten von mehreren schweren Unfällen und Todesfällen.",
+     "Der Münchner Oberbürgermeister sprach dennoch von einer friedlichen Veranstaltung.",
+     "Der Polizeisprecher Thomas Schelshorn erklärte, die gestiegene Zahl der Einsätze liege vor allem an den vielen Besuchern.",
+     "Das Oktoberfest ist das größte Volksfest der Welt und zieht jährlich Millionen Gäste an.",
+     "Die Stadt und die Polizei zogen am Ende eine positive Bilanz des Festes.",
+     "Das Fest wurde traditionell mit Böllerschüssen unterhalb der Bavaria beendet."
+    ],
+    "einfach": [
+     "Das Münchner Oktoberfest ist nun zu Ende.",
+     "In diesem Jahr kamen so viele Menschen wie noch nie dorthin.",
+     "Sieben komma vier Millionen Gäste besuchten das Fest in München.",
+     "Es gab allerdings auch schwere Unfälle und Todesfälle.",
+     "Die Stadt und die Polizei zeigten sich dennoch zufrieden."
+    ]
+   },
+   "kurz": [
+    "Das Münchner Oktoberfest 2026 endet mit einem neuen Besucherrekord von sieben komma vier Millionen Menschen.",
+    "Beim Bierkonsum wurde ein Höchstwert von rund sechs komma sieben Millionen Maß erreicht.",
+    "Das Volksfest war jedoch von mehreren schweren Unglücksfällen und Todesfällen überschattet.",
+    "Veranstalter und Polizei zogen insgesamt eine positive Bilanz zum Festverlauf."
+   ],
+   "fakten": [
+    [
+     "Besucherzahl Oktoberfest",
+     "7,4 Millionen"
+    ],
+    [
+     "Festbierkonsum",
+     "6,7 Millionen Maß"
+    ],
+    [
+     "Dauer des Festes",
+     "16 Tage"
+    ],
+    [
+     "Straftaten und Einsätze",
+     "854"
+    ]
+   ],
+   "dossier": {
+    "slug": "oktoberfest-2026",
+    "titel": "Das Münchner Oktoberfest 2026"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "München, Deutschland",
+    "lat": 48.137,
+    "lon": 11.575
+   },
+   "version": 5
+  },
   {
    "id": "schuelerproteste-frankreich",
    "rubrik": "Welt",
@@ -4048,7 +5728,7 @@
      "s": [
       0.25,
       6.99,
-      11.0,
+      11,
       17.19,
       24.06
      ]
@@ -4467,22 +6147,6 @@
      "art": "person",
      "suchbegriff": "Emmanuel Macron",
      "bildunterschrift": "Der französische Präsident Emmanuel Macron, dessen Land an den G7-Beratungen beteiligt ist.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2024-08-21 Friedrich Merz in Erfurt 2024 STP 3041 by Stepro (3x4 cropped).jpg",
-     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg/1280px-2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%283x4_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg",
-     "urheber": "Steffen Prößdorf",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Friedrich Merz",
-     "sprache": "en",
-     "art": "person",
-     "suchbegriff": "Friedrich Merz politician",
-     "bildunterschrift": "Friedrich Merz, Parteivorsitzender der CDU.",
      "hinweis": "Archivfoto"
     }
    ],
@@ -9571,635 +11235,6 @@
       22.14,
       28.6,
       35.88
-     ]
-    }
-   ]
-  },
-  {
-   "id": "koalitionsstreit-pflegereform-linnemann-spd",
-   "rubrik": "Deutschland",
-   "zeit": "2026-10-01T12:55:21.000Z",
-   "aktualisiert": "aktualisiert um 15:04 Uhr",
-   "titel": "Bundeskabinett beschließt Gesetzentwurf zur Reform der Pflegeversicherung",
-   "vorspann": "Die Bundesregierung hat sich nach langen Verhandlungen auf einen Entwurf für ein Pflegeneuordnungsgesetz geeinigt. Das Gesetz soll eine drohende Finanzlücke in der Pflegeversicherung abwenden und sieht unter anderem höhere Beiträge für Kinderlose vor.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "schwer",
-    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
-   },
-   "zusammenfassung": [
-    "Das Bundeskabinett hat einen Entwurf für ein Pflegeneuordnungsgesetz zur Entlastung der Finanzen beschlossen.",
-    "Um die drohende Finanzlücke zu schließen, steigen unter anderem der Beitragssatz für Kinderlose sowie die Beitragsbemessungsgrenze.",
-    "Die SPD konnte sich mit Forderungen nach einem Pflegedeckel oder einem Finanzausgleich im ersten Schritt nicht durchsetzen.",
-    "Eine neu einzurichtende Kommission soll bis Anfang 2027 Vorschläge für weitergehende strukturelle Reformen erarbeiten."
-   ],
-   "einig": [
-    [
-     "Das Bundeskabinett hat den Entwurf des Pflegeneuordnungsgesetzes beschlossen.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Der Zuschlag für Kinderlose in der Pflegeversicherung wird erhöht.",
-     [
-      "Tagesschau/ARD",
-      "ZDFheute"
-     ]
-    ],
-    [
-     "Eine neu eingesetzte Kommission soll Vorschläge für eine grundlegende Strukturreform bis Anfang 2027 erarbeiten.",
-     [
-      "Tagesschau/ARD",
-      "FAZ"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die geplante Kommission bis Januar 2027 konkrete Einigungen zu einem Pflegedeckel oder einem Finanzausgleich erzielen kann, ist laut den Berichten noch offen."
-   ],
-   "positionen": [
-    [
-     "Bundesgesundheitsminister Carsten Linnemann (CDU)",
-     "Bezeichnet den Gesetzentwurf als ersten wichtigen Schritt und sieht hohe rechtliche Hürden bei einem Lastenausgleich zwischen privater und gesetzlicher Versicherung.",
-     "Tagesschau/ARD,ZDFheute,FAZ"
-    ],
-    [
-     "SPD (unter anderem vertreten durch Finanzminister Lars Klingbeil)",
-     "Fordert grundlegende Reformen, einen Pflegedeckel gegen hohe Eigenanteile und einen finanziellen Ausgleich zwischen privater und sozialer Pflegeversicherung.",
-     "Tagesschau/ARD,FAZ"
-    ]
-   ],
-   "fehlend": "Detaillierte Stellungnahmen von Arbeitgeberverbänden, Gewerkschaften oder Vertretern der privaten Pflegeversicherungen.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "30.09.26, 17:24",
-     "fokus": "Ausführliche Details zum Gesetzentwurf",
-     "text": "Der Bericht listet zahlreiche konkrete Maßnahmen des Gesetzes wie die Änderungen bei Minijobs, den Entlastungsbeitrag und die Reha-Maßnahmen auf.",
-     "url": "https://www.tagesschau.de/inland/innenpolitik/faq-pflegereform-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 4,
-      "woerter": 898,
-      "satzlaenge": 14,
-      "langeWoerter": 37
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "30.09.26, 22:00",
-     "fokus": "Finanzielle Kennzahlen und demografische Hintergründe",
-     "text": "Der Artikel beleuchtet umfassend die Entwicklung der Ausgaben, die Prognosen der Defizite bis 2030 sowie die Zusammensetzung der Eigenanteile.",
-     "url": "https://www.zdfheute.de/politik/deutschland/reform-pflegeversicherung-finanzen-milliarden-defizit-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 5,
-      "woerter": 1073,
-      "satzlaenge": 14,
-      "langeWoerter": 36
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "01.10.26, 14:55",
-     "fokus": "–",
-     "text": "Bundesgesundheitsminister Linnemann hat Einzelheiten zu den inhaltlichen Aufgaben der geplanten Kommission für eine grundlegende Pflegereform bekannt gebracht.",
-     "url": "https://www.deutschlandfunk.de/linnemann-cdu-benennt-themen-der-geplanten-pflegereform-kommission-102.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "01.10.26, 10:10",
-     "fokus": "–",
-     "text": "Bei der Pflege sollen vor allem Kinderlose künftig deutlich mehr zahlen. Doch das ist nicht die einzige Reform, die die Bundesregierung plant.",
-     "url": "https://www.spiegel.de/wirtschaft/service/steuern-rente-krankenversicherung-das-bedeuten-die-reformen-fuer-ihr-konto-a-6094afd9-a7da-47b0-b240-f1560aaf9cc8#ref=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 9,
-      "minuten": 1,
-      "woerter": 106,
-      "satzlaenge": 13,
-      "langeWoerter": 32
-     },
-     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "30.09.26, 18:45",
-     "fokus": "Politische Einordnung der Kompromisse",
-     "text": "Die Zeitung bewertet das Verhandlungsergebnis zwischen Union und SPD und geht auf die Rolle der Koalitionspartner sowie die Reaktionen von Kommunen ein.",
-     "url": "https://www.faz.net/aktuell/politik/inland/pflegeversicherung-was-carsten-linnemann-wirklich-gerettet-hat-201276574.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 9,
-      "minuten": 2,
-      "woerter": 382,
-      "satzlaenge": 18,
-      "langeWoerter": 30
-     },
-     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Details zu Beitragszahlen",
-     "ZDFheute nennt den aktuellen Zuschlag für Kinderlose konkret mit 0,6 Prozent und den Zielwert ab 2027 mit 0,9 Prozent, während Tagesschau/ARD vor allem die Erhöhung um 0,3 Prozentpunkte hervorhebt."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Bundesregierung, Bundeskabinett, Gesundheitsminister Carsten Linnemann",
-    "was": "Beschluss des Entwurfs für ein Pflegeneuordnungsgesetz",
-    "wann": "30. September 2026",
-    "wo": "Berlin, Deutschland",
-    "wie": "Durch Einigung der Koalitionspartner nach wochenlangen Verhandlungen",
-    "warum": "Um eine drohende Finanzlücke im zweistelligen Milliardenbereich abzuwenden",
-    "quellenlage": "Tagesschau/ARD, ZDFheute, Deutschlandfunk, Spiegel, FAZ"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Das Bundeskabinett hat sich nach Angaben von Tagesschau/ARD und ZDFheute auf den Entwurf eines sogenannten Pflegeneuordnungsgesetzes verständigt. Nach wochenlangen Verhandlungen innerhalb der Koalition aus Union und SPD wurde der Gesetzentwurf beschlossen. Das Gesetz zielt laut den Berichten in erster Linie darauf ab, die erwartete Finanzlücke in der Pflegeversicherung im kommenden Jahr abzuwenden. Bundesgesundheitsminister Carsten Linnemann bezeichnete den Beschluss als einen ersten wichtigen Schritt zur Stabilisierung des Systems.",
-      "Die gesetzliche Pflegeversicherung finanziert sich nach Angaben von ZDFheute nahezu komplett aus Beitragszahlungen. Die Einnahmen reichten demnach in den vergangenen Jahren nicht aus, um die steigenden Leistungen für Pflegebedürftige zu decken. Ohne zusätzliche Mittel droht der Kasse laut Tagesschau/ARD unter Berufung auf den GKV-Spitzenverband bereits ab Oktober die Zahlungsunfähigkeit. Für das laufende Jahr wird ein Gesamtdefizit von 4,4 Milliarden Euro erwartet, während für 2027 ein Betrag von 7,5 Milliarden Euro im Raum steht."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten des Gesetzentwurfs",
-     "absaetze": [
-      "Zur Schließung der Finanzlücke sieht der Entwurf laut Tagesschau/ARD verschiedene Einsparungen und Anpassungen bei den Beiträgen vor. Der allgemeine Beitragssatz bleibt demnach bei 3,6 Prozent stabil, während der Zuschlag für Kinderlose um 0,3 Prozentpunkte auf 0,9 Prozent steigt. ZDFheute nennt für den bisherigen Zuschlag einen Wert von 0,6 Prozent, der ab 2027 auf 0,9 Prozent angehoben werden soll. Zusätzlich wird laut Tagesschau/ARD für mitversicherte Ehegatten oder Lebenspartner ein Beitragszuschlag von 0,52 Prozent erhoben, wobei Ausnahmen für Eltern von Kindern mit Behinderungen oder pflegende Angehörige gelten sollen.",
-      "Die Beitragsbemessungsgrenze der Pflegeversicherung wird laut Tagesschau/ARD um 300 Euro pro Monat angehoben. ZDFheute präzisiert hierzu, dass die Grenze im kommenden Jahr bei einem monatlichen Bruttogehalt von 6.375 Euro liegen soll. Zudem fallen künftig auch für Minijobs Beiträge zur Pflegeversicherung an, was jährliche Einnahmen von 1,4 Milliarden Euro einbringen soll. Entgegen ursprünglichen Planungen übernimmt die Pflegeversicherung laut Tagesschau/ARD weiterhin die Rentenversicherungsbeiträge für pflegende Angehörige in vollem Umfang.",
-      "Im Bereich der Leistungen und Begutachtungen sind ebenfalls Änderungen vorgesehen. Die Begutachtungssystematik soll angepasst und die Pflegegrade 1 bis 3 sollen zielgenauer vergeben werden, wobei für bereits eingestufte Personen ein Bestandsschutz gilt. Bei Pflegegrad 1 fällt in der häuslichen Pflege der Entlastungsbeitrag von 131 Euro pro Monat weg. Ab 2028 soll es zudem Akut-Kurzzeitpflegeplätze und ein Überbrückungsbudget für Notdienste geben, während Familien mit pflegebedürftigen Kindern ein monatliches Sozialraumbudget von bis zu 300 Euro erhalten."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Ursachen der Krise",
-     "absaetze": [
-      "Hauptursache für die finanzielle Schieflage der Pflegeversicherung ist laut den Berichten der demografische Wandel. Der Anteil älterer Menschen in der Bevölkerung steigt kontinuierlich an, wodurch auch die Zahl der Pflegebedürftigen stark zunimmt. Während im Jahr 2005 noch rund 1,95 Millionen Menschen Leistungen erhielten, waren es 2025 bereits etwa sechs Millionen Menschen. Die Ausgaben stiegen im selben Zeitraum von 17 Milliarden Euro auf 70,4 Milliarden Euro an.",
-      "Zusätzlich hat sich das Verhältnis von Beitragszahlenden zu Leistungsempfangenden in den vergangenen Jahrzehnten deutlich verschlechtert. Laut Tagesschau/ARD kamen 1998 noch 29 Beitragszahlende auf einen Leistungsempfänger, im Jahr 2025 waren es nur noch zehn. Auch frühere Reformen wie die Ausweitung der Leistungen im Jahr 2017 und die Einführung von Zuschüssen zum Eigenanteil im Jahr 2022 haben laut ZDFheute und FAZ zu den stark gestiegenen Ausgaben beigetragen."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Die soziale Pflegeversicherung ist in Deutschland der fünfte Zweig der Sozialversicherung. Sie wurde im Jahr 1995 als Pflichtversicherung eingeführt, um Menschen bei der Bewältigung von Risiken im Fall von Pflegebedürftigkeit finanziell zu unterstützen.",
-      "Die Finanzierung erfolgt im Umlageverfahren."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen und Positionen",
-     "absaetze": [
-      "Die SPD hatte laut Tagesschau/ARD bis zuletzt grundlegende Reformen und einen sogenannten Pflegedeckel zur Begrenzung der Eigenanteile gefordert und zeitweise mit einer Blockade gedroht. Ein Sprecher von Finanzminister Lars Klingbeil betonte, zentral sei eine gerechtere Ausgestaltung der Pflege. Gesundheitsminister Carsten Linnemann zeigte sich gegenüber dem Pflegedeckel skeptisch, da das Problem nicht ausreichend gelöst werde und verfassungsrechtliche Hürden bei einem Finanzausgleich bestünden.",
-      "Die FAZ berichtet, dass die CDU mit dem Kompromiss eine stark unterfinanzierte Pflegeversicherung vorerst gerettet sieht, während die SPD ihre weitergehenden Vorschläge in einer geplanten Kommission einbringen will. Sozialverbände weisen laut Tagesschau/ARD darauf hin, dass die gesetzliche Pflegeversicherung im Vergleich zu privaten Anbietern strukturell benachteiligt sei, da private Kassen Anträge ablehnen können, während gesetzliche Kassen jeden aufnehmen müssen."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Umfassende strukturelle Reformen wurden in dem aktuellen Gesetzentwurf zunächst ausgeklammert. Das Bundeskabinett wird laut Tagesschau/ARD in der kommenden Woche den Auftrag zur Einsetzung einer Kommission beschließen. Dieses Expertengremium soll bis Ende Januar 2027 Vorschläge erarbeiten, um das System für die zwanziger Jahre grundlegend zu reformieren.",
-      "Ziel ist laut Gesundheitsminister Linnemann ein Kabinettsbeschluss bis Ostern, damit eine weitergehende Strukturreform zum ersten Juli zweitausendsiebenundzwanzig in Kraft treten kann."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Mittwoch",
-     "Ursprünglich geplanter Termin für den Beschluss des Gesetzentwurfs im Bundeskabinett."
-    ],
-    [
-     "Samstag",
-     "SPD-Fraktionschef Matthias Miersch erklärt Ablehnung eines reinen Kürzungspakets."
-    ],
-    [
-     "Montag",
-     "Gesundheitsminister Linnemann fordert Rückzahlung von Corona-Hilfen an die Pflegeversicherung."
-    ],
-    [
-     "Dienstag",
-     "Verhandlungen zwischen Union und SPD dauern den ganzen Tag an; Kabinettsberatung bleibt unklar."
-    ],
-    [
-     "Mittwoch",
-     "Ursprünglich geplanter Termin für den Kabinettsbeschluss."
-    ],
-    [
-     "Vergangene Woche",
-     "Die SPD droht mit einer Blockade der Reformpläne bei einem reinen Kürzungspaket."
-    ],
-    [
-     "Vor zwei Monaten",
-     "Carsten Linnemann übernimmt das Amt des Bundesgesundheitsministers."
-    ],
-    [
-     "Vergangenes Wochenende",
-     "In der SPD formiert sich Widerstand gegen den Entwurf der Pflegereform."
-    ],
-    [
-     "Sonntag",
-     "Gesundheitsminister Linnemann weist den Pflegekostendeckel im Fernsehen zurück."
-    ],
-    [
-     "Montag",
-     "Vertreter der Koalitionspartner verhandeln intensiv über die Pflegereform."
-    ],
-    [
-     "Dienstag",
-     "Verhandlungen zwischen Union und SPD dauern den ganzen Tag an."
-    ],
-    [
-     "Mittwoch",
-     "Das Bundeskabinett beschließt den Gesetzentwurf zur Pflegeversicherung."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Carsten Linnemann politician",
-     "bildunterschrift": "Bundesgesundheitsminister Carsten Linnemann hat die Eckpunkte des überarbeiteten Reformentwurfs vorgestellt."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "German Federal Ministry of Health building",
-     "bildunterschrift": "Das Bundesministerium für Gesundheit in Berlin ist für die Ausarbeitung der Reformgesetze zuständig."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Reichstag dome Berlin",
-     "bildunterschrift": "In Berlin berät die Bundesregierung über Maßnahmen zur langfristigen Sicherung der Sozialkassen."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Stethoscope healthcare symbol",
-     "bildunterschrift": "Ein Stethoscope steht symbolisch für das deutsche Gesundheitssystem und die Pflegeversicherung."
-    }
-   ],
-   "ort": {
-    "name": "Berlin, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Keine inhaltlichen Korrekturen am ursprünglichen JSON erforderlich, da alle Fakten durch die Berichte gestützt sind; Formatierungen im Fließtext wurden an Vorgaben angepasst."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Pflegeneuordnungsgesetz",
-      "Ein neues Gesetz der Bundesregierung, das Regeln und Finanzen der Pflegeversicherung verändert."
-     ],
-     [
-      "Beitragsbemessungsgrenze",
-      "Bis zu diesem Höchstbetrag vom Einkommen werden Beiträge für die Sozialversicherung berechnet. Alles was darüber liegt, ist beitragsfrei."
-     ],
-     [
-      "Umlageverfahren",
-      "Eine Art der Finanzierung, bei der die laufenden Einnahmen durch Beiträge sofort für die aktuellen Ausgaben genutzt werden."
-     ]
-    ],
-    "fragen": [
-     "Welche Vor- und Nachteile hat es, wenn politische Reformen in mehrere Schritte aufgeteilt werden?",
-     "Warum ist es schwierig, einen Ausgleich zwischen gesetzlicher und privater Pflegeversicherung zu finden?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welche Maßnahme ist Teil des beschlossenen Gesetzentwurfs?",
-      "optionen": [
-       "Die Abschaffung der Pflegeversicherung",
-       "Die Erhöhung des Zuschlags für Kinderlose",
-       "Ein sofortiger Deckel für alle Eigenanteile"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut Tagesschau und ZDF steigt der Zuschlag für Kinderlose um null Komma drei Prozentpunkte auf null Komma neun Prozent."
-     },
-     {
-      "frage": "Wer soll laut dem Beschluss bis Anfang 2027 Vorschläge für eine grundlegende Reform erarbeiten?",
-      "optionen": [
-       "Eine neu einzurichtende Kommission",
-       "Das Bundesverfassungsgericht",
-       "Der Europäische Gerichtshof"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und Frankfurter Allgemeine Zeitung soll eine Kommission bis Ende Januar 2027 Vorschläge vorlegen."
-     },
-     {
-      "frage": "Was ist laut den Berichten eine Hauptursache für die Finanznot der Pflegeversicherung?",
-      "optionen": [
-       "Sinkende Löhne in ganz Deutschland",
-       "Der demografische Wandel und eine steigende Zahl an Pflegebedürftigen",
-       "Zu hohe Steuern für Unternehmen"
-      ],
-      "richtig": 1,
-      "erklaerung": "ZDF und Tagesschau nennen den demografischen Wandel und den starken Anstieg der Pflegebedürftigen als Hauptursache."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Die Bundesregierung hat eine Reform der Pflegeversicherung beschlossen. Damit soll verhindert werden, dass der Pflegekasse das Geld ausgeht.",
-    "absaetze": [
-     "Die Koalition aus Union und SPD hat sich nach langen Gesprächen auf ein neues Gesetz geeinigt.",
-     "Für kinderlose Menschen wird die Pflegeversicherung teurer. Ihr Beitragszuschlag steigt auf null Komma neun Prozent.",
-     "Die SPD forderte zwar weitere Änderungen wie einen Deckel für die Kosten, konnte sich damit aber zunächst nicht durchsetzen.",
-     "Eine neue Kommission soll nun bis zum Jahr zweitausendsiebenundzwanzig Vorschläge für größere Umbauten erarbeiten."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Die Bundesregierung hat einen Gesetzentwurf zur Reform der Pflegeversicherung beschlossen.",
-     "Damit soll eine drohende Finanzlücke im kommenden Jahr abgewendet werden.",
-     "Unter anderem steigen die Beiträge für kinderlose Menschen.",
-     "Eine Kommission soll bis Anfang zweitausendsiebenundzwanzig weitere Reformen vorbereiten."
-    ],
-    "lang": [
-     "Das Bundeskabinett hat nach langen Verhandlungen einen Entwurf für ein Pflegeneuordnungsgesetz beschlossen.",
-     "Das teilten die Tagesschau und das ZDF am Mittwoch aus Berlin mit.",
-     "Das Gesetz soll eine drohende Finanzlücke im kommenden Jahr in der Pflegeversicherung verhindern.",
-     "Nach Angaben des Bundesgesundheitsministers Carsten Linnemann steigen unter anderem die Beiträge für kinderlose Menschen auf null Komma neun Prozent.",
-     "Zudem wird die Beitragsbemessungsgrenze um dreihundert Euro pro Monat angehoben.",
-     "Die Sozialdemokratische Partei Deutschlands forderte zuvor weitergehende Reformen wie einen Deckel für die Eigenanteile, konnte sich damit aber im Kabinett zunächst nicht durchsetzen.",
-     "Die Zeitung Frankfurter Allgemeine Zeitung berichtet, dass die Christlich Demokratische Union die Versicherung vorerst gerettet sieht.",
-     "Die gesetzliche Pflegeversicherung finanziert sich über Beiträge und leidet unter den steigenden Kosten einer älter werdenden Gesellschaft.",
-     "Eine neu einzurichtende Kommission soll nun bis Januar zweitausendsiebenundzwanzig Vorschläge für eine grundlegende Strukturreform erarbeiten.",
-     "Der Bundestag muss dem Gesetzentwurf in den kommenden Monaten noch zustimmen."
-    ],
-    "einfach": [
-     "Die Bundesregierung hat ein neues Gesetz für die Pflege beschlossen.",
-     "Der Pflegekasse fehlt viel Geld für die vielen älteren Menschen.",
-     "Deshalb müssen kinderlose Menschen künftig mehr Geld für die Versicherung bezahlen.",
-     "Die Sozialdemokratische Partei Deutschlands wollte noch größere Änderungen, konnte sich aber nicht durchsetzen.",
-     "Eine neue Gruppe von Experten soll nun weitere Pläne erarbeiten."
-    ]
-   },
-   "kurz": [
-    "Das Bundeskabinett hat einen Entwurf für ein Pflegeneuordnungsgesetz beschlossen.",
-    "Die Reform soll eine drohende Finanzlücke in Milliardenhöhe in der Pflegeversicherung abwenden.",
-    "Kinderlose zahlen künftig einen höheren Beitragszuschlag zur Pflegeversicherung.",
-    "Eine neue Kommission soll bis Anfang zweitausendsiebenundzwanzig Vorschläge für weitere Strukturreformen erarbeiten."
-   ],
-   "fakten": [
-    [
-     "Finanzlücke 2027",
-     "8 Milliarden Euro"
-    ],
-    [
-     "Zuschlag für Kinderlose ab 2027",
-     "0,9 Prozent"
-    ],
-    [
-     "Beitragssatz allgemein",
-     "3,6 Prozent"
-    ],
-    [
-     "Pflegebedürftige im Jahr 2025",
-     "6 Millionen"
-    ]
-   ],
-   "dossier": {
-    "slug": "pflegereform-2026",
-    "titel": "Reform der Pflegeversicherung in Deutschland"
-   },
-   "bildInfo": {
-    "titel": "2025-02-23 Bundestagswahl – Wahlabend CDU by Sandro Halank–052.jpg",
-    "beschreibung": "Federal election 2025 – CDU election night at the Konrad-Adenauer-Haus in Berlin: Carsten Linnemann (CDU), Secretary General",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg/1280px-2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg",
-    "urheber": "Sandro Halank, Wikimedia Commons",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artikel": "Carsten Linnemann",
-    "sprache": "en",
-    "art": "person",
-    "suchbegriff": "Carsten Linnemann politician",
-    "bildunterschrift": "Carsten Linnemann, Generalsekretär der CDU, bei einer Veranstaltung.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "2025-02-23 Bundestagswahl – Wahlabend CDU by Sandro Halank–052.jpg",
-     "beschreibung": "Federal election 2025 – CDU election night at the Konrad-Adenauer-Haus in Berlin: Carsten Linnemann (CDU), Secretary General",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg/1280px-2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2025-02-23_Bundestagswahl_%E2%80%93_Wahlabend_CDU_by_Sandro_Halank%E2%80%93052.jpg",
-     "urheber": "Sandro Halank, Wikimedia Commons",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Carsten Linnemann",
-     "sprache": "en",
-     "art": "person",
-     "suchbegriff": "Carsten Linnemann politician",
-     "bildunterschrift": "Carsten Linnemann, Generalsekretär der CDU, bei einer Veranstaltung.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2025-05-05 Unterzeichnung des Koalitionsvertrages der 21. Wahlperiode des Bundestages (Martin Rulsch) 170.jpg",
-     "beschreibung": "Signing of the coalition agreement for the 21st election period of the Bundestag (Germany) at 5 May 2025",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/2025-05-05_Unterzeichnung_des_Koalitionsvertrages_der_21._Wahlperiode_des_Bundestages_%28Martin_Rulsch%29_170.jpg/1280px-2025-05-05_Unterzeichnung_des_Koalitionsvertrages_der_21._Wahlperiode_des_Bundestages_%28Martin_Rulsch%29_170.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/80/2025-05-05_Unterzeichnung_des_Koalitionsvertrages_der_21._Wahlperiode_des_Bundestages_%28Martin_Rulsch%29_170.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2025-05-05_Unterzeichnung_des_Koalitionsvertrages_der_21._Wahlperiode_des_Bundestages_(Martin_Rulsch)_170.jpg",
-     "urheber": "Martin Rulsch , Wikimedia Commons",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Jens Spahn",
-     "sprache": "de",
-     "art": "institution",
-     "suchbegriff": "Bundesministerium für Gesundheit Germany",
-     "bildunterschrift": "Symbolbild für den Koalitionsvertrag und politische Absprachen im Bundestag.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2023-07-23 Bundesministerium für Gesundheit, Friedrichstraße 8 04.jpg",
-     "beschreibung": "Federal Ministry of Health, Federal Government Commissioner for Long-Term Care, Federal Government Commissioner for Patients' Affairs and Federal Government Commissioner for Addiction and Drug Issues ",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/2023-07-23_Bundesministerium_f%C3%BCr_Gesundheit%2C_Friedrichstra%C3%9Fe_8_04.jpg/1280px-2023-07-23_Bundesministerium_f%C3%BCr_Gesundheit%2C_Friedrichstra%C3%9Fe_8_04.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2023-07-23_Bundesministerium_f%C3%BCr_Gesundheit%2C_Friedrichstra%C3%9Fe_8_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2023-07-23_Bundesministerium_f%C3%BCr_Gesundheit,_Friedrichstra%C3%9Fe_8_04.jpg",
-     "urheber": "Bärbel Miemietz",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "institution",
-     "suchbegriff": "Bundesministerium für Gesundheit Germany",
-     "bildunterschrift": "Das Bundesministerium für Gesundheit in Berlin.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Berlin, Deutschland",
-    "lat": 52.517,
-    "lon": 13.395
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Das Bundeskabinett hat nach langen Verhandlungen einen Entwurf für ein Pflegeneu",
-     "d": "800418f704.mp3",
-     "l": 66.8,
-     "s": [
-      0.25,
-      6.29,
-      10.68,
-      16.1,
-      24.32,
-      29.38,
-      39.07,
-      46.16,
-      54.15,
-      62.28
-     ]
-    },
-    {
-     "k": "Die Bundesregierung hat einen Gesetzentwurf zur Reform der Pflegeversicherung be",
-     "d": "dd83d64f21.mp3",
-     "l": 17.78,
-     "s": [
-      0.25,
-      5.12,
-      9.19,
-      12.37
-     ]
-    },
-    {
-     "k": "Die Bundesregierung hat ein neues Gesetz für die Pflege beschlossen. Der Pflegek",
-     "d": "402f874e75.mp3",
-     "l": 27.87,
-     "s": [
-      0.25,
-      4.92,
-      9.65,
-      14.88,
-      22.43
-     ]
-    },
-    {
-     "k": "Ob die geplante Kommission bis Januar 2027 konkrete Einigungen zu einem Pflegede",
-     "d": "7077cc4254.mp3",
-     "l": 10.56,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Pflegeneuordnungsgesetz? Ein neues Gesetz der Bundesregi",
-     "d": "08727bf76b.mp3",
-     "l": 10.9,
-     "s": [
-      0.25,
-      4.19
-     ]
-    },
-    {
-     "k": "Das Bundeskabinett hat sich nach Angaben von Tagesschau/ARD und ZDFheute auf den",
-     "d": "663438fd97.mp3",
-     "l": 64.5,
-     "s": [
-      0.25,
-      9.48,
-      16.1,
-      23.79,
-      31.22,
-      38.34,
-      44.89,
-      53.49
-     ]
-    },
-    {
-     "k": "Zur Schließung der Finanzlücke sieht der Entwurf laut Tagesschau/ARD verschieden",
-     "d": "8f44ff46dd.mp3",
-     "l": 67.91,
-     "s": [
-      0.25,
-      8.22,
-      18.26,
-      28.25,
-      41.88,
-      49.05,
-      55.17,
-      58.49
-     ]
-    },
-    {
-     "k": "Hauptursache für die finanzielle Schieflage der Pflegeversicherung ist laut den ",
-     "d": "35d65c7555.mp3",
-     "l": 62.82,
-     "s": [
-      0.25,
-      6.51,
-      13.99,
-      23.9,
-      30.58,
-      37.88,
-      49.17
-     ]
-    },
-    {
-     "k": "Die soziale Pflegeversicherung ist in Deutschland der fünfte Zweig der Sozialver",
-     "d": "c11b4cdfd0.mp3",
-     "l": 19.5,
-     "s": [
-      0.25,
-      5.76,
-      16.42
-     ]
-    },
-    {
-     "k": "Die SPD hatte laut Tagesschau/ARD bis zuletzt grundlegende Reformen und einen so",
-     "d": "67c45162af.mp3",
-     "l": 51.54,
-     "s": [
-      0.25,
-      11.31,
-      17.67,
-      27.65,
-      38.34
-     ]
-    },
-    {
-     "k": "Umfassende strukturelle Reformen wurden in dem aktuellen Gesetzentwurf zunächst ",
-     "d": "49e7d92e64.mp3",
-     "l": 32.45,
-     "s": [
-      0.25,
-      5.76,
-      12.87,
-      22.14
      ]
     }
    ]
