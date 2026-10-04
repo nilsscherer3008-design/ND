@@ -1,0 +1,684 @@
+{
+ "id": "2026-10-04-18",
+ "name": "18-Uhr-Ausgabe",
+ "stunde": 18,
+ "zeit": "2026-10-04T18:07:31.393Z",
+ "themen": [
+  {
+   "id": "lettland-parlamentswahl",
+   "titel": "Parlamentswahl in Lettland: Regierungspartei erzielt Stimmengewinne",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Andris Kulbergs 2026.jpg",
+     "beschreibung": "RIGA, LATVIA. 20th June 2026. Andrius Kubilius, European Commissioner for Defence and Space meeting with Andris Kulbergs, Prime Minister of Latvia.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/93/Andris_Kulbergs_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Andris_Kulbergs_2026.jpg",
+     "urheber": "Gints Ivuskans",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "artikel": "Andris Kulbergs",
+     "sprache": "en",
+     "art": "person",
+     "suchbegriff": "Andris Kulbergs politician",
+     "bildunterschrift": "Der lettische Politiker Andris Kulbergs.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Riga - 36242016865.jpg",
+     "beschreibung": "Latvia - July 2017",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Riga_-_36242016865.jpg/1280px-Riga_-_36242016865.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Riga_-_36242016865.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Riga_-_36242016865.jpg",
+     "urheber": "Sergei Gussev",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Latvian Academy of Sciences",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Riga cityscape",
+     "bildunterschrift": "Blick auf die lettische Hauptstadt Riga.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Riga, Lettland",
+    "lat": 56.949,
+    "lon": 24.105
+   },
+   "saetze": [
+    "In Lettland hat das Wahlbündnis Vereinigte Liste von Ministerpräsident Andris Kulbergs die Parlamentswahl gewonnen.",
+    "Das teilten Medien wie die Tagesschau und der Spiegel am Sonntag mit.",
+    "Das Bündnis kam demnach auf einen Stimmenanteil von rund fünfunddreißig Prozent.",
+    "Die Stimmabgabe fand am dritten und vierten Oktober zweitausendsechsundzwanzig statt.",
+    "Die Wahlbeteiligung sank nach Medienangaben auf rund einundfünfzig Komma acht Prozent.",
+    "Im Wahlkampf spielten vor allem die Themen nationale Sicherheit und wirtschaftliche Probleme eine große Rolle.",
+    "Zweitstärkste Kraft wurde laut Medienberichten die Partei Lettland Zuerst.",
+    "Einige Medien berichten von einundvierzig Sitzen für die Vereinigte Liste, andere nennen zweiundvierzig Sitze.",
+    "Präsident Edgars Rinkevics äußerte sich besorgt über die geringe Wahlbeteiligung.",
+    "Die Parteien müssen nun über die Bildung einer neuen Regierung sprechen."
+   ]
+  },
+  {
+   "id": "merz-kiew-besuch",
+   "titel": "Bundeskanzler Merz besucht Kiew und sagt weitere Hilfen zu",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Friedrich Merz in 2026.jpg",
+     "beschreibung": "55095287508_663dacb01a_o",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Friedrich_Merz_in_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Friedrich_Merz_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Friedrich_Merz_in_2026.jpg",
+     "urheber": "Stenbocki maja from Estonia",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "artikel": "Friedrich Merz",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Friedrich Merz",
+     "bildunterschrift": "Der deutsche Bundeskanzler Friedrich Merz.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Volodymyr Zelensky Official portrait.jpg",
+     "beschreibung": "Official portrait of Volodymyr Zelenskyy .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Volodymyr_Zelensky_Official_portrait.jpg/1280px-Volodymyr_Zelensky_Official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Volodymyr_Zelensky_Official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_Official_portrait.jpg",
+     "urheber": "http://www.president.gov.ua/",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Volodymyr Zelenskyy",
+     "bildunterschrift": "Der ukrainische Präsident Wolodymyr Selenskyj.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Kiew, Ukraine",
+    "lat": 50.45,
+    "lon": 30.524
+   },
+   "saetze": [
+    "Bundeskanzler Friedrich Merz ist am Sonntag zu einem politischen Besuch nach Kiew gereist.",
+    "Er reiste mit dem Sonderzug in die ukrainische Hauptstadt.",
+    "Dort traf er den ukrainischen Präsidenten Wolodymyr Selenskyj.",
+    "Die Politiker besichtigten gemeinsam ein beschädigtes Gebäude der Akademie der Wissenschaften.",
+    "Merz kündigte neue Hilfen von rund einer Milliarde Euro für die Rüstung an.",
+    "Zudem wurden Wirtschaftsverträge über mehrere Milliarden Euro unterzeichnet.",
+    "Nach Angaben von Selenskyj planen die Vereinigten Staaten neue Gespräche zwischen den USA, Russland und der Ukraine auf Expertenebene.",
+    "Merz betonte, dass die Unterstützung der Ukraine im eigenen Sicherheitsinteresse Deutschlands liegt.",
+    "Das russische Außenministerium hatte zuvor vor Reisen in die Ukraine gewarnt.",
+    "Wie sich die diplomatischen Gespräche entwickeln, bleibt in den kommenden Wochen abzuwarten."
+   ]
+  },
+  {
+   "id": "brasilien-praesidentschaftswahl",
+   "titel": "Präsidentschaftswahl in Brasilien",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Mikhail Mishustin and Luiz Inácio Lula da Silva (2026-02-05).jpg",
+     "beschreibung": "Mikhail Mishustin's meeting with Brazilian President Luiz Inácio Lula da Silva",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg/1280px-Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_%282026-02-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Mikhail_Mishustin_and_Luiz_In%C3%A1cio_Lula_da_Silva_(2026-02-05).jpg",
+     "urheber": "government.ru",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "person",
+     "suchbegriff": "Luiz Inacio Lula da Silva politician",
+     "bildunterschrift": "Der brasilianische Präsident Luiz Inácio Lula da Silva.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Foto oficial do senador Flávio Bolsonaro (v. AgSen).jpg",
+     "beschreibung": "Senador pelo Rio de Janeiro, Flávio Bolsonaro",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg/1280px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_(v._AgSen).jpg",
+     "urheber": "Agência Senado",
+     "lizenz": "Attribution",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Flavio Bolsonaro politician",
+     "bildunterschrift": "Der Senator und Präsidentschaftskandidat Flávio Bolsonaro.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Museu da República 1 edit.jpg",
+     "beschreibung": "Museu da República and ministerial office buildings of Esplanada dos Ministérios in Brasilia, Brazil.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Museu_da_Rep%C3%BAblica_1_edit.jpg/1280px-Museu_da_Rep%C3%BAblica_1_edit.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/55/Museu_da_Rep%C3%BAblica_1_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Museu_da_Rep%C3%BAblica_1_edit.jpg",
+     "urheber": "Fwsbsb",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Brasilia cityscape",
+     "bildunterschrift": "Das Museum der Republik und Ministeriumsgebäude in der Hauptstadt Brasília.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Brasília, Brasilien",
+    "lat": -15.794,
+    "lon": -47.883
+   },
+   "saetze": [
+    "In Brasilien hat die Wahl zur Bestimmung eines neuen Staatspräsidenten begonnen.",
+    "Rund 159 Millionen Menschen sind in dem südamerikanischen Land zur Stimmabgabe aufgerufen.",
+    "Im Mittelpunkt stehen der amtierende linke Präsident Luiz Inácio Lula da Silva und sein Herausforderer Flávio Bolsonaro.",
+    "Flávio Bolsonaro ist der älteste Sohn des früheren Präsidenten Jair Bolsonaro.",
+    "Nach Angaben des Instituts Datafolha liegt Lula in Umfragen bei 45 Prozent der Stimmen.",
+    "Herausforderer Flávio Bolsonaro kommt in diesen Umfragen auf 36 Prozent.",
+    "Nach Berichten von ZDFheute und Deutscher Welle wird eine Stichwahl am fünfundzwanzigsten Oktober als wahrscheinlich angesehen.",
+    "Der Journalist Pedro Doria sagte gegenüber ZDFheute, dass es bei der Wahl vor allem darum gehe, wen man ablehne.",
+    "Die Wahl findet im Rahmen einer verpflichtenden Abstimmung für erwachsene Staatsbürger statt.",
+    "Neben dem Präsidenten werden nach Angaben der Deutschen Welle auch das Parlament und die Gouverneure gewählt."
+   ]
+  },
+  {
+   "id": "oktoberfest-besucherrekord",
+   "titel": "Abschluss des 191. Oktoberfests mit neuen Höchstwerten",
+   "rubrik": "Deutschland",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Wiesn2006 Luftaufnahme.jpg",
+     "beschreibung": "Aerial view of the Theresienwiese one day before the opening of the Munich Oktoberfest 2006, Bavaria , Germany .",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Wiesn2006_Luftaufnahme.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Wiesn2006_Luftaufnahme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Wiesn2006_Luftaufnahme.jpg",
+     "urheber": "Stefan Weigel",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "artikel": "Oktoberfest",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Theresienwiese Munich",
+     "bildunterschrift": "Luftaufnahme der Theresienwiese in München.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Bavaria Statue and Ruhmeshalle Munich, April 2019 -02.jpg",
+     "beschreibung": "The Ruhmeshalle (\"Hall of fame\"), built from 1843 - 1853 by Leo von Klenze , is the building in the background of the Bavaria statue in Munich .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Bavaria_Statue_and_Ruhmeshalle_Munich%2C_April_2019_-02.jpg/1280px-Bavaria_Statue_and_Ruhmeshalle_Munich%2C_April_2019_-02.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bavaria_Statue_and_Ruhmeshalle_Munich%2C_April_2019_-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bavaria_Statue_and_Ruhmeshalle_Munich,_April_2019_-02.jpg",
+     "urheber": "Martin Falbisoner",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "suchbegriff": "Bavaria statue Munich",
+     "bildunterschrift": "Die Bavaria-Statue und die Ruhmeshalle in München.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "München, Deutschland",
+    "lat": 48.137,
+    "lon": 11.575
+   },
+   "saetze": [
+    "Das Oktoberfest in München ist nach sechzehn Tagen mit einem neuen Rekord zu Ende gegangen.",
+    "Nach Angaben der Stadt besuchten sieben Komma vier Millionen Menschen das Volksfest.",
+    "Das sind so viele Gäste wie noch nie zuvor in der Geschichte.",
+    "Auf dem Gelände wurden insgesamt sechs Komma sieben Millionen Maß Bier ausgeschenkt.",
+    "Ein neues Sicherheitskonzept verhinderte nach Angaben der Stadt gefährliche Überfüllungen.",
+    "Das Fest wurde jedoch von schweren Unfällen und zwei Todesfällen von Mitarbeitern überschattet.",
+    "Die Polizei registrierte achthundertvierzig Straftaten und sprach von einer überwiegend friedlichen Stimmung.",
+    "Der Münchner Oberbürgermeister Dominik Krause bezeichnete das Fest als eine wunderschöne Veranstaltung.",
+    "Ein schwerer Busunfall auf der Autobahn auf dem Weg zum Fest forderte zudem zwei Menschenleben.",
+    "Zum Abschluss beendeten Böllerschützen das Oktoberfest traditionell am Sonntagmittag."
+   ]
+  },
+  {
+   "id": "schuelerproteste-frankreich",
+   "titel": "Schülerproteste und Schulschließungen in Frankreich",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [],
+   "ort": {
+    "name": "Paris, Frankreich",
+    "lat": 48.853,
+    "lon": 2.348
+   },
+   "saetze": [
+    "In Frankreich kommt es zu landesweiten Schülerprotesten gegen geplante staatliche Sparmaßnahmen im Bildungswesen.",
+    "Nach Angaben von Behörden und Ministerien bleiben am Montag zwischen vierhundert und fünfhundert Schulen geschlossen.",
+    "Grund dafür sind Sicherheitsrisiken und Schäden an den Gebäuden nach Ausschreitungen.",
+    "Der französische Bildungsminister Édouard Geffray erklärte, dass seit Beginn der Proteste vierundzwanzig Schulen verwüstet und achtuensiebzig Mitarbeiter verletzt wurden.",
+    "Zudem kam es nach Angaben des Guardian zu mehr als fünftausend Festnahmen bei Zusammenstößen mit der Polizei.",
+    "Die Jugendlichen protestieren gegen eine Unterfinanzierung des Schulsystems und die Sparpläne der Regierung.",
+    "Nach Angaben der Regierung haben politische Aktivisten aus dem linken Spektrum die Proteste für extreme Gewalt missbraucht.",
+    "Gewerkschaften und Protestorganisatoren kündigten für die kommenden Tage dennoch neue Demonstrationen an.",
+    "Die Regierung plant gleichzeitig eine schrittweise Wiederaufnahme des Unterrichts in den betroffenen Einrichtungen."
+   ]
+  },
+  {
+   "id": "spanische-wohnungskrise-parlament",
+   "titel": "Politischer Konflikt und Massenproteste in Spanien nach dem Scheitern von Mietgesetzen",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Risa Hontiveros and Pedro Sánchez in 2026.jpg",
+     "beschreibung": "Philippine senator Risa Hontiveros meets Spanish prime minister Pedro Sánchez during the Global Progressive Mobilisation meeting in Barcelona , Spain, on 18 April 2026.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Risa_Hontiveros_and_Pedro_S%C3%A1nchez_in_2026.jpg",
+     "urheber": "Senator Risa Hontiveros",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Pedro Sánchez politician",
+     "bildunterschrift": "Der spanische Premierminister Pedro Sánchez im Jahr 2026.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Madrid Cityscape.jpg",
+     "beschreibung": "Madrid Cityscape, Spain",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Madrid_Cityscape.jpg/1280px-Madrid_Cityscape.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Madrid_Cityscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Madrid_Cityscape.jpg",
+     "urheber": "Justraveling.com",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Madrid cityscape",
+     "bildunterschrift": "Stadtbild von Madrid, der Hauptstadt Spaniens.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Cityscape of Madrid.JPG",
+     "beschreibung": "Cityscape of Madrid",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cityscape_of_Madrid.JPG/1280px-Cityscape_of_Madrid.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cityscape_of_Madrid.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Cityscape_of_Madrid.JPG",
+     "urheber": "Superchilum",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "ort",
+     "suchbegriff": "Madrid cityscape",
+     "bildunterschrift": "Ein weiterer Blick auf das Stadtbild von Madrid.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Madrid, Spanien",
+    "lat": 40.417,
+    "lon": -3.704
+   },
+   "saetze": [
+    "In Spanien haben Zehntausende Menschen gegen die große Wohnungsnot demonstriert.",
+    "Am Wochenende fanden in mehr als fünfzig spanischen Städten Kundgebungen statt.",
+    "Ausgelöst wurden die Proteste durch das Scheitern wichtiger Mietgesetze im Parlament und die Zwangsräumung einer Rentnerin.",
+    "Das Parlament lehnte am Freitag zwei Gesetzespakete der Regierung ab.",
+    "Das teilten Medien und die beteiligten Nachrichtenagenturen übereinstimmend mit.",
+    "Gegner der Reformen argumentierten, die Gesetze würden das Wohnungsangebot verringern.",
+    "Die Veranstalter der Proteste sprachen in Madrid von fünfhunderttausend Teilnehmern.",
+    "Nach Regierungsangaben waren es dagegen siebzigtausend Demonstranten in der Hauptstadt.",
+    "Ministerpräsident Pedro Sánchez prüft nach der Niederlage im Parlament mögliche vorgezogene Neuwahlen im November.",
+    "Eine offizielle Entscheidung über einen neuen Wahltermin gab es zunächst noch nicht."
+   ]
+  },
+  {
+   "id": "flydubai-notlandung-angriff",
+   "titel": "Ermittlungen zu versuchtem Terrorakt auf Flug von Flydubai",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Benjamin Netanyahu 2018.jpg",
+     "beschreibung": "Depicted person: Benjamin Netanyahu – Prime Minister of Israel (born 1949), (1996–1999; 2009–2021; 2022–present)",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Benjamin_Netanyahu_2018.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/19/Benjamin_Netanyahu_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_2018.jpg",
+     "urheber": "US Department of State",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Benjamin Netanyahu",
+     "bildunterschrift": "Benjamin Netanyahu, der Ministerpräsident von Israel, ist auf dem offiziellen Porträt zu sehen.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Tabuk, Saudi-Arabien",
+    "lat": 28.325,
+    "lon": 37.633
+   },
+   "saetze": [
+    "Ein gewaltsamer Vorfall im Cockpit eines Flydubai-Fluges hat internationale Ermittlungen ausgelöst.",
+    "Am Mittwoch flog eine Maschine von Dubai nach Tel Aviv.",
+    "Nach Angaben der Behörden griff der Copilot den Kapitän mit einer Axt an.",
+    "Das Flugzeug verlor während des Angriffs massiv an Höhe.",
+    "Der verletzte Pilot Smit Machchhar öffnete die Cockpittür.",
+    "Passagiere überwältigten den Angreifer, und eine zweite Besatzung landete das Flugzeug sicher im saudi-arabischen Tabuk.",
+    "Die Generalstaatsanwaltschaft der Vereinigten Arabischen Emirate und die israelische Regierung werten den Vorfall nach Medienangaben als Terrorakt.",
+    "Nach übereinstimmenden Berichten war der Angreifer zuvor im Oman wegen Sicherheitsbedenken und extremistischer Ansichten suspendiert worden.",
+    "Die Ermittlungen zu den Hintergründen und Motiven dauern an."
+   ]
+  },
+  {
+   "id": "g7-freigabe-oel-reserven",
+   "titel": "Freigabe von Energierezerven zur Entlastung der Märkte",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Donald Trump official portrait.jpg",
+     "beschreibung": "President Donald Trump poses for his official portrait at The White House, in Washington, D.C., on Friday, October 6, 2017. (Official White House Photo by Shealah Craighead)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1280px-Donald_Trump_official_portrait.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Donald_Trump_official_portrait.jpg",
+     "urheber": "Shealeah Craighead",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Donald Trump official portrait",
+     "bildunterschrift": "US-Präsident Donald Trump, dessen Land zu den G7-Staaten gehört.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Emmanuel Macron 2025 (cropped).jpg",
+     "beschreibung": "Foto: Nebojša Tejić / STA",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg/1280px-Emmanuel_Macron_2025_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Emmanuel_Macron_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+     "urheber": "Nebojša Tejić",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Emmanuel Macron",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Emmanuel Macron",
+     "bildunterschrift": "Der französische Präsident Emmanuel Macron, dessen Land an den G7-Beratungen beteiligt ist.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "saetze": [
+    "Die G7-Staaten haben am Freitag die Freigabe von bis zu einhundert Millionen Barrel Öl und Diesel beschlossen.",
+    "Die Maßnahme soll die weltweit stark gestiegenen Energiepreise senken.",
+    "Zu den G7 gehören Deutschland, Frankreich, Italien, Großbritannien, die Vereinigten Staaten, Kanada und Japan.",
+    "Die Internationale Energieagentur koordiniert die Verteilung über einen Zeitraum von vier Monaten.",
+    "Zuvor hatte der amerikanische Präsident Donald Trump mit einem Exportstopp für Diesel gedroht.",
+    "Nach der Einigung erklärte Trump nach Angaben des Senders ZDFheute, dass ein Exportverbot nie wirklich auf dem Tisch war.",
+    "Wirtschaftsexperten wie die Ökonomin Samina Sultan kritisieren laut der Tagesschau, dass die Freigabe das grundsätzliche Problem nicht löst.",
+    "Die Bundeswirtschaftsministerin Katherina Reiche erklärte nach übereinstimmenden Berichten von Tagesschau und Spiegel, dass die Energieversorgung in Deutschland sicher ist.",
+    "Die Freigabe soll den Kraftstoffmarkt unmittelbar entlasten und das Angebot an Tankstellen erhöhen.",
+    "Unklar ist bisher, welche Partnerländer genau zusätzliche Bestände freigeben werden."
+   ]
+  },
+  {
+   "id": "manchester-city-finanzaffaere",
+   "titel": "Finanzverfahren und Berufung im Fall Manchester City",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Josep Guardiola 2023-10-04 Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC 1DX 2797 (cropped).jpg",
+     "beschreibung": "Fußball, Männer, UEFA Champions League, RB Leipzig - Manchester City FC: Josep \"Pep\" Guardiola Sala (Manchester City, Cheftrainer, head coach) bei der Pressekonferenz; Porträt, Einzelbild",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Pep Guardiola",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Pep Guardiola football manager",
+     "bildunterschrift": "Josep Guardiola ist der Trainer des Fußballvereins Manchester City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Manchester city etihad stadium (cropped).jpg",
+     "beschreibung": "Manchester City Etihad Stadium, Manchester, England, United Kingdom",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Manchester_city_etihad_stadium_%28cropped%29.jpg/1280px-Manchester_city_etihad_stadium_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Manchester_city_etihad_stadium_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Manchester_city_etihad_stadium_(cropped).jpg",
+     "urheber": "Arne Müseler",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Etihad Stadium (Manchester)",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Etihad Stadium Manchester",
+     "bildunterschrift": "Das Etihad Stadium ist die Heimspielstätte des englischen Fußballvereins Manchester City.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Sergio Aguero statue - Etihad Stadium.jpg",
+     "beschreibung": "The Sergio Aguero statue at the Etihad Stadium in Manchester.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Sergio_Aguero_statue_-_Etihad_Stadium.jpg/1280px-Sergio_Aguero_statue_-_Etihad_Stadium.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Sergio_Aguero_statue_-_Etihad_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sergio_Aguero_statue_-_Etihad_Stadium.jpg",
+     "urheber": "Christian David",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Etihad Stadium Manchester",
+     "bildunterschrift": "Eine Statue am Etihad Stadium erinnert an den Spieler Sergio Aguero.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Manchester, Vereinigtes Königreich",
+    "lat": 53.442,
+    "lon": -2.232
+   },
+   "saetze": [
+    "Der englische Fußballverein Manchester City geht juristisch gegen einen Schuldspruch der Premier League vor.",
+    "Das bestätigte der Verein nach Angaben von Medienberichten am Freitag.",
+    "Eine unabhängige Kommission hatte dem Verein zuvor schwerwiegende Verstöße gegen die Finanzregeln vorgeworfen.",
+    "Der Club kündigte an, eine umfassende Berufung gegen das Urteil einzureichen.",
+    "Zusätzlich soll die britische Steuerbehörde nach Forderungen aus dem Parlament die Ergebnisse untersuchen.",
+    "Ausgelöst wurde diese Forderung durch einen Bericht über mögliche Scheinverträge.",
+    "Der Verein weist die Vorwürfe zurück und spricht von Fehlern in dem Gutachten.",
+    "Ein Sprecher des britischen Premierministers Andy Burnham erklärte, der unabhängige Prozess müsse seinen Lauf nehmen.",
+    "Wann eine endgültige Entscheidung oder eine Strafe folgt, ist bisher noch offen."
+   ]
+  },
+  {
+   "id": "israel-oberstes-gericht-arabische-parteien",
+   "titel": "Oberstes Gericht in Israel erlaubt Teilnahme arabischer Parteien an Parlamentswahl",
+   "rubrik": "Welt",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Israel Supreme Court.jpg",
+     "beschreibung": "Supreme Court of Israel",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
+     "urheber": "israeltourism",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Hearing hall in Israel supreme court.jpg",
+     "beschreibung": "אולם ב' בבית המשפט העליון בירושלים",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hearing_hall_in_Israel_supreme_court.jpg/1280px-Hearing_hall_in_Israel_supreme_court.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hearing_hall_in_Israel_supreme_court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Hearing_hall_in_Israel_supreme_court.jpg",
+     "urheber": "Avi1111 dr. avishai teicher",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Der Verhandlungssaal im Obersten Gericht in Jerusalem.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "PikiWiki Israel 44720 The Supreme Court building .jpg",
+     "beschreibung": "The Supreme Court building",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg/1280px-PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
+     "urheber": "shaula haitner",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "art": "ort",
+     "suchbegriff": "Supreme Court of Israel building",
+     "bildunterschrift": "Eine weitere Ansicht des Gebäudes des Obersten Gerichts in Israel.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Jerusalem, Israel",
+    "lat": 31.779,
+    "lon": 35.226
+   },
+   "saetze": [
+    "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Parlamentswahl gekippt.",
+    "Die Richter entschieden am zweiten Oktober des Jahres zweitausendsechs in Jerusalem.",
+    "Das Zentrale Wahlkomitee hatte zuvor mit achtzehn zu fünf Stimmen gegen die Zulassung gestimmt.",
+    "Als Grund wurden in Anträgen Sicherheitsbedenken und der Vorwurf der Unterstützung des bewaffneten Kampfes genannt.",
+    "Die betroffenen Parteien verurteilten den Beschluss nach Angaben der Tagesschau als rassistisch und antidemokratisch.",
+    "Das Gericht befand die Entscheidung des Komitees jedoch für nicht rechtmäßig.",
+    "Nach Berichten der Tageszeitung taz zog der Politiker Sami Abu Shehadeh seine Kandidatur nach einer Empfehlung des Gerichts zurück.",
+    "Laut Meinungsumfragen kann bei der Wahl Ende Oktober keine Seite mit einer absoluten Mehrheit rechnen.",
+    "Die kleineren Parteien könnten nach Angaben des Spiegels eine wichtige Rolle bei der Regierungsbildung einnehmen.",
+    "Ob die rechtsextreme Partei von Polizeiminister Itamar Ben-Gvir ebenfalls ausgeschlossen werden sollte, blieb im Komitee umstritten."
+   ]
+  },
+  {
+   "id": "inflation-euroraum",
+   "titel": "Inflationsrate im Euroraum steigt im September auf 3,8 Prozent",
+   "rubrik": "Wirtschaft",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "Christine Lagarde (cropped).jpg",
+     "beschreibung": "Read more: <a href=\" http://www.europarl.europa.eu/news/en \" rel=\"noreferrer nofollow\">www.europarl.europa.eu/news/en</a> This photo is free to use under Creative Commons license CC-BY-4.0 and must be",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Christine_Lagarde_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Christine_Lagarde_(cropped).jpg",
+     "urheber": "European Parliament from EU",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Christine Lagarde",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Christine Lagarde",
+     "bildunterschrift": "Christine Lagarde, Präsidentin der Europäischen Zentralbank.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Europäische Zentralbank Frankfurt.jpg",
+     "beschreibung": "European Central Bank at Frankfurt , Germany",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg/1280px-Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Europ%C3%A4ische_Zentralbank_Frankfurt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Europ%C3%A4ische_Zentralbank_Frankfurt.jpg",
+     "urheber": "Thomas Wolf , www.foto-tw.de",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "artikel": "Sitz der Europäischen Zentralbank",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "European Central Bank headquarters",
+     "bildunterschrift": "Der Sitz der Europäischen Zentralbank in Frankfurt am Main.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "OCR-B-Euro-Proposals.png",
+     "beschreibung": "The initial proposal for adding the Euro sign to OCR-B included two design variants: One with a double stroke, another with a single stroke.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/OCR-B-Euro-Proposals.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:OCR-B-Euro-Proposals.png",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Euro sign",
+     "bildunterschrift": "Das Euro-Symbol als Währungseinheit im Euroraum.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "saetze": [
+    "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent gestiegen.",
+    "Das teilte das EU-Statistikamt nach vorläufigen Daten mit.",
+    "Im August lag der Wert noch bei drei Komma zwei Prozent.",
+    "Hauptgrund für den Anstieg auf den höchsten Stand seit drei Jahren sind die hohen Energiepreise.",
+    "Energie hat sich demnach im Jahresvergleich um achtzehn Komma acht Prozent verteuert.",
+    "Die Europäische Zentralbank strebt mittelfristig eine Teuerung von zwei Prozent an.",
+    "Finanzmärkte erwarten laut Berichten, dass die Notenbank die Zinsen bis zum Jahresende anhebt.",
+    "Die Europäische Zentralbank hat den Leitzins zuvor bereits auf zwei Komma fünf Prozent angehoben.",
+    "Mehrere Länder haben nationale Maßnahmen wie Tankrabatte oder Preisbremsen beschlossen.",
+    "Die nächste Zinsentscheidung der Notenbank steht Ende Oktober an."
+   ]
+  },
+  {
+   "id": "franz-reindl-iihf-praesident",
+   "titel": "Neuer Präsident des Eishockey-Weltverbands IIHF gewählt",
+   "rubrik": "Sport",
+   "eil": false,
+   "bilder": [
+    {
+     "titel": "2022-04-29 Deutschland gegen Slowakei (Eishockey-Länderspiel) by Sandro Halank–128.jpg",
+     "beschreibung": "Ice Hockey preparation match in Dresden in preparation for the 2022 Ice Hockey World Championships: Germany vs. Slovakia (1:3)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg/1280px-2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2022-04-29_Deutschland_gegen_Slowakei_%28Eishockey-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93128.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2022-04-29_Deutschland_gegen_Slowakei_(Eishockey-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93128.jpg",
+     "urheber": "Sandro Halank , Wikimedia Commons",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Franz Reindl (Eishockeyspieler)",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Franz Reindl ice hockey",
+     "bildunterschrift": "Der deutsche Eishockey-Funktionär Franz Reindl bei einem Länderspiel.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Tenerife, Canary Islands ESA23970088.jpeg",
+     "beschreibung": "The Copernicus Sentinel-2 mission takes us over Tenerife – the largest of Spain’s Canary Islands. Zoom in to see this image at its full 10 m resolution or click on the circles to learn more about the ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg/1280px-Tenerife%2C_Canary_Islands_ESA23970088.jpeg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Tenerife%2C_Canary_Islands_ESA23970088.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Tenerife,_Canary_Islands_ESA23970088.jpeg",
+     "urheber": "European Space Agency",
+     "lizenz": "CC BY-SA 3.0 igo",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+     "artikel": "Tenerife",
+     "sprache": "en",
+     "art": "ort",
+     "suchbegriff": "Tenerife landscape ocean",
+     "bildunterschrift": "Die Insel Teneriffa, auf der der Kongress und die Wahl stattfanden.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ort": {
+    "name": "Teneriffa, Spanien",
+    "lat": 28.294,
+    "lon": -16.621
+   },
+   "saetze": [
+    "Franz Reindl ist neuer Präsident des Eishockey-Weltverbandes.",
+    "Die Wahl fand bei einem Kongress auf der spanischen Insel Teneriffa statt.",
+    "Für die Entscheidung waren zwei Wahlgänge nötig.",
+    "In der Stichwahl setzte sich Reindl mit sechzig zu siebenundfünfzig Stimmen gegen Petr Briza durch.",
+    "Das schreiben die Süddeutsche Zeitung und die FAZ.",
+    "Reindl ist nach Günther Sabetzki der zweite deutsche Präsident des Verbandes.",
+    "Nach Angaben des Deutschen Eishockey-Bundes ist die Wahl eine große Anerkennung seiner Arbeit.",
+    "Auf den neuen Präsidenten warten Aufgaben wie die Rückkehr Russlands und die Konkurrenz durch die nordamerikanische Liga.",
+    "Die Amtszeit des neuen Präsidenten läuft bis Oktober zweitausenddreißig."
+   ]
+  }
+ ]
+}

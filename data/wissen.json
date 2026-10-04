@@ -1,6 +1,159 @@
 {
- "stand": "2026-10-04T13:09:55.197Z",
+ "stand": "2026-10-04T18:07:31.393Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-die-post-im-alten-rom",
+   "zeit": "2026-10-04T18:14:50.916Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte die Post im alten Rom?",
+   "vorspann": "Im Römischen Reich gab es ein großes System für Nachrichten und Güter. Es trug den Namen cursus publicus.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Mit dem Begriff cursus publicus wird ein System zur Beförderung von Nachrichten, Gütern und Personen während der römischen Kaiserzeit bezeichnet. Eingeführt wurde dieses System unter Augustus. Der ursprüngliche Zweck war höchstwahrscheinlich, die Kommunikation mit allen Provinzen des Römischen Reiches möglichst schnell und problemlos zu gestalten. Dazu wurden zunächst Kuriere entlang wichtiger Straßen postiert. Sie nahmen Nachrichten in Empfang, trugen sie weiter und übergaben sie an den nächsten Kurier. Später beförderte ein einzelner berittener Bote eine Nachricht vom Sender zum Empfänger.",
+      "Er hatte an dafür vorgesehenen Wechselstationen die Möglichkeit, erschöpfte Pferde gegen ausgeruhte zu tauschen. Ähnliche Methoden wurden auch von den Persern benutzt, um Botschaften schnell über die Königsstraßen zu transportieren. Diese Straßen hatten bereits eine Länge von zweitausendsechshundert Kilometern erreicht. Sie führten von Susa aus in alle Richtungen des persischen Reichs. Im Römischen Reich bestanden Institutionen des cursus publicus bis zu dessen Ende."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Vom Staat wurden Berechtigungsscheine an Personen ausgegeben. Mit diesen Scheinen konnten sie auf ihrem Weg verschiedene Einrichtungen und Dienste in Anspruch nehmen. Die nötige Infrastruktur bestand vor allem in einem immer weiter ausgebauten Netz von Straßen und Schiffslinien. Dieses Netz verband wichtige Städte, Regionen und Häfen miteinander. Eine tragende Säule waren die von der Bevölkerung zu erbringenden Leistungen. Für einzelne Städte und Gemeinden wurden Kapazitäten an Reit- oder Zugtieren und Fahrzeugen festgesetzt. Diese mussten an Reisende des cursus publicus zwangsvermietet werden.",
+      "Der Statthalter der jeweiligen Provinz zahlte den Vermietern dafür eine Entschädigung. Rast- und Übernachtungsmöglichkeiten mussten den Nutzern und deren Tieren kostenlos zur Verfügung gestellt werden. Für Verpflegung zu marktüblichen Preisen mussten sie jedoch selbst aufkommen. Welcher Personenkreis Dienstleistungen in Anspruch nehmen durfte, wurde vom Kaiser bestimmt. Es handelte sich dabei hauptsächlich um staatliche Funktionsträger höheren Rangs oder militärische Autoritäten. In der Anfangszeit erhielten Reisende Nutzungsrechte lediglich aufgrund ihres Auftretens oder durch das Tragen einer Uniform."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Über die historische Entwicklung und die Gesetze gibt es Aufzeichnungen und erhaltene Texte aus der Antike. Dazu gehören der Codex Theodosianus und der Codex Iustinianus. Auch Schriften von Autoren wie Prokop in seiner Geheimgeschichte geben Einblicke in die damalige Zeit. Forscher werten diese historischen Quellen und Gesetze aus, um die Abläufe des römischen Postwesens zu rekonstruieren."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Länge der persischen Königsstraßen",
+     "2600 km"
+    ],
+    [
+     "Zeitraum der Regierungszeit von Kaiser Justinian I.",
+     "527-565"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Cursus publicus",
+     "Ein römisches System zur Beförderung von Nachrichten, Gütern und Personen."
+    ],
+    [
+     "Cursus velox",
+     "Ein im vierten Jahrhundert eingeführter Dienst für die schnelle Beförderung von Nachrichten und Personen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wer führte den cursus publicus ein?",
+     "optionen": [
+      "Augustus",
+      "Justinian I.",
+      "Prokop"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der cursus publicus wurde unter Augustus eingeführt."
+    }
+   ],
+   "video": [
+    "Im alten Rom gab es ein System namens cursus publicus.",
+    "Es diente der Beförderung von Nachrichten, Gütern und Personen.",
+    "Eingeführt wurde das System unter dem Herrscher Augustus.",
+    "Kuriere überbrachten Nachrichten entlang wichtiger Straßen.",
+    "An Wechselstationen konnten erschöpfte Pferde getauscht werden.",
+    "Vom Staat ausgegebene Berechtigungsscheine erlaubten die Nutzung.",
+    "Die Bevölkerung musste Tiere und Fahrzeuge zwangsvermieten.",
+    "Im vierten Jahrhundert wurde das System in verschiedene Bereiche aufgeteilt."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Cursus publicus",
+    "bildunterschrift": "Der cursus publicus war das staatliche Transportsystem im Römischen Reich."
+   },
+   "quelle": {
+    "titel": "Cursus publicus",
+    "url": "https://de.wikipedia.org/wiki/Cursus_publicus",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 355,
+   "bildInfos": [
+    {
+     "titel": "Roman Empire 125.png",
+     "beschreibung": "Map of the Roman Empire in 125 during the reign of emperor Hadrian , with anachronistic Germanic tribes from the time of Augustus . Projection Lambert azimuthal-equal area . Central latitude: 45° N, c",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Roman_Empire_125.png/1280px-Roman_Empire_125.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Roman_Empire_125.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Roman_Empire_125.png",
+     "urheber": "User:Andrein",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "artikel": "Cursus publicus",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Der cursus publicus war das staatliche Transportsystem im Römischen Reich."
+    },
+    {
+     "titel": "Letocetum Mansio 1.jpg",
+     "beschreibung": "The remains of the Mansio and Letocetum , Wall, Staffordshire, England.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Letocetum_Mansio_1.jpg/1280px-Letocetum_Mansio_1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Letocetum_Mansio_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Letocetum_Mansio_1.jpg",
+     "urheber": "Bs0u10e01",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The remains of the Mansio and Letocetum , Wall, Staffordshire, England."
+    },
+    {
+     "titel": "RGM-Köln-Rekonstruktion-eines-römischen-Transportwagens.JPG",
+     "beschreibung": "RGM-Köln. Rekonstruktion eines römischen Transportwagens. Ort der Ausstellung: Römisch Germanisches Museum in Köln.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/RGM-K%C3%B6ln-Rekonstruktion-eines-r%C3%B6mischen-Transportwagens.JPG/1280px-RGM-K%C3%B6ln-Rekonstruktion-eines-r%C3%B6mischen-Transportwagens.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/51/RGM-K%C3%B6ln-Rekonstruktion-eines-r%C3%B6mischen-Transportwagens.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:RGM-K%C3%B6ln-Rekonstruktion-eines-r%C3%B6mischen-Transportwagens.JPG",
+     "urheber": "HOWI - Horsch, Willy",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "RGM-Köln. Rekonstruktion eines römischen Transportwagens. Ort der Ausstellung: Römisch Germanisches Museum in Köln."
+    },
+    {
+     "titel": "Römischer Reisewagen.JPG",
+     "beschreibung": "Reconstruction in the early 1970s of a Roman carriage as shown in the Römisch-Germanisches Museum, Cologne, Germany. It was based on the studies of Ch. W. Röhring. The carriage has now been dismantled",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/R%C3%B6mischer_Reisewagen.JPG/1280px-R%C3%B6mischer_Reisewagen.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/R%C3%B6mischer_Reisewagen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:R%C3%B6mischer_Reisewagen.JPG",
+     "urheber": "Nicolas von Kospoth ( Triggerhappy )",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Reconstruction in the early 1970s of a Roman carriage as shown in the Römisch-Germanisches Museum, Cologne, Germany. It was based on the studies of Ch. W. Röhring. The carriage has now been dismantled"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Roman Empire 125.png",
+    "beschreibung": "Map of the Roman Empire in 125 during the reign of emperor Hadrian , with anachronistic Germanic tribes from the time of Augustus . Projection Lambert azimuthal-equal area . Central latitude: 45° N, c",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Roman_Empire_125.png/1280px-Roman_Empire_125.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Roman_Empire_125.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Roman_Empire_125.png",
+    "urheber": "User:Andrein",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "artikel": "Cursus publicus",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Der cursus publicus war das staatliche Transportsystem im Römischen Reich."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-gaensehaut",
    "zeit": "2026-10-04T13:14:39.596Z",
