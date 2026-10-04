@@ -1,6 +1,169 @@
 {
- "stand": "2026-10-03T17:54:49.887Z",
+ "stand": "2026-10-04T06:48:33.773Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten",
+   "zeit": "2026-10-04T06:55:53.293Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte die Pyramidenbau-Arbeit im alten Ägypten?",
+   "vorspann": "Pyramiden waren im alten Ägypten Grabstätten für die Regenten, die Pharaonen genannt werden. Sie wurden mit einfachen Werkzeugen und vielen Arbeitern errichtet.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Die Pyramide ist eine Bauform mit quadratischer Grundfläche aus alten Kulturen. In Ägypten dienten sie als Grabstätten für die Pharaonen des Alten Reiches. Diese Regenten werden deshalb auch als Pyramidenbauer bezeichnet. Die Entwicklung begann mit flachen Bauten aus Lehmziegeln, den sogenannten Mastabas. Später entstanden in der dritten Dynastie die ersten Stufenpyramiden.",
+      "In der vierten Dynastie wurden drei große Pyramiden in kurzer Zeit erbaut. Die größte ist die Cheops-Pyramide bei Gizeh mit einer Grundfläche von etwa zweihundertdreißig mal zweihundertdreißig Metern. Sie war nach ihrer Fertigstellung rund einhundertsechsundsechzig Meter hoch. Die heutige Höhe beträgt noch einhundertachtundachtzig Meter. In unmittelbarer Nähe befinden sich weitere bekannte Pyramiden."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Werkzeuge zum Bau der Pyramiden bestanden aus Kupfer, Stein und Holz. Sie waren nicht sehr kompliziert und mussten ständig nachgehärtet werden. Um Felsbrocken aus Wänden herauszubrechen, nutzte man Hämmer aus Hartgestein wie Dolerit. Die Außenseiten wurden mit weißem Kalkstein verkleidet. Für den Kernbau verwendete man lokalen Nummulitenkalkstein von minderer Qualität.",
+      "Die schweren Steinblöcke wurden auf hölzerne Rollen geschafft und mit Seilen gezogen. Man transportierte sie auf dem Wasserweg über den Nil und zog sie das letzte Stück auf Schlitten. Dafür wurden Kanäle und Baurampen angelegt. Nadelhölzer für Schlitten und Rollen mussten aus dem syrisch-palästinensischen Raum importiert werden."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die meisten Texte zur Bauweise beruhen auf Überlieferungen, Studien, Versuchen und Schätzungen. An den Wänden der Grabkammer des Baumeisters Senedjemib Inti ist überliefert, dass er Pläne entworfen hat. Später erzählt die Grabschrift des Expeditionsleiters Weni von Materialtransporten aus Steinbrüchen. Neuere Forschung hat zudem nachgewiesen, dass ein Nebenfluss des Nils damals hoch genug war, um Steine zu transportieren."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Es gibt unterschiedliche Theorien über den genauen Ursprung der Pyramidenbauweise und darüber, wie die Ägypter den Neigungswinkel ihrer Pyramiden auswählten."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Grundfläche der Cheops-Pyramide",
+     "etwa 230 x 230 Meter"
+    ],
+    [
+     "Chephren-Pyramide Ursprungshöhe",
+     "143,5 Meter"
+    ],
+    [
+     "Mykerinos-Pyramide Höhe",
+     "65,5 Meter"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Pharao",
+     "Ein altägyptischer Regent, dessen Grabstätte oft eine Pyramide war."
+    ],
+    [
+     "Mastaba",
+     "Ein zunächst aus Lehmziegeln bestehender einstufiger und flacher Grabbau."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Woraus bestanden die Werkzeuge zum Bau der Pyramiden hauptsächlich?",
+     "optionen": [
+      "Aus Kupfer, Stein und Holz",
+      "Aus Eisen und Stahl",
+      "Aus Gold und Silber"
+     ],
+     "richtig": 0,
+     "erklaerung": "Laut dem Artikel bestanden die Werkzeuge aus Kupfer, Stein und Holz."
+    }
+   ],
+   "video": [
+    "Pyramiden waren im alten Ägypten die Grabstätten der Pharaonen.",
+    "Die Entwicklung begann mit flachen Bauten aus Lehmziegeln.",
+    "Später entstanden daraus die bekannten Stufenpyramiden.",
+    "Die größte ist die Cheops-Pyramide bei Gizeh.",
+    "Die Werkzeuge der Arbeiter bestanden aus Kupfer, Stein und Holz.",
+    "Schwere Steinblöcke wurden auf hölzerne Rollen geschafft.",
+    "Mit Seilen zogen Arbeiter die Steine auf großen Rampen nach oben.",
+    "Ein ehemaliger Nebenfluss des Nils half beim Transport der Materialien."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Cheops-Pyramide",
+    "bildunterschrift": "Die Cheops-Pyramide in Gizeh ist die größte Pyramide Ägyptens."
+   },
+   "quelle": {
+    "titel": "Pyramide (Bauwerk)",
+    "url": "https://de.wikipedia.org/wiki/Pyramide_(Bauwerk)",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 278,
+   "bildInfos": [
+    {
+     "titel": "All Gizah Pyramids-2.jpg",
+     "beschreibung": "All Gizah Pyramids in one shot.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/All_Gizah_Pyramids-2.jpg/1280px-All_Gizah_Pyramids-2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/All_Gizah_Pyramids-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids-2.jpg",
+     "urheber": "Ricardo Liberato",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "artikel": "Pyramide (Bauwerk)",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Die Cheops-Pyramide in Gizeh ist die größte Pyramide Ägyptens."
+    },
+    {
+     "titel": "Aegypt-fourth-dynasty-stone-movements.png",
+     "beschreibung": "Aegypt: Fourth Dynasty - amount of stone movements over time",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aegypt-fourth-dynasty-stone-movements.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aegypt-fourth-dynasty-stone-movements.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aegypt-fourth-dynasty-stone-movements.png",
+     "urheber": "Michel W. Barsoum",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Aegypt: Fourth Dynasty - amount of stone movements over time"
+    },
+    {
+     "titel": "Altes Ägypten 002.jpg",
+     "beschreibung": "Pyramiden von Gizeh",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Altes_%C3%84gypten_002.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Altes_%C3%84gypten_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Altes_%C3%84gypten_002.jpg",
+     "urheber": "Chmouel Boudjnah",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Pyramiden von Gizeh"
+    },
+    {
+     "titel": "Chichen Itza 3.jpg",
+     "beschreibung": "El Castillo (pyramid of Kukulcán) in Chichén Itzá",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/1280px-Chichen_Itza_3.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/51/Chichen_Itza_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+     "urheber": "Daniel Schwen",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "El Castillo (pyramid of Kukulcán) in Chichén Itzá"
+    }
+   ],
+   "bildInfo": {
+    "titel": "All Gizah Pyramids-2.jpg",
+    "beschreibung": "All Gizah Pyramids in one shot.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/All_Gizah_Pyramids-2.jpg/1280px-All_Gizah_Pyramids-2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/All_Gizah_Pyramids-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids-2.jpg",
+    "urheber": "Ricardo Liberato",
+    "lizenz": "CC BY-SA 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "artikel": "Pyramide (Bauwerk)",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Die Cheops-Pyramide in Gizeh ist die größte Pyramide Ägyptens."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-heissluftballon",
    "zeit": "2026-10-03T17:59:26.362Z",
