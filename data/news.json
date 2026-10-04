@@ -2261,7 +2261,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 17 und 22 Grad. Die Vorhersage für morgen,",
+   "d": "de4240f506.mp3",
+   "l": 21.32,
+   "s": [
+    0.25,
+    4.7,
+    11.07,
+    15.06,
+    18.6
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2870,7 +2882,128 @@
     "lon": 24.105
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In dem europäischen Land Lettland hat das Bündnis von Ministerpräsident Andris K",
+     "d": "e4c85b9038.mp3",
+     "l": 49.52,
+     "s": [
+      0.25,
+      7.31,
+      12.04,
+      16.85,
+      21.5,
+      26.75,
+      31.4,
+      37.29,
+      44.38
+     ]
+    },
+    {
+     "k": "In Lettland hat das Bündnis von Ministerpräsident Andris Kulbergs die Parlaments",
+     "d": "9959331836.mp3",
+     "l": 16.42,
+     "s": [
+      0.25,
+      5.7,
+      11.23
+     ]
+    },
+    {
+     "k": "In Lettland wurde ein neues Parlament gewählt. Die Partei von Ministerpräsident ",
+     "d": "15f0694fb7.mp3",
+     "l": 19.98,
+     "s": [
+      0.25,
+      3.94,
+      8.5,
+      12.72,
+      16.65
+     ]
+    },
+    {
+     "k": "Die genaue Verteilung der Parlamentssitze variiert leicht zwischen den Berichten",
+     "d": "34d33b35e8.mp3",
+     "l": 7.44,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Parlament? Eine Gruppe von gewählten Volksvertretern, di",
+     "d": "135e3668cc.mp3",
+     "l": 9.79,
+     "s": [
+      0.25,
+      3.35
+     ]
+    },
+    {
+     "k": "Bei der Parlamentswahl im EU- und NATO-Land Lettland hat sich das proeuropäische",
+     "d": "dc320568ca.mp3",
+     "l": 73.4,
+     "s": [
+      0.25,
+      9.96,
+      21.67,
+      26.58,
+      37.72,
+      44.04,
+      50.8,
+      63.88
+     ]
+    },
+    {
+     "k": "Das Land grenzt an Russland und Belarus und zählt laut ZDFheute und Deutscher We",
+     "d": "fe1a6aa992.mp3",
+     "l": 52.63,
+     "s": [
+      0.25,
+      8.47,
+      12.61,
+      22.71,
+      32.75,
+      36.35,
+      41.58,
+      47.71
+     ]
+    },
+    {
+     "k": "Ministerpräsident Andris Kulbergs zeigte sich von dem Ergebnis überrascht. Die M",
+     "d": "acb2093f0b.mp3",
+     "l": 53.37,
+     "s": [
+      0.25,
+      4.63,
+      11.27,
+      17.91,
+      23.55,
+      29.71,
+      35.25,
+      47.97
+     ]
+    },
+    {
+     "k": "Lettland ist ein parlamentarischer Staat und Mitglied der Europäischen Union sow",
+     "d": "29d7055e38.mp3",
+     "l": 19.77,
+     "s": [
+      0.25,
+      6.04,
+      13.83
+     ]
+    },
+    {
+     "k": "Die Vereinigte Liste kündigte laut der Deutschen Welle an, zunächst mit ihren bi",
+     "d": "ac175f493a.mp3",
+     "l": 15.95,
+     "s": [
+      0.25,
+      7.92
+     ]
+    }
+   ]
   },
   {
    "id": "merz-kiew-besuch",
@@ -3316,7 +3449,147 @@
     "lon": 30.524
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Bundeskanzler Friedrich Merz ist am Wochenende überraschend zu einem Besuch nach",
+     "d": "863321666e.mp3",
+     "l": 57.16,
+     "s": [
+      0.25,
+      5.62,
+      11.9,
+      16.36,
+      21.94,
+      28.48,
+      35.2,
+      41.67,
+      46.88,
+      52.51
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist. Er sagte der Uk",
+     "d": "6d2f98d4d4.mp3",
+     "l": 13.25,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz ist überraschend nach Kiew gereist. In der ukrainis",
+     "d": "0f401562b7.mp3",
+     "l": 28.57,
+     "s": [
+      0.25,
+      5.32,
+      9.51,
+      13.31,
+      17.67,
+      23.85
+     ]
+    },
+    {
+     "k": "Ob diplomatische Bemühungen oder militärischer Druck zu Verhandlungen führen wer",
+     "d": "ab36396679.mp3",
+     "l": 12.24,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Abfangdrohnen? Das sind unbemannte Flugobjekte, die dazu",
+     "d": "5d16c77eb0.mp3",
+     "l": 10.1,
+     "s": [
+      0.25,
+      3.42
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz ist zu einem unangekündigten Besuch in die ukrainis",
+     "d": "fdeabc0bc0.mp3",
+     "l": 52.52,
+     "s": [
+      0.25,
+      7.08,
+      16.81,
+      24.28,
+      30.57,
+      35.02,
+      43.18,
+      46.59
+     ]
+    },
+    {
+     "k": "Laut Berichten von ZDFheute und dem Spiegel umfasst das angekündigte deutsche Un",
+     "d": "6184e1e7cc.mp3",
+     "l": 57.64,
+     "s": [
+      0.25,
+      9.54,
+      15.38,
+      21.72,
+      25.9,
+      33.06,
+      42.61,
+      47.72
+     ]
+    },
+    {
+     "k": "Die Ukraine befindet sich im Abwehrkampf gegen den russischen Angriffskrieg, der",
+     "d": "dcc1368caf.mp3",
+     "l": 52.67,
+     "s": [
+      0.25,
+      7.39,
+      15.08,
+      20.9,
+      25.46,
+      32.52,
+      39.44,
+      46.81
+     ]
+    },
+    {
+     "k": "Eine Akademie der Wissenschaften ist eine wissenschaftliche Institution, die der",
+     "d": "1baf788cbf.mp3",
+     "l": 34.91,
+     "s": [
+      0.25,
+      6.74,
+      11.25,
+      17.83,
+      27.38
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz betonte bei seinem Besuch in Kiew die deutsche Unte",
+     "d": "5c42ef8ac5.mp3",
+     "l": 45.41,
+     "s": [
+      0.25,
+      6.13,
+      11.53,
+      15.48,
+      23.39,
+      31.68,
+      38.73
+     ]
+    },
+    {
+     "k": "Die Bundesregierung will die bewilligten Mittel in Höhe von einer Milliarde Euro",
+     "d": "c1fbdb20b4.mp3",
+     "l": 37.45,
+     "s": [
+      0.25,
+      6.31,
+      12.55,
+      20.08,
+      30.01
+     ]
+    }
+   ]
   },
   {
    "id": "brasilien-praesidentschaftswahl",
@@ -3759,7 +4032,145 @@
     "lon": -47.883
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Brasilien hat die Wahl eines neuen Staatspräsidenten begonnen. Rund einhunder",
+     "d": "fdc16f180d.mp3",
+     "l": 59.46,
+     "s": [
+      0.25,
+      4.2,
+      10.64,
+      20.22,
+      25.42,
+      32.89,
+      38.57,
+      44.21,
+      50.8,
+      56.33
+     ]
+    },
+    {
+     "k": "In Brasilien hat die Präsidentschaftswahl begonnen. Dabei treten der amtierende ",
+     "d": "e67252672d.mp3",
+     "l": 16.09,
+     "s": [
+      0.25,
+      3.23,
+      11.26
+     ]
+    },
+    {
+     "k": "In Brasilien wählen die Menschen einen neuen Präsidenten. Es treten der bisherig",
+     "d": "14b56650d3.mp3",
+     "l": 29.85,
+     "s": [
+      0.25,
+      4.34,
+      11.63,
+      17.04,
+      21.87,
+      25.75
+     ]
+    },
+    {
+     "k": "Ob eine Stichwahl am 25. Oktober notwendig wird oder ob im ersten Wahlgang eine ",
+     "d": "2d114e7b58.mp3",
+     "l": 7.21,
+     "s": [
+      0.25,
+      2.69
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Stichwahl? Eine zweite Wahl, bei der nur die beiden erfo",
+     "d": "159db3bd5d.mp3",
+     "l": 10.5,
+     "s": [
+      0.25,
+      3.35
+     ]
+    },
+    {
+     "k": "In Brasilien haben die Wahllokale für die Präsidentschaftswahl geöffnet. Rund 15",
+     "d": "a2d23b1e08.mp3",
+     "l": 51.47,
+     "s": [
+      0.25,
+      4.63,
+      13.74,
+      18.5,
+      23.25,
+      32.34,
+      38.97,
+      42.5
+     ]
+    },
+    {
+     "k": "Laut dem Umfrageinstitut Datafolha lag der amtierende Präsident Lula lange Zeit ",
+     "d": "1ee2c64c33.mp3",
+     "l": 48.78,
+     "s": [
+      0.25,
+      7.5,
+      13.29,
+      23.71,
+      27.78,
+      31.5,
+      34.43,
+      41.38
+     ]
+    },
+    {
+     "k": "Der Präsidentschaftskandidat Flávio Bolsonaro tritt das politische Erbe seines V",
+     "d": "59749d1966.mp3",
+     "l": 70.19,
+     "s": [
+      0.25,
+      6.84,
+      16.29,
+      25.77,
+      40.34,
+      49.98,
+      55.56,
+      64.27
+     ]
+    },
+    {
+     "k": "Der Präsident von Brasilien ist sowohl Staats- als auch Regierungschef. Er wird ",
+     "d": "959889fe18.mp3",
+     "l": 28.04,
+     "s": [
+      0.25,
+      4.78,
+      7.86,
+      14.88,
+      21.07
+     ]
+    },
+    {
+     "k": "Der brasilianische Journalist und Analyst Pedro Doria erklärte laut ZDFheute zu ",
+     "d": "65de5e70ee.mp3",
+     "l": 38.69,
+     "s": [
+      0.25,
+      11.74,
+      14.76,
+      26.58
+     ]
+    },
+    {
+     "k": "Nach dem Abschluss der Stimmabgabe an den elektronischen Wahlurnen werden die St",
+     "d": "7f5b5ea168.mp3",
+     "l": 13.9,
+     "s": [
+      0.25,
+      5.72,
+      12.2
+     ]
+    }
+   ]
   },
   {
    "id": "oktoberfest-besucherrekord",
@@ -4116,7 +4527,146 @@
     "lat": 48.137,
     "lon": 11.575
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Das Münchner Oktoberfest endete nach sechzehn Tagen mit einem historischen Besuc",
+     "d": "d7efed0ea3.mp3",
+     "l": 52.54,
+     "s": [
+      0.25,
+      5.95,
+      11.26,
+      15.62,
+      20.65,
+      27.28,
+      31.69,
+      38.28,
+      43.86,
+      47.9
+     ]
+    },
+    {
+     "k": "Das Münchner Oktoberfest ging mit einem neuen Besucherrekord zu Ende. Sieben kom",
+     "d": "cc7370da1f.mp3",
+     "l": 13.56,
+     "s": [
+      0.25,
+      4.53,
+      8.68
+     ]
+    },
+    {
+     "k": "Das Münchner Oktoberfest ist nun zu Ende. In diesem Jahr kamen so viele Menschen",
+     "d": "0fadcab607.mp3",
+     "l": 20.18,
+     "s": [
+      0.25,
+      3.73,
+      7.15,
+      11.79,
+      16.07
+     ]
+    },
+    {
+     "k": "Die genauen Hintergründe zu den tödlichen Arbeitsunfällen auf dem Festgelände si",
+     "d": "65b6f62d40.mp3",
+     "l": 7.45,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Volksfest? Ein großes Fest unter freiem Himmel, das viel",
+     "d": "9a1a8c011d.mp3",
+     "l": 12.35,
+     "s": [
+      0.25,
+      3.4
+     ]
+    },
+    {
+     "k": "Das Münchner Oktoberfest hat in diesem Jahr einen neuen Besucherhöchstwert errei",
+     "d": "22cfc6e14c.mp3",
+     "l": 43.39,
+     "s": [
+      0.25,
+      4.92,
+      11.7,
+      15.75,
+      22.02,
+      25.43,
+      32.94,
+      38.26
+     ]
+    },
+    {
+     "k": "Der alkoholfreie Getränkeabsatz stieg nach Angaben der Tagesschau/ARD um zehn Pr",
+     "d": "c19456550d.mp3",
+     "l": 49.11,
+     "s": [
+      0.25,
+      9.16,
+      13.88,
+      19.64,
+      25.77,
+      29.37,
+      31.36,
+      38.57
+     ]
+    },
+    {
+     "k": "Der bisherige Höchstwert bei den Besucherzahlen lag im Jahr 2023 bei 7,2 Million",
+     "d": "b2f6a4d912.mp3",
+     "l": 50.5,
+     "s": [
+      0.25,
+      7.83,
+      15.19,
+      21.05,
+      26.19,
+      36.47,
+      38.47,
+      43.6
+     ]
+    },
+    {
+     "k": "Das Oktoberfest ist ein traditionelles deutsches Volksfest, das jährlich in Münc",
+     "d": "8bcc7c19d0.mp3",
+     "l": 24.86,
+     "s": [
+      0.25,
+      7.29,
+      13.19,
+      20.41,
+      23.58
+     ]
+    },
+    {
+     "k": "Der Münchner Oberbürgermeister Dominik Krause bewertete das Fest positiv. Er erk",
+     "d": "37881aec12.mp3",
+     "l": 39.71,
+     "s": [
+      0.25,
+      4.71,
+      11.67,
+      16.3,
+      25.09,
+      34.42
+     ]
+    },
+    {
+     "k": "Das Oktoberfest wurde traditionell mit Böllerschüssen beendet. Am letzten Tag tr",
+     "d": "ca15933180.mp3",
+     "l": 18.86,
+     "s": [
+      0.25,
+      4.14,
+      10.37,
+      15.6
+     ]
+    }
+   ]
   },
   {
    "id": "schuelerproteste-frankreich",
@@ -7836,11 +8386,11 @@
     {
      "k": "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent ",
      "d": "bcd13976a1.mp3",
-     "l": 16.1,
+     "l": 16.49,
      "s": [
       0.25,
-      5.66,
-      11.33
+      5.9,
+      11.69
      ]
     },
     {
