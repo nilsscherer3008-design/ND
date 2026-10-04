@@ -2259,7 +2259,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 17 und 23 Grad. Die Vorhersage für morgen,",
+   "d": "d369f1a044.mp3",
+   "l": 21.05,
+   "s": [
+    0.25,
+    4.33,
+    10.79,
+    14.78,
+    18.41
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4188,6 +4200,56 @@
       55.93,
       64.79
      ]
+    },
+    {
+     "k": "Die Vorgeschichte der Wahl ist stark durch die Regierungszeit und die juristisch",
+     "d": "fe5ed074c1.mp3",
+     "l": 65.86,
+     "s": [
+      0.25,
+      8.26,
+      23.72,
+      31.5,
+      38.31,
+      47.16,
+      54.04
+     ]
+    },
+    {
+     "k": "Das politische System Brasiliens basiert auf einer präsidialen Demokratie, in de",
+     "d": "73b6f7f18c.mp3",
+     "l": 37.0,
+     "s": [
+      0.25,
+      10.3,
+      13.81,
+      22.86,
+      29.08
+     ]
+    },
+    {
+     "k": "Flávio Bolsonaro erklärte bei seiner Kür zum Präsidentschaftskandidaten nach Ber",
+     "d": "c6ac4c2008.mp3",
+     "l": 62.23,
+     "s": [
+      0.25,
+      11.39,
+      18.25,
+      32.2,
+      43.59,
+      52.55
+     ]
+    },
+    {
+     "k": "Sollte keiner der Kandidaten im ersten Wahlgang die absolute Mehrheit der Stimme",
+     "d": "aeb4165a71.mp3",
+     "l": 22.22,
+     "s": [
+      0.25,
+      7.58,
+      9.8,
+      14.59
+     ]
     }
    ]
   },
@@ -4695,6 +4757,93 @@
       0.25,
       3.48
      ]
+    },
+    {
+     "k": "Das 191. Oktoberfest in München hat am Sonntag mit einem neuen Besucherrekord ge",
+     "d": "08c1b760a8.mp3",
+     "l": 41.09,
+     "s": [
+      0.25,
+      2.67,
+      7.36,
+      12.54,
+      19.98,
+      25.74,
+      29.33,
+      32.66
+     ]
+    },
+    {
+     "k": "Der Konsum von Festbier stieg nach Angaben des Vereins der Münchner Brauereien u",
+     "d": "737fce7ba9.mp3",
+     "l": 47.4,
+     "s": [
+      0.25,
+      7.42,
+      14.61,
+      19.16,
+      24.9,
+      30.32,
+      36.09,
+      43.88
+     ]
+    },
+    {
+     "k": "Die Polizei zog eine überwiegend friedliche Bilanz, obwohl die Einsatzzahlen sti",
+     "d": "6aea237a6e.mp3",
+     "l": 59.28,
+     "s": [
+      0.25,
+      5.08,
+      14.41,
+      24.88,
+      30.76,
+      36.68,
+      45.36,
+      51.64
+     ]
+    },
+    {
+     "k": "Das Volksfest wurde von mehreren schweren Unfällen überschattet. Am 21. Septembe",
+     "d": "65834eb1f4.mp3",
+     "l": 47.01,
+     "s": [
+      0.25,
+      4.22,
+      6.1,
+      14.09,
+      23.75,
+      28.9,
+      38.58,
+      41.71
+     ]
+    },
+    {
+     "k": "Dominik Krause, der Oberbürgermeister von München, bezeichnete das Fest als Bild",
+     "d": "89270c8322.mp3",
+     "l": 42.49,
+     "s": [
+      0.25,
+      5.83,
+      10.86,
+      14.28,
+      18.99,
+      27.97,
+      34.98
+     ]
+    },
+    {
+     "k": "Das Oktoberfest endete traditionell am Sonntag um Punkt zwölf Uhr mit Böllerschü",
+     "d": "b12a59addd.mp3",
+     "l": 37.26,
+     "s": [
+      0.25,
+      5.34,
+      13.36,
+      18.51,
+      27.94,
+      29.35
+     ]
     }
    ]
   },
@@ -5077,11 +5226,11 @@
     {
      "k": "In Frankreich kommt es zu landesweiten Schülerprotesten gegen geplante staatlich",
      "d": "5ac8c0db8c.mp3",
-     "l": 14.68,
+     "l": 14.31,
      "s": [
       0.25,
-      5.91,
-      10.4
+      6.26,
+      10.18
      ]
     },
     {
@@ -5111,6 +5260,77 @@
      "s": [
       0.25,
       3.67
+     ]
+    },
+    {
+     "k": "Nach Angaben des Deutschlandfunks soll nach teils gewaltsamen Schülerprotesten i",
+     "d": "a52e706e4f.mp3",
+     "l": 46.56,
+     "s": [
+      0.25,
+      9.13,
+      18.34,
+      28.19,
+      37.24
+     ]
+    },
+    {
+     "k": "Tausende Jugendliche veranstalteten in der vergangenen Woche laut dem Guardian w",
+     "d": "06766e4f56.mp3",
+     "l": 42.63,
+     "s": [
+      0.25,
+      7.82,
+      16.87,
+      24.77,
+      33.28
+     ]
+    },
+    {
+     "k": "Die Jugendlichen kritisieren laut dem Guardian eine Unterfinanzierung und Vernac",
+     "d": "fecb669e29.mp3",
+     "l": 40.45,
+     "s": [
+      0.25,
+      7.71,
+      16.53,
+      23.99,
+      32.19
+     ]
+    },
+    {
+     "k": "Die französische Staatsverschuldung beläuft sich laut Angaben der taz auf mehr a",
+     "d": "2bb4693384.mp3",
+     "l": 38.77,
+     "s": [
+      0.25,
+      7.85,
+      15.77,
+      22.9,
+      30.73
+     ]
+    },
+    {
+     "k": "Bildungsminister Édouard Geffray warf laut dem Guardian politischen Agitatoren v",
+     "d": "79f03c09ae.mp3",
+     "l": 42.1,
+     "s": [
+      0.25,
+      9.3,
+      16.03,
+      24.9,
+      34.29
+     ]
+    },
+    {
+     "k": "Die Regierung plant für die kommenden Tage eine schrittweise Rückkehr zum regulä",
+     "d": "0ed161cbcb.mp3",
+     "l": 29.81,
+     "s": [
+      0.25,
+      7.43,
+      13.89,
+      21.76
      ]
     }
    ]
@@ -5650,6 +5870,92 @@
       0.25,
       3.64,
       10.08
+     ]
+    },
+    {
+     "k": "Nach dem Scheitern von zwei wichtigen Gesetzesentwürfen zur Neugestaltung des Wo",
+     "d": "e4908c62ba.mp3",
+     "l": 46.68,
+     "s": [
+      0.25,
+      9.25,
+      17.61,
+      24.4,
+      32.1,
+      38.38,
+      40.32,
+      44.45
+     ]
+    },
+    {
+     "k": "Die im Parlament abgelehnten Dekrete sahen umfangreiche Markteingriffe vor, um d",
+     "d": "9175bb8d8c.mp3",
+     "l": 79.93,
+     "s": [
+      0.25,
+      7.43,
+      15.92,
+      25.83,
+      37.45,
+      44.06,
+      56.16,
+      66.07
+     ]
+    },
+    {
+     "k": "Die akute Wohnungsnot in spanischen Ballungszentren wie Madrid und Barcelona hat",
+     "d": "38e5f9d0dc.mp3",
+     "l": 70.3,
+     "s": [
+      0.25,
+      7.54,
+      13.45,
+      24.07,
+      35.4,
+      43.99,
+      53.91,
+      59.68
+     ]
+    },
+    {
+     "k": "In parlamentarischen Regierungssystemen wie Spanien regieren häufig Minderheitsr",
+     "d": "e28e1d41ae.mp3",
+     "l": 56.08,
+     "s": [
+      0.25,
+      10.02,
+      16.6,
+      24.18,
+      30.19,
+      40.56,
+      45.62
+     ]
+    },
+    {
+     "k": "Valeria Racu, Sprecherin des Mieterverbands von Madrid, erklärte angesichts der ",
+     "d": "136dd13af2.mp3",
+     "l": 62.22,
+     "s": [
+      0.25,
+      8.33,
+      15.72,
+      27.72,
+      32.34,
+      40.03,
+      48.63
+     ]
+    },
+    {
+     "k": "Ministerpräsident Pedro Sánchez kündigte an, das Wochenende für Beratungen zu nu",
+     "d": "ffd0449a1e.mp3",
+     "l": 33.27,
+     "s": [
+      0.25,
+      5.56,
+      10.9,
+      14.6,
+      18.6,
+      24.91
      ]
     }
    ]
@@ -8329,11 +8635,11 @@
     {
      "k": "Die Inflationsrate in der Eurozone ist im September auf drei Komma acht Prozent ",
      "d": "bcd13976a1.mp3",
-     "l": 16.42,
+     "l": 16.04,
      "s": [
       0.25,
-      5.6,
-      11.52
+      5.68,
+      11.25
      ]
     },
     {

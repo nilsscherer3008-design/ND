@@ -2,6 +2,36 @@
  "stand": "2026-10-04T18:07:31.393Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktionierte-die-post-im-alten-rom",
+   "art": "wissen",
+   "titel": "Wie funktionierte die Post im alten Rom?",
+   "text": "Im Römischen Reich gab es ein großes System für Nachrichten und Güter. Es trug den Namen cursus publicus.",
+   "zeit": "2026-10-04T18:14:50.916Z",
+   "d": "34b927e0cd.mp3",
+   "l": 31.52,
+   "b": 189597
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-gaensehaut",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich Gänsehaut?",
+   "text": "Eine Gänsehaut zeigt sich durch aufgerichtete Körperbehaarung und kleine Erhebungen auf der Haut. Sie erinnert an den Anblick einer gerupften Gans und tritt bei verschiedenen Reizen auf.",
+   "zeit": "2026-10-04T13:14:39.596Z",
+   "d": "2f5884d3c7.mp3",
+   "l": 29.58,
+   "b": 177933
+  },
+  {
+   "id": "wissen-wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten",
+   "art": "wissen",
+   "titel": "Wie funktionierte die Pyramidenbau-Arbeit im alten Ägypten?",
+   "text": "Pyramiden waren im alten Ägypten Grabstätten für die Regenten, die Pharaonen genannt werden. Sie wurden mit einfachen Werkzeugen und vielen Arbeitern errichtet.",
+   "zeit": "2026-10-04T06:55:53.293Z",
+   "d": "4fdb46c8af.mp3",
+   "l": 30.49,
+   "b": 183405
+  },
+  {
    "id": "hauptausgabe-2026-10-04",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-10-04",
@@ -30,36 +60,6 @@
    "d": "34d404d97e.mp3",
    "l": 35.61,
    "b": 214077
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-ein-kompass",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich ein Kompass?",
-   "text": "Ein Kompass hilft dabei, die Himmelsrichtungen zu bestimmen. Schon seit Jahrhunderten nutzen Menschen dieses Instrument zur Orientierung.",
-   "zeit": "2026-10-03T08:08:23.562Z",
-   "d": "0b5e0e1f78.mp3",
-   "l": 23.56,
-   "b": 141789
-  },
-  {
-   "id": "wissen-wie-funktionierte-eigentlich-das-antike-orakel-von-delphi",
-   "art": "wissen",
-   "titel": "Wie funktionierte eigentlich das antike Orakel von Delphi?",
-   "text": "Das Orakel von Delphi war eine wichtige Weissagungsstätte im antiken Griechenland. Dort beantworteten Priester und Priesterinnen Fragen von Ratsuchenden.",
-   "zeit": "2026-10-02T18:31:01.913Z",
-   "d": "6238c68d48.mp3",
-   "l": 35.29,
-   "b": 212205
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-eine-sonnenfinsternis",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich eine Sonnenfinsternis?",
-   "text": "Bei einer Sonnenfinsternis verdeckt der Mond die Sonne von der Erde aus gesehen. Dieses astronomische Ereignis passiert nur bei Neumond.",
-   "zeit": "2026-10-02T12:32:02.591Z",
-   "d": "c1250521ad.mp3",
-   "l": 33.8,
-   "b": 203277
   }
  ]
 }

@@ -152,7 +152,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Der cursus publicus war das staatliche Transportsystem im Römischen Reich."
-   }
+   },
+   "ton": [
+    {
+     "k": "Im alten Rom gab es ein System namens cursus publicus. Es diente der Beförderung",
+     "d": "34b927e0cd.mp3",
+     "l": 31.52,
+     "s": [
+      0.25,
+      4.09,
+      7.96,
+      11.6,
+      15.43,
+      19.22,
+      23.07,
+      27.08
+     ]
+    }
+   ]
   },
   {
    "id": "wie-entsteht-eigentlich-gaensehaut",
@@ -272,7 +289,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Gänsehaut zeigt sich durch aufgerichtete Haare und kleine Erhebungen auf der Haut."
-   }
+   },
+   "ton": [
+    {
+     "k": "Eine Gänsehaut zeigt sich durch kleine Erhebungen auf der Haut. Dabei richtet si",
+     "d": "2f5884d3c7.mp3",
+     "l": 29.58,
+     "s": [
+      0.25,
+      4.17,
+      8.38,
+      11.32,
+      14.77,
+      18.67,
+      22.15,
+      25.86
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten",
@@ -435,7 +469,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Die Cheops-Pyramide in Gizeh ist die größte Pyramide Ägyptens."
-   }
+   },
+   "ton": [
+    {
+     "k": "Pyramiden waren im alten Ägypten die Grabstätten der Pharaonen. Die Entwicklung ",
+     "d": "4fdb46c8af.mp3",
+     "l": 30.49,
+     "s": [
+      0.25,
+      4.39,
+      7.69,
+      11.27,
+      14.34,
+      18.26,
+      21.82,
+      25.71
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-heissluftballon",
@@ -1196,25 +1247,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Das Orakel von Delphi war die wichtigste Weissagungsstätte der hellenischen Welt."
-   },
-   "ton": [
-    {
-     "k": "Das Orakel von Delphi war eine berühmte Stätte im antiken Griechenland. Es galt ",
-     "d": "6238c68d48.mp3",
-     "l": 35.29,
-     "s": [
-      0.25,
-      4.75,
-      7.66,
-      11.63,
-      14.89,
-      19.13,
-      22.76,
-      26.99,
-      30.59
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-entsteht-eigentlich-eine-sonnenfinsternis",
@@ -1422,24 +1455,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Sonnenfinsternis entsteht, wenn der Mond die Sonne von der Erde aus gesehen verdeckt."
-   },
-   "ton": [
-    {
-     "k": "Eine Sonnenfinsternis ist ein spannendes astronomisches Ereignis. Dabei schiebt ",
-     "d": "c1250521ad.mp3",
-     "l": 33.8,
-     "s": [
-      0.25,
-      4.18,
-      6.94,
-      11.64,
-      15.78,
-      20.86,
-      24.96,
-      29.73
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-die-stenografie",
