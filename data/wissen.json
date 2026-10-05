@@ -1,6 +1,205 @@
 {
- "stand": "2026-10-05T08:54:52.057Z",
+ "stand": "2026-10-05T18:21:48.564Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-eine-rolltreppe",
+   "zeit": "2026-10-05T18:29:55.973Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich eine Rolltreppe?",
+   "vorspann": "Eine Rolltreppe transportiert Menschen über Höhenunterschiede, meist schneller als zu Fuß. Heute gibt es strenge Regeln für ihre Sicherheit.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Eine Rolltreppe ist ein Personenbeförderungsmittel zur Überwindung einer Höhendistanz. Dabei bilden sich durch bewegende Segmente Treppenstufen. Der Zweck ist die Beförderung von Personen in einer höheren Geschwindigkeit als Schrittgeschwindigkeit. Zudem benötigt man weniger Muskelkraft. Ein beschleunigter Transport dient der Zeit- und Platzersparnis, wie etwa an Bahnsteigen.",
+      "Wenn die Metallelemente keine Treppe, sondern eine ebene Fläche bilden, spricht man von einem Fahrsteig. Fahrtreppen und Fahrsteige werden in der Europäischen Norm EN 115 festgeschrieben. Das Gegenteil einer Fahrtreppe ist die klassische Festtreppe. Rolltreppen sind ein Merkmal für Urbanität und stehen an Orten mit viel Publikumsverkehr."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Eine gewöhnliche Rolltreppe benötigt im Durchschnitt zwei bis fünf Kilowatt elektrischer Leistung. Der Bedarf hängt von der Geschwindigkeit und der Länge der Treppe ab. Die Leistungsaufnahme steigt nur wenig durch die Belastung mit Personen. Moderne Anlagen verfügen über Sensoren wie Trittplatten oder Lichtschranken mit einer Zeitschalt-Logik.",
+      "Wenn die Sensoren einige Zeit nicht ausgelöst werden, schaltet sich die Rolltreppe ab. Sie läuft erst wieder an, wenn jemand den Sensor auslöst. Neuere Rolltreppen laufen oft mit stark verminderter Geschwindigkeit weiter. Dadurch wird ein Festfrieren bei Minustemperaturen verhindert.",
+      "Am Ende der Rolltreppenfahrt greift ein Kamm in die Nute der Stufentrittflächen ein. So werden Gegenstände und Füße von den Stufen ferngehalten. Nach der Euronorm EN115 muss in bestimmten Situationen das Anlaufen der Antriebsmaschine verhindert werden oder sie muss sofort anhalten."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Im Jahr 1859 wurde ein US-Patent auf eine Rolltreppe mit fahrenden Stufen erteilt. Am fünfzehnten März 1892 erhielt Jesse W. Reno ein Patent auf eine Personenförderanlage. Der eigentliche Erfinder der Rolltreppe war George A. Wheeler, dessen Patent rund fünf Monate später erteilt wurde. Charles Seeberger kaufte im Jahr 1898 das Wheeler-Patent.",
+      "Der deutsche Begriff Rolltreppe ist spätestens 1899 nachweisbar. Ein schräger Aufzug ging kurz vor Weihnachten 1898 im Kaufhaus Polich in Leipzig in Betrieb. Der wirtschaftliche Durchbruch geschah zur Weltausstellung Paris 1900. Laut Schätzungen des Verbands Deutscher Maschinen- und Anlagenbau gibt es im Jahr 2017 in Deutschland rund 35.600 Rolltreppen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Ob eine 1893 in einen New Yorker Bahnhof eingebaute Wandelbahn nach dem Patent von Reno oder dem von Wheeler gebaut wurde, ist im Text unklar geblieben."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Anzahl Rolltreppen Deutschland 2017",
+     "35.600"
+    ],
+    [
+     "Elektrische Leistung durchschnittlich",
+     "2 bis 5 kW"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Fahrtreppe",
+     "Die fachsprachliche Bezeichnung für eine Rolltreppe."
+    ],
+    [
+     "Fahrsteig",
+     "Ein Beförderungsmittel mit einer ebenen Fläche statt Treppenstufen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann wurde das Patent für Jesse W. Renos Personenförderanlage erteilt?",
+     "optionen": [
+      "15. März 1892",
+      "1. Januar 2010",
+      "18. Dezember 1898"
+     ],
+     "richtig": 0,
+     "erklaerung": "Laut dem Artikel wurde Jesse W. Reno das Patent am 15. März 1892 erteilt."
+    }
+   ],
+   "video": [
+    "Eine Rolltreppe transportiert Menschen über Höhenunterschiede.",
+    "Dabei bewegen sich Metallsegmente zu Treppenstufen.",
+    "Im Jahr 1859 gab es das erste US-Patent dafür.",
+    "George A. Wheeler gilt als der eigentliche Erfinder.",
+    "Charles Seeberger kaufte im Jahr 1898 sein Patent.",
+    "Der Durchbruch gelang bei der Weltausstellung in Paris.",
+    "Heute sorgen strenge Regeln und Sensoren für Sicherheit."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Rolltreppe",
+    "bildunterschrift": "Eine Rolltreppe transportiert Personen über Höhenunterschiede."
+   },
+   "quelle": {
+    "titel": "Rolltreppe",
+    "url": "https://de.wikipedia.org/wiki/Rolltreppe",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 345,
+   "bildInfos": [
+    {
+     "titel": "Copenhagen Metro escalators.jpg",
+     "beschreibung": "Escalators at Amagerbro Metro Station in Copenhagen , Denmark.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Copenhagen_Metro_escalators.jpg/1280px-Copenhagen_Metro_escalators.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Copenhagen_Metro_escalators.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Copenhagen_Metro_escalators.jpg",
+     "urheber": "Stig Nygaard from Copenhagen, Denmark",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Rolltreppe",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine Rolltreppe transportiert Personen über Höhenunterschiede."
+    },
+    {
+     "titel": "0849 - Moskau 2015 - Metrostation Kiewskaja (26128513980).jpg",
+     "beschreibung": "0849 - Moskau 2015 - Metrostation Kiewskaja",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/0849_-_Moskau_2015_-_Metrostation_Kiewskaja_%2826128513980%29.jpg/1280px-0849_-_Moskau_2015_-_Metrostation_Kiewskaja_%2826128513980%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e4/0849_-_Moskau_2015_-_Metrostation_Kiewskaja_%2826128513980%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:0849_-_Moskau_2015_-_Metrostation_Kiewskaja_(26128513980).jpg",
+     "urheber": "Uwe Brodrecht",
+     "lizenz": "CC BY-SA 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "0849 - Moskau 2015 - Metrostation Kiewskaja"
+    },
+    {
+     "titel": "Arsenalna metro station Kiev 2010 pano.jpg",
+     "beschreibung": "Станция метро «Арсенальная», промежуточный вестибюль эскалаторного наклона",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Arsenalna_metro_station_Kiev_2010_pano.jpg/1280px-Arsenalna_metro_station_Kiev_2010_pano.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/21/Arsenalna_metro_station_Kiev_2010_pano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Arsenalna_metro_station_Kiev_2010_pano.jpg",
+     "urheber": "AMY ( talk ) 12:14, 7 May 2010 (UTC)",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Станция метро «Арсенальная», промежуточный вестибюль эскалаторного наклона"
+    },
+    {
+     "titel": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső, 2.jpg",
+     "beschreibung": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_2.jpg/1280px-Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Budapest,_M3_metr%C3%B3,_De%C3%A1k_Ferenc_t%C3%A9r,_mozg%C3%B3l%C3%A9pcs%C5%91,_2.jpg",
+     "urheber": "Christo",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső"
+    },
+    {
+     "titel": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső, 4.jpg",
+     "beschreibung": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_4.jpg/1280px-Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_4.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/80/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91%2C_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Budapest,_M3_metr%C3%B3,_De%C3%A1k_Ferenc_t%C3%A9r,_mozg%C3%B3l%C3%A9pcs%C5%91,_4.jpg",
+     "urheber": "Christo",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső"
+    },
+    {
+     "titel": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső.jpg",
+     "beschreibung": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91.jpg/1280px-Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Budapest%2C_M3_metr%C3%B3%2C_De%C3%A1k_Ferenc_t%C3%A9r%2C_mozg%C3%B3l%C3%A9pcs%C5%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Budapest,_M3_metr%C3%B3,_De%C3%A1k_Ferenc_t%C3%A9r,_mozg%C3%B3l%C3%A9pcs%C5%91.jpg",
+     "urheber": "Christo",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Budapest, M3 metró, Deák Ferenc tér, mozgólépcső"
+    },
+    {
+     "titel": "OldEscalator in Macy's NYC.jpg",
+     "beschreibung": "Old Escalator in Macy's department store New York",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/OldEscalator_in_Macy%27s_NYC.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/7c/OldEscalator_in_Macy%27s_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:OldEscalator_in_Macy%27s_NYC.jpg",
+     "urheber": "PlusMinus",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Old Escalator in Macy's department store New York"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Copenhagen Metro escalators.jpg",
+    "beschreibung": "Escalators at Amagerbro Metro Station in Copenhagen , Denmark.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Copenhagen_Metro_escalators.jpg/1280px-Copenhagen_Metro_escalators.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/Copenhagen_Metro_escalators.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Copenhagen_Metro_escalators.jpg",
+    "urheber": "Stig Nygaard from Copenhagen, Denmark",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Rolltreppe",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine Rolltreppe transportiert Personen über Höhenunterschiede."
+   }
+  },
   {
    "id": "wie-funktionierte-eigentlich-die-aegyptische-mumifizierung",
    "zeit": "2026-10-05T09:02:36.273Z",
