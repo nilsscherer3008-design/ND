@@ -1,6 +1,153 @@
 {
- "stand": "2026-10-04T18:07:31.393Z",
+ "stand": "2026-10-05T08:54:52.057Z",
  "stuecke": [
+  {
+   "id": "wie-funktionierte-eigentlich-die-aegyptische-mumifizierung",
+   "zeit": "2026-10-05T09:02:36.273Z",
+   "bereich": "Geschichte",
+   "titel": "Wie funktionierte eigentlich die ägyptische Mumifizierung?",
+   "vorspann": "Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Die Mumifizierung im Alten Ägypten bezeichnet ein Verfahren zum Schutz vor dem Zerfall des Körpers nach dem Tod. Ursprünglich diente der Vorgang dem Erhalt des Körpers des verstorbenen Königs als vergöttlichtes Abbild. Im weiteren Verlauf der Geschichte änderte sich die mythologische Ausrichtung. Mit der Einführung des Totenbuches im Neuen Reich hatten auch normale Ägypter diese Möglichkeit. Die Bestattungsriten dauerten im Idealfall insgesamt siebzig Tage an.",
+      "Die Mumifizierungspraxis war im Glauben an ein Fortdauern nach dem Tod begründet. Früher begruben die Ägypter ihre Toten in der Wüste. Dort wurden sie durch Trockenheit, Hitze und Salzgehalt des Sandes natürlich konserviert. Später wurden die Körper künstlich behandelt. Im Alten Reich erkannte man, dass innere Organe entnommen werden mussten, um den Verwesungsprozess zu stoppen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Am Anfang stand laut Herodot die Waschung des Leichnams. Danach wurde das Gehirn mit einem Haken durch die Nase entfernt. Anschließend schnitten die Balsamierer den Bauchraum auf und entnahmen die Eingeweide. Das Herz ließ man im Körper, weil es als Sitz aller Verstandeskräfte galt. Auch die Nieren ließ man im Leichnam zurück.",
+      "Zur Entwässerung wurde der Körper mit trockenem Natron oder Nitron behandelt. Diese Behandlung dauerte ungefähr fünfunddreißig bis vierzig Tage. Danach goss man erhitztes Salböl in den Körper und rieb ihn ein. Die Organe wurden einzeln in Leinentücher gewickelt und in Kanopenkrüge gesetzt. Schließlich wurde der Leichnam mit Binden umwickelt.",
+      "Während des Wickelns wurden magische Amulette beigefügt. Priester vollzogen nach der Einbalsamierung verschiedene Rituale an der Mumie. Dazu gehörte die Mundöffnungszeremonie. Zum Schutz des Körpers wurde ein Sarg benötigt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Ablauf der Mumifizierung wird vom griechischen Schriftsteller Herodot in dessen zweitem Buch der Historien ausführlich beschrieben. Zudem haben Wissenschaftler Untersuchungen an Mumien in Badari und Mostagedda durchgeführt."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Artikel enthält keine Informationen über ungelöste Fragen der Forschung."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Dauer der Bestattungsriten im Idealfall",
+     "70 Tage"
+    ],
+    [
+     "Dauer der Natronbehandlung",
+     "35-40 Tage"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Mumifizierung",
+     "Ein altägyptisches Verfahren zum Schutz vor dem Zerfall des Körpers nach dem Tod."
+    ],
+    [
+     "Kanopenkrüge",
+     "Gefäße zur Aufbewahrung der entnommenen inneren Organe."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Welches Organ wurde bei der Mumifizierung fast immer im Körper gelassen?",
+     "optionen": [
+      "Das Herz",
+      "Das Gehirn",
+      "Die Leber"
+     ],
+     "richtig": 0,
+     "erklaerung": "Das Herz blieb im Körper, weil es nach damaligem Verständnis der Sitz aller Verstandeskräfte war."
+    }
+   ],
+   "video": [
+    "Im Alten Ägypten wurden Körper nach dem Tod mumifiziert.",
+    "Damit sollte der Körper vor dem Zerfall geschützt werden.",
+    "Am Anfang stand die Waschung des Leichnams.",
+    "Das Gehirn wurde mit einem Haken durch die Nase entfernt.",
+    "Danach wurden die Eingeweide aus dem Bauchraum herausgenommen.",
+    "Das Herz und die Nieren blieben dabei im Körper zurück.",
+    "Zur Trocknung wurde der Körper in Natron eingelegt.",
+    "Zum Schluss wurde der Leichnam mit Leinenbinden umwickelt."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Mumifizierung im Alten Ägypten",
+    "bildunterschrift": "Die Mumifizierung war ein aufwendiges Verfahren im Alten Ägypten."
+   },
+   "quelle": {
+    "titel": "Mumifizierung im Alten Ägypten",
+    "url": "https://de.wikipedia.org/wiki/Mumifizierung_im_Alten_%C3%84gypten",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 288,
+   "bildInfos": [
+    {
+     "titel": "GD-EG-Alex-MuséeNat068.JPG",
+     "beschreibung": "Sarcophagus and mummy, painted wood, Late Period. National Museum of Alexandria, Egypt.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/GD-EG-Alex-Mus%C3%A9eNat068.JPG/1280px-GD-EG-Alex-Mus%C3%A9eNat068.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/GD-EG-Alex-Mus%C3%A9eNat068.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:GD-EG-Alex-Mus%C3%A9eNat068.JPG",
+     "urheber": "Gérard Ducher ( user:Néfermaât )",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "artikel": "Mumifizierung im Alten Ägypten",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Die Mumifizierung war ein aufwendiges Verfahren im Alten Ägypten."
+    },
+    {
+     "titel": "Bemalte Mumienbinde.JPG",
+     "beschreibung": "Painted mummy bandage",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Bemalte_Mumienbinde.JPG/1280px-Bemalte_Mumienbinde.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Bemalte_Mumienbinde.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bemalte_Mumienbinde.JPG",
+     "urheber": "Marco Almbauer",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Painted mummy bandage"
+    },
+    {
+     "titel": "Egyptian predynastic grave.JPG",
+     "beschreibung": "Typical Egyptian Grave containing the naturally-preserved body of a man with a collection of grave-goods. Late Predynastic, about 3400 BC. Now kept in British Museum.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Egyptian_predynastic_grave.JPG/1280px-Egyptian_predynastic_grave.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Egyptian_predynastic_grave.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Egyptian_predynastic_grave.JPG",
+     "urheber": "Popperipopp",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Typical Egyptian Grave containing the naturally-preserved body of a man with a collection of grave-goods. Late Predynastic, about 3400 BC. Now kept in British Museum."
+    }
+   ],
+   "bildInfo": {
+    "titel": "GD-EG-Alex-MuséeNat068.JPG",
+    "beschreibung": "Sarcophagus and mummy, painted wood, Late Period. National Museum of Alexandria, Egypt.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/GD-EG-Alex-Mus%C3%A9eNat068.JPG/1280px-GD-EG-Alex-Mus%C3%A9eNat068.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/GD-EG-Alex-Mus%C3%A9eNat068.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:GD-EG-Alex-Mus%C3%A9eNat068.JPG",
+    "urheber": "Gérard Ducher ( user:Néfermaât )",
+    "lizenz": "CC BY-SA 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artikel": "Mumifizierung im Alten Ägypten",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Die Mumifizierung war ein aufwendiges Verfahren im Alten Ägypten."
+   }
+  },
   {
    "id": "wie-funktionierte-die-post-im-alten-rom",
    "zeit": "2026-10-04T18:14:50.916Z",
