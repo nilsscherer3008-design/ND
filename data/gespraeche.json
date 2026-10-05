@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-04T19:48:48.907448Z",
+ "stand": "2026-10-05T22:56:44.688424Z",
  "besetzung": [
   {
    "name": "Thorsten",
@@ -23,6 +23,120 @@
   }
  ],
  "folgen": [
+  {
+   "id": "podcast-g7-freigabe-oel-reserven",
+   "themaId": "g7-freigabe-oel-reserven",
+   "art": "podcast",
+   "titel": "Freigabe von Energierezerven",
+   "text": "Die G7-Staaten geben bis zu einhundert Millionen Barrel Öl und Diesel frei. Wir beleuchten die Hintergründe und Reaktionen.",
+   "zeit": "2026-10-05T22:56:44.688424Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-g7-freigabe-oel-reserven.mp3",
+   "l": 358.03,
+   "b": 2864685,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Willkommen zum Nachrichten-Podcast. Alle Stimmen dieser Sendung sind Computerstimmen. Unser Thema heute ist die Freigabe von Energierezerven zur Entlastung der Märkte. Die G7-Staaten haben die Freigabe von bis zu einhundert Millionen Barrel Öl und Diesel beschlossen."
+    },
+    {
+     "s": 34.54,
+     "wer": "Thorsten",
+     "text": "Ich begrüße heute meine Gäste in der Runde. Mit dabei sind Sigrid, Malte und Nora. Sigrid, du hast dir die Ausgangslage genauer angesehen. Wie bewertest du diesen Schritt der G7-Staaten."
+    },
+    {
+     "s": 60.2,
+     "wer": "Sigrid",
+     "text": "Die G7-Staaten reagieren damit auf hohe Preise und Versorgungssorgen. Zu dieser Staatengruppe gehören Deutschland, Frankreich, Italien, Großbritannien, die USA, Kanada und Japan. Die Freigabe soll den Markt spürbar entlasten."
+    },
+    {
+     "s": 77.64,
+     "wer": "Malte",
+     "text": "Sigrid hat es bereits angesprochen. Laut den Berichten von Tagesschau, ZDFheute, Spiegel und BBC umfasst die koordinierte Freigabe bis zu einhundert Millionen Barrel Öl und Kraftstoffe. Der Zeitraum der Freigabe ist auf vier Monate angelegt."
+    },
+    {
+     "s": 101.92,
+     "wer": "Nora",
+     "text": "Malte, bei diesen großen Zahlen müssen wir genauer hinsehen. US-Präsident Donald Trump hatte zuvor mit einem Exportstopp für US-Diesel gedroht. Nach der Einigung bezeichnete er diesen Exportstopp jedoch als vom Tisch."
+    },
+    {
+     "s": 119.07,
+     "wer": "Sigrid",
+     "text": "Es gab dazu im Vorfeld einige diplomatische Aktivitäten, wie die Zeitleiste zeigt. US-Finanzminister Scott Bessent forderte am Donnerstag auf X und in direkten Forderungen von Europa die Bereitstellung zusätzlicher Liefermengen. In der Nacht zum Freitag telefonierte US-Präsident Trump dann mit Frankreichs Präsident Emmanuel Macron."
+    },
+    {
+     "s": 143.28,
+     "wer": "Malte",
+     "text": "Genau das führte dann letztlich zu der Vereinbarung. Die G7-Staaten gaben die koordinierte Freigabe bekannt. US-Präsident Trump äußerte sich dazu und sagte, die Freigabe durch Europa sei eine großartige Sache und ein Exportstopp sei nie wirklich auf dem Tisch gewesen."
+    },
+    {
+     "s": 162.62,
+     "wer": "Nora",
+     "text": "Doch nicht alle teilen diesen Optimismus. Kritik kommt von Ökonomen und der Partei Die Grünen. Sie stufen die Maßnahme als kurzfristige Maßnahme ohne dauerhafte Wirkung ein."
+    },
+    {
+     "s": 180.3,
+     "wer": "Sigrid",
+     "text": "Malte, kannst du uns dazu die genauen Positionen und die Stimmen nennen. Was sagen die Kritiker im Detail dazu."
+    },
+    {
+     "s": 188.52,
+     "wer": "Malte",
+     "text": "Michael Kellner als Grünen-Politiker bezeichnete die Freigabe der Reserven als einen Fehler und eine politische Dummheit für den US-Wahlkampf. Auch von wissenschaftlicher Seite gibt es ähnliche Töne."
+    },
+    {
+     "s": 204.29,
+     "wer": "Sigrid",
+     "text": "Samina Sultan als Ökonomin vom Institut der deutschen Wirtschaft erklärte dazu, dass die Freigabe nur kurzfristige Linderung bringt, aber die Grundproblematik nicht löst. Sie sieht darin also keinen nachhaltigen Ausweg aus der Energiekrise."
+    },
+    {
+     "s": 220.22,
+     "wer": "Nora",
+     "text": "Und wie sieht die deutsche Bundesregierung die Lage. Katherina Reiche betonte als Bundeswirtschaftsministerin, dass die nationale Energieversorgung in Deutschland durch die Freigabe der Bestände nicht gefährdet sei."
+    },
+    {
+     "s": 238.78,
+     "wer": "Thorsten",
+     "text": "Damit zu Malte, der sich die wirtschaftlichen Rahmendaten und die weiteren Details angesehen hat. Welche Zahlen spielen hier noch eine Rolle."
+    },
+    {
+     "s": 253.12,
+     "wer": "Malte",
+     "text": "Wir haben neben der freigegebenen Ölmenge von bis zu einhundert Millionen Barrel und dem Zeitraum von vier Monaten noch einen weiteren Wert. Die Inflation im Euroraum lag im September bei drei Komma acht Prozent."
+    },
+    {
+     "s": 267.51,
+     "wer": "Nora",
+     "text": "Malte, wie du eben sagtest, sind die Gesamtzahlen zwar bekannt, aber es gibt noch einige offene Fragen. Der Spiegel weist darauf hin, dass der genaue Dieselanteil an den freigegebenen einhundert Millionen Barrel aus den Mitteilungen nicht hervorgeht."
+    },
+    {
+     "s": 284.66,
+     "wer": "Sigrid",
+     "text": "Das deckt sich auch mit Berichten der BBC. Dort wird betont, dass es weiterhin unklar ist, welche Partnerländer genau zusätzliche Bestände freigeben und wie schnell dies im Detail geschehen wird."
+    },
+    {
+     "s": 297.05,
+     "wer": "Thorsten",
+     "text": "Nora, du hast die offenen Punkte treffend zusammengefasst. Die Märkte blicken also gespannt auf die kommenden Wochen. Wir fassen am Ende noch einmal zusammen."
+    },
+    {
+     "s": 313.68,
+     "wer": "Thorsten",
+     "text": "Die G7-Staaten haben bis zu einhundert Millionen Barrel Öl und Diesel freigegeben, um auf hohe Preise und Versorgungssorgen zu reagieren. Während die Politik die Versorgungssicherheit betont, bleiben Zweifel an der langfristigen Wirkung. Damit schließen wir diese Sendung."
+    },
+    {
+     "s": 345.07,
+     "wer": "Thorsten",
+     "text": "Ich bedanke mich bei Sigrid, Malte und Nora für das Gespräch. Ihnen allen vielen Dank fürs Zuhören und bis zum nächsten Mal."
+    }
+   ]
+  },
   {
    "id": "podcast-lettland-parlamentswahl",
    "themaId": "lettland-parlamentswahl",
@@ -888,140 +1002,6 @@
      "s": 385.57,
      "wer": "Thorsten",
      "text": "Damit haben wir die bekannten Fakten, die unterschiedlichen Positionen und die offenen Fragen dieses Großeinsatzes beleuchtet. Danke an Sigrid, Malte und Nora für diese ausführliche Einordnung. Und vielen Dank fürs Zuhören, bis zum nächsten Mal."
-    }
-   ]
-  },
-  {
-   "id": "podcast-koalitionsstreit-pflegereform-linnemann-spd",
-   "themaId": "koalitionsstreit-pflegereform-linnemann-spd",
-   "art": "podcast",
-   "titel": "Koalitionsstreit über die Pflegereform",
-   "text": "In der Bundesregierung gibt es heftige Unstimmigkeiten über den Entwurf für eine Pflegereform. Gesundheitsminister Carsten Linnemann und die SPD streiten über Eigenanteile und die Finanzierung.",
-   "zeit": "2026-09-27T19:53:35.911434Z",
-   "besetzung": [
-    "Thorsten",
-    "Sigrid",
-    "Malte",
-    "Nora"
-   ],
-   "d": "folge-podcast-koalitionsstreit-pflegereform-linnemann-spd.mp3",
-   "l": 483.18,
-   "b": 3865965,
-   "marken": [
-    {
-     "s": 0.3,
-     "wer": "Thorsten",
-     "text": "Herzlich willkommen zu unserem Podcast. Heute sprechen wir über den Koalitionsstreit zur Pflegereform und die Forderungen der SPD, die Gesundheitsminister Carsten Linnemann von der CDU zurückweist. Bevor wir in das Thema einsteigen, ein wichtiger Hinweis: Alle Stimmen dieser Sendung sind Computerstimmen. Um die verschiedenen Positionen zu beleuchten, habe ich heute drei Gäste im Studio. Sigrid ist bei mir, außerdem Malte und Nora."
-    },
-    {
-     "s": 41.01,
-     "wer": "Sigrid",
-     "text": "Hallo Thorsten. Die Bundesregierung steckt mitten in einer Krise, weil es große Unstimmigkeiten über den vorgelegten Entwurf gibt. Bundesgesundheitsminister Carsten Linnemann lehnt die von der SPD geforderte Begrenzung von Eigenanteilen strikt ab. Die SPD-Bundestagsfraktion droht im Gegenzug mit einer Blockade des Gesetzes."
-    },
-    {
-     "s": 61.9,
-     "wer": "Malte",
-     "text": "Ich schaue mir dazu gerne die Quellen an, unter anderem Tagesschau und ARD, ZDFheute sowie den Spiegel. Laut Berichten dieser Medien ist der Kabinettsbeschluss für Mittwoch geplant, aber ob dieser Termin hält, ist umstritten. Kassenvertreter Oliver Blatt warnt vom Spitzenverband der Pflegekassen vor Zahlungsengpässen und beziffert das Defizit bis zum Jahresende auf vier Komma vier Milliarden Euro."
-    },
-    {
-     "s": 89.22,
-     "wer": "Nora",
-     "text": "Da hake ich direkt ein, Malte. Die Zahlen klingen dramatisch, aber Eugen Brysch von der Deutschen Stiftung Patientenschutz sieht das offenbar anders. Er rät der Koalition zu gründlichen Verhandlungen und weist die Warnungen vor einem plötzlichen Aus der Pflegekassen zurück. Es bleibt also die Frage, wie akut die Krise wirklich ist."
-    },
-    {
-     "s": 117.44,
-     "wer": "Thorsten",
-     "text": "Damit gehen wir genauer in die Details. Worin sind sich die Beteiligten eigentlich einig, Sigrid? Du hast dir die Berichte der Medien wie Zeit und Deutschlandfunk genauer angeschaut."
-    },
-    {
-     "s": 133.81,
-     "wer": "Sigrid",
-     "text": "Einig ist man sich vor allem darüber, dass es einen heftigen Streit gibt. Gesundheitsminister Linnemann lehnt den sogenannten Pflegedeckel ab und hält die Diskussion über den Entwurf für nichts Ungewöhnliches. Er erinnert an eine späte Einigung bei der früheren Krankenkassenreform und betont, dass für diesen Montag ein Treffen der Koalitionspartner angesetzt ist."
-    },
-    {
-     "s": 155.63,
-     "wer": "Malte",
-     "text": "Dazu passt, was Linnemann laut Tagesschau und ARD argumentiert. Er verweist darauf, dass der Staat der Pflegeversicherung aus Corona-Zeiten noch fünf Milliarden Euro schulde. Und Kassenvertreter Oliver Blatt warnt eben weiterhin vor einem baldigen Auslaufen der Geldmittel in den Pflegekassen, weshalb die Zeit drängt."
-    },
-    {
-     "s": 179.22,
-     "wer": "Nora",
-     "text": "Aber wie Nora eben sagte, gibt es auch ganz andere Stimmen dazu. Eugen Brysch von der Stiftung Patientenschutz fordert Ruhe und gründliche Verhandlungen. Zudem sind für Montag Verhandlungen angesetzt, und es wird spannend, ob Union und SPD dort einen Kompromiss erzielen können."
-    },
-    {
-     "s": 202.14,
-     "wer": "Thorsten",
-     "text": "Kommen wir zu den Positionen der verschiedenen Akteure. Malte, wie stellt sich die Haltung des Bundesgesundheitsministers dar?"
-    },
-    {
-     "s": 213.66,
-     "wer": "Malte",
-     "text": "Carsten Linnemann, der seit zwei Monaten im Amt ist, lehnt den Pflegedeckel als unzureichend ab. Er verweist auf die fehlenden Milliarden durch die Corona-Soforthilfen und will stattdessen Strukturreformen ab Oktober in einer Kommission beraten. Das geht aus Berichten von ZDFheute und dem Spiegel hervor."
-    },
-    {
-     "s": 233.53,
-     "wer": "Sigrid",
-     "text": "Die SPD hält dagegen und vertritt eine ganz andere Linie, wie Matthias Miersch als SPD-Fraktionsvorsitzender im Spiegel und in der Bild deutlich gemacht hat. Miersch kündigt ein Veto seiner Fraktion an, falls Privatversicherte nicht an der Finanzierung beteiligt werden und die Reform am Ende ein reines Kürzungspaket bleibt."
-    },
-    {
-     "s": 254.32,
-     "wer": "Nora",
-     "text": "Aus der saarländischen Landespolitik kommt ebenfalls ein konkreter Vorschlag von Ministerpräsidentin Anke Rehlinger. Sie schlägt einen Pflegedeckel für den einrichtungseinheitlichen Eigenanteil in Höhe von eintausendfünfhundert Euro vor. Dagmar Schmidt als SPD-Fraktionsvize fordert zudem ein solidarisches System oder einen fairen finanziellen Ausgleich zwischen privater und sozialer Pflegeversicherung."
-    },
-    {
-     "s": 282.33,
-     "wer": "Malte",
-     "text": "Ergänzend dazu haben wir die Position von Oliver Blatt vom Spitzenverband der Pflegekassen. Er warnt vor einem finanziellen Zusammenbruch der Kassen und fordert ein schnelles Handeln der Koalition, wie die Zeit und der Deutschlandfunk übereinstimmend berichten."
-    },
-    {
-     "s": 299.77,
-     "wer": "Thorsten",
-     "text": "Das sind harte Fronten zwischen den Koalitionspartnern. Nora, wie bewertest du diesen offenen Konflikt vor dem Hintergrund der vier Millionen pflegenden Angehörigen in Deutschland?"
-    },
-    {
-     "s": 316.6,
-     "wer": "Nora",
-     "text": "Es ist vor allem ein Machtkampf um die Lastenverteilung, Thorsten. Bundeskanzler Merz sprach nach Wahlen von einem Gerechtigkeitsproblem zwischen gesetzlich und privat Versicherten, was die SPD nun als Hebel nutzt. Wenn Matthias Miersch mit einer Blockade droht, steht die gesamte Reform auf dem Spiel."
-    },
-    {
-     "s": 335.24,
-     "wer": "Sigrid",
-     "text": "Und genau da liegt der Widerspruch, den Malte vorhin bei den Kassenvertretern angesprochen hat. Auf der Seite der Kassen wird vor einem Defizit von vier Komma vier Milliarden Euro bis zum Jahresende gewarnt. Auf der anderen Seite winkt Eugen Brysch ab und sagt, ein plötzliches Aus drohe eben nicht."
-    },
-    {
-     "s": 353.78,
-     "wer": "Malte",
-     "text": "Linnemann versucht diesen Druck abzufedern, indem er auf die fünf Milliarden Euro verweist, die der Staat der Pflegeversicherung aus Corona-Zeiten noch schuldet. Er argumentiert, dass eine Obergrenze das eigentliche Finanzproblem nicht löst, und vertraut auf die geplante Kommission im Oktober."
-    },
-    {
-     "s": 373.43,
-     "wer": "Nora",
-     "text": "Aber das reicht der SPD eben nicht aus, wie wir durch die Äußerungen von Anke Rehlinger und Dagmar Schmidt sehen. Die SPD fordert den fairen finanziellen Ausgleich und das Einbeziehen der privaten Pflegeversicherung. Ohne diesen Schritt will die SPD den Entwurf im Kabinett stoppen."
-    },
-    {
-     "s": 393.81,
-     "wer": "Thorsten",
-     "text": "Sigrid, was ist nach all diesen Berichten der verschiedenen Medien wie ARD, ZDF und Spiegel eigentlich noch offen?"
-    },
-    {
-     "s": 404.09,
-     "wer": "Sigrid",
-     "text": "Vollkommen offen ist, ob der Gesetzentwurf wie vorgesehen am kommenden Mittwoch vom Bundeskabinett beschlossen oder verschoben wird. Nach Angaben von ZDFheute hält der Sender einen Beschluss für eher unwahrscheinlich. Dagegen hält Gesundheitsminister Linnemann laut Tagesschau und ARD eine Einigung weiterhin für möglich."
-    },
-    {
-     "s": 422.49,
-     "wer": "Malte",
-     "text": "Genau das ist der Punkt, den auch die Zeitleiste zeigt. Für diesen Montag ist ein Treffen der Koalitionspartner angesetzt, um den Kompromiss zu suchen. Ursprünglich war der Mittwoch für den Beschluss im Kabinett vorgesehen, doch ob dieser Zeitplan hält, entscheidet sich wohl erst in den Verhandlungen am Montag."
-    },
-    {
-     "s": 444.12,
-     "wer": "Nora",
-     "text": "Es bleibt also abzuwarten, ob die Drohung der SPD Wirkung zeigt oder ob Linnemann bei seiner Linie bleibt. Die Gespräche am Montag werden zeigen, ob die Koalition diesen Streit beilegen kann oder ob das Gesetz vorerst vertagt wird."
-    },
-    {
-     "s": 459.82,
-     "wer": "Thorsten",
-     "text": "Wir fassen zusammen: Die Koalition streitet heftig über die Pflegereform, den Pflegedeckel und die Beteiligung der privaten Kassen. Ob das Kabinett am Mittwoch entscheidet, ist völlig offen. Danke an Sigrid, Malte und Nora für die Einschätzungen, und danke Ihnen fürs Zuhören."
     }
    ]
   }
