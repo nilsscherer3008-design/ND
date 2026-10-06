@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-05T22:56:44.688424Z",
+ "stand": "2026-10-06T21:13:16.714211Z",
  "besetzung": [
   {
    "name": "Thorsten",
@@ -23,6 +23,110 @@
   }
  ],
  "folgen": [
+  {
+   "id": "podcast-schuelerproteste-frankreich",
+   "themaId": "schuelerproteste-frankreich",
+   "art": "podcast",
+   "titel": "Schülerproteste und Blockaden in Frankreich",
+   "text": "In Frankreich haben sich Schülerproteste zu einer landesweiten Bewegung ausgeweitet. Wir blicken auf die aktuellen Entwicklungen und Reaktionen.",
+   "zeit": "2026-10-06T21:13:16.714211Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-schuelerproteste-frankreich.mp3",
+   "l": 327.83,
+   "b": 2623149,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Willkommen zu unserem Podcast. Alle Stimmen dieser Sendung sind Computerstimmen. Ich begrüße heute meine Kolleginnen und Kollegen Sigrid, Malte und Nora im Studio. Wir blicken auf die Ausweitung von Schülerprotesten und Reaktionen in Frankreich. Sigrid, wie siehst du das?"
+    },
+    {
+     "s": 34.58,
+     "wer": "Sigrid",
+     "text": "Die Proteste haben sich mittlerweile zu einer landesweiten Bewegung entwickelt. Es kommt an zahlreichen Gymnasien und Universitäten zu Blockaden und Unterrichtsausfällen. Die Lage ist insgesamt sehr angespannt."
+    },
+    {
+     "s": 48.54,
+     "wer": "Malte",
+     "text": "Das Bildungsministerium meldet dazu ganz konkrete Zahlen aus dem Land. Laut den offiziellen Angaben waren achthunderteinundneunzig Gymnasien von ganz oder teilweise ausgefallenem Unterricht betroffen. Präsident Emmanuel Macron hat inzwischen eine Krisensitzung im Élysée-Palast einberufen."
+    },
+    {
+     "s": 68.3,
+     "wer": "Nora",
+     "text": "Diese Sitzung zeigt ja, wie ernst die Lage von der Regierung genommen wird. Dabei fing alles erst vor etwa drei Wochen an. Mitte September zweitausendsechsundzwanzig gab es die ersten Unruhen an einer Schule in einer Pariser Vorstadt beziehungsweise in Seine-Saint-Denis."
+    },
+    {
+     "s": 89.88,
+     "wer": "Thorsten",
+     "text": "Damit zu Malte. Welche Belege gibt es für die genaue Ausweitung und den zeitlichen Ablauf der Ereignisse?"
+    },
+    {
+     "s": 106.32,
+     "wer": "Malte",
+     "text": "Die Berichte stützen sich auf Quellen wie Tagesschau, Deutschlandfunk, BBC und SRF. Vergangene Woche dehnten sich die Proteste auf den Großraum Paris aus. Am Sonntag kündigte Bildungsminister Édouard Geffray an, dass vierhundert bis fünfhundert Schulen am Montag geschlossen bleiben sollen."
+    },
+    {
+     "s": 125.8,
+     "wer": "Sigrid",
+     "text": "Dazu passt auch, dass Premierminister Sébastien Lecornu Verbesserungen forderte und das Bildungsministerium eine Online-Plattform freischaltete. Am Dienstag folgte dann ein landesweiter Aktionstag mit Großdemonstrationen und Blockaden. Innenminister Laurent Nuñez rechtfertigte die polizeilichen Einsätze im Sender France Inter."
+    },
+    {
+     "s": 146.38,
+     "wer": "Nora",
+     "text": "Aber genau diese Einsätze und die Reaktionen darauf sind ja stark umstritten. Die verschiedenen Seiten schildern die Vorfälle und Absichten völlig unterschiedlich. Innenminister Laurent Nuñez bezeichnet den Einsatz von Granaten und Gummigeschossen bei Ausschreitungen als verhältnismäßig."
+    },
+    {
+     "s": 166.89,
+     "wer": "Thorsten",
+     "text": "Sigrid, wie bewertest du die unterschiedlichen Positionen der Beteiligten in diesem Konflikt?"
+    },
+    {
+     "s": 177.67,
+     "wer": "Sigrid",
+     "text": "Auf Regierungsseite gibt es sehr deutliche Worte zur Einordnung der Proteste. Premierminister Sébastien Lecornu wirft der Partei LFI vor, vor den Präsidentschaftswahlen Chaos säen zu wollen. Bildungsminister Édouard Geffray beklagt zudem die Infiltrierung der Schülerbewegung durch gewaltbereite Elemente und appelliert an den Dialog."
+    },
+    {
+     "s": 198.89,
+     "wer": "Malte",
+     "text": "Demgegenüber stehen die Stimmen aus der Schülerschaft. Die Schülerinnen Iris und Louane betonen, Pazifisten zu sein und Gewalt zu verurteilen. Sie erklären, lediglich Gehör für ihre Forderungen zu suchen und keineswegs gewaltsam agieren zu wollen."
+    },
+    {
+     "s": 216.28,
+     "wer": "Nora",
+     "text": "Wie Nora eben sagte, bleiben bei alledem viele Fragen und Details offen. Das gilt vor allem für die Gesamtzahl der demonstrierenden Personen. Die Angaben der Behörden sprechen von zweihundertsechsundfünfzigtausend Menschen, während Gewerkschaften von vierhundertfünfzigtausend Demonstrierenden ausgehen."
+    },
+    {
+     "s": 238.26,
+     "wer": "Thorsten",
+     "text": "Malte, was ist zu den Verletzten und den Zwischenfällen bekannt, die in den Berichten genannt werden?"
+    },
+    {
+     "s": 246.73,
+     "wer": "Malte",
+     "text": "Die Behörden verzeichneten laut den vorliegenden Zahlen an einem Freitag siebzehnhundertsiebenundvierzig Festnahmen. An einem Donnerstag wurden nach Regierungsangaben dreihundertfünf Polizisten verletzt. Zudem gab es im Zuge der Zusammenstöße in Belgien auch in Lüttich zweiundzwanzig verletzte Polizisten."
+    },
+    {
+     "s": 267.76,
+     "wer": "Nora",
+     "text": "Besonders unklar sind dabei die genauen Umstände des schweren Vorfalls in Lens am Montag. Ein fünfzehnjähriger Schüler verlor dort eine Hand. Die Darstellungen der Polizei und der Schüler gehen hier völlig auseinander."
+    },
+    {
+     "s": 286.29,
+     "wer": "Sigrid",
+     "text": "Das stimmt, Nora, denn die Schüler sprechen von einem direkten Treffer durch Polizeibeschuss. Die Polizei hingegen behauptet, der Jugendliche habe eine Granate aufgehoben. Diese widersprüchlichen Aussagen sind bisher überhaupt nicht geklärt worden."
+    },
+    {
+     "s": 301.85,
+     "wer": "Thorsten",
+     "text": "Das zeigt, wie fragil und konfliktreich die Situation in Frankreich nach etwa drei Wochen Protesten weiterhin ist. Wir werden die Entwicklung im Land weiter beobachten. Vielen Dank an euch für die Analysen und die Einordnung der Fakten."
+    }
+   ]
+  },
   {
    "id": "podcast-g7-freigabe-oel-reserven",
    "themaId": "g7-freigabe-oel-reserven",
@@ -918,90 +1022,6 @@
      "s": 561.91,
      "wer": "Thorsten",
      "text": "Wir sind am Ende unserer Sendung angekommen. Ich danke euch für die Einschätzungen und Analysen. Tschüss bis zum nächsten Mal, wenn wir neue Entwicklungen für Sie einordnen."
-    }
-   ]
-  },
-  {
-   "id": "podcast-festnahmen-militaerbasis-fairford-sprengstoffverda",
-   "themaId": "festnahmen-militaerbasis-fairford-sprengstoffverdacht",
-   "art": "podcast",
-   "titel": "Terrorverdacht nahe britischer Militärbasis Fairford",
-   "text": "Wir sprechen über die Festnahme von fünf Männern nahe der britischen Basis Fairford und beleuchten die Hintergründe. Dabei schauen wir auf die Sicherheitslage und die Reaktionen der Behörden.",
-   "zeit": "2026-09-28T22:17:05.842525Z",
-   "besetzung": [
-    "Thorsten",
-    "Sigrid",
-    "Malte",
-    "Nora"
-   ],
-   "d": "folge-podcast-festnahmen-militaerbasis-fairford-sprengstoffverda.mp3",
-   "l": 408.96,
-   "b": 3272109,
-   "marken": [
-    {
-     "s": 0.3,
-     "wer": "Thorsten",
-     "text": "Willkommen zum Nachrichten-Podcast. Alle Stimmen dieser Sendung sind Computerstimmen. Heute blicken wir auf einen Großeinsatz nahe der britischen Militärbasis Fairford, bei dem fünf Männer festgenommen wurden. Die britischen Behörden ermitteln wegen des Verdachts der Vorbereitung eines terroristischen Anschlags. Um das Thema von allen Seiten zu beleuchten, sind heute Sigrid, Malte und Nora im Studio. Sigrid, wie siehst du das Geschehen am Stützpunkt Fairford im ersten Moment?"
-    },
-    {
-     "s": 45.04,
-     "wer": "Sigrid",
-     "text": "Guten Tag, Thorsten. Der Vorfall hat spürbare Konsequenzen für die Menschen vor Ort gehabt, da die Behörden sofort reagieren mussten. Um verdächtige Fahrzeuge wurde eine Sicherheitszone von vierhundert Metern eingerichtet. Rund fünfundachtzig Haushalte in der Nachbarschaft mussten als Vorsichtsmaßnahme evakuiert werden. Das zeigt, wie ernst die Lage von den Einsatzkräften eingeschätzt wurde."
-    },
-    {
-     "s": 74.18,
-     "wer": "Malte",
-     "text": "Dazu passt, was die Medien wie Tagesschau, ARD und ZDFheute übereinstimmend berichten. Die britische Polizei hat in der Nähe des Stützpunktes Fairford fünf Männer festgenommen, wie auch im Spiegel und der FAZ zu lesen ist. Es wird offiziell wegen des Verdachts auf einen terroristischen Anschlag ermittelt. Zudem gab es Durchsuchungen im Zusammenhang mit Verstößen gegen das Sprengstoffgesetz. Damit ist der Rahmen dieses Großeinsatzes vom siebenundzwanzigsten September zweitausendsechsundzwanzig klar abgesteckt."
-    },
-    {
-     "s": 113.33,
-     "wer": "Nora",
-     "text": "Malte, diese Zahlen und Fakten stehen zwar fest, aber wir müssen auch auf die Einordnung blicken. Der Stützpunkt Fairford wird ja nicht nur von den Briten genutzt, sondern stand zuvor im Zusammenhang mit Operationen im Iran-Krieg im Fokus. Bereits im Juli hatten die iranischen Revolutionsgarden Großbritannien davor gewarnt, US-Bombern den Abflug von Fairford zu gestatten. Sie hatten jeden genutzten Stützpunkt als ein legitimes Ziel bezeichnet. Das verleiht dem aktuellen Terrorverdacht eine ganz andere geopolitische Dimension."
-    },
-    {
-     "s": 152.21,
-     "wer": "Thorsten",
-     "text": "Damit zu Malte, der sich die verschiedenen Positionen genauer angeschaut hat. Was sagen die beteiligten Stellen und die internationalen Beobachter dazu?"
-    },
-    {
-     "s": 165.78,
-     "wer": "Malte",
-     "text": "US-Präsident Donald Trump hat sich dazu recht detailliert geäußert. Er erklärte, dass die Verdächtigen länger beobachtet wurden und großen Schaden anrichten wollten. Gleichzeitig betonte er, dass die Zusammenarbeit mit den Briten großartig geklappt habe. Die britische Anti-Terror-Polizei teilte ergänzend mit, dass die Männer wegen Terrorverdachts und Sprengstoffverstößen festgenommen wurden. Die Ermittlungen stünden allerdings noch am Anfang, auch wenn die Lage unter Kontrolle sei."
-    },
-    {
-     "s": 198.93,
-     "wer": "Sigrid",
-     "text": "Da schliessen sich auch die politischen Verantwortlichen in London an. Innenministerin Shabana Mahmood sprach den Rettungskräften ihren Dank für die schnelle Reaktion aus und versicherte der Öffentlichkeit, dass die Lage unter Kontrolle ist. Auch Verteidigungsminister Wes Streeting schloss sich diesem Dank an die Notfall- und Spezialistenteams an. Man will in dieser Phase demonstrativ Handlungsfähigkeit zeigen und Sorgen in der Bevölkerung dämpfen."
-    },
-    {
-     "s": 226.75,
-     "wer": "Nora",
-     "text": "Wie Sigrid eben sagte, wird zwar betont, dass alles unter Kontrolle sei, aber das beruhigt nicht alle Fragen. Die iranische Warnung aus dem Juli schwingt hier im Hintergrund immer mit, auch wenn es dazu bisher keine offiziellen Belege gibt. Die iranische Revolutionsgarde hatte im Juli und im März, als US-Streitkräfte Langstreckenbomber an die RAF-Basis Fairford verlegten, unmissverständlich drohte. Es ist also durchaus umstritten und offen, inwieweit dieser Vorfall mit den damaligen Drohungen direkt verknüpft ist."
-    },
-    {
-     "s": 261.93,
-     "wer": "Sigrid",
-     "text": "Nora, da sprichst du einen wichtigen Punkt an, aber wir müssen bei den Fakten bleiben, die die Ermittler vorlegen. Die britischen Behörden ermitteln primär wegen des Verdachts der Vorbereitung eines terroristischen Anschlags und Verstößen gegen das Sprengstoffgesetz. Von einer offiziellen Bestätigung seitens der Behörden bezüglich einer iranischen Verstrickung ist in den Berichten bisher nichts zu lesen. Wir sollten hier also keine voreiligen Schlüsse ziehen, solange die Ermittlungen noch am Anfang stehen."
-    },
-    {
-     "s": 289.94,
-     "wer": "Malte",
-     "text": "Genau das ist der Punkt, den auch der Deutschlandfunk und andere Medien betonen. Die Quellenlage gibt im Moment eben nur einen Teil preis. Wir wissen aus den Berichten, dass die fünf Männer festgenommen wurden und die fünfundachtzig Haushalte evakuiert werden mussten. Aber wie Nora schon andeutet, bleiben zentrale Fragen zur Identität der Täter und deren konkreten Absichten vorerst unbeantwortet. US-Präsident Trump sprach lediglich von der Absicht, großen Schaden anzurichten."
-    },
-    {
-     "s": 324.2,
-     "wer": "Nora",
-     "text": "Und genau das ist es, was im Raum steht und bis jetzt nicht geklärt ist. Wer steckt wirklich hinter diesem Vorfall und was war das konkrete Ziel der Verdächtigen? Diese Fragen bleiben trotz der Festnahmen offen. Die Sicherheitszone von vierhundert Metern und die Evakuierung der rund fünfundachtzig Haushalte zeigen zwar die Entschlossenheit der Polizei. Doch solange die Hintergründe nicht lückenlos aufgeklärt sind, bleibt die Unsicherheit."
-    },
-    {
-     "s": 357.22,
-     "wer": "Sigrid",
-     "text": "Es ist verständlich, dass diese offenen Fragen bleiben, da die britische Anti-Terror-Polizei erst ganz am Anfang ihrer Arbeit steht. Die Beamten müssen nun auswerten, welchen Sprengstoff die Männer besaßen und wie konkret die Anschlagspläne waren. Die Kooperation zwischen den US-Beobachtern, wie Trump sie lobte, und den britischen Ermittlern wird dabei sicher eine zentrale Rolle spielen. Wir werden abwarten müssen, welche Details in den kommenden Tagen noch ans Licht kommen."
-    },
-    {
-     "s": 385.57,
-     "wer": "Thorsten",
-     "text": "Damit haben wir die bekannten Fakten, die unterschiedlichen Positionen und die offenen Fragen dieses Großeinsatzes beleuchtet. Danke an Sigrid, Malte und Nora für diese ausführliche Einordnung. Und vielen Dank fürs Zuhören, bis zum nächsten Mal."
     }
    ]
   }
