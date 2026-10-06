@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Tue, 06 Oct 2026 07:30:33 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 15:04:59 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,28 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Wie entsteht eigentlich Milch?</title>
+    <description>Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.</description>
+    <itunes:summary>Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.</itunes:summary>
+    <pubDate>Tue, 06 Oct 2026 07:32:34 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-milch</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0a2d2c5178.mp3" length="152733" type="audio/mpeg"/>
+    <itunes:duration>00:00:25</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Hauptausgabe vom 2026-10-06</title>
+    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva</description>
+    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva</itunes:summary>
+    <pubDate>Tue, 06 Oct 2026 07:30:33 GMT</pubDate>
+    <guid isPermaLink="false">hauptausgabe-2026-10-06</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-06.mp3" length="3806157" type="audio/mpeg"/>
+    <itunes:duration>00:10:34</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Freigabe von Energierezerven</title>
     <description>Die G7-Staaten geben bis zu einhundert Millionen Barrel Öl und Diesel frei. Wir beleuchten die Hintergründe und Reaktionen.</description>
@@ -27,13 +49,24 @@
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
-    <title>Hauptausgabe vom 2026-10-05</title>
-    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Schülerproteste und Schulschließungen in Frankreich · Abschluss des Oktoberfests 2026 mit Rekordzahlen und Zwischenfällen · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Bolsonaro und Lula · Spanien: Ministerpräsident Sánchez kündigt vorgezogene Parlamentswahlen für November an · Finanzuntersuchungen und Berichte im englischen Fußball</description>
-    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Schülerproteste und Schulschließungen in Frankreich · Abschluss des Oktoberfests 2026 mit Rekordzahlen und Zwischenfällen · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Bolsonaro und Lula · Spanien: Ministerpräsident Sánchez kündigt vorgezogene Parlamentswahlen für November an · Finanzuntersuchungen und Berichte im englischen Fußball</itunes:summary>
-    <pubDate>Mon, 05 Oct 2026 08:54:52 GMT</pubDate>
-    <guid isPermaLink="false">hauptausgabe-2026-10-05</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-05.mp3" length="3655965" type="audio/mpeg"/>
-    <itunes:duration>00:10:09</itunes:duration>
+    <title>Wie funktioniert eigentlich eine Rolltreppe?</title>
+    <description>Eine Rolltreppe transportiert Menschen über Höhenunterschiede, meist schneller als zu Fuß. Heute gibt es strenge Regeln für ihre Sicherheit.</description>
+    <itunes:summary>Eine Rolltreppe transportiert Menschen über Höhenunterschiede, meist schneller als zu Fuß. Heute gibt es strenge Regeln für ihre Sicherheit.</itunes:summary>
+    <pubDate>Mon, 05 Oct 2026 18:29:55 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-eine-rolltreppe</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/97777e5ca9.mp3" length="167277" type="audio/mpeg"/>
+    <itunes:duration>00:00:28</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Wie funktionierte eigentlich die ägyptische Mumifizierung?</title>
+    <description>Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.</description>
+    <itunes:summary>Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.</itunes:summary>
+    <pubDate>Mon, 05 Oct 2026 09:02:36 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktionierte-eigentlich-die-aegyptische-mumifizierung</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/24523e37c0.mp3" length="161517" type="audio/mpeg"/>
+    <itunes:duration>00:00:27</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
@@ -71,17 +104,6 @@
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
-    <title>Wie funktionierte die Pyramidenbau-Arbeit im alten Ägypten?</title>
-    <description>Pyramiden waren im alten Ägypten Grabstätten für die Regenten, die Pharaonen genannt werden. Sie wurden mit einfachen Werkzeugen und vielen Arbeitern errichtet.</description>
-    <itunes:summary>Pyramiden waren im alten Ägypten Grabstätten für die Regenten, die Pharaonen genannt werden. Sie wurden mit einfachen Werkzeugen und vielen Arbeitern errichtet.</itunes:summary>
-    <pubDate>Sun, 04 Oct 2026 06:55:53 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/4fdb46c8af.mp3" length="183405" type="audio/mpeg"/>
-    <itunes:duration>00:00:30</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
     <title>Bundeswehr kündigt erstes Drohnenregiment an</title>
     <description>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</description>
     <itunes:summary>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</itunes:summary>
@@ -89,28 +111,6 @@
     <guid isPermaLink="false">podcast-bundeswehr-drohnenregiment</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-bundeswehr-drohnenregiment.mp3" length="3439725" type="audio/mpeg"/>
     <itunes:duration>00:07:10</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Wie funktioniert eigentlich ein Heißluftballon?</title>
-    <description>Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.</description>
-    <itunes:summary>Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 17:59:26 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-heissluftballon</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/a68c3a04fe.mp3" length="170445" type="audio/mpeg"/>
-    <itunes:duration>00:00:28</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Wie entsteht eigentlich ein Sandsturm?</title>
-    <description>Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.</description>
-    <itunes:summary>Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 13:24:31 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-ein-sandsturm</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/34d404d97e.mp3" length="214077" type="audio/mpeg"/>
-    <itunes:duration>00:00:36</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
