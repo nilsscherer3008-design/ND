@@ -1,6 +1,171 @@
 {
- "stand": "2026-10-06T07:30:33.367Z",
+ "stand": "2026-10-06T20:17:13.045Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-nebel",
+   "zeit": "2026-10-06T20:22:55.376Z",
+   "bereich": "Natur und Tiere",
+   "titel": "Wie entsteht eigentlich Nebel?",
+   "vorspann": "Nebel besteht aus feinen Wassertröpfchen in der Luft, die direkten Bodenkontakt haben. Wenn die Sichtweite unter einen Kilometer sinkt, sprechen Fachleute von Nebel.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Unter Nebel versteht man in der Meteorologie einen Teil der Atmosphäre, in dem Wassertröpfchen fein verteilt sind. Dieser Teil der Luft steht in direkten Kontakt mit dem Boden. Entstanden sind die Wassertröpfchen durch Kondensation des Wassers in feuchter und übersättigter Luft. Fachlich gesehen handelt es sich bei Nebel um ein Aerosol. In der meteorologischen Systematik wird er zu den Hydrometeoren gezählt.",
+      "Sichtweiteneinschränkungen sind für die genaue Bestimmung wichtig. Erst bei einer Sichtweite von weniger als einem Kilometer wird von Nebel gesprochen. Sichtweiten von einem bis etwa vier Kilometern gelten dagegen als Dunst. Nebel und Dunst unterscheiden sich von Wolken im Grunde nur durch ihren Bodenkontakt. Ansonsten sind sie nahezu identisch mit Wolken."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Nebel entsteht bei einer meistens stabilen Atmosphärenschichtung, wenn wassergesättigte Luft den Taupunkt erreicht. Ein Absinken der Temperatur oder eine Erhöhung des absoluten Wassergehalts führt im Idealfall zur sofortigen Kondensation. Dabei bilden sich kleine Wassertrömchen. Ob diese Kondensation sofort erfolgt, hängt wesentlich von sogenannten Kondensationskernen ab.",
+      "Es gibt verschiedene Arten von Nebel, die meistens nach ihren Entstehungsbedingungen unterschieden werden. Dazu gehören Strahlungsnebel, Advektionsnebel, Verdunstungsnebel, Mischungsnebel und orographische Nebel. Als Sonderform wird oft der Eisnebel betrachtet. Strahlungsnebel entstehen beispielsweise infolge der nächtlichen Ausstrahlung der Erdoberfläche."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Die Eigenschaften von Nebel lassen sich genau messen und bestimmen. So haben Tröpfchendurchmesser in Nebeln meistens nur wenige hundertstel Millimeter. Bei leicht nässendem Nebel überschreiten die Tröpfchen im Mittel zehn bis zwanzig Mikrometer nicht. Bei dichtem Nebel liegt die Größe eher bei zwanzig bis vierzig Mikrometern. Ein Kubikmeter Luft enthält bei Nebel etwa 0,01 bis 0,3 Gramm kondensiertes Wasser."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text enthält keine Angaben darüber, welche Fragen in der Forschung zum Thema Nebel noch ungeklärt sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Sichtweite bei Nebel",
+     "unter einem Kilometer"
+    ],
+    [
+     "Wassergehalt in einem Kubikmeter Nebelluft",
+     "0,01 bis 0,3 Gramm"
+    ],
+    [
+     "Tröpfchengröße bei dichtem Nebel",
+     "20 bis 40 Mikrometer"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Aerosol",
+     "Ein Aerosol ist ein Gemisch aus schwebenden festen oder flüssigen Teilchen und einem Gas wie Luft."
+    ],
+    [
+     "Kondensation",
+     "Kondensation beschreibt den Vorgang, bei dem ein Stoff von einem gasförmigen in einen flüssigen Zustand übergeht."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Ab welcher Sichtweite spricht man offiziell von Nebel?",
+     "optionen": [
+      "Unter einem Kilometer",
+      "Genau bei fünf Kilometern",
+      "Bei exakt zehn Kilometern"
+     ],
+     "richtig": 0,
+     "erklaerung": "Erst bei einer Sichtweite von weniger als einem Kilometer sprechen Fachleute von Nebel."
+    }
+   ],
+   "video": [
+    "Nebel ist in der Meteorologie ein Teil der Atmosphäre.",
+    "Dort sind winzige Wassertröpfchen fein verteilt.",
+    "Diese Tröpfchen haben direkten Kontakt zum Boden.",
+    "Erst bei einer Sichtweite unter einem Kilometer spricht man von Nebel.",
+    "Dunst hat dagegen eine Sichtweite von ein bis vier Kilometern.",
+    "Es gibt verschiedene Arten wie Strahlungsnebel oder Advektionsnebel.",
+    "Strahlungsnebel entstehen oft in klaren Nächten durch Abkühlung.",
+    "Dabei kühlt sich die bodennahe Luft stark ab.",
+    "Wasser dampft aus und kondensiert zu winzigen Tröpfchen.",
+    "So bildet sich die sichtbare Nebelschicht über dem Boden."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Nebel",
+    "bildunterschrift": "Nebel entsteht, wenn feuchte Luft am Boden abkühlt und Wassertröpfchen sichtbar werden."
+   },
+   "quelle": {
+    "titel": "Nebel",
+    "url": "https://de.wikipedia.org/wiki/Nebel",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 272,
+   "bildInfos": [
+    {
+     "titel": "Clouds CL6.jpg",
+     "beschreibung": "Grey Stratus nebulosus translucidus , C L = 6.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Clouds_CL6.jpg/1280px-Clouds_CL6.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Clouds_CL6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Clouds_CL6.jpg",
+     "urheber": "Simon Eugster -- Simon",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "artikel": "Nebel",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Nebel entsteht, wenn feuchte Luft am Boden abkühlt und Wassertröpfchen sichtbar werden."
+    },
+    {
+     "titel": "A Glorious View (detail) - Flickr - NASA Goddard Photo and Video.jpg",
+     "beschreibung": "Click here to see the full res file: www.flickr.com/photos/gsfc/7551317226 A layer of stratocumulus clouds over the Pacific Ocean served as the backdrop for this rainbow-like optical phenomenon known ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/A_Glorious_View_%28detail%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg/1280px-A_Glorious_View_%28detail%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/44/A_Glorious_View_%28detail%29_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:A_Glorious_View_(detail)_-_Flickr_-_NASA_Goddard_Photo_and_Video.jpg",
+     "urheber": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Click here to see the full res file: www.flickr.com/photos/gsfc/7551317226 A layer of stratocumulus clouds over the Pacific Ocean served as the backdrop for this rainbow-like optical phenomenon known "
+    },
+    {
+     "titel": "Aufkommender Nebel am Nebelhorn.jpg",
+     "beschreibung": "Aufkommender Nebel am Nebelhorn",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Aufkommender_Nebel_am_Nebelhorn.jpg/1280px-Aufkommender_Nebel_am_Nebelhorn.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Aufkommender_Nebel_am_Nebelhorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aufkommender_Nebel_am_Nebelhorn.jpg",
+     "urheber": "Dirk D.",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Aufkommender Nebel am Nebelhorn"
+    },
+    {
+     "titel": "Birka Paradise i dimma.jpg",
+     "beschreibung": "The ship Birka Paradise in fog utside Djurgården in Stockholm.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Birka_Paradise_i_dimma.jpg/1280px-Birka_Paradise_i_dimma.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Birka_Paradise_i_dimma.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Birka_Paradise_i_dimma.jpg",
+     "urheber": "Modeen",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "The ship Birka Paradise in fog utside Djurgården in Stockholm."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Clouds CL6.jpg",
+    "beschreibung": "Grey Stratus nebulosus translucidus , C L = 6.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Clouds_CL6.jpg/1280px-Clouds_CL6.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/87/Clouds_CL6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Clouds_CL6.jpg",
+    "urheber": "Simon Eugster -- Simon",
+    "lizenz": "CC BY-SA 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artikel": "Nebel",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Nebel entsteht, wenn feuchte Luft am Boden abkühlt und Wassertröpfchen sichtbar werden."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-milch",
    "zeit": "2026-10-06T07:32:34.197Z",
@@ -6428,131 +6593,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
-   }
-  },
-  {
-   "id": "wie-entsteht-eine-mondfinsternis",
-   "zeit": "2026-09-21T17:59:02.758Z",
-   "bereich": "Weltall",
-   "titel": "Wie entsteht eine Mondfinsternis?",
-   "vorspann": "Bei einer Mondfinsternis durchquert der Mond den Schatten der Erde. Dieses Ereignis findet bei Vollmond statt.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Während einer Mondfinsternis durchquert der Mond den Schatten, den die Erde in den Weltraum wirft. Sonne, Erde und Mond müssen dafür hinreichend genau auf einer Linie liegen. Von der Erde aus gesehen stehen sich Sonne und Mond gegenüber. Es ist Vollmond und das Ereignis ist überall dort zu sehen, wo Nacht ist. Umgangssprachlich ist damit meist eine Kernschattenfinsternis gemeint.",
-      "Es wird zwischen totalen und partiellen Finsternissen unterschieden. Der Mond taucht dabei ganz oder teilweise in den Schatten ein. Die Mondbahnebene ist gegenüber der Bahnebene der Erde um die Sonne geneigt. Pro Jahrhundert ereignen sich im Durchschnitt etwa 154 Kernschattenfinsternisse. Halbschattenfinsternisse finden etwa 88-mal pro Jahrhundert statt."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Bei Vollmond steht der Mond in Opposition zur Sonne. Er befindet sich meist nicht in der Ebene der Umlaufbahn der Erde, da die Mondbahn um reichlich fünf Grad geneigt ist. Nur nahe an den gedachten Schnittpunkten, den Mondknoten, kann eine Finsternis entstehen. Nach sechs Mondphasenzyklen ist der Vollmond um etwa vier Tage verspätet.",
-      "Tritt der Mond während der Finsternis vollständig in den Kernschatten ein, handelt es sich um eine totale Kernschattenfinsternis. Die maximale Dauer beträgt ungefähr eine Stunde und sechsundvierzig Minuten. Da Sonnenlicht durch die Erdatmosphäre gebrochen wird, bleibt der Mond mit rötlichem Farbton sichtbar.",
-      "Tritt der Mond nur teilweise in den Kernschatten ein, handelt es sich um eine partielle Kernschattenfinsternis. Bei einer Halbschattenfinsternis durchläuft der Mond den Halbschatten. Die letzte totale Halbschattenfinsternis fand laut dem Wikipedia-Artikel am vierzehnten März zweitausendsechs statt, die nächste findet am neunundzwanzigsten August zweitausenddreiundfünfzig statt."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Bereits die Griechen der Antike interpretierten den Rand des Erdschattens als Schattenwurf auf der Mondoberfläche. Aus ihrem kreisförmigen Schatten schlossen sie, dass die Erde eine Kugel ist. Die Voraussage von Finsternisterminen gehört zu den schwierigeren astronomischen Aufgaben, da zahlreiche Einflüsse und Bahnstörungen zu berücksichtigen sind."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Wegen der gegenseitigen Beeinflussung der Himmelskörper ist eine exakte Lösung für dieses Mehr-Körper-Problem nicht möglich, sondern nur eine Annäherung durch numerische Verfahren."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Kernschattenfinsternisse pro Jahrhundert",
-     "etwa 154"
-    ],
-    [
-     "Halbschattenfinsternisse pro Jahrhundert",
-     "etwa 88"
-    ],
-    [
-     "Maximale Dauer einer totalen Mondfinsternis",
-     "ungefähr 1 Stunde und 46 Minuten"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Mondfinsternis",
-     "Ein astronomisches Ereignis, bei dem der Mond den Schatten der Erde durchquert."
-    ],
-    [
-     "Kernschatten",
-     "Der innere, dunklere Bereich des Erdschattens im Weltall."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wann kann eine Mondfinsternis eintreten?",
-     "optionen": [
-      "Bei Neumond",
-      "Bei Vollmond",
-      "Bei jeder Mondphase"
-     ],
-     "richtig": 1,
-     "erklaerung": "Eine Mondfinsternis kann nur eintreten, wenn Sonne, Erde und Mond auf einer Linie stehen und es Vollmond ist."
-    }
-   ],
-   "video": [
-    "Während einer Mondfinsternis wandert der Mond durch den Erdschatten.",
-    "Dieses Ereignis kann nur bei Vollmond stattfinden.",
-    "Die Erde wirft dabei einen Kernschatten und einen Halbschatten in den Weltraum.",
-    "Manchmal taucht der Mond nur teilweise in diesen Schatten ein.",
-    "Das nennt man eine partielle Finsternis.",
-    "Bei einer totalen Finsternis wandert der Mond ganz in den Kernschatten.",
-    "Er leuchtet dann oft in einem rötlichen Ton.",
-    "Schon im Altertum wussten Menschen durch Beobachtungen von diesem Schatten."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Mondfinsternis",
-    "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
-   },
-   "quelle": {
-    "titel": "Mondfinsternis",
-    "url": "https://de.wikipedia.org/wiki/Mondfinsternis",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 313,
-   "bildInfos": [
-    {
-     "titel": "Jsnell - Eclipse montage (by).jpg",
-     "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
-     "urheber": "Jason Snell from Mill Valley, CA",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "artikel": "Mondfinsternis",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Jsnell - Eclipse montage (by).jpg",
-    "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
-    "urheber": "Jason Snell from Mill Valley, CA",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artikel": "Mondfinsternis",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
    }
   }
  ]
