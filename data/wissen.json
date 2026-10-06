@@ -1,6 +1,199 @@
 {
- "stand": "2026-10-05T18:21:48.564Z",
+ "stand": "2026-10-06T07:30:33.367Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-milch",
+   "zeit": "2026-10-06T07:32:34.197Z",
+   "bereich": "Natur und Tiere",
+   "titel": "Wie entsteht eigentlich Milch?",
+   "vorspann": "Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Milch ist allgemein eine in den Milchdrüsen von Säugetieren gebildete Flüssigkeit, die zur Ernährung ihrer Neugeborenen dient. Sie ist eine weiße, trübe Emulsion aus Proteinen, Milchzucker und Milchfett in Wasser. Im engeren Sinn ist mit Milch meist Kuhmilch gemeint. Der Mensch nutzt die Milch vieler domestizierter Tiere als Nahrungsmittel. In der Europäischen Union ist der Begriff Milch ausschließlich dem durch Melken gewonnenen Eutersekret vorbehalten.",
+      "In Deutschland ist Milch gesetzlich definiert als das durch Melken gewonnene Erzeugnis der normalen Eutersekretion von zur Milcherzeugung gehaltenen Tierarten. In der Schweiz gilt eine ähnliche Definition für domestizierte Huftiere wie Hornträger, Hirsche, Kamelartige, Schweine und Pferde. In den USA definierte die FDA Milch im Jahr 1973 als das Milchsekret von gesunden Kühen. Laut dem Wikipedia-Artikel gibt es neuerdings Versuche, Milch auf molekularer Ebene ohne Tiere herzustellen."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Die Entwicklung der Milchwirtschaft begann vor etwa 10.000 Jahren mit der Domestikation von Ziegen und Schafen. Später wurden auch Auerochsen domestiziert. Für die Nahrungsmittelindustrie Europas sind Milchkühe der Hauptlieferant. In bestimmten Regionen werden auch Schafe, Ziegen, Hauspferde, Hausesel, Yaks, Rentiere oder Wasserbüffel gemolken.",
+      "Für die Produktion gezüchtete Kühe geben heutzutage laut dem Wikipedia-Artikel pro Tag rund 50 Liter Milch. Die Milchleistung ist von ehemals 500 bis 600 Kilogramm auf heute 6.000 bis 10.000 Kilogramm je Kuh angestiegen. Dies liegt an Zucht, Forschung und veränderter Fütterung. Heutzutage erhalten Kühe überwiegend Kraftfutter.",
+      "Zur Verarbeitung wird Milch in Molkereien oder Käsereien gebracht. Typische Produkte sind Sahne, Butter, Buttermilch, Käse und Sauermilch. Der natürliche Fettgehalt von Kuhmilch liegt bei etwa 4,2 Prozent. Mithilfe einer Milchzentrifuge oder eines Separators wird die Milch in Rahm, Magermilch und Nichtmilchbestandteile getrennt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Wissenschaftliche und rechtliche Grundlagen zur Milch basieren auf gesetzlichen Definitionen und Statistiken. Die Ernährungs- und Landwirtschaftsorganisation der Vereinten Nationen FAO liefert weltweit erhobene Produktionsdaten. Die Qualitäts- und Gütemerkmale der Milch werden durch Verordnungen wie die deutsche Milchproduktqualitätsverordnung geregelt."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Wikipedia-Artikel nennt keine konkreten offenen Forschungsfragen, erwähnt jedoch neuartige Versuche zur Herstellung synthetischer Milch ohne Tiere."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Weltweite Kuhmilchproduktion 2023",
+     "782.901.754 Tonnen"
+    ],
+    [
+     "Tägliche Milchmenge moderner Kühe",
+     "rund 50 Liter"
+    ],
+    [
+     "Energiegehalt frischer Vollmilch",
+     "272 kJ pro 100 g"
+    ],
+    [
+     "Wasserverbrauch für Milch",
+     "rund 738 Liter pro Liter Milch"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Emulsion",
+     "Eine feine Verteilung von zwei Flüssigkeiten, die sich normalerweise nicht mischen."
+    ],
+    [
+     "Pasteurisierung",
+     "Ein kurzes Erhitzen von Lebensmitteln, um Keime abzutöten und sie haltbarer zu machen."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann begann laut dem Text die Entwicklung der Milchwirtschaft?",
+     "optionen": [
+      "Vor etwa 10.000 Jahren",
+      "Vor etwa 500 Jahren",
+      "Erst im Jahr 1973"
+     ],
+     "richtig": 0,
+     "erklaerung": "Die Milchwirtschaft begann laut Wikipedia im Zuge der neolithischen Revolution vor etwa 10.000 Jahren."
+    }
+   ],
+   "video": [
+    "Milch ist eine Flüssigkeit aus Milchdrüsen von Säugetieren.",
+    "Sie dient vor allem zur Ernährung von Neugeborenen.",
+    "Schon vor etwa zehntausend Jahren begann die Milchwirtschaft.",
+    "Heute sind Kühe in Europa die Hauptlieferanten.",
+    "Moderne Milchkühe geben pro Tag rund fünfzig Liter Milch.",
+    "In Molkereien wird die Milch zu Butter oder Käse verarbeitet.",
+    "Dabei trennt ein Separator Rahm und Magermilch voneinander."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Milch",
+    "bildunterschrift": "Milch ist eine weiße Flüssigkeit und wird in vielen Ländern als Nahrungsmittel genutzt."
+   },
+   "quelle": {
+    "titel": "Milch",
+    "url": "https://de.wikipedia.org/wiki/Milch",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 319,
+   "bildInfos": [
+    {
+     "titel": "Milk glass.jpg",
+     "beschreibung": "A glass of milk",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Milk_glass.jpg",
+     "urheber": "Stefan Kühn",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Milch",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Milch ist eine weiße Flüssigkeit und wird in vielen Ländern als Nahrungsmittel genutzt."
+    },
+    {
+     "titel": "CH - Milch-Trinkhalle Aueli.JPG",
+     "beschreibung": "Switzerland - Appenzell Innerrhoden (AI) - Schwende - Wasserauen: advertising sign of \"Milch-Trinkhalle Aueli\"",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/CH_-_Milch-Trinkhalle_Aueli.JPG/1280px-CH_-_Milch-Trinkhalle_Aueli.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/CH_-_Milch-Trinkhalle_Aueli.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:CH_-_Milch-Trinkhalle_Aueli.JPG",
+     "urheber": "ANKAWÜ",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Switzerland - Appenzell Innerrhoden (AI) - Schwende - Wasserauen: advertising sign of \"Milch-Trinkhalle Aueli\""
+    },
+    {
+     "titel": "HF in der Rhön auf der Weide.jpg",
+     "beschreibung": "Trockenstehende Holstein Frisian Kuh auf einer Weide in der Rhön",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/HF_in_der_Rh%C3%B6n_auf_der_Weide.jpg/1280px-HF_in_der_Rh%C3%B6n_auf_der_Weide.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/HF_in_der_Rh%C3%B6n_auf_der_Weide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:HF_in_der_Rh%C3%B6n_auf_der_Weide.jpg",
+     "urheber": "Verum",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Trockenstehende Holstein Frisian Kuh auf einer Weide in der Rhön"
+    },
+    {
+     "titel": "Henryk Poddębski - Rolnictwo - hodowla (131-7173).jpg",
+     "beschreibung": "[Kobieta podczas dojenia krowy w oborze.]",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Henryk_Podd%C4%99bski_-_Rolnictwo_-_hodowla_%28131-7173%29.jpg/1280px-Henryk_Podd%C4%99bski_-_Rolnictwo_-_hodowla_%28131-7173%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Henryk_Podd%C4%99bski_-_Rolnictwo_-_hodowla_%28131-7173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Henryk_Podd%C4%99bski_-_Rolnictwo_-_hodowla_(131-7173).jpg",
+     "urheber": "Henryk Poddębski",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "[Kobieta podczas dojenia krowy w oborze.]"
+    },
+    {
+     "titel": "Lac-Milch.jpg",
+     "beschreibung": "Abbildung zum Kapitel Lac-Milch",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lac-Milch.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Lac-Milch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Lac-Milch.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Abbildung zum Kapitel Lac-Milch"
+    },
+    {
+     "titel": "Melkkarussell.jpg",
+     "beschreibung": "Rotary milking parlor.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Melkkarussell.jpg/1280px-Melkkarussell.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Melkkarussell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Melkkarussell.jpg",
+     "urheber": "Gunnar Richter Namenlos.net",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Rotary milking parlor."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Milk glass.jpg",
+    "beschreibung": "A glass of milk",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Milk_glass.jpg",
+    "urheber": "Stefan Kühn",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Milch",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Milch ist eine weiße Flüssigkeit und wird in vielen Ländern als Nahrungsmittel genutzt."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-eine-rolltreppe",
    "zeit": "2026-10-05T18:29:55.973Z",
@@ -6345,135 +6538,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Der Mond durchquert während einer Mondfinsternis den Schatten der Erde."
-   }
-  },
-  {
-   "id": "wie-funktioniert-eigentlich-ein-touchscreen",
-   "zeit": "2026-09-21T17:29:35.430Z",
-   "bereich": "Technik und Erfindungen",
-   "titel": "Wie funktioniert eigentlich ein Touchscreen?",
-   "vorspann": "Ein Touchscreen ist ein kombiniertes Ein- und Ausgabegerät. Man steuert den Programmablauf eines technischen Gerätes direkt durch Berührung.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Ein Touchscreen wird auch Berührbildschirm genannt. Früher sagte man dazu berührungsempfindlicher Bildschirm. Die Befehlseingabe ist für den Nutzer unsichtbar. Dadurch entsteht der Eindruck einer unmittelbaren Steuerung per Fingerzeig. Statt eines Mauszeigers werden der Finger oder ein Zeigestift verwendet.",
-      "Das Bild unter dem Touchscreen kann auf verschiedene Weise erzeugt werden. Es gibt dynamische Monitore, Projektionen oder physische Darstellungen. Manche Systeme verarbeiten mehrere gleichzeitige Berührungen als Befehle. Das nennt man Multi-Touch. Damit kann man Elemente drehen oder skalieren."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Es gibt verschiedene Funktionsprinzipien für die Berührungsempfindlichkeit. Dazu gehören resistive und kapazitive Systeme. Resistive Touchscreens reagieren auf Druck. Sie verbinden zwei elektrisch leitfähige Schichten miteinander. So wird ein elektrischer Widerstand gemessen.",
-      "Oberflächen-kapazitive Touchscreens nutzen eine mit Metalloxid beschichtete Folie. Eine Wechselspannung erzeugt dort ein elektrisches Feld. Bei einer Berührung entsteht ein geringer Ladungstransport. Dieser wird als Strom an den Ecken gemessen. Projiziert-kapazitive Touchscreens nutzen zwei Ebenen mit einem leitfähigen Muster.",
-      "Optische Systeme nutzen Infrarotlicht. Früher gab es ein Lichtschrankengitter vor dem Bildschirm. Die Strahlen liefen zwischen LED und Sensor. Eine Fingerspitze unterbricht diese Strahlen optisch. Neuere Projektoren nutzen eine Infrarotkamera für die Lage des Fingers."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Die technische Umsetzung und die verschiedenen Bauformen sind genau dokumentiert. Dazu gehören resistive Systeme mit Four-Wire und Five-Wire. Auch physikalische Messungen von Spannungen und Widerständen sind bekannt. Der digitale Projektor Sony Xperia Touch kam im Jahr 2017 auf den Markt."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Der Text enthält keine Angaben zu offenen Forschungsfragen."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Breite des Touchscreens im Beispiel",
-     "75 Millimeter"
-    ],
-    [
-     "Angelegte Spannung im Beispiel",
-     "5 Volt"
-    ],
-    [
-     "Erste gemessene Spannung U2 im Beispiel",
-     "2 Volt"
-    ],
-    [
-     "Zweite gemessene Spannung U1 im Beispiel",
-     "3 Volt"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Touchscreen",
-     "Ein kombiniertes Ein- und Ausgabegerät zur Steuerung per Berührung."
-    ],
-    [
-     "Multi-Touch",
-     "Die Fähigkeit eines Systems, mehrere gleichzeitige Berührungen zu verarbeiten."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Womit reagieren resistive Touchscreens?",
-     "optionen": [
-      "Mit Druck",
-      "Mit Wasser",
-      "Mit Schallwellen"
-     ],
-     "richtig": 0,
-     "erklaerung": "Resistive Touchscreens reagieren auf Druck, der zwei leitfähige Schichten verbindet."
-    }
-   ],
-   "video": [
-    "Ein Touchscreen ist ein kombiniertes Ein- und Ausgabegerät.",
-    "Man steuert Computer oder Smartphones direkt mit dem Finger.",
-    "Die Befehlseingabe geschieht für den Nutzer unsichtbar.",
-    "Resistive Touchscreens reagieren auf mechanischen Druck.",
-    "Dabei werden zwei leitfähige Schichten miteinander verbunden.",
-    "Kapazitive Systeme nutzen elektrische Felder und Ströme.",
-    "Optische Systeme arbeiten mit Lichtschranken oder Infrarotkameras.",
-    "So wird die genaue Position der Berührung ermittelt."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Touchscreen",
-    "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
-   },
-   "quelle": {
-    "titel": "Touchscreen",
-    "url": "https://de.wikipedia.org/wiki/Touchscreen",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 229,
-   "bildInfos": [
-    {
-     "titel": "IFA 2010 Internationale Funkausstellung Berlin 18.JPG",
-     "beschreibung": "IFA 2010, Berlin",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG/1280px-IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
-     "urheber": "Bin im Garten",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "artikel": "Touchscreen",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
-    }
-   ],
-   "bildInfo": {
-    "titel": "IFA 2010 Internationale Funkausstellung Berlin 18.JPG",
-    "beschreibung": "IFA 2010, Berlin",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG/1280px-IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:IFA_2010_Internationale_Funkausstellung_Berlin_18.JPG",
-    "urheber": "Bin im Garten",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "artikel": "Touchscreen",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Ein Touchscreen ermöglicht die direkte Steuerung von technischen Geräten durch Berührung."
    }
   }
  ]

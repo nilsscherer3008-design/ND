@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-05T18:21:48.564Z",
+ "stand": "2026-10-06T07:30:33.367Z",
  "gepusht": [
   "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
@@ -75,7 +75,6 @@
  "notified": [
   "manchester-city-finanzaffaere",
   "flydubai-notlandung-angriff",
-  "israel-oberstes-gericht-arabische-parteien",
   "g7-freigabe-oel-reserven",
   "galeria-insolvenz",
   "spanische-wohnungskrise-parlament",
@@ -88,8 +87,8 @@
   "bnd-warnt-vor-russland"
  ],
  "wetter": {
-  "stand": "2026-10-05T18:21:48.564Z",
-  "morgenTag": "Dienstag",
+  "stand": "2026-10-06T07:30:33.367Z",
+  "morgenTag": "Mittwoch",
   "orte": [
    {
     "name": "Hamburg",
@@ -97,35 +96,22 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 17,
-     "code": 1,
-     "gefuehlt": 16,
-     "wind": 8,
-     "windAus": 233,
-     "feuchte": 70,
-     "druck": 1018,
+     "grad": 14,
+     "code": 3,
+     "gefuehlt": 13,
+     "wind": 10,
+     "windAus": 245,
+     "feuchte": 93,
+     "druck": 1017,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
-     "code": 45,
-     "max": 20,
-     "min": 10,
-     "regen": 0,
-     "menge": 0,
-     "wind": 14,
-     "windAus": 233,
-     "uv": 3.1,
-     "auf": "07:28",
-     "unter": "18:47"
-    },
-    "morgen": {
      "datum": "2026-10-06",
      "code": 3,
      "max": 20,
-     "min": 14,
-     "regen": 10,
+     "min": 13,
+     "regen": 3,
      "menge": 0,
      "wind": 11,
      "windAus": 252,
@@ -133,26 +119,26 @@
      "auf": "07:30",
      "unter": "18:44"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 3,
+     "max": 21,
+     "min": 13,
+     "regen": 3,
+     "menge": 0,
+     "wind": 13,
+     "windAus": 137,
+     "uv": 2.9,
+     "auf": "07:32",
+     "unter": "18:42"
+    },
     "tage": [
-     {
-      "datum": "2026-10-05",
-      "code": 45,
-      "max": 20,
-      "min": 10,
-      "regen": 0,
-      "menge": 0,
-      "wind": 14,
-      "windAus": 233,
-      "uv": 3.1,
-      "auf": "07:28",
-      "unter": "18:47"
-     },
      {
       "datum": "2026-10-06",
       "code": 3,
       "max": 20,
-      "min": 14,
-      "regen": 10,
+      "min": 13,
+      "regen": 3,
       "menge": 0,
       "wind": 11,
       "windAus": 252,
@@ -164,12 +150,12 @@
       "datum": "2026-10-07",
       "code": 3,
       "max": 21,
-      "min": 14,
-      "regen": 8,
+      "min": 13,
+      "regen": 3,
       "menge": 0,
-      "wind": 12,
-      "windAus": 132,
-      "uv": 2.2,
+      "wind": 13,
+      "windAus": 137,
+      "uv": 2.9,
       "auf": "07:32",
       "unter": "18:42"
      },
@@ -177,25 +163,25 @@
       "datum": "2026-10-08",
       "code": 80,
       "max": 14,
-      "min": 9,
-      "regen": 80,
-      "menge": 5.1,
-      "wind": 20,
-      "windAus": 294,
-      "uv": 3,
+      "min": 10,
+      "regen": 95,
+      "menge": 8.1,
+      "wind": 21,
+      "windAus": 297,
+      "uv": 2.9,
       "auf": "07:34",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-09",
       "code": 80,
-      "max": 15,
+      "max": 13,
       "min": 9,
-      "regen": 63,
-      "menge": 4.5,
-      "wind": 14,
-      "windAus": 240,
-      "uv": 1.6,
+      "regen": 81,
+      "menge": 6.6,
+      "wind": 17,
+      "windAus": 236,
+      "uv": 0.6,
       "auf": "07:35",
       "unter": "18:37"
      },
@@ -204,10 +190,10 @@
       "code": 80,
       "max": 14,
       "min": 10,
-      "regen": 48,
-      "menge": 1.5,
-      "wind": 22,
-      "windAus": 253,
+      "regen": 60,
+      "menge": 0.9,
+      "wind": 17,
+      "windAus": 242,
       "uv": 2.9,
       "auf": "07:37",
       "unter": "18:35"
@@ -216,95 +202,30 @@
       "datum": "2026-10-11",
       "code": 80,
       "max": 13,
-      "min": 9,
-      "regen": 31,
-      "menge": 2.1,
+      "min": 8,
+      "regen": 27,
+      "menge": 2.4,
       "wind": 22,
-      "windAus": 260,
-      "uv": 1.3,
+      "windAus": 229,
+      "uv": 1.9,
       "auf": "07:39",
       "unter": "18:33"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 3,
+      "max": 14,
+      "min": 8,
+      "regen": 26,
+      "menge": 1.8,
+      "wind": 13,
+      "windAus": 279,
+      "uv": 2.6,
+      "auf": "07:41",
+      "unter": "18:30"
      }
     ],
     "stunden": [
-     {
-      "zeit": "20:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 16,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
      {
       "zeit": "09:00",
       "grad": 14,
@@ -313,7 +234,7 @@
      },
      {
       "zeit": "10:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
@@ -321,7 +242,7 @@
       "zeit": "11:00",
       "grad": 16,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "12:00",
@@ -345,31 +266,109 @@
       "zeit": "15:00",
       "grad": 20,
       "code": 3,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "16:00",
       "grad": 20,
       "code": 3,
-      "regen": 10
+      "regen": 0
      },
      {
       "zeit": "17:00",
       "grad": 20,
       "code": 3,
-      "regen": 10
+      "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 20,
-      "code": 2,
-      "regen": 5
+      "grad": 19,
+      "code": 3,
+      "regen": 0
      },
      {
       "zeit": "19:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 18,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
       "grad": 18,
       "code": 3,
       "regen": 3
+     },
+     {
+      "zeit": "22:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "23:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 15,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "04:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 3
+     },
+     {
+      "zeit": "05:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
      }
     ]
    },
@@ -379,92 +378,79 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 18,
+     "grad": 13,
      "code": 3,
-     "gefuehlt": 17,
-     "wind": 6,
-     "windAus": 210,
-     "feuchte": 53,
+     "gefuehlt": 12,
+     "wind": 4,
+     "windAus": 235,
+     "feuchte": 77,
      "druck": 1017,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
-     "code": 45,
-     "max": 22,
-     "min": 9,
-     "regen": 0,
-     "menge": 0,
-     "wind": 11,
-     "windAus": 222,
-     "uv": 3.4,
-     "auf": "07:14",
-     "unter": "18:34"
-    },
-    "morgen": {
      "datum": "2026-10-06",
      "code": 3,
-     "max": 21,
-     "min": 12,
+     "max": 20,
+     "min": 10,
      "regen": 0,
      "menge": 0,
      "wind": 8,
-     "windAus": 258,
+     "windAus": 249,
      "uv": 3.4,
      "auf": "07:15",
      "unter": "18:32"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 45,
+     "max": 21,
+     "min": 11,
+     "regen": 5,
+     "menge": 0,
+     "wind": 10,
+     "windAus": 118,
+     "uv": 3.1,
+     "auf": "07:17",
+     "unter": "18:29"
+    },
     "tage": [
-     {
-      "datum": "2026-10-05",
-      "code": 45,
-      "max": 22,
-      "min": 9,
-      "regen": 0,
-      "menge": 0,
-      "wind": 11,
-      "windAus": 222,
-      "uv": 3.4,
-      "auf": "07:14",
-      "unter": "18:34"
-     },
      {
       "datum": "2026-10-06",
       "code": 3,
-      "max": 21,
-      "min": 12,
+      "max": 20,
+      "min": 10,
       "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 258,
+      "windAus": 249,
       "uv": 3.4,
       "auf": "07:15",
       "unter": "18:32"
      },
      {
       "datum": "2026-10-07",
-      "code": 2,
-      "max": 22,
-      "min": 12,
-      "regen": 3,
+      "code": 45,
+      "max": 21,
+      "min": 11,
+      "regen": 5,
       "menge": 0,
-      "wind": 11,
-      "windAus": 117,
-      "uv": 3.2,
+      "wind": 10,
+      "windAus": 118,
+      "uv": 3.1,
       "auf": "07:17",
       "unter": "18:29"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 15,
+      "max": 21,
       "min": 10,
-      "regen": 73,
-      "menge": 3.9,
-      "wind": 19,
-      "windAus": 260,
-      "uv": 0.5,
+      "regen": 70,
+      "menge": 1.1,
+      "wind": 21,
+      "windAus": 249,
+      "uv": 0.4,
       "auf": "07:19",
       "unter": "18:27"
      },
@@ -473,184 +459,197 @@
       "code": 61,
       "max": 12,
       "min": 9,
-      "regen": 56,
-      "menge": 3,
-      "wind": 18,
-      "windAus": 247,
-      "uv": 2.9,
+      "regen": 75,
+      "menge": 3.3,
+      "wind": 17,
+      "windAus": 244,
+      "uv": 2.1,
       "auf": "07:21",
       "unter": "18:25"
      },
      {
       "datum": "2026-10-10",
       "code": 61,
-      "max": 15,
-      "min": 11,
-      "regen": 51,
-      "menge": 2.6,
-      "wind": 18,
-      "windAus": 249,
-      "uv": 2.1,
+      "max": 17,
+      "min": 10,
+      "regen": 68,
+      "menge": 0.3,
+      "wind": 14,
+      "windAus": 235,
+      "uv": 1.4,
       "auf": "07:22",
       "unter": "18:23"
      },
      {
       "datum": "2026-10-11",
-      "code": 95,
-      "max": 14,
-      "min": 10,
-      "regen": 31,
-      "menge": 2.4,
-      "wind": 19,
-      "windAus": 254,
-      "uv": 2,
+      "code": 3,
+      "max": 16,
+      "min": 7,
+      "regen": 33,
+      "menge": 0.9,
+      "wind": 17,
+      "windAus": 228,
+      "uv": 2.7,
       "auf": "07:24",
       "unter": "18:20"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 80,
+      "max": 12,
+      "min": 8,
+      "regen": 33,
+      "menge": 6,
+      "wind": 12,
+      "windAus": 244,
+      "uv": 2.3,
+      "auf": "07:26",
+      "unter": "18:18"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 18,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
-      "grad": 13,
-      "code": 3,
+      "grad": 12,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 16,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 19,
+      "grad": 18,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 20,
+      "grad": 19,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 21,
+      "grad": 20,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 21,
-      "code": 1,
+      "grad": 20,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 21,
+      "grad": 20,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 21,
-      "code": 1,
+      "grad": 20,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 21,
-      "code": 0,
+      "grad": 20,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 20,
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 13,
       "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 12,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 12,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 11,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -661,65 +660,52 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 18,
-     "code": 2,
-     "gefuehlt": 18,
-     "wind": 4,
-     "windAus": 209,
-     "feuchte": 64,
-     "druck": 1009,
+     "grad": 12,
+     "code": 0,
+     "gefuehlt": 11,
+     "wind": 5,
+     "windAus": 216,
+     "feuchte": 78,
+     "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
-     "code": 45,
-     "max": 22,
-     "min": 9,
-     "regen": 0,
-     "menge": 0,
-     "wind": 7,
-     "windAus": 207,
-     "uv": 3.6,
-     "auf": "07:17",
-     "unter": "18:39"
-    },
-    "morgen": {
      "datum": "2026-10-06",
-     "code": 3,
-     "max": 22,
-     "min": 11,
+     "code": 2,
+     "max": 21,
+     "min": 10,
      "regen": 0,
      "menge": 0,
-     "wind": 5,
-     "windAus": 213,
+     "wind": 6,
+     "windAus": 204,
      "uv": 3.6,
      "auf": "07:19",
      "unter": "18:37"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 3,
+     "max": 22,
+     "min": 10,
+     "regen": 3,
+     "menge": 0,
+     "wind": 8,
+     "windAus": 125,
+     "uv": 3.5,
+     "auf": "07:20",
+     "unter": "18:34"
+    },
     "tage": [
      {
-      "datum": "2026-10-05",
-      "code": 45,
-      "max": 22,
-      "min": 9,
-      "regen": 0,
-      "menge": 0,
-      "wind": 7,
-      "windAus": 207,
-      "uv": 3.6,
-      "auf": "07:17",
-      "unter": "18:39"
-     },
-     {
       "datum": "2026-10-06",
-      "code": 3,
-      "max": 22,
-      "min": 11,
+      "code": 2,
+      "max": 21,
+      "min": 10,
       "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 213,
+      "wind": 6,
+      "windAus": 204,
       "uv": 3.6,
       "auf": "07:19",
       "unter": "18:37"
@@ -727,25 +713,25 @@
      {
       "datum": "2026-10-07",
       "code": 3,
-      "max": 23,
-      "min": 11,
-      "regen": 0,
+      "max": 22,
+      "min": 10,
+      "regen": 3,
       "menge": 0,
-      "wind": 5,
-      "windAus": 113,
-      "uv": 3.4,
+      "wind": 8,
+      "windAus": 125,
+      "uv": 3.5,
       "auf": "07:20",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-08",
       "code": 61,
-      "max": 17,
-      "min": 10,
-      "regen": 75,
-      "menge": 2.3,
-      "wind": 17,
-      "windAus": 255,
+      "max": 20,
+      "min": 9,
+      "regen": 78,
+      "menge": 4.8,
+      "wind": 16,
+      "windAus": 245,
       "uv": 0.5,
       "auf": "07:22",
       "unter": "18:32"
@@ -755,99 +741,178 @@
       "code": 61,
       "max": 12,
       "min": 7,
-      "regen": 64,
-      "menge": 6.9,
-      "wind": 16,
-      "windAus": 237,
-      "uv": 3.1,
+      "regen": 80,
+      "menge": 3.6,
+      "wind": 17,
+      "windAus": 235,
+      "uv": 2.7,
       "auf": "07:23",
       "unter": "18:30"
      },
      {
       "datum": "2026-10-10",
       "code": 3,
-      "max": 17,
+      "max": 18,
       "min": 11,
-      "regen": 63,
-      "menge": 0.6,
-      "wind": 21,
-      "windAus": 249,
-      "uv": 1.8,
+      "regen": 58,
+      "menge": 0,
+      "wind": 19,
+      "windAus": 233,
+      "uv": 2.1,
       "auf": "07:25",
       "unter": "18:28"
      },
      {
       "datum": "2026-10-11",
-      "code": 3,
+      "code": 80,
       "max": 15,
-      "min": 9,
-      "regen": 35,
-      "menge": 0.3,
-      "wind": 22,
-      "windAus": 249,
-      "uv": 2.4,
+      "min": 8,
+      "regen": 10,
+      "menge": 1.2,
+      "wind": 20,
+      "windAus": 235,
+      "uv": 3,
       "auf": "07:27",
       "unter": "18:26"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 3,
+      "max": 16,
+      "min": 8,
+      "regen": 28,
+      "menge": 0,
+      "wind": 20,
+      "windAus": 253,
+      "uv": 2.4,
+      "auf": "07:28",
+      "unter": "18:24"
      }
     ],
     "stunden": [
      {
+      "zeit": "09:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "18:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "19:00",
+      "grad": 19,
+      "code": 0,
+      "regen": 0
+     },
+     {
       "zeit": "20:00",
       "grad": 18,
-      "code": 3,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "21:00",
-      "grad": 17,
-      "code": 2,
+      "grad": 16,
+      "code": 0,
       "regen": 0
      },
      {
       "zeit": "22:00",
-      "grad": 16,
+      "grad": 15,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "23:00",
-      "grad": 16,
-      "code": 0,
+      "grad": 14,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "00:00",
       "grad": 14,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "01:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
       "grad": 13,
       "code": 1,
       "regen": 0
      },
      {
-      "zeit": "03:00",
+      "zeit": "02:00",
       "grad": 13,
-      "code": 2,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 12,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "04:00",
       "grad": 12,
-      "code": 2,
+      "code": 3,
       "regen": 0
      },
      {
       "zeit": "05:00",
-      "grad": 12,
+      "grad": 11,
       "code": 3,
       "regen": 0
      },
@@ -860,79 +925,13 @@
      {
       "zeit": "07:00",
       "grad": 11,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 11,
       "code": 2,
       "regen": 0
      },
      {
-      "zeit": "09:00",
-      "grad": 12,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 16,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 18,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 20,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 21,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 22,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 22,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 22,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "18:00",
-      "grad": 21,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "19:00",
-      "grad": 20,
-      "code": 0,
+      "zeit": "08:00",
+      "grad": 10,
+      "code": 3,
       "regen": 0
      }
     ]
@@ -943,104 +942,91 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 19,
-     "code": 3,
-     "gefuehlt": 18,
-     "wind": 5,
-     "windAus": 280,
-     "feuchte": 51,
-     "druck": 1015,
+     "grad": 13,
+     "code": 2,
+     "gefuehlt": 12,
+     "wind": 6,
+     "windAus": 131,
+     "feuchte": 76,
+     "druck": 1014,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
+     "datum": "2026-10-06",
      "code": 3,
      "max": 22,
-     "min": 13,
+     "min": 12,
      "regen": 0,
      "menge": 0,
-     "wind": 10,
-     "windAus": 154,
-     "uv": 3.7,
-     "auf": "07:38",
-     "unter": "19:01"
-    },
-    "morgen": {
-     "datum": "2026-10-06",
-     "code": 2,
-     "max": 23,
-     "min": 13,
-     "regen": 0,
-     "menge": 0,
-     "wind": 9,
-     "windAus": 110,
+     "wind": 8,
+     "windAus": 117,
      "uv": 3.7,
      "auf": "07:40",
      "unter": "18:59"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 65,
+     "max": 24,
+     "min": 12,
+     "regen": 90,
+     "menge": 17.4,
+     "wind": 15,
+     "windAus": 135,
+     "uv": 3.4,
+     "auf": "07:42",
+     "unter": "18:56"
+    },
     "tage": [
      {
-      "datum": "2026-10-05",
+      "datum": "2026-10-06",
       "code": 3,
       "max": 22,
-      "min": 13,
+      "min": 12,
       "regen": 0,
       "menge": 0,
-      "wind": 10,
-      "windAus": 154,
-      "uv": 3.7,
-      "auf": "07:38",
-      "unter": "19:01"
-     },
-     {
-      "datum": "2026-10-06",
-      "code": 2,
-      "max": 23,
-      "min": 13,
-      "regen": 0,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 110,
+      "wind": 8,
+      "windAus": 117,
       "uv": 3.7,
       "auf": "07:40",
       "unter": "18:59"
      },
      {
       "datum": "2026-10-07",
-      "code": 63,
+      "code": 65,
       "max": 24,
-      "min": 13,
-      "regen": 76,
-      "menge": 4.9,
+      "min": 12,
+      "regen": 90,
+      "menge": 17.4,
       "wind": 15,
       "windAus": 135,
-      "uv": 3.6,
+      "uv": 3.4,
       "auf": "07:42",
       "unter": "18:56"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
-      "max": 18,
+      "code": 63,
+      "max": 17,
       "min": 10,
-      "regen": 97,
-      "menge": 9,
-      "wind": 20,
-      "windAus": 305,
-      "uv": 3.4,
+      "regen": 100,
+      "menge": 13.6,
+      "wind": 24,
+      "windAus": 301,
+      "uv": 2.7,
       "auf": "07:43",
       "unter": "18:54"
      },
      {
       "datum": "2026-10-09",
-      "code": 3,
-      "max": 14,
+      "code": 81,
+      "max": 13,
       "min": 8,
-      "regen": 51,
-      "menge": 0,
-      "wind": 14,
-      "windAus": 230,
+      "regen": 90,
+      "menge": 13.8,
+      "wind": 15,
+      "windAus": 215,
       "uv": 0.3,
       "auf": "07:45",
       "unter": "18:52"
@@ -1048,130 +1034,65 @@
      {
       "datum": "2026-10-10",
       "code": 53,
-      "max": 16,
-      "min": 11,
-      "regen": 57,
-      "menge": 3.3,
-      "wind": 20,
-      "windAus": 236,
-      "uv": 3.1,
+      "max": 15,
+      "min": 10,
+      "regen": 88,
+      "menge": 4.8,
+      "wind": 19,
+      "windAus": 241,
+      "uv": 2.8,
       "auf": "07:46",
       "unter": "18:50"
      },
      {
       "datum": "2026-10-11",
-      "code": 3,
+      "code": 51,
       "max": 15,
       "min": 9,
-      "regen": 38,
-      "menge": 0,
-      "wind": 14,
-      "windAus": 251,
-      "uv": 1.8,
+      "regen": 43,
+      "menge": 0.6,
+      "wind": 19,
+      "windAus": 252,
+      "uv": 1.9,
       "auf": "07:48",
       "unter": "18:48"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 3,
+      "max": 16,
+      "min": 8,
+      "regen": 27,
+      "menge": 0,
+      "wind": 11,
+      "windAus": 171,
+      "uv": 3.1,
+      "auf": "07:50",
+      "unter": "18:46"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 20,
+      "zeit": "09:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "10:00",
+      "grad": 14,
       "code": 3,
       "regen": 0
      },
      {
-      "zeit": "21:00",
-      "grad": 19,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
+      "zeit": "11:00",
       "grad": 16,
       "code": 0,
       "regen": 0
      },
      {
-      "zeit": "02:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 15,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "09:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "10:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "12:00",
-      "grad": 19,
+      "grad": 18,
       "code": 0,
       "regen": 0
      },
@@ -1195,13 +1116,13 @@
      },
      {
       "zeit": "16:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
@@ -1214,6 +1135,84 @@
      {
       "zeit": "19:00",
       "grad": 21,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 20,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 17,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 13,
       "code": 0,
       "regen": 0
      }
@@ -1225,78 +1224,65 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 19,
-     "code": 0,
-     "gefuehlt": 18,
-     "wind": 3,
-     "windAus": 124,
-     "feuchte": 59,
-     "druck": 1010,
+     "grad": 8,
+     "code": 2,
+     "gefuehlt": 7,
+     "wind": 2,
+     "windAus": 39,
+     "feuchte": 96,
+     "druck": 1008,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
+     "datum": "2026-10-06",
      "code": 45,
-     "max": 23,
+     "max": 22,
      "min": 7,
      "regen": 0,
      "menge": 0,
-     "wind": 5,
-     "windAus": 86,
-     "uv": 3.8,
-     "auf": "07:31",
-     "unter": "18:55"
-    },
-    "morgen": {
-     "datum": "2026-10-06",
-     "code": 0,
-     "max": 23,
-     "min": 10,
-     "regen": 0,
-     "menge": 0,
-     "wind": 5,
-     "windAus": 57,
+     "wind": 4,
+     "windAus": 61,
      "uv": 3.8,
      "auf": "07:32",
      "unter": "18:52"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 61,
+     "max": 23,
+     "min": 9,
+     "regen": 23,
+     "menge": 0.2,
+     "wind": 7,
+     "windAus": 126,
+     "uv": 3.7,
+     "auf": "07:34",
+     "unter": "18:50"
+    },
     "tage": [
      {
-      "datum": "2026-10-05",
+      "datum": "2026-10-06",
       "code": 45,
-      "max": 23,
+      "max": 22,
       "min": 7,
       "regen": 0,
       "menge": 0,
-      "wind": 5,
-      "windAus": 86,
-      "uv": 3.8,
-      "auf": "07:31",
-      "unter": "18:55"
-     },
-     {
-      "datum": "2026-10-06",
-      "code": 0,
-      "max": 23,
-      "min": 10,
-      "regen": 0,
-      "menge": 0,
-      "wind": 5,
-      "windAus": 57,
+      "wind": 4,
+      "windAus": 61,
       "uv": 3.8,
       "auf": "07:32",
       "unter": "18:52"
      },
      {
       "datum": "2026-10-07",
-      "code": 3,
+      "code": 61,
       "max": 23,
-      "min": 10,
-      "regen": 40,
-      "menge": 0,
+      "min": 9,
+      "regen": 23,
+      "menge": 0.2,
       "wind": 7,
-      "windAus": 154,
+      "windAus": 126,
       "uv": 3.7,
       "auf": "07:34",
       "unter": "18:50"
@@ -1305,25 +1291,25 @@
       "datum": "2026-10-08",
       "code": 80,
       "max": 18,
-      "min": 10,
-      "regen": 85,
-      "menge": 7.9,
-      "wind": 17,
-      "windAus": 277,
-      "uv": 2.6,
+      "min": 8,
+      "regen": 80,
+      "menge": 14.1,
+      "wind": 16,
+      "windAus": 266,
+      "uv": 2.8,
       "auf": "07:36",
       "unter": "18:48"
      },
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 12,
-      "min": 7,
-      "regen": 50,
-      "menge": 3,
+      "max": 11,
+      "min": 6,
+      "regen": 70,
+      "menge": 4.5,
       "wind": 18,
-      "windAus": 224,
-      "uv": 2.5,
+      "windAus": 218,
+      "uv": 0.3,
       "auf": "07:37",
       "unter": "18:46"
      },
@@ -1331,12 +1317,12 @@
       "datum": "2026-10-10",
       "code": 80,
       "max": 17,
-      "min": 9,
-      "regen": 63,
-      "menge": 1.2,
-      "wind": 17,
-      "windAus": 241,
-      "uv": 1.2,
+      "min": 11,
+      "regen": 51,
+      "menge": 1.8,
+      "wind": 15,
+      "windAus": 227,
+      "uv": 3,
       "auf": "07:39",
       "unter": "18:44"
      },
@@ -1344,159 +1330,172 @@
       "datum": "2026-10-11",
       "code": 3,
       "max": 16,
-      "min": 6,
-      "regen": 34,
+      "min": 7,
+      "regen": 18,
       "menge": 0.3,
       "wind": 15,
-      "windAus": 244,
-      "uv": 2.6,
+      "windAus": 239,
+      "uv": 1.9,
       "auf": "07:40",
       "unter": "18:42"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 3,
+      "max": 17,
+      "min": 4,
+      "regen": 14,
+      "menge": 0,
+      "wind": 10,
+      "windAus": 249,
+      "uv": 2.9,
+      "auf": "07:42",
+      "unter": "18:40"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 19,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
-      "grad": 10,
-      "code": 0,
+      "grad": 7,
+      "code": 45,
       "regen": 0
      },
      {
       "zeit": "10:00",
-      "grad": 12,
-      "code": 0,
+      "grad": 9,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "11:00",
-      "grad": 15,
-      "code": 0,
+      "grad": 12,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 18,
+      "grad": 16,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 20,
+      "grad": 19,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 22,
+      "grad": 20,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "16:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "17:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "18:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 21,
+      "grad": 20,
       "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 18,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 15,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 12,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "02:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "03:00",
+      "grad": 11,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 10,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 10,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 9,
+      "code": 45,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 9,
+      "code": 45,
       "regen": 0
      }
     ]
@@ -1507,30 +1506,17 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 19,
-     "code": 0,
-     "gefuehlt": 20,
-     "wind": 2,
-     "windAus": 194,
-     "feuchte": 63,
-     "druck": 993,
+     "grad": 11,
+     "code": 1,
+     "gefuehlt": 11,
+     "wind": 3,
+     "windAus": 180,
+     "feuchte": 95,
+     "druck": 990,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
-     "code": 80,
-     "max": 22,
-     "min": 12,
-     "regen": 45,
-     "menge": 0.1,
-     "wind": 7,
-     "windAus": 179,
-     "uv": 3.8,
-     "auf": "07:28",
-     "unter": "18:54"
-    },
-    "morgen": {
      "datum": "2026-10-06",
      "code": 45,
      "max": 23,
@@ -1538,25 +1524,25 @@
      "regen": 0,
      "menge": 0,
      "wind": 6,
-     "windAus": 152,
+     "windAus": 159,
      "uv": 3.8,
      "auf": "07:29",
      "unter": "18:51"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 3,
+     "max": 25,
+     "min": 12,
+     "regen": 13,
+     "menge": 0,
+     "wind": 13,
+     "windAus": 196,
+     "uv": 3.6,
+     "auf": "07:31",
+     "unter": "18:49"
+    },
     "tage": [
-     {
-      "datum": "2026-10-05",
-      "code": 80,
-      "max": 22,
-      "min": 12,
-      "regen": 45,
-      "menge": 0.1,
-      "wind": 7,
-      "windAus": 179,
-      "uv": 3.8,
-      "auf": "07:28",
-      "unter": "18:54"
-     },
      {
       "datum": "2026-10-06",
       "code": 45,
@@ -1565,7 +1551,7 @@
       "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 152,
+      "windAus": 159,
       "uv": 3.8,
       "auf": "07:29",
       "unter": "18:51"
@@ -1574,25 +1560,25 @@
       "datum": "2026-10-07",
       "code": 3,
       "max": 25,
-      "min": 13,
-      "regen": 18,
+      "min": 12,
+      "regen": 13,
       "menge": 0,
-      "wind": 7,
-      "windAus": 203,
-      "uv": 3.7,
+      "wind": 13,
+      "windAus": 196,
+      "uv": 3.6,
       "auf": "07:31",
       "unter": "18:49"
      },
      {
       "datum": "2026-10-08",
-      "code": 80,
-      "max": 18,
+      "code": 61,
+      "max": 19,
       "min": 10,
-      "regen": 85,
-      "menge": 13.5,
-      "wind": 20,
-      "windAus": 277,
-      "uv": 0.7,
+      "regen": 83,
+      "menge": 6.4,
+      "wind": 26,
+      "windAus": 271,
+      "uv": 1.4,
       "auf": "07:32",
       "unter": "18:47"
      },
@@ -1600,24 +1586,24 @@
       "datum": "2026-10-09",
       "code": 61,
       "max": 13,
-      "min": 7,
-      "regen": 34,
-      "menge": 1.5,
-      "wind": 14,
-      "windAus": 228,
-      "uv": 3.1,
+      "min": 6,
+      "regen": 72,
+      "menge": 3,
+      "wind": 16,
+      "windAus": 229,
+      "uv": 1.5,
       "auf": "07:34",
       "unter": "18:45"
      },
      {
       "datum": "2026-10-10",
       "code": 61,
-      "max": 16,
-      "min": 11,
-      "regen": 47,
+      "max": 17,
+      "min": 12,
+      "regen": 63,
       "menge": 3.3,
-      "wind": 17,
-      "windAus": 238,
+      "wind": 16,
+      "windAus": 226,
       "uv": 1.2,
       "auf": "07:35",
       "unter": "18:43"
@@ -1625,106 +1611,41 @@
      {
       "datum": "2026-10-11",
       "code": 3,
-      "max": 15,
-      "min": 9,
-      "regen": 44,
-      "menge": 0,
-      "wind": 16,
-      "windAus": 262,
-      "uv": 2.9,
+      "max": 16,
+      "min": 8,
+      "regen": 27,
+      "menge": 0.3,
+      "wind": 15,
+      "windAus": 257,
+      "uv": 2.4,
       "auf": "07:37",
       "unter": "18:42"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 45,
+      "max": 15,
+      "min": 5,
+      "regen": 18,
+      "menge": 0,
+      "wind": 8,
+      "windAus": 258,
+      "uv": 3.1,
+      "auf": "07:38",
+      "unter": "18:40"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 20,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 18,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 17,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 16,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 12,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 12,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 10,
-      "code": 45,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 11,
-      "code": 45,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
-      "grad": 12,
+      "grad": 10,
       "code": 45,
       "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 13,
-      "code": 45,
+      "code": 1,
       "regen": 0
      },
      {
@@ -1735,25 +1656,25 @@
      },
      {
       "zeit": "12:00",
-      "grad": 19,
+      "grad": 18,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "13:00",
-      "grad": 21,
+      "grad": 20,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 22,
+      "grad": 21,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "15:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
@@ -1771,14 +1692,92 @@
      },
      {
       "zeit": "18:00",
-      "grad": 23,
+      "grad": 22,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "19:00",
-      "grad": 22,
+      "grad": 21,
       "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 20,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 19,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "02:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "03:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "04:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "05:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "06:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 12,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 12,
+      "code": 1,
       "regen": 0
      }
     ]
@@ -1789,65 +1788,52 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 17,
+     "grad": 11,
      "code": 0,
-     "gefuehlt": 17,
-     "wind": 3,
-     "windAus": 172,
+     "gefuehlt": 10,
+     "wind": 1,
+     "windAus": 72,
      "feuchte": 79,
-     "druck": 962,
+     "druck": 960,
      "niederschlag": 0,
-     "tag": 0
+     "tag": 1
     },
     "heute": {
-     "datum": "2026-10-05",
-     "code": 80,
-     "max": 20,
-     "min": 13,
-     "regen": 78,
-     "menge": 3,
-     "wind": 5,
-     "windAus": 192,
-     "uv": 3.7,
-     "auf": "07:18",
-     "unter": "18:44"
-    },
-    "morgen": {
      "datum": "2026-10-06",
-     "code": 3,
+     "code": 45,
      "max": 21,
-     "min": 9,
+     "min": 8,
      "regen": 3,
      "menge": 0,
      "wind": 9,
-     "windAus": 99,
+     "windAus": 103,
      "uv": 3.8,
      "auf": "07:19",
      "unter": "18:42"
     },
+    "morgen": {
+     "datum": "2026-10-07",
+     "code": 3,
+     "max": 24,
+     "min": 11,
+     "regen": 8,
+     "menge": 0,
+     "wind": 7,
+     "windAus": 178,
+     "uv": 3.8,
+     "auf": "07:21",
+     "unter": "18:40"
+    },
     "tage": [
      {
-      "datum": "2026-10-05",
-      "code": 80,
-      "max": 20,
-      "min": 13,
-      "regen": 78,
-      "menge": 3,
-      "wind": 5,
-      "windAus": 192,
-      "uv": 3.7,
-      "auf": "07:18",
-      "unter": "18:44"
-     },
-     {
       "datum": "2026-10-06",
-      "code": 3,
+      "code": 45,
       "max": 21,
-      "min": 9,
+      "min": 8,
       "regen": 3,
       "menge": 0,
       "wind": 9,
-      "windAus": 99,
+      "windAus": 103,
       "uv": 3.8,
       "auf": "07:19",
       "unter": "18:42"
@@ -1855,151 +1841,86 @@
      {
       "datum": "2026-10-07",
       "code": 3,
-      "max": 23,
-      "min": 13,
-      "regen": 5,
+      "max": 24,
+      "min": 11,
+      "regen": 8,
       "menge": 0,
       "wind": 7,
-      "windAus": 203,
+      "windAus": 178,
       "uv": 3.8,
       "auf": "07:21",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-08",
-      "code": 61,
+      "code": 80,
       "max": 18,
-      "min": 8,
-      "regen": 90,
-      "menge": 3.1,
-      "wind": 17,
-      "windAus": 267,
-      "uv": 1.4,
+      "min": 10,
+      "regen": 92,
+      "menge": 4.9,
+      "wind": 22,
+      "windAus": 266,
+      "uv": 1.3,
       "auf": "07:22",
       "unter": "18:38"
      },
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 13,
+      "max": 14,
       "min": 6,
-      "regen": 57,
-      "menge": 2.4,
+      "regen": 42,
+      "menge": 0.9,
       "wind": 16,
-      "windAus": 253,
-      "uv": 3.5,
+      "windAus": 255,
+      "uv": 3.2,
       "auf": "07:24",
       "unter": "18:36"
      },
      {
       "datum": "2026-10-10",
       "code": 80,
-      "max": 15,
+      "max": 17,
       "min": 11,
-      "regen": 57,
-      "menge": 10.4,
-      "wind": 19,
-      "windAus": 254,
-      "uv": 1.3,
+      "regen": 64,
+      "menge": 8.1,
+      "wind": 14,
+      "windAus": 251,
+      "uv": 1.2,
       "auf": "07:25",
       "unter": "18:35"
      },
      {
       "datum": "2026-10-11",
       "code": 80,
-      "max": 14,
+      "max": 13,
       "min": 10,
-      "regen": 60,
-      "menge": 0.9,
-      "wind": 18,
-      "windAus": 266,
-      "uv": 2.1,
+      "regen": 52,
+      "menge": 13.4,
+      "wind": 12,
+      "windAus": 256,
+      "uv": 2.4,
       "auf": "07:27",
       "unter": "18:33"
+     },
+     {
+      "datum": "2026-10-12",
+      "code": 3,
+      "max": 14,
+      "min": 8,
+      "regen": 32,
+      "menge": 0,
+      "wind": 12,
+      "windAus": 273,
+      "uv": 2.9,
+      "auf": "07:28",
+      "unter": "18:31"
      }
     ],
     "stunden": [
      {
-      "zeit": "20:00",
-      "grad": 17,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "21:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "22:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "23:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "00:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "01:00",
-      "grad": 12,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "02:00",
-      "grad": 11,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "03:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "04:00",
-      "grad": 10,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "05:00",
-      "grad": 9,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "06:00",
-      "grad": 9,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "07:00",
-      "grad": 9,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "08:00",
-      "grad": 9,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "09:00",
-      "grad": 11,
+      "grad": 10,
       "code": 0,
       "regen": 0
      },
@@ -2011,32 +1932,32 @@
      },
      {
       "zeit": "11:00",
-      "grad": 16,
+      "grad": 15,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "12:00",
-      "grad": 18,
+      "grad": 17,
       "code": 0,
       "regen": 0
      },
      {
       "zeit": "13:00",
       "grad": 19,
-      "code": 0,
+      "code": 1,
       "regen": 0
      },
      {
       "zeit": "14:00",
-      "grad": 21,
-      "code": 2,
-      "regen": 0
+      "grad": 20,
+      "code": 1,
+      "regen": 3
      },
      {
       "zeit": "15:00",
       "grad": 21,
-      "code": 3,
+      "code": 2,
       "regen": 0
      },
      {
@@ -2053,28 +1974,106 @@
      },
      {
       "zeit": "18:00",
-      "grad": 21,
-      "code": 3,
+      "grad": 20,
+      "code": 2,
       "regen": 0
      },
      {
       "zeit": "19:00",
       "grad": 19,
-      "code": 1,
+      "code": 2,
       "regen": 0
+     },
+     {
+      "zeit": "20:00",
+      "grad": 17,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "23:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "00:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "01:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "02:00",
+      "grad": 12,
+      "code": 2,
+      "regen": 8
+     },
+     {
+      "zeit": "03:00",
+      "grad": 11,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "04:00",
+      "grad": 11,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "05:00",
+      "grad": 11,
+      "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "07:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "08:00",
+      "grad": 12,
+      "code": 2,
+      "regen": 3
      }
     ]
    }
   ],
   "text": [
    "Heute liegen die Höchstwerte zwischen 20 und 23 Grad.",
-   "Die Vorhersage für morgen, Dienstag: im Norden und Osten bewölkt, im Süden und Westen neblig.",
-   "Die Temperaturen erreichen dann 20 bis 23 Grad.",
-   "Am wärmsten wird es in Köln mit 23 Grad.",
+   "Die Vorhersage für morgen, Mittwoch, im ganzen Land: bewölkt.",
+   "Die Temperaturen erreichen dann 21 bis 25 Grad.",
+   "Am wärmsten wird es in Stuttgart mit 25 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
-   "tag": "Dienstag",
+   "tag": "Mittwoch",
    "orte": [
     {
      "name": "Hamburg",
@@ -2082,20 +2081,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 20,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 17,
+       "grad": 21,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 18,
-       "regen": 0.4
+       "grad": 19,
+       "regen": 0
       }
      ]
     },
@@ -2111,14 +2110,14 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 21,
+       "grad": 22,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 18,
-       "regen": 0.1
+       "grad": 21,
+       "regen": 0
       }
      ]
     },
@@ -2134,13 +2133,13 @@
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 19,
+       "grad": 20,
        "regen": 0
       }
      ]
@@ -2151,20 +2150,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 22,
-       "regen": 0
+       "grad": 23,
+       "regen": 1.9
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 23,
-       "regen": 0
+       "grad": 24,
+       "regen": 2.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 20,
-       "regen": 0
+       "grad": 22,
+       "regen": 0.6
       }
      ]
     },
@@ -2175,18 +2174,18 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 23,
-       "regen": 0
+       "regen": 0.2
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 23,
-       "regen": 0
+       "regen": 0.6
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 22,
+       "grad": 23,
        "regen": 0
       }
      ]
@@ -2197,7 +2196,30 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 23,
+       "grad": 25,
+       "regen": 0
+      },
+      {
+       "name": "GFS",
+       "heim": "USA",
+       "grad": 25,
+       "regen": 0
+      },
+      {
+       "name": "ECMWF",
+       "heim": "Europa",
+       "grad": 24,
+       "regen": 0.1
+      }
+     ]
+    },
+    {
+     "name": "München",
+     "je": [
+      {
+       "name": "ICON",
+       "heim": "Deutscher Wetterdienst",
+       "grad": 24,
        "regen": 0
       },
       {
@@ -2213,35 +2235,22 @@
        "regen": 0
       }
      ]
-    },
-    {
-     "name": "München",
-     "je": [
-      {
-       "name": "ICON",
-       "heim": "Deutscher Wetterdienst",
-       "grad": 21,
-       "regen": 0
-      },
-      {
-       "name": "GFS",
-       "heim": "USA",
-       "grad": 21,
-       "regen": 0
-      },
-      {
-       "name": "ECMWF",
-       "heim": "Europa",
-       "grad": 20,
-       "regen": 0
-      }
-     ]
     }
    ],
    "spanneGrad": 3,
-   "uneinigRegen": null,
+   "uneinigRegen": {
+    "ort": "Köln",
+    "nass": [
+     "ICON",
+     "GFS"
+    ],
+    "trocken": [
+     "ECMWF"
+    ]
+   },
    "saetze": [
-    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 17 und 20 Grad."
+    "Für Leipzig gehen die Modelle am weitesten auseinander: zwischen 20 und 23 Grad.",
+    "Und in Köln erwartet ICON und GFS Regen, ECMWF dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -4961,7 +4970,7 @@
       0.25,
       5.44,
       11.16,
-      16.0,
+      16,
       26.94,
       33.55,
       40.88,
@@ -4975,7 +4984,7 @@
      "s": [
       0.25,
       4.39,
-      13.0,
+      13,
       25.69,
       36.71,
       44.38,
@@ -7160,7 +7169,7 @@
       25.03,
       34.21,
       42.74,
-      49.0
+      49
      ]
     },
     {
@@ -8705,512 +8714,6 @@
       24.48,
       28.48,
       38.42
-     ]
-    }
-   ]
-  },
-  {
-   "id": "israel-oberstes-gericht-arabische-parteien",
-   "rubrik": "Welt",
-   "zeit": "2026-10-03T06:42:05.000Z",
-   "aktualisiert": "aktualisiert um 10:02 Uhr",
-   "titel": "Oberstes Gericht in Israel erlaubt Teilnahme arabischer Parteien an Parlamentswahl",
-   "vorspann": "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der kommenden Parlamentswahl gekippt. Die Richter hoben damit eine Entscheidung des Zentralen Wahlkomitees auf.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Das Oberste Gericht in Israel hat arabische Parteien zur Parlamentswahl im Oktober zugelassen.",
-    "Zuvor hatte das Zentrale Wahlkomitee deren Ausschluss beschlossen, was nun vom Gericht gekippt wurde.",
-    "Gegen die Parteien hatte es Vorwürfe wegen angeblicher Unterstützung des bewaffneten Kampfes gegeben.",
-    "Politiker der arabischen Minderheit kritisierten die Verbotsversuche als rassistisch und antidemokratisch."
-   ],
-   "einig": [
-    [
-     "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Parlamentswahl gekippt.",
-     [
-      "Tagesschau/ARD",
-      "Deutschlandfunk",
-      "Spiegel",
-      "taz"
-     ]
-    ],
-    [
-     "Das Zentrale Wahlkomitee hatte zuvor mit 18 zu 5 Stimmen gegen die Zulassung der Raam-Partei sowie der Liste von Chadasch, Taal und Balad gestimmt.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ],
-    [
-     "Weder das Lager von Benjamin Netanjahu noch das seiner Gegner können laut Umfragen mit einer absoluten Mehrheit rechnen.",
-     [
-      "Tagesschau/ARD",
-      "Spiegel"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob die rechtsextreme Partei Ozma Jehudit von der Wahl hätte ausgeschlossen werden müssen, blieb im Wahlkomitee umstritten, da kein Ausschluss beschlossen wurde."
-   ],
-   "positionen": [
-    [
-     "Vereinigte Liste / Joint List",
-     "Verurteilung des Ausschlussbeschlusses als politisch, rassistisch und antidemokratisch.",
-     "Tagesschau/ARD,Spiegel,taz"
-    ],
-    [
-     "Zentrales Wahlkomitee",
-     "Forderung oder Beschluss zum Ausschluss der Parteien wegen angeblicher Unterstützung des bewaffneten Kampfes.",
-     "Tagesschau/ARD,Deutschlandfunk,Spiegel,taz"
-    ],
-    [
-     "Sami Abu Shehadeh",
-     "Betonte, er habe nie Gewalt befürwortet, bedauerte eine Formulierung und zog seine Kandidatur nach Gerichtsempfehlung zurück.",
-     "taz"
-    ]
-   ],
-   "fehlend": "Stellungnahmen des Obersten Gerichts im Wortlaut sowie direkte Aussagen von Premierminister Benjamin Netanjahu.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "02.10.26, 15:06",
-     "fokus": "Überblick über Gerichtsentscheid und Umfragen",
-     "text": "Die Tagesschau berichtet umfassend über die Aufhebung des Verbots durch das Gericht und beleuchtet die Rolle der Raam-Partei bei den anstehenden Wahlen.",
-     "url": "https://www.tagesschau.de/ausland/asien/israel-wahlen-gericht-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 1,
-      "woerter": 223,
-      "satzlaenge": 14,
-      "langeWoerter": 41
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "Deutschlandfunk",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "03.10.26, 08:42",
-     "fokus": "Kompakte Zusammenfassung der Gerichtsentscheidung",
-     "text": "Der Deutschlandfunk fasst kurz und prägnant zusammen, dass das Oberste Gericht den Ausschluss der Parteien wegen fehlender Rechtmäßigkeit für ungültig erklärt hat.",
-     "url": "https://www.deutschlandfunk.de/gerichtsurteil-arabische-parteien-muessen-zur-wahl-in-israel-zugelassen-werden-106.html",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": null
-    },
-    {
-     "name": "Spiegel",
-     "typ": "Nachrichtenmagazin",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "02.10.26, 14:22",
-     "fokus": "Hintergründe zur Parlamentswahl und den Parteien",
-     "text": "Der Spiegel nennt konkrete Details zu den betroffenen Parteien sowie zu den Stimmverhältnissen im Zentralen Wahlkomitee.",
-     "url": "https://www.spiegel.de/ausland/israel-oberstes-gericht-erlaubt-arabischen-parteien-wahlteilnahme-a-09c74d27-bf5b-4fe1-8502-88c660703755#ref=rss",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 1,
-      "woerter": 221,
-      "satzlaenge": 15,
-      "langeWoerter": 41
-     },
-     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "taz",
-     "typ": "Tageszeitung (Genossenschaft)",
-     "art": "privates Medium",
-     "stamm": false,
-     "datum": "02.10.26, 18:22",
-     "fokus": "Ausführliche Details zu einzelnen Politikern",
-     "text": "Die taz beleuchtet besonders die Situation des Politikers Sami Abu Shehadeh und die historischen Hintergründe von Parteiausschlussen in Israel.",
-     "url": "https://taz.de/Wahlen-in-Israel/!6218499/",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 3,
-      "woerter": 539,
-      "satzlaenge": 14,
-      "langeWoerter": 38
-     },
-     "traeger": "taz Verlags- und Vertriebs GmbH, getragen von der Genossenschaft taz eG (rund 23.000 Mitglieder)",
-     "finanzierung": "Genossenschaft, Abos, freiwillige Zahlungen",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detailgrad bei Politikern",
-     "Die taz nennt spezifische Einzelheiten zum Rückzug des Politikers Sami Abu Shehadeh, während andere Medien diesen Punkt weniger ausführlich behandeln."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Das Oberste Gericht Israels",
-    "was": "Erlaubt arabischen Parteien die Wahlteilnahme",
-    "wann": "2026-10-02",
-    "wo": "Israel",
-    "wie": "Durch Aufhebung eines Beschlusses der Wahlkommission",
-    "warum": "Voraussetzungen für einen Ausschluss nach Ansicht der Richter nicht erfüllt",
-    "quellenlage": "Öffentlich-rechtliche Sender und Zeitungen"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Entscheidung des Gerichts",
-     "absaetze": [
-      "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien an der bevorstehenden Parlamentswahl Ende Oktober teilnehmen dürfen. Laut Tagesschau/ARD, Deutschlandfunk und Spiegel hob das Gericht damit einen Beschluss des Zentralen Wahlkomitees auf. Das Komitee hatte zuvor versucht, die Parteien von der Abstimmung auszuschließen. Die Richter in Jerusalem begründeten den Schritt laut den Berichten damit, dass die Entscheidung der Kommission nicht rechtmäßig gewesen sei. Der Beschluss habe die gesetzlichen Voraussetzungen für einen Ausschluss der Parteien nicht erfüllt.",
-      "Das Zentrale Wahlkomitee hatte laut den übereinstimmenden Medienberichten zuvor mit 18 zu 5 Stimmen gegen die Zulassung der konservativ-islamischen Raam-Partei gestimmt. Betroffen von dem Ausschlussantrag war zudem die gemeinsame Liste von Chadasch, Taal und Balad, die auch als Vereinigte Liste oder Joint List bezeichnet wird. In den Anträgen gegen die Parteien wurde laut den Berichten unter anderem vorgebracht, sie würden den bewaffneten Kampf gegen Israel unterstützen. Die taz ergänzte, dass der Likud und andere rechtsreligiöse Parteien ein Verbot gefordert hatten.",
-      "Laut taz empfahl das Gericht dem Balad-Anführer Sami Abu Shehadeh jedoch, seine Kandidatur zurückzuziehen. Diesem Schritt kam der Politiker nach, nachdem eine Mehrheit der Richter offenbar dafür war, das Verbot in seinem speziellen Fall aufrechtzuerhalten. Abu Shehadeh erklärte laut taz, dies sei die schwierigste Entscheidung seiner Laufbahn gewesen. Dem Politiker wurde ein Artikel zum Verhängnis, den er nach dem Angriff vom 7. Oktober 2023 veröffentlicht hatte. Das Wahlkomitee hatte seine Aussagen als Unterstützung des bewaffneten Kampfes gewertet, während der Politiker betonte, er habe nie Gewalt befürwortet. Der Parlamentarier Ofer Cassif darf hingegen laut der taz weiter kandidieren."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund und Reaktionen",
-     "absaetze": [
-      "Die betroffenen Parteien und Politiker reagierten scharf auf die ursprüngliche Entscheidung des Komitees. Laut Tagesschau/ARD und Spiegel verurteilte die Vereinigte Liste den Beschluss als politisch, rassistisch und antidemokratisch. Die taz zitiert zudem die Aussage, dass die jüdischen und säkularen Parteien Angst vor dem wachsenden Einfluss der arabischen Parteien hätten. Etwa 17 Prozent aller Wähler in Israel haben laut der taz palästinensische Wurzeln und werden als arabische Israelis bezeichnet.",
-      "Im Gegensatz zu den arabischen Parteien beschloss das Zentrale Wahlkomitee laut Tagesschau/ARD und Spiegel nicht, auch die rechtsextreme jüdische Partei Ozma Jehudit auszuschließen. Diese Partei wird von Polizeiminister Itamar Ben-Gvir vertreten. Die taz merkte an, dass bereits im Jahr 1984 nach dem Einzug der rechtsextremen Kach-Partei in das Parlament ein Gesetz zum Ausschluss von Parteien eingeführt wurde, welches nun von rechten Politikern gegen ihre Gegner angewandt wird.",
-      "Laut den Berichten von Tagesschau/ARD und Spiegel können bei der anstehenden Wahl am 27. Oktober weder das Lager von Premierminister Benjamin Netanjahu noch das seiner Gegner mit einer absoluten Mehrheit rechnen. Der Raam-Partei könnte dabei die Rolle des Königsmachers zukommen. Die taz weist darauf hin, dass die kleineren Parteien den Unterschied bei der Regierungsbildung machen könnten, sofern sie zu Koalitionen bereit sind."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "Woche vor dem Urteil",
-     "Das Zentrale Wahlkomitee stimmt für den Ausschluss arabischer Parteien und von Sami Abu Schehadeh."
-    ],
-    [
-     "Donnerstag",
-     "Der Oberste Gerichtshof empfiehlt dem Politiker Sami Abu Schehadeh einen Rückzug von seiner Kandidatur."
-    ],
-    [
-     "Ende September",
-     "Das Zentrale Wahlkomitee stimmt für den Ausschluss arabischer Parteien und von Politikern wie Sami Abu Schehade."
-    ],
-    [
-     "02.10.2026",
-     "Das Oberste Gericht hebt die Entscheidung des Wahlkomitees zum Ausschluss der arabischen Parteien auf."
-    ],
-    [
-     "27.10.2026",
-     "Geplante Parlamentswahl in Israel."
-    ],
-    [
-     "7. Oktober 2023",
-     "Angriff von Hamas und anderen palästinensischen Extremisten auf Israel."
-    ],
-    [
-     "Ende September 2026",
-     "Das Zentrale Wahlkomitee stimmt für den Ausschluss arabischer Parteien."
-    ],
-    [
-     "02.10.2026",
-     "Das Oberste Gericht hebt die Entscheidung des Wahlkomitees auf."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Benjamin Netanyahu",
-     "bildunterschrift": "Benjamin Netanjahu ist Premierminister von Israel und führt das Likud-Lager an."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Supreme Court of Israel",
-     "bildunterschrift": "Das Oberste Gericht in Israel hat die Entscheidung des Wahlkomitees aufgehoben."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Knesset",
-     "bildunterschrift": "Das israelische Parlament in Jerusalem, für das Ende Oktober gewählt wird."
-    }
-   ],
-   "ort": {
-    "name": "Jerusalem, Israel"
-   },
-   "geprueft": true,
-   "korrekturen": [],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Knesset",
-      "Die Knesset ist das Parlament des Staates Israel mit Sitz in Jerusalem."
-     ],
-     [
-      "Zentrales Wahlkomitee",
-      "Ein staatliches Gremium in Israel, das über die Zulassung von Parteien und Kandidaten zu Wahlen entscheidet."
-     ],
-     [
-      "Oberster Gerichtshof",
-      "Das höchste Gericht in Israel, das Entscheidungen von Behörden und anderen Gerichten überprüfen kann."
-     ]
-    ],
-    "fragen": [
-     "Welche Argumente führten die Befürworter und Gegner des Ausschlusses arabischer Parteien an?",
-     "Welche Rolle können kleinere Parteien nach aktuellen Umfragen bei der Regierungsbildung in Israel spielen?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer hat den Ausschluss arabischer Parteien von der Wahl gekippt?",
-      "optionen": [
-       "Das Parlament",
-       "Das Zentrale Wahlkomitee",
-       "Das Oberste Gericht"
-      ],
-      "richtig": 2,
-      "erklaerung": "Das Oberste Gericht hat die Entscheidung des Wahlkomitees aufgehoben und die Parteien zur Wahl zugelassen."
-     },
-     {
-      "frage": "Wie stimmte das Zentrale Wahlkomitee über die arabischen Parteien ab?",
-      "optionen": [
-       "18 zu 5 gegen die Zulassung",
-       "18 zu 5 für die Zulassung",
-       "Einstimmig für den Ausschluss"
-      ],
-      "richtig": 0,
-      "erklaerung": "Das Komitee stimmte mit 18 zu 5 Stimmen gegen die Zulassung der betroffenen Parteien."
-     },
-     {
-      "frage": "Welcher Politiker wird im Zusammenhang mit der rechtsextremen Partei Ozma Jehudit genannt?",
-      "optionen": [
-       "Benjamin Netanjahu",
-       "Itamar Ben-Gvir",
-       "Sami Abu Shehadeh"
-      ],
-      "richtig": 1,
-      "erklaerung": "Itamar Ben-Gvir ist Polizeiminister und vertritt die rechtsextreme Partei Ozma Jehudit."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien an der Parlamentswahl im Oktober teilnehmen dürfen.",
-    "absaetze": [
-     "Zuvor hatte das Zentrale Wahlkomitee beschlossen, diese Parteien von der Wahl auszuschließen.",
-     "Das Gericht erklärte diesen Beschluss für unrechtmäßig und hob ihn auf.",
-     "Gegen die Parteien gab es den Vorwurf, den bewaffneten Kampf zu unterstützen.",
-     "Politiker der arabischen Parteien kritisierten das geplante Verbot scharf und nannten es rassistisch.",
-     "Umfragen zeigen, dass bei der Wahl keine Partei eine absolute Mehrheit erreichen wird."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Das Oberste Gericht in Israel erlaubt arabischen Parteien die Teilnahme an der Wahl im Oktober.",
-     "Das Zentrale Wahlkomitee hatte die Parteien zuvor ausgeschlossen.",
-     "Laut den Richtern waren die Voraussetzungen für ein Verbot nicht erfüllt."
-    ],
-    "lang": [
-     "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Parlamentswahl gekippt.",
-     "Die Richter entschieden am zweiten Oktober des Jahres zweitausendsechs in Jerusalem.",
-     "Das Zentrale Wahlkomitee hatte zuvor mit achtzehn zu fünf Stimmen gegen die Zulassung gestimmt.",
-     "Als Grund wurden in Anträgen Sicherheitsbedenken und der Vorwurf der Unterstützung des bewaffneten Kampfes genannt.",
-     "Die betroffenen Parteien verurteilten den Beschluss nach Angaben der Tagesschau als rassistisch und antidemokratisch.",
-     "Das Gericht befand die Entscheidung des Komitees jedoch für nicht rechtmäßig.",
-     "Nach Berichten der Tageszeitung taz zog der Politiker Sami Abu Shehadeh seine Kandidatur nach einer Empfehlung des Gerichts zurück.",
-     "Laut Meinungsumfragen kann bei der Wahl Ende Oktober keine Seite mit einer absoluten Mehrheit rechnen.",
-     "Die kleineren Parteien könnten nach Angaben des Spiegels eine wichtige Rolle bei der Regierungsbildung einnehmen.",
-     "Ob die rechtsextreme Partei von Polizeiminister Itamar Ben-Gvir ebenfalls ausgeschlossen werden sollte, blieb im Komitee umstritten."
-    ],
-    "einfach": [
-     "Arabische Parteien dürfen bei der Wahl in Israel im Oktober mitmachen.",
-     "Das Oberste Gericht hat ein Verbot der Wahlkommission aufgehoben.",
-     "Das Gericht sagt, das Verbot war nicht rechtmäßig.",
-     "Die Parteien wurden beschuldigt, den Kampf gegen Israel zu unterstützen.",
-     "Politiker der Parteien wiesen diese Vorwürfe zurück.",
-     "Umfragen zeigen bisher keine klare Mehrheit für eine Seite."
-    ]
-   },
-   "kurz": [
-    "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Wahl gekippt.",
-    "Zuvor hatte das Zentrale Wahlkomitee für ein Verbot gestimmt.",
-    "Laut Umfragen zeichnet sich bei der Wahl Ende Oktober keine absolute Mehrheit ab."
-   ],
-   "fakten": [
-    [
-     "Wahltermin",
-     "27. Oktober 2026"
-    ],
-    [
-     "Stimmen im Wahlkomitee gegen Parteizulassung",
-     "18 zu 5"
-    ],
-    [
-     "Anteil der Wähler mit palästinensischen Wurzeln",
-     "17 Prozent"
-    ]
-   ],
-   "dossier": {
-    "slug": "parlamentswahl-israel-2026",
-    "titel": "Parlamentswahl in Israel"
-   },
-   "bildInfo": {
-    "titel": "Israel Supreme Court.jpg",
-    "beschreibung": "Supreme Court of Israel",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
-    "urheber": "israeltourism",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "art": "ort",
-    "suchbegriff": "Supreme Court of Israel building",
-    "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Israel Supreme Court.jpg",
-     "beschreibung": "Supreme Court of Israel",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Israel_Supreme_Court.jpg/1280px-Israel_Supreme_Court.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Israel_Supreme_Court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Israel_Supreme_Court.jpg",
-     "urheber": "israeltourism",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "art": "ort",
-     "suchbegriff": "Supreme Court of Israel building",
-     "bildunterschrift": "Das Gebäude des Obersten Gerichts in Israel, das über die Teilnahme an der Parlamentswahl entschieden hat.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Hearing hall in Israel supreme court.jpg",
-     "beschreibung": "אולם ב' בבית המשפט העליון בירושלים",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Hearing_hall_in_Israel_supreme_court.jpg/1280px-Hearing_hall_in_Israel_supreme_court.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hearing_hall_in_Israel_supreme_court.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Hearing_hall_in_Israel_supreme_court.jpg",
-     "urheber": "Avi1111 dr. avishai teicher",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "ort",
-     "suchbegriff": "Supreme Court of Israel building",
-     "bildunterschrift": "Der Verhandlungssaal im Obersten Gericht in Jerusalem.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "PikiWiki Israel 44720 The Supreme Court building .jpg",
-     "beschreibung": "The Supreme Court building",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg/1280px-PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_44720_The_Supreme_Court_building_.jpg",
-     "urheber": "shaula haitner",
-     "lizenz": "CC BY 2.5",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
-     "art": "ort",
-     "suchbegriff": "Supreme Court of Israel building",
-     "bildunterschrift": "Eine weitere Ansicht des Gebäudes des Obersten Gerichts in Israel.",
-     "hinweis": "Archivfoto"
-    }
-   ],
-   "ortInfo": {
-    "name": "Jerusalem, Israel",
-    "lat": 31.779,
-    "lon": 35.226
-   },
-   "version": 5,
-   "ton": [
-    {
-     "k": "Das Oberste Gericht in Israel hat den Ausschluss arabischer Parteien von der Par",
-     "d": "8950fc9924.mp3",
-     "l": 62.36,
-     "s": [
-      0.25,
-      6.05,
-      11,
-      16.49,
-      22.77,
-      29.51,
-      33.81,
-      41.99,
-      48.39,
-      54.29
-     ]
-    },
-    {
-     "k": "Das Oberste Gericht in Israel erlaubt arabischen Parteien die Teilnahme an der W",
-     "d": "3eab344b54.mp3",
-     "l": 14.05,
-     "s": [
-      0.25,
-      5.73,
-      9.89
-     ]
-    },
-    {
-     "k": "Arabische Parteien dürfen bei der Wahl in Israel im Oktober mitmachen. Das Obers",
-     "d": "99ec6581f5.mp3",
-     "l": 27.63,
-     "s": [
-      0.25,
-      5.56,
-      9.92,
-      14.05,
-      19.51,
-      23.13
-     ]
-    },
-    {
-     "k": "Ob die rechtsextreme Partei Ozma Jehudit von der Wahl hätte ausgeschlossen werde",
-     "d": "f774ae920e.mp3",
-     "l": 9.59,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Knesset? Die Knesset ist das Parlament des Staates Israe",
-     "d": "22e98815d5.mp3",
-     "l": 9.07,
-     "s": [
-      0.25,
-      3.51
-     ]
-    },
-    {
-     "k": "Das Oberste Gericht in Israel hat entschieden, dass arabische Parteien an der be",
-     "d": "12852896c8.mp3",
-     "l": 60.27,
-     "s": [
-      0.25,
-      8.18,
-      15.85,
-      20.72,
-      27.81,
-      32.95,
-      43.01,
-      51.96
-     ]
-    },
-    {
-     "k": "Die betroffenen Parteien und Politiker reagierten scharf auf die ursprüngliche E",
-     "d": "754ea62f5c.mp3",
-     "l": 65.61,
-     "s": [
-      0.25,
-      6.26,
-      14.28,
-      21.95,
-      29.94,
-      40.75,
-      45.28,
-      58.82
      ]
     }
    ]
