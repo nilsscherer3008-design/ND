@@ -192,7 +192,23 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Milch ist eine weiße Flüssigkeit und wird in vielen Ländern als Nahrungsmittel genutzt."
-   }
+   },
+   "ton": [
+    {
+     "k": "Milch ist eine Flüssigkeit aus Milchdrüsen von Säugetieren. Sie dient vor allem ",
+     "d": "0a2d2c5178.mp3",
+     "l": 25.39,
+     "s": [
+      0.25,
+      4.01,
+      7.05,
+      10.91,
+      13.88,
+      17.67,
+      21.47
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktioniert-eigentlich-eine-rolltreppe",
@@ -391,7 +407,23 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Rolltreppe transportiert Personen über Höhenunterschiede."
-   }
+   },
+   "ton": [
+    {
+     "k": "Eine Rolltreppe transportiert Menschen über Höhenunterschiede. Dabei bewegen sic",
+     "d": "97777e5ca9.mp3",
+     "l": 27.81,
+     "s": [
+      0.25,
+      3.88,
+      7.06,
+      12.35,
+      15.49,
+      20.95,
+      23.98
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-eigentlich-die-aegyptische-mumifizierung",
@@ -538,7 +570,24 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Die Mumifizierung war ein aufwendiges Verfahren im Alten Ägypten."
-   }
+   },
+   "ton": [
+    {
+     "k": "Im Alten Ägypten wurden Körper nach dem Tod mumifiziert. Damit sollte der Körper",
+     "d": "24523e37c0.mp3",
+     "l": 26.85,
+     "s": [
+      0.25,
+      3.87,
+      6.98,
+      9.95,
+      13.13,
+      16.83,
+      20.09,
+      23.65
+     ]
+    }
+   ]
   },
   {
    "id": "wie-funktionierte-die-post-im-alten-rom",
@@ -1233,24 +1282,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Heißluftballon nutzt den Auftrieb warmer Luft."
-   },
-   "ton": [
-    {
-     "k": "Ein Heißluftballon fliegt mit warmer Luft in seiner Hülle. Die Luft dehnt sich d",
-     "d": "a68c3a04fe.mp3",
-     "l": 28.33,
-     "s": [
-      0.25,
-      3.53,
-      6.08,
-      8.89,
-      12.35,
-      15.67,
-      19.54,
-      25.06
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-entsteht-eigentlich-ein-sandsturm",
@@ -1397,24 +1429,7 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Sandsturm führt große Mengen Sand und Staub mit sich."
-   },
-   "ton": [
-    {
-     "k": "Ein Sandsturm ist ein sehr trockener und heißer Wind in Trockengebieten. Er wirb",
-     "d": "34d404d97e.mp3",
-     "l": 35.61,
-     "s": [
-      0.25,
-      4.6,
-      9.13,
-      13.09,
-      17.48,
-      19.93,
-      25.01,
-      31.15
-     ]
-    }
-   ]
+   }
   },
   {
    "id": "wie-funktioniert-eigentlich-ein-kompass",

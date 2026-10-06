@@ -2258,7 +2258,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 20 und 23 Grad. Die Vorhersage für morgen,",
+   "d": "00f6738cd1.mp3",
+   "l": 19.45,
+   "s": [
+    0.25,
+    4.5,
+    8.65,
+    13.15,
+    16.81
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2272,156 +2284,156 @@
   },
   "ansagen": [
    {
-    "k": "Nachrichten-Heft. Die Hauptausgabe vom Montag, 5. Oktober. Es liest die Computer",
-    "d": "8f899644ee.mp3",
-    "l": 7.29,
-    "s": [
-     0.25,
-     4.5
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Montag, 5. Oktober. Es liest die ",
-    "d": "11658b7f4e.mp3",
-    "l": 7.54,
-    "s": [
-     0.25,
-     4.88
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Einfach erklärt vom Montag, 5. Oktober. Es liest die Computers",
-    "d": "4a4807904c.mp3",
-    "l": 8.68,
-    "s": [
-     0.25,
-     5.44
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Kurzmeldungen vom Montag, 5. Oktober. Es liest die Computersti",
-    "d": "babbeaa44b.mp3",
-    "l": 7.1,
-    "s": [
-     0.25,
-     4.27
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Der Wochenrückblick vom Montag, 5. Oktober. Es liest die Compu",
-    "d": "cc2fd1e495.mp3",
+    "k": "Nachrichten-Heft. Die Hauptausgabe vom Dienstag, 6. Oktober. Es liest die Comput",
+    "d": "a97ab75f77.mp3",
     "l": 6.8,
     "s": [
      0.25,
-     4.33
+     4.2
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Montag, 5. Oktober. Es liest die ",
-    "d": "0407de3a36.mp3",
-    "l": 7.22,
+    "k": "Nachrichten-Heft. Heft in hundert Sekunden vom Dienstag, 6. Oktober. Es liest di",
+    "d": "86da52129e.mp3",
+    "l": 7.53,
     "s": [
      0.25,
-     4.63
+     5.01
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Montag, 5. Oktober. Es liest die C",
-    "d": "b5a332224b.mp3",
-    "l": 7.62,
-    "s": [
-     0.25,
-     5
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Montag, 5. Oktober. Es liest die ",
-    "d": "078914356d.mp3",
-    "l": 7.31,
-    "s": [
-     0.25,
-     4.72
-    ]
-   },
-   {
-    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Montag, 5. Oktober. Es liest d",
-    "d": "e9b827401d.mp3",
-    "l": 7.75,
+    "k": "Nachrichten-Heft. Einfach erklärt vom Dienstag, 6. Oktober. Es liest die Compute",
+    "d": "fa31b0b528.mp3",
+    "l": 8.18,
     "s": [
      0.25,
      5.15
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Montag, 5. Oktober. Es liest d",
-    "d": "e80aecf30f.mp3",
-    "l": 7.73,
+    "k": "Nachrichten-Heft. Kurzmeldungen vom Dienstag, 6. Oktober. Es liest die Computers",
+    "d": "268e6a77db.mp3",
+    "l": 6.93,
     "s": [
      0.25,
-     5.02
+     4.44
     ]
    },
    {
-    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Montag, 5. Oktober. Es li",
-    "d": "3b1f42a8af.mp3",
-    "l": 7.96,
+    "k": "Nachrichten-Heft. Der Wochenrückblick vom Dienstag, 6. Oktober. Es liest die Com",
+    "d": "6b3929f5ef.mp3",
+    "l": 6.87,
     "s": [
      0.25,
-     5.46
+     4.27
     ]
    },
    {
-    "k": "Nachrichten-Heft. Deutschland vom Montag, 5. Oktober. Es liest die Computerstimm",
-    "d": "9883d356b9.mp3",
-    "l": 6.79,
+    "k": "Nachrichten-Heft. Die Ausgabe um sechs Uhr vom Dienstag, 6. Oktober. Es liest di",
+    "d": "0704b46269.mp3",
+    "l": 7.38,
+    "s": [
+     0.25,
+     4.76
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um neun Uhr vom Dienstag, 6. Oktober. Es liest die",
+    "d": "1617526d69.mp3",
+    "l": 7.82,
+    "s": [
+     0.25,
+     4.96
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um zwölf Uhr vom Dienstag, 6. Oktober. Es liest di",
+    "d": "26e7819b11.mp3",
+    "l": 7.82,
+    "s": [
+     0.25,
+     5.17
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um fünfzehn Uhr vom Dienstag, 6. Oktober. Es liest",
+    "d": "427da0a8ae.mp3",
+    "l": 7.68,
+    "s": [
+     0.25,
+     5.22
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um achtzehn Uhr vom Dienstag, 6. Oktober. Es liest",
+    "d": "a1347b9403.mp3",
+    "l": 7.76,
+    "s": [
+     0.25,
+     5.18
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Die Ausgabe um einundzwanzig Uhr vom Dienstag, 6. Oktober. Es ",
+    "d": "9ada9d3106.mp3",
+    "l": 7.79,
+    "s": [
+     0.25,
+     5.4
+    ]
+   },
+   {
+    "k": "Nachrichten-Heft. Deutschland vom Dienstag, 6. Oktober. Es liest die Computersti",
+    "d": "9ec2086c84.mp3",
+    "l": 6.63,
     "s": [
      0.25,
      4.08
     ]
    },
    {
-    "k": "Nachrichten-Heft. Welt vom Montag, 5. Oktober. Es liest die Computerstimme Thors",
-    "d": "ba43b6ae99.mp3",
-    "l": 6.43,
+    "k": "Nachrichten-Heft. Welt vom Dienstag, 6. Oktober. Es liest die Computerstimme Tho",
+    "d": "de83f18d75.mp3",
+    "l": 6.58,
     "s": [
      0.25,
-     3.75
+     3.95
     ]
    },
    {
-    "k": "Nachrichten-Heft. Wirtschaft vom Montag, 5. Oktober. Es liest die Computerstimme",
-    "d": "03f8256a84.mp3",
-    "l": 7.01,
+    "k": "Nachrichten-Heft. Wirtschaft vom Dienstag, 6. Oktober. Es liest die Computerstim",
+    "d": "07ccd30a74.mp3",
+    "l": 6.68,
     "s": [
      0.25,
-     4.18
+     4.2
     ]
    },
    {
-    "k": "Nachrichten-Heft. Wissen und Klima vom Montag, 5. Oktober. Es liest die Computer",
-    "d": "4f0c262a18.mp3",
-    "l": 7.14,
+    "k": "Nachrichten-Heft. Wissen und Klima vom Dienstag, 6. Oktober. Es liest die Comput",
+    "d": "19e688b6fc.mp3",
+    "l": 6.92,
     "s": [
      0.25,
-     4.5
+     4.45
     ]
    },
    {
-    "k": "Nachrichten-Heft. Sport vom Montag, 5. Oktober. Es liest die Computerstimme Thor",
-    "d": "46e906442d.mp3",
-    "l": 6.45,
+    "k": "Nachrichten-Heft. Sport vom Dienstag, 6. Oktober. Es liest die Computerstimme Th",
+    "d": "dacf60917d.mp3",
+    "l": 6.7,
     "s": [
      0.25,
-     3.96
+     4.13
     ]
    },
    {
-    "k": "Nachrichten-Heft. Region vom Montag, 5. Oktober. Es liest die Computerstimme Tho",
-    "d": "d62e5b0b97.mp3",
-    "l": 6.78,
+    "k": "Nachrichten-Heft. Region vom Dienstag, 6. Oktober. Es liest die Computerstimme T",
+    "d": "b062cc0822.mp3",
+    "l": 6.6,
     "s": [
      0.25,
-     4.23
+     4.1
     ]
    },
    {
@@ -3811,12 +3823,12 @@
     {
      "k": "Spaniens Ministerpräsident Pedro Sánchez hat vorgezogene Parlamentswahlen für de",
      "d": "1c2f158080.mp3",
-     "l": 24.62,
+     "l": 24.77,
      "s": [
       0.25,
-      7.45,
-      13.02,
-      18.84
+      7.3,
+      12.94,
+      18.91
      ]
     },
     {
@@ -5511,16 +5523,16 @@
     {
      "k": "Das Amtsgericht Düsseldorf hat das vorläufige Insolvenzverfahren für die Warenha",
      "d": "34c31d9a2d.mp3",
-     "l": 37.67,
+     "l": 37.22,
      "s": [
       0.25,
       6.98,
-      12.33,
-      13.48,
-      18.48,
-      22.6,
-      26.8,
-      32.61
+      12.19,
+      13.31,
+      18.24,
+      22.49,
+      26.68,
+      32.42
      ]
     },
     {
@@ -7724,6 +7736,66 @@
       29.24,
       33.45
      ]
+    },
+    {
+     "k": "Der mutmaßliche Täter hat eine Vorgeschichte im Luftfahrtbereich. Laut Medienber",
+     "d": "cf2e522ea8.mp3",
+     "l": 43.04,
+     "s": [
+      0.25,
+      4.06,
+      9.02,
+      13.77,
+      18.28,
+      23.95,
+      30.04,
+      34.09
+     ]
+    },
+    {
+     "k": "Eine Fluggesellschaft transportiert Passagiere und Fracht im Linien- oder Charte",
+     "d": "e37fd5e9a0.mp3",
+     "l": 41.03,
+     "s": [
+      0.25,
+      5.92,
+      10.32,
+      14.95,
+      20.2,
+      24.14,
+      29.61,
+      34.23
+     ]
+    },
+    {
+     "k": "Der israelische Premierminister Benjamin Netanjahu äußerte sich zu dem Vorfall. ",
+     "d": "86b98296b4.mp3",
+     "l": 44.4,
+     "s": [
+      0.25,
+      5.5,
+      10.36,
+      16.08,
+      21.14,
+      27.83,
+      32.89,
+      38.85
+     ]
+    },
+    {
+     "k": "Die Ermittlungen zum Motiv des Kopiloten dauern an. Bei einer Vernehmung soll de",
+     "d": "104a8c59c5.mp3",
+     "l": 39.97,
+     "s": [
+      0.25,
+      3.71,
+      10.48,
+      15.96,
+      18.55,
+      22.86,
+      29.16,
+      34.24
+     ]
     }
    ]
   },
@@ -8196,6 +8268,84 @@
      "s": [
       0.25,
       3.31
+     ]
+    },
+    {
+     "k": "In Lettland hat ein neues Parlament gewählt. Nach Auszählung fast aller Stimmen ",
+     "d": "e9117b7fd2.mp3",
+     "l": 44.55,
+     "s": [
+      0.25,
+      3.0,
+      9.59,
+      15.56,
+      20.82,
+      24.55,
+      34.58,
+      38.31
+     ]
+    },
+    {
+     "k": "Die Vereinigte Liste von Ministerpräsident Andris Kulbergs kommt laut den Angabe",
+     "d": "37e205eec4.mp3",
+     "l": 52.62,
+     "s": [
+      0.25,
+      8.24,
+      15.87,
+      19.89,
+      23.09,
+      34.11,
+      39.23,
+      47.26
+     ]
+    },
+    {
+     "k": "Die Wahl war von der Sorge vor einer möglichen russischen Aggression geprägt. Di",
+     "d": "a62259d865.mp3",
+     "l": 50.14,
+     "s": [
+      0.25,
+      4.33,
+      9.89,
+      17.97,
+      22.58,
+      28.82,
+      37.11,
+      43.82
+     ]
+    },
+    {
+     "k": "Lettland ist ein parlamentarischer Staat in Europa und Mitglied der Europäischen",
+     "d": "f3fcbf1e29.mp3",
+     "l": 19.71,
+     "s": [
+      0.25,
+      6.53,
+      9.96,
+      12.17,
+      15.47
+     ]
+    },
+    {
+     "k": "Ministerpräsident Andris Kulbergs zeigte sich nach Angaben der Berichte überrasc",
+     "d": "c706be2507.mp3",
+     "l": 32.82,
+     "s": [
+      0.25,
+      6.1,
+      10.29,
+      13.89,
+      20.51
+     ]
+    },
+    {
+     "k": "Die Vereinigte Liste kündigte laut Deutscher Welle an, zunächst mit ihren bisher",
+     "d": "b1085c11e3.mp3",
+     "l": 14.24,
+     "s": [
+      0.25,
+      7.72
      ]
     }
    ]

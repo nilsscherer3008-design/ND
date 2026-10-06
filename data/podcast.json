@@ -1,15 +1,45 @@
 {
- "stand": "2026-10-05T18:21:48.564Z",
+ "stand": "2026-10-06T07:30:33.367Z",
  "folgen": [
   {
-   "id": "hauptausgabe-2026-10-05",
+   "id": "wissen-wie-entsteht-eigentlich-milch",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich Milch?",
+   "text": "Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.",
+   "zeit": "2026-10-06T07:32:34.197Z",
+   "d": "0a2d2c5178.mp3",
+   "l": 25.39,
+   "b": 152733
+  },
+  {
+   "id": "hauptausgabe-2026-10-06",
    "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-10-05",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Schülerproteste und Schulschließungen in Frankreich · Abschluss des Oktoberfests 2026 mit Rekordzahlen und Zwischenfällen · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Bolsonaro und Lula · Spanien: Ministerpräsident Sánchez kündigt vorgezogene Parlamentswahlen für November an · Finanzuntersuchungen und Berichte im englischen Fußball",
-   "zeit": "2026-10-05T08:54:52.057Z",
-   "d": "folge-hauptausgabe-2026-10-05.mp3",
-   "l": 609.29,
-   "b": 3655965
+   "titel": "Hauptausgabe vom 2026-10-06",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva",
+   "zeit": "2026-10-06T07:30:33.367Z",
+   "d": "folge-hauptausgabe-2026-10-06.mp3",
+   "l": 634.32,
+   "b": 3806157
+  },
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-eine-rolltreppe",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich eine Rolltreppe?",
+   "text": "Eine Rolltreppe transportiert Menschen über Höhenunterschiede, meist schneller als zu Fuß. Heute gibt es strenge Regeln für ihre Sicherheit.",
+   "zeit": "2026-10-05T18:29:55.973Z",
+   "d": "97777e5ca9.mp3",
+   "l": 27.81,
+   "b": 167277
+  },
+  {
+   "id": "wissen-wie-funktionierte-eigentlich-die-aegyptische-mumifizierung",
+   "art": "wissen",
+   "titel": "Wie funktionierte eigentlich die ägyptische Mumifizierung?",
+   "text": "Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.",
+   "zeit": "2026-10-05T09:02:36.273Z",
+   "d": "24523e37c0.mp3",
+   "l": 26.85,
+   "b": 161517
   },
   {
    "id": "wissen-wie-funktionierte-die-post-im-alten-rom",
@@ -30,36 +60,6 @@
    "d": "2f5884d3c7.mp3",
    "l": 29.58,
    "b": 177933
-  },
-  {
-   "id": "wissen-wie-funktionierte-die-pyramidenbau-arbeit-im-alten-aegypten",
-   "art": "wissen",
-   "titel": "Wie funktionierte die Pyramidenbau-Arbeit im alten Ägypten?",
-   "text": "Pyramiden waren im alten Ägypten Grabstätten für die Regenten, die Pharaonen genannt werden. Sie wurden mit einfachen Werkzeugen und vielen Arbeitern errichtet.",
-   "zeit": "2026-10-04T06:55:53.293Z",
-   "d": "4fdb46c8af.mp3",
-   "l": 30.49,
-   "b": 183405
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-ein-heissluftballon",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich ein Heißluftballon?",
-   "text": "Ein Heißluftballon nutzt warme Luft zum Fliegen. Schon im Jahr 1783 fand die erste unbemannte Fahrt statt.",
-   "zeit": "2026-10-03T17:59:26.362Z",
-   "d": "a68c3a04fe.mp3",
-   "l": 28.33,
-   "b": 170445
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-ein-sandsturm",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich ein Sandsturm?",
-   "text": "Ein Sandsturm ist ein starker Wind, der Sand oder Staub über teils große Entfernungen mitführt. Die meisten Stürme dieser Art sind im eigentlichen Sinne Staubstürme.",
-   "zeit": "2026-10-03T13:24:31.795Z",
-   "d": "34d404d97e.mp3",
-   "l": 35.61,
-   "b": 214077
   }
  ]
 }
