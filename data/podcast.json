@@ -2,6 +2,16 @@
  "stand": "2026-10-06T20:17:13.045Z",
  "folgen": [
   {
+   "id": "wissen-wie-entsteht-eigentlich-nebel",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich Nebel?",
+   "text": "Nebel besteht aus feinen Wassertröpfchen in der Luft, die direkten Bodenkontakt haben. Wenn die Sichtweite unter einen Kilometer sinkt, sprechen Fachleute von Nebel.",
+   "zeit": "2026-10-06T20:22:55.376Z",
+   "d": "ea9328cf15.mp3",
+   "l": 34.53,
+   "b": 207597
+  },
+  {
    "id": "wissen-wie-entsteht-eigentlich-milch",
    "art": "wissen",
    "titel": "Wie entsteht eigentlich Milch?",
@@ -50,16 +60,6 @@
    "d": "34b927e0cd.mp3",
    "l": 31.52,
    "b": 189597
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-gaensehaut",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich Gänsehaut?",
-   "text": "Eine Gänsehaut zeigt sich durch aufgerichtete Körperbehaarung und kleine Erhebungen auf der Haut. Sie erinnert an den Anblick einer gerupften Gans und tritt bei verschiedenen Reizen auf.",
-   "zeit": "2026-10-04T13:14:39.596Z",
-   "d": "2f5884d3c7.mp3",
-   "l": 29.58,
-   "b": 177933
   }
  ]
 }

@@ -2255,7 +2255,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 19 und 24 Grad. Die Vorhersage für morgen,",
+   "d": "1f65727334.mp3",
+   "l": 21.29,
+   "s": [
+    0.25,
+    4.56,
+    11.02,
+    15.11,
+    18.69
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4648,6 +4660,36 @@
       44.96,
       53.66
      ]
+    },
+    {
+     "k": "Der Preisträger Francis Halzen erklärte gegenüber den Medien, er sei überrascht ",
+     "d": "da96b06bfa.mp3",
+     "l": 70.49,
+     "s": [
+      0.25,
+      7.66,
+      13.62,
+      25.78,
+      37.6,
+      44.21,
+      54.47,
+      64.81
+     ]
+    },
+    {
+     "k": "Mit den gewonnenen Daten verfolgen Forscher die Spuren der hochenergetischen Neu",
+     "d": "e8aa0d285b.mp3",
+     "l": 61.0,
+     "s": [
+      0.25,
+      6.66,
+      13.22,
+      19.44,
+      26.43,
+      34.04,
+      41.95,
+      50.34
+     ]
     }
    ]
   },
@@ -5070,11 +5112,11 @@
     {
      "k": "Der Unterhaltungskonzern Paramount hat die Übernahme von Warner Brothers abgesch",
      "d": "492e949dc8.mp3",
-     "l": 14.96,
+     "l": 14.9,
      "s": [
       0.25,
-      5.1,
-      9.7
+      5.01,
+      9.53
      ]
     },
     {
@@ -5104,6 +5146,92 @@
      "s": [
       0.25,
       3.24
+     ]
+    },
+    {
+     "k": "Der Unterhaltungskonzern Paramount hat seine Übernahme von Warner Bros. Discover",
+     "d": "e66b4880af.mp3",
+     "l": 44.76,
+     "s": [
+      0.25,
+      4.79,
+      7.01,
+      12.35,
+      17.35,
+      23.44,
+      32.44,
+      39.83
+     ]
+    },
+    {
+     "k": "Das gemeinsame Filmgeschäft sollen die bisherigen Paramount-Studiochefs Dana Gol",
+     "d": "4baa5e3ff8.mp3",
+     "l": 48.02,
+     "s": [
+      0.25,
+      7.34,
+      10.35,
+      18.96,
+      27.21,
+      32.01,
+      36.82,
+      41.13
+     ]
+    },
+    {
+     "k": "Netflix hatte zunächst eine Vereinbarung zum Kauf eines Teils von Warner Bros. D",
+     "d": "21ebef6e2e.mp3",
+     "l": 41.2,
+     "s": [
+      0.25,
+      4.83,
+      6.46,
+      12.39,
+      16.64,
+      25.08,
+      30.75,
+      34.6
+     ]
+    },
+    {
+     "k": "Unter einer Fusion oder Übernahme versteht man den Zusammenschluss von zwei oder",
+     "d": "a883959286.mp3",
+     "l": 37.62,
+     "s": [
+      0.25,
+      6.35,
+      13.04,
+      19.29,
+      25.2,
+      30.87
+     ]
+    },
+    {
+     "k": "David Ellison, Vorstandsvorsitzender von Skydance, bezeichnete den Abschluss des",
+     "d": "94f113cf55.mp3",
+     "l": 58.51,
+     "s": [
+      0.25,
+      7.67,
+      13.21,
+      18.74,
+      24.05,
+      29.13,
+      37.19,
+      47.01
+     ]
+    },
+    {
+     "k": "Der neue Dachkonzern Skydance wird seine Aktien ab sofort an der New Yorker Börs",
+     "d": "67d379de4c.mp3",
+     "l": 34.69,
+     "s": [
+      0.25,
+      5.84,
+      11.72,
+      17.11,
+      26.1,
+      30.68
      ]
     }
    ]
@@ -6477,12 +6605,12 @@
     {
      "k": "Spaniens Ministerpräsident Pedro Sánchez hat vorgezogene Parlamentswahlen für de",
      "d": "1c2f158080.mp3",
-     "l": 24.4,
+     "l": 24.57,
      "s": [
       0.25,
-      7.56,
-      13.14,
-      18.84
+      7.74,
+      13.28,
+      18.88
      ]
     },
     {
@@ -7611,23 +7739,6 @@
    "bildVersucht": true,
    "ton": [
     {
-     "k": "Das Amtsgericht Düsseldorf hat das vorläufige Insolvenzverfahren für die Warenha",
-     "d": "2c0ab57c47.mp3",
-     "l": 56.71,
-     "s": [
-      0.25,
-      6.99,
-      11.44,
-      16.82,
-      22.04,
-      26.92,
-      30.73,
-      38.17,
-      44.57,
-      50.56
-     ]
-    },
-    {
      "k": "Das Amtsgericht Düsseldorf hat ein vorläufiges Insolvenzverfahren für die Warenh",
      "d": "9f3eb694e3.mp3",
      "l": 15.65,
@@ -7663,6 +7774,21 @@
      "s": [
       0.25,
       3.4
+     ]
+    },
+    {
+     "k": "Das Amtsgericht Düsseldorf hat das vorläufige Insolvenzverfahren für die Warenha",
+     "d": "34c31d9a2d.mp3",
+     "l": 37.59,
+     "s": [
+      0.25,
+      6.86,
+      12.13,
+      13.26,
+      18.36,
+      22.72,
+      27.0,
+      32.6
      ]
     },
     {
