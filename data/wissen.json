@@ -1,6 +1,166 @@
 {
- "stand": "2026-10-07T07:11:12.639Z",
+ "stand": "2026-10-07T15:32:36.304Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-ein-pfandsystem",
+   "zeit": "2026-10-07T15:57:35.013Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich ein Pfandsystem?",
+   "vorspann": "Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Im Alltag ist ein Pfand ein hinterlegter Geldbetrag für die Ausleihe eines wiederverwendbaren Gegenstands bis zu dessen Rückgabe. Beispiele für solche Gegenstände sind Behälter für Getränke und Gase sowie Audio-Abspielgeräte in Museen. Auch Autobatterien gehören dazu. Bei der Rückgabe des Gegenstands wird der Betrag an die Person zurückgezahlt.",
+      "Konsumenten zahlen das Pfand beim Kauf von Getränken zusätzlich zum eigentlichen Kaufpreis. Bei einer korrekten Rückgabe erhalten sie dieses Geld vollständig zurück. Es gibt verschiedene Arten von Behältern im Handel. Diese werden bei der Rücknahme unterschiedlich behandelt."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Einwegbehälter mit Pfand werden während der Rücknahme im Automaten zerstört. Danach werden sie stofflich verwertet. Dazu zählen unter anderem PET-Flaschen, Getränkedosen und Getränkekartons. Mehrwegbehälter bestehen vor allem aus Glasflaschen. Diese können nach der Rücknahme gereinigt und wiederverwendet werden.",
+      "Pfandbons gelten in Deutschland nach dem Bürgerlichen Gesetzbuch drei Jahre lang. Die Frist beginnt ab dem Ende des Jahres, in dem sie ausgestellt wurden.",
+      "Der Pfandgutschwund beschreibt die Differenz zwischen ausgegebenem und zurückgelangtem Pfandgut. Der Gewinn oder Verlust aus diesem Schwund verbleibt bei demjenigen, der in der Lieferkette erstmals Pfand verlangt. Bei Behältern ist das der Abfüller. Bei Audio-Museumsführern ist es das Museum. Bei Auto-Akkus ist es der Auto-Hersteller oder -Händler."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "In Deutschland wurden bis zum Jahr zweitausendsechs etwa zehn Prozent der ausgegebenen pfandpflichtigen Getränkeverpackungen nicht wieder eingelöst. Der entsprechende Pfandwert betrug im Jahr zweitausendfünf eins Komma zwei Milliarden Euro. Nach Expertenschätzungen hat sich der Schwund durch Vereinfachungen halbiert. Für das Jahr zweitausendzwölf geht das Umweltbundesamt von einer Rücklaufquote von neunundfünfzig Komma neun Prozent aus.",
+      "Seit der gesetzlichen Einführung des Pfandes auf bestimmte Einweg-Verpackungen in Deutschland im Jahr zweitausendunddrei hat sich der Schwund allein bei diesen bis zum Februar zweitausend siebzehn auf mehr als dreieinhalb Milliarden Euro summiert."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text nennt keine weiteren offenen Fragen oder Forschungsbereiche zu diesem Thema."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Zeitraum Pfandbon-Gültigkeit",
+     "Drei Jahre"
+    ],
+    [
+     "Nicht eingelöste Verpackungen bis 2006",
+     "Etwa zehn Prozent"
+    ],
+    [
+     "Pfandwert nicht eingelöster Verpackungen 2005",
+     "1,2 Milliarden Euro"
+    ],
+    [
+     "Rücklaufquote 2012 laut Umweltbundesamt",
+     "95,9 Prozent"
+    ],
+    [
+     "Summierter Schwund bei Einweg-Verpackungen bis Februar 2017",
+     "Mehr als 3,5 Milliarden Euro"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Pfand",
+     "Ein Geldbetrag, der für die Ausleihe eines Gegenstands hinterlegt und bei Rückgabe zurückgezahlt wird."
+    ],
+    [
+     "Pfandgutschwund",
+     "Die Differenz zwischen ausgegebenem und wieder zurückgelangtem Pfandgut."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Was geschieht mit Einwegbehältern mit Pfand bei der Rücknahme im Automaten?",
+     "optionen": [
+      "Sie werden gereinigt und wiederbefüllt.",
+      "Sie werden zerstört und stofflich verwertet.",
+      "Sie werden an den Abfüller zurückgeschickt."
+     ],
+     "richtig": 1,
+     "erklaerung": "Einwegbehälter werden im Automaten zerstört und später stofflich verwertet."
+    }
+   ],
+   "video": [
+    "Ein Pfand ist ein Geldbetrag für die Ausleihe von Gegenständen.",
+    "Beispiele sind Getränkebehälter oder Audio-Abspielgeräte in Museen.",
+    "Bei der Rückgabe erhalten die Kunden das Geld zurück.",
+    "Einwegbehälter werden im Automaten zerstört und verwertet.",
+    "Mehrwegbehälter werden nach der Rücknahme gereinigt und wiederverwendet.",
+    "Pfandbons gelten in Deutschland drei Jahre lang.",
+    "Nicht zurückgebrachtes Pfand nennt man Pfandgutschwund.",
+    "Das Umweltbundesamt berechnet dazu genaue Quoten."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Pfand",
+    "bildunterschrift": "Einweg- und Mehrwegbehälter erhalten in Geschäften einen Pfandbetrag."
+   },
+   "quelle": {
+    "titel": "Pfand",
+    "url": "https://de.wikipedia.org/wiki/Pfand",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 294,
+   "bildInfos": [
+    {
+     "titel": "Sprudelkasten (fcm).jpg",
+     "beschreibung": "Bildinhalt: Mineralwasserkasten GDB Deutscher Brunnen Format (Breite x Tiefe x Höhe) 355 mm × 270 mm × 345 mm (Höhe wenn durch Stapeln eingesunken: 330 mm) Aufnahmeort: Baden-Baden, Deutschland",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sprudelkasten_%28fcm%29.jpg/1280px-Sprudelkasten_%28fcm%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sprudelkasten_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Sprudelkasten_(fcm).jpg",
+     "urheber": "Photograph: Frank C. Müller , Baden-Baden",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Pfand auf Getränkebehälter",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Einweg- und Mehrwegbehälter erhalten in Geschäften einen Pfandbetrag."
+    },
+    {
+     "titel": "2 zerbrochene Flaschen - Pfandschlupf-7233.jpg",
+     "beschreibung": "2 zerbrochene Flaschen - mit ein Grund für Pfandschlupf",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/2_zerbrochene_Flaschen_-_Pfandschlupf-7233.jpg/1280px-2_zerbrochene_Flaschen_-_Pfandschlupf-7233.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2_zerbrochene_Flaschen_-_Pfandschlupf-7233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2_zerbrochene_Flaschen_-_Pfandschlupf-7233.jpg",
+     "urheber": "Raimond Spekking",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "2 zerbrochene Flaschen - mit ein Grund für Pfandschlupf"
+    },
+    {
+     "titel": "Flattened beverage can with German -container deposit-5144.jpg",
+     "beschreibung": "flattened beverage can with German container deposit",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Flattened_beverage_can_with_German_-container_deposit-5144.jpg/1280px-Flattened_beverage_can_with_German_-container_deposit-5144.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Flattened_beverage_can_with_German_-container_deposit-5144.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Flattened_beverage_can_with_German_-container_deposit-5144.jpg",
+     "urheber": "Raimond Spekking",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "flattened beverage can with German container deposit"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Sprudelkasten (fcm).jpg",
+    "beschreibung": "Bildinhalt: Mineralwasserkasten GDB Deutscher Brunnen Format (Breite x Tiefe x Höhe) 355 mm × 270 mm × 345 mm (Höhe wenn durch Stapeln eingesunken: 330 mm) Aufnahmeort: Baden-Baden, Deutschland",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Sprudelkasten_%28fcm%29.jpg/1280px-Sprudelkasten_%28fcm%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sprudelkasten_%28fcm%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Sprudelkasten_(fcm).jpg",
+    "urheber": "Photograph: Frank C. Müller , Baden-Baden",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Pfand auf Getränkebehälter",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Einweg- und Mehrwegbehälter erhalten in Geschäften einen Pfandbetrag."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-eine-mondfinsternis",
    "zeit": "2026-10-07T07:18:15.433Z",
@@ -6490,124 +6650,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
-   }
-  },
-  {
-   "id": "was-sind-hieroglyphen",
-   "zeit": "2026-09-22T03:45:45.409Z",
-   "bereich": "Geschichte",
-   "titel": "Was sind Hieroglyphen?",
-   "vorspann": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter. Der Begriff wird vor allem für die ägyptische Schrift verwendet.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Eine Hieroglyphe ist ein Schriftzeichen mit erkennbar bildhaftem Charakter. Als Hieroglyphen oder Hieroglyphenschrift wird ein Schriftsystem bezeichnet, das überwiegend solche Zeichen verwendet. Der Begriff wird auch in speziellerem Sinne als Bezeichnung der ägyptischen Hieroglyphenschrift genutzt.",
-      "Eine Hieroglyphenschrift ist nicht notwendig eine Bilderschrift. Jedes bildhafte Schriftzeichen steht nicht zwingend für die Bezeichnung des Abbildungsgegenstandes als Wort. Sie ist auch nicht notwendig eine ideografische Schrift. Dabei steht ein Zeichen für den Abbildungsgegenstand, eine Idee oder eine Vorstellung."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Tatsächlich kann eine solche Schrift eine logografische Schrift sein. Einzelne Zeichen können auch ohne Bezug zu ihrer Bildgestalt Morpheme, Silben oder Laute darstellen. Einzelne Begriffe können sich erst aus der Kombination mehrerer Zeichen ergeben.",
-      "Umgekehrt ist nicht jede ideografische Schrift eine Hieroglyphenschrift. In der Chinesischen Schrift und ihren Vorläufern sind die Zeichen zwar häufig ikonisch. Sie sind meistens jedoch abstrakte und nicht mehr bildhafte Abwandlungen von möglicherweise zugrundeliegenden bildlichen Zeichen.",
-      "Zu den Beispielen für Hieroglyphenschriften zählen unter anderem die ägyptischen, aztekischen, hethitischen, kretischen und luwischen Hieroglyphen. Auch die Maya-Schrift, die Mi’kmaq-Schrift, Renaissance-Hieroglyphen, urartäische Hieroglyphen sowie das Schreibsystem sitelen pona gehören dazu."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Seit der Renaissance schrieb man in Europa den ägyptischen Hieroglyphen eine geheimnisvolle, verborgene Bedeutung zu. Daraus entwickelte man eine eigene Bildsprache, die Renaissance-Hieroglyphik genannt wird.",
-      "Ab dem Jahr 1822 wurden die ägyptischen Hieroglyphen korrekt entziffert."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Zu dieser Frage enthält der Text keine Angaben."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Entzifferung der ägyptischen Hieroglyphen ab",
-     "1822"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Hieroglyphe",
-     "Ein Schriftzeichen mit einem erkennbar bildhaften Charakter."
-    ],
-    [
-     "Logografische Schrift",
-     "Eine Schrift, in der einzelne Zeichen Morpheme, Silben oder Laute darstellen können."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wann wurden die ägyptischen Hieroglyphen korrekt entziffert?",
-     "optionen": [
-      "Ab 1822",
-      "Ab 1900",
-      "In der Renaissance"
-     ],
-     "richtig": 0,
-     "erklaerung": "Laut dem Text wurden die ägyptischen Hieroglyphen ab 1822 korrekt entziffert."
-    }
-   ],
-   "video": [
-    "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter.",
-    "Der Begriff stammt aus dem Altgriechischen und bedeutet heilig und eingeritzt.",
-    "Man kennt Hieroglyphenschriften aus verschiedenen Kulturen.",
-    "Dazu gehören zum Beispiel die ägyptischen und die aztekischen Hieroglyphen.",
-    "Eine solche Schrift ist nicht zwingend eine einfache Bilderschrift.",
-    "Einzelne Zeichen können auch Laute oder Silben darstellen.",
-    "In Europa schrieb man den ägyptischen Zeichen lange eine geheimnisvolle Bedeutung zu.",
-    "Ab dem Jahr achtzehntausendzweiundzwanzig wurden sie korrekt entziffert."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Hieroglyphen",
-    "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
-   },
-   "quelle": {
-    "titel": "Hieroglyphen",
-    "url": "https://de.wikipedia.org/wiki/Hieroglyphen",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 219,
-   "bildInfos": [
-    {
-     "titel": "Hamath inscription.jpg",
-     "beschreibung": "Hamath inscription",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Hamath_inscription.jpg",
-     "urheber": "Wright, William, 1830-1889",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "artikel": "Anatolian hieroglyphs",
-     "sprache": "en",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Hamath inscription.jpg",
-    "beschreibung": "Hamath inscription",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Hamath_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Hamath_inscription.jpg",
-    "urheber": "Wright, William, 1830-1889",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "artikel": "Anatolian hieroglyphs",
-    "sprache": "en",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
    }
   }
  ]

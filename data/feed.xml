@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Wed, 07 Oct 2026 07:11:12 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 15:32:36 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,17 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Hauptausgabe vom 2026-10-07</title>
+    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl von AfD-Politikern in das Landtagspräsidium von Sachsen-Anhalt · Ausweitung von Schulprotesten und Beratungen der Regierung in Frankreich · Festnahme des ehemaligen BND-Präsidenten August Hanning wegen Spionageverdachts · Paramount schließt Übernahme von Warner Bros. Discovery ab · Physik-Nobelpreis geht an Francis Halzen für Neutrino-Forschung am Südpol</description>
+    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl von AfD-Politikern in das Landtagspräsidium von Sachsen-Anhalt · Ausweitung von Schulprotesten und Beratungen der Regierung in Frankreich · Festnahme des ehemaligen BND-Präsidenten August Hanning wegen Spionageverdachts · Paramount schließt Übernahme von Warner Bros. Discovery ab · Physik-Nobelpreis geht an Francis Halzen für Neutrino-Forschung am Südpol</itunes:summary>
+    <pubDate>Wed, 07 Oct 2026 07:11:12 GMT</pubDate>
+    <guid isPermaLink="false">hauptausgabe-2026-10-07</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-07.mp3" length="4019997" type="audio/mpeg"/>
+    <itunes:duration>00:11:10</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Schülerproteste und Blockaden in Frankreich</title>
     <description>In Frankreich haben sich Schülerproteste zu einer landesweiten Bewegung ausgeweitet. Wir blicken auf die aktuellen Entwicklungen und Reaktionen.</description>
@@ -45,17 +56,6 @@
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-milch</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0a2d2c5178.mp3" length="152733" type="audio/mpeg"/>
     <itunes:duration>00:00:25</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Hauptausgabe vom 2026-10-06</title>
-    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva</description>
-    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva</itunes:summary>
-    <pubDate>Tue, 06 Oct 2026 07:30:33 GMT</pubDate>
-    <guid isPermaLink="false">hauptausgabe-2026-10-06</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-06.mp3" length="3806157" type="audio/mpeg"/>
-    <itunes:duration>00:10:34</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
