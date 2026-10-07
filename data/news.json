@@ -2864,7 +2864,133 @@
     "lon": 11.64
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Sachsen-Anhalt ist Tobias Rausch von der AfD zum Landtagspräsidenten gewählt ",
+     "d": "f16c69a8ac.mp3",
+     "l": 56.93,
+     "s": [
+      0.25,
+      5.68,
+      8.74,
+      13.67,
+      20.96,
+      25.33,
+      33.44,
+      40.56,
+      47.09,
+      52.84
+     ]
+    },
+    {
+     "k": "Tobias Rausch von der AfD ist zum Landtagspräsidenten in Sachsen-Anhalt gewählt ",
+     "d": "e56c7e2cf2.mp3",
+     "l": 17.76,
+     "s": [
+      0.25,
+      5.66,
+      11.26
+     ]
+    },
+    {
+     "k": "In Sachsen-Anhalt gibt es einen neuen Landtagspräsidenten. Er heißt Tobias Rausc",
+     "d": "6d284407e3.mp3",
+     "l": 18.5,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Ob CDU-Abgeordnete für den AfD-Kandidaten gestimmt haben, ist laut Friedrich Mer",
+     "d": "88017521c3.mp3",
+     "l": 12.03,
+     "s": [
+      0.25,
+      7.43
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Landtagspräsident? Der Landtagspräsident leitet die Sitz",
+     "d": "9f7ba1cf4a.mp3",
+     "l": 9.62,
+     "s": [
+      0.25,
+      3.8
+     ]
+    },
+    {
+     "k": "In Sachsen-Anhalt wurde Tobias Rausch von der Partei Alternative für Deutschland",
+     "d": "f127c0f2f0.mp3",
+     "l": 50.55,
+     "s": [
+      0.25,
+      7.14,
+      15.19,
+      23.9,
+      28.82,
+      34.63,
+      40.86,
+      46.39
+     ]
+    },
+    {
+     "k": "Bundeskanzler Friedrich Merz äußerte sich auf einer Veranstaltung von Handelsbla",
+     "d": "e95a73d89f.mp3",
+     "l": 60.87,
+     "s": [
+      0.25,
+      7.74,
+      14.87,
+      20.96,
+      27.66,
+      36.45,
+      43.9,
+      52.16
+     ]
+    },
+    {
+     "k": "Innerhalb der Landtagsfraktion der CDU in Sachsen-Anhalt kam es nach der Abstimm",
+     "d": "85d14db7af.mp3",
+     "l": 56.81,
+     "s": [
+      0.25,
+      6.06,
+      13.68,
+      20.89,
+      26.83,
+      33.1,
+      39.59,
+      46.93
+     ]
+    },
+    {
+     "k": "Die Debatte um den Umgang mit der AfD wird unter dem Begriff der sogenannten Bra",
+     "d": "4f474def3b.mp3",
+     "l": 61.96,
+     "s": [
+      0.25,
+      5.86,
+      11.81,
+      20.07,
+      26.52,
+      34.93,
+      43.02,
+      53.44
+     ]
+    },
+    {
+     "k": "Ein Landtag ist das Landesparlament in einem deutschen Bundesland. Zu seinen Hau",
+     "d": "c728474879.mp3",
+     "l": 25.75,
+     "s": [
+      0.25,
+      4.26,
+      12.66,
+      18.01
+     ]
+    }
+   ]
   },
   {
    "id": "schuelerproteste-frankreich",
@@ -3370,7 +3496,146 @@
     }
    ],
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "In Frankreich halten die landesweiten Schülerproteste an, die von Ausschreitunge",
+     "d": "d236a57d62.mp3",
+     "l": 60.33,
+     "s": [
+      0.25,
+      5.88,
+      12.52,
+      18.19,
+      25.63,
+      31.2,
+      37.47,
+      42.5,
+      49.22,
+      55.69
+     ]
+    },
+    {
+     "k": "In Frankreich gehen Schülerinnen und Schüler weiterhin zu Hunderttausenden auf d",
+     "d": "215cc76226.mp3",
+     "l": 16.91,
+     "s": [
+      0.25,
+      5.47,
+      10.53
+     ]
+    },
+    {
+     "k": "In Frankreich demonstrieren viele Schülerinnen und Schüler für bessere Schulen. ",
+     "d": "572b0a1e98.mp3",
+     "l": 26.41,
+     "s": [
+      0.25,
+      5.41,
+      9.19,
+      13.12,
+      17.29,
+      22.45
+     ]
+    },
+    {
+     "k": "Ob der verletzte 15-jährige Schüler in Lens die Granate aktiv aufgehoben hat ode",
+     "d": "96f3d6df68.mp3",
+     "l": 12.87,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Blendgranate? Eine Granate, die einen sehr lauten Knall ",
+     "d": "b1883a5c67.mp3",
+     "l": 11.41,
+     "s": [
+      0.25,
+      3.69
+     ]
+    },
+    {
+     "k": "Die Protestwelle junger Menschen in Frankreich für bessere Lernbedingungen hat e",
+     "d": "ba0a358d39.mp3",
+     "l": 35.68,
+     "s": [
+      0.25,
+      6.3,
+      12.12,
+      14.7,
+      19.51,
+      21.99,
+      27.83,
+      32.93
+     ]
+    },
+    {
+     "k": "Bei den Demonstrationen kam es wiederholt zu Auseinandersetzungen zwischen Einsa",
+     "d": "e8ad398979.mp3",
+     "l": 51.88,
+     "s": [
+      0.25,
+      6.69,
+      13.6,
+      18.31,
+      28.52,
+      33.04,
+      38.91,
+      44.52
+     ]
+    },
+    {
+     "k": "Angesichts der Vorfälle hat die französische Regierung den Einsatz von Blendgran",
+     "d": "8fa456fc98.mp3",
+     "l": 66.98,
+     "s": [
+      0.25,
+      7.67,
+      16.44,
+      24.94,
+      33.69,
+      40.81,
+      50.72,
+      57.63
+     ]
+    },
+    {
+     "k": "Unter einer Hochschule oder Universität versteht man eine Einrichtung des tertiä",
+     "d": "9b857eda3f.mp3",
+     "l": 28.58,
+     "s": [
+      0.25,
+      9.68,
+      15.72
+     ]
+    },
+    {
+     "k": "Die Proteste richteten sich laut den Berichten ursprünglich gegen Lehrermangel, ",
+     "d": "f5e758c8ff.mp3",
+     "l": 65.17,
+     "s": [
+      0.25,
+      7.21,
+      14.01,
+      21.24,
+      30.33,
+      36.32,
+      47.52,
+      57.87
+     ]
+    },
+    {
+     "k": "Schüler- und Bildungsgewerkschaften haben für den kommenden Donnerstag zu weiter",
+     "d": "b6a222e71f.mp3",
+     "l": 24.06,
+     "s": [
+      0.25,
+      8.19,
+      16.44
+     ]
+    }
+   ]
   },
   {
    "id": "bnd-chef-hanning-festnahme",
@@ -3805,7 +4070,133 @@
    },
    "bildInfos": [],
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der frühere Präsident des Bundesnachrichtendienstes August Hanning sitzt in Unte",
+     "d": "ab5add32db.mp3",
+     "l": 46.36,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der frühere BND-Präsident August Hanning sitzt in Untersuchungshaft. Die Bundesa",
+     "d": "1fea62a6d0.mp3",
+     "l": 11.48,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der frühere Chef des deutschen Auslandsgeheimdienstes August Hanning ist in Unte",
+     "d": "a17763de88.mp3",
+     "l": 33.47,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Welches ausländische Land der Adressat für die erstellten Analysen war, blieb la",
+     "d": "a1c3c14ffa.mp3",
+     "l": 10.4,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Bundesanwaltschaft? Die Bundesanwaltschaft ist die obers",
+     "d": "683e726354.mp3",
+     "l": 13.83,
+     "s": [
+      0.25,
+      3.71,
+      8.77
+     ]
+    },
+    {
+     "k": "Der frühere Präsident des Bundesnachrichtendienstes, August Hanning, befindet si",
+     "d": "d9db343015.mp3",
+     "l": 41.32,
+     "s": [
+      0.25,
+      6.28,
+      12.82,
+      17.57,
+      20.79,
+      24.94,
+      28.53,
+      37.51
+     ]
+    },
+    {
+     "k": "Nach den Erkenntnissen der Ermittler sollen die beiden Beschuldigten im Jahr 201",
+     "d": "b751f45d22.mp3",
+     "l": 61.0,
+     "s": [
+      0.25,
+      6.82,
+      16.1,
+      23.25,
+      33.18,
+      36.23,
+      43.25,
+      53.85
+     ]
+    },
+    {
+     "k": "August Hanning leitete den Bundesnachrichtendienst von Dezember 1998 bis Ende No",
+     "d": "1dfbe4dfa9.mp3",
+     "l": 54.62,
+     "s": [
+      0.25,
+      9.22,
+      18.58,
+      22.24,
+      27.3,
+      28.58,
+      42.44,
+      49.99
+     ]
+    },
+    {
+     "k": "Die Verteidigung von August Hanning wies die Vorwürfe zurück und kündigte an, da",
+     "d": "1efee5d55f.mp3",
+     "l": 54.12,
+     "s": [
+      0.25,
+      8.24,
+      14.8,
+      26.1,
+      26.9,
+      29.99,
+      39.14,
+      42.96
+     ]
+    },
+    {
+     "k": "Der Bundesnachrichtendienst ist der ausländische Nachrichtendienst der Bundesrep",
+     "d": "bc69794b12.mp3",
+     "l": 30.97,
+     "s": [
+      0.25,
+      5.48,
+      12.88,
+      18.24,
+      22.94,
+      26.28
+     ]
+    },
+    {
+     "k": "Die Ermittlungen der Bundesanwaltschaft zu den Verbindungen und den genauen Ablä",
+     "d": "eb82d898fa.mp3",
+     "l": 15.13,
+     "s": [
+      0.25,
+      5.72
+     ]
+    }
+   ]
   },
   {
    "id": "chemie-nobelpreis-2026",
@@ -4225,7 +4616,88 @@
     "lon": 18.071
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Nobelpreis für Chemie geht in diesem Jahr an Henri Kagan und Kenso Soai. Das",
+     "d": "f791ac3e52.mp3",
+     "l": 39.53,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der Chemie-Nobelpreis geht an Henri Kagan und Kenso Soai. Das gab die Akademie d",
+     "d": "42c179d7db.mp3",
+     "l": 15.25,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Der Nobelpreis für Chemie geht an zwei Forscher. Sie heißen Henri Kagan und Kens",
+     "d": "823dae4b7b.mp3",
+     "l": 21.17,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Chiralität? Das griechische Wort bedeutet Händigkeit. Es",
+     "d": "ea4d9bd470.mp3",
+     "l": 13.32,
+     "s": [
+      0.25,
+      3.51,
+      6.99
+     ]
+    },
+    {
+     "k": "Der Nobelpreis für Chemie geht an den französischen Wissenschaftler Henri Kagan ",
+     "d": "5bf07617ff.mp3",
+     "l": 61.75,
+     "s": [
+      0.25,
+      7.46,
+      11.82,
+      19.46,
+      31.45,
+      38.75,
+      45.19,
+      54.94
+     ]
+    },
+    {
+     "k": "Das zentrale Thema der ausgezeichneten Forschungen ist die sogenannte Chiralität",
+     "d": "7ec96ef977.mp3",
+     "l": 56.45,
+     "s": [
+      0.25,
+      7.66,
+      14.58,
+      21.53,
+      27.42,
+      33.53,
+      39.31,
+      51.15
+     ]
+    },
+    {
+     "k": "Wie eine solche chemische Asymmetrie entstehen konnte, war für Forschende über e",
+     "d": "b924e45748.mp3",
+     "l": 64.72,
+     "s": [
+      0.25,
+      7.14,
+      17.52,
+      24.55,
+      34.58,
+      39.58,
+      49.69,
+      55.94
+     ]
+    }
+   ]
   },
   {
    "id": "paramount-warner-fusion",
@@ -6695,12 +7167,12 @@
     {
      "k": "Spaniens Ministerpräsident Pedro Sánchez hat vorgezogene Parlamentswahlen für de",
      "d": "1c2f158080.mp3",
-     "l": 23.98,
+     "l": 24.36,
      "s": [
       0.25,
-      7.37,
-      12.67,
-      18.22
+      7.47,
+      12.89,
+      18.53
      ]
     },
     {
