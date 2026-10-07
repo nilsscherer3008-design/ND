@@ -1,6 +1,169 @@
 {
- "stand": "2026-10-06T20:17:13.045Z",
+ "stand": "2026-10-07T07:11:12.639Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-eine-mondfinsternis",
+   "zeit": "2026-10-07T07:18:15.433Z",
+   "bereich": "Weltall",
+   "titel": "Wie entsteht eigentlich eine Mondfinsternis?",
+   "vorspann": "Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Während einer Mondfinsternis durchquert der Mond den Schatten, den die von der Sonne beleuchtete Erde in den Weltraum wirft. Dieses astronomische Ereignis kann nur eintreten, wenn Sonne, Erde und Mond hinreichend genau auf einer Linie liegen. Von der Erde aus gesehen stehen sich Sonne und Mond gegenüber. Es ist Vollmond und von der Erde aus ist die Mondfinsternis überall dort zu sehen, wo der Mond zurzeit über dem Horizont steht. Umgangssprachlich ist mit Mondfinsternis in der Regel eine Kernschattenfinsternis gemeint.",
+      "Halbschattenfinsternisse sind wenig auffällig und werden nur in der Astronomie mitgezählt. In beiden Fällen wird zwischen totalen und partiellen Finsternissen unterschieden, je nachdem, ob der Mond ganz oder nur teilweise in den jeweiligen Schatten eintaucht. Die Mondbahnebene ist gegenüber der Ekliptik geneigt. Es gibt nur zwei Momente pro Umlauf, in denen sich der Mond mit der Sonne und der Erde in der Ekliptikebene befindet."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Bei Vollmond steht der Mond in Opposition zur Sonne. Er befindet sich dabei meist nicht in der Ebene der Umlaufbahn der Erde um die Sonne, da die Ebene der Umlaufbahn des Mondes reichlich fünf Grad gegenüber der Ekliptik geneigt ist. Nur wenn der Mond zu Vollmond einem der beiden gedachten Schnittpunkte hinreichend nahe ist, ereignet sich eine Mondfinsternis. Von einer Mondfinsternis bis zum folgenden Vollmond vergeht rund ein synodischer Monat als mittlere Dauer einer Lunation.",
+      "Tritt der Mond während der Finsternis vollständig in den Kernschatten der Erde ein, handelt es sich um eine totale Kernschattenfinsternis. Die genaue Dauer einer totalen Mondfinsternis hängt etwas von der aktuellen Entfernung des Mondes ab und beträgt maximal ungefähr eine Stunde und sechsundvierzig Minuten. Dabei wird das durch die Luftschichten der Erdatmosphäre fallende Sonnenlicht etwas nach innen gebrochen, wobei vor allem die kurzwelligen blauen Anteile durch Streuung geschwächt werden.",
+      "Tritt der Mond während der Finsternis nur teilweise in den Kernschatten der Erde ein, handelt es sich um eine partielle Kernschattenfinsternis. Teile des Mondes bleiben also während der gesamten Finsternisdauer außerhalb des Kernschatten. Der Rand des von der Erde geworfenen Kernschattens wird dabei auf der Mondoberfläche abgebildet."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Bereits die Griechen der Antike interpretierten den Schatten auf dem Mond als Schattenwurf der Erde. Aus ihrem kreisförmigen Schatten schlossen sie, dass die Erde eine Kugel sei. André Danjon hat eine einfache Skala vorgeschlagen, um die beobachtete Helligkeit von totalen Kernschattenfinsternissen zu kennzeichnen."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der Wikipedia-Artikel enthält keine Angaben zu Themen, die von der Forschung noch nicht verstanden werden."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Kernschattenfinsternisse pro Jahrhundert",
+     "etwa 154"
+    ],
+    [
+     "Halbschattenfinsternisse pro Jahrhundert",
+     "etwa 88"
+    ],
+    [
+     "Maximale Dauer einer totalen Mondfinsternis",
+     "etwas unter zwei Stunden"
+    ],
+    [
+     "Neigung der Mondbahn gegenüber der Ekliptik",
+     "reichlich fünf Grad"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Mondfinsternis",
+     "Ein astronomisches Ereignis, bei dem der Mond den Schatten der Erde durchquert."
+    ],
+    [
+     "Kernschatten",
+     "Der kreisförmige innere Schatten der Erde im Weltraum."
+    ],
+    [
+     "Halbschatten",
+     "Der ringförmige äußere Schatten der Erde."
+    ],
+    [
+     "Ekliptik",
+     "Die Bahnebene der Erde um die Sonne."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann kann eine Mondfinsternis eintreten?",
+     "optionen": [
+      "Nur bei Neumond",
+      "Nur bei Vollmond",
+      "Jederzeit im Monat"
+     ],
+     "richtig": 1,
+     "erklaerung": "Laut dem Artikel kann das Ereignis nur eintreten, wenn Sonne, Erde und Mond auf einer Linie liegen und es Vollmond ist."
+    }
+   ],
+   "video": [
+    "Eine Mondfinsternis ist ein faszinierendes astronomisches Ereignis am Nachthimmel.",
+    "Dabei durchquert der Mond den Schatten, den die Erde im All wirft.",
+    "Voraussetzung dafür ist, dass Sonne, Erde und Vollmond auf einer Linie stehen.",
+    "Man unterscheidet zwischen dem Kernschatten und dem äußeren Halbschatten der Erde.",
+    "Bei einer totalen Finsternis taucht der Mond vollständig in den Kernschatten ein.",
+    "Dank gebrochenem Sonnenlicht leuchtet der Mond dabei oft schwach in rötlichen Tönen.",
+    "Bereits die alten Griechen nutzten den runden Schatten als Hinweis auf die Erdgestalt.",
+    "Im Durchschnitt ereignen sich etwa einhundertvierundfünfzig Kernschattenfinsternisse pro Jahrhundert."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Mondfinsternis",
+    "bildunterschrift": "Während einer Mondfinsternis wandert der Mond durch den Schatten der Erde."
+   },
+   "quelle": {
+    "titel": "Mondfinsternis",
+    "url": "https://de.wikipedia.org/wiki/Mondfinsternis",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 393,
+   "bildInfos": [
+    {
+     "titel": "Jsnell - Eclipse montage (by).jpg",
+     "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
+     "urheber": "Jason Snell from Mill Valley, CA",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Mondfinsternis",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Während einer Mondfinsternis wandert der Mond durch den Schatten der Erde."
+    },
+    {
+     "titel": "Blutmond.27.7.2018.nach.Austritt.aus.Kernschatten.jpg",
+     "beschreibung": "Lunar eclipse of 27 July 2018 , end of red moon phase (21:19:23 UTC = 23:19:23 local time UTC+2), Berlin, Germany. The shadow of planet earth with a blue sun ray stripe between the dark red moon surfa",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Blutmond.27.7.2018.nach.Austritt.aus.Kernschatten.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Blutmond.27.7.2018.nach.Austritt.aus.Kernschatten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Blutmond.27.7.2018.nach.Austritt.aus.Kernschatten.jpg",
+     "urheber": "Bautsch",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Lunar eclipse of 27 July 2018 , end of red moon phase (21:19:23 UTC = 23:19:23 local time UTC+2), Berlin, Germany. The shadow of planet earth with a blue sun ray stripe between the dark red moon surfa"
+    },
+    {
+     "titel": "Finsternis1.jpg",
+     "beschreibung": "Finsternis-Konstellationen zwischen Erde, Mond und Sonne: Konstellationen 1 und 4 für Mondfinsternisse , 2 und 3 für Sonnenfinsternisse",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Finsternis1.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Finsternis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Finsternis1.jpg",
+     "urheber": "Ben-Zin at de.wikipedia",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Finsternis-Konstellationen zwischen Erde, Mond und Sonne: Konstellationen 1 und 4 für Mondfinsternisse , 2 und 3 für Sonnenfinsternisse"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Jsnell - Eclipse montage (by).jpg",
+    "beschreibung": "Eclipse montage. Digital overlay in Photoshop, because, well, it's digital, so it had to be done that way. But in the style of the old film multi-exposure shots of yore.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg/1280px-Jsnell_-_Eclipse_montage_%28by%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/82/Jsnell_-_Eclipse_montage_%28by%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Jsnell_-_Eclipse_montage_(by).jpg",
+    "urheber": "Jason Snell from Mill Valley, CA",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Mondfinsternis",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Während einer Mondfinsternis wandert der Mond durch den Schatten der Erde."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-nebel",
    "zeit": "2026-10-06T20:22:55.376Z",
@@ -6462,139 +6625,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Hieroglyphen sind Schriftzeichen mit einem erkennbar bildhaften Charakter."
-   }
-  },
-  {
-   "id": "wie-funktioniert-eigentlich-ein-3d-drucker",
-   "zeit": "2026-09-21T19:31:36.686Z",
-   "bereich": "Technik und Erfindungen",
-   "titel": "Wie funktioniert eigentlich ein 3D-Drucker?",
-   "vorspann": "Der 3D-Druck stellt dreidimensionale Gegenstände durch den schichtweisen Auftrag von Material her. Diese Technik wird heute in vielen verschiedenen Bereichen wie der Industrie und der Medizin eingesetzt.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Der 3D-Druck wird auch als additive Fertigung bezeichnet. Bei diesem Verfahren werden dreidimensionale Gegenstände Schicht für Schicht aufgebaut. Frühere Bezeichnungen für diese Technologie sind generative Fertigung oder Rapid-Technologien. Der Begriff Additive Manufacturing wird ebenfalls genutzt. Die Technik unterscheidet sich stark von traditionellen Verfahren. Während bei anderen Methoden Material abgetragen wird, kommt beim 3D-Druck Material hinzu.",
-      "Die Technik kommt in zahlreichen Bereichen zum Einsatz. Dazu gehören die Industrie, der Modellbau und die Forschung. Auch im Heim- und Unterhaltungsbereich sowie im Baugewerbe wird die Technologie genutzt. Weitere Anwendungsgebiete sind die Kunst und die Medizin. Die Verfahren eignen sich besonders für die Herstellung von Unikaten, Prototypen oder komplexen Einzelteilen."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Der Aufbau eines Bauteils erfolgt computergesteuert auf Basis von CAD- und CAM-Daten. Bei den meisten Verfahren werden die Schichten durch das Aufeinanderfügen von gleichartigen zweidimensionalen Ebenen erstellt. Dabei werden physikalische oder chemische Härtungs- und Schmelzprozesse genutzt. Als Werkstoffe dienen Kunststoffe, Kunstharze, Keramiken und aufbereitete Metalle in Pulverform. Inzwischen wurden zudem Carbon- und Graphitmaterialien entwickelt.",
-      "Laut dem deutschen Wikipedia-Artikel über den 3D-Druck gibt es sehr unterschiedliche Herstellungsverfahren. Dazu zählt die kunststoffbasierte Fertigung, die bereits seit den 1980er-Jahren entwickelt wird. Auch die Metallbearbeitung ist möglich, die direkt oder indirekt erfolgen kann. Bei der direkten Methode entsteht das Metallbauteil mit vollwertigen Eigenschaften sofort durch den additiven Aufbau. Bei der indirekten Methode entsteht zunächst ein Grünling, der anschliessend im Ofen gesintert wird.",
-      "Zusätzlich existieren verschiedene Kategorien von Fertigungsverfahren, wie die Materialextrusion oder das pulverbettbasierte Schmelzen. Für manche Bauteile ist nach dem Druckvorgang eine Nachbehandlung notwendig. Diese kann aus einer Beschichtung durch Galvanisierung oder einer Hybridisierung mit anderen Materialien bestehen."
-     ]
-    },
-    {
-     "ueberschrift": "Soher wir das wissen",
-     "absaetze": [
-      "Die Geschichte der Technik reicht in das zwanzigste Jahrhundert zurück. Laut dem deutschen Wikipedia-Artikel erfand Chuck Hull im Jahr 1981 die Stereolithografie. Im Jahr 1983 wurde das Verfahren erstmals praktisch umgesetzt. Das erste Konstruktionsprogramm folgte 1985, und im Jahr 1986 publizierte Hull seine erste Patentanmeldung. Das Lasersintern wurde 1987 von Carl Deckard veröffentlicht."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Laut dem Text gibt es bei der direkten Herstellung von Metallbauteilen noch Hürden, die einer großflächigen industriellen Nutzung entgegenstehen. Dazu gehören hohe Investitionen, teilweise noch unzureichende Qualität, eine niedrigere Produktionsgeschwindigkeit oder fehlendes Know-how der Unternehmen."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Erfindung Stereolithografie",
-     "1981"
-    ],
-    [
-     "Erste praktische Umsetzung Stereolithografie",
-     "1983"
-    ],
-    [
-     "Erstes 3D-Konstruktionsprogramm erhältlich",
-     "1985"
-    ],
-    [
-     "Erste Patentanmeldung durch Chuck Hull",
-     "1986"
-    ],
-    [
-     "Veröffentlichung Lasersintern",
-     "1987"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Additive Fertigung",
-     "Ein Fertigungsverfahren, bei dem Material Schicht für Schicht aufgetragen wird, um dreidimensionale Gegenstände zu fertigen."
-    ],
-    [
-     "CAD-Daten",
-     "Computerdaten, die für die digitale Konstruktion von Bauteilen verwendet werden."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wie wird der 3D-Druck noch genannt?",
-     "optionen": [
-      "Additive Fertigung",
-      "Subtrakive Fertigung",
-      "Manuelle Fertigung"
-     ],
-     "richtig": 0,
-     "erklaerung": "Der 3D-Druck wird auch als additive Fertigung bezeichnet."
-    }
-   ],
-   "video": [
-    "Der 3D-Druck baut Gegenstände Schicht für Schicht auf.",
-    "Diese Technik nennt man auch additive Fertigung.",
-    "Als Werkstoffe dienen Kunststoffe, Keramiken und Metalle.",
-    "Ein Computer steuert den gesamten Aufbau der Bauteile.",
-    "Schon im Jahr 1981 wurde die Stereolithografie erfunden.",
-    "Heute nutzt man die Technik in vielen Bereichen.",
-    "Dazu gehören die Industrie, die Medizin und die Forschung.",
-    "Manchmal ist nach dem Druck eine Nachbehandlung nötig."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "3D-Druck",
-    "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
-   },
-   "quelle": {
-    "titel": "3D-Druck",
-    "url": "https://de.wikipedia.org/wiki/3D-Druck",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 349,
-   "bildInfos": [
-    {
-     "titel": "3D-Druck-Filament in verschiedenen Farben.jpg",
-     "beschreibung": "1,75-mm-Filament für den FDM-3D-Druck in verschiedenen Farben",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg/1280px-3D-Druck-Filament_in_verschiedenen_Farben.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:3D-Druck-Filament_in_verschiedenen_Farben.jpg",
-     "urheber": "Suit",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "artikel": "Filament (3D-Druck)",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
-    }
-   ],
-   "bildInfo": {
-    "titel": "3D-Druck-Filament in verschiedenen Farben.jpg",
-    "beschreibung": "1,75-mm-Filament für den FDM-3D-Druck in verschiedenen Farben",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg/1280px-3D-Druck-Filament_in_verschiedenen_Farben.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/3D-Druck-Filament_in_verschiedenen_Farben.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:3D-Druck-Filament_in_verschiedenen_Farben.jpg",
-    "urheber": "Suit",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "artikel": "Filament (3D-Druck)",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Ein 3D-Drucker baut dreidimensionale Gegenstände schichtweise auf."
    }
   }
  ]

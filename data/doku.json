@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-06T20:17:13.045Z",
+ "stand": "2026-10-07T07:11:12.639Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -169,7 +169,8 @@
     "wikipedia": "Buchdruck",
     "fokus": "Gutenbergs Erfindung machte geschriebenes Wissen für alle Menschen zugänglich.",
     "zuDuenn": 2,
-    "versuche": 2
+    "versuche": 3,
+    "fehlgeschlagen": true
    },
    {
     "ueberschrift": "Die Zukunft der Schrift",
