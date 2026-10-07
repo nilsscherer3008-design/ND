@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-06T20:17:13.045Z",
+ "stand": "2026-10-07T07:11:12.639Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-10-07",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-10-07",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl von AfD-Politikern in das Landtagspräsidium von Sachsen-Anhalt · Ausweitung von Schulprotesten und Beratungen der Regierung in Frankreich · Festnahme des ehemaligen BND-Präsidenten August Hanning wegen Spionageverdachts · Paramount schließt Übernahme von Warner Bros. Discovery ab · Physik-Nobelpreis geht an Francis Halzen für Neutrino-Forschung am Südpol",
+   "zeit": "2026-10-07T07:11:12.639Z",
+   "d": "folge-hauptausgabe-2026-10-07.mp3",
+   "l": 669.96,
+   "b": 4019997
+  },
   {
    "id": "wissen-wie-entsteht-eigentlich-nebel",
    "art": "wissen",
@@ -20,16 +30,6 @@
    "d": "0a2d2c5178.mp3",
    "l": 25.39,
    "b": 152733
-  },
-  {
-   "id": "hauptausgabe-2026-10-06",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-10-06",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Medizin-Nobelpreis für Optogenetik-Forschung · Anhörung der Geheimdienstchefs zu Risiken eines gewaltsamen Konflikts mit Russland · Spanien: Ministerpräsident Pedro Sánchez kündigt vorgezogene Parlamentswahlen an · Schülerproteste und Polizeieinsätze in Frankreich · Präsidentschaftswahl in Brasilien führt zu Stichwahl zwischen Flávio Bolsonaro und Lula da Silva",
-   "zeit": "2026-10-06T07:30:33.367Z",
-   "d": "folge-hauptausgabe-2026-10-06.mp3",
-   "l": 634.32,
-   "b": 3806157
   },
   {
    "id": "wissen-wie-funktioniert-eigentlich-eine-rolltreppe",
