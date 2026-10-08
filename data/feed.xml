@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Wed, 07 Oct 2026 15:32:36 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 08:52:48 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,28 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Wie funktioniert eigentlich ein Pfandsystem?</title>
+    <description>Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.</description>
+    <itunes:summary>Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.</itunes:summary>
+    <pubDate>Wed, 07 Oct 2026 15:57:35 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-pfandsystem</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/cbd5cd37fb.mp3" length="178797" type="audio/mpeg"/>
+    <itunes:duration>00:00:30</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
+  <item>
+    <title>Wie entsteht eigentlich eine Mondfinsternis?</title>
+    <description>Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.</description>
+    <itunes:summary>Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.</itunes:summary>
+    <pubDate>Wed, 07 Oct 2026 07:18:15 GMT</pubDate>
+    <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-eine-mondfinsternis</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/d3d7314bf6.mp3" length="237117" type="audio/mpeg"/>
+    <itunes:duration>00:00:39</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Hauptausgabe vom 2026-10-07</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl von AfD-Politikern in das Landtagspräsidium von Sachsen-Anhalt · Ausweitung von Schulprotesten und Beratungen der Regierung in Frankreich · Festnahme des ehemaligen BND-Präsidenten August Hanning wegen Spionageverdachts · Paramount schließt Übernahme von Warner Bros. Discovery ab · Physik-Nobelpreis geht an Francis Halzen für Neutrino-Forschung am Südpol</description>
@@ -82,17 +104,6 @@
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
-    <title>Wie funktionierte eigentlich die ägyptische Mumifizierung?</title>
-    <description>Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.</description>
-    <itunes:summary>Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.</itunes:summary>
-    <pubDate>Mon, 05 Oct 2026 09:02:36 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-funktionierte-eigentlich-die-aegyptische-mumifizierung</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/24523e37c0.mp3" length="161517" type="audio/mpeg"/>
-    <itunes:duration>00:00:27</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
     <title>Parlamentswahl in Lettland: Sieg für Ministerpräsident Kulbergs</title>
     <description>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</description>
     <itunes:summary>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</itunes:summary>
@@ -100,17 +111,6 @@
     <guid isPermaLink="false">podcast-lettland-parlamentswahl</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-lettland-parlamentswahl.mp3" length="4131693" type="audio/mpeg"/>
     <itunes:duration>00:08:36</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Wie funktionierte die Post im alten Rom?</title>
-    <description>Im Römischen Reich gab es ein großes System für Nachrichten und Güter. Es trug den Namen cursus publicus.</description>
-    <itunes:summary>Im Römischen Reich gab es ein großes System für Nachrichten und Güter. Es trug den Namen cursus publicus.</itunes:summary>
-    <pubDate>Sun, 04 Oct 2026 18:14:50 GMT</pubDate>
-    <guid isPermaLink="false">wissen-wie-funktionierte-die-post-im-alten-rom</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/34b927e0cd.mp3" length="189597" type="audio/mpeg"/>
-    <itunes:duration>00:00:32</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
