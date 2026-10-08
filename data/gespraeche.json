@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-06T21:13:16.714211Z",
+ "stand": "2026-10-08T21:31:07.270278Z",
  "besetzung": [
   {
    "name": "Thorsten",
@@ -23,6 +23,205 @@
   }
  ],
  "folgen": [
+  {
+   "id": "podcast-kanadierin-anne-carson-erhaelt-literaturnobelpreis",
+   "themaId": "kanadierin-anne-carson-erhaelt-literaturnobelpreis",
+   "art": "podcast",
+   "titel": "Literaturnobelpreis zweitausendsechsundzwanzig geht an Anne Carson",
+   "text": "Die kanadische Schriftstellerin Anne Carson erhält den Literaturnobelpreis zweitausendsechsundzwanzig für ihr kühnes Gesamtwerk. In dieser Folge besprechen wir die Reaktionen, die Hintergründe und das geheime Auswahlverfahren der Schwedischen Akademie.",
+   "zeit": "2026-10-08T21:31:07.270278Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-kanadierin-anne-carson-erhaelt-literaturnobelpreis.mp3",
+   "l": 843.41,
+   "b": 6747693,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Willkommen zu unserem Podcast. Heute blicken wir auf die Entscheidung aus Stockholm zum Literaturnobelpreis des Jahres zweitausendsechsundzwanzig. Alle Stimmen dieser Sendung sind Computerstimmen. Mit mir im Studio sprechen Sigrid, Malte und Nora über die Auszeichnung für die kanadische Autorin Anne Carson."
+    },
+    {
+     "s": 30.52,
+     "wer": "Sigrid",
+     "text": "Hallo zusammen. Die Wahl hat in der literarischen Welt für viel Aufmerksamkeit gesorgt. Wir schauen uns heute die Begründung, den Werdegang und die verschiedenen Stimmen dazu ganz genau an."
+    },
+    {
+     "s": 43.05,
+     "wer": "Malte",
+     "text": "Schönen guten Tag. Ich habe mir die Daten, Zahlen und Berichte der verschiedenen Medien vorgenommen. Dabei stützen wir uns auf Berichte von Tagesschau, ZDFheute, Deutschlandfunk sowie ORF und SRF."
+    },
+    {
+     "s": 60.55,
+     "wer": "Nora",
+     "text": "Hallo auch von mir. Mich interessiert vor allem, wie die Entscheidung begründet wird und was rund um das Verfahren im Dunkeln bleibt. Da gibt es schließlich einige feste Regeln der Akademie, über die zu sprechen ist."
+    },
+    {
+     "s": 81.39,
+     "wer": "Thorsten",
+     "text": "Sigrid, worum geht es bei der heutigen Meldung im Kern? Die Nachricht kam ja direkt aus Schweden zu uns. Bring uns doch bitte einmal auf den aktuellen Stand der Ereignisse. Was genau wurde dort beschlossen?"
+    },
+    {
+     "s": 104.03,
+     "wer": "Sigrid",
+     "text": "Die Schwedische Akademie in Stockholm hat bekanntgegeben, dass der Literaturnobelpreis des Jahres zweitausendsechsundzwanzig an Anne Carson verliehen wird. Sie ist eine Schriftstellerin aus Kanada, die vor allem für ihre besondere Verbindung von antiker Mythologie mit modernen Formen geschätzt wird. Neben ihrem Schreiben arbeitet sie als Professorin für Klassische Philologie. Die Akademie würdigt damit ausdrücklich ihr kühnes und einfallsreiches Gesamtwerk."
+    },
+    {
+     "s": 133.34,
+     "wer": "Malte",
+     "text": "Wenn wir auf die Fakten schauen, decken sich die Berichte der Medien in den zentralen Punkten vollkommen. Die Auszeichnung ging am achten Oktober zweitausendsechsundzwanzig offiziell an die Kanadierin. Der Preis ist mit zwölf Millionen schwedischen Kronen dotiert. Zudem berichten Tagesschau, ZDFheute, Deutschlandfunk, ORF und SRF übereinstimmend, dass Carson sechsundsiebzig Jahre alt ist."
+    },
+    {
+     "s": 157.85,
+     "wer": "Nora",
+     "text": "Diese Einigkeit bei den Rahmendaten ist eindeutig. Doch spannend ist ja, wie die Auszeichnung aufgenommen wird. Mich interessiert dabei besonders, was die Verantwortlichen selbst über die Wahl sagen. Welche Rolle spielt die Tradition in der offiziellen Verlautbarung?"
+    },
+    {
+     "s": 177.26,
+     "wer": "Sigrid",
+     "text": "Die Schwedische Akademie hebt hervor, dass Carsons Gesamtwerk kühn und einfallsreich ist, aber zugleich in einer klassischen Tradition steht. Als Philologin greift sie Stoffe der Antike auf und überträgt sie in die Gegenwart. Das wird von der Akademie als eine ganz besondere literarische Leistung gesehen. Es ist also eine Anerkennung für eine jahrzehntelange wissenschaftliche und künstlerische Arbeit."
+    },
+    {
+     "s": 201.1,
+     "wer": "Malte",
+     "text": "Zu der Bekanntgabe gehört auch ein persönlicher Bericht direkt aus der Akademie. Ingrid Carlberg, die Ständige Sekretärin der Schwedischen Akademie, berichtete von einem Telefonat mit Anne Carson. Die Autorin hielt sich zu diesem Zeitpunkt in Island auf. Carlberg schilderte, dass Carson über die Nachricht sehr überrascht gewesen sei."
+    },
+    {
+     "s": 221.3,
+     "wer": "Nora",
+     "text": "Das zeigt, wie unerwartet so ein Anruf selbst für etablierte Autorinnen sein kann. Gleichzeitig gibt es aber auch Stimmen aus der Literaturkritik, die das ganz anders einordnen. Für manche Beobachter kommt dieser Preis keineswegs aus heiterem Himmel. Da gibt es durchaus einhelliges Lob von außen."
+    },
+    {
+     "s": 244.45,
+     "wer": "Thorsten",
+     "text": "Damit zu Malte, welche konkreten Reaktionen haben wir denn aus dem deutschsprachigen Feuilleton vorliegen? Wer hat sich zu Carson geäußert? Es gab ja schon kurz nach der Bekanntgabe erste Einschätzungen."
+    },
+    {
+     "s": 265.31,
+     "wer": "Malte",
+     "text": "Der bekannte Literaturkritiker Denis Scheck hat die Entscheidung sehr deutlich kommentiert. Er bezeichnete die Vergabe an Anne Carson als eine überfällige Wahl. Aus seiner Sicht war die Würdigung also längst an der Zeit. Das deckt sich mit vielen positiven Stimmen, die ihr Werk seit Jahren begleiten."
+    },
+    {
+     "s": 285.89,
+     "wer": "Nora",
+     "text": "Und nicht nur Denis Scheck hat sich geäußert, sondern auch der ORF. Die ORF-Literaturexpertin Katja Gasser würdigte Carson als eine sehr verdienstvolle und gebildete Autorin. Auch hier wird also das enorme Wissen hervorgehoben, das in ihre Texte einfließt. Ihre Verbindung von akademischer Gelehrsamkeit und literarischer Form findet offenbar breite Anerkennung."
+    },
+    {
+     "s": 312.22,
+     "wer": "Sigrid",
+     "text": "Das passt genau zu ihrem Lebenslauf und ihrer Biographie. Anne Carson wurde im Jahr neunzehnhundertfünfzig in Toronto geboren. Sie hat sich schon früh mit der Antike beschäftigt und das zur Grundlage ihrer Arbeit gemacht. Diese akademische Tiefe prägt ihr gesamtes literarisches Schaffen bis heute."
+    },
+    {
+     "s": 332.48,
+     "wer": "Malte",
+     "text": "Ich kann dazu noch ein paar Jahreszahlen aus der Chronik ergänzen. Ihr erstes Buch mit dem Titel Eros the Bittersweet erschien im Jahr neunzehnhundertsechsundachtzig. Ein weiterer wichtiger Meilenstein war das Jahr neunzehnhundertachtundneunzig. Damals veröffentlichte sie ihren bekannten Versroman Autobiography of Red."
+    },
+    {
+     "s": 356.44,
+     "wer": "Nora",
+     "text": "Diese Titel zeigen schon, wie speziell ihr Ansatz über die Jahrzehnte hinweg geblieben ist. Sie bewegt sich zwischen Essay, Lyrik und klassischer Philologie. Doch wie Sigrid eben sagte, ist diese Kombination nicht alltäglich. Für manche Leserinnen und Leser mag dieser Zugang auch anspruchsvoll oder unzugänglich wirken."
+    },
+    {
+     "s": 379.08,
+     "wer": "Sigrid",
+     "text": "Das ist ein berechtigter Punkt, den man diskutieren kann. Wenn jemand antike Mythologie bearbeitet, setzt das oft Vorkenntnisse voraus oder verlangt Geduld. Genau das lobt die Akademie aber als kühn und einfallsreich. Sie sehen darin keine verstaubte Wissenschaft, sondern eine lebendige literarische Neuerfindung."
+    },
+    {
+     "s": 400.7,
+     "wer": "Thorsten",
+     "text": "Wir haben also die Begründung der Akademie, den Anruf von Ingrid Carlberg und das Lob von Denis Scheck sowie Katja Gasser. Gibt es denn Aspekte an diesem Verfahren, die Fragen aufwerfen? Wie blickst du darauf, Nora?"
+    },
+    {
+     "s": 423.66,
+     "wer": "Nora",
+     "text": "Nun, was mich und viele Beobachter immer wieder beschäftigt, ist das geheime Auswahlverfahren. Wir wissen zwar jetzt, dass Anne Carson die Auszeichnung erhalten hat. Aber welche weiteren Personen im Geheimen für den Preis nominiert waren, erfahren wir nicht. Laut einem Bericht der Tagesschau der ARD unterliegt diese Nominierungsliste einer fünfzigjährigen Geheimhaltung."
+    },
+    {
+     "s": 449.93,
+     "wer": "Malte",
+     "text": "Das ist eine feste Tradition des Nobelpreises, die immer wieder für Neugier sorgt. Erst nach fünfzig Jahren werden die Archive der Schwedischen Akademie geöffnet. Bis dahin bleibt völlig im Dunkeln, wer sonst noch auf der Shortlist stand oder vorgeschlagen wurde. Man kann also nur über die tatsächliche Konkurrenz spekulieren, belastbare Fakten gibt es dazu heute nicht."
+    },
+    {
+     "s": 476.71,
+     "wer": "Sigrid",
+     "text": "Diese Geheimhaltung schützt natürlich die Arbeit der Jury und verhindert vorzeitige Debatten. Aber für die Öffentlichkeit bedeutet es, dass der Entscheidungsprozess eine Art Blackbox bleibt. Wir sehen nur das Endergebnis am achten Oktober zweitausendsechsundzwanzig. Wie knapp oder eindeutig die Wahl am Ende war, bleibt vorerst ein Geheimnis."
+    },
+    {
+     "s": 500.1,
+     "wer": "Nora",
+     "text": "Genau das ist der Knackpunkt bei solchen hochdotierten Preisen. Es geht ja um zwölf Millionen schwedische Kronen und weltweites Ansehen. Wenn niemand weiß, wer die anderen Kandidatinnen oder Kandidaten waren, fehlt ein Teil des Gesamtbildes. Man muss der Entscheidung der Akademie in Stockholm schlicht vertrauen."
+    },
+    {
+     "s": 524.08,
+     "wer": "Malte",
+     "text": "Man muss aber auch sehen, dass die Reaktionen dieses Mal bemerkenswert positiv sind. Wie wir gehört haben, sprach Denis Scheck von einer überfälligen Wahl, Katja Gasser vom ORF betonte Carsons Verdienste. Es gibt in den vorliegenden Berichten von ZDFheute, SRF, Deutschlandfunk und den anderen Medien keine offenen Zweifel an ihrer Eignung. Die Kritik entzündet sich also, wenn überhaupt, eher an der Intransparenz des Verfahrens."
+    },
+    {
+     "s": 551.08,
+     "wer": "Sigrid",
+     "text": "Dennoch bleibt die Frage, wie ein so akademisches Werk beim breiten Lesepublikum ankommt. Carson verbindet ja griechische Mythologie mit modernen literarischen Formen. Ob die Auszeichnung dazu führt, dass Bücher wie Autobiography of Red nun massenhaft gelesen werden, ist offen. Die Dotierung von zwölf Millionen Kronen gibt ihr jedenfalls die materielle Freiheit für weitere Projekte."
+    },
+    {
+     "s": 575.68,
+     "wer": "Thorsten",
+     "text": "Lass uns noch einmal auf den weiteren Ablauf schauen. Malte, wann wird der Preis eigentlich offiziell übergeben? Gibt es dafür bereits ein festes Datum im Kalender der Akademie?"
+    },
+    {
+     "s": 593.67,
+     "wer": "Malte",
+     "text": "Ja, der Termin steht fest im Kalender. Die geplante offizielle Preisverleihung findet am zehnten Dezember zweitausendsechsundzwanzig statt. Der Ort der feierlichen Zeremonie ist traditionell Stockholm. An diesem Tag wird Anne Carson die Auszeichnung und das Preisgeld dann persönlich entgegennehmen."
+    },
+    {
+     "s": 619.14,
+     "wer": "Nora",
+     "text": "Bis zum zehnten Dezember wird es sicher noch viele Analysen zu ihrem Gesamtwerk geben. Interessant fand ich auch das Detail, das Ingrid Carlberg erzählt hat. Dass Carson ausgerechnet in Island erreicht wurde, passt fast schon zu ihrem Ruf als eigenwillige Autorin. Sie scheint die Abgeschiedenheit zu schätzen."
+    },
+    {
+     "s": 643.12,
+     "wer": "Sigrid",
+     "text": "Island ist bekanntlich ein Ort mit eigener literarischer Landschaft. Das passt auf poetische Weise zu einer Philologin, die sich mit alten Texten befasst. Aber wie Nora vorhin sagte, war Carson selbst schlicht überrascht über den Anruf aus Stockholm. Selbst mit sechsundsiebzig Jahren und einem so anerkannten Werk rechnet man offenbar nicht fest damit."
+    },
+    {
+     "s": 666.47,
+     "wer": "Nora",
+     "text": "Ein weiterer bemerkenswerter Punkt ist das Alter der Preisträgerin. Mit sechsundsiebzig Jahren blickt Carson auf ein jahrzehntelanges Schaffen zurück. Die Akademie würdigt damit eine Autorin, die über eine sehr lange Spanne aktiv ist. Das unterstreicht den Charakter einer Auszeichnung für das gesamte Werk."
+    },
+    {
+     "s": 692.02,
+     "wer": "Malte",
+     "text": "Zwischen ihrem ersten Buch im Jahr neunzehnhundertsechsundachtzig und der Bekanntgabe liegen genau vierzig Jahre. In dieser Zeit hat sie ihren Weg konsequent verfolgt. Berichte von Deutschlandfunk und SRF heben diese kontinuierliche Arbeit ebenfalls hervor. Es ist also eine Anerkennung für eine sehr lange literarische Präsenz."
+    },
+    {
+     "s": 715.53,
+     "wer": "Thorsten",
+     "text": "Wir haben jetzt viele Facetten beleuchtet. Wie fasst du den heutigen Stand zusammen, Sigrid? Welche Bedeutung hat dieser Preis für Carson und die Literaturwelt?"
+    },
+    {
+     "s": 733.29,
+     "wer": "Sigrid",
+     "text": "Es ist die Krönung einer Laufbahn, die neunzehnhundertsechsundachtzig mit Eros the Bittersweet im Buchmarkt begann. Die Schwedische Akademie ehrt eine Autorin, die antike Tradition und moderne Formen zusammenbringt. Die Fachwelt reagiert mit großer Zustimmung, wie die Einschätzungen von Denis Scheck und Katja Gasser zeigen. Nun wird sich zeigen, wie ihre anspruchsvollen Texte bei einem noch breiteren Publikum ankommen."
+    },
+    {
+     "s": 759.34,
+     "wer": "Nora",
+     "text": "Was für die nächsten fünfzig Jahre offen bleibt, sind die anderen Nominierten. Laut Tagesschau und ARD bleibt die Liste bis dahin unter Verschluss. Man wird also erst im Jahr zweitausendsiebenundsiebzig erfahren, wer sonst noch zur Wahl stand. Bis zu diesem Zeitpunkt bleibt Anne Carson die einzige sichtbare Figur dieser Entscheidung."
+    },
+    {
+     "s": 785.86,
+     "wer": "Malte",
+     "text": "Aus der Perspektive der Zahlen ist alles klar geregelt. Zwölf Millionen schwedische Kronen gehen an die sechsundsiebzigjährige Kanadierin. Die Verleihung am zehnten Dezember zweitausendsechsundzwanzig in Stockholm bildet den festlichen Abschluss. Die Berichte von ZDFheute, ORF, SRF, Deutschlandfunk und ARD stimmen bei allen harten Fakten überein."
+    },
+    {
+     "s": 812.52,
+     "wer": "Thorsten",
+     "text": "Damit schließen wir unsere Betrachtung zum Literaturnobelpreis zweitausendsechsundzwanzig ab. Wir haben die Begründung der Akademie, die Reaktionen von Fachleuten und das Thema der Geheimhaltung besprochen. Vielen Dank an Sigrid, Malte und Nora für die fundierten Einordnungen. Danke an alle fürs Zuhören und bis zum nächsten Mal."
+    }
+   ]
+  },
   {
    "id": "podcast-schuelerproteste-frankreich",
    "themaId": "schuelerproteste-frankreich",
@@ -838,190 +1037,6 @@
      "s": 377.96,
      "wer": "Thorsten",
      "text": "Wir fassen zusammen: Volkswagen kündigt zahlreiche Haustarifverträge unter Berufung auf den enormen Kostendruck und internationale Konkurrenz. Gewerkschaften und Betriebsrat werfen dem Management Erpressung vor und kündigen harten Widerstand an. Offen ist vor allem die exakte Zahl der betroffenen Verträge. Wir begleiten dieses Thema für Sie weiter in unserem Podcast."
-    }
-   ]
-  },
-  {
-   "id": "podcast-schweiz-neutralitaetsinitiative-volksabstimmung",
-   "themaId": "schweiz-neutralitaetsinitiative-volksabstimmung",
-   "art": "podcast",
-   "titel": "Volksabstimmung in der Schweiz zur Neutralität",
-   "text": "In einer Volksabstimmung haben die Schweizer Stimmberechtigten eine strengere Auslegung der Neutralität abgelehnt. Wir besprechen die Hintergründe, Positionen und Reaktionen aus Wirtschaft und Politik.",
-   "zeit": "2026-09-29T21:01:12.949354Z",
-   "besetzung": [
-    "Thorsten",
-    "Sigrid",
-    "Malte",
-    "Nora"
-   ],
-   "d": "folge-podcast-schweiz-neutralitaetsinitiative-volksabstimmung.mp3",
-   "l": 583.15,
-   "b": 4665837,
-   "marken": [
-    {
-     "s": 0.3,
-     "wer": "Thorsten",
-     "text": "Herzlich willkommen zu unserem Podcast. Wir sprechen heute über die Volksabstimmung in der Schweiz und die Ablehnung einer strengeren Neutralität. Wichtiger Hinweis vorab: Alle Stimmen dieser Sendung sind Computerstimmen. Bei mir im Studio sind Sigrid, Malte und Nora, um das Thema zu beleuchten."
-    },
-    {
-     "s": 30.02,
-     "wer": "Sigrid",
-     "text": "Guten Tag. Es geht um eine sehr fundamentale Frage für die Schweiz. Die Stimmberechtigten haben sich in einer Volksabstimmung gegen eine strengere Auslegung der politischen Neutralität ausgesprochen. Nach Angaben des Bundesamtes für Statistik stimmten genau siebzig Komma zwei Prozent der Teilnehmer gegen die entsprechende Initiative."
-    },
-    {
-     "s": 52.55,
-     "wer": "Malte",
-     "text": "Sigrid hat es bereits angedeutet, und die Quellen wie Tagesschau, Deutschlandfunk, Spiegel, FAZ und Deutsche Welle bestätigen das Ergebnis. Genau siebzig Komma zwei Prozent der Stimmberechtigten lehnten den Vorstoß am siebzigsten oder vielmehr am siebten September beziehungsweise laut Zeitleiste am siebenundzwanzigsten September zweitausendsechsundzwanzig ab. Hinter der Initiative stand die Vereinigung Pro Schweiz, die der SVP nahesteht."
-    },
-    {
-     "s": 84.85,
-     "wer": "Nora",
-     "text": "Malte, lass uns genauer hinschauen, was diese Initiative eigentlich bewirken wollte. Die von Pro Schweiz und der SVP unterstützte Initiative wollte Kooperationen mit der Nato sowie wirtschaftliche Sanktionen verbieten. Das hätte die gesamte Außenpolitik der Schweiz grundlegend verändert."
-    },
-    {
-     "s": 107.86,
-     "wer": "Thorsten",
-     "text": "Sigrid, wie bewertest du diese Ziele im Kontext der bisherigen Schweizer Politik? Die Regierung hat sich ja schon vor einiger Zeit positioniert."
-    },
-    {
-     "s": 121.68,
-     "wer": "Sigrid",
-     "text": "Die Schweizer Regierung und die Parteien haben sich geschlossen gegen den Vorstoß ausgesprochen. Sie warnten vor einer internationalen Isolation. Eine starre Auslegung schränkt nach Ansicht der Regierung die Handlungsfähigkeit und Sicherheit der Schweiz durch internationale Kooperation stark ein."
-    },
-    {
-     "s": 140.78,
-     "wer": "Malte",
-     "text": "Dazu passt auch die historische Einordnung aus unseren Berichten. Im Jahr zweitausendzweiundzwanzig schloss sich die Schweizer Regierung den EU-Sanktionen gegen Russland an. Genau an diesem Punkt setzte die Kritik der Initiatoren an, wie wir gleich hören werden."
-    },
-    {
-     "s": 157.7,
-     "wer": "Nora",
-     "text": "Das ist der Kern des Streits. Christoph Blocher von der Initiative und der SVP argumentierte ganz klar, dass die Übernahme von Sanktionen die Neutralität verletzt. Er sagte, dies mache die Schweiz zur Kriegspartei."
-    },
-    {
-     "s": 178.72,
-     "wer": "Thorsten",
-     "text": "Malte, wie sehen das die Wirtschaftsverbände? Sie haben sich ja ebenfalls in die Debatte eingeschaltet."
-    },
-    {
-     "s": 190.07,
-     "wer": "Malte",
-     "text": "Monika Rühl von Economiesuisse brachte eine wirtschaftliche Perspektive ein. Sie betonte, dass die Schweiz nicht als Kriegsgewinnler gelten darf. Zudem dürfe sie nicht den Eindruck erwecken, Sanktionen zu umgehen."
-    },
-    {
-     "s": 205.1,
-     "wer": "Sigrid",
-     "text": "Diese Argumentation zeigt, wie eng Wirtschaft und Sicherheitspolitik in dieser Frage verknüpft sind. Die Regierung und die Wirtschaft sehen in der Flexibilität einen Schutz vor wirtschaftlichem Schaden und politischer Isolation."
-    },
-    {
-     "s": 219.4,
-     "wer": "Nora",
-     "text": "Dennoch blieben die Fronten im Abstimmungskampf hart. Auf der einen Seite die Befürworter einer strengen Neutralität, die jede Beteiligung an Sanktionen ablehnen. Auf der anderen Seite die breite Front aus Regierung, Parlament und Wirtschaft, die vor den Folgen einer Abschottung warnt."
-    },
-    {
-     "s": 240.59,
-     "wer": "Thorsten",
-     "text": "Malte, welche konkreten Zahlen und Daten liegen uns aus der offiziellen Statistik vor."
-    },
-    {
-     "s": 248.92,
-     "wer": "Malte",
-     "text": "Das Bundesamt für Statistik hat die Ablehnung in Prozent mit siebzig Komma zwei Prozent beziffert. Das Datum der Abstimmung war der siebenundzwanzigste September zweitausendsechsundzwanzig. Diese Zahlen unterstreichen die Deutlichkeit des Votums."
-    },
-    {
-     "s": 266.52,
-     "wer": "Sigrid",
-     "text": "Ein solches Ergebnis zeigt, dass die Mehrheit der Bevölkerung den Kurs der Regierung stützt. Die Möglichkeit, EU-Sanktionen gegen kriegführende Staaten wie Russland mitzutragen, bleibt damit bestehen. Die Schweiz kann weiterhin flexibel agieren."
-    },
-    {
-     "s": 286.48,
-     "wer": "Nora",
-     "text": "Wie Nora eben sagte, beziehungsweise wie ich selbst betone: Die Frage ist damit aber nicht für alle Zeiten vom Tisch. Christoph Blocher kündigte bereits an, das Thema weiterzuverfolgen. Ob die Initiative bei künftigen Wahlen erneut eingebracht wird, bleibt also offen."
-    },
-    {
-     "s": 308.33,
-     "wer": "Thorsten",
-     "text": "Malte, gibt es in den Berichten Hinweise darauf, wie die europäischen Nachbarn auf die Abstimmung reagiert haben."
-    },
-    {
-     "s": 318.53,
-     "wer": "Malte",
-     "text": "In den vorliegenden Quellen aus Tagesschau, Deutschlandfunk, Spiegel, FAZ und Deutsche Welle wird dazu keine direkte Reaktion genannt. Der Fokus liegt ganz auf der innenpolitischen Debatte und dem klaren Ergebnis der Volksabstimmung."
-    },
-    {
-     "s": 335.47,
-     "wer": "Sigrid",
-     "text": "Das überrascht nicht, da die Fortführung der bisherigen Praxis für Europa Kontinuität bedeutet. Wenn die Schweiz EU-Sanktionen gegen Russland mitträgt, bleibt die Linie stabil. Eine strengere Neutralität hätte hier neue Hürden geschaffen."
-    },
-    {
-     "s": 351.2,
-     "wer": "Nora",
-     "text": "Sigrid, genau das war ja der Streitpunkt. Die Initiatoren wollten diese Flexibilität eben als Bruch der Neutralität verstanden wissen. Für sie war die bisherige Praxis bereits ein Abweichen von den historischen Grundsätzen der Schweiz."
-    },
-    {
-     "s": 373.08,
-     "wer": "Thorsten",
-     "text": "Malte, lass uns noch einmal auf die Rolle der Vereinigung Pro Schweiz und der SVP blicken. Wie stark ist diese Strömung in der Schweizer Politik."
-    },
-    {
-     "s": 386.08,
-     "wer": "Malte",
-     "text": "Die Quellen nennen die Vereinigung Pro Schweiz und die SVP als die zentralen Kräfte hinter der Initiative. Obwohl die Abstimmung mit siebzig Komma zwei Prozent klar verloren ging, zeigt die Ankündigung von Christoph Blocher, dass das Thema präsent bleibt."
-    },
-    {
-     "s": 403.13,
-     "wer": "Sigrid",
-     "text": "Das zeigt auch, wie emotional aufgeladen der Begriff der Neutralität in der Schweiz ist. Er ist Teil der nationalen Identität. Jede Änderung oder Anpassung an internationale Bündnisse wird intensiv diskutiert."
-    },
-    {
-     "s": 419.23,
-     "wer": "Nora",
-     "text": "Und genau deshalb ist es wichtig zu betonen, dass trotz der deutlichen Ablehnung keine Ruhe einkehren muss. Die von Christoph Blocher angekündigte Weiterverfolgung des Themas zeigt, dass die Debatte weitergehen wird."
-    },
-    {
-     "s": 434.98,
-     "wer": "Thorsten",
-     "text": "Sigrid, wie bewertest du die Rolle der Wirtschaftsverbände in diesem Abstimmungskampf? War deren Einfluss entscheidend für das Ergebnis."
-    },
-    {
-     "s": 447.39,
-     "wer": "Sigrid",
-     "text": "Economiesuisse hat sehr deutlich vor den wirtschaftlichen Folgen gewarnt. Wenn Monika Rühl betont, dass die Schweiz nicht als Kriegsgewinnler gelten darf, ist das ein starkes Argument. Es dürfte viele Wähler überzeugt haben, die um das internationale Ansehen des Landes besorgt waren."
-    },
-    {
-     "s": 465.58,
-     "wer": "Malte",
-     "text": "Die Zahlen sprechen jedenfalls eine deutliche Sprache. Mit siebzig Komma zwei Prozent Ablehnung war das Votum breiter abgestützt als von manchen Beobachtern erwartet. Regierung, Parteien und Wirtschaft schienen hier an einem Strang gezogen zu haben."
-    },
-    {
-     "s": 482.48,
-     "wer": "Nora",
-     "text": "Malte hat die Zahlen genannt, aber wir sollten nicht vergessen, dass eine Minderheit von fast dreißig Prozent für die Initiative gestimmt hat. Das ist keineswegs eine zu vernachlässigende Zahl in der Schweizer Politik."
-    },
-    {
-     "s": 497.8,
-     "wer": "Thorsten",
-     "text": "Sigrid, wie schätzt du das Gewicht dieser Minderheit ein angesichts der kommenden Jahre."
-    },
-    {
-     "s": 506.29,
-     "wer": "Sigrid",
-     "text": "Eine Minderheit von knapp dreißig Prozent ist in der direkten Demokratie der Schweiz ein beachtliches Potenzial. Es zeigt, dass das Thema polarisiert. Die Initianten werden dieses Segment der Wählerschaft sicher weiter mobilisieren."
-    },
-    {
-     "s": 523.48,
-     "wer": "Malte",
-     "text": "Die Zeitleiste zeigt uns noch einmal die Etappen. Im Jahr zweitausendzweiundzwanzig schloss sich die Regierung den EU-Sanktionen an, und am siebenundzwanzigsten September zweitausendsechsundzwanzig folgte die Volksabstimmung. Damit ist der aktuelle Kurs rechtlich und durch das Volk bestätigt."
-    },
-    {
-     "s": 545.72,
-     "wer": "Nora",
-     "text": "Ob dieser Kurs langfristig Bestand hat, hängt auch von der globalen Lage ab. Wenn sich Konflikte verschärfen, wird die Debatte über Kooperationen mit der Nato und wirtschaftliche Sanktionen sicher wieder an Fahrt aufnehmen."
-    },
-    {
-     "s": 561.91,
-     "wer": "Thorsten",
-     "text": "Wir sind am Ende unserer Sendung angekommen. Ich danke euch für die Einschätzungen und Analysen. Tschüss bis zum nächsten Mal, wenn wir neue Entwicklungen für Sie einordnen."
     }
    ]
   }
