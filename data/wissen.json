@@ -1,6 +1,199 @@
 {
- "stand": "2026-10-07T15:32:36.304Z",
+ "stand": "2026-10-08T16:25:43.635Z",
  "stuecke": [
+  {
+   "id": "wie-funktioniert-eigentlich-der-reisepass",
+   "zeit": "2026-10-08T16:32:25.639Z",
+   "bereich": "Gesellschaft und Zusammenleben",
+   "titel": "Wie funktioniert eigentlich der Reisepass?",
+   "vorspann": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seine Geschichte zeigt, dass es solche Dokumente schon im alten Persien gab.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Ein Reisepass ist ein amtlicher Ausweis. Er wird von dem Staat herausgegeben, dessen Staatsangehörigkeit der Inhaber besitzt. Der Pass bleibt das Eigentum des jeweiligen Staates. Er dient der Identifizierung und Legitimation gegenüber Behörden und anderen Personen. Außerdem berechtigt er zum grenzüberschreitenden Reisen und zur Rückkehr in das eigene Land.",
+      "Die meisten Reisepässe enthalten Angaben zur Person und zur Staatsangehörigkeit. Zudem gibt es leere Seiten für Vermerke wie Visa oder Stempel. Seit Beginn der 2000er Jahre werden zunehmend biometrische Reisepässe genutzt. Bei diesen Pässsen sind Personendaten in elektronischer Form im Dokument gespeichert."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Schon im Altertum gab es Pässe. Um vierhundertfünfzig vor Christus bat ein persischer Beamter um Erlaubnis für eine Reise nach Judäa. Der König gab ihm einen Brief für ein sicheres Geleit mit. In der Westlichen Han-Dynastie waren Pässe ein wichtiger Teil der Verwaltung. Sie erforderten Angaben zum Alter und zu Körpermerkmalen.",
+      "Im Mittelalter verlangten verschiedene Herrscher Dokumente zur Kontrolle. Im Jahr 1374 wurde in Venedig der Pestbrief eingeführt. Bürger konnten die Stadt nur betreten, wenn sie diesen Gesundheitsausweis bei sich trugen. Während der Französischen Revolution wurden die Passregeln mehrfach geändert und zeitweise sogar abgeschafft.",
+      "Im Deutschen Reich wurden ab dem Jahr 1868 durch ein Passgesetz Erleichterungen eingeführt. Nach dem Ersten Weltkrieg änderte sich dies wieder grundlegend. Ab Dezember 1914 war ein Pass mit einem Lichtbild verpflichtend. Später gab es in der Weimarer Republik und im Nationalsozialismus strenge neue Passgesetze."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Wissen über historische Pässe stammt aus alten Texten und Archiven. Ein Beispiel ist der Text aus dem Tanach über das alte Persien. Auch Gesetze, königliche Erlasse und Verordnungen aus verschiedenen Jahrhunderten sind erhalten geblieben. Der älteste erhaltene Reisepass aus dem Jahr 1433 befindet sich im Hessischen Staatsarchiv Marburg."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Alter des im Hessischen Staatsarchiv Marburg erhaltenen Reisepasses",
+     "1433"
+    ],
+    [
+     "Jahr des Pestbriefs in Venedig",
+     "1374"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Biometrischer Reisepass",
+     "Ein Reisepass, bei dem Personendaten in elektronischer Form im Pass abgelegt sind."
+    ],
+    [
+     "Visum",
+     "Ein Vermerk eines anderen Staates im Reisepass für die Ein- und Ausreise oder den Aufenthalt."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wem gehört ein Reisepass laut dem Text?",
+     "optionen": [
+      "Dem jeweiligen Staat",
+      "Dem Inhaber des Passes",
+      "Der Europäischen Union"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Pass bleibt laut dem Text das Eigentum des jeweiligen Staates."
+    }
+   ],
+   "video": [
+    "Ein Reisepass ist ein amtlicher Ausweis für das Reisen.",
+    "Er wird von dem Staat herausgegeben, dessen Staatsangehörigkeit man besitzt.",
+    "Der Ausweis dient der Identifizierung gegenüber Behörden.",
+    "Bereits im Altertum gab es ähnliche Dokumente.",
+    "In der Westlichen Han-Dynastie benötigten sogar Kinder Pässe.",
+    "Im Mittelalter nutzte man Gesundheitsausweise wie den Pestbrief.",
+    "Seit Beginn der zweitausender Jahre gibt es biometrische Pässe.",
+    "Dabei sind Personendaten elektronisch im Dokument gespeichert."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Reisepass",
+    "bildunterschrift": "Ein Reisepass dient weltweit als offizielles Dokument zum Reisen."
+   },
+   "quelle": {
+    "titel": "Reisepass",
+    "url": "https://de.wikipedia.org/wiki/Reisepass",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 278,
+   "bildInfos": [
+    {
+     "titel": "Passports-assorted.jpg",
+     "beschreibung": "Dutch, Polish, Nepalese, and PRC passports",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Passports-assorted.jpg/1280px-Passports-assorted.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Passports-assorted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Passports-assorted.jpg",
+     "urheber": "Normadic at English Wikipedia , User:Quistnix , बिजय पोख्रेल , and the PRC Government (as ",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Reisepass",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Reisepass dient weltweit als offizielles Dokument zum Reisen."
+    },
+    {
+     "titel": "Afghan Passport.jpg",
+     "beschreibung": "New eletronic readable passports issued by Afghan Ministry of Interior",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Afghan_Passport.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Afghan_Passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Afghan_Passport.jpg",
+     "urheber": "Afghan Freelancer",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "New eletronic readable passports issued by Afghan Ministry of Interior"
+    },
+    {
+     "titel": "Albanian biometric passport (crop).jpg",
+     "beschreibung": "Albanian biometric passport",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Albanian_biometric_passport_%28crop%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Albanian_biometric_passport_%28crop%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Albanian_biometric_passport_(crop).jpg",
+     "urheber": "Government of Albania",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Albanian biometric passport"
+    },
+    {
+     "titel": "Belgian Passport 2008 cover.jpg",
+     "beschreibung": "Image of cover of Belgian passport issued since 2008.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Belgian_Passport_2008_cover.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Belgian_Passport_2008_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Belgian_Passport_2008_cover.jpg",
+     "urheber": "Eurokid238",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Image of cover of Belgian passport issued since 2008."
+    },
+    {
+     "titel": "Cover of East Timorese Passport.jpg",
+     "beschreibung": "Front cover of an East Timorese passport",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cover_of_East_Timorese_Passport.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Cover_of_East_Timorese_Passport.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Cover_of_East_Timorese_Passport.jpg",
+     "urheber": "Noble",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Front cover of an East Timorese passport"
+    },
+    {
+     "titel": "Czech passport 2007 cover.jpg",
+     "beschreibung": "Biometric Passport of the Czech Republic issued in 2007",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Czech_passport_2007_cover.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Czech_passport_2007_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Czech_passport_2007_cover.jpg",
+     "urheber": "Krokodyl",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Biometric Passport of the Czech Republic issued in 2007"
+    },
+    {
+     "titel": "FürstentumLiechtensteinReisepassCover.jpg",
+     "beschreibung": "Self-made scan of my passport.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/F%C3%BCrstentumLiechtensteinReisepassCover.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/47/F%C3%BCrstentumLiechtensteinReisepassCover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:F%C3%BCrstentumLiechtensteinReisepassCover.jpg",
+     "urheber": "The original uploader was PZFUN at English Wikipedia .",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Self-made scan of my passport."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Passports-assorted.jpg",
+    "beschreibung": "Dutch, Polish, Nepalese, and PRC passports",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Passports-assorted.jpg/1280px-Passports-assorted.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Passports-assorted.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Passports-assorted.jpg",
+    "urheber": "Normadic at English Wikipedia , User:Quistnix , बिजय पोख्रेल , and the PRC Government (as ",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Reisepass",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Reisepass dient weltweit als offizielles Dokument zum Reisen."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-ein-pfandsystem",
    "zeit": "2026-10-07T15:57:35.013Z",
@@ -6549,124 +6742,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
-   }
-  },
-  {
-   "id": "wie-funktioniert-eigentlich-die-blindenschrift",
-   "zeit": "2026-09-22T04:07:19.572Z",
-   "bereich": "Gesellschaft und Zusammenleben",
-   "titel": "Wie funktioniert eigentlich die Blindenschrift?",
-   "vorspann": "Blinde Menschen können mit den Fingern lesen, weil es spezielle Schriftsysteme mit erhabenen Zeichen gibt. Die bekannteste Methode ist die Brailleschrift, die im Jahr achtzehnfünfundzwanzig entwickelt wurde.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Als Blindenschrift bezeichnet man übergreifend verschiedene Systeme von Schriftzeichen, die von blinden Menschen gelesen werden können. Das Lesen erfolgt dabei mit dem Tastsinn der Finger. Die Finger unterscheiden und identifizieren die erhabenen Strukturen der Zeichen von ihrer planen Umgebung. Zur Abgrenzung verwendet man für die Schrift der Sehenden häufig den Begriff Schwarzschrift.",
-      "Es gibt zwei grundsätzliche Richtungen der Blindenschrift. Bei der Reliefschrift werden normale lateinische Buchstaben oder vereinfachte grafische Muster tastbar gemacht, wie etwa das Moonalphabet. Die Punktschrift bildet Buchstaben in einem Punkte-Raster nach oder übersetzt sie in einen Code. Der Begriff Punktschrift wird heute oft synonym für die normale Brailleschrift benutzt."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Die klassische Brailleschrift besteht aus sechs möglichen Punkten, die in drei Zeilen und zwei Spalten angeordnet sind. Diese Schrift wurde von Louis Braille entwickelt, der selbst blind war. Neben der klassischen Variante gibt es auch das Computer-Braille, das ein Acht-Punkte-System verwendet, um leichter Großbuchstaben und Sonderzeichen darzustellen. Das System wird vor allem von Braillezeilen genutzt.",
-      "Der Platzbedarf von Punktschriftsystemen ist enorm, weil die Zeichen größer sind als in der Schwarzschrift. Auch das Papier muss viel dicker sein, um dauerhaft geprägt werden zu können. Deshalb umfasst der Duden in Punktschrift achtzehn Bände. Um das Gewicht bei Sendungen auszugleichen, transportiert die Deutsche Post AG Sendungen in Brailleschrift portofrei."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Die historische Entwicklung der Blindenschriften ist gut dokumentiert. Die erste Punktschrift mit ertastbaren Punkten und Strichen wurde bereits im Jahr sechzehnsiebenzig von Francesco Lana Terzi entworfen, aber nie verwendet. Charles Barbier entwickelte im Jahr achtzehnhundertfünfzehn eine Nachtschrift für militärische Zwecke, die später in der Pariser Blindenschule angeboten wurde. Im Jahr achtzehnfünfundzwanzig folgte schließlich die Entwicklung der Brailleschrift durch Louis Braille."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Entwicklungsjahr der Brailleschrift",
-     "1825"
-    ],
-    [
-     "Anzahl der Punkte in der klassischen Brailleschrift",
-     "6"
-    ],
-    [
-     "Anzahl der Bände des Dudens in Punktschrift",
-     "18"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Schwarzschrift",
-     "So wird oft die normale Schrift der Sehenden zur Abgrenzung von der Blindenschrift genannt."
-    ],
-    [
-     "Braillezeile",
-     "Ein technisches Gerät, das Computer-Inhalte dynamisch in Punktschrift darstellt."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wann wurde die Brailleschrift entwickelt?",
-     "optionen": [
-      "1670",
-      "1815",
-      "1825"
-     ],
-     "richtig": 2,
-     "erklaerung": "Die Brailleschrift wurde im Jahr 1825 von Louis Braille entwickelt."
-    }
-   ],
-   "video": [
-    "Blinde Menschen lesen mit dem Tastsinn ihrer Finger.",
-    "Dafür nutzen sie erhabene Zeichen auf Papier.",
-    "Das bekannteste System ist die Brailleschrift.",
-    "Sie wurde im Jahr achtzehnfünfundzwanzig von Louis Braille erfunden.",
-    "Die klassische Schrift nutzt sechs Punkte.",
-    "Diese Punkte sind in drei Zeilen und zwei Spalten angeordnet.",
-    "Auch Computer nutzen spezielle Punktschriften.",
-    "Die Deutsche Post transportiert Sendungen in Brailleschrift portofrei."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Blindenschrift",
-    "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
-   },
-   "quelle": {
-    "titel": "Blindenschrift",
-    "url": "https://de.wikipedia.org/wiki/Blindenschrift",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 268,
-   "bildInfos": [
-    {
-     "titel": "Blindenschrift-1915.jpg",
-     "beschreibung": "Blindenschrift-1915",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Blindenschrift-1915.jpg",
-     "urheber": "unbekannt",
-     "lizenz": "Public domain",
-     "lizenzUrl": "",
-     "artikel": "Blindenschrift",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Blindenschrift-1915.jpg",
-    "beschreibung": "Blindenschrift-1915",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/4/41/Blindenschrift-1915.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Blindenschrift-1915.jpg",
-    "urheber": "unbekannt",
-    "lizenz": "Public domain",
-    "lizenzUrl": "",
-    "artikel": "Blindenschrift",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Blindenschrift wird mit dem Tastsinn der Finger gelesen."
    }
   }
  ]

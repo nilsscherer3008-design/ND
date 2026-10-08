@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-08T08:52:48.968Z",
+ "stand": "2026-10-08T16:25:43.635Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -176,7 +176,8 @@
     "ueberschrift": "Die Zukunft der Schrift",
     "wikipedia": "Digitale Typografie",
     "fokus": "Computer und Bildschirme verändern unsere Schriftkultur im digitalen Zeitalter.",
-    "zuDuenn": 2
+    "zuDuenn": 2,
+    "versuche": 1
    }
   ]
  },
