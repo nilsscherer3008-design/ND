@@ -2,6 +2,26 @@
  "stand": "2026-10-07T15:32:36.304Z",
  "folgen": [
   {
+   "id": "wissen-wie-funktioniert-eigentlich-ein-pfandsystem",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich ein Pfandsystem?",
+   "text": "Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.",
+   "zeit": "2026-10-07T15:57:35.013Z",
+   "d": "cbd5cd37fb.mp3",
+   "l": 29.72,
+   "b": 178797
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-eine-mondfinsternis",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich eine Mondfinsternis?",
+   "text": "Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.",
+   "zeit": "2026-10-07T07:18:15.433Z",
+   "d": "d3d7314bf6.mp3",
+   "l": 39.45,
+   "b": 237117
+  },
+  {
    "id": "hauptausgabe-2026-10-07",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-10-07",
@@ -40,26 +60,6 @@
    "d": "97777e5ca9.mp3",
    "l": 27.81,
    "b": 167277
-  },
-  {
-   "id": "wissen-wie-funktionierte-eigentlich-die-aegyptische-mumifizierung",
-   "art": "wissen",
-   "titel": "Wie funktionierte eigentlich die ägyptische Mumifizierung?",
-   "text": "Im Alten Ägypten wurden menschliche und tierische Körper nach dem Tod konserviert. Das Verfahren sollte den Körper vor dem Zerfall schützen.",
-   "zeit": "2026-10-05T09:02:36.273Z",
-   "d": "24523e37c0.mp3",
-   "l": 26.85,
-   "b": 161517
-  },
-  {
-   "id": "wissen-wie-funktionierte-die-post-im-alten-rom",
-   "art": "wissen",
-   "titel": "Wie funktionierte die Post im alten Rom?",
-   "text": "Im Römischen Reich gab es ein großes System für Nachrichten und Güter. Es trug den Namen cursus publicus.",
-   "zeit": "2026-10-04T18:14:50.916Z",
-   "d": "34b927e0cd.mp3",
-   "l": 31.52,
-   "b": 189597
   }
  ]
 }

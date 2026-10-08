@@ -2256,7 +2256,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 21 und 25 Grad. Die Vorhersage für morgen,",
+   "d": "429f984013.mp3",
+   "l": 18.99,
+   "s": [
+    0.25,
+    5.08,
+    9.45,
+    13.09,
+    16.22
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -4696,6 +4708,36 @@
       49.69,
       55.94
      ]
+    },
+    {
+     "k": "Kenso Soai war bei der offiziellen Pressekonferenz in Stockholm per Telefon zuge",
+     "d": "8c1205730f.mp3",
+     "l": 68.23,
+     "s": [
+      0.25,
+      8.38,
+      16.0,
+      20.87,
+      28.39,
+      39.95,
+      44.55,
+      56.95
+     ]
+    },
+    {
+     "k": "Die Bekanntgabe der Nobelpreise folgt einem festen wöchentlichen Zeitplan. Nach ",
+     "d": "762236a90e.mp3",
+     "l": 55.04,
+     "s": [
+      0.25,
+      4.69,
+      13.49,
+      21.73,
+      27.05,
+      32.59,
+      38.1,
+      44.94
+     ]
     }
    ]
   },
@@ -5217,6 +5259,79 @@
      "s": [
       0.25,
       3.16
+     ]
+    },
+    {
+     "k": "Das Unternehmen Paramount hat seine Übernahme von Warner Bros. Discovery offizie",
+     "d": "55d5c7b5b2.mp3",
+     "l": 41.64,
+     "s": [
+      0.25,
+      3.93,
+      6.12,
+      12.38,
+      18.06,
+      22.22,
+      28.06,
+      32.15
+     ]
+    },
+    {
+     "k": "Dem erfolgreichen Abschluss ging ein monatelanger Streit voraus. Im vergangenen ",
+     "d": "6697d17bc3.mp3",
+     "l": 41.66,
+     "s": [
+      0.25,
+      4.17,
+      12.13,
+      16.73,
+      19.66,
+      25.32,
+      28.77,
+      34.7
+     ]
+    },
+    {
+     "k": "An der Spitze des neuen Skydance-Konzerns stehen der Filmproduzent David Ellison",
+     "d": "4533d1f89f.mp3",
+     "l": 56.98,
+     "s": [
+      0.25,
+      8.11,
+      14.4,
+      21.99,
+      29.28,
+      39.43,
+      48.56
+     ]
+    },
+    {
+     "k": "Im Zuge des Ringen um die Fusion hat Paramount verschiedene Zusagen gemacht. In ",
+     "d": "19bd84e0b1.mp3",
+     "l": 47.21,
+     "s": [
+      0.25,
+      4.77,
+      12.62,
+      17.91,
+      25.34,
+      34.05,
+      38.22
+     ]
+    },
+    {
+     "k": "Die Fusion löst in Hollywood Sorgen vor einem Stellenabbau aus. Branchenbeobacht",
+     "d": "06e7475ba0.mp3",
+     "l": 59.85,
+     "s": [
+      0.25,
+      4.0,
+      13.03,
+      19.15,
+      26.49,
+      35.11,
+      41.37,
+      52.8
      ]
     }
    ]
@@ -5827,6 +5942,93 @@
      "s": [
       0.25,
       3.35
+     ]
+    },
+    {
+     "k": "Die Königlich Schwedische Akademie der Wissenschaften in Stockholm hat bekannt g",
+     "d": "829f99fa4b.mp3",
+     "l": 61.72,
+     "s": [
+      0.25,
+      8.47,
+      20.14,
+      28.15,
+      32.38,
+      42.06,
+      46.32,
+      53.02
+     ]
+    },
+    {
+     "k": "Das Observatorium IceCube befindet sich tief im Eispanzer nahe der US-amerikanis",
+     "d": "094668686f.mp3",
+     "l": 56.17,
+     "s": [
+      0.25,
+      8.94,
+      18.82,
+      25.96,
+      29.9,
+      37.7,
+      41.4,
+      47.67
+     ]
+    },
+    {
+     "k": "Francis Halzen wurde am 23. März 1944 in der belgischen Stadt Tienen geboren. Na",
+     "d": "0dc4c7fab3.mp3",
+     "l": 63.61,
+     "s": [
+      0.25,
+      2.97,
+      8.04,
+      22.54,
+      27.7,
+      35.92,
+      40.82,
+      52.65
+     ]
+    },
+    {
+     "k": "Der Nobelpreis geht auf das Testament des schwedischen Erfinders Alfred Nobel zu",
+     "d": "c2f7331a7e.mp3",
+     "l": 46.46,
+     "s": [
+      0.25,
+      5.21,
+      12.9,
+      17.21,
+      21.17,
+      24.25,
+      34.15,
+      39.99
+     ]
+    },
+    {
+     "k": "Francis Halzen zeigte sich bei der Bekanntgabe dankbar und hob die Leistung des ",
+     "d": "8c14c4eb4a.mp3",
+     "l": 53.96,
+     "s": [
+      0.25,
+      5.79,
+      13.47,
+      22.71,
+      25.81,
+      26.99,
+      38.12,
+      43.68
+     ]
+    },
+    {
+     "k": "Das IceCube-Observatorium am Südpol wird nach Angaben der FAZ weiter ausgebaut. ",
+     "d": "70a6efcbb7.mp3",
+     "l": 26.4,
+     "s": [
+      0.25,
+      6.15,
+      13.07,
+      19.6,
+      24.23
      ]
     }
    ]
@@ -7167,12 +7369,12 @@
     {
      "k": "Spaniens Ministerpräsident Pedro Sánchez hat vorgezogene Parlamentswahlen für de",
      "d": "1c2f158080.mp3",
-     "l": 24.36,
+     "l": 24.51,
      "s": [
       0.25,
-      7.47,
-      12.89,
-      18.53
+      7.46,
+      13.2,
+      18.7
      ]
     },
     {
@@ -8301,23 +8503,6 @@
    "bildVersucht": true,
    "ton": [
     {
-     "k": "Das Amtsgericht Düsseldorf hat das vorläufige Insolvenzverfahren für die Warenha",
-     "d": "2c0ab57c47.mp3",
-     "l": 56.73,
-     "s": [
-      0.25,
-      7.29,
-      11.45,
-      16.68,
-      22,
-      27.02,
-      31.05,
-      37.91,
-      44.16,
-      50.17
-     ]
-    },
-    {
      "k": "Das Amtsgericht Düsseldorf hat ein vorläufiges Insolvenzverfahren für die Warenh",
      "d": "9f3eb694e3.mp3",
      "l": 15.65,
@@ -8353,6 +8538,21 @@
      "s": [
       0.25,
       3.4
+     ]
+    },
+    {
+     "k": "Das Amtsgericht Düsseldorf hat das vorläufige Insolvenzverfahren für die Warenha",
+     "d": "34c31d9a2d.mp3",
+     "l": 37.49,
+     "s": [
+      0.25,
+      6.94,
+      12.15,
+      13.32,
+      18.28,
+      22.6,
+      26.76,
+      32.55
      ]
     },
     {
