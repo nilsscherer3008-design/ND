@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-08T08:52:48.968Z",
+ "stand": "2026-10-08T16:25:43.635Z",
  "folgen": [
+  {
+   "id": "wissen-wie-funktioniert-eigentlich-der-reisepass",
+   "art": "wissen",
+   "titel": "Wie funktioniert eigentlich der Reisepass?",
+   "text": "Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seine Geschichte zeigt, dass es solche Dokumente schon im alten Persien gab.",
+   "zeit": "2026-10-08T16:32:25.639Z",
+   "d": "acdf5bd8b9.mp3",
+   "l": 31.1,
+   "b": 187005
+  },
   {
    "id": "hauptausgabe-2026-10-08",
    "art": "nachrichten",
@@ -50,16 +60,6 @@
    "d": "0a2d2c5178.mp3",
    "l": 25.39,
    "b": 152733
-  },
-  {
-   "id": "wissen-wie-funktioniert-eigentlich-eine-rolltreppe",
-   "art": "wissen",
-   "titel": "Wie funktioniert eigentlich eine Rolltreppe?",
-   "text": "Eine Rolltreppe transportiert Menschen über Höhenunterschiede, meist schneller als zu Fuß. Heute gibt es strenge Regeln für ihre Sicherheit.",
-   "zeit": "2026-10-05T18:29:55.973Z",
-   "d": "97777e5ca9.mp3",
-   "l": 27.81,
-   "b": 167277
   }
  ]
 }

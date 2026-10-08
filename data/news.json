@@ -2268,7 +2268,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 15 und 19 Grad. Die Vorhersage für morgen,",
+   "d": "2c7ba536a2.mp3",
+   "l": 17.76,
+   "s": [
+    0.25,
+    4.12,
+    8.92,
+    12.21,
+    14.96
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -2939,7 +2951,126 @@
     "lon": 18.071
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Der Literaturnobelpreis zweitausendsechsundzwanzig wird an die kanadische Autori",
+     "d": "79f8e58953.mp3",
+     "l": 50.46,
+     "s": [
+      0.25,
+      6.45,
+      10.3,
+      15.91,
+      20.48,
+      25.82,
+      29.78,
+      34.94,
+      39.92,
+      44.36
+     ]
+    },
+    {
+     "k": "Der Literaturnobelpreis zweitausendsechsundzwanzig geht an die Kanadierin Anne C",
+     "d": "b99b34cf1f.mp3",
+     "l": 13.56,
+     "s": [
+      0.25,
+      5.6,
+      9.48
+     ]
+    },
+    {
+     "k": "Anne Carson bekommt den Literaturnobelpreis im Jahr zweitausendsechsundzwanzig. ",
+     "d": "d8a9124e65.mp3",
+     "l": 29.28,
+     "s": [
+      0.25,
+      6.63,
+      10.87,
+      15.81,
+      19.98,
+      25.29
+     ]
+    },
+    {
+     "k": "Welche weiteren Personen im Geheimen für den Preis nominiert waren, unterliegt l",
+     "d": "ba71803955.mp3",
+     "l": 8.57,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Klassische Philologie? Das ist die Wissenschaft von den ",
+     "d": "408341d45a.mp3",
+     "l": 11.38,
+     "s": [
+      0.25,
+      3.93
+     ]
+    },
+    {
+     "k": "Der Literaturnobelpreis 2026 geht an die kanadische Dichterin und Autorin Anne C",
+     "d": "79659aacf5.mp3",
+     "l": 40.51,
+     "s": [
+      0.25,
+      6.85,
+      11.45,
+      15.41,
+      18.08,
+      20.15,
+      27.67,
+      34.72
+     ]
+    },
+    {
+     "k": "Die Schwedische Akademie ehrt Anne Carson laut übereinstimmender Berichte für ei",
+     "d": "911cb7943e.mp3",
+     "l": 50.04,
+     "s": [
+      0.25,
+      8.68,
+      13.21,
+      17.33,
+      24.6,
+      29.06,
+      36.78,
+      41.93
+     ]
+    },
+    {
+     "k": "Laut ZDFheute, ORF und SRF wurde Carson am 21. Juni 1950 als jüngstes von zwei K",
+     "d": "c4f42a1d17.mp3",
+     "l": 44.88,
+     "s": [
+      0.25,
+      5.41,
+      11.15,
+      20.87,
+      25.4,
+      26.48,
+      31.29,
+      36.79
+     ]
+    },
+    {
+     "k": "Das internationale Feuilleton würdigt das Schaffen von Anne Carson seit vielen J",
+     "d": "7b514c05db.mp3",
+     "l": 63.48,
+     "s": [
+      0.25,
+      5.01,
+      14.35,
+      20.09,
+      26.29,
+      34.88,
+      46.64,
+      55.62
+     ]
+    }
+   ]
   },
   {
    "id": "bundesregierung-erhebt-konjunkturprognose-fuer-2026",
@@ -3314,7 +3445,64 @@
     "lon": 13.395
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Die Bundesregierung blickt optimistischer auf die wirtschaftliche Entwicklung in",
+     "d": "2b52bdf95f.mp3",
+     "l": 59.4,
+     "s": [
+      0.25,
+      5.11,
+      13.77,
+      18.77,
+      24.8,
+      33.09,
+      39.51,
+      47.26,
+      53.74
+     ]
+    },
+    {
+     "k": "Die deutsche Bundesregierung rechnet im laufenden Jahr mit einem Wirtschaftswach",
+     "d": "266cef988d.mp3",
+     "l": 15.69,
+     "s": [
+      0.25,
+      6.16,
+      9.67
+     ]
+    },
+    {
+     "k": "Die deutsche Wirtschaft wächst in diesem Jahr stärker als im Frühjahr erwartet. ",
+     "d": "2ac9bde32d.mp3",
+     "l": 28.32,
+     "s": [
+      0.25,
+      4.81,
+      10.39,
+      17.18,
+      23.21
+     ]
+    },
+    {
+     "k": "Das Ifo-Institut erwartet laut Tagesschau/ARD ein abweichendes Wachstum von 1,4 ",
+     "d": "4bdfa4d7f5.mp3",
+     "l": 11.41,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Bruttoinlandsprodukt? Das Bruttoinlandsprodukt misst den",
+     "d": "a8f9fbdf5f.mp3",
+     "l": 12.86,
+     "s": [
+      0.25,
+      3.9
+     ]
+    }
+   ]
   },
   {
    "id": "gericht-kippt-bundesnetzagentur-klausel-fuer-deutsche-bahn",
@@ -3753,7 +3941,146 @@
     "lon": 6.96
    },
    "version": 5,
-   "bildVersucht": true
+   "bildVersucht": true,
+   "ton": [
+    {
+     "k": "Das Verwaltungsgericht Köln hat einen Beschluss der Bundesnetzagentur vorläufig ",
+     "d": "ff8362eef7.mp3",
+     "l": 64.68,
+     "s": [
+      0.25,
+      6.34,
+      13.19,
+      19.4,
+      27.89,
+      36.08,
+      43.44,
+      48.77,
+      54.46,
+      58.12
+     ]
+    },
+    {
+     "k": "Ein Gericht hat einen Beschluss zur Vergabe von Zugstrecken gestoppt. Die Deutsc",
+     "d": "8b3b2c7793.mp3",
+     "l": 15.04,
+     "s": [
+      0.25,
+      3.81,
+      8.48
+     ]
+    },
+    {
+     "k": "Ein deutsches Gericht hat einen Plan für die Bahn gestoppt. Die Bundesnetzagentu",
+     "d": "fb6c807b19.mp3",
+     "l": 26.22,
+     "s": [
+      0.25,
+      4.01,
+      8.82,
+      13.31,
+      18.83
+     ]
+    },
+    {
+     "k": "Ob die Bundesnetzagentur nach einer möglichen Hauptverhandlung neue Wege zur Mar",
+     "d": "59aa11b981.mp3",
+     "l": 7.48,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Wettbewerbsklausel? Eine Regel, die festlegt, dass Unter",
+     "d": "77d087314c.mp3",
+     "l": 12.91,
+     "s": [
+      0.25,
+      3.8
+     ]
+    },
+    {
+     "k": "Das Verwaltungsgericht Köln hat einen Beschluss der Bundesnetzagentur in einem E",
+     "d": "cc34e2bfb2.mp3",
+     "l": 60.57,
+     "s": [
+      0.25,
+      6.6,
+      14.35,
+      22.33,
+      27.49,
+      37.2,
+      49.15,
+      53.1
+     ]
+    },
+    {
+     "k": "Hintergrund des Streits ist der geplante Markteintritt des italienischen Eisenba",
+     "d": "9825311f70.mp3",
+     "l": 65.49,
+     "s": [
+      0.25,
+      9.45,
+      16.19,
+      23.05,
+      30.3,
+      38.41,
+      49.3,
+      59.82
+     ]
+    },
+    {
+     "k": "Der deutsche Schienenfernverkehr wird bislang zu rund 95 Prozent von dem bundese",
+     "d": "8bb658264c.mp3",
+     "l": 63.47,
+     "s": [
+      0.25,
+      7.83,
+      14.51,
+      22.37,
+      31.89,
+      39.66,
+      48.2,
+      55.34
+     ]
+    },
+    {
+     "k": "Unter einer Trasse versteht man im Schienenverkehr eine bestimmte Fahrstrecke zu",
+     "d": "905afd4e3a.mp3",
+     "l": 37.52,
+     "s": [
+      0.25,
+      5.91,
+      12.56,
+      18.85,
+      29.16
+     ]
+    },
+    {
+     "k": "Ein Sprecher der DB InfraGo äußerte sich erfreut über das Urteil des Verwaltungs",
+     "d": "b0809012b1.mp3",
+     "l": 43.13,
+     "s": [
+      0.25,
+      5.76,
+      15.42,
+      23.8,
+      29.76,
+      36.41
+     ]
+    },
+    {
+     "k": "Der Rechtsstreit wird in der Hauptsache weitergeführt, um eine endgültige gerich",
+     "d": "b13514c841.mp3",
+     "l": 27.44,
+     "s": [
+      0.25,
+      6.37,
+      12.31,
+      20.71
+     ]
+    }
+   ]
   },
   {
    "id": "huthi-angriffe-auf-saudi-arabien-und-reaktionen",
@@ -4101,7 +4428,123 @@
     "lat": 24.639,
     "lon": 46.716
    },
-   "version": 5
+   "version": 5,
+   "ton": [
+    {
+     "k": "Die Kämpfe zwischen der Huthi-Miliz und dem von Saudi-Arabien angeführten Militä",
+     "d": "e914bb6c11.mp3",
+     "l": 61.72,
+     "s": [
+      0.25,
+      7.17,
+      14.91,
+      20.61,
+      28.35,
+      33.25,
+      40.8,
+      46.95,
+      52.02,
+      55.93
+     ]
+    },
+    {
+     "k": "Im Jemen-Konflikt kommt es zu neuen gegenseitigen Angriffen auf Flughäfen. Saudi",
+     "d": "d2963c3451.mp3",
+     "l": 16.53,
+     "s": [
+      0.25,
+      4.92,
+      10.7
+     ]
+    },
+    {
+     "k": "Im Jemen und in Saudi-Arabien gibt es schwere Kämpfe. Die Huthi-Miliz hat Rakete",
+     "d": "f70f5cc7ce.mp3",
+     "l": 26.14,
+     "s": [
+      0.25,
+      4.34,
+      9.89,
+      15.23,
+      20.38
+     ]
+    },
+    {
+     "k": "Ob sich die Angaben der Kriegsparteien zu militärischen Erfolgen und Zerstörunge",
+     "d": "32f8819a17.mp3",
+     "l": 8.96,
+     "s": [
+      0.25
+     ]
+    },
+    {
+     "k": "Was bedeutet eigentlich Miliz? Eine Miliz ist eine bewaffnete Gruppe, die nicht ",
+     "d": "32e0b41326.mp3",
+     "l": 10.38,
+     "s": [
+      0.25,
+      2.92
+     ]
+    },
+    {
+     "k": "Die gegenseitigen Angriffe zwischen Saudi-Arabien und der jemenitischen Huthi-Mi",
+     "d": "07d54060c7.mp3",
+     "l": 60.63,
+     "s": [
+      0.25,
+      7.73,
+      15.54,
+      22.1,
+      30.43,
+      34.41,
+      46.99,
+      51.76
+     ]
+    },
+    {
+     "k": "Die Streitkräfte der saudi-arabisch geführten Koalition haben laut eigenen Angab",
+     "d": "faa4bcb6e6.mp3",
+     "l": 62.43,
+     "s": [
+      0.25,
+      7.7,
+      18.6,
+      26.37,
+      35.52,
+      43.04,
+      49.67,
+      56.21
+     ]
+    },
+    {
+     "k": "Die von Iran unterstützte Huthi-Miliz bekämpft seit Jahren die von Saudi-Arabien",
+     "d": "86db9ffa54.mp3",
+     "l": 64.42,
+     "s": [
+      0.25,
+      6.75,
+      12.73,
+      20.74,
+      32.2,
+      42.71,
+      52.87,
+      61.78
+     ]
+    },
+    {
+     "k": "Das von Saudi-Arabien angeführte Militärbündnis drohte den Huthi mit Konsequenze",
+     "d": "5d9b600933.mp3",
+     "l": 46.71,
+     "s": [
+      0.25,
+      5.41,
+      14.34,
+      23.47,
+      31.69,
+      37.38
+     ]
+    }
+   ]
   },
   {
    "id": "afd-landtagsgeraet-sachsen-anhalt",
@@ -6597,6 +7040,51 @@
      "s": [
       0.25,
       3.45
+     ]
+    },
+    {
+     "k": "Der Nobelpreis für Chemie geht in diesem Jahr an den 1930 geborenen Franzosen He",
+     "d": "fdad5f813b.mp3",
+     "l": 45.6,
+     "s": [
+      0.25,
+      7.3,
+      10.03,
+      14.48,
+      19.79,
+      25.33,
+      30.03,
+      38.49
+     ]
+    },
+    {
+     "k": "Die beiden Wissenschaftler werden für die Entdeckung nichtlinearer Effekte und d",
+     "d": "fbd4045b8c.mp3",
+     "l": 54.97,
+     "s": [
+      0.25,
+      8.29,
+      18.53,
+      22.95,
+      29.23,
+      36.01,
+      39.57,
+      47.13
+     ]
+    },
+    {
+     "k": "Der Nobelpreis gilt international als eine der wichtigsten wissenschaftlichen Au",
+     "d": "2506569cc8.mp3",
+     "l": 56.11,
+     "s": [
+      0.25,
+      5.52,
+      13.25,
+      17.52,
+      26.15,
+      32.64,
+      40.63,
+      48.51
      ]
     }
    ]
