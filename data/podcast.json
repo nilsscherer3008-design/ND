@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-08T16:25:43.635Z",
+ "stand": "2026-10-09T09:01:32.429Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-10-09",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-10-09",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Angriffe zwischen Huthi-Miliz und Militärbündnis sowie Ausfälle im Flugverkehr · Proteste und politische Reaktionen nach dem Tod einer zwangsgeräumten Rentnerin in Spanien · Kein BMW-Dienstwagen für den neuen Landtagspräsidenten in Sachsen-Anhalt · Reaktionen der Regierung auf Schulproteste in Frankreich · Bundesregierung hebt Wachstumsprognose für das Jahr 2026 an",
+   "zeit": "2026-10-09T09:01:32.429Z",
+   "d": "folge-hauptausgabe-2026-10-09.mp3",
+   "l": 570.82,
+   "b": 3425133
+  },
   {
    "id": "wissen-wie-funktioniert-eigentlich-der-reisepass",
    "art": "wissen",
@@ -10,16 +20,6 @@
    "d": "acdf5bd8b9.mp3",
    "l": 31.1,
    "b": 187005
-  },
-  {
-   "id": "hauptausgabe-2026-10-08",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-10-08",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl eines AfD-Politikers zum Landtagspräsidenten in Sachsen-Anhalt · Fortdauernde Schülerproteste und Reaktionen in Frankreich · Ermittlungen gegen ehemaligen Präsidenten des Bundesnachrichtendienstes wegen Spionageverdachts · Tod der Rentnerin Maricarmen nach Zwangsräumung in Madrid · Chemie-Nobelpreis 2026 geht an Henri Kagan und Kenso Soai",
-   "zeit": "2026-10-08T08:52:48.968Z",
-   "d": "folge-hauptausgabe-2026-10-08.mp3",
-   "l": 605.18,
-   "b": 3631341
   },
   {
    "id": "wissen-wie-funktioniert-eigentlich-ein-pfandsystem",
