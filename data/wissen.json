@@ -1,6 +1,186 @@
 {
- "stand": "2026-10-09T09:01:32.429Z",
+ "stand": "2026-10-09T16:08:35.952Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-regenbogen",
+   "zeit": "2026-10-09T16:17:18.543Z",
+   "bereich": "Natur und Tiere",
+   "titel": "Wie entsteht eigentlich ein Regenbogen?",
+   "vorspann": "Ein Regenbogen ist ein farbiges Lichtband am Himmel. Er entsteht, wenn Sonnenlicht auf Regentropfen trifft.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Regenbogen ist ein atmosphärisch-optisches Phänomen. Er erscheint als kreisbogenförmiges farbiges Lichtband an der Regenwand. Die Erscheinung zeigt den mit dem Auge sichtbaren Bereich des Sonnenspektrums. Der Farbverlauf umfasst dabei verschiedene Spektralfarben. Beobachter sehen das Phänomen bei Sonnenschein und gleichzeitigem Regenfall.",
+      "Die Farben des Regenbogens sind weniger rein als in einem künstlichen Prismenspektroskop. Beim Wassertropfen fehlt eine Schlitzblende, weshalb sich farbige Strahlen teilweise überlagern. Am roten Rand ist die Sättigung der Farben am größten. An der blauen Seite ist sie am geringsten."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Das Sonnenlicht trifft auf die transparenten und kugelförmigen Regentropfen. Sowohl beim Eintritt als auch beim Austritt wird das Sonnenlicht gebrochen. Kurzwellige blaue Anteile werden dabei stärker abgelenkt als langwellige rote Anteile. Zwischen dem Eintritt und dem Austritt wird das Licht an der Tropfeninnenwand teilweise reflektiert. Das Licht wird auf diese Weise in verschieden stark abgelenkte Strahlen zerlegt.",
+      "Der Hauptregenbogen entsteht durch eine einmalige Reflexion im Inneren des Tropfens. Rotes Licht wird dabei unter einem Winkelabstand von rund 42 Grad wahrgenommen. Das blaue Licht stammt aus Regentropfen, die auf einem spitzeren Kegelmantel von rund 40 Grad liegen. Der Beobachter sieht diese Strahlen als konzentrische Kreisbögen.",
+      "Bei sehr hellem Himmel ist manchmal auch ein Nebenregenbogen sichtbar. Dieser entsteht durch eine zweimalige Reflexion des Sonnenlichts innerhalb der Tropfen. Durch die doppelte Reflexion ist der Nebenregenbogen lichtschwächer und zeigt eine umgekehrte Farbfolge."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Der Strahlengang im Regentropfen lässt sich physikalisch berechnen. Dabei gilt nach dem Brechungsgesetz ein Zusammenhang zwischen dem Eintrittswinkel und dem Winkel im Wassertropfen. Der Brechungsindex des Wassers hängt von der Wellenlänge des Lichts ab. Die gesamte Winkeländerung beim Durchgang durch den Tropfen ergibt sich aus diesen Werten."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Winkel für rotes Licht",
+     "42 Grad"
+    ],
+    [
+     "Winkel für blaues Licht",
+     "40 Grad"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Regenbogen",
+     "Ein kreisbogenförmiges farbiges Lichtband, das bei Sonnenschein in einem Regenschauer erscheint."
+    ],
+    [
+     "Spektralfarben",
+     "Die Farben, in die das Sonnenlicht zerlegt wird und die für das menschliche Auge sichtbar sind."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie oft wird das Licht im Wassertropfen beim Hauptregenbogen reflektiert?",
+     "optionen": [
+      "Einmal",
+      "Zweimal",
+      "Dreimal"
+     ],
+     "richtig": 0,
+     "erklaerung": "Der Hauptregenbogen entsteht durch einmalige Reflexion in den Tropfen."
+    }
+   ],
+   "video": [
+    "Ein Regenbogen ist ein farbiges Lichtband am Himmel.",
+    "Er entsteht in einem von der Sonne beschienenen Regenschauer.",
+    "Sonnenlicht dringt dabei in die kugelförmigen Regentropfen ein.",
+    "Dort wird das Licht gebrochen und im Inneren reflektiert.",
+    "Blaues Licht wird stärker abgelenkt als rotes Licht.",
+    "Der Hauptregenbogen entsteht durch eine einmalige Reflexion.",
+    "Rotes Licht sehen wir in einem Winkel von rund zweiundvierzig Grad.",
+    "Blaues Licht stammt von Tropfen in einem Winkel von rund vierzig Grad."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Regenbogen",
+    "bildunterschrift": "Ein Regenbogen zeigt sich als farbiges Lichtband am Himmel."
+   },
+   "quelle": {
+    "titel": "Regenbogen",
+    "url": "https://de.wikipedia.org/wiki/Regenbogen",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 267,
+   "bildInfos": [
+    {
+     "titel": "Double-alaskan-rainbow.jpg",
+     "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
+     "urheber": "Eric Rolph at English Wikipedia",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "artikel": "Regenbogen",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Ein Regenbogen zeigt sich als farbiges Lichtband am Himmel."
+    },
+    {
+     "titel": "Bad nauheim p 003.jpg",
+     "beschreibung": "Rainbows im Kurpark Bad Nauheim",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bad_nauheim_p_003.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bad_nauheim_p_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bad_nauheim_p_003.jpg",
+     "urheber": "Peng ( talk ) 13:55, 15 August 2012 (UTC)",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Rainbows im Kurpark Bad Nauheim"
+    },
+    {
+     "titel": "Caumasee Rainbow.jpg",
+     "beschreibung": "After a thunderstorm millions of small particles from the woods around form a layer on Lake Cauma that shape the lake surface three-dimensional to reflect the morning sun. On the right side you see a ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Caumasee_Rainbow.jpg/1280px-Caumasee_Rainbow.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Caumasee_Rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Caumasee_Rainbow.jpg",
+     "urheber": "Mukitil",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "After a thunderstorm millions of small particles from the woods around form a layer on Lake Cauma that shape the lake surface three-dimensional to reflect the morning sun. On the right side you see a "
+    },
+    {
+     "titel": "Circular rainbow.jpg",
+     "beschreibung": "A circular rainbow (with faint double rainbow) captured on video while skydiving.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Circular_rainbow.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Circular_rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Circular_rainbow.jpg",
+     "urheber": "Steve Kaufman",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "A circular rainbow (with faint double rainbow) captured on video while skydiving."
+    },
+    {
+     "titel": "Descartes Rainbow.png",
+     "beschreibung": "René Descartes’ sketch of how a rainbow is formed",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Descartes_Rainbow.png/1280px-Descartes_Rainbow.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Descartes_Rainbow.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Descartes_Rainbow.png",
+     "urheber": "René Descartes",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "René Descartes’ sketch of how a rainbow is formed"
+    },
+    {
+     "titel": "Double-Rainbow.jpg",
+     "beschreibung": "A double rainbow fotografed in Karlsruhe on July 22, 2011.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Double-Rainbow.jpg/1280px-Double-Rainbow.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/Double-Rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Double-Rainbow.jpg",
+     "urheber": "User:LeonardoWeiss",
+     "lizenz": "CC BY 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "A double rainbow fotografed in Karlsruhe on July 22, 2011."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Double-alaskan-rainbow.jpg",
+    "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
+    "urheber": "Eric Rolph at English Wikipedia",
+    "lizenz": "CC BY-SA 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "artikel": "Regenbogen",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Ein Regenbogen zeigt sich als farbiges Lichtband am Himmel."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-ohrwurm",
    "zeit": "2026-10-09T09:10:49.150Z",
@@ -6603,131 +6783,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Flamingos haben einen langen Hals, lange Beine und ein rosa Gefieder."
-   }
-  },
-  {
-   "id": "was-ist-eigentlich-ein-schwarzes-loch",
-   "zeit": "2026-09-22T04:35:02.299Z",
-   "bereich": "Weltall",
-   "titel": "Was ist eigentlich ein Schwarzes Loch?",
-   "vorspann": "Ein Schwarzes Loch ist ein Objekt mit so starker Schwerkraft, dass nicht einmal Licht entkommen kann. Die Grenze dieses Bereichs wird als Ereignishorizont bezeichnet.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Ein Schwarzes Loch ist ein Objekt, dessen Masse die Raumzeit extrem stark krümmt. Materie, Licht und jegliche Information bleiben dadurch auf einen bestimmten Bereich beschränkt. Sie können diesen Bereich nicht mehr unmittelbar verlassen. Die Grenze dieses Bereichs nennt man den Ereignishorizont.",
-      "Die Bezeichnung Schwarzes Loch wurde im Jahr 1967 durch John Archibald Wheeler etabliert. Zu dieser Zeit galt die Existenz dieser Objekte zwar als sehr wahrscheinlich, war aber noch nicht durch Beobachtungen bestätigt. Später wurden zahlreiche Auswirkungen im Universum beobachtet. Dazu gehören supermassereiche Schwarze Löcher im Zentrum von Galaxien."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Allgemein hat die Masse eines Körpers immer Gravitationskräfte zur Folge. Wenn eine kritische Dichte überschritten wird, reichen die inneren Gegenkräfte nicht mehr aus. Ein Gravitationskollaps ist die unvermeidliche Folge dieses Prozesses. Die Masse fällt dabei auf ein sehr kleines Volumen zusammen.",
-      "Stellare Schwarze Löcher entstehen, wenn ein gealterter massereicher Stern kollabiert. Der Strahlungsdruck von innen kann dann dem Gasdruck der äußeren Schichten nicht mehr standhalten. Supermassereiche Schwarze Löcher stehen dagegen im Zentrum von Galaxien und besitzen eine millionen- bis milliardenfache Sonnenmasse.",
-      "Außerhalb des Ereignishorizonts kann sich ein inaktives Schwarzes Loch wie ein normaler Massekörper verhalten. Es kann von anderen Himmelskörpern auf stabilen Bahnen umrundet werden. Die Struktur der Raumzeit eines Schwarzen Lochs wird durch die allgemeine Relativitätstheorie beschrieben."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Im Jahr 1916 gab der Astronom Karl Schwarzschild erstmals eine Metrik für das Gravitationsfeld an. In den späten 1920er Jahren zeigte der Astrophysiker Subrahmanyan Chandrasekhar eine gewisse Grenzmasse für solche Objekte. Robert Oppenheimer wies im Jahr 1939 durch Modellrechnungen nach, dass beim Kollaps eines großen Sterns ein Schwarzes Loch entstehen würde.",
-      "Im Jahr 1971 folgte mit der Entdeckung von Cygnus X-1 der erste beobachtbare Kandidat für ein Schwarzes Loch. Im Jahr 2016 wurde die Fusion zweier Schwarzer Löcher über Gravitationswellen beobachtet. Im Jahr 2019 und im Jahr 2022 gelangen radioteleskopische Aufnahmen von supermassereichen Schwarzen Löchern mit dem Event Horizon Telescope."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Der Wikipedia-Artikel enthält keinen Abschnitt über ungelöste Fragen der Forschung, weshalb hierzu keine Angaben gemacht werden können."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Etablierung des Begriffs",
-     "1967"
-    ],
-    [
-     "Erster beobachtbarer Kandidat",
-     "1971"
-    ],
-    [
-     "Aufnahme von M87*",
-     "2019"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Ereignishorizont",
-     "Die Grenze eines Schwarzen Lochs, von der aus Licht und Materie nicht mehr entkommen können."
-    ],
-    [
-     "Gravitationskollaps",
-     "Der Zusammensturz eines massereichen Körpers unter seiner eigenen Schwerkraft."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wer etablierte den Begriff Schwarzes Loch im Jahr 1967?",
-     "optionen": [
-      "John Archibald Wheeler",
-      "Albert Einstein",
-      "Karl Schwarzschild"
-     ],
-     "richtig": 0,
-     "erklaerung": "John Archibald Wheeler hat den Begriff im Jahr 1967 etabliert."
-    }
-   ],
-   "video": [
-    "Ein Schwarzes Loch krümmt die Raumzeit extrem stark.",
-    "Selbst Licht kann diesen Bereich nicht mehr verlassen.",
-    "Die Grenze dieses Bereichs heißt Ereignishorizont.",
-    "John Archibald Wheeler etablierte den Begriff im Jahr neunzehnhundertsiebenundsechzig.",
-    "Stellare Schwarze Löcher entstehen durch den Kollaps von Sternen.",
-    "Supermassereiche Schwarze Löcher befinden sich im Zentrum von Galaxien.",
-    "Im Jahr zweitausendneunzehn gelang ein erstes Bild eines Schwarzen Lochs."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Schwarzes Loch",
-    "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
-   },
-   "quelle": {
-    "titel": "Schwarzes Loch",
-    "url": "https://de.wikipedia.org/wiki/Schwarzes_Loch",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 324,
-   "bildInfos": [
-    {
-     "titel": "Black hole - Messier 87 crop max res.jpg",
-     "beschreibung": "The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole . In coordin",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
-     "urheber": "Event Horizon Telescope , uploader cropped and converted TIF to JPG",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "artikel": "Schwarzes Loch",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Black hole - Messier 87 crop max res.jpg",
-    "beschreibung": "The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole . In coordin",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
-    "urheber": "Event Horizon Telescope , uploader cropped and converted TIF to JPG",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-    "artikel": "Schwarzes Loch",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
    }
   }
  ]

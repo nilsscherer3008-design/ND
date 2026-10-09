@@ -1,7 +1,6 @@
 {
- "stand": "2026-10-09T09:01:32.429Z",
+ "stand": "2026-10-09T16:08:35.952Z",
  "gepusht": [
-  "dieseltrend-hoechststand-spritpreise",
   "brandanschlag-synagoge-wuppertal",
   "klopp-dfb-kader-nominierung",
   "usa-sanktionen-russland-kongress",
@@ -77,7 +76,11 @@
   "kanadierin-anne-carson-erhaelt-literaturnobelpreis",
   "bundesregierung-erhebt-konjunkturprognose-fuer-2026",
   "gericht-kippt-bundesnetzagentur-klausel-fuer-deutsche-bahn",
-  "huthi-angriffe-auf-saudi-arabien-und-reaktionen"
+  "huthi-angriffe-auf-saudi-arabien-und-reaktionen",
+  "friedensnobelpreis-navanethem-pillay",
+  "schroeder-besuch-putin-geburtstag",
+  "mecklenburg-vorpommern-koalitionsverhandlungen",
+  "todesfaelle-waffenkontrolle-berngau"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -92,10 +95,14 @@
   "kanadierin-anne-carson-erhaelt-literaturnobelpreis",
   "bundesregierung-erhebt-konjunkturprognose-fuer-2026",
   "gericht-kippt-bundesnetzagentur-klausel-fuer-deutsche-bahn",
-  "huthi-angriffe-auf-saudi-arabien-und-reaktionen"
+  "huthi-angriffe-auf-saudi-arabien-und-reaktionen",
+  "friedensnobelpreis-navanethem-pillay",
+  "schroeder-besuch-putin-geburtstag",
+  "mecklenburg-vorpommern-koalitionsverhandlungen",
+  "todesfaelle-waffenkontrolle-berngau"
  ],
  "wetter": {
-  "stand": "2026-10-09T09:01:32.429Z",
+  "stand": "2026-10-09T16:08:35.952Z",
   "morgenTag": "Samstag",
   "orte": [
    {
@@ -106,24 +113,24 @@
     "jetzt": {
      "grad": 11,
      "code": 61,
-     "gefuehlt": 7,
-     "wind": 19,
-     "windAus": 223,
-     "feuchte": 81,
-     "druck": 1009,
+     "gefuehlt": 9,
+     "wind": 17,
+     "windAus": 219,
+     "feuchte": 91,
+     "druck": 1002,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-09",
-     "code": 80,
-     "max": 13,
+     "code": 61,
+     "max": 14,
      "min": 9,
-     "regen": 88,
-     "menge": 7.8,
-     "wind": 19,
-     "windAus": 225,
-     "uv": 0.9,
+     "regen": 95,
+     "menge": 7.6,
+     "wind": 20,
+     "windAus": 226,
+     "uv": 1,
      "auf": "07:35",
      "unter": "18:37"
     },
@@ -132,8 +139,8 @@
      "code": 80,
      "max": 14,
      "min": 10,
-     "regen": 90,
-     "menge": 8.6,
+     "regen": 88,
+     "menge": 3.1,
      "wind": 22,
      "windAus": 236,
      "uv": 3,
@@ -143,14 +150,14 @@
     "tage": [
      {
       "datum": "2026-10-09",
-      "code": 80,
-      "max": 13,
+      "code": 61,
+      "max": 14,
       "min": 9,
-      "regen": 88,
-      "menge": 7.8,
-      "wind": 19,
-      "windAus": 225,
-      "uv": 0.9,
+      "regen": 95,
+      "menge": 7.6,
+      "wind": 20,
+      "windAus": 226,
+      "uv": 1,
       "auf": "07:35",
       "unter": "18:37"
      },
@@ -159,8 +166,8 @@
       "code": 80,
       "max": 14,
       "min": 10,
-      "regen": 90,
-      "menge": 8.6,
+      "regen": 88,
+      "menge": 3.1,
       "wind": 22,
       "windAus": 236,
       "uv": 3,
@@ -169,39 +176,39 @@
      },
      {
       "datum": "2026-10-11",
-      "code": 95,
-      "max": 12,
-      "min": 9,
-      "regen": 58,
-      "menge": 2.7,
-      "wind": 17,
-      "windAus": 249,
-      "uv": 2.5,
+      "code": 80,
+      "max": 13,
+      "min": 8,
+      "regen": 63,
+      "menge": 1.6,
+      "wind": 20,
+      "windAus": 251,
+      "uv": 2,
       "auf": "07:39",
       "unter": "18:33"
      },
      {
       "datum": "2026-10-12",
-      "code": 2,
-      "max": 14,
-      "min": 5,
-      "regen": 7,
+      "code": 3,
+      "max": 15,
+      "min": 7,
+      "regen": 10,
       "menge": 0,
-      "wind": 7,
-      "windAus": 303,
-      "uv": 2.8,
+      "wind": 8,
+      "windAus": 261,
+      "uv": 2.5,
       "auf": "07:41",
       "unter": "18:30"
      },
      {
       "datum": "2026-10-13",
-      "code": 3,
-      "max": 16,
-      "min": 6,
-      "regen": 19,
-      "menge": 1.2,
-      "wind": 11,
-      "windAus": 162,
+      "code": 63,
+      "max": 14,
+      "min": 7,
+      "regen": 36,
+      "menge": 7.2,
+      "wind": 12,
+      "windAus": 168,
       "uv": 2.8,
       "auf": "07:43",
       "unter": "18:28"
@@ -210,149 +217,107 @@
       "datum": "2026-10-14",
       "code": 3,
       "max": 17,
-      "min": 12,
-      "regen": 24,
+      "min": 10,
+      "regen": 38,
       "menge": 0,
-      "wind": 6,
-      "windAus": 278,
+      "wind": 11,
+      "windAus": 250,
       "uv": 2.6,
       "auf": "07:45",
       "unter": "18:26"
      },
      {
       "datum": "2026-10-15",
-      "code": 45,
-      "max": 19,
+      "code": 3,
+      "max": 17,
       "min": 9,
       "regen": 16,
       "menge": 0,
-      "wind": 12,
-      "windAus": 188,
-      "uv": 1.2,
+      "wind": 10,
+      "windAus": 189,
+      "uv": 2.2,
       "auf": "07:46",
       "unter": "18:23"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 25
-     },
-     {
-      "zeit": "12:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 43
-     },
-     {
-      "zeit": "13:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 53
-     },
-     {
-      "zeit": "14:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 75
-     },
-     {
-      "zeit": "15:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 68
-     },
-     {
-      "zeit": "16:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 73
-     },
-     {
-      "zeit": "17:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 80
-     },
-     {
       "zeit": "18:00",
       "grad": 11,
       "code": 61,
-      "regen": 85
+      "regen": 95
      },
      {
       "zeit": "19:00",
-      "grad": 11,
+      "grad": 12,
       "code": 61,
-      "regen": 88
+      "regen": 78
      },
      {
       "zeit": "20:00",
       "grad": 12,
-      "code": 80,
-      "regen": 75
+      "code": 61,
+      "regen": 58
      },
      {
       "zeit": "21:00",
       "grad": 13,
-      "code": 61,
-      "regen": 53
+      "code": 3,
+      "regen": 43
      },
      {
       "zeit": "22:00",
       "grad": 13,
-      "code": 80,
-      "regen": 35
+      "code": 3,
+      "regen": 48
      },
      {
       "zeit": "23:00",
-      "grad": 13,
+      "grad": 14,
       "code": 61,
-      "regen": 40
+      "regen": 50
      },
      {
       "zeit": "00:00",
-      "grad": 13,
-      "code": 63,
-      "regen": 53
+      "grad": 14,
+      "code": 61,
+      "regen": 60
      },
      {
       "zeit": "01:00",
       "grad": 14,
-      "code": 80,
-      "regen": 35
+      "code": 63,
+      "regen": 70
      },
      {
       "zeit": "02:00",
       "grad": 14,
-      "code": 61,
-      "regen": 28
+      "code": 63,
+      "regen": 58
      },
      {
       "zeit": "03:00",
       "grad": 14,
-      "code": 63,
-      "regen": 28
+      "code": 80,
+      "regen": 43
      },
      {
       "zeit": "04:00",
-      "grad": 13,
+      "grad": 14,
       "code": 2,
-      "regen": 38
+      "regen": 50
      },
      {
       "zeit": "05:00",
       "grad": 13,
-      "code": 80,
-      "regen": 30
+      "code": 3,
+      "regen": 38
      },
      {
       "zeit": "06:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 10
+      "grad": 12,
+      "code": 80,
+      "regen": 13
      },
      {
       "zeit": "07:00",
@@ -362,13 +327,13 @@
      },
      {
       "zeit": "08:00",
-      "grad": 12,
+      "grad": 11,
       "code": 2,
       "regen": 0
      },
      {
       "zeit": "09:00",
-      "grad": 12,
+      "grad": 11,
       "code": 2,
       "regen": 0
      },
@@ -376,7 +341,49 @@
       "zeit": "10:00",
       "grad": 12,
       "code": 3,
-      "regen": 0
+      "regen": 5
+     },
+     {
+      "zeit": "11:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "12:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 18
+     },
+     {
+      "zeit": "13:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 30
+     },
+     {
+      "zeit": "14:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 45
+     },
+     {
+      "zeit": "15:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 70
+     },
+     {
+      "zeit": "16:00",
+      "grad": 13,
+      "code": 80,
+      "regen": 83
+     },
+     {
+      "zeit": "17:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 88
      }
     ]
    },
@@ -386,38 +393,38 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 12,
-     "code": 3,
-     "gefuehlt": 9,
-     "wind": 15,
-     "windAus": 242,
-     "feuchte": 68,
-     "druck": 1010,
-     "niederschlag": 0,
+     "grad": 11,
+     "code": 61,
+     "gefuehlt": 8,
+     "wind": 17,
+     "windAus": 218,
+     "feuchte": 73,
+     "druck": 1005,
+     "niederschlag": 0.3,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-09",
      "code": 61,
-     "max": 13,
+     "max": 14,
      "min": 10,
      "regen": 88,
-     "menge": 3.2,
+     "menge": 3.1,
      "wind": 19,
-     "windAus": 238,
+     "windAus": 239,
      "uv": 2.8,
      "auf": "07:21",
      "unter": "18:25"
     },
     "morgen": {
      "datum": "2026-10-10",
-     "code": 61,
+     "code": 80,
      "max": 17,
      "min": 11,
-     "regen": 90,
-     "menge": 5.4,
-     "wind": 19,
-     "windAus": 240,
+     "regen": 85,
+     "menge": 2.9,
+     "wind": 18,
+     "windAus": 239,
      "uv": 3.1,
      "auf": "07:22",
      "unter": "18:23"
@@ -426,25 +433,25 @@
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 13,
+      "max": 14,
       "min": 10,
       "regen": 88,
-      "menge": 3.2,
+      "menge": 3.1,
       "wind": 19,
-      "windAus": 238,
+      "windAus": 239,
       "uv": 2.8,
       "auf": "07:21",
       "unter": "18:25"
      },
      {
       "datum": "2026-10-10",
-      "code": 61,
+      "code": 80,
       "max": 17,
       "min": 11,
-      "regen": 90,
-      "menge": 5.4,
-      "wind": 19,
-      "windAus": 240,
+      "regen": 85,
+      "menge": 2.9,
+      "wind": 18,
+      "windAus": 239,
       "uv": 3.1,
       "auf": "07:22",
       "unter": "18:23"
@@ -454,197 +461,155 @@
       "code": 80,
       "max": 13,
       "min": 9,
-      "regen": 78,
-      "menge": 2.5,
-      "wind": 16,
-      "windAus": 236,
-      "uv": 2.5,
+      "regen": 83,
+      "menge": 2.3,
+      "wind": 17,
+      "windAus": 240,
+      "uv": 2.9,
       "auf": "07:24",
       "unter": "18:20"
      },
      {
       "datum": "2026-10-12",
       "code": 3,
-      "max": 13,
-      "min": 8,
-      "regen": 17,
+      "max": 14,
+      "min": 7,
+      "regen": 32,
       "menge": 0,
-      "wind": 10,
-      "windAus": 291,
+      "wind": 15,
+      "windAus": 289,
       "uv": 2.9,
       "auf": "07:26",
       "unter": "18:18"
      },
      {
       "datum": "2026-10-13",
-      "code": 45,
-      "max": 16,
+      "code": 61,
+      "max": 17,
       "min": 3,
-      "regen": 7,
-      "menge": 0,
-      "wind": 8,
-      "windAus": 165,
-      "uv": 3,
+      "regen": 19,
+      "menge": 2.4,
+      "wind": 12,
+      "windAus": 177,
+      "uv": 2.9,
       "auf": "07:28",
       "unter": "18:16"
      },
      {
       "datum": "2026-10-14",
       "code": 3,
-      "max": 16,
+      "max": 17,
       "min": 10,
-      "regen": 13,
+      "regen": 40,
       "menge": 0,
-      "wind": 6,
-      "windAus": 200,
+      "wind": 11,
+      "windAus": 281,
       "uv": 2.8,
       "auf": "07:29",
       "unter": "18:14"
      },
      {
       "datum": "2026-10-15",
-      "code": 45,
-      "max": 19,
-      "min": 11,
+      "code": 3,
+      "max": 18,
+      "min": 6,
       "regen": 5,
       "menge": 0,
-      "wind": 6,
-      "windAus": 159,
-      "uv": 2.3,
+      "wind": 9,
+      "windAus": 169,
+      "uv": 2.5,
       "auf": "07:31",
       "unter": "18:11"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 8
-     },
-     {
-      "zeit": "16:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 18
-     },
-     {
-      "zeit": "17:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 38
-     },
-     {
       "zeit": "18:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 60
-     },
-     {
-      "zeit": "19:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 68
-     },
-     {
-      "zeit": "20:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 75
-     },
-     {
-      "zeit": "21:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 78
-     },
-     {
-      "zeit": "22:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 85
-     },
-     {
-      "zeit": "23:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 88
-     },
-     {
-      "zeit": "00:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 90
-     },
-     {
-      "zeit": "01:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 83
-     },
-     {
-      "zeit": "02:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 88
-     },
-     {
-      "zeit": "03:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 75
-     },
-     {
-      "zeit": "04:00",
       "grad": 12,
       "code": 61,
       "regen": 58
      },
      {
-      "zeit": "05:00",
+      "zeit": "19:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 83
+     },
+     {
+      "zeit": "20:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 80
+     },
+     {
+      "zeit": "21:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 85
+     },
+     {
+      "zeit": "22:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 88
+     },
+     {
+      "zeit": "23:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 70
+     },
+     {
+      "zeit": "00:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 85
+     },
+     {
+      "zeit": "01:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 78
+     },
+     {
+      "zeit": "02:00",
       "grad": 12,
       "code": 61,
-      "regen": 35
+      "regen": 83
+     },
+     {
+      "zeit": "03:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 78
+     },
+     {
+      "zeit": "04:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 65
+     },
+     {
+      "zeit": "05:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 55
      },
      {
       "zeit": "06:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 15
+      "grad": 13,
+      "code": 3,
+      "regen": 40
      },
      {
       "zeit": "07:00",
-      "grad": 12,
+      "grad": 13,
       "code": 2,
-      "regen": 8
+      "regen": 23
      },
      {
       "zeit": "08:00",
-      "grad": 12,
+      "grad": 13,
       "code": 2,
       "regen": 10
      },
@@ -652,13 +617,55 @@
       "zeit": "09:00",
       "grad": 13,
       "code": 2,
-      "regen": 3
+      "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 14,
       "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 10
+     },
+     {
+      "zeit": "12:00",
+      "grad": 16,
+      "code": 2,
       "regen": 5
+     },
+     {
+      "zeit": "13:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 3
+     },
+     {
+      "zeit": "14:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 17,
+      "code": 1,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
      }
     ]
    },
@@ -669,13 +676,13 @@
     "teil": "Osten",
     "jetzt": {
      "grad": 11,
-     "code": 3,
+     "code": 61,
      "gefuehlt": 8,
-     "wind": 14,
-     "windAus": 223,
-     "feuchte": 67,
-     "druck": 1004,
-     "niederschlag": 0,
+     "wind": 15,
+     "windAus": 221,
+     "feuchte": 80,
+     "druck": 998,
+     "niederschlag": 0.4,
      "tag": 1
     },
     "heute": {
@@ -683,10 +690,10 @@
      "code": 61,
      "max": 13,
      "min": 8,
-     "regen": 95,
-     "menge": 5.2,
-     "wind": 18,
-     "windAus": 229,
+     "regen": 98,
+     "menge": 7,
+     "wind": 17,
+     "windAus": 231,
      "uv": 2.6,
      "auf": "07:24",
      "unter": "18:30"
@@ -694,13 +701,13 @@
     "morgen": {
      "datum": "2026-10-10",
      "code": 61,
-     "max": 17,
+     "max": 16,
      "min": 10,
-     "regen": 78,
-     "menge": 4.4,
-     "wind": 16,
-     "windAus": 236,
-     "uv": 3.3,
+     "regen": 90,
+     "menge": 1.7,
+     "wind": 15,
+     "windAus": 237,
+     "uv": 3.2,
      "auf": "07:25",
      "unter": "18:28"
     },
@@ -710,10 +717,10 @@
       "code": 61,
       "max": 13,
       "min": 8,
-      "regen": 95,
-      "menge": 5.2,
-      "wind": 18,
-      "windAus": 229,
+      "regen": 98,
+      "menge": 7,
+      "wind": 17,
+      "windAus": 231,
       "uv": 2.6,
       "auf": "07:24",
       "unter": "18:30"
@@ -721,218 +728,176 @@
      {
       "datum": "2026-10-10",
       "code": 61,
-      "max": 17,
+      "max": 16,
       "min": 10,
-      "regen": 78,
-      "menge": 4.4,
-      "wind": 16,
-      "windAus": 236,
-      "uv": 3.3,
+      "regen": 90,
+      "menge": 1.7,
+      "wind": 15,
+      "windAus": 237,
+      "uv": 3.2,
       "auf": "07:25",
       "unter": "18:28"
      },
      {
       "datum": "2026-10-11",
       "code": 80,
-      "max": 14,
+      "max": 13,
       "min": 8,
-      "regen": 38,
-      "menge": 0.5,
-      "wind": 16,
-      "windAus": 240,
-      "uv": 3.2,
+      "regen": 41,
+      "menge": 1.1,
+      "wind": 18,
+      "windAus": 241,
+      "uv": 3.1,
       "auf": "07:27",
       "unter": "18:26"
      },
      {
       "datum": "2026-10-12",
-      "code": 3,
-      "max": 14,
+      "code": 2,
+      "max": 15,
       "min": 7,
-      "regen": 21,
-      "menge": 0.1,
+      "regen": 25,
+      "menge": 0,
       "wind": 10,
-      "windAus": 286,
-      "uv": 2.9,
+      "windAus": 276,
+      "uv": 2.7,
       "auf": "07:29",
       "unter": "18:24"
      },
      {
       "datum": "2026-10-13",
-      "code": 3,
-      "max": 16,
+      "code": 61,
+      "max": 17,
       "min": 5,
-      "regen": 6,
-      "menge": 0,
-      "wind": 6,
-      "windAus": 162,
+      "regen": 12,
+      "menge": 3.6,
+      "wind": 9,
+      "windAus": 184,
       "uv": 3.2,
       "auf": "07:30",
       "unter": "18:22"
      },
      {
       "datum": "2026-10-14",
-      "code": 61,
-      "max": 15,
+      "code": 3,
+      "max": 17,
       "min": 10,
-      "regen": 30,
-      "menge": 0.9,
-      "wind": 5,
-      "windAus": 208,
-      "uv": 1.3,
+      "regen": 32,
+      "menge": 0.6,
+      "wind": 7,
+      "windAus": 268,
+      "uv": 2.9,
       "auf": "07:32",
       "unter": "18:19"
      },
      {
       "datum": "2026-10-15",
-      "code": 45,
-      "max": 20,
-      "min": 10,
+      "code": 1,
+      "max": 18,
+      "min": 7,
       "regen": 11,
       "menge": 0,
-      "wind": 5,
-      "windAus": 155,
-      "uv": 2.1,
+      "wind": 7,
+      "windAus": 168,
+      "uv": 2.7,
       "auf": "07:34",
       "unter": "18:17"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 8
-     },
-     {
-      "zeit": "15:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 20
-     },
-     {
-      "zeit": "16:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 55
-     },
-     {
-      "zeit": "17:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 88
-     },
-     {
       "zeit": "18:00",
       "grad": 11,
       "code": 61,
-      "regen": 95
+      "regen": 98
      },
      {
       "zeit": "19:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
       "regen": 95
      },
      {
       "zeit": "20:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
       "regen": 93
      },
      {
       "zeit": "21:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
-      "regen": 95
+      "regen": 83
      },
      {
       "zeit": "22:00",
       "grad": 11,
       "code": 61,
-      "regen": 78
+      "regen": 68
      },
      {
       "zeit": "23:00",
       "grad": 11,
       "code": 61,
-      "regen": 73
+      "regen": 48
      },
      {
       "zeit": "00:00",
-      "grad": 11,
+      "grad": 12,
       "code": 61,
-      "regen": 60
+      "regen": 43
      },
      {
       "zeit": "01:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 60
+      "grad": 12,
+      "code": 61,
+      "regen": 38
      },
      {
       "zeit": "02:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 70
+      "grad": 12,
+      "code": 61,
+      "regen": 33
      },
      {
       "zeit": "03:00",
       "grad": 12,
-      "code": 3,
-      "regen": 78
+      "code": 61,
+      "regen": 58
      },
      {
       "zeit": "04:00",
       "grad": 12,
       "code": 61,
-      "regen": 68
+      "regen": 90
      },
      {
       "zeit": "05:00",
       "grad": 12,
       "code": 61,
-      "regen": 63
+      "regen": 88
      },
      {
       "zeit": "06:00",
       "grad": 12,
       "code": 61,
-      "regen": 50
+      "regen": 70
      },
      {
       "zeit": "07:00",
       "grad": 12,
       "code": 61,
-      "regen": 30
+      "regen": 35
      },
      {
       "zeit": "08:00",
       "grad": 12,
       "code": 3,
-      "regen": 5
+      "regen": 13
      },
      {
       "zeit": "09:00",
-      "grad": 12,
+      "grad": 13,
       "code": 3,
       "regen": 3
      },
@@ -940,6 +905,48 @@
       "zeit": "10:00",
       "grad": 13,
       "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "11:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "13:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "14:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 3
+     },
+     {
+      "zeit": "15:00",
+      "grad": 16,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 16,
+      "code": 2,
       "regen": 0
      }
     ]
@@ -950,14 +957,14 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 10,
-     "code": 53,
-     "gefuehlt": 7,
-     "wind": 14,
-     "windAus": 163,
-     "feuchte": 82,
-     "druck": 1008,
-     "niederschlag": 0.2,
+     "grad": 13,
+     "code": 3,
+     "gefuehlt": 12,
+     "wind": 10,
+     "windAus": 186,
+     "feuchte": 84,
+     "druck": 1003,
+     "niederschlag": 0,
      "tag": 1
     },
     "heute": {
@@ -966,23 +973,23 @@
      "max": 13,
      "min": 10,
      "regen": 100,
-     "menge": 8.2,
+     "menge": 7.8,
      "wind": 16,
-     "windAus": 196,
-     "uv": 1,
+     "windAus": 199,
+     "uv": 0.7,
      "auf": "07:45",
      "unter": "18:52"
     },
     "morgen": {
      "datum": "2026-10-10",
-     "code": 53,
+     "code": 61,
      "max": 15,
      "min": 11,
      "regen": 100,
-     "menge": 2.6,
-     "wind": 18,
-     "windAus": 247,
-     "uv": 3.4,
+     "menge": 6,
+     "wind": 19,
+     "windAus": 251,
+     "uv": 3.3,
      "auf": "07:46",
      "unter": "18:50"
     },
@@ -993,23 +1000,23 @@
       "max": 13,
       "min": 10,
       "regen": 100,
-      "menge": 8.2,
+      "menge": 7.8,
       "wind": 16,
-      "windAus": 196,
-      "uv": 1,
+      "windAus": 199,
+      "uv": 0.7,
       "auf": "07:45",
       "unter": "18:52"
      },
      {
       "datum": "2026-10-10",
-      "code": 53,
+      "code": 61,
       "max": 15,
       "min": 11,
       "regen": 100,
-      "menge": 2.6,
-      "wind": 18,
-      "windAus": 247,
-      "uv": 3.4,
+      "menge": 6,
+      "wind": 19,
+      "windAus": 251,
+      "uv": 3.3,
       "auf": "07:46",
       "unter": "18:50"
      },
@@ -1018,11 +1025,11 @@
       "code": 51,
       "max": 14,
       "min": 9,
-      "regen": 41,
-      "menge": 0.9,
-      "wind": 22,
-      "windAus": 255,
-      "uv": 3.1,
+      "regen": 47,
+      "menge": 0.7,
+      "wind": 21,
+      "windAus": 251,
+      "uv": 2.8,
       "auf": "07:48",
       "unter": "18:48"
      },
@@ -1030,11 +1037,11 @@
       "datum": "2026-10-12",
       "code": 3,
       "max": 16,
-      "min": 7,
-      "regen": 8,
+      "min": 6,
+      "regen": 16,
       "menge": 0,
-      "wind": 9,
-      "windAus": 148,
+      "wind": 11,
+      "windAus": 152,
       "uv": 3.3,
       "auf": "07:50",
       "unter": "18:46"
@@ -1042,26 +1049,26 @@
      {
       "datum": "2026-10-13",
       "code": 51,
-      "max": 16,
+      "max": 17,
       "min": 10,
-      "regen": 24,
-      "menge": 0.6,
+      "regen": 25,
+      "menge": 1.2,
       "wind": 13,
-      "windAus": 148,
-      "uv": 2,
+      "windAus": 145,
+      "uv": 1.7,
       "auf": "07:51",
       "unter": "18:44"
      },
      {
       "datum": "2026-10-14",
-      "code": 51,
-      "max": 20,
+      "code": 55,
+      "max": 19,
       "min": 12,
-      "regen": 28,
-      "menge": 1.8,
-      "wind": 9,
-      "windAus": 246,
-      "uv": 2.9,
+      "regen": 41,
+      "menge": 4.2,
+      "wind": 13,
+      "windAus": 253,
+      "uv": 2.8,
       "auf": "07:53",
       "unter": "18:42"
      },
@@ -1069,160 +1076,160 @@
       "datum": "2026-10-15",
       "code": 3,
       "max": 20,
-      "min": 9,
-      "regen": 31,
+      "min": 10,
+      "regen": 16,
       "menge": 0,
       "wind": 12,
-      "windAus": 196,
-      "uv": 1.5,
+      "windAus": 195,
+      "uv": 2.7,
       "auf": "07:55",
       "unter": "18:39"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 10,
-      "code": 53,
-      "regen": 100
-     },
-     {
-      "zeit": "12:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 100
-     },
-     {
-      "zeit": "13:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 100
-     },
-     {
-      "zeit": "14:00",
-      "grad": 10,
-      "code": 53,
-      "regen": 100
-     },
-     {
-      "zeit": "15:00",
-      "grad": 11,
-      "code": 53,
-      "regen": 96
-     },
-     {
-      "zeit": "16:00",
-      "grad": 12,
-      "code": 51,
-      "regen": 91
-     },
-     {
-      "zeit": "17:00",
-      "grad": 12,
-      "code": 53,
-      "regen": 84
-     },
-     {
       "zeit": "18:00",
-      "grad": 12,
+      "grad": 13,
       "code": 3,
-      "regen": 74
+      "regen": 38
      },
      {
       "zeit": "19:00",
       "grad": 13,
       "code": 3,
-      "regen": 63
+      "regen": 24
      },
      {
       "zeit": "20:00",
       "grad": 13,
-      "code": 53,
-      "regen": 59
+      "code": 3,
+      "regen": 22
      },
      {
       "zeit": "21:00",
       "grad": 13,
       "code": 51,
-      "regen": 68
+      "regen": 41
      },
      {
       "zeit": "22:00",
-      "grad": 12,
-      "code": 53,
-      "regen": 84
+      "grad": 13,
+      "code": 51,
+      "regen": 73
      },
      {
       "zeit": "23:00",
       "grad": 13,
-      "code": 51,
+      "code": 61,
       "regen": 96
      },
      {
       "zeit": "00:00",
       "grad": 13,
-      "code": 53,
+      "code": 51,
       "regen": 100
      },
      {
       "zeit": "01:00",
       "grad": 13,
-      "code": 51,
+      "code": 61,
       "regen": 100
      },
      {
       "zeit": "02:00",
-      "grad": 14,
-      "code": 51,
+      "grad": 13,
+      "code": 61,
       "regen": 100
      },
      {
       "zeit": "03:00",
       "grad": 14,
-      "code": 51,
-      "regen": 99
+      "code": 61,
+      "regen": 97
      },
      {
       "zeit": "04:00",
       "grad": 13,
-      "code": 0,
-      "regen": 95
+      "code": 3,
+      "regen": 91
      },
      {
       "zeit": "05:00",
       "grad": 13,
-      "code": 51,
-      "regen": 86
+      "code": 0,
+      "regen": 80
      },
      {
       "zeit": "06:00",
       "grad": 12,
-      "code": 53,
-      "regen": 65
+      "code": 3,
+      "regen": 57
      },
      {
       "zeit": "07:00",
       "grad": 12,
-      "code": 53,
-      "regen": 37
+      "code": 1,
+      "regen": 29
      },
      {
       "zeit": "08:00",
-      "grad": 11,
+      "grad": 12,
       "code": 0,
-      "regen": 16
+      "regen": 8
      },
      {
       "zeit": "09:00",
       "grad": 12,
-      "code": 3,
-      "regen": 7
+      "code": 0,
+      "regen": 0
      },
      {
       "zeit": "10:00",
       "grad": 12,
       "code": 3,
-      "regen": 3
+      "regen": 0
+     },
+     {
+      "zeit": "11:00",
+      "grad": 12,
+      "code": 51,
+      "regen": 0
+     },
+     {
+      "zeit": "12:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 2
+     },
+     {
+      "zeit": "15:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 7
+     },
+     {
+      "zeit": "16:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 13
+     },
+     {
+      "zeit": "17:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 18
      }
     ]
    },
@@ -1232,38 +1239,38 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 9,
+     "grad": 11,
      "code": 3,
-     "gefuehlt": 6,
-     "wind": 12,
-     "windAus": 212,
-     "feuchte": 86,
-     "druck": 1007,
+     "gefuehlt": 8,
+     "wind": 16,
+     "windAus": 218,
+     "feuchte": 78,
+     "druck": 1002,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-09",
      "code": 61,
-     "max": 10,
+     "max": 12,
      "min": 7,
-     "regen": 93,
-     "menge": 2.8,
-     "wind": 18,
+     "regen": 98,
+     "menge": 0.9,
+     "wind": 17,
      "windAus": 218,
-     "uv": 0.5,
+     "uv": 0.7,
      "auf": "07:37",
      "unter": "18:46"
     },
     "morgen": {
      "datum": "2026-10-10",
-     "code": 61,
-     "max": 17,
+     "code": 80,
+     "max": 16,
      "min": 10,
-     "regen": 93,
-     "menge": 3.5,
+     "regen": 90,
+     "menge": 1,
      "wind": 16,
-     "windAus": 231,
+     "windAus": 233,
      "uv": 3.5,
      "auf": "07:39",
      "unter": "18:44"
@@ -1272,25 +1279,25 @@
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 10,
+      "max": 12,
       "min": 7,
-      "regen": 93,
-      "menge": 2.8,
-      "wind": 18,
+      "regen": 98,
+      "menge": 0.9,
+      "wind": 17,
       "windAus": 218,
-      "uv": 0.5,
+      "uv": 0.7,
       "auf": "07:37",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-10",
-      "code": 61,
-      "max": 17,
+      "code": 80,
+      "max": 16,
       "min": 10,
-      "regen": 93,
-      "menge": 3.5,
+      "regen": 90,
+      "menge": 1,
       "wind": 16,
-      "windAus": 231,
+      "windAus": 233,
       "uv": 3.5,
       "auf": "07:39",
       "unter": "18:44"
@@ -1298,195 +1305,153 @@
      {
       "datum": "2026-10-11",
       "code": 3,
-      "max": 16,
+      "max": 15,
       "min": 7,
-      "regen": 8,
+      "regen": 5,
       "menge": 0,
-      "wind": 13,
-      "windAus": 248,
-      "uv": 3.1,
+      "wind": 14,
+      "windAus": 241,
+      "uv": 2.9,
       "auf": "07:40",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-12",
-      "code": 45,
-      "max": 15,
-      "min": 4,
-      "regen": 3,
+      "code": 2,
+      "max": 16,
+      "min": 3,
+      "regen": 5,
       "menge": 0,
-      "wind": 4,
-      "windAus": 179,
+      "wind": 6,
+      "windAus": 219,
       "uv": 3.4,
       "auf": "07:42",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-13",
-      "code": 3,
-      "max": 17,
-      "min": 3,
-      "regen": 7,
-      "menge": 0,
-      "wind": 4,
-      "windAus": 94,
+      "code": 61,
+      "max": 16,
+      "min": 5,
+      "regen": 15,
+      "menge": 0.6,
+      "wind": 7,
+      "windAus": 193,
       "uv": 3.3,
       "auf": "07:43",
       "unter": "18:38"
      },
      {
       "datum": "2026-10-14",
-      "code": 45,
-      "max": 18,
-      "min": 10,
-      "regen": 10,
-      "menge": 0,
-      "wind": 4,
-      "windAus": 189,
-      "uv": 2.7,
+      "code": 3,
+      "max": 17,
+      "min": 9,
+      "regen": 14,
+      "menge": 0.3,
+      "wind": 7,
+      "windAus": 31,
+      "uv": 2.2,
       "auf": "07:45",
       "unter": "18:36"
      },
      {
       "datum": "2026-10-15",
-      "code": 45,
-      "max": 20,
-      "min": 9,
+      "code": 2,
+      "max": 19,
+      "min": 6,
       "regen": 6,
       "menge": 0,
-      "wind": 4,
-      "windAus": 56,
-      "uv": 2.7,
+      "wind": 5,
+      "windAus": 57,
+      "uv": 2.5,
       "auf": "07:47",
       "unter": "18:34"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 9,
+      "zeit": "18:00",
+      "grad": 11,
       "code": 3,
-      "regen": 18
+      "regen": 43
      },
      {
-      "zeit": "12:00",
-      "grad": 10,
+      "zeit": "19:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "20:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "21:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "22:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 8
+     },
+     {
+      "zeit": "23:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 8
+     },
+     {
+      "zeit": "00:00",
+      "grad": 12,
       "code": 61,
       "regen": 28
      },
      {
-      "zeit": "13:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 23
-     },
-     {
-      "zeit": "14:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 33
-     },
-     {
-      "zeit": "15:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 88
-     },
-     {
-      "zeit": "16:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 93
-     },
-     {
-      "zeit": "17:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 93
-     },
-     {
-      "zeit": "18:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 58
-     },
-     {
-      "zeit": "19:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 25
-     },
-     {
-      "zeit": "20:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 10
-     },
-     {
-      "zeit": "21:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 13
-     },
-     {
-      "zeit": "22:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 15
-     },
-     {
-      "zeit": "23:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 25
-     },
-     {
-      "zeit": "00:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 58
-     },
-     {
       "zeit": "01:00",
-      "grad": 10,
+      "grad": 12,
       "code": 61,
-      "regen": 88
+      "regen": 55
      },
      {
       "zeit": "02:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
-      "regen": 93
+      "regen": 83
      },
      {
       "zeit": "03:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
-      "regen": 80
+      "regen": 90
      },
      {
       "zeit": "04:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
-      "regen": 75
+      "regen": 78
      },
      {
       "zeit": "05:00",
-      "grad": 10,
+      "grad": 11,
       "code": 61,
       "regen": 55
      },
      {
       "zeit": "06:00",
       "grad": 11,
-      "code": 3,
-      "regen": 18
+      "code": 61,
+      "regen": 15
      },
      {
       "zeit": "07:00",
       "grad": 11,
-      "code": 3,
-      "regen": 5
+      "code": 80,
+      "regen": 3
      },
      {
       "zeit": "08:00",
@@ -1498,13 +1463,55 @@
       "zeit": "09:00",
       "grad": 11,
       "code": 3,
-      "regen": 3
+      "regen": 5
      },
      {
       "zeit": "10:00",
       "grad": 12,
       "code": 2,
-      "regen": 5
+      "regen": 3
+     },
+     {
+      "zeit": "11:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 13
+     },
+     {
+      "zeit": "12:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "13:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "14:00",
+      "grad": 16,
+      "code": 3,
+      "regen": 0
+     },
+     {
+      "zeit": "15:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
      }
     ]
    },
@@ -1514,39 +1521,39 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 10,
-     "code": 3,
-     "gefuehlt": 9,
-     "wind": 6,
-     "windAus": 225,
-     "feuchte": 80,
-     "druck": 991,
-     "niederschlag": 0,
+     "grad": 12,
+     "code": 61,
+     "gefuehlt": 10,
+     "wind": 14,
+     "windAus": 210,
+     "feuchte": 75,
+     "druck": 987,
+     "niederschlag": 0.1,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-09",
      "code": 61,
-     "max": 13,
+     "max": 15,
      "min": 6,
-     "regen": 93,
-     "menge": 3.3,
-     "wind": 17,
-     "windAus": 218,
-     "uv": 2.6,
+     "regen": 98,
+     "menge": 1.8,
+     "wind": 16,
+     "windAus": 219,
+     "uv": 2.8,
      "auf": "07:34",
      "unter": "18:45"
     },
     "morgen": {
      "datum": "2026-10-10",
-     "code": 80,
-     "max": 16,
+     "code": 61,
+     "max": 17,
      "min": 11,
-     "regen": 75,
-     "menge": 3.7,
-     "wind": 18,
-     "windAus": 231,
-     "uv": 2.5,
+     "regen": 98,
+     "menge": 3.1,
+     "wind": 16,
+     "windAus": 236,
+     "uv": 2.7,
      "auf": "07:35",
      "unter": "18:43"
     },
@@ -1554,64 +1561,64 @@
      {
       "datum": "2026-10-09",
       "code": 61,
-      "max": 13,
+      "max": 15,
       "min": 6,
-      "regen": 93,
-      "menge": 3.3,
-      "wind": 17,
-      "windAus": 218,
-      "uv": 2.6,
+      "regen": 98,
+      "menge": 1.8,
+      "wind": 16,
+      "windAus": 219,
+      "uv": 2.8,
       "auf": "07:34",
       "unter": "18:45"
      },
      {
       "datum": "2026-10-10",
-      "code": 80,
-      "max": 16,
+      "code": 61,
+      "max": 17,
       "min": 11,
-      "regen": 75,
-      "menge": 3.7,
-      "wind": 18,
-      "windAus": 231,
-      "uv": 2.5,
+      "regen": 98,
+      "menge": 3.1,
+      "wind": 16,
+      "windAus": 236,
+      "uv": 2.7,
       "auf": "07:35",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-11",
-      "code": 3,
-      "max": 14,
-      "min": 9,
-      "regen": 15,
-      "menge": 0,
-      "wind": 15,
-      "windAus": 245,
-      "uv": 3,
+      "code": 80,
+      "max": 15,
+      "min": 8,
+      "regen": 28,
+      "menge": 1,
+      "wind": 16,
+      "windAus": 244,
+      "uv": 2.7,
       "auf": "07:37",
       "unter": "18:41"
      },
      {
       "datum": "2026-10-12",
       "code": 3,
-      "max": 15,
-      "min": 7,
-      "regen": 5,
+      "max": 16,
+      "min": 6,
+      "regen": 4,
       "menge": 0,
-      "wind": 5,
-      "windAus": 263,
-      "uv": 3,
+      "wind": 6,
+      "windAus": 220,
+      "uv": 3.4,
       "auf": "07:38",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-13",
-      "code": 3,
-      "max": 17,
-      "min": 5,
-      "regen": 8,
-      "menge": 0,
-      "wind": 7,
-      "windAus": 165,
+      "code": 61,
+      "max": 19,
+      "min": 6,
+      "regen": 12,
+      "menge": 0.9,
+      "wind": 6,
+      "windAus": 184,
       "uv": 3.4,
       "auf": "07:40",
       "unter": "18:38"
@@ -1619,13 +1626,13 @@
      {
       "datum": "2026-10-14",
       "code": 3,
-      "max": 14,
-      "min": 8,
-      "regen": 10,
+      "max": 18,
+      "min": 12,
+      "regen": 16,
       "menge": 0.6,
-      "wind": 5,
-      "windAus": 197,
-      "uv": 1.4,
+      "wind": 6,
+      "windAus": 20,
+      "uv": 2.3,
       "auf": "07:41",
       "unter": "18:36"
      },
@@ -1633,160 +1640,160 @@
       "datum": "2026-10-15",
       "code": 45,
       "max": 19,
-      "min": 9,
+      "min": 8,
       "regen": 6,
       "menge": 0,
       "wind": 6,
-      "windAus": 101,
-      "uv": 3,
+      "windAus": 144,
+      "uv": 2.7,
       "auf": "07:43",
       "unter": "18:34"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 5
-     },
-     {
-      "zeit": "17:00",
-      "grad": 12,
-      "code": 61,
-      "regen": 40
-     },
-     {
       "zeit": "18:00",
       "grad": 12,
       "code": 61,
-      "regen": 80
+      "regen": 98
      },
      {
       "zeit": "19:00",
-      "grad": 11,
+      "grad": 12,
       "code": 61,
-      "regen": 93
+      "regen": 88
      },
      {
       "zeit": "20:00",
-      "grad": 11,
+      "grad": 12,
       "code": 61,
-      "regen": 93
+      "regen": 50
      },
      {
       "zeit": "21:00",
-      "grad": 10,
-      "code": 61,
-      "regen": 70
+      "grad": 11,
+      "code": 3,
+      "regen": 25
      },
      {
       "zeit": "22:00",
       "grad": 11,
       "code": 3,
-      "regen": 43
+      "regen": 5
      },
      {
       "zeit": "23:00",
       "grad": 11,
       "code": 3,
-      "regen": 18
+      "regen": 3
      },
      {
       "zeit": "00:00",
       "grad": 11,
       "code": 3,
-      "regen": 5
+      "regen": 13
      },
      {
       "zeit": "01:00",
       "grad": 11,
       "code": 3,
-      "regen": 10
+      "regen": 20
      },
      {
       "zeit": "02:00",
       "grad": 11,
       "code": 3,
-      "regen": 20
+      "regen": 28
      },
      {
       "zeit": "03:00",
       "grad": 12,
       "code": 3,
-      "regen": 40
+      "regen": 38
      },
      {
       "zeit": "04:00",
       "grad": 12,
       "code": 61,
-      "regen": 65
+      "regen": 53
      },
      {
       "zeit": "05:00",
-      "grad": 11,
+      "grad": 12,
       "code": 61,
-      "regen": 68
+      "regen": 70
      },
      {
       "zeit": "06:00",
       "grad": 12,
       "code": 61,
-      "regen": 68
+      "regen": 98
      },
      {
       "zeit": "07:00",
       "grad": 12,
       "code": 61,
-      "regen": 73
+      "regen": 83
      },
      {
       "zeit": "08:00",
-      "grad": 13,
+      "grad": 12,
       "code": 61,
       "regen": 75
      },
      {
       "zeit": "09:00",
-      "grad": 13,
+      "grad": 12,
       "code": 61,
-      "regen": 55
+      "regen": 75
      },
      {
       "zeit": "10:00",
       "grad": 13,
       "code": 61,
-      "regen": 55
+      "regen": 45
+     },
+     {
+      "zeit": "11:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 30
+     },
+     {
+      "zeit": "12:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 25
+     },
+     {
+      "zeit": "13:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 15
+     },
+     {
+      "zeit": "14:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "15:00",
+      "grad": 17,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "16:00",
+      "grad": 16,
+      "code": 2,
+      "regen": 0
+     },
+     {
+      "zeit": "17:00",
+      "grad": 15,
+      "code": 2,
+      "regen": 3
      }
     ]
    },
@@ -1796,13 +1803,13 @@
     "lon": 11.58,
     "teil": "Süden",
     "jetzt": {
-     "grad": 11,
+     "grad": 14,
      "code": 3,
-     "gefuehlt": 10,
-     "wind": 6,
-     "windAus": 254,
-     "feuchte": 73,
-     "druck": 960,
+     "gefuehlt": 11,
+     "wind": 14,
+     "windAus": 258,
+     "feuchte": 56,
+     "druck": 956,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1811,8 +1818,8 @@
      "code": 61,
      "max": 15,
      "min": 8,
-     "regen": 55,
-     "menge": 0.2,
+     "regen": 68,
+     "menge": 0.9,
      "wind": 14,
      "windAus": 260,
      "uv": 3.5,
@@ -1824,11 +1831,11 @@
      "code": 80,
      "max": 13,
      "min": 11,
-     "regen": 93,
-     "menge": 8.8,
-     "wind": 14,
-     "windAus": 253,
-     "uv": 0.6,
+     "regen": 98,
+     "menge": 9.9,
+     "wind": 17,
+     "windAus": 251,
+     "uv": 0.7,
      "auf": "07:25",
      "unter": "18:35"
     },
@@ -1838,8 +1845,8 @@
       "code": 61,
       "max": 15,
       "min": 8,
-      "regen": 55,
-      "menge": 0.2,
+      "regen": 68,
+      "menge": 0.9,
       "wind": 14,
       "windAus": 260,
       "uv": 3.5,
@@ -1851,11 +1858,11 @@
       "code": 80,
       "max": 13,
       "min": 11,
-      "regen": 93,
-      "menge": 8.8,
-      "wind": 14,
-      "windAus": 253,
-      "uv": 0.6,
+      "regen": 98,
+      "menge": 9.9,
+      "wind": 17,
+      "windAus": 251,
+      "uv": 0.7,
       "auf": "07:25",
       "unter": "18:35"
      },
@@ -1863,12 +1870,12 @@
       "datum": "2026-10-11",
       "code": 80,
       "max": 13,
-      "min": 8,
-      "regen": 25,
-      "menge": 0.3,
-      "wind": 16,
-      "windAus": 262,
-      "uv": 3.2,
+      "min": 9,
+      "regen": 26,
+      "menge": 2.1,
+      "wind": 15,
+      "windAus": 263,
+      "uv": 3.4,
       "auf": "07:27",
       "unter": "18:33"
      },
@@ -1876,24 +1883,24 @@
       "datum": "2026-10-12",
       "code": 3,
       "max": 14,
-      "min": 7,
+      "min": 6,
       "regen": 10,
       "menge": 0,
       "wind": 9,
-      "windAus": 288,
-      "uv": 1,
+      "windAus": 278,
+      "uv": 3,
       "auf": "07:28",
       "unter": "18:31"
      },
      {
       "datum": "2026-10-13",
-      "code": 3,
-      "max": 15,
+      "code": 61,
+      "max": 17,
       "min": 4,
-      "regen": 3,
-      "menge": 0,
-      "wind": 9,
-      "windAus": 108,
+      "regen": 9,
+      "menge": 1.2,
+      "wind": 6,
+      "windAus": 156,
       "uv": 3.5,
       "auf": "07:29",
       "unter": "18:29"
@@ -1901,181 +1908,181 @@
      {
       "datum": "2026-10-14",
       "code": 61,
-      "max": 11,
-      "min": 3,
-      "regen": 20,
-      "menge": 0.9,
-      "wind": 5,
-      "windAus": 189,
-      "uv": 2.2,
+      "max": 15,
+      "min": 10,
+      "regen": 26,
+      "menge": 9.9,
+      "wind": 8,
+      "windAus": 274,
+      "uv": 2.3,
       "auf": "07:31",
       "unter": "18:27"
      },
      {
       "datum": "2026-10-15",
       "code": 3,
-      "max": 16,
-      "min": 7,
+      "max": 14,
+      "min": 8,
       "regen": 12,
       "menge": 0,
       "wind": 11,
-      "windAus": 85,
-      "uv": 2.9,
+      "windAus": 95,
+      "uv": 3.1,
       "auf": "07:32",
       "unter": "18:25"
      }
     ],
     "stunden": [
      {
-      "zeit": "11:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 12,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "17:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "18:00",
-      "grad": 14,
+      "grad": 15,
       "code": 3,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "19:00",
-      "grad": 13,
+      "grad": 14,
       "code": 3,
-      "regen": 3
+      "regen": 10
      },
      {
       "zeit": "20:00",
       "grad": 13,
-      "code": 3,
-      "regen": 3
+      "code": 61,
+      "regen": 35
      },
      {
       "zeit": "21:00",
       "grad": 12,
-      "code": 3,
-      "regen": 10
+      "code": 61,
+      "regen": 38
      },
      {
       "zeit": "22:00",
       "grad": 12,
       "code": 61,
-      "regen": 30
+      "regen": 63
      },
      {
       "zeit": "23:00",
       "grad": 12,
       "code": 61,
-      "regen": 55
+      "regen": 68
      },
      {
       "zeit": "00:00",
       "grad": 11,
       "code": 61,
-      "regen": 65
+      "regen": 60
      },
      {
       "zeit": "01:00",
       "grad": 11,
       "code": 61,
-      "regen": 75
+      "regen": 48
      },
      {
       "zeit": "02:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 85
-     },
-     {
-      "zeit": "03:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 70
-     },
-     {
-      "zeit": "04:00",
-      "grad": 11,
-      "code": 61,
-      "regen": 58
-     },
-     {
-      "zeit": "05:00",
       "grad": 11,
       "code": 3,
       "regen": 48
      },
      {
-      "zeit": "06:00",
-      "grad": 12,
+      "zeit": "03:00",
+      "grad": 11,
       "code": 3,
-      "regen": 45
+      "regen": 40
+     },
+     {
+      "zeit": "04:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 40
+     },
+     {
+      "zeit": "05:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 33
+     },
+     {
+      "zeit": "06:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 30
      },
      {
       "zeit": "07:00",
       "grad": 12,
-      "code": 61,
-      "regen": 53
+      "code": 3,
+      "regen": 55
      },
      {
       "zeit": "08:00",
       "grad": 12,
-      "code": 61,
-      "regen": 55
+      "code": 3,
+      "regen": 70
      },
      {
       "zeit": "09:00",
       "grad": 12,
-      "code": 61,
-      "regen": 83
+      "code": 3,
+      "regen": 88
      },
      {
       "zeit": "10:00",
       "grad": 12,
       "code": 61,
+      "regen": 90
+     },
+     {
+      "zeit": "11:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 95
+     },
+     {
+      "zeit": "12:00",
+      "grad": 13,
+      "code": 61,
+      "regen": 95
+     },
+     {
+      "zeit": "13:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 98
+     },
+     {
+      "zeit": "14:00",
+      "grad": 13,
+      "code": 61,
       "regen": 93
+     },
+     {
+      "zeit": "15:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 65
+     },
+     {
+      "zeit": "16:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 65
+     },
+     {
+      "zeit": "17:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 70
      }
     ]
    }
   ],
   "text": [
-   "Heute liegen die Höchstwerte zwischen 10 und 15 Grad.",
-   "Die Vorhersage für morgen, Samstag: im Norden und Osten leichter Regen, im Süden und Westen Regenschauer.",
+   "Heute liegen die Höchstwerte zwischen 12 und 15 Grad.",
+   "Die Vorhersage für morgen, Samstag: im Norden und Osten Regenschauer, im Süden und Westen leichter Regen.",
    "Die Temperaturen erreichen dann 13 bis 17 Grad.",
    "Am wärmsten wird es in Berlin mit 17 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
@@ -2090,19 +2097,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 15,
-       "regen": 8.6
+       "regen": 3.1
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 14,
-       "regen": 4.8
+       "regen": 3.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 14,
-       "regen": 9.7
+       "regen": 14.4
       }
      ]
     },
@@ -2113,19 +2120,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 17,
-       "regen": 5.4
+       "regen": 2.9
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 17,
-       "regen": 5.7
+       "regen": 3.3
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 16,
-       "regen": 2.5
+       "regen": 3.8
       }
      ]
     },
@@ -2135,20 +2142,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 17,
-       "regen": 4.4
+       "grad": 16,
+       "regen": 1.7
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 17,
-       "regen": 1.1
+       "regen": 0.4
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 16,
-       "regen": 2.5
+       "regen": 1.4
       }
      ]
     },
@@ -2158,20 +2165,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 16,
-       "regen": 3.4
+       "grad": 15,
+       "regen": 2.6
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 15,
-       "regen": 3.1
+       "regen": 2.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 15,
-       "regen": 9.1
+       "regen": 7.2
       }
      ]
     },
@@ -2181,20 +2188,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 17,
-       "regen": 3.5
+       "grad": 16,
+       "regen": 1
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 17,
-       "regen": 4.1
+       "regen": 5
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 16,
-       "regen": 4
+       "regen": 3.4
       }
      ]
     },
@@ -2205,19 +2212,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 16,
-       "regen": 3.7
+       "regen": 3.1
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 14,
-       "regen": 3
+       "regen": 1.9
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 17,
-       "regen": 4.6
+       "grad": 16,
+       "regen": 4.3
       }
      ]
     },
@@ -2228,27 +2235,37 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 13,
-       "regen": 8.8
+       "regen": 9.9
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 11,
-       "regen": 8.6
+       "grad": 12,
+       "regen": 6.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 13,
-       "regen": 10.2
+       "grad": 12,
+       "regen": 10.7
       }
      ]
     }
    ],
-   "spanneGrad": 3,
-   "uneinigRegen": null,
+   "spanneGrad": 2,
+   "uneinigRegen": {
+    "ort": "Leipzig",
+    "nass": [
+     "ICON",
+     "ECMWF"
+    ],
+    "trocken": [
+     "GFS"
+    ]
+   },
    "saetze": [
-    "Für Stuttgart gehen die Modelle am weitesten auseinander: zwischen 14 und 17 Grad."
+    "Für Stuttgart gehen die Modelle am weitesten auseinander: zwischen 14 und 16 Grad.",
+    "Und in Leipzig erwartet ICON und ECMWF Regen, GFS dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2329,7 +2346,7 @@
     "l": 7.42,
     "s": [
      0.25,
-     5.0
+     5
     ]
    },
    {
@@ -2410,7 +2427,7 @@
     "l": 6.49,
     "s": [
      0.25,
-     4.0
+     4
     ]
    },
    {
@@ -2440,6 +2457,2164 @@
   "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
+  {
+   "id": "afd-landtagsgeraet-sachsen-anhalt",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-09T15:48:19.000Z",
+   "aktualisiert": "aktualisiert um 18:08 Uhr",
+   "titel": "Rückzug eines Leasingangebots für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt",
+   "vorspann": "Nach der Wahl des AfD-Politikers Tobias Rausch zum Landtagspräsidenten in Sachsen-Anhalt hat der Automobilhersteller BMW ein Leasingangebot für einen Dienstwagen zurückgezogen. Rausch übt daran Kritik, während der Autokonzern den Vorgang nicht kommentieren möchte.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "BMW hat ein Leasingangebot für den Dienstwagen des neuen Landtagspräsidenten in Sachsen-Anhalt, Tobias Rausch, zurückgezogen.",
+    "Rausch kritisierte die Entscheidung, während das Unternehmen den Fall nicht kommentieren wollte.",
+    "Das Angebot war laut Landtagsverwaltung das einzige eines deutschen Premiumherstellers für diesen Zweck.",
+    "Vertreter der AfD prüften daraufhin öffentlich alternative Optionen, darunter eine Anfrage an den Hersteller Tesla."
+   ],
+   "einig": [
+    [
+     "BMW hat ein Leasingangebot für den Dienstwagen des Landtagspräsidenten Tobias Rausch zurückgezogen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "Zeit"
+     ]
+    ],
+    [
+     "Das Angebot von BMW war das einzige eines namhaften deutschen Herstellers für dieses Fahrzeug.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "Tobias Rausch ist der erste AfD-Politiker in dem Amt des Landtagspräsidenten.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ],
+    [
+     "BMW wollte den Fall nicht kommentieren und äußerte sich grundsätzlich nicht zu Kundenbeziehungen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Entscheidung von BMW in einem direkten Zusammenhang mit der AfD-Mitgliedschaft von Tobias Rausch steht, ist unklar; Rausch hält dies für möglich, während BMW sich dazu nicht äußert.",
+    "Ob Tesla auf die Anfrage der AfD-Politikerin Beatrix von Storch reagieren wird, ist noch unklar."
+   ],
+   "positionen": [
+    [
+     "Tobias Rausch (Landtagspräsident, AfD)",
+     "Kritisierte den Schritt als fragwürdig und äußerte Verwunderung, Enttäuschung sowie Kritik daran.",
+     "Tagesschau/ARD,ZDFheute,Zeit"
+    ],
+    [
+     "Beatrix von Storch (Bundestagsfraktionsvize, AfD)",
+     "Fragte öffentlich über den Kurznachrichtendienst X an, ob Tesla einen Dienstwagen zur Verfügung stellen würde.",
+     "ZDFheute,Spiegel"
+    ],
+    [
+     "BMW (Unternehmenszentrale / Sprecher)",
+     "Äußerte sich nicht zu dem Fall und betonte, grundsätzlich keine Auskunft zu Kundenbeziehungen zu geben.",
+     "Tagesschau/ARD,ZDFheute,Spiegel"
+    ]
+   ],
+   "fehlend": "Stimmen von Mercedes, Audi und Tesla sowie offizielle Reaktionen anderer Parteien im Landtag von Sachsen-Anhalt zu dem Vorfall.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 16:23",
+     "fokus": "Offizieller Brief und Reaktionen",
+     "text": "Die Tagesschau beleuchtet vor allem den offenen Brief von Rausch an den BMW-Vorstand und die Reaktionen des Politikers gegenüber der Deutschen Presse-Agentur.",
+     "url": "https://www.tagesschau.de/inland/regional/sachsenanhalt/tobias-rausch-dienstwagen,bmw-zieht-leasingvertrag-zurueck-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 296,
+      "satzlaenge": 14,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 16:35",
+     "fokus": "Zitate und wirtschaftlicher Kontext",
+     "text": "ZDFheute hebt Rauschs Reaktionen gegenüber der Mitteldeutschen Zeitung hervor und stellt einen Bezug zu den Äußerungen des BMW-Vorstandschefs her.",
+     "url": "https://www.zdfheute.de/politik/deutschland/bmw-dienstwagen-landtag-afd-ablehnung-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 492,
+      "satzlaenge": 14,
+      "langeWoerter": 37
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:48",
+     "fokus": "–",
+     "text": "Sachsen-Anhalts Landtagspräsident Rausch hat den Rückzug des Leasingangebots von BMW für seinen Dienstwagen kritisiert.",
+     "url": "https://www.deutschlandfunk.de/bmw-verweigert-neuen-afd-landtagspraesidenten-offenbar-den-dienstwagen-rausch-schreibt-an-autokonzer-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 12:05",
+     "fokus": "Hintergrund zur X-Anfrage",
+     "text": "Der Spiegel fokussiert sich neben den Details zum bisherigen Fahrzeug auch stark auf die Anfrage der AfD-Politikerin Beatrix von Storch an den US-Autobauer Tesla.",
+     "url": "https://www.spiegel.de/wirtschaft/unternehmen/sachsen-anhalt-afd-landtagspraesident-rausch-verliert-bmw-dienstwagen-a-08a69555-40c9-41f4-a609-56946513271d#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 2,
+      "woerter": 464,
+      "satzlaenge": 14,
+      "langeWoerter": 34
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 16:46",
+     "fokus": "Erstmeldung und Verwaltung",
+     "text": "Die Zeit liefert die Erstinformation über den Vorgang und stützt sich dabei auf Angaben der Landtagsverwaltung.",
+     "url": "https://www.zeit.de/politik/deutschland/2026-10/tobias-rausch-afd-bmw-dienstwagen-sachsen-anhalt-gxe",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Zitate und Fundorte",
+     "Die Berichte nennen unterschiedliche Medien, gegenüber denen sich Rausch äußerte (einmal offene Briefe und DPA, einmal Mitteldeutsche Zeitung)."
+    ],
+    [
+     "Zusätzliche Kontexte",
+     "Einige Medien wie ZDFheute und Spiegel erwähnen detailliert die früheren Aussagen des BMW-Vorstandschefs zur Wirtschaft und das Zitat von Beatrix von Storch zu Tesla, während andere Berichte dies knapper halten."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Der Automobilhersteller BMW und der Landtagspräsident Tobias Rausch",
+    "was": "Rückzug eines Leasingangebots für einen Dienstwagen nach einer Wahl",
+    "wann": "09. Oktober 2026",
+    "wo": "Sachsen-Anhalt, Deutschland",
+    "wie": "Durch schriftliche Zurückziehung des Angebots der Unternehmenszentrale an den Landtag",
+    "warum": "Noch unklar, laut Rausch möglicher Zusammenhang mit seiner AfD-Mitgliedschaft",
+    "quellenlage": "Medienberichte, Landtagsverwaltung und offizielle Schreiben"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Laut übereinstimmenden Medienberichten hat das Unternehmen BMW ein zuvor vorgelegtes Leasingangebot für ein Fahrzeug des Landtagspräsidenten in Sachsen-Anhalt zurückgezogen. Dieser Schritt erfolgte am Tag der Wahl des AfD-Politikers Tobias Rausch in das Amt des Landtagspräsidenten. Zuerst hatte die Wochenzeitung Die Zeit über diesen Vorfall berichtet. Die Landtagsverwaltung bestätigte den Vorgang auf Nachfrage von Medien wie dem Spiegel.",
+      "Mit der Wahl von Tobias Rausch hat zum ersten Mal in der Geschichte der Bundesrepublik Deutschland ein Mitglied der Partei Alternative für Deutschland ein solches Parlamentsamt übernommen. Das betreffende Leasingangebot betraf den offiziellen Dienstwagen des Landtagspräsidenten. Nach Angaben aus den Berichten handelte es sich dabei um das einzige Angebot eines namhaften deutschen Premiumherstellers für dieses spezifische Fahrzeug.",
+      "Das Unternehmen BMW lehnte eine inhaltliche Stellungnahme zu dem Vorfall ab. Ein Unternehmenssprecher betonte gegenüber Medien, dass die Gruppe sich grundsätzlich nicht zu laufenden Kundenbeziehungen äußert. Das zurückgezogene Angebot war der Landtagsverwaltung zuvor von der Unternehmenszentrale aus München unterbreitet worden."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der bisherige Dienstwagen des Parlamentspräsidenten ist ein Fahrzeug der 7er-Reihe von BMW. Dieses Auto war laut Berichten von dem vorherigen Amtsinhaber Gunnar Schellenberger genutzt worden. Der Vertrag für dieses bisherige Fahrzeug soll im November auslaufen. Laut Spiegel war der bisherige Wagen rund neun Monate im Einsatz und legte in dieser Zeit etwas mehr als 50.000 Kilometer zurück.",
+      "Leasingverträge dieser Art beinhalten in der Regel eine festgelegte Obergrenze für die Laufleistung, damit die Fahrzeuge nach Ablauf des Vertrages als Gebrauchtwagen vermarktet werden können. Da das aktuelle Angebot für einen Nachfolgewagen nun entfallen ist, muss die Landtagsverwaltung organisatorische Schritte prüfen. Vorerst übernimmt der neue Landtagspräsident das Fahrzeug seines Vorgängers, wie unter anderem ZDFheute berichtet.",
+      "Die Dienstwagenflotte des Landtags und der Landesregierung besteht aus mehreren Fahrzeugen, die mehrheitlich von der Marke BMW stammen. Die meisten dieser Fahrzeuge sind nicht fest zugeordnet und werden gemeinsam genutzt. Lediglich wenige Ausnahmen, wozu auch der Wagen des Landtagspräsidenten gehört, sind fest zugewiesen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Der Zeitpunkt des Angebotsrückzugs wird in den Medienberichten im Zusammenhang mit den Äußerungen der Unternehmensspitze zur politischen Lage gesehen. Laut ZDFheute und Spiegel hatte der BMW-Vorstandschef Milan Nedeljković kurz vor dem Vorfall in einem Interview mit der Frankfurter Allgemeinen Zeitung Position bezogen. Darin bezeichnete er Rechtspopulismus und Nationalismus als Gift für den Wirtschaftsstandort.",
+      "In der Vergangenheit kam es laut den Berichten bereits mehrfach dazu, dass Unternehmen oder Institutionen Geschäftsbeziehungen zu Gliederungen oder Vertretern der Partei Alternative für Deutschland beendeten. So wurden in der Vergangenheit unter anderem Spendenkonten sowie Buchungen von Versammlungsräumen und Hotelzimmern gekündigt. Die Partei wird im Bundesland Sachsen-Anhalt vom dortigen Landesverfassungsschutz als rechtsextrem eingestuft.",
+      "Die Landtagsverwaltung bestätigte, dass von anderen deutschen Premiumherstellern wie Mercedes oder Audi keine entsprechenden Leasingangebote für das Fahrzeug des Parlamentspräsidenten vorlagen. Das Angebot von BMW war demnach die einzige Offerte auf dem Markt für diesen speziellen Bedarf der Parlamentsspitze."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein Leasingvertrag ist eine Vereinbarung zur zeitlichen Nutzung von Anlagegütern gegen Zahlung von Raten.",
+      "Ein Landtagspräsident leitet die Sitzungen des Landesparlaments und vertritt das Parlament nach außen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der betroffene Landtagspräsident Tobias Rausch reagierte mit Kritik auf den Schritt des Automobilherstellers. Laut Tagesschau und Zeit äußerte er in einem offenen Brief an den BMW-Vorstand große Verwunderung und Enttäuschung. Gegenüber der Deutschen Presse-Agentur erklärte er, dass ein direkter Zusammenhang mit seiner Parteizugehörigkeit fragwürdig wäre.",
+      "Gegenüber der Mitteldeutschen Zeitung äußerte sich Rausch laut ZDFheute zudem kritisch. Er erklärte demnach, er finde es erschreckend, dass das Unternehmen eine staatliche Institution und das Land Sachsen-Anhalt verächtlich mache.",
+      "Auch auf Bundesebene gab es Reaktionen von Parteivertretern. Die AfD-Bundestagsabgeordnete Beatrix von Storch wandte sich laut ZDFheute und Spiegel über den Kurznachrichtendienst X an den Tesla-Chef Elon Musk. Sie fragte öffentlich an, ob Tesla bereit sei, ein offizielles Fahrzeug zur Verfügung zu stellen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Landtagsverwaltung muss laut den Berichten nun eine andere Lösung für die Bereitstellung eines Dienstwagens finden. Da der bisherige Vertrag im November ausläuft, stehen organisatorische Entscheidungen an. Ob andere Hersteller kontaktiert werden oder wie die Ersatzbeschaffung konkret abläuft, bleibt abzuwarten.",
+      "Aufseiten der AfD wird derweil geprüft, ob eine alternative Bereitstellung eines Fahrzeugs durch ausländische Autobanken oder Hersteller wie Tesla zustande kommen kann. Eine offizielle Reaktion oder Zusage auf die Anfrage an Tesla lag laut den Medienberichten zunächst nicht vor."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "6. September 2026",
+     "Die AfD gewinnt die Landtagswahl in Sachsen-Anhalt mit 43,8 Prozent."
+    ],
+    [
+     "6. Oktober 2026",
+     "Tobias Rausch wird zum Landtagspräsidenten und Hans-Thomas Tillschneider zum Vizepräsidenten gewählt."
+    ],
+    [
+     "6. Oktober 2026",
+     "Tobias Rausch wird zum Landtagspräsidenten gewählt."
+    ],
+    [
+     "6. September 2026",
+     "Die AfD gewinnt die Landtagswahl in Sachsen-Anhalt."
+    ],
+    [
+     "6. Oktober 2026",
+     "Tobias Rausch wird zum Landtagspräsidenten von Sachsen-Anhalt gewählt."
+    ],
+    [
+     "Dienstag",
+     "Tobias Rausch wird zum Landtagspräsidenten in Sachsen-Anhalt gewählt und SPD-Abgeordnete machen einen Protestmarsch in Berlin."
+    ],
+    [
+     "nach der Wahl",
+     "Medien berichten, dass BMW das Leasingangebot für den Dienstwagen des Landtagspräsidenten Tobias Rausch zurückgezogen hat."
+    ],
+    [
+     "Dienstag",
+     "BMW zieht das Leasingangebot für den Dienstwagen des Landtagspräsidenten zurück."
+    ],
+    [
+     "09. Oktober 2026",
+     "Medien berichten über den Vorgang und die Reaktionen von Tobias Rausch."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Tobias Rausch politician",
+     "bildunterschrift": "Tobias Rausch ist Landtagspräsident in Sachsen-Anhalt."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Landtag von Sachsen-Anhalt",
+     "bildunterschrift": "Das Parlamentsgebäude in Sachsen-Anhalt, in dem der Landtag tagt."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "BMW headquarters Munich",
+     "bildunterschrift": "Die Zentrale des Automobilkonzerns BMW in München."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Tesla Gigafactory Berlin Brandenburg",
+     "bildunterschrift": "Eine Produktionsstätte des Automobilherstellers Tesla."
+    }
+   ],
+   "ort": {
+    "name": "Magdeburg, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Wertende Ausdrücke im Text wie 'empört' und 'scharf kritisiert' wurden durch neutrale Formulierungen ersetzt."
+   ],
+   "wortwarnung": [
+    "erschreckend"
+   ],
+   "lernen": {
+    "begriffe": [
+     [
+      "Landtagspräsident",
+      "Der Landtagspräsident leitet die Sitzungen eines Parlaments in einem Bundesland und vertritt dieses nach außen."
+     ],
+     [
+      "Leasingvertrag",
+      "Ein Leasingvertrag ist eine Vereinbarung zur zeitlichen Nutzung von Gütern gegen die Zahlung von monatlichen Raten."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe könnte ein Unternehmen haben, Geschäftsbeziehungen zu beenden?",
+     "Wie berichten verschiedene Medien über politische Entscheidungen und Reaktionen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat das Leasingangebot für den Dienstwagen zurückgezogen?",
+      "optionen": [
+       "Das Unternehmen BMW",
+       "Der Automobilhersteller Tesla",
+       "Die Landesregierung von Sachsen-Anhalt"
+      ],
+      "richtig": 0,
+      "erklaerung": "Laut übereinstimmenden Medienberichten zog BMW das Leasingangebot für den Dienstwagen zurück."
+     },
+     {
+      "frage": "Welches Amt hat Tobias Rausch inne?",
+      "optionen": [
+       "Ministerpräsident von Sachsen-Anhalt",
+       "Landtagspräsident von Sachsen-Anhalt",
+       "Bundeskanzler"
+      ],
+      "richtig": 1,
+      "erklaerung": "Tobias Rausch wurde zum Landtagspräsidenten in Sachsen-Anhalt gewählt."
+     },
+     {
+      "frage": "Wie äußerte sich BMW zu dem Fall?",
+      "optionen": [
+       "Das Unternehmen begründete den Schritt ausführlich.",
+       "Das Unternehmen lehnte einen Kommentar ab und äußerte sich nicht zu Kundenbeziehungen.",
+       "Das Unternehmen entschuldigte sich öffentlich."
+      ],
+      "richtig": 1,
+      "erklaerung": "Mehrere Medien berichten übereinstimmend, dass BMW den Fall nicht kommentieren wollte und sich grundsätzlich nicht zu Kundenbeziehungen äußert."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Sachsen-Anhalt hat ein Automobilhersteller ein Angebot für ein Auto zurückgezogen.",
+    "absaetze": [
+     "Tobias Rausch ist neu zum Landtagspräsidenten gewählt worden.",
+     "Er gehört zur Partei Alternative für Deutschland.",
+     "Das Unternehmen BMW hat danach ein Angebot für seinen Dienstwagen zurückgezogen.",
+     "Ein Dienstwagen ist ein Auto, das Politiker für ihre Arbeit nutzen.",
+     "Rausch kritisierte diese Entscheidung des Unternehmens."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "BMW hat ein Leasingangebot für den Dienstwagen des Landtagspräsidenten Tobias Rausch zurückgezogen.",
+     "Rausch kritisierte die Entscheidung des Automobilkonzerns am Dienstag.",
+     "Ob ein anderer Hersteller das Auto bereitstellt, ist noch unklar."
+    ],
+    "lang": [
+     "Das Unternehmen BMW hat ein Leasingangebot für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt zurückzogen.",
+     "Dieser Schritt erfolgte am Dienstag am Tag der Wahl des Politikers Tobias Rausch.",
+     "Tobias Rausch ist das erste Mitglied der Partei Alternative for Deutschland in diesem Amt.",
+     "Das Angebot von BMW war das einzige eines namhaften deutschen Herstellers für dieses Fahrzeug.",
+     "Das teilte die Landtagsverwaltung mit.",
+     "Das Auto des Vorgängers war rund neun Monate im Einsatz.",
+     "Nach Angaben der Medien äußerte Rausch Kritik an der Entscheidung des Unternehmens.",
+     "Das Unternehmen BMW wollte den Vorfall nicht kommentieren.",
+     "Die Landtagsverwaltung muss nun eine neue Lösung für das Fahrzeug finden."
+    ],
+    "einfach": [
+     "BMW hat ein Auto-Angebot für einen Politiker zurückgezogen.",
+     "Tobias Rausch ist neu im Amt des Landtagspräsidenten.",
+     "Er gehört zur Partei Alternative für Deutschland.",
+     "Das Unternehmen BMW wollte den Schritt nicht kommentieren.",
+     "Rausch hat die Entscheidung des Automobilherstellers kritisiert."
+    ]
+   },
+   "kurz": [
+    "BMW hat ein Leasingangebot für den Dienstwagen des neuen Landtagspräsidenten Tobias Rausch zurückgezogen.",
+    "Rausch kritisierte die Entscheidung des Unternehmens in Briefen und Interviews.",
+    "Das Angebot von BMW war das einzige eines namhaften deutschen Herstellers für das Fahrzeug."
+   ],
+   "fakten": [
+    [
+     "Laufleistung des bisherigen Dienstwagens",
+     "etwas mehr als 50.000 Kilometer"
+    ],
+    [
+     "Alter des bisherigen Einsatzes",
+     "rund neun Monate"
+    ],
+    [
+     "Datum des Angebotsrückzugs",
+     "Dienstag"
+    ]
+   ],
+   "dossier": {
+    "slug": "leasing-dienstwagen-sachsen-anhalt",
+    "titel": "Dienstwagen-Leasing für den Landtagspräsidenten in Sachsen-Anhalt"
+   },
+   "bildInfo": {
+    "titel": "2019-09-27 17-45 G90T3345 AL Commons Landtag.jpg",
+    "beschreibung": "Landtag of Saxony-Anhalt all buildings",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg/1280px-2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg",
+    "urheber": "Axel Tschentscher",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Landtag von Sachsen-Anhalt",
+    "sprache": "de",
+    "art": "institution",
+    "suchbegriff": "Landtag von Sachsen-Anhalt",
+    "bildunterschrift": "Die Gebäude des Landtages von Sachsen-Anhalt.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "2019-09-27 17-45 G90T3345 AL Commons Landtag.jpg",
+     "beschreibung": "Landtag of Saxony-Anhalt all buildings",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg/1280px-2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2019-09-27_17-45_G90T3345_AL_Commons_Landtag.jpg",
+     "urheber": "Axel Tschentscher",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Landtag von Sachsen-Anhalt",
+     "sprache": "de",
+     "art": "institution",
+     "suchbegriff": "Landtag von Sachsen-Anhalt",
+     "bildunterschrift": "Die Gebäude des Landtages von Sachsen-Anhalt.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "BMW Vierzylinder Tower Munich 2014 01.jpg",
+     "beschreibung": "BMW tower (Vierzylinder), Munich, Germany.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/BMW_Vierzylinder_Tower_Munich_2014_01.jpg/1280px-BMW_Vierzylinder_Tower_Munich_2014_01.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/BMW_Vierzylinder_Tower_Munich_2014_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:BMW_Vierzylinder_Tower_Munich_2014_01.jpg",
+     "urheber": "Julian Herzog ( Website )",
+     "lizenz": "CC BY 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+     "art": "symbol",
+     "suchbegriff": "BMW headquarters Munich",
+     "bildunterschrift": "Der BMW-Vierzylinder-Turm in München.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Magdeburg, Deutschland",
+    "lat": 52.131,
+    "lon": 11.64
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "friedensnobelpreis-navanethem-pillay",
+   "rubrik": "Welt",
+   "zeit": "2026-10-09T15:48:19.000Z",
+   "titel": "Friedensnobelpreis des Jahres 2026 geht an Navanethem Pillay",
+   "vorspann": "Der diesjährige Friedensnobelpreis wird der südafrikanischen Juristin Navanethem Pillay verliehen. Das norwegische Nobelkomitee in Oslo begründet die Auszeichnung mit ihrem Einsatz für das Völkerrecht und die strafrechtliche Verfolgung schwerer Verbrechen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Navanethem Pillay erhält den Friedensnobelpreis 2026 für ihre Verdienste um das Völkerrecht.",
+    "Das Nobelkomitee in Oslo lobte ihren Einsatz zur strafrechtlichen Verfolgung von schwersten Verbrechen.",
+    "Pillay blickt auf eine jahrzehntelange Karriere als Juristin und Richterin zurück.",
+    "Die Entscheidung wurde international gewürdigt, während Israel scharfe Kritik äußerte."
+   ],
+   "einig": [
+    [
+     "Navanethem Pillay erhält den Friedensnobelpreis.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Spiegel",
+      "BBC",
+      "ORF"
+     ]
+    ],
+    [
+     "Das Nobelkomitee begründet die Auszeichnung mit ihrem Einsatz für das Völkerrecht und die Verfolgung von Kriegsverbrechen.",
+     [
+      "Spiegel",
+      "BBC",
+      "ORF"
+     ]
+    ],
+    [
+     "Pillay befand sich zum Zeitpunkt der Bekanntgabe in Nürnberg.",
+     [
+      "BBC",
+      "ORF"
+     ]
+    ],
+    [
+     "Jørgen Watne Frydnes ist der Vorsitzende des norwegischen Nobelkomitees.",
+     [
+      "Spiegel",
+      "BBC",
+      "ORF"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob Donald Trump tatsächlich unter den nominierten Personen war, bleibt ungesichert (laut Spiegel wird dies berichtet, ohne offizielle Bestätigung des Komitees)."
+   ],
+   "positionen": [
+    [
+     "Nobelkomitee",
+     "Pillay hat maßgeblich zur strafrechtlichen Verfolgung schwerer Verbrechen und zur Förderung des Völkerrechts beigetragen.",
+     "Spiegel,BBC,ORF"
+    ],
+    [
+     "Israelisches Außenministerium",
+     "Die Auszeichnung Pillays ist eine Instrumentalisierung zur Legitimierung von antiisraelischem Hass.",
+     "BBC,ORF"
+    ],
+    [
+     "Vereinte Nationen / UN-Menschenrechtsbüro",
+     "Die Ehrung ist eine großartige Nachricht und unterstreicht die Notwendigkeit und den Wert der Menschenrechte.",
+     "Spiegel,BBC,ORF"
+    ]
+   ],
+   "fehlend": "Stellungnahmen aus Myanmar oder von Vertretern der Hamas zu den früheren Untersuchungen Pillays.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:09",
+     "fokus": "Kompakte Meldung",
+     "text": "Die Tagesschau meldet kurz die Bekanntgabe des Preises an die südafrikanische Menschenrechtlerin.",
+     "url": "https://www.tagesschau.de/video/video-1663380.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:48",
+     "fokus": "Reaktionen und Zitate",
+     "text": "Der Deutschlandfunk konzentriert sich auf Pillays Widmung des Preises für Überlebende internationaler Verbrechen.",
+     "url": "https://www.deutschlandfunk.de/navanethem-pillay-widme-den-friedensnobelpreis-den-ueberlebenden-internationaler-verbrechen-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 11:06",
+     "fokus": "Hintergrund und Nominierte",
+     "text": "Der Spiegel beleuchtet ausführlich Pillays Lebenslauf und frühere Mandanten.",
+     "url": "https://www.spiegel.de/ausland/friedensnobelpreis-suedafrikanische-juristin-navanethem-pillay-ausgezeichnet-a-dc9b7b39-2edc-4ba3-9796-3f9adad4d34d#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 330,
+      "satzlaenge": 15,
+      "langeWoerter": 37
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "09.10.26, 16:00",
+     "fokus": "Internationale Verstrickungen und Reaktionen",
+     "text": "Die BBC schildert detailliert die Reaktionen aus Israel sowie Pillays frühere Arbeit.",
+     "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 4,
+      "woerter": 784,
+      "satzlaenge": 28,
+      "langeWoerter": 28
+     },
+     "traeger": "British Broadcasting Corporation, Großbritannien",
+     "finanzierung": "Rundfunkgebühr (Licence Fee)",
+     "publikumWert": null
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "09.10.26, 11:27",
+     "fokus": "Ablauf der Bekanntgabe in Nürnberg",
+     "text": "Der ORF beschreibt die Szene in Nürnberg, in der Pillay von der Auszeichnung erfuhr.",
+     "url": "https://orf.at/stories/3444560/",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 5,
+      "woerter": 903,
+      "satzlaenge": 19,
+      "langeWoerter": 34
+     },
+     "traeger": "Österreichischer Rundfunk, Stiftung öffentlichen Rechts",
+     "finanzierung": "Haushaltsabgabe",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zur Bekanntgabe",
+     "Der ORF und die BBC schildern ausführlich den Moment in Nürnberg, während andere Berichte sich stärker auf die offizielle Erklärung aus Oslo konzentrieren."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Das norwegische Nobelkomitee",
+    "was": "Verleihung des Friedensnobelpreises",
+    "wann": "2026",
+    "wo": "Oslo und Nürnberg",
+    "wie": "Durch Bekanntgabe des Komiteevorsitzenden Jørgen Watne Frydnes",
+    "warum": "Wegen ihres Beitrags zur strafrechtlichen Verfolgung von Kriegsverbrechen",
+    "quellenlage": "Meldungen von öffentlich-rechtlichen Anstalten und Nachrichtenmagazinen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Verleihung des Friedensnobelpreises",
+     "absaetze": [
+      "Das norwegische Nobelkomitee hat bekannt gegeben, dass der Friedensnobelpreis an die südafrikanische Juristin Navanethem Pillay geht. Die Entscheidung wurde am Freitag in Oslo der Öffentlichkeit vorgestellt. Der Vorsitzende des Komitees, Jørgen Watne Frydnes, würdigte die Preisträgerin für ihre Bemühungen zur Förderung des Friedens und des Völkerrechts.",
+      "Die Auszeichnung ist in diesem Jahr mit zwölf Millionen schwedischen Kronen dotiert. Laut Berichten entspricht dies etwas mehr als einer Million Euro. Die Bekanntgabe erfolgt im Rahmen der Nobelpreiswoche im Oktober, in der zuvor bereits die Preisträger in Kategorien wie Medizin, Physik, Chemie und Literatur verkündet worden waren.",
+      "Zum Zeitpunkt der Verkündung hielt sich Navanethem Pillay in Deutschland auf. Sie trat dort in Nürnberg im Justizpalast als Rednerin bei einer Fachkonferenz auf. Die anwesende Generalsekretärin von Amnesty International, Agnès Callamard, hielt den Moment auf Video fest, in dem Pillay von der Ehrung erfuhr."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen der Preisträgerin",
+     "absaetze": [
+      "Auf die Nachricht über die Zuerkennung des Preises reagierte Navanethem Pillay zunächst ungläubig. Sie äußerte in einer ersten Videoaufnahme die Hoffnung, dass es sich dabei um einen Scherz handele. Unter dem Applaus der Anwesenden in Nürnberg scherzte sie laut übereinstimmenden Berichten, sie werde den Preis eventuell mit Donald Trump teilen, sollte noch mehr geklatscht werden.",
+      "In einer weiteren Reaktion widmete die Juristin den Friedensnobelpreis den Überlebenden internationaler Verbrechen. Sie wies darauf hin, dass sich die Welt derzeit in einer Zeit befinde, in der die Menschenrechte zunehmend angegriffen würden. Dabei verwies sie insbesondere auf Angriffe gegen den Internationalen Strafgerichtshof.",
+      "Das Komitee erklärte laut den Berichten, dass man Pillay im Vorfeld nicht habe erreichen können. Der Vorsitzende Jørgen Watne Frydnes richtete daher die Bitte an sie, bei Anrufen von norwegischen Telefonnummern künftig heranzugehen."
+     ]
+    },
+    {
+     "ueberschrift": "Berufliche Laufbahn und internationale Ämter",
+     "absaetze": [
+      "Navanethem Pillay wurde im Jahr 1941 in Durban in Südafrika geboren und wuchs während der Apartheid auf. Nach ihrem Jurastudium begann sie, Menschen zu verteidigen, die sich gegen das Apartheid-System engagierten. Einer ihrer Mandanten war der spätere Präsident Nelson Mandela. Im Jahr 1967 eröffnete sie als erste nicht weiße Frau eine eigene Kanzlei in der Provinz Natal.",
+      "Im Laufe ihrer Karriere übernahm sie zahlreiche internationale Positionen. Von 2003 bis 2008 war sie Richterin am Internationalen Strafgerichtshof in Den Haag. Anschließend amtierte sie von 2008 bis 2014 als Hohe Kommissarin der Vereinten Nationen für Menschenrechte. Zudem war sie am Internationalen Strafgerichtshof für Ruanda tätig.",
+      "Derzeit ist Pillay als Richterin am Internationalen Gerichtshof beschäftigt. Dort befasst sie sich unter anderem mit dem Verfahren, in dem Myanmar Völkermord an der Minderheit der Rohingya vorgeworfen wird. Myanmar hat diese Anschuldigungen vor Gericht als unbegründet zurückgewiesen."
+     ]
+    },
+    {
+     "ueberschrift": "Untersuchungskommission zu den palästinensischen Gebieten",
+     "absaetze": [
+      "Laut übereinstimmenden Berichten leitete Pillay in den Jahren 2021 bis 2025 eine von den Vereinten Nationen eingesetzte unabhängige Untersuchungskommission zum besetzten palästinensischen Gebiet. Diese Kommission kam in ihren Berichten zu dem Schluss, dass Israel im Gazastreifen Völkermord-Handlungen begangen habe. Zudem wurden dem israelischen Ministerpräsidenten Benjamin Netanjahu und dem früheren Verteidigungsminister Yoav Gallant Anstiftung zum Völkermord vorgeworfen.",
+      "Die Berichte der Kommission hielten ferner fest, dass auch Hamas und andere palästinensische bewaffnete Gruppen im Oktober 2023 Kriegsverbrechen begangen hätten. Die Kommission betonte dabei, dass sie ein unabhängiges Expertengremium war, das nicht offiziell für die Vereinten Nationen sprach und keine eigene juristische Autorität besaß.",
+      "Die Feststellungen der Kommission führten zu scharfer Kritik seitens der israelischen Regierung. Das israelische Außenministerium wies die Vorwürfe zurück und warf der Kommission vor, als politische Instrumentalisierung gegen den Staat Israel zu dienen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen internationaler Institutionen und Politiker",
+     "absaetze": [
+      "Die Entscheidung des Nobelkomitees stieß bei zahlreichen internationalen Organisationen auf Zustimmung. Die Vereinten Nationen bezeichneten die Ehrung als eine großartige Nachricht und als Bestätigung für den Wert der Menschenrechte. Das UN-Hochkommissariat für Menschenrechte würdigte den Einsatz der Juristin.",
+      "Die Präsidentin des Internationalen Strafgerichtshofs, Tomoko Akane, erklärte laut Berichten, der Preis sei eine wichtige Würdigung der internationalen Justiz als Eckpfeiler des Friedens. Auch EU-Kommissionspräsidentin Ursula von der Leyen und der südafrikanische Präsident Cyril Ramaphosa gratulierten der Preisträgerin und lobten ihren Einsatz für Gerechtigkeit.",
+      "Kritische Stimmen kamen hingegen aus Israel. Das israelische Außenministerium kritisierte die Auszeichnung scharf und sprach von einer Instrumentalisierung des Preises zur Legitimierung von Vorurteilen. Israel warf der Preisträgerin eine politisch motivierte Haltung vor."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Friedensnobelpreis ist eine internationale Auszeichnung, die jährlich an Personen oder Organisationen vergeben wird, die sich besonders für den Frieden eingesetzt haben. Die Vergabe erfolgt durch das Norwegische Nobelkomitee.",
+      "Der Internationale Strafgerichtshof mit Sitz in Den Haag ist ein Gericht zur Verfolgung von Völkermord, Verbrechen gegen die Menschlichkeit und Kriegsverbrechen."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "1941",
+     "Navanethem Pillay wird im südafrikanischen Durban geboren."
+    ],
+    [
+     "1967",
+     "Pillay eröffnet als erste nicht weiße Frau eine eigene Anwaltskanzlei in der Provinz Natal."
+    ],
+    [
+     "2003 bis 2008",
+     "Tätigkeit als Richterin am Internationalen Strafgerichtshof in Den Haag."
+    ],
+    [
+     "2008 bis 2014",
+     "Amtierung als Hohe Kommissarin der Vereinten Nationen für Menschenrechte."
+    ],
+    [
+     "2021 bis 2025",
+     "Vorsitz der UN-Untersuchungskommission zu den besetzten palästinensischen Gebieten."
+    ],
+    [
+     "2026",
+     "Bekanntgabe der Verleihung des Friedensnobelpreises an Pillay durch das Nobelkomitee."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Navi Pillay judge",
+     "bildunterschrift": "Die südafrikanische Juristin Navanethem Pillay."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Palace of Justice Nuremberg",
+     "bildunterschrift": "Der Justizpalast in Nürnberg."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "International Court of Justice The Hague",
+     "bildunterschrift": "Das Gebäude des Internationalen Gerichtshofs in Den Haag."
+    },
+    {
+     "art": "symbol",
+     "suchbegriff": "Nobel Prize medal",
+     "bildunterschrift": "Eine symbolische Darstellung der Medaille des Nobelpreises."
+    }
+   ],
+   "ort": {
+    "name": "Oslo, Norwegen"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung nicht belegter Jahreszahlen im Fließtext bei der Zeitleiste und im Artikel, Ersetzung wertender Ausdrücke durch neutrale Formulierungen."
+   ],
+   "wortwarnung": [],
+   "einfach": {
+    "vorspann": "Der diesjährige Friedensnobelpreis geht an die südafrikanische Juristin Navanethem Pillay.",
+    "absaetze": [
+     "Das Nobelkomitee in Oslo hat die Entscheidung am Freitag bekannt gegeben.",
+     "Pillay erhält den Preis für ihren Einsatz für das Völkerrecht und gegen Kriegsverbrechen.",
+     "Die Juristin war früher unter anderem Richterin am Internationalen Strafgerichtshof.",
+     "Verschiedene Organisationen lobten die Entscheidung als wichtige Unterstützung für die Menschenrechte.",
+     "Israel kritisierte die Auszeichnung dagegen scharf und warf Pillay politische Voreingenommenheit vor."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der Friedensnobelpreis des Jahres 2026 geht an die südafrikanische Juristin Navanethem Pillay.",
+     "Das Nobelkomitee in Oslo ehrt sie für ihren Einsatz für das Völkerrecht.",
+     "Die Entscheidung stieß international auf Zustimmung, während Israel scharfe Kritik äußerte."
+    ],
+    "lang": [
+     "Der Friedensnobelpreis des Jahres 2026 geht an die südafrikanische Juristin Navanethem Pillay.",
+     "Das hat das norwegische Nobelkomitee in Oslo am Freitag bekannt gegeben.",
+     "Die Auszeichnung ist mit zwölf Millionen schwedischen Kronen dotiert.",
+     "Pillay wird nach Angaben des Komitees für ihren Einsatz für das Völkerrecht geehrt.",
+     "Die Juristin war in ihrer Karriere unter anderem Richterin am Internationalen Strafgerichtshof und Hohe Kommissarin der Vereinten Nationen für Menschenrechte.",
+     "Zum Zeitpunkt der Bekanntgabe hielt sich Pillay zu einer Konferenz im deutschen Nürnberg auf.",
+     "Das israelische Außenministerium kritisierte die Entscheidung scharf und sprach von einer Instrumentalisierung der Auszeichnung.",
+     "Die Vereinten Nationen und andere Organisationen begrüßten die Ehrung dagegen als wichtige Unterstützung für die Menschenrechte.",
+     "Der Preis wird traditionell im Dezember überreicht."
+    ],
+    "einfach": [
+     "Der Friedensnobelpreis des Jahres 2026 geht an Navanethem Pillay aus Südafrika.",
+     "Das Komitee in Oslo ehrt die Juristin für ihren Einsatz für das Völkerrecht.",
+     "Pillay arbeitete früher als Richterin bei den Vereinten Nationen.",
+     "Viele Organisationen lobten die Entscheidung der Jury.",
+     "Israel kritisierte die Auszeichnung dagegen sehr scharf."
+    ]
+   },
+   "kurz": [
+    "Der Friedensnobelpreis des Jahres 2026 geht an die südafrikanische Juristin Navanethem Pillay.",
+    "Das Nobelkomitee in Oslo lobt ihren langjährigen Einsatz für das Völkerrecht.",
+    "Israel kritisierte die Entscheidung scharf und sprach von einer Instrumentalisierung."
+   ],
+   "fakten": [
+    [
+     "Dotierung des Preises",
+     "Zwölf Millionen schwedische Kronen"
+    ],
+    [
+     "Anzahl Nominierungen",
+     "Zweihundertachtundachtzig Kandidaten"
+    ],
+    [
+     "Geburtsjahr der Preisträgerin",
+     "1941"
+    ]
+   ],
+   "dossier": {
+    "slug": "friedensnobelpreis-2026",
+    "titel": "Verleihung des Friedensnobelpreises 2026"
+   },
+   "bildInfo": {
+    "titel": "Navi Pillay June 2014.jpg",
+    "beschreibung": "High Commissioner Navy Pillay at the 26th session of the Human Rights Council.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Navi_Pillay_June_2014.jpg",
+    "urheber": "US Mission Geneva",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "art": "person",
+    "suchbegriff": "Navi Pillay judge",
+    "bildunterschrift": "Navanethem Pillay bei der 26. Sitzung des Menschenrechtsrates im Juni 2014.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Navi Pillay June 2014.jpg",
+     "beschreibung": "High Commissioner Navy Pillay at the 26th session of the Human Rights Council.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/2/24/Navi_Pillay_June_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Navi_Pillay_June_2014.jpg",
+     "urheber": "US Mission Geneva",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "person",
+     "suchbegriff": "Navi Pillay judge",
+     "bildunterschrift": "Navanethem Pillay bei der 26. Sitzung des Menschenrechtsrates im Juni 2014.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "International Court of Justice HQ 2006.jpg",
+     "beschreibung": "The Peace Palace in The Hague , Netherlands , which is the seat of the International Court of Justice .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/International_Court_of_Justice_HQ_2006.jpg/1280px-International_Court_of_Justice_HQ_2006.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/a/a0/International_Court_of_Justice_HQ_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:International_Court_of_Justice_HQ_2006.jpg",
+     "urheber": "International Court of Justice ; originally uploaded by Yeu Ninje at en.wikipedia .",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "institution",
+     "suchbegriff": "International Court of Justice The Hague",
+     "bildunterschrift": "Das Friedenspalais in Den Haag als Sitz des Internationalen Gerichtshofs.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "PSM V70 D094 Nobel prize medals.jpg",
+     "beschreibung": "Nobel prize medals",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/PSM_V70_D094_Nobel_prize_medals.jpg/1280px-PSM_V70_D094_Nobel_prize_medals.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/PSM_V70_D094_Nobel_prize_medals.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:PSM_V70_D094_Nobel_prize_medals.jpg",
+     "urheber": "Unknown author Unknown author",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "suchbegriff": "Nobel Prize medal",
+     "bildunterschrift": "Nobelpreismedaillen, mit denen heraus Leistungen ausgezeichnet werden.",
+     "hinweis": "Symbolbild"
+    }
+   ],
+   "ortInfo": {
+    "name": "Oslo, Norwegen",
+    "lat": 59.913,
+    "lon": 10.739
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "schroeder-besuch-putin-geburtstag",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-09T15:48:19.000Z",
+   "titel": "Kritik an Besuch von Altkanzler Schröder in Moskau",
+   "vorspann": "Der frühere deutsche Bundeskanzler Gerhard Schröder hat den russischen Präsidenten Wladimir Putin an dessen Geburtstag in Moskau besucht. Das Treffen stößt bei der Bundesregierung und Vertretern verschiedener Parteien auf Kritik.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Altkanzler Gerhard Schröder hat den russischen Präsidenten Wladimir Putin an dessen Geburtstag in Moskau besucht.",
+    "Die Bundesregierung und führende Politiker verschiedener Parteien verurteilten das Treffen als unmoralisch und inakzeptabel.",
+    "Kritiker verwiesen auf den Krieg in der Ukraine und gleichzeitige Angriffe.",
+    "Aus der SPD gab es neben Kritik auch Verteidigung für den direkten Kontakt des Altkanzlers zum Kremlchef."
+   ],
+   "einig": [
+    [
+     "Altkanzler Gerhard Schröder hat Wladimir Putin an dessen Geburtstag in Moskau besucht.",
+     [
+      "Tagesschau/ARD",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ],
+    [
+     "Bundeskanzler Friedrich Merz reagierte mit Empörung über das Treffen.",
+     [
+      "Tagesschau/ARD",
+      "Deutsche Welle",
+      "ORF"
+     ]
+    ],
+    [
+     "SPD-Chef Lars Klingbeil bezeichnete das Treffen als inakzeptabel.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob der Besuch geschäftlicher Natur war oder eine politische Vermittlung im Vordergrund stand, ist zwischen Kreml-Angaben und der Kritik strittig."
+   ],
+   "positionen": [
+    [
+     "Steffen Meyer (Stellvertretender Regierungssprecher)",
+     "Der Kanzler ist zutiefst empört und empfindet das Treffen als unmoralisch.",
+     "Tagesschau/ARD, Deutsche Welle, ORF"
+    ],
+    [
+     "Lars Klingbeil (SPD-Parteichef)",
+     "Der Besuch ist inakzeptabel angesichts des russischen Angriffskrieges.",
+     "Tagesschau/ARD, Deutschlandfunk, Deutsche Welle"
+    ],
+    [
+     "Ralf Stegner (SPD-Außenpolitiker)",
+     "Der Besuch kann ein Erfolg sein, wenn er dem Frieden gedient hat, da Schröder Zugang zu Putin hat.",
+     "Tagesschau/ARD, Deutsche Welle"
+    ],
+    [
+     "Marie-Agnes Strack-Zimmermann (FDP)",
+     "Kritisiert den Besuch scharf und vergleicht ihn mit Schröders Fernbleiben von Untersuchungsausschüssen.",
+     "Tagesschau/ARD, Deutsche Welle, ORF"
+    ]
+   ],
+   "fehlend": "Stellungnahme von Gerhard Schröder selbst zu den aktuellen Vorwürfen.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:12",
+     "fokus": "Reaktionen aus der deutschen Politik",
+     "text": "Die Berichterstattung konzentriert sich auf Reaktionen in Berlin.",
+     "url": "https://www.tagesschau.de/inland/innenpolitik/russland-altkanzler-schroeder-putin-geburtstag-kritik-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 8,
+      "minuten": 3,
+      "woerter": 512,
+      "satzlaenge": 16,
+      "langeWoerter": 32
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:48",
+     "fokus": "Kritik",
+     "text": "Kritik aus der SPD nach dem Treffen.",
+     "url": "https://www.deutschlandfunk.de/klingbeil-bezeichnet-schroeders-treffen-mit-putin-als-voellig-inakzeptabel-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 13:51",
+     "fokus": "Hintergrund",
+     "text": "Bericht über das Treffen in Moskau.",
+     "url": "https://www.spiegel.de/ausland/gerhard-schroeder-und-putin-was-muss-der-altkanzler-noch-tun-damit-die-spd-ihn-ausschliesst-a-6ab44d45-8204-4562-aa15-e5d54db67d6d#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 134,
+      "satzlaenge": 12,
+      "langeWoerter": 36
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "09.10.26, 15:12",
+     "fokus": "Hintergründe",
+     "text": "Der Artikel beleuchtet die Darstellung des Kremls.",
+     "url": "https://www.dw.com/de/merz-nennt-schröders-besuch-bei-putin-unmoralisch/a-79612832?maca=de-rss-de-all-1119-rdf",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 656,
+      "satzlaenge": 15,
+      "langeWoerter": 42
+     },
+     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
+     "finanzierung": "Steuermittel des Bundes",
+     "publikumWert": null
+    },
+    {
+     "name": "ORF",
+     "typ": "öffentlich-rechtlich (Österreich)",
+     "art": "öffentlich-rechtlich",
+     "stamm": false,
+     "datum": "09.10.26, 14:08",
+     "fokus": "Reaktionen",
+     "text": "Bericht über die scharfe Kritik.",
+     "url": "https://orf.at/stories/3444574/",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 3,
+      "woerter": 622,
+      "satzlaenge": 18,
+      "langeWoerter": 37
+     },
+     "traeger": "Österreichischer Rundfunk, Stiftung öffentlichen Rechts",
+     "finanzierung": "Haushaltsabgabe",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Details zu Kreml-Angaben",
+     "Die Deutsche Welle und der ORF nennen konkrete Details dazu, dass Putin aus den Medien von der Anwesenheit erfuhr und Schröder einlud."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Altkanzler Gerhard Schröder und Präsident Wladimir Putin",
+    "was": "Treffen zum Geburtstag in Moskau",
+    "wann": "08.10.2026",
+    "wo": "Moskau, Russland",
+    "wie": "Privater Besuch ohne vorherige Absprache mit deutschen Ministerien",
+    "warum": "Laut Kreml eine Einladung an einen alten Freund, laut Kritikern unangebracht",
+    "quellenlage": "Öffentlich-rechtliche Medien und Nachrichtenmagazine"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das Treffen in Moskau",
+     "absaetze": [
+      "Der ehemalige deutsche Bundeskanzler Gerhard Schröder hat den russischen Präsidenten Wladimir Putin an dessen Geburtstag in Moskau besucht. Laut Angaben der Tagesschau/ARD feierte der achtzigjährige Schröder gemeinsam mit Putin dessen vierundsiebzigsten Geburtstag in der russischen Hauptstadt. Ein veröffentlichtes Foto zeigt die beiden Männer händeschüttelnd. Der Kreml teilte mit, Putin habe aus den Medien von Schröders Aufenthalt erfahren und seinen alten Freund nach Hause eingeladen, wie unter anderem die Deutsche Welle und der ORF berichten.",
+      "Nach Berichten der Deutschen Welle und des ORF hatte Schröder zuvor eine Filiale der Supermarktkette Hyperglobus besucht. Russische Medien berichteten über eine Berufung Schröders in den Aufsichtsrat des Unternehmens. Die Supermarktkette gehörte in der Vergangenheit zum deutschen Globus-Konzern.",
+      "Der Besuch war laut übereinstimmenden Angaben weder mit dem Auswärtigen Amt, dem Kanzleramt noch dem Bundesinnenministerium abgesprochen. Auch die deutsche Botschaft in Moskau leistete keine Unterstützung für die Reise, wie die Deutsche Welle und der ORF vermelden."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen der Bundesregierung",
+     "absaetze": [
+      "Die Bundesregierung hat das Treffen verurteilt. Laut Tagesschau/ARD und Deutscher Welle äußerte sich der stellvertretende Regierungssprecher Steffen Meyer im Auftrag von Bundeskanzler Friedrich Merz. Der Kanzler sei zutiefst empört über das Zusammentreffen.",
+      "Meyer erklärte laut Deutscher Welle und ORF, dass Putin allein für den Krieg in der Ukraine verantwortlich sei. Dessen Befehle führten täglich zu Leid und zivilen Opfern. Vor diesem Hintergrund empfinde der Bundeskanzler Schröders Geburtstagsfeier als unmoralisch.",
+      "Die Deutsche Welle und der ORF verweisen zudem auf die Angriffe Russlands am Tag von Putins Geburtstag. Die Ukraine sei mit Raketen und Kampfdrohnen angegriffen worden. Der ukrainische Präsident Wolodymyr Selenskyj sprach von Toten und Verletzten und bezeichnete den Angriff als Geburtstagsgeschenk für Putin."
+     ]
+    },
+    {
+     "ueberschrift": "Stimmen aus den Parteien",
+     "absaetze": [
+      "Aus den Parteien kommt Kritik an dem Altkanzler. Der SPD-Parteichef Lars Klingbeil bezeichnete den Besuch laut Tagesschau/ARD, Deutschlandfunk und Deutscher Welle als inakzeptabel. Russland führe einen Angriffskrieg und bringe Leid über die Menschen in der Ukraine.",
+      "Die Grünen-Politikerin Katrin Göring-Eckardt verurteilte den Besuch als Schande für Deutschland und Verrat an Europa, wie Tagesschau/ARD und Deutsche Welle berichten. Die FDP-Politikerin Marie-Agnes Strack-Zimmermann nannte Schröder einen Rentner und verwies auf dessen frühere Absagen von Zeugenaussagen wegen einer Erkrankung.",
+      "CDU-Generalsekretärin Franziska Hoppermann schrieb laut Deutscher Welle von Schampus, Kaviar und Bomben angesichts gleichzeitiger Angriffe. Die Linken-Fraktionsvorsitzende Heidi Reichinnek bezeichnete das Verhalten laut Deutscher Welle als rückgratlos."
+     ]
+    },
+    {
+     "ueberschrift": "Verteidigung aus der SPD",
+     "absaetze": [
+      "Gegenwind innerhalb der SPD erfährt die Kritik durch den Außenpolitiker Ralf Stegner. Laut Tagesschau/ARD und Deutscher Welle verteidigte Stegner den Besuch und verwies darauf, dass Schröder einer der wenigen Menschen in Deutschland sei, die noch Zugang zu Putin hätten.",
+      "Stegner erklärte laut Berichten, dass Schröder als Privatmann in Moskau war und Türen öffnen könne. Wenn der Besuch dem Frieden gedient habe, sei er ein Erfolg gewesen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund der Beziehungen",
+     "absaetze": [
+      "Gerhard Schröder war von neunzehnamtundneunzig bis zweitausendfünf deutscher Bundeskanzler und verbindet seit vielen Jahren eine persönliche Freundschaft mit Wladimir Putin. Auch nach Beginn des russischen Angriffskrieges im Februar zweitausendzweiundzwanzig traf er den Kremlchef mehrfach. Im Mai war Schröder von Putin als Vermittler genannt worden, was in der Bundesregierung Skepsis auslöste.",
+      "Umstritten sind Schröders frühere Tätigkeiten für russische Energiekonzerne nach seiner Kanzlerschaft, darunter der Vorsitz im Verwaltungsrat der Nord Stream zwei AG. Die Ostsee-Pipeline Nord Stream zwei wurde Ende zweitausendeinundzwanzig fertiggestellt, ging nach Beginn des Krieges und dem Stopp des Genehmigungsverfahrens durch die Bundesregierung jedoch nie in Betrieb."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Ein Bundeskanzler leitet die Regierungsgeschäfte in Deutschland und bestimmt die Richtlinien der Politik. Ministerien wie das Auswärtige Amt sind Bundesbehörden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-10-08",
+     "Gerhard Schröder besucht Wladimir Putin an dessen Geburtstag in Moskau."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Gerhard Schröder",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Moskau, Russland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Wertende Begriffe im Text und in den Entwürfen wurden durch neutrale Ausdrücke ersetzt.",
+    "Zahlen und Namen wurden an die Angaben in den Originalberichten angepasst."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Altkanzler",
+      "Ein früherer Bundeskanzler, der das Amt früher geleitet hat."
+     ],
+     [
+      "Kreml",
+      "Der Regierungssitz des russischen Präsidenten in Moskau."
+     ]
+    ],
+    "fragen": [
+     "Welche Argumente bringen Kritiker gegen den Besuch vor?",
+     "Warum verteidigen einige Politiker den Kontakt zu Russland?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wen hat Gerhard Schröder in Moskau besucht?",
+      "optionen": [
+       "Wladimir Putin",
+       "Friedrich Merz",
+       "Lars Klingbeil"
+      ],
+      "richtig": 0,
+      "erklaerung": "Altkanzler Schröder hat den russischen Präsidenten Wladimir Putin besucht."
+     },
+     {
+      "frage": "Wie reagierte Bundeskanzler Friedrich Merz auf das Treffen?",
+      "optionen": [
+       "Er fand es gut.",
+       "Er war zutiefst empört.",
+       "Er wusste von nichts."
+      ],
+      "richtig": 1,
+      "erklaerung": "Bundeskanzler Merz reagierte mit tiefer Empörung über das Treffen."
+     },
+     {
+      "frage": "Welcher SPD-Politiker verteidigte den Besuch?",
+      "optionen": [
+       "Lars Klingbeil",
+       "Ralf Stegner",
+       "Olaf Scholz"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der SPD-Außenpolitiker Ralf Stegner verteidigte den Besuch."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der frühere Bundeskanzler Gerhard Schröder hat den russischen Präsidenten Wladimir Putin in Moskau besucht.",
+    "absaetze": [
+     "Putin feierte seinen Geburtstag. Schröder reiste dafür nach Russland.",
+     "Bundeskanzler Friedrich Merz kritisierte das Treffen sehr.",
+     "Auch andere Politikerinnen und Politiker zeigten sich verärgert.",
+     "Einige SPD-Mitglieder verteidigten den Besuch jedoch."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Altkanzler Gerhard Schröder hat Wladimir Putin in Moskau besucht.",
+     "Die Bundesregierung kritisierte das Treffen scharf als unmoralisch.",
+     "Aus der SPD gab es sowohl Kritik als auch Unterstützung."
+    ],
+    "lang": [
+     "Der ehemalige deutsche Bundeskanzler Gerhard Schröder hat den russischen Präsidenten Wladimir Putin in Moskau besucht.",
+     "Das Treffen fand anlässlich des Geburtstags von Putin statt.",
+     "Nach Angaben der Medien reiste Schröder im Oktober zweitausendsechsundzwanzig nach Russland.",
+     "Bundeskanzler Friedrich Merz reagierte darauf mit tiefer Empörung.",
+     "Nach Angaben des Regierungssprechers Steffen Meyer hält der Kanzler das Treffen für unmoralisch.",
+     "Auch Politiker anderer Parteien kritisierten den Besuch scharf.",
+     "Der SPD-Politiker Ralf Stegner verteidigte das Treffen jedoch als möglichen Beitrag zum Frieden.",
+     "Das Auswärtige Amt teilte mit, dass die Reise vorab nicht abgesprochen war.",
+     "Die Bundesregierung und der Kreml machten unterschiedliche Angaben zum Zweck der Reise."
+    ],
+    "einfach": [
+     "Gerhard Schröder war der deutsche Bundeskanzler.",
+     "Er hat Wladimir Putin in Russland besucht.",
+     "Putin hatte Geburtstag.",
+     "Die Bundesregierung findet diesen Besuch nicht gut.",
+     "Andere Politiker kritisieren den ehemaligen Kanzler scharf."
+    ]
+   },
+   "kurz": [
+    "Altkanzler Gerhard Schröder hat Wladimir Putin in Moskau besucht.",
+    "Die Bundesregierung kritisierte das Treffen scharf.",
+    "Aus der SPD gab es unterschiedliche Reaktionen."
+   ],
+   "fakten": [
+    [
+     "Alter von Gerhard Schröder",
+     "82 Jahre"
+    ],
+    [
+     "Geburtstag von Wladimir Putin",
+     "74. Geburtstag"
+    ]
+   ],
+   "dossier": {
+    "slug": "schroeder-putin-treffen",
+    "titel": "Besuch von Gerhard Schröder in Moskau"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Moskau, Russland",
+    "lat": 55.626,
+    "lon": 37.606
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "mecklenburg-vorpommern-koalitionsverhandlungen",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-09T15:48:19.000Z",
+   "titel": "Koalitionsverhandlungen in Mecklenburg-Vorpommern vereinbart",
+   "vorspann": "Nach zweitägigen oder zweiwöchigen Sondierungen haben sich SPD, Linke und Grüne auf Koalitionsverhandlungen geeinigt. Damit steuert das Bundesland auf eine Landesregierung zu.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "SPD, Linke und Grüne in Mecklenburg-Vorpommern wollen Koalitionsverhandlungen aufnehmen.",
+    "Nach der Landtagswahl im September hat die bisherige Koalition keine eigene Mehrheit mehr.",
+    "Die AfD wurde stärkste Kraft, wird aber von den anderen Parteien als Koalitionspartner ausgeschlossen.",
+    "In den Sondierungen wurden bereits Vorhaben wie Bürgerbeteiligung und Kita-Beitragsfreiheit vereinbart."
+   ],
+   "einig": [
+    [
+     "SPD, Linke und Grüne vereinbaren Koalitionsgespräche.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "Welt"
+     ]
+    ],
+    [
+     "Die AfD wird von den drei Parteien als Koalitionspartner ausgeschlossen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel",
+      "Welt"
+     ]
+    ],
+    [
+     "Die Landtagswahl fand am 20. September statt.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Ob die Parteigremien den Koalitionsverhandlungen formal zustimmen, wird am Freitag und Samstag entschieden."
+   ],
+   "positionen": [
+    [
+     "Manuela Schwesig (SPD-Landesvorsitzende)",
+     "Die Sondierungen zeigten gemeinsame Ziele für eine starke Wirtschaft und gesellschaftlichen Zusammenhalt.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Hennis Herbst (Linken-Parteichef)",
+     "Das Sondierungspapier setzt den Schwerpunkt auf soziale Gerechtigkeit und konkrete Bedürfnisse wie Krankenhausstandorte.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Claudia Müller (Grünen-Fraktionsvorsitzende)",
+     "Man wolle Verantwortung übernehmen und unterschiedliche Positionen als Stärke nutzen.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Direkte Stellungnahmen der AfD zur Regierungsbildung und genaue Aussagen weiterer Oppositionsparteien außerhalb der Berichte.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 16:50",
+     "fokus": "Detaillierte Einblicke in Sondierungen",
+     "text": "Die Tagesschau berichtet ausführlich über geplante Ausschüsse, Bürgerbeteiligung und Zitate der Parteispitzen.",
+     "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl/spd-linke-und-gruene-wollen-koalitionverhandlungen-in-mv-aufnehmen,mvwahl-492.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 4,
+      "woerter": 877,
+      "satzlaenge": 17,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:28",
+     "fokus": "Wahlergebnisse und Parteienkonstellation",
+     "text": "ZDFheute nennt exakte Prozentzahlen der Wahlergebnisse und fokussiert sich auf die Rolle der AfD als Opposition.",
+     "url": "https://www.zdfheute.de/politik/deutschland/spd-linke-gruene-koalitionsverhandlungen-meckelnburg-vorpommern-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 2,
+      "woerter": 357,
+      "satzlaenge": 13,
+      "langeWoerter": 36
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:48",
+     "fokus": "–",
+     "text": "SPD, Linke und Grüne in Mecklenburg-Vorpommern wollen Koalitionsverhandlungen aufnehmen. Damit steuert das Bundesland auf die erste rot-rot-grüne Landesregierung in seiner Geschichte hin. Über zentrale Vorhaben besteht bereits Einigkeit.",
+     "url": "https://www.deutschlandfunk.de/rot-rot-gruene-koalitionsgespraeche-vereinbart-erste-vorhaben-sind-bekannt-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 15:44",
+     "fokus": "–",
+     "text": "Fast drei Wochen nach der Landtagswahl in Mecklenburg-Vorpommern wollen SPD, Linke und Grüne über eine Koalition beraten. Ziel sei eine Regierung, »die auf Verlässlichkeit, Stabilität und Vertrauen setzt«.",
+     "url": "https://www.spiegel.de/politik/deutschland/mecklenburg-vorpommern-rot-rot-gruen-vereinbart-koalitionsgespraeche-a-b6054156-102a-45e5-833d-a915325ce7d2#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 271,
+      "satzlaenge": 14,
+      "langeWoerter": 41
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Welt",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "09.10.26, 16:52",
+     "fokus": "Finanzielle Eckpunkte und MV-Plan",
+     "text": "Die Welt hebt finanzielle Details wie den MV-Plan mit Sondermitteln und spezifische Jugendprojekte hervor.",
+     "url": "https://www.welt.de/politik/deutschland/article6ac8eb7c5528343575dfe3fe/mecklenburg-vorpommern-sondierungen-erfolgreich-spd-linke-und-gruene-vereinbaren-koalitionsgespraeche.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 1,
+      "woerter": 293,
+      "satzlaenge": 18,
+      "langeWoerter": 35
+     },
+     "traeger": "WeltN24 GmbH, gehört zur Axel Springer SE",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Finanzdetails",
+     "Die Welt nennt konkrete Summen aus dem Sondervermögen, während andere Berichte allgemeiner bleiben."
+    ]
+   ],
+   "wfragen": {
+    "wer": "SPD, Linke und Grüne",
+    "was": "Einigung auf Koalitionsverhandlungen",
+    "wann": "2026-10-09",
+    "wo": "Schwerin, Mecklenburg-Vorpommern",
+    "wie": "Nach Sondierungen in gemeinsamer Erklärung",
+    "warum": "Weil die bisherige Koalition keine Mehrheit hat und eine Zusammenarbeit mit der AfD ausgeschlossen wird, laut Tagesschau, ZDFheute, Deutschlandfunk, Spiegel und Welt",
+    "quellenlage": "Öffentlich-rechtliche und gedruckte Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die Parteien SPD, Linke und Grüne in Mecklenburg-Vorpommern haben sich auf die Aufnahme von Koalitionsverhandlungen geeinigt. Nach Sondierungen empfahlen die Verhandlungsleiter der drei Parteien ihren Parteigremien diesen Schritt. Eine entsprechende gemeinsame Erklärung wurde am Freitag in Schwerin veröffentlicht.",
+      "Damit steuert das Bundesland auf die erste rot-rot-grüne Landesregierung in seiner Geschichte zu. Ziel der beteiligten Parteien ist eine gemeinsame Regierung, die nach Angaben in einer Erklärung auf Verlässlichkeit, Stabilität und Vertrauen setzt. Die Landesvorstände von SPD und Linken planen separate Sitzungen am Freitagabend, während die Grünen am Samstag auf einem Parteitag in Rostock entscheiden.",
+      "Die Koalitionsgespräche sollen beginnen, da der Termin für die konstituierende Sitzung des neuen Landtages feststeht. Am 20. Oktober tritt das Parlament in Schwerin zusammen. Bis zur Wahl der Ministerpräsidentin oder des Ministerpräsidenten gilt laut Landesverfassung eine Frist von vier Wochen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "In dem gemeinsamen Abschlusspapier zu den Sondierungen haben die Parteien bereits Eckpunkte und konkrete Vorhaben vereinbart. Ein zentrales Ziel ist laut Tagesschau die Stärkung der Demokratie durch mehr Bürgerbeteiligung. Dazu sollen Bürgerdialoge, Bürgermeisterkonferenzen und Bürgerräte eingerichtet werden.",
+      "Laut der Zeitung Welt sollen mit dem sogenannten MV-Plan bis zum Jahr 2035 zusätzlich 1,9 Milliarden Euro aus einem Sondervermögen in die Modernisierung des Landes fließen. Die Kindertagesstätten sollen demnach beitragsfrei bleiben, Schulen modernisiert und die Unterrichtsversorgung verbessert werden. Zudem wollen sich die Partner für den Erhalt aller Krankenhausstandorte und die Schaffung von neuen oder sanierten Wohnheimplätzen einsetzen.",
+      "Weitere vereinbarte Vorhaben sind die Einführung eines MV-Jugendtickets sowie die Einsetzung eines parlamentarischen Untersuchungsausschusses zu rechtsextremen Netzwerken. SPD, Linke und Grüne planen zudem eine Enquetekommission aus Abgeordneten und externen Experten zur Krisenvorsorge und zum Bevölkerungsschutz."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Hintergrund der Koalitionsbildung ist das Ergebnis der Landtagswahl vom 20. September. Bei dieser Wahl wurde die AfD laut den Berichten mit 38,2 Prozent der Stimmen stärkste Kraft und errang 32 Sitze im Landtag. Die SPD von Ministerpräsidentin Manuela Schwesig erreichte 35,5 Prozent und kam auf 29 Sitze.",
+      "Die bisherigen Regierungspartner SPD und Linke verfügen im 71 Sitze umfassenden Parlament über keine eigene Mehrheit mehr. Die Linke erreichte 6,5 Prozent beziehungsweise fünf Sitze, die Grünen kamen auf 5,7 Prozent und ebenfalls fünf Sitze. Die CDU scheiterte mit 4,9 Prozent an der Fünfprozenthürde.",
+      "Da alle anderen im Parlament vertretenen Parteien eine Zusammenarbeit mit der AfD ausschließen, bleibt als Regierungsoption nur ein Bündnis aus SPD, Linken und Grünen. Bei erfolgreichem Abschluss der Verhandlungen wäre die AfD die einzige Oppositionspartei im neuen Landtag."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Unter Sondierungen versteht man vertrauliche Vorgespräche zwischen politischen Parteien nach einer Wahl. Dabei prüfen die Parteien, ob inhaltlich genügend Gemeinsamkeiten für eine gemeinsame Regierungsarbeit bestehen und offizielle Koalitionsverhandlungen aufgenommen werden können.",
+      "Ein Koalitionsvertrag ist ein schriftlicher Vertrag, den die beteiligten Parteien nach erfolgreichen Verhandlungen schließen. In diesem Vertrag vereinbaren sie das gemeinsame politische Programm sowie konkrete Vorhaben für die gesamte Wahlperiode."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Die SPD-Landesvorsitzende Manuela Schwesig erklärte laut Tagesschau, dass die Sondierungen gemeinsame Ziele für eine starke Wirtschaft, gute Arbeit und gesellschaftlichen Zusammenhalt gezeigt hätten. Sie betonte den Anspruch, eine Koalition für das gesamte Land sein zu wollen.",
+      "Der Parteichef der Linken, Hennis Herbst, betonte laut Tagesschau, dass man auf soziale Gerechtigkeit statt auf Kürzungen setze. Das Papier stelle konkrete Bedürfnisse wie Wohnheime, Krankenhausstandorte und Kita-Bedingungen in den Mittelpunkt.",
+      "Die Fraktionsvorsitzende der Grünen, Claudia Müller, erklärte laut Tagesschau, dass man gemeinsam Verantwortung übernehmen wolle. Man wolle unterschiedliche politische Vorstellungen nutzen, um das beste Ergebnis für das Land zu erreichen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Nach dem Abschluss der Sondierungsgespräche beraten die Parteigremien über die Aufnahme der Koalitionsverhandlungen. Die Landesvorstände von SPD und Linken entscheiden am Freitagabend, während die Grünen am Samstag einen Parteitag in Rostock abhalten.",
+      "Bis zum Ablauf der gesetzlichen Fristen müssen die Parteien den Koalitionsvertrag fertigstellen und auf Parteitagen beschließen. Die Wahl des Ministerpräsidenten oder der Ministerpräsidentin muss laut Landesverfassung spätestens am siebzehnten November erfolgen."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-09-20",
+     "Landtagswahl in Mecklenburg-Vorpommern mit der AfD als stärkster Kraft."
+    ],
+    [
+     "2026-10-09",
+     "Abschluss der Sondierungen und Empfehlung für Koalitionsverhandlungen durch SPD, Linke und Grüne."
+    ],
+    [
+     "2026-10-20",
+     "Konstituierende Sitzung des neuen Landtages in Schwerin."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Manuela Schwesig politician",
+     "bildunterschrift": "Manuela Schwesig ist Ministerpräsidentin von Mecklenburg-Vorpommern und führt die SPD in die Koalitionsgespräche."
+    },
+    {
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss ist der Sitz des Landtages von Mecklenburg-Vorpommern."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "Landtag Mecklenburg-Vorpommern",
+     "bildunterschrift": "Der Landtag in Schwerin kommt im Oktober zu seiner konstituierenden Sitzung zusammen."
+    }
+   ],
+   "ort": {
+    "name": "Schwerin, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Korrektur von Zahlwörtern und Daten im Text entsprechend den Vorgaben für den Videotext."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Sondierung",
+      "Vertrauliche Vorgespräche zwischen politischen Parteien, in denen ausgelotet wird, ob eine gemeinsame Regierung möglich ist."
+     ],
+     [
+      "Koalitionsvertrag",
+      "Ein schriftlicher Vertrag zwischen verbündeten Parteien, in dem die gemeinsamen politischen Vorhaben für eine Wahlperiode festgehalten werden."
+     ],
+     [
+      "Landtag",
+      "Das Parlament eines deutschen Bundeslandes, das Gesetze beschließt und die Landesregierung kontrolliert."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe kann es geben, dass Parteien nach einer Wahl eine Koalition bilden müssen?",
+     "Welche Rolle spielt eine Opposition im Landtag und warum ist sie wichtig für die Demokratie?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wann fand die Landtagswahl in Mecklenburg-Vorpommern statt?",
+      "optionen": [
+       "Am zwanzigsten September",
+       "Am zwanzigsten Oktober",
+       "Am siebzehnten November"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Landtagswahl fand laut übereinstimmenden Medienberichten am zwanzigsten September statt."
+     },
+     {
+      "frage": "Welche Parteien verhandeln über eine gemeinsame Koalition?",
+      "optionen": [
+       "SPD, CDU und FDP",
+       "SPD, Linke und Grüne",
+       "AfD, CDU und Grüne"
+      ],
+      "richtig": 1,
+      "erklaerung": "SPD, Linke und Grüne haben sich auf die Aufnahme von Koalitionsverhandlungen geeinigt."
+     },
+     {
+      "frage": "Wie viele Sitze hat der neue Landtag in Mecklenburg-Vorpommern?",
+      "optionen": [
+       "60 Sitze",
+       "71 Sitze",
+       "80 Sitze"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der Landtag in Schwerin umfasst laut den Berichten 71 Parlamentarier."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Mecklenburg-Vorpommern haben sich drei Parteien auf Gespräche für eine gemeinsame Regierung geeinigt.",
+    "absaetze": [
+     "Die Parteien Sozialdemokratische Partei Deutschlands, Die Linke und Bündnis neunziger die Grünen wollen zusammen regieren.",
+     "Nach der Wahl im September haben sie zusammen genug Sitze im Parlament für eine Mehrheit.",
+     "Die Partei Alternative für Deutschland bekam die meisten Stimmen, wird aber von den anderen Parteien ausgeschlossen.",
+     "Die Parteigremien müssen den Koalitionsverhandlungen noch zustimmen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Mecklenburg-Vorpommern wollen SPD, Linke und Grüne Koalitionsverhandlungen aufnehmen. Die Parteien haben sich nach Angaben von Medien auf gemeinsame Vorhaben geeinigt. Eine Zusammenarbeit mit der AfD wird ausgeschlossen."
+    ],
+    "lang": [
+     "In Mecklenburg-Vorpommern wollen SPD, Linke und Grüne Koalitionsverhandlungen aufnehmen. Das gaben die Verhandlungsleiter der drei Parteien nach Angaben von Medien bekannt. Ziel sei eine Regierung für das gesamte Bundesland. Nach der Landtagswahl vom zwanzigsten September hat die bisherige Regierung keine eigene Mehrheit mehr. Die AfD wurde bei der Wahl stärkste Kraft mit dreißig Komma zwei Prozent der Stimmen. Da eine Zusammenarbeit mit der AfD von den anderen Parteien ausgeschlossen wird, streben SPD, Linke und Grüne eine gemeinsame Koalition an. Über zentrale Vorhaben wie Bürgerbeteiligung und Kita-Beitragsfreiheit besteht bereits Einigkeit. Die Parteigremien beraten am Freitag und Samstag über die Aufnahme der Verhandlungen. Der neue Landtag tritt am zwanzigsten Oktober zu seiner konstituierenden Sitzung zusammen."
+    ],
+    "einfach": [
+     "In Mecklenburg-Vorpommern wollen drei Parteien zusammen eine Regierung bilden. Die Sozialdemokratische Partei Deutschlands, Die Linke und Bündnis neunziger die Grünen haben sich darauf geeinigt. Nach einer Wahl im September haben sie zusammen genug Sitze im Parlament. Die Partei Alternative für Deutschland wird von den Gesprächen ausgeschlossen. Die Parteigremien müssen den Gesprächen noch zustimmen."
+    ]
+   },
+   "kurz": [
+    "In Mecklenburg-Vorpommern wollen SPD, Linke und Grüne Koalitionsverhandlungen aufnehmen.",
+    "Nach der Landtagswahl hat die bisherige Regierung keine eigene Mehrheit mehr.",
+    "Die AfD wird von den anderen Parteien als Koalitionspartner ausgeschlossen."
+   ],
+   "fakten": [
+    [
+     "Wahltag",
+     "20. September 2026"
+    ],
+    [
+     "Sitze im Landtag",
+     "71"
+    ],
+    [
+     "Stimmen AfD",
+     "38,2 Prozent"
+    ],
+    [
+     "Sitze AfD",
+     "32"
+    ],
+    [
+     "Stimmen SPD",
+     "35,5 Prozent"
+    ],
+    [
+     "Sitze SPD",
+     "29"
+    ],
+    [
+     "Sitze Linke",
+     "5"
+    ],
+    [
+     "Sitze Grüne",
+     "5"
+    ]
+   ],
+   "dossier": {
+    "slug": "landtagswahl-mv-2026",
+    "titel": "Landtagswahl in Mecklenburg-Vorpommern"
+   },
+   "bildInfo": {
+    "titel": "Manuela Schwesig 2.jpg",
+    "beschreibung": "Manuela Schwesig , German politician ( SPD ), since 17 December 2013, she is Federal Minister of Family Affairs, Senior Citizens, Women and Youth . And one of six deputy national chairman of the SPD .",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Manuela_Schwesig_2.jpg/1280px-Manuela_Schwesig_2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Manuela_Schwesig_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Manuela_Schwesig_2.jpg",
+    "urheber": "Thomas Fries",
+    "lizenz": "CC BY-SA 3.0 de",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "art": "person",
+    "suchbegriff": "Manuela Schwesig politician",
+    "bildunterschrift": "Die deutsche Politikerin Manuela Schwesig von der SPD.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Manuela Schwesig 2.jpg",
+     "beschreibung": "Manuela Schwesig , German politician ( SPD ), since 17 December 2013, she is Federal Minister of Family Affairs, Senior Citizens, Women and Youth . And one of six deputy national chairman of the SPD .",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Manuela_Schwesig_2.jpg/1280px-Manuela_Schwesig_2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/57/Manuela_Schwesig_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Manuela_Schwesig_2.jpg",
+     "urheber": "Thomas Fries",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "person",
+     "suchbegriff": "Manuela Schwesig politician",
+     "bildunterschrift": "Die deutsche Politikerin Manuela Schwesig von der SPD.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "Aerial image of Schwerin Castle (view from the east).jpg",
+     "beschreibung": "Aerial image of Schwerin Castle (view from the east)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Aerial_image_of_Schwerin_Castle_%28view_from_the_east%29.jpg/1280px-Aerial_image_of_Schwerin_Castle_%28view_from_the_east%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/37/Aerial_image_of_Schwerin_Castle_%28view_from_the_east%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Schwerin_Castle_(view_from_the_east).jpg",
+     "urheber": "Carsten Steger",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Schweriner Schloss",
+     "sprache": "de",
+     "art": "ort",
+     "suchbegriff": "Schwerin Castle",
+     "bildunterschrift": "Das Schweriner Schloss als Luftaufnahme aus östlicher Sicht.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "2019-03-14 Landtag Mecklenburg-Vorpommern 6575.jpg",
+     "beschreibung": "Landtag Mecklenburg-Vorpommern",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/2019-03-14_Landtag_Mecklenburg-Vorpommern_6575.jpg/1280px-2019-03-14_Landtag_Mecklenburg-Vorpommern_6575.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/d/df/2019-03-14_Landtag_Mecklenburg-Vorpommern_6575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2019-03-14_Landtag_Mecklenburg-Vorpommern_6575.jpg",
+     "urheber": "Olaf Kosinsky",
+     "lizenz": "CC BY-SA 3.0 de",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+     "art": "institution",
+     "suchbegriff": "Landtag Mecklenburg-Vorpommern",
+     "bildunterschrift": "Der Landtag von Mecklenburg-Vorpommern in Schwerin.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Schwerin, Deutschland",
+    "lat": 53.629,
+    "lon": 11.415
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "todesfaelle-waffenkontrolle-berngau",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-09T15:48:19.000Z",
+   "titel": "Zwei Behördenmitarbeiter bei Waffenkontrolle in Berngau getötet",
+   "vorspann": "Bei einer unangekündigten Waffenkontrolle in der oberpfälzischen Gemeinde Berngau sind zwei Beschäftigte des Landratsamts Neumarkt erschossen worden. Ein 60-jähriger Tatverdächtiger verschanzte sich stundenlang in seinem Wohnhaus, bevor Spezialkräfte der Polizei ihn in der Nacht festnahmen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "In Berngau im Landkreis Neumarkt sind zwei Beschäftigte des Landratsamts bei einer behördlichen Waffenkontrolle durch Schüsse getötet worden.",
+    "Der Tatverdächtige, ein 60-jähriger Jäger und Sportschütze mit zehn legalen Waffen, verschanzte sich stundenlang in seiner Wohnung.",
+    "Spezialkräfte der Polizei stürmten das Gebäude in der Nacht; der Mann wurde durch Schüsse ins Bein verletzt und festgenommen.",
+    "Laut bayerischem Innenministerium lagen zuvor keine Erkenntnisse über Vorstrafen oder eine extremistische Gesinnung vor; das Motiv ist unklar.",
+    "Gewerkschaften und Landespolitiker fordern nach dem Vorfall eine Überprüfung der Sicherheitsmaßnahmen für Beschäftigte im Außendienst."
+   ],
+   "einig": [
+    [
+     "Der 60-jährige Tatverdächtige besaß legal zehn Schusswaffen (Kurz- und Langwaffen) und war Jäger sowie Sportschütze.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "taz"
+     ]
+    ],
+    [
+     "Zwei Mitarbeiter des Landratsamts (eine 54-jährige Frau und ein 45-jähriger Mann) wurden bei einer Waffenkontrolle getötet.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "taz"
+     ]
+    ],
+    [
+     "Der Tatverdächtige war den Sicherheitsbehörden zuvor nicht polizeilich oder extremistisch aufgefallen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "taz"
+     ]
+    ],
+    [
+     "Der Mann verschanzte sich stundenlang und wurde in der Nacht durch Spezialkräfte unter Schusswaffengebrauch am Bein verletzt festgenommen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "taz"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die Schwere der Beinverletzung des Tatverdächtigen wird unterschiedlich angegeben: Die Polizei sprach laut ZDFheute anfangs von leichten Verletzungen, während Tagesschau/ARD und taz von einer schweren Verletzung berichteten.",
+    "Der Vorname des Bürgermeisters von Berngau variiert: Die Tagesschau nennt Thomas Meier, die taz nennt Tobias Meier.",
+    "Das genaue Motiv und die Ursache für die Eskalation der Kontrolle sind bislang unbekannt."
+   ],
+   "positionen": [
+    [
+     "Joachim Herrmann (Bayerischer Innenminister, CSU)",
+     "Bekundet Trauer und betont, dass keine Anzeichen für Extremismus vorlagen; die Ermittlungen laufen in alle Richtungen.",
+     "Tagesschau/ARD, ZDFheute, taz"
+    ],
+    [
+     "Alexander Gröbner (Geschäftsführer Verdi Oberpfalz)",
+     "Fordert die Überprüfung und Weiterentwicklung von Schutz- und Präventionskonzepten für Außendienstbeschäftigte.",
+     "taz"
+    ],
+    [
+     "Ronja Endres (Vorsitzende der Bayern-SPD)",
+     "Hinterfragt, ob Waffenkontrollen ohne polizeiliche Begleitung für Verwaltungsangestellte noch vertretbar sind.",
+     "taz"
+    ],
+    [
+     "Bündnis 90/Die Grünen Bayern",
+     "Fordern vom Innenminister Aufklärung über die Hintergründe der Tat im Landtagsinnenausschuss.",
+     "taz"
+    ]
+   ],
+   "fehlend": "Eine Aussage des Tatverdächtigen zum Tatmotiv nach seiner Festnahme oder eine Stellungnahme einer anwaltlichen Vertretung liegt in den Berichten noch nicht vor.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 15:55",
+     "fokus": "Aussagen von Innenminister Herrmann",
+     "text": "Stellt die Erkenntnisse zum legalen Waffenbesitz des Verdächtigen sowie Aussagen des bayerischen Innenministers und des Bürgermeisters dar.",
+     "url": "https://www.tagesschau.de/inland/berngau-schuesse-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 362,
+      "satzlaenge": 14,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 07:36",
+     "fokus": "Ablauf des Polizeieinsatzes",
+     "text": "Berichtet ausführlich über die Verhandlungen der Polizei mit dem Mann und den nächtlichen Zugriff der Spezialkräfte.",
+     "url": "https://www.zdfheute.de/panorama/kriminalitaet/bayern-oberpfalz-waffenkontrolle-schuesse-opfer-tote-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 4,
+      "woerter": 755,
+      "satzlaenge": 13,
+      "langeWoerter": 37
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "09.10.26, 17:48",
+     "fokus": "Kurzmeldung zur Festnahme",
+     "text": "Fasst den Tod der zwei Beschäftigten und die Festnahme nach stundenlanger Belagerung knapp zusammen.",
+     "url": "https://www.deutschlandfunk.de/mutmasslicher-todesschuetze-festgenommen-112.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 14:33",
+     "fokus": "Eindrücke aus Berngau",
+     "text": "Schildert die Stimmung im Ort nach der Festnahme.",
+     "url": "https://www.sueddeutsche.de/bayern/schuesse-berngau-neumarkt-taeter-infos-landratsamt-tote-schock-li.3560902",
+     "video": false,
+     "lesbar": {
+      "stufe": "leicht",
+      "fuerWen": "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
+      "klasse": 7,
+      "minuten": 1,
+      "woerter": 110,
+      "satzlaenge": 18,
+      "langeWoerter": 25
+     },
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "taz",
+     "typ": "Tageszeitung (Genossenschaft)",
+     "art": "privates Medium",
+     "stamm": false,
+     "datum": "09.10.26, 17:07",
+     "fokus": "Sicherheitsdebatte und Einordnung",
+     "text": "Thematisiert den Arbeitsschutz bei Kontrollen, Reaktionen von Parteien und Gewerkschaften sowie vergleichbare frühere Vorfälle.",
+     "url": "https://taz.de/Blutbad-in-der-Oberpfalz/!6220304/",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 4,
+      "woerter": 847,
+      "satzlaenge": 14,
+      "langeWoerter": 35
+     },
+     "traeger": "taz Verlags- und Vertriebs GmbH, getragen von der Genossenschaft taz eG (rund 23.000 Mitglieder)",
+     "finanzierung": "Genossenschaft, Abos, freiwillige Zahlungen",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Angaben zur Verletzung",
+     "ZDFheute zitiert eine Polizeisprecherin mit einer leichten Verletzung, Tagesschau/ARD und taz sprechen von schweren Verletzungen."
+    ],
+    [
+     "Politische Reaktionen",
+     "Nur die taz berichtet über Forderungen von Verdi, SPD und Grünen bezüglich der Arbeitssicherheit bei Kontrollen."
+    ],
+    [
+     "Vorname des Bürgermeisters",
+     "Tagesschau/ARD nennt den Bürgermeister Thomas Meier, während die taz Tobias Meier schreibt."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Ein 60-jähriger legaler Waffenbesitzer und zwei Beschäftigte des Landratsamts Neumarkt",
+    "was": "Tödliche Schüsse bei einer behördlichen Waffenkontrolle und anschließende Festnahme des Verdächtigen",
+    "wann": "Donnerstagnachmittag gegen 14 Uhr bis zur Festnahme in der Nacht gegen 2:20 Uhr",
+    "wo": "Berngau, Landkreis Neumarkt in der Oberpfalz (Bayern)",
+    "wie": "Schussabgabe auf zwei Kontrolleure, stundenlange Belagerung des Hauses und Zugriff durch Spezialkräfte",
+    "warum": "noch unklar",
+    "quellenlage": "Polizeipräsidium Oberpfalz, bayerisches Innenministerium, Aussagen von Gemeindevertretern und Medienberichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "In der Gemeinde Berngau im oberpfälzischen Landkreis Neumarkt sind am Donnerstagnachmittag zwei Beschäftigte des dortigen Landratsamts getötet worden. Eine 54-jährige Mitarbeiterin und ihr 45-jähriger Kollege suchten das Wohnhaus eines Waffenbesitzers auf, um eine behördliche Überprüfung durchzuführen. Nach Angaben der Behörden fielen bei dem Treffen Schüsse, die beide Mitarbeitende tödlich trafen. Die beiden Personen verstarben nach Einschätzung der Ermittler unmittelbar am Einsatzort.",
+      "Gegen 14:00 Uhr alarmierten Zeugen über den Notruf die Polizei, weil sie Schussgeräusche gehört hatten. Die Polizei rückte daraufhin mit zahlreichen Einsatzkräften in den Ort mit rund 2.600 Einwohnern aus und sperrte die Umgebung ab. Vor dem Wohnhaus fanden die Beamtinnen und Beamten den 45-jährigen Mitarbeiter tot am Boden liegend. Bei späteren Sicherungsmaßnahmen im Gebäude fanden Einsatzkräfte auch die getötete 54-jährige Kollegin.",
+      "Der mutmaßliche Schütze, ein 60-jähriger deutscher Staatsangehöriger, verschanzte sich nach der Tat in seiner Wohnung. Nach Angaben einer Polizeisprecherin rief der Mann selbst bei der Einsatzzentrale an. In den Gesprächen gab er an, geschossen zu haben, Schusswaffen zu besitzen und nicht ohne Widerstand aufgeben zu wollen. Spezialisten der Polizei versuchten daraufhin über mehrere Stunden, den Mann zur friedlichen Aufgabe zu bewegen."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der Polizeieinsatz dauerte bis in die Nacht zum Freitag an. Am Einsatzort waren nach Angaben der taz rund 150 Beamtinnen und Beamte versammelt. Die Polizei setzte unter anderem Spezialeinsatzkommandos, ein gepanzertes Fahrzeug sowie Hubschrauber und Drohnen ein. Die Einwohnerinnen und Einwohner des Ortes wurden gebeten, ihre Wohnungen nicht zu verlassen und den abgesperrten Bereich zu meiden.",
+      "Weil die Verhandlungen mit dem Mann zu keinem Ergebnis führten, entschieden sich die Einsatzkräfte für einen Zugriff. Laut Polizei drangen Spezialkräfte gegen 2:20 Uhr unter Einsatz von Sprengmitteln in das Wohnhaus ein. Bei dem Zugriff fielen Schüsse. Der 60-Jährige wurde durch Schüsse ins Bein gestoppt und festgenommen.",
+      "Zur Schwere der Verletzung des Verdächtigen gab es unterschiedliche Auskünfte. Laut ZDFheute sprach die Polizei zunächst von einer leichten Verletzung am Bein. Nach Berichten von Tagesschau/ARD und taz wurde der Mann dagegen mit schweren Verletzungen in ein Krankenhaus gebracht. Er befand sich nach der Festnahme in medizinischer Behandlung."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Bayerns Innenminister Joachim Herrmann (CSU) teilte mit, dass der 60-Jährige zehn Schusswaffen legal besaß. Darunter befanden sich sowohl Kurz- als auch Langwaffen. Der Mann war als Jäger und Sportschütze registriert. Der Bürgermeister des Ortes beschrieb den Verdächtigen laut Medienberichten als Person, die zurückgezogen gelebt habe und nicht im örtlichen Vereinsleben bekannt gewesen sei.",
+      "Den Sicherheitsbehörden war der Mann vor der Tat nicht aufgefallen. Laut Innenminister Herrmann lagen weder bei der Polizei noch beim Verfassungsschutz oder dem Staatsschutz Erkenntnisse über ihn vor. Es gebe bisher keine Hinweise auf eine extremistische Gesinnung. Das genaue Tatmotiv sei noch völlig unklar, und die Behörden ermitteln nach eigenen Angaben in alle Richtungen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "In Deutschland regelt das Waffengesetz den privaten Besitz von Schusswaffen. Personen, die Schusswaffen besitzen dürfen, müssen diese getrennt von der Munition in speziellen, gesicherten Waffenschränken aufbewahren. Die zuständigen Behörden, in Landkreisen sind dies meist die Landratsämter, haben die gesetzliche Aufgabe, diese Aufbewahrung zu kontrollieren.",
+      "Diese Überprüfungen erfolgen bei Besitzerinnen und Besitzern von Waffen regelmäßig und können unangekündigt stattfinden. Beschäftigte der Verwaltung führen diese Kontrollen üblicherweise zu zweit durch. Die Polizei wird nach Angaben von Behörden nur hinzugezogen, wenn vorab konkrete Anhaltspunkte für eine Gefährdung vorliegen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Innenminister Joachim Herrmann zeigte sich erschüttert über das Verbrechen und sprach den Angehörigen der Getöteten sein Mitgefühl aus. Für die Mitarbeitenden des Landratsamts Neumarkt wurde eine psychologische Betreuung organisiert. Das Amt blieb am Freitag für das Publikum geschlossen, und es wurden Kondolenzbücher ausgelegt. In der örtlichen Schule unterstützten Krisenteams die Schülerinnen und Schüler.",
+      "Der Vorfall löste zudem politische und gewerkschaftliche Reaktionen aus. Die Gewerkschaft Verdi forderte eine Überprüfung der Schutzmaßnahmen für Beschäftigte im Außendienst. Ronja Endres, Landesvorsitzende der bayerischen SPD, stellte die Frage, ob solche Kontrollen künftig noch ohne polizeiliche Begleitung stattfinden sollten. Die bayerische Landtagsfraktion der Grünen verlangte vom Innenminister einen Bericht im Landtagsinnenausschuss."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Ermittlungen führen die Kriminalpolizei Regensburg und die Staatsanwaltschaft Nürnberg-Fürth. Untersucht werden der genaue Ablauf des Vorfalls und mögliche frühere Kontakte zwischen dem Beschuldigten und dem Landratsamt. Sobald der Gesundheitszustand des Mannes es erlaubt, soll er vernommen werden.",
+      "Nach der medizinischen Behandlung soll der Verdächtige einem Ermittlungsrichter vorgeführt werden. Dieser entscheidet darüber, ob Untersuchungshaft angeordnet oder der Mann in einer Fachklinik untergebracht wird. Zudem soll der Fall im Innenausschuss des bayerischen Landtags thematisiert werden."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Donnerstag, gegen 14:00 Uhr",
+     "Zwei Mitarbeitende des Landratsamts treffen zur Kontrolle ein; Zeugen melden Schüsse bei der Polizei"
+    ],
+    [
+     "Donnerstag, Nachmittag",
+     "Polizeikräfte sperren den Tatort ab, finden die getöteten Personen und nehmen Kontakt zum Tatverdächtigen auf"
+    ],
+    [
+     "Freitag, gegen 02:20 Uhr",
+     "Spezialeinsatzkräfte dringen in das Wohnhaus ein und nehmen den am Bein verletzten Mann fest"
+    ],
+    [
+     "Freitag, Vormittag",
+     "Innenminister Joachim Herrmann äußert sich öffentlich zu den bisherigen Ermittlungsergebnissen"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "None",
+     "bildunterschrift": "Kein Bild gemäß Richtlinien bei Gewalttaten mit Todesopfern."
+    }
+   ],
+   "ort": {
+    "name": "Berngau, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Das Datum '8. Oktober 2026' in 'wfragen' wurde entfernt, da in den Quellen nur Wochentage genannt werden.",
+    "In 'einig' wurde der Deutschlandfunk aus dem vierten Punkt entfernt, da er die Details zur Beinverletzung nicht enthielt.",
+    "Im Abschnitt 'Wie geht es weiter?' wurde korrigiert, dass die Grünen den Bericht im Ausschuss forderten und dies keine Eigeninitiative Herrmanns war.",
+    "Die Schreibweise des Bürgermeisternamens im Fließtext wurde generalisiert, da die Vornamen in den Quellen voneinander abweichen.",
+    "Wertende Formulierungen wurden durch sachliche Beschreibungen ersetzt."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Waffenkontrolle",
+      "Eine behördliche Überprüfung vor Ort, ob Besitzer von Schusswaffen diese vorschriftsmäßig und sicher verschlossen aufbewahren."
+     ],
+     [
+      "Landratsamt",
+      "Die Verwaltungsbehörde eines Landkreises in Deutschland. Sie ist unter anderem für Genehmigungen und Kontrollen im Bereich des Waffenrechts zuständig."
+     ],
+     [
+      "Spezialeinsatzkommando",
+      "Eine besonders ausgebildete Einheit der Polizei, die bei gefährlichen Lagen wie Geiselnahmen oder bewaffneten Verdächtigen eingreift."
+     ]
+    ],
+    "fragen": [
+     "Wie sollten behördliche Kontrollen bei Waffenbesitzern gestaltet sein, um die Sicherheit der Beschäftigten zu gewährleisten?",
+     "Warum ist es für Medien wichtig, zu kennzeichnen, ob Angaben von Zeugen oder von Behörden stammen?",
+     "Welche Vor- und Nachteile haben unangekündigte Kontrollen im Vergleich zu vorher angemeldeten Prüfungen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wie viele Waffen besaß der 60-jährige Tatverdächtige laut den Behörden legal?",
+      "optionen": [
+       "Fünf Waffen",
+       "Zehn Waffen",
+       "Fünfzehn Waffen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Berichten von Tagesschau, ZDFheute und taz besaß der Mann legal zehn Schusswaffen als Jäger und Sportschütze."
+     },
+     {
+      "frage": "Was war der Anlass für den Besuch der beiden Beschäftigten des Landratsamts?",
+      "optionen": [
+       "Eine routinemäßige Überprüfung der Waffenaufbewahrung",
+       "Die Durchsuchung nach illegalen Waffen auf richterlichen Beschluss",
+       "Eine Festnahme wegen früherer Gewalttaten"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die Mitarbeiter waren vor Ort, um eine routinemäßige Waffenkontrolle durchzuführen."
+     },
+     {
+      "frage": "Was ergaben die ersten Überprüfungen der Behörden zur Vorgeschichte des Verdächtigen?",
+      "optionen": [
+       "Er war bereits mehrfach wegen Gewaltdelikten vorbestraft.",
+       "Es gab im Vorfeld keine polizeilichen Einträge oder Hinweise auf Extremismus.",
+       "Er wurde seit längerer Zeit vom Verfassungsschutz beobachtet."
+      ],
+      "richtig": 1,
+      "erklaerung": "Innenminister Joachim Herrmann teilte mit, dass der Mann polizeilich unauffällig war und keine extremistischen Anzeichen vorlagen."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In Bayern sind zwei Beschäftigte eines Amtes bei einer Waffenkontrolle getötet worden. Der mutmaßliche Schütze wurde nach mehreren Stunden von der Polizei festgenommen.",
+    "absaetze": [
+     "Am Donnerstagnachmittag kamen zwei Mitarbeitende des Landratsamts Neumarkt zu einem Wohnhaus im Ort Berngau. Sie wollten überprüfen, ob dort Waffen vorschriftsmäßig aufbewahrt werden. Dabei fielen Schüsse. Eine 54-jährige Frau und ein 45-jähriger Mann starben noch vor Ort.",
+     "Der Tatverdächtige ist ein 60-jähriger Mann. Er verschanzte sich danach stundenlang in seinem Haus. Die Polizei rückte mit vielen Einsatzkräften an und sperrte den Bereich ab. Verhandlungen mit dem Mann blieben ohne Erfolg.",
+     "In der Nacht stürmten Spezialkräfte der Polizei die Wohnung. Die Beamtinnen und Beamten schossen dem Mann in das Bein und nahmen ihn fest. Danach brachten Rettungskräfte ihn in ein Krankenhaus.",
+     "Nach Angaben der Behörden besaß der Mann zehn Waffen ganz legal. Er war als Jäger und Sportschütze gemeldet. Warum er schoss, ist bisher noch völlig unklar. Die Ermittlungen laufen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "In Berngau in der Oberpfalz sind zwei Behördenmitarbeiter bei einer Waffenkontrolle erschossen worden.",
+     "Ein sechzigjähriger Tatverdächtiger verschanzte sich danach stundenlang in seinem Wohnhaus.",
+     "Spezialkräfte der Polizei stürmten das Gebäude in der Nacht und nahmen den Mann fest.",
+     "Das Motiv für die Schüsse ist nach Angaben der Ermittler noch völlig unklar."
+    ],
+    "lang": [
+     "Bei einer Waffenkontrolle in Berngau in der Oberpfalz sind zwei Behördenmitarbeiter getötet worden.",
+     "Eine vierundfünfzigjährige Frau und ein fünfundvierzigjähriger Mann starben nach Angaben der Polizei vor Ort.",
+     "Die beiden Beschäftigten des Landratsamts Neumarkt wollten die vorschriftsmäßige Lagerung von Waffen prüfen.",
+     "Der mutmaßliche Täter verschanzte sich nach den Schüssen am Donnerstagnachmittag in seiner Wohnung.",
+     "Über viele Stunden versuchten Fachleute der Polizei, den Mann zur Aufgabe zu bewegen.",
+     "In der Nacht gegen zwei Uhr zwanzig stürmten Spezialeinsatzkräfte schließlich das Gebäude.",
+     "Die Beamten verletzten den Sechzigjährigen durch Schüsse ins Bein und nahmen ihn fest.",
+     "Zur Schwere der Beinverletzung machten Polizei und Medien am Freitag zunächst unterschiedliche Angaben.",
+     "Nach Mitteilung des bayerischen Innenministers besaß der Deutsche zehn Schusswaffen völlig legal.",
+     "Das genaue Motiv der Tat ist bisher unklar, und die Ermittlungen dauern an."
+    ],
+    "einfach": [
+     "In Bayern wurden zwei Mitarbeitende eines Amtes erschossen.",
+     "Sie wollten im Ort Berngau Schusswaffen in einem Haus kontrollieren.",
+     "Der sechzigjährige Verdächtige schloss sich stundenlang in seiner Wohnung ein.",
+     "In der Nacht stürmte die Polizei das Haus.",
+     "Die Beamten trafen den Mann am Bein und nahmen ihn fest.",
+     "Warum der Mann auf die Kontrolleure schoss, weiß man noch nicht."
+    ]
+   },
+   "kurz": [
+    "Zwei Landratsamtsmitarbeiter wurden bei einer Waffenkontrolle in Berngau erschossen.",
+    "Ein 60-jähriger Tatverdächtiger verschanzte sich stundenlang in seinem Wohnhaus.",
+    "Spezialkräfte der Polizei nahmen den Mann in der Nacht nach Beinschüssen fest.",
+    "Das Motiv ist unklar; der Mann besaß zehn Schusswaffen legal."
+   ],
+   "fakten": [
+    [
+     "Getötete Behördenmitarbeiter",
+     "2"
+    ],
+    [
+     "Alter der getöteten Mitarbeiter",
+     "54 und 45 Jahre"
+    ],
+    [
+     "Alter des Tatverdächtigen",
+     "60 Jahre"
+    ],
+    [
+     "Legale Waffen des Verdächtigen",
+     "10"
+    ],
+    [
+     "Uhrzeit des ersten Notrufs",
+     "gegen 14:00 Uhr"
+    ],
+    [
+     "Uhrzeit des Zugriffs",
+     "gegen 02:20 Uhr"
+    ],
+    [
+     "Eingesetzte Polizisten laut Medien",
+     "rund 150"
+    ]
+   ],
+   "dossier": {
+    "slug": "waffenkontrolle-berngau",
+    "titel": "Tödliche Schüsse bei Waffenkontrolle in Berngau"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Berngau, Deutschland",
+    "lat": 49.252,
+    "lon": 11.398
+   },
+   "version": 5
+  },
   {
    "id": "huthi-angriffe-auf-saudi-arabien-und-reaktionen",
    "rubrik": "Welt",
@@ -2941,7 +5116,7 @@
       7.01,
       17.73,
       24.56,
-      32.0,
+      32,
       43.56,
       50.13,
       54.9
@@ -3656,481 +5831,6 @@
       26.73,
       36.5,
       46.17
-     ]
-    }
-   ]
-  },
-  {
-   "id": "afd-landtagsgeraet-sachsen-anhalt",
-   "rubrik": "Deutschland",
-   "zeit": "2026-10-09T08:45:00.000Z",
-   "aktualisiert": "aktualisiert um 11:01 Uhr",
-   "titel": "Kein BMW-Dienstwagen für den neuen Landtagspräsidenten in Sachsen-Anhalt",
-   "vorspann": "Der Autobauer BMW stellt dem neu gewählten Landtagspräsidenten in Sachsen-Anhalt, Tobias Rausch, offenbar keinen Dienstwagen zur Verfügung. Laut übereinstimmenden Medienberichten hat das Unternehmen ein entsprechendes Leasingangebot zurückgezogen.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Der Autobauer BMW hat einem Medienbericht zufolge sein Leasingangebot für den Dienstwagen des neuen Landtagspräsidenten von Sachsen-Anhalt, Tobias Rausch von der AfD, zurückgezogen.",
-    "Rausch war zuvor als erster AfD-Politiker in Deutschland in dieses Amt gewählt worden und erhielt dabei auch Stimmen von Abgeordneten außerhalb seiner Fraktion.",
-    "In der CDU gibt es daraufhin Forderungen nach Parteiausschlüssen für Abweichler, während die Suche nach neuen Transportmitteln und politischen Wegen im Landtag läuft.",
-    "BMW selbst lehnte eine offizielle Kommentierung des konkreten Falls ab, betonte jedoch die generelle Haltung des Vorstands gegen Rechtspopulismus."
-   ],
-   "einig": [
-    [
-     "Der Autobauer BMW hat ein Leasingangebot für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt zurückgezogen.",
-     [
-      "ZDFheute",
-      "Süddeutsche Zeitung"
-     ]
-    ],
-    [
-     "Tobias Rausch ist der neue Landtagspräsident von Sachsen-Anhalt und gehört der AfD an.",
-     [
-      "ZDFheute",
-      "Süddeutsche Zeitung"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Ob andere Automobilhersteller dem Landtag in Zukunft noch Leasingangebote für den Präsidentenwagen unterbreiten werden, ist laut den Berichten unklar."
-   ],
-   "positionen": [
-    [
-     "Beatrice von Storch (AfD-Politikerin)",
-     "Überlegte öffentlich auf X, ob Tesla-Chef Elon Musk einen Dienstwagen zur Verfügung stellen würde.",
-     "ZDFheute"
-    ],
-    [
-     "Karin Prien (CDU-Politikerin)",
-     "Warnte vor einer Zerreißprobe für die CDU und forderte einen Parteiausschluss für Abweichler von der Parteilinie.",
-     "Zeit"
-    ],
-    [
-     "Thorsten Frei (CDU-Politiker)",
-     "Äußerte sich bei maybrit illner über Wege, eigene Stimmen für den AfD-Kandidaten bei der Ministerpräsidentenwahl zu verhindern.",
-     "ZDFheute"
-    ]
-   ],
-   "fehlend": "Stellungnahmen direkt von Tobias Rausch oder der AfD-Fraktion zum entzogenen Dienstwagen sowie Aussagen anderer Automobilhersteller außer BMW.",
-   "medien": [
-    {
-     "name": "ZDFheute",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "09.10.26, 10:45",
-     "fokus": "Dienstwagen und Reaktionen",
-     "text": "Berichtet ausführlich über den entzogenen BMW-Leasingvertrag, die Reaktionen auf X und die Einordnung der Konzernführung.",
-     "url": "https://www.zdfheute.de/politik/deutschland/bmw-dienstwagen-landtag-afd-ablehnung-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 2,
-      "woerter": 467,
-      "satzlaenge": 14,
-      "langeWoerter": 37
-     },
-     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.66
-    },
-    {
-     "name": "Zeit",
-     "typ": "Wochenzeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "09.10.26, 10:26",
-     "fokus": "Parteiinterner Konflikt bei der CDU",
-     "text": "Konzentriert sich auf die Forderung von Karin Prien nach einem Parteiausschluss für CDU-Abweichler.",
-     "url": "https://www.zeit.de/politik/deutschland/2026-10/cdu-sachsen-anhalt-afd-karin-prien-parteiausschluss-tobias-rausch",
-     "video": false,
-     "lesbar": null,
-     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "09.10.26, 07:52",
-     "fokus": "Details zum Dienstwagen",
-     "text": "Liefert konkrete Angaben zur bisherigen Nutzung des siebener BMW durch den Vorgänger bis November.",
-     "url": "https://www.sueddeutsche.de/politik/landtagswahlen-deutschland-sachsen-anhalt-bmw-dienstwagen-afd-landtagspraesident-rausch-li.3540501",
-     "video": false,
-     "lesbar": {
-      "stufe": "schwer",
-      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
-      "klasse": 12,
-      "minuten": 1,
-      "woerter": 61,
-      "satzlaenge": 15,
-      "langeWoerter": 41
-     },
-     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "FAZ",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "09.10.26, 10:04",
-     "fokus": "Liveblog-Einträge",
-     "text": "Behandelt in ihrem Liveblog nebenbei weitere politische Themen abseits der Vorgänge in Sachsen-Anhalt.",
-     "url": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-bericht-kein-bmw-dienstwagen-fuer-afd-landtagspraesident-rausch-faz-110093143.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "leicht",
-      "fuerWen": "kurze Sätze, wenig Fachwörter – gut zum Einstieg",
-      "klasse": 7,
-      "minuten": 1,
-      "woerter": 64,
-      "satzlaenge": 11,
-      "langeWoerter": 28
-     },
-     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Thematischer Schwerpunkt",
-     "Während ZDFheute und die Süddeutsche Zeitung die Details zum Dienstwagen und zu BMW beleuchten, konzentriert sich die Zeit auf die parteiinternen Forderungen der CDU."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Der Autobauer BMW und Landtagspräsident Tobias Rausch",
-    "was": "Zurückziehen eines Leasingangebots für einen Dienstwagen",
-    "wann": "vor Kurzem",
-    "wo": "Sachsen-Anhalt, Deutschland",
-    "wie": "Laut Medienberichten durch Rücknahme des Angebots durch die Unternehmenszentrale",
-    "warum": "Laut ZDFheute im Zusammenhang mit Kritik des BMW-Vorstandschefs an Rechtspopulismus",
-    "quellenlage": "ZDFheute, Zeit, Süddeutsche Zeitung und FAZ"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Das ist passiert",
-     "absaetze": [
-      "Der Autobauer BMW stellt dem neuen Landtagspräsidenten in Sachsen-Anhalt, Tobias Rausch von der Partei AfD, offenbar kein Auto mehr zur Verfügung. Laut Medienberichten hat der Hersteller sein Leasingangebot für das Amt des Parlamentspräsidenten zurückgezogen. Die Unternehmenszentrale des Münchner Konzerns soll das entsprechende Angebot, das zuvor dem Landtag unterbreitet worden war, storniert haben. Die Landtagsverwaltung bestätigte diesen Schritt gegenüber der Zeitung Zeit. Der Zeitpunkt des Vorgangs fällt in die Tage direkt nach der Wahl des AfD-Politikers zum Landtagspräsidenten.",
-      "Laut dem Bericht von ZDFheute war das Angebot von BMW das einzige, das dem Landtag für das Fahrzeug des Parlamentspräsidenten von einem der namhaften deutschen Hersteller vorlag. Von den weiteren großen Marken wie Mercedes oder Audi habe es bislang keine Angebote gegeben. Das Unternehmen BMW selbst wollte den Fall dem Bericht zufolge nicht kommentieren und betonte, sich grundsätzlich nicht zu Kundenbeziehungen zu äußern. Der neue Landtagspräsident muss sich demnach voraussichtlich einen neuen Dienstwagen suchen und fährt vorerst das Fahrzeug seines Vorgängers.",
-      "Bis November nutzt Tobias Rausch nach Angaben der Süddeutschen Zeitung noch den 7er-BMW seines Vorgängers. Der frühere Landtagspräsident Gunnar Schellenberger von der CDU hatte das Amt von 2021 bis 2026 ausgeübt. Zuletzt wurde er der Berichterstattung zufolge mit diesem Fahrzeug befördert, welches in einem Dreivierteljahr etwas mehr als 50.000 Kilometer gesammelt hatte. Solche Leasingverträge besitzen laut ZDFheute oft eine Obergrenze bei den Laufleistungen, damit die Fahrzeuge im Anschluss noch regulär gebraucht verkauft werden können."
-     ]
-    },
-    {
-     "ueberschrift": "Die Einzelheiten",
-     "absaetze": [
-      "Die Wahl des AfD-Politikers Tobias Rausch zum Landtagspräsidenten in Sachsen-Anhalt fand am selben Tag statt, an dem die Vorgänge um den Dienstwagen in Bewegung gerieten. Der 35-jährige Politiker erhielt nach Angaben von ZDFheute auf Anhieb die nötige Mehrheit im Landesparlament. Für Rausch stimmten demnach auch neun Abgeordnete von außerhalb seiner eigenen Fraktion. Mit dieser Wahl wurde zum ersten Mal in der Bundesrepublik Deutschland ein Mitglied der Partei AfD in das Amt eines Landtagspräsidenten gewählt.",
-      "Die Reaktionen auf die Entscheidung des Fahrzeugherstellers BMW sowie auf die Wahl selbst erstrecken sich auch auf die Bundesebene. Die AfD-Politikerin Beatrice von Storch äußerte sich öffentlich über den Kurznachrichtendienst X und überlegte prompt, ob etwa der Tesla-Chef Elon Musk bereit wäre, ein Fahrzeug als Dienstwagen zur Verfügung zu stellen. In der CDU wird unterdessen über die parteiinternen Konsequenzen der Abstimmung beraten. Karin Prien warnte vor einer Zerreißprobe für die Partei und forderte einen Parteiausschluss für jene Abweichler, die gegen die Parteilinie gestimmt haben.",
-      "Der Zeitpunkt für die Entscheidung des bayerischen Konzerns steht laut den Berichten in Verbindung mit den Äußerungen der Unternehmensspitze. BMW-Vorstandschef Milan Nedeljković hatte in einem Interview mit der Frankfurter Allgemeinen Zeitung den Rechtspopulismus und den Nationalismus als Gift für einen weltoffenen Wirtschaftsstandort bezeichnet. Wer eine Politik der Abschottung und des Isolationismus fordere, handele demnach nicht im Interesse des Wirtschaftsstandorts Deutschland. BMW selbst hat in seiner offiziellen Haltung jedoch keine direkte Verknüpfung zwischen dieser Äußerung und dem Zurückziehen des Leasingangebots hergestellt."
-     ]
-    },
-    {
-     "ueberschrift": "Hintergrund",
-     "absaetze": [
-      "Die Ereignisse in Sachsen-Anhalt stehen in einem politischen Spannungsfeld zwischen den etablierten Parteien und der Partei AfD. Die CDU sucht nach Wegen, um eigene Stimmen für Kandidaten der AfD bei wichtigen Ämtern und Wahlen im Parlament zu verhindern. Dies betrifft unter anderem die Diskussionen um das Amt des Ministerpräsidenten im Bundesland. Die Vorgänge im Landtag haben laut den Berichten bundesweite Aufmerksamkeit erlangt und politische Debatten über den Umgang mit parlamentarischen Mehrheiten ausgelöst.",
-      "Zusätzlich zur Diskussion um die Landtagswahlen und die Besetzung von Ämtern in Sachsen-Anhalt befassen sich die Medienberichte mit weiteren politischen Entwicklungen. Dazu gehören Diskussionen über andere Parteien im parlamentarischen Raum sowie Sicherheitsfragen. Diese zusätzlichen Themen spiegeln das breite Spektrum der aktuellen politischen Berichterstattung wider, wie sie von den Tageszeitungen und Nachrichtensendern verfolgt wird."
-     ]
-    },
-    {
-     "ueberschrift": "Zum Verständnis",
-     "absaetze": [
-      "Ein Landtagspräsident oder eine Landtagspräsidentin leitet die Sitzungen des Landesparlaments und vertritt das Parlament nach außen.",
-      "Ein Leasingvertrag ist ein mietähnlicher Vertrag, bei dem ein Gegenstand, wie zum Beispiel ein Dienstwagen, gegen monatliche Raten für einen bestimmten Zeitraum überlassen wird."
-     ]
-    },
-    {
-     "ueberschrift": "Reaktionen",
-     "absaetze": [
-      "Die AfD-Politikerin Beatrice von Storch überlegte laut ZDFheute auf der Plattform X, ob Tesla-Chef Elon Musk einen Dienstwagen bereitstellen könnte.",
-      "Die CDU-Politikerin Karin Prien forderte laut der Zeitung Zeit einen Parteiausschluss für Mitglieder, die von der Parteilinie abgewichen sind und den AfD-Kandidaten unterstützt haben.",
-      "Der CDU-Politiker Thorsten Frei äußerte sich laut ZDFheute in einer Sendung zur Suche nach Wegen, um eigene Stimmen für den AfD-Kandidaten bei der Ministerpräsidentenwahl zu verhindern."
-     ]
-    },
-    {
-     "ueberschrift": "Wie geht es weiter?",
-     "absaetze": [
-      "Der neu gewählte Landtagspräsident Tobias Rausch muss sich laut den Berichten demnächst einen neuen Dienstwagen suchen, da das Leasingangebot von BMW zurückgezogen wurde.",
-      "Bis November 2026 nutzt Rausch nach Angaben der Süddeutschen Zeitung vorerst den BMW der 7er-Reihe, den zuvor sein Amtsvorgänger Gunnar Schellenberger gefahren hatte."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "6. September 2026",
-     "Die AfD gewinnt die Landtagswahl in Sachsen-Anhalt mit 43,8 Prozent."
-    ],
-    [
-     "6. Oktober 2026",
-     "Tobias Rausch wird zum Landtagspräsidenten und Hans-Thomas Tillschneider zum Vizepräsidenten gewählt."
-    ],
-    [
-     "6. Oktober 2026",
-     "Tobias Rausch wird zum Landtagspräsidenten gewählt."
-    ],
-    [
-     "6. September 2026",
-     "Die AfD gewinnt die Landtagswahl in Sachsen-Anhalt."
-    ],
-    [
-     "6. Oktober 2026",
-     "Tobias Rausch wird zum Landtagspräsidenten von Sachsen-Anhalt gewählt."
-    ],
-    [
-     "Dienstag",
-     "Tobias Rausch wird zum Landtagspräsidenten in Sachsen-Anhalt gewählt und SPD-Abgeordnete machen einen Protestmarsch in Berlin."
-    ],
-    [
-     "nach der Wahl",
-     "Medien berichten, dass BMW das Leasingangebot für den Dienstwagen des Landtagspräsidenten Tobias Rausch zurückgezogen hat."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Tobias Rausch politician",
-     "bildunterschrift": "Tobias Rausch ist der neue Landtagspräsident von Sachsen-Anhalt."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Landtag of Saxony-Anhalt",
-     "bildunterschrift": "Der Landtag von Sachsen-Anhalt tagt in Magdeburg."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "BMW headquarters Munich",
-     "bildunterschrift": "Die Unternehmenszentrale des Autoherstellers BMW in München."
-    },
-    {
-     "art": "person",
-     "suchbegriff": "Karin Prien politician",
-     "bildunterschrift": "Karin Prien forderte parteiinterne Konsequenzen innerhalb der CDU."
-    }
-   ],
-   "ort": {
-    "name": "Magdeburg, Deutschland"
-   },
-   "geprueft": true,
-   "korrekturen": [
-    "Das exakte Datum 9. Oktober 2026 wurde aus den wfragen und der Zeitleiste entfernt, da es in den Berichten so nicht explizit genannt wird.",
-    "Der Punkt über die gemeinsame Einigkeit von ZDFheute und Süddeutsche Zeitung bezüglich des Vaters/Vorgängers wurde angepasst, um nur strikt belegte Punkte zu enthalten."
-   ],
-   "wortwarnung": [],
-   "lernen": {
-    "begriffe": [
-     [
-      "Landtagspräsident",
-      "Der Landtagspräsident leitet die Sitzungen des Parlaments in einem Bundesland und vertritt das Parlament nach außen."
-     ],
-     [
-      "Leasing",
-      "Leasing ist eine Form der Miete. Ein Unternehmen überlässt zum Beispiel ein Auto für eine bestimmte Zeit gegen Geld."
-     ]
-    ],
-    "fragen": [
-     "Welche Rolle spielt die Berichterstattung von Medien bei politischen Entscheidungen von Unternehmen?",
-     "Wie bewerten Sie die Reaktionen von Parteien auf abweichendes Abstimmungsverhalten ihrer Mitglieder?"
-    ],
-    "quiz": [
-     {
-      "frage": "Welches Unternehmen hat das Leasingangebot für den Dienstwagen offenbar zurückgezogen?",
-      "optionen": [
-       "Mercedes",
-       "BMW",
-       "Tesla"
-      ],
-      "richtig": 1,
-      "erklaerung": "Laut den Berichten von ZDFheute und Süddeutscher Zeitung hat der Autobauer BMW das Leasingangebot zurückgezogen."
-     },
-     {
-      "frage": "Wel welcher Partei gehört der neue Landtagspräsident Tobias Rausch an?",
-      "optionen": [
-       "CDU",
-       "SPD",
-       "AfD"
-      ],
-      "richtig": 2,
-      "erklaerung": "Tobias Rausch ist Mitglied der AfD."
-     },
-     {
-      "frage": "Welches Auto nutzt Tobias Rausch nach Medienangaben vorerst bis November?",
-      "optionen": [
-       "Den sieben BMW seines Vorgängers",
-       "Einen Wagen von Tesla",
-       "Einen Dienstwagen der Marke Audi"
-      ],
-      "richtig": 0,
-      "erklaerung": "Bis November fährt Rausch laut Süddeutscher Zeitung den siebener BMW seines Vorgängers Gunnar Schellenberger."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der Autobauer BMW stellt dem neuen Landtagspräsidenten in Sachsen-Anhalt keinen Dienstwagen zur Verfügung.",
-    "absaetze": [
-     "Tobias Rausch von der Partei AfD ist der neue Landtagspräsident in Sachsen-Anhalt.",
-     "Er ist der erste Politiker der AfD in Deutschland in diesem Amt.",
-     "Nach Medienberichten hat das Unternehmen BMW ein Angebot für ein Auto zurückgezogen.",
-     "Bis November nutzt Rausch noch den Wagen seines Vorgängers Gunnar Schellenberger von der CDU.",
-     "In der CDU gibt es nach der Wahl Streit und Diskussionen über die Stimmen für den Kandidaten."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Der Autobauer BMW stellt dem neuen Landtagspräsidenten von Sachsen-Anhalt keinen Dienstwagen zur Verfügung.",
-     "Tobias Rausch von der Partei AfD wurde zuvor als erster AfD-Politiker in dieses Amt gewählt.",
-     "Nach Medienberichten zog das Unternehmen ein Leasingangebot für das Auto zurück."
-    ],
-    "lang": [
-     "Der Autobauer BMW zieht ein Leasingangebot für ein Auto zurück.",
-     "Betroffen ist der neue Landtagspräsident von Sachsen-Anhalt namens Tobias Rausch.",
-     "Rausch gehört der Partei Alternative für Deutschland an.",
-     "Nach Berichten der Medien ist er der erste AfD-Politiker in Deutschland in diesem Amt.",
-     "Er erhielt bei der Wahl auch Stimmen von Abgeordneten außerhalb seiner Fraktion.",
-     "Bis November nutzt Rausch nach Angaben der Süddeutschen Zeitung den Wagen seines Vorgängers Gunnar Schellenberger.",
-     "Die Politikerin Karin Prien von der Partei Christlich Demokratische Union warnt vor einer Zerreißprobe für ihre Partei.",
-     "Ein Leasingvertrag ist ein mietähnlicher Vertrag für ein Fahrzeug.",
-     "Der Landtagspräsident muss sich nun voraussichtlich einen neuen Dienstwagen suchen."
-    ],
-    "einfach": [
-     "BMW stellt dem neuen Landtagspräsidenten in Sachsen-Anhalt kein Auto zur Verfügung.",
-     "Tobias Rausch ist der neue Landtagspräsident.",
-     "Er gehört der Partei AfD an.",
-     "Nach Berichten haben die Firmen ein Angebot für ein Auto zurückgezogen.",
-     "Rausch fährt vorerst das Auto von seinem Vorgänger."
-    ]
-   },
-   "kurz": [
-    "BMW zieht Leasingangebot für den neuen Landtagspräsidenten Tobias Rausch zurück.",
-    "Rausch ist der erste AfD-Landtagspräsident in Deutschland.",
-    "CDU-Politikerin Karin Prien fordert Konsequenzen für parteiinterne Abweichler."
-   ],
-   "fakten": [
-    [
-     "Alter von Tobias Rausch",
-     "35 Jahre"
-    ],
-    [
-     "Kilometerstand des bisherigen Dienstwagens",
-     "etwas mehr als 50.000 Kilometer"
-    ]
-   ],
-   "dossier": {
-    "slug": "sachsen-anhalt-wahl-rausch",
-    "titel": "Wwahl des Landtagspräsidenten in Sachsen-Anhalt"
-   },
-   "bildInfo": {
-    "titel": "00 1582 Landtag Sachsen-Anhalt.jpg",
-    "beschreibung": "State government building of Saxony-Anhalt in Magdeburg.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/00_1582_Landtag_Sachsen-Anhalt.jpg/1280px-00_1582_Landtag_Sachsen-Anhalt.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/00_1582_Landtag_Sachsen-Anhalt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:00_1582_Landtag_Sachsen-Anhalt.jpg",
-    "urheber": "W. Bulach",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "art": "institution",
-    "suchbegriff": "Landtag of Saxony-Anhalt",
-    "bildunterschrift": "Das Gebäude der Staatskanzlei beziehungsweise des Landtags in Sachsen-Anhalt.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "00 1582 Landtag Sachsen-Anhalt.jpg",
-     "beschreibung": "State government building of Saxony-Anhalt in Magdeburg.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/00_1582_Landtag_Sachsen-Anhalt.jpg/1280px-00_1582_Landtag_Sachsen-Anhalt.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e2/00_1582_Landtag_Sachsen-Anhalt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:00_1582_Landtag_Sachsen-Anhalt.jpg",
-     "urheber": "W. Bulach",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "institution",
-     "suchbegriff": "Landtag of Saxony-Anhalt",
-     "bildunterschrift": "Das Gebäude der Staatskanzlei beziehungsweise des Landtags in Sachsen-Anhalt.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "4 cilindros y museo BMW, Múnich, Alemania 2012-04-28, DD 02.JPG",
-     "beschreibung": "BMW Tower and museum, Munich, Germany",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/4_cilindros_y_museo_BMW%2C_M%C3%BAnich%2C_Alemania_2012-04-28%2C_DD_02.JPG/1280px-4_cilindros_y_museo_BMW%2C_M%C3%BAnich%2C_Alemania_2012-04-28%2C_DD_02.JPG",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/4_cilindros_y_museo_BMW%2C_M%C3%BAnich%2C_Alemania_2012-04-28%2C_DD_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:4_cilindros_y_museo_BMW,_M%C3%BAnich,_Alemania_2012-04-28,_DD_02.JPG",
-     "urheber": "Diego Delso",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-     "art": "symbol",
-     "suchbegriff": "BMW headquarters Munich",
-     "bildunterschrift": "Der BMW-Turm in München als Symbol für den Autobauer.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ortInfo": {
-    "name": "Magdeburg, Deutschland",
-    "lat": 52.131,
-    "lon": 11.64
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Der Autobauer BMW zieht ein Leasingangebot für ein Auto zurück. Betroffen ist de",
-     "d": "18d411422c.mp3",
-     "l": 45.34,
-     "s": [
-      0.25,
-      4.64,
-      10.11,
-      13.38,
-      18.64,
-      23.11,
-      29.45,
-      36.38,
-      40.28
-     ]
-    },
-    {
-     "k": "Der Autobauer BMW stellt dem neuen Landtagspräsidenten von Sachsen-Anhalt keinen",
-     "d": "31220b3c5a.mp3",
-     "l": 17.58,
-     "s": [
-      0.25,
-      6.63,
-      12.63
-     ]
-    },
-    {
-     "k": "BMW stellt dem neuen Landtagspräsidenten in Sachsen-Anhalt kein Auto zur Verfügu",
-     "d": "2803250a7c.mp3",
-     "l": 21.66,
-     "s": [
-      0.25,
-      6.36,
-      10.26,
-      13.12,
-      17.8
-     ]
-    },
-    {
-     "k": "Ob andere Automobilhersteller dem Landtag in Zukunft noch Leasingangebote für de",
-     "d": "f42c52d6be.mp3",
-     "l": 9.08,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Landtagspräsident? Der Landtagspräsident leitet die Sitz",
-     "d": "2fb918da15.mp3",
-     "l": 11.25,
-     "s": [
-      0.25,
-      3.87
      ]
     }
    ]
