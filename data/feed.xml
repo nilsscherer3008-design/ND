@@ -2,136 +2,150 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Nachrichten-Heft · neutral</title>
-  <description>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</description>
+  <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Thu, 08 Oct 2026 21:31:07 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:01:32 GMT</lastBuildDate>
+  <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
   <itunes:author>Nachrichten-Heft</itunes:author>
-  <itunes:summary>Ein Thema, mehrere Stimmen: Worin sich die Medien einig sind und wo sie auseinandergehen. Alle Sprecher sind Computerstimmen, alle Angaben stammen aus den verlinkten Berichten. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
+  <itunes:summary>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</itunes:summary>
   <itunes:explicit>false</itunes:explicit>
   <itunes:type>episodic</itunes:type>
   <itunes:category text="News"/>
-  <itunes:image href="https://nilsscherer3008-design.github.io/ND/data/icon-512.png"/>
+  <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
+  <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
   <item>
     <title>Literaturnobelpreis zweitausendsechsundzwanzig geht an Anne Carson</title>
     <description>Die kanadische Schriftstellerin Anne Carson erhält den Literaturnobelpreis zweitausendsechsundzwanzig für ihr kühnes Gesamtwerk. In dieser Folge besprechen wir die Reaktionen, die Hintergründe und das geheime Auswahlverfahren der Schwedischen Akademie.</description>
     <itunes:summary>Die kanadische Schriftstellerin Anne Carson erhält den Literaturnobelpreis zweitausendsechsundzwanzig für ihr kühnes Gesamtwerk. In dieser Folge besprechen wir die Reaktionen, die Hintergründe und das geheime Auswahlverfahren der Schwedischen Akademie.</itunes:summary>
-    <pubDate>Thu, 08 Oct 2026 21:31:07 +0000</pubDate>
+    <pubDate>Thu, 08 Oct 2026 21:31:07 GMT</pubDate>
     <guid isPermaLink="false">podcast-kanadierin-anne-carson-erhaelt-literaturnobelpreis</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-kanadierin-anne-carson-erhaelt-literaturnobelpreis.mp3" length="6747693" type="audio/mpeg"/>
     <itunes:duration>00:14:03</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich der Reisepass?</title>
     <description>Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seine Geschichte zeigt, dass es solche Dokumente schon im alten Persien gab.</description>
     <itunes:summary>Ein Reisepass ist ein amtlicher Ausweis für das Reisen in andere Länder. Seine Geschichte zeigt, dass es solche Dokumente schon im alten Persien gab.</itunes:summary>
-    <pubDate>Thu, 08 Oct 2026 16:32:25 +0000</pubDate>
+    <pubDate>Thu, 08 Oct 2026 16:32:25 GMT</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-der-reisepass</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/acdf5bd8b9.mp3" length="187005" type="audio/mpeg"/>
     <itunes:duration>00:00:31</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Hauptausgabe vom 2026-10-08</title>
     <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl eines AfD-Politikers zum Landtagspräsidenten in Sachsen-Anhalt · Fortdauernde Schülerproteste und Reaktionen in Frankreich · Ermittlungen gegen ehemaligen Präsidenten des Bundesnachrichtendienstes wegen Spionageverdachts · Tod der Rentnerin Maricarmen nach Zwangsräumung in Madrid · Chemie-Nobelpreis 2026 geht an Henri Kagan und Kenso Soai</description>
     <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Wahl eines AfD-Politikers zum Landtagspräsidenten in Sachsen-Anhalt · Fortdauernde Schülerproteste und Reaktionen in Frankreich · Ermittlungen gegen ehemaligen Präsidenten des Bundesnachrichtendienstes wegen Spionageverdachts · Tod der Rentnerin Maricarmen nach Zwangsräumung in Madrid · Chemie-Nobelpreis 2026 geht an Henri Kagan und Kenso Soai</itunes:summary>
-    <pubDate>Thu, 08 Oct 2026 08:52:48 +0000</pubDate>
+    <pubDate>Thu, 08 Oct 2026 08:52:48 GMT</pubDate>
     <guid isPermaLink="false">hauptausgabe-2026-10-08</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-08.mp3" length="3631341" type="audio/mpeg"/>
     <itunes:duration>00:10:05</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie funktioniert eigentlich ein Pfandsystem?</title>
     <description>Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.</description>
     <itunes:summary>Ein Pfand ist ein Geldbetrag für die Ausleihe von wiederverwendbaren Gegenständen. Bei der Rückgabe des Gegenstands erhalten Käufer den Betrag vollständig zurück.</itunes:summary>
-    <pubDate>Wed, 07 Oct 2026 15:57:35 +0000</pubDate>
+    <pubDate>Wed, 07 Oct 2026 15:57:35 GMT</pubDate>
     <guid isPermaLink="false">wissen-wie-funktioniert-eigentlich-ein-pfandsystem</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/cbd5cd37fb.mp3" length="178797" type="audio/mpeg"/>
     <itunes:duration>00:00:30</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie entsteht eigentlich eine Mondfinsternis?</title>
     <description>Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.</description>
     <itunes:summary>Bei einer Mondfinsternis wandert der Mond durch den Schatten, den die Erde im Weltall wirft. Dieses Ereignis lässt sich von der Nachtseite der Erde aus beobachten.</itunes:summary>
-    <pubDate>Wed, 07 Oct 2026 07:18:15 +0000</pubDate>
+    <pubDate>Wed, 07 Oct 2026 07:18:15 GMT</pubDate>
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-eine-mondfinsternis</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/d3d7314bf6.mp3" length="237117" type="audio/mpeg"/>
     <itunes:duration>00:00:39</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Schülerproteste und Blockaden in Frankreich</title>
     <description>In Frankreich haben sich Schülerproteste zu einer landesweiten Bewegung ausgeweitet. Wir blicken auf die aktuellen Entwicklungen und Reaktionen.</description>
     <itunes:summary>In Frankreich haben sich Schülerproteste zu einer landesweiten Bewegung ausgeweitet. Wir blicken auf die aktuellen Entwicklungen und Reaktionen.</itunes:summary>
-    <pubDate>Tue, 06 Oct 2026 21:13:16 +0000</pubDate>
+    <pubDate>Tue, 06 Oct 2026 21:13:16 GMT</pubDate>
     <guid isPermaLink="false">podcast-schuelerproteste-frankreich</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-schuelerproteste-frankreich.mp3" length="2623149" type="audio/mpeg"/>
     <itunes:duration>00:05:28</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie entsteht eigentlich Nebel?</title>
     <description>Nebel besteht aus feinen Wassertröpfchen in der Luft, die direkten Bodenkontakt haben. Wenn die Sichtweite unter einen Kilometer sinkt, sprechen Fachleute von Nebel.</description>
     <itunes:summary>Nebel besteht aus feinen Wassertröpfchen in der Luft, die direkten Bodenkontakt haben. Wenn die Sichtweite unter einen Kilometer sinkt, sprechen Fachleute von Nebel.</itunes:summary>
-    <pubDate>Tue, 06 Oct 2026 20:22:55 +0000</pubDate>
+    <pubDate>Tue, 06 Oct 2026 20:22:55 GMT</pubDate>
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-nebel</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/ea9328cf15.mp3" length="207597" type="audio/mpeg"/>
     <itunes:duration>00:00:35</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Wie entsteht eigentlich Milch?</title>
     <description>Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.</description>
     <itunes:summary>Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.</itunes:summary>
-    <pubDate>Tue, 06 Oct 2026 07:32:34 +0000</pubDate>
+    <pubDate>Tue, 06 Oct 2026 07:32:34 GMT</pubDate>
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-milch</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/0a2d2c5178.mp3" length="152733" type="audio/mpeg"/>
     <itunes:duration>00:00:25</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Freigabe von Energierezerven</title>
     <description>Die G7-Staaten geben bis zu einhundert Millionen Barrel Öl und Diesel frei. Wir beleuchten die Hintergründe und Reaktionen.</description>
     <itunes:summary>Die G7-Staaten geben bis zu einhundert Millionen Barrel Öl und Diesel frei. Wir beleuchten die Hintergründe und Reaktionen.</itunes:summary>
-    <pubDate>Mon, 05 Oct 2026 22:56:44 +0000</pubDate>
+    <pubDate>Mon, 05 Oct 2026 22:56:44 GMT</pubDate>
     <guid isPermaLink="false">podcast-g7-freigabe-oel-reserven</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-g7-freigabe-oel-reserven.mp3" length="2864685" type="audio/mpeg"/>
     <itunes:duration>00:05:58</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Parlamentswahl in Lettland: Sieg für Ministerpräsident Kulbergs</title>
     <description>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</description>
     <itunes:summary>In Lettland hat das Wahlbündnis Vereinigte Liste die Parlamentswahl gewonnen. Wir besprechen die Hintergründe, Reaktionen und offenen Fragen.</itunes:summary>
-    <pubDate>Sun, 04 Oct 2026 19:48:48 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 19:48:48 GMT</pubDate>
     <guid isPermaLink="false">podcast-lettland-parlamentswahl</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-lettland-parlamentswahl.mp3" length="4131693" type="audio/mpeg"/>
     <itunes:duration>00:08:36</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Bundeswehr kündigt erstes Drohnenregiment an</title>
     <description>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</description>
     <itunes:summary>Die Bundeswehr plant als Konsequenz aus dem Ukraine-Krieg die Aufstellung eines eigenen Drohnenregiments mit bis zu sechs-hundert Soldaten. Verteidigungsminister Boris Pistorius hat dies bei einem Besuch angekündigt.</itunes:summary>
-    <pubDate>Sat, 03 Oct 2026 19:23:55 +0000</pubDate>
+    <pubDate>Sat, 03 Oct 2026 19:23:55 GMT</pubDate>
     <guid isPermaLink="false">podcast-bundeswehr-drohnenregiment</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-bundeswehr-drohnenregiment.mp3" length="3439725" type="audio/mpeg"/>
     <itunes:duration>00:07:10</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
   <item>
     <title>Inflationsrate im Euroraum steigt im September auf drei Komma acht Prozent</title>
     <description>Wir sprechen über den neuesten Anstieg der Inflation im Euroraum und die Reaktionen der Europäischen Zentralbank. Dabei beleuchten wir die unterschiedlichen Positionen von Ökonomen und Politikern.</description>
     <itunes:summary>Wir sprechen über den neuesten Anstieg der Inflation im Euroraum und die Reaktionen der Europäischen Zentralbank. Dabei beleuchten wir die unterschiedlichen Positionen von Ökonomen und Politikern.</itunes:summary>
-    <pubDate>Fri, 02 Oct 2026 20:58:01 +0000</pubDate>
+    <pubDate>Fri, 02 Oct 2026 20:58:01 GMT</pubDate>
     <guid isPermaLink="false">podcast-inflation-euroraum</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-podcast-inflation-euroraum.mp3" length="4277613" type="audio/mpeg"/>
     <itunes:duration>00:08:55</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>
 </channel>
 </rss>

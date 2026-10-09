@@ -1,6 +1,122 @@
 {
- "stand": "2026-10-08T16:25:43.635Z",
+ "stand": "2026-10-09T09:01:32.429Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-ein-ohrwurm",
+   "zeit": "2026-10-09T09:10:49.150Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie entsteht eigentlich ein Ohrwurm?",
+   "vorspann": "Ein Ohrwurm ist eine Melodie, die im Kopf bleibt und sich nur schwer wieder vertreiben lässt. Die Forschung untersucht, wie diese musikalischen Wiederholungen im Gehirn entstehen.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Der Begriff Ohrwurm beschreibt eine einprägsame Melodie, an die sich Hörer lange erinnern. Die umgangssprachliche Bezeichnung kam Mitte des zwanzigsten Jahrhunderts auf. Der Begriff geht laut dem deutschen Wikipedia-Artikel auf den Operettenkomponisten Paul Lincke zurück. Er verglich die Melodie mit einem Insekt, weil sie sich im Gehör festsetzt. Im Englischen wird der Begriff als Germanismus verwendet.",
+      "Musikwissenschaftler weisen darauf hin, dass meistens nicht ganze Titel zu Ohrwürmern werden. Markante Passagen bohren sich stattdessen ins Unbewusste. Dabei spielen die Hookline und das Riff eine große Rolle. Die Hookline ist eine eingängige Passage, die den Wiedererkennungswert steigert. Das Riff ist eine prägnante instrumentale Klangfigur."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Ohrwürmer treten laut der Gedächtnisforschung besonders dann auf, wenn das Arbeitsgedächtnis wenig ausgelastet ist. Dies passiert bei Routine-Arbeiten, beim Autofahren oder beim Spazierengehen. Die Melodie besetzt dann freie Kapazitäten im Gehirn. Umgekehrt lässt sich der Ohrwurm durch erhöhte andere Anforderungen vertreiben. Dazu gehören Rätselaufgaben oder das Lesen eines spannenden Buches.",
+      "Wenn eine Rätselaufgabe allerdings zu schwer ist, bleibt der Ohrwurm bestehen. Eine weitere Möglichkeit zur Vertreibung ist das Kauen von Kaugummi. Dabei werden motorische Programme der Sprechorgane aktiviert. Das reicht aus, um das Arbeitsgedächtnis zu beschäftigen und den Ohrwurm zu verdrängen.",
+      "Der Musikwissenschaftler Hermann Rauhe sieht ein Motiv aus drei Tönen als Grundlage. Ein Evergreen enthält nach wenigen Wiederholungen eine Überraschung, wie etwa einen erregenden Tonsprung. Auch die Vertrautheit eines Liedes beeinflusst den Ohrwurmstatus. In einer Versuchsreihe am Kasseler Institut für Musik waren viele Ohrwürmer den Probanden bereits bekannt."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Wissenschaftler haben das Phänomen in verschiedenen Studien untersucht. James Kellaris von der University of Cincinnati wies nach, dass fast jeder Mensch schon einmal einen Ohrwurm hatte. Frauen und Musiker sind demnach anfälliger dafür. Zudem hat ein Team um Nicolas Farrugia von der University of London einen Zusammenhang mit dem Gehirn nachgewiesen.",
+      "Bei Menschen mit besonders vielen Ohrwürmern sind bestimmte Bereiche im rechten Schläfenlappen kleiner. Diese Hirnrindenbereiche sind für das Musikhören zuständig. Die geringere Größe könnte zu einer erhöhten Reizbarkeit dieser neuronalen Netzwerke führen."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Bekannte Stücke in Kassel",
+     "60,5 Prozent"
+    ],
+    [
+     "Neue Stücke in Kassel",
+     "24,4 Prozent"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Hookline",
+     "Eine griffige und eingängige Text- oder Musikpassage, die den Wiedererkennungswert eines Liedes steigert."
+    ],
+    [
+     "Riff",
+     "Eine prägnante instrumentale Klangfigur, deren markante Tonfolge oft wiederholt wird."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wann treten Ohrwürmer laut Forschung besonders häufig auf?",
+     "optionen": [
+      "Bei sehr schwierigen Matheprüfungen",
+      "Wenn das Arbeitsgedächtnis wenig ausgelastet ist",
+      "Wenn man laut mitsingt"
+     ],
+     "richtig": 1,
+     "erklaerung": "Ohrwürmer tauchen besonders bei Routine-Arbeiten oder Spaziergängen auf, wenn das Arbeitsgedächtnis freie Kapazitäten hat."
+    }
+   ],
+   "video": [
+    "Ein Ohrwurm ist eine Melodie, die im Kopf bleibt.",
+    "Der Begriff wurde im zwanzigsten Jahrhundert bekannt.",
+    "Er geht auf den Komponisten Paul Lincke zurück.",
+    "Meistens hängen nur kurze Passagen eines Liedes im Gedächtnis fest.",
+    "Das passiert oft bei Tätigkeiten mit wenig Auslastung.",
+    "Auch Kaugummikauen kann helfen, einen Ohrwurm zu vertreiben.",
+    "Forscher haben herausgefunden, dass fast jeder Mensch Ohrwürmer kennt.",
+    "Manche Hirnbereiche könnten dabei eine Rolle spielen."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Ohrwurm Musik",
+    "bildunterschrift": "Eine einprägsame Melodie kann sich lange im Gedächtnis festsetzen."
+   },
+   "quelle": {
+    "titel": "Ohrwurm",
+    "url": "https://de.wikipedia.org/wiki/Ohrwurm",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 324,
+   "bildInfos": [
+    {
+     "titel": "Forficula auricularia.jpg",
+     "beschreibung": "Common earwig ( Forficula auricularia )",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Forficula_auricularia.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Forficula_auricularia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Forficula_auricularia.jpg",
+     "urheber": "ArtMechanic",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+     "artikel": "Ohrwürmer",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Eine einprägsame Melodie kann sich lange im Gedächtnis festsetzen."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Forficula auricularia.jpg",
+    "beschreibung": "Common earwig ( Forficula auricularia )",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Forficula_auricularia.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/Forficula_auricularia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Forficula_auricularia.jpg",
+    "urheber": "ArtMechanic",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "artikel": "Ohrwürmer",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Eine einprägsame Melodie kann sich lange im Gedächtnis festsetzen."
+   }
+  },
   {
    "id": "wie-funktioniert-eigentlich-der-reisepass",
    "zeit": "2026-10-08T16:32:25.639Z",
@@ -6628,120 +6744,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Eine Darstellung eines Schwarzen Lochs mit einer stark gekrümmten Raumzeit."
-   }
-  },
-  {
-   "id": "wie-entsteht-eigentlich-ein-regenbogen",
-   "zeit": "2026-09-22T04:29:19.058Z",
-   "bereich": "Erde und Klima",
-   "titel": "Wie entsteht eigentlich ein Regenbogen?",
-   "vorspann": "Ein Regenbogen ist ein farbiges Lichtband am Himmel. Er entsteht, wenn Sonnenlicht auf Regentropfen trifft.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Der Regenbogen ist ein atmosphärisch-optisches Phänomen. Er erscheint als kreisbogenförmiges farbiges Lichtband in einem von der Sonne beschienenen Regenschauer. Die Erscheinung kommt durch das von Regentropfen gebrochene und zurückgeworfene Sonnenlicht zustande. Der Farbverlauf umfasst die Spektralfarben des mit dem Auge sichtbaren Bereichs des Sonnenspektrums.",
-      "Bei sehr hellem Himmel vor der Regenwolke ist über dem Hauptregenbogen oft ein Nebenregenbogen sichtbar. Dieser stammt aus Regentropfen, in denen das Sonnenlicht zweimal an der Tropfeninnenwand reflektiert wurde. Der Nebenregenbogen ist lichtschwächer als der Hauptregenbogen und hat die umgekehrte Farbfolge."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Sowohl beim Eintritt in als auch beim Austritt aus einem Regentropfen wird das Sonnenlicht gebrochen. Dabei werden die kurzwelligen blauen Anteile stärker abgelenkt als die langwelligen roten Anteile. Zwischen Eintritt und Austritt werden diese Strahlen an der Tropfeninnenwand teilweise reflektiert und zum Beobachter zurückgeworfen.",
-      "Der Hauptregenbogen kommt durch eine einmalige Reflexion im Tropfen zustande. Rotes Licht wird dabei von Tropfen wahrgenommen, die auf einem Kegelmantel mit einem Winkelabstand von rund 42 Grad um den gedachten Sonnengegenpunkt liegen. Das stärkere blaue Licht stammt aus Regentropfen auf einem spitzeren Kegelmantel von rund 40 Grad."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Die genaue Entstehung lässt sich durch den Strahlengang im Wassertropfen und physikalische Gesetze wie das Brechungsgesetz beschreiben. Die gesamte Winkeländerung und die maximale Intensität beim Durchgang durch den Tropfen werden mithilfe von mathematischen Formeln und dem Einfallswinkel berechnet."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Winkel für rotes Licht",
-     "rund 42 Grad"
-    ],
-    [
-     "Winkel für blaues Licht",
-     "rund 40 Grad"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Brechung",
-     "Eine Richtungsänderung von Licht, wenn es von einem Medium in ein anderes übergeht."
-    ],
-    [
-     "Reflexion",
-     "Das Zurückwerfen von Licht an einer Oberfläche."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wodurch entsteht der Hauptregenbogen?",
-     "optionen": [
-      "Durch einmalige Reflexion im Wassertropfen",
-      "Durch viermalige Reflexion im Wassertropfen",
-      "Ganz ohne Reflexion"
-     ],
-     "richtig": 0,
-     "erklaerung": "Der Hauptregenbogen entsteht laut dem Text durch einmalige Reflexion in den Tropfen."
-    }
-   ],
-   "video": [
-    "Ein Regenbogen ist ein farbiges Lichtband am Himmel.",
-    "Er entsteht bei Sonnenschein während eines Regenschauers.",
-    "Sonnenlicht trifft dabei auf die runden Wassertropfen.",
-    "Beim Eintritt in den Tropfen wird das Licht gebrochen.",
-    "Dabei trennen sich die verschiedenen Farben des Lichts.",
-    "An der Innenseite des Tropfens wird das Licht reflektiert.",
-    "Beim Austritt bricht sich das Licht noch einmal.",
-    "So entsteht für den Beobachter der bunte Bogen."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Regenbogen",
-    "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
-   },
-   "quelle": {
-    "titel": "Regenbogen",
-    "url": "https://de.wikipedia.org/wiki/Regenbogen",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 215,
-   "bildInfos": [
-    {
-     "titel": "Double-alaskan-rainbow.jpg",
-     "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
-     "urheber": "Eric Rolph at English Wikipedia",
-     "lizenz": "CC BY-SA 2.5",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-     "artikel": "Regenbogen",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Double-alaskan-rainbow.jpg",
-    "beschreibung": "Full featured double rainbow in Wrangell-St. Elias National Park, Alaska.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Double-alaskan-rainbow.jpg/1280px-Double-alaskan-rainbow.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Double-alaskan-rainbow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg",
-    "urheber": "Eric Rolph at English Wikipedia",
-    "lizenz": "CC BY-SA 2.5",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-    "artikel": "Regenbogen",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Ein Regenbogen zeigt die Spektralfarben als farbiges Lichtband am Himmel."
    }
   }
  ]

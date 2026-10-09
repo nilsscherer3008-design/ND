@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-08T16:25:43.635Z",
+ "stand": "2026-10-09T09:01:32.429Z",
  "inArbeit": {
   "id": "die-geschichte-unserer-schrift",
   "titel": "Die Geschichte unserer Schrift",
@@ -12,39 +12,39 @@
     "wikipedia": "Höhlenmalerei",
     "fokus": "Menschen hielten bereits in der Urzeit Erlebnisse mit Bildern fest.",
     "zuDuenn": 1,
-    "versuche": 3,
-    "fehlgeschlagen": true
+    "versuche": 0,
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Von Bildern zu Zeichen",
     "wikipedia": "Piktogramm",
     "fokus": "Einfache Symbole bildeten die Grundlage für erste Informationssysteme.",
-    "versuche": 3,
+    "versuche": 0,
     "zuDuenn": 1,
-    "fehlgeschlagen": true
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Die Erfindung der Keilschrift",
     "wikipedia": "Keilschrift",
     "fokus": "In Mesopotamien entstand die erste ausgereifte Schrift der Menschheit.",
-    "versuche": 3,
-    "fehlgeschlagen": true
+    "versuche": 0,
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Die Welt der Hieroglyphen",
     "wikipedia": "Ägyptische Hieroglyphen",
     "fokus": "Im alten Ägypten entwickelten sich komplexe Schriftsysteme aus Bildern.",
-    "versuche": 3,
+    "versuche": 0,
     "zuDuenn": 1,
-    "fehlgeschlagen": true
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Der Weg zum Alphabet",
     "wikipedia": "Phönizisches Alphabet",
     "fokus": "Phönizische Händler vereinfachten das Schreiben durch die Erfindung von Lautzeichen.",
     "zuDuenn": 1,
-    "versuche": 3,
-    "fehlgeschlagen": true
+    "versuche": 0,
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Die griechische Anpassung",
@@ -160,24 +160,61 @@
     "ueberschrift": "Die Entzifferung alter Schriften",
     "wikipedia": "Rosettastein",
     "fokus": "Forscher konnten dank historischer Funde längst vergessene Schriften lesen.",
-    "versuche": 3,
+    "versuche": 0,
     "zuDuenn": 2,
-    "fehlgeschlagen": true
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Die Entwicklung des Buchdrucks",
     "wikipedia": "Buchdruck",
     "fokus": "Gutenbergs Erfindung machte geschriebenes Wissen für alle Menschen zugänglich.",
     "zuDuenn": 2,
-    "versuche": 3,
-    "fehlgeschlagen": true
+    "versuche": 0,
+    "fehlgeschlagen": false
    },
    {
     "ueberschrift": "Die Zukunft der Schrift",
     "wikipedia": "Digitale Typografie",
     "fokus": "Computer und Bildschirme verändern unsere Schriftkultur im digitalen Zeitalter.",
-    "zuDuenn": 2,
-    "versuche": 1
+    "zuDuenn": 3,
+    "versuche": 1,
+    "absaetze": [
+     "Die lateinische Schrift bildet die Grundlage für unsere heutige Kommunikation.",
+     "Typografie für digitale Texte beschäftigt sich mit der visuellen Gestaltung.",
+     "Ziele sind eine einfache Lesbarkeit und eine ansprechende Präsentation.",
+     "Die Digitalisierung hat den Kreis der Ersteller stark vergrößert.",
+     "Die technische Entwicklung führte zu neuen Möglichkeiten wie Hypertexten."
+    ],
+    "fakten": [
+     [
+      "Zeichen in Unicode fünf Punkt null",
+      "neunundachtzigtausendachthundertvierundachtzig"
+     ],
+     [
+      "Variante der Deutschen Zeichentabelle",
+      "neunzehnhundertachtundsechzig"
+     ]
+    ],
+    "begriffe": [
+     [
+      "Typografie",
+      "Die visuelle Gestaltung von Textdokumenten mittels Schrift."
+     ],
+     [
+      "Unicode",
+      "Ein sehr umfangreicher Zeichenvorrat für Computer."
+     ]
+    ],
+    "bild": {
+     "art": "symbol",
+     "suchbegriff": "Typografie für digitale Texte",
+     "bildunterschrift": "Die visuelle Gestaltung von Texten im digitalen Zeitalter."
+    },
+    "quelle": {
+     "titel": "Typografie für digitale Texte",
+     "url": "https://de.wikipedia.org/wiki/Typografie_f%C3%BCr_digitale_Texte"
+    },
+    "woerter": 47
    }
   ]
  },
