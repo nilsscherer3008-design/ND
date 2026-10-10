@@ -1,6 +1,205 @@
 {
- "stand": "2026-10-10T08:26:01.366Z",
+ "stand": "2026-10-10T15:18:54.001Z",
  "stuecke": [
+  {
+   "id": "wie-entsteht-eigentlich-eine-schwerelosigkeit-im-weltall",
+   "zeit": "2026-10-10T15:27:23.680Z",
+   "bereich": "Weltall",
+   "titel": "Wie entsteht eigentlich eine Schwerelosigkeit im Weltall?",
+   "vorspann": "Schwerelosigkeit beschreibt einen Zustand, in dem die Gewichtskraft auf einen Körper nicht spürbar ist. Dieser Zustand tritt zum Beispiel bei einem freien Fall oder im antriebslosen Flug im Weltraum auf.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Schwerelosigkeit bedeutet, dass die Gewichtskraft auf einen Körper nicht spürbar ist. Der Körper befindet sich dann im freien Fall und übt auf eine Unterlage keinen Druck aus. Ein Zustand annähernder Schwerelosigkeit wird auch als Mikrogravitation bezeichnet. Solche Zustände gibt es beim antriebslosen Flug im Weltraum, in Falltürmen oder bei Parabelflügen. Auf der Erde spüren wir die Schwerkraft, weil der Boden eine Gegenkraft von unten ausübt. Diese Kraft wirkt nicht in allen Teilen unseres Körpers gleichmäßig.",
+      "Am stärksten wirkt sie an den Füßen und viel schwächer am Hals, wodurch unser Körper etwas zusammengestaucht wird. Vollständige Schwerelosigkeit eines realen Körpers ist in einem echten Gravitationsfeld wegen seiner Ausdehnung nicht möglich. Verschiedene Teile des Körpers erfahren nicht dieselbe Gravitationsbeschleunigung, was sich als Gezeitenkraft bemerkbar macht. Im Alltag lässt sich das Gefühl für kurze Zeit bei einem Sprung von einerinhalb Metern Höhe auf einem Trampolin oder bei Fahrgeschäften wie Achterbahnen erleben."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Der einfachste Weg für begrenzte Zeit ist der freie Fall. Dafür muss der bremsende Einfluss der Luft ausgeschaltet werden, was in evakuierten Falltürmen gelingt. Auch bei Parabelflügen lässt sich Schwerelosigkeit für bis zu neunzig Sekunden erreichen. Dabei wird die Luftreibung am Flugzeug durch den Schub der Triebwerke oder Flugmanöver ausgeglichen. Ursprünglich für das Training von Raumfahrern gedacht, dienen sie heute vor allem wissenschaftlichen Experimenten.",
+      "In der erdnahen Umlaufbahn kreisen Raumstationen und Raumfahrer in nahezu Schwerelosigkeit. Obwohl dort noch etwa neunzig Prozent der Erdschwerkraft wirken, ist sie nicht spürbar. Die Schwerkraft beschleunigt alle Massen gleichmäßig und es wirken keine weiteren Kräfte. Dennoch ist die Schwerelosigkeit dort nicht perfekt, da das Gravitationsfeld inhomogen ist und ein Luftwiderstand durch die dünne Atmosphäre existiert.",
+      "Die Langzeit-Schwerelosigkeit führt bei Menschen zu einer Anpassung des Körpers, da Knochen- und Muskelmasse sowie das Blutvolumen schwinden. Dagegen müssen Raumfahrer auf Langzeiteinsätzen mit körperlicher Betätigung auf einem Laufband oder Ergometer ankämpfen. Zudem kann es bei empfindlichen technischen Geräten zu Problemen kommen, weil physikalische Prozesse wie die Konvektion im schwerelosen Zustand nicht wie gewohnt funktionieren. Sanitäre Anlagen und die Art zu trinken müssen ebenfalls an diese Bedingungen angepasst werden."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Für die Forschung nutzen Wissenschaftler spezielle Falltürme, um Experimente unter annähernder Schwerelosigkeit durchzuführen. Der einhundertsechsundvierzig Meter hohe Bremer Fallturm ermöglicht eine Fallhöhe von einhundertzehn Metern in einem evakuierten Rohr. Die Fallzeit beträgt dabei etwa viereinhalb Sekunden. Seit zweitausendundvier besitzt der Turm ein Katapult, mit dem die Fallkapsel nach oben geschossen werden kann, wodurch sich die Schwerelosigkeit auf etwa neun Komma zwei Sekunden verlängert.",
+      "Auch der vierzig Meter hohe Einstein-Elevator in Hannover bietet eine Fallstrecke für den freien Auf- und Abstieg. Ein kleiner Minifallturm von etwa zwei Metern Höhe erlaubt eine Fallzeit von null Komma sechs Sekunden für Video-Auswertungen. Zusätzlich untersuchen Wissenschaftler die Auswirkungen der Mikrogravitation bei Weltraummissionen und durch Untersuchungen an Raumfahrern, die beispielsweise im Jahr zweitausendzwölf Veränderungen an Gehirn und Augen zeigten."
+     ]
+    },
+    {
+     "ueberschrift": "Was noch offen ist",
+     "absaetze": [
+      "Der bereitgestellte Text enthält keine Angaben darüber, welche Forschungsfragen zur Schwerelosigkeit noch völlig ungeklärt sind."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Höhe des Bremer Fallturms",
+     "146 Meter"
+    ],
+    [
+     "Fallhöhe im Bremer Fallturm",
+     "110 m"
+    ],
+    [
+     "Fallzeit im Bremer Fallturm",
+     "4,7 Sekunden"
+    ],
+    [
+     "Endgeschwindigkeit im Bremer Fallturm",
+     "167 km/h"
+    ],
+    [
+     "Höhe des Einstein-Elevators",
+     "40 Meter"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Mikrogravitation",
+     "Der Zustand annähernder Schwerelosigkeit."
+    ],
+    [
+     "Gezeitenkraft",
+     "Unterschiede der Gravitationsbeschleunigung in verschiedenen Teilen eines realen Körpers aufgrund seiner Ausdehnung."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Wie wird der Zustand annähernder Schwerelosigkeit noch genannt?",
+     "optionen": [
+      "Mikrogravitation",
+      "Makrogravitation",
+      "Null-Druck"
+     ],
+     "richtig": 0,
+     "erklaerung": "Im Text steht, dass der Zustand annähernder Schwerelosigkeit Mikrogravitation heißt."
+    }
+   ],
+   "video": [
+    "Schwerelosigkeit beschreibt einen Zustand ohne spürbare Gewichtskraft.",
+    "Die Raumstation befindet sich in einem ständigen freien Fall.",
+    "Deshalb schweben Raumfahrer und Gegenstände frei im Raum.",
+    "Auf der Erde erleben wir Schwerelosigkeit in Falltürmen.",
+    "Der Bremer Fallturm bietet dafür eine Fallkapsel.",
+    "Auch Parabelflüge erzeugen kurzzeitig den Zustand der Schwerelosigkeit.",
+    "Längere Zeit im Weltall lässt Knochen und Muskeln schwinden.",
+    "Deshalb trainieren Raumfahrer regelmäßig auf einem Laufband."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Schwerelosigkeit",
+    "bildunterschrift": "In der Erdumlaufbahn erfahren Raumfahrer den Zustand der Mikrogravitation."
+   },
+   "quelle": {
+    "titel": "Schwerelosigkeit",
+    "url": "https://de.wikipedia.org/wiki/Schwerelosigkeit",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 474,
+   "bildInfos": [
+    {
+     "titel": "Zero G.jpg",
+     "beschreibung": "Zero G. 無重量状態。",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Zero_G.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Zero_G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Zero_G.jpg",
+     "urheber": "jurvetson",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "artikel": "Parabelflug",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "In der Erdumlaufbahn erfahren Raumfahrer den Zustand der Mikrogravitation."
+    },
+    {
+     "titel": "Astronauts in weightlessness.jpg",
+     "beschreibung": "Six astronauts who had been in training at the Johnson Space Center for almost a year are getting a sample of weightlessness. They are onboard the NASA KC-135 that uses a special parabolic pattern to ",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Astronauts_in_weightlessness.jpg/1280px-Astronauts_in_weightlessness.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Astronauts_in_weightlessness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Astronauts_in_weightlessness.jpg",
+     "urheber": "NASA",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Six astronauts who had been in training at the Johnson Space Center for almost a year are getting a sample of weightlessness. They are onboard the NASA KC-135 that uses a special parabolic pattern to "
+    },
+    {
+     "titel": "Bruce McCandless II during EVA in 1984.jpg",
+     "beschreibung": "Mission: STS-41-B Film Type: 70 mm Title: Views of the extravehicular activity during STS 41-B Description: Astronaut Bruce McCandless II , mission specialist, participates in a extra-vehicular activi",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg/1280px-Bruce_McCandless_II_during_EVA_in_1984.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bruce_McCandless_II_during_EVA_in_1984.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II_during_EVA_in_1984.jpg",
+     "urheber": "NASA",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Mission: STS-41-B Film Type: 70 mm Title: Views of the extravehicular activity during STS 41-B Description: Astronaut Bruce McCandless II , mission specialist, participates in a extra-vehicular activi"
+    },
+    {
+     "titel": "Comparison2.jpg",
+     "beschreibung": "Comparison2",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Comparison2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Comparison2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Comparison2.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Comparison2"
+    },
+    {
+     "titel": "Dropphysics.jpg",
+     "beschreibung": "Dropphysics",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dropphysics.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Dropphysics.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dropphysics.jpg",
+     "urheber": "unbekannt",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Dropphysics"
+    },
+    {
+     "titel": "Foale ZeroG.jpg",
+     "beschreibung": "Cosmonaut Gennady I. Padalka (left), Expedition 9 commander, and European Space Agency (ESA) astronaut Andre Kuipers of the Netherlands, look over a procedures checklist for the Dutch Expedition for L",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Foale_ZeroG.jpg/1280px-Foale_ZeroG.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Foale_ZeroG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Foale_ZeroG.jpg",
+     "urheber": "NASA",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Cosmonaut Gennady I. Padalka (left), Expedition 9 commander, and European Space Agency (ESA) astronaut Andre Kuipers of the Netherlands, look over a procedures checklist for the Dutch Expedition for L"
+    }
+   ],
+   "bildInfo": {
+    "titel": "Zero G.jpg",
+    "beschreibung": "Zero G. 無重量状態。",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Zero_G.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Zero_G.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Zero_G.jpg",
+    "urheber": "jurvetson",
+    "lizenz": "CC BY 2.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+    "artikel": "Parabelflug",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "In der Erdumlaufbahn erfahren Raumfahrer den Zustand der Mikrogravitation."
+   }
+  },
   {
    "id": "wie-augen-in-der-natur-funktionieren",
    "zeit": "2026-10-10T08:40:21.649Z",
@@ -6739,121 +6938,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Gebärdensprachen sind visuell wahrnehmbare Sprachen für Menschen."
-   }
-  },
-  {
-   "id": "wie-funktioniert-eigentlich-gps",
-   "zeit": "2026-09-23T11:35:15.248Z",
-   "bereich": "Technik und Erfindungen",
-   "titel": "Wie funktioniert eigentlich GPS?",
-   "vorspann": "Ein Satellitensystem hilft dabei, weltweit die eigene Position genau zu bestimmen. Es wurde ursprünglich vom US-Verteidigungsministerium entwickelt und wird heute auch im Alltag genutzt.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Das Global Positioning System, offiziell NAVSTAR GPS genannt, ist ein globales Navigationssatellitensystem. Es dient der weltweiten Positionsbestimmung und der Navigation. Ursprünglich war das System für den militärischen Bereich vorgesehen. Es wurde seit den 1970er-Jahren vom US-Verteidigungsministerium entwickelt und nahm am 17. Juli 1995 offiziell den Betrieb auf. Mitt Mitte der 1990er-Jahre war es voll funktionsfähig.",
-      "Heute wird das GPS auch im zivilen Bereich durchweg genutzt. Es hilft bei der räumlichen Orientierung in der Seefahrt, in der Luftfahrt und im Straßenverkehr sowie beim Aufenthalt in der Natur. Zudem dient es der Positionsbestimmung im Rettungs- und Feuerwehrdienst, im öffentlichen Personennahverkehr und im Logistikbereich. Auch in Mobiltelefonen kommt es zum Einsatz."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Das System basiert auf Satelliten, die mit codierten Radiosignalen ständig ihre aktuelle Position und die genaue Uhrzeit ausstrahlen. Aus den Signallaufzeiten können spezielle Empfänger ihre eigene Position und Geschwindigkeit berechnen. Theoretisch reichen die Signale von drei Satelliten aus, um die Position und Höhe zu bestimmen. In der Praxis wird jedoch das Signal eines vierten Satelliten benötigt, um die Referenzzeit im Empfänger korrekt zu messen.",
-      "Die Satellitenkreise sind so festgelegt, dass ein Empfänger in der Regel Kontakt zu mindestens vier Satelliten haben kann. Sechs Bahnebenen sind gegen den Äquator geneigt und decken fast die ganze Welt ab. In jeder Bahnebene umkreisen mindestens vier Satelliten die Erde in einer Höhe von 20.200 Kilometern. Das Datensignal wird parallel auf verschiedenen Frequenzen ausgesendet.",
-      "Für zivile Nutzer wurde am 2. Mai 2000 die künstliche Signalverschlechterung abgeschaltet. Seitdem ist eine Genauigkeit von oft besser als zehn Metern möglich. Durch spezielle Differenzmethoden lässt sich dieser Wert noch stark steigern."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Für die Entwicklung des Global Positioning System erhielten Bradford W. Parkinson, Hugo Fruehauf und Richard Schwartz im Jahr 2019 den Queen Elizabeth Prize for Engineering. Technische Details und Funktionsweisen sind in offiziellen Dokumenten und Beschreibungen des Systems festgehalten."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Höhe der Satellitenbahn",
-     "20.200 km"
-    ],
-    [
-     "Inbetriebnahme",
-     "17. Juli 1995"
-    ]
-   ],
-   "begriffe": [
-    [
-     "GPS",
-     "Ein globales Navigationssatellitensystem zur Positionsbestimmung mit Hilfe von Satelliten."
-    ],
-    [
-     "NAVSTAR GPS",
-     "Die offizielle Bezeichnung für das Global Positioning System."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wann wurde das GPS offiziell in Betrieb genommen?",
-     "optionen": [
-      "17. Juli 1995",
-      "2. Mai 2000",
-      "1970"
-     ],
-     "richtig": 0,
-     "erklaerung": "Das System wurde laut dem Artikel am 17. Juli 1995 offiziell in Betrieb genommen."
-    }
-   ],
-   "video": [
-    "Das Global Positioning System hilft bei der weltweiten Positionsbestimmung.",
-    "Es wurde vom US-Verteidigungsministerium entwickelt.",
-    "Satelliten strahlen ständig ihre Position und Uhrzeit aus.",
-    "Empfänger messen die Signallaufzeiten von mehreren Satelliten.",
-    "Daraus lassen sich die eigene Position und Geschwindigkeit berechnen.",
-    "Früher gab es eine künstliche Signalverschlechterung.",
-    "Diese wurde im Jahr zweitausend abgeschaltet.",
-    "Seither können auch zivile Nutzer sehr genaue Daten empfangen."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Global Positioning System",
-    "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
-   },
-   "quelle": {
-    "titel": "Global Positioning System",
-    "url": "https://de.wikipedia.org/wiki/Global_Positioning_System",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 298,
-   "bildInfos": [
-    {
-     "titel": "DGPS Reference Station.jpg",
-     "beschreibung": "DGPS Reference Station",
-     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:DGPS_Reference_Station.jpg",
-     "urheber": "Stefan Kühn",
-     "lizenz": "CC BY-SA 3.0",
-     "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-     "artikel": "Differential Global Positioning System",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
-    }
-   ],
-   "bildInfo": {
-    "titel": "DGPS Reference Station.jpg",
-    "beschreibung": "DGPS Reference Station",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c6/DGPS_Reference_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:DGPS_Reference_Station.jpg",
-    "urheber": "Stefan Kühn",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "artikel": "Differential Global Positioning System",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
    }
   }
  ]

@@ -4,7 +4,7 @@
   <title>Nachrichten-Heft · neutral</title>
   <description>Nachrichten, die erst dann hier landen, wenn mehrere unabhängige Medien sie berichten. Zusammengefasst von einer KI, jede Angabe mit Quelle. Dazu erklärende Stücke und lange Dokumentationen. Ein Schulprojekt für Gemeinschaftskunde.</description>
   <language>de-de</language>
-  <lastBuildDate>Sat, 10 Oct 2026 08:26:01 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:18:54 GMT</lastBuildDate>
   <generator>Nachrichten-Heft</generator>
   <link>https://nilsscherer3008-design.github.io/ND/data</link>
   <atom:link href="https://nilsscherer3008-design.github.io/ND/data/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,17 @@
   <itunes:category text="News"/>
   <itunes:image href="https://nilsscherer3008-design.github.io/ND/icon-512.png"/>
   <image><url>https://nilsscherer3008-design.github.io/ND/icon-512.png</url><title>Nachrichten-Heft · neutral</title><link>https://nilsscherer3008-design.github.io/ND/data</link></image>
+  <item>
+    <title>Hauptausgabe vom 2026-10-10</title>
+    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Vergabe des Friedensnobelpreises an Navi Pillay und US-Sanktionen gegen Strafgerichtshof · Koalitionsverhandlungen in Mecklenburg-Vorpommern vereinbart · Tropensturm „Isaias“ trifft auf die US-Golfküste und führt zu Stromausfällen · Rückzug eines Leasingangebots für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt · Zwei Behördenmitarbeiter bei Waffenkontrolle in Berngau getötet</description>
+    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Vergabe des Friedensnobelpreises an Navi Pillay und US-Sanktionen gegen Strafgerichtshof · Koalitionsverhandlungen in Mecklenburg-Vorpommern vereinbart · Tropensturm „Isaias“ trifft auf die US-Golfküste und führt zu Stromausfällen · Rückzug eines Leasingangebots für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt · Zwei Behördenmitarbeiter bei Waffenkontrolle in Berngau getötet</itunes:summary>
+    <pubDate>Sat, 10 Oct 2026 08:26:01 GMT</pubDate>
+    <guid isPermaLink="false">hauptausgabe-2026-10-10</guid>
+    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-10.mp3" length="3876141" type="audio/mpeg"/>
+    <itunes:duration>00:10:46</itunes:duration>
+    <itunes:explicit>false</itunes:explicit>
+    <link>https://nilsscherer3008-design.github.io/ND/data</link>
+  </item>
   <item>
     <title>Rückzug des BMW-Leasingangebots in Sachsen-Anhalt</title>
     <description>Nach der Wahl von Tobias Rausch zum Landtagspräsidenten in Sachsen-Anhalt zog BMW ein Leasingangebot zurück. Wir besprechen die Hintergründe.</description>
@@ -45,17 +56,6 @@
     <guid isPermaLink="false">wissen-wie-entsteht-eigentlich-ein-ohrwurm</guid>
     <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/60c5c2a8c3.mp3" length="173325" type="audio/mpeg"/>
     <itunes:duration>00:00:29</itunes:duration>
-    <itunes:explicit>false</itunes:explicit>
-    <link>https://nilsscherer3008-design.github.io/ND/data</link>
-  </item>
-  <item>
-    <title>Hauptausgabe vom 2026-10-09</title>
-    <description>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Angriffe zwischen Huthi-Miliz und Militärbündnis sowie Ausfälle im Flugverkehr · Proteste und politische Reaktionen nach dem Tod einer zwangsgeräumten Rentnerin in Spanien · Kein BMW-Dienstwagen für den neuen Landtagspräsidenten in Sachsen-Anhalt · Reaktionen der Regierung auf Schulproteste in Frankreich · Bundesregierung hebt Wachstumsprognose für das Jahr 2026 an</description>
-    <itunes:summary>Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Angriffe zwischen Huthi-Miliz und Militärbündnis sowie Ausfälle im Flugverkehr · Proteste und politische Reaktionen nach dem Tod einer zwangsgeräumten Rentnerin in Spanien · Kein BMW-Dienstwagen für den neuen Landtagspräsidenten in Sachsen-Anhalt · Reaktionen der Regierung auf Schulproteste in Frankreich · Bundesregierung hebt Wachstumsprognose für das Jahr 2026 an</itunes:summary>
-    <pubDate>Fri, 09 Oct 2026 09:01:32 GMT</pubDate>
-    <guid isPermaLink="false">hauptausgabe-2026-10-09</guid>
-    <enclosure url="https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/folge-hauptausgabe-2026-10-09.mp3" length="3425133" type="audio/mpeg"/>
-    <itunes:duration>00:09:31</itunes:duration>
     <itunes:explicit>false</itunes:explicit>
     <link>https://nilsscherer3008-design.github.io/ND/data</link>
   </item>

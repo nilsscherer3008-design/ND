@@ -1,10 +1,6 @@
 {
- "stand": "2026-10-10T08:26:01.366Z",
+ "stand": "2026-10-10T15:18:54.001Z",
  "gepusht": [
-  "klopp-dfb-kader-nominierung",
-  "usa-sanktionen-russland-kongress",
-  "trump-medienbann-weisses-haus",
-  "usa-daenemark-groenland-abkommen",
   "google-gemini-ki-cyberangriffe",
   "oktoberfest-muenchen-eroeffnung",
   "bayern-muenchen-union-berlin-fussball",
@@ -80,7 +76,11 @@
   "schroeder-besuch-putin-geburtstag",
   "mecklenburg-vorpommern-koalitionsverhandlungen",
   "todesfaelle-waffenkontrolle-berngau",
-  "hurrikan-isaias-us-kueste"
+  "hurrikan-isaias-us-kueste",
+  "eu-haushalt-vorschlag-irland",
+  "us-diesel-deal-russland-reaktionen",
+  "jugendwort-des-jahres-2026-ragebait",
+  "angriffe-saporischschja"
  ],
  "ntfyTopic": "nd-heft-gk-7x4q9m2p",
  "fehlerTopic": "nd-heft-gk-7x4q9m2p-fehler",
@@ -89,7 +89,6 @@
   "schuelerproteste-frankreich",
   "bnd-chef-hanning-festnahme",
   "afd-landtagsgeraet-sachsen-anhalt",
-  "chemie-nobelpreis-2026",
   "kanadierin-anne-carson-erhaelt-literaturnobelpreis",
   "bundesregierung-erhebt-konjunkturprognose-fuer-2026",
   "gericht-kippt-bundesnetzagentur-klausel-fuer-deutsche-bahn",
@@ -98,10 +97,14 @@
   "schroeder-besuch-putin-geburtstag",
   "mecklenburg-vorpommern-koalitionsverhandlungen",
   "todesfaelle-waffenkontrolle-berngau",
-  "hurrikan-isaias-us-kueste"
+  "hurrikan-isaias-us-kueste",
+  "eu-haushalt-vorschlag-irland",
+  "us-diesel-deal-russland-reaktionen",
+  "jugendwort-des-jahres-2026-ragebait",
+  "angriffe-saporischschja"
  ],
  "wetter": {
-  "stand": "2026-10-10T08:26:01.366Z",
+  "stand": "2026-10-10T15:18:54.001Z",
   "morgenTag": "Sonntag",
   "orte": [
    {
@@ -110,25 +113,25 @@
     "lon": 9.99,
     "teil": "Norden",
     "jetzt": {
-     "grad": 12,
-     "code": 2,
+     "grad": 13,
+     "code": 61,
      "gefuehlt": 10,
-     "wind": 17,
-     "windAus": 236,
-     "feuchte": 83,
-     "druck": 1004,
-     "niederschlag": 0,
+     "wind": 18,
+     "windAus": 237,
+     "feuchte": 75,
+     "druck": 1003,
+     "niederschlag": 0.5,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-10",
      "code": 80,
      "max": 15,
-     "min": 10,
-     "regen": 88,
-     "menge": 2.8,
+     "min": 11,
+     "regen": 60,
+     "menge": 5.1,
      "wind": 19,
-     "windAus": 236,
+     "windAus": 239,
      "uv": 3,
      "auf": "07:37",
      "unter": "18:35"
@@ -138,10 +141,10 @@
      "code": 80,
      "max": 13,
      "min": 9,
-     "regen": 63,
-     "menge": 1.1,
-     "wind": 20,
-     "windAus": 248,
+     "regen": 27,
+     "menge": 5.7,
+     "wind": 17,
+     "windAus": 250,
      "uv": 2.6,
      "auf": "07:39",
      "unter": "18:33"
@@ -151,11 +154,11 @@
       "datum": "2026-10-10",
       "code": 80,
       "max": 15,
-      "min": 10,
-      "regen": 88,
-      "menge": 2.8,
+      "min": 11,
+      "regen": 60,
+      "menge": 5.1,
       "wind": 19,
-      "windAus": 236,
+      "windAus": 239,
       "uv": 3,
       "auf": "07:37",
       "unter": "18:35"
@@ -165,36 +168,36 @@
       "code": 80,
       "max": 13,
       "min": 9,
-      "regen": 63,
-      "menge": 1.1,
-      "wind": 20,
-      "windAus": 248,
+      "regen": 27,
+      "menge": 5.7,
+      "wind": 17,
+      "windAus": 250,
       "uv": 2.6,
       "auf": "07:39",
       "unter": "18:33"
      },
      {
       "datum": "2026-10-12",
-      "code": 45,
+      "code": 3,
       "max": 15,
-      "min": 5,
-      "regen": 10,
+      "min": 7,
+      "regen": 26,
       "menge": 0,
-      "wind": 6,
-      "windAus": 268,
-      "uv": 2.7,
+      "wind": 11,
+      "windAus": 253,
+      "uv": 2.8,
       "auf": "07:41",
       "unter": "18:30"
      },
      {
       "datum": "2026-10-13",
-      "code": 80,
-      "max": 14,
+      "code": 61,
+      "max": 15,
       "min": 7,
-      "regen": 36,
-      "menge": 6.6,
-      "wind": 13,
-      "windAus": 154,
+      "regen": 76,
+      "menge": 5.8,
+      "wind": 17,
+      "windAus": 168,
       "uv": 2.8,
       "auf": "07:43",
       "unter": "18:28"
@@ -202,13 +205,13 @@
      {
       "datum": "2026-10-14",
       "code": 3,
-      "max": 17,
-      "min": 11,
-      "regen": 38,
+      "max": 16,
+      "min": 10,
+      "regen": 67,
       "menge": 0,
-      "wind": 12,
-      "windAus": 267,
-      "uv": 2.6,
+      "wind": 16,
+      "windAus": 259,
+      "uv": 2.4,
       "auf": "07:45",
       "unter": "18:26"
      },
@@ -217,172 +220,172 @@
       "code": 3,
       "max": 16,
       "min": 10,
-      "regen": 16,
+      "regen": 2,
       "menge": 0,
       "wind": 12,
       "windAus": 196,
-      "uv": 2.4,
+      "uv": 2.6,
       "auf": "07:46",
       "unter": "18:23"
      },
      {
       "datum": "2026-10-16",
-      "code": 3,
+      "code": 61,
       "max": 16,
-      "min": 8,
-      "regen": 32,
-      "menge": 0.3,
-      "wind": 13,
-      "windAus": 268,
-      "uv": 2.1,
+      "min": 9,
+      "regen": 18,
+      "menge": 0.6,
+      "wind": 15,
+      "windAus": 267,
+      "uv": 2.5,
       "auf": "07:48",
       "unter": "18:21"
      }
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 12,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 5
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 2,
-      "regen": 18
-     },
-     {
-      "zeit": "13:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 30
-     },
-     {
-      "zeit": "14:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 45
-     },
-     {
-      "zeit": "15:00",
-      "grad": 14,
-      "code": 61,
-      "regen": 70
-     },
-     {
-      "zeit": "16:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 83
-     },
-     {
       "zeit": "17:00",
       "grad": 13,
-      "code": 3,
-      "regen": 88
+      "code": 61,
+      "regen": 50
      },
      {
       "zeit": "18:00",
       "grad": 12,
-      "code": 80,
-      "regen": 70
+      "code": 61,
+      "regen": 56
      },
      {
       "zeit": "19:00",
       "grad": 12,
-      "code": 80,
-      "regen": 53
+      "code": 61,
+      "regen": 60
      },
      {
       "zeit": "20:00",
-      "grad": 11,
+      "grad": 12,
       "code": 80,
-      "regen": 20
+      "regen": 60
      },
      {
       "zeit": "21:00",
       "grad": 11,
       "code": 61,
-      "regen": 10
+      "regen": 55
      },
      {
       "zeit": "22:00",
-      "grad": 10,
+      "grad": 11,
       "code": 80,
-      "regen": 3
+      "regen": 46
      },
      {
       "zeit": "23:00",
-      "grad": 10,
-      "code": 3,
-      "regen": 0
+      "grad": 11,
+      "code": 80,
+      "regen": 34
      },
      {
       "zeit": "00:00",
-      "grad": 9,
-      "code": 2,
-      "regen": 3
+      "grad": 10,
+      "code": 3,
+      "regen": 18
      },
      {
       "zeit": "01:00",
-      "grad": 9,
-      "code": 2,
-      "regen": 0
+      "grad": 10,
+      "code": 3,
+      "regen": 8
      },
      {
       "zeit": "02:00",
       "grad": 9,
       "code": 3,
-      "regen": 3
+      "regen": 4
      },
      {
       "zeit": "03:00",
       "grad": 9,
       "code": 61,
-      "regen": 0
+      "regen": 3
      },
      {
       "zeit": "04:00",
       "grad": 9,
       "code": 61,
-      "regen": 0
+      "regen": 4
      },
      {
       "zeit": "05:00",
       "grad": 9,
-      "code": 3,
-      "regen": 3
+      "code": 61,
+      "regen": 6
      },
      {
       "zeit": "06:00",
       "grad": 9,
-      "code": 3,
-      "regen": 3
+      "code": 61,
+      "regen": 8
      },
      {
       "zeit": "07:00",
       "grad": 9,
       "code": 3,
-      "regen": 0
+      "regen": 10
      },
      {
       "zeit": "08:00",
       "grad": 9,
-      "code": 3,
-      "regen": 5
+      "code": 61,
+      "regen": 13
      },
      {
       "zeit": "09:00",
       "grad": 9,
       "code": 61,
-      "regen": 5
+      "regen": 15
+     },
+     {
+      "zeit": "10:00",
+      "grad": 9,
+      "code": 61,
+      "regen": 18
+     },
+     {
+      "zeit": "11:00",
+      "grad": 10,
+      "code": 61,
+      "regen": 20
+     },
+     {
+      "zeit": "12:00",
+      "grad": 10,
+      "code": 61,
+      "regen": 22
+     },
+     {
+      "zeit": "13:00",
+      "grad": 10,
+      "code": 61,
+      "regen": 24
+     },
+     {
+      "zeit": "14:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 25
+     },
+     {
+      "zeit": "15:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 26
+     },
+     {
+      "zeit": "16:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 26
      }
     ]
    },
@@ -392,12 +395,12 @@
     "lon": 13.4,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
-     "code": 80,
-     "gefuehlt": 11,
-     "wind": 12,
-     "windAus": 248,
-     "feuchte": 82,
+     "grad": 16,
+     "code": 1,
+     "gefuehlt": 13,
+     "wind": 14,
+     "windAus": 258,
+     "feuchte": 47,
      "druck": 1004,
      "niederschlag": 0,
      "tag": 1
@@ -407,24 +410,24 @@
      "code": 80,
      "max": 17,
      "min": 11,
-     "regen": 85,
-     "menge": 1.5,
-     "wind": 18,
+     "regen": 68,
+     "menge": 1.4,
+     "wind": 17,
      "windAus": 238,
-     "uv": 3,
+     "uv": 3.1,
      "auf": "07:22",
      "unter": "18:23"
     },
     "morgen": {
      "datum": "2026-10-11",
      "code": 80,
-     "max": 12,
+     "max": 13,
      "min": 9,
-     "regen": 83,
-     "menge": 2.4,
-     "wind": 16,
-     "windAus": 242,
-     "uv": 1.9,
+     "regen": 33,
+     "menge": 2.6,
+     "wind": 17,
+     "windAus": 243,
+     "uv": 1.7,
      "auf": "07:24",
      "unter": "18:20"
     },
@@ -434,36 +437,36 @@
       "code": 80,
       "max": 17,
       "min": 11,
-      "regen": 85,
-      "menge": 1.5,
-      "wind": 18,
+      "regen": 68,
+      "menge": 1.4,
+      "wind": 17,
       "windAus": 238,
-      "uv": 3,
+      "uv": 3.1,
       "auf": "07:22",
       "unter": "18:23"
      },
      {
       "datum": "2026-10-11",
       "code": 80,
-      "max": 12,
+      "max": 13,
       "min": 9,
-      "regen": 83,
-      "menge": 2.4,
-      "wind": 16,
-      "windAus": 242,
-      "uv": 1.9,
+      "regen": 33,
+      "menge": 2.6,
+      "wind": 17,
+      "windAus": 243,
+      "uv": 1.7,
       "auf": "07:24",
       "unter": "18:20"
      },
      {
       "datum": "2026-10-12",
-      "code": 80,
-      "max": 14,
+      "code": 3,
+      "max": 15,
       "min": 8,
-      "regen": 32,
-      "menge": 0.2,
-      "wind": 14,
-      "windAus": 291,
+      "regen": 33,
+      "menge": 0,
+      "wind": 13,
+      "windAus": 282,
       "uv": 2.9,
       "auf": "07:26",
       "unter": "18:18"
@@ -471,13 +474,13 @@
      {
       "datum": "2026-10-13",
       "code": 61,
-      "max": 15,
-      "min": 3,
-      "regen": 19,
-      "menge": 4.5,
-      "wind": 8,
-      "windAus": 174,
-      "uv": 3,
+      "max": 16,
+      "min": 5,
+      "regen": 29,
+      "menge": 2.7,
+      "wind": 10,
+      "windAus": 183,
+      "uv": 2.8,
       "auf": "07:28",
       "unter": "18:16"
      },
@@ -486,24 +489,24 @@
       "code": 61,
       "max": 17,
       "min": 11,
-      "regen": 40,
-      "menge": 2.7,
-      "wind": 14,
-      "windAus": 285,
-      "uv": 2.9,
+      "regen": 53,
+      "menge": 0.6,
+      "wind": 13,
+      "windAus": 276,
+      "uv": 2.3,
       "auf": "07:29",
       "unter": "18:14"
      },
      {
       "datum": "2026-10-15",
-      "code": 45,
+      "code": 3,
       "max": 17,
-      "min": 6,
-      "regen": 5,
+      "min": 7,
+      "regen": 0,
       "menge": 0,
       "wind": 8,
-      "windAus": 181,
-      "uv": 2.3,
+      "windAus": 178,
+      "uv": 2.6,
       "auf": "07:31",
       "unter": "18:11"
      },
@@ -512,159 +515,159 @@
       "code": 3,
       "max": 18,
       "min": 7,
-      "regen": 30,
+      "regen": 12,
       "menge": 0,
       "wind": 14,
       "windAus": 266,
-      "uv": 2.5,
+      "uv": 2.4,
       "auf": "07:33",
       "unter": "18:09"
      }
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 3
-     },
-     {
-      "zeit": "11:00",
-      "grad": 14,
-      "code": 80,
-      "regen": 10
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "13:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "14:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 17,
-      "code": 3,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 16,
       "code": 1,
-      "regen": 0
+      "regen": 20
      },
      {
       "zeit": "18:00",
-      "grad": 15,
+      "grad": 16,
       "code": 1,
-      "regen": 0
+      "regen": 21
      },
      {
       "zeit": "19:00",
       "grad": 15,
-      "code": 1,
-      "regen": 0
+      "code": 2,
+      "regen": 21
      },
      {
       "zeit": "20:00",
       "grad": 14,
       "code": 3,
-      "regen": 3
+      "regen": 20
      },
      {
       "zeit": "21:00",
       "grad": 13,
-      "code": 2,
-      "regen": 5
+      "code": 3,
+      "regen": 18
      },
      {
       "zeit": "22:00",
       "grad": 13,
       "code": 3,
-      "regen": 5
+      "regen": 16
      },
      {
       "zeit": "23:00",
       "grad": 12,
-      "code": 61,
-      "regen": 0
+      "code": 3,
+      "regen": 13
      },
      {
       "zeit": "00:00",
-      "grad": 11,
+      "grad": 12,
       "code": 80,
-      "regen": 0
+      "regen": 8
      },
      {
       "zeit": "01:00",
       "grad": 11,
-      "code": 80,
-      "regen": 0
+      "code": 2,
+      "regen": 5
      },
      {
       "zeit": "02:00",
       "grad": 11,
       "code": 3,
-      "regen": 0
+      "regen": 4
      },
      {
       "zeit": "03:00",
       "grad": 10,
-      "code": 2,
-      "regen": 3
+      "code": 3,
+      "regen": 4
      },
      {
       "zeit": "04:00",
-      "grad": 9,
-      "code": 1,
-      "regen": 3
-     },
-     {
-      "zeit": "05:00",
-      "grad": 9,
+      "grad": 10,
       "code": 2,
       "regen": 5
      },
      {
+      "zeit": "05:00",
+      "grad": 9,
+      "code": 1,
+      "regen": 7
+     },
+     {
       "zeit": "06:00",
       "grad": 9,
-      "code": 3,
-      "regen": 13
+      "code": 2,
+      "regen": 9
      },
      {
       "zeit": "07:00",
       "grad": 9,
       "code": 3,
-      "regen": 8
+      "regen": 11
      },
      {
       "zeit": "08:00",
       "grad": 9,
       "code": 3,
-      "regen": 13
+      "regen": 14
      },
      {
       "zeit": "09:00",
       "grad": 9,
       "code": 3,
-      "regen": 10
+      "regen": 17
+     },
+     {
+      "zeit": "10:00",
+      "grad": 10,
+      "code": 3,
+      "regen": 19
+     },
+     {
+      "zeit": "11:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 22
+     },
+     {
+      "zeit": "12:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 24
+     },
+     {
+      "zeit": "13:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 26
+     },
+     {
+      "zeit": "14:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 28
+     },
+     {
+      "zeit": "15:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 29
+     },
+     {
+      "zeit": "16:00",
+      "grad": 13,
+      "code": 61,
+      "regen": 30
      }
     ]
    },
@@ -674,26 +677,26 @@
     "lon": 12.37,
     "teil": "Osten",
     "jetzt": {
-     "grad": 13,
+     "grad": 15,
      "code": 3,
-     "gefuehlt": 12,
-     "wind": 8,
-     "windAus": 229,
-     "feuchte": 81,
-     "druck": 997,
+     "gefuehlt": 13,
+     "wind": 11,
+     "windAus": 243,
+     "feuchte": 58,
+     "druck": 996,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-10",
      "code": 80,
-     "max": 16,
-     "min": 11,
-     "regen": 90,
-     "menge": 5.1,
+     "max": 15,
+     "min": 10,
+     "regen": 58,
+     "menge": 4.4,
      "wind": 15,
-     "windAus": 229,
-     "uv": 3.3,
+     "windAus": 227,
+     "uv": 3.2,
      "auf": "07:25",
      "unter": "18:28"
     },
@@ -701,12 +704,12 @@
      "datum": "2026-10-11",
      "code": 80,
      "max": 13,
-     "min": 8,
-     "regen": 41,
-     "menge": 2,
+     "min": 9,
+     "regen": 10,
+     "menge": 0.8,
      "wind": 18,
-     "windAus": 243,
-     "uv": 2.7,
+     "windAus": 244,
+     "uv": 2.8,
      "auf": "07:27",
      "unter": "18:26"
     },
@@ -714,13 +717,13 @@
      {
       "datum": "2026-10-10",
       "code": 80,
-      "max": 16,
-      "min": 11,
-      "regen": 90,
-      "menge": 5.1,
+      "max": 15,
+      "min": 10,
+      "regen": 58,
+      "menge": 4.4,
       "wind": 15,
-      "windAus": 229,
-      "uv": 3.3,
+      "windAus": 227,
+      "uv": 3.2,
       "auf": "07:25",
       "unter": "18:28"
      },
@@ -728,12 +731,12 @@
       "datum": "2026-10-11",
       "code": 80,
       "max": 13,
-      "min": 8,
-      "regen": 41,
-      "menge": 2,
+      "min": 9,
+      "regen": 10,
+      "menge": 0.8,
       "wind": 18,
-      "windAus": 243,
-      "uv": 2.7,
+      "windAus": 244,
+      "uv": 2.8,
       "auf": "07:27",
       "unter": "18:26"
      },
@@ -742,12 +745,12 @@
       "code": 3,
       "max": 15,
       "min": 7,
-      "regen": 25,
+      "regen": 28,
       "menge": 0,
-      "wind": 10,
-      "windAus": 268,
-      "uv": 1.5,
-      "auf": "07:29",
+      "wind": 9,
+      "windAus": 257,
+      "uv": 2,
+      "auf": "07:28",
       "unter": "18:24"
      },
      {
@@ -755,24 +758,24 @@
       "code": 61,
       "max": 16,
       "min": 5,
-      "regen": 12,
-      "menge": 4.2,
-      "wind": 8,
-      "windAus": 178,
-      "uv": 3.2,
+      "regen": 29,
+      "menge": 0.6,
+      "wind": 9,
+      "windAus": 187,
+      "uv": 3.1,
       "auf": "07:30",
       "unter": "18:22"
      },
      {
       "datum": "2026-10-14",
-      "code": 63,
+      "code": 61,
       "max": 17,
-      "min": 11,
-      "regen": 32,
-      "menge": 3.6,
-      "wind": 10,
-      "windAus": 269,
-      "uv": 2.2,
+      "min": 10,
+      "regen": 54,
+      "menge": 2.1,
+      "wind": 8,
+      "windAus": 256,
+      "uv": 3,
       "auf": "07:32",
       "unter": "18:19"
      },
@@ -781,11 +784,11 @@
       "code": 3,
       "max": 17,
       "min": 8,
-      "regen": 11,
+      "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 185,
-      "uv": 2,
+      "windAus": 181,
+      "uv": 2.9,
       "auf": "07:34",
       "unter": "18:17"
      },
@@ -794,159 +797,159 @@
       "code": 61,
       "max": 19,
       "min": 8,
-      "regen": 31,
+      "regen": 13,
       "menge": 0.6,
       "wind": 15,
       "windAus": 257,
-      "uv": 2.8,
+      "uv": 2.6,
       "auf": "07:35",
       "unter": "18:15"
      }
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 5
-     },
-     {
-      "zeit": "12:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 5
-     },
-     {
-      "zeit": "13:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 5
-     },
-     {
-      "zeit": "14:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 3
-     },
-     {
-      "zeit": "15:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 16,
-      "code": 1,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
+      "grad": 15,
+      "code": 1,
+      "regen": 26
      },
      {
       "zeit": "18:00",
-      "grad": 15,
+      "grad": 14,
       "code": 3,
-      "regen": 0
+      "regen": 26
      },
      {
       "zeit": "19:00",
       "grad": 13,
       "code": 3,
-      "regen": 0
+      "regen": 25
      },
      {
       "zeit": "20:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
+      "grad": 12,
+      "code": 2,
+      "regen": 23
      },
      {
       "zeit": "21:00",
-      "grad": 12,
+      "grad": 11,
       "code": 1,
-      "regen": 0
+      "regen": 21
      },
      {
       "zeit": "22:00",
       "grad": 11,
-      "code": 2,
-      "regen": 0
+      "code": 3,
+      "regen": 17
      },
      {
       "zeit": "23:00",
-      "grad": 11,
+      "grad": 10,
       "code": 3,
-      "regen": 3
+      "regen": 14
      },
      {
       "zeit": "00:00",
       "grad": 10,
-      "code": 2,
-      "regen": 3
+      "code": 3,
+      "regen": 10
      },
      {
       "zeit": "01:00",
       "grad": 10,
-      "code": 3,
-      "regen": 0
+      "code": 1,
+      "regen": 8
      },
      {
       "zeit": "02:00",
       "grad": 10,
       "code": 2,
-      "regen": 0
+      "regen": 7
      },
      {
       "zeit": "03:00",
       "grad": 9,
-      "code": 1,
-      "regen": 3
+      "code": 3,
+      "regen": 7
      },
      {
       "zeit": "04:00",
       "grad": 9,
-      "code": 1,
-      "regen": 0
+      "code": 2,
+      "regen": 7
      },
      {
       "zeit": "05:00",
-      "grad": 8,
-      "code": 80,
-      "regen": 3
+      "grad": 9,
+      "code": 2,
+      "regen": 6
      },
      {
       "zeit": "06:00",
-      "grad": 8,
-      "code": 3,
-      "regen": 0
+      "grad": 9,
+      "code": 2,
+      "regen": 6
      },
      {
       "zeit": "07:00",
-      "grad": 8,
+      "grad": 9,
       "code": 3,
-      "regen": 10
+      "regen": 5
      },
      {
       "zeit": "08:00",
-      "grad": 8,
-      "code": 2,
-      "regen": 10
+      "grad": 9,
+      "code": 3,
+      "regen": 5
      },
      {
       "zeit": "09:00",
       "grad": 9,
+      "code": 80,
+      "regen": 5
+     },
+     {
+      "zeit": "10:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 5
+     },
+     {
+      "zeit": "11:00",
+      "grad": 12,
       "code": 3,
-      "regen": 7
+      "regen": 5
+     },
+     {
+      "zeit": "12:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 5
+     },
+     {
+      "zeit": "13:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 5
+     },
+     {
+      "zeit": "14:00",
+      "grad": 13,
+      "code": 61,
+      "regen": 5
+     },
+     {
+      "zeit": "15:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 5
+     },
+     {
+      "zeit": "16:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 5
      }
     ]
    },
@@ -956,26 +959,26 @@
     "lon": 6.96,
     "teil": "Westen",
     "jetzt": {
-     "grad": 13,
+     "grad": 15,
      "code": 0,
-     "gefuehlt": 11,
-     "wind": 14,
-     "windAus": 253,
-     "feuchte": 81,
-     "druck": 1004,
+     "gefuehlt": 12,
+     "wind": 17,
+     "windAus": 256,
+     "feuchte": 61,
+     "druck": 1003,
      "niederschlag": 0,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-10",
      "code": 51,
-     "max": 15,
-     "min": 12,
+     "max": 16,
+     "min": 11,
      "regen": 100,
-     "menge": 1,
-     "wind": 21,
+     "menge": 0.6,
+     "wind": 19,
      "windAus": 251,
-     "uv": 3.2,
+     "uv": 3.3,
      "auf": "07:46",
      "unter": "18:50"
     },
@@ -983,11 +986,11 @@
      "datum": "2026-10-11",
      "code": 53,
      "max": 14,
-     "min": 9,
-     "regen": 45,
-     "menge": 1,
-     "wind": 21,
-     "windAus": 250,
+     "min": 10,
+     "regen": 73,
+     "menge": 2,
+     "wind": 20,
+     "windAus": 251,
      "uv": 3,
      "auf": "07:48",
      "unter": "18:48"
@@ -996,13 +999,13 @@
      {
       "datum": "2026-10-10",
       "code": 51,
-      "max": 15,
-      "min": 12,
+      "max": 16,
+      "min": 11,
       "regen": 100,
-      "menge": 1,
-      "wind": 21,
+      "menge": 0.6,
+      "wind": 19,
       "windAus": 251,
-      "uv": 3.2,
+      "uv": 3.3,
       "auf": "07:46",
       "unter": "18:50"
      },
@@ -1010,11 +1013,11 @@
       "datum": "2026-10-11",
       "code": 53,
       "max": 14,
-      "min": 9,
-      "regen": 45,
-      "menge": 1,
-      "wind": 21,
-      "windAus": 250,
+      "min": 10,
+      "regen": 73,
+      "menge": 2,
+      "wind": 20,
+      "windAus": 251,
       "uv": 3,
       "auf": "07:48",
       "unter": "18:48"
@@ -1022,26 +1025,26 @@
      {
       "datum": "2026-10-12",
       "code": 2,
-      "max": 17,
+      "max": 16,
       "min": 7,
-      "regen": 11,
+      "regen": 2,
       "menge": 0,
       "wind": 10,
-      "windAus": 155,
+      "windAus": 151,
       "uv": 3.3,
       "auf": "07:50",
       "unter": "18:46"
      },
      {
       "datum": "2026-10-13",
-      "code": 51,
+      "code": 80,
       "max": 19,
-      "min": 11,
-      "regen": 55,
-      "menge": 1.3,
-      "wind": 12,
-      "windAus": 160,
-      "uv": 2,
+      "min": 10,
+      "regen": 75,
+      "menge": 3.5,
+      "wind": 15,
+      "windAus": 161,
+      "uv": 1.3,
       "auf": "07:51",
       "unter": "18:44"
      },
@@ -1050,185 +1053,185 @@
       "code": 51,
       "max": 18,
       "min": 12,
-      "regen": 59,
-      "menge": 0.9,
-      "wind": 14,
-      "windAus": 282,
-      "uv": 2.8,
+      "regen": 71,
+      "menge": 0.2,
+      "wind": 15,
+      "windAus": 274,
+      "uv": 2.6,
       "auf": "07:53",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-15",
-      "code": 3,
-      "max": 20,
-      "min": 9,
-      "regen": 11,
+      "code": 2,
+      "max": 22,
+      "min": 10,
+      "regen": 2,
       "menge": 0,
-      "wind": 10,
-      "windAus": 143,
-      "uv": 2.7,
+      "wind": 12,
+      "windAus": 152,
+      "uv": 2.8,
       "auf": "07:55",
       "unter": "18:39"
      },
      {
       "datum": "2026-10-16",
-      "code": 51,
+      "code": 53,
       "max": 21,
-      "min": 11,
-      "regen": 31,
-      "menge": 0.6,
+      "min": 13,
+      "regen": 27,
+      "menge": 2.1,
       "wind": 18,
-      "windAus": 180,
-      "uv": 1.1,
+      "windAus": 178,
+      "uv": 2.9,
       "auf": "07:56",
       "unter": "18:37"
      }
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "11:00",
-      "grad": 14,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 1,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 15,
-      "code": 0,
-      "regen": 16
-     },
-     {
-      "zeit": "16:00",
-      "grad": 15,
-      "code": 3,
-      "regen": 38
-     },
-     {
       "zeit": "17:00",
       "grad": 15,
-      "code": 1,
-      "regen": 51
+      "code": 0,
+      "regen": 22
      },
      {
       "zeit": "18:00",
-      "grad": 14,
-      "code": 51,
-      "regen": 49
+      "grad": 15,
+      "code": 0,
+      "regen": 24
      },
      {
       "zeit": "19:00",
-      "grad": 13,
-      "code": 0,
-      "regen": 38
-     },
-     {
-      "zeit": "20:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 29
-     },
-     {
-      "zeit": "21:00",
-      "grad": 12,
+      "grad": 14,
       "code": 3,
       "regen": 24
      },
      {
+      "zeit": "20:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 22
+     },
+     {
+      "zeit": "21:00",
+      "grad": 13,
+      "code": 0,
+      "regen": 16
+     },
+     {
       "zeit": "22:00",
       "grad": 12,
-      "code": 3,
-      "regen": 20
+      "code": 0,
+      "regen": 8
      },
      {
       "zeit": "23:00",
-      "grad": 12,
+      "grad": 11,
       "code": 3,
-      "regen": 20
+      "regen": 4
      },
      {
       "zeit": "00:00",
       "grad": 11,
       "code": 3,
-      "regen": 27
+      "regen": 7
      },
      {
       "zeit": "01:00",
       "grad": 11,
       "code": 3,
-      "regen": 39
+      "regen": 14
      },
      {
       "zeit": "02:00",
       "grad": 11,
       "code": 3,
-      "regen": 45
+      "regen": 22
      },
      {
       "zeit": "03:00",
       "grad": 11,
       "code": 3,
-      "regen": 41
+      "regen": 32
      },
      {
       "zeit": "04:00",
-      "grad": 10,
-      "code": 0,
-      "regen": 32
+      "grad": 11,
+      "code": 51,
+      "regen": 43
      },
      {
       "zeit": "05:00",
       "grad": 10,
       "code": 53,
-      "regen": 27
+      "regen": 53
      },
      {
       "zeit": "06:00",
-      "grad": 9,
-      "code": 2,
-      "regen": 32
+      "grad": 10,
+      "code": 51,
+      "regen": 62
      },
      {
       "zeit": "07:00",
       "grad": 10,
       "code": 53,
-      "regen": 40
+      "regen": 70
      },
      {
       "zeit": "08:00",
       "grad": 10,
       "code": 3,
-      "regen": 45
+      "regen": 73
      },
      {
       "zeit": "09:00",
       "grad": 10,
       "code": 3,
-      "regen": 41
+      "regen": 66
+     },
+     {
+      "zeit": "10:00",
+      "grad": 10,
+      "code": 51,
+      "regen": 54
+     },
+     {
+      "zeit": "11:00",
+      "grad": 11,
+      "code": 0,
+      "regen": 43
+     },
+     {
+      "zeit": "12:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 35
+     },
+     {
+      "zeit": "13:00",
+      "grad": 13,
+      "code": 1,
+      "regen": 28
+     },
+     {
+      "zeit": "14:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 24
+     },
+     {
+      "zeit": "15:00",
+      "grad": 14,
+      "code": 0,
+      "regen": 26
+     },
+     {
+      "zeit": "16:00",
+      "grad": 14,
+      "code": 1,
+      "regen": 32
      }
     ]
    },
@@ -1238,13 +1241,13 @@
     "lon": 8.68,
     "teil": "Westen",
     "jetzt": {
-     "grad": 14,
-     "code": 3,
-     "gefuehlt": 12,
-     "wind": 9,
-     "windAus": 251,
-     "feuchte": 80,
-     "druck": 1000,
+     "grad": 16,
+     "code": 80,
+     "gefuehlt": 13,
+     "wind": 13,
+     "windAus": 259,
+     "feuchte": 52,
+     "druck": 999,
      "niederschlag": 0,
      "tag": 1
     },
@@ -1252,11 +1255,11 @@
      "datum": "2026-10-10",
      "code": 80,
      "max": 17,
-     "min": 10,
-     "regen": 90,
+     "min": 11,
+     "regen": 51,
      "menge": 1.1,
-     "wind": 15,
-     "windAus": 232,
+     "wind": 16,
+     "windAus": 230,
      "uv": 3.5,
      "auf": "07:39",
      "unter": "18:44"
@@ -1264,13 +1267,13 @@
     "morgen": {
      "datum": "2026-10-11",
      "code": 80,
-     "max": 14,
-     "min": 8,
-     "regen": 5,
-     "menge": 0.2,
+     "max": 15,
+     "min": 9,
+     "regen": 18,
+     "menge": 0.1,
      "wind": 13,
-     "windAus": 236,
-     "uv": 3.2,
+     "windAus": 240,
+     "uv": 2.7,
      "auf": "07:40",
      "unter": "18:42"
     },
@@ -1279,11 +1282,11 @@
       "datum": "2026-10-10",
       "code": 80,
       "max": 17,
-      "min": 10,
-      "regen": 90,
+      "min": 11,
+      "regen": 51,
       "menge": 1.1,
-      "wind": 15,
-      "windAus": 232,
+      "wind": 16,
+      "windAus": 230,
       "uv": 3.5,
       "auf": "07:39",
       "unter": "18:44"
@@ -1291,39 +1294,39 @@
      {
       "datum": "2026-10-11",
       "code": 80,
-      "max": 14,
-      "min": 8,
-      "regen": 5,
-      "menge": 0.2,
+      "max": 15,
+      "min": 9,
+      "regen": 18,
+      "menge": 0.1,
       "wind": 13,
-      "windAus": 236,
-      "uv": 3.2,
+      "windAus": 240,
+      "uv": 2.7,
       "auf": "07:40",
       "unter": "18:42"
      },
      {
       "datum": "2026-10-12",
       "code": 45,
-      "max": 14,
+      "max": 15,
       "min": 5,
-      "regen": 5,
+      "regen": 14,
       "menge": 0,
-      "wind": 6,
-      "windAus": 208,
+      "wind": 7,
+      "windAus": 191,
       "uv": 3.4,
       "auf": "07:42",
       "unter": "18:40"
      },
      {
       "datum": "2026-10-13",
-      "code": 61,
-      "max": 12,
+      "code": 3,
+      "max": 14,
       "min": 7,
-      "regen": 15,
-      "menge": 1.8,
+      "regen": 29,
+      "menge": 1.5,
       "wind": 7,
-      "windAus": 182,
-      "uv": 3.4,
+      "windAus": 203,
+      "uv": 2.7,
       "auf": "07:43",
       "unter": "18:38"
      },
@@ -1331,11 +1334,11 @@
       "datum": "2026-10-14",
       "code": 45,
       "max": 17,
-      "min": 9,
-      "regen": 14,
-      "menge": 0.3,
-      "wind": 7,
-      "windAus": 216,
+      "min": 10,
+      "regen": 31,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 54,
       "uv": 3.2,
       "auf": "07:45",
       "unter": "18:36"
@@ -1344,12 +1347,12 @@
       "datum": "2026-10-15",
       "code": 45,
       "max": 17,
-      "min": 7,
-      "regen": 6,
+      "min": 6,
+      "regen": 0,
       "menge": 0,
       "wind": 6,
-      "windAus": 173,
-      "uv": 2.6,
+      "windAus": 175,
+      "uv": 3.1,
       "auf": "07:47",
       "unter": "18:34"
      },
@@ -1358,7 +1361,7 @@
       "code": 45,
       "max": 16,
       "min": 8,
-      "regen": 24,
+      "regen": 21,
       "menge": 0,
       "wind": 3,
       "windAus": 122,
@@ -1369,148 +1372,148 @@
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 2,
-      "regen": 3
-     },
-     {
-      "zeit": "11:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 13
-     },
-     {
-      "zeit": "12:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "13:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "14:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "15:00",
-      "grad": 17,
-      "code": 2,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
       "grad": 16,
       "code": 2,
-      "regen": 0
+      "regen": 36
      },
      {
       "zeit": "18:00",
       "grad": 15,
-      "code": 1,
-      "regen": 0
+      "code": 80,
+      "regen": 33
      },
      {
       "zeit": "19:00",
       "grad": 14,
-      "code": 2,
-      "regen": 0
+      "code": 3,
+      "regen": 31
      },
      {
       "zeit": "20:00",
-      "grad": 12,
+      "grad": 13,
       "code": 3,
-      "regen": 0
+      "regen": 28
      },
      {
       "zeit": "21:00",
-      "grad": 11,
-      "code": 2,
-      "regen": 8
+      "grad": 12,
+      "code": 3,
+      "regen": 25
      },
      {
       "zeit": "22:00",
-      "grad": 11,
-      "code": 1,
-      "regen": 13
+      "grad": 12,
+      "code": 3,
+      "regen": 22
      },
      {
       "zeit": "23:00",
-      "grad": 10,
+      "grad": 11,
       "code": 3,
-      "regen": 5
+      "regen": 20
      },
      {
       "zeit": "00:00",
-      "grad": 9,
+      "grad": 11,
       "code": 3,
-      "regen": 0
+      "regen": 18
      },
      {
       "zeit": "01:00",
-      "grad": 9,
+      "grad": 11,
       "code": 3,
-      "regen": 3
+      "regen": 16
      },
      {
       "zeit": "02:00",
-      "grad": 9,
-      "code": 2,
-      "regen": 3
+      "grad": 10,
+      "code": 1,
+      "regen": 15
      },
      {
       "zeit": "03:00",
-      "grad": 8,
+      "grad": 9,
       "code": 2,
-      "regen": 0
+      "regen": 14
      },
      {
       "zeit": "04:00",
-      "grad": 8,
+      "grad": 9,
       "code": 3,
-      "regen": 0
+      "regen": 14
      },
      {
       "zeit": "05:00",
-      "grad": 8,
-      "code": 2,
-      "regen": 0
+      "grad": 9,
+      "code": 3,
+      "regen": 14
      },
      {
       "zeit": "06:00",
-      "grad": 8,
-      "code": 2,
-      "regen": 0
+      "grad": 9,
+      "code": 3,
+      "regen": 14
      },
      {
       "zeit": "07:00",
-      "grad": 8,
+      "grad": 9,
       "code": 3,
-      "regen": 0
+      "regen": 14
      },
      {
       "zeit": "08:00",
-      "grad": 8,
+      "grad": 9,
       "code": 3,
-      "regen": 0
+      "regen": 15
      },
      {
       "zeit": "09:00",
       "grad": 9,
       "code": 2,
-      "regen": 0
+      "regen": 16
+     },
+     {
+      "zeit": "10:00",
+      "grad": 10,
+      "code": 2,
+      "regen": 16
+     },
+     {
+      "zeit": "11:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 17
+     },
+     {
+      "zeit": "12:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "13:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "14:00",
+      "grad": 14,
+      "code": 2,
+      "regen": 18
+     },
+     {
+      "zeit": "15:00",
+      "grad": 15,
+      "code": 3,
+      "regen": 18
+     },
+     {
+      "zeit": "16:00",
+      "grad": 14,
+      "code": 80,
+      "regen": 18
      }
     ]
    },
@@ -1520,12 +1523,12 @@
     "lon": 9.18,
     "teil": "Süden",
     "jetzt": {
-     "grad": 13,
-     "code": 3,
-     "gefuehlt": 12,
-     "wind": 9,
-     "windAus": 238,
-     "feuchte": 83,
+     "grad": 16,
+     "code": 2,
+     "gefuehlt": 13,
+     "wind": 13,
+     "windAus": 275,
+     "feuchte": 54,
      "druck": 984,
      "niederschlag": 0,
      "tag": 1
@@ -1535,26 +1538,26 @@
      "code": 80,
      "max": 16,
      "min": 11,
-     "regen": 98,
-     "menge": 4.3,
+     "regen": 63,
+     "menge": 4,
      "wind": 17,
-     "windAus": 234,
-     "uv": 3,
+     "windAus": 231,
+     "uv": 2.7,
      "auf": "07:35",
      "unter": "18:43"
     },
     "morgen": {
      "datum": "2026-10-11",
-     "code": 80,
-     "max": 14,
+     "code": 61,
+     "max": 13,
      "min": 10,
-     "regen": 28,
-     "menge": 3.3,
-     "wind": 14,
-     "windAus": 240,
-     "uv": 2.7,
+     "regen": 27,
+     "menge": 2.4,
+     "wind": 13,
+     "windAus": 236,
+     "uv": 2.5,
      "auf": "07:37",
-     "unter": "18:41"
+     "unter": "18:42"
     },
     "tage": [
      {
@@ -1562,63 +1565,63 @@
       "code": 80,
       "max": 16,
       "min": 11,
-      "regen": 98,
-      "menge": 4.3,
+      "regen": 63,
+      "menge": 4,
       "wind": 17,
-      "windAus": 234,
-      "uv": 3,
+      "windAus": 231,
+      "uv": 2.7,
       "auf": "07:35",
       "unter": "18:43"
      },
      {
       "datum": "2026-10-11",
-      "code": 80,
-      "max": 14,
+      "code": 61,
+      "max": 13,
       "min": 10,
-      "regen": 28,
-      "menge": 3.3,
-      "wind": 14,
-      "windAus": 240,
-      "uv": 2.7,
+      "regen": 27,
+      "menge": 2.4,
+      "wind": 13,
+      "windAus": 236,
+      "uv": 2.5,
       "auf": "07:37",
-      "unter": "18:41"
+      "unter": "18:42"
      },
      {
       "datum": "2026-10-12",
       "code": 3,
       "max": 16,
       "min": 8,
-      "regen": 4,
+      "regen": 18,
       "menge": 0,
       "wind": 6,
-      "windAus": 214,
+      "windAus": 198,
       "uv": 3.4,
       "auf": "07:38",
-      "unter": "18:39"
+      "unter": "18:40"
      },
      {
       "datum": "2026-10-13",
-      "code": 61,
-      "max": 14,
-      "min": 8,
-      "regen": 12,
-      "menge": 0.6,
-      "wind": 4,
-      "windAus": 186,
-      "uv": 3.5,
+      "code": 3,
+      "max": 16,
+      "min": 7,
+      "regen": 16,
+      "menge": 0,
+      "wind": 5,
+      "windAus": 187,
+      "uv": 3.4,
       "auf": "07:40",
       "unter": "18:38"
      },
      {
       "datum": "2026-10-14",
-      "code": 3,
+      "code": 80,
       "max": 18,
-      "min": 12,
-      "regen": 16,
-      "menge": 1.2,
-      "wind": 5,
-      "windAus": 262,
-      "uv": 2.9,
+      "min": 13,
+      "regen": 43,
+      "menge": 1.8,
+      "wind": 7,
+      "windAus": 303,
+      "uv": 1.8,
       "auf": "07:41",
       "unter": "18:36"
      },
@@ -1627,20 +1630,20 @@
       "code": 45,
       "max": 20,
       "min": 10,
-      "regen": 6,
+      "regen": 0,
       "menge": 0,
       "wind": 4,
-      "windAus": 197,
-      "uv": 2.6,
+      "windAus": 206,
+      "uv": 3.1,
       "auf": "07:43",
       "unter": "18:34"
      },
      {
       "datum": "2026-10-16",
       "code": 45,
-      "max": 19,
+      "max": 18,
       "min": 8,
-      "regen": 25,
+      "regen": 22,
       "menge": 0,
       "wind": 8,
       "windAus": 298,
@@ -1651,148 +1654,148 @@
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 80,
-      "regen": 45
-     },
-     {
-      "zeit": "11:00",
-      "grad": 14,
-      "code": 3,
-      "regen": 30
-     },
-     {
-      "zeit": "12:00",
-      "grad": 14,
-      "code": 61,
-      "regen": 25
-     },
-     {
-      "zeit": "13:00",
-      "grad": 15,
-      "code": 80,
-      "regen": 15
-     },
-     {
-      "zeit": "14:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 5
-     },
-     {
-      "zeit": "15:00",
-      "grad": 16,
-      "code": 3,
-      "regen": 0
-     },
-     {
-      "zeit": "16:00",
-      "grad": 16,
-      "code": 2,
-      "regen": 0
-     },
-     {
       "zeit": "17:00",
-      "grad": 15,
-      "code": 2,
-      "regen": 3
+      "grad": 16,
+      "code": 1,
+      "regen": 48
      },
      {
       "zeit": "18:00",
       "grad": 15,
       "code": 2,
-      "regen": 0
+      "regen": 45
      },
      {
       "zeit": "19:00",
       "grad": 14,
       "code": 1,
-      "regen": 0
+      "regen": 41
      },
      {
       "zeit": "20:00",
       "grad": 13,
       "code": 1,
-      "regen": 0
+      "regen": 38
      },
      {
       "zeit": "21:00",
       "grad": 12,
-      "code": 0,
-      "regen": 0
+      "code": 1,
+      "regen": 35
      },
      {
       "zeit": "22:00",
       "grad": 11,
-      "code": 1,
-      "regen": 0
+      "code": 0,
+      "regen": 32
      },
      {
       "zeit": "23:00",
       "grad": 11,
-      "code": 2,
-      "regen": 0
+      "code": 3,
+      "regen": 29
      },
      {
       "zeit": "00:00",
       "grad": 11,
-      "code": 3,
-      "regen": 3
+      "code": 2,
+      "regen": 27
      },
      {
       "zeit": "01:00",
       "grad": 11,
       "code": 3,
-      "regen": 8
+      "regen": 25
      },
      {
       "zeit": "02:00",
       "grad": 11,
-      "code": 61,
-      "regen": 13
+      "code": 3,
+      "regen": 23
      },
      {
       "zeit": "03:00",
       "grad": 11,
-      "code": 80,
-      "regen": 18
+      "code": 2,
+      "regen": 22
      },
      {
       "zeit": "04:00",
-      "grad": 10,
+      "grad": 11,
       "code": 1,
-      "regen": 15
+      "regen": 21
      },
      {
       "zeit": "05:00",
       "grad": 10,
-      "code": 2,
-      "regen": 13
+      "code": 0,
+      "regen": 20
      },
      {
       "zeit": "06:00",
       "grad": 10,
-      "code": 3,
-      "regen": 18
+      "code": 1,
+      "regen": 19
      },
      {
       "zeit": "07:00",
       "grad": 10,
-      "code": 2,
-      "regen": 13
+      "code": 1,
+      "regen": 18
      },
      {
       "zeit": "08:00",
       "grad": 10,
       "code": 2,
-      "regen": 10
+      "regen": 18
      },
      {
       "zeit": "09:00",
       "grad": 10,
       "code": 3,
+      "regen": 17
+     },
+     {
+      "zeit": "10:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 17
+     },
+     {
+      "zeit": "11:00",
+      "grad": 12,
+      "code": 61,
+      "regen": 16
+     },
+     {
+      "zeit": "12:00",
+      "grad": 11,
+      "code": 61,
+      "regen": 16
+     },
+     {
+      "zeit": "13:00",
+      "grad": 12,
+      "code": 3,
       "regen": 15
+     },
+     {
+      "zeit": "14:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 15
+     },
+     {
+      "zeit": "15:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 15
+     },
+     {
+      "zeit": "16:00",
+      "grad": 13,
+      "code": 2,
+      "regen": 14
      }
     ]
    },
@@ -1805,35 +1808,35 @@
      "grad": 13,
      "code": 61,
      "gefuehlt": 12,
-     "wind": 11,
-     "windAus": 247,
-     "feuchte": 81,
-     "druck": 953,
-     "niederschlag": 0.2,
+     "wind": 8,
+     "windAus": 280,
+     "feuchte": 80,
+     "druck": 952,
+     "niederschlag": 0.1,
      "tag": 1
     },
     "heute": {
      "datum": "2026-10-10",
-     "code": 61,
+     "code": 80,
      "max": 13,
-     "min": 11,
-     "regen": 98,
-     "menge": 8.1,
-     "wind": 14,
-     "windAus": 254,
-     "uv": 0.3,
+     "min": 10,
+     "regen": 64,
+     "menge": 7.1,
+     "wind": 13,
+     "windAus": 250,
+     "uv": 0.5,
      "auf": "07:25",
      "unter": "18:35"
     },
     "morgen": {
      "datum": "2026-10-11",
-     "code": 61,
-     "max": 13,
+     "code": 80,
+     "max": 14,
      "min": 9,
-     "regen": 26,
-     "menge": 0.2,
+     "regen": 52,
+     "menge": 0.8,
      "wind": 16,
-     "windAus": 263,
+     "windAus": 264,
      "uv": 2.9,
      "auf": "07:27",
      "unter": "18:33"
@@ -1841,66 +1844,66 @@
     "tage": [
      {
       "datum": "2026-10-10",
-      "code": 61,
+      "code": 80,
       "max": 13,
-      "min": 11,
-      "regen": 98,
-      "menge": 8.1,
-      "wind": 14,
-      "windAus": 254,
-      "uv": 0.3,
+      "min": 10,
+      "regen": 64,
+      "menge": 7.1,
+      "wind": 13,
+      "windAus": 250,
+      "uv": 0.5,
       "auf": "07:25",
       "unter": "18:35"
      },
      {
       "datum": "2026-10-11",
-      "code": 61,
-      "max": 13,
+      "code": 80,
+      "max": 14,
       "min": 9,
-      "regen": 26,
-      "menge": 0.2,
+      "regen": 52,
+      "menge": 0.8,
       "wind": 16,
-      "windAus": 263,
+      "windAus": 264,
       "uv": 2.9,
       "auf": "07:27",
       "unter": "18:33"
      },
      {
       "datum": "2026-10-12",
-      "code": 3,
-      "max": 14,
+      "code": 61,
+      "max": 15,
       "min": 8,
-      "regen": 10,
+      "regen": 32,
       "menge": 0,
-      "wind": 10,
-      "windAus": 280,
+      "wind": 7,
+      "windAus": 281,
       "uv": 3.5,
       "auf": "07:28",
       "unter": "18:31"
      },
      {
       "datum": "2026-10-13",
-      "code": 61,
-      "max": 15,
-      "min": 6,
-      "regen": 9,
-      "menge": 1.5,
-      "wind": 7,
-      "windAus": 215,
+      "code": 3,
+      "max": 17,
+      "min": 4,
+      "regen": 15,
+      "menge": 0,
+      "wind": 6,
+      "windAus": 227,
       "uv": 3.5,
       "auf": "07:29",
       "unter": "18:29"
      },
      {
       "datum": "2026-10-14",
-      "code": 80,
+      "code": 63,
       "max": 17,
-      "min": 11,
-      "regen": 26,
-      "menge": 2.4,
-      "wind": 11,
-      "windAus": 266,
-      "uv": 0.9,
+      "min": 12,
+      "regen": 43,
+      "menge": 4.8,
+      "wind": 8,
+      "windAus": 272,
+      "uv": 2.7,
       "auf": "07:31",
       "unter": "18:27"
      },
@@ -1908,12 +1911,12 @@
       "datum": "2026-10-15",
       "code": 45,
       "max": 18,
-      "min": 9,
-      "regen": 12,
+      "min": 10,
+      "regen": 0,
       "menge": 0,
       "wind": 7,
-      "windAus": 237,
-      "uv": 2.5,
+      "windAus": 228,
+      "uv": 2.9,
       "auf": "07:32",
       "unter": "18:25"
      },
@@ -1921,160 +1924,160 @@
       "datum": "2026-10-16",
       "code": 45,
       "max": 18,
-      "min": 8,
+      "min": 9,
       "regen": 15,
       "menge": 0,
       "wind": 7,
-      "windAus": 357,
-      "uv": 3.2,
+      "windAus": 349,
+      "uv": 2.9,
       "auf": "07:34",
       "unter": "18:23"
      }
     ],
     "stunden": [
      {
-      "zeit": "10:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 90
-     },
-     {
-      "zeit": "11:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 95
-     },
-     {
-      "zeit": "12:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 95
-     },
-     {
-      "zeit": "13:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 98
-     },
-     {
-      "zeit": "14:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 93
-     },
-     {
-      "zeit": "15:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 65
-     },
-     {
-      "zeit": "16:00",
-      "grad": 13,
-      "code": 61,
-      "regen": 65
-     },
-     {
       "zeit": "17:00",
       "grad": 13,
-      "code": 61,
-      "regen": 70
+      "code": 3,
+      "regen": 63
      },
      {
       "zeit": "18:00",
       "grad": 13,
       "code": 61,
-      "regen": 48
+      "regen": 62
      },
      {
       "zeit": "19:00",
-      "grad": 13,
-      "code": 3,
-      "regen": 35
+      "grad": 12,
+      "code": 80,
+      "regen": 61
      },
      {
       "zeit": "20:00",
       "grad": 12,
       "code": 2,
-      "regen": 38
+      "regen": 60
      },
      {
       "zeit": "21:00",
-      "grad": 12,
+      "grad": 11,
       "code": 2,
-      "regen": 28
+      "regen": 59
      },
      {
       "zeit": "22:00",
       "grad": 11,
-      "code": 3,
-      "regen": 13
+      "code": 2,
+      "regen": 57
      },
      {
       "zeit": "23:00",
-      "grad": 11,
+      "grad": 10,
       "code": 3,
-      "regen": 13
+      "regen": 55
      },
      {
       "zeit": "00:00",
-      "grad": 11,
+      "grad": 10,
       "code": 3,
-      "regen": 3
+      "regen": 52
      },
      {
       "zeit": "01:00",
-      "grad": 11,
-      "code": 3,
-      "regen": 5
+      "grad": 10,
+      "code": 2,
+      "regen": 50
      },
      {
       "zeit": "02:00",
       "grad": 10,
       "code": 3,
-      "regen": 13
+      "regen": 49
      },
      {
       "zeit": "03:00",
       "grad": 10,
-      "code": 2,
-      "regen": 10
+      "code": 1,
+      "regen": 47
      },
      {
       "zeit": "04:00",
-      "grad": 10,
-      "code": 2,
-      "regen": 10
+      "grad": 9,
+      "code": 1,
+      "regen": 47
      },
      {
       "zeit": "05:00",
-      "grad": 10,
+      "grad": 9,
       "code": 2,
-      "regen": 3
+      "regen": 46
      },
      {
       "zeit": "06:00",
       "grad": 9,
       "code": 3,
-      "regen": 5
+      "regen": 46
      },
      {
       "zeit": "07:00",
       "grad": 10,
       "code": 3,
-      "regen": 5
+      "regen": 45
      },
      {
       "zeit": "08:00",
       "grad": 10,
       "code": 3,
-      "regen": 8
+      "regen": 45
      },
      {
       "zeit": "09:00",
       "grad": 10,
       "code": 3,
-      "regen": 13
+      "regen": 45
+     },
+     {
+      "zeit": "10:00",
+      "grad": 11,
+      "code": 3,
+      "regen": 45
+     },
+     {
+      "zeit": "11:00",
+      "grad": 12,
+      "code": 3,
+      "regen": 45
+     },
+     {
+      "zeit": "12:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 44
+     },
+     {
+      "zeit": "13:00",
+      "grad": 12,
+      "code": 80,
+      "regen": 44
+     },
+     {
+      "zeit": "14:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 43
+     },
+     {
+      "zeit": "15:00",
+      "grad": 14,
+      "code": 3,
+      "regen": 42
+     },
+     {
+      "zeit": "16:00",
+      "grad": 13,
+      "code": 3,
+      "regen": 41
      }
     ]
    }
@@ -2082,8 +2085,8 @@
   "text": [
    "Heute liegen die Höchstwerte zwischen 13 und 17 Grad.",
    "Die Vorhersage für morgen, Sonntag, im ganzen Land: Regenschauer.",
-   "Die Temperaturen erreichen dann 12 bis 14 Grad.",
-   "Am wärmsten wird es in Köln mit 14 Grad.",
+   "Die Temperaturen erreichen dann 13 bis 15 Grad.",
+   "Am wärmsten wird es in Frankfurt mit 15 Grad.",
    "Die Daten kommen vom Deutschen Wetterdienst."
   ],
   "modelle": {
@@ -2096,19 +2099,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 13,
-       "regen": 1.1
+       "regen": 5.7
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 12,
-       "regen": 6.8
+       "grad": 13,
+       "regen": 6.9
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 12,
-       "regen": 3.3
+       "grad": 11,
+       "regen": 1.9
       }
      ]
     },
@@ -2119,19 +2122,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 13,
-       "regen": 2.4
+       "regen": 2.6
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 13,
-       "regen": 1
+       "regen": 1.9
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 13,
-       "regen": 3
+       "regen": 1.7
       }
      ]
     },
@@ -2142,19 +2145,19 @@
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
        "grad": 13,
-       "regen": 2
+       "regen": 0.8
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 14,
-       "regen": 0.3
+       "regen": 0.6
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 13,
-       "regen": 0.2
+       "regen": 0.5
       }
      ]
     },
@@ -2164,20 +2167,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 14,
-       "regen": 1.3
+       "grad": 15,
+       "regen": 0.3
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 14,
-       "regen": 1.7
+       "regen": 2.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 14,
-       "regen": 1.2
+       "regen": 1.9
       }
      ]
     },
@@ -2187,8 +2190,8 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 14,
-       "regen": 0.2
+       "grad": 15,
+       "regen": 0.1
       },
       {
        "name": "GFS",
@@ -2200,7 +2203,7 @@
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 14,
-       "regen": 0.4
+       "regen": 0.5
       }
      ]
     },
@@ -2210,20 +2213,20 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 14,
-       "regen": 3.3
+       "grad": 13,
+       "regen": 2.4
       },
       {
        "name": "GFS",
        "heim": "USA",
-       "grad": 13,
-       "regen": 0.2
+       "grad": 14,
+       "regen": 0
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
-       "grad": 14,
-       "regen": 1.1
+       "grad": 13,
+       "regen": 2.2
       }
      ]
     },
@@ -2233,38 +2236,38 @@
       {
        "name": "ICON",
        "heim": "Deutscher Wetterdienst",
-       "grad": 13,
-       "regen": 0.2
+       "grad": 14,
+       "regen": 0.8
       },
       {
        "name": "GFS",
        "heim": "USA",
        "grad": 13,
-       "regen": 0
+       "regen": 0.1
       },
       {
        "name": "ECMWF",
        "heim": "Europa",
        "grad": 13,
-       "regen": 1.4
+       "regen": 0.5
       }
      ]
     }
    ],
-   "spanneGrad": 1,
+   "spanneGrad": 2,
    "uneinigRegen": {
-    "ort": "Leipzig",
+    "ort": "Köln",
     "nass": [
-     "ICON"
-    ],
-    "trocken": [
      "GFS",
      "ECMWF"
+    ],
+    "trocken": [
+     "ICON"
     ]
    },
    "saetze": [
-    "Die Wettermodelle sind sich für morgen weitgehend einig: hoechstens ein Grad Unterschied.",
-    "Und in Leipzig erwartet ICON Regen, GFS und ECMWF dagegen nicht."
+    "Für Hamburg gehen die Modelle am weitesten auseinander: zwischen 11 und 13 Grad.",
+    "Und in Köln erwartet GFS und ECMWF Regen, ICON dagegen nicht."
    ],
    "dienste": [
     "ICON (Deutscher Wetterdienst)",
@@ -2408,7 +2411,7 @@
     "l": 6.37,
     "s": [
      0.25,
-     4.0
+     4
     ]
    },
    {
@@ -2456,6 +2459,1733 @@
   "hinweis": "Die Unterschiede zwischen den Medien sind sehr klein – gut ein Zehntel Punkt auf einer Skala von sieben. Die Zahl sagt, wie sich das Publikum SELBST einordnet, nicht wie ein Medium berichtet."
  },
  "nachrichten": [
+  {
+   "id": "eu-haushalt-vorschlag-irland",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-10-10T15:04:02.000Z",
+   "titel": "Streit um EU-Finanzrahmen: Bundeskanzler Merz weist Haushaltsvorschlag der irischen Ratspräsidentschaft zurück",
+   "vorspann": "Die irische EU-Ratspräsidentschaft hat einen überarbeiteten Entwurf für den mehrjährigen EU-Haushalt der Jahre 2028 bis 2034 vorgelegt. Bundeskanzler Friedrich Merz und Vertreter weiterer Nettozahler-Staaten lehnen den Vorschlag als unzureichend ab und fordern deutlich stärkere Einsparungen.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "Die irische EU-Ratspräsidentschaft hat einen neuen Entwurf für den Haushalt der Jahre 2028 bis 2034 vorgelegt, der geringere Ausgaben als der ursprüngliche Entwurf der Kommission vorsieht.",
+    "Bundeskanzler Friedrich Merz und Vertreter von Nettozahlern wie Österreich, den Niederlanden und Schweden lehnen das Papier ab und fordern stärkere Kürzungen von mehreren Hundert Milliarden Euro.",
+    "Gekürzt werden im irischen Entwurf vor allem Mittel für Wettbewerbsfähigkeit, Forschung und Verteidigung, während Ausgaben für Landwirtschaft und Regionen stabil bleiben.",
+    "Das Europäische Parlament kritisiert die Kürzungen als Gefährdung der Handlungsfähigkeit der EU; die Staats- und Regierungschefs beraten beim bevorstehenden Gipfel in Brüssel weiter."
+   ],
+   "einig": [
+    [
+     "Irland hat als amtierende Ratspräsidentschaft einen überarbeiteten Haushaltsvorschlag für den Zeitraum 2028 bis 2034 vorgelegt.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Bundeskanzler Friedrich Merz sieht in dem Entwurf keine Grundlage für eine Einigung und verlangt stärkere Kürzungen.",
+     [
+      "Tagesschau/ARD",
+      "Deutschlandfunk",
+      "Zeit",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Der ursprüngliche Vorschlag der EU-Kommission umfasste ein Volumen von rund zwei Billionen Euro.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Deutschland, die Niederlande, Schweden und Österreich fordern Kürzungen um mehrere Hundert Milliarden Euro.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Die Einsparungen im irischen Vorschlag betreffen vor allem die Bereiche Wettbewerbsfähigkeit, Forschung und Verteidigung.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Die Mittel für Landwirtschaft und Regionalförderung bleiben im Entwurf stabil.",
+     [
+      "Tagesschau/ARD",
+      "FAZ"
+     ]
+    ],
+    [
+     "Die Staats- und Regierungschefs beraten auf einem EU-Gipfel in Brüssel über das Budget.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ],
+    [
+     "Die Mitgliedstaaten streben eine Einigung bis zum Jahresende an, unter anderem mit Blick auf bevorstehende Wahlen in Frankreich.",
+     [
+      "Tagesschau/ARD",
+      "FAZ",
+      "Deutsche Welle"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die Höhe der vorgeschlagenen Einsparung wird unterschiedlich beziffert: Die Tagesschau nennt rund 140 Milliarden Euro, während FAZ und Deutsche Welle 159 Milliarden Euro angeben.",
+    "Der Gesamtanstieg gegenüber der Periode 2021 bis 2027 wird von der FAZ mit 50 Prozent, von der Deutschen Welle hingegen mit etwa 30 Prozent beziffert.",
+    "Das genaue Datum des EU-Gipfels wird von der Tagesschau allgemein mit Donnerstag angegeben, von der Deutschen Welle konkret auf den 15. und 16. Oktober terminiert.",
+    "Ob die Agrar- und Regionalmittel in der Deutschen Welle ausdrücklich als stabil bezeichnet werden, ist nicht belegt, da die Quelle nur berichtet, dass andere Länder Kürzungen ablehnen."
+   ],
+   "positionen": [
+    [
+     "Friedrich Merz (Bundeskanzler Deutschland)",
+     "Der Entwurf ist keine Basis für eine Einigung, da der Haushalt für die Hauptzahler bezahlbar bleiben muss und die Kürzungen unzureichend sind.",
+     "Tagesschau/ARD, FAZ, Deutsche Welle"
+    ],
+    [
+     "Thomas Byrne (Europaminister Irland)",
+     "Der Entwurf schafft einen tragfähigen Ausgleich zwischen neuen Herausforderungen, traditionellen Ausgaben und den Grenzen der Beitragszahler.",
+     "FAZ"
+    ],
+    [
+     "Claudia Bauer (Europaministerin Österreich)",
+     "Der Vorschlag ist nicht zustimmungsfähig, da den Steuerzahlern keine höheren Ausgaben zugemutet werden können und Zeitdruck abgelehnt wird.",
+     "Tagesschau/ARD, FAZ"
+    ],
+    [
+     "Eelco Heinen (Finanzminister Niederlande)",
+     "Auf der vorgelegten Basis wird bis zum Jahresende keine Vereinbarung zustande kommen; das Budget muss deutlich verkleinert werden.",
+     "FAZ"
+    ],
+    [
+     "Verhandlungsführer EVP und Sozialdemokraten (EU-Parlament)",
+     "Eine Haushaltskürzung um acht Prozent schwächt die Handlungsfähigkeit der EU bei Sicherheit und Wettbewerbsfähigkeit und ist unannehmbar.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Freunde der Kohäsion / Frankreich, Spanien, Polen (Mitgliedstaaten)",
+     "Traditionelle Ausgaben für Agrarwirtschaft und Regionalförderung dürfen nicht gekürzt werden; das EU-Budget muss den Herausforderungen genügen.",
+     "FAZ, Deutsche Welle"
+    ]
+   ],
+   "fehlend": "Es fehlen Stellungnahmen der Europäischen Kommission selbst zu den vorgeschlagenen Kürzungen sowie detaillierte Wortmeldungen kleinerer Nettoempfängerländer.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 16:33",
+     "fokus": "Merz-Kritik und Parlamentsreaktion",
+     "text": "Die Tagesschau hebt die Ablehnung durch Bundeskanzler Merz hervor und beleuchtet ausführlich die Gegenposition des EU-Parlaments, das vor einem Verlust an Handlungsfähigkeit warnt.",
+     "url": "https://www.tagesschau.de/ausland/europa/eu-haushalt-irischer-vorschlag-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 3,
+      "woerter": 514,
+      "satzlaenge": 16,
+      "langeWoerter": 39
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 17:04",
+     "fokus": "Eilmeldung zur Merz-Aussage",
+     "text": "Der Sender beschränkt sich auf eine kurze Meldung, die Merz' Ablehnung des irischen Haushaltsentwurfs in Berlin zusammenfasst.",
+     "url": "https://www.deutschlandfunk.de/merz-irischer-vorschlag-fuer-haushaltsentwurf-keine-grundlage-fuer-einigung-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 16:54",
+     "fokus": "Forderung nach Einsparungen",
+     "text": "Die Wochenzeitung betont die deutsche Rolle als größter Nettozahler und die Forderung nach deutlich tieferen Ausgabenkürzungen.",
+     "url": "https://www.zeit.de/politik/ausland/2026-10/merz-eu-haushalt-einsparung",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 14:36",
+     "fokus": "Haushaltszahlen und Staatenblöcke",
+     "text": "Die FAZ analysiert detailliert die konkreten Budgetposten, nennt präzise Milliardenbeträge und beleuchtet den Briefwechsel zwischen sparsamen Staaten und den Kohäsionsfreunden.",
+     "url": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/friedrich-merz-scheitert-mit-forderung-nach-eu-ausgabendisziplin-accg-201305727.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 4,
+      "woerter": 837,
+      "satzlaenge": 16,
+      "langeWoerter": 39
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Deutsche Welle",
+     "typ": "Auslandssender (öffentlich finanziert)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "10.10.26, 15:52",
+     "fokus": "Diplomatischer Konflikt",
+     "text": "Der Sender stellt den Verhandlungszeitplan und die gegensätzlichen Positionen zwischen Nettozahlern und Befürwortern eines großen Budgets wie Frankreich dar.",
+     "url": "https://www.dw.com/de/eu-haushaltszoff-irland-sieht-etwas-sparpotenzial/a-79628689?maca=de-rss-de-all-1119-rdf",
+     "video": false,
+     "lesbar": {
+      "stufe": "schwer",
+      "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft",
+      "klasse": 13,
+      "minuten": 2,
+      "woerter": 335,
+      "satzlaenge": 20,
+      "langeWoerter": 44
+     },
+     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
+     "finanzierung": "Steuermittel des Bundes",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Detaillierungsgrad der Budgetposten",
+     "Die FAZ nennt exakte Zahlen für Agrarhilfen (294 Mrd.), Regionalförderung (459 Mrd.) und den Wettbewerbsfonds (403 Mrd.), während Tagesschau und Deutsche Welle diese Bereiche nur summarisch beschreiben."
+    ],
+    [
+     "Perspektive des EU-Parlaments",
+     "Nur die Tagesschau berichtet über die scharfe Kritik der Verhandlungsführer von EVP und Sozialdemokraten im Europäischen Parlament."
+    ],
+    [
+     "Verwaltungspersonal",
+     "Lediglich die FAZ thematisiert den Verzicht auf 2500 zusätzliche Stellen bei den EU-Behörden als Zugeständnis an Deutschland."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Die irische Ratspräsidentschaft und Bundeskanzler Friedrich Merz",
+    "was": "Vorlage und Ablehnung eines neuen Entwurfs für den EU-Haushalt",
+    "wann": "10. Oktober 2026",
+    "wo": "Berlin, Dublin und Brüssel",
+    "wie": "Durch Stellungnahmen nach Veröffentlichung eines reduzierten Budgetentwurfs",
+    "warum": "Bundeskanzler Merz sieht zu geringe Einsparungen und falsche Prioritäten",
+    "quellenlage": "Stellungnahmen von Regierungsvertretern, Abgeordneten und Verhandlungsunterlagen"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Die irische EU-Ratspräsidentschaft hat am Samstag einen überarbeiteten Kompromissvorschlag für den nächsten Mehrjährigen Finanzrahmen vorgelegt. Der Entwurf regelt die Ausgaben der Europäischen Union für den Zeitraum von 2028 bis 2034. Der ursprüngliche Vorschlag der Europäischen Kommission hatte ein Gesamtvolumen von rund zwei Billionen Euro vorgesehen. Die irische Präsidentschaft schlägt nun geringere Ausgaben vor, stößt damit jedoch auf unmittelbaren Widerspruch mehrerer Mitgliedstaaten.",
+      "Bundeskanzler Friedrich Merz erklärte in Berlin, der neue Entwurf sei keine Grundlage für eine Einigung. Nach Ansicht der deutschen Bundesregierung fallen die vorgeschlagenen Kürzungen viel zu gering aus. Merz betonte, dass der EU-Haushalt für jene Staaten bezahlbar bleiben müsse, die den größten Anteil der Finanzierung leisten. Er dankte der irischen Verhandlungsführung für ihren Einsatz, stellte jedoch fest, dass die Verhandlungspartner von einem tragfähigen Kompromiss noch weit entfernt seien.",
+      "Neben Deutschland wiesen auch Regierungsvertreter aus Österreich, den Niederlanden und Schweden den irischen Entwurf zurück. Diese Staaten gehören zu den sogenannten Nettozahlern, die mehr Geld in den EU-Haushalt einzahlen, als sie an direkten Förderungen zurückerhalten. Die Europaministerin Österreichs, Claudia Bauer, sowie der niederländische Finanzminister Eelco Heinen erklärten übereinstimmend, dass auf dieser Grundlage keine Einigung bis zum Jahresende erzielt werden könne."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Hinsichtlich der genauen Einsparsumme weichen die Berichte leicht voneinander ab. Laut der Tagesschau sieht der irische Entwurf Kürzungen in Höhe von rund 140 Milliarden Euro vor, was einem Rückgang von acht Prozent gegenüber dem Entwurf der EU-Kommission entspricht. Nach Angaben der Frankfurter Allgemeinen Zeitung und der Deutschen Welle belaufen sich die geplanten Kürzungen auf 159 Milliarden Euro in laufenden Preisen. Die FAZ beziffert das verbleibende Gesamtausgabenvolumen auf 1,825 Billionen Euro, was einem Anstieg von 50 Prozent im Vergleich zur Haushaltsperiode 2021 bis 2027 entspreche. Die Deutsche Welle spricht von einem Anstieg um etwa 30 Prozent.",
+      "Die Einsparungen im irischen Entwurf konzentrieren sich auf bestimmte Politikfelder. Nach Angaben der Tagesschau, der FAZ und der Deutschen Welle werden insbesondere die Mittel für Wettbewerbsfähigkeit, Forschung, Verteidigung sowie Außen- und Entwicklungspolitik gekürzt. Dagegen bleiben nach Berichten von Tagesschau und FAZ die Mittel für Landwirtschaft und die sogenannte Regionalförderung, die Unterschiede zwischen reicheren und ärmeren Regionen verringern soll, stabil. Laut FAZ sind 294 Milliarden Euro für direkte Agrarhilfen und 459 Milliarden Euro für die Regionalförderung vorgesehen, während auf den Wettbewerbsfähigkeitsfonds 403 Milliarden Euro und auf die Außenpolitik 177,5 Milliarden Euro entfallen. Die Tagesschau berichtet zudem, dass die Gelder für Migration, Grenzschutz und innere Sicherheit weitgehend unangetastet bleiben.",
+      "Zur Finanzierung der gestiegenen Ausgaben sieht der irische Entwurf neue Einnahmen vor. Die FAZ berichtet von fünf neuen Eigenmitteln, die 2025 von der EU-Kommission vorgeschlagen wurden, darunter Einnahmen aus dem CO₂-Emissionshandel, der CO₂-Grenzsteuer, einer Abgabe auf Elektromüll, Tabaksteueranteilen und einer Unternehmensabgabe. Die Deutsche Welle beziffert das Volumen neuer Einnahmequellen durch Zölle und Emissionszertifikate auf 55 Milliarden Euro. Beim EU-Personal ging Irland laut FAZ auf die deutsche Haltung ein: Der Personalbestand der EU-Institutionen soll stabil bleiben, womit der Wunsch der EU-Kommission nach 2500 zusätzlichen Stellen abgelehnt wird."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Dem neuen Entwurf ging eine intensive Auseinandersetzung zwischen verschiedenen Staatenblöcken voraus. Deutschland hatte gemeinsam mit Österreich, den Niederlanden und skandinavischen Partnern in einem Schreiben pauschale Kürzungen über alle Politikbereiche hinweg gefordert. Diese sechs sogenannten sparsamen Staaten verlangen Kürzungen um mehrere Hundert Milliarden Euro. Nach Angaben der österreichischen Europaministerin Bauer finanzieren die insgesamt neun Nettozahler der EU derzeit rund 60 Prozent des gesamten Haushalts.",
+      "Gegen pauschale Einsparungen regte sich Widerstand bei einer Gruppe von 17 Staaten, die sich als Freunde der Kohäsion bezeichnen und zu denen Italien, Spanien und Polen gehören. Nach Angaben der FAZ und der Deutschen Welle wehren sich diese Länder sowie Frankreich gegen Kürzungen bei traditionellen Ausgaben wie der Regionalförderung und den Agrarbeihilfen. Frankreich argumentiert laut Deutscher Welle, dass ein größeres Budget angesichts künftiger Aufgaben nötig sei. Die Gruppe der Kohäsionsfreunde hatte zudem vorgeschlagen, Schulden aus dem gemeinsamen Corona-Wiederaufbaufonds langsamer als geplant zurückzuzahlen, wofür laut FAZ insgesamt 168 Milliarden Euro fällig werden. Die irische Ratspräsidentschaft griff diesen Vorschlag in ihrem Entwurf jedoch nicht auf."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Mehrjährige Finanzrahmen bildet die finanzielle Grundlage für alle Ausgaben der Europäischen Union über einen Zeitraum von sieben Jahren. Er legt Obergrenzen für verschiedene Politikbereiche fest und bestimmt, wie viel Geld für Förderprogramme oder gemeinsame Aufgaben bereitgestellt werden darf. Beschlüsse über diesen Finanzrahmen müssen im Rat der Mitgliedstaaten einstimmig gefasst werden, sodass jedes einzelne Land über ein Vetorecht verfügt.",
+      "Neben den Mitgliedstaaten ist auch das Europäische Parlament an der Festlegung des Haushalts beteiligt. Nachdem sich die Regierungen der Mitgliedstaaten auf einen gemeinsamen Standpunkt geeinigt haben, verhandeln sie mit Vertretern des Parlaments. Ohne die formelle Zustimmung des Parlaments kann der mehrjährige Haushalt nicht in Kraft treten."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der irische Europaminister Thomas Byrne verteidigte den Entwurf seiner Regierung gegen die Einwände der Nettozahler. Er erklärte, Irland habe den Rückmeldungen aller Mitgliedstaaten genau zugehört und eine breite Unterstützung dafür festgestellt, Hilfen für Landwirte und Regionen unangetastet zu lassen. Der Kompromiss wahre das Gleichgewicht zwischen neuen Aufgaben wie Sicherheit und den begrenzten finanziellen Mitteln der Beitragszahler. Trotz der Kürzungen stiegen die inflationsbereinigten Mittel für Wettbewerbsfähigkeit und Sicherheit im Vergleich zum laufenden Haushalt um 106 Prozent und für Außenpolitik um 31 Prozent.",
+      "Aus dem Europäischen Parlament kam Kritik aus der entgegengesetzten Richtung. Die Verhandlungsführer der Fraktionen von EVP und Sozialdemokraten erklärten laut Tagesschau gemeinsam, der irische Entwurf könne keinesfalls als Verhandlungsgrundlage dienen. Eine Kürzung um acht Prozent gegenüber dem Entwurf der Kommission schwäche die Handlungsfähigkeit der Europäischen Union erheblich. Dies gelte besonders zu einem Zeitpunkt, an dem Europa zusätzliche Investitionen in Verteidigung, Sicherheit und wirtschaftliche Wettbewerbsfähigkeit tätigen müsse.",
+      "Scharfe Ablehnung äußerten Regierungsmitglieder weiterer Beitragszahlerländer. Die österreichische Europaministerin Claudia Bauer betonte, den Steuerzahlern zu Hause sei kein höherer Beitrag zumutbar, während die nationalen Budgets sparsam verwaltet werden müssten. Österreich werde sich bei den Beratungen keinem künstlichen Zeitdruck beugen. Der niederländische Finanzminister Eelco Heinen erklärte ebenfalls, dass auf der vorgelegten Grundlage kein Übereinkommen möglich sei und der Entwurf auf ein realistisches Maß verkleinert werden müsse."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die Staats- und Regierungschefs der EU-Mitgliedstaaten werden den irischen Kompromissvorschlag auf ihrem bevorstehenden Gipfeltreffen in Brüssel beraten. Die Tagesschau nennt dafür den kommenden Donnerstag, während die Deutsche Welle die Termine auf den 15. und 16. Oktober datiert. Der Präsident des Europäischen Rates, António Costa, reist derzeit durch die Hauptstädte, um Schnittmengen für einen Konsens auszuloten. Nach einer möglichen Einigung der Mitgliedstaaten müssen zudem Beratungen mit dem EU-Parlament aufgenommen werden.",
+      "Die Verhandlungsführer streben formell eine Verabschiedung des Haushalts bis zum Ende des laufenden Jahres an. Als Gründe für den Zeitdruck nennen die Berichte bevorstehende Wahlen im kommenden Jahr in Frankreich, Italien und Polen. Allerdings verweisen mehrere Medien darauf, dass eine vorgezogene Parlamentswahl in Spanien im November das Erreichen eines rechtzeitigen Kompromisses zusätzlich erschweren könnte."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2025",
+     "Die EU-Kommission legt Entwürfe für neue Eigenmittel und den mehrjährigen Finanzrahmen vor"
+    ],
+    [
+     "Vor dem 10. Oktober 2026",
+     "Briefwechsel: Deutschland und sparsame Staaten fordern Kürzungen, 17 Kohäsionsländer halten an Regionalgeldern fest"
+    ],
+    [
+     "Samstag, 10. Oktober 2026",
+     "Die irische Ratspräsidentschaft stellt ihren Kompromissvorschlag vor; Merz, Heinen und Bauer weisen ihn ab"
+    ],
+    [
+     "15. und 16. Oktober 2026",
+     "Die Staats- und Regierungschefs beraten beim EU-Gipfel in Brüssel über den Haushalt"
+    ],
+    [
+     "November 2026",
+     "Vorgezogene Neuwahl in Spanien erschwert die laufenden Haushaltsverhandlungen"
+    ],
+    [
+     "Ende 2026",
+     "Angestrebtes Ziel für eine Einigung der EU-Staaten vor Wahlen in mehreren Mitgliedsländern im Jahr 2027"
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Friedrich Merz",
+     "bildunterschrift": "Bundeskanzler Friedrich Merz lehnt den vorgelegten Haushaltsentwurf für die Europäische Union ab."
+    },
+    {
+     "art": "person",
+     "suchbegriff": "António Costa",
+     "bildunterschrift": "EU-Ratspräsident António Costa führt Gespräche mit den Hauptstädten, um eine Einigung über den Finanzrahmen zu erreichen."
+    },
+    {
+     "art": "institution",
+     "suchbegriff": "European Council",
+     "bildunterschrift": "Das Gebäude des Europäischen Rates in Brüssel, in dem die Staats- und Regierungschefs über das EU-Budget beraten."
+    }
+   ],
+   "ort": {
+    "name": "Brüssel, Belgien"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "In 'einig' wurde bei der Beibehaltung der Agrar- und Regionalmittel die Quelle 'Deutsche Welle' entfernt, da dort nur FAZ und Tagesschau übereinstimmen.",
+    "Im Artikel unter 'Die Einzelheiten' wurde präzisiert, dass die Beibehaltung der Agrar- und Regionalmittel auf Berichten von Tagesschau und FAZ beruht."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Mehrjähriger Finanzrahmen",
+      "Der langfristige Haushaltsplan der Europäischen Union. Er legt verbindlich fest, wie viel Geld die EU über sieben Jahre hinweg für verschiedene Aufgaben ausgeben darf."
+     ],
+     [
+      "Nettozahler",
+      "Staaten, die mehr Geld in den EU-Haushalt einzahlen, als sie durch Förderprogramme direkt wieder zurückbekommen."
+     ],
+     [
+      "Regionalförderung",
+      "EU-Gelder, die vor allem ärmeren Regionen in Europa zugutekommen, um wirtschaftliche und soziale Unterschiede auszugleichen."
+     ]
+    ],
+    "fragen": [
+     "Warum ist es für die 27 EU-Staaten besonders schwierig, sich auf einen gemeinsamen Haushalt zu einigen?",
+     "Welche Vor- und Nachteile hat es, bei neuen Aufgaben wie Verteidigung zu sparen statt bei traditionellen Hilfen wie der Landwirtschaft?",
+     "Warum drängen die Verhandler auf eine Einigung vor den Wahlen in Ländern wie Frankreich und Spanien?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welche Summe hatte die EU-Kommission ursprünglich für den Haushalt 2028 bis 2034 vorgeschlagen?",
+      "optionen": [
+       "Rund 1,5 Billionen Euro",
+       "Rund 2 Billionen Euro",
+       "Rund 3 Billionen Euro"
+      ],
+      "richtig": 1,
+      "erklaerung": "Der ursprüngliche Kommissionsvorschlag belief sich auf rund zwei Billionen Euro."
+     },
+     {
+      "frage": "In welchen Bereichen sieht der irische Entwurf die stärksten Kürzungen vor?",
+      "optionen": [
+       "Wettbewerbsfähigkeit, Forschung und Verteidigung",
+       "Landwirtschaft und Direkthilfen für Bauern",
+       "Regionalförderung für ärmere Gebiete"
+      ],
+      "richtig": 0,
+      "erklaerung": "Die irische Ratspräsidentschaft kürzt vor allem Gelder für Wettbewerbsfähigkeit, Forschung und Verteidigung, während Agrar- und Regionalhilfen stabil bleiben."
+     },
+     {
+      "frage": "Welche Haltung vertritt Bundeskanzler Merz zu dem vorgelegten irischen Haushaltsentwurf?",
+      "optionen": [
+       "Er stimmt dem Entwurf ohne Änderungen zu.",
+       "Er fordert höhere Ausgaben für alle Bereiche.",
+       "Er lehnt ihn als unzureichend ab und fordert tiefere Kürzungen."
+      ],
+      "richtig": 2,
+      "erklaerung": "Kanzler Merz sieht in dem Entwurf keine Einigungsgrundlage und verlangt Kürzungen um mehrere Hundert Milliarden Euro."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Irland hat einen neuen Plan für das Geld der Europäischen Union vorgestellt. Bundeskanzler Friedrich Merz lehnt diesen Plan ab, weil er viel zu teuer sei.",
+    "absaetze": [
+     "Die Europäische Union plant ihr Geld immer für sieben Jahre im Voraus. Irland leitet derzeit die Treffen der Mitgliedsländer und hat vorgeschlagen, die Ausgaben etwas zu senken. Der neue Plan sieht vor, rund 150 Milliarden Euro weniger auszugeben als zuerst geplant.",
+     "Deutschland und andere Länder zahlen mehr Geld an die Europäische Union, als sie direkt zurückbekommen. Sie heißen deshalb Nettozahler. Bundeskanzler Friedrich Merz sagte, die Kürzungen reichten bei weitem nicht aus. Auch Länder wie Österreich, die Niederlande und Schweden verlangen viel stärkere Einsparungen.",
+     "In dem irischen Vorschlag wird vor allem bei Forschung, Verteidigung und Wirtschaft gespart. Die Gelder für Landwirtschaft und Hilfen für ärmere Regionen sollen dagegen stabil bleiben. Länder wie Frankreich und Polen wollen diese traditionellen Bereiche unbedingt schützen.",
+     "Ende der Woche treffen sich die Staats- und Regierungschefs in Brüssel zu einem Gipfel. Dort wollen sie weiter über das Geld verhandeln. Eine Einigung wird schwierig, weil am Ende alle 27 Mitgliedsländer zustimmen müssen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die irische Ratspräsidentschaft hat einen neuen Vorschlag für den Haushalt der Europäischen Union vorgelegt.",
+     "Bundeskanzler Friedrich Merz lehnt den Entwurf ab, weil die Kürzungen von rund acht Prozent nicht ausreichen.",
+     "Auf dem bevorstehenden Gipfel in Brüssel beraten die Staatschefs weiter über die Finanzen."
+    ],
+    "lang": [
+     "Die irische Präsidentschaft hat einen neuen Vorschlag für den Haushalt der Europäischen Union vorgelegt.",
+     "Der Entwurf gilt für die Jahre zweitausendachtundzwanzig bis zweitausendvierunddreißig.",
+     "Die Regierung in Dublin schlägt Kürzungen von rund acht Prozent vor.",
+     "Bundeskanzler Friedrich Merz erklärte in Berlin, der Entwurf sei keine Grundlage für eine Einigung.",
+     "Deutschland verlangt gemeinsam mit Österreich, Schweden und den Niederlanden Einsparungen um mehrere hundert Milliarden Euro.",
+     "Der Entwurf kürzt vor allem Gelder für Forschung, Wirtschaft und Verteidigung.",
+     "Mittel für die Landwirtschaft und ärmere Regionen sollen dagegen stabil bleiben.",
+     "Aus dem Europäischen Parlament kommt Kritik, weil die Kürzungen Europa schwächen würden.",
+     "Am Donnerstag beraten die Staats- und Regierungschefs beim Gipfeltreffen in Brüssel.",
+     "Alle siebenundzwanzig Mitgliedstaaten müssen dem gemeinsamen Haushaltsplan einstimmig zustimmen."
+    ],
+    "einfach": [
+     "Irland hat einen Plan für das Geld der Europäischen Union vorgelegt.",
+     "Bundeskanzler Friedrich Merz lehnt diesen Haushaltsplan ab.",
+     "Er fordert deutlich größere Einsparungen bei den EU-Ausgaben.",
+     "Andere Staaten wollen aber keine Kürzungen bei den Bauern.",
+     "Ende der Woche verhandeln die Staatschefs in Brüssel darüber."
+    ]
+   },
+   "kurz": [
+    "Irland legt neuen Haushaltsentwurf für die Europäische Union von 2028 bis 2034 vor.",
+    "Bundeskanzler Merz und weitere Nettozahler lehnen den Entwurf wegen unzureichender Kürzungen ab.",
+    "Der Vorschlag kürzt Gelder für Wettbewerbsfähigkeit und Verteidigung, schont aber die Landwirtschaft.",
+    "Auf dem anstehenden EU-Gipfel in Brüssel beraten die Staats- und Regierungschefs über den Haushalt."
+   ],
+   "fakten": [
+    [
+     "Ursprünglicher Kommissionsvorschlag",
+     "rund 2 Billionen Euro"
+    ],
+    [
+     "Vorgeschlagene Kürzung",
+     "140 bis 159 Milliarden Euro"
+    ],
+    [
+     "Geplantes Gesamtvolumen laut FAZ",
+     "1,825 Billionen Euro"
+    ],
+    [
+     "Haushaltszeitraum",
+     "2028 bis 2034"
+    ]
+   ],
+   "dossier": {
+    "slug": "eu-finanzrahmen",
+    "titel": "EU-Haushalt und Finanzrahmen"
+   },
+   "bildInfo": {
+    "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
+    "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+    "urheber": "Steffen Prößdorf",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "art": "person",
+    "suchbegriff": "Friedrich Merz",
+    "bildunterschrift": "Friedrich Merz, CDU-Parteivorsitzender, wies den Haushaltsvorschlag der irischen Ratspräsidentschaft zurück.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
+     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
+     "urheber": "Steffen Prößdorf",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "person",
+     "suchbegriff": "Friedrich Merz",
+     "bildunterschrift": "Friedrich Merz, CDU-Parteivorsitzender, wies den Haushaltsvorschlag der irischen Ratspräsidentschaft zurück.",
+     "hinweis": "Archivfoto"
+    },
+    {
+     "titel": "European Council (38185339475).jpg",
+     "beschreibung": "Photo: Tauno Tõhk (EU2017EE)",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/European_Council_%2838185339475%29.jpg/1280px-European_Council_%2838185339475%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/European_Council_%2838185339475%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:European_Council_(38185339475).jpg",
+     "urheber": "EU2017EE Estonian Presidency",
+     "lizenz": "CC BY 2.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
+     "art": "institution",
+     "suchbegriff": "European Council",
+     "bildunterschrift": "Das Gebäude des Europäischen Rates steht für Verhandlungen zum mehrjährigen EU-Finanzrahmen.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "ortInfo": {
+    "name": "Brüssel, Belgien",
+    "lat": 50.847,
+    "lon": 4.352
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "us-diesel-deal-russland-reaktionen",
+   "rubrik": "Wirtschaft",
+   "zeit": "2026-10-10T15:04:02.000Z",
+   "titel": "Vereinigte Staaten vereinbaren Diesellieferungen mit Russland und lockern Sanktionen",
+   "vorspann": "US-Präsident Donald Trump hat eine Vereinbarung mit Russland über Diesellieferungen angekündigt und dafür bestehende Sanktionen vorübergehend gelockert. Die deutsche Bundesregierung betont hingegen ihr Festhalten an den europäischen Sanktionsbeschlüssen gegen Moskau.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "schwer",
+    "fuerWen": "lange Sätze und viele Fachwörter – Vorwissen hilft"
+   },
+   "zusammenfassung": [
+    "US-Präsident Donald Trump hat ein Abkommen mit Russland über den Import von Diesel angekündigt und dafür Sanktionen vorübergehend gelockert.",
+    "Die deutsche Bundesregierung hält ungeachtet des US-Vorgehens an den europäischen Sanktionen fest und verweist auf die Unabhängigkeit von russischem Öl.",
+    "Der ukrainische Präsident Wolodymyr Selenskyj kritisierte die Vereinbarung als Investition in den russischen Krieg.",
+    "Der deutsche Wirtschaftsverband Fuels und Energie erwartet wegen des bestehenden EU-Importverbots keine spürbaren Auswirkungen auf die Spritpreise in Deutschland."
+   ],
+   "einig": [
+    [
+     "US-Präsident Trump und der russische Präsident Putin haben eine Vereinbarung über Diesellieferungen aus Russland getroffen.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Zeit"
+     ]
+    ],
+    [
+     "Die USA heben für den Handel mit russischem Diesel vorübergehend bestimmte Sanktionen auf.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Zeit"
+     ]
+    ],
+    [
+     "Die deutsche Bundesregierung hält trotz des US-Vorgehens an den Sanktionen gegen Russland fest.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Regierungssprecher Stefan Kornelius erklärte, Deutschland nehme die US-Entscheidung zur Kenntnis und unterstütze die Ukraine weiter.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Süddeutsche Zeitung"
+     ]
+    ],
+    [
+     "Das Wirtschaftsministerium in Berlin sieht die deutsche Energieversorgung als unabhängig von russischem Öl an.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "Der ukrainische Präsident Selenskyj kritisiert den Deal als Finanzierung des russischen Kriegs.",
+     [
+      "ZDFheute",
+      "Deutschlandfunk"
+     ]
+    ],
+    [
+     "Der Wirtschaftsverband Fuels und Energie rechnet nicht mit größeren Auswirkungen auf die deutschen Spritpreise.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ],
+    [
+     "In den USA steht Präsident Trump vor den Wahlen wegen hoher Kraftstoffpreise unter Druck.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Gesamtsumme der künftigen Diesellieferungen ist offen; laut ZDFheute hängen spätere Lieferungen von bis zu drei Millionen Tonnen vom Zustand der russischen Raffinerien ab."
+   ],
+   "positionen": [
+    [
+     "Donald Trump (US-Präsident)",
+     "Bezeichnet den Diesel-Deal als große Sache zur Senkung der Energiepreise und fordert ein Ende von Angriffen auf russische Treibstoffanlagen.",
+     "ZDFheute"
+    ],
+    [
+     "Wladimir Putin (Präsident Russlands)",
+     "Erklärt die Bereitschaft zur Lieferung von Erdöl und Erdölprodukten auf amerikanische und Weltmärkte.",
+     "ZDFheute"
+    ],
+    [
+     "Stefan Kornelius (Regierungssprecher Deutschland)",
+     "Betont das Festhalten an den Sanktionsbeschlüssen und die fortgesetzte Unterstützung für die Ukraine bei Kenntnisnahme des US-Kurses.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Wirtschaftsministeriumssprecherin (Bundeswirtschaftsministerium)",
+     "Hebt hervor, dass Deutschland seit 2023 keinen russischen Diesel importiert und die Versorgungssicherheit gewährleistet ist.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Wolodymyr Selenskyj (Präsident der Ukraine)",
+     "Kritisiert das Abkommen als Investition in den Krieg.",
+     "ZDFheute"
+    ],
+    [
+     "Franziska Brantner (Parteivorsitzende Bündnis 90/Die Grünen)",
+     "Kritisiert Trumps Vorgehen und fordert Tempo beim Abschied von fossilen Energien.",
+     "Tagesschau/ARD"
+    ],
+    [
+     "Wirtschaftsverband Fuels und Energie",
+     "Sieht keine signifikanten Folgen für den Weltmarkt und die Preise wegen des EU-Importverbots.",
+     "Tagesschau/ARD"
+    ]
+   ],
+   "fehlend": "Vertreter weiterer europäischer Staaten kommen nicht zu Wort.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 14:04",
+     "fokus": "Haltung der Bundesregierung",
+     "text": "Berichtet über Reaktionen der Bundesregierung und der Grünen.",
+     "url": "https://www.tagesschau.de/wirtschaft/energie/trump-diesel-oelpreis-reaktionen-deutschland-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 2,
+      "woerter": 466,
+      "satzlaenge": 18,
+      "langeWoerter": 35
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 14:26",
+     "fokus": "Diesellieferungen und Kreml",
+     "text": "Nennt Details zu den Liefermengen und der US-Genehmigung.",
+     "url": "https://www.zdfheute.de/politik/ausland/trump-putin-diesel-usa-russland-100.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 5,
+      "woerter": 935,
+      "satzlaenge": 15,
+      "langeWoerter": 38
+     },
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 17:04",
+     "fokus": "Sanktionen",
+     "text": "Berichtet über das Festhalten an Sanktionen.",
+     "url": "https://www.deutschlandfunk.de/deutsche-regierung-bekraeftigt-nach-usa-russland-deal-unterstuetzung-fuer-ukraine-kritik-von-selensk-100.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Zeit",
+     "typ": "Wochenzeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "09.10.26, 21:23",
+     "fokus": "US-Finanzministerium",
+     "text": "Meldet die temporäre Erlaubnis des US-Finanzministeriums.",
+     "url": "https://www.zeit.de/wirtschaft/2026-10/trump-kuendigt-diesellieferungen-aus-russland-an",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Zeitverlag Gerd Bucerius, mehrheitlich DvH Medien (Dieter von Holtzbrinck)",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 13:24",
+     "fokus": "Regierungssprecher",
+     "text": "Zitiert die Erklärung des Regierungssprechers.",
+     "url": "https://www.sueddeutsche.de/politik/bundesregierung-news-liveblog-usa-russland-diesel-sanktionen-deutschland-li.3529564",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [],
+   "wfragen": {
+    "wer": "US-Präsident Donald Trump und der russische Präsident Wladimir Putin",
+    "was": "Lieferabkommen über russischen Diesel und vorübergehende Sanktionslockerung der USA",
+    "wann": "Oktober 2026",
+    "wo": "Washington, Moskau und Berlin",
+    "wie": "Durch Absprachen und eine temporäre Erlaubnis des US-Finanzministeriums",
+    "warum": "Laut Berichten wegen hoher Kraftstoffpreise und Drucks vor den US-Wahlen",
+    "quellenlage": "Regierungserklärungen der USA, Russlands und Deutschlands sowie Verbände und Medien"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "US-Präsident Donald Trump hat eine Vereinbarung mit Russland über Diesellieferungen verkündet. Nach Angaben der Berichte sollen Hunderttausende Tonnen Diesel aus Russland bereitgestellt werden. Die US-Regierung setzt dafür vorübergehend Sanktionen gegen russischen Diesel aus. Der Kreml hat das Abkommen bestätigt. Trump steht in den USA angesichts gestiegener Spritpreise vor den Wahlen unter Druck.",
+      "Die deutsche Bundesregierung reagierte auf die Entscheidung. Regierungssprecher Stefan Kornelius erklärte, man habe die Entscheidung der USA zur Kenntnis genommen. Gleichzeitig betonte er, dass Deutschland an den Sanktionsbeschlüssen gegen Russland festhält. Die Unterstützung der Ukraine bleibe ungebrochen. Auch eine Sprecherin des Bundeswirtschaftsministeriums erklärte, Deutschland beziehe seit 2023 kein Öl aus Russland und sei unabhängig.",
+      "An den deutschen Tankstellen zeigten sich laut Portalen keine größeren Ausschläge. Der Wirtschaftsverband Fuels und Energie erwartet keine signifikanten Auswirkungen auf die Preise an deutschen Tankstellen. Seit dem 5. Februar 2023 gilt ein Importverbot für russischen Diesel in die Europäische Union, an dem festgehalten wird."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Nach Angaben von US-Präsident Donald Trump soll Russland umgehend mehr als 300.000 Tonnen Diesel bereitstellen. Im November sollen weitere 500.000 Tonnen und danach eine Million Tonnen folgen. Abhängig vom Zustand der russischen Raffinerien soll Russland laut ZDFheute in kurzer Zeit nochmals drei Millionen Tonnen liefern.",
+      "Das US-Finanzministerium erteilte eine temporäre Erlaubnis für den Handel. Dadurch sind Verkauf, Lieferung, Entladen und Import von Diesel aus Russland bis zum 7. April 2027 genehmigt. Der russische Präsident Wladimir Putin erklärte die Bereitschaft zur Lieferung von Erdöl und Erdölprodukten.",
+      "Das Bundeswirtschaftsministerium betonte, die Versorgung sei diversifiziert und unabhängig von russischem Öl. Die Versorgungssicherheit sei gewährleistet."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "In den USA stehen die Zwischenwahlen bevor. Wegen gestiegener Spritpreise steht Präsident Trump unter starkem Druck. Trump hatte in den vergangenen Wochen den ukrainischen Präsidenten Wolodymyr Selenskyj für eine Dieselknappheit verantwortlich gemacht.",
+      "Der ukrainische Präsident Selenskyj kritisierte die Vereinbarung scharf und bezeichnete sie als Investition in den Krieg. Auch die Grünen-Chefin Franziska Brantner übte Kritik und forderte Unabhängigkeit von fossilen Energien.",
+      "Die Europäische Union hat im Februar 2023 ein Importverbot für russischen Diesel beschlossen. Die G7-Länder beschlossen zudem, bis zu 100 Millionen Barrel Diesel und Rohöl aus Notfallreserven freizugeben."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Sanktionen sind wirtschaftliche Maßnahmen von Staaten gegen andere Länder. Ein Importverbot untersagt die Einfuhr bestimmter Waren."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Der ukrainische Präsident Wolodymyr Selenskyj kritisierte die Erlaubnis als Investition in den Krieg. Den Krieg müsse man beenden und nicht verlängern, so Selenskyj.",
+      "Grünen-Chefin Franziska Brantner kritisierte den Kurs Trumps scharf und forderte Tempo beim Abschied von fossilen Energien.",
+      "Der Wirtschaftsverband Fuels und Energie rechnet nicht mit größeren Auswirkungen auf die Preise in Deutschland."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Die US-Ausnahmegenehmigung für russischen Diesel gilt bis zum 7. April 2027. Die deutsche Bundesregierung kündigte an, gemeinsam mit europäischen Partnern an weiteren Sanktionen gegen Russland zu arbeiten. Die diplomatische Arbeit an einer Friedenslösung wird fortgesetzt."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "5. Februar 2023",
+     "Ein Importverbot für russischen Diesel in die EU tritt in Kraft."
+    ],
+    [
+     "7. April 2027",
+     "Die befristete US-Genehmigung für den Import von russischem Diesel läuft ab."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "person",
+     "suchbegriff": "Donald Trump",
+     "bildunterschrift": "US-Präsident Donald Trump kündigte Diesellieferungen an."
+    }
+   ],
+   "ort": {
+    "name": "Washington, Vereinigte Staaten"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Unbelegte Details aus den Artikeln im Entwurf entfernt, um strikt den Quellen zu folgen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Sanktionen",
+      "Das sind wirtschaftliche oder politische Strafmaßnahmen von Staaten gegen ein anderes Land."
+     ],
+     [
+      "Importverbot",
+      "Das bedeutet, dass bestimmte Waren nicht aus einem anderen Land eingeführt werden dürfen."
+     ]
+    ],
+    "fragen": [
+     "Welche Gründe nennen die USA für die Lockerung der Sanktionen?",
+     "Wie begründet die deutsche Bundesregierung ihr Festhalten an den Sanktionen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Wer hat die Vereinbarung über Diesellieferungen verkündet?",
+      "optionen": [
+       "Der deutsche Bundeskanzler",
+       "US-Präsident Donald Trump",
+       "Der ukrainische Präsident Selenskyj"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und ZDFheute hat US-Präsident Donald Trump die Vereinbarung verkündet."
+     },
+     {
+      "frage": "Wie verhält sich die deutsche Bundesregierung nach der US-Entscheidung?",
+      "optionen": [
+       "Sie hebt alle Sanktionen ebenfalls auf",
+       "Sie hält an den Sanktionen gegen Russland fest",
+       "Sie verbietet jeglichen Handel mit den USA"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und ZDFheute hält die Bundesregierung an den Sanktionsbeschlüssen gegen Russland fest."
+     },
+     {
+      "frage": "Wie reagiert der Wirtschaftsverband Fuels und Energie auf den Diesel-Deal?",
+      "optionen": [
+       "Er erwartet massive Preissprünge an deutschen Tankstellen",
+       "Er erwartet keine größeren Auswirkungen auf die Preise in Deutschland",
+       "Er fordert sofortige eigene Importe"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Tagesschau/ARD und ZDFheute erwartet der Verband keine signifikanten Auswirkungen auf die Preise."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Die USA und Russland haben eine Vereinbarung über Diesel getroffen.",
+    "absaetze": [
+     "US-Präsident Donald Trump hat angekündigt, dass die USA Diesel aus Russland kaufen wollen.",
+     "Dafür wurden bestimmte Sanktionen der USA vorübergehend aufgehoben.",
+     "Die deutsche Bundesregierung hat mitgeteilt, dass sie an ihren eigenen Sanktionen gegen Russland festhält.",
+     "Der ukrainische Präsident Wolodymyr Selenskyj kritisierte den Deal scharf als Unterstützung für den Krieg.",
+     "Wirtschaftsverbände in Deutschland erwarten keine Auswirkungen auf die Spritpreise hierzulande."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Die USA haben ein Abkommen über Diesellieferungen mit Russland angekündigt.",
+     "Dafür wurden bestimmte US-Sanktionen vorübergehend gelockert.",
+     "Die deutsche Bundesregierung betont, dass sie an ihren Sanktionen gegen Russland festhält."
+    ],
+    "lang": [
+     "Die Vereinigten Staaten haben eine Vereinbarung über Diesellieferungen mit Russland getroffen.",
+     "Das gaben der amerikanische Präsident Donald Trump und der Kreml bekannt.",
+     "Die US-Regierung lockerte dafür vorübergehend bestehende Sanktionen gegen russischen Diesel.",
+     "Das US-Finanzministerium erteilte eine entsprechende Erlaubnis bis zum siebten April zweitausend siebenundzwanzig.",
+     "Hintergrund sind nach Angaben der Berichte hohe Treibstoffpreise und politischer Druck in den Vereinigten Staaten.",
+     "Die deutsche Bundesregierung erklärte nach Angaben von Regierungssprecher Stefan Kornelius, dass sie an den Sanktionsbeschlüssen festhält.",
+     "Das Bundeswirtschaftsministerium teilte mit, dass Deutschland unabhängig von russischem Öl ist.",
+     "Der ukrainische Präsident Wolodymyr Selenskyj kritisierte den Deal als Investition in den Krieg.",
+     "Der Wirtschaftsverband Fuels und Energie rechnet nicht mit spürbaren Auswirkungen auf die Spritpreise in Deutschland.",
+     "Die diplomatischen Bemühungen um eine Friedenslösung in der Ukraine werden fortgesetzt."
+    ],
+    "einfach": [
+     "Die USA wollen Diesel aus Russland kaufen.",
+     "Dafür wurden US-Sanktionen vorübergehend gelockert.",
+     "Der US-Präsident steht wegen hoher Spritpreise unter Druck.",
+     "Die deutsche Bundesregierung hält weiter an ihren Sanktionen gegen Russland fest.",
+     "Die Ukraine kritisierte das Abkommen deutlich."
+    ]
+   },
+   "kurz": [
+    "Die USA haben ein Abkommen über Diesellieferungen mit Russland angekündigt.",
+    "Dafür wurden US-Sanktionen gegen russischen Diesel vorübergehend gelockert.",
+    "Die Bundesregierung hält an ihren Sanktionen gegen Russland fest.",
+    "Die Ukraine und die Grünen kritisierten die Entscheidung scharf."
+   ],
+   "fakten": [
+    [
+     "Befristete Genehmigung bis",
+     "7. April 2027"
+    ]
+   ],
+   "dossier": {
+    "slug": "russland-sanktionen-diesel-usa",
+    "titel": "Diesellieferungen und Sanktionen"
+   },
+   "bildInfo": {
+    "titel": "Official Presidential Portrait of President Donald J. Trump (2025).jpg",
+    "beschreibung": "Official Presidential Portrait of President Donald J. Trump in his second term",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+    "urheber": "Daniel Torok",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "artikel": "Donald Trump",
+    "sprache": "de",
+    "art": "person",
+    "suchbegriff": "Donald Trump",
+    "bildunterschrift": "US-Präsident Donald Trump kündigte eine Vereinbarung über Diesellieferungen mit Russland an.",
+    "hinweis": "Archivfoto"
+   },
+   "bildInfos": [
+    {
+     "titel": "Official Presidential Portrait of President Donald J. Trump (2025).jpg",
+     "beschreibung": "Official Presidential Portrait of President Donald J. Trump in his second term",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/1280px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+     "urheber": "Daniel Torok",
+     "lizenz": "Public domain",
+     "lizenzUrl": "",
+     "artikel": "Donald Trump",
+     "sprache": "de",
+     "art": "person",
+     "suchbegriff": "Donald Trump",
+     "bildunterschrift": "US-Präsident Donald Trump kündigte eine Vereinbarung über Diesellieferungen mit Russland an.",
+     "hinweis": "Archivfoto"
+    }
+   ],
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "jugendwort-des-jahres-2026-ragebait",
+   "rubrik": "Deutschland",
+   "zeit": "2026-10-10T15:04:02.000Z",
+   "titel": "Das Jugendwort des Jahres 2026",
+   "vorspann": "Der Begriff Ragebait ist zum Jugendwort des Jahres 2026 gewählt worden. Der Langenscheidt-Verlag gab das Ergebnis der Onlineabstimmung bekannt.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "mittel",
+    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
+   },
+   "zusammenfassung": [
+    "Der Begriff Ragebait ist zum Jugendwort des Jahres 2026 gewählt worden.",
+    "Das teilte der Langenscheidt-Verlag auf der Frankfurter Buchmesse mit.",
+    "Der Ausdruck setzte sich in einer Onlineabstimmung mit 36,5 Prozent gegen Peak und Crashout durch.",
+    "An der gesamten Kampagne beteiligten sich rund eine Million Jugendliche."
+   ],
+   "einig": [
+    [
+     "Ragebait ist das Jugendwort des Jahres 2026.",
+     [
+      "Tagesschau/ARD",
+      "ZDFheute",
+      "Deutschlandfunk",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Peak landete auf dem zweiten und Crashout auf dem dritten Platz.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ"
+     ]
+    ],
+    [
+     "Rund eine Million Jugendliche machten seit dem Kampagnenstart mit.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Zahl der Teilnehmenden an der Endrunde der Onlineabstimmung ist unklar, da der Verlag keine Angaben dazu machte (Tagesschau/ARD, Spiegel, FAZ)."
+   ],
+   "positionen": [
+    [
+     "Artur Raiser (Marketing Manager PONS Langenscheidt GmbH)",
+     "Das knappe Ergebnis zeigt, dass alle drei Begriffe einen festen Platz im Vokabular der Generationen Z und Alpha haben.",
+     "FAZ"
+    ]
+   ],
+   "fehlend": "Es fehlen Stimmen von jugendlichen Teilnehmern der Abstimmung sowie linguistische Einschätzungen von Sprachwissenschaftlern.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 14:00",
+     "fokus": "Genaue Stimmanteile",
+     "text": "Der Bericht nennt die genauen Prozentzahlen der drei Finalisten und verweist auf die Gesamtzahl der Teilnehmenden.",
+     "url": "https://www.tagesschau.de/kultur/jugendwort-des-jahres-ragebait-102.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 1,
+      "woerter": 204,
+      "satzlaenge": 13,
+      "langeWoerter": 37
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "ZDFheute",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 14:00",
+     "fokus": "–",
+     "text": "Raigebait ist das Jugendwort des Jahres 2026. Knapp dahinter landen Peak und Crashout. Was sagt die ältere Generation dazu?",
+     "url": "https://www.zdfheute.de/video/panorama-jugendwort-des-jahres-ragebait-100.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "ZDF, Anstalt des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.66
+    },
+    {
+     "name": "Deutschlandfunk",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 17:04",
+     "fokus": "–",
+     "text": "Ragebait ist das Jugendwort des Jahres 2026.",
+     "url": "https://www.deutschlandfunk.de/ragebait-ist-das-jugendwort-des-jahres-102.html",
+     "video": false,
+     "lesbar": null,
+     "traeger": "Deutschlandradio, Körperschaft des öffentlichen Rechts",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": null
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 13:59",
+     "fokus": "Einordnung und Vergleich zum Vorjahr",
+     "text": "Der Text vergleicht das Ergebnis mit dem Vorjahr und erwähnt die internationale Verwendung des Begriffs in Großbritannien.",
+     "url": "https://www.spiegel.de/panorama/gesellschaft/jugendwort-des-jahres-2026-ragebait-setzt-sich-gegen-peak-und-crashout-durch-a-c8c4e883-adc9-4a76-b8d5-1fae20f8bdbe#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 1,
+      "woerter": 296,
+      "satzlaenge": 14,
+      "langeWoerter": 33
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 15:30",
+     "fokus": "Rolle von Susanne Daubner",
+     "text": "Der Artikel beleuchtet ausführlich die Videos der Nachrichtensprecherin Susanne Daubner im Zusammenhang mit der Bekanntgabe.",
+     "url": "https://www.faz.net/aktuell/gesellschaft/menschen/jugendwort-2026-der-gewinner-ist-ragebait-accg-201305695.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 10,
+      "minuten": 3,
+      "woerter": 546,
+      "satzlaenge": 17,
+      "langeWoerter": 34
+     },
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [
+    [
+     "Erwähnung internationaler Auszeichnungen",
+     "Der Spiegel erwähnt, dass Ragebait 2025 in Großbritannien zum Wort des Jahres gekürt wurde. Die anderen Quellen lassen dies weg."
+    ],
+    [
+     "Rolle von Susanne Daubner",
+     "Die FAZ widmet der Nachrichtensprecherin und ihren Videos einen sehr großen Teil des Textes, während andere Quellen dies nur kurz oder gar nicht erwähnen."
+    ]
+   ],
+   "wfragen": {
+    "wer": "Langenscheidt-Verlag und Jugendliche zwischen elf und 20 Jahren",
+    "was": "Wahl des Jugendwortes des Jahres",
+    "wann": "Oktober 2026",
+    "wo": "Frankfurt am Main, Deutschland",
+    "wie": "Durch eine Onlineabstimmung mit rund einer Million Teilnehmenden",
+    "warum": "Weil der Begriff die meisten Stimmen erhielt, laut Langenscheidt-Verlag.",
+    "quellenlage": "Mitteilungen des Verlags und Berichte von Tagesschau, ZDFheute, Deutschlandfunk, Spiegel und FAZ"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Der Begriff Ragebait ist von Jugendlichen zum Jugendwort des Jahres 2026 gewählt worden. Dies gab der Langenscheidt-Verlag auf der Buchmesse in Frankfurt am Main bekannt. Der Ausdruck setzte sich in einer Onlineabstimmung gegen zwei weitere Finalisten durch. An der gesamten Kampagne beteiligten sich nach Angaben des Verlags rund eine Million Jugendliche.",
+      "Die Abstimmung fand in Runden statt, nachdem eine Jury zunächst zehn Vorschläge ausgewählt hatte. Stimmberechtigt waren junge Menschen im Alter zwischen elf und 20 Jahren. Das genaue Alter der Teilnehmenden wird vom Verlag nicht überprüft. Die Wahl des Jugendwortes wird seit dem Jahr 2008 jährlich durchgeführt.",
+      "Der siegreiche Begriff Ragebait erhielt bei der Abstimmung 36,5 Prozent der Stimmen. Auf den zweiten Platz kam der Begriff Peak mit 33,8 Prozent beziehungsweise etwa 34 Prozent laut Spiegel. Den dritten Platz belegte Crashout mit 29,7 Prozent der Stimmen. Die Beteiligung an der Endrunde nannte der Verlag nicht."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Der Begriff Ragebait bedeutet wörtlich übersetzt Wutköder aus dem Englischen. Er bezeichnet Onlinebeiträge und Inhalte, die gezielt Polemik, Auseinandersetzungen und Aufregung erzeugen sollen. Häufig handelt es sich dabei laut den Berichten um Falschmeldungen oder extreme Meinungen, um Aufmerksamkeit und Reichweite zu erzielen. Im realen Leben wird der Begriff zudem verwendet, um provozierende Handlungen oder Äußerungen anderer zu beschreiben.",
+      "Der zweitplatzierte Begriff Peak bedeutet auf Deutsch Gipfel. Er beschreibt das Beste vom Besten oder den absoluten Höhepunkt. Der drittplatzierte Begriff Crashout bezeichnet eine Person, die völlig die Fassung verliert oder ausrastet. Laut dem Langenscheidt-Verlag kann Crashout sowohl ernsthaft als auch ironisch verwendet werden.",
+      "Im vergangenen Jahr gewann der Begriff das crazy als Jugendwort des Jahres 2025. Damals verzeichnete die Kampagne laut Spiegel fast zwei Millionen abgegebene Stimmen. Der Sieg fiel in diesem Jahr laut Angaben des Verlags deutlicher aus als im Vorjahr. Die Bekanntgabe wurde von einer Videoreihe begleitet."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die Wahl des Jugendwortes des Jahres wird seit 2008 von dem Verlag organisiert, um das Vokabular junger Menschen abzubilden. Der Prozess sieht vor, dass zunächst Vorschläge eingereicht werden können. Eine Jury reduziert diese auf eine engere Auswahl von zehn Begriffen. Danach stimmen die Jugendlichen in einer Onlinephase über die Finalisten ab.",
+      "Die Bekanntgabe des Gewinners erfolgte in diesem Jahr auf der Frankfurter Buchmesse. Begleitet wurde die Aktion von Videos der Nachrichtensprecherin Susanne Daubner. Die Sprecherin ist durch frühere Bekanntgaben des Jugendwortes in den sozialen Medien bekannt geworden. In diesem Jahr veröffentlichte die Tagesschau vorab ein Video, in dem Daubner scherzhaft ein falsches Datum nannte.",
+      "Der Begriff Ragebait war bereits im Jahr 2025 von den Lexikografen der Oxford University Press zum Wort des Jahres in Großbritannien gekürt worden. Der Ausdruck stammt aus dem allgemeinen Social-Media-Slang. Er beschreibt das Phänomen, dass emotionale Reaktionen im Internet messbare Vorteile bei der Verbreitung von Inhalten bringen."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Der Langenscheidt-Verlag ist ein deutscher Buchverlag, der für Wörterbücher bekannt ist. Seit einigen Jahren führt das Unternehmen die Kampagne zum Jugendwort durch. Die Aktion richtet sich an Jugendliche und soll deren Sprache dokumentieren.",
+      "Die Frankfurter Buchmesse ist eine Messe für Bücher und Medien. Sie findet jährlich in Frankfurt am Main statt. Verlage nutzen diese Veranstaltung für Ankündigungen."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Artur Raiser, Marketing Manager der PONS Langenscheidt GmbH, äußerte sich zum Abstimmungsergebnis. Laut der FAZ sagte er, dass das knappe Ergebnis zeige, dass alle drei Begriffe einen festen Platz im Vokabular der Generationen Z und Alpha haben. Weitere offizielle Stellungnahmen von Politikern oder Verbänden liegen in den Berichten nicht vor."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "Konkrete Schritte oder Nachfolgeaktionen über die diesjährige Bekanntgabe hinaus wurden in den Berichten nicht angekündigt. Die Kampagne läuft im üblichen jährlichen Rhythmus weiter."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "2026-10-10",
+     "Der Langenscheidt-Verlag gibt Ragebait als Jugendwort des Jahres auf der Buchmesse in Frankfurt am Main bekannt."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "institution",
+     "suchbegriff": "Langenscheidt Verlag logo building",
+     "bildunterschrift": ""
+    }
+   ],
+   "ort": {
+    "name": "Frankfurt am Main, Deutschland"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Entfernung des genauen Datums 10. Oktober 2026 aus den W-Fragen, da in den Texten nur von Freitag und Samstag beziehungsweise der Buchmesse gesprochen wird."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Ragebait",
+      "Onlinebeiträge und Inhalte, die absichtlich Wut oder Aufregung erzeugen sollen, um Aufmerksamkeit zu bekommen."
+     ],
+     [
+      "Peak",
+      "Ein englisches Wort für Gipfel, das in der Jugendsprache das Beste vom Besten beschreibt."
+     ],
+     [
+      "Crashout",
+      "Ein Ausdruck für eine Person, die völlig die Fassung verliert oder ausrastet."
+     ]
+    ],
+    "fragen": [
+     "Welche Vorteile oder Nachteile hat es, dass über das Jugendwort in einer Onlineabstimmung entschieden wird?",
+     "Warum nutzen Menschen im Internet laut den Berichten Inhalte, die andere wütend machen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Welcher Begriff wurde zum Jugendwort des Jahres 2026 gewählt?",
+      "optionen": [
+       "Peak",
+       "Ragebait",
+       "Crashout"
+      ],
+      "richtig": 1,
+      "erklaerung": "Ragebait hat die Onlineabstimmung des Langenscheidt-Verlags mit 36,5 Prozent der Stimmen gewonnen."
+     },
+     {
+      "frage": "Wie viel Prozent der Stimmen entfielen auf den Sieger?",
+      "optionen": [
+       "29,7 Prozent",
+       "33,8 Prozent",
+       "36,5 Prozent"
+      ],
+      "richtig": 2,
+      "erklaerung": "Laut den Berichten stimmten 36,5 Prozent der Teilnehmer für den Begriff Ragebait."
+     },
+     {
+      "frage": "Wer veranstaltet die Wahl des Jugendwortes des Jahres?",
+      "optionen": [
+       "Der Langenscheidt-Verlag",
+       "Die Frankfurter Buchmesse",
+       "Die Oxford University Press"
+      ],
+      "richtig": 0,
+      "erklaerung": "Der Langenscheidt-Verlag führt die Onlineabstimmung durch und gab das Ergebnis bekannt."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "Der Begriff Ragebait ist das Jugendwort des Jahres zweitausendsechsundzwanzig.",
+    "absaetze": [
+     "Das hat der Langenscheidt Verlag auf der Buchmesse in Frankfurt am Main mitgeteilt.",
+     "Ragebait bedeutet auf Deutsch Wutköder und beschreibt Online Beiträge, die absichtlich Wut erzeugen sollen.",
+     "Bei einer Abstimmung im Internet bekam das Wort die meisten Stimmen.",
+     "Auf den Plätzen zwei und drei landeten die Wörter Peak und Crashout.",
+     "An der Aktion haben rund eine Million Jugendliche teilgenommen."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Der Begriff Ragebait ist zum Jugendwort des Jahres zweitausendsechsundzwanzig gewählt worden. Das teilte der Langenscheidt Verlag auf der Buchmesse in Frankfurt am Main mit. Den ersten Platz erreichte das Wort mit sechsunddreißig Komma fünf Prozent der Stimmen."
+    ],
+    "lang": [
+     "Der Begriff Ragebait ist zum Jugendwort des Jahres zweitausendsechsundzwanzig gewählt worden. Das gab der Langenscheidt Verlag auf der Buchmesse in Frankfurt am Main bekannt. Der Ausdruck setzte sich in einer Onlineabstimmung gegen andere Begriffe durch. Ragebait bedeutet wörtlich übersetzt Wutköder und bezeichnet provokante Inhalte im Internet. Für den Gewinner stimmten nach Angaben des Verlags sechsunddreißig Komma fünf Prozent der Teilnehmer. Auf dem zweiten Platz landete Peak, während Crashout den dritten Platz belegte. Nach Angaben des Verlags machten rund eine Million Jugendliche bei der gesamten Kampagne mit. Artur Raiser als Marketing Manager erklärte dazu, dass alle drei Begriffe einen festen Platz im Vokabular haben. Die Wahl des Jugendwortes wird seit dem Jahr zweitausendacht durchgeführt."
+    ],
+    "einfach": [
+     "Ragebait ist das Jugendwort des Jahres zweitausendsechsundzwanzig. Das Wort bedeutet Wutköder. Es steht für Beiträge im Internet, die absichtlich ärgern sollen. Der Langenscheidt Verlag hat das Ergebnis im Oktober bekannt gegeben. Rund eine Million Jugendliche haben bei der Abstimmung mitgemacht."
+    ]
+   },
+   "kurz": [
+    "Der Begriff Ragebait ist zum Jugendwort des Jahres 2026 gewählt worden.",
+    "Das teilte der Langenscheidt-Verlag auf der Frankfurter Buchmesse mit.",
+    "Ragebait erhielt in der Onlineabstimmung sechsunddreißig Komma fünf Prozent der Stimmen.",
+    "An der Kampagne beteiligten sich rund eine Million Jugendliche."
+   ],
+   "fakten": [
+    [
+     "Stimmen für Ragebait",
+     "36,5 Prozent"
+    ],
+    [
+     "Stimmen für Peak",
+     "33,8 Prozent"
+    ],
+    [
+     "Stimmen für Crashout",
+     "29,7 Prozent"
+    ],
+    [
+     "Teilnehmende Jugendliche",
+     "rund eine Million"
+    ]
+   ],
+   "dossier": {
+    "slug": "jugendwort-des-jahres",
+    "titel": "Jugendwort des Jahres"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Frankfurt am Main, Deutschland",
+    "lat": 50.111,
+    "lon": 8.682
+   },
+   "version": 5,
+   "bildVersucht": true
+  },
+  {
+   "id": "angriffe-saporischschja",
+   "rubrik": "Welt",
+   "zeit": "2026-10-10T14:16:50.000Z",
+   "titel": "Russische Luftangriffe auf Saporischschja und Gegenschläge auf russischem Gebiet gemeldet",
+   "vorspann": "Bei Angriffen mit Lenkbomben auf die ukrainische Stadt Saporischschja sind nach Behördenangaben mehrere Menschen getötet und verletzt worden. Gleichzeitig meldeten russische Stellen ukrainische Angriffe mit unbemannten Fluggeräten auf Einrichtungen im Süden Russlands.",
+   "eil": false,
+   "verstaendlich": {
+    "stufe": "sehr schwer",
+    "fuerWen": "Fachsprache – ohne Vorwissen mühsam"
+   },
+   "zusammenfassung": [
+    "Russische Streitkräfte haben die Stadt Saporischschja und weitere ukrainische Gebiete mit Lenkbomben, Drohnen und Raketen angegriffen.",
+    "Nach ukrainischen Behördenangaben starben in Saporischschja mindestens zwölf bis siebzehn Menschen, darunter drei Kinder; mehrere Personen wurden verletzt.",
+    "Die Ukraine attackierte russische Gebiete mit Hunderten Drohnen, wobei in der Region Rostow Brände und Infrastrukturschäden entstanden.",
+    "Der ukrainische Präsident Selenskyj kritisierte eine von US-Präsident Trump angekündigte Vereinbarung über Diesellieferungen aus Russland scharf.",
+    "In Miami berieten Delegationen aus den USA und Europa unterdessen über Unterstützungsmaßnahmen für die Ukraine und den Schutz der Energieversorgung."
+   ],
+   "einig": [
+    [
+     "Russland griff Saporischschja mit fünf Lenkbomben bzw. Gleitbomben an und traf Wohngebäude.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "Unter den Todesopfern in Saporischschja befinden sich drei Kinder bzw. Minderjährige.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "Süddeutsche Zeitung",
+      "BBC"
+     ]
+    ],
+    [
+     "In der Nacht wurden insgesamt 13 ukrainische Regionen aus der Luft angegriffen.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "BBC"
+     ]
+    ],
+    [
+     "US-Präsident Trump kündigte ein Abkommen über russische Diesellieferungen an, was von Selenskyj kritisiert wurde.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel",
+      "FAZ",
+      "BBC"
+     ]
+    ],
+    [
+     "Russische Behörden meldeten den Angriff von rund 560 Drohnen auf russisches Gebiet und Schäden in der Region Rostow.",
+     [
+      "Tagesschau/ARD",
+      "Spiegel"
+     ]
+    ]
+   ],
+   "unklar": [
+    "Die genaue Zahl der Todesopfer in Saporischschja: Reuters und ukrainische Behörden nannten mindestens 12 Tote (Tagesschau/ARD, Spiegel), die Süddeutsche Zeitung und BBC sprachen von mindestens 15 Toten, die Nachrichtenagentur AP von 17 Toten (Tagesschau/ARD).",
+    "Die Zahl der Verletzten in Saporischschja: Tagesschau/ARD und Spiegel berichten von mindestens 14, BBC berichtet von mindestens 16 Verletzten."
+   ],
+   "positionen": [
+    [
+     "Wolodymyr Selenskyj (Präsident der Ukraine)",
+     "Kritisiert die US-Vereinbarung über russischen Diesel scharf und sieht Angriffe als Zeichen dafür, dass Russland Druckminderung für weitere Kriegsführung nutzt.",
+     "Tagesschau/ARD, Spiegel, FAZ, BBC"
+    ],
+    [
+     "Donald Trump (Präsident der Vereinigten Staaten)",
+     "Hat mit Wladimir Putin eine Lieferung von über 300.000 Tonnen Diesel vereinbart, um Kraftstoffpreise zu dämpfen.",
+     "Tagesschau/ARD, Spiegel, FAZ, BBC"
+    ],
+    [
+     "Regina Chartschenko (Amtierende Bürgermeisterin von Saporischschja)",
+     "Berichtet über schwere Schäden an Wohngebäuden, eingestürzte Etagen und laufende Rettungseinsätze nach den Bombenabwürfen.",
+     "BBC"
+    ],
+    [
+     "Juri Sljussar (Gouverneur der Region Rostow)",
+     "Meldet ukrainische Angriffe mit über 100 abgewehrten Drohnen, verletzte Personen sowie Schäden an Häusern und einer Brücke.",
+     "Tagesschau/ARD, Spiegel"
+    ],
+    [
+     "Russisches Verteidigungsministerium",
+     "Gibt an, in der Nacht 560 ukrainische Drohnen über russischem Staatsgebiet und der Krim unschädlich gemacht zu haben.",
+     "Tagesschau/ARD, Spiegel"
+    ]
+   ],
+   "fehlend": "Eine direkte Stellungnahme der russischen Regierung zum konkreten Vorwurf des Angriffs auf Wohngebäude in Saporischschja an diesem Tag.",
+   "medien": [
+    {
+     "name": "Tagesschau/ARD",
+     "typ": "öffentlich-rechtlich",
+     "art": "öffentlich-rechtlich",
+     "stamm": true,
+     "datum": "10.10.26, 15:52",
+     "fokus": "Angriffe und Konferenz Miami",
+     "text": "Stellt die Angriffe auf Saporischschja und Kiew den Verhandlungen über Hilfen in Miami gegenüber. Nennt Details zu Infrastrukturschäden und verschiedenen Opferangaben.",
+     "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-saporischschja-104.html",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 12,
+      "minuten": 3,
+      "woerter": 530,
+      "satzlaenge": 16,
+      "langeWoerter": 39
+     },
+     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
+     "finanzierung": "Rundfunkbeitrag",
+     "publikumWert": 3.73
+    },
+    {
+     "name": "Spiegel",
+     "typ": "Nachrichtenmagazin",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 13:12",
+     "fokus": "Selenskyjs Vorwürfe und Gegenangriffe",
+     "text": "Hebt die Reaktionen Selenskyjs auf die US-Diesel-Entscheidung hervor. Berichtet zudem ausführlich über Brandherde und Drohnenangriffe im russischen Gebiet Rostow.",
+     "url": "https://www.spiegel.de/ausland/ukraine-wirft-russland-gleitbomben-angriff-auf-wohnhaeuser-vor-a-577571e4-55bd-4c5f-a5fa-8a125a7c1435#ref=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 11,
+      "minuten": 2,
+      "woerter": 350,
+      "satzlaenge": 15,
+      "langeWoerter": 38
+     },
+     "traeger": "SPIEGEL-Verlag Rudolf Augstein GmbH & Co. KG; die Mitarbeiter halten die Mehrheit",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "Süddeutsche Zeitung",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 13:09",
+     "fokus": "Kurzmeldung zu Opferzahlen",
+     "text": "Gibt im Rahmen eines Newsblogs eine Zusammenfassung der Opferzahlen in Saporischschja und verweist auf die Schwierigkeit unabhängiger Prüfungen.",
+     "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-news-angriffe-saporischschja-li.3549696",
+     "video": false,
+     "lesbar": {
+      "stufe": "sehr schwer",
+      "fuerWen": "Fachsprache – ohne Vorwissen mühsam",
+      "klasse": 14,
+      "minuten": 1,
+      "woerter": 63,
+      "satzlaenge": 16,
+      "langeWoerter": 48
+     },
+     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "FAZ",
+     "typ": "Tageszeitung",
+     "art": "privates Medium",
+     "stamm": true,
+     "datum": "10.10.26, 15:09",
+     "fokus": "US-Politik und Sanktionswende",
+     "text": "Erwähnt die Angriffe in Saporischschja kurz und legt das Augenmerk auf die Ankündigung der US-Diesellieferungen trotz Sanktionen.",
+     "url": "https://www.faz.net/video/ukraine-angriff-auf-saporischschja-gespraeche-ueber-kriegsende-201305899.html",
+     "video": true,
+     "lesbar": null,
+     "traeger": "Frankfurter Allgemeine Zeitung GmbH, Gesellschafterin ist die FAZIT-Stiftung",
+     "finanzierung": "Abos und Werbung",
+     "publikumWert": null
+    },
+    {
+     "name": "BBC",
+     "typ": "öffentlich-rechtlich (Großbritannien)",
+     "art": "internationaler Sender",
+     "stamm": true,
+     "datum": "10.10.26, 16:16",
+     "fokus": "Zivile Folgen und Rettung",
+     "text": "Konzentriert sich auf die Zerstörungen in Wohngebäuden und zitiert die amtierende Bürgermeisterin vor Ort. Bietet Kontext zu vorherigen Angriffen der vergangenen Tage.",
+     "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+     "video": false,
+     "lesbar": {
+      "stufe": "mittel",
+      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
+      "klasse": 9,
+      "minuten": 3,
+      "woerter": 597,
+      "satzlaenge": 22,
+      "langeWoerter": 30
+     },
+     "traeger": "British Broadcasting Corporation, Großbritannien",
+     "finanzierung": "Rundfunkgebühr (Licence Fee)",
+     "publikumWert": null
+    }
+   ],
+   "unterschiede": [],
+   "wfragen": {
+    "wer": "Russische Streitkräfte und ukrainische Streitkräfte",
+    "was": "Gegenseitige Angriffe mit Bomben, Drohnen und Raketen",
+    "wann": "Samstagmorgen, 10. Oktober 2026",
+    "wo": "Saporischschja, Kiew und Region Rostow",
+    "wie": "Mit Lenkbomben, Drohnen und ballistischen Raketen",
+    "warum": "Militärische Angriffe im seit 2022 andauernden Konflikt",
+    "quellenlage": "Behördenangaben beider Länder, Regionalpolitiker, Rettungsdienste und UN-Berichte"
+   },
+   "artikel": [
+    {
+     "ueberschrift": "Das ist passiert",
+     "absaetze": [
+      "Am frühen Samstagmorgen ist die ukrainische Großstadt Saporischschja im Südosten des Landes nach behördlichen Angaben Ziel von russischen Luftangriffen geworden. Die örtliche Polizei und der ukrainische Präsident Wolodymyr Selenskyj teilten mit, dass russische Kräfte fünf Lenkbomben auf Wohngebiete abgeworfen hätten. Dabei wurden mindestens zwei Wohngebäude direkt getroffen und stark beschädigt. Nach Angaben der amtierenden Bürgermeisterin Regina Chartschenko wurde das Erdgeschoss eines Gebäudes getroffen, woraufhin die darüberliegenden Stockwerke einstürzten.",
+      "Über die genaue Anzahl der Todesopfer in Saporischschja gibt es unterschiedliche Angaben. Die Nachrichtenagentur Reuters und Präsident Selenskyj berichteten von mindestens zwölf Toten, während die Süddeutsche Zeitung und der Sender BBC von mindestens 15 Todesopfern sprachen. Die Nachrichtenagentur AP nannte laut Tagesschau 17 Tote. Übereinstimmend wurde berichtet, dass sich unter den getöteten Personen drei Minderjährige befinden.",
+      "Neben den Todesopfern wurden zahlreiche Verletzte registriert. Ukrainische Stellen nannten zwischen 14 und mindestens 16 verletzte Personen. Da vermutet wurde, dass sich weitere Menschen unter den Trümmern der eingestürzten Gebäude befinden, dauerten die Bergungsarbeiten an. Nach Angaben von Chartschenko waren mehr als 80 Rettungskräfte an den Suchmaßnahmen vor Ort beteiligt."
+     ]
+    },
+    {
+     "ueberschrift": "Die Einzelheiten",
+     "absaetze": [
+      "Die Angriffe beschränkten sich nicht auf die Stadt Saporischschja allein. Nach Angaben der Nachrichtenagentur dpa und Aussagen von Präsident Selenskyj wurden in derselben Nacht insgesamt 13 ukrainische Regionen aus der Luft angegriffen. Getroffen wurden dabei Wohnhäuser, Transportwege und Einrichtungen der Infrastruktur. In der Hauptstadt Kiew wurden laut Bürgermeister Vitali Klitschko Angriffe mit Drohnen und ballistischen Raketen verzeichnet, bei denen unter anderem ein Restaurant getroffen und sechs Menschen verletzt wurden, von denen fünf in Krankenhäuser gebracht werden mussten.",
+      "Durch die Angriffe auf Kiew kam es zu Ausfällen in der Grundversorgung der Bevölkerung. Der staatliche Stromnetzbetreiber Ukrenergo und der Versorger DTEK berichteten von Schäden an der Energieinfrastruktur, wodurch ein Großteil der Verbraucher in der Hauptstadt und der Umgebung ohne Strom war. Zudem kam es infolge der Stromausfälle zu Einschränkungen bei der städtischen Wasserversorgung, und es wurden Notabschaltungen vorgenommen. Die Stadt Saporischschja selbst, die mehr als 700.000 Einwohner zählt, liegt weniger als 20 Kilometer von der Frontlinie entfernt und gerät regelmäßig unter Beschuss.",
+      "Gleichzeitig meldete die russische Seite militärische Gegenangriffe der Ukraine auf eigenem Staatsgebiet. Das russische Verteidigungsministerium in Moskau gab an, in der Nacht 560 ukrainische Drohnen über russischen Regionen und der annektierten Halbinsel Krim abgewehrt zu haben. Der Gouverneur der südrussischen Region Rostow, Juri Sljussar, meldete, dass über seinem Gebiet mehr als 100 Drohnen abgefangen worden seien. Durch die Angriffe seien Brände ausgebrochen, Wohnhäuser sowie eine Eisenbahnbrücke beschädigt worden, und sechs Menschen hätten medizinische Hilfe benötigt.",
+      "Zusätzlich meldeten russische Stellen Vorfälle in weiteren Ortschaften der Region. In der Stadt Asow wurden laut Behördenangaben zwei Schiffe beschädigt. Auf Daten der Nasa-Website Firms, die weltweite Brandherde über Satelliten aufzeichnet, waren Feuer am Standort eines ölverarbeitenden Betriebs im Gebiet Rostow zu sehen. Die Ukraine begründet solche Angriffe auf Raffinerien und Depots im russischen Hinterland damit, Einnahmen und Ressourcen der gegnerischen Streitkräfte schwächen zu wollen."
+     ]
+    },
+    {
+     "ueberschrift": "Hintergrund",
+     "absaetze": [
+      "Die militärischen Auseinandersetzungen zwischen den beiden Staaten dauern seit dem Beginn der großangelegten russischen Invasion im Februar 2022 an. Nach UN-Angaben stieg die Zahl der zivilen Opfer in der Ukraine in den ersten acht Monaten des Jahres 2026 um 55 Prozent an. Bereits in den Tagen vor den aktuellen Ereignissen gab es Berichte über schwere Zerstörungen. So starben laut Berichten am Donnerstag mindestens 33 Menschen bei einem Bombenabwurf auf Busse in Kramatorsk, und am Vortag wurden 22 Menschen bei einem Raketentreffer auf ein Wohnhaus in Pryluky getötet.",
+      "Mit dem nahenden Winter rückte die Zerstörung von Versorgungsleitungen und Kraftwerken erneut in den Mittelpunkt der gegenseitigen Gefechte. Die Regierung in Kiew wirft den russischen Truppen vor, gezielt Einrichtungen der Strom- und Wasserversorgung zu beschießen, um die Zivilbevölkerung zu belasten, was von Moskau bestritten wird. Gleichzeitig setzt die Ukraine nach Angaben von Beobachtern vermehrt auf Drohnenangriffe gegen die russische Öl- und Kommunikationsinfrastruktur, darunter auch Angriffe auf Rechenzentren des russischen Technologiekonzerns Yandex.",
+      "Parallel zu den Kämpfen fanden auf diplomatischer Ebene Beratungen über den weiteren Fortgang des Konflikts statt. In der US-Metropole Miami trafen sich Delegationen, um über Unterstützungsleistungen für die Ukraine und den Schutz der Energieinfrastruktur im Winter zu sprechen. Auf US-Seite nahmen der Sondergesandte Steve Witkoff, Donald Trumps Schwiegersohn Jared Kushner sowie Vertreter des Nationalen Sicherheitsrats und des Finanzministeriums an den Treffen teil. Auch Vertreter aus europäischen Staaten reisten für die zweitägigen Gespräche an."
+     ]
+    },
+    {
+     "ueberschrift": "Zum Verständnis",
+     "absaetze": [
+      "Als sogenannte Gleitbomben oder Lenkbomben werden Sprengkörper bezeichnet, die aus Flugzeugen abgeworfen werden und dank ausklappbarer Tragflächen sowie Steuerungssystemen über längere Strecken zu einem Ziel gleiten können. Diese Waffen ermöglichen es Militärflugzeugen, Angriffe aus größerer Entfernung auszuführen, ohne sich direkt in die Reichweite der gegnerischen Flugabwehr begeben zu müssen. Der Einsatz solcher Waffen führt durch ihre hohe Sprengkraft häufig zu großflächigen Beschädigungen an Gebäuden.",
+      "Sanktionen sind wirtschaftliche oder politische Maßnahmen, die von Staaten verhängt werden, um ein anderes Land zu einer Änderung seines Verhaltens zu bewegen oder dessen finanzielle Mittel für eine Kriegsführung einzuschränken. Dazu gehören etwa Verbote für den Handel mit bestimmten Gütern wie Erdölprodukten. Werden Handelsbeschränkungen gelockert oder Verträge über Lieferungen geschlossen, führt dies zu veränderten Einnahmemöglichkeiten für den Exporteur auf den internationalen Märkten."
+     ]
+    },
+    {
+     "ueberschrift": "Reaktionen",
+     "absaetze": [
+      "Präsident Wolodymyr Selenskyj äußerte sich ablehnend zu einer Ankündigung von US-Präsident Donald Trump bezüglich künftiger russischer Öllieferungen. Trump hatte zuvor erklärt, er habe mit dem russischen Präsidenten Wladimir Putin eine Vereinbarung über die Lieferung von mehr als 300.000 Tonnen Diesel für die USA und den Weltmarkt getroffen. Selenskyj bezeichnete dieses Geschäft sinngemäß als ein Entgegenkommen gegenüber Moskau und erklärte, die neuen Angriffe auf ukrainische Städte seien die russische Antwort auf die Lockerung von Handelsbeschränkungen.",
+      "US-Sondergesandter Steve Witkoff bewertete die Beratungen der internationalen Delegationen in Miami auf der Plattform X hingegen positiv und sprach von konstruktiven Gesprächen über Maßnahmen zur Stärkung der ukrainischen Infrastruktur. Aus den Vereinigten Staaten wurde berichtet, dass innenpolitische Gründe wie die Entwicklung der Kraftstoffpreise vor anstehenden Wahlen die Diskussionen um Rohstoffimporte beeinflussen. Die russische Führung wies Vorwürfe gezielter Angriffe auf Zivilisten in früheren Mitteilungen zurück und verwies auf eigene Abwehrerfolge gegen ukrainische Drohnen."
+     ]
+    },
+    {
+     "ueberschrift": "Wie geht es weiter?",
+     "absaetze": [
+      "In der Region Saporischschja sollten die Such- und Rettungsmaßnahmen an den beschädigten Gebäudeteilen den gesamten Tag über fortgeführt werden, um unter den Trümmern nach möglichen Überlebenden oder weiteren Opfern zu suchen. Nach Angaben der örtlichen Verwaltung soll die genaue Identität aller betroffenen Bewohner überprüft werden. Gleichzeitig arbeiten die Energieversorger in Kiew an der Wiederherstellung der Strom- und Wasserversorgung.",
+      "Auf diplomatischer Ebene sollten die Gespräche über Hilfen für die Ukraine in Miami planmäßig für einen zweiten Beratungstag fortgesetzt werden. Dabei stehen weitere konkrete Schritte zur Absicherung der Energieinfrastruktur vor den Wintermonaten auf der Tagesordnung der Delegationen. Zudem kündigte die US-Führung an, dass der vereinbarten ersten Diesellieferung von 300.000 Tonnen aus Russland weitere Lieferungen folgen könnten."
+     ]
+    }
+   ],
+   "zeitleiste": [
+    [
+     "Mittwoch vor dem 10.10.2026",
+     "22 Menschen sterben laut BBC bei einem Raketentreffer auf ein Wohnhaus in Pryluky."
+    ],
+    [
+     "Donnerstag vor dem 10.10.2026",
+     "Bei einem Angriff mit Lenkbomben in Kramatorsk werden laut BBC 33 Menschen getötet."
+    ],
+    [
+     "Freitag, 09.10.2026",
+     "In Miami beginnen internationale Beratungen über die Ukraine; Trump verkündet eine Diesel-Vereinbarung mit Putin."
+    ],
+    [
+     "Samstag, 10.10.2026",
+     "Russland greift Saporischschja und Kiew an; die Ukraine führt Drohnenangriffe auf Rostow durch; Gespräche in Miami werden fortgesetzt."
+    ]
+   ],
+   "bilder": [
+    {
+     "art": "keins",
+     "suchbegriff": "keins",
+     "bildunterschrift": "Kein Bild gemäß Richtlinien bei Ereignissen mit Todesopfern und Verletzten."
+    }
+   ],
+   "ort": {
+    "name": "Saporischschja, Ukraine"
+   },
+   "geprueft": true,
+   "korrekturen": [
+    "Im Artikel unter 'Das ist passiert' wurde die falsche Zuordnung der Opferzahlen korrigiert: AP nannte 17 Tote und nicht 15, während die Süddeutsche Zeitung und BBC von mindestens 15 Toten sprachen."
+   ],
+   "wortwarnung": [],
+   "lernen": {
+    "begriffe": [
+     [
+      "Gleitbombe",
+      "Eine schwere Fliegerbombe mit Flügeln und Steuerung. Flugzeuge können sie aus großer Entfernung abwerfen, damit sie zum Ziel gleitet."
+     ],
+     [
+      "Infrastruktur",
+      "Wichtige Anlagen, die ein Land zum Funktionieren braucht. Dazu gehören Stromnetze, Wasserleitungen, Schienen und Brücken."
+     ],
+     [
+      "Sanktionen",
+      "Wirtschaftliche Strafmaßnahmen von Staaten gegen ein anderes Land. Sie verbieten zum Beispiel den Verkauf oder Einkauf bestimmter Waren."
+     ]
+    ],
+    "fragen": [
+     "Warum unterscheiden sich die Opferzahlen in den ersten Stunden nach einem Angriff häufig zwischen verschiedenen Quellen?",
+     "Welche Auswirkungen können Angriffe auf Stromnetze und Heizkraftwerke für die Zivilbevölkerung im Winter haben?",
+     "Wie hängen internationale Wirtschaftsverträge wie Diesellieferungen mit militärischen Konflikten zusammen?"
+    ],
+    "quiz": [
+     {
+      "frage": "Mit wie vielen Lenkbomben bzw. Gleitbomben griff Russland Wohngebiete in Saporischschja an?",
+      "optionen": [
+       "Mit zwei Bomben",
+       "Mit fünf Bomben",
+       "Mit zehn Bomben"
+      ],
+      "richtig": 1,
+      "erklaerung": "Laut Berichten von Tagesschau/ARD, Spiegel und BBC warfen russische Streitkräfte fünf Bomben auf Saporischschja ab."
+     },
+     {
+      "frage": "Wie viele Kinder bzw. Minderjährige befanden sich laut übereinstimmenden Berichten unter den Todesopfern?",
+      "optionen": [
+       "Drei Kinder",
+       "Fünf Kinder",
+       "Keine Kinder"
+      ],
+      "richtig": 0,
+      "erklaerung": "Tagesschau/ARD, Spiegel, Süddeutsche Zeitung und BBC berichteten übereinstimmend von drei getöteten Kindern bzw. Minderjährigen."
+     },
+     {
+      "frage": "Über welches Abkommen von US-Präsident Donald Trump beschwerte sich der ukrainische Präsident Selenskyj?",
+      "optionen": [
+       "Über Waffenlieferungen an russische Truppen",
+       "Über eine Vereinbarung zu russischen Diesellieferungen",
+       "Über den Abbruch aller Friedensgespräche in Miami"
+      ],
+      "richtig": 1,
+      "erklaerung": "Trump kündigte Diesellieferungen aus Russland für die USA und den Weltmarkt an, was Selenskyj scharf kritisierte."
+     }
+    ]
+   },
+   "einfach": {
+    "vorspann": "In der Ukraine und in Russland gab es in der Nacht schwere Angriffe aus der Luft. In der ukrainischen Stadt Saporischschja starben dabei viele Menschen in Wohnhäusern.",
+    "absaetze": [
+     "Am Samstagmorgen warfen russische Flugzeuge schwere Bomben auf die ukrainische Stadt Saporischschja. Dabei wurden Wohnhäuser getroffen und zerstört. Behörden berichten von mindestens zwölf Toten, darunter auch drei Kinder. Viele weitere Menschen wurden verletzt. Helfer suchen in den Trümmern nach Überlebenden.",
+     "Auch die ukrainische Hauptstadt Kiew wurde mit Drohnen und Raketen angegriffen. Dadurch fielen in vielen Stadtteilen der Strom und das Wasser aus. Insgesamt wurden in dieser Nacht 13 ukrainische Regionen attackiert.",
+     "Gleichzeitig griff die Ukraine Ziele in Russland mit vielen unbemannten Drohnen an. In der russischen Region Rostow fingen dadurch Gebäude Feuer, und eine Brücke wurde beschädigt.",
+     "Der ukrainische Präsident Selenskyj kritisierte den US-Präsidenten Trump. Trump will wieder Diesel aus Russland kaufen. Selenskyj sagt, dass Russland dadurch mehr Geld für den Krieg bekommt."
+    ]
+   },
+   "video": {
+    "kurz": [
+     "Russische Fliegerbomben haben am Samstag Wohngebäude in der ukrainischen Stadt Saporischschja getroffen.",
+     "Ukrainische Behörden melden mindestens zwölf Todesopfer, darunter drei Kinder, sowie viele Verletzte.",
+     "Gleichzeitig meldete Russland schwere ukrainische Angriffe mit Hunderten Drohnen auf die Region Rostow.",
+     "Die Suche nach möglichen Verschütteten unter den Trümmern in Saporischschja dauert an."
+    ],
+    "lang": [
+     "Russland und die Ukraine haben sich in der Nacht gegenseitig aus der Luft angegriffen.",
+     "In der ukrainischen Stadt Saporischschja trafen russische Lenkbomben am frühen Samstagmorgen mehrere Wohnhäuser.",
+     "Ukrainische Drohnen griffen nach russischen Angaben zeitgleich Ziele im südrussischen Gebiet Rostow an.",
+     "In Saporischschja starben nach ukrainischen Behördenangaben mindestens zwölf Menschen, darunter drei Kinder.",
+     "Die amtierende Bürgermeisterin Regina Chartschenko berichtete, dass Rettungskräfte nach weiteren Verschütteten suchen.",
+     "Der russische Gouverneur Juri Sljussar meldete Brände, sowie Schäden an Häusern und einer Brücke.",
+     "Zu den Todesopfern in Saporischschja nennen Nachrichtenagenturen und Behörden unterschiedliche Zahlen zwischen zwölf und siebzehn.",
+     "Die Angriffe auf die Energieversorgung nehmen zu, während der bevorstehende Winter die Lage verschärft.",
+     "In Miami beraten Delegationen aus den Vereinigten Staaten und Europa weiter über Hilfen für die Ukraine.",
+     "Die Bergungsarbeiten in den zerstörten Wohngebieten von Saporischschja dauern derweil an."
+    ],
+    "einfach": [
+     "Russland hat Wohnungen in der ukrainischen Stadt Saporischschja bombardiert.",
+     "Dabei starben nach ukrainischen Angaben mindestens zwölf Menschen.",
+     "Unter den getöteten Personen sind auch drei Kinder.",
+     "Auch die Ukraine griff Ziele im Nachbarland mit vielen Drohnen an.",
+     "Drohnen sind unbemannte Flugzeuge, die Sprengstoff tragen können.",
+     "Rettungskräfte suchen in Saporischschja weiter nach Überlebenden unter Trümmern."
+    ]
+   },
+   "kurz": [
+    "Russische Fliegerbomben trafen Wohngebäude in Saporischschja; mindestens zwölf bis siebzehn Menschen starben.",
+    "Ukrainische Angriffe mit Hunderten Drohnen beschädigten Infrastruktur in der russischen Region Rostow.",
+    "Selenskyj kritisierte ein von Trump angekündigtes Dieselgeschäft zwischen den USA und Russland.",
+    "In Miami beraten westliche Delegierte über Schutzmaßnahmen für die ukrainische Energieversorgung."
+   ],
+   "fakten": [
+    [
+     "Abgeworfene Lenkbomben auf Saporischschja",
+     "5"
+    ],
+    [
+     "Todesopfer in Saporischschja (je nach Quelle)",
+     "mindestens 12 bis 17"
+    ],
+    [
+     "Getötete Minderjährige in Saporischschja",
+     "3"
+    ],
+    [
+     "Attackierte ukrainische Regionen in der Nacht",
+     "13"
+    ],
+    [
+     "Vom russischen Verteidigungsministerium gemeldete Drohnen",
+     "560"
+    ],
+    [
+     "Vereinbarte Diesellieferung laut Donald Trump",
+     "mehr als 300.000 Tonnen"
+    ]
+   ],
+   "dossier": {
+    "slug": "krieg-in-der-ukraine",
+    "titel": "Krieg in der Ukraine"
+   },
+   "bildInfos": [],
+   "ortInfo": {
+    "name": "Saporischschja, Ukraine",
+    "lat": 47.851,
+    "lon": 35.118
+   },
+   "version": 5
+  },
   {
    "id": "friedensnobelpreis-navanethem-pillay",
    "rubrik": "Welt",
@@ -3023,7 +4753,7 @@
       24.25,
       29.99,
       36.92,
-      43.0,
+      43,
       48.74,
       54.8
      ]
@@ -3090,7 +4820,7 @@
      "s": [
       0.25,
       6.26,
-      14.0,
+      14,
       18.91,
       25.72,
       32.25,
@@ -3594,7 +5324,7 @@
     {
      "k": "In Mecklenburg-Vorpommern haben SPD, Linke und Grüne ihre Sondierungsgespräche e",
      "d": "b291db57b8.mp3",
-     "l": 59.0,
+     "l": 59,
      "s": [
       0.25,
       7.34,
@@ -3685,7 +5415,7 @@
      "l": 41.9,
      "s": [
       0.25,
-      8.0,
+      8,
       9.58,
       15.68,
       27.09,
@@ -6049,20 +7779,6 @@
      "art": "person",
      "suchbegriff": "Gerhard Schröder",
      "bildunterschrift": "Altkanzler Gerhard Schröder im Jahr 2018.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "2024-08-21 Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024 STP 3111 by Stepro.jpg",
-     "beschreibung": "Event, CDU, Wahlkampf mit Friedrich Merz in Erfurt 2024: Friedrich Merz (CDU-Parteivorsitzender)",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg/1280px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:2024-08-21_Event,_CDU,_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3111_by_Stepro.jpg",
-     "urheber": "Steffen Prößdorf",
-     "lizenz": "CC BY-SA 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-     "art": "person",
-     "suchbegriff": "Friedrich Merz",
-     "bildunterschrift": "CDU-Parteivorsitzender Friedrich Merz während einer Veranstaltung im Jahr 2024.",
      "hinweis": "Archivfoto"
     },
     {
@@ -10248,493 +11964,6 @@
       24.43,
       31.19,
       42.45
-     ]
-    }
-   ]
-  },
-  {
-   "id": "chemie-nobelpreis-2026",
-   "rubrik": "Wissen & Klima",
-   "zeit": "2026-10-07T11:52:14.000Z",
-   "aktualisiert": "aktualisiert um 10:52 Uhr",
-   "titel": "Chemie-Nobelpreis 2026 geht an Henri Kagan und Kenso Soai",
-   "vorspann": "Der Nobelpreis für Chemie des Jahres 2026 wird an den französischen Wissenschaftler Henri B. Kagan und den japanischen Forscher Kenso Soai verliehen. Sie erhalten die Auszeichnung für ihre Entdeckungen zu nichtlinearen Effekten und der Autokatalyse in der asymmetrischen organischen Synthese.",
-   "eil": false,
-   "verstaendlich": {
-    "stufe": "mittel",
-    "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar"
-   },
-   "zusammenfassung": [
-    "Der Chemie-Nobelpreis 2026 geht an Henri B. Kagan und Kenso Soai.",
-    "Sie werden für ihre Entdeckungen zu nichtlinearen Effekten und der Autokatalyse geehrt.",
-    "Ihre Forschungen erklären die Entstehung spiegelbildlicher Moleküle in der Natur.",
-    "Dies ist von großer Bedeutung für die Entwicklung von Arzneimitteln."
-   ],
-   "einig": [
-    [
-     "Der Chemie-Nobelpreis 2026 geht an Henri B. Kagan und Kenso Soai.",
-     [
-      "Tagesschau/ARD",
-      "Deutsche Welle"
-     ]
-    ],
-    [
-     "Die Auszeichnung ist mit zwölf Millionen schwedischen Kronen dotiert.",
-     [
-      "Tagesschau/ARD",
-      "Deutsche Welle"
-     ]
-    ]
-   ],
-   "unklar": [
-    "Es gibt keine inhaltlichen Widersprüche in den Berichten."
-   ],
-   "positionen": [
-    [
-     "Heiner Linke (Vorsitzender des Nobelkomitees für Chemie)",
-     "Die von Kagan und Soai entwickelten chemischen Reaktionen sind spektakulär und lösen ein Jahrhundert altes Rätsel.",
-     "Tagesschau/ARD,Süddeutsche Zeitung"
-    ],
-    [
-     "Kenso Soai (Chemie-Nobelpreisträger)",
-     "Er freut sich sehr über die Auszeichnung und bezeichnete den Tag als einen der aufregendsten seines Lebens.",
-     "Tagesschau/ARD"
-    ],
-    [
-     "Hanna Stjärne (Geschäftsführerin der Nobelstiftung)",
-     "Zur Feier des 125-jährigen Bestehens freut sich die Stiftung über die Erhöhung des Preisgeldes.",
-     "Deutsche Welle"
-    ]
-   ],
-   "fehlend": "Es fehlen direkte Stellungnahmen von Kritikern oder weiteren unabhängigen Chemikern außerhalb des Nobelkomitees.",
-   "medien": [
-    {
-     "name": "Tagesschau/ARD",
-     "typ": "öffentlich-rechtlich",
-     "art": "öffentlich-rechtlich",
-     "stamm": true,
-     "datum": "07.10.26, 13:52",
-     "fokus": "Hintergrund und medizinische Bedeutung",
-     "text": "Der Bericht erläutert ausführlich die chemischen Hintergründe zu Spiegelbildmolekülen und den Contergan-Skandal.",
-     "url": "https://www.tagesschau.de/wissen/forschung/chemie-nobelpreis-fuer-kagan-und-soai-100.html",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 3,
-      "woerter": 596,
-      "satzlaenge": 17,
-      "langeWoerter": 38
-     },
-     "traeger": "ARD – Gemeinschaft der Landesrundfunkanstalten",
-     "finanzierung": "Rundfunkbeitrag",
-     "publikumWert": 3.73
-    },
-    {
-     "name": "Süddeutsche Zeitung",
-     "typ": "Tageszeitung",
-     "art": "privates Medium",
-     "stamm": true,
-     "datum": "07.10.26, 12:36",
-     "fokus": "Verleihungszeremonie in Stockholm",
-     "text": "Der Text beschreibt anschaulich das Experiment von Heiner Linke bei der Bekanntgabe des Preises.",
-     "url": "https://www.sueddeutsche.de/wissen/nobelpreis-chemie-kagan-soai-molekuele-medikamente-li.3552249",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 10,
-      "minuten": 1,
-      "woerter": 132,
-      "satzlaenge": 17,
-      "langeWoerter": 33
-     },
-     "traeger": "Süddeutscher Verlag, gehört zur Südwestdeutschen Medien Holding",
-     "finanzierung": "Abos und Werbung",
-     "publikumWert": null
-    },
-    {
-     "name": "Deutsche Welle",
-     "typ": "Auslandssender (öffentlich finanziert)",
-     "art": "internationaler Sender",
-     "stamm": true,
-     "datum": "07.10.26, 12:09",
-     "fokus": "Statistiken und Jubiläum der Nobelpreise",
-     "text": "Der Bericht nennt Details zur Erhöhung des Preisgeldes und Statistiken zu früheren Nobelpreisträgern.",
-     "url": "https://www.dw.com/de/chemie-nobelpreis-geht-an-forscher-aus-frankreich-und-japan/a-79571627?maca=de-rss-de-all-1119-rdf",
-     "video": false,
-     "lesbar": {
-      "stufe": "mittel",
-      "fuerWen": "normale Nachrichtensprache – ab etwa Klasse 9 gut lesbar",
-      "klasse": 11,
-      "minuten": 2,
-      "woerter": 440,
-      "satzlaenge": 13,
-      "langeWoerter": 39
-     },
-     "traeger": "Deutsche Welle, Anstalt des öffentlichen Rechts (Auslandsrundfunk)",
-     "finanzierung": "Steuermittel des Bundes",
-     "publikumWert": null
-    }
-   ],
-   "unterschiede": [
-    [
-     "Detailreichtum bei Statistiken",
-     "Die Deutsche Welle nennt historische Details zu früheren Preisträgern und Frauenquoten, während die Süddeutsche Zeitung stärker auf die Live-Präsentation in Stockholm eingeht."
-    ]
-   ],
-   "wfragen": {
-    "wer": "Henri B. Kagan und Kenso Soai",
-    "was": "Verleihung des Nobelpreises für Chemie",
-    "wann": "07.10.2026",
-    "wo": "Stockholm, Schweden",
-    "wie": "Durch Entdeckung nichtlinearer Effekte in der asymmetrischen organischen Synthese",
-    "warum": "Für die Lösung eines alten chemischen Rätsels, laut Nobelkomitee",
-    "quellenlage": "Tagesschau/ARD, Süddeutsche Zeitung, Deutsche Welle"
-   },
-   "artikel": [
-    {
-     "ueberschrift": "Verleihung des Preises",
-     "absaetze": [
-      "Der Nobelpreis für Chemie geht in diesem Jahr an den 1930 geborenen Franzosen Henri B. Kagan und den Japaner Kenso Soai. Dies gab die Königlich-Schwedische Akademie der Wissenschaften in Stockholm bekannt. Die Bekanntgabe erfolgte im Rahmen der traditionellen Bekanntgabewoche für die Nobelpreise. Die Auszeichnung ist in diesem Jahr mit insgesamt zwölf Millionen schwedischen Kronen dotiert.",
-      "Nach Angaben der Deutschen Welle entspricht dies umgerechnet rund einer Million Euro. Die Nobelstiftung hatte das Preisgeld anlässlich des 125-jährigen Bestehens der Nobelpreise um eine Million Kronen erhöht. Die Geschäftsführerin der Nobelstiftung, Hanna Stjärne, äußerte sich erfreut über diese Erhöhung im Jubiläumsjahr. Die feierliche Übergabe der Auszeichnungen findet traditionell am 10. Dezember statt.",
-      "Erstmals werden die Namen der Nobelpreisträger für Physik, Chemie und Wirtschaftswissenschaften laut der Deutschen Welle von einer Frau verkündet. Ellen Moons ist seit Anfang 2026 Generalsekretärin der Königlich-Schwedischen Akademie der Wissenschaften. Die gebürtige Belgierin ist die erste Frau auf diesem Posten seit der Gründung der Akademie im Jahr 1739. Zur Preisvergabe in Stockholm wurde der japanische Preisträger Kenso Soai per Video zugeschaltet.",
-      "Der Vorsitzende des Nobelkomitees für Chemie, Heiner Linke, präsentierte bei der Bekanntgabe in Stockholm veranschaulichende Gefäße mit Flüssigkeiten. Laut der Süddeutschen Zeitung brachte er drei Gefäße mit, die chemische Prozesse veranschaulichen sollten. In einem Fake-Experiment zeigte er Ausgangsprodukte für bunte Flüssigkeiten. Das Nobelkomitee würdigte die Arbeiten der beiden Forscher als spektakuläre Beiträge zur Wissenschaft."
-     ]
-    },
-    {
-     "ueberschrift": "Forschung und wissenschaftliche Bedeutung",
-     "absaetze": [
-      "Die beiden Wissenschaftler werden für die Entdeckung nichtlinearer Effekte und der Autokatalyse in der asymmetrischen organischen Synthese geehrt. Der Vorsitzende des Nobelkomitees für Chemie, Heiner Linke, erklärte laut der Tagesschau, dass Kagan und Soai eine Lösung für ein über ein Jahrhundert altes chemisches Rätsel geliefert haben. Dabei ging es um die Frage, wie Homochiralität spontan entstehen kann. Viele Moleküle wie Aminosäuren existieren in zwei Varianten, die sich als Spiegelbilder zueinander verhalten.",
-      "Diese beiden Varianten werden als L- und R-Form bezeichnet und weisen völlig unterschiedliche Eigenschaften auf. In der Natur dominiert meist nur eine dieser beiden Formen. An biologischen Andockstellen passt oft nur eine Variante perfekt, während das spiegelbildliche Molekül nicht passt und schädlich sein kann. Moderne Medikamente werden daher gezielt als ein einzelnes Enantiomer entwickelt, um unerwünschte oder toxische Wirkungen zu vermeiden. Das historische Beispiel des Contergan-Skandals in den 1960er-Jahren zeigte, dass eine Form des Wirkstoffs Thalidomid Entzündungen hemmt, während das Spiegelbild zu Missbildungen bei ungeborenen Kindern führt.",
-      "Der in Frankreich geborene Henri Kagan entdeckte im Jahr 1986 an der Université Paris-Sud in Orsay eine Methode zur Beeinflussung chemischer Reaktionen. Damit konnte er einen größeren Überschuss von einem der beiden Spiegelbilder erzeugen. Der 95-jährige Kagan gehört zu den ältesten Wissenschaftlern, denen jemals ein Nobelpreis verliehen wurde. Den Rekord hält weiterhin John B. Goodenough, der 2019 im Alter von 97 Jahren den Chemie-Nobelpreis für Lithium-Ionen-Batterien erhielt.",
-      "Der in Japan geborene Kenso Soai von der Tokyo University of Science veröffentlichte im Jahr 1995 eine Reaktion mit dem Potenzial zur Erzeugung homochiraler Moleküle. Im Jahr 2003 präsentierte er dann eine Reaktion, bei der ausschließlich eines der beiden Spiegelbilder gebildet wurde. Laut dem Nobelkomitee hat außer dem Leben selbst noch niemand zuvor ein solches Kunststück vollbracht. Die Forschungen waren laut der Nobel-Akademie entscheidend für Chemiker, die Grundlagen für die Herstellung von Arzneimitteln entwickeln."
-     ]
-    },
-    {
-     "ueberschrift": "Einordnung und weitere Nobelpreise",
-     "absaetze": [
-      "Der Nobelpreis gilt international als eine der wichtigsten wissenschaftlichen Auszeichnungen. Seit dem Jahr 1901 wurde der Chemie-Nobelpreis an 198 verschiedene Forscher vergeben. Zwei Personen erhielten die Auszeichnung in der Vergangenheit zweimal. Unter den bisherigen Preisträgern befanden sich laut der Deutschen Welle acht Frauen, darunter Marie Curie, Emmanuelle Charpentier und Jennifer Doudna.",
-      "Im vergangenen Jahr ging der Chemie-Nobelpreis an drei Wissenschaftler für die Entwicklung neuartiger Molekülstrukturen. Diese Strukturen können Gase einschließen, um möglicherweise Treibhausgase abzuscheiden oder Feuchtigkeit aus Wüstenregionen zu gewinnen. Die diesjährige Bekanntgabewoche der Nobelpreise begann am Montag mit dem Medizin-Nobelpreis für drei Forscher im Bereich der Optogenetik. Am Dienstag folgte der Physik-Nobelpreis für einen in Belgien geborenen Forscher für die Entdeckung hochenergetischer Neutrinos.",
-      "Die Bekanntgabe der weiteren Nobelpreise setzt sich in den kommenden Tagen fort. Am Donnerstag wird der Literatur-Nobelpreis verkündet, gefolgt vom Friedensnobelpreis am Freitag. Den Abschluss bildet am kommenden Montag der von der schwedischen Reichsbank gestiftete Preis für Wirtschaftswissenschaften. Die Auszeichnungen werden traditionell am Todestag des Stifters Alfred Nobel am 10. Dezember überreicht."
-     ]
-    }
-   ],
-   "zeitleiste": [
-    [
-     "1986",
-     "Henri Kagan entdeckt eine neue Methode zur Steuerung chemischer Reaktionen."
-    ],
-    [
-     "1995",
-     "Kenso Soai beschreibt eine chemische Reaktion mit dem Potenzial zur Homochiralität."
-    ],
-    [
-     "1986",
-     "Henri Kagan entdeckt eine Methode zur Steuerung chemischer Reaktionen an der Université Paris-Sud."
-    ],
-    [
-     "1995",
-     "Kenso Soai veröffentlicht eine Reaktion mit dem Potenzial zur Homochiralität."
-    ],
-    [
-     "2003",
-     "Kenso Soai gelingt eine Reaktion, bei der ausschließlich eines der beiden Spiegelbilder entsteht."
-    ],
-    [
-     "07.10.2026",
-     "Bekanntgabe von Henri Kagan und Kenso Soai als Chemie-Nobelpreisträger durch die Königlich-Schwedische Akademie der Wissenschaften."
-    ]
-   ],
-   "bilder": [
-    {
-     "art": "person",
-     "suchbegriff": "Henri B. Kagan chemist",
-     "bildunterschrift": "Der französische Wissenschaftler Henri B. Kagan gehört zu den diesjährigen Trägern des Chemie-Nobelpreises."
-    },
-    {
-     "art": "institution",
-     "suchbegriff": "Royal Swedish Academy of Sciences building Stockholm",
-     "bildunterschrift": "Die Königlich-Schwedische Akademie der Wissenschaften in Stockholm gibt die Preisträger bekannt."
-    },
-    {
-     "art": "symbol",
-     "suchbegriff": "Chirality chemistry molecules",
-     "bildunterschrift": "Modelle von spiegelbildlichen Molekülen veranschaulichen das Konzept der Chiralität in der Chemie."
-    },
-    {
-     "art": "ort",
-     "suchbegriff": "Stockholm cityscape",
-     "bildunterschrift": "Blick auf die schwedische Hauptstadt Stockholm, den Ort der Bekanntgabe."
-    }
-   ],
-   "ort": {
-    "name": "Stockholm, Schweden"
-   },
-   "geprueft": true,
-   "korrekturen": [],
-   "wortwarnung": [
-    "Skandals",
-    "spektakuläre"
-   ],
-   "lernen": {
-    "begriffe": [
-     [
-      "Enantiomer",
-      "Ein Molekül, das sich zu einem anderen verhält wie ein Bild zum Spiegelbild."
-     ],
-     [
-      "Autokatalyse",
-      "Ein chemischer Prozess, bei dem eine Substanz ihre eigene Bildung unterstützt oder antreibt."
-     ]
-    ],
-    "fragen": [
-     "Welche Bedeutung hat die Entdeckung von spiegelbildlichen Molekülen für die Herstellung von Medikamenten?",
-     "Warum ist es für die wissenschaftliche Berichterstattung wichtig, wer die Forschungsergebnisse bewertet?"
-    ],
-    "quiz": [
-     {
-      "frage": "Wer erhält den Chemie-Nobelpreis 2026?",
-      "optionen": [
-       "Henri Kagan und Kenso Soai",
-       "Marie Curie und Alfred Nobel",
-       "Peter Hegemann und Francis Halzen"
-      ],
-      "richtig": 0,
-      "erklaerung": "Laut Tagesschau und Deutsche Welle geht der Chemie-Nobelpreis 2026 an Henri B. Kagan und Kenso Soai."
-     },
-     {
-      "frage": "Mit wie viel Geld ist der Nobelpreis in diesem Jahr dotiert?",
-      "optionen": [
-       "zehn Millionen schwedische Kronen",
-       "elf Millionen schwedische Kronen",
-       "zwölf Millionen schwedische Kronen"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die Tagesschau und die Deutsche Welle berichten übereinstimmend, dass der Preis mit zwölf Millionen schwedischen Kronen dotiert ist."
-     },
-     {
-      "frage": "Wann werden die Nobelpreise traditionell überreicht?",
-      "optionen": [
-       "am 10. Dezember",
-       "am 7. Oktober",
-       "am 1. Januar"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Deutsche Welle nennt den 10. Dezember, den Todestag des Preisstifters Alfred Nobel, als traditionellen Tag der Überreichung."
-     }
-    ]
-   },
-   "einfach": {
-    "vorspann": "Der Nobelpreis für Chemie geht in diesem Jahr an zwei Wissenschaftler aus Frankreich und Japan.",
-    "absaetze": [
-     "Henri Kagan und Kenso Soai erhalten den Preis für ihre Forschungen in der Chemie.",
-     "Sie untersuchten, wie Moleküle entstehen, die wie Spiegelbilder zueinander aufgebaut sind.",
-     "Diese Entdeckung ist sehr wichtig für die Entwicklung neuer Arzneimittel.",
-     "Der Preis ist in diesem Jahr mit zwölf Millionen schwedischen Kronen dotiert."
-    ]
-   },
-   "video": {
-    "kurz": [
-     "Henri Kagan und Kenso Soai erhalten den Chemie-Nobelpreis des Jahres zweitausendsechsundzwanzig.",
-     "Die Forscher werden für Entdeckungen zu spiegelbildlichen Molekülen in der Chemie geehrt.",
-     "Die Auszeichnung ist mit zwölf Millionen schwedischen Kronen dotiert."
-    ],
-    "lang": [
-     "Der Nobelpreis für Chemie geht in diesem Jahr an den Franzosen Henri Kagan und den Japaner Kenso Soai.",
-     "Das gab die Königlich-Schwedische Akademie der Wissenschaften in Stockholm bekannt.",
-     "Die beiden Wissenschaftler erhalten die Auszeichnung für ihre Entdeckungen zu nichtlinearen Effekten und der Autokatalyse.",
-     "Nach Angaben des Nobelkomitees haben sie damit eine Lösung für ein altes chemisches Rätsel geliefert.",
-     "Es geht um die Frage, wie spiegelbildliche Moleküle in der Natur spontan entstehen können.",
-     "Diese Forschungen sind laut den Berichten entscheidend für die Herstellung von sicheren Arzneimitteln.",
-     "Der Vorsitzende des Nobelkomitees, Heiner Linke, bezeichnete die entwickelten Reaktionen als spektakulär.",
-     "Der Preis ist in diesem Jahr mit zwölf Millionen schwedischen Kronen dotiert.",
-     "Die Nobelstiftung erhöhte das Preisgeld anlässlich ihres hundertfünfundzwanzigjährigen Jubiläums um eine Million Kronen.",
-     "Die feierliche Übergabe der Auszeichnungen findet traditionell am zehnten Dezember statt."
-    ],
-    "einfach": [
-     "Zwei Forscher bekommen den Nobelpreis für Chemie.",
-     "Henri Kagan aus Frankreich und Kenso Soai aus Japan erhalten die Auszeichnung.",
-     "Sie erforschten Moleküle, die wie Bild und Spiegelbild sind.",
-     "Diese Arbeit hilft dabei, gute Medikamente herzustellen.",
-     "Der Preis ist in diesem Jahr sehr hoch dotiert."
-    ]
-   },
-   "kurz": [
-    "Henri Kagan und Kenso Soai erhalten den Chemie-Nobelpreis 2026.",
-    "Die Forscher werden für ihre Arbeiten zu spiegelbildlichen Molekülen geehrt.",
-    "Der Preis ist mit zwölf Millionen schwedischen Kronen dotiert."
-   ],
-   "fakten": [
-    [
-     "Dotierung des Preises",
-     "zwölf Millionen schwedische Kronen"
-    ],
-    [
-     "Alter von Henri Kagan",
-     "95 Jahre"
-    ],
-    [
-     "Jahr des Jubiläums der Nobelpreise",
-     "125 Jahre"
-    ]
-   ],
-   "dossier": {
-    "slug": "nobelpreise-2026",
-    "titel": "Nobelpreise des Jahres 2026"
-   },
-   "bildInfo": {
-    "titel": "Main building of the Royal Swedish Academy of Sciences (Kungliga Vetenskapsakademien), Frescati, Norra Djurgården, Stockholm.jpg",
-    "beschreibung": "Main building of the Royal Swedish Academy of Sciences , Frescati , Norra Djurgården, Stockholm.",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg/1280px-Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Main_building_of_the_Royal_Swedish_Academy_of_Sciences_(Kungliga_Vetenskapsakademien),_Frescati,_Norra_Djurg%C3%A5rden,_Stockholm.jpg",
-    "urheber": "Hackspett",
-    "lizenz": "CC BY-SA 2.5",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-    "art": "institution",
-    "suchbegriff": "Royal Swedish Academy of Sciences building Stockholm",
-    "bildunterschrift": "Das Hauptgebäude der Königlich Schwedischen Akademie der Wissenschaften in Stockholm.",
-    "hinweis": "Archivfoto"
-   },
-   "bildInfos": [
-    {
-     "titel": "Main building of the Royal Swedish Academy of Sciences (Kungliga Vetenskapsakademien), Frescati, Norra Djurgården, Stockholm.jpg",
-     "beschreibung": "Main building of the Royal Swedish Academy of Sciences , Frescati , Norra Djurgården, Stockholm.",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg/1280px-Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Main_building_of_the_Royal_Swedish_Academy_of_Sciences_%28Kungliga_Vetenskapsakademien%29%2C_Frescati%2C_Norra_Djurg%C3%A5rden%2C_Stockholm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Main_building_of_the_Royal_Swedish_Academy_of_Sciences_(Kungliga_Vetenskapsakademien),_Frescati,_Norra_Djurg%C3%A5rden,_Stockholm.jpg",
-     "urheber": "Hackspett",
-     "lizenz": "CC BY-SA 2.5",
-     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-     "art": "institution",
-     "suchbegriff": "Royal Swedish Academy of Sciences building Stockholm",
-     "bildunterschrift": "Das Hauptgebäude der Königlich Schwedischen Akademie der Wissenschaften in Stockholm.",
-     "hinweis": "Archivfoto"
-    },
-    {
-     "titel": "Comparison of Chiral and Achiral Molecules.jpg",
-     "beschreibung": "Comparison of Chiral and Achiral Molecules",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Comparison_of_Chiral_and_Achiral_Molecules.jpg/1280px-Comparison_of_Chiral_and_Achiral_Molecules.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Comparison_of_Chiral_and_Achiral_Molecules.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Comparison_of_Chiral_and_Achiral_Molecules.jpg",
-     "urheber": "Unknown author Unknown author",
-     "lizenz": "CC BY 4.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
-     "art": "symbol",
-     "suchbegriff": "Chirality chemistry molecules",
-     "bildunterschrift": "Eine grafische Darstellung von chiralen und achiralen Molekülen in der Chemie.",
-     "hinweis": "Symbolbild"
-    }
-   ],
-   "ortInfo": {
-    "name": "Stockholm, Schweden",
-    "lat": 59.325,
-    "lon": 18.071
-   },
-   "version": 5,
-   "bildVersucht": true,
-   "ton": [
-    {
-     "k": "Der Nobelpreis für Chemie geht in diesem Jahr an den Franzosen Henri Kagan und d",
-     "d": "610d2e9ca2.mp3",
-     "l": 57.44,
-     "s": [
-      0.25,
-      6.51,
-      11.01,
-      17.42,
-      23.31,
-      28.8,
-      34.14,
-      40.57,
-      45.24,
-      52.11
-     ]
-    },
-    {
-     "k": "Henri Kagan und Kenso Soai erhalten den Chemie-Nobelpreis des Jahres zweitausend",
-     "d": "ba7e94a6bf.mp3",
-     "l": 15.22,
-     "s": [
-      0.25,
-      6.26,
-      11.09
-     ]
-    },
-    {
-     "k": "Zwei Forscher bekommen den Nobelpreis für Chemie. Henri Kagan aus Frankreich und",
-     "d": "18cef88f1e.mp3",
-     "l": 22.82,
-     "s": [
-      0.25,
-      3.8,
-      10.31,
-      14.89,
-      19.45
-     ]
-    },
-    {
-     "k": "Es gibt keine inhaltlichen Widersprüche in den Berichten.",
-     "d": "0f3746d388.mp3",
-     "l": 3.78,
-     "s": [
-      0.25
-     ]
-    },
-    {
-     "k": "Was bedeutet eigentlich Enantiomer? Ein Molekül, das sich zu einem anderen verhä",
-     "d": "155e934b94.mp3",
-     "l": 8.88,
-     "s": [
-      0.25,
-      3.45
-     ]
-    },
-    {
-     "k": "Der Nobelpreis für Chemie geht in diesem Jahr an den 1930 geborenen Franzosen He",
-     "d": "fdad5f813b.mp3",
-     "l": 45.6,
-     "s": [
-      0.25,
-      7.3,
-      10.03,
-      14.48,
-      19.79,
-      25.33,
-      30.03,
-      38.49
-     ]
-    },
-    {
-     "k": "Die beiden Wissenschaftler werden für die Entdeckung nichtlinearer Effekte und d",
-     "d": "fbd4045b8c.mp3",
-     "l": 54.97,
-     "s": [
-      0.25,
-      8.29,
-      18.53,
-      22.95,
-      29.23,
-      36.01,
-      39.57,
-      47.13
-     ]
-    },
-    {
-     "k": "Der Nobelpreis gilt international als eine der wichtigsten wissenschaftlichen Au",
-     "d": "2506569cc8.mp3",
-     "l": 56.11,
-     "s": [
-      0.25,
-      5.52,
-      13.25,
-      17.52,
-      26.15,
-      32.64,
-      40.63,
-      48.51
      ]
     }
    ]
