@@ -1,6 +1,16 @@
 {
- "stand": "2026-10-09T16:08:35.952Z",
+ "stand": "2026-10-10T08:26:01.366Z",
  "folgen": [
+  {
+   "id": "hauptausgabe-2026-10-10",
+   "art": "nachrichten",
+   "titel": "Hauptausgabe vom 2026-10-10",
+   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Vergabe des Friedensnobelpreises an Navi Pillay und US-Sanktionen gegen Strafgerichtshof · Koalitionsverhandlungen in Mecklenburg-Vorpommern vereinbart · Tropensturm „Isaias“ trifft auf die US-Golfküste und führt zu Stromausfällen · Rückzug eines Leasingangebots für den Dienstwagen des Landtagspräsidenten in Sachsen-Anhalt · Zwei Behördenmitarbeiter bei Waffenkontrolle in Berngau getötet",
+   "zeit": "2026-10-10T08:26:01.366Z",
+   "d": "folge-hauptausgabe-2026-10-10.mp3",
+   "l": 645.98,
+   "b": 3876141
+  },
   {
    "id": "wissen-wie-entsteht-eigentlich-ein-regenbogen",
    "art": "wissen",
@@ -20,16 +30,6 @@
    "d": "60c5c2a8c3.mp3",
    "l": 28.82,
    "b": 173325
-  },
-  {
-   "id": "hauptausgabe-2026-10-09",
-   "art": "nachrichten",
-   "titel": "Hauptausgabe vom 2026-10-09",
-   "text": "Die wichtigsten Themen des Tages, verglichen aus mehreren Quellen. Angriffe zwischen Huthi-Miliz und Militärbündnis sowie Ausfälle im Flugverkehr · Proteste und politische Reaktionen nach dem Tod einer zwangsgeräumten Rentnerin in Spanien · Kein BMW-Dienstwagen für den neuen Landtagspräsidenten in Sachsen-Anhalt · Reaktionen der Regierung auf Schulproteste in Frankreich · Bundesregierung hebt Wachstumsprognose für das Jahr 2026 an",
-   "zeit": "2026-10-09T09:01:32.429Z",
-   "d": "folge-hauptausgabe-2026-10-09.mp3",
-   "l": 570.82,
-   "b": 3425133
   },
   {
    "id": "wissen-wie-funktioniert-eigentlich-der-reisepass",
