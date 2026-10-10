@@ -2,6 +2,26 @@
  "stand": "2026-10-09T16:08:35.952Z",
  "folgen": [
   {
+   "id": "wissen-wie-entsteht-eigentlich-ein-regenbogen",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich ein Regenbogen?",
+   "text": "Ein Regenbogen ist ein farbiges Lichtband am Himmel. Er entsteht, wenn Sonnenlicht auf Regentropfen trifft.",
+   "zeit": "2026-10-09T16:17:18.543Z",
+   "d": "c662fe0987.mp3",
+   "l": 29.97,
+   "b": 180237
+  },
+  {
+   "id": "wissen-wie-entsteht-eigentlich-ein-ohrwurm",
+   "art": "wissen",
+   "titel": "Wie entsteht eigentlich ein Ohrwurm?",
+   "text": "Ein Ohrwurm ist eine Melodie, die im Kopf bleibt und sich nur schwer wieder vertreiben lässt. Die Forschung untersucht, wie diese musikalischen Wiederholungen im Gehirn entstehen.",
+   "zeit": "2026-10-09T09:10:49.150Z",
+   "d": "60c5c2a8c3.mp3",
+   "l": 28.82,
+   "b": 173325
+  },
+  {
    "id": "hauptausgabe-2026-10-09",
    "art": "nachrichten",
    "titel": "Hauptausgabe vom 2026-10-09",
@@ -40,26 +60,6 @@
    "d": "d3d7314bf6.mp3",
    "l": 39.45,
    "b": 237117
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-nebel",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich Nebel?",
-   "text": "Nebel besteht aus feinen Wassertröpfchen in der Luft, die direkten Bodenkontakt haben. Wenn die Sichtweite unter einen Kilometer sinkt, sprechen Fachleute von Nebel.",
-   "zeit": "2026-10-06T20:22:55.376Z",
-   "d": "ea9328cf15.mp3",
-   "l": 34.53,
-   "b": 207597
-  },
-  {
-   "id": "wissen-wie-entsteht-eigentlich-milch",
-   "art": "wissen",
-   "titel": "Wie entsteht eigentlich Milch?",
-   "text": "Milch ist eine Flüssigkeit aus den Milchdrüsen von Säugetieren zur Ernährung von Neugeborenen. Laut dem Wikipedia-Artikel nutzen Menschen die Milch vieler Tiere als Nahrungsmittel.",
-   "zeit": "2026-10-06T07:32:34.197Z",
-   "d": "0a2d2c5178.mp3",
-   "l": 25.39,
-   "b": 152733
   }
  ]
 }

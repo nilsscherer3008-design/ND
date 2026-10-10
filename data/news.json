@@ -2273,7 +2273,19 @@
     "ECMWF (Europa)"
    ]
   },
-  "quelle": "Open-Meteo / Deutscher Wetterdienst"
+  "quelle": "Open-Meteo / Deutscher Wetterdienst",
+  "ton": {
+   "k": "Heute liegen die Höchstwerte zwischen 12 und 15 Grad. Die Vorhersage für morgen,",
+   "d": "2ab9410374.mp3",
+   "l": 20.38,
+   "s": [
+    0.25,
+    3.84,
+    10.88,
+    14.62,
+    17.65
+   ]
+  }
  },
  "ton": {
   "basis": "https://raw.githubusercontent.com/nilsscherer3008-design/ND/ton/",
@@ -3491,11 +3503,11 @@
     {
      "k": "Der Friedensnobelpreis des Jahres 2026 geht an die südafrikanische Juristin Nava",
      "d": "1a390f227d.mp3",
-     "l": 18.16,
+     "l": 17.18,
      "s": [
       0.25,
-      7.83,
-      12.2
+      7.45,
+      11.55
      ]
     },
     {
@@ -4017,16 +4029,16 @@
     {
      "k": "Der ehemalige deutsche Bundeskanzler Gerhard Schröder hat den russischen Präside",
      "d": "067b64c006.mp3",
-     "l": 57.18,
+     "l": 55.92,
      "s": [
       0.25,
-      8.55,
-      17.87,
-      21.49,
-      32.28,
-      39.53,
-      44.96,
-      49.31
+      8.14,
+      17.31,
+      20.8,
+      30.93,
+      38.17,
+      43.69,
+      48.26
      ]
     },
     {
@@ -4556,7 +4568,7 @@
     {
      "k": "In Mecklenburg-Vorpommern wollen SPD, Linke und Grüne Koalitionsverhandlungen au",
      "d": "e29a0f1423.mp3",
-     "l": 13.7,
+     "l": 13.47,
      "s": [
       0.25
      ]
@@ -8761,6 +8773,44 @@
       33.2,
       33.96,
       37.92
+     ]
+    },
+    {
+     "k": "Der Literaturnobelpreis ist eine internationale Auszeichnung, die seit dem Jahr ",
+     "d": "6956b11859.mp3",
+     "l": 21.94,
+     "s": [
+      0.25,
+      7.88,
+      12.23,
+      16.71
+     ]
+    },
+    {
+     "k": "Der kanadische Premierminister Mark Carney gratulierte der Dichterin nach der Be",
+     "d": "a084a49cef.mp3",
+     "l": 52.0,
+     "s": [
+      0.25,
+      7.03,
+      13.17,
+      18.71,
+      25.38,
+      30.43,
+      38.75,
+      45.87
+     ]
+    },
+    {
+     "k": "Nach der Bekanntgabe des Literaturnobelpreises steht die Verkündung weiterer Nob",
+     "d": "a6bc0dca82.mp3",
+     "l": 22.47,
+     "s": [
+      0.25,
+      5.84,
+      10.71,
+      14.17,
+      17.47
      ]
     }
    ]
