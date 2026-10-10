@@ -1,6 +1,207 @@
 {
- "stand": "2026-10-09T16:08:35.952Z",
+ "stand": "2026-10-10T08:26:01.366Z",
  "stuecke": [
+  {
+   "id": "wie-augen-in-der-natur-funktionieren",
+   "zeit": "2026-10-10T08:40:21.649Z",
+   "bereich": "Körper und Gesundheit",
+   "titel": "Wie Augen in der Natur funktionieren",
+   "vorspann": "Das Auge ist ein Sinnesorgan zur Wahrnehmung von Lichtreizen und ermöglicht das Sehen. Die Augen von Tieren unterscheiden sich in Aufbau und Funktionalität teilweise erheblich.",
+   "artikel": [
+    {
+     "ueberschrift": "Worum es geht",
+     "absaetze": [
+      "Das Auge ist ein Sinnesorgan zur Wahrnehmung von Lichtreizen. Es ist Teil des visuellen Systems und ermöglicht das Sehen. Die Aufnahme der Reize geschieht mit Hilfe von Fotorezeptoren, die lichtempfindliche Nervenzellen sind. Deren Erregungszustand wird durch die unterschiedlichen Wellenlängen elektromagnetischer Strahlung aus dem sichtbaren Spektrum verändert. Bei Wirbeltieren werden die Nervenimpulse bereits in der Netzhaut beginnend bearbeitet. Sie gelangen über die Sehnervenbahnen zum Sehzentrum des Gehirns, wo sie zu einer visuellen Wahrnehmung verarbeitet werden.",
+      "Die Augen von Tieren unterscheiden sich in Aufbau und Funktionalität teilweise erheblich. Ihre Leistungsfähigkeit ist eng an die Anforderungen für den jeweiligen Organismus angepasst. Auch die Anzahl der Augen ist ein evolutionäres Ergebnis der Lebensumstände. Manche Tiere benötigen lediglich eine grobe Unterscheidung von Hell und Dunkel. Andere Tiere benötigen eine kontrastreiche Bildwahrnehmung oder ein großes Gesichtsfeld sowie eine differenzierte Farbwahrnehmung."
+     ]
+    },
+    {
+     "ueberschrift": "So funktioniert es",
+     "absaetze": [
+      "Als Resultat einer visuellen Reizverarbeitung sind Eigenschaften wie Richtungssehen, Sehschärfe, Gesichtsfeld, Farbsehen, Formsehen und Bewegungssehen zu nennen. Manche Augentypen sind lediglich in der Lage, die Richtung auszumachen, aus der Licht auf ihre Sinneszellen fällt. Mit Sehschärfe wird die Fähigkeit eines Lebewesens bezeichnet, Konturen und Muster in der Außenwelt als solche zu erkennen. Die Farbwahrnehmung ist die Fähigkeit, elektromagnetische Wellen verschiedener Wellenlängen in ihrer Intensität zu unterscheiden.",
+      "In der Natur gibt es verschiedene Bauformen von Augen. Die einfachsten Augen sind lichtempfindliche Sinneszellen auf der Außenhaut. Insekten und andere Gliederfüßer haben Facettenaugen, die sich aus einer Vielzahl von Einzelaugen zusammensetzen. Neben Linsenaugen findet man in der Natur gelegentlich auch Spiegelaugen. Bei Spiegelaugen wird das Bild durch Hohlspiegel erzeugt, die hinter der Netzhaut angeordnet sind.",
+      "Zu den weiteren Bauformen gehören das Flachauge, das Pigmentbecherauge, das Grubenauge sowie das Lochauge und das Blasenauge. Lochaugen oder Lochkameraaugen sind weiterentwickelte Grubenaugen und funktionieren nach dem Prinzip der Lochkamera. Das Blasenauge ist ein Lochauge mit verbesserter Leistung, bei dem die Öffnung von einer durchsichtigen Haut bedeckt ist. Das Linsenauge besteht aus nicht viel mehr als Linse, Pigmentzellen und Retina."
+     ]
+    },
+    {
+     "ueberschrift": "Woher wir das wissen",
+     "absaetze": [
+      "Es gibt Schätzungen, dass Augen der verschiedensten Bauweisen im Laufe der Evolution etwa vierzig mal neu entwickelt worden seien. Fossilfunde belegen, dass es frühe Augen bereits vor fünfhundertfünfundfremzig Millionen Jahren im Erdzeitalter Kambrium gab. Die ersten Linsen hatten Trilobiten in Facettenaugen vor fünfhundertzwanzig bis fünfhundert Millionen Jahren."
+     ]
+    }
+   ],
+   "fakten": [
+    [
+     "Alter früher Augen laut Fossilfunden",
+     "505 Millionen Jahre"
+    ],
+    [
+     "Alter erster Linsen in Facettenaugen",
+     "520 bis 500 Millionen Jahre"
+    ],
+    [
+     "Horizontales Gesichtsfeld beim Menschen",
+     "214°"
+    ],
+    [
+     "Horizontales Gesichtsfeld bei Fliegen",
+     "fast 360°"
+    ]
+   ],
+   "begriffe": [
+    [
+     "Fotorezeptoren",
+     "Lichtempfindliche Nervenzellen, deren Erregungszustand sich durch unterschiedliche Wellenlängen verändert."
+    ],
+    [
+     "Facettenauge",
+     "Ein Auge, das sich aus einer Vielzahl von Einzelaugen zusammensetzt und ein rasterartiges Bild liefert."
+    ]
+   ],
+   "quiz": [
+    {
+     "frage": "Woraus entwickeln sich Linsenaugen bei Wirbeltieren laut dem Text?",
+     "optionen": [
+      "Aus einer Einstülpung der embryonalen Epidermis",
+      "Aus einer Ausstülpung des Gehirns",
+      "Aus den Sinneszellen auf der Außenhaut"
+     ],
+     "richtig": 1,
+     "erklaerung": "Linsenaugen der Wirbeltiere entwickeln sich aus einer Ausstülpung des Gehirns."
+    }
+   ],
+   "video": [
+    "Das Auge ist ein wichtiges Sinnesorgan in der Natur.",
+    "Es dient der Wahrnehmung von Lichtreizen und ermöglicht das Sehen.",
+    "Die Aufnahme der Reize erfolgt durch lichtempfindliche Fotorezeptoren.",
+    "Es gibt in der Natur sehr unterschiedliche Bauformen von Augen.",
+    "Dazu gehören einfache Sinneszellen, Flachaugen und Pigmentbecheraugen.",
+    "Insekten besitzen komplexe Facettenaugen aus vielen Einzelaugen.",
+    "Auch Lochaugen und Linsenaugen sind weit verbreitete Bauformen.",
+    "Fossilfunde belegen frühe Augen aus dem Erdzeitalter Kambrium."
+   ],
+   "bild": {
+    "art": "symbol",
+    "suchbegriff": "Auge",
+    "bildunterschrift": "Das Auge ist ein Sinnesorgan zur Wahrnehmung von Lichtreizen."
+   },
+   "quelle": {
+    "titel": "Auge",
+    "url": "https://de.wikipedia.org/wiki/Auge",
+    "lizenz": "CC BY-SA 4.0"
+   },
+   "woerter": 363,
+   "bildInfos": [
+    {
+     "titel": "Human eye, anterior view.jpg",
+     "beschreibung": "Anterior view of an Asian male human eye, showing light brown iris with a prominent and dark limbal ring. The pupil is in a semi dilated state.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Human_eye%2C_anterior_view.jpg/1280px-Human_eye%2C_anterior_view.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/Human_eye%2C_anterior_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Human_eye,_anterior_view.jpg",
+     "urheber": "Rapidreflex",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "artikel": "Auge",
+     "sprache": "de",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Das Auge ist ein Sinnesorgan zur Wahrnehmung von Lichtreizen."
+    },
+    {
+     "titel": "Auge Carybdea marsupialis.jpg",
+     "beschreibung": "Auge der Qualle (eine Cubomeduse) Carybdea marsupialis als Beispiel für ein einfaches Linsenauge",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Auge_Carybdea_marsupialis.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/30/Auge_Carybdea_marsupialis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Auge_Carybdea_marsupialis.jpg",
+     "urheber": "Kersti 14:28, 15 January 2007 (UTC)",
+     "lizenz": "CC BY 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Auge der Qualle (eine Cubomeduse) Carybdea marsupialis als Beispiel für ein einfaches Linsenauge"
+    },
+    {
+     "titel": "Auge des Nautilus.png",
+     "beschreibung": "Lochauge eines Perlboots (Nautilus) mit von den Rändern eines vorbeischwimmenden Kleinkrebses einfallenden Lichtstrahlen.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Auge_des_Nautilus.png/1280px-Auge_des_Nautilus.png",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/3/36/Auge_des_Nautilus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Auge_des_Nautilus.png",
+     "urheber": "Sciencia58",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Lochauge eines Perlboots (Nautilus) mit von den Rändern eines vorbeischwimmenden Kleinkrebses einfallenden Lichtstrahlen."
+    },
+    {
+     "titel": "Bremse de 2009 detail.JPG",
+     "beschreibung": "Compound eyes of a male horse-fly (Diptera, family Tabanidae) in Southern Germany, 2009.",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bremse_de_2009_detail.JPG",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bremse_de_2009_detail.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Bremse_de_2009_detail.JPG",
+     "urheber": "Michael Hanselmann",
+     "lizenz": "CC BY-SA 3.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Compound eyes of a male horse-fly (Diptera, family Tabanidae) in Southern Germany, 2009."
+    },
+    {
+     "titel": "Cat's eye in middle light 2.jpg",
+     "beschreibung": "Auge einer Hauskatze",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cat%27s_eye_in_middle_light_2.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cat%27s_eye_in_middle_light_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Cat%27s_eye_in_middle_light_2.jpg",
+     "urheber": "Lovecats99",
+     "lizenz": "CC BY-SA 4.0",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Auge einer Hauskatze"
+    },
+    {
+     "titel": "Dugesia-gonocephala-01-fws.jpg",
+     "beschreibung": "Dugesia gonocephala (Dugès, 1830). Germany: Niedersachsen, Landkreis Göttingen, Nieme river near Bursfelde.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Dugesia-gonocephala-01-fws.jpg/1280px-Dugesia-gonocephala-01-fws.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Dugesia-gonocephala-01-fws.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Dugesia-gonocephala-01-fws.jpg",
+     "urheber": "Francisco Welter-Schultes",
+     "lizenz": "CC0",
+     "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Dugesia gonocephala (Dugès, 1830). Germany: Niedersachsen, Landkreis Göttingen, Nieme river near Bursfelde."
+    },
+    {
+     "titel": "Eye iris.jpg",
+     "beschreibung": "Human eye.",
+     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Eye_iris.jpg/1280px-Eye_iris.jpg",
+     "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Eye_iris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "seite": "https://commons.wikimedia.org/wiki/File:Eye_iris.jpg",
+     "urheber": "che (Please credit as \"Petr Novák, Wikipedia\" in case you use this outside Wikimedia proje",
+     "lizenz": "CC BY-SA 2.5",
+     "lizenzUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+     "art": "symbol",
+     "hinweis": "Bild aus der Wikipedia",
+     "bildunterschrift": "Human eye."
+    }
+   ],
+   "bildInfo": {
+    "titel": "Human eye, anterior view.jpg",
+    "beschreibung": "Anterior view of an Asian male human eye, showing light brown iris with a prominent and dark limbal ring. The pupil is in a semi dilated state.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Human_eye%2C_anterior_view.jpg/1280px-Human_eye%2C_anterior_view.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/Human_eye%2C_anterior_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "seite": "https://commons.wikimedia.org/wiki/File:Human_eye,_anterior_view.jpg",
+    "urheber": "Rapidreflex",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "artikel": "Auge",
+    "sprache": "de",
+    "art": "symbol",
+    "hinweis": "Bild aus der Wikipedia",
+    "bildunterschrift": "Das Auge ist ein Sinnesorgan zur Wahrnehmung von Lichtreizen."
+   }
+  },
   {
    "id": "wie-entsteht-eigentlich-ein-regenbogen",
    "zeit": "2026-10-09T16:17:18.543Z",
@@ -6672,135 +6873,6 @@
     "art": "symbol",
     "hinweis": "Bild aus der Wikipedia",
     "bildunterschrift": "Satelliten umkreisen die Erde, um die Positionsbestimmung zu ermöglichen."
-   }
-  },
-  {
-   "id": "warum-haben-flamingos-rosa-federn",
-   "zeit": "2026-09-23T06:00:24.139Z",
-   "bereich": "Natur und Tiere",
-   "titel": "Warum haben Flamingos rosa Federn?",
-   "vorspann": "Flamingos sind Vögel mit langen Beinen, einem langen Hals und oft rosa Gefieder. Sie ernähren sich auf besondere Weise und leben in großen Gruppen an salzigen oder alkalischen Seen.",
-   "artikel": [
-    {
-     "ueberschrift": "Worum es geht",
-     "absaetze": [
-      "Die Flamingos bilden als Familie eine eigene Ordnung innerhalb der Vögel. Ihr natürliches Verbreitungsgebiet umfasst Süd-, Mittel- und Nordamerika sowie Europa, Afrika und Südwestasien. Wissenschaftler teilen die Flamingos in fünf oder sechs Arten ein. Zu den gemeinsamen Merkmalen gehören das rosa Gefieder, der lange Hals und die langen Beine. Im Verhältnis zur Körpergröße sind Hals und Beine länger als bei allen anderen Vögeln.",
-      "Das ideale Habitat für Flamingos sind alkalische oder salzige Seen. An diesen Orten existieren oft kaum andere Wirbeltiere, aber Flamingos finden dort Nahrung. Die Vögel kommen auch in extremen Höhen und an Orten mit sehr niedrigen Temperaturen vor. Große europäische Vorkommen gibt es unter anderem in Spanien, Südfrankreich, auf Sardinien und in Griechenland. Seit den 1980er Jahren werden Flamingos auch in nordeuropäischen Regionen beobachtet."
-     ]
-    },
-    {
-     "ueberschrift": "So funktioniert es",
-     "absaetze": [
-      "Die rosa Farbe des Gefieders entsteht durch die Nahrung der Vögel. Sie nehmen Carotinoide auf, die vor allem in planktonischen Algen enthalten sind. Der Körper wandelt diese Stoffe in Pigmente um, die in Haut und Federn eingelagert werden. Jungvögel haben ein graues Gefieder ohne oder mit wenigen rosa Pigmenten. Ausgewachsene Flamingos haben ein mehr oder weniger intensiv rosafarbenes Gefieder.",
-      "Ein weiteres Kennzeichen ist der nach unten geknickte Seihschnabel. Mit diesem Schnabel filtern die Vögel Plankton aus dem Wasser oder Schlamm. Die Schnabelränder sind mit feinen Lamellen besetzt, die zusammen mit der Zunge wie ein Filterapparat wirken. Große Flamingos und kleine Flamingos haben unterschiedliche Lamellen und Schnabelformen. Dadurch können verschiedene Flamingo-Arten nebeneinander nach Nahrung filtern, ohne sich gegenseitig Konkurrenz zu machen.",
-      "Flamingos sind sehr gesellig und leben in Kolonien, die oft aus Tausenden oder Zehntausenden Individuen bestehen. Bei der Nahrungssuche nutzen sie verschiedene Techniken wie das Durchseihen von flachen Gewässerzonen. Sie können gut schwimmen, nutzen diese Fähigkeit aber selten und bevorzugen das Waten in größeren Tiefen. Zum Ausruhen und Schlafen können Flamingos mit minimaler Anstrengung auf einem Bein balancieren."
-     ]
-    },
-    {
-     "ueberschrift": "Woher wir das wissen",
-     "absaetze": [
-      "Die verwandtschaftliche Einordnung der Flamingos war lange Zeit ungeklärt. Erst durch Untersuchungen in den 2000er-Jahren wurden sie als Schwestergruppe der Lappentaucher erkannt. Zudem haben Studien den täglichen Nahrungsbedarf von Vögeln wie den Kubaflamingos ermittelt. Auch das Verhalten von Gruppen und die Funktion der Filterapparate wurden durch wissenschaftliche Untersuchungen beobachtet und beschrieben."
-     ]
-    },
-    {
-     "ueberschrift": "Was noch offen ist",
-     "absaetze": [
-      "Laut dem Text ist bis jetzt nur unzureichend untersucht, was dazu führt, dass sich große Ansammlungen von Flamingos zusammenfinden und wie sie sich in den Nahrungsgründen verteilen. Auch die Herkunft bestimmter Rosaflamingos in nördlichen Regionen wird als unklar bezeichnet."
-     ]
-    }
-   ],
-   "fakten": [
-    [
-     "Halswirbel bei Flamingos",
-     "17"
-    ],
-    [
-     "Aufrecht stehende Größe",
-     "90 bis 155 cm"
-    ],
-    [
-     "Tägliche Nahrungsmenge von Kubaflamingos",
-     "270 Gramm"
-    ],
-    [
-     "Brutkolonie im Zwillbrocker Venn im Jahr 2023",
-     "ca. 50 Vögel"
-    ]
-   ],
-   "begriffe": [
-    [
-     "Seihschnabel",
-     "Ein nach unten geknickter Schnabel, mit dem Flamingos Nahrung aus dem Wasser oder Schlamm filtern."
-    ],
-    [
-     "Carotinoide",
-     "Farbstoffe, die in Algen vorkommen und für die rosa Färbung des Gefieders verantwortlich sind."
-    ]
-   ],
-   "quiz": [
-    {
-     "frage": "Wodurch erhalten Flamingos ihre rosa Farbe?",
-     "optionen": [
-      "Durch Sonneneinstrahlung auf der Haut",
-      "Durch die Aufnahme von Carotinoiden mit der Nahrung",
-      "Durch das Wasser in salzigen Seen"
-     ],
-     "richtig": 1,
-     "erklaerung": "Die Rosafärbung stammt von Carotinoiden, die vor allem in planktonischen Algen enthalten sind."
-    }
-   ],
-   "video": [
-    "Flamingos sind Vögel mit langen Beinen und einem langen Hals.",
-    "Ihr Gefieder ist meistens rosa.",
-    "Diese Farbe entsteht durch ihre Nahrung wie planktonische Algen.",
-    "Mit ihrem speziellen Seihschnabel filtern sie Plankton aus dem Wasser.",
-    "Dabei nutzen sie feine Lamellen und ihre Zunge als Filterapparat.",
-    "Flamingos leben in großen Kolonien an salzigen oder alkalischen Seen.",
-    "Sie können sehr gut auf nur einem Bein balancieren.",
-    "Untersuchungen in den zweitausender-Jahren zeigten ihre Verwandtschaft zu Lappentauchern."
-   ],
-   "bild": {
-    "art": "symbol",
-    "suchbegriff": "Flamingos",
-    "bildunterschrift": "Flamingos haben einen langen Hals, lange Beine und ein rosa Gefieder."
-   },
-   "quelle": {
-    "titel": "Flamingos",
-    "url": "https://de.wikipedia.org/wiki/Flamingos",
-    "lizenz": "CC BY-SA 4.0"
-   },
-   "woerter": 395,
-   "bildInfos": [
-    {
-     "titel": "Flamingos Laguna Colorada.jpg",
-     "beschreibung": "James's Flamingos at Laguna Colorada in Bolivia",
-     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/1280px-Flamingos_Laguna_Colorada.jpg",
-     "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flamingos_Laguna_Colorada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "seite": "https://commons.wikimedia.org/wiki/File:Flamingos_Laguna_Colorada.jpg",
-     "urheber": "Valdiney Pimenta",
-     "lizenz": "CC BY 2.0",
-     "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-     "artikel": "Flamingos",
-     "sprache": "de",
-     "art": "symbol",
-     "hinweis": "Bild aus der Wikipedia",
-     "bildunterschrift": "Flamingos haben einen langen Hals, lange Beine und ein rosa Gefieder."
-    }
-   ],
-   "bildInfo": {
-    "titel": "Flamingos Laguna Colorada.jpg",
-    "beschreibung": "James's Flamingos at Laguna Colorada in Bolivia",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Flamingos_Laguna_Colorada.jpg/1280px-Flamingos_Laguna_Colorada.jpg",
-    "original": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flamingos_Laguna_Colorada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "seite": "https://commons.wikimedia.org/wiki/File:Flamingos_Laguna_Colorada.jpg",
-    "urheber": "Valdiney Pimenta",
-    "lizenz": "CC BY 2.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/2.0",
-    "artikel": "Flamingos",
-    "sprache": "de",
-    "art": "symbol",
-    "hinweis": "Bild aus der Wikipedia",
-    "bildunterschrift": "Flamingos haben einen langen Hals, lange Beine und ein rosa Gefieder."
    }
   }
  ]
