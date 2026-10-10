@@ -1,5 +1,5 @@
 {
- "stand": "2026-10-09T21:24:45.183102Z",
+ "stand": "2026-10-10T20:20:31.600332Z",
  "besetzung": [
   {
    "name": "Thorsten",
@@ -23,6 +23,110 @@
   }
  ],
  "folgen": [
+  {
+   "id": "podcast-angriffe-saporischschja",
+   "themaId": "angriffe-saporischschja",
+   "art": "podcast",
+   "titel": "Luftangriffe auf Saporischschja und Drohnen im Süden Russlands",
+   "text": "Der Podcast beleuchtet die jüngsten Luftangriffe auf Saporischschja und Gegenangriffe in Russland. Zudem wird über politische Reaktionen auf Diesellieferungen gesprochen.",
+   "zeit": "2026-10-10T20:20:31.600332Z",
+   "besetzung": [
+    "Thorsten",
+    "Sigrid",
+    "Malte",
+    "Nora"
+   ],
+   "d": "folge-podcast-angriffe-saporischschja.mp3",
+   "l": 410.99,
+   "b": 3288429,
+   "marken": [
+    {
+     "s": 0.3,
+     "wer": "Thorsten",
+     "text": "Willkommen zu unserem Nachrichten-Podcast an diesem zehnten Oktober zweitausendsechsundzwanzig. Ich weise darauf hin, dass alle Stimmen dieser Sendung Computerstimmen sind. Wir blicken heute auf die jüngsten Entwicklungen im Krieg in der Ukraine, die uns aus Medien wie Tagesschau, Spiegel, Süddeutscher Zeitung, FAZ und der BBC vorliegen. An meiner Seite sind Sigrid, Malte und Nora, die das Geschehen für uns einordnen. Sigrid, wie siehst du die aktuelle Lage nach diesen schweren Angriffen?"
+    },
+    {
+     "s": 45.82,
+     "wer": "Sigrid",
+     "text": "Die Berichte zeichnen ein Bild massiver Gewalt und anhaltender Angriffe auf beiden Seiten. Russland hat in der Nacht insgesamt dreizehn ukrainische Regionen aus der Luft angegriffen. Besonders schwer traf es die Stadt Saporischschja, wo Wohngebäude direkt getroffen wurden. Das zeigt einmal mehr, dass die Zivilbevölkerung extrem unter diesem Krieg leidet."
+    },
+    {
+     "s": 68.85,
+     "wer": "Malte",
+     "text": "Ich möchte dazu die genauen Zahlen nennen, die uns vorliegen. Russland hat Saporischschja mit fünf Lenkbomben oder auch Gleitbomben angegriffen. Unter den Todesopfern in der Stadt befinden sich nach übereinstimmenden Berichten drei Minderjährige. Insgesamt waren es laut dem russischen Verteidigungsministerium in derselben Nacht rund fünfhundertsechzig ukrainische Drohnen, die über russischem Staatsgebiet und der Krim unschädlich gemacht wurden."
+    },
+    {
+     "s": 97.87,
+     "wer": "Nora",
+     "text": "Dazu passt, dass russische Stellen und auch der Gouverneur der Region Rostow, Juri Sljussar, von ukrainischen Angriffen mit über einhundert abgewehrten Drohnen berichten. In der Region Rostow kam es dadurch zu Bränden sowie zu Schäden an Häusern und einer Brücke. Die Angriffe treffen also nicht mehr nur die Frontlinien, sondern weite Teile beider Länder."
+    },
+    {
+     "s": 123.89,
+     "wer": "Thorsten",
+     "text": "Malte, nenne uns doch bitte die Details zu den Opfern in Saporischschja. Da gibt es in den Medien ja offenbar unterschiedliche Angaben."
+    },
+    {
+     "s": 138.96,
+     "wer": "Malte",
+     "text": "Das stimmt, Thorsten, hier gehen die Quellen auseinander. Reuters und ukrainische Behörden sowie Tagesschau, ARD und Spiegel nennen mindestens zwölf Tote. Die Süddeutsche Zeitung und die BBC sprechen von mindestens fünfzehn Toten, während die Nachrichtenagentur AP von siebzehn Toten berichtet. Auch bei den Verletzten gibt es Abweichungen zwischen vierzehn und sechzehn Personen."
+    },
+    {
+     "s": 166.26,
+     "wer": "Nora",
+     "text": "Diese Unklarheiten bei den Opferzahlen zeigen, wie schwierig eine verlässliche Berichterstattung vor Ort ist. Die amtierende Bürgermeisterin von Saporischschja, Regina Chartschenko, hat ja auch von schwersten Schäden an Wohngebäuden und eingestürzten Etagen gesprochen. Die Rettungseinsätze laufen dort unter extrem schwierigen Bedingungen weiter."
+    },
+    {
+     "s": 188.59,
+     "wer": "Sigrid",
+     "text": "Neben den Kämpfen gibt es aber auch eine bemerkenswerte politische Ebene, die in Miami verhandelt wird. Dort beraten Delegationen aus den USA und Europa unter anderem über den Schutz der Energieversorgung und Unterstützungsmaßnahmen für die Ukraine. Das Treffen findet parallel zu den neuen Eskalationen statt."
+    },
+    {
+     "s": 207.18,
+     "wer": "Thorsten",
+     "text": "Damit zu Malte, der sich die politischen Reaktionen auf internationaler Ebene genauer angesehen hat. Was gibt es aus Miami zu berichten?"
+    },
+    {
+     "s": 222.27,
+     "wer": "Malte",
+     "text": "US-Präsident Donald Trump hat dort überraschend eine Vereinbarung über Diesellieferungen aus Russland angekündigt. Es geht dabei um mehr als dreihunderttausend Tonnen Diesel, die geliefert werden sollen. Trump begründet diesen Schritt damit, dass dadurch die Kraftstoffpreise gedämpft werden sollen."
+    },
+    {
+     "s": 245.52,
+     "wer": "Nora",
+     "text": "Und genau diese Vereinbarung hat heftige Reaktionen ausgelöst, vor allem beim ukrainischen Präsidenten Wolodymyr Selenskyj. Selenskyj hat das Abkommen über russischen Diesel scharf kritisiert. Er sieht die anhaltenden Angriffe und solche Handelsabkommen als Zeichen dafür, dass Russland eine Druckminderung für seine weitere Kriegsführung nutzt."
+    },
+    {
+     "s": 269.54,
+     "wer": "Sigrid",
+     "text": "Hier prallen also wirtschaftliche Interessen der USA, die auf niedrigere Preise drängen, und die sicherheitspolitischen Sorgen der Ukraine aufeinander. Selenskyj wirft den westlichen Partnern damit indirekt vor, durch solche Absprachen den Druck auf Moskau zu verringern. Das ist ein sehr brisanter Punkt in den aktuellen Verhandlungen."
+    },
+    {
+     "s": 290.15,
+     "wer": "Thorsten",
+     "text": "Nora, lass uns noch einmal auf die offenen Fragen blicken. Was wissen wir über die Zeitleiste der vergangenen Tage?"
+    },
+    {
+     "s": 300.14,
+     "wer": "Nora",
+     "text": "Die Berichte zeigen, dass Saporischschja und Kiew am Samstag, dem zehnten Oktober, massiv angegriffen wurden. Schon am Mittwoch und Donnerstag vor diesem Datum gab es laut der BBC verheerende Angriffe mit Toten in Pryluky und Kramatorsk. Die Angriffe folgen also einer kontinuierlichen und grausamen Logik."
+    },
+    {
+     "s": 322.44,
+     "wer": "Malte",
+     "text": "Ergänzend dazu muss man betonen, dass auch die russische Seite die Drohnenangriffe auf ihr Gebiet als massiv darstellt. Die vom Verteidigungsministerium genannte Zahl von fünfhundertsechzig Drohnen in einer Nacht ist extrem hoch. Ob alle diese Drohnen tatsächlich abgewehrt wurden, lässt sich von unabhängiger Seite kaum überprüfen."
+    },
+    {
+     "s": 346.4,
+     "wer": "Sigrid",
+     "text": "Beide Seiten versuchen offenbar, militärische Stärke zu demonstrieren, während im Hintergrund diplomatisch verhandelt wird. Ob die Gespräche in Miami zu einer Entlastung der Energieversorgung in der Ukraine führen werden, bleibt völlig offen. Die Lage bleibt für die Menschen in den betroffenen Regionen jedenfalls hochgefährlich."
+    },
+    {
+     "s": 366.24,
+     "wer": "Thorsten",
+     "text": "Wir fassen zusammen: Schwere Luftangriffe auf Saporischschja mit zahlreichen Toten und Verletzten treffen auf ukrainische Drohnenangriffe im Süden Russlands. Gleichzeitig sorgt eine Vereinbarung über Diesellieferungen zwischen den USA und Russland für scharfe Kritik aus Kiew. Viele Details zu den Opfern bleiben vorerst widersprüchlich. Vielen Dank an Sigrid, Malte und Nora für diese Einschätzungen. Damit schließen wir die Sendung für heute."
+    }
+   ]
+  },
   {
    "id": "podcast-afd-landtagsgeraet-sachsen-anhalt",
    "themaId": "afd-landtagsgeraet-sachsen-anhalt",
@@ -913,130 +1017,6 @@
      "s": 499.32,
      "wer": "Thorsten",
      "text": "Das ist ein sehr guter Überblick über die aktuelle Lage und die verschiedenen Perspektiven. Wir fassen zusammen: Die Inflation zieht stark an, getrieben vor allem durch die Energiepreise, und die EZB steht unter Handlungsdruck. Vielen Dank an Sigrid, Malte und Nora für eure Einschätzungen und die genauen Analysen. Damit schließen wir diese Sendung."
-    }
-   ]
-  },
-  {
-   "id": "podcast-flydubai-notlandung-angriff",
-   "themaId": "flydubai-notlandung-angriff",
-   "art": "podcast",
-   "titel": "Zwischenfall im Cockpit auf Flug nach Tel Aviv",
-   "text": "Ein Flug von Flydubai nach Tel Aviv endet nach einem Angriff im Cockpit mit einer Notlandung in Saudi-Arabien. Die israelische Regierung spricht von einem versuchten Terroranschlag.",
-   "zeit": "2026-10-01T21:18:30.997426Z",
-   "besetzung": [
-    "Thorsten",
-    "Sigrid",
-    "Malte",
-    "Nora"
-   ],
-   "d": "folge-podcast-flydubai-notlandung-angriff.mp3",
-   "l": 403.74,
-   "b": 3230445,
-   "marken": [
-    {
-     "s": 0.3,
-     "wer": "Thorsten",
-     "text": "Willkommen zum Podcast. Unser Thema heute ist ein schwerer Zwischenfall an Bord eines Fluges von Flydubai von Dubai nach Tel Aviv am dreißigsten September zweitausendsechsundzwanzig. Ich weise darauf hin, dass alle Stimmen dieser Sendung Computerstimmen sind. Bei mir im Studio sind Sigrid, Malte und Nora."
-    },
-    {
-     "s": 31.81,
-     "wer": "Sigrid",
-     "text": "Danke, Thorsten. Auf dem Flug kam es zu einer gewaltsamen Auseinandersetzung im Cockpit, als der Co-Pilot den Flugkapitän angriff. Der schwer verletzte Kapitän schaffte es jedoch, die Cockpittür zu öffnen, woraufhin Passagiere den Angreifer überwältigten. Die Maschine musste schließlich in Saudi-Arabien notlanden."
-    },
-    {
-     "s": 55.31,
-     "wer": "Malte",
-     "text": "Laut den Berichten von Tagesschau, ARD, Deutschlandfunk, Spiegel, Süddeutsche Zeitung und FAZ war die Maschine mit etwa achtzig Passagieren besetzt. Der Flug mit der Nummer FZ zehn dreiundsiebzig startete am dreißigsten September zweitausendsechsundzwanzig um drei Uhr fünf UTC vom Dubai International Airport. Die Behörden der Vereinigten Arabischen Emirate haben inzwischen offizielle Ermittlungen eingeleitet."
-    },
-    {
-     "s": 81.3,
-     "wer": "Nora",
-     "text": "Malte hat es erwähnt, die Maschine landete notsicher auf dem Flughafen Tabuk in Saudi-Arabien. Dabei zeigten die Daten des Fluges während des Sinkflugs klare Notlagen an. Um fünf Uhr einunddreißig UTC wurde der Transponder-Code auf sieben sieben null null gewechselt, kurz darauf um fünf Uhr achtunddreißig UTC sogar auf sieben fünf null null für Entführung."
-    },
-    {
-     "s": 108.35,
-     "wer": "Thorsten",
-     "text": "Sigrid, wie siehst du die politischen Reaktionen auf diesen Vorfall? Die israelische Regierung hat sich sehr deutlich positioniert."
-    },
-    {
-     "s": 120.57,
-     "wer": "Sigrid",
-     "text": "Ja, die israelische Regierung stuft den Vorfall als versuchten Terroranschlag ein. Premierminister Benjamin Netanjahu geht von einer islamistischen Radikalisierung und einer suizidalen Absicht des Co-Piloten aus. Das geht aus den vorliegenden Medienberichten hervor."
-    },
-    {
-     "s": 137.95,
-     "wer": "Malte",
-     "text": "Dazu passt, dass auch Israels Verteidigungsminister Israel Katz kurz nach dem Vorfall sprach. Er nannte die Tat den Versuch eines dschihadistischen Anschlags. Nennen wir auch die Zahlen des Kapitäns, der nach den Berichten über neuntausend siebenhundertvierzig Flugstunden verfügt."
-    },
-    {
-     "s": 155.55,
-     "wer": "Nora",
-     "text": "Und Premierminister Narendra Modi aus Indien äußerte sich ebenfalls. Er rühmte die Tapferkeit des indischen Piloten und erklärte, er habe einen schweren Anschlag verhindert. Das ist eine bemerkenswerte Einmischung aus einem Drittstaat."
-    },
-    {
-     "s": 172.95,
-     "wer": "Thorsten",
-     "text": "Damit zu Malte, was gibt es noch zu den Hintergründen und den offenen Fragen zu sagen? Wie Nora eben sagte, ist die Beweislage ja nicht in allen Punkten klar."
-    },
-    {
-     "s": 188.05,
-     "wer": "Malte",
-     "text": "Genau, es gibt viele offene Fragen. Ob der Co-Pilot offizielle Verbindungen zum Iran oder anderen Akteuren hatte, ist laut Netanjahu noch nicht abschließend geklärt. Das bleibt also ein zentraler Punkt der Ermittlungen."
-    },
-    {
-     "s": 208.72,
-     "wer": "Nora",
-     "text": "Auch die Frage, ob es sich um einen reinen Einzeltäter handelte, wird unterschiedlich bewertet. Laut dem TV-Sender Kan gehen Sicherheitsbehörden zwar davon aus, aber endgültige Beweise stehen noch aus."
-    },
-    {
-     "s": 223.2,
-     "wer": "Sigrid",
-     "text": "Man muss auch sehen, wie schnell die Passagiere damals versorgt wurden. Am Abend desselben Tages wurden die Passagiere mit einer Ersatzmaschine nach Tel Aviv zurückgeführt. Die rasche Notlandung in Tabuk hat hier Schlimmeres verhindert."
-    },
-    {
-     "s": 238.14,
-     "wer": "Thorsten",
-     "text": "Malte, kannst du noch einmal zusammenfassen, worin sich alle Quellen einig sind? Wir wollen das Fundament der Berichterstattung festhalten."
-    },
-    {
-     "s": 251.73,
-     "wer": "Malte",
-     "text": "Einig sind sich alle Medien darüber, dass ein Flydubai-Flug von Dubai nach Tel Aviv von diesem gewaltsamen Zwischenfall im Cockpit betroffen war. Ebenso steht fest, dass die Maschine im saudi-arabischen Tabuk notsicher landete. Und die Behörden der Vereinigten Arabischen Emirate ermitteln."
-    },
-    {
-     "s": 269.73,
-     "wer": "Nora",
-     "text": "Und diese Einigkeit steht im Kontrast zu den politischen Interpretationen. Während Israel sofort von Terror spricht, halten sich die Behörden in den Emiraten mit solchen Einordnungen bisher zurück. Das ist ein wichtiger Unterschied in den Verlautbarungen."
-    },
-    {
-     "s": 288.06,
-     "wer": "Sigrid",
-     "text": "Nora hat recht, die diplomatische Dimension ist hier sehr sensibel. Ein Vorfall im Cockpit über saudi-arabischem Gebiet, durchgeführt auf einem Flug nach Israel, berührt viele beteiligte Staaten. Die Ermittlungen der Emirate müssen nun zeigen, wie es zu der Radikalisierung kommen konnte."
-    },
-    {
-     "s": 306.73,
-     "wer": "Thorsten",
-     "text": "Damit zu Malte für die letzten Details aus der Zeitleiste und den Statistiken. Was ist für den Verlauf noch wichtig?"
-    },
-    {
-     "s": 320.43,
-     "wer": "Malte",
-     "text": "Wichtig ist noch der zeitliche Ablauf vom dreißigsten September zweitausendsechsundzwanzig. Der Start erfolgte um drei Uhr fünf UTC, die Transponderwechsel folgten im Sinkflug, und die Notlandung in Tabuk beendete den kritischen Teil des Fluges. Am Abend erfolgte dann die Rückführung nach Israel."
-    },
-    {
-     "s": 346.34,
-     "wer": "Nora",
-     "text": "Die Zahl von etwa achtzig Passagieren an Bord verdeutlicht, wie viele Menschen in akuter Gefahr waren. Wenn ein Co-Pilot den Kapitän angreift, steht das Leben aller Beteiligten auf dem Spiel. Die Rettung durch die Passagiere nach Öffnung der Cockpittür war hier entscheidend."
-    },
-    {
-     "s": 368.01,
-     "wer": "Sigrid",
-     "text": "Die offenen Fragen um mögliche Hintermänner oder offizielle Verbindungen zu anderen Staaten werden die kommenden Wochen prägen. Netanjahu hat hier klare Verdächtigungen geäußert, aber Beweise fehlen in den Berichten noch. Wir müssen abwarten, was die offiziellen Stellen der Vereinigten Arabischen Emirate herausfinden."
-    },
-    {
-     "s": 386.85,
-     "wer": "Thorsten",
-     "text": "Damit schließen wir diese Ausgabe unseres Podcasts. Danke an Sigrid, Malte und Nora für die Einschätzungen. Wir verabschieden uns und hören uns beim nächsten Mal wieder."
     }
    ]
   }
